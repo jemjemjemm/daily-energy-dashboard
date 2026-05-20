@@ -4,7 +4,7 @@
 """
 fetch_opinet_international_prices.py
 
-오피넷 국제유가 자동 수집 스크립트 v1.0
+오피넷 국제유가 자동 수집 스크립트 v1.1
 
 수집 대상
 1) 국제유가 > 원유
@@ -27,10 +27,14 @@ fetch_opinet_international_prices.py
 특정 날짜명으로 저장
     python scripts/fetch_opinet_international_prices.py --date 2026-05-20
 
+v1.1 수정 사항
+- 오피넷 HTML에서 날짜와 가격 숫자가 서로 다른 태그/줄로 분리되는 경우를 처리합니다.
+- 기존 line 기반 파싱 대신 날짜 토큰 이후 N개 숫자를 읽는 token 기반 파싱을 사용합니다.
+- 원화 행과 $/Bbl 행이 함께 있는 구조에서 max(value) < 400 조건으로 $/Bbl 행만 사용합니다.
+
 주의
-- 오피넷 국제유가 메뉴의 HTML 표를 읽어 $/Bbl 행만 추출합니다.
-- 원화 환산 행도 같은 표에 포함되어 있으므로, 값의 크기를 기준으로 $/Bbl 행만 필터링합니다.
-- API Key는 향후 API 연동 대비로 OPINET_API_KEY 환경변수에서 읽지만, 이 HTML 수집 방식에서는 필수값이 아닙니다.
+- OPINET_API_KEY 환경변수를 읽지만, 국제유가 메뉴는 현재 HTML 표 기반으로 수집합니다.
+- GitHub Secrets에는 OPINET_API_KEY로 저장해 두는 것을 권장합니다.
 """
 
 from __future__ import annotations
@@ -142,52 +146,74 @@ def parse_korean_short_date(value: str) -> str:
     return f"{year:04d}-{month:02d}-{day:02d}"
 
 
-def extract_price_rows(html: str, expected_values: int) -> List[Dict[str, Any]]:
+def html_to_tokens(html: str) -> List[str]:
     """
-    오피넷 페이지의 텍스트에서 날짜 + 숫자열을 추출한다.
-
-    원유 페이지 예:
-      26년05월19일 1009.93 1052.29 1019.10  # 원화
-      26년05월19일 106.80 111.28 107.77     # $/Bbl
-
-    석유제품 페이지 예:
-      26년05월19일 1336.74 ... 1050.12      # 원화
-      26년05월19일 141.36 137.87 ... 111.05 # $/Bbl
-
-    여기서는 expected_values 개수만큼 숫자가 있는 줄을 찾고,
-    max(value) < 400 기준으로 $/Bbl 행을 선택한다.
+    HTML 전체 텍스트를 토큰화합니다.
+    날짜와 숫자가 서로 다른 태그에 있어도 순서대로 읽을 수 있게 합니다.
     """
     soup = BeautifulSoup(html, "html.parser")
-    text = soup.get_text("\n", strip=True)
-    lines = [normalize_text(line) for line in text.split("\n")]
-    lines = [line for line in lines if line]
 
+    # script/style 제거
+    for node in soup(["script", "style", "noscript"]):
+        node.decompose()
+
+    text = soup.get_text(" ", strip=True)
+    text = normalize_text(text)
+
+    # 날짜 토큰 또는 숫자 토큰만 추출
+    token_re = re.compile(
+        r"\d{2,4}년\s*\d{1,2}월\s*\d{1,2}일|"
+        r"-?\d+(?:\.\d+)?"
+    )
+    return token_re.findall(text)
+
+
+def extract_price_rows(html: str, expected_values: int) -> List[Dict[str, Any]]:
+    """
+    오피넷 페이지의 텍스트 토큰에서 날짜 + expected_values개 숫자를 추출합니다.
+
+    원유 페이지의 실제 표시 예:
+      26년05월18일 1017.79 1057.51 1025.06
+      26년05월19일 1009.93 1052.29 1019.10
+      26년05월18일 107.89 112.10 108.66
+      26년05월19일 106.80 111.28 107.77
+
+    앞의 두 줄은 원화 환산 행, 뒤의 두 줄은 $/Bbl 행입니다.
+    따라서 max(values) < 400인 행만 $/Bbl로 간주합니다.
+    """
+    tokens = html_to_tokens(html)
     rows: List[Dict[str, Any]] = []
-
-    # 날짜로 시작하는 라인 또는 날짜가 포함된 라인에서 숫자 추출
     date_re = re.compile(r"\d{2,4}년\s*\d{1,2}월\s*\d{1,2}일")
-    number_re = re.compile(r"-?\d+(?:\.\d+)?")
 
-    for line in lines:
-        date_match = date_re.search(line)
-        if not date_match:
+    i = 0
+    while i < len(tokens):
+        token = tokens[i]
+        if not date_re.fullmatch(token):
+            i += 1
             continue
 
-        date_text = date_match.group(0)
-        numbers = [float(x) for x in number_re.findall(line[date_match.end():])]
+        date_text = token
+        values: List[float] = []
+        j = i + 1
 
-        if len(numbers) != expected_values:
-            continue
+        while j < len(tokens) and len(values) < expected_values:
+            if date_re.fullmatch(tokens[j]):
+                # 날짜 다음에 바로 또 날짜가 나오면 이 행은 실패
+                break
+            try:
+                values.append(float(tokens[j]))
+            except ValueError:
+                pass
+            j += 1
 
-        # $/Bbl 행만 사용. 원화 행은 보통 1,000원대 이상.
-        if numbers and max(numbers) >= 400:
-            continue
+        if len(values) == expected_values and max(values) < 400:
+            rows.append({
+                "date": parse_korean_short_date(date_text),
+                "values": values,
+                "raw": f"{date_text} " + " ".join(str(v) for v in values),
+            })
 
-        rows.append({
-            "date": parse_korean_short_date(date_text),
-            "values": numbers,
-            "raw": line,
-        })
+        i += 1
 
     # 같은 날짜가 중복되면 뒤쪽 행 우선
     dedup: Dict[str, Dict[str, Any]] = {}
@@ -356,7 +382,7 @@ def build_payload(target_date: str) -> Dict[str, Any]:
     api_key_exists = bool(os.environ.get("OPINET_API_KEY"))
 
     return {
-        "schema_version": "1.0",
+        "schema_version": "1.1",
         "date": target_date,
         "source_site": "오피넷",
         "category": "국제유가",
@@ -443,7 +469,7 @@ def update_history(history_path: Path, payload: Dict[str, Any]) -> None:
     else:
         history = {}
 
-    history.setdefault("schema_version", "1.0")
+    history.setdefault("schema_version", "1.1")
     history.setdefault("updated_at", "")
     history.setdefault("unit", "$/Bbl")
     history.setdefault("crude", {})
@@ -489,7 +515,7 @@ def main() -> int:
     except Exception as exc:
         error_path = out_dir / f"{target_date}.error.json"
         atomic_write_json(error_path, {
-            "schema_version": "1.0",
+            "schema_version": "1.1",
             "date": target_date,
             "source_site": "오피넷",
             "category": "국제유가",
