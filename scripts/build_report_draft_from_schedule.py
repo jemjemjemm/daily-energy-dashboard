@@ -1,0 +1,428 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+build_report_draft_from_schedule.py
+
+세이프타임즈 수집 JSON을 리포트용 JSON 초안에 반영하는 변환 스크립트 v1.0
+
+역할
+- data/schedules/YYYY-MM-DD.json 파일을 읽는다.
+- report_sample.json 또는 지정한 base report JSON을 복사해 리포트 초안으로 사용한다.
+- 세이프타임즈 본문에서 시간/기관/일정명을 최대한 추출해 schedules 영역에 넣는다.
+- Summary 2번 항목을 '금일 주요 일정 요약'으로 갱신한다.
+- quality_control.sources에 세이프타임즈 원문 링크를 추가한다.
+- data/reports/YYYY-MM-DD.report.json 파일로 저장한다.
+
+기본 사용법
+    python scripts/build_report_draft_from_schedule.py --date 2026-05-20
+
+입력
+    data/schedules/2026-05-20.json
+    report_sample.json
+
+출력
+    data/reports/2026-05-20.report.json
+
+주의
+- 이 스크립트는 '초안' 생성용입니다.
+- 세이프타임즈 원문은 기사 본문 형식이 매일 조금씩 다를 수 있으므로, 추출 결과는 사람이 한 번 확인하는 것이 좋습니다.
+- 일정 관련성 문구는 보수적으로 '확인 필요' 또는 '작성자 해석' 형태로 생성합니다.
+"""
+
+from __future__ import annotations
+
+import argparse
+import copy
+import json
+import re
+from datetime import datetime, timedelta
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Tuple
+
+
+class DraftBuildError(RuntimeError):
+    """리포트 초안 생성 중단이 필요한 오류."""
+
+
+TIME_PATTERNS = [
+    # 10:00, 10：00
+    re.compile(r"(?P<time>\b\d{1,2}[:：]\d{2}\b)"),
+    # 오전 10시 30분 / 오후 2시
+    re.compile(r"(?P<ampm>오전|오후)\s*(?P<hour>\d{1,2})시(?:\s*(?P<minute>\d{1,2})분)?"),
+    # 10시 30분 / 14시
+    re.compile(r"(?P<hour>\d{1,2})시(?:\s*(?P<minute>\d{1,2})분)?"),
+]
+
+ORG_KEYWORDS = [
+    "대통령", "국무총리", "총리", "재경부", "기재부", "산업부", "기후부", "환경부", "국토부",
+    "외교부", "해수부", "공정위", "금융위", "금감원", "국회", "산중위", "기재위", "정무위",
+    "대한상의", "무역협회", "한은", "한국은행", "정부", "여당", "야당", "국제", "미국", "중국", "일본"
+]
+
+DEFAULT_RELEVANCE = (
+    "정유·석화·LNG 업계 관련성은 일정 원문에 명시된 사실이 아니라 작성자 해석입니다. "
+    "구체 발언·자료 확인 후 영향도 판단이 필요합니다."
+)
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="세이프타임즈 일정 JSON을 리포트용 JSON 초안에 반영")
+    parser.add_argument("--date", required=True, help="기준일 YYYY-MM-DD")
+    parser.add_argument(
+        "--schedule-dir",
+        default="data/schedules",
+        help="세이프타임즈 수집 JSON 폴더. 기본값 data/schedules",
+    )
+    parser.add_argument(
+        "--base-report",
+        default="report_sample.json",
+        help="기준 리포트 JSON. 기본값 report_sample.json",
+    )
+    parser.add_argument(
+        "--out-dir",
+        default="data/reports",
+        help="리포트 초안 저장 폴더. 기본값 data/reports",
+    )
+    parser.add_argument(
+        "--max-items",
+        type=int,
+        default=12,
+        help="리포트에 반영할 최대 일정 수. 기본값 12",
+    )
+    return parser.parse_args()
+
+
+def read_json(path: Path) -> Dict[str, Any]:
+    if not path.exists():
+        raise DraftBuildError(f"파일을 찾을 수 없습니다: {path}")
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise DraftBuildError(f"JSON 파일을 읽을 수 없습니다: {path} / {exc}") from exc
+
+
+def write_json(path: Path, payload: Dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(path)
+
+
+def parse_date(date_text: str) -> datetime:
+    try:
+        return datetime.strptime(date_text, "%Y-%m-%d")
+    except ValueError as exc:
+        raise DraftBuildError("--date는 YYYY-MM-DD 형식이어야 합니다.") from exc
+
+
+def weekday_ko(dt: datetime) -> str:
+    return "월화수목금토일"[dt.weekday()]
+
+
+def short_date_label(dt: datetime) -> str:
+    return f"{dt.month}/{dt.day}"
+
+
+def display_date(dt: datetime) -> str:
+    return f"{dt.year}년 {dt.month}월 {dt.day}일 ({weekday_ko(dt)})"
+
+
+def normalize_line(line: str) -> str:
+    line = re.sub(r"\s+", " ", line or "").strip()
+    line = re.sub(r"^[·ㆍ•\-\*\s]+", "", line)
+    return line.strip()
+
+
+def split_body_lines(body: str) -> List[str]:
+    raw_lines = []
+    for line in (body or "").replace("\r\n", "\n").replace("\r", "\n").split("\n"):
+        line = normalize_line(line)
+        if not line:
+            continue
+
+        # 기사 제목/기자명/저작권성 문구 제거
+        drop_patterns = [
+            "오늘의 주요일정",
+            "세이프타임즈",
+            "저작권자",
+            "무단전재",
+            "SNS 기사보내기",
+            "댓글",
+        ]
+        if any(pattern in line for pattern in drop_patterns):
+            continue
+
+        raw_lines.append(line)
+
+    # 너무 짧은 단독 라인은 일정 제목이 아닐 가능성이 높아 제거
+    return [line for line in raw_lines if len(line) >= 4]
+
+
+def normalize_time_from_match(match: re.Match) -> str:
+    if "time" in match.groupdict() and match.group("time"):
+        return match.group("time").replace("：", ":")
+
+    groupdict = match.groupdict()
+    hour = int(groupdict.get("hour") or 0)
+    minute = int(groupdict.get("minute") or 0)
+    ampm = groupdict.get("ampm")
+
+    if ampm == "오후" and hour < 12:
+        hour += 12
+    if ampm == "오전" and hour == 12:
+        hour = 0
+
+    return f"{hour:02d}:{minute:02d}"
+
+
+def extract_time(line: str) -> Tuple[str, str]:
+    """
+    반환: (time, line_without_time)
+    """
+    for pattern in TIME_PATTERNS:
+        match = pattern.search(line)
+        if match:
+            time_text = normalize_time_from_match(match)
+            cleaned = (line[:match.start()] + " " + line[match.end():]).strip()
+            cleaned = normalize_line(cleaned)
+            return time_text, cleaned
+
+    # '현지시간', '현지'가 있으면 시간 대신 현지로 표시
+    if "현지" in line:
+        return "현지", normalize_line(line.replace("현지시간", "").replace("현지", ""))
+
+    return "", line
+
+
+def extract_org(line: str) -> Tuple[str, str]:
+    for keyword in ORG_KEYWORDS:
+        if keyword in line:
+            # 기관명이 괄호나 앞부분에 있는 경우를 우선 처리
+            cleaned = line.replace(keyword, "", 1)
+            cleaned = normalize_line(cleaned)
+            return keyword, cleaned or line
+
+    # 괄호 안 기관명 예: (국회) 전체회의
+    match = re.match(r"^\(?([가-힣A-Za-z0-9·ㆍ]{2,12})\)?\s+(.+)$", line)
+    if match:
+        possible_org = match.group(1)
+        title = normalize_line(match.group(2))
+        if len(possible_org) <= 8 and title:
+            return possible_org, title
+
+    return "확인", line
+
+
+def guess_relevance(org: str, title: str) -> str:
+    combined = f"{org} {title}"
+
+    if any(word in combined for word in ["유가", "석유", "주유소", "정유", "기름", "유류세"]):
+        return "석유제품 가격·정유업계 현안과 직접 연결될 수 있는 일정입니다. 실제 발언·자료 확인 후 정책 리스크를 점검할 필요가 있습니다."
+
+    if any(word in combined for word in ["산업", "에너지", "전력", "LNG", "가스", "수소", "ESS", "기후"]):
+        return "에너지·산업 정책 관련 일정입니다. 정유·석화·LNG 업계 영향은 구체 발언 및 후속 자료 확인이 필요합니다."
+
+    if any(word in combined for word in ["국회", "위원회", "소위", "전체회의", "법안"]):
+        return "국회 일정입니다. 에너지 비용, 산업 지원, 석유제품 가격 관련 질의가 나올 경우 업계 모니터링이 필요합니다."
+
+    if any(word in combined for word in ["금리", "환율", "공급망", "재정", "경제", "비상경제"]):
+        return "거시경제·공급망 관련 일정입니다. 원유 도입비용, 환율, 물가 대응과의 간접 관련성을 확인할 필요가 있습니다."
+
+    return DEFAULT_RELEVANCE
+
+
+def parse_schedule_items(body: str, max_items: int) -> List[Dict[str, str]]:
+    lines = split_body_lines(body)
+    items: List[Dict[str, str]] = []
+
+    for line in lines:
+        # 일정 기사에는 날짜/분류 제목 줄이 섞일 수 있으므로 시간 또는 주요 기관 키워드가 있는 줄 중심으로 추출
+        has_time = any(pattern.search(line) for pattern in TIME_PATTERNS)
+        has_org = any(keyword in line for keyword in ORG_KEYWORDS)
+        has_schedule_word = any(word in line for word in ["회의", "간담회", "브리핑", "토론회", "방문", "행사", "면담", "발표", "공개"])
+
+        if not (has_time or has_org or has_schedule_word):
+            continue
+
+        time_text, without_time = extract_time(line)
+        org, title = extract_org(without_time)
+
+        title = normalize_line(title)
+        if not title:
+            continue
+
+        # 너무 긴 본문 문장 전체가 title로 들어가지 않게 제한
+        if len(title) > 120:
+            title = title[:117] + "..."
+
+        items.append({
+            "time": time_text or "시간미정",
+            "org": org,
+            "title": title,
+            "relevance": guess_relevance(org, title),
+        })
+
+        if len(items) >= max_items:
+            break
+
+    # 중복 제거
+    seen = set()
+    deduped = []
+    for item in items:
+        key = (item["time"], item["org"], item["title"])
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(item)
+
+    return sort_schedule_items(deduped)
+
+
+def sort_schedule_items(items: List[Dict[str, str]]) -> List[Dict[str, str]]:
+    def sort_key(item: Dict[str, str]) -> Tuple[int, str]:
+        time_text = item.get("time", "")
+        match = re.match(r"^(\d{2}):(\d{2})$", time_text)
+        if match:
+            return (int(match.group(1)) * 60 + int(match.group(2)), item.get("title", ""))
+        if time_text == "현지":
+            return (24 * 60 + 1, item.get("title", ""))
+        return (24 * 60 + 2, item.get("title", ""))
+
+    return sorted(items, key=sort_key)
+
+
+def update_summary(base_report: Dict[str, Any], schedule_data: Dict[str, Any], items: List[Dict[str, str]], target_dt: datetime) -> None:
+    title = schedule_data.get("title", "세이프타임즈 오늘의 주요일정")
+    today_label = short_date_label(target_dt)
+
+    if items:
+        key_titles = "·".join(item["title"] for item in items[:4])
+        summary_text = (
+            f"금일({today_label}) 세이프타임즈 '{title}' 기준 주요 일정 {len(items)}건을 반영함. "
+            f"주요 일정은 {key_titles} 등이며, 정유/석화/LNG 업계 관련성은 원문 사실과 작성자 해석을 구분해 사후 확인 필요."
+        )
+    else:
+        summary_text = (
+            f"금일({today_label}) 세이프타임즈 '{title}' 원문을 수집했으나 자동 추출된 일정 항목이 없습니다. "
+            "본문 구조 확인 및 수동 검수가 필요합니다."
+        )
+
+    summary = base_report.setdefault("summary", [])
+    while len(summary) < 3:
+        summary.append({"type": "auto", "text": ""})
+
+    # 기존 convention: 0 전일, 1 금일, 2 조간
+    summary[1] = {
+        "type": "today",
+        "text": summary_text,
+    }
+
+
+def update_report_meta(base_report: Dict[str, Any], target_dt: datetime) -> None:
+    report = base_report.setdefault("report", {})
+    date_text = target_dt.strftime("%Y-%m-%d")
+
+    report["report_date"] = date_text
+    report["display_date"] = display_date(target_dt)
+    report["previous_day_label"] = short_date_label(target_dt - timedelta(days=1))
+    report["today_label"] = short_date_label(target_dt)
+    report["generated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M KST")
+    report["review_status"] = "초안"
+    report["report_version"] = "draft-from-safetimes-v1.0"
+    report["report_title"] = f"Daily 유가 동향 — {target_dt.strftime('%Y.%m.%d')}"
+    report["header_title"] = report.get("header_title") or "Daily 유가 동향"
+    report["report_badge"] = report.get("report_badge") or "정유 · 석유화학 · LNG"
+
+
+def update_sources(base_report: Dict[str, Any], schedule_data: Dict[str, Any]) -> None:
+    quality = base_report.setdefault("quality_control", {})
+    sources = quality.setdefault("sources", [])
+
+    schedule_url = schedule_data.get("url", "")
+    schedule_title = schedule_data.get("title", "세이프타임즈 오늘의 주요일정")
+
+    # 기존 세이프타임즈 출처 제거 후 최신으로 추가
+    sources = [
+        source for source in sources
+        if not (source.get("type") == "schedule" and "세이프타임즈" in source.get("name", ""))
+    ]
+
+    sources.insert(0, {
+        "name": schedule_title,
+        "type": "schedule",
+        "url": schedule_url,
+    })
+
+    quality["sources"] = sources
+
+    notes = quality.setdefault("quality_notes", [])
+    notes.append("세이프타임즈 일정은 자동 추출 결과이므로 시간·기관·일정명 수동 확인이 필요합니다.")
+    notes.append("일정 관련성 문구는 정유/석화/LNG 관점의 작성자 해석이며 원문 사실과 구분해야 합니다.")
+
+
+def build_report_draft(schedule_data: Dict[str, Any], base_report: Dict[str, Any], target_dt: datetime, max_items: int) -> Dict[str, Any]:
+    report = copy.deepcopy(base_report)
+    body = schedule_data.get("body", "")
+
+    items = parse_schedule_items(body, max_items=max_items)
+
+    update_report_meta(report, target_dt)
+    update_summary(report, schedule_data, items, target_dt)
+    update_sources(report, schedule_data)
+
+    report["schedules"] = items
+
+    # 자동화 이력 저장
+    report.setdefault("automation", {})
+    report["automation"]["safetimes"] = {
+        "source_file_date": target_dt.strftime("%Y-%m-%d"),
+        "source_title": schedule_data.get("title", ""),
+        "source_url": schedule_data.get("url", ""),
+        "source_published_at": schedule_data.get("published_at", ""),
+        "parsed_schedule_count": len(items),
+        "parser_version": "build_report_draft_from_schedule.py v1.0",
+        "needs_review": True,
+    }
+
+    # 일정 추출 실패 시 경고
+    if not items:
+        report.setdefault("quality_control", {}).setdefault("quality_notes", []).append(
+            "자동 추출된 일정이 없습니다. 세이프타임즈 본문 구조를 확인해 수동 반영해야 합니다."
+        )
+
+    return report
+
+
+def main() -> int:
+    args = parse_args()
+    target_dt = parse_date(args.date)
+
+    schedule_path = Path(args.schedule_dir) / f"{args.date}.json"
+    base_report_path = Path(args.base_report)
+    out_path = Path(args.out_dir) / f"{args.date}.report.json"
+
+    schedule_data = read_json(schedule_path)
+    base_report = read_json(base_report_path)
+
+    if not schedule_data.get("success", True):
+        raise DraftBuildError(f"세이프타임즈 수집 실패 JSON입니다: {schedule_path}")
+
+    draft = build_report_draft(
+        schedule_data=schedule_data,
+        base_report=base_report,
+        target_dt=target_dt,
+        max_items=args.max_items,
+    )
+
+    write_json(out_path, draft)
+
+    schedule_count = len(draft.get("schedules", []))
+    print(f"[OK] 리포트 초안 생성 완료: {out_path}")
+    print(f"[OK] 반영된 일정 수: {schedule_count}")
+    print(f"[OK] 원문 제목: {schedule_data.get('title', '')}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
