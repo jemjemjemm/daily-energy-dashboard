@@ -15,6 +15,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: daily-energy-dashboard-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   daily-data-pipeline:
     runs-on: ubuntu-latest
@@ -26,6 +30,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+
+      - name: Sync latest main
+        run: |
+          git pull --ff-only origin main
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -100,8 +108,33 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "변경된 파일이 없습니다. 커밋하지 않습니다."
-          else
-            git commit -m "Add daily schedule, report draft and prices $TARGET_DATE"
-            git pull --rebase origin main
-            git push
+            exit 0
           fi
+
+          git commit -m "Add daily schedule, report draft and prices $TARGET_DATE"
+
+          if git push; then
+            echo "정상적으로 push 완료"
+            exit 0
+          fi
+
+          echo "push가 거절되었습니다. 원격 저장소 최신 내용을 기준으로 다시 커밋합니다."
+
+          git fetch origin main
+
+          # 자동 생성 파일은 이번 실행 결과를 우선합니다.
+          # reset --soft는 현재 생성된 파일 내용은 유지하면서,
+          # 기준점을 최신 origin/main으로 맞춥니다.
+          git reset --soft origin/main
+
+          git add data/schedules/ || true
+          git add data/reports/ || true
+          git add data/prices/ || true
+
+          if git diff --cached --quiet; then
+            echo "최신 원격 기준으로 보니 추가 변경이 없습니다."
+            exit 0
+          fi
+
+          git commit -m "Add daily schedule, report draft and prices $TARGET_DATE"
+          git push
