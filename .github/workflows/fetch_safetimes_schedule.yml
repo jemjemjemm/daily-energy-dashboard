@@ -4,7 +4,6 @@ on:
   schedule:
     # 매일 한국시간 08:05 실행 = UTC 23:05
     - cron: "5 23 * * *"
-
   workflow_dispatch:
     inputs:
       target_date:
@@ -16,7 +15,7 @@ permissions:
   contents: write
 
 jobs:
-  fetch-and-build-draft:
+  fetch-safetimes:
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Seoul
@@ -35,43 +34,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      - name: Decide target date
-        id: date
-        run: |
-          if [ -n "${{ github.event.inputs.target_date }}" ]; then
-            echo "TARGET_DATE=${{ github.event.inputs.target_date }}" >> $GITHUB_ENV
-          else
-            echo "TARGET_DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)" >> $GITHUB_ENV
-          fi
-
       - name: Fetch SafeTimes schedule
         run: |
-          python scripts/fetch_safetimes_schedule.py \
-            --date "$TARGET_DATE" \
-            --out-dir data/schedules \
-            --max-retries 3 \
-            --retry-delay 300
+          if [ -n "${{ github.event.inputs.target_date }}" ]; then
+            python scripts/fetch_safetimes_schedule.py --date "${{ github.event.inputs.target_date }}" --out-dir data/schedules --max-retries 3 --retry-delay 300
+          else
+            python scripts/fetch_safetimes_schedule.py --out-dir data/schedules --max-retries 3 --retry-delay 300
+          fi
 
-      - name: Build report draft JSON
-        run: |
-          python scripts/build_report_draft_from_schedule.py \
-            --date "$TARGET_DATE" \
-            --schedule-dir data/schedules \
-            --base-report report_sample.json \
-            --out-dir data/reports
-
-      - name: Commit collected data and report draft
+      - name: Commit collected data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add data/schedules/ || true
-          git add data/reports/ || true
-
-          if git diff --cached --quiet; then
-            echo "변경된 파일이 없습니다. 커밋하지 않습니다."
-          else
-            git commit -m "Add SafeTimes schedule and report draft $TARGET_DATE"
-            git pull --rebase origin main
-            git push
-          fi
+          git add data/schedules/
+          git diff --cached --quiet || git commit -m "Add SafeTimes schedule data $(TZ=Asia/Seoul date +%Y-%m-%d)"
+          git push
