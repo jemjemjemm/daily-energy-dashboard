@@ -105,19 +105,19 @@ jobs:
           python scripts/generate_html_report.py \
             --date "$TARGET_DATE" \
             --report-dir data/reports \
-            --out-dir public/reports
+            --out-dir docs/reports
 
       - name: Generate report index
         run: |
           python scripts/generate_report_index.py \
-            --reports-dir public/reports \
-            --out public/report-index.json
+            --reports-dir docs/reports \
+            --out docs/report-index.json
 
       - name: Show generated files
         run: |
           echo "생성된 파일:"
           find data -maxdepth 3 -type f || true
-          find public -maxdepth 3 -type f || true
+          find docs -maxdepth 3 -type f || true
 
       - name: Commit collected data and dashboard files
         run: |
@@ -126,27 +126,36 @@ jobs:
           git add data/schedules/ || true
           git add data/reports/ || true
           git add data/prices/ || true
-          git add public/reports/ || true
-          git add public/report-index.json || true
+          git add docs/index.html || true
+          git add docs/reports/ || true
+          git add docs/report-index.json || true
+
           if git diff --cached --quiet; then
             echo "변경된 파일이 없습니다. 커밋하지 않습니다."
             exit 0
           fi
+
           git commit -m "Add daily dashboard report $TARGET_DATE"
+
           if git push; then
             echo "정상적으로 push 완료"
             exit 0
           fi
+
           git fetch origin main
           git reset --soft origin/main
+
           git add data/schedules/ || true
           git add data/reports/ || true
           git add data/prices/ || true
-          git add public/reports/ || true
-          git add public/report-index.json || true
+          git add docs/index.html || true
+          git add docs/reports/ || true
+          git add docs/report-index.json || true
+
           if git diff --cached --quiet; then
             echo "최신 원격 기준으로 보니 추가 변경이 없습니다."
             exit 0
           fi
+
           git commit -m "Add daily dashboard report $TARGET_DATE"
           git push
