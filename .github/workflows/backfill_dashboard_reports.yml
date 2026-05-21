@@ -14,11 +14,11 @@ on:
       scan_start:
         description: "세이프타임즈 기사번호 스캔 시작값"
         required: false
-        default: "239500"
+        default: "239000"
       scan_end:
         description: "세이프타임즈 기사번호 스캔 종료값"
         required: false
-        default: "243200"
+        default: "243500"
 
 permissions:
   contents: write
@@ -95,6 +95,14 @@ jobs:
               "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36"
           )
 
+          # 검색으로 이미 확인된 대표 기사번호. 스캔 실패 시에도 중요 날짜를 보강하기 위한 안전장치.
+          KNOWN_IDX_BY_DATE = {
+              "2026-03-03": 240078,
+              "2026-04-01": 241384,
+              "2026-05-08": 242586,
+              "2026-05-18": 242809,
+          }
+
 
           def parse_args():
               parser = argparse.ArgumentParser(description="Self-contained backfill runner")
@@ -135,7 +143,7 @@ jobs:
               return re.sub(r"\s+", " ", value or "").strip()
 
 
-          def fetch_html(idxno: int, timeout: int = 8) -> Optional[str]:
+          def fetch_html(idxno: int, timeout: int = 10) -> Optional[str]:
               url = ARTICLE_URL.format(idxno=idxno)
               headers = {
                   "User-Agent": USER_AGENT,
@@ -146,11 +154,17 @@ jobs:
                   resp = requests.get(url, headers=headers, timeout=timeout)
                   if resp.status_code != 200:
                       return None
-                  if "오늘의 주요일정" not in resp.text:
-                      return None
+
+                  # 중요: 한글 포함 여부를 검사하기 전에 인코딩을 먼저 보정해야 함.
                   if resp.apparent_encoding:
                       resp.encoding = resp.apparent_encoding
-                  return resp.text
+                  elif not resp.encoding:
+                      resp.encoding = "utf-8"
+
+                  text = resp.text
+                  if "오늘의 주요일정" not in text and "오늘의 주요 일정" not in text:
+                      return None
+                  return text
               except Exception:
                   return None
 
@@ -159,21 +173,29 @@ jobs:
               soup = BeautifulSoup(html, "html.parser")
               h1 = soup.find("h1")
               title = normalize_text(h1.get_text(" ", strip=True)) if h1 else ""
-              if "오늘의 주요일정" not in title:
+
+              if "오늘의 주요일정" not in title and "오늘의 주요 일정" not in title:
+                  og = soup.find("meta", attrs={"property": "og:title"})
+                  if og and og.get("content"):
+                      title = normalize_text(og.get("content", ""))
+              if "오늘의 주요일정" not in title and "오늘의 주요 일정" not in title:
                   title_tag = soup.find("title")
                   title = normalize_text(title_tag.get_text(" ", strip=True)) if title_tag else title
-              if "오늘의 주요일정" not in title:
+
+              if "오늘의 주요일정" not in title and "오늘의 주요 일정" not in title:
                   return None
 
               text_all = soup.get_text("\n", strip=True)
               approved_match = re.search(r"승인\s+(\d{4})\.(\d{2})\.(\d{2})", text_all)
+              if not approved_match:
+                  approved_match = re.search(r"입력\s+(\d{4})\.(\d{2})\.(\d{2})", text_all)
               if not approved_match:
                   approved_match = re.search(r"(\d{4})\.(\d{2})\.(\d{2})\s+\d{2}:\d{2}", text_all)
               if not approved_match:
                   return None
 
               approved_date = f"{approved_match.group(1)}-{approved_match.group(2)}-{approved_match.group(3)}"
-              day_match = re.search(r"주요일정[·ㆍ\- ]+(\d{1,2})일", title)
+              day_match = re.search(r"주요\s*일정[·ㆍ\- ]+(\d{1,2})일", title)
               title_day = int(day_match.group(1)) if day_match else None
 
               return {
@@ -189,6 +211,20 @@ jobs:
           def scan_articles(scan_start: int, scan_end: int, workers: int, target_dates: Iterable[str]) -> Dict[str, Dict[str, Any]]:
               target_set = set(target_dates)
               found: Dict[str, Dict[str, Any]] = {}
+
+              # 먼저 알려진 핵심 기사번호를 직접 확인
+              for date_text, idxno in KNOWN_IDX_BY_DATE.items():
+                  if date_text not in target_set:
+                      continue
+                  html = fetch_html(idxno)
+                  if not html:
+                      print(f"[WARN] known idx fetch 실패: {date_text} idxno={idxno}")
+                      continue
+                  meta = extract_meta(idxno, html)
+                  if meta and meta["approved_date"] == date_text:
+                      found[date_text] = meta
+                      print(f"[FOUND-KNOWN] {date_text}: idxno={idxno}, title={meta['title']}")
+
               ids = list(range(scan_start, scan_end + 1))
               print(f"[INFO] 세이프타임즈 기사번호 스캔: {scan_start}~{scan_end} ({len(ids)}건)")
 
@@ -243,7 +279,7 @@ jobs:
                   clean = normalize_text(line)
                   if not clean:
                       continue
-                  if re.search(r"(\d{1,2}:\d{2}|오전|오후|국회|정부|장관|차관|위원회|브리핑|회의|산업부|기후|재경부|통상)", clean):
+                  if re.search(r"(\d{1,2}:\d{2}|오전|오후|국회|정부|장관|차관|위원회|브리핑|회의|산업부|기후|재경부|통상|총리|대통령)", clean):
                       items.append({"text": clean})
               return items
 
@@ -251,7 +287,7 @@ jobs:
           def write_schedule_json(date_text: str, meta: Dict[str, Any]) -> Path:
               raw_text = extract_body_text(meta["html"])
               payload = {
-                  "schema_version": "2.1",
+                  "schema_version": "2.2",
                   "source": "세이프타임즈",
                   "category": "오늘의 주요일정",
                   "date": date_text,
