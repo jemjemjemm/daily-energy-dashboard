@@ -2,17 +2,14 @@
 # -*- coding: utf-8 -*-
 
 """
-ensure_report_draft.py
+ensure_report_draft.py v1.1
 
 임의 날짜 리포트 JSON이 없을 때 안전하게 생성합니다.
-
-우선순위
-1. data/reports/YYYY-MM-DD.report.json이 이미 있으면 그대로 사용
-2. data/schedules/YYYY-MM-DD.json이 있으면 build_report_draft_from_schedule.py가 만든 결과를 기대
-3. 그래도 없으면 가격 중심 기본 리포트 JSON을 생성
+이미 fallback 리포트가 있으면 보강된 fallback 형식으로 갱신할 수 있습니다.
 
 목적
-- 2026년 과거 어느 날짜를 선택해도 세이프타임즈 수집 실패 때문에 pipeline이 멈추지 않게 함
+- 2026년 과거 어느 날짜를 선택해도 빈 리포트가 아니라 가격 중심 기본 리포트가 표시되도록 함.
+- 세이프타임즈/조간 기사 데이터가 없는 경우, 없는 사실을 만들지 않고 '원문 데이터 없음'을 명확히 표시.
 """
 
 from __future__ import annotations
@@ -30,14 +27,25 @@ def parse_args():
     parser.add_argument("--date", required=True)
     parser.add_argument("--out-dir", default="data/reports")
     parser.add_argument("--base-report", default="report_sample.json")
+    parser.add_argument(
+        "--refresh-fallback",
+        action="store_true",
+        help="기존 파일이 fallback 리포트이면 보강된 fallback 형식으로 갱신합니다.",
+    )
     return parser.parse_args()
 
 
 def atomic_write_json(path: Path, payload: Dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     text = json.dumps(payload, ensure_ascii=False, indent=2)
-    with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=str(path.parent), delete=False,
-                                     prefix=f".{path.name}.", suffix=".tmp") as tmp:
+    with tempfile.NamedTemporaryFile(
+        "w",
+        encoding="utf-8",
+        dir=str(path.parent),
+        delete=False,
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+    ) as tmp:
         tmp.write(text)
         tmp_path = Path(tmp.name)
     tmp_path.replace(path)
@@ -50,6 +58,13 @@ def read_json_optional(path: Path) -> Dict[str, Any]:
         return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return {}
+
+
+def is_fallback_report(report: Dict[str, Any]) -> bool:
+    automation = report.get("automation", {}) if isinstance(report.get("automation"), dict) else {}
+    version = report.get("report", {}).get("report_version", "") if isinstance(report.get("report"), dict) else ""
+    status = report.get("report", {}).get("review_status", "") if isinstance(report.get("report"), dict) else ""
+    return bool(automation.get("fallback_report")) or "fallback" in str(version) or "가격 중심" in str(status)
 
 
 def date_labels(date_text: str):
@@ -78,46 +93,82 @@ def build_minimal_report(date_text: str, base_report_path: Path) -> Dict[str, An
         "previous_day_label": prev_label,
         "today_label": today_label,
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S KST"),
-        "report_version": "fallback-price-report-v1.0",
+        "report_version": "fallback-price-report-v1.1",
         "review_status": "가격 중심 자동생성 초안",
     }
 
     report["summary"] = [
         {
             "type": "price_only",
-            "text": "해당 날짜의 세이프타임즈 일정 원문을 자동 확인하지 못해, 가격 데이터 중심 리포트로 생성했습니다."
+            "text": "해당 날짜의 일정·기사 원문 데이터가 없어 가격 데이터 중심 리포트로 생성했습니다."
         },
         {
             "type": "price_only",
-            "text": "유가 및 석유제품 가격은 data/prices/history.json의 장기 이력을 기준으로 반영합니다."
+            "text": "유가 및 석유제품 가격 카드는 기준일 전일 이하의 최신 history.json 데이터를 기준으로 반영합니다."
         },
         {
             "type": "review_note",
-            "text": "정책·일정·기사 요약은 원문 확인 후 보완이 필요합니다."
+            "text": "정책·일정·기사 요약은 원문 데이터가 확보되면 후속 보완이 필요합니다."
         }
     ]
 
-    report["issues"] = []
-    report["schedules"] = []
+    report["issues"] = [
+        {
+            "category": "데이터",
+            "category_class": "data",
+            "title": "전일 주요 이슈 원문 데이터 없음",
+            "description": "세이프타임즈 일정 및 별도 기사 데이터가 없어 주요 이슈는 자동 작성하지 않았습니다. 본 리포트는 가격 데이터 중심으로 제공됩니다.",
+            "grade": "C 참고"
+        }
+    ]
+
+    report["schedules"] = [
+        {
+            "time": "-",
+            "org": "데이터",
+            "title": "금일 주요 일정 원문 데이터 없음",
+            "relevance": "해당 날짜의 일정 원문을 확인하지 못해 일정 영향도 평가는 작성하지 않았습니다."
+        }
+    ]
+
     report["news_trend"] = {
-        "summary": "해당 날짜의 조간 신문 트렌드는 아직 자동 수집되지 않았습니다.",
-        "articles": []
+        "summary": "해당 날짜의 조간 신문 트렌드 원문 데이터가 없어 자동 요약을 작성하지 않았습니다. 가격 데이터 중심 리포트로 제공됩니다.",
+        "articles": [
+            {
+                "title": "대표 기사 데이터 없음",
+                "press": "자동 수집 미적용",
+                "url": ""
+            }
+        ]
     }
 
     report["quality_control"] = {
         "quality_notes": [
-            "세이프타임즈 일정 수집 실패 또는 일정 JSON 부재로 가격 중심 기본 리포트를 생성했습니다.",
+            "세이프타임즈 일정 또는 기사 데이터가 없어 가격 중심 기본 리포트를 생성했습니다.",
             "정책·일정·기사 관련 내용은 원문 확인 후 보완해야 합니다.",
-            "가격 그래프와 가격 카드는 history.json 또는 오피넷 수집 데이터 기준으로 후속 병합 단계에서 반영됩니다."
+            "가격 그래프와 가격 카드는 history.json 또는 오피넷 수집 데이터 기준으로 반영됩니다."
         ],
-        "sources": []
+        "sources": [
+            {
+                "name": "장기 가격 이력 history.json",
+                "type": "price-history",
+                "url": ""
+            },
+            {
+                "name": "오피넷 국제유가",
+                "type": "price",
+                "url": "https://www.opinet.co.kr/"
+            }
+        ]
     }
 
     report["automation"] = {
+        **(report.get("automation", {}) if isinstance(report.get("automation"), dict) else {}),
         "fallback_report": {
             "created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S KST"),
-            "reason": "missing schedule/report draft",
-            "script": "ensure_report_draft.py"
+            "reason": "missing schedule/news source data",
+            "script": "ensure_report_draft.py v1.1",
+            "scope": "price-centered report without fabricated issue/news content"
         }
     }
 
@@ -128,14 +179,18 @@ def main() -> int:
     args = parse_args()
     out_path = Path(args.out_dir) / f"{args.date}.report.json"
 
-    if out_path.exists():
+    existing = read_json_optional(out_path)
+    if existing and not (args.refresh_fallback and is_fallback_report(existing)):
         print(f"[OK] 기존 리포트 JSON 사용: {out_path}")
         return 0
+
+    if existing and args.refresh_fallback and is_fallback_report(existing):
+        print(f"[INFO] 기존 fallback 리포트를 보강 형식으로 갱신합니다: {out_path}")
 
     report = build_minimal_report(args.date, Path(args.base_report))
     atomic_write_json(out_path, report)
 
-    print(f"[OK] 가격 중심 기본 리포트 JSON 생성: {out_path}")
+    print(f"[OK] 가격 중심 기본 리포트 JSON 생성/갱신: {out_path}")
     return 0
 
 
