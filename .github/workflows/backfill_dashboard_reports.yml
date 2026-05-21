@@ -52,41 +52,326 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      - name: Validate required files
+      - name: Validate required base files
         run: |
           set -e
           test -f scripts/build_report_draft_from_schedule.py || (echo "ERROR: scripts/build_report_draft_from_schedule.py 없음" && exit 1)
           test -f scripts/ensure_report_draft.py || (echo "ERROR: scripts/ensure_report_draft.py 없음" && exit 1)
           test -f scripts/merge_prices_into_report.py || (echo "ERROR: scripts/merge_prices_into_report.py 없음" && exit 1)
           test -f scripts/generate_html_report.py || (echo "ERROR: scripts/generate_html_report.py 없음" && exit 1)
-          test -f scripts/generate_reports_range.py || (echo "ERROR: scripts/generate_reports_range.py 없음" && exit 1)
           test -f scripts/generate_report_index.py || (echo "ERROR: scripts/generate_report_index.py 없음" && exit 1)
           test -f report_sample.json || (echo "ERROR: report_sample.json 없음" && exit 1)
           test -f data/prices/history.json || (echo "ERROR: data/prices/history.json 없음" && exit 1)
 
-          grep -q -- "--start" scripts/generate_reports_range.py || (echo "ERROR: generate_reports_range.py가 기간 생성 파일이 아닙니다." && exit 1)
-          grep -q "scan_safetimes_articles" scripts/generate_reports_range.py || (echo "ERROR: generate_reports_range.py가 세이프타임즈 기사번호 스캔 버전이 아닙니다." && exit 1)
           grep -q "is_fallback_or_empty_report" scripts/ensure_report_draft.py || (echo "ERROR: ensure_report_draft.py가 최신본이 아닙니다." && exit 1)
           grep -q "주요 출처" scripts/generate_html_report.py || (echo "ERROR: generate_html_report.py가 최신 화면 형식이 아닙니다." && exit 1)
 
-      - name: Backfill weekday reports with safetimes schedules
+      - name: Create self-contained backfill runner
         run: |
-          python scripts/generate_reports_range.py \
+          cat > /tmp/backfill_reports.py <<'PY'
+          #!/usr/bin/env python3
+          # -*- coding: utf-8 -*-
+
+          from __future__ import annotations
+
+          import argparse
+          import json
+          import re
+          import subprocess
+          import sys
+          import tempfile
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from datetime import datetime, timedelta
+          from pathlib import Path
+          from typing import Any, Dict, Iterable, List, Optional
+
+          import requests
+          from bs4 import BeautifulSoup
+
+          BASE_URL = "https://www.safetimes.co.kr"
+          ARTICLE_URL = BASE_URL + "/news/articleView.html?idxno={idxno}"
+          USER_AGENT = (
+              "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+              "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36"
+          )
+
+
+          def parse_args():
+              parser = argparse.ArgumentParser(description="Self-contained backfill runner")
+              parser.add_argument("--start", required=True)
+              parser.add_argument("--end", required=True)
+              parser.add_argument("--scan-start", type=int, required=True)
+              parser.add_argument("--scan-end", type=int, required=True)
+              parser.add_argument("--scan-workers", type=int, default=24)
+              return parser.parse_args()
+
+
+          def date_range(start: str, end: str):
+              s = datetime.strptime(start, "%Y-%m-%d").date()
+              e = datetime.strptime(end, "%Y-%m-%d").date()
+              if s > e:
+                  raise ValueError("start가 end보다 늦습니다.")
+              cur = s
+              while cur <= e:
+                  yield cur
+                  cur += timedelta(days=1)
+
+
+          def weekday_dates(start: str, end: str) -> List[str]:
+              return [d.isoformat() for d in date_range(start, end) if d.weekday() < 5]
+
+
+          def atomic_write_json(path: Path, payload: Dict[str, Any]) -> None:
+              path.parent.mkdir(parents=True, exist_ok=True)
+              text = json.dumps(payload, ensure_ascii=False, indent=2)
+              with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=str(path.parent), delete=False,
+                                               prefix=f".{path.name}.", suffix=".tmp") as tmp:
+                  tmp.write(text)
+                  tmp_path = Path(tmp.name)
+              tmp_path.replace(path)
+
+
+          def normalize_text(value: str) -> str:
+              return re.sub(r"\s+", " ", value or "").strip()
+
+
+          def fetch_html(idxno: int, timeout: int = 8) -> Optional[str]:
+              url = ARTICLE_URL.format(idxno=idxno)
+              headers = {
+                  "User-Agent": USER_AGENT,
+                  "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8",
+                  "Referer": BASE_URL,
+              }
+              try:
+                  resp = requests.get(url, headers=headers, timeout=timeout)
+                  if resp.status_code != 200:
+                      return None
+                  if "오늘의 주요일정" not in resp.text:
+                      return None
+                  if resp.apparent_encoding:
+                      resp.encoding = resp.apparent_encoding
+                  return resp.text
+              except Exception:
+                  return None
+
+
+          def extract_meta(idxno: int, html: str) -> Optional[Dict[str, Any]]:
+              soup = BeautifulSoup(html, "html.parser")
+              h1 = soup.find("h1")
+              title = normalize_text(h1.get_text(" ", strip=True)) if h1 else ""
+              if "오늘의 주요일정" not in title:
+                  title_tag = soup.find("title")
+                  title = normalize_text(title_tag.get_text(" ", strip=True)) if title_tag else title
+              if "오늘의 주요일정" not in title:
+                  return None
+
+              text_all = soup.get_text("\n", strip=True)
+              approved_match = re.search(r"승인\s+(\d{4})\.(\d{2})\.(\d{2})", text_all)
+              if not approved_match:
+                  approved_match = re.search(r"(\d{4})\.(\d{2})\.(\d{2})\s+\d{2}:\d{2}", text_all)
+              if not approved_match:
+                  return None
+
+              approved_date = f"{approved_match.group(1)}-{approved_match.group(2)}-{approved_match.group(3)}"
+              day_match = re.search(r"주요일정[·ㆍ\- ]+(\d{1,2})일", title)
+              title_day = int(day_match.group(1)) if day_match else None
+
+              return {
+                  "idxno": idxno,
+                  "url": ARTICLE_URL.format(idxno=idxno),
+                  "title": title,
+                  "approved_date": approved_date,
+                  "title_day": title_day,
+                  "html": html,
+              }
+
+
+          def scan_articles(scan_start: int, scan_end: int, workers: int, target_dates: Iterable[str]) -> Dict[str, Dict[str, Any]]:
+              target_set = set(target_dates)
+              found: Dict[str, Dict[str, Any]] = {}
+              ids = list(range(scan_start, scan_end + 1))
+              print(f"[INFO] 세이프타임즈 기사번호 스캔: {scan_start}~{scan_end} ({len(ids)}건)")
+
+              with ThreadPoolExecutor(max_workers=max(1, workers)) as executor:
+                  future_map = {executor.submit(fetch_html, idxno): idxno for idxno in ids}
+                  for future in as_completed(future_map):
+                      idxno = future_map[future]
+                      html = future.result()
+                      if not html:
+                          continue
+
+                      meta = extract_meta(idxno, html)
+                      if not meta:
+                          continue
+
+                      approved_date = meta["approved_date"]
+                      if approved_date not in target_set:
+                          continue
+
+                      approved_day = int(approved_date[-2:])
+                      title_day = meta.get("title_day")
+                      if title_day and title_day != approved_day:
+                          continue
+
+                      existing = found.get(approved_date)
+                      if not existing or idxno > existing["idxno"]:
+                          found[approved_date] = meta
+                          print(f"[FOUND] {approved_date}: idxno={idxno}, title={meta['title']}")
+
+              print(f"[INFO] 세이프타임즈 주요일정 발견: {len(found)}건")
+              return found
+
+
+          def extract_body_text(html: str) -> str:
+              soup = BeautifulSoup(html, "html.parser")
+              body_node = (
+                  soup.select_one("#article-view-content-div")
+                  or soup.select_one(".article-view-content")
+                  or soup.select_one("article")
+                  or soup.select_one(".user-content")
+              )
+              if body_node:
+                  raw_text = body_node.get_text("\n", strip=True)
+              else:
+                  raw_text = soup.get_text("\n", strip=True)
+              return re.sub(r"\n{3,}", "\n\n", raw_text).strip()
+
+
+          def schedule_items_from_text(raw_text: str) -> List[Dict[str, str]]:
+              items: List[Dict[str, str]] = []
+              for line in raw_text.splitlines():
+                  clean = normalize_text(line)
+                  if not clean:
+                      continue
+                  if re.search(r"(\d{1,2}:\d{2}|오전|오후|국회|정부|장관|차관|위원회|브리핑|회의|산업부|기후|재경부|통상)", clean):
+                      items.append({"text": clean})
+              return items
+
+
+          def write_schedule_json(date_text: str, meta: Dict[str, Any]) -> Path:
+              raw_text = extract_body_text(meta["html"])
+              payload = {
+                  "schema_version": "2.1",
+                  "source": "세이프타임즈",
+                  "category": "오늘의 주요일정",
+                  "date": date_text,
+                  "title": meta["title"],
+                  "article_title": meta["title"],
+                  "article_url": meta["url"],
+                  "article_idxno": meta["idxno"],
+                  "approved_date": meta["approved_date"],
+                  "collected_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S KST"),
+                  "items": schedule_items_from_text(raw_text),
+                  "raw_text": raw_text,
+                  "success": True,
+                  "quality": {
+                      "needs_review": True,
+                      "warnings": [
+                          "세이프타임즈 기사번호 스캔으로 수집한 오늘의 주요일정입니다.",
+                          "일정별 정유/석화/LNG 관련성 평가는 후속 변환 단계의 작성자 해석입니다."
+                      ],
+                  },
+              }
+              out_path = Path("data/schedules") / f"{date_text}.json"
+              atomic_write_json(out_path, payload)
+              print(f"[OK] 일정 JSON 저장: {out_path}")
+              return out_path
+
+
+          def run(cmd, allow_fail: bool = False) -> bool:
+              print("[RUN]", " ".join(cmd))
+              completed = subprocess.run(cmd, text=True)
+              if completed.returncode != 0:
+                  if allow_fail:
+                      print(f"[WARN] 명령 실패 허용: {' '.join(cmd)}")
+                      return False
+                  raise RuntimeError(f"명령 실패: {' '.join(cmd)}")
+              return True
+
+
+          def main() -> int:
+              args = parse_args()
+              target_dates = weekday_dates(args.start, args.end)
+
+              found = scan_articles(args.scan_start, args.scan_end, args.scan_workers, target_dates)
+              for d, meta in found.items():
+                  write_schedule_json(d, meta)
+
+              for date_text in target_dates:
+                  print(f"\n=== {date_text} 리포트 생성 ===")
+                  schedule_path = Path("data/schedules") / f"{date_text}.json"
+                  report_path = Path("data/reports") / f"{date_text}.report.json"
+
+                  if schedule_path.exists():
+                      if report_path.exists():
+                          report_path.unlink()
+                          print(f"[INFO] 기존 리포트 JSON 삭제 후 일정 기반으로 재생성: {report_path}")
+
+                      run([
+                          sys.executable,
+                          "scripts/build_report_draft_from_schedule.py",
+                          "--date", date_text,
+                          "--schedule-dir", "data/schedules",
+                          "--base-report", "report_sample.json",
+                          "--out-dir", "data/reports",
+                      ])
+                  else:
+                      print(f"[WARN] 세이프타임즈 일정 JSON이 없어 fallback으로 생성: {date_text}")
+
+                  run([
+                      sys.executable,
+                      "scripts/ensure_report_draft.py",
+                      "--date", date_text,
+                      "--out-dir", "data/reports",
+                      "--base-report", "report_sample.json",
+                      "--refresh-fallback",
+                  ])
+
+                  run([
+                      sys.executable,
+                      "scripts/merge_prices_into_report.py",
+                      "--date", date_text,
+                      "--report-dir", "data/reports",
+                      "--price-dir", "data/prices",
+                      "--history", "data/prices/history.json",
+                      "--chart-months", "2",
+                  ])
+
+                  run([
+                      sys.executable,
+                      "scripts/generate_html_report.py",
+                      "--date", date_text,
+                      "--report-dir", "data/reports",
+                      "--out-dir", "docs/reports",
+                  ])
+
+              run([
+                  sys.executable,
+                  "scripts/generate_report_index.py",
+                  "--reports-dir", "docs/reports",
+                  "--out", "docs/report-index.json",
+              ])
+
+              missing_schedule = [d for d in target_dates if not (Path("data/schedules") / f"{d}.json").exists()]
+              if missing_schedule:
+                  print("[WARN] 세이프타임즈 일정 JSON 누락 날짜:", ", ".join(missing_schedule))
+
+              print("[OK] 백필 완료")
+              return 0
+
+
+          if __name__ == "__main__":
+              raise SystemExit(main())
+          PY
+
+      - name: Run self-contained backfill
+        run: |
+          python /tmp/backfill_reports.py \
             --start "${{ github.event.inputs.date_from }}" \
             --end "${{ github.event.inputs.date_to }}" \
-            --skip-weekends \
-            --report-dir data/reports \
-            --schedule-dir data/schedules \
-            --price-dir data/prices \
-            --history data/prices/history.json \
-            --html-dir docs/reports \
-            --index-out docs/report-index.json \
-            --base-report report_sample.json \
-            --chart-months 2 \
             --scan-start "${{ github.event.inputs.scan_start }}" \
             --scan-end "${{ github.event.inputs.scan_end }}" \
-            --scan-workers 24 \
-            --force-schedule-refresh
+            --scan-workers 24
 
       - name: Verify generated outputs
         run: |
