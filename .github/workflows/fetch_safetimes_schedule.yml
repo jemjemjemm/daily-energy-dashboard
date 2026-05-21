@@ -1,228 +1,140 @@
-name: Daily Energy Dashboard - Daily Data Pipeline
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-on:
-  schedule:
-    - cron: "10 23 * * *"
+"""
+generate_report_index.py
 
-  workflow_dispatch:
-    inputs:
-      target_date:
-        description: "단일 생성 날짜(YYYY-MM-DD). 기간 생성 시 비워두세요."
-        required: false
-        default: ""
-      date_from:
-        description: "기간 생성 시작일(YYYY-MM-DD). 예: 2026-05-01"
-        required: false
-        default: ""
-      date_to:
-        description: "기간 생성 종료일(YYYY-MM-DD). 예: 2026-05-21"
-        required: false
-        default: ""
+docs/reports/*.html을 읽어서
+캘린더 대시보드가 사용할 docs/report-index.json을 생성합니다.
 
-permissions:
-  contents: write
+사용 예:
+  python scripts/generate_report_index.py \
+    --reports-dir docs/reports \
+    --out docs/report-index.json
 
-concurrency:
-  group: daily-energy-dashboard-${{ github.ref }}
-  cancel-in-progress: false
+주의:
+- 이 스크립트는 --date가 필요 없습니다.
+- 이미 생성된 HTML 리포트 목록을 스캔해서 index를 만드는 역할입니다.
+"""
 
-jobs:
-  daily-data-pipeline:
-    runs-on: ubuntu-latest
+from __future__ import annotations
 
-    env:
-      TZ: Asia/Seoul
-      OPINET_API_KEY: ${{ secrets.OPINET_API_KEY }}
+import argparse
+import json
+import re
+import tempfile
+from datetime import datetime
+from pathlib import Path
+from typing import Any, Dict, List
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v5
 
-      - name: Sync latest main
-        run: |
-          git pull --ff-only origin main
+DATE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})")
+TITLE_RE = re.compile(r"<title>\s*(.*?)\s*</title>", re.I | re.S)
+HEADER_DATE_RE = re.compile(r'<div class="header-date">\s*(.*?)\s*</div>', re.I | re.S)
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="캘린더 대시보드용 report-index.json 생성")
+    parser.add_argument(
+        "--reports-dir",
+        default="docs/reports",
+        help="HTML 리포트 폴더. 기본값 docs/reports",
+    )
+    parser.add_argument(
+        "--out",
+        default="docs/report-index.json",
+        help="출력 JSON 파일. 기본값 docs/report-index.json",
+    )
+    return parser.parse_args()
 
-      - name: Check required files
-        run: |
-          test -f scripts/fetch_safetimes_schedule.py || (echo "ERROR: scripts/fetch_safetimes_schedule.py 파일이 없습니다." && exit 1)
-          test -f scripts/build_report_draft_from_schedule.py || (echo "ERROR: scripts/build_report_draft_from_schedule.py 파일이 없습니다." && exit 1)
-          test -f scripts/fetch_opinet_international_prices.py || (echo "ERROR: scripts/fetch_opinet_international_prices.py 파일이 없습니다." && exit 1)
-          test -f scripts/merge_prices_into_report.py || (echo "ERROR: scripts/merge_prices_into_report.py 파일이 없습니다." && exit 1)
-          test -f scripts/generate_html_report.py || (echo "ERROR: scripts/generate_html_report.py 파일이 없습니다." && exit 1)
-          test -f scripts/generate_report_index.py || (echo "ERROR: scripts/generate_report_index.py 파일이 없습니다." && exit 1)
-          test -f scripts/ensure_report_draft.py || (echo "ERROR: scripts/ensure_report_draft.py 파일이 없습니다." && exit 1)
-          test -f scripts/generate_reports_range.py || (echo "ERROR: scripts/generate_reports_range.py 파일이 없습니다." && exit 1)
-          test -f report_sample.json || (echo "ERROR: report_sample.json 파일이 없습니다." && exit 1)
-          test -f data/prices/history.json || (echo "ERROR: data/prices/history.json 파일이 없습니다." && exit 1)
 
-      - name: Decide mode
-        run: |
-          if [ -n "${{ github.event.inputs.date_from }}" ] && [ -n "${{ github.event.inputs.date_to }}" ]; then
-            echo "RUN_MODE=range" >> $GITHUB_ENV
-            echo "DATE_FROM=${{ github.event.inputs.date_from }}" >> $GITHUB_ENV
-            echo "DATE_TO=${{ github.event.inputs.date_to }}" >> $GITHUB_ENV
-          else
-            echo "RUN_MODE=single" >> $GITHUB_ENV
-            if [ -n "${{ github.event.inputs.target_date }}" ]; then
-              echo "TARGET_DATE=${{ github.event.inputs.target_date }}" >> $GITHUB_ENV
-            else
-              echo "TARGET_DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)" >> $GITHUB_ENV
-            fi
-          fi
+def strip_tags(value: str) -> str:
+    value = re.sub(r"<[^>]*>", "", value or "")
+    value = (
+        value.replace("&amp;", "&")
+        .replace("&lt;", "<")
+        .replace("&gt;", ">")
+        .replace("&quot;", '"')
+        .replace("&#39;", "'")
+    )
+    return re.sub(r"\s+", " ", value).strip()
 
-      - name: Show mode
-        run: |
-          echo "RUN_MODE=$RUN_MODE"
-          echo "TARGET_DATE=${TARGET_DATE:-}"
-          echo "DATE_FROM=${DATE_FROM:-}"
-          echo "DATE_TO=${DATE_TO:-}"
 
-      - name: Generate weekday reports for range
-        if: env.RUN_MODE == 'range'
-        run: |
-          python scripts/generate_reports_range.py \
-            --start "$DATE_FROM" \
-            --end "$DATE_TO" \
-            --skip-weekends \
-            --report-dir data/reports \
-            --price-dir data/prices \
-            --history data/prices/history.json \
-            --html-dir docs/reports \
-            --index-out docs/report-index.json \
-            --base-report report_sample.json \
-            --chart-months 2
+def atomic_write_json(path: Path, payload: Dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    text = json.dumps(payload, ensure_ascii=False, indent=2)
+    with tempfile.NamedTemporaryFile(
+        "w",
+        encoding="utf-8",
+        dir=str(path.parent),
+        delete=False,
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+    ) as tmp:
+        tmp.write(text)
+        tmp_path = Path(tmp.name)
+    tmp_path.replace(path)
 
-      - name: Try Fetch SafeTimes schedule
-        if: env.RUN_MODE == 'single'
-        continue-on-error: true
-        run: |
-          if [ -f "data/schedules/$TARGET_DATE.json" ]; then
-            echo "[OK] 기존 세이프타임즈 일정 JSON 사용: data/schedules/$TARGET_DATE.json"
-          else
-            python scripts/fetch_safetimes_schedule.py \
-              --date "$TARGET_DATE" \
-              --out-dir data/schedules \
-              --max-retries 1 \
-              --retry-delay 10
-          fi
 
-      - name: Try Build report draft from SafeTimes
-        if: env.RUN_MODE == 'single'
-        continue-on-error: true
-        run: |
-          if [ -f "data/reports/$TARGET_DATE.report.json" ]; then
-            echo "[OK] 기존 리포트 JSON 사용: data/reports/$TARGET_DATE.report.json"
-          elif [ -f "data/schedules/$TARGET_DATE.json" ]; then
-            python scripts/build_report_draft_from_schedule.py \
-              --date "$TARGET_DATE" \
-              --schedule-dir data/schedules \
-              --base-report report_sample.json \
-              --out-dir data/reports
-          else
-            echo "[WARN] 일정 JSON이 없어 세이프타임즈 기반 초안 생성을 건너뜁니다."
-          fi
+def read_report_meta(html_path: Path) -> Dict[str, Any] | None:
+    date_match = DATE_RE.search(html_path.name)
+    if not date_match:
+        return None
 
-      - name: Ensure report draft exists
-        if: env.RUN_MODE == 'single'
-        run: |
-          python scripts/ensure_report_draft.py \
-            --date "$TARGET_DATE" \
-            --out-dir data/reports \
-            --base-report report_sample.json
+    date = date_match.group(1)
+    text = html_path.read_text(encoding="utf-8", errors="ignore")
 
-      - name: Fetch Opinet international prices for today only
-        if: env.RUN_MODE == 'single'
-        run: |
-          TODAY=$(TZ=Asia/Seoul date +%Y-%m-%d)
-          if [ -f "data/prices/$TARGET_DATE.json" ]; then
-            echo "[OK] 기존 가격 JSON 사용: data/prices/$TARGET_DATE.json"
-          elif [ "$TARGET_DATE" = "$TODAY" ]; then
-            python scripts/fetch_opinet_international_prices.py \
-              --date "$TARGET_DATE" \
-              --out-dir data/prices
-          else
-            echo "[INFO] 과거 날짜 가격 JSON은 새로 수집하지 않습니다. history.json으로 생성합니다."
-          fi
+    title_match = TITLE_RE.search(text)
+    header_date_match = HEADER_DATE_RE.search(text)
 
-      - name: Merge prices into report
-        if: env.RUN_MODE == 'single'
-        run: |
-          python scripts/merge_prices_into_report.py \
-            --date "$TARGET_DATE" \
-            --report-dir data/reports \
-            --price-dir data/prices \
-            --history data/prices/history.json \
-            --chart-months 2
+    title = strip_tags(title_match.group(1)) if title_match else f"Daily 유가 동향 — {date}"
+    display_date = strip_tags(header_date_match.group(1)) if header_date_match else date
 
-      - name: Generate HTML report
-        if: env.RUN_MODE == 'single'
-        run: |
-          python scripts/generate_html_report.py \
-            --date "$TARGET_DATE" \
-            --report-dir data/reports \
-            --out-dir docs/reports
+    return {
+        "date": date,
+        "displayDate": display_date,
+        "title": title,
+        "url": f"reports/{html_path.name}",
+        "status": "초안",
+        "fileName": html_path.name,
+        "exists": True,
+    }
 
-      - name: Generate report index
-        if: env.RUN_MODE == 'single'
-        run: |
-          python scripts/generate_report_index.py \
-            --reports-dir docs/reports \
-            --out docs/report-index.json
 
-      - name: Show generated files
-        run: |
-          echo "생성된 파일:"
-          find data -maxdepth 3 -type f || true
-          find docs -maxdepth 3 -type f || true
+def main() -> int:
+    args = parse_args()
+    reports_dir = Path(args.reports_dir)
+    out_path = Path(args.out)
 
-      - name: Commit collected data and dashboard files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+    if not reports_dir.exists():
+        print(f"[ERROR] reports 폴더가 없습니다: {reports_dir}")
+        return 1
 
-          git add data/schedules/ || true
-          git add data/reports/ || true
-          git add data/prices/ || true
-          git add docs/index.html || true
-          git add docs/reports/ || true
-          git add docs/report-index.json || true
+    reports: List[Dict[str, Any]] = []
 
-          if git diff --cached --quiet; then
-            echo "변경된 파일이 없습니다. 커밋하지 않습니다."
-            exit 0
-          fi
+    for html_path in sorted(reports_dir.glob("*.html")):
+        item = read_report_meta(html_path)
+        if item:
+            reports.append(item)
 
-          git commit -m "Update dashboard reports"
+    reports.sort(key=lambda item: item["date"], reverse=True)
 
-          if git push; then
-            echo "정상적으로 push 완료"
-            exit 0
-          fi
+    payload = {
+        "schemaVersion": "1.0",
+        "generatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S KST"),
+        "count": len(reports),
+        "latestDate": reports[0]["date"] if reports else "",
+        "availableDates": sorted([item["date"] for item in reports]),
+        "warnings": [],
+        "reports": reports,
+    }
 
-          git fetch origin main
-          git reset --soft origin/main
+    atomic_write_json(out_path, payload)
 
-          git add data/schedules/ || true
-          git add data/reports/ || true
-          git add data/prices/ || true
-          git add docs/index.html || true
-          git add docs/reports/ || true
-          git add docs/report-index.json || true
+    print(f"[OK] report-index.json 생성 완료: {out_path}")
+    print(f"[OK] 리포트 수: {len(reports)}")
+    return 0
 
-          if git diff --cached --quiet; then
-            echo "최신 원격 기준으로 보니 추가 변경이 없습니다."
-            exit 0
-          fi
 
-          git commit -m "Update dashboard reports"
-          git push
+if __name__ == "__main__":
+    raise SystemExit(main())
