@@ -2,7 +2,6 @@ name: Daily Energy Dashboard - Daily Data Pipeline
 
 on:
   schedule:
-    # 매일 한국시간 08:10 실행 = UTC 23:10
     - cron: "10 23 * * *"
 
   workflow_dispatch:
@@ -47,18 +46,15 @@ jobs:
 
       - name: Check required files
         run: |
-          echo "현재 저장소 파일 목록:"
-          ls -la
-          echo "scripts 폴더:"
-          ls -la scripts || true
-
           test -f scripts/fetch_safetimes_schedule.py || (echo "ERROR: scripts/fetch_safetimes_schedule.py 파일이 없습니다." && exit 1)
           test -f scripts/build_report_draft_from_schedule.py || (echo "ERROR: scripts/build_report_draft_from_schedule.py 파일이 없습니다." && exit 1)
           test -f scripts/fetch_opinet_international_prices.py || (echo "ERROR: scripts/fetch_opinet_international_prices.py 파일이 없습니다." && exit 1)
           test -f scripts/merge_prices_into_report.py || (echo "ERROR: scripts/merge_prices_into_report.py 파일이 없습니다." && exit 1)
           test -f scripts/generate_html_report.py || (echo "ERROR: scripts/generate_html_report.py 파일이 없습니다." && exit 1)
           test -f scripts/generate_report_index.py || (echo "ERROR: scripts/generate_report_index.py 파일이 없습니다." && exit 1)
-          test -f report_sample.json || (echo "ERROR: report_sample.json 파일이 저장소 첫 화면에 없습니다." && exit 1)
+          test -f scripts/ensure_report_draft.py || (echo "ERROR: scripts/ensure_report_draft.py 파일이 없습니다." && exit 1)
+          test -f report_sample.json || (echo "ERROR: report_sample.json 파일이 없습니다." && exit 1)
+          test -f data/prices/history.json || (echo "ERROR: data/prices/history.json 파일이 없습니다. 과거 날짜 생성을 위해 필요합니다." && exit 1)
 
       - name: Decide target date
         run: |
@@ -72,47 +68,55 @@ jobs:
         run: |
           echo "TARGET_DATE=$TARGET_DATE"
 
-      - name: Check existing report draft
+      - name: Try Fetch SafeTimes schedule
+        continue-on-error: true
         run: |
-          if [ -f "data/reports/$TARGET_DATE.report.json" ]; then
-            echo "REPORT_EXISTS=true" >> $GITHUB_ENV
-            echo "[OK] 기존 리포트 JSON 발견: data/reports/$TARGET_DATE.report.json"
-            echo "[INFO] 세이프타임즈 수집과 리포트 초안 생성을 건너뛰고, 가격/HTML/인덱스만 재생성합니다."
+          if [ -f "data/schedules/$TARGET_DATE.json" ]; then
+            echo "[OK] 기존 세이프타임즈 일정 JSON 사용: data/schedules/$TARGET_DATE.json"
           else
-            echo "REPORT_EXISTS=false" >> $GITHUB_ENV
-            echo "[INFO] 기존 리포트 JSON이 없습니다. 세이프타임즈 수집부터 진행합니다."
+            python scripts/fetch_safetimes_schedule.py \
+              --date "$TARGET_DATE" \
+              --out-dir data/schedules \
+              --max-retries 1 \
+              --retry-delay 10
           fi
 
-      - name: Fetch SafeTimes schedule
-        if: env.REPORT_EXISTS != 'true'
+      - name: Try Build report draft from SafeTimes
+        continue-on-error: true
         run: |
-          python scripts/fetch_safetimes_schedule.py \
-            --date "$TARGET_DATE" \
-            --out-dir data/schedules \
-            --max-retries 1 \
-            --retry-delay 10
-
-      - name: Build report draft JSON from SafeTimes
-        if: env.REPORT_EXISTS != 'true'
-        run: |
-          python scripts/build_report_draft_from_schedule.py \
-            --date "$TARGET_DATE" \
-            --schedule-dir data/schedules \
-            --base-report report_sample.json \
-            --out-dir data/reports
-
-      - name: Fetch Opinet international prices
-        run: |
-          if [ -f "data/prices/$TARGET_DATE.json" ]; then
-            echo "[OK] 기존 오피넷 가격 JSON 발견: data/prices/$TARGET_DATE.json"
-            echo "[INFO] 기존 가격 파일을 우선 사용합니다."
+          if [ -f "data/reports/$TARGET_DATE.report.json" ]; then
+            echo "[OK] 기존 리포트 JSON 사용: data/reports/$TARGET_DATE.report.json"
+          elif [ -f "data/schedules/$TARGET_DATE.json" ]; then
+            python scripts/build_report_draft_from_schedule.py \
+              --date "$TARGET_DATE" \
+              --schedule-dir data/schedules \
+              --base-report report_sample.json \
+              --out-dir data/reports
           else
+            echo "[WARN] 일정 JSON이 없어 세이프타임즈 기반 초안 생성을 건너뜁니다."
+          fi
+
+      - name: Ensure report draft exists
+        run: |
+          python scripts/ensure_report_draft.py \
+            --date "$TARGET_DATE" \
+            --out-dir data/reports \
+            --base-report report_sample.json
+
+      - name: Fetch Opinet international prices for today only
+        run: |
+          TODAY=$(TZ=Asia/Seoul date +%Y-%m-%d)
+          if [ -f "data/prices/$TARGET_DATE.json" ]; then
+            echo "[OK] 기존 가격 JSON 사용: data/prices/$TARGET_DATE.json"
+          elif [ "$TARGET_DATE" = "$TODAY" ]; then
             python scripts/fetch_opinet_international_prices.py \
               --date "$TARGET_DATE" \
               --out-dir data/prices
+          else
+            echo "[INFO] 과거 날짜 가격 JSON은 새로 수집하지 않습니다. history.json으로 생성합니다."
           fi
 
-      - name: Merge Opinet prices into report draft
+      - name: Merge prices into report
         run: |
           python scripts/merge_prices_into_report.py \
             --date "$TARGET_DATE" \
@@ -163,8 +167,6 @@ jobs:
             echo "정상적으로 push 완료"
             exit 0
           fi
-
-          echo "push가 거절되었습니다. 원격 저장소 최신 내용을 기준으로 다시 커밋합니다."
 
           git fetch origin main
           git reset --soft origin/main
