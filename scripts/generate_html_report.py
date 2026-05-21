@@ -2,9 +2,15 @@
 # -*- coding: utf-8 -*-
 
 """
-generate_html_report.py v1.1
-- 리포트 JSON을 HTML로 변환
-- SVG 그래프 포인트에 마우스 hover용 title tooltip 추가
+generate_html_report.py v1.2
+
+리포트 JSON을 HTML로 변환합니다.
+
+수정 사항
+- 그래프 디자인: 기존처럼 선만 표시. 점(circle)은 전혀 생성하지 않음.
+- tooltip: 날짜별 투명 세로 hover 영역(rect)을 사용.
+- 마우스를 그래프 위 특정 날짜 영역에 올리면 해당일의 가격을 커스텀 tooltip으로 표시.
+- iPhone/모바일에서는 터치 시 tooltip이 잠시 표시됨.
 """
 
 from __future__ import annotations
@@ -44,8 +50,14 @@ def read_json(path: Path) -> Dict[str, Any]:
 
 def atomic_write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=str(path.parent), delete=False,
-                                     prefix=f".{path.name}.", suffix=".tmp") as tmp:
+    with tempfile.NamedTemporaryFile(
+        "w",
+        encoding="utf-8",
+        dir=str(path.parent),
+        delete=False,
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+    ) as tmp:
         tmp.write(text)
         tmp_path = Path(tmp.name)
     tmp_path.replace(path)
@@ -54,23 +66,31 @@ def atomic_write(path: Path, text: str) -> None:
 def render_summary(items: Sequence[Mapping[str, Any]]) -> str:
     if not items:
         return '<div class="empty">Summary 데이터가 없습니다.</div>'
+
     rows = []
     for item in items[:5]:
-        rows.append('<div class="summary-item"><span class="dot"></span><div>' + esc(item.get("text", "")) + '</div></div>')
+        rows.append(
+            '<div class="summary-item"><span class="dot"></span><div>'
+            + esc(item.get("text", ""))
+            + '</div></div>'
+        )
     return "\n".join(rows)
 
 
 def render_cards(cards: Sequence[Mapping[str, Any]]) -> str:
     if not cards:
         return '<div class="empty">가격 데이터가 없습니다.</div>'
+
     rows = []
     for c in cards:
         direction = str(c.get("direction", "flat"))
         symbol = {"up": "▲", "down": "▼", "flat": "－"}.get(direction, "－")
+
         try:
             change = abs(float(c.get("change", 0)))
         except Exception:
             change = 0
+
         rows.append(
             '<div class="price-card">'
             '<div class="price-label">' + esc(c.get("label", "")) + '</div>'
@@ -85,6 +105,7 @@ def render_cards(cards: Sequence[Mapping[str, Any]]) -> str:
 def render_schedules(items: Sequence[Mapping[str, Any]]) -> str:
     if not items:
         return '<div class="empty">금일 주요 일정 데이터가 없습니다.</div>'
+
     rows = []
     for i in items:
         rows.append(
@@ -102,10 +123,12 @@ def render_schedules(items: Sequence[Mapping[str, Any]]) -> str:
 def render_issues(items: Sequence[Mapping[str, Any]]) -> str:
     if not items:
         return '<div class="empty">전일 주요 이슈 데이터가 없습니다.</div>'
+
     rows = []
     for i in items:
         grade = str(i.get("grade", "C 참고"))
         gcls = "grade-a" if grade.startswith("A") else "grade-b" if grade.startswith("B") else "grade-c"
+
         rows.append(
             '<div class="issue-card">'
             '<span class="issue-tag">' + esc(i.get("category", "")) + '</span>'
@@ -121,41 +144,67 @@ def render_news(report: Mapping[str, Any]) -> str:
     news = report.get("news_trend", {}) or {}
     summary = news.get("summary_html") or esc(news.get("summary", "")) or "조간 신문 트렌드 데이터가 아직 없습니다."
     articles = news.get("articles", []) or []
+
     rows = []
     for idx, a in enumerate(articles[:5], 1):
         url = str(a.get("url", "") or "")
         title = esc(a.get("title", ""))
         press = esc(a.get("press", ""))
+
         if url:
             link = '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + title + '</a>'
         else:
             link = title
+
         rows.append(
             '<div class="news-item"><div class="news-num">' + str(idx) + '</div><div>'
             '<div class="news-title">' + link + '</div>'
             '<div class="news-press">' + press + '</div>'
             '</div></div>'
         )
+
     if not rows:
         rows.append('<div class="empty">대표 기사 데이터가 아직 없습니다.</div>')
-    return '<div class="news-summary">' + summary + '</div><div class="section-divider"></div><div class="small-title">대표 기사</div>' + "".join(rows)
+
+    return (
+        '<div class="news-summary">' + summary + '</div>'
+        '<div class="section-divider"></div>'
+        '<div class="small-title">대표 기사</div>'
+        + "".join(rows)
+    )
 
 
 def render_quality(report: Mapping[str, Any]) -> str:
     q = report.get("quality_control", {}) or {}
     notes = q.get("quality_notes", []) or []
     sources = q.get("sources", []) or []
+
     note_rows = "".join("<li>" + esc(n) + "</li>" for n in notes) or "<li>검수 메모가 없습니다.</li>"
+
     source_rows = []
     for s in sources:
         name = esc(s.get("name", ""))
         typ = esc(s.get("type", ""))
         url = str(s.get("url", "") or "")
+
         if url:
-            source_rows.append('<li><a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + name + '</a> <span>(' + typ + ')</span></li>')
+            source_rows.append(
+                '<li><a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">'
+                + name
+                + '</a> <span>('
+                + typ
+                + ')</span></li>'
+            )
         else:
             source_rows.append('<li>' + name + ' <span>(' + typ + ')</span></li>')
-    return '<div class="small-title">검수 메모</div><ul class="quality-list">' + note_rows + '</ul><div class="section-divider"></div><div class="small-title">주요 출처</div><ul class="quality-list">' + ("".join(source_rows) or "<li>출처 데이터가 없습니다.</li>") + '</ul>'
+
+    return (
+        '<div class="small-title">검수 메모</div><ul class="quality-list">'
+        + note_rows
+        + '</ul><div class="section-divider"></div><div class="small-title">주요 출처</div><ul class="quality-list">'
+        + ("".join(source_rows) or "<li>출처 데이터가 없습니다.</li>")
+        + '</ul>'
+    )
 
 
 def get_dates(series: Mapping[str, Sequence[Mapping[str, Any]]]):
@@ -175,9 +224,17 @@ def get_values(series):
     return vals
 
 
+def date_label(date_text: str) -> str:
+    try:
+        return f"{int(date_text[5:7])}/{int(date_text[8:10])}"
+    except Exception:
+        return date_text
+
+
 def render_chart(series: Mapping[str, Sequence[Mapping[str, Any]]], colors: Mapping[str, str]) -> str:
     dates = get_dates(series)
     vals = get_values(series)
+
     if not dates or not vals:
         return '<div class="empty">표시 가능한 그래프 데이터가 없습니다.</div>'
 
@@ -185,6 +242,7 @@ def render_chart(series: Mapping[str, Sequence[Mapping[str, Any]]], colors: Mapp
     if lo == hi:
         lo -= 1
         hi += 1
+
     pad = (hi - lo) * 0.12
     lo = max(0, lo - pad)
     hi = hi + pad
@@ -200,7 +258,22 @@ def render_chart(series: Mapping[str, Sequence[Mapping[str, Any]]], colors: Mapp
     def y(value):
         return B - ((value - lo) / (hi - lo)) * (B - T)
 
-    parts = ['<svg class="chart-svg" viewBox="0 0 440 220" xmlns="http://www.w3.org/2000/svg">']
+    # date -> list of value strings for tooltip
+    tooltip_by_date = {d: [] for d in dates}
+    for name, pts in series.items():
+        for p in pts:
+            d = str(p.get("date"))
+            if d not in tooltip_by_date:
+                continue
+            try:
+                v = float(p.get("value"))
+            except Exception:
+                continue
+            tooltip_by_date[d].append(f"{name}: {v:.2f} $/Bbl")
+
+    parts = [
+        '<svg class="chart-svg" viewBox="0 0 440 220" xmlns="http://www.w3.org/2000/svg">'
+    ]
 
     for i in range(5):
         yy = B - (B - T) * i / 4
@@ -209,48 +282,69 @@ def render_chart(series: Mapping[str, Sequence[Mapping[str, Any]]], colors: Mapp
         parts.append(f'<text x="{L-6}" y="{yy+3:.1f}" text-anchor="end" font-size="9" fill="#888">{label:.1f}</text>')
 
     for i, d in enumerate(dates):
-        if len(dates) <= 9 or i in {0, len(dates) - 1} or i % max(1, len(dates)//6) == 0:
-            parts.append(f'<text x="{x(i):.1f}" y="210" text-anchor="middle" font-size="9" fill="#888">{int(d[5:7])}/{int(d[8:10])}</text>')
+        if len(dates) <= 9 or i in {0, len(dates) - 1} or i % max(1, len(dates) // 6) == 0:
+            parts.append(
+                f'<text x="{x(i):.1f}" y="210" text-anchor="middle" font-size="9" fill="#888">'
+                + esc(date_label(d))
+                + '</text>'
+            )
 
-    # Lines
+    # 1) visible line only. No visible points/circles.
     for name, pts in series.items():
         poly = []
         for p in pts:
             d = str(p.get("date"))
             if d not in date_idx:
                 continue
+
             try:
                 v = float(p.get("value"))
             except Exception:
                 continue
+
             poly.append(f'{x(date_idx[d]):.1f},{y(v):.1f}')
+
         if poly:
             color = colors.get(name, "#1A6FD4")
-            parts.append('<polyline fill="none" stroke="' + color + '" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" points="' + " ".join(poly) + '" />')
+            parts.append(
+                '<polyline fill="none" stroke="'
+                + color
+                + '" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" points="'
+                + " ".join(poly)
+                + '" />'
+            )
 
-    # Hover points: visible small point + wider transparent hit area with native SVG title tooltip.
-    for name, pts in series.items():
-        color = colors.get(name, "#1A6FD4")
-        for p in pts:
-            d = str(p.get("date"))
-            if d not in date_idx:
-                continue
-            try:
-                v = float(p.get("value"))
-            except Exception:
-                continue
-            cx = x(date_idx[d])
-            cy = y(v)
-            tooltip = esc(f"{name} {d}: {v:.2f} $/Bbl")
-            parts.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="2.4" fill="{color}" opacity="0.9"><title>{tooltip}</title></circle>')
-            parts.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="7" fill="transparent" class="hover-hit"><title>{tooltip}</title></circle>')
+    # 2) invisible vertical hover bands.
+    # This avoids visible dots while making tooltip easy to trigger.
+    if len(dates) == 1:
+        band_width = R - L
+    else:
+        band_width = max(6, (R - L) / (len(dates) - 1))
+
+    for i, d in enumerate(dates):
+        tooltip_lines = [d] + tooltip_by_date.get(d, [])
+        tooltip = esc(" | ".join(tooltip_lines))
+        cx = x(i)
+        rect_x = max(L, cx - band_width / 2)
+        rect_w = min(band_width, R - rect_x)
+        parts.append(
+            f'<rect x="{rect_x:.1f}" y="{T}" width="{rect_w:.1f}" height="{B-T}" '
+            f'fill="transparent" class="hover-band" data-tooltip="{tooltip}" />'
+        )
 
     parts.append("</svg>")
     return "\n".join(parts)
 
 
 def render_legend(names, colors):
-    return "".join('<span class="legend-item"><span class="legend-dot" style="background:' + colors.get(n, "#1A6FD4") + '"></span>' + esc(n) + '</span>' for n in names)
+    return "".join(
+        '<span class="legend-item"><span class="legend-dot" style="background:'
+        + colors.get(n, "#1A6FD4")
+        + '"></span>'
+        + esc(n)
+        + '</span>'
+        for n in names
+    )
 
 
 def css() -> str:
@@ -289,7 +383,9 @@ def css() -> str:
   .legend-item { display:inline-flex; align-items:center; gap:5px; }
   .legend-dot { width:12px; height:3px; border-radius:2px; display:inline-block; }
   .chart-svg { width:100%; height:auto; display:block; }
-  .hover-hit { cursor:crosshair; pointer-events:all; }
+  .hover-band { cursor:crosshair; pointer-events:all; }
+  .chart-tooltip { position:fixed; z-index:9999; pointer-events:none; background:rgba(10,36,68,.94); color:#fff; border-radius:8px; padding:7px 9px; font-size:11px; line-height:1.45; box-shadow:0 6px 18px rgba(0,0,0,.18); transform:translate(10px, -30px); white-space:nowrap; max-width:260px; }
+  .chart-tooltip.hidden { display:none; }
   .issue-card { background:#F8F9FA; border-left:3px solid var(--blue); border-radius:10px; padding:12px 14px; margin-bottom:8px; }
   .issue-tag { display:inline-block; font-size:10px; font-weight:800; color:#185FA5; background:#E6F1FB; border-radius:3px; padding:2px 6px; margin-bottom:6px; }
   .issue-title { font-size:13px; font-weight:800; margin-bottom:4px; }
@@ -318,8 +414,81 @@ def css() -> str:
 """
 
 
+def tooltip_js() -> str:
+    return """
+(function () {
+  var tooltip = document.getElementById('chart-tooltip');
+  if (!tooltip) return;
+
+  function formatText(text) {
+    return String(text || '').split(' | ').join('\\n');
+  }
+
+  function show(evt) {
+    var target = evt.target;
+    var text = target.getAttribute('data-tooltip');
+    if (!text) return;
+    tooltip.textContent = formatText(text);
+    tooltip.style.whiteSpace = 'pre-line';
+    tooltip.classList.remove('hidden');
+    move(evt);
+  }
+
+  function move(evt) {
+    if (tooltip.classList.contains('hidden')) return;
+    var clientX = evt.clientX;
+    var clientY = evt.clientY;
+    if (evt.touches && evt.touches.length) {
+      clientX = evt.touches[0].clientX;
+      clientY = evt.touches[0].clientY;
+    }
+    var x = clientX + 12;
+    var y = clientY - 34;
+    var maxX = window.innerWidth - tooltip.offsetWidth - 8;
+    var maxY = window.innerHeight - tooltip.offsetHeight - 8;
+    if (x > maxX) x = Math.max(8, clientX - tooltip.offsetWidth - 12);
+    if (y < 8) y = clientY + 18;
+    if (y > maxY) y = maxY;
+    tooltip.style.left = x + 'px';
+    tooltip.style.top = y + 'px';
+  }
+
+  function hide() {
+    tooltip.classList.add('hidden');
+  }
+
+  document.addEventListener('mouseover', function (evt) {
+    if (evt.target && evt.target.classList && evt.target.classList.contains('hover-band')) show(evt);
+  });
+
+  document.addEventListener('mousemove', function (evt) {
+    if (evt.target && evt.target.classList && evt.target.classList.contains('hover-band')) move(evt);
+  });
+
+  document.addEventListener('mouseout', function (evt) {
+    if (evt.target && evt.target.classList && evt.target.classList.contains('hover-band')) hide();
+  });
+
+  document.addEventListener('touchstart', function (evt) {
+    if (evt.target && evt.target.classList && evt.target.classList.contains('hover-band')) {
+      show(evt);
+      window.setTimeout(hide, 1800);
+    }
+  }, { passive: true });
+})();
+"""
+
+
 def section(num: str, title: str, body: str) -> str:
-    return '<section class="section"><div class="section-head"><span class="num">' + num + '</span><span class="section-title">' + title + '</span></div><div class="body">' + body + '</div></section>'
+    return (
+        '<section class="section"><div class="section-head"><span class="num">'
+        + num
+        + '</span><span class="section-title">'
+        + title
+        + '</span></div><div class="body">'
+        + body
+        + '</div></section>'
+    )
 
 
 def build_html(report: Mapping[str, Any]) -> str:
@@ -351,13 +520,35 @@ def build_html(report: Mapping[str, Any]) -> str:
         '<div class="price-label-title">최신 석유제품 가격 정보 ($/Bbl) — ' + esc(products.get("base_label", "")) + ' 기준</div>',
         '<div class="price-grid">' + render_cards(products.get("cards", [])) + '</div>',
         '<div class="note">' + esc(prices.get("price_data_note", "")) + '</div></section>',
-        section("3", "원유 가격 추이 그래프 (" + esc(crude.get("chart_period_label", "")) + ")", '<div class="chart-wrap"><div class="legend">' + render_legend(["Brent", "WTI", "Dubai"], CRUDE_COLORS) + '</div>' + render_chart(crude_series, CRUDE_COLORS) + '</div>'),
-        section("4", "석유제품 가격 추이 그래프 (" + esc(products.get("chart_period_label", "")) + ")", '<div class="chart-wrap"><div class="legend">' + render_legend(["Gasoline", "Diesel", "Naphtha"], PRODUCT_COLORS) + '</div>' + render_chart(product_series, PRODUCT_COLORS) + '</div>'),
+        section(
+            "3",
+            "원유 가격 추이 그래프 (" + esc(crude.get("chart_period_label", "")) + ")",
+            '<div class="chart-wrap"><div class="legend">'
+            + render_legend(["Brent", "WTI", "Dubai"], CRUDE_COLORS)
+            + '</div>'
+            + render_chart(crude_series, CRUDE_COLORS)
+            + '</div>',
+        ),
+        section(
+            "4",
+            "석유제품 가격 추이 그래프 (" + esc(products.get("chart_period_label", "")) + ")",
+            '<div class="chart-wrap"><div class="legend">'
+            + render_legend(["Gasoline", "Diesel", "Naphtha"], PRODUCT_COLORS)
+            + '</div>'
+            + render_chart(product_series, PRODUCT_COLORS)
+            + '</div>',
+        ),
         section("5", "전일 주요 이슈 (" + esc(meta.get("previous_day_label", "")) + ")", render_issues(report.get("issues", []))),
-        '<section class="section"><div class="section-head"><span class="num">6</span><span class="section-title">금일 주요 일정 (' + esc(meta.get("today_label", "")) + ')</span></div><div class="body">' + render_schedules(report.get("schedules", [])) + '</div><div class="note">※ 관련성·영향도는 일정 원문에 기재된 사실이 아니라, 정유/석화/LNG 관점의 작성자 해석입니다.</div></section>',
+        '<section class="section"><div class="section-head"><span class="num">6</span><span class="section-title">금일 주요 일정 ('
+        + esc(meta.get("today_label", ""))
+        + ')</span></div><div class="body">'
+        + render_schedules(report.get("schedules", []))
+        + '</div><div class="note">※ 관련성·영향도는 일정 원문에 기재된 사실이 아니라, 정유/석화/LNG 관점의 작성자 해석입니다.</div></section>',
         section("7", "조간 신문 트렌드", render_news(report)),
         section("8", "검수·출처 메모", render_quality(report)),
         '<footer class="footer">자동 생성 리포트 · 사실/해석 구분 및 기사 원문 확인 필요</footer>',
+        '<div id="chart-tooltip" class="chart-tooltip hidden"></div>',
+        '<script>' + tooltip_js() + '</script>',
         '</div></body></html>',
     ]
     return "\n".join(parts)
