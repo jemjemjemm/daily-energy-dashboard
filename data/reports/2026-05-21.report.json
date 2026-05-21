@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 21일 (목)",
     "previous_day_label": "5/20",
     "today_label": "5/21",
-    "generated_at": "2026-05-21 10:05 KST",
+    "generated_at": "2026-05-21 10:23 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v1.0",
     "header_title": "Daily 유가 동향",
@@ -16,7 +16,7 @@
   "summary": [
     {
       "type": "previous_day",
-      "text": "전일(5/19) 일정에서는 산중위 전체회의·산업통상자원지식재산소위, 산업부 착한주유소 현장방문 및 간담회, 기후부 제38차 에너지위원회·차세대 ESS 기술개발 간담회가 확인됨. 해당 일정은 정유/석유화학/LNG 업계 관점에서 가격 안정 정책, 산업·에너지 법안, 에너지 믹스·ESS 연계 정책 모니터링 항목으로 분류."
+      "text": "전일(5/19) 일정에서는 산중위 전체회의·산업통상자원지식재산소위, 산업부 착한주유소 현장방문 및 간담회, 기후부 제38차 에너지위원회·차세대 ESS 기술개발 간담회가 확인됨. 해당 일정은 정유/석유화학/LNG 업계 관점에서 가격 안정 정책, 산업·에너지 법안, 에너지 믹스·ESS 연계 정책 모니터링 항목으로 분류. 오피넷 국제유가 기준 최신 가격은 원유 5/20, 석유제품 5/20 기준으로 반영함. 가격 수치는 $/Bbl 기준이며, 원화 환산 행은 제외."
     },
     {
       "type": "today",
@@ -29,313 +29,133 @@
   ],
   "prices": {
     "unit": "$/Bbl",
-    "price_data_note": "※ 샘플 데이터입니다. 실제 운영 시에는 가격 원천 파일 또는 API에서 생성된 값을 반영합니다.",
+    "price_data_note": "※ 오피넷 국제유가 메뉴에서 수집한 $/Bbl 기준 가격입니다. 원유와 석유제품의 최신 가격 일자는 각 표에서 확인된 최신 거래일 기준입니다.",
     "crude": {
-      "base_label": "5/19",
+      "base_label": "5/20",
       "cards": [
         {
           "label": "Brent",
-          "value": 111.28,
-          "change": -0.82,
+          "value": 105.02,
+          "change": -6.26,
           "direction": "down",
           "unit": "$/Bbl"
         },
         {
           "label": "WTI",
-          "value": 107.77,
-          "change": -0.89,
+          "value": 98.26,
+          "change": -9.51,
           "direction": "down",
           "unit": "$/Bbl"
         },
         {
           "label": "Dubai",
-          "value": 106.8,
-          "change": -1.09,
+          "value": 106.6,
+          "change": -0.2,
           "direction": "down",
           "unit": "$/Bbl"
         }
       ],
-      "chart_period_label": "3/2~5/19",
+      "chart_period_label": "5/19~5/20",
       "chart_series": {
         "Brent": [
-          {
-            "date": "2026-03-02",
-            "label": "3/2",
-            "value": 77.72
-          },
-          {
-            "date": "2026-03-16",
-            "label": "3/16",
-            "value": 103.2
-          },
-          {
-            "date": "2026-03-30",
-            "label": "3/30",
-            "value": 110.5
-          },
-          {
-            "date": "2026-04-13",
-            "label": "4/13",
-            "value": 94.1
-          },
-          {
-            "date": "2026-04-27",
-            "label": "4/27",
-            "value": 101.3
-          },
-          {
-            "date": "2026-05-12",
-            "label": "5/12",
-            "value": 107.77
-          },
-          {
-            "date": "2026-05-18",
-            "label": "5/18",
-            "value": 112.1
-          },
           {
             "date": "2026-05-19",
             "label": "5/19",
             "value": 111.28
+          },
+          {
+            "date": "2026-05-20",
+            "label": "5/20",
+            "value": 105.02
           }
         ],
         "WTI": [
           {
-            "date": "2026-03-02",
-            "label": "3/2",
-            "value": 71.2
-          },
-          {
-            "date": "2026-03-16",
-            "label": "3/16",
-            "value": 96.7
-          },
-          {
-            "date": "2026-03-30",
-            "label": "3/30",
-            "value": 104.9
-          },
-          {
-            "date": "2026-04-13",
-            "label": "4/13",
-            "value": 88.3
-          },
-          {
-            "date": "2026-04-27",
-            "label": "4/27",
-            "value": 95.4
-          },
-          {
-            "date": "2026-05-12",
-            "label": "5/12",
-            "value": 102.18
-          },
-          {
-            "date": "2026-05-18",
-            "label": "5/18",
-            "value": 108.66
-          },
-          {
             "date": "2026-05-19",
             "label": "5/19",
             "value": 107.77
+          },
+          {
+            "date": "2026-05-20",
+            "label": "5/20",
+            "value": 98.26
           }
         ],
         "Dubai": [
           {
-            "date": "2026-03-02",
-            "label": "3/2",
-            "value": 80.7
-          },
-          {
-            "date": "2026-03-16",
-            "label": "3/16",
-            "value": 139.3
-          },
-          {
-            "date": "2026-03-30",
-            "label": "3/30",
-            "value": 112.1
-          },
-          {
-            "date": "2026-04-13",
-            "label": "4/13",
-            "value": 97.6
-          },
-          {
-            "date": "2026-04-27",
-            "label": "4/27",
-            "value": 104.8
-          },
-          {
-            "date": "2026-05-12",
-            "label": "5/12",
-            "value": 104.9
-          },
-          {
-            "date": "2026-05-18",
-            "label": "5/18",
-            "value": 107.89
-          },
-          {
             "date": "2026-05-19",
             "label": "5/19",
             "value": 106.8
+          },
+          {
+            "date": "2026-05-20",
+            "label": "5/20",
+            "value": 106.6
           }
         ]
       }
     },
     "products": {
-      "base_label": "5/19",
+      "base_label": "5/20",
       "cards": [
         {
           "label": "휘발유",
-          "value": 137.87,
-          "change": -0.73,
+          "value": 135.17,
+          "change": -2.7,
           "direction": "down",
           "unit": "$/Bbl"
         },
         {
           "label": "경유",
-          "value": 166.59,
-          "change": 1.57,
-          "direction": "up",
+          "value": 163.91,
+          "change": -2.68,
+          "direction": "down",
           "unit": "$/Bbl"
         },
         {
           "label": "나프타",
-          "value": 111.05,
-          "change": -0.77,
+          "value": 108.01,
+          "change": -3.04,
           "direction": "down",
           "unit": "$/Bbl"
         }
       ],
-      "chart_period_label": "3/2~5/19",
+      "chart_period_label": "5/19~5/20",
       "chart_series": {
         "Gasoline": [
-          {
-            "date": "2026-03-02",
-            "label": "3/2",
-            "value": 90.3
-          },
-          {
-            "date": "2026-03-16",
-            "label": "3/16",
-            "value": 132.1
-          },
-          {
-            "date": "2026-03-30",
-            "label": "3/30",
-            "value": 146.2
-          },
-          {
-            "date": "2026-04-13",
-            "label": "4/13",
-            "value": 119.4
-          },
-          {
-            "date": "2026-04-27",
-            "label": "4/27",
-            "value": 128.1
-          },
-          {
-            "date": "2026-05-12",
-            "label": "5/12",
-            "value": 132.42
-          },
-          {
-            "date": "2026-05-18",
-            "label": "5/18",
-            "value": 138.6
-          },
           {
             "date": "2026-05-19",
             "label": "5/19",
             "value": 137.87
+          },
+          {
+            "date": "2026-05-20",
+            "label": "5/20",
+            "value": 135.17
           }
         ],
         "Diesel": [
           {
-            "date": "2026-03-02",
-            "label": "3/2",
-            "value": 118.4
-          },
-          {
-            "date": "2026-03-16",
-            "label": "3/16",
-            "value": 176.5
-          },
-          {
-            "date": "2026-03-30",
-            "label": "3/30",
-            "value": 260.1
-          },
-          {
-            "date": "2026-04-13",
-            "label": "4/13",
-            "value": 168.2
-          },
-          {
-            "date": "2026-04-27",
-            "label": "4/27",
-            "value": 170.5
-          },
-          {
-            "date": "2026-05-12",
-            "label": "5/12",
-            "value": 160.25
-          },
-          {
-            "date": "2026-05-18",
-            "label": "5/18",
-            "value": 165.02
-          },
-          {
             "date": "2026-05-19",
             "label": "5/19",
             "value": 166.59
+          },
+          {
+            "date": "2026-05-20",
+            "label": "5/20",
+            "value": 163.91
           }
         ],
         "Naphtha": [
           {
-            "date": "2026-03-02",
-            "label": "3/2",
-            "value": 79.3
-          },
-          {
-            "date": "2026-03-16",
-            "label": "3/16",
-            "value": 124.8
-          },
-          {
-            "date": "2026-03-30",
-            "label": "3/30",
-            "value": 135.4
-          },
-          {
-            "date": "2026-04-13",
-            "label": "4/13",
-            "value": 110.1
-          },
-          {
-            "date": "2026-04-27",
-            "label": "4/27",
-            "value": 118.7
-          },
-          {
-            "date": "2026-05-12",
-            "label": "5/12",
-            "value": 113.64
-          },
-          {
-            "date": "2026-05-18",
-            "label": "5/18",
-            "value": 111.82
-          },
-          {
             "date": "2026-05-19",
             "label": "5/19",
             "value": 111.05
+          },
+          {
+            "date": "2026-05-20",
+            "label": "5/20",
+            "value": 108.01
           }
         ]
       }
@@ -479,7 +299,10 @@
       "가격 데이터에서 0값은 카드·그래프 산출에서 제외합니다.",
       "정책 방향, 정부 의도, 업계 손익 영향은 원문 근거가 없는 경우 단정하지 않습니다.",
       "세이프타임즈 일정은 자동 추출 결과이므로 시간·기관·일정명 수동 확인이 필요합니다.",
-      "일정 관련성 문구는 정유/석화/LNG 관점의 작성자 해석이며 원문 사실과 구분해야 합니다."
+      "일정 관련성 문구는 정유/석화/LNG 관점의 작성자 해석이며 원문 사실과 구분해야 합니다.",
+      "오피넷 국제유가 데이터는 원유·석유제품 표의 $/Bbl 행을 기준으로 자동 반영했습니다.",
+      "가격 데이터는 원유와 석유제품 각각의 최신 가격 일자가 다를 수 있으므로 기준일 라벨을 별도 표시합니다.",
+      "가격 추이 그래프는 오피넷에서 수집된 유효 숫자만 사용하며 0값은 제외합니다."
     ],
     "sources": [
       {
@@ -501,6 +324,16 @@
         "name": "대표 기사 원문",
         "type": "news",
         "url": ""
+      },
+      {
+        "name": "오피넷 국제유가 > 원유",
+        "type": "price",
+        "url": "https://www.opinet.co.kr/gloptotSelect.do"
+      },
+      {
+        "name": "오피넷 국제유가 > 석유제품",
+        "type": "price",
+        "url": "https://www.opinet.co.kr/glopopdSelect.do"
       }
     ]
   },
@@ -542,6 +375,16 @@
       "source_published_at": "2026-05-21T07:03:41+09:00",
       "parsed_schedule_count": 12,
       "parser_version": "build_report_draft_from_schedule.py v1.0",
+      "needs_review": true
+    },
+    "opinet_prices": {
+      "source_schema_version": "1.1",
+      "source_date": "2026-05-21",
+      "collected_at": "2026-05-21 10:23:29 KST",
+      "crude_latest_date": "2026-05-20",
+      "products_latest_date": "2026-05-20",
+      "merged_at": "2026-05-21 10:23:30 KST",
+      "merge_script": "merge_prices_into_report.py v1.0",
       "needs_review": true
     }
   }
