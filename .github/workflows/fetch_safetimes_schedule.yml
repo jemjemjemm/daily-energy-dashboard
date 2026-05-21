@@ -7,7 +7,15 @@ on:
   workflow_dispatch:
     inputs:
       target_date:
-        description: "수집/재생성할 날짜(YYYY-MM-DD). 비워두면 실행일 기준"
+        description: "단일 생성 날짜(YYYY-MM-DD). 기간 생성 시 비워두세요."
+        required: false
+        default: ""
+      date_from:
+        description: "기간 생성 시작일(YYYY-MM-DD). 예: 2026-05-01"
+        required: false
+        default: ""
+      date_to:
+        description: "기간 생성 종료일(YYYY-MM-DD). 예: 2026-05-21"
         required: false
         default: ""
 
@@ -53,22 +61,49 @@ jobs:
           test -f scripts/generate_html_report.py || (echo "ERROR: scripts/generate_html_report.py 파일이 없습니다." && exit 1)
           test -f scripts/generate_report_index.py || (echo "ERROR: scripts/generate_report_index.py 파일이 없습니다." && exit 1)
           test -f scripts/ensure_report_draft.py || (echo "ERROR: scripts/ensure_report_draft.py 파일이 없습니다." && exit 1)
+          test -f scripts/generate_reports_range.py || (echo "ERROR: scripts/generate_reports_range.py 파일이 없습니다." && exit 1)
           test -f report_sample.json || (echo "ERROR: report_sample.json 파일이 없습니다." && exit 1)
-          test -f data/prices/history.json || (echo "ERROR: data/prices/history.json 파일이 없습니다. 과거 날짜 생성을 위해 필요합니다." && exit 1)
+          test -f data/prices/history.json || (echo "ERROR: data/prices/history.json 파일이 없습니다." && exit 1)
 
-      - name: Decide target date
+      - name: Decide mode
         run: |
-          if [ -n "${{ github.event.inputs.target_date }}" ]; then
-            echo "TARGET_DATE=${{ github.event.inputs.target_date }}" >> $GITHUB_ENV
+          if [ -n "${{ github.event.inputs.date_from }}" ] && [ -n "${{ github.event.inputs.date_to }}" ]; then
+            echo "RUN_MODE=range" >> $GITHUB_ENV
+            echo "DATE_FROM=${{ github.event.inputs.date_from }}" >> $GITHUB_ENV
+            echo "DATE_TO=${{ github.event.inputs.date_to }}" >> $GITHUB_ENV
           else
-            echo "TARGET_DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)" >> $GITHUB_ENV
+            echo "RUN_MODE=single" >> $GITHUB_ENV
+            if [ -n "${{ github.event.inputs.target_date }}" ]; then
+              echo "TARGET_DATE=${{ github.event.inputs.target_date }}" >> $GITHUB_ENV
+            else
+              echo "TARGET_DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)" >> $GITHUB_ENV
+            fi
           fi
 
-      - name: Show target date
+      - name: Show mode
         run: |
-          echo "TARGET_DATE=$TARGET_DATE"
+          echo "RUN_MODE=$RUN_MODE"
+          echo "TARGET_DATE=${TARGET_DATE:-}"
+          echo "DATE_FROM=${DATE_FROM:-}"
+          echo "DATE_TO=${DATE_TO:-}"
+
+      - name: Generate weekday reports for range
+        if: env.RUN_MODE == 'range'
+        run: |
+          python scripts/generate_reports_range.py \
+            --start "$DATE_FROM" \
+            --end "$DATE_TO" \
+            --skip-weekends \
+            --report-dir data/reports \
+            --price-dir data/prices \
+            --history data/prices/history.json \
+            --html-dir docs/reports \
+            --index-out docs/report-index.json \
+            --base-report report_sample.json \
+            --chart-months 2
 
       - name: Try Fetch SafeTimes schedule
+        if: env.RUN_MODE == 'single'
         continue-on-error: true
         run: |
           if [ -f "data/schedules/$TARGET_DATE.json" ]; then
@@ -82,6 +117,7 @@ jobs:
           fi
 
       - name: Try Build report draft from SafeTimes
+        if: env.RUN_MODE == 'single'
         continue-on-error: true
         run: |
           if [ -f "data/reports/$TARGET_DATE.report.json" ]; then
@@ -97,6 +133,7 @@ jobs:
           fi
 
       - name: Ensure report draft exists
+        if: env.RUN_MODE == 'single'
         run: |
           python scripts/ensure_report_draft.py \
             --date "$TARGET_DATE" \
@@ -104,6 +141,7 @@ jobs:
             --base-report report_sample.json
 
       - name: Fetch Opinet international prices for today only
+        if: env.RUN_MODE == 'single'
         run: |
           TODAY=$(TZ=Asia/Seoul date +%Y-%m-%d)
           if [ -f "data/prices/$TARGET_DATE.json" ]; then
@@ -117,6 +155,7 @@ jobs:
           fi
 
       - name: Merge prices into report
+        if: env.RUN_MODE == 'single'
         run: |
           python scripts/merge_prices_into_report.py \
             --date "$TARGET_DATE" \
@@ -126,6 +165,7 @@ jobs:
             --chart-months 2
 
       - name: Generate HTML report
+        if: env.RUN_MODE == 'single'
         run: |
           python scripts/generate_html_report.py \
             --date "$TARGET_DATE" \
@@ -133,6 +173,7 @@ jobs:
             --out-dir docs/reports
 
       - name: Generate report index
+        if: env.RUN_MODE == 'single'
         run: |
           python scripts/generate_report_index.py \
             --reports-dir docs/reports \
@@ -161,7 +202,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update daily dashboard report $TARGET_DATE"
+          git commit -m "Update dashboard reports"
 
           if git push; then
             echo "정상적으로 push 완료"
@@ -183,5 +224,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update daily dashboard report $TARGET_DATE"
+          git commit -m "Update dashboard reports"
           git push
