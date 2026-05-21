@@ -2,22 +2,10 @@
 # -*- coding: utf-8 -*-
 
 """
-generate_reports_range.py
+generate_reports_range.py v1.1
 
 지정 기간의 평일 리포트를 일괄 생성합니다.
-
-예:
-  python scripts/generate_reports_range.py \
-    --start 2026-05-01 \
-    --end 2026-05-21 \
-    --skip-weekends
-
-동작:
-- 토/일 제외
-- 리포트 JSON이 없으면 ensure_report_draft.py로 가격 중심 기본 리포트 생성
-- 가격은 merge_prices_into_report.py에서 history.json 기준으로 반영
-- HTML은 docs/reports/YYYY-MM-DD.html로 생성
-- 마지막에 docs/report-index.json 갱신
+기존 fallback 리포트는 보강된 형식으로 갱신합니다.
 """
 
 from __future__ import annotations
@@ -49,7 +37,6 @@ def date_range(start: str, end: str):
     e = datetime.strptime(end, "%Y-%m-%d").date()
     if s > e:
         raise ValueError("--start가 --end보다 늦습니다.")
-
     cur = s
     while cur <= e:
         yield cur
@@ -88,7 +75,6 @@ def main() -> int:
 
         date_text = d.isoformat()
         generated_dates.append(date_text)
-
         print(f"\n=== {date_text} 리포트 생성 ===")
 
         run([
@@ -97,6 +83,7 @@ def main() -> int:
             "--date", date_text,
             "--out-dir", args.report_dir,
             "--base-report", args.base_report,
+            "--refresh-fallback",
         ])
 
         run([
