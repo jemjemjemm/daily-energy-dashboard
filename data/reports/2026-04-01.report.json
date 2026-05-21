@@ -1,32 +1,262 @@
 {
-  "template_version": "2.0",
   "report": {
-    "report_date": "2026-04-01",
-    "display_date": "2026년 4월 1일 (수)",
-    "previous_day_label": "3/31",
-    "today_label": "4/1",
-    "generated_at": "2026-05-21 15:57 KST",
-    "review_status": "초안",
-    "report_version": "draft-from-safetimes-v1.0",
-    "header_title": "Daily 유가 동향",
-    "report_title": "Daily 유가 동향 — 2026.04.01",
+    "report_title": "Daily Issue Report",
+    "header_title": "Daily Issue Report",
     "report_badge": "정유 · 석유화학 · LNG",
-    "meta_description": "정유·석유화학·LNG 관련 일일 유가 동향 및 주요 이슈 리포트"
+    "report_date": "2026-04-01",
+    "display_date": "4/1(수)",
+    "previous_day_label": "3/31(화)",
+    "today_label": "4/1(수)",
+    "generated_at": "2026-05-21 16:15:47 KST",
+    "report_version": "safetimes-direct-v1.0",
+    "review_status": "자동생성 초안"
   },
   "summary": [
     {
-      "type": "previous_day",
-      "text": "전일(5/19) 일정에서는 산중위 전체회의·산업통상자원지식재산소위, 산업부 착한주유소 현장방문 및 간담회, 기후부 제38차 에너지위원회·차세대 ESS 기술개발 간담회가 확인됨. 해당 일정은 정유/석유화학/LNG 업계 관점에서 가격 안정 정책, 산업·에너지 법안, 에너지 믹스·ESS 연계 정책 모니터링 항목으로 분류. 가격 그래프는 기준일 전일 기준 과거 2개월(1/31~3/31)만 표시하며, 값이 0인 가격은 제외."
+      "type": "schedule",
+      "text": "세이프타임즈 '[오늘의 주요일정·1일] 이재명 대통령, 제3차 비상경제점검 회의' 원문을 기준으로 정유·석화·LNG 관련성이 있는 정책·경제·산업 일정을 선별함. 가격 그래프는 기준일 전일 기준 과거 2개월(1/31~3/31)만 표시하며, 값이 0인 가격은 제외."
     },
     {
-      "type": "today",
-      "text": "금일(4/1) 세이프타임즈 '[오늘의 주요일정·1일] 이재명 대통령, 제3차 비상경제점검 회의' 원문을 수집했으나 자동 추출된 일정 항목이 없습니다. 본문 구조 확인 및 수동 검수가 필요합니다."
+      "type": "price",
+      "text": "가격 카드와 그래프는 history.json 및 오피넷 가격 데이터를 기준으로 병합합니다."
     },
     {
-      "type": "news_trend",
-      "text": "조간 확인 기사 기준, 주요 보도는 한일 정상회담 이후 원유·LNG·석유제품 협력 확대, 호르무즈 리스크와 해운·정유 비용 부담, 정유·화학 업종의 2분기 실적 개선 기대 등으로 정리 가능."
+      "type": "review",
+      "text": "일정 관련성 평가는 키워드 기반 자동 분류이므로 최종 보고 전 확인이 필요합니다."
     }
   ],
+  "issues": [
+    {
+      "category": "주요일정",
+      "title": "제3차 비상경제점검 회의(16:00 청와대)",
+      "description": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류",
+      "grade": "B 주시"
+    },
+    {
+      "category": "주요일정",
+      "title": "우원식 국회의장",
+      "description": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류",
+      "grade": "B 주시"
+    },
+    {
+      "category": "주요일정",
+      "title": "",
+      "description": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류",
+      "grade": "B 주시"
+    },
+    {
+      "category": "주요일정",
+      "title": "기후에너지환경노동위원회 기후에너지환경법안심사소위(10:00 본관 622호)",
+      "description": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류",
+      "grade": "B 주시"
+    },
+    {
+      "category": "주요일정",
+      "title": "정청래 당대표, 정치휴먼 다큐 <빨간 나라를 보았니> 국회 상영회(19:00 의원회관 제1소회의실)",
+      "description": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류",
+      "grade": "B 주시"
+    },
+    {
+      "category": "주요일정",
+      "title": "한병도 원내대표, 석유화학업계 및 여천공단 입주기업 간담회(15:05 전남 여수 산단)",
+      "description": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류",
+      "grade": "B 주시"
+    }
+  ],
+  "schedules": [
+    {
+      "time": "16:00",
+      "org": "정치",
+      "title": "제3차 비상경제점검 회의(16:00 청와대)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "-",
+      "org": "정치",
+      "title": "우원식 국회의장",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "-",
+      "org": "국회",
+      "title": "",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "10:00",
+      "org": "정치",
+      "title": "기후에너지환경노동위원회 기후에너지환경법안심사소위(10:00 본관 622호)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "19:00",
+      "org": "정치",
+      "title": "정청래 당대표, 정치휴먼 다큐 <빨간 나라를 보았니> 국회 상영회(19:00 의원회관 제1소회의실)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "15:05",
+      "org": "정치",
+      "title": "한병도 원내대표, 석유화학업계 및 여천공단 입주기업 간담회(15:05 전남 여수 산단)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "09:00",
+      "org": "정치",
+      "title": "장동혁 대표, 국민의힘 정책공모전 '국민의 아이디어, 정책이 됩니다' 시상식(09:00 국회 본관 228호)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "14:00",
+      "org": "정치",
+      "title": "서왕진 원내대표, 제3기 국가물관리위원회에 바란다 정책토론회(14:00 의원회관 제4간담회의실)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "14:00",
+      "org": "외교안보",
+      "title": "통일부, 북향민 입법과제 제안 간담회 인사말씀(14:00 국회의원회관 제2간담회실)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "10:00",
+      "org": "금융위",
+      "title": "가계부채 점검회의 개최 (10:00 정부서울청사)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "14:00",
+      "org": "금융위",
+      "title": "금융위 정례회의 (14:00 정부서울청사)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "14:00",
+      "org": "경제",
+      "title": "이찬진 금융감독원장, 금융위원회 정례회의(14:00 정부서울청사)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "14:00",
+      "org": "경제",
+      "title": "주병기 공정거래위원장, 공정거래의날 행사(14:00 대한상의)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "15:00",
+      "org": "경제",
+      "title": "주병기 공정거래위원장, 공정거래종합지원센터 개소식(15:00 공정거래조정원)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "15:00",
+      "org": "산업부",
+      "title": "한-인도네시아 비즈니스 포럼(15:00 서울 신라H)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "07:30",
+      "org": "산업부",
+      "title": "글로벌 경제현안기업협의회(07:30 서울 FKI타워)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "10:00",
+      "org": "산업부",
+      "title": "석유화학 업계 간담회(10:00 무보 대회의실 11층)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "10:00",
+      "org": "국토부",
+      "title": "국토위 전체회의(10:00 국회, 잠정)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "10:00",
+      "org": "국토부",
+      "title": "국토위 전체회의(10:00 국회, 잠정)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    },
+    {
+      "time": "10:00",
+      "org": "국토부",
+      "title": "국토위 전체회의(10:00 국회, 잠정)",
+      "relevance": "정유·석화·LNG 관련 정책·경제·산업 일정으로 분류"
+    }
+  ],
+  "news_trend": {
+    "summary": "대표 출처는 세이프타임즈 오늘의 주요일정입니다. 기사 제목: [오늘의 주요일정·1일] 이재명 대통령, 제3차 비상경제점검 회의",
+    "articles": [
+      {
+        "title": "[오늘의 주요일정·1일] 이재명 대통령, 제3차 비상경제점검 회의",
+        "press": "세이프타임즈",
+        "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=241384"
+      }
+    ]
+  },
+  "quality_control": {
+    "quality_notes": [
+      "세이프타임즈 주요일정 원문 기반 자동 생성",
+      "정유·석화·LNG 관련성은 키워드 기반 자동 분류",
+      "가격 추이 그래프는 기준일 전일 기준 과거 2개월(1/31~3/31)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
+      "값이 0인 가격은 그래프 이력에서 제외했습니다.",
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+    ],
+    "sources": [
+      {
+        "name": "세이프타임즈 오늘의 주요일정",
+        "type": "schedule",
+        "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=241384"
+      },
+      {
+        "name": "장기 가격 이력 history.json",
+        "type": "price-history",
+        "url": ""
+      },
+      {
+        "name": "오피넷 국제유가 > 원유",
+        "type": "price",
+        "url": ""
+      },
+      {
+        "name": "오피넷 국제유가 > 석유제품",
+        "type": "price",
+        "url": ""
+      },
+      {
+        "name": "장기 가격 이력 history.json",
+        "type": "price-history",
+        "url": ""
+      }
+    ]
+  },
+  "automation": {
+    "safetimes_direct": {
+      "created_at": "2026-05-21 16:15:47 KST",
+      "article_idxno": 241384,
+      "script": "backfill_reports.py direct builder"
+    },
+    "opinet_prices": {
+      "price_json_used": false,
+      "source_date": "",
+      "history_schema_version": "1.3",
+      "history_period": {
+        "start": "2026-01-01",
+        "end": "2026-05-20"
+      },
+      "chart_window": {
+        "start": "2026-01-31",
+        "end": "2026-03-31",
+        "rule": "report_date - 1 day, then minus 2 calendar months"
+      },
+      "crude_chart_source": "history.json window",
+      "products_chart_source": "history.json window",
+      "merged_at": "2026-05-21 16:15:47 KST",
+      "merge_script": "merge_prices_into_report.py v1.4",
+      "needs_review": true
+    }
+  },
   "prices": {
     "unit": "$/Bbl",
     "price_data_note": "※ 가격 데이터는 오피넷 및 장기 이력(history.json) 기준입니다. 그래프는 기준일 전일 기준 과거 2개월(1/31~3/31)만 표시하며, 값이 0인 가격은 제외했습니다.",
@@ -1324,175 +1554,6 @@
           }
         ]
       }
-    }
-  },
-  "issues": [
-    {
-      "category": "정유",
-      "category_class": "",
-      "title": "산업부 착한주유소 현장방문 및 간담회",
-      "description": "전일 일정에 산업부 장관의 착한주유소 현장방문 및 간담회가 포함됨. 실제 발언·후속 조치가 별도 확인되지 않은 상태에서는 정책 방향을 단정할 수 없으나, 고유가 국면에서 주유소 가격 안정·현장 애로·정유사 공급가격 이슈가 함께 제기될 가능성은 있음.",
-      "grade": "A 직접",
-      "grade_class": "grade-a"
-    },
-    {
-      "category": "석유화학",
-      "category_class": "chem",
-      "title": "국회 산중위 전체회의 및 산업통상자원지식재산소위",
-      "description": "산중위 전체회의와 법안소위가 전일 개최 일정으로 확인됨. 구체 안건·질의 내용은 별도 회의록 확인이 필요함. 정유·석유화학 업계 관련성은 에너지·산업 정책, 공급망, 중소기업 원가 부담 이슈가 제기될 경우에 한정한 작성자 해석임.",
-      "grade": "B 간접",
-      "grade_class": "grade-b"
-    },
-    {
-      "category": "LNG·에너지",
-      "category_class": "lng",
-      "title": "기후부 제38차 에너지위원회 및 차세대 ESS 기술개발 간담회",
-      "description": "기후부 장관의 제38차 에너지위원회와 차세대 ESS 기술개발 간담회가 전일 일정으로 확인됨. ESS 확대는 전력계통 안정화와 재생에너지 연계 정책과 관련됨. LNG 발전의 피크·백업 역할 변화 여부는 중장기 모니터링 포인트로 분류한 해석임.",
-      "grade": "B 간접",
-      "grade_class": "grade-b"
-    },
-    {
-      "category": "거시·공급망",
-      "category_class": "gov",
-      "title": "재경부 공급망기금 상생협약식 및 G7 재무장관회의",
-      "description": "전일 일정에는 재경부 공급망기금 상생협약식과 G7 재무장관회의가 포함됨. 정유·석화 업계에 대한 직접 지원 일정으로 확인되지는 않았으나, 중동발 에너지·물류 리스크와의 연결은 참고용 해석임.",
-      "grade": "C 참고",
-      "grade_class": "grade-c"
-    }
-  ],
-  "schedules": [],
-  "news_trend": {
-    "summary_html": "확인 가능한 조간 기사 기준, 주요 보도는 △<strong>한일 정상회담 이후 원유·석유제품·LNG 협력 확대</strong> △<strong>호르무즈 리스크 장기화에 따른 해운·정유 비용 부담</strong> △<strong>정유·화학 업종의 2분기 실적 개선 기대</strong>로 정리 가능.<br><br><strong>&lt;EBN&gt;</strong>은 5/19 한일 정상회담에서 양국이 LNG, 원유, 석유제품 분야 협력을 확대하기로 했고, 원유·석유제품·LNG 스와프 거래 추진에 공감대를 형성했다고 보도. 정유·LNG 업계 관점에서는 비축, 상호공급, 수급정보 공유 등 후속 논의 여부가 모니터링 포인트.<br><br><strong>&lt;뉴스투데이&gt;</strong>는 중동 노선 운임 상승이 서비스 차질과 비용 부담으로 이어지고 있다고 보도했으며, 기사 내에서 HMM의 우회 운항·연료비 부담과 에쓰오일의 대체 원유 확보·장기계약 구조 대응이 언급됨. 정유업계 영향은 해당 기사에서 확인되는 범위 내에서 수급 안정·원가 부담 이슈로 한정.<br><br><strong>&lt;매일경제&gt;</strong>는 2분기 코스피 상장사 실적 전망 기사에서 정유·화학주가 전년 적자에서 흑자 전환하며 영업이익 증가에 기여할 것으로 전망했다고 보도. 다만 이는 증권시장·실적 전망 기사이며, 고유가 정책·최고가격제·개별 정유사 손익을 직접 분석한 기사는 아님.",
-    "articles": [
-      {
-        "title": "“원유·LNG까지 손잡았다”…한·일, 중동발 에너지 전쟁에 공동방어선",
-        "press": "EBN",
-        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1709437",
-        "published_date": "2026-05-20"
-      },
-      {
-        "title": "해운업계, 중동 운임 3배 올랐는데 배 못 띄우는 까닭",
-        "press": "뉴스투데이",
-        "url": "https://www.news2day.co.kr/article/20260519500022",
-        "published_date": "2026-05-19"
-      },
-      {
-        "title": "“코스피 따라 무너진 멘탈, 실적 보고 찾아야”…2분기도 ‘역대급’ 예고",
-        "press": "매일경제",
-        "url": "https://www.mk.co.kr/news/stock/12052782",
-        "published_date": "2026-05-20"
-      }
-    ]
-  },
-  "quality_control": {
-    "quality_notes": [
-      "기사 제목·URL·발행일 확인 후 대표 기사로 사용합니다.",
-      "일정 관련성·영향도는 원문 사실이 아니라 정유/석화/LNG 관점의 작성자 해석으로 구분합니다.",
-      "가격 데이터에서 0값은 카드·그래프 산출에서 제외합니다.",
-      "정책 방향, 정부 의도, 업계 손익 영향은 원문 근거가 없는 경우 단정하지 않습니다.",
-      "세이프타임즈 일정은 자동 추출 결과이므로 시간·기관·일정명 수동 확인이 필요합니다.",
-      "일정 관련성 문구는 정유/석화/LNG 관점의 작성자 해석이며 원문 사실과 구분해야 합니다.",
-      "자동 추출된 일정이 없습니다. 세이프타임즈 본문 구조를 확인해 수동 반영해야 합니다.",
-      "가격 추이 그래프는 기준일 전일 기준 과거 2개월(1/31~3/31)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
-      "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
-    ],
-    "sources": [
-      {
-        "name": "[오늘의 주요일정·1일] 이재명 대통령, 제3차 비상경제점검 회의",
-        "type": "schedule",
-        "url": ""
-      },
-      {
-        "name": "국제 원유가격 원천 데이터",
-        "type": "price_file",
-        "url": ""
-      },
-      {
-        "name": "국제 석유제품가격 원천 데이터",
-        "type": "price_file",
-        "url": ""
-      },
-      {
-        "name": "대표 기사 원문",
-        "type": "news",
-        "url": ""
-      },
-      {
-        "name": "오피넷 국제유가 > 원유",
-        "type": "price",
-        "url": ""
-      },
-      {
-        "name": "오피넷 국제유가 > 석유제품",
-        "type": "price",
-        "url": ""
-      },
-      {
-        "name": "장기 가격 이력 history.json",
-        "type": "price-history",
-        "url": ""
-      }
-    ]
-  },
-  "footer": {
-    "text": "SK Innovation Communication Division · 2026.05.20<br>Source: 사용자 제공 기본 데이터, 세이프타임즈 일정, 가격 원천자료, 대표 기사 원문"
-  },
-  "generator_rules": {
-    "html_escape_required_fields": [
-      "summary.text",
-      "issues.description",
-      "schedules.relevance",
-      "news_trend.articles.title",
-      "news_trend.articles.press"
-    ],
-    "html_allowed_fields": [
-      "news_trend.summary_html",
-      "footer.text"
-    ],
-    "exclude_price_value_if_zero": true,
-    "news_article_count_target": 3,
-    "summary_item_count_target": 3,
-    "issue_count_range": [
-      3,
-      5
-    ],
-    "schedule_sort": "time_ascending",
-    "chart_required_svg_elements": [
-      "svg.price-chart-svg",
-      "line.hover-line",
-      "g.hover-dots",
-      "rect.chart-hitbox"
-    ]
-  },
-  "automation": {
-    "safetimes": {
-      "source_file_date": "2026-04-01",
-      "source_title": "[오늘의 주요일정·1일] 이재명 대통령, 제3차 비상경제점검 회의",
-      "source_url": "",
-      "source_published_at": "",
-      "parsed_schedule_count": 0,
-      "parser_version": "build_report_draft_from_schedule.py v1.0",
-      "needs_review": true
-    },
-    "opinet_prices": {
-      "price_json_used": false,
-      "source_date": "",
-      "history_schema_version": "1.3",
-      "history_period": {
-        "start": "2026-01-01",
-        "end": "2026-05-20"
-      },
-      "chart_window": {
-        "start": "2026-01-31",
-        "end": "2026-03-31",
-        "rule": "report_date - 1 day, then minus 2 calendar months"
-      },
-      "crude_chart_source": "history.json window",
-      "products_chart_source": "history.json window",
-      "merged_at": "2026-05-21 15:57:34 KST",
-      "merge_script": "merge_prices_into_report.py v1.4",
-      "needs_review": true
     }
   }
 }
