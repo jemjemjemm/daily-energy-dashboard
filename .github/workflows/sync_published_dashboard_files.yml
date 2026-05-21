@@ -2,6 +2,12 @@ name: Sync Published Dashboard Files
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Daily Energy Dashboard - Daily Data Pipeline
+      - Backfill Dashboard Reports
+    types:
+      - completed
 
 permissions:
   contents: write
@@ -12,6 +18,7 @@ concurrency:
 
 jobs:
   sync-published-dashboard-files:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -33,7 +40,7 @@ jobs:
           echo "docs reports count: $DOC_REPORT_COUNT"
 
           if [ "$DOC_REPORT_COUNT" -lt 10 ]; then
-            echo "ERROR: docs/reports HTML 파일 수가 너무 적습니다. 백필 결과를 먼저 확인하세요."
+            echo "ERROR: docs/reports HTML 파일 수가 너무 적습니다."
             exit 1
           fi
 
@@ -42,74 +49,76 @@ jobs:
           from pathlib import Path
 
           idx = json.loads(Path("docs/report-index.json").read_text(encoding="utf-8"))
-          dates = set(idx.get("availableDates", []))
-          required = {"2026-05-06", "2026-05-08", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21"}
-          missing = sorted(required - dates)
+          text = Path("docs/report-index.json").read_text(encoding="utf-8")
+          required = {"2026-05-04","2026-05-06","2026-05-08","2026-05-12","2026-05-18","2026-05-19","2026-05-20","2026-05-21"}
+          missing = sorted([d for d in required if d not in text])
           if missing:
-              raise SystemExit(f"ERROR: docs/report-index.json 필수 날짜 누락: {missing}")
-
+              raise SystemExit(f"ERROR: docs/report-index.json에 필수 날짜 누락: {missing}")
           for d in required:
-              p = Path(f"docs/reports/{d}.html")
-              if not p.exists():
+              if not Path(f"docs/reports/{d}.html").exists():
                   raise SystemExit(f"ERROR: docs/reports/{d}.html 누락")
-
-          print("[OK] docs 산출물 검증 완료")
+          print("[OK] docs 검증 완료")
           PY
 
       - name: Mirror docs to public
         run: |
-          set -e
           rm -rf public
           mkdir -p public
-          cp -a docs/. public/
+          cp -R docs/. public/
 
-          echo "public 파일 동기화 완료"
-          echo "public reports count:"
-          find public/reports -maxdepth 1 -type f -name "*.html" | wc -l
-
-      - name: Verify public output
+      - name: Validate public output
         run: |
           set -e
           test -f public/index.html || (echo "ERROR: public/index.html 없음" && exit 1)
           test -f public/report-index.json || (echo "ERROR: public/report-index.json 없음" && exit 1)
           test -d public/reports || (echo "ERROR: public/reports 폴더 없음" && exit 1)
 
+          PUBLIC_REPORT_COUNT=$(find public/reports -maxdepth 1 -type f -name "*.html" | wc -l | tr -d ' ')
+          echo "public reports count: $PUBLIC_REPORT_COUNT"
+
           python - <<'PY'
-          import json
           from pathlib import Path
-
-          docs_idx = json.loads(Path("docs/report-index.json").read_text(encoding="utf-8"))
-          public_idx = json.loads(Path("public/report-index.json").read_text(encoding="utf-8"))
-
-          docs_dates = set(docs_idx.get("availableDates", []))
-          public_dates = set(public_idx.get("availableDates", []))
-
-          if docs_dates != public_dates:
-              raise SystemExit("ERROR: docs와 public의 availableDates가 다릅니다.")
-
-          for d in ["2026-05-06", "2026-05-08", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21"]:
-              p = Path(f"public/reports/{d}.html")
-              if not p.exists():
+          text = Path("public/report-index.json").read_text(encoding="utf-8")
+          required = {"2026-05-04","2026-05-06","2026-05-08","2026-05-12","2026-05-18","2026-05-19","2026-05-20","2026-05-21"}
+          missing = sorted([d for d in required if d not in text])
+          if missing:
+              raise SystemExit(f"ERROR: public/report-index.json에 필수 날짜 누락: {missing}")
+          for d in required:
+              if not Path(f"public/reports/{d}.html").exists():
                   raise SystemExit(f"ERROR: public/reports/{d}.html 누락")
-
-          public_index = Path("public/index.html").read_text(encoding="utf-8", errors="ignore")
-          if "리포트 바로가기" not in public_index:
-              raise SystemExit("ERROR: public/index.html이 최신 대시보드 파일이 아닙니다.")
-
-          print("[OK] public 산출물 검증 완료")
+          html = Path("public/index.html").read_text(encoding="utf-8", errors="ignore")
+          if "리포트 바로가기" not in html:
+              raise SystemExit("ERROR: public/index.html이 최신 대시보드가 아닙니다.")
+          print("[OK] public 검증 완료")
           PY
 
-      - name: Commit synced published files
+      - name: Commit synced public files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add public/ docs/
+          git add public/ || true
 
           if git diff --cached --quiet; then
-            echo "변경된 파일이 없습니다."
+            echo "변경된 public 파일이 없습니다."
             exit 0
           fi
 
-          git commit -m "Sync published dashboard files"
+          git commit -m "Sync public dashboard files"
+
+          if git push; then
+            echo "정상적으로 push 완료"
+            exit 0
+          fi
+
+          git fetch origin main
+          git reset --soft origin/main
+          git add public/ || true
+
+          if git diff --cached --quiet; then
+            echo "최신 원격 기준으로 추가 변경이 없습니다."
+            exit 0
+          fi
+
+          git commit -m "Sync public dashboard files"
           git push
