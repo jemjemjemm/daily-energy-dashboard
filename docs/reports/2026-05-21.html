@@ -37,7 +37,9 @@
   .legend-item { display:inline-flex; align-items:center; gap:5px; }
   .legend-dot { width:12px; height:3px; border-radius:2px; display:inline-block; }
   .chart-svg { width:100%; height:auto; display:block; }
-  .hover-hit { cursor:crosshair; pointer-events:all; }
+  .hover-band { cursor:crosshair; pointer-events:all; }
+  .chart-tooltip { position:fixed; z-index:9999; pointer-events:none; background:rgba(10,36,68,.94); color:#fff; border-radius:8px; padding:7px 9px; font-size:11px; line-height:1.45; box-shadow:0 6px 18px rgba(0,0,0,.18); transform:translate(10px, -30px); white-space:nowrap; max-width:260px; }
+  .chart-tooltip.hidden { display:none; }
   .issue-card { background:#F8F9FA; border-left:3px solid var(--blue); border-radius:10px; padding:12px 14px; margin-bottom:8px; }
   .issue-tag { display:inline-block; font-size:10px; font-weight:800; color:#185FA5; background:#E6F1FB; border-radius:3px; padding:2px 6px; margin-bottom:6px; }
   .issue-title { font-size:13px; font-weight:800; margin-bottom:4px; }
@@ -70,7 +72,7 @@
 </div><div class="badge">정유 · 석유화학 · LNG</div></div>
 <div class="meta"><div>기준일: 2026-05-21</div>
 <div>상태: 초안</div>
-<div>생성: 2026-05-21 14:05 KST</div>
+<div>생성: 2026-05-21 14:14 KST</div>
 <div>버전: draft-from-safetimes-v1.0</div></div></header>
 <section class="section"><div class="section-head"><span class="num">1</span><span class="section-title">Summary</span></div><div class="body"><div class="summary-item"><span class="dot"></span><div>전일(5/19) 일정에서는 산중위 전체회의·산업통상자원지식재산소위, 산업부 착한주유소 현장방문 및 간담회, 기후부 제38차 에너지위원회·차세대 ESS 기술개발 간담회가 확인됨. 해당 일정은 정유/석유화학/LNG 업계 관점에서 가격 안정 정책, 산업·에너지 법안, 에너지 믹스·ESS 연계 정책 모니터링 항목으로 분류. 오피넷 국제유가 기준 최신 가격은 원유 5/20, 석유제품 5/20 기준으로 반영함. 그래프는 기준일 전일 기준 과거 2개월(3/20~5/20)만 표시하며, 값이 0인 가격은 제외.</div></div>
 <div class="summary-item"><span class="dot"></span><div>금일(5/21) 세이프타임즈 &#x27;[오늘의 주요일정·21일] 5공피해자단체 연합회, 스타벅스 규탄 기자회견&#x27; 기준 주요 일정 12건을 반영함. 주요 일정은 정청래 총괄상임선대위원장, 정원오 서울시장 후보 지원 - &#x27;서울시민의 마음을 배달합니다&#x27; 택배 물류 현장 방문( 동서울우편집, 서울 광진구 자양로 76)·총괄상임선대위원장, 류삼영 동작구청장 후보 지원유세 및 출근길 시민인사( 장승배기역 1번 출구 인근)·총괄상임선대위원장, 류삼영 동작구청장 후보 지원유세( KB국민은행 상도동종합금융센터)·석유비축기지 방문( 한국석유공사 구리지사) 등이며, 정유/석화/LNG 업계 관련성은 원문 사실과 작성자 해석을 구분해 사후 확인 필요.</div></div>
@@ -106,262 +108,49 @@
 <polyline fill="none" stroke="#1A6FD4" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" points="40.0,124.9 49.3,144.9 58.6,137.4 67.9,141.2 77.1,131.7 86.4,124.2 95.7,123.9 105.0,114.8 114.3,142.9 123.6,130.0 132.9,128.8 142.1,129.6 151.4,153.4 160.7,151.4 170.0,152.6 179.3,145.8 188.6,153.3 197.9,153.1 207.1,145.8 216.4,160.5 225.7,152.2 235.0,147.3 244.3,141.7 253.6,136.5 262.9,136.1 272.1,131.3 281.4,126.4 290.7,115.3 300.0,121.9 309.3,131.4 318.6,121.2 327.9,128.7 337.1,142.7 346.4,144.7 355.7,142.7 365.0,137.9 374.3,132.1 383.6,135.6 392.9,135.4 402.1,129.7 411.4,125.0 420.7,126.4 430.0,136.6" />
 <polyline fill="none" stroke="#E24B4A" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" points="40.0,147.5 49.3,164.2 58.6,157.3 67.9,160.6 77.1,153.8 86.4,145.4 95.7,140.1 105.0,142.5 114.3,144.6 123.6,125.9 132.9,124.5 142.1,123.6 151.4,153.9 160.7,148.3 170.0,150.4 179.3,146.3 188.6,159.0 197.9,159.0 207.1,153.5 216.4,171.2 225.7,161.8 235.0,157.6 244.3,156.3 253.6,151.6 262.9,153.9 272.1,150.7 281.4,144.9 290.7,133.5 300.0,136.5 309.3,141.6 318.6,134.3 327.9,141.1 337.1,152.8 346.4,153.3 355.7,152.3 365.0,147.9 374.3,141.2 383.6,143.1 392.9,142.9 402.1,135.9 411.4,130.6 420.7,132.1 430.0,147.6" />
 <polyline fill="none" stroke="#1D9E75" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" points="40.0,48.6 49.3,30.8 58.6,51.6 67.9,75.3 77.1,123.5 86.4,108.6 95.7,103.5 105.0,110.3 114.3,130.2 123.6,120.9 132.9,111.8 142.1,109.1 151.4,142.8 160.7,141.5 170.0,143.4 179.3,134.2 188.6,139.6 197.9,143.0 207.1,141.8 216.4,141.2 225.7,147.2 235.0,154.1 244.3,144.1 253.6,136.9 262.9,133.0 272.1,137.9 281.4,133.0 290.7,134.2 300.0,124.8 318.6,140.1 327.9,134.0 337.1,138.8 346.4,148.7 355.7,149.0 365.0,143.0 374.3,136.8 383.6,136.8 392.9,135.8 402.1,132.9 411.4,131.9 420.7,133.7 430.0,134.0" />
-<circle cx="40.0" cy="124.9" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-03-20: 112.19 $/Bbl</title></circle>
-<circle cx="40.0" cy="124.9" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-03-20: 112.19 $/Bbl</title></circle>
-<circle cx="49.3" cy="144.9" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-03-23: 99.94 $/Bbl</title></circle>
-<circle cx="49.3" cy="144.9" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-03-23: 99.94 $/Bbl</title></circle>
-<circle cx="58.6" cy="137.4" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-03-24: 104.49 $/Bbl</title></circle>
-<circle cx="58.6" cy="137.4" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-03-24: 104.49 $/Bbl</title></circle>
-<circle cx="67.9" cy="141.2" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-03-25: 102.22 $/Bbl</title></circle>
-<circle cx="67.9" cy="141.2" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-03-25: 102.22 $/Bbl</title></circle>
-<circle cx="77.1" cy="131.7" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-03-26: 108.01 $/Bbl</title></circle>
-<circle cx="77.1" cy="131.7" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-03-26: 108.01 $/Bbl</title></circle>
-<circle cx="86.4" cy="124.2" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-03-27: 112.57 $/Bbl</title></circle>
-<circle cx="86.4" cy="124.2" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-03-27: 112.57 $/Bbl</title></circle>
-<circle cx="95.7" cy="123.9" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-03-30: 112.78 $/Bbl</title></circle>
-<circle cx="95.7" cy="123.9" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-03-30: 112.78 $/Bbl</title></circle>
-<circle cx="105.0" cy="114.8" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-03-31: 118.35 $/Bbl</title></circle>
-<circle cx="105.0" cy="114.8" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-03-31: 118.35 $/Bbl</title></circle>
-<circle cx="114.3" cy="142.9" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-01: 101.16 $/Bbl</title></circle>
-<circle cx="114.3" cy="142.9" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-01: 101.16 $/Bbl</title></circle>
-<circle cx="123.6" cy="130.0" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-02: 109.03 $/Bbl</title></circle>
-<circle cx="123.6" cy="130.0" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-02: 109.03 $/Bbl</title></circle>
-<circle cx="132.9" cy="128.8" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-06: 109.77 $/Bbl</title></circle>
-<circle cx="132.9" cy="128.8" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-06: 109.77 $/Bbl</title></circle>
-<circle cx="142.1" cy="129.6" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-07: 109.27 $/Bbl</title></circle>
-<circle cx="142.1" cy="129.6" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-07: 109.27 $/Bbl</title></circle>
-<circle cx="151.4" cy="153.4" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-08: 94.75 $/Bbl</title></circle>
-<circle cx="151.4" cy="153.4" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-08: 94.75 $/Bbl</title></circle>
-<circle cx="160.7" cy="151.4" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-09: 95.92 $/Bbl</title></circle>
-<circle cx="160.7" cy="151.4" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-09: 95.92 $/Bbl</title></circle>
-<circle cx="170.0" cy="152.6" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-10: 95.20 $/Bbl</title></circle>
-<circle cx="170.0" cy="152.6" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-10: 95.20 $/Bbl</title></circle>
-<circle cx="179.3" cy="145.8" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-13: 99.36 $/Bbl</title></circle>
-<circle cx="179.3" cy="145.8" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-13: 99.36 $/Bbl</title></circle>
-<circle cx="188.6" cy="153.3" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-14: 94.79 $/Bbl</title></circle>
-<circle cx="188.6" cy="153.3" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-14: 94.79 $/Bbl</title></circle>
-<circle cx="197.9" cy="153.1" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-15: 94.93 $/Bbl</title></circle>
-<circle cx="197.9" cy="153.1" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-15: 94.93 $/Bbl</title></circle>
-<circle cx="207.1" cy="145.8" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-16: 99.39 $/Bbl</title></circle>
-<circle cx="207.1" cy="145.8" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-16: 99.39 $/Bbl</title></circle>
-<circle cx="216.4" cy="160.5" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-17: 90.38 $/Bbl</title></circle>
-<circle cx="216.4" cy="160.5" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-17: 90.38 $/Bbl</title></circle>
-<circle cx="225.7" cy="152.2" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-20: 95.48 $/Bbl</title></circle>
-<circle cx="225.7" cy="152.2" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-20: 95.48 $/Bbl</title></circle>
-<circle cx="235.0" cy="147.3" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-21: 98.48 $/Bbl</title></circle>
-<circle cx="235.0" cy="147.3" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-21: 98.48 $/Bbl</title></circle>
-<circle cx="244.3" cy="141.7" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-22: 101.91 $/Bbl</title></circle>
-<circle cx="244.3" cy="141.7" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-22: 101.91 $/Bbl</title></circle>
-<circle cx="253.6" cy="136.5" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-23: 105.07 $/Bbl</title></circle>
-<circle cx="253.6" cy="136.5" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-23: 105.07 $/Bbl</title></circle>
-<circle cx="262.9" cy="136.1" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-24: 105.33 $/Bbl</title></circle>
-<circle cx="262.9" cy="136.1" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-24: 105.33 $/Bbl</title></circle>
-<circle cx="272.1" cy="131.3" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-27: 108.23 $/Bbl</title></circle>
-<circle cx="272.1" cy="131.3" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-27: 108.23 $/Bbl</title></circle>
-<circle cx="281.4" cy="126.4" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-28: 111.26 $/Bbl</title></circle>
-<circle cx="281.4" cy="126.4" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-28: 111.26 $/Bbl</title></circle>
-<circle cx="290.7" cy="115.3" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-29: 118.03 $/Bbl</title></circle>
-<circle cx="290.7" cy="115.3" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-29: 118.03 $/Bbl</title></circle>
-<circle cx="300.0" cy="121.9" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-04-30: 114.01 $/Bbl</title></circle>
-<circle cx="300.0" cy="121.9" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-04-30: 114.01 $/Bbl</title></circle>
-<circle cx="309.3" cy="131.4" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-01: 108.17 $/Bbl</title></circle>
-<circle cx="309.3" cy="131.4" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-01: 108.17 $/Bbl</title></circle>
-<circle cx="318.6" cy="121.2" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-04: 114.44 $/Bbl</title></circle>
-<circle cx="318.6" cy="121.2" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-04: 114.44 $/Bbl</title></circle>
-<circle cx="327.9" cy="128.7" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-05: 109.87 $/Bbl</title></circle>
-<circle cx="327.9" cy="128.7" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-05: 109.87 $/Bbl</title></circle>
-<circle cx="337.1" cy="142.7" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-06: 101.27 $/Bbl</title></circle>
-<circle cx="337.1" cy="142.7" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-06: 101.27 $/Bbl</title></circle>
-<circle cx="346.4" cy="144.7" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-07: 100.06 $/Bbl</title></circle>
-<circle cx="346.4" cy="144.7" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-07: 100.06 $/Bbl</title></circle>
-<circle cx="355.7" cy="142.7" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-08: 101.29 $/Bbl</title></circle>
-<circle cx="355.7" cy="142.7" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-08: 101.29 $/Bbl</title></circle>
-<circle cx="365.0" cy="137.9" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-11: 104.21 $/Bbl</title></circle>
-<circle cx="365.0" cy="137.9" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-11: 104.21 $/Bbl</title></circle>
-<circle cx="374.3" cy="132.1" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-12: 107.77 $/Bbl</title></circle>
-<circle cx="374.3" cy="132.1" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-12: 107.77 $/Bbl</title></circle>
-<circle cx="383.6" cy="135.6" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-13: 105.63 $/Bbl</title></circle>
-<circle cx="383.6" cy="135.6" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-13: 105.63 $/Bbl</title></circle>
-<circle cx="392.9" cy="135.4" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-14: 105.72 $/Bbl</title></circle>
-<circle cx="392.9" cy="135.4" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-14: 105.72 $/Bbl</title></circle>
-<circle cx="402.1" cy="129.7" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-15: 109.26 $/Bbl</title></circle>
-<circle cx="402.1" cy="129.7" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-15: 109.26 $/Bbl</title></circle>
-<circle cx="411.4" cy="125.0" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-18: 112.10 $/Bbl</title></circle>
-<circle cx="411.4" cy="125.0" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-18: 112.10 $/Bbl</title></circle>
-<circle cx="420.7" cy="126.4" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-19: 111.28 $/Bbl</title></circle>
-<circle cx="420.7" cy="126.4" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-19: 111.28 $/Bbl</title></circle>
-<circle cx="430.0" cy="136.6" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Brent 2026-05-20: 105.02 $/Bbl</title></circle>
-<circle cx="430.0" cy="136.6" r="7" fill="transparent" class="hover-hit"><title>Brent 2026-05-20: 105.02 $/Bbl</title></circle>
-<circle cx="40.0" cy="147.5" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-03-20: 98.32 $/Bbl</title></circle>
-<circle cx="40.0" cy="147.5" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-03-20: 98.32 $/Bbl</title></circle>
-<circle cx="49.3" cy="164.2" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-03-23: 88.13 $/Bbl</title></circle>
-<circle cx="49.3" cy="164.2" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-03-23: 88.13 $/Bbl</title></circle>
-<circle cx="58.6" cy="157.3" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-03-24: 92.35 $/Bbl</title></circle>
-<circle cx="58.6" cy="157.3" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-03-24: 92.35 $/Bbl</title></circle>
-<circle cx="67.9" cy="160.6" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-03-25: 90.32 $/Bbl</title></circle>
-<circle cx="67.9" cy="160.6" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-03-25: 90.32 $/Bbl</title></circle>
-<circle cx="77.1" cy="153.8" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-03-26: 94.48 $/Bbl</title></circle>
-<circle cx="77.1" cy="153.8" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-03-26: 94.48 $/Bbl</title></circle>
-<circle cx="86.4" cy="145.4" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-03-27: 99.64 $/Bbl</title></circle>
-<circle cx="86.4" cy="145.4" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-03-27: 99.64 $/Bbl</title></circle>
-<circle cx="95.7" cy="140.1" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-03-30: 102.88 $/Bbl</title></circle>
-<circle cx="95.7" cy="140.1" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-03-30: 102.88 $/Bbl</title></circle>
-<circle cx="105.0" cy="142.5" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-03-31: 101.38 $/Bbl</title></circle>
-<circle cx="105.0" cy="142.5" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-03-31: 101.38 $/Bbl</title></circle>
-<circle cx="114.3" cy="144.6" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-01: 100.12 $/Bbl</title></circle>
-<circle cx="114.3" cy="144.6" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-01: 100.12 $/Bbl</title></circle>
-<circle cx="123.6" cy="125.9" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-02: 111.54 $/Bbl</title></circle>
-<circle cx="123.6" cy="125.9" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-02: 111.54 $/Bbl</title></circle>
-<circle cx="132.9" cy="124.5" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-06: 112.41 $/Bbl</title></circle>
-<circle cx="132.9" cy="124.5" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-06: 112.41 $/Bbl</title></circle>
-<circle cx="142.1" cy="123.6" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-07: 112.95 $/Bbl</title></circle>
-<circle cx="142.1" cy="123.6" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-07: 112.95 $/Bbl</title></circle>
-<circle cx="151.4" cy="153.9" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-08: 94.41 $/Bbl</title></circle>
-<circle cx="151.4" cy="153.9" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-08: 94.41 $/Bbl</title></circle>
-<circle cx="160.7" cy="148.3" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-09: 97.87 $/Bbl</title></circle>
-<circle cx="160.7" cy="148.3" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-09: 97.87 $/Bbl</title></circle>
-<circle cx="170.0" cy="150.4" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-10: 96.57 $/Bbl</title></circle>
-<circle cx="170.0" cy="150.4" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-10: 96.57 $/Bbl</title></circle>
-<circle cx="179.3" cy="146.3" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-13: 99.08 $/Bbl</title></circle>
-<circle cx="179.3" cy="146.3" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-13: 99.08 $/Bbl</title></circle>
-<circle cx="188.6" cy="159.0" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-14: 91.28 $/Bbl</title></circle>
-<circle cx="188.6" cy="159.0" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-14: 91.28 $/Bbl</title></circle>
-<circle cx="197.9" cy="159.0" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-15: 91.29 $/Bbl</title></circle>
-<circle cx="197.9" cy="159.0" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-15: 91.29 $/Bbl</title></circle>
-<circle cx="207.1" cy="153.5" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-16: 94.69 $/Bbl</title></circle>
-<circle cx="207.1" cy="153.5" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-16: 94.69 $/Bbl</title></circle>
-<circle cx="216.4" cy="171.2" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-17: 83.85 $/Bbl</title></circle>
-<circle cx="216.4" cy="171.2" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-17: 83.85 $/Bbl</title></circle>
-<circle cx="225.7" cy="161.8" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-20: 89.61 $/Bbl</title></circle>
-<circle cx="225.7" cy="161.8" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-20: 89.61 $/Bbl</title></circle>
-<circle cx="235.0" cy="157.6" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-21: 92.13 $/Bbl</title></circle>
-<circle cx="235.0" cy="157.6" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-21: 92.13 $/Bbl</title></circle>
-<circle cx="244.3" cy="156.3" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-22: 92.96 $/Bbl</title></circle>
-<circle cx="244.3" cy="156.3" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-22: 92.96 $/Bbl</title></circle>
-<circle cx="253.6" cy="151.6" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-23: 95.85 $/Bbl</title></circle>
-<circle cx="253.6" cy="151.6" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-23: 95.85 $/Bbl</title></circle>
-<circle cx="262.9" cy="153.9" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-24: 94.40 $/Bbl</title></circle>
-<circle cx="262.9" cy="153.9" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-24: 94.40 $/Bbl</title></circle>
-<circle cx="272.1" cy="150.7" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-27: 96.37 $/Bbl</title></circle>
-<circle cx="272.1" cy="150.7" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-27: 96.37 $/Bbl</title></circle>
-<circle cx="281.4" cy="144.9" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-28: 99.93 $/Bbl</title></circle>
-<circle cx="281.4" cy="144.9" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-28: 99.93 $/Bbl</title></circle>
-<circle cx="290.7" cy="133.5" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-29: 106.88 $/Bbl</title></circle>
-<circle cx="290.7" cy="133.5" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-29: 106.88 $/Bbl</title></circle>
-<circle cx="300.0" cy="136.5" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-04-30: 105.07 $/Bbl</title></circle>
-<circle cx="300.0" cy="136.5" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-04-30: 105.07 $/Bbl</title></circle>
-<circle cx="309.3" cy="141.6" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-01: 101.94 $/Bbl</title></circle>
-<circle cx="309.3" cy="141.6" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-01: 101.94 $/Bbl</title></circle>
-<circle cx="318.6" cy="134.3" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-04: 106.42 $/Bbl</title></circle>
-<circle cx="318.6" cy="134.3" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-04: 106.42 $/Bbl</title></circle>
-<circle cx="327.9" cy="141.1" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-05: 102.27 $/Bbl</title></circle>
-<circle cx="327.9" cy="141.1" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-05: 102.27 $/Bbl</title></circle>
-<circle cx="337.1" cy="152.8" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-06: 95.08 $/Bbl</title></circle>
-<circle cx="337.1" cy="152.8" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-06: 95.08 $/Bbl</title></circle>
-<circle cx="346.4" cy="153.3" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-07: 94.81 $/Bbl</title></circle>
-<circle cx="346.4" cy="153.3" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-07: 94.81 $/Bbl</title></circle>
-<circle cx="355.7" cy="152.3" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-08: 95.42 $/Bbl</title></circle>
-<circle cx="355.7" cy="152.3" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-08: 95.42 $/Bbl</title></circle>
-<circle cx="365.0" cy="147.9" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-11: 98.07 $/Bbl</title></circle>
-<circle cx="365.0" cy="147.9" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-11: 98.07 $/Bbl</title></circle>
-<circle cx="374.3" cy="141.2" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-12: 102.18 $/Bbl</title></circle>
-<circle cx="374.3" cy="141.2" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-12: 102.18 $/Bbl</title></circle>
-<circle cx="383.6" cy="143.1" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-13: 101.02 $/Bbl</title></circle>
-<circle cx="383.6" cy="143.1" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-13: 101.02 $/Bbl</title></circle>
-<circle cx="392.9" cy="142.9" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-14: 101.17 $/Bbl</title></circle>
-<circle cx="392.9" cy="142.9" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-14: 101.17 $/Bbl</title></circle>
-<circle cx="402.1" cy="135.9" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-15: 105.42 $/Bbl</title></circle>
-<circle cx="402.1" cy="135.9" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-15: 105.42 $/Bbl</title></circle>
-<circle cx="411.4" cy="130.6" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-18: 108.66 $/Bbl</title></circle>
-<circle cx="411.4" cy="130.6" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-18: 108.66 $/Bbl</title></circle>
-<circle cx="420.7" cy="132.1" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-19: 107.77 $/Bbl</title></circle>
-<circle cx="420.7" cy="132.1" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-19: 107.77 $/Bbl</title></circle>
-<circle cx="430.0" cy="147.6" r="2.4" fill="#E24B4A" opacity="0.9"><title>WTI 2026-05-20: 98.26 $/Bbl</title></circle>
-<circle cx="430.0" cy="147.6" r="7" fill="transparent" class="hover-hit"><title>WTI 2026-05-20: 98.26 $/Bbl</title></circle>
-<circle cx="40.0" cy="48.6" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-03-20: 158.85 $/Bbl</title></circle>
-<circle cx="40.0" cy="48.6" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-03-20: 158.85 $/Bbl</title></circle>
-<circle cx="49.3" cy="30.8" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-03-23: 169.75 $/Bbl</title></circle>
-<circle cx="49.3" cy="30.8" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-03-23: 169.75 $/Bbl</title></circle>
-<circle cx="58.6" cy="51.6" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-03-24: 157.03 $/Bbl</title></circle>
-<circle cx="58.6" cy="51.6" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-03-24: 157.03 $/Bbl</title></circle>
-<circle cx="67.9" cy="75.3" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-03-25: 142.55 $/Bbl</title></circle>
-<circle cx="67.9" cy="75.3" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-03-25: 142.55 $/Bbl</title></circle>
-<circle cx="77.1" cy="123.5" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-03-26: 113.04 $/Bbl</title></circle>
-<circle cx="77.1" cy="123.5" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-03-26: 113.04 $/Bbl</title></circle>
-<circle cx="86.4" cy="108.6" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-03-27: 122.14 $/Bbl</title></circle>
-<circle cx="86.4" cy="108.6" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-03-27: 122.14 $/Bbl</title></circle>
-<circle cx="95.7" cy="103.5" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-03-30: 125.29 $/Bbl</title></circle>
-<circle cx="95.7" cy="103.5" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-03-30: 125.29 $/Bbl</title></circle>
-<circle cx="105.0" cy="110.3" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-03-31: 121.10 $/Bbl</title></circle>
-<circle cx="105.0" cy="110.3" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-03-31: 121.10 $/Bbl</title></circle>
-<circle cx="114.3" cy="130.2" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-01: 108.90 $/Bbl</title></circle>
-<circle cx="114.3" cy="130.2" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-01: 108.90 $/Bbl</title></circle>
-<circle cx="123.6" cy="120.9" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-02: 114.60 $/Bbl</title></circle>
-<circle cx="123.6" cy="120.9" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-02: 114.60 $/Bbl</title></circle>
-<circle cx="132.9" cy="111.8" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-06: 120.20 $/Bbl</title></circle>
-<circle cx="132.9" cy="111.8" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-06: 120.20 $/Bbl</title></circle>
-<circle cx="142.1" cy="109.1" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-07: 121.86 $/Bbl</title></circle>
-<circle cx="142.1" cy="109.1" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-07: 121.86 $/Bbl</title></circle>
-<circle cx="151.4" cy="142.8" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-08: 101.20 $/Bbl</title></circle>
-<circle cx="151.4" cy="142.8" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-08: 101.20 $/Bbl</title></circle>
-<circle cx="160.7" cy="141.5" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-09: 102.00 $/Bbl</title></circle>
-<circle cx="160.7" cy="141.5" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-09: 102.00 $/Bbl</title></circle>
-<circle cx="170.0" cy="143.4" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-10: 100.87 $/Bbl</title></circle>
-<circle cx="170.0" cy="143.4" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-10: 100.87 $/Bbl</title></circle>
-<circle cx="179.3" cy="134.2" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-13: 106.50 $/Bbl</title></circle>
-<circle cx="179.3" cy="134.2" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-13: 106.50 $/Bbl</title></circle>
-<circle cx="188.6" cy="139.6" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-14: 103.18 $/Bbl</title></circle>
-<circle cx="188.6" cy="139.6" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-14: 103.18 $/Bbl</title></circle>
-<circle cx="197.9" cy="143.0" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-15: 101.09 $/Bbl</title></circle>
-<circle cx="197.9" cy="143.0" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-15: 101.09 $/Bbl</title></circle>
-<circle cx="207.1" cy="141.8" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-16: 101.80 $/Bbl</title></circle>
-<circle cx="207.1" cy="141.8" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-16: 101.80 $/Bbl</title></circle>
-<circle cx="216.4" cy="141.2" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-17: 102.20 $/Bbl</title></circle>
-<circle cx="216.4" cy="141.2" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-17: 102.20 $/Bbl</title></circle>
-<circle cx="225.7" cy="147.2" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-20: 98.50 $/Bbl</title></circle>
-<circle cx="225.7" cy="147.2" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-20: 98.50 $/Bbl</title></circle>
-<circle cx="235.0" cy="154.1" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-21: 94.27 $/Bbl</title></circle>
-<circle cx="235.0" cy="154.1" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-21: 94.27 $/Bbl</title></circle>
-<circle cx="244.3" cy="144.1" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-22: 100.40 $/Bbl</title></circle>
-<circle cx="244.3" cy="144.1" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-22: 100.40 $/Bbl</title></circle>
-<circle cx="253.6" cy="136.9" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-23: 104.81 $/Bbl</title></circle>
-<circle cx="253.6" cy="136.9" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-23: 104.81 $/Bbl</title></circle>
-<circle cx="262.9" cy="133.0" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-24: 107.20 $/Bbl</title></circle>
-<circle cx="262.9" cy="133.0" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-24: 107.20 $/Bbl</title></circle>
-<circle cx="272.1" cy="137.9" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-27: 104.20 $/Bbl</title></circle>
-<circle cx="272.1" cy="137.9" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-27: 104.20 $/Bbl</title></circle>
-<circle cx="281.4" cy="133.0" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-28: 107.20 $/Bbl</title></circle>
-<circle cx="281.4" cy="133.0" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-28: 107.20 $/Bbl</title></circle>
-<circle cx="290.7" cy="134.2" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-29: 106.49 $/Bbl</title></circle>
-<circle cx="290.7" cy="134.2" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-29: 106.49 $/Bbl</title></circle>
-<circle cx="300.0" cy="124.8" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-04-30: 112.20 $/Bbl</title></circle>
-<circle cx="300.0" cy="124.8" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-04-30: 112.20 $/Bbl</title></circle>
-<circle cx="318.6" cy="140.1" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-05-04: 102.84 $/Bbl</title></circle>
-<circle cx="318.6" cy="140.1" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-05-04: 102.84 $/Bbl</title></circle>
-<circle cx="327.9" cy="134.0" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-05-05: 106.60 $/Bbl</title></circle>
-<circle cx="327.9" cy="134.0" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-05-05: 106.60 $/Bbl</title></circle>
-<circle cx="337.1" cy="138.8" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-05-06: 103.69 $/Bbl</title></circle>
-<circle cx="337.1" cy="138.8" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-05-06: 103.69 $/Bbl</title></circle>
-<circle cx="346.4" cy="148.7" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-05-07: 97.59 $/Bbl</title></circle>
-<circle cx="346.4" cy="148.7" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-05-07: 97.59 $/Bbl</title></circle>
-<circle cx="355.7" cy="149.0" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-05-08: 97.39 $/Bbl</title></circle>
-<circle cx="355.7" cy="149.0" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-05-08: 97.39 $/Bbl</title></circle>
-<circle cx="365.0" cy="143.0" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-05-11: 101.11 $/Bbl</title></circle>
-<circle cx="365.0" cy="143.0" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-05-11: 101.11 $/Bbl</title></circle>
-<circle cx="374.3" cy="136.8" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-05-12: 104.90 $/Bbl</title></circle>
-<circle cx="374.3" cy="136.8" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-05-12: 104.90 $/Bbl</title></circle>
-<circle cx="383.6" cy="136.8" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-05-13: 104.90 $/Bbl</title></circle>
-<circle cx="383.6" cy="136.8" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-05-13: 104.90 $/Bbl</title></circle>
-<circle cx="392.9" cy="135.8" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-05-14: 105.50 $/Bbl</title></circle>
-<circle cx="392.9" cy="135.8" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-05-14: 105.50 $/Bbl</title></circle>
-<circle cx="402.1" cy="132.9" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-05-15: 107.30 $/Bbl</title></circle>
-<circle cx="402.1" cy="132.9" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-05-15: 107.30 $/Bbl</title></circle>
-<circle cx="411.4" cy="131.9" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-05-18: 107.89 $/Bbl</title></circle>
-<circle cx="411.4" cy="131.9" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-05-18: 107.89 $/Bbl</title></circle>
-<circle cx="420.7" cy="133.7" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-05-19: 106.80 $/Bbl</title></circle>
-<circle cx="420.7" cy="133.7" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-05-19: 106.80 $/Bbl</title></circle>
-<circle cx="430.0" cy="134.0" r="2.4" fill="#1D9E75" opacity="0.9"><title>Dubai 2026-05-20: 106.60 $/Bbl</title></circle>
-<circle cx="430.0" cy="134.0" r="7" fill="transparent" class="hover-hit"><title>Dubai 2026-05-20: 106.60 $/Bbl</title></circle>
+<rect x="40.0" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-20 | Brent: 112.19 $/Bbl | WTI: 98.32 $/Bbl | Dubai: 158.85 $/Bbl" />
+<rect x="44.6" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-23 | Brent: 99.94 $/Bbl | WTI: 88.13 $/Bbl | Dubai: 169.75 $/Bbl" />
+<rect x="53.9" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-24 | Brent: 104.49 $/Bbl | WTI: 92.35 $/Bbl | Dubai: 157.03 $/Bbl" />
+<rect x="63.2" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-25 | Brent: 102.22 $/Bbl | WTI: 90.32 $/Bbl | Dubai: 142.55 $/Bbl" />
+<rect x="72.5" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-26 | Brent: 108.01 $/Bbl | WTI: 94.48 $/Bbl | Dubai: 113.04 $/Bbl" />
+<rect x="81.8" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-27 | Brent: 112.57 $/Bbl | WTI: 99.64 $/Bbl | Dubai: 122.14 $/Bbl" />
+<rect x="91.1" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-30 | Brent: 112.78 $/Bbl | WTI: 102.88 $/Bbl | Dubai: 125.29 $/Bbl" />
+<rect x="100.4" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-31 | Brent: 118.35 $/Bbl | WTI: 101.38 $/Bbl | Dubai: 121.10 $/Bbl" />
+<rect x="109.6" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-01 | Brent: 101.16 $/Bbl | WTI: 100.12 $/Bbl | Dubai: 108.90 $/Bbl" />
+<rect x="118.9" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-02 | Brent: 109.03 $/Bbl | WTI: 111.54 $/Bbl | Dubai: 114.60 $/Bbl" />
+<rect x="128.2" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-06 | Brent: 109.77 $/Bbl | WTI: 112.41 $/Bbl | Dubai: 120.20 $/Bbl" />
+<rect x="137.5" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-07 | Brent: 109.27 $/Bbl | WTI: 112.95 $/Bbl | Dubai: 121.86 $/Bbl" />
+<rect x="146.8" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-08 | Brent: 94.75 $/Bbl | WTI: 94.41 $/Bbl | Dubai: 101.20 $/Bbl" />
+<rect x="156.1" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-09 | Brent: 95.92 $/Bbl | WTI: 97.87 $/Bbl | Dubai: 102.00 $/Bbl" />
+<rect x="165.4" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-10 | Brent: 95.20 $/Bbl | WTI: 96.57 $/Bbl | Dubai: 100.87 $/Bbl" />
+<rect x="174.6" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-13 | Brent: 99.36 $/Bbl | WTI: 99.08 $/Bbl | Dubai: 106.50 $/Bbl" />
+<rect x="183.9" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-14 | Brent: 94.79 $/Bbl | WTI: 91.28 $/Bbl | Dubai: 103.18 $/Bbl" />
+<rect x="193.2" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-15 | Brent: 94.93 $/Bbl | WTI: 91.29 $/Bbl | Dubai: 101.09 $/Bbl" />
+<rect x="202.5" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-16 | Brent: 99.39 $/Bbl | WTI: 94.69 $/Bbl | Dubai: 101.80 $/Bbl" />
+<rect x="211.8" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-17 | Brent: 90.38 $/Bbl | WTI: 83.85 $/Bbl | Dubai: 102.20 $/Bbl" />
+<rect x="221.1" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-20 | Brent: 95.48 $/Bbl | WTI: 89.61 $/Bbl | Dubai: 98.50 $/Bbl" />
+<rect x="230.4" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-21 | Brent: 98.48 $/Bbl | WTI: 92.13 $/Bbl | Dubai: 94.27 $/Bbl" />
+<rect x="239.6" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-22 | Brent: 101.91 $/Bbl | WTI: 92.96 $/Bbl | Dubai: 100.40 $/Bbl" />
+<rect x="248.9" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-23 | Brent: 105.07 $/Bbl | WTI: 95.85 $/Bbl | Dubai: 104.81 $/Bbl" />
+<rect x="258.2" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-24 | Brent: 105.33 $/Bbl | WTI: 94.40 $/Bbl | Dubai: 107.20 $/Bbl" />
+<rect x="267.5" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-27 | Brent: 108.23 $/Bbl | WTI: 96.37 $/Bbl | Dubai: 104.20 $/Bbl" />
+<rect x="276.8" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-28 | Brent: 111.26 $/Bbl | WTI: 99.93 $/Bbl | Dubai: 107.20 $/Bbl" />
+<rect x="286.1" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-29 | Brent: 118.03 $/Bbl | WTI: 106.88 $/Bbl | Dubai: 106.49 $/Bbl" />
+<rect x="295.4" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-30 | Brent: 114.01 $/Bbl | WTI: 105.07 $/Bbl | Dubai: 112.20 $/Bbl" />
+<rect x="304.6" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-01 | Brent: 108.17 $/Bbl | WTI: 101.94 $/Bbl" />
+<rect x="313.9" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-04 | Brent: 114.44 $/Bbl | WTI: 106.42 $/Bbl | Dubai: 102.84 $/Bbl" />
+<rect x="323.2" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-05 | Brent: 109.87 $/Bbl | WTI: 102.27 $/Bbl | Dubai: 106.60 $/Bbl" />
+<rect x="332.5" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-06 | Brent: 101.27 $/Bbl | WTI: 95.08 $/Bbl | Dubai: 103.69 $/Bbl" />
+<rect x="341.8" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-07 | Brent: 100.06 $/Bbl | WTI: 94.81 $/Bbl | Dubai: 97.59 $/Bbl" />
+<rect x="351.1" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-08 | Brent: 101.29 $/Bbl | WTI: 95.42 $/Bbl | Dubai: 97.39 $/Bbl" />
+<rect x="360.4" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-11 | Brent: 104.21 $/Bbl | WTI: 98.07 $/Bbl | Dubai: 101.11 $/Bbl" />
+<rect x="369.6" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-12 | Brent: 107.77 $/Bbl | WTI: 102.18 $/Bbl | Dubai: 104.90 $/Bbl" />
+<rect x="378.9" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-13 | Brent: 105.63 $/Bbl | WTI: 101.02 $/Bbl | Dubai: 104.90 $/Bbl" />
+<rect x="388.2" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-14 | Brent: 105.72 $/Bbl | WTI: 101.17 $/Bbl | Dubai: 105.50 $/Bbl" />
+<rect x="397.5" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-15 | Brent: 109.26 $/Bbl | WTI: 105.42 $/Bbl | Dubai: 107.30 $/Bbl" />
+<rect x="406.8" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-18 | Brent: 112.10 $/Bbl | WTI: 108.66 $/Bbl | Dubai: 107.89 $/Bbl" />
+<rect x="416.1" y="14" width="9.3" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-19 | Brent: 111.28 $/Bbl | WTI: 107.77 $/Bbl | Dubai: 106.80 $/Bbl" />
+<rect x="425.4" y="14" width="4.6" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-20 | Brent: 105.02 $/Bbl | WTI: 98.26 $/Bbl | Dubai: 106.60 $/Bbl" />
 </svg></div></div></section>
 <section class="section"><div class="section-head"><span class="num">4</span><span class="section-title">석유제품 가격 추이 그래프 (3/20~5/20)</span></div><div class="body"><div class="chart-wrap"><div class="legend"><span class="legend-item"><span class="legend-dot" style="background:#1A6FD4"></span>Gasoline</span><span class="legend-item"><span class="legend-dot" style="background:#E24B4A"></span>Diesel</span><span class="legend-item"><span class="legend-dot" style="background:#1D9E75"></span>Naphtha</span></div><svg class="chart-svg" viewBox="0 0 440 220" xmlns="http://www.w3.org/2000/svg">
 <line x1="40" y1="188.0" x2="430" y2="188.0" stroke="rgba(0,0,0,.09)" />
@@ -384,258 +173,48 @@
 <polyline fill="none" stroke="#1A6FD4" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" points="40.0,135.4 49.5,130.5 59.0,141.9 68.5,149.8 78.0,152.4 87.6,150.2 97.1,143.5 106.6,144.3 116.1,146.1 125.6,139.9 135.1,141.8 144.6,144.5 154.1,158.3 163.7,149.8 173.2,151.9 182.7,151.7 192.2,155.1 201.7,158.6 211.2,157.3 220.7,156.3 230.2,158.9 239.8,159.2 249.3,154.8 258.8,153.6 268.3,154.5 277.8,152.0 287.3,153.1 296.8,150.7 306.3,147.4 315.9,149.9 325.4,145.7 334.9,148.1 344.4,153.4 353.9,155.7 363.4,152.4 372.9,148.8 382.4,147.1 392.0,147.0 401.5,146.4 411.0,144.2 420.5,144.8 430.0,146.7" />
 <polyline fill="none" stroke="#E24B4A" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" points="40.0,82.2 49.5,67.5 59.0,84.4 68.5,95.0 78.0,86.9 87.6,71.3 97.1,60.7 106.6,70.5 116.1,65.3 125.6,30.8 135.1,45.7 144.6,58.4 154.1,100.3 163.7,91.0 173.2,91.6 182.7,96.7 192.2,105.2 201.7,118.7 211.2,119.5 220.7,120.9 230.2,132.1 239.8,133.8 249.3,123.2 258.8,120.2 268.3,119.0 277.8,118.2 287.3,123.1 296.8,121.5 306.3,114.8 315.9,128.0 325.4,127.8 334.9,130.7 344.4,136.4 353.9,133.3 363.4,131.9 372.9,128.3 382.4,124.5 392.0,127.1 401.5,125.9 411.0,124.8 420.5,123.6 430.0,125.6" />
 <polyline fill="none" stroke="#1D9E75" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" points="40.0,147.6 49.5,144.1 59.0,152.4 68.5,159.7 78.0,151.2 87.6,147.8 97.1,142.1 106.6,141.9 116.1,145.6 125.6,142.3 135.1,145.3 144.6,145.2 154.1,159.0 163.7,154.9 173.2,155.6 182.7,153.5 192.2,156.7 201.7,160.7 211.2,160.9 220.7,161.1 230.2,168.2 239.8,169.7 249.3,164.8 258.8,161.7 268.3,159.2 277.8,158.1 287.3,159.4 296.8,157.7 306.3,151.6 315.9,159.7 325.4,159.5 334.9,166.2 344.4,171.2 353.9,170.8 363.4,165.6 372.9,162.6 382.4,162.4 392.0,162.3 401.5,162.5 411.0,163.9 420.5,164.5 430.0,166.7" />
-<circle cx="40.0" cy="135.4" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-03-20: 150.60 $/Bbl</title></circle>
-<circle cx="40.0" cy="135.4" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-03-20: 150.60 $/Bbl</title></circle>
-<circle cx="49.5" cy="130.5" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-03-23: 157.22 $/Bbl</title></circle>
-<circle cx="49.5" cy="130.5" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-03-23: 157.22 $/Bbl</title></circle>
-<circle cx="59.0" cy="141.9" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-03-24: 141.76 $/Bbl</title></circle>
-<circle cx="59.0" cy="141.9" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-03-24: 141.76 $/Bbl</title></circle>
-<circle cx="68.5" cy="149.8" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-03-25: 131.00 $/Bbl</title></circle>
-<circle cx="68.5" cy="149.8" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-03-25: 131.00 $/Bbl</title></circle>
-<circle cx="78.0" cy="152.4" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-03-26: 127.48 $/Bbl</title></circle>
-<circle cx="78.0" cy="152.4" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-03-26: 127.48 $/Bbl</title></circle>
-<circle cx="87.6" cy="150.2" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-03-27: 130.51 $/Bbl</title></circle>
-<circle cx="87.6" cy="150.2" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-03-27: 130.51 $/Bbl</title></circle>
-<circle cx="97.1" cy="143.5" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-03-30: 139.65 $/Bbl</title></circle>
-<circle cx="97.1" cy="143.5" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-03-30: 139.65 $/Bbl</title></circle>
-<circle cx="106.6" cy="144.3" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-03-31: 138.45 $/Bbl</title></circle>
-<circle cx="106.6" cy="144.3" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-03-31: 138.45 $/Bbl</title></circle>
-<circle cx="116.1" cy="146.1" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-01: 136.03 $/Bbl</title></circle>
-<circle cx="116.1" cy="146.1" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-01: 136.03 $/Bbl</title></circle>
-<circle cx="125.6" cy="139.9" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-02: 144.48 $/Bbl</title></circle>
-<circle cx="125.6" cy="139.9" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-02: 144.48 $/Bbl</title></circle>
-<circle cx="135.1" cy="141.8" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-06: 141.88 $/Bbl</title></circle>
-<circle cx="135.1" cy="141.8" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-06: 141.88 $/Bbl</title></circle>
-<circle cx="144.6" cy="144.5" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-07: 138.22 $/Bbl</title></circle>
-<circle cx="144.6" cy="144.5" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-07: 138.22 $/Bbl</title></circle>
-<circle cx="154.1" cy="158.3" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-08: 119.48 $/Bbl</title></circle>
-<circle cx="154.1" cy="158.3" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-08: 119.48 $/Bbl</title></circle>
-<circle cx="163.7" cy="149.8" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-09: 130.98 $/Bbl</title></circle>
-<circle cx="163.7" cy="149.8" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-09: 130.98 $/Bbl</title></circle>
-<circle cx="173.2" cy="151.9" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-10: 128.19 $/Bbl</title></circle>
-<circle cx="173.2" cy="151.9" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-10: 128.19 $/Bbl</title></circle>
-<circle cx="182.7" cy="151.7" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-13: 128.48 $/Bbl</title></circle>
-<circle cx="182.7" cy="151.7" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-13: 128.48 $/Bbl</title></circle>
-<circle cx="192.2" cy="155.1" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-14: 123.87 $/Bbl</title></circle>
-<circle cx="192.2" cy="155.1" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-14: 123.87 $/Bbl</title></circle>
-<circle cx="201.7" cy="158.6" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-15: 119.00 $/Bbl</title></circle>
-<circle cx="201.7" cy="158.6" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-15: 119.00 $/Bbl</title></circle>
-<circle cx="211.2" cy="157.3" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-16: 120.86 $/Bbl</title></circle>
-<circle cx="211.2" cy="157.3" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-16: 120.86 $/Bbl</title></circle>
-<circle cx="220.7" cy="156.3" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-17: 122.19 $/Bbl</title></circle>
-<circle cx="220.7" cy="156.3" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-17: 122.19 $/Bbl</title></circle>
-<circle cx="230.2" cy="158.9" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-20: 118.68 $/Bbl</title></circle>
-<circle cx="230.2" cy="158.9" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-20: 118.68 $/Bbl</title></circle>
-<circle cx="239.8" cy="159.2" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-21: 118.21 $/Bbl</title></circle>
-<circle cx="239.8" cy="159.2" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-21: 118.21 $/Bbl</title></circle>
-<circle cx="249.3" cy="154.8" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-22: 124.25 $/Bbl</title></circle>
-<circle cx="249.3" cy="154.8" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-22: 124.25 $/Bbl</title></circle>
-<circle cx="258.8" cy="153.6" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-23: 125.92 $/Bbl</title></circle>
-<circle cx="258.8" cy="153.6" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-23: 125.92 $/Bbl</title></circle>
-<circle cx="268.3" cy="154.5" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-24: 124.68 $/Bbl</title></circle>
-<circle cx="268.3" cy="154.5" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-24: 124.68 $/Bbl</title></circle>
-<circle cx="277.8" cy="152.0" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-27: 128.04 $/Bbl</title></circle>
-<circle cx="277.8" cy="152.0" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-27: 128.04 $/Bbl</title></circle>
-<circle cx="287.3" cy="153.1" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-28: 126.52 $/Bbl</title></circle>
-<circle cx="287.3" cy="153.1" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-28: 126.52 $/Bbl</title></circle>
-<circle cx="296.8" cy="150.7" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-29: 129.83 $/Bbl</title></circle>
-<circle cx="296.8" cy="150.7" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-29: 129.83 $/Bbl</title></circle>
-<circle cx="306.3" cy="147.4" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-04-30: 134.29 $/Bbl</title></circle>
-<circle cx="306.3" cy="147.4" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-04-30: 134.29 $/Bbl</title></circle>
-<circle cx="315.9" cy="149.9" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-05-04: 130.90 $/Bbl</title></circle>
-<circle cx="315.9" cy="149.9" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-05-04: 130.90 $/Bbl</title></circle>
-<circle cx="325.4" cy="145.7" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-05-05: 136.61 $/Bbl</title></circle>
-<circle cx="325.4" cy="145.7" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-05-05: 136.61 $/Bbl</title></circle>
-<circle cx="334.9" cy="148.1" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-05-06: 133.35 $/Bbl</title></circle>
-<circle cx="334.9" cy="148.1" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-05-06: 133.35 $/Bbl</title></circle>
-<circle cx="344.4" cy="153.4" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-05-07: 126.12 $/Bbl</title></circle>
-<circle cx="344.4" cy="153.4" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-05-07: 126.12 $/Bbl</title></circle>
-<circle cx="353.9" cy="155.7" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-05-08: 123.01 $/Bbl</title></circle>
-<circle cx="353.9" cy="155.7" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-05-08: 123.01 $/Bbl</title></circle>
-<circle cx="363.4" cy="152.4" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-05-11: 127.42 $/Bbl</title></circle>
-<circle cx="363.4" cy="152.4" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-05-11: 127.42 $/Bbl</title></circle>
-<circle cx="372.9" cy="148.8" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-05-12: 132.42 $/Bbl</title></circle>
-<circle cx="372.9" cy="148.8" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-05-12: 132.42 $/Bbl</title></circle>
-<circle cx="382.4" cy="147.1" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-05-13: 134.71 $/Bbl</title></circle>
-<circle cx="382.4" cy="147.1" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-05-13: 134.71 $/Bbl</title></circle>
-<circle cx="392.0" cy="147.0" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-05-14: 134.84 $/Bbl</title></circle>
-<circle cx="392.0" cy="147.0" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-05-14: 134.84 $/Bbl</title></circle>
-<circle cx="401.5" cy="146.4" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-05-15: 135.65 $/Bbl</title></circle>
-<circle cx="401.5" cy="146.4" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-05-15: 135.65 $/Bbl</title></circle>
-<circle cx="411.0" cy="144.2" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-05-18: 138.60 $/Bbl</title></circle>
-<circle cx="411.0" cy="144.2" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-05-18: 138.60 $/Bbl</title></circle>
-<circle cx="420.5" cy="144.8" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-05-19: 137.87 $/Bbl</title></circle>
-<circle cx="420.5" cy="144.8" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-05-19: 137.87 $/Bbl</title></circle>
-<circle cx="430.0" cy="146.7" r="2.4" fill="#1A6FD4" opacity="0.9"><title>Gasoline 2026-05-20: 135.17 $/Bbl</title></circle>
-<circle cx="430.0" cy="146.7" r="7" fill="transparent" class="hover-hit"><title>Gasoline 2026-05-20: 135.17 $/Bbl</title></circle>
-<circle cx="40.0" cy="82.2" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-03-20: 222.99 $/Bbl</title></circle>
-<circle cx="40.0" cy="82.2" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-03-20: 222.99 $/Bbl</title></circle>
-<circle cx="49.5" cy="67.5" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-03-23: 242.89 $/Bbl</title></circle>
-<circle cx="49.5" cy="67.5" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-03-23: 242.89 $/Bbl</title></circle>
-<circle cx="59.0" cy="84.4" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-03-24: 219.90 $/Bbl</title></circle>
-<circle cx="59.0" cy="84.4" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-03-24: 219.90 $/Bbl</title></circle>
-<circle cx="68.5" cy="95.0" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-03-25: 205.54 $/Bbl</title></circle>
-<circle cx="68.5" cy="95.0" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-03-25: 205.54 $/Bbl</title></circle>
-<circle cx="78.0" cy="86.9" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-03-26: 216.56 $/Bbl</title></circle>
-<circle cx="78.0" cy="86.9" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-03-26: 216.56 $/Bbl</title></circle>
-<circle cx="87.6" cy="71.3" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-03-27: 237.83 $/Bbl</title></circle>
-<circle cx="87.6" cy="71.3" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-03-27: 237.83 $/Bbl</title></circle>
-<circle cx="97.1" cy="60.7" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-03-30: 252.14 $/Bbl</title></circle>
-<circle cx="97.1" cy="60.7" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-03-30: 252.14 $/Bbl</title></circle>
-<circle cx="106.6" cy="70.5" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-03-31: 238.88 $/Bbl</title></circle>
-<circle cx="106.6" cy="70.5" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-03-31: 238.88 $/Bbl</title></circle>
-<circle cx="116.1" cy="65.3" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-01: 245.99 $/Bbl</title></circle>
-<circle cx="116.1" cy="65.3" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-01: 245.99 $/Bbl</title></circle>
-<circle cx="125.6" cy="30.8" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-02: 292.80 $/Bbl</title></circle>
-<circle cx="125.6" cy="30.8" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-02: 292.80 $/Bbl</title></circle>
-<circle cx="135.1" cy="45.7" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-06: 272.65 $/Bbl</title></circle>
-<circle cx="135.1" cy="45.7" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-06: 272.65 $/Bbl</title></circle>
-<circle cx="144.6" cy="58.4" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-07: 255.33 $/Bbl</title></circle>
-<circle cx="144.6" cy="58.4" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-07: 255.33 $/Bbl</title></circle>
-<circle cx="154.1" cy="100.3" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-08: 198.37 $/Bbl</title></circle>
-<circle cx="154.1" cy="100.3" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-08: 198.37 $/Bbl</title></circle>
-<circle cx="163.7" cy="91.0" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-09: 210.99 $/Bbl</title></circle>
-<circle cx="163.7" cy="91.0" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-09: 210.99 $/Bbl</title></circle>
-<circle cx="173.2" cy="91.6" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-10: 210.13 $/Bbl</title></circle>
-<circle cx="173.2" cy="91.6" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-10: 210.13 $/Bbl</title></circle>
-<circle cx="182.7" cy="96.7" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-13: 203.21 $/Bbl</title></circle>
-<circle cx="182.7" cy="96.7" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-13: 203.21 $/Bbl</title></circle>
-<circle cx="192.2" cy="105.2" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-14: 191.74 $/Bbl</title></circle>
-<circle cx="192.2" cy="105.2" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-14: 191.74 $/Bbl</title></circle>
-<circle cx="201.7" cy="118.7" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-15: 173.32 $/Bbl</title></circle>
-<circle cx="201.7" cy="118.7" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-15: 173.32 $/Bbl</title></circle>
-<circle cx="211.2" cy="119.5" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-16: 172.23 $/Bbl</title></circle>
-<circle cx="211.2" cy="119.5" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-16: 172.23 $/Bbl</title></circle>
-<circle cx="220.7" cy="120.9" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-17: 170.31 $/Bbl</title></circle>
-<circle cx="220.7" cy="120.9" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-17: 170.31 $/Bbl</title></circle>
-<circle cx="230.2" cy="132.1" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-20: 155.07 $/Bbl</title></circle>
-<circle cx="230.2" cy="132.1" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-20: 155.07 $/Bbl</title></circle>
-<circle cx="239.8" cy="133.8" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-21: 152.84 $/Bbl</title></circle>
-<circle cx="239.8" cy="133.8" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-21: 152.84 $/Bbl</title></circle>
-<circle cx="249.3" cy="123.2" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-22: 167.20 $/Bbl</title></circle>
-<circle cx="249.3" cy="123.2" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-22: 167.20 $/Bbl</title></circle>
-<circle cx="258.8" cy="120.2" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-23: 171.26 $/Bbl</title></circle>
-<circle cx="258.8" cy="120.2" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-23: 171.26 $/Bbl</title></circle>
-<circle cx="268.3" cy="119.0" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-24: 172.84 $/Bbl</title></circle>
-<circle cx="268.3" cy="119.0" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-24: 172.84 $/Bbl</title></circle>
-<circle cx="277.8" cy="118.2" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-27: 174.04 $/Bbl</title></circle>
-<circle cx="277.8" cy="118.2" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-27: 174.04 $/Bbl</title></circle>
-<circle cx="287.3" cy="123.1" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-28: 167.38 $/Bbl</title></circle>
-<circle cx="287.3" cy="123.1" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-28: 167.38 $/Bbl</title></circle>
-<circle cx="296.8" cy="121.5" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-29: 169.49 $/Bbl</title></circle>
-<circle cx="296.8" cy="121.5" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-29: 169.49 $/Bbl</title></circle>
-<circle cx="306.3" cy="114.8" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-04-30: 178.67 $/Bbl</title></circle>
-<circle cx="306.3" cy="114.8" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-04-30: 178.67 $/Bbl</title></circle>
-<circle cx="315.9" cy="128.0" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-05-04: 160.73 $/Bbl</title></circle>
-<circle cx="315.9" cy="128.0" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-05-04: 160.73 $/Bbl</title></circle>
-<circle cx="325.4" cy="127.8" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-05-05: 160.96 $/Bbl</title></circle>
-<circle cx="325.4" cy="127.8" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-05-05: 160.96 $/Bbl</title></circle>
-<circle cx="334.9" cy="130.7" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-05-06: 157.05 $/Bbl</title></circle>
-<circle cx="334.9" cy="130.7" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-05-06: 157.05 $/Bbl</title></circle>
-<circle cx="344.4" cy="136.4" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-05-07: 149.29 $/Bbl</title></circle>
-<circle cx="344.4" cy="136.4" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-05-07: 149.29 $/Bbl</title></circle>
-<circle cx="353.9" cy="133.3" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-05-08: 153.49 $/Bbl</title></circle>
-<circle cx="353.9" cy="133.3" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-05-08: 153.49 $/Bbl</title></circle>
-<circle cx="363.4" cy="131.9" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-05-11: 155.33 $/Bbl</title></circle>
-<circle cx="363.4" cy="131.9" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-05-11: 155.33 $/Bbl</title></circle>
-<circle cx="372.9" cy="128.3" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-05-12: 160.25 $/Bbl</title></circle>
-<circle cx="372.9" cy="128.3" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-05-12: 160.25 $/Bbl</title></circle>
-<circle cx="382.4" cy="124.5" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-05-13: 165.41 $/Bbl</title></circle>
-<circle cx="382.4" cy="124.5" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-05-13: 165.41 $/Bbl</title></circle>
-<circle cx="392.0" cy="127.1" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-05-14: 161.88 $/Bbl</title></circle>
-<circle cx="392.0" cy="127.1" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-05-14: 161.88 $/Bbl</title></circle>
-<circle cx="401.5" cy="125.9" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-05-15: 163.47 $/Bbl</title></circle>
-<circle cx="401.5" cy="125.9" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-05-15: 163.47 $/Bbl</title></circle>
-<circle cx="411.0" cy="124.8" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-05-18: 165.02 $/Bbl</title></circle>
-<circle cx="411.0" cy="124.8" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-05-18: 165.02 $/Bbl</title></circle>
-<circle cx="420.5" cy="123.6" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-05-19: 166.59 $/Bbl</title></circle>
-<circle cx="420.5" cy="123.6" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-05-19: 166.59 $/Bbl</title></circle>
-<circle cx="430.0" cy="125.6" r="2.4" fill="#E24B4A" opacity="0.9"><title>Diesel 2026-05-20: 163.91 $/Bbl</title></circle>
-<circle cx="430.0" cy="125.6" r="7" fill="transparent" class="hover-hit"><title>Diesel 2026-05-20: 163.91 $/Bbl</title></circle>
-<circle cx="40.0" cy="147.6" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-03-20: 133.97 $/Bbl</title></circle>
-<circle cx="40.0" cy="147.6" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-03-20: 133.97 $/Bbl</title></circle>
-<circle cx="49.5" cy="144.1" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-03-23: 138.75 $/Bbl</title></circle>
-<circle cx="49.5" cy="144.1" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-03-23: 138.75 $/Bbl</title></circle>
-<circle cx="59.0" cy="152.4" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-03-24: 127.52 $/Bbl</title></circle>
-<circle cx="59.0" cy="152.4" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-03-24: 127.52 $/Bbl</title></circle>
-<circle cx="68.5" cy="159.7" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-03-25: 117.62 $/Bbl</title></circle>
-<circle cx="68.5" cy="159.7" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-03-25: 117.62 $/Bbl</title></circle>
-<circle cx="78.0" cy="151.2" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-03-26: 129.12 $/Bbl</title></circle>
-<circle cx="78.0" cy="151.2" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-03-26: 129.12 $/Bbl</title></circle>
-<circle cx="87.6" cy="147.8" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-03-27: 133.74 $/Bbl</title></circle>
-<circle cx="87.6" cy="147.8" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-03-27: 133.74 $/Bbl</title></circle>
-<circle cx="97.1" cy="142.1" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-03-30: 141.53 $/Bbl</title></circle>
-<circle cx="97.1" cy="142.1" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-03-30: 141.53 $/Bbl</title></circle>
-<circle cx="106.6" cy="141.9" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-03-31: 141.72 $/Bbl</title></circle>
-<circle cx="106.6" cy="141.9" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-03-31: 141.72 $/Bbl</title></circle>
-<circle cx="116.1" cy="145.6" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-01: 136.69 $/Bbl</title></circle>
-<circle cx="116.1" cy="145.6" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-01: 136.69 $/Bbl</title></circle>
-<circle cx="125.6" cy="142.3" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-02: 141.26 $/Bbl</title></circle>
-<circle cx="125.6" cy="142.3" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-02: 141.26 $/Bbl</title></circle>
-<circle cx="135.1" cy="145.3" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-06: 137.08 $/Bbl</title></circle>
-<circle cx="135.1" cy="145.3" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-06: 137.08 $/Bbl</title></circle>
-<circle cx="144.6" cy="145.2" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-07: 137.24 $/Bbl</title></circle>
-<circle cx="144.6" cy="145.2" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-07: 137.24 $/Bbl</title></circle>
-<circle cx="154.1" cy="159.0" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-08: 118.46 $/Bbl</title></circle>
-<circle cx="154.1" cy="159.0" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-08: 118.46 $/Bbl</title></circle>
-<circle cx="163.7" cy="154.9" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-09: 124.14 $/Bbl</title></circle>
-<circle cx="163.7" cy="154.9" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-09: 124.14 $/Bbl</title></circle>
-<circle cx="173.2" cy="155.6" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-10: 123.14 $/Bbl</title></circle>
-<circle cx="173.2" cy="155.6" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-10: 123.14 $/Bbl</title></circle>
-<circle cx="182.7" cy="153.5" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-13: 126.04 $/Bbl</title></circle>
-<circle cx="182.7" cy="153.5" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-13: 126.04 $/Bbl</title></circle>
-<circle cx="192.2" cy="156.7" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-14: 121.59 $/Bbl</title></circle>
-<circle cx="192.2" cy="156.7" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-14: 121.59 $/Bbl</title></circle>
-<circle cx="201.7" cy="160.7" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-15: 116.14 $/Bbl</title></circle>
-<circle cx="201.7" cy="160.7" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-15: 116.14 $/Bbl</title></circle>
-<circle cx="211.2" cy="160.9" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-16: 115.88 $/Bbl</title></circle>
-<circle cx="211.2" cy="160.9" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-16: 115.88 $/Bbl</title></circle>
-<circle cx="220.7" cy="161.1" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-17: 115.60 $/Bbl</title></circle>
-<circle cx="220.7" cy="161.1" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-17: 115.60 $/Bbl</title></circle>
-<circle cx="230.2" cy="168.2" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-20: 106.04 $/Bbl</title></circle>
-<circle cx="230.2" cy="168.2" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-20: 106.04 $/Bbl</title></circle>
-<circle cx="239.8" cy="169.7" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-21: 103.99 $/Bbl</title></circle>
-<circle cx="239.8" cy="169.7" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-21: 103.99 $/Bbl</title></circle>
-<circle cx="249.3" cy="164.8" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-22: 110.61 $/Bbl</title></circle>
-<circle cx="249.3" cy="164.8" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-22: 110.61 $/Bbl</title></circle>
-<circle cx="258.8" cy="161.7" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-23: 114.90 $/Bbl</title></circle>
-<circle cx="258.8" cy="161.7" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-23: 114.90 $/Bbl</title></circle>
-<circle cx="268.3" cy="159.2" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-24: 118.30 $/Bbl</title></circle>
-<circle cx="268.3" cy="159.2" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-24: 118.30 $/Bbl</title></circle>
-<circle cx="277.8" cy="158.1" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-27: 119.67 $/Bbl</title></circle>
-<circle cx="277.8" cy="158.1" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-27: 119.67 $/Bbl</title></circle>
-<circle cx="287.3" cy="159.4" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-28: 117.94 $/Bbl</title></circle>
-<circle cx="287.3" cy="159.4" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-28: 117.94 $/Bbl</title></circle>
-<circle cx="296.8" cy="157.7" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-29: 120.30 $/Bbl</title></circle>
-<circle cx="296.8" cy="157.7" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-29: 120.30 $/Bbl</title></circle>
-<circle cx="306.3" cy="151.6" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-04-30: 128.56 $/Bbl</title></circle>
-<circle cx="306.3" cy="151.6" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-04-30: 128.56 $/Bbl</title></circle>
-<circle cx="315.9" cy="159.7" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-05-04: 117.57 $/Bbl</title></circle>
-<circle cx="315.9" cy="159.7" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-05-04: 117.57 $/Bbl</title></circle>
-<circle cx="325.4" cy="159.5" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-05-05: 117.79 $/Bbl</title></circle>
-<circle cx="325.4" cy="159.5" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-05-05: 117.79 $/Bbl</title></circle>
-<circle cx="334.9" cy="166.2" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-05-06: 108.70 $/Bbl</title></circle>
-<circle cx="334.9" cy="166.2" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-05-06: 108.70 $/Bbl</title></circle>
-<circle cx="344.4" cy="171.2" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-05-07: 101.97 $/Bbl</title></circle>
-<circle cx="344.4" cy="171.2" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-05-07: 101.97 $/Bbl</title></circle>
-<circle cx="353.9" cy="170.8" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-05-08: 102.45 $/Bbl</title></circle>
-<circle cx="353.9" cy="170.8" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-05-08: 102.45 $/Bbl</title></circle>
-<circle cx="363.4" cy="165.6" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-05-11: 109.53 $/Bbl</title></circle>
-<circle cx="363.4" cy="165.6" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-05-11: 109.53 $/Bbl</title></circle>
-<circle cx="372.9" cy="162.6" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-05-12: 113.64 $/Bbl</title></circle>
-<circle cx="372.9" cy="162.6" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-05-12: 113.64 $/Bbl</title></circle>
-<circle cx="382.4" cy="162.4" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-05-13: 113.92 $/Bbl</title></circle>
-<circle cx="382.4" cy="162.4" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-05-13: 113.92 $/Bbl</title></circle>
-<circle cx="392.0" cy="162.3" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-05-14: 113.98 $/Bbl</title></circle>
-<circle cx="392.0" cy="162.3" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-05-14: 113.98 $/Bbl</title></circle>
-<circle cx="401.5" cy="162.5" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-05-15: 113.74 $/Bbl</title></circle>
-<circle cx="401.5" cy="162.5" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-05-15: 113.74 $/Bbl</title></circle>
-<circle cx="411.0" cy="163.9" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-05-18: 111.82 $/Bbl</title></circle>
-<circle cx="411.0" cy="163.9" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-05-18: 111.82 $/Bbl</title></circle>
-<circle cx="420.5" cy="164.5" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-05-19: 111.05 $/Bbl</title></circle>
-<circle cx="420.5" cy="164.5" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-05-19: 111.05 $/Bbl</title></circle>
-<circle cx="430.0" cy="166.7" r="2.4" fill="#1D9E75" opacity="0.9"><title>Naphtha 2026-05-20: 108.01 $/Bbl</title></circle>
-<circle cx="430.0" cy="166.7" r="7" fill="transparent" class="hover-hit"><title>Naphtha 2026-05-20: 108.01 $/Bbl</title></circle>
+<rect x="40.0" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-20 | Gasoline: 150.60 $/Bbl | Diesel: 222.99 $/Bbl | Naphtha: 133.97 $/Bbl" />
+<rect x="44.8" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-23 | Gasoline: 157.22 $/Bbl | Diesel: 242.89 $/Bbl | Naphtha: 138.75 $/Bbl" />
+<rect x="54.3" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-24 | Gasoline: 141.76 $/Bbl | Diesel: 219.90 $/Bbl | Naphtha: 127.52 $/Bbl" />
+<rect x="63.8" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-25 | Gasoline: 131.00 $/Bbl | Diesel: 205.54 $/Bbl | Naphtha: 117.62 $/Bbl" />
+<rect x="73.3" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-26 | Gasoline: 127.48 $/Bbl | Diesel: 216.56 $/Bbl | Naphtha: 129.12 $/Bbl" />
+<rect x="82.8" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-27 | Gasoline: 130.51 $/Bbl | Diesel: 237.83 $/Bbl | Naphtha: 133.74 $/Bbl" />
+<rect x="92.3" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-30 | Gasoline: 139.65 $/Bbl | Diesel: 252.14 $/Bbl | Naphtha: 141.53 $/Bbl" />
+<rect x="101.8" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-03-31 | Gasoline: 138.45 $/Bbl | Diesel: 238.88 $/Bbl | Naphtha: 141.72 $/Bbl" />
+<rect x="111.3" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-01 | Gasoline: 136.03 $/Bbl | Diesel: 245.99 $/Bbl | Naphtha: 136.69 $/Bbl" />
+<rect x="120.9" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-02 | Gasoline: 144.48 $/Bbl | Diesel: 292.80 $/Bbl | Naphtha: 141.26 $/Bbl" />
+<rect x="130.4" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-06 | Gasoline: 141.88 $/Bbl | Diesel: 272.65 $/Bbl | Naphtha: 137.08 $/Bbl" />
+<rect x="139.9" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-07 | Gasoline: 138.22 $/Bbl | Diesel: 255.33 $/Bbl | Naphtha: 137.24 $/Bbl" />
+<rect x="149.4" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-08 | Gasoline: 119.48 $/Bbl | Diesel: 198.37 $/Bbl | Naphtha: 118.46 $/Bbl" />
+<rect x="158.9" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-09 | Gasoline: 130.98 $/Bbl | Diesel: 210.99 $/Bbl | Naphtha: 124.14 $/Bbl" />
+<rect x="168.4" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-10 | Gasoline: 128.19 $/Bbl | Diesel: 210.13 $/Bbl | Naphtha: 123.14 $/Bbl" />
+<rect x="177.9" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-13 | Gasoline: 128.48 $/Bbl | Diesel: 203.21 $/Bbl | Naphtha: 126.04 $/Bbl" />
+<rect x="187.4" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-14 | Gasoline: 123.87 $/Bbl | Diesel: 191.74 $/Bbl | Naphtha: 121.59 $/Bbl" />
+<rect x="197.0" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-15 | Gasoline: 119.00 $/Bbl | Diesel: 173.32 $/Bbl | Naphtha: 116.14 $/Bbl" />
+<rect x="206.5" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-16 | Gasoline: 120.86 $/Bbl | Diesel: 172.23 $/Bbl | Naphtha: 115.88 $/Bbl" />
+<rect x="216.0" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-17 | Gasoline: 122.19 $/Bbl | Diesel: 170.31 $/Bbl | Naphtha: 115.60 $/Bbl" />
+<rect x="225.5" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-20 | Gasoline: 118.68 $/Bbl | Diesel: 155.07 $/Bbl | Naphtha: 106.04 $/Bbl" />
+<rect x="235.0" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-21 | Gasoline: 118.21 $/Bbl | Diesel: 152.84 $/Bbl | Naphtha: 103.99 $/Bbl" />
+<rect x="244.5" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-22 | Gasoline: 124.25 $/Bbl | Diesel: 167.20 $/Bbl | Naphtha: 110.61 $/Bbl" />
+<rect x="254.0" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-23 | Gasoline: 125.92 $/Bbl | Diesel: 171.26 $/Bbl | Naphtha: 114.90 $/Bbl" />
+<rect x="263.5" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-24 | Gasoline: 124.68 $/Bbl | Diesel: 172.84 $/Bbl | Naphtha: 118.30 $/Bbl" />
+<rect x="273.0" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-27 | Gasoline: 128.04 $/Bbl | Diesel: 174.04 $/Bbl | Naphtha: 119.67 $/Bbl" />
+<rect x="282.6" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-28 | Gasoline: 126.52 $/Bbl | Diesel: 167.38 $/Bbl | Naphtha: 117.94 $/Bbl" />
+<rect x="292.1" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-29 | Gasoline: 129.83 $/Bbl | Diesel: 169.49 $/Bbl | Naphtha: 120.30 $/Bbl" />
+<rect x="301.6" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-04-30 | Gasoline: 134.29 $/Bbl | Diesel: 178.67 $/Bbl | Naphtha: 128.56 $/Bbl" />
+<rect x="311.1" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-04 | Gasoline: 130.90 $/Bbl | Diesel: 160.73 $/Bbl | Naphtha: 117.57 $/Bbl" />
+<rect x="320.6" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-05 | Gasoline: 136.61 $/Bbl | Diesel: 160.96 $/Bbl | Naphtha: 117.79 $/Bbl" />
+<rect x="330.1" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-06 | Gasoline: 133.35 $/Bbl | Diesel: 157.05 $/Bbl | Naphtha: 108.70 $/Bbl" />
+<rect x="339.6" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-07 | Gasoline: 126.12 $/Bbl | Diesel: 149.29 $/Bbl | Naphtha: 101.97 $/Bbl" />
+<rect x="349.1" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-08 | Gasoline: 123.01 $/Bbl | Diesel: 153.49 $/Bbl | Naphtha: 102.45 $/Bbl" />
+<rect x="358.7" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-11 | Gasoline: 127.42 $/Bbl | Diesel: 155.33 $/Bbl | Naphtha: 109.53 $/Bbl" />
+<rect x="368.2" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-12 | Gasoline: 132.42 $/Bbl | Diesel: 160.25 $/Bbl | Naphtha: 113.64 $/Bbl" />
+<rect x="377.7" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-13 | Gasoline: 134.71 $/Bbl | Diesel: 165.41 $/Bbl | Naphtha: 113.92 $/Bbl" />
+<rect x="387.2" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-14 | Gasoline: 134.84 $/Bbl | Diesel: 161.88 $/Bbl | Naphtha: 113.98 $/Bbl" />
+<rect x="396.7" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-15 | Gasoline: 135.65 $/Bbl | Diesel: 163.47 $/Bbl | Naphtha: 113.74 $/Bbl" />
+<rect x="406.2" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-18 | Gasoline: 138.60 $/Bbl | Diesel: 165.02 $/Bbl | Naphtha: 111.82 $/Bbl" />
+<rect x="415.7" y="14" width="9.5" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-19 | Gasoline: 137.87 $/Bbl | Diesel: 166.59 $/Bbl | Naphtha: 111.05 $/Bbl" />
+<rect x="425.2" y="14" width="4.8" height="174" fill="transparent" class="hover-band" data-tooltip="2026-05-20 | Gasoline: 135.17 $/Bbl | Diesel: 163.91 $/Bbl | Naphtha: 108.01 $/Bbl" />
 </svg></div></div></section>
 <section class="section"><div class="section-head"><span class="num">5</span><span class="section-title">전일 주요 이슈 (5/20)</span></div><div class="body"><div class="issue-card"><span class="issue-tag">정유</span><div class="issue-title">산업부 착한주유소 현장방문 및 간담회</div><div class="issue-desc">전일 일정에 산업부 장관의 착한주유소 현장방문 및 간담회가 포함됨. 실제 발언·후속 조치가 별도 확인되지 않은 상태에서는 정책 방향을 단정할 수 없으나, 고유가 국면에서 주유소 가격 안정·현장 애로·정유사 공급가격 이슈가 함께 제기될 가능성은 있음.</div><div class="issue-footer"><span class="issue-grade grade-a">A 직접</span></div></div>
 <div class="issue-card"><span class="issue-tag">석유화학</span><div class="issue-title">국회 산중위 전체회의 및 산업통상자원지식재산소위</div><div class="issue-desc">산중위 전체회의와 법안소위가 전일 개최 일정으로 확인됨. 구체 안건·질의 내용은 별도 회의록 확인이 필요함. 정유·석유화학 업계 관련성은 에너지·산업 정책, 공급망, 중소기업 원가 부담 이슈가 제기될 경우에 한정한 작성자 해석임.</div><div class="issue-footer"><span class="issue-grade grade-b">B 간접</span></div></div>
@@ -656,4 +235,67 @@
 <section class="section"><div class="section-head"><span class="num">7</span><span class="section-title">조간 신문 트렌드</span></div><div class="body"><div class="news-summary">확인 가능한 조간 기사 기준, 주요 보도는 △<strong>한일 정상회담 이후 원유·석유제품·LNG 협력 확대</strong> △<strong>호르무즈 리스크 장기화에 따른 해운·정유 비용 부담</strong> △<strong>정유·화학 업종의 2분기 실적 개선 기대</strong>로 정리 가능.<br><br><strong>&lt;EBN&gt;</strong>은 5/19 한일 정상회담에서 양국이 LNG, 원유, 석유제품 분야 협력을 확대하기로 했고, 원유·석유제품·LNG 스와프 거래 추진에 공감대를 형성했다고 보도. 정유·LNG 업계 관점에서는 비축, 상호공급, 수급정보 공유 등 후속 논의 여부가 모니터링 포인트.<br><br><strong>&lt;뉴스투데이&gt;</strong>는 중동 노선 운임 상승이 서비스 차질과 비용 부담으로 이어지고 있다고 보도했으며, 기사 내에서 HMM의 우회 운항·연료비 부담과 에쓰오일의 대체 원유 확보·장기계약 구조 대응이 언급됨. 정유업계 영향은 해당 기사에서 확인되는 범위 내에서 수급 안정·원가 부담 이슈로 한정.<br><br><strong>&lt;매일경제&gt;</strong>는 2분기 코스피 상장사 실적 전망 기사에서 정유·화학주가 전년 적자에서 흑자 전환하며 영업이익 증가에 기여할 것으로 전망했다고 보도. 다만 이는 증권시장·실적 전망 기사이며, 고유가 정책·최고가격제·개별 정유사 손익을 직접 분석한 기사는 아님.</div><div class="section-divider"></div><div class="small-title">대표 기사</div><div class="news-item"><div class="news-num">1</div><div><div class="news-title"><a href="https://www.ebn.co.kr/news/articleView.html?idxno=1709437" target="_blank" rel="noopener noreferrer">“원유·LNG까지 손잡았다”…한·일, 중동발 에너지 전쟁에 공동방어선</a></div><div class="news-press">EBN</div></div></div><div class="news-item"><div class="news-num">2</div><div><div class="news-title"><a href="https://www.news2day.co.kr/article/20260519500022" target="_blank" rel="noopener noreferrer">해운업계, 중동 운임 3배 올랐는데 배 못 띄우는 까닭</a></div><div class="news-press">뉴스투데이</div></div></div><div class="news-item"><div class="news-num">3</div><div><div class="news-title"><a href="https://www.mk.co.kr/news/stock/12052782" target="_blank" rel="noopener noreferrer">“코스피 따라 무너진 멘탈, 실적 보고 찾아야”…2분기도 ‘역대급’ 예고</a></div><div class="news-press">매일경제</div></div></div></div></section>
 <section class="section"><div class="section-head"><span class="num">8</span><span class="section-title">검수·출처 메모</span></div><div class="body"><div class="small-title">검수 메모</div><ul class="quality-list"><li>기사 제목·URL·발행일 확인 후 대표 기사로 사용합니다.</li><li>일정 관련성·영향도는 원문 사실이 아니라 정유/석화/LNG 관점의 작성자 해석으로 구분합니다.</li><li>가격 데이터에서 0값은 카드·그래프 산출에서 제외합니다.</li><li>정책 방향, 정부 의도, 업계 손익 영향은 원문 근거가 없는 경우 단정하지 않습니다.</li><li>세이프타임즈 일정은 자동 추출 결과이므로 시간·기관·일정명 수동 확인이 필요합니다.</li><li>일정 관련성 문구는 정유/석화/LNG 관점의 작성자 해석이며 원문 사실과 구분해야 합니다.</li><li>오피넷 국제유가 데이터는 원유·석유제품 표의 $/Bbl 행을 기준으로 자동 반영했습니다.</li><li>가격 추이 그래프는 기준일 전일 기준 과거 2개월(3/20~5/20)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.</li><li>값이 0인 가격은 그래프 이력에서 제외했습니다.</li><li>가격 데이터는 원유와 석유제품 각각의 최신 가격 일자가 다를 수 있으므로 기준일 라벨을 별도 표시합니다.</li><li>장기 가격 이력 출처 파일: {&quot;crude&quot;: &quot;국제_원유가격20260101-20260520.xls&quot;, &quot;products&quot;: &quot;국제_석유제품가격20260101-20260520.xls&quot;}</li></ul><div class="section-divider"></div><div class="small-title">주요 출처</div><ul class="quality-list"><li><a href="https://www.safetimes.co.kr/news/articleView.html?idxno=242918" target="_blank" rel="noopener noreferrer">[오늘의 주요일정·21일] 5공피해자단체 연합회, 스타벅스 규탄 기자회견</a> <span>(schedule)</span></li><li>국제 원유가격 원천 데이터 <span>(price_file)</span></li><li>국제 석유제품가격 원천 데이터 <span>(price_file)</span></li><li>대표 기사 원문 <span>(news)</span></li><li><a href="https://www.opinet.co.kr/gloptotSelect.do" target="_blank" rel="noopener noreferrer">오피넷 국제유가 &gt; 원유</a> <span>(price)</span></li><li><a href="https://www.opinet.co.kr/glopopdSelect.do" target="_blank" rel="noopener noreferrer">오피넷 국제유가 &gt; 석유제품</a> <span>(price)</span></li></ul></div></section>
 <footer class="footer">자동 생성 리포트 · 사실/해석 구분 및 기사 원문 확인 필요</footer>
+<div id="chart-tooltip" class="chart-tooltip hidden"></div>
+<script>
+(function () {
+  var tooltip = document.getElementById('chart-tooltip');
+  if (!tooltip) return;
+
+  function formatText(text) {
+    return String(text || '').split(' | ').join('\n');
+  }
+
+  function show(evt) {
+    var target = evt.target;
+    var text = target.getAttribute('data-tooltip');
+    if (!text) return;
+    tooltip.textContent = formatText(text);
+    tooltip.style.whiteSpace = 'pre-line';
+    tooltip.classList.remove('hidden');
+    move(evt);
+  }
+
+  function move(evt) {
+    if (tooltip.classList.contains('hidden')) return;
+    var clientX = evt.clientX;
+    var clientY = evt.clientY;
+    if (evt.touches && evt.touches.length) {
+      clientX = evt.touches[0].clientX;
+      clientY = evt.touches[0].clientY;
+    }
+    var x = clientX + 12;
+    var y = clientY - 34;
+    var maxX = window.innerWidth - tooltip.offsetWidth - 8;
+    var maxY = window.innerHeight - tooltip.offsetHeight - 8;
+    if (x > maxX) x = Math.max(8, clientX - tooltip.offsetWidth - 12);
+    if (y < 8) y = clientY + 18;
+    if (y > maxY) y = maxY;
+    tooltip.style.left = x + 'px';
+    tooltip.style.top = y + 'px';
+  }
+
+  function hide() {
+    tooltip.classList.add('hidden');
+  }
+
+  document.addEventListener('mouseover', function (evt) {
+    if (evt.target && evt.target.classList && evt.target.classList.contains('hover-band')) show(evt);
+  });
+
+  document.addEventListener('mousemove', function (evt) {
+    if (evt.target && evt.target.classList && evt.target.classList.contains('hover-band')) move(evt);
+  });
+
+  document.addEventListener('mouseout', function (evt) {
+    if (evt.target && evt.target.classList && evt.target.classList.contains('hover-band')) hide();
+  });
+
+  document.addEventListener('touchstart', function (evt) {
+    if (evt.target && evt.target.classList && evt.target.classList.contains('hover-band')) {
+      show(evt);
+      window.setTimeout(hide, 1800);
+    }
+  }, { passive: true });
+})();
+</script>
 </div></body></html>

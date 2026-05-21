@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 21일 (목)",
     "previous_day_label": "5/20",
     "today_label": "5/21",
-    "generated_at": "2026-05-21 14:05 KST",
+    "generated_at": "2026-05-21 14:14 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v1.0",
     "header_title": "Daily 유가 동향",
@@ -1602,7 +1602,7 @@
     "opinet_prices": {
       "source_schema_version": "1.1",
       "source_date": "2026-05-21",
-      "collected_at": "2026-05-21 14:05:16 KST",
+      "collected_at": "2026-05-21 14:14:06 KST",
       "crude_latest_date": "2026-05-20",
       "products_latest_date": "2026-05-20",
       "history_schema_version": "1.3",
@@ -1617,7 +1617,7 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-21 14:05:16 KST",
+      "merged_at": "2026-05-21 14:14:06 KST",
       "merge_script": "merge_prices_into_report.py v1.3",
       "needs_review": true
     }
