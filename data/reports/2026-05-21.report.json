@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 21일 (목)",
     "previous_day_label": "5/20",
     "today_label": "5/21",
-    "generated_at": "2026-05-21 13:26 KST",
+    "generated_at": "2026-05-21 13:55 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v1.0",
     "header_title": "Daily 유가 동향",
@@ -29,7 +29,7 @@
   ],
   "prices": {
     "unit": "$/Bbl",
-    "price_data_note": "※ 오피넷 국제유가 메뉴에서 수집한 $/Bbl 기준 가격입니다. 가격 추이 그래프는 기준일 전일 기준 과거 2개월(3/20~5/20)만 표시하며, 값이 0인 가격은 제외했습니다.",
+    "price_data_note": "※ 오피넷 국제유가 메뉴에서 수집한 $/Bbl 기준 가격입니다. 그래프는 기준일 전일 기준 과거 2개월(3/20~5/20)만 표시하며, 값이 0인 가격은 제외했습니다.",
     "crude": {
       "base_label": "5/20",
       "cards": [
@@ -1602,7 +1602,7 @@
     "opinet_prices": {
       "source_schema_version": "1.1",
       "source_date": "2026-05-21",
-      "collected_at": "2026-05-21 13:26:42 KST",
+      "collected_at": "2026-05-21 13:55:18 KST",
       "crude_latest_date": "2026-05-20",
       "products_latest_date": "2026-05-20",
       "history_schema_version": "1.3",
@@ -1615,10 +1615,10 @@
         "end": "2026-05-20",
         "rule": "report_date - 1 day, then minus 2 calendar months"
       },
-      "crude_chart_source": "history.json",
-      "products_chart_source": "history.json",
-      "merged_at": "2026-05-21 13:26:42 KST",
-      "merge_script": "merge_prices_into_report.py v1.2",
+      "crude_chart_source": "history.json window",
+      "products_chart_source": "history.json window",
+      "merged_at": "2026-05-21 13:55:18 KST",
+      "merge_script": "merge_prices_into_report.py v1.3",
       "needs_review": true
     }
   }
