@@ -7,134 +7,60 @@
   <title>유가 동향 Dashboard</title>
   <style>
     :root {
-      --bg:#F4F5F7;
-      --card:#FFFFFF;
-      --ink:#172033;
-      --muted:#6B7280;
-      --line:#E5E7EB;
-      --navy:#0A2444;
-      --blue:#1A6FD4;
-      --blue-soft:#EAF3FF;
-      --red:#C0392B;
-      --green:#0A7B4E;
-      --shadow:0 8px 24px rgba(15, 23, 42, .08);
+      --bg:#F4F5F7; --card:#fff; --ink:#172033; --muted:#6B7280; --line:#E5E7EB;
+      --navy:#0A2444; --blue:#1A6FD4; --blue-soft:#EAF3FF; --shadow:0 8px 24px rgba(15,23,42,.08);
     }
-    * { box-sizing:border-box; }
-    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
-    body {
-      margin:0;
-      padding:14px;
-      padding-left:max(14px, env(safe-area-inset-left));
-      padding-right:max(14px, env(safe-area-inset-right));
-      background:var(--bg);
-      color:var(--ink);
-      font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;
-      font-size:14px;
-      line-height:1.55;
-      word-break:keep-all;
-      overflow-wrap:anywhere;
-    }
-    .app { max-width:1080px; margin:0 auto; }
-    .hero {
-      background:linear-gradient(135deg, #0A2444, #153D69);
-      color:#fff;
-      border-radius:18px;
-      padding:20px 18px;
-      box-shadow:var(--shadow);
-    }
-    .hero-top { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
-    .title { font-size:24px; font-weight:850; letter-spacing:-.4px; }
-    .subtitle { margin-top:4px; color:rgba(255,255,255,.76); font-size:13px; }
-    .badge { flex-shrink:0; border-radius:999px; background:rgba(255,255,255,.13); padding:5px 10px; font-size:11px; }
-    .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-top:16px; }
-    .stat { background:rgba(255,255,255,.10); border:1px solid rgba(255,255,255,.12); border-radius:12px; padding:10px; }
-    .stat-label { color:rgba(255,255,255,.68); font-size:11px; }
-    .stat-value { margin-top:2px; font-weight:800; font-size:15px; }
-    .warning { display:none; margin-top:10px; border-radius:12px; background:#FFF7ED; border:1px solid #FED7AA; color:#9A3412; padding:10px 12px; font-size:12px; }
-    .layout { display:grid; grid-template-columns:380px 1fr; gap:12px; margin-top:12px; }
-    .panel {
-      background:var(--card);
-      border:1px solid var(--line);
-      border-radius:16px;
-      box-shadow:var(--shadow);
-      overflow:hidden;
-    }
-    .panel-head {
-      padding:13px 15px;
-      background:#F8FAFC;
-      border-bottom:1px solid var(--line);
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:10px;
-    }
-    .panel-title { font-weight:850; font-size:14px; }
-    .panel-sub { color:var(--muted); font-size:11px; margin-top:2px; }
-    .calendar-nav { display:flex; align-items:center; gap:8px; }
-    .nav-btn {
-      border:1px solid var(--line);
-      background:#fff;
-      border-radius:9px;
-      width:32px;
-      height:32px;
-      font-size:18px;
-      cursor:pointer;
-      color:var(--ink);
-    }
-    .month-label { min-width:86px; text-align:center; font-weight:850; }
-    .calendar { padding:12px; }
-    .weekdays, .days { display:grid; grid-template-columns:repeat(7,1fr); gap:5px; }
-    .weekday { text-align:center; color:#8A94A6; font-size:11px; font-weight:800; padding:4px 0; }
-    .day {
-      position:relative;
-      min-height:46px;
-      border:1px solid #EDF0F4;
-      background:#fff;
-      border-radius:10px;
-      padding:6px 5px;
-      cursor:default;
-      color:#C4CAD4;
-    }
-    .day.in-month { color:var(--ink); }
-    .day.has-report { cursor:pointer; background:var(--blue-soft); border-color:#B9D8FF; }
-    .day.has-report:hover { outline:2px solid rgba(26,111,212,.18); }
-    .day.selected { background:var(--blue); color:#fff; border-color:var(--blue); }
-    .day.today:not(.selected) { border-color:#F59E0B; }
-    .day-number { font-weight:800; font-size:12px; }
-    .dot { position:absolute; bottom:6px; left:50%; width:5px; height:5px; border-radius:50%; background:var(--blue); transform:translateX(-50%); }
-    .selected .dot { background:#fff; }
-    .legend { display:flex; gap:10px; align-items:center; padding:0 12px 12px; color:var(--muted); font-size:11px; }
-    .legend-dot { display:inline-block; width:7px; height:7px; background:var(--blue); border-radius:50%; margin-right:4px; }
-    .report-panel { min-height:640px; }
-    .report-head { padding:13px 15px; background:#F8FAFC; border-bottom:1px solid var(--line); display:flex; gap:12px; justify-content:space-between; align-items:center; }
-    .selected-title { font-weight:850; }
-    .selected-meta { color:var(--muted); font-size:11px; margin-top:2px; }
-    .actions { display:flex; gap:6px; flex-shrink:0; }
-    .action-btn {
-      border:1px solid var(--line);
-      background:#fff;
-      border-radius:9px;
-      padding:7px 10px;
-      font-size:12px;
-      color:var(--ink);
-      cursor:pointer;
-      text-decoration:none;
-    }
-    .report-frame-wrap { height:720px; background:#F9FAFB; }
-    iframe { width:100%; height:100%; border:0; background:#fff; display:block; }
-    .empty {
-      padding:80px 20px;
-      text-align:center;
-      color:var(--muted);
-    }
-    .empty-title { font-weight:850; color:var(--ink); margin-bottom:6px; }
-    @media(max-width:860px) {
-      body { padding:10px; }
-      .layout { grid-template-columns:1fr; }
-      .stats { grid-template-columns:repeat(2,1fr); }
-      .title { font-size:22px; }
-      .report-frame-wrap { height:76vh; min-height:560px; }
-    }
+    *{box-sizing:border-box}
+    html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+    body{margin:0;padding:14px;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;font-size:14px;line-height:1.55;word-break:keep-all;overflow-wrap:anywhere}
+    .app{max-width:1080px;margin:0 auto}
+    .hero{background:linear-gradient(135deg,#0A2444,#153D69);color:#fff;border-radius:18px;padding:20px 18px;box-shadow:var(--shadow)}
+    .hero-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+    .title{font-size:24px;font-weight:850;letter-spacing:-.4px}
+    .subtitle{margin-top:4px;color:rgba(255,255,255,.76);font-size:13px}
+    .badge{flex-shrink:0;border-radius:999px;background:rgba(255,255,255,.13);padding:5px 10px;font-size:11px}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:16px}
+    .stat{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:10px}
+    .stat-label{color:rgba(255,255,255,.68);font-size:11px}
+    .stat-value{margin-top:2px;font-weight:800;font-size:15px}
+    .warning{display:none;margin-top:10px;border-radius:12px;background:#FFF7ED;border:1px solid #FED7AA;color:#9A3412;padding:10px 12px;font-size:12px}
+    .layout{display:grid;grid-template-columns:380px 1fr;gap:12px;margin-top:12px}
+    .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);overflow:hidden}
+    .panel-head{padding:13px 15px;background:#F8FAFC;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:10px}
+    .panel-title{font-weight:850;font-size:14px}
+    .panel-sub{color:var(--muted);font-size:11px;margin-top:2px}
+    .calendar-nav{display:flex;align-items:center;gap:8px}
+    .nav-btn{border:1px solid var(--line);background:#fff;border-radius:9px;width:32px;height:32px;font-size:18px;cursor:pointer;color:var(--ink)}
+    .month-label{min-width:86px;text-align:center;font-weight:850}
+    .calendar{padding:12px}
+    .weekdays,.days{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
+    .weekday{text-align:center;color:#8A94A6;font-size:11px;font-weight:800;padding:4px 0}
+    .day{position:relative;min-height:46px;border:1px solid #EDF0F4;background:#fff;border-radius:10px;padding:6px 5px;cursor:default;color:#C4CAD4}
+    .day.in-month{color:var(--ink)}
+    .day.has-report{cursor:pointer;background:var(--blue-soft);border-color:#B9D8FF}
+    .day.has-report:hover{outline:2px solid rgba(26,111,212,.18)}
+    .day.selected{background:var(--blue);color:#fff;border-color:var(--blue)}
+    .day.today:not(.selected){border-color:#F59E0B}
+    .day-number{font-weight:800;font-size:12px}
+    .dot{position:absolute;bottom:6px;left:50%;width:5px;height:5px;border-radius:50%;background:var(--blue);transform:translateX(-50%)}
+    .selected .dot{background:#fff}
+    .report-list{padding:0 12px 12px;max-height:190px;overflow:auto;border-top:1px solid #F1F3F5}
+    .report-list-title{font-size:11px;color:var(--muted);font-weight:800;margin:10px 0 6px}
+    .report-link{display:inline-block;margin:3px 4px 3px 0;border:1px solid #D8E7FF;background:#F5FAFF;border-radius:999px;padding:4px 8px;font-size:11px;color:#165DAA;text-decoration:none;cursor:pointer}
+    .report-link.selected{background:#1A6FD4;color:#fff;border-color:#1A6FD4}
+    .legend{display:flex;gap:10px;align-items:center;padding:0 12px 12px;color:var(--muted);font-size:11px}
+    .legend-dot{display:inline-block;width:7px;height:7px;background:var(--blue);border-radius:50%;margin-right:4px}
+    .report-panel{min-height:640px}
+    .report-head{padding:13px 15px;background:#F8FAFC;border-bottom:1px solid var(--line);display:flex;gap:12px;justify-content:space-between;align-items:center}
+    .selected-title{font-weight:850}
+    .selected-meta{color:var(--muted);font-size:11px;margin-top:2px}
+    .actions{display:flex;gap:6px;flex-shrink:0}
+    .action-btn{border:1px solid var(--line);background:#fff;border-radius:9px;padding:7px 10px;font-size:12px;color:var(--ink);cursor:pointer;text-decoration:none}
+    .report-frame-wrap{height:720px;background:#F9FAFB}
+    iframe{width:100%;height:100%;border:0;background:#fff;display:block}
+    .empty{padding:80px 20px;text-align:center;color:var(--muted)}
+    .empty-title{font-weight:850;color:var(--ink);margin-bottom:6px}
+    @media(max-width:860px){body{padding:10px}.layout{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.title{font-size:22px}.report-frame-wrap{height:76vh;min-height:560px}}
   </style>
 </head>
 <body>
@@ -147,26 +73,12 @@
         </div>
         <div class="badge">Calendar Report Viewer</div>
       </div>
-
       <div class="stats">
-        <div class="stat">
-          <div class="stat-label">등록 리포트 수</div>
-          <div class="stat-value" id="totalCount">-</div>
-        </div>
-        <div class="stat">
-          <div class="stat-label">최신 기준일</div>
-          <div class="stat-value" id="latestDate">-</div>
-        </div>
-        <div class="stat">
-          <div class="stat-label">선택 날짜</div>
-          <div class="stat-value" id="selectedDate">-</div>
-        </div>
-        <div class="stat">
-          <div class="stat-label">목록 업데이트</div>
-          <div class="stat-value" id="updatedAt">-</div>
-        </div>
+        <div class="stat"><div class="stat-label">등록 리포트 수</div><div class="stat-value" id="totalCount">-</div></div>
+        <div class="stat"><div class="stat-label">최신 기준일</div><div class="stat-value" id="latestDate">-</div></div>
+        <div class="stat"><div class="stat-label">선택 날짜</div><div class="stat-value" id="selectedDate">-</div></div>
+        <div class="stat"><div class="stat-label">목록 업데이트</div><div class="stat-value" id="updatedAt">-</div></div>
       </div>
-
       <div class="warning" id="warningBox"></div>
     </section>
 
@@ -184,20 +96,13 @@
           </div>
         </div>
         <div class="calendar">
-          <div class="weekdays">
-            <div class="weekday">일</div>
-            <div class="weekday">월</div>
-            <div class="weekday">화</div>
-            <div class="weekday">수</div>
-            <div class="weekday">목</div>
-            <div class="weekday">금</div>
-            <div class="weekday">토</div>
-          </div>
+          <div class="weekdays"><div class="weekday">일</div><div class="weekday">월</div><div class="weekday">화</div><div class="weekday">수</div><div class="weekday">목</div><div class="weekday">금</div><div class="weekday">토</div></div>
           <div class="days" id="calendarDays"></div>
         </div>
-        <div class="legend">
-          <span><span class="legend-dot"></span>리포트 있음</span>
-          <span>오늘</span>
+        <div class="legend"><span><span class="legend-dot"></span>리포트 있음</span><span>오늘</span></div>
+        <div class="report-list">
+          <div class="report-list-title">리포트 바로가기</div>
+          <div id="reportList"></div>
         </div>
       </aside>
 
@@ -205,18 +110,15 @@
         <div class="report-head">
           <div>
             <div class="selected-title" id="reportTitle">리포트를 선택해 주세요.</div>
-            <div class="selected-meta" id="reportMeta">캘린더에서 파란 점이 있는 날짜를 누르면 선택한 날짜의 리포트가 표시됩니다.</div>
+            <div class="selected-meta" id="reportMeta">캘린더 또는 바로가기에서 날짜를 선택해 주세요.</div>
           </div>
           <div class="actions">
             <a class="action-btn" id="openNew" href="#" target="_blank" rel="noopener noreferrer">새 창</a>
             <button class="action-btn" id="reloadBtn" type="button">새로고침</button>
           </div>
         </div>
-        <div class="report-frame-wrap" id="frameWrap">
-          <div class="empty" id="emptyState">
-            <div class="empty-title">선택된 리포트가 없습니다.</div>
-            <div>캘린더에서 날짜를 선택해 주세요.</div>
-          </div>
+        <div class="report-frame-wrap">
+          <div class="empty" id="emptyState"><div class="empty-title">선택된 리포트가 없습니다.</div><div>캘린더에서 날짜를 선택해 주세요.</div></div>
           <iframe id="reportFrame" title="선택한 날짜의 리포트" style="display:none;"></iframe>
         </div>
       </section>
@@ -224,253 +126,198 @@
   </main>
 
   <script>
-    const state = {
-      reports: [],
-      reportMap: new Map(),
-      availableDates: new Set(),
-      currentMonth: null,
-      selectedDate: null,
-      indexUpdatedAt: '',
-    };
+    const state = { reports: [], reportMap: new Map(), availableDates: new Set(), currentMonth: null, selectedDate: null, indexUpdatedAt: '' };
 
-    function qs(name) {
-      return new URLSearchParams(window.location.search).get(name);
+    function qs(name){ return new URLSearchParams(window.location.search).get(name); }
+    function normalizeDate(value){ if(!value) return ''; const m=String(value).match(/(\d{4})-(\d{2})-(\d{2})/); return m ? `${m[1]}-${m[2]}-${m[3]}` : ''; }
+    function parseDate(dateText){ const [y,m,d]=dateText.split('-').map(Number); return new Date(y,m-1,d); }
+    function formatShort(dateText){ const d=parseDate(dateText); return Number.isNaN(d.getTime()) ? (dateText||'-') : `${d.getMonth()+1}/${d.getDate()}`; }
+    function formatMonth(dateObj){ return `${dateObj.getFullYear()}년 ${dateObj.getMonth()+1}월`; }
+    function isSameDay(a,b){ return a&&b&&a.getFullYear()===b.getFullYear()&&a.getMonth()===b.getMonth()&&a.getDate()===b.getDate(); }
+    function setWarning(message){ const box=document.getElementById('warningBox'); if(!message){box.style.display='none';box.textContent='';return;} box.style.display='block'; box.textContent=message; }
+
+    function normalizeReportItem(item){
+      if(!item || typeof item !== 'object') return null;
+      const date = normalizeDate(item.date || item.report_date || item.reportDate || item.baseDate || item.id || item.fileName || item.file_name || item.url);
+      if(!date) return null;
+      let url = item.url || item.href || item.path || item.file || item.fileName || item.file_name || '';
+      if(!url) url = `reports/${date}.html`;
+      if(!String(url).includes('/')) url = `reports/${url}`;
+      return { date, displayDate:item.displayDate||item.display_date||item.label||formatShort(date), title:item.title||item.report_title||`Daily Issue Report — ${date}`, url, status:item.status||'', fileName:item.fileName||`${date}.html` };
     }
 
-    function normalizeDate(value) {
-      if (!value) return '';
-      const text = String(value).trim();
-      const m = text.match(/(\d{4})-(\d{2})-(\d{2})/);
-      return m ? `${m[1]}-${m[2]}-${m[3]}` : '';
-    }
-
-    function parseDate(dateText) {
-      const [y, m, d] = dateText.split('-').map(Number);
-      return new Date(y, m - 1, d);
-    }
-
-    function formatShort(dateText) {
-      const d = parseDate(dateText);
-      if (Number.isNaN(d.getTime())) return dateText || '-';
-      return `${d.getMonth() + 1}/${d.getDate()}`;
-    }
-
-    function formatMonth(dateObj) {
-      return `${dateObj.getFullYear()}년 ${dateObj.getMonth() + 1}월`;
-    }
-
-    function isSameDay(a, b) {
-      return a && b && a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
-    }
-
-    function setWarning(message) {
-      const box = document.getElementById('warningBox');
-      if (!message) {
-        box.style.display = 'none';
-        box.textContent = '';
-        return;
-      }
-      box.style.display = 'block';
-      box.textContent = message;
-    }
-
-    function normalizeReportItem(item) {
-      if (!item || typeof item !== 'object') return null;
-
-      const date = normalizeDate(
-        item.date ||
-        item.report_date ||
-        item.reportDate ||
-        item.baseDate ||
-        item.id ||
-        item.fileName
-      );
-      if (!date) return null;
-
-      let url = item.url || item.href || item.path || item.file || item.fileName || '';
-      if (!url) url = `reports/${date}.html`;
-      if (!String(url).endsWith('.html') && !String(url).includes('/')) {
-        url = `reports/${url}`;
-      }
-
-      return {
-        date,
-        displayDate: item.displayDate || item.display_date || item.label || formatShort(date),
-        title: item.title || item.report_title || `Daily Issue Report — ${date}`,
-        url,
-        status: item.status || item.review_status || '',
-        fileName: item.fileName || item.file_name || `${date}.html`,
-      };
-    }
-
-    function normalizeIndex(payload) {
+    function normalizeIndex(payload){
       let reports = [];
+      if(Array.isArray(payload)) reports = payload.map(normalizeReportItem).filter(Boolean);
+      else if(payload && typeof payload === 'object'){
+        if(Array.isArray(payload.reports)) reports = payload.reports.map(normalizeReportItem).filter(Boolean);
+        else if(Array.isArray(payload.items)) reports = payload.items.map(normalizeReportItem).filter(Boolean);
 
-      if (Array.isArray(payload)) {
-        reports = payload.map(normalizeReportItem).filter(Boolean);
-      } else if (payload && typeof payload === 'object') {
-        if (Array.isArray(payload.reports)) {
-          reports = payload.reports.map(normalizeReportItem).filter(Boolean);
-        } else if (Array.isArray(payload.items)) {
-          reports = payload.items.map(normalizeReportItem).filter(Boolean);
+        if(Array.isArray(payload.availableDates)){
+          const fromDates = payload.availableDates.map(normalizeDate).filter(Boolean).map(date => ({
+            date, displayDate:formatShort(date), title:`Daily Issue Report — ${date}`, url:`reports/${date}.html`, status:'', fileName:`${date}.html`
+          }));
+          reports = reports.concat(fromDates);
         }
-
-        if (reports.length === 0 && Array.isArray(payload.availableDates)) {
-          reports = payload.availableDates
-            .map(normalizeDate)
-            .filter(Boolean)
-            .map(date => ({
-              date,
-              displayDate: formatShort(date),
-              title: `Daily Issue Report — ${date}`,
-              url: `reports/${date}.html`,
-              status: '',
-              fileName: `${date}.html`,
-            }));
-        }
-
         state.indexUpdatedAt = payload.generatedAt || payload.generated_at || payload.updatedAt || payload.updated_at || '';
       }
-
-      // Deduplicate by date. Prefer explicit report objects over generated date-only objects.
       const map = new Map();
-      for (const item of reports) {
-        map.set(item.date, item);
-      }
-      reports = Array.from(map.values()).sort((a, b) => a.date.localeCompare(b.date));
+      for(const item of reports) map.set(item.date, item);
+      reports = Array.from(map.values()).sort((a,b)=>a.date.localeCompare(b.date));
+      setReports(reports);
+    }
 
+    function setReports(reports){
       state.reports = reports;
       state.reportMap = new Map(reports.map(r => [r.date, r]));
       state.availableDates = new Set(reports.map(r => r.date));
     }
 
-    async function loadIndex() {
-      const indexUrl = `report-index.json?ts=${Date.now()}`;
-      const response = await fetch(indexUrl, { cache: 'no-store' });
-      if (!response.ok) {
-        throw new Error(`report-index.json 로딩 실패: HTTP ${response.status}`);
+    async function fileExists(url){
+      try{
+        const res = await fetch(`${url}?probe=${Date.now()}`, { method:'GET', cache:'no-store' });
+        return res.ok;
+      }catch(e){ return false; }
+    }
+
+    function dateRange(start, end){
+      const out=[]; let d=parseDate(start); const e=parseDate(end);
+      while(d<=e){
+        const text=`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+        if(d.getDay()!==0 && d.getDay()!==6) out.push(text);
+        d.setDate(d.getDate()+1);
+      }
+      return out;
+    }
+
+    async function fallbackProbeReports(){
+      // report-index.json이 깨졌거나 일부만 읽힐 때를 위한 안전장치.
+      const requested = normalizeDate(qs('date'));
+      const candidates = dateRange('2026-03-01', '2026-05-31');
+      if(requested && !candidates.includes(requested)) candidates.push(requested);
+
+      const checks = await Promise.all(candidates.map(async date => {
+        const url = `reports/${date}.html`;
+        const ok = await fileExists(url);
+        return ok ? { date, displayDate:formatShort(date), title:`Daily Issue Report — ${date}`, url, status:'', fileName:`${date}.html` } : null;
+      }));
+      const reports = checks.filter(Boolean).sort((a,b)=>a.date.localeCompare(b.date));
+      setReports(reports);
+      state.indexUpdatedAt = '파일 직접 확인';
+    }
+
+    async function loadIndex(){
+      let indexOk = false;
+      let indexError = '';
+      try{
+        const response = await fetch(`report-index.json?ts=${Date.now()}`, { cache:'no-store' });
+        if(!response.ok) throw new Error(`HTTP ${response.status}`);
+        const payload = await response.json();
+        normalizeIndex(payload);
+        indexOk = state.reports.length > 0;
+      }catch(error){
+        indexError = error.message || String(error);
       }
 
-      const payload = await response.json();
-      normalizeIndex(payload);
-
-      if (state.reports.length === 0) {
-        throw new Error('report-index.json은 읽었지만 리포트 목록이 비어 있습니다.');
+      // 핵심: index가 실패했거나 5개 이하로 비정상적으로 적으면 실제 HTML 파일을 직접 찾아서 복구.
+      if(!indexOk || state.reports.length <= 5){
+        await fallbackProbeReports();
+        if(state.reports.length > 0){
+          setWarning(indexOk ? 'report-index.json 목록이 일부만 보여 실제 HTML 파일을 직접 확인해 복구했습니다.' : `report-index.json 로딩 실패(${indexError}). HTML 파일 직접 확인으로 복구했습니다.`);
+        }
       }
+
+      if(state.reports.length === 0) throw new Error('표시 가능한 리포트 HTML을 찾지 못했습니다.');
 
       const latest = state.reports[state.reports.length - 1];
       const requested = normalizeDate(qs('date'));
       const selected = requested && state.reportMap.has(requested) ? requested : latest.date;
 
       state.selectedDate = selected;
-      state.currentMonth = new Date(parseDate(selected).getFullYear(), parseDate(selected).getMonth(), 1);
-
-      updateStats();
-      renderCalendar();
-      selectDate(selected, { replaceUrl: false });
-      setWarning('');
+      const sd = parseDate(selected);
+      state.currentMonth = new Date(sd.getFullYear(), sd.getMonth(), 1);
+      updateStats(); renderCalendar(); renderReportList(); selectDate(selected, { replaceUrl:false });
     }
 
-    function updateStats() {
+    function updateStats(){
       const latest = state.reports[state.reports.length - 1];
       document.getElementById('totalCount').textContent = String(state.reports.length);
       document.getElementById('latestDate').textContent = latest ? formatShort(latest.date) : '-';
       document.getElementById('selectedDate').textContent = state.selectedDate ? formatShort(state.selectedDate) : '-';
-      document.getElementById('updatedAt').textContent = state.indexUpdatedAt ? state.indexUpdatedAt.split(' ')[0] : '-';
+      document.getElementById('updatedAt').textContent = state.indexUpdatedAt ? String(state.indexUpdatedAt).split(' ')[0] : '-';
     }
 
-    function renderCalendar() {
-      const container = document.getElementById('calendarDays');
-      container.innerHTML = '';
+    function renderCalendar(){
+      const container=document.getElementById('calendarDays'); container.innerHTML='';
+      const year=state.currentMonth.getFullYear(); const month=state.currentMonth.getMonth();
+      document.getElementById('monthLabel').textContent=formatMonth(state.currentMonth);
+      const firstDay=new Date(year,month,1); const start=new Date(year,month,1-firstDay.getDay()); const today=new Date();
 
-      const year = state.currentMonth.getFullYear();
-      const month = state.currentMonth.getMonth();
-
-      document.getElementById('monthLabel').textContent = formatMonth(state.currentMonth);
-
-      const firstDay = new Date(year, month, 1);
-      const start = new Date(year, month, 1 - firstDay.getDay());
-      const today = new Date();
-
-      for (let i = 0; i < 42; i += 1) {
-        const d = new Date(start);
-        d.setDate(start.getDate() + i);
-
-        const dateText = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-        const day = document.createElement('button');
-        day.type = 'button';
-        day.className = 'day';
-
-        if (d.getMonth() === month) day.classList.add('in-month');
-        if (state.availableDates.has(dateText)) day.classList.add('has-report');
-        if (state.selectedDate === dateText) day.classList.add('selected');
-        if (isSameDay(d, today)) day.classList.add('today');
-
-        day.innerHTML = `<div class="day-number">${d.getDate()}</div>${state.availableDates.has(dateText) ? '<span class="dot"></span>' : ''}`;
-
-        if (state.availableDates.has(dateText)) {
-          day.addEventListener('click', () => selectDate(dateText));
-        }
-
+      for(let i=0;i<42;i++){
+        const d=new Date(start); d.setDate(start.getDate()+i);
+        const dateText=`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+        const day=document.createElement('button'); day.type='button'; day.className='day';
+        if(d.getMonth()===month) day.classList.add('in-month');
+        if(state.availableDates.has(dateText)) day.classList.add('has-report');
+        if(state.selectedDate===dateText) day.classList.add('selected');
+        if(isSameDay(d,today)) day.classList.add('today');
+        day.innerHTML=`<div class="day-number">${d.getDate()}</div>${state.availableDates.has(dateText)?'<span class="dot"></span>':''}`;
+        if(state.availableDates.has(dateText)) day.addEventListener('click',()=>selectDate(dateText));
         container.appendChild(day);
       }
     }
 
-    function selectDate(dateText, options = {}) {
-      const report = state.reportMap.get(dateText);
-      if (!report) {
-        setWarning(`${dateText} 리포트를 찾지 못했습니다. report-index.json을 확인해 주세요.`);
-        return;
-      }
-
-      state.selectedDate = dateText;
-      updateStats();
-
-      const d = parseDate(dateText);
-      state.currentMonth = new Date(d.getFullYear(), d.getMonth(), 1);
-      renderCalendar();
-
-      document.getElementById('reportTitle').textContent = report.title || `Daily Issue Report — ${dateText}`;
-      document.getElementById('reportMeta').textContent = `${dateText} · ${report.url}`;
-
-      const frame = document.getElementById('reportFrame');
-      const empty = document.getElementById('emptyState');
-      const src = `${report.url}${report.url.includes('?') ? '&' : '?'}ts=${Date.now()}`;
-      frame.src = src;
-      frame.style.display = 'block';
-      empty.style.display = 'none';
-
-      const openNew = document.getElementById('openNew');
-      openNew.href = report.url;
-
-      if (options.replaceUrl !== false) {
-        const url = new URL(window.location.href);
-        url.searchParams.set('date', dateText);
-        window.history.replaceState({}, '', url.toString());
+    function renderReportList(){
+      const list=document.getElementById('reportList');
+      list.innerHTML='';
+      const monthReports=state.reports.filter(r=>{
+        if(!state.currentMonth) return true;
+        const d=parseDate(r.date);
+        return d.getFullYear()===state.currentMonth.getFullYear() && d.getMonth()===state.currentMonth.getMonth();
+      });
+      const source = monthReports.length ? monthReports : state.reports;
+      for(const r of source){
+        const a=document.createElement('a');
+        a.href='javascript:void(0)';
+        a.className='report-link' + (r.date===state.selectedDate ? ' selected' : '');
+        a.textContent=formatShort(r.date);
+        a.addEventListener('click',()=>selectDate(r.date));
+        list.appendChild(a);
       }
     }
 
-    document.getElementById('prevMonth').addEventListener('click', () => {
-      state.currentMonth = new Date(state.currentMonth.getFullYear(), state.currentMonth.getMonth() - 1, 1);
-      renderCalendar();
-    });
+    function selectDate(dateText, options={}){
+      const report=state.reportMap.get(dateText);
+      if(!report){ setWarning(`${dateText} 리포트를 찾지 못했습니다.`); return; }
+      state.selectedDate=dateText; updateStats();
+      const d=parseDate(dateText); state.currentMonth=new Date(d.getFullYear(),d.getMonth(),1);
+      renderCalendar(); renderReportList();
 
-    document.getElementById('nextMonth').addEventListener('click', () => {
-      state.currentMonth = new Date(state.currentMonth.getFullYear(), state.currentMonth.getMonth() + 1, 1);
-      renderCalendar();
-    });
+      document.getElementById('reportTitle').textContent=report.title || `Daily Issue Report — ${dateText}`;
+      document.getElementById('reportMeta').textContent=`${dateText} · ${report.url}`;
+      const frame=document.getElementById('reportFrame'); const empty=document.getElementById('emptyState');
+      frame.src=`${report.url}${report.url.includes('?')?'&':'?'}ts=${Date.now()}`;
+      frame.style.display='block'; empty.style.display='none';
+      document.getElementById('openNew').href=report.url;
 
-    document.getElementById('reloadBtn').addEventListener('click', () => {
-      if (state.selectedDate) selectDate(state.selectedDate, { replaceUrl: false });
-    });
+      if(options.replaceUrl!==false){
+        const url=new URL(window.location.href);
+        url.searchParams.set('date',dateText);
+        window.history.replaceState({},'',url.toString());
+      }
+    }
 
-    loadIndex().catch(error => {
+    document.getElementById('prevMonth').addEventListener('click',()=>{ state.currentMonth=new Date(state.currentMonth.getFullYear(),state.currentMonth.getMonth()-1,1); renderCalendar(); renderReportList(); });
+    document.getElementById('nextMonth').addEventListener('click',()=>{ state.currentMonth=new Date(state.currentMonth.getFullYear(),state.currentMonth.getMonth()+1,1); renderCalendar(); renderReportList(); });
+    document.getElementById('reloadBtn').addEventListener('click',()=>{ if(state.selectedDate) selectDate(state.selectedDate,{replaceUrl:false}); });
+
+    loadIndex().catch(error=>{
       console.error(error);
       setWarning(`대시보드를 불러오지 못했습니다. ${error.message}`);
-      document.getElementById('totalCount').textContent = '-';
-      document.getElementById('latestDate').textContent = '-';
-      document.getElementById('selectedDate').textContent = '-';
-      document.getElementById('updatedAt').textContent = '-';
+      document.getElementById('totalCount').textContent='-';
+      document.getElementById('latestDate').textContent='-';
+      document.getElementById('selectedDate').textContent='-';
+      document.getElementById('updatedAt').textContent='-';
     });
   </script>
 </body>
