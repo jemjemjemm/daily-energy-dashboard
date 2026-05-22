@@ -93,7 +93,9 @@ def has_bad_phrase(value: str) -> bool:
 
 def clean_title(value: str) -> str:
     value = normalize_line(value)
+    value = re.sub(r"^[▲△▶▷■□●○]+\s*", "", value)
     value = value.replace("세이프타임즈", "").strip()
+    value = re.sub(r"의\(정부", "(정부", value)
     return value
 
 
@@ -110,14 +112,30 @@ def normalize_schedule_item(item: Dict[str, Any]) -> Optional[Dict[str, str]]:
     if has_bad_phrase(text_blob):
         return None
 
-    title = str(item.get("title") or item.get("text") or "").strip()
-    title = clean_title(title)
+    raw_title = clean_title(str(item.get("title") or item.get("text") or "").strip())
+    if not raw_title:
+        return None
+
+    # fetch_safetimes_schedule.py의 items는 {text: 전체 줄} 형태인 경우가 많다.
+    # 이때 시간·기관을 다시 분리해야 Summary와 금일 일정이 자연스럽게 나온다.
+    parsed_time, without_time = extract_time(raw_title)
+
+    # "기획처, 고유가 피해지원금..."처럼 쉼표 앞이 기관인 경우를 먼저 처리한다.
+    # 뒤쪽 장소명인 "정부서울청사" 때문에 기관이 "정부"로 오인되는 것을 막기 위함이다.
+    comma_match = re.match(r"^([가-힣A-Za-z·ㆍ]{2,15}),\s*(.+)$", without_time)
+    if comma_match:
+        parsed_org = comma_match.group(1)
+        parsed_title = comma_match.group(2)
+    else:
+        parsed_org, parsed_title = extract_org(without_time)
+
+    title = clean_title(parsed_title)
     if not title:
         return None
 
     return {
-        "time": str(item.get("time") or "").strip() or "시간미정",
-        "org": str(item.get("org") or "").strip() or "확인",
+        "time": str(item.get("time") or parsed_time or "").strip() or "시간미정",
+        "org": str(item.get("org") or parsed_org or "").strip() or "확인",
         "title": title,
         "relevance": "",  # 금일 주요 일정에는 영향도/관련성 설명을 노출하지 않음
     }
@@ -130,9 +148,28 @@ def is_relevant_schedule_item(item: Dict[str, str]) -> bool:
     return any(word in combined for word in RELEVANT_KEYWORDS)
 
 
+def normalize_dedupe_key(item: Dict[str, str]) -> str:
+    title = item.get("title", "")
+    title = re.sub(r"\([^)]*\)", "", title)
+    title = re.sub(r"\s+", "", title)
+    title = re.sub(r"[·ㆍ,./\-]", "", title)
+    return title[:50]
+
+
 def filter_relevant_items(items: List[Dict[str, str]], max_items: int) -> List[Dict[str, str]]:
     filtered = [item for item in items if is_relevant_schedule_item(item)]
-    return sort_schedule_items(filtered[:max_items])
+    filtered = sort_schedule_items(filtered)
+    deduped: List[Dict[str, str]] = []
+    seen = set()
+    for item in filtered:
+        key = normalize_dedupe_key(item)
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(item)
+        if len(deduped) >= max_items:
+            break
+    return deduped
 
 
 def build_issue_cards_from_schedules(items: List[Dict[str, str]]) -> List[Dict[str, str]]:
