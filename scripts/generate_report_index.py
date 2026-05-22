@@ -40,7 +40,9 @@ BAD_HTML_PHRASES = [
     "원문 자동 매칭 실패",
     "주요일정 원문 데이터 미확보",
     "원문 데이터 없음",
+    "데이터 없음",
     "가격 데이터 중심 리포트",
+    "가격 중심 자동생성",
     "Data 없음",
     "No data",
 ]
@@ -51,9 +53,8 @@ def is_valid_report_html(text: str) -> bool:
         return False
     if any(phrase in text for phrase in BAD_HTML_PHRASES):
         return False
-    has_report_title = ("Daily Issue Report" in text) or ("Daily 유가 동향" in text)
-    required = ["Summary", "유가 동향"]
-    return has_report_title and all(token in text for token in required)
+    required = ["Daily Issue Report", "Summary", "유가 동향"]
+    return all(token in text for token in required)
 
 
 def parse_args() -> argparse.Namespace:
@@ -112,7 +113,7 @@ def read_report_meta(html_path: Path) -> Dict[str, Any] | None:
     title_match = TITLE_RE.search(text)
     header_date_match = HEADER_DATE_RE.search(text)
 
-    title = "Daily Issue Report"
+    title = strip_tags(title_match.group(1)) if title_match else f"Daily 유가 동향 — {date}"
     display_date = strip_tags(header_date_match.group(1)) if header_date_match else date
 
     return {
