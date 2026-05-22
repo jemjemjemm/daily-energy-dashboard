@@ -379,8 +379,8 @@ def update_report_meta(base_report: Dict[str, Any], target_dt: datetime) -> None
     report["generated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M KST")
     report["review_status"] = "초안"
     report["report_version"] = "draft-from-safetimes-v1.0"
-    report["report_title"] = f"Daily 유가 동향 — {target_dt.strftime('%Y.%m.%d')}"
-    report["header_title"] = report.get("header_title") or "Daily 유가 동향"
+    report["report_title"] = "Daily Issue Report"
+    report["header_title"] = "Daily Issue Report"
     report["report_badge"] = report.get("report_badge") or "정유 · 석유화학 · LNG"
 
 
