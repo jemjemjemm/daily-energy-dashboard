@@ -60,10 +60,66 @@ ORG_KEYWORDS = [
     "대한상의", "무역협회", "한은", "한국은행", "정부", "여당", "야당", "국제", "미국", "중국", "일본"
 ]
 
-DEFAULT_RELEVANCE = (
-    "정유·석화·LNG 업계 관련성은 일정 원문에 명시된 사실이 아니라 작성자 해석입니다. "
-    "구체 발언·자료 확인 후 영향도 판단이 필요합니다."
-)
+DEFAULT_RELEVANCE = ""
+
+
+BAD_INTERNAL_PHRASES = [
+    "자동 추출된 일정 항목이 없습니다",
+    "본문 구조 확인 및 수동 검수가 필요합니다",
+    "원문 자동 매칭 실패",
+    "원문 데이터 없음",
+    "가격 데이터 중심",
+]
+
+
+def has_bad_phrase(value: str) -> bool:
+    return any(phrase in (value or "") for phrase in BAD_INTERNAL_PHRASES)
+
+
+def clean_title(value: str) -> str:
+    value = normalize_line(value)
+    value = value.replace("세이프타임즈", "").strip()
+    return value
+
+
+def source_url(schedule_data: Dict[str, Any]) -> str:
+    return schedule_data.get("article_url") or schedule_data.get("url") or ""
+
+
+def source_body(schedule_data: Dict[str, Any]) -> str:
+    return schedule_data.get("raw_text") or schedule_data.get("body") or ""
+
+
+def normalize_schedule_item(item: Dict[str, Any]) -> Optional[Dict[str, str]]:
+    text_blob = " ".join(str(item.get(k, "")) for k in ("time", "org", "title", "text", "relevance"))
+    if has_bad_phrase(text_blob):
+        return None
+
+    title = str(item.get("title") or item.get("text") or "").strip()
+    title = clean_title(title)
+    if not title:
+        return None
+
+    return {
+        "time": str(item.get("time") or "").strip() or "시간미정",
+        "org": str(item.get("org") or "").strip() or "확인",
+        "title": title,
+        "relevance": "",  # 금일 주요 일정에는 영향도/관련성 설명을 노출하지 않음
+    }
+
+
+def schedule_items_from_json_or_body(schedule_data: Dict[str, Any], max_items: int) -> List[Dict[str, str]]:
+    structured = []
+    for raw_item in schedule_data.get("items") or []:
+        if isinstance(raw_item, dict):
+            normalized = normalize_schedule_item(raw_item)
+            if normalized:
+                structured.append(normalized)
+
+    if structured:
+        return sort_schedule_items(structured[:max_items])
+
+    return parse_schedule_items(source_body(schedule_data), max_items=max_items)
 
 
 def parse_args() -> argparse.Namespace:
@@ -293,20 +349,13 @@ def sort_schedule_items(items: List[Dict[str, str]]) -> List[Dict[str, str]]:
 
 
 def update_summary(base_report: Dict[str, Any], schedule_data: Dict[str, Any], items: List[Dict[str, str]], target_dt: datetime) -> None:
-    title = schedule_data.get("title", "세이프타임즈 오늘의 주요일정")
     today_label = short_date_label(target_dt)
 
     if items:
-        key_titles = "·".join(item["title"] for item in items[:4])
-        summary_text = (
-            f"금일({today_label}) 세이프타임즈 '{title}' 기준 주요 일정 {len(items)}건을 반영함. "
-            f"주요 일정은 {key_titles} 등이며, 정유/석화/LNG 업계 관련성은 원문 사실과 작성자 해석을 구분해 사후 확인 필요."
-        )
+        key_titles = ", ".join(item["title"] for item in items[:4])
+        summary_text = f"금일({today_label}) 주요 일정은 {key_titles} 등으로 정리."
     else:
-        summary_text = (
-            f"금일({today_label}) 세이프타임즈 '{title}' 원문을 수집했으나 자동 추출된 일정 항목이 없습니다. "
-            "본문 구조 확인 및 수동 검수가 필요합니다."
-        )
+        summary_text = "금일 주요 일정: 관련 자료 찾지 못함"
 
     summary = base_report.setdefault("summary", [])
     while len(summary) < 3:
@@ -339,17 +388,17 @@ def update_sources(base_report: Dict[str, Any], schedule_data: Dict[str, Any]) -
     quality = base_report.setdefault("quality_control", {})
     sources = quality.setdefault("sources", [])
 
-    schedule_url = schedule_data.get("url", "")
-    schedule_title = schedule_data.get("title", "세이프타임즈 오늘의 주요일정")
+    schedule_url = source_url(schedule_data)
+    schedule_title = schedule_data.get("title", "오늘의 주요일정")
 
     # 기존 세이프타임즈 출처 제거 후 최신으로 추가
     sources = [
         source for source in sources
-        if not (source.get("type") == "schedule" and "세이프타임즈" in source.get("name", ""))
+        if not (source.get("type") == "schedule")
     ]
 
     sources.insert(0, {
-        "name": schedule_title,
+        "name": "오늘의 주요일정",
         "type": "schedule",
         "url": schedule_url,
     })
@@ -357,15 +406,12 @@ def update_sources(base_report: Dict[str, Any], schedule_data: Dict[str, Any]) -
     quality["sources"] = sources
 
     notes = quality.setdefault("quality_notes", [])
-    notes.append("세이프타임즈 일정은 자동 추출 결과이므로 시간·기관·일정명 수동 확인이 필요합니다.")
-    notes.append("일정 관련성 문구는 정유/석화/LNG 관점의 작성자 해석이며 원문 사실과 구분해야 합니다.")
+    notes.append("일정은 자동 추출 결과이므로 시간·기관·일정명 확인이 필요합니다.")
 
 
 def build_report_draft(schedule_data: Dict[str, Any], base_report: Dict[str, Any], target_dt: datetime, max_items: int) -> Dict[str, Any]:
     report = copy.deepcopy(base_report)
-    body = schedule_data.get("body", "")
-
-    items = parse_schedule_items(body, max_items=max_items)
+    items = schedule_items_from_json_or_body(schedule_data, max_items=max_items)
 
     update_report_meta(report, target_dt)
     update_summary(report, schedule_data, items, target_dt)
@@ -378,18 +424,16 @@ def build_report_draft(schedule_data: Dict[str, Any], base_report: Dict[str, Any
     report["automation"]["safetimes"] = {
         "source_file_date": target_dt.strftime("%Y-%m-%d"),
         "source_title": schedule_data.get("title", ""),
-        "source_url": schedule_data.get("url", ""),
-        "source_published_at": schedule_data.get("published_at", ""),
+        "source_url": source_url(schedule_data),
+        "source_published_at": schedule_data.get("approved_date", "") or schedule_data.get("published_at", ""),
         "parsed_schedule_count": len(items),
         "parser_version": "build_report_draft_from_schedule.py v1.0",
         "needs_review": True,
     }
 
-    # 일정 추출 실패 시 경고
+    # 일정 추출 실패 문구는 사용자용 HTML에 노출하지 않는다.
     if not items:
-        report.setdefault("quality_control", {}).setdefault("quality_notes", []).append(
-            "자동 추출된 일정이 없습니다. 세이프타임즈 본문 구조를 확인해 수동 반영해야 합니다."
-        )
+        report.setdefault("automation", {}).setdefault("validation", {})["schedule_parse_failed"] = True
 
     return report
 
