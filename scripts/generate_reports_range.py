@@ -44,6 +44,7 @@ def parse_args():
     parser.add_argument("--skip-korean-holidays", action="store_true", default=True, help="한국 공휴일/휴무일 제외")
     parser.add_argument("--report-dir", default="data/reports")
     parser.add_argument("--schedule-dir", default="data/schedules")
+    parser.add_argument("--news-dir", default="data/news")
     parser.add_argument("--price-dir", default="data/prices")
     parser.add_argument("--history", default="data/prices/history.json")
     parser.add_argument("--html-dir", default="docs/reports")
@@ -90,6 +91,8 @@ def main() -> int:
         "scripts/merge_prices_into_report.py",
         "scripts/generate_html_report.py",
         "scripts/generate_report_index.py",
+        "scripts/fetch_news_candidates.py",
+        "scripts/apply_news_to_report.py",
         args.history,
         args.base_report,
     ]
@@ -161,7 +164,26 @@ def main() -> int:
             "--refresh-fallback",
         ])
 
-        # 4. 가격 병합. 과거 날짜는 history.json 기준.
+        # 4. 조간 기사 후보 수집 및 반영.
+        run([
+            sys.executable,
+            "scripts/fetch_news_candidates.py",
+            "--date", date_text,
+            "--out-dir", args.news_dir,
+            "--max-items", "12",
+            "--force-refresh",
+        ], allow_fail=True)
+
+        run([
+            sys.executable,
+            "scripts/apply_news_to_report.py",
+            "--date", date_text,
+            "--report-dir", args.report_dir,
+            "--news-dir", args.news_dir,
+            "--max-articles", "3",
+        ], allow_fail=True)
+
+        # 5. 가격 병합. 과거 날짜는 history.json 기준.
         run([
             sys.executable,
             "scripts/merge_prices_into_report.py",
@@ -172,7 +194,7 @@ def main() -> int:
             "--chart-months", str(args.chart_months),
         ])
 
-        # 5. HTML 리포트 생성.
+        # 6. HTML 리포트 생성.
         run([
             sys.executable,
             "scripts/generate_html_report.py",
@@ -181,7 +203,7 @@ def main() -> int:
             "--out-dir", args.html_dir,
         ])
 
-    # 6. 캘린더용 index 갱신.
+    # 7. 캘린더용 index 갱신.
     run([
         sys.executable,
         "scripts/generate_report_index.py",
