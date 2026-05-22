@@ -3,24 +3,25 @@
   "report": {
     "report_date": "2026-05-04",
     "display_date": "2026년 5월 4일 (월)",
-    "previous_day_label": "5/3",
+    "previous_day_label": "4/30",
     "today_label": "5/4",
-    "generated_at": "2026-05-22 17:08 KST",
+    "generated_at": "2026-05-22 17:30 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
     "report_title": "Daily Issue Report",
     "report_badge": "정유 · 석유화학 · LNG",
-    "meta_description": "정유·석유화학·LNG 관련 일일 유가 동향 및 주요 이슈 리포트"
+    "meta_description": "정유·석유화학·LNG 관련 일일 유가 동향 및 주요 이슈 리포트",
+    "previous_source_date": "2026-04-30"
   },
   "summary": [
     {
       "type": "stakeholder",
-      "text": "주요 이해관계자 동향: 구윤철 부 겸 재정경제부 장관, 연차총회(우즈벡)."
+      "text": "주요 이해관계자 동향: 4/30 기준 관련 자료 찾지 못함."
     },
     {
       "type": "today",
-      "text": "금일 주요 일정: 구윤철 부 겸 재정경제부 장관, 연차총회(우즈벡)."
+      "text": "금일 주요 일정: ADB 연차총회(우즈벡)."
     },
     {
       "type": "news_trend",
@@ -1374,35 +1375,12 @@
       }
     }
   },
-  "issues": [
-    {
-      "category": "정책",
-      "category_class": "",
-      "title": "구윤철 부 겸 재정경제부 장관",
-      "description": "- 재경부 일정으로 확인된 '구윤철 부 겸 재정경제부 장관' 항목입니다. 세부 발언이나 후속 보도자료가 확인되지 않은 경우, 보고서에는 일정명 이상의 해석을 추가하지 않습니다.",
-      "grade": "B 간접",
-      "grade_class": "grade-b"
-    },
-    {
-      "category": "정책",
-      "category_class": "",
-      "title": "연차총회(우즈벡)",
-      "description": "- 재경부 일정으로 확인된 '연차총회(우즈벡)' 항목입니다. 세부 발언이나 후속 보도자료가 확인되지 않은 경우, 보고서에는 일정명 이상의 해석을 추가하지 않습니다.",
-      "grade": "B 간접",
-      "grade_class": "grade-b"
-    }
-  ],
+  "issues": [],
   "schedules": [
     {
       "time": "-",
       "org": "재경부",
-      "title": "구윤철 부 겸 재정경제부 장관",
-      "relevance": ""
-    },
-    {
-      "time": "-",
-      "org": "재경부",
-      "title": "연차총회(우즈벡)",
+      "title": "ADB 연차총회(우즈벡)",
       "relevance": ""
     }
   ],
@@ -1515,13 +1493,20 @@
   },
   "automation": {
     "safetimes": {
-      "source_file_date": "2026-05-04",
-      "source_title": "[오늘의 주요일정·4일] 우원식 국회의장 주재 기관장 업무보고",
-      "source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=242478",
-      "source_published_at": "2026-05-04",
-      "parsed_schedule_count": 2,
-      "parser_version": "build_report_draft_from_schedule.py v1.0",
+      "today_source_file_date": "2026-05-04",
+      "today_source_title": "[오늘의 주요일정·4일] 우원식 국회의장 주재 기관장 업무보고",
+      "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=242478",
+      "today_source_published_at": "2026-05-04",
+      "today_parsed_schedule_count": 1,
+      "previous_source_file_date": "2026-04-30",
+      "previous_source_title": "",
+      "previous_source_url": "",
+      "previous_parsed_schedule_count": 0,
+      "parser_version": "build_report_draft_from_schedule.py v2.1-prevday-separated",
       "needs_review": true
+    },
+    "validation": {
+      "previous_schedule_parse_failed": true
     },
     "news": {
       "source_file": "data/news/2026-05-04.json",
@@ -1545,7 +1530,7 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-22 17:08:07 KST",
+      "merged_at": "2026-05-22 17:30:18 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
