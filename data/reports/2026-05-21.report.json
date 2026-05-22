@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 21일 (목)",
     "previous_day_label": "5/20",
     "today_label": "5/21",
-    "generated_at": "2026-05-22 13:38 KST",
+    "generated_at": "2026-05-22 17:08 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -16,15 +16,15 @@
   "summary": [
     {
       "type": "stakeholder",
-      "text": "주요 이해관계자 동향: 물가안정TF 회의(08:00 정부서울청사), 재정경제부, 민생물가 특별관리 관계장관 TF(08:00 정부서울청사), 구리 석유비축기지 방문(09:30 한국석유공사 구리지사), 남동일 공정위 부위원장, 업무점검회의(15:00 대회의실). 가격 그래프는 기준일 전일 기준 과거 2개월(3/20~5/20)만 표시하며, 값이 0인 가격은 제외."
+      "text": "주요 이해관계자 동향: 물가안정TF 회의( 서울청사), 민생물가 특별관리 관계장관 TF( 정부서울청사), 석유비축기지 방문( 한국석유공사 구리지사)."
     },
     {
       "type": "today",
-      "text": "금일 주요 일정: 물가안정TF 회의(08:00 정부서울청사), 재정경제부, 민생물가 특별관리 관계장관 TF(08:00 정부서울청사), 구리 석유비축기지 방문(09:30 한국석유공사 구리지사), 남동일 공정위 부위원장, 업무점검회의(15:00 대회의실)."
+      "text": "금일 주요 일정: 물가안정TF 회의( 서울청사), 민생물가 특별관리 관계장관 TF( 정부서울청사), 석유비축기지 방문( 한국석유공사 구리지사)."
     },
     {
       "type": "news_trend",
-      "text": "조간 보도: 자동 수집된 대표 기사 없음. 별도 기사 후보가 제공될 경우 반영 필요."
+      "text": "조간 보도: 주요 매체는 석유 최고가격제·유류세 등 가격 안정 정책, 정유·석유화학 업계 실적·원가·제품 가격, 물가 지표와 에너지 비용 부담, 정부·국회 에너지 정책 일정 등을 중심으로 정유·석유화학·LNG 업계 관련 이슈를 다뤘습니다."
     }
   ],
   "prices": {
@@ -1385,65 +1385,75 @@
     {
       "category": "정책",
       "category_class": "",
-      "title": "물가안정TF 회의(08:00 정부서울청사)",
-      "description": "08:00 공정위 일정으로 확인된 '물가안정TF 회의(08:00 정부서울청사)' 항목입니다. 세부 발언이나 후속 보도자료가 확인되지 않은 경우, 보고서에는 일정명 이상의 해석을 추가하지 않습니다.",
+      "title": "물가안정TF 회의( 서울청사)",
+      "description": "08:00 공정위 일정으로 확인된 '물가안정TF 회의( 서울청사)' 항목입니다. 세부 발언이나 후속 보도자료가 확인되지 않은 경우, 보고서에는 일정명 이상의 해석을 추가하지 않습니다.",
       "grade": "B 간접",
       "grade_class": "grade-b"
     },
     {
       "category": "정책",
       "category_class": "",
-      "title": "재정경제부, 민생물가 특별관리 관계장관 TF(08:00 정부서울청사)",
-      "description": "08:00 경제 일정으로 확인된 '재정경제부, 민생물가 특별관리 관계장관 TF(08:00 정부서울청사)' 항목입니다. 세부 발언이나 후속 보도자료가 확인되지 않은 경우, 보고서에는 일정명 이상의 해석을 추가하지 않습니다.",
+      "title": "민생물가 특별관리 관계장관 TF( 정부서울청사)",
+      "description": "08:00 경제 일정으로 확인된 '민생물가 특별관리 관계장관 TF( 정부서울청사)' 항목입니다. 세부 발언이나 후속 보도자료가 확인되지 않은 경우, 보고서에는 일정명 이상의 해석을 추가하지 않습니다.",
       "grade": "B 간접",
       "grade_class": "grade-b"
     },
     {
       "category": "정유",
       "category_class": "",
-      "title": "구리 석유비축기지 방문(09:30 한국석유공사 구리지사)",
-      "description": "09:30 정치 일정으로 확인된 '구리 석유비축기지 방문(09:30 한국석유공사 구리지사)' 항목입니다. 세부 발언이나 후속 보도자료가 확인되지 않은 경우, 보고서에는 일정명 이상의 해석을 추가하지 않습니다.",
+      "title": "석유비축기지 방문( 한국석유공사 구리지사)",
+      "description": "09:30 정치 일정으로 확인된 '석유비축기지 방문( 한국석유공사 구리지사)' 항목입니다. 세부 발언이나 후속 보도자료가 확인되지 않은 경우, 보고서에는 일정명 이상의 해석을 추가하지 않습니다.",
       "grade": "A 직접",
       "grade_class": "grade-a"
-    },
-    {
-      "category": "정책",
-      "category_class": "",
-      "title": "남동일 공정위 부위원장, 업무점검회의(15:00 대회의실)",
-      "description": "15:00 경제 일정으로 확인된 '남동일 공정위 부위원장, 업무점검회의(15:00 대회의실)' 항목입니다. 세부 발언이나 후속 보도자료가 확인되지 않은 경우, 보고서에는 일정명 이상의 해석을 추가하지 않습니다.",
-      "grade": "B 간접",
-      "grade_class": "grade-b"
     }
   ],
   "schedules": [
     {
       "time": "08:00",
       "org": "공정위",
-      "title": "물가안정TF 회의(08:00 정부서울청사)",
+      "title": "물가안정TF 회의( 서울청사)",
       "relevance": ""
     },
     {
       "time": "08:00",
       "org": "경제",
-      "title": "재정경제부, 민생물가 특별관리 관계장관 TF(08:00 정부서울청사)",
+      "title": "민생물가 특별관리 관계장관 TF( 정부서울청사)",
       "relevance": ""
     },
     {
       "time": "09:30",
       "org": "정치",
-      "title": "구리 석유비축기지 방문(09:30 한국석유공사 구리지사)",
-      "relevance": ""
-    },
-    {
-      "time": "15:00",
-      "org": "경제",
-      "title": "남동일 공정위 부위원장, 업무점검회의(15:00 대회의실)",
+      "title": "석유비축기지 방문( 한국석유공사 구리지사)",
       "relevance": ""
     }
   ],
   "news_trend": {
-    "summary": "자동 수집된 대표 기사 없음. 별도 기사 후보가 제공될 경우 반영 필요.",
-    "articles": []
+    "summary": "주요 매체는 석유 최고가격제·유류세 등 가격 안정 정책, 정유·석유화학 업계 실적·원가·제품 가격, 물가 지표와 에너지 비용 부담, 정부·국회 에너지 정책 일정 등을 중심으로 정유·석유화학·LNG 업계 관련 이슈를 다뤘습니다.",
+    "articles": [
+      {
+        "title": "정부, 석유 최고가격제 정유사 손실 보전 착수 - 2news.co.kr",
+        "press": "2news.co.kr",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kMHZxajREdmkweURzdnB4RWpXZ0xVYTJYVENsVTlMRFllclFiTllJcVg4bTNVMWVqd0EyaVdpbi1fTWt1bTN1dVNqOVVpYThOcGo4SHVGUUJJc203ZUxqdWR1Wk1qLU0?oc=5",
+        "summary": "정부, 석유 최고가격제 정유사 손실 보전 착수 2news.co.kr",
+        "published_at_kst": "2026-05-22 13:05"
+      },
+      {
+        "title": "6차 석유 최고가격제 동결…휘발유-경유 가격 소폭 하락 - 동아일보",
+        "press": "동아일보",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfTDFBbWFXS2hjZXlXalZsbWhVMU5qUUg5ZG1WOVVHWHQ5ZGlVT0h2d3g3YXJka09tOUVOV0RCcjhEMTZoWkNTYWZ4QThuZk0zOS1UbTdUNHpIMEtKRjV3WkNxLUFfQdIBZkFVX3lxTFBfTDFBbWFXS2hjZXlXalZsbWhVMU5qUUg5ZG1WOVVHWHQ5ZGlVT0h2d3g3YXJka09tOUVOV0RCcjhEMTZoWkNTYWZ4QThuZk0zOS1UbTdUNHpIMEtKRjV3WkNxLUFfQQ?oc=5",
+        "summary": "6차 석유 최고가격제 동결…휘발유-경유 가격 소폭 하락 동아일보",
+        "published_at_kst": "2026-05-22 14:21"
+      },
+      {
+        "title": "6차 석유 최고가격제 동결…휘발유-경유 가격 소폭 하락 - 네이트",
+        "press": "네이트",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SSHVadVZIeFNnVzRpaXQ5akRYODJGT0M0OGhsbXNwazdRSVVTQ0FXOVZhOW1aZTk4aVdkZWdtMjAwZEZodlRlYnFvOTBFazJwa2Z3UXRmTlpncUZFanZibw?oc=5",
+        "summary": "6차 석유 최고가격제 동결…휘발유-경유 가격 소폭 하락 네이트",
+        "published_at_kst": "2026-05-22 14:22"
+      }
+    ],
+    "source": "Google News RSS",
+    "needs_review": true
   },
   "quality_control": {
     "quality_notes": [
@@ -1530,8 +1540,15 @@
       "source_title": "[오늘의 주요일정·21일] 5공피해자단체 연합회, 스타벅스 규탄 기자회견",
       "source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=242918",
       "source_published_at": "2026-05-21",
-      "parsed_schedule_count": 4,
+      "parsed_schedule_count": 3,
       "parser_version": "build_report_draft_from_schedule.py v1.0",
+      "needs_review": true
+    },
+    "news": {
+      "source_file": "data/news/2026-05-21.json",
+      "article_count": 3,
+      "source": "Google News RSS",
+      "status": "updated",
       "needs_review": true
     },
     "opinet_prices": {
@@ -1549,7 +1566,7 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-22 13:38:12 KST",
+      "merged_at": "2026-05-22 17:08:51 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
