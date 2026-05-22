@@ -21,12 +21,27 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
+# 2026년 한국 공휴일/휴무일 중 대시보드 평일 백필에서 제외할 날짜
+# 근로자의 날은 법정 공휴일은 아니지만 국내 업무일정 리포트 운영상 휴무일로 취급합니다.
+KOREAN_HOLIDAYS_2026 = {
+    "2026-01-01",
+    "2026-02-16", "2026-02-17", "2026-02-18",
+    "2026-03-02",
+    "2026-05-01", "2026-05-05", "2026-05-25",
+    "2026-06-03",
+    "2026-08-17",
+    "2026-09-24", "2026-09-25", "2026-09-28",
+    "2026-10-05", "2026-10-09",
+    "2026-12-25",
+}
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description="기간별 평일 리포트 일괄 생성")
     parser.add_argument("--start", required=True, help="시작일 YYYY-MM-DD")
     parser.add_argument("--end", required=True, help="종료일 YYYY-MM-DD")
     parser.add_argument("--skip-weekends", action="store_true", default=True, help="토/일 제외")
+    parser.add_argument("--skip-korean-holidays", action="store_true", default=True, help="한국 공휴일/휴무일 제외")
     parser.add_argument("--report-dir", default="data/reports")
     parser.add_argument("--schedule-dir", default="data/schedules")
     parser.add_argument("--price-dir", default="data/prices")
@@ -87,11 +102,16 @@ def main() -> int:
     generated_dates = []
 
     for d in date_range(args.start, args.end):
+        date_text = d.isoformat()
+
         if args.skip_weekends and d.weekday() >= 5:
-            print(f"[SKIP] 주말 제외: {d.isoformat()}")
+            print(f"[SKIP] 주말 제외: {date_text}")
             continue
 
-        date_text = d.isoformat()
+        if args.skip_korean_holidays and date_text in KOREAN_HOLIDAYS_2026:
+            print(f"[SKIP] 공휴일/휴무일 제외: {date_text}")
+            continue
+
         generated_dates.append(date_text)
 
         print(f"\n=== {date_text} 리포트 생성 ===")
