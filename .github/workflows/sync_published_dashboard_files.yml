@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   workflow_run:
     workflows:
-      - Daily Energy Dashboard - Daily Data Pipeline
-      - Backfill Dashboard Reports
+      - "Daily Energy Dashboard - Daily Data Pipeline"
+      - "Backfill Dashboard Reports"
     types:
       - completed
 
@@ -18,8 +18,9 @@ concurrency:
 
 jobs:
   sync-published-dashboard-files:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
+
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
 
     steps:
       - name: Checkout
@@ -40,7 +41,7 @@ jobs:
           echo "docs reports count: $DOC_REPORT_COUNT"
 
           if [ "$DOC_REPORT_COUNT" -lt 10 ]; then
-            echo "ERROR: docs/reports HTML 파일 수가 너무 적습니다."
+            echo "ERROR: docs/reports HTML 파일 수가 너무 적습니다. 백필 결과를 먼저 확인하세요."
             exit 1
           fi
 
@@ -48,77 +49,80 @@ jobs:
           import json
           from pathlib import Path
 
+          bad = [
+              "자동 추출된 일정 항목이 없습니다",
+              "본문 구조 확인 및 수동 검수가 필요합니다",
+              "원문 자동 매칭 실패",
+              "주요일정 원문 데이터 미확보",
+              "가격 데이터 중심 리포트",
+          ]
           idx = json.loads(Path("docs/report-index.json").read_text(encoding="utf-8"))
-          text = Path("docs/report-index.json").read_text(encoding="utf-8")
-          required = {"2026-05-04","2026-05-06","2026-05-08","2026-05-12","2026-05-18","2026-05-19","2026-05-20","2026-05-21"}
-          missing = sorted([d for d in required if d not in text])
-          if missing:
-              raise SystemExit(f"ERROR: docs/report-index.json에 필수 날짜 누락: {missing}")
-          for d in required:
-              if not Path(f"docs/reports/{d}.html").exists():
-                  raise SystemExit(f"ERROR: docs/reports/{d}.html 누락")
-          print("[OK] docs 검증 완료")
+          dates = set(idx.get("availableDates", []))
+          for item in idx.get("reports", []):
+              d = item.get("date")
+              p = Path("docs") / item.get("url", "")
+              if not p.exists():
+                  raise SystemExit(f"ERROR: report-index 날짜의 HTML 누락: {d} {p}")
+              html = p.read_text(encoding="utf-8", errors="ignore")
+              if any(x in html for x in bad):
+                  raise SystemExit(f"ERROR: 내부 오류/fallback 문구가 노출된 HTML: {p}")
+          print(f"[OK] docs 산출물 검증 완료: {len(dates)}개")
           PY
 
       - name: Mirror docs to public
         run: |
+          set -e
           rm -rf public
           mkdir -p public
-          cp -R docs/. public/
+          cp -a docs/. public/
 
-      - name: Validate public output
+          echo "public 파일 동기화 완료"
+          echo "public reports count:"
+          find public/reports -maxdepth 1 -type f -name "*.html" | wc -l
+
+      - name: Verify public output
         run: |
           set -e
           test -f public/index.html || (echo "ERROR: public/index.html 없음" && exit 1)
           test -f public/report-index.json || (echo "ERROR: public/report-index.json 없음" && exit 1)
           test -d public/reports || (echo "ERROR: public/reports 폴더 없음" && exit 1)
 
-          PUBLIC_REPORT_COUNT=$(find public/reports -maxdepth 1 -type f -name "*.html" | wc -l | tr -d ' ')
-          echo "public reports count: $PUBLIC_REPORT_COUNT"
-
           python - <<'PY'
+          import json
           from pathlib import Path
-          text = Path("public/report-index.json").read_text(encoding="utf-8")
-          required = {"2026-05-04","2026-05-06","2026-05-08","2026-05-12","2026-05-18","2026-05-19","2026-05-20","2026-05-21"}
-          missing = sorted([d for d in required if d not in text])
-          if missing:
-              raise SystemExit(f"ERROR: public/report-index.json에 필수 날짜 누락: {missing}")
-          for d in required:
-              if not Path(f"public/reports/{d}.html").exists():
-                  raise SystemExit(f"ERROR: public/reports/{d}.html 누락")
-          html = Path("public/index.html").read_text(encoding="utf-8", errors="ignore")
-          if "리포트 바로가기" not in html:
-              raise SystemExit("ERROR: public/index.html이 최신 대시보드가 아닙니다.")
-          print("[OK] public 검증 완료")
+
+          docs_idx = json.loads(Path("docs/report-index.json").read_text(encoding="utf-8"))
+          public_idx = json.loads(Path("public/report-index.json").read_text(encoding="utf-8"))
+
+          docs_dates = set(docs_idx.get("availableDates", []))
+          public_dates = set(public_idx.get("availableDates", []))
+
+          if docs_dates != public_dates:
+              raise SystemExit("ERROR: docs와 public의 availableDates가 다릅니다.")
+
+          for item in public_idx.get("reports", []):
+              p = Path("public") / item.get("url", "")
+              if not p.exists():
+                  raise SystemExit(f"ERROR: public HTML 누락: {p}")
+
+          public_index = Path("public/index.html").read_text(encoding="utf-8", errors="ignore")
+          if "리포트 바로가기" not in public_index:
+              raise SystemExit("ERROR: public/index.html이 최신 대시보드 파일이 아닙니다.")
+
+          print(f"[OK] public 산출물 검증 완료: {len(public_dates)}개")
           PY
 
-      - name: Commit synced public files
+      - name: Commit synced published files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add public/ || true
+          git add public/ docs/
 
           if git diff --cached --quiet; then
-            echo "변경된 public 파일이 없습니다."
+            echo "변경된 파일이 없습니다."
             exit 0
           fi
 
-          git commit -m "Sync public dashboard files"
-
-          if git push; then
-            echo "정상적으로 push 완료"
-            exit 0
-          fi
-
-          git fetch origin main
-          git reset --soft origin/main
-          git add public/ || true
-
-          if git diff --cached --quiet; then
-            echo "최신 원격 기준으로 추가 변경이 없습니다."
-            exit 0
-          fi
-
-          git commit -m "Sync public dashboard files"
+          git commit -m "Sync published dashboard files"
           git push
