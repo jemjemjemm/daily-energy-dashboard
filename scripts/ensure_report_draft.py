@@ -217,8 +217,8 @@ def build_minimal_report(date_text: str, base_report_path: Path) -> Dict[str, An
             "category": "데이터",
             "category_class": "data",
             "title": "전일 주요 이슈 원문 데이터 없음",
-            "description": "세이프타임즈 일정 및 별도 기사 데이터가 없어 주요 이슈는 자동 작성하지 않았습니다. 본 리포트는 가격 데이터 중심으로 제공됩니다.",
-            "grade": "C 참고"
+            "description": "주요 이슈 자동 작성에 필요한 일정·기사 데이터가 부족해 별도 이해관계자 동향을 작성하지 않음.",
+            "grade": ""
         }
     ]
 
@@ -244,7 +244,7 @@ def build_minimal_report(date_text: str, base_report_path: Path) -> Dict[str, An
 
     report["quality_control"] = {
         "quality_notes": [
-            "세이프타임즈 일정 또는 기사 데이터가 없어 가격 중심 기본 리포트를 생성했습니다.",
+            "일정 또는 기사 데이터 부족으로 기본 리포트 초안을 생성함.",
             "정책·일정·기사 관련 내용은 원문 확인 후 보완해야 합니다.",
             "가격 그래프와 가격 카드는 history.json 또는 오피넷 수집 데이터 기준으로 반영됩니다."
         ],
