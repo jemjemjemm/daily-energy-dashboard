@@ -24,6 +24,109 @@ BAD_SUMMARY_PHRASES = [
 PRICE_SUMMARY_RE = re.compile(r"\s*가격 그래프는 기준일 전일 기준 과거 2개월\([^)]*\)만 표시하며, 값이 0인 가격은 제외\.?,?", re.U)
 
 
+NOUN_ENDING_REPLACEMENTS = [
+    ("다뤘습니다.", "다룸."), ("다뤘다.", "다룸."), ("다룸.", "다룸."),
+    ("보도했습니다.", "보도."), ("보도했다.", "보도."),
+    ("소개했습니다.", "소개."), ("소개했다.", "소개."),
+    ("분석했습니다.", "분석."), ("분석했다.", "분석."),
+    ("전망했습니다.", "전망."), ("전망했다.", "전망."),
+    ("제시했습니다.", "제시."), ("제시했다.", "제시."),
+    ("밝혔습니다.", "밝힘."), ("밝혔다.", "밝힘."),
+    ("강조했습니다.", "강조."), ("강조했다.", "강조."),
+    ("설명했습니다.", "설명."), ("설명했다.", "설명."),
+    ("전했습니다.", "전달."), ("전했다.", "전달."),
+    ("예상했습니다.", "예상."), ("예상했다.", "예상."),
+    ("언급했습니다.", "언급."), ("언급했다.", "언급."),
+    ("지적했습니다.", "지적."), ("지적했다.", "지적."),
+    ("입니다.", "임."), ("입니다", "임."), ("했습니다.", "함."), ("했다.", "함."),
+]
+
+THEME_RULES = [
+    ("석유화학 공급과잉 부담 지속", ["석유화학", "공급과잉", "나프타", "에틸렌", "화학제품"]),
+    ("호르무즈·중동 정세에 따른 원유·LNG 수급 리스크", ["호르무즈", "중동", "이란", "원유", "LNG", "천연가스", "수급", "공급망"]),
+    ("고유가와 SAF 부담에 따른 항공·정유업계 영향", ["SAF", "지속가능항공유", "항공유", "항공", "고유가", "친환경 연료"]),
+    ("석유제품 가격 안정 정책과 유류세 이슈", ["최고가격제", "유류세", "가격상한", "휘발유", "경유", "주유소"]),
+    ("에너지 가격발 물가 부담", ["생산자물가", "소비자물가", "수입물가", "물가", "석탄및석유제품"]),
+    ("정부·국회 에너지 정책 논의", ["정부", "산업부", "산업통상부", "공정위", "국회", "기재부", "기후부"]),
+    ("정유사 실적과 재고평가손익 변동성", ["정유사", "정유", "실적", "재고평가", "정제마진"]),
+]
+
+
+def to_report_style(text: str) -> str:
+    """조간 섹션 문장을 보고서형 명사 종결로 정리합니다."""
+    t = clean(text)
+    if not t:
+        return ""
+    t = re.sub(r"[\s\u00a0]+", " ", t).strip()
+    t = re.sub(r"\s*[-–—]\s*[^\s]{2,12}\s*$", "", t).strip()
+    # 기사 본문 조각이 너무 길면 한 문장 단위로 압축
+    if len(t) > 170:
+        t = t[:170].rsplit(" ", 1)[0].strip()
+    for src, dst in NOUN_ENDING_REPLACEMENTS:
+        if t.endswith(src):
+            t = t[: -len(src)] + dst
+            break
+    else:
+        if t.endswith("습니다"):
+            t = t[:-3] + "음."
+        elif t.endswith("니다"):
+            t = t[:-2] + "음."
+        elif not re.search(r"[.。!?]$", t):
+            # 명사구·제목형은 그대로 마침표만 부여
+            t += "."
+    t = t.replace(" 다뤘음.", " 다룸.").replace(" 보도함.", " 보도.")
+    return t
+
+
+def infer_theme_labels(articles: List[Dict[str, str]], topics: List[str] | None = None) -> List[str]:
+    text = " ".join((a.get("title", "") + " " + a.get("summary", "")) for a in articles)
+    labels: List[str] = []
+    for label, keys in THEME_RULES:
+        if any(k.lower() in text.lower() for k in keys):
+            labels.append(label)
+    if not labels and topics:
+        for topic in topics:
+            topic = clean(topic)
+            if topic and topic not in labels:
+                labels.append(topic)
+    if not labels:
+        labels.append("정유·석유화학·LNG 업계 관련 이슈")
+    return labels[:3]
+
+
+def make_trend_headline(articles: List[Dict[str, str]], topics: List[str] | None = None) -> str:
+    labels = infer_theme_labels(articles, topics)
+    if len(labels) == 1:
+        return f"주요 매체가 △{labels[0]} 등을 중심으로 보도."
+    return "주요 매체가 " + " ".join(f"△{x}" for x in labels) + " 등을 중심으로 보도."
+
+
+def article_trend_sentence(article: Dict[str, str]) -> str:
+    press = clean(article.get("press")) or "해당 매체"
+    title = clean(article.get("title"))
+    summary = to_report_style(article.get("summary", ""))
+    published = clean(article.get("published_at_kst"))
+    time_text = ""
+    if published:
+        # YYYY-MM-DD HH:MM -> M/D HH:MM 입력 기사에서
+        m = re.match(r"(\d{4})-(\d{2})-(\d{2})\s+(\d{2}:\d{2})", published)
+        if m:
+            time_text = f"{int(m.group(2))}/{int(m.group(3))} {m.group(4)} 입력 기사에서 "
+    core = title
+    core = re.sub(r"^\[[^\]]+\]\s*", "", core).strip()
+    core = re.sub(r"\s+-\s+[^-]{2,12}$", "", core).strip()
+    if summary and summary not in {"원문 링크 기준으로 세부 내용 검수가 필요합니다.", "원문 링크 기준으로 세부 내용 검수가 필요함."}:
+        if time_text:
+            summary = re.sub(r"^\d{1,2}/\d{1,2}\s+\d{1,2}:\d{2}\s*입력\.?\s*", "", summary).strip()
+        return f"{press}는 {time_text}{summary}"
+    return f"{press}는 {time_text}{core} 관련 내용 보도."
+
+
+def make_trend_paragraphs(articles: List[Dict[str, str]]) -> List[str]:
+    return [article_trend_sentence(a) for a in articles[:3]]
+
+
+
 def parse_args():
     p = argparse.ArgumentParser(description="뉴스 후보를 리포트 JSON에 반영")
     p.add_argument("--date", required=True)
@@ -91,14 +194,10 @@ def existing_valid_articles(report: Dict[str, Any]) -> List[Dict[str, Any]]:
 
 def build_news_summary(news: Dict[str, Any], articles: List[Dict[str, Any]]) -> str:
     topics = [clean(t) for t in news.get("topics", []) if clean(t)]
-    if topics:
-        return "주요 매체는 " + ", ".join(topics[:4]) + " 등을 중심으로 정유·석유화학·LNG 업계 관련 이슈를 다뤘습니다."
     provided = clean(news.get("summary"))
-    if provided and not any(x in provided for x in BAD_SUMMARY_PHRASES):
-        return provided
-    titles = ", ".join(a.get("title", "") for a in articles[:3])
-    return f"정유·석유화학·LNG 관련 조간 기사 후보로 {titles} 등이 수집됐습니다."
-
+    if provided and not any(x in provided for x in BAD_SUMMARY_PHRASES) and not any(x in provided for x in ["다뤘습니다", "보도했습니다", "수집됐습니다"]):
+        return to_report_style(provided)
+    return make_trend_headline(articles, topics)
 
 def update_summary(report: Dict[str, Any], news_summary: str) -> None:
     existing = report.get("summary", []) if isinstance(report.get("summary"), list) else []
@@ -157,7 +256,7 @@ def main() -> int:
         print(f"[ERROR] 조간 기사 후보 {len(articles)}건: 최소 {a.min_required}건 미달")
         return 2
 
-    report["news_trend"] = {"summary": news_summary, "articles": articles, "source": source, "needs_review": True}
+    report["news_trend"] = {"summary": news_summary, "trend_paragraphs": make_trend_paragraphs(articles), "articles": articles, "source": source, "needs_review": True}
     update_summary(report, news_summary)
     report.setdefault("automation", {})["news"] = {
         "source_file": str(news_path),
