@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 26일 (화)",
     "previous_day_label": "5/22",
     "today_label": "5/26",
-    "generated_at": "2026-05-26 14:10 KST",
+    "generated_at": "2026-05-26 14:37 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -25,7 +25,7 @@
     },
     {
       "type": "news_trend",
-      "text": "조간 보도: 주요 매체는 중동 정세와 원유·LNG 수급 리스크 등을 중심으로 정유·석유화학·LNG 업계 관련 이슈를 다뤘습니다."
+      "text": "조간 보도: 주요 매체가 △호르무즈·중동 정세에 따른 원유·LNG 수급 리스크 등을 중심으로 보도."
     }
   ],
   "prices": {
@@ -1454,7 +1454,12 @@
     }
   ],
   "news_trend": {
-    "summary": "주요 매체는 중동 정세와 원유·LNG 수급 리스크 등을 중심으로 정유·석유화학·LNG 업계 관련 이슈를 다뤘습니다.",
+    "summary": "주요 매체가 △호르무즈·중동 정세에 따른 원유·LNG 수급 리스크 등을 중심으로 보도.",
+    "trend_paragraphs": [
+      "여성신문는 5/26 10:11 입력 기사에서 국제유가, 호르무즈 개방 기대감에 급락…브렌트유 100 달러 아래 여성신문.",
+      "브릿지경제는 5/26 08:21 입력 기사에서 국제유가, 호르무즈 개방 기대감에 7% 급락⋯브렌트유 96달러 브릿지경제.",
+      "비욘드포스트는 5/26 06:50 입력 기사에서 국제유가, 호르무즈해협 개방 기대감에 급락...브렌트유, 7% 가까이 급락하며 배럴당 93달러까지 하락 비욘드포스트."
+    ],
     "articles": [
       {
         "title": "국제유가, 호르무즈 개방 기대감에 급락…브렌트유 100 달러 아래 - 여성신문",
@@ -1596,7 +1601,7 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-26 14:10:11 KST",
+      "merged_at": "2026-05-26 14:37:13 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
