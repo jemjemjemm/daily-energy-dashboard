@@ -531,17 +531,18 @@ def update_summary(
     news = base_report.get("news_trend", {}) if isinstance(base_report.get("news_trend"), dict) else {}
     articles = news.get("articles", []) if isinstance(news.get("articles"), list) else []
     valid_articles = [a for a in articles if isinstance(a, dict) and a.get("title") and a.get("url")]
-    if valid_articles:
-        news_titles = ", ".join(a.get("title", "") for a in valid_articles[:3])
-        news_text = f"조간 보도: {news_titles}."
-    else:
-        news_text = "조간 보도: 기준일 조간 기준 대표 기사 미확인."
 
-    base_report["summary"] = [
+    summary_rows = [
         {"type": "stakeholder", "text": stakeholder_text},
         {"type": "today", "text": today_text},
-        {"type": "news_trend", "text": news_text},
     ]
+    # 조간 기사 후보가 실제로 있을 때만 Summary에 조간 보도 항목을 둔다.
+    # 기사 0건인 날짜에는 '대표 기사 미확인'류 fallback 문구를 남기지 않는다.
+    if valid_articles:
+        news_titles = ", ".join(a.get("title", "") for a in valid_articles[:3])
+        summary_rows.append({"type": "news_trend", "text": f"조간 보도: {news_titles}."})
+
+    base_report["summary"] = summary_rows
 
 
 def update_report_meta(base_report: Dict[str, Any], target_dt: datetime) -> None:
@@ -600,7 +601,9 @@ def build_report_draft(
     report["summary"] = []
     report["issues"] = []
     report["schedules"] = []
-    report["news_trend"] = {"summary": "기준일 조간 기준 대표 기사 미확인.", "articles": []}
+    # 조간 기사는 apply_news_to_report.py에서 실제 기사 후보가 있을 때만 채운다.
+    # 기사 0건인 경우 fallback 문구를 JSON에 남기지 않는다.
+    report["news_trend"] = {"summary": "", "articles": []}
 
     today_items = schedule_items_from_json_or_body(schedule_data, max_items=max_items)
     previous_items: List[Dict[str, str]] = []
