@@ -287,9 +287,9 @@ def infer_topics(items: list[dict[str, Any]]) -> list[str]:
 
 def build_summary(topics: list[str], items: list[dict[str, Any]]) -> str:
     if topics:
-        return "주요 매체는 " + ", ".join(topics[:4]) + " 등을 중심으로 정유·석유화학·LNG 업계 관련 이슈를 다뤘습니다."
+        return "주요 매체가 " + " ".join(f"△{t}" for t in topics[:4]) + " 등을 중심으로 보도."
     titles = ", ".join(i.get("title", "") for i in items[:3])
-    return f"정유·석유화학·LNG 관련 조간 기사 후보로 {titles} 등이 수집됐습니다."
+    return f"정유·석유화학·LNG 관련 조간 기사 후보로 {titles} 등 수집."
 
 
 def read_existing_valid(path: Path) -> dict[str, Any] | None:
