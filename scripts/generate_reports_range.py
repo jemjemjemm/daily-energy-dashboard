@@ -16,6 +16,7 @@ generate_reports_range.py v4
 from __future__ import annotations
 
 import argparse
+import json
 import subprocess
 import sys
 from datetime import datetime, timedelta
@@ -96,6 +97,49 @@ def run(cmd, allow_fail: bool = False) -> bool:
 
 def file_exists(path: str) -> bool:
     return Path(path).exists()
+
+
+
+def read_json_optional(path: str):
+    p = Path(path)
+    if not p.exists():
+        return {}
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def write_json(path: str, payload) -> None:
+    p = Path(path)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def normalize_source_metadata(report_path: str, date_text: str, previous_date_text: str, schedule_path: str, previous_schedule_path: str) -> None:
+    """구버전 초안/보강 스크립트가 source metadata를 누락해도 Backfill 검증이 깨지지 않도록 보정합니다.
+
+    이는 내용을 조작하는 것이 아니라, 기준일/직전영업일 분리 검증에 필요한 파일 기준일을 명시하는 단계입니다.
+    """
+    report = read_json_optional(report_path)
+    if not report:
+        return
+    schedule_data = read_json_optional(schedule_path)
+    prev_data = read_json_optional(previous_schedule_path)
+    report_meta = report.setdefault("report", {})
+    report_meta.setdefault("report_date", date_text)
+    report_meta.setdefault("previous_source_date", previous_date_text)
+    automation = report.setdefault("automation", {})
+    safe = automation.setdefault("safetimes", {})
+    safe["today_source_file_date"] = safe.get("today_source_file_date") or date_text
+    safe["previous_source_file_date"] = safe.get("previous_source_file_date") or previous_date_text
+    if schedule_data:
+        safe["today_source_title"] = safe.get("today_source_title") or schedule_data.get("title", "")
+        safe["today_source_url"] = safe.get("today_source_url") or schedule_data.get("article_url", "") or schedule_data.get("url", "")
+    if prev_data:
+        safe["previous_source_title"] = safe.get("previous_source_title") or prev_data.get("title", "")
+        safe["previous_source_url"] = safe.get("previous_source_url") or prev_data.get("article_url", "") or prev_data.get("url", "")
+    write_json(report_path, report)
 
 
 def main() -> int:
@@ -187,8 +231,9 @@ def main() -> int:
                 "--base-report", args.base_report,
                 "--out-dir", args.report_dir,
             ])
+            normalize_source_metadata(report_path, date_text, previous_date_text, schedule_path, previous_schedule_path)
         else:
-            print(f"[WARN] 일정 JSON이 없어 가격 중심 기본 리포트로 보강합니다: {date_text}")
+            raise RuntimeError(f"기준일 일정 JSON이 없어 유효한 리포트를 생성할 수 없습니다: {schedule_path}")
 
         # 3. 리포트가 없거나 빈/fallback이면 보강.
         run([
@@ -199,6 +244,7 @@ def main() -> int:
             "--base-report", args.base_report,
             "--refresh-fallback",
         ])
+        normalize_source_metadata(report_path, date_text, previous_date_text, schedule_path, previous_schedule_path)
 
         # 3-1. 조간신문 트렌드 반영.
         # 기사 후보 0건은 정상 상태가 아니므로 백필도 실패시켜 검수하게 한다.
@@ -210,6 +256,7 @@ def main() -> int:
             "--date", date_text,
             "--out-dir", "data/news",
             "--min-required", "1",
+            "--force-refresh",
         ])
         run([
             sys.executable,
