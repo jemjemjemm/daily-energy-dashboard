@@ -163,6 +163,13 @@ def is_fallback_or_empty_report(report: Dict[str, Any]) -> bool:
     if has_meaningful_issues(report) or has_meaningful_schedules(report) or has_meaningful_news(report):
         return False
 
+    # build_report_draft_from_schedule.py가 생성한 일정 기반 초안은
+    # 기사 반영 전에 issues/schedules가 비어 있을 수 있다. 이 경우 가격 중심 fallback으로
+    # 덮어쓰면 source metadata와 문체가 다시 깨지므로 보존한다.
+    safetimes = automation.get("safetimes", {}) if isinstance(automation.get("safetimes"), dict) else {}
+    if safetimes.get("today_source_file_date"):
+        return False
+
     # issues/schedules/news가 모두 비어 있거나 placeholder이면 보강 대상
     return True
 
@@ -200,7 +207,7 @@ def build_minimal_report(date_text: str, base_report_path: Path) -> Dict[str, An
     report["summary"] = [
         {
             "type": "price_only",
-            "text": "해당 날짜의 일정·기사 원문 데이터가 없어 가격 데이터 중심 리포트로 생성했습니다."
+            "text": "해당 날짜의 일정·기사 원문 데이터가 없어 가격 데이터 중심 리포트로 생성."
         },
         {
             "type": "price_only",
@@ -208,7 +215,7 @@ def build_minimal_report(date_text: str, base_report_path: Path) -> Dict[str, An
         },
         {
             "type": "review_note",
-            "text": "정책·일정·기사 요약은 원문 데이터가 확보되면 후속 보완이 필요합니다."
+            "text": "정책·일정·기사 요약은 원문 데이터 확보 후 후속 보완 필요."
         }
     ]
 
@@ -227,12 +234,12 @@ def build_minimal_report(date_text: str, base_report_path: Path) -> Dict[str, An
             "time": "-",
             "org": "데이터",
             "title": "금일 주요 일정 원문 데이터 없음",
-            "relevance": "해당 날짜의 일정 원문을 확인하지 못해 일정 영향도 평가는 작성하지 않았습니다."
+            "relevance": "해당 날짜의 일정 원문을 확인하지 못해 일정 영향도 평가는 미작성."
         }
     ]
 
     report["news_trend"] = {
-        "summary": "해당 날짜의 조간 신문 트렌드 원문 데이터가 없어 자동 요약을 작성하지 않았습니다. 가격 데이터 중심 리포트로 제공됩니다.",
+        "summary": "해당 날짜의 조간 신문 트렌드 원문 데이터가 없어 자동 요약 미작성. 가격 데이터 중심 리포트로 제공.",
         "articles": [
             {
                 "title": "대표 기사 데이터 없음",
