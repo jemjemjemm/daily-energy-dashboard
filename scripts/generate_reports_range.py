@@ -200,22 +200,25 @@ def main() -> int:
             "--refresh-fallback",
         ])
 
-        # 3-1. 뉴스 후보 수집 로직이 저장소에 있으면 조간신문 트렌드도 반영한다.
-        # 해당 스크립트가 없는 기존 저장소에서는 이 단계를 자동으로 건너뛴다.
-        if Path("scripts/fetch_news_candidates.py").exists() and Path("scripts/apply_news_to_report.py").exists():
-            run([
-                sys.executable,
-                "scripts/fetch_news_candidates.py",
-                "--date", date_text,
-                "--out-dir", "data/news",
-            ], allow_fail=True)
-            run([
-                sys.executable,
-                "scripts/apply_news_to_report.py",
-                "--date", date_text,
-                "--news-dir", "data/news",
-                "--report-dir", args.report_dir,
-            ], allow_fail=True)
+        # 3-1. 조간신문 트렌드 반영.
+        # 기사 후보 0건은 정상 상태가 아니므로 백필도 실패시켜 검수하게 한다.
+        if not Path("scripts/fetch_news_candidates.py").exists() or not Path("scripts/apply_news_to_report.py").exists():
+            raise RuntimeError("뉴스 후보 수집/반영 스크립트가 없습니다.")
+        run([
+            sys.executable,
+            "scripts/fetch_news_candidates.py",
+            "--date", date_text,
+            "--out-dir", "data/news",
+            "--min-required", "1",
+        ])
+        run([
+            sys.executable,
+            "scripts/apply_news_to_report.py",
+            "--date", date_text,
+            "--news-dir", "data/news",
+            "--report-dir", args.report_dir,
+            "--min-required", "1",
+        ])
 
         # 4. 가격 병합. 과거 날짜는 history.json 기준.
         run([
