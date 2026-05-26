@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-fetch_news_candidates.py v1.0
+fetch_news_candidates.py v1.1
 정유·석유화학·LNG Daily Issue Report용 조간 기사 후보를 수집합니다.
 API 키 없이 GitHub Actions에서 실행 가능하도록 Google News RSS를 사용합니다.
 """
@@ -16,11 +16,12 @@ import requests
 KST = timezone(timedelta(hours=9))
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125 Safari/537.36"
 QUERIES = [
-    "정유 OR 유가 OR 석유제품 OR 주유소 OR 유류세",
-    "석유화학 OR 나프타 OR 에틸렌 OR 프로필렌",
-    "LNG OR 가스 OR 전력 OR 에너지 공급망",
-    "최고가격제 OR 민생물가 OR 생산자물가 석유",
-    "중동 위기 원유 수급 에너지",
+    "정유 OR 정유사 OR 유가 OR 원유 OR 석유제품 OR 주유소 OR 유류세",
+    "석유화학 OR 나프타 OR 에틸렌 OR 프로필렌 OR 화학제품",
+    "LNG OR 천연가스 OR 가스 OR 전력 OR 전력기자재 OR 에너지 공급망",
+    "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
+    "중동 위기 OR 호르무즈 OR 원유 수급 OR 에너지 안보",
+    "산업부 에너지 OR 기후에너지환경부 OR 공정위 석유 OR 국회 에너지",
 ]
 POSITIVE = {
     "정유":8,"정유사":9,"유가":8,"석유":8,"석유제품":9,"주유소":7,"유류세":7,"휘발유":7,"경유":7,"나프타":8,"항공유":6,
@@ -36,6 +37,12 @@ TOPIC_RULES = [
     ("정유·석유화학 업계 실적·원가·제품 가격", ["정유","정유사","석유화학","나프타","화학제품","원가"]),
     ("물가 지표와 에너지 비용 부담", ["물가","생산자물가","소비자물가","에너지","석유제품"]),
     ("정부·국회 에너지 정책 일정", ["정부","산업부","기후부","공정위","국회","회의","브리핑"]),
+]
+
+
+FALLBACK_QUERIES = [
+    "에너지 OR 유가 OR 물가 OR 전력",
+    "산업부 OR 공정위 OR 국회 에너지",
 ]
 
 def parse_args():
@@ -84,7 +91,7 @@ def score_article(title:str,snippet:str,source:str)->int:
     if any(k in text for k in ["정부","국회","산업부","공정위","기후부"]): score+=2
     return score
 
-def fetch_google_news(query:str,target:datetime):
+def fetch_google_news(query:str,target:datetime,min_score:int=6):
     after=target.strftime("%Y-%m-%d"); before=(target+timedelta(days=1)).strftime("%Y-%m-%d")
     q=f"({query}) after:{after} before:{before}"
     url="https://news.google.com/rss/search?q="+quote_plus(q)+"&hl=ko&gl=KR&ceid=KR:ko"
@@ -99,7 +106,7 @@ def fetch_google_news(query:str,target:datetime):
         snippet=clean_text(item.findtext("description", ""))
         if not title or not link: continue
         score=score_article(title,snippet,source)
-        if score < 8: continue
+        if score < min_score: continue
         out.append({"title":title,"press":source or "Google News","url":link,"published_date":pub_date,"published_at_kst":pub_kst,"snippet":snippet,"score":score,"source_query":query})
     return out
 
@@ -129,7 +136,7 @@ def infer_topics(items):
 def build_summary(topics,items):
     if topics: return "주요 매체는 " + ", ".join(topics) + " 등을 중심으로 정유·석유화학·LNG 업계 관련 이슈를 다뤘습니다."
     if items: return "정유·석유화학·LNG 관련 조간 기사 후보가 수집됐습니다."
-    return "정유·석유화학·LNG 관련 조간 기사 후보를 찾지 못했습니다."
+    return "기준일 조간 기준 정유·석유화학·LNG 관련 대표 기사 미확인."
 
 def has_existing_articles(path:Path)->bool:
     try:
@@ -147,9 +154,22 @@ def main():
     collected=[]; errors=[]
     for q in QUERIES:
         try:
-            collected.extend(fetch_google_news(q,target)); time.sleep(0.25)
+            collected.extend(fetch_google_news(q,target,min_score=6)); time.sleep(0.25)
         except Exception as e: errors.append(f"{q}: {e}")
     candidates=dedupe(collected)
+
+    # RSS 결과가 있어도 제목/스니펫 점수 필터에서 모두 탈락할 수 있음.
+    # 이 경우에는 더 넓은 보조 검색어와 낮은 점수 기준으로 한 번 더 수집하되,
+    # 최종 valid_article 단계에서 제목·URL·금지어 검증은 유지함.
+    if not candidates:
+        after=target.strftime("%Y-%m-%d"); before=(target+timedelta(days=1)).strftime("%Y-%m-%d")
+        for tmpl in FALLBACK_QUERIES:
+            q=tmpl.format(after=after,before=before)
+            try:
+                collected.extend(fetch_google_news(q,target,min_score=3)); time.sleep(0.25)
+            except Exception as e: errors.append(f"fallback {q}: {e}")
+        candidates=dedupe(collected)
+
     morning=[i for i in candidates if is_morning(i,a.date)]
     selected=(morning if morning else candidates)[:a.max_items]
     if not selected and had_existing_articles:
