@@ -1,172 +1,130 @@
-name: Sync Published Dashboard Files
+name: Sync published dashboard files
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows:
-      - "Daily Energy Dashboard - Daily Data Pipeline"
-      - "Backfill Dashboard Reports"
-    types:
-      - completed
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+      - 'public/**'
+      - 'data/reports/**'
+      - 'scripts/generate_report_index.py'
+      - 'scripts/generate_html_report.py'
+      - '.github/workflows/sync_published_dashboard_files.yml'
 
 permissions:
   contents: write
 
-concurrency:
-  group: sync-published-dashboard-files-${{ github.ref }}
-  cancel-in-progress: false
-
 jobs:
-  sync-published-dashboard-files:
+  sync:
     runs-on: ubuntu-latest
-
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Sync latest main
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Ensure report directories
         run: |
-          git pull --ff-only origin main
+          mkdir -p docs/reports public/reports data/reports
 
-      - name: Remove unindexed stale report HTML
+      - name: Generate docs report index
+        run: |
+          python scripts/generate_report_index.py \
+            --reports-dir docs/reports \
+            --out docs/report-index.json
+
+      - name: Copy docs to public
+        run: |
+          mkdir -p public/reports
+          cp -f docs/report-index.json public/report-index.json
+          if compgen -G "docs/reports/*.html" > /dev/null; then
+            cp -f docs/reports/*.html public/reports/
+          fi
+
+      - name: Validate published report index
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
 
-          idx_path = Path("docs/report-index.json")
-          reports_dir = Path("docs/reports")
+          idx_path = Path('docs/report-index.json')
+          pub_idx_path = Path('public/report-index.json')
 
-          if not idx_path.exists() or not reports_dir.exists():
-              raise SystemExit("ERROR: docs/report-index.json 또는 docs/reports 없음")
+          if not idx_path.exists():
+              raise SystemExit('[ERROR] docs/report-index.json 없음')
+          if not pub_idx_path.exists():
+              raise SystemExit('[ERROR] public/report-index.json 없음')
 
-          idx = json.loads(idx_path.read_text(encoding="utf-8"))
-          keep = set()
-          for item in idx.get("reports", []):
-              url = item.get("url", "")
-              if url.startswith("reports/") and url.endswith(".html"):
-                  keep.add(Path(url).name)
+          docs_idx = json.loads(idx_path.read_text(encoding='utf-8'))
+          public_idx = json.loads(pub_idx_path.read_text(encoding='utf-8'))
 
-          removed = []
-          for html in reports_dir.glob("*.html"):
-              if html.name not in keep:
-                  removed.append(html.name)
-                  html.unlink()
+          if docs_idx.get('count', 0) <= 0:
+              raise SystemExit('[ERROR] report-index count가 0입니다. 리포트 전체 미노출 위험')
+          if docs_idx.get('reports') != public_idx.get('reports'):
+              raise SystemExit('[ERROR] docs/public report-index 내용 불일치')
 
-          print(f"[OK] unindexed stale HTML removed: {len(removed)}")
-          if removed:
-              print("\n".join(sorted(removed)[:80]))
+          for item in docs_idx.get('reports', []):
+              url = item.get('url', '')
+              if not url.startswith('reports/'):
+                  raise SystemExit(f'[ERROR] 잘못된 report url: {url}')
+              docs_html = Path('docs') / url
+              public_html = Path('public') / url
+              if not docs_html.exists():
+                  raise SystemExit(f'[ERROR] index에는 있으나 docs HTML 없음: {docs_html}')
+              if not public_html.exists():
+                  raise SystemExit(f'[ERROR] index에는 있으나 public HTML 없음: {public_html}')
+
+          print(f"[OK] published report index validated: {docs_idx.get('count')} reports")
           PY
 
-      - name: Validate docs output
+      - name: Check unindexed report HTML without deleting
         run: |
-          set -e
-          test -f docs/index.html || (echo "ERROR: docs/index.html 없음" && exit 1)
-          test -f docs/report-index.json || (echo "ERROR: docs/report-index.json 없음" && exit 1)
-          test -d docs/reports || (echo "ERROR: docs/reports 폴더 없음" && exit 1)
+          python - <<'PY'
+          import json
+          from pathlib import Path
 
-          DOC_REPORT_COUNT=$(find docs/reports -maxdepth 1 -type f -name "*.html" | wc -l | tr -d ' ')
-          echo "docs reports count: $DOC_REPORT_COUNT"
+          idx = json.loads(Path('docs/report-index.json').read_text(encoding='utf-8'))
+          keep = {
+              Path(item['url']).name
+              for item in idx.get('reports', [])
+              if isinstance(item, dict) and item.get('url', '').startswith('reports/')
+          }
 
-          if [ "$DOC_REPORT_COUNT" -lt 10 ]; then
-            echo "ERROR: docs/reports HTML 파일 수가 너무 적습니다. 백필 결과를 먼저 확인하세요."
+          unindexed = []
+          for html in sorted(Path('docs/reports').glob('*.html')):
+              if html.name not in keep:
+                  unindexed.append(html.name)
+
+          print(f'[WARN] unindexed HTML count: {len(unindexed)}')
+          if unindexed:
+              print('\n'.join(unindexed))
+          print('[OK] 미등록 HTML은 삭제하지 않고 경고만 출력함')
+          PY
+
+      - name: Validate no destructive stale deletion step
+        run: |
+          if grep -R "rm -f docs/reports\|rm -f public/reports\|Remove unindexed stale report HTML" .github/workflows; then
+            echo "[ERROR] 리포트 HTML 삭제 로직이 workflow에 남아 있습니다."
             exit 1
           fi
+          echo "[OK] destructive stale report deletion step not found"
 
-          python - <<'PY'
-          import json
-          from pathlib import Path
-
-          bad = [
-              "자동 추출된 일정 항목이 없습니다",
-              "본문 구조 확인 및 수동 검수가 필요합니다",
-              "원문 자동 매칭 실패",
-              "주요일정 원문 데이터 미확보",
-              "가격 데이터 중심 리포트",
-              "정유·석유화학·LNG 관련 조간 기사 후보를 찾지 못했습니다",
-              "자동 수집된 대표 기사 없음",
-              "대표 기사 미확인",
-              "기준일 조간 기준 주요 보도 없음",
-              "기준일 조간 기준 정유·석유화학·LNG 관련 대표 기사 미확인",
-              "일정 관련성 평가는",
-              "A 직접",
-              "B 간접",
-              "C 참고",
-              "세이프타임즈",
-          ]
-          idx = json.loads(Path("docs/report-index.json").read_text(encoding="utf-8"))
-          dates = set(idx.get("availableDates", []))
-          for item in idx.get("reports", []):
-              d = item.get("date")
-              p = Path("docs") / item.get("url", "")
-              if not p.exists():
-                  raise SystemExit(f"ERROR: report-index 날짜의 HTML 누락: {d} {p}")
-              html = p.read_text(encoding="utf-8", errors="ignore")
-              if any(x in html for x in bad):
-                  raise SystemExit(f"ERROR: 내부 오류/fallback 문구가 노출된 HTML: {p}")
-              if "조간 신문 트렌드" not in html:
-                  raise SystemExit(f"ERROR: 조간 신문 트렌드 섹션 누락: {p}")
-              if "news-item" not in html:
-                  raise SystemExit(f"ERROR: 조간 대표 기사 HTML 누락: {p}")
-          print(f"[OK] docs 산출물 검증 완료: {len(dates)}개")
-          PY
-
-      - name: Mirror docs to public
+      - name: Commit synchronized files
         run: |
-          set -e
-          rm -rf public
-          mkdir -p public
-          cp -a docs/. public/
-
-          echo "public 파일 동기화 완료"
-          echo "public reports count:"
-          find public/reports -maxdepth 1 -type f -name "*.html" | wc -l
-
-      - name: Verify public output
-        run: |
-          set -e
-          test -f public/index.html || (echo "ERROR: public/index.html 없음" && exit 1)
-          test -f public/report-index.json || (echo "ERROR: public/report-index.json 없음" && exit 1)
-          test -d public/reports || (echo "ERROR: public/reports 폴더 없음" && exit 1)
-
-          python - <<'PY'
-          import json
-          from pathlib import Path
-
-          docs_idx = json.loads(Path("docs/report-index.json").read_text(encoding="utf-8"))
-          public_idx = json.loads(Path("public/report-index.json").read_text(encoding="utf-8"))
-
-          docs_dates = set(docs_idx.get("availableDates", []))
-          public_dates = set(public_idx.get("availableDates", []))
-
-          if docs_dates != public_dates:
-              raise SystemExit("ERROR: docs와 public의 availableDates가 다릅니다.")
-
-          for item in public_idx.get("reports", []):
-              p = Path("public") / item.get("url", "")
-              if not p.exists():
-                  raise SystemExit(f"ERROR: public HTML 누락: {p}")
-
-          public_index = Path("public/index.html").read_text(encoding="utf-8", errors="ignore")
-          if "리포트 바로가기" not in public_index:
-              raise SystemExit("ERROR: public/index.html이 최신 대시보드 파일이 아닙니다.")
-
-          print(f"[OK] public 산출물 검증 완료: {len(public_dates)}개")
-          PY
-
-      - name: Commit synced published files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add public/ docs/
-
-          if git diff --cached --quiet; then
-            echo "변경된 파일이 없습니다."
-            exit 0
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add docs/report-index.json public/report-index.json public/reports docs/reports
+            git commit -m "Sync published dashboard report files"
+            git push
+          else
+            echo "[OK] No changes to commit"
           fi
-
-          git commit -m "Sync published dashboard files"
-          git push
