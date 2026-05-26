@@ -51,7 +51,7 @@ def read_json(path: Path) -> Dict[str, Any]:
 BAD_REPORT_PHRASES = [
     "자동 추출된 일정 항목이 없습니다",
     "본문 구조 확인 및 수동 검수가 필요합니다",
-    "세이프타임즈 '' 원문",
+    "세이프타임즈",
     "원문 자동 매칭 실패",
     "주요일정 원문 데이터 미확보",
     "원문 데이터 없음",
@@ -60,6 +60,17 @@ BAD_REPORT_PHRASES = [
     "가격 중심 자동생성",
     "Data 없음",
     "No data",
+    "정유·석유화학·LNG 관련 조간 기사 후보를 찾지 못했습니다",
+    "조간 기사 후보를 찾지 못했습니다",
+    "자동 수집된 대표 기사 없음",
+    "대표 기사 데이터가 아직 없습니다",
+    "대표 기사 미확인",
+    "기준일 조간 기준 주요 보도 없음",
+    "기준일 조간 기준 정유·석유화학·LNG 관련 대표 기사 미확인",
+    "일정 관련성 평가는",
+    "A 직접",
+    "B 간접",
+    "C 참고",
 ]
 
 
@@ -70,8 +81,9 @@ def has_bad_phrase(value: Any) -> bool:
 
 def clean_text(value: Any) -> str:
     text = "" if value is None else str(value)
-    text = text.replace("세이프타임즈", "").strip()
-    return text
+    for phrase in BAD_REPORT_PHRASES:
+        text = text.replace(phrase, "")
+    return text.strip()
 
 
 def clean_items(items: Sequence[Mapping[str, Any]], title_keys=("title", "text")) -> list[dict[str, Any]]:
@@ -143,18 +155,17 @@ def atomic_write(path: Path, text: str) -> None:
 
 
 def render_summary(items: Sequence[Mapping[str, Any]]) -> str:
-    if not items:
-        return '<div class="empty">Summary 데이터가 없습니다.</div>'
-
     rows = []
-    for item in items[:5]:
-        rows.append(
-            '<div class="summary-item"><span class="dot"></span><div>'
-            + esc(item.get("text", ""))
-            + '</div></div>'
-        )
+    for item in items or []:
+        text = clean_text(item.get("text", "")) if isinstance(item, Mapping) else ""
+        if not text or has_bad_phrase(text):
+            continue
+        rows.append('<div class="summary-item"><span class="dot"></span><div>' + esc(text) + '</div></div>')
+        if len(rows) >= 5:
+            break
+    if not rows:
+        return '<div class="empty">기준일 주요 요약 없음</div>'
     return "\n".join(rows)
-
 
 def render_cards(cards: Sequence[Mapping[str, Any]]) -> str:
     if not cards:
@@ -200,54 +211,67 @@ def render_schedules(items: Sequence[Mapping[str, Any]]) -> str:
 
 def render_issues(items: Sequence[Mapping[str, Any]]) -> str:
     if not items:
-        return '<div class="empty">주요 이해관계자 동향 데이터가 없습니다.</div>'
+        return '<div class="empty">주요 이해관계자 동향 없음</div>'
 
     rows = []
     for i in items:
-        links = i.get("links", []) if isinstance(i.get("links", []), list) else []
-        link_html = ""
-        if links:
-            link_rows = []
-            for link in links[:3]:
-                if not isinstance(link, Mapping):
-                    continue
-                url = str(link.get("url", "") or "")
-                label = esc(link.get("label") or link.get("title") or "관련 자료")
-                if url:
-                    link_rows.append('<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + label + '</a>')
-            if link_rows:
-                link_html = '<div class="issue-links">' + "".join(link_rows) + '</div>'
+        if not isinstance(i, Mapping):
+            continue
+        title = clean_text(i.get("title", ""))
+        desc = clean_text(i.get("description", ""))
+        category = clean_text(i.get("category", ""))
+        if not title or has_bad_phrase(title + " " + desc + " " + category):
+            continue
+        links = i.get("links", []) or i.get("related_links", []) or []
+        link_rows = []
+        for link in links[:3] if isinstance(links, list) else []:
+            if not isinstance(link, Mapping):
+                continue
+            url = str(link.get("url", "") or "").strip()
+            label = clean_text(link.get("label") or link.get("title") or "관련 자료")
+            if url and label and not has_bad_phrase(label + " " + url):
+                link_rows.append('<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + esc(label) + '</a>')
+        link_html = '<div class="issue-links">' + ''.join(link_rows) + '</div>' if link_rows else ''
         rows.append(
             '<div class="issue-card">'
-            '<span class="issue-tag">' + esc(i.get("category", "")) + '</span>'
-            '<div class="issue-title">' + esc(i.get("title", "")) + '</div>'
-            '<div class="issue-desc">' + esc(i.get("description", "")) + '</div>'
+            '<span class="issue-tag">' + esc(category) + '</span>'
+            '<div class="issue-title">' + esc(title) + '</div>'
+            '<div class="issue-desc">' + esc(desc) + '</div>'
             + link_html +
             '</div>'
         )
-    return "\n".join(rows)
-
+    return "\n".join(rows) if rows else '<div class="empty">주요 이해관계자 동향 없음</div>'
 
 def render_news(report: Mapping[str, Any]) -> str:
     news = report.get("news_trend", {}) or {}
-    raw_summary = clean_text(news.get("summary", ""))
-    # 수집 실패/fallback 문구가 그대로 오류처럼 보이지 않도록 화면 문구를 완화함.
-    if (not raw_summary) or ("찾지 못했습니다" in raw_summary) or ("자동 수집된 대표 기사 없음" in raw_summary):
-        raw_summary = "기준일 조간 기준 정유·석유화학·LNG 관련 대표 기사 미확인"
-    summary = news.get("summary_html") or esc(raw_summary)
-    articles = news.get("articles", []) or []
+    articles = []
+    for a in news.get("articles", []) or []:
+        if not isinstance(a, Mapping):
+            continue
+        title = clean_text(a.get("title", ""))
+        url = str(a.get("url", "") or "").strip()
+        if title and url and not has_bad_phrase(title + " " + url):
+            copied = dict(a)
+            copied["title"] = title
+            copied["summary"] = clean_text(copied.get("summary", ""))
+            copied["press"] = clean_text(copied.get("press", ""))
+            articles.append(copied)
+    articles = articles[:3]
 
+    raw_summary = clean_text(news.get("summary_html") or news.get("summary", ""))
+    if has_bad_phrase(raw_summary):
+        raw_summary = ""
+
+    if not articles:
+        raise ValueError("조간 신문 트렌드 대표 기사 0건: HTML을 생성하지 않습니다.")
+
+    summary = esc(raw_summary)
     rows = []
-    for idx, a in enumerate(articles[:3], 1):
+    for idx, a in enumerate(articles, 1):
         url = str(a.get("url", "") or "")
         title = esc(a.get("title", ""))
         press = esc(a.get("press", ""))
-
-        if url:
-            link = '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + title + '</a>'
-        else:
-            link = title
-
+        link = '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + title + '</a>'
         summary_text = esc(a.get("summary", ""))
         published = esc(a.get("published_at_kst", ""))
         meta = press + ((" · " + published) if published else "")
@@ -259,16 +283,12 @@ def render_news(report: Mapping[str, Any]) -> str:
             '</div></div>'
         )
 
-    if not rows:
-        rows.append('<div class="empty">대표 기사 미확인</div>')
-
     return (
         '<div class="news-summary">' + summary + '</div>'
         '<div class="section-divider"></div>'
         '<div class="small-title">대표 기사</div>'
         + "".join(rows)
     )
-
 
 def render_quality(report: Mapping[str, Any]) -> str:
     q = report.get("quality_control", {}) or {}
@@ -633,7 +653,7 @@ def build_html(report: Mapping[str, Any]) -> str:
         + ')</span></div><div class="body">'
         + render_schedules(report.get("schedules", []))
         + '</div></section>',
-        section("7", "조간 신문 트렌드", render_news(report)),
+        (section("7", "조간 신문 트렌드", render_news(report)) if render_news(report).strip() else ""),
         '<footer class="footer">내용 확인 후 활용</footer>',
         '<div id="chart-tooltip" class="chart-tooltip hidden"></div>',
         '<script>' + tooltip_js() + '</script>',
