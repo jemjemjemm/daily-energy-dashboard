@@ -57,6 +57,39 @@ def is_valid_report_html(text: str) -> bool:
     return all(token in text for token in required)
 
 
+def infer_report_json_path(html_path: Path) -> Path:
+    date_match = DATE_RE.search(html_path.name)
+    date = date_match.group(1) if date_match else html_path.stem
+    return Path("data/reports") / f"{date}.report.json"
+
+
+def report_json_allows_index(html_path: Path) -> bool:
+    """HTML만 보고 index를 만들면 과거 구양식/가격-only 리포트가 되살아날 수 있음."""
+    json_path = infer_report_json_path(html_path)
+    if not json_path.exists():
+        return False
+    try:
+        data = json.loads(json_path.read_text(encoding="utf-8"))
+    except Exception:
+        return False
+
+    auto = data.get("automation", {}) if isinstance(data.get("automation"), dict) else {}
+    safetimes = auto.get("safetimes", {}) if isinstance(auto.get("safetimes"), dict) else {}
+    today_src = safetimes.get("today_source_file_date")
+    prev_src = safetimes.get("previous_source_file_date")
+    date_match = DATE_RE.search(html_path.name)
+    target = date_match.group(1) if date_match else ""
+    if not target or today_src != target or not prev_src or prev_src == today_src:
+        return False
+
+    issues = data.get("issues", []) if isinstance(data.get("issues"), list) else []
+    schedules = data.get("schedules", []) if isinstance(data.get("schedules"), list) else []
+    news = data.get("news_trend", {}) if isinstance(data.get("news_trend"), dict) else {}
+    articles = news.get("articles", []) if isinstance(news.get("articles"), list) else []
+    valid_articles = [a for a in articles if isinstance(a, dict) and a.get("title") and a.get("url")]
+    return bool(issues or schedules or valid_articles)
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="캘린더 대시보드용 report-index.json 생성")
     parser.add_argument(
@@ -108,6 +141,8 @@ def read_report_meta(html_path: Path) -> Dict[str, Any] | None:
     date = date_match.group(1)
     text = html_path.read_text(encoding="utf-8", errors="ignore")
     if not is_valid_report_html(text):
+        return None
+    if not report_json_allows_index(html_path):
         return None
 
     title_match = TITLE_RE.search(text)
