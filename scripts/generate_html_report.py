@@ -200,19 +200,29 @@ def render_schedules(items: Sequence[Mapping[str, Any]]) -> str:
 
 def render_issues(items: Sequence[Mapping[str, Any]]) -> str:
     if not items:
-        return '<div class="empty">전일 주요 이슈 데이터가 없습니다.</div>'
+        return '<div class="empty">주요 이해관계자 동향 데이터가 없습니다.</div>'
 
     rows = []
     for i in items:
-        grade = str(i.get("grade", "C 참고"))
-        gcls = "grade-a" if grade.startswith("A") else "grade-b" if grade.startswith("B") else "grade-c"
-
+        links = i.get("links", []) if isinstance(i.get("links", []), list) else []
+        link_html = ""
+        if links:
+            link_rows = []
+            for link in links[:3]:
+                if not isinstance(link, Mapping):
+                    continue
+                url = str(link.get("url", "") or "")
+                label = esc(link.get("label") or link.get("title") or "관련 자료")
+                if url:
+                    link_rows.append('<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + label + '</a>')
+            if link_rows:
+                link_html = '<div class="issue-links">' + "".join(link_rows) + '</div>'
         rows.append(
             '<div class="issue-card">'
             '<span class="issue-tag">' + esc(i.get("category", "")) + '</span>'
             '<div class="issue-title">' + esc(i.get("title", "")) + '</div>'
             '<div class="issue-desc">' + esc(i.get("description", "")) + '</div>'
-            '<div class="issue-footer"><span class="issue-grade ' + gcls + '">' + esc(grade) + '</span></div>'
+            + link_html +
             '</div>'
         )
     return "\n".join(rows)
@@ -220,7 +230,11 @@ def render_issues(items: Sequence[Mapping[str, Any]]) -> str:
 
 def render_news(report: Mapping[str, Any]) -> str:
     news = report.get("news_trend", {}) or {}
-    summary = news.get("summary_html") or esc(clean_text(news.get("summary", ""))) or "관련 자료 찾지 못함"
+    raw_summary = clean_text(news.get("summary", ""))
+    # 수집 실패/fallback 문구가 그대로 오류처럼 보이지 않도록 화면 문구를 완화함.
+    if (not raw_summary) or ("찾지 못했습니다" in raw_summary) or ("자동 수집된 대표 기사 없음" in raw_summary):
+        raw_summary = "기준일 조간 기준 정유·석유화학·LNG 관련 대표 기사 미확인"
+    summary = news.get("summary_html") or esc(raw_summary)
     articles = news.get("articles", []) or []
 
     rows = []
@@ -246,7 +260,7 @@ def render_news(report: Mapping[str, Any]) -> str:
         )
 
     if not rows:
-        rows.append('<div class="empty">대표 기사 데이터가 아직 없습니다.</div>')
+        rows.append('<div class="empty">대표 기사 미확인</div>')
 
     return (
         '<div class="news-summary">' + summary + '</div>'
@@ -468,9 +482,8 @@ def css() -> str:
   .issue-tag { display:inline-block; font-size:10px; font-weight:800; color:#185FA5; background:#E6F1FB; border-radius:3px; padding:2px 6px; margin-bottom:6px; }
   .issue-title { font-size:13px; font-weight:800; margin-bottom:4px; }
   .issue-desc { font-size:12px; color:#444; }
-  .issue-footer { margin-top:7px; }
-  .issue-grade { font-size:11px; font-weight:800; border-radius:3px; padding:2px 7px; }
-  .grade-a { background:#FEECEC; color:#A32D2D; } .grade-b { background:#FFF3E0; color:#854F0B; } .grade-c { background:#F1F1F1; color:#555; }
+  .issue-links { margin-top:8px; display:flex; flex-direction:column; gap:4px; font-size:11px; }
+  .issue-links a { color:var(--navy); text-decoration:underline; }
   .schedule-row { display:flex; gap:8px; padding:9px 0; border-bottom:1px solid #F0F0F0; }
   .schedule-row:last-child { border-bottom:0; }
   .schedule-time { min-width:40px; color:#185FA5; font-size:11px; font-weight:800; }
