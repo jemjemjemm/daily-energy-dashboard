@@ -19,6 +19,7 @@ import argparse
 import html
 import json
 import math
+import re
 import tempfile
 from pathlib import Path
 from typing import Any, Dict, Mapping, Sequence
@@ -255,6 +256,7 @@ def render_news(report: Mapping[str, Any]) -> str:
             copied["title"] = title
             copied["summary"] = clean_text(copied.get("summary", ""))
             copied["press"] = clean_text(copied.get("press", ""))
+            copied["published_at_kst"] = clean_text(copied.get("published_at_kst", ""))
             articles.append(copied)
     articles = articles[:3]
 
@@ -264,27 +266,51 @@ def render_news(report: Mapping[str, Any]) -> str:
 
     if not articles:
         raise ValueError("조간 신문 트렌드 대표 기사 0건: HTML을 생성하지 않습니다.")
+    if not raw_summary:
+        titles = [clean_text(a.get("title", "")) for a in articles[:3] if clean_text(a.get("title", ""))]
+        raw_summary = "주요 매체가 " + " ".join("△" + t for t in titles[:3]) + " 등을 중심으로 보도."
 
-    summary = esc(raw_summary)
+    trend_paras = []
+    for para in news.get("trend_paragraphs", []) or []:
+        t = clean_text(para)
+        if t and not has_bad_phrase(t):
+            trend_paras.append(t)
+    if not trend_paras:
+        for a in articles:
+            press = clean_text(a.get("press", "")) or "해당 매체"
+            desc = clean_text(a.get("summary", "")) or clean_text(a.get("title", ""))
+            if desc.endswith("습니다."):
+                desc = desc[:-4] + "음."
+            elif not desc.endswith("."):
+                desc += "."
+            trend_paras.append(f"{press}는 {desc}")
+
+    trend_html = '<div class="news-summary">' + esc(raw_summary) + '</div>'
+    for para in trend_paras[:3]:
+        m = re.match(r"([^는]{2,20})는\s+(.+)", para)
+        if m:
+            trend_html += '<p class="news-trend-para"><strong>' + esc(m.group(1)) + '</strong>는 ' + esc(m.group(2)) + '</p>'
+        else:
+            trend_html += '<p class="news-trend-para">' + esc(para) + '</p>'
+
     rows = []
-    for idx, a in enumerate(articles, 1):
+    for a in articles:
         url = str(a.get("url", "") or "")
         title = esc(a.get("title", ""))
         press = esc(a.get("press", ""))
         link = '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + title + '</a>'
         summary_text = esc(a.get("summary", ""))
-        published = esc(a.get("published_at_kst", ""))
-        meta = press + ((" · " + published) if published else "")
         rows.append(
-            '<div class="news-item"><div class="news-num">' + str(idx) + '</div><div>'
+            '<div class="news-item"><div>'
             '<div class="news-title">' + link + '</div>'
-            '<div class="news-press">' + meta + '</div>'
+            '<div class="news-press">' + press + '</div>'
             + ('<div class="news-desc">' + summary_text + '</div>' if summary_text else '') +
+            '<div class="news-url">' + esc(url) + '</div>'
             '</div></div>'
         )
 
     return (
-        '<div class="news-summary">' + summary + '</div>'
+        trend_html +
         '<div class="section-divider"></div>'
         '<div class="small-title">대표 기사</div>'
         + "".join(rows)
@@ -510,13 +536,16 @@ def css() -> str:
   .schedule-org { min-width:44px; height:max-content; background:#F0F1F3; border:1px solid #E0E0E0; border-radius:4px; padding:1px 6px; font-size:10px; text-align:center; color:#555; }
   .schedule-main { flex:1; min-width:0; font-size:12px; }
   .schedule-rel { color:#777; font-size:11px; margin-top:2px; }
-  .news-summary { font-size:13px; }
+  .news-summary { font-size:13px; line-height:1.85; margin-bottom:14px; }
+  .news-trend-para { font-size:13px; line-height:1.85; margin:14px 0; }
   .section-divider { height:1px; background:#F0F0F0; margin:12px 0; }
   .small-title { color:#999; font-size:11px; font-weight:800; margin-bottom:8px; }
-  .news-item { display:flex; gap:8px; padding:8px 0; border-bottom:1px solid #F0F0F0; }
-  .news-num { color:var(--blue); font-weight:800; font-size:11px; min-width:14px; }
+  .news-item { display:block; padding:9px 0; border-bottom:1px solid #F0F0F0; }
+  .news-num { display:none; }
   .news-title { font-size:13px; font-weight:700; text-decoration:underline; text-underline-offset:2px; }
-  .news-press { color:#888; font-size:11px; }
+  .news-press { color:#888; font-size:11px; margin-top:2px; }
+  .news-desc { color:#555; font-size:11px; line-height:1.55; margin-top:3px; }
+  .news-url { color:#999; font-size:10px; line-height:1.4; margin-top:3px; word-break:break-all; }
   .quality-list { margin:0; padding-left:18px; font-size:12px; color:#555; }
   .quality-list li { margin:5px 0; }
   .empty { background:#F8F9FA; border-radius:10px; padding:12px; color:#777; font-size:12px; }
@@ -653,7 +682,7 @@ def build_html(report: Mapping[str, Any]) -> str:
         + ')</span></div><div class="body">'
         + render_schedules(report.get("schedules", []))
         + '</div></section>',
-        (section("7", "조간 신문 트렌드", render_news(report)) if render_news(report).strip() else ""),
+        (section("7", "조간 신문 트렌드 (" + esc(meta.get("today_label", "")) + ")", render_news(report)) if render_news(report).strip() else ""),
         '<footer class="footer">내용 확인 후 활용</footer>',
         '<div id="chart-tooltip" class="chart-tooltip hidden"></div>',
         '<script>' + tooltip_js() + '</script>',
