@@ -4,22 +4,37 @@
 generate_html_report.py
 
 Render data/reports/YYYY-MM-DD.report.json to docs/reports/YYYY-MM-DD.html.
-This renderer only changes presentation. It does not collect news, parse schedules,
-or merge prices.
 
-Compatible calls:
-  python scripts/generate_html_report.py --date 2026-05-26 --report-dir data/reports --out-dir docs/reports
-  python scripts/generate_html_report.py --input data/reports/2026-05-26.report.json --output docs/reports/2026-05-26.html
+핵심 수정
+- prices.crude.chart_series / prices.products.chart_series 중첩 구조를 직접 지원한다.
+- price cards도 중첩형 cards/latest/chart_series/history 구조를 모두 탐색한다.
+- 조간 신문 트렌드 대표 기사는 제목 클릭만 남기고, 화면에 긴 URL 텍스트를 출력하지 않는다.
+- 기존 CLI(--date --report-dir --out-dir / --input --output)를 유지한다.
 """
 from __future__ import annotations
 
 import argparse
 import html
 import json
+import math
 import re
+import tempfile
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional
+from typing import Any, Iterable, Mapping, Sequence
+
+CRUDE_KEYS = ["Brent", "WTI", "Dubai"]
+PRODUCT_KEYS = ["Gasoline", "Diesel", "Naphtha"]
+PRODUCT_LABELS = {"Gasoline": "휘발유", "Diesel": "경유", "Naphtha": "나프타"}
+COLORS = {
+    "Brent": "#1A6FD4", "WTI": "#E24B4A", "Dubai": "#1D9E75",
+    "Gasoline": "#1A6FD4", "Diesel": "#E24B4A", "Naphtha": "#1D9E75",
+}
+
+STYLE = r"""
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+*{box-sizing:border-box}body{margin:0;padding:16px;background:#F4F5F7;color:#1A1A1A;font-family:'Noto Sans KR',sans-serif;font-size:14px;line-height:1.6}.container{max-width:480px;margin:0 auto}.header{background:#0A2444;color:#fff;padding:18px 16px 14px;border-radius:12px 12px 0 0}.header-top{display:flex;justify-content:space-between;gap:12px}.header-title{font-size:20px;font-weight:700}.header-date{font-size:12px;color:rgba(255,255,255,.7);margin-top:3px}.header-badge{font-size:11px;background:rgba(255,255,255,.12);border-radius:20px;padding:4px 10px;height:fit-content;white-space:nowrap}.section{background:#fff;border:1px solid #E5E7EB;border-radius:12px;margin:10px 0;overflow:hidden}.section-header{display:flex;align-items:center;gap:8px;padding:11px 16px;border-bottom:1px solid #E5E7EB;background:#F8F9FA}.section-num{font-size:11px;font-weight:700;color:#fff;background:#0A2444;border-radius:4px;padding:2px 7px;min-width:24px;text-align:center}.section-title{font-size:14px;font-weight:700}.summary-body,.news-body{padding:14px 16px}.summary-item{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid #F0F0F0;font-size:13px}.summary-item:last-child{border-bottom:none}.summary-dot{flex:0 0 6px;width:6px;height:6px;border-radius:50%;background:#1A6FD4;margin-top:8px}.price-section-label{font-size:12px;font-weight:500;color:#666;padding:12px 16px 6px}.price-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:0 16px 14px}.price-card{background:#F8F9FA;border-radius:8px;padding:10px 8px;text-align:center}.price-label{font-size:11px;color:#666;margin-bottom:4px}.price-value{font-size:18px;font-weight:700;line-height:1}.price-unit{font-size:10px;color:#999;margin-top:2px}.price-change{font-size:11px;margin-top:3px}.up{color:#C0392B}.down{color:#0A7B4E}.flat{color:#888}.divider{height:1px;background:#F0F0F0;margin:0 16px 4px}.chart-wrap{padding:12px 14px}.chart-legend{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:10px;font-size:12px;color:#666}.legend-item{display:flex;align-items:center;gap:5px}.legend-dot{width:12px;height:3px;border-radius:2px}.chart-svg{width:100%;height:auto;display:block;overflow:visible}.no-data{padding:24px 8px;text-align:center;color:#888;background:#F8F9FA;border-radius:8px}.issue-list,.schedule-list{padding:10px 12px}.issue-card{background:#F8F9FA;border-radius:8px;padding:12px 14px;margin-bottom:8px;border-left:3px solid #1A6FD4}.issue-tag{display:inline-block;font-size:10px;font-weight:700;background:#E6F1FB;color:#185FA5;border-radius:3px;padding:2px 6px;margin-bottom:6px}.issue-title{font-size:13px;font-weight:700;margin-bottom:5px;line-height:1.5}.issue-desc{font-size:12px;color:#444;line-height:1.65}.issue-links{margin-top:8px;font-size:11px}.issue-links a{display:block;color:#0A2444;text-decoration:underline;margin-top:3px}.schedule-row{display:flex;align-items:flex-start;gap:8px;padding:9px 0;border-bottom:1px solid #F0F0F0}.schedule-row:last-child{border-bottom:none}.schedule-time{flex:0 0 38px;font-size:11px;font-weight:700;color:#185FA5;margin-top:1px}.schedule-org{flex:0 0 48px;font-size:10px;background:#F0F1F3;border:1px solid #E0E0E0;border-radius:3px;padding:1px 4px;color:#555;text-align:center}.schedule-main{flex:1;font-size:12px;line-height:1.5}.schedule-rel{font-size:11px;color:#777;margin-top:2px}.news-trend{font-size:13px;line-height:1.75;margin-bottom:14px}.news-separator{height:1px;background:#F0F0F0;margin:12px 0}.news-links-title{font-size:11px;font-weight:700;color:#999;letter-spacing:.5px;margin-bottom:8px}.news-link{display:block;padding:9px 0;border-bottom:1px solid #F0F0F0;text-decoration:none;color:inherit}.news-link-title{font-size:13px;font-weight:600;color:#0A2444;line-height:1.45;text-decoration:underline}.news-link-press{font-size:11px;color:#888;margin:2px 0}.news-link-desc{font-size:11px;color:#555;line-height:1.55}.fact-note{font-size:11px;color:#888;background:#F8F9FA;border-top:1px solid #E5E7EB;padding:10px 16px}.footer{text-align:center;padding:12px;font-size:11px;color:#aaa;border-top:1px solid #E5E7EB;margin-top:4px}@media(max-width:430px){body{padding:10px}.header-title{font-size:18px}.header-badge{font-size:10px;padding:4px 8px}.price-grid{gap:6px;padding:0 12px 12px}.price-value{font-size:16px}.chart-wrap{padding:10px 8px}.schedule-org{flex-basis:42px}}
+""".strip()
 
 
 def parse_args() -> argparse.Namespace:
@@ -36,40 +51,36 @@ def esc(value: Any) -> str:
     return html.escape("" if value is None else str(value), quote=True)
 
 
-def text_of(value: Any) -> str:
+def clean_text(value: Any) -> str:
     if value is None:
         return ""
-    if isinstance(value, str):
-        return value.strip()
-    if isinstance(value, dict):
-        for key in ("text", "summary", "description", "desc", "title", "name", "content"):
-            if value.get(key):
-                return str(value.get(key)).strip()
-        return " ".join(str(v).strip() for v in value.values() if isinstance(v, (str, int, float)) and str(v).strip())
-    return str(value).strip()
+    text = str(value)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
 
 
-def list_of(value: Any) -> List[Any]:
+def list_of(value: Any) -> list[Any]:
     return value if isinstance(value, list) else []
 
 
-def get_report_date(data: Dict[str, Any], fallback: str = "") -> str:
-    report = data.get("report") if isinstance(data.get("report"), dict) else {}
-    return str(report.get("report_date") or data.get("date") or fallback or "").strip()
+def dict_of(value: Any) -> dict[str, Any]:
+    return value if isinstance(value, dict) else {}
 
 
-def display_date_from(date_text: str, data: Dict[str, Any]) -> str:
-    report = data.get("report") if isinstance(data.get("report"), dict) else {}
-    if report.get("display_date"):
-        return str(report["display_date"])
-    if not date_text:
-        return ""
+def as_number(value: Any) -> float | None:
+    if value in (None, "", "-", "N/A"):
+        return None
     try:
-        d = datetime.strptime(date_text, "%Y-%m-%d")
-        weekdays = "월화수목금토일"
-        return f"{d.year}년 {d.month}월 {d.day}일 ({weekdays[d.weekday()]})"
+        n = float(value)
     except Exception:
-        return date_text
+        return None
+    return n if math.isfinite(n) and n != 0 else None
+
+
+def fmt(value: Any) -> str:
+    n = as_number(value)
+    return "-" if n is None else f"{n:.2f}"
 
 
 def short_date(date_text: str) -> str:
@@ -80,293 +91,454 @@ def short_date(date_text: str) -> str:
         return date_text
 
 
-def normalize_sentence(text: str) -> str:
-    text = re.sub(r"\s+", " ", text or "").strip()
-    # 과도한 구어체/존댓말 안내문을 보고서형으로 최소 보정
-    replacements = {
-        "확인됩니다": "확인",
-        "확인되었습니다": "확인",
-        "필요합니다": "필요",
-        "보도했습니다": "보도",
-        "분석했습니다": "분석",
-        "전망했습니다": "전망",
-        "나타났습니다": "나타남",
-        "있습니다": "있음",
-        "없습니다": "없음",
-        "입니다": "",
-        "합니다": "함",
-    }
-    for a, b in replacements.items():
-        if text.endswith(a):
-            text = text[: -len(a)] + b
-            break
-    return text
-
-
-def get_summary_items(data: Dict[str, Any]) -> List[str]:
-    items = []
-    for item in list_of(data.get("summary")):
-        t = normalize_sentence(text_of(item))
-        if t:
-            items.append(t)
-    while len(items) < 3:
-        defaults = [
-            "전일 주요 이해관계자·정책 동향은 일정 및 기사 기준 확인 필요",
-            "금일 주요 일정은 정부·국회·산업 현안과의 연계 가능성 중심 모니터링 필요",
-            "조간 보도는 정유·석유화학·LNG 업계 관련 대표 기사 중심 정리",
-        ]
-        items.append(defaults[len(items)])
-    return items[:3]
-
-
-def find_price_block(data: Dict[str, Any]) -> Dict[str, Any]:
-    prices = data.get("prices") if isinstance(data.get("prices"), dict) else {}
-    return prices
-
-
-def as_number(value: Any) -> Optional[float]:
-    if value in (None, "", "-", "N/A"):
-        return None
+def display_date(date_text: str, data: Mapping[str, Any]) -> str:
+    report = dict_of(data.get("report"))
+    if report.get("display_date"):
+        return str(report["display_date"])
     try:
-        return float(value)
+        d = datetime.strptime(date_text, "%Y-%m-%d")
+        weekdays = "월화수목금토일"
+        return f"{d.year}년 {d.month}월 {d.day}일 ({weekdays[d.weekday()]})"
     except Exception:
-        return None
+        return date_text
 
 
-def pick_price(prices: Dict[str, Any], names: Iterable[str]) -> Optional[float]:
-    # Search recursively in common price structures.
-    name_set = {n.lower() for n in names}
+def section(num: int, title: str, body: str, class_name: str = "") -> str:
+    klass = f"section {class_name}".strip()
+    return f"""
+<section class="{klass}">
+  <div class="section-header"><span class="section-num">{num}</span><span class="section-title">{esc(title)}</span></div>
+  {body}
+</section>
+"""
 
-    def walk(obj: Any) -> Optional[float]:
-        if isinstance(obj, dict):
-            # direct value by key
-            for k, v in obj.items():
+
+def text_of(item: Any) -> str:
+    if isinstance(item, Mapping):
+        for key in ("text", "summary", "description", "desc", "title", "name", "content"):
+            if item.get(key):
+                return clean_text(item.get(key))
+        return clean_text(" ".join(str(v) for v in item.values() if isinstance(v, (str, int, float))))
+    return clean_text(item)
+
+
+def render_summary(data: Mapping[str, Any]) -> str:
+    rows = []
+    for item in list_of(data.get("summary"))[:3]:
+        text = text_of(item)
+        if text:
+            rows.append(f'<div class="summary-item"><span class="summary-dot"></span><span>{esc(text)}</span></div>')
+    defaults = [
+        "전일 주요 이해관계자·정책 동향은 일정 및 기사 기준 확인 필요",
+        "금일 주요 일정은 정부·국회·산업 현안과의 연계 가능성 중심 모니터링 필요",
+        "조간 보도는 정유·석유화학·LNG 업계 관련 대표 기사 중심 정리",
+    ]
+    while len(rows) < 3:
+        rows.append(f'<div class="summary-item"><span class="summary-dot"></span><span>{defaults[len(rows)]}</span></div>')
+    return '<div class="summary-body">' + "\n".join(rows[:3]) + '</div>'
+
+
+def find_by_names(obj: Any, names: Iterable[str]) -> float | None:
+    name_set = [n.lower() for n in names]
+    def walk(node: Any, parent_key: str = "") -> float | None:
+        if isinstance(node, Mapping):
+            # 카드 구조 우선 처리
+            label = str(node.get("label") or node.get("name") or node.get("source_column") or parent_key).lower()
+            if any(n in label for n in name_set):
+                for vk in ("value", "price", "latest", "current", "close"):
+                    n = as_number(node.get(vk))
+                    if n is not None:
+                        return n
+            for k, v in node.items():
                 kl = str(k).lower()
-                if kl in name_set or any(n in kl for n in name_set):
-                    if isinstance(v, dict):
-                        for vk in ("value", "price", "latest", "current", "close"):
-                            num = as_number(v.get(vk))
-                            if num is not None:
-                                return num
-                        num = walk(v)
-                        if num is not None:
-                            return num
-                    else:
-                        num = as_number(v)
-                        if num is not None:
-                            return num
-            for v in obj.values():
-                num = walk(v)
-                if num is not None:
-                    return num
-        elif isinstance(obj, list):
-            for item in reversed(obj):
-                num = walk(item)
-                if num is not None:
-                    return num
+                if any(n in kl for n in name_set):
+                    direct = as_number(v)
+                    if direct is not None:
+                        return direct
+                    found = walk(v, kl)
+                    if found is not None:
+                        return found
+            for k, v in node.items():
+                found = walk(v, str(k))
+                if found is not None:
+                    return found
+        elif isinstance(node, Sequence) and not isinstance(node, (str, bytes, bytearray)):
+            for item in reversed(list(node)):
+                found = walk(item, parent_key)
+                if found is not None:
+                    return found
         return None
+    return walk(obj)
 
-    return walk(prices)
+
+def cards_from_block(block: Mapping[str, Any], wanted: Sequence[tuple[str, Sequence[str]]]) -> list[dict[str, Any]]:
+    existing = list_of(block.get("cards"))
+    cards = []
+    for label, aliases in wanted:
+        matched = None
+        for c in existing:
+            if not isinstance(c, Mapping):
+                continue
+            c_label = str(c.get("label") or c.get("source_column") or "").lower()
+            if any(alias.lower() in c_label for alias in aliases):
+                matched = c
+                break
+        value = as_number(matched.get("value")) if isinstance(matched, Mapping) else None
+        if value is None:
+            value = find_by_names(block, aliases)
+        change = as_number(matched.get("change")) if isinstance(matched, Mapping) else None
+        direction = str(matched.get("direction") or "flat") if isinstance(matched, Mapping) else "flat"
+        cards.append({"label": label, "value": value, "change": change, "direction": direction})
+    return cards
 
 
-def price_cards(data: Dict[str, Any]) -> tuple[List[Dict[str, Any]], List[Dict[str, Any]], str]:
-    prices = find_price_block(data)
-    note = str(prices.get("price_data_note") or prices.get("note") or "") if isinstance(prices, dict) else ""
-    crude = [
-        {"label": "Brent", "value": pick_price(prices, ["brent"])},
-        {"label": "WTI", "value": pick_price(prices, ["wti"])},
-        {"label": "Dubai", "value": pick_price(prices, ["dubai"])},
-    ]
-    product = [
-        {"label": "휘발유", "value": pick_price(prices, ["gasoline", "휘발유", "92ron"])},
-        {"label": "경유", "value": pick_price(prices, ["diesel", "gasoil", "경유"])},
-        {"label": "나프타", "value": pick_price(prices, ["naphtha", "나프타"])},
-    ]
+def price_cards(data: Mapping[str, Any]) -> tuple[list[dict[str, Any]], list[dict[str, Any]], str]:
+    prices = dict_of(data.get("prices"))
+    crude_block = dict_of(prices.get("crude")) or prices
+    product_block = dict_of(prices.get("products")) or prices
+    crude = cards_from_block(crude_block, [
+        ("Brent", ["Brent"]), ("WTI", ["WTI"]), ("Dubai", ["Dubai"]),
+    ])
+    product = cards_from_block(product_block, [
+        ("휘발유", ["Gasoline", "Gasoline_92RON", "92RON", "휘발유"]),
+        ("경유", ["Diesel", "Diesel_0.001", "경유"]),
+        ("나프타", ["Naphtha", "나프타"]),
+    ])
+    note = clean_text(prices.get("price_data_note") or prices.get("note") or "")
     return crude, product, note
 
 
-def extract_series(data: Dict[str, Any], group: str) -> List[Dict[str, Any]]:
-    prices = find_price_block(data)
-    candidates = []
-    if isinstance(prices, dict):
-        for key in (f"{group}_chart", f"{group}_series", f"{group}_history", "chart_data", "history"):
-            v = prices.get(key)
-            if isinstance(v, list):
-                candidates = v
-                break
-            if isinstance(v, dict):
-                for vv in v.values():
-                    if isinstance(vv, list):
-                        candidates = vv
-                        break
-    # filter date-like rows
-    rows = []
-    for row in candidates:
-        if isinstance(row, dict) and (row.get("date") or row.get("label")):
-            rows.append(row)
+def render_price_cards(cards: Sequence[Mapping[str, Any]]) -> str:
+    html_rows = []
+    for c in cards[:3]:
+        direction = str(c.get("direction") or "flat")
+        cls = direction if direction in {"up", "down", "flat"} else "flat"
+        change = as_number(c.get("change"))
+        if change is None:
+            change_text = "-"
+        else:
+            symbol = "▲" if change > 0 else "▼" if change < 0 else "－"
+            change_text = f"{symbol} {abs(change):.2f}"
+        html_rows.append(f"""
+<div class="price-card">
+  <div class="price-label">{esc(c.get('label'))}</div>
+  <div class="price-value">{fmt(c.get('value'))}</div>
+  <div class="price-unit">$/Bbl</div>
+  <div class="price-change {cls}">{esc(change_text)}</div>
+</div>
+""")
+    return '<div class="price-grid">' + "\n".join(html_rows) + '</div>'
+
+
+def render_price_section(data: Mapping[str, Any]) -> str:
+    crude, product, note = price_cards(data)
+    note_html = f'<div class="fact-note">{esc(note)}</div>' if note else ''
+    return f"""
+<div class="price-section-label">원유 ($/Bbl)</div>
+{render_price_cards(crude)}
+<div class="divider"></div>
+<div class="price-section-label">석유제품 ($/Bbl)</div>
+{render_price_cards(product)}
+{note_html}
+"""
+
+
+def series_points_to_rows(series: Mapping[str, Any], keys: Sequence[str]) -> list[dict[str, Any]]:
+    by_date: dict[str, dict[str, Any]] = {}
+    for key in keys:
+        points = list_of(series.get(key))
+        for p in points:
+            if not isinstance(p, Mapping):
+                continue
+            date = str(p.get("date") or "").strip()
+            if not date:
+                continue
+            row = by_date.setdefault(date, {"date": date, "label": p.get("label") or short_date(date)})
+            row[key] = as_number(p.get("value") if "value" in p else p.get(key))
+    rows = [by_date[d] for d in sorted(by_date)]
     return rows[-65:]
 
 
-def make_svg(rows: List[Dict[str, Any]], keys: List[tuple[str, str, str]]) -> str:
-    if not rows:
-        return '<div class="chart-empty">그래프 데이터 없음</div>'
+def table_rows_to_series_rows(rows: Sequence[Any], keys: Sequence[str], value_keys: Sequence[str] | None = None) -> list[dict[str, Any]]:
+    out = []
+    for row in rows:
+        if not isinstance(row, Mapping):
+            continue
+        date = str(row.get("date") or "").strip()
+        if not date:
+            continue
+        values = row.get("values") if isinstance(row.get("values"), list) else None
+        r: dict[str, Any] = {"date": date, "label": row.get("label") or short_date(date)}
+        for i, key in enumerate(keys):
+            aliases = [key]
+            if value_keys and i < len(value_keys):
+                aliases.append(value_keys[i])
+            val = None
+            if values and i < len(values):
+                val = as_number(values[i])
+            if val is None:
+                for alias in aliases:
+                    val = as_number(row.get(alias))
+                    if val is not None:
+                        break
+            r[key] = val
+        out.append(r)
+    return out[-65:]
+
+
+def extract_series(data: Mapping[str, Any], group: str) -> list[dict[str, Any]]:
+    prices = dict_of(data.get("prices"))
+    if group == "crude":
+        block = dict_of(prices.get("crude"))
+        keys = CRUDE_KEYS
+        row_value_keys = ["Brent", "WTI", "Dubai"]
+    else:
+        block = dict_of(prices.get("products"))
+        keys = PRODUCT_KEYS
+        row_value_keys = ["Gasoline_92RON", "Diesel_0.001", "Naphtha"]
+
+    chart_series = block.get("chart_series")
+    if isinstance(chart_series, Mapping):
+        rows = series_points_to_rows(chart_series, keys)
+        if rows:
+            return rows
+
+    for candidate_key in ("series", "history", "chart", "chart_data", "rows"):
+        candidate = block.get(candidate_key)
+        if isinstance(candidate, Mapping):
+            rows = series_points_to_rows(candidate, keys)
+            if rows:
+                return rows
+        if isinstance(candidate, list):
+            rows = table_rows_to_series_rows(candidate, keys, row_value_keys)
+            if rows:
+                return rows
+
+    # 구버전 평탄 구조 fallback
+    for candidate_key in (f"{group}_chart", f"{group}_series", f"{group}_history", "chart_data", "history"):
+        candidate = prices.get(candidate_key)
+        if isinstance(candidate, Mapping):
+            rows = series_points_to_rows(candidate, keys)
+            if rows:
+                return rows
+        if isinstance(candidate, list):
+            rows = table_rows_to_series_rows(candidate, keys, row_value_keys)
+            if rows:
+                return rows
+    return []
+
+
+def make_svg(rows: list[dict[str, Any]], keys: Sequence[str], labels: Mapping[str, str] | None = None) -> str:
     values = []
     for r in rows:
-        for k, _, _ in keys:
+        for k in keys:
             n = as_number(r.get(k))
             if n is not None:
                 values.append(n)
-    if not values:
-        return '<div class="chart-empty">그래프 데이터 없음</div>'
+    if len(rows) < 2 or not values:
+        return '<div class="no-data">표시 가능한 그래프 데이터 없음</div>'
+
     min_v, max_v = min(values), max(values)
     if min_v == max_v:
-        min_v -= 1; max_v += 1
-    pad = (max_v - min_v) * 0.12
-    min_v -= pad; max_v += pad
-    W,H = 440,230; left,right,top,bottom = 38,10,16,32
-    pw,ph = W-left-right, H-top-bottom
-    def x(i:int)->float: return left + (0 if len(rows)<=1 else i/(len(rows)-1)*pw)
-    def y(v:float)->float: return top + (max_v-v)/(max_v-min_v)*ph
+        min_v -= 1
+        max_v += 1
+    pad = max((max_v - min_v) * 0.12, 1)
+    min_v = max(0, min_v - pad)
+    max_v += pad
+    W, H = 440, 230
+    left, right, top, bottom = 38, 10, 16, 32
+    pw, ph = W - left - right, H - top - bottom
+
+    def x(i: int) -> float:
+        return left + (0 if len(rows) <= 1 else i / (len(rows) - 1) * pw)
+
+    def y(v: float) -> float:
+        return top + (max_v - v) / (max_v - min_v) * ph
+
     grid = []
     for i in range(5):
-        val = min_v + (max_v-min_v)*i/4
+        val = min_v + (max_v - min_v) * i / 4
         yy = y(val)
-        grid.append(f'<line x1="{left}" x2="{W-right}" y1="{yy:.1f}" y2="{yy:.1f}" stroke="rgba(0,0,0,.08)"/><text x="{left-5}" y="{yy+3:.1f}" text-anchor="end" font-size="9" fill="#888">{val:.0f}</text>')
-    paths=[]
-    for key, label, color in keys:
-        pts=[]
-        for i,r in enumerate(rows):
-            n=as_number(r.get(key))
+        grid.append(f'<line x1="{left}" y1="{yy:.1f}" x2="{W-right}" y2="{yy:.1f}" stroke="#E9EDF2" stroke-width="1"/>')
+        grid.append(f'<text x="4" y="{yy+4:.1f}" font-size="10" fill="#8A8F98">{val:.0f}</text>')
+
+    paths = []
+    for key in keys:
+        pts = []
+        for i, r in enumerate(rows):
+            n = as_number(r.get(key))
             if n is not None:
                 pts.append(f'{x(i):.1f},{y(n):.1f}')
-        if len(pts)>=2:
-            paths.append(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>')
-    labels=[]
-    for idx in sorted(set([0, max(0,len(rows)//3), max(0,(len(rows)*2)//3), len(rows)-1])):
-        label = rows[idx].get("label") or short_date(str(rows[idx].get("date","")))
-        labels.append(f'<text x="{x(idx):.1f}" y="222" text-anchor="middle" font-size="9" fill="#888">{esc(label)}</text>')
-    return f'<svg class="chart-svg" viewBox="0 0 {W} {H}" role="img" aria-label="가격 추이 그래프">{"".join(grid)}{"".join(paths)}{"".join(labels)}</svg>'
+        if len(pts) >= 2:
+            paths.append(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{COLORS.get(key, "#1A6FD4")}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>')
+
+    ticks = sorted(set([0, max(0, len(rows)//3), max(0, (len(rows)*2)//3), len(rows)-1]))
+    axis_labels = []
+    for idx in ticks:
+        label = rows[idx].get("label") or short_date(str(rows[idx].get("date", "")))
+        axis_labels.append(f'<text x="{x(idx):.1f}" y="218" text-anchor="middle" font-size="10" fill="#8A8F98">{esc(label)}</text>')
+
+    legend = []
+    for key in keys:
+        label = labels.get(key, key) if labels else key
+        legend.append(f'<span class="legend-item"><span class="legend-dot" style="background:{COLORS.get(key, "#1A6FD4")}"></span>{esc(label)}</span>')
+
+    return f"""
+<div class="chart-legend">{''.join(legend)}</div>
+<svg class="chart-svg" viewBox="0 0 {W} {H}" role="img" aria-label="가격 추이 그래프">
+  {''.join(grid)}
+  {''.join(paths)}
+  {''.join(axis_labels)}
+</svg>
+"""
 
 
-def get_issues(data: Dict[str, Any]) -> List[Dict[str, Any]]:
-    issues = list_of(data.get("issues"))
-    return [x for x in issues if isinstance(x, dict)][:8]
+def render_chart(title: str, rows: list[dict[str, Any]], keys: Sequence[str], labels: Mapping[str, str] | None = None) -> str:
+    if rows:
+        title = f"{title} ({short_date(str(rows[0].get('date','')))} ~ {short_date(str(rows[-1].get('date','')))})"
+    body = '<div class="chart-wrap">' + make_svg(rows, keys, labels) + '</div>'
+    return section(3 if keys == CRUDE_KEYS else 4, title, body)
 
 
-def get_schedules(data: Dict[str, Any]) -> List[Dict[str, Any]]:
-    schedules = list_of(data.get("schedules"))
-    return [x for x in schedules if isinstance(x, dict)][:12]
+def normalize_links(item: Mapping[str, Any]) -> list[dict[str, str]]:
+    raw = item.get("links") or item.get("related_links") or []
+    out = []
+    if isinstance(raw, list):
+        for link in raw[:3]:
+            if isinstance(link, Mapping) and link.get("url"):
+                out.append({"url": str(link.get("url")), "label": clean_text(link.get("label") or link.get("title") or "관련 자료")})
+    return out
 
 
-def get_news(data: Dict[str, Any]) -> tuple[str, List[Dict[str, Any]]]:
-    news = data.get("news_trend") if isinstance(data.get("news_trend"), dict) else {}
-    summary = text_of(news.get("summary") or news.get("trend") or news.get("text"))
-    articles = [a for a in list_of(news.get("articles")) if isinstance(a, dict)]
-    return normalize_sentence(summary), articles[:5]
+def render_issues(data: Mapping[str, Any]) -> str:
+    rows = []
+    for item in list_of(data.get("issues"))[:8]:
+        if not isinstance(item, Mapping):
+            continue
+        tag = clean_text(item.get("tag") or item.get("category") or "동향")
+        title = clean_text(item.get("title") or item.get("name") or "주요 동향")
+        desc = clean_text(item.get("description") or item.get("desc") or item.get("summary") or item.get("impact") or "세부 내용 확인 필요")
+        links = normalize_links(item)
+        link_html = ""
+        if links:
+            link_html = '<div class="issue-links">관련 링크' + ''.join(f'<a href="{esc(l["url"])}" target="_blank" rel="noopener noreferrer">{esc(l["label"])}</a>' for l in links) + '</div>'
+        rows.append(f'<div class="issue-card"><div class="issue-tag">{esc(tag)}</div><div class="issue-title">{esc(title)}</div><div class="issue-desc">{esc(desc)}</div>{link_html}</div>')
+    if not rows:
+        rows.append('<div class="issue-card"><div class="issue-tag">확인</div><div class="issue-title">전일 주요 동향 데이터 확인 필요</div><div class="issue-desc">전일 일정·이슈 데이터가 비어 있음</div></div>')
+    return '<div class="issue-list">' + ''.join(rows) + '</div><div class="fact-note">※ 관련 링크가 없는 항목은 일정·보도자료 원문 확인 범위 내에서 작성. 업계 영향 평가는 작성자 해석</div>'
 
 
-def issue_html(issue: Dict[str, Any]) -> str:
-    tag = issue.get("tag") or issue.get("category") or "동향"
-    title = issue.get("title") or issue.get("name") or "주요 동향"
-    desc = issue.get("description") or issue.get("desc") or issue.get("summary") or issue.get("impact") or "세부 내용 확인 필요"
-    links = issue.get("links") if isinstance(issue.get("links"), list) else []
-    link_html = ""
-    if links:
-        items=[]
-        for l in links[:3]:
-            if isinstance(l, dict) and l.get("url"):
-                items.append(f'<a href="{esc(l.get("url"))}" target="_blank" rel="noopener">{esc(l.get("title") or l.get("url"))}</a>')
-        if items:
-            link_html = '<div class="issue-links"><span>관련 링크</span>' + ''.join(items) + '</div>'
-    return f'<div class="issue-card"><div class="issue-tag">{esc(tag)}</div><div class="issue-title">{esc(title)}</div><div class="issue-desc">{esc(normalize_sentence(str(desc)))}</div>{link_html}</div>'
+def render_schedules(data: Mapping[str, Any]) -> str:
+    rows = []
+    for item in list_of(data.get("schedules"))[:12]:
+        if not isinstance(item, Mapping):
+            continue
+        time = clean_text(item.get("time") or item.get("start_time") or "-")
+        org = clean_text(item.get("org") or item.get("organization") or item.get("agency") or "-")
+        title = clean_text(item.get("title") or item.get("name") or item.get("event") or "일정 확인 필요")
+        rel = clean_text(item.get("relevance") or item.get("impact") or item.get("description") or item.get("desc") or "")
+        rel_html = f'<div class="schedule-rel">{esc(rel)}</div>' if rel else ''
+        rows.append(f'<div class="schedule-row"><div class="schedule-time">{esc(time)}</div><div class="schedule-org">{esc(org[:8])}</div><div class="schedule-main">{esc(title)}{rel_html}</div></div>')
+    if not rows:
+        rows.append('<div class="schedule-row"><div class="schedule-time">-</div><div class="schedule-org">-</div><div class="schedule-main">금일 주요 일정 데이터 확인 필요<div class="schedule-rel">일정 데이터가 비어 있음</div></div></div>')
+    return '<div class="schedule-list">' + ''.join(rows) + '</div><div class="fact-note">※ 위 일정은 제공된 일정 텍스트 기준. 영향도는 보고서 작성 목적의 해석</div>'
 
 
-def schedule_html(row: Dict[str, Any]) -> str:
-    time = row.get("time") or row.get("start_time") or "-"
-    org = row.get("org") or row.get("organization") or row.get("agency") or "-"
-    title = row.get("title") or row.get("name") or row.get("event") or "일정 확인 필요"
-    rel = row.get("relevance") or row.get("impact") or row.get("description") or row.get("desc") or "세부 안건은 일정 자료 기준 확인 필요"
-    return f'<div class="schedule-row"><div class="schedule-time">{esc(time)}</div><div class="schedule-org">{esc(org)}</div><div class="schedule-main"><div>{esc(title)}</div><div class="schedule-rel">{esc(normalize_sentence(str(rel)))}</div></div></div>'
+def get_news(data: Mapping[str, Any]) -> tuple[str, list[Mapping[str, Any]]]:
+    news = dict_of(data.get("news_trend"))
+    summary = clean_text(news.get("summary") or news.get("trend") or news.get("text") or "")
+    articles = [a for a in list_of(news.get("articles")) if isinstance(a, Mapping) and a.get("title")]
+    return summary, articles[:5]
 
 
-def render(data: Dict[str, Any], date_text: str) -> str:
-    display_date = display_date_from(date_text, data)
+def render_news(data: Mapping[str, Any]) -> str:
+    summary, articles = get_news(data)
+    if not summary:
+        if articles:
+            summary = "주요 매체가 " + "·".join(clean_text(a.get("title")) for a in articles[:3]) + " 등을 중심으로 보도."
+        else:
+            summary = "기준일 조간 신문 트렌드 확인 필요."
+    rows = []
+    for a in articles:
+        url = str(a.get("url") or "#").strip() or "#"
+        title = clean_text(a.get("title") or "기사 제목 확인 필요")
+        press = clean_text(a.get("press") or a.get("source") or a.get("publisher") or "출처 확인")
+        desc = clean_text(a.get("summary") or a.get("description") or a.get("desc") or "")
+        desc_html = f'<div class="news-link-desc">{esc(desc)}</div>' if desc else ''
+        # 중요: 긴 URL 텍스트는 출력하지 않고, 제목에만 href를 건다.
+        rows.append(f'<a class="news-link" href="{esc(url)}" target="_blank" rel="noopener noreferrer"><div class="news-link-title">{esc(title)}</div><div class="news-link-press">{esc(press)}</div>{desc_html}</a>')
+    if not rows:
+        rows.append('<div class="news-link"><div class="news-link-title">대표 기사 데이터 확인 필요</div><div class="news-link-press">-</div><div class="news-link-desc">조간 기사 후보가 report JSON에 반영되지 않음</div></div>')
+    return f'<div class="news-body"><div class="news-trend">{esc(summary)}</div><div class="news-separator"></div><div class="news-links-title">대표 기사</div>{"".join(rows)}</div><div class="fact-note">※ 조간 트렌드는 웹 확인 가능한 기준일 오전 보도 중 정유·석유화학·LNG 업계 관련성이 높은 기사 중심 작성. 기사 내용 밖의 업계 영향 평가는 작성자 해석</div>'
+
+
+def resolve_paths(args: argparse.Namespace) -> tuple[Path, Path, str]:
+    if args.input:
+        input_path = Path(args.input)
+        date_text = args.date or input_path.name.split(".report.json")[0]
+    else:
+        if not args.date:
+            raise SystemExit("--date 또는 --input 중 하나는 필요합니다.")
+        date_text = args.date
+        input_path = Path(args.report_dir) / f"{date_text}.report.json"
+    output_path = Path(args.output) if args.output else Path(args.out_dir) / f"{date_text}.html"
+    return input_path, output_path, date_text
+
+
+def atomic_write(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=str(path.parent), delete=False, prefix=f".{path.name}.", suffix=".tmp") as tmp:
+        tmp.write(text)
+        tmp_path = Path(tmp.name)
+    tmp_path.replace(path)
+
+
+def render(data: Mapping[str, Any], date_text: str) -> str:
+    report = dict_of(data.get("report"))
+    badge = clean_text(report.get("report_badge") or "정유 · 석유화학 · LNG")
     today_label = short_date(date_text)
-    report = data.get("report") if isinstance(data.get("report"), dict) else {}
-    badge = report.get("report_badge") or "정유 · 석유화학 · LNG"
-    summary_items = get_summary_items(data)
-    crude_cards, product_cards, price_note = price_cards(data)
     crude_series = extract_series(data, "crude")
     product_series = extract_series(data, "product")
-    issues = get_issues(data)
-    schedules = get_schedules(data)
-    news_summary, articles = get_news(data)
-
-    def card(c):
-        v = c.get("value")
-        val = "-" if v is None else f"{v:.2f}"
-        return f'<div class="price-card"><div class="price-label">{esc(c["label"])}</div><div class="price-value">{val}</div><div class="price-unit">$/Bbl</div></div>'
-
-    article_html = ""
-    for a in articles:
-        url = a.get("url") or "#"
-        title = a.get("title") or "기사 제목 확인 필요"
-        press = a.get("press") or a.get("source") or a.get("publisher") or "출처 확인"
-        desc = a.get("summary") or a.get("description") or a.get("desc") or "기사 주요 내용 확인 필요"
-        article_html += f'<a class="news-link" href="{esc(url)}" target="_blank" rel="noopener"><div class="news-link-title">{esc(title)}</div><div class="news-link-press">{esc(press)}</div><div class="news-link-desc">{esc(normalize_sentence(str(desc)))}</div><div class="news-url">{esc(url)}</div></a>'
-    if not article_html:
-        article_html = '<div class="news-link"><div class="news-link-title">대표 기사 데이터 확인 필요</div><div class="news-link-desc">조간 기사 후보가 report JSON에 반영되지 않음</div></div>'
-
-    issues_html = ''.join(issue_html(i) for i in issues) or '<div class="issue-card"><div class="issue-tag">확인</div><div class="issue-title">전일 주요 동향 데이터 확인 필요</div><div class="issue-desc">전일 일정·이슈 데이터가 비어 있음</div></div>'
-    schedules_html = ''.join(schedule_html(s) for s in schedules) or '<div class="schedule-row"><div class="schedule-time">-</div><div class="schedule-org">-</div><div class="schedule-main"><div>금일 주요 일정 데이터 확인 필요</div><div class="schedule-rel">일정 데이터가 비어 있음</div></div></div>'
-
-    crude_svg = make_svg(crude_series, [("Brent","Brent","#1A6FD4"),("WTI","WTI","#E24B4A"),("Dubai","Dubai","#1D9E75")])
-    product_svg = make_svg(product_series, [("Gasoline","Gasoline","#1A6FD4"),("Diesel","Diesel","#E24B4A"),("Naphtha","Naphtha","#1D9E75")])
-
-    css = """
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap');
-*{box-sizing:border-box}body{margin:0;padding:16px;background:#F4F5F7;color:#1A1A1A;font-family:'Noto Sans KR',sans-serif;font-size:14px;line-height:1.6}.container{max-width:480px;margin:0 auto}.header{background:#0A2444;color:#fff;padding:18px 16px 14px;border-radius:12px 12px 0 0}.header-top{display:flex;justify-content:space-between;gap:12px}.header-title{font-size:20px;font-weight:800}.header-date{font-size:12px;color:rgba(255,255,255,.65);margin-top:3px}.header-badge{font-size:11px;background:rgba(255,255,255,.12);border-radius:20px;padding:4px 10px;height:fit-content;white-space:nowrap}.section{background:#fff;border:1px solid #E5E7EB;border-radius:12px;margin:10px 0;overflow:hidden}.section-header{display:flex;align-items:center;gap:8px;padding:11px 16px;border-bottom:1px solid #E5E7EB;background:#F8F9FA}.section-num{font-size:11px;font-weight:800;color:#fff;background:#0A2444;border-radius:4px;padding:2px 7px;min-width:24px;text-align:center}.section-title{font-size:14px;font-weight:800}.summary-body,.news-body{padding:14px 16px}.summary-item{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid #F0F0F0;font-size:13px;line-height:1.65}.summary-item:last-child{border-bottom:none}.summary-dot{flex:0 0 6px;width:6px;height:6px;border-radius:50%;background:#1A6FD4;margin-top:8px}.price-section-label{font-size:12px;font-weight:600;color:#666;padding:12px 16px 6px}.price-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:0 16px 14px}.price-card{background:#F8F9FA;border-radius:8px;padding:10px 8px;text-align:center}.price-label{font-size:11px;color:#666;margin-bottom:4px}.price-value{font-size:18px;font-weight:800;line-height:1}.price-unit{font-size:10px;color:#999;margin-top:2px}.divider{height:1px;background:#F0F0F0;margin:0 16px 4px}.chart-wrap{padding:12px 14px}.chart-legend{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:10px;font-size:12px;color:#666}.legend-item{display:flex;align-items:center;gap:5px}.legend-dot{width:12px;height:3px;border-radius:2px}.chart-svg{width:100%;height:auto;display:block}.chart-empty{height:190px;display:flex;align-items:center;justify-content:center;color:#999;background:#F8F9FA;border-radius:10px}.issue-list,.schedule-list{padding:10px 12px}.issue-card{background:#F8F9FA;border-radius:8px;padding:12px 14px;margin-bottom:8px;border-left:3px solid #1A6FD4}.issue-tag{display:inline-block;font-size:10px;font-weight:800;background:#E6F1FB;color:#185FA5;border-radius:3px;padding:2px 6px;margin-bottom:6px}.issue-title{font-size:13px;font-weight:800;margin-bottom:5px;line-height:1.5}.issue-desc{font-size:12px;color:#444;line-height:1.65}.issue-links{margin-top:9px;display:flex;flex-direction:column;gap:4px;font-size:11px}.issue-links a{color:#0A2444;text-decoration:underline;word-break:break-all}.schedule-row{display:flex;align-items:flex-start;gap:8px;padding:9px 0;border-bottom:1px solid #F0F0F0}.schedule-row:last-child{border-bottom:none}.schedule-time{flex:0 0 38px;font-size:11px;font-weight:800;color:#185FA5;margin-top:1px}.schedule-org{flex:0 0 48px;font-size:10px;background:#F0F1F3;border:1px solid #E0E0E0;border-radius:3px;padding:1px 4px;color:#555;text-align:center}.schedule-main{flex:1;font-size:12px;line-height:1.5}.schedule-rel{font-size:11px;color:#777;margin-top:2px}.note{padding:0 16px 14px;font-size:11px;color:#999}.news-trend{font-size:13px;line-height:1.75;margin-bottom:14px}.news-separator{height:1px;background:#F0F0F0;margin:12px 0}.news-links-title{font-size:11px;font-weight:800;color:#999;letter-spacing:.5px;margin-bottom:8px}.news-link{display:block;padding:9px 0;border-bottom:1px solid #F0F0F0;text-decoration:none;color:inherit}.news-link-title{font-size:13px;font-weight:700;color:#0A2444;line-height:1.45;text-decoration:underline}.news-link-press{font-size:11px;color:#888;margin:2px 0}.news-link-desc{font-size:11px;color:#555;line-height:1.55}.news-url{font-size:10px;color:#999;word-break:break-all;margin-top:4px}.fact-note{font-size:11px;color:#888;background:#F8F9FA;border-top:1px solid #E5E7EB;padding:10px 16px}.footer{text-align:center;padding:12px;font-size:11px;color:#aaa;border-top:1px solid #E5E7EB;margin-top:4px}@media(max-width:430px){body{padding:10px}.header-title{font-size:18px}.header-badge{font-size:10px;padding:4px 8px}.section-header{padding:10px 12px}.summary-body,.news-body{padding:12px}.price-grid{gap:6px;padding:0 12px 12px}.price-card{padding:9px 4px}.price-value{font-size:16px}.chart-wrap{padding:10px 8px}.chart-legend{gap:8px;font-size:11px;margin-left:4px}.schedule-org{flex-basis:42px}}
+    html_text = f"""<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily 유가 동향 — {esc(date_text.replace('-', '.'))}</title>
+  <style>{STYLE}</style>
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <div class="header-top">
+        <div><div class="header-title">Daily 유가 동향</div><div class="header-date">{esc(display_date(date_text, data))}</div></div>
+        <div class="header-badge">{esc(badge)}</div>
+      </div>
+    </header>
+    {section(1, "Summary", render_summary(data))}
+    {section(2, "유가 동향", render_price_section(data))}
+    {render_chart("원유 가격 추이", crude_series, CRUDE_KEYS)}
+    {render_chart("석유제품 가격 추이", product_series, PRODUCT_KEYS, PRODUCT_LABELS)}
+    {section(5, "이해관계자·정책 주요 동향 (전일 기준)", render_issues(data))}
+    {section(6, f"금일 주요 일정 ({today_label})", render_schedules(data))}
+    {section(7, f"조간 신문 트렌드 ({today_label})", render_news(data))}
+    <footer class="footer">SK Innovation Communication Division · {esc(date_text.replace('-', '.'))}</footer>
+  </main>
+</body>
+</html>
 """
-    return f'''<!DOCTYPE html>
-<html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/><title>Daily 유가 동향 — {esc(date_text.replace('-', '.'))}</title><style>{css}</style></head>
-<body><div class="container">
-<div class="header"><div class="header-top"><div><div class="header-title">Daily 유가 동향</div><div class="header-date">{esc(display_date)}</div></div><div class="header-badge">{esc(badge)}</div></div></div>
-<div class="section"><div class="section-header"><span class="section-num">1</span><span class="section-title">Summary</span></div><div class="summary-body">
-{''.join(f'<div class="summary-item"><div class="summary-dot"></div><div>{esc(t)}</div></div>' for t in summary_items)}
-</div></div>
-<div class="section"><div class="section-header"><span class="section-num">2</span><span class="section-title">유가 동향</span></div>
-<div class="price-section-label">원유 ($/Bbl) — {esc(today_label)} 기준</div><div class="price-grid">{''.join(card(c) for c in crude_cards)}</div>
-<div class="divider"></div><div class="price-section-label">석유제품 ($/Bbl) — {esc(today_label)} 기준</div><div class="price-grid">{''.join(card(c) for c in product_cards)}</div>
-<div class="note">{esc(price_note or '※ 가격 데이터는 제공 데이터 및 history.json 기준')}</div></div>
-<div class="section"><div class="section-header"><span class="section-num">3</span><span class="section-title">원유 가격 추이</span></div><div class="chart-wrap"><div class="chart-legend"><div class="legend-item"><div class="legend-dot" style="background:#1A6FD4"></div>Brent</div><div class="legend-item"><div class="legend-dot" style="background:#E24B4A"></div>WTI</div><div class="legend-item"><div class="legend-dot" style="background:#1D9E75"></div>Dubai</div></div>{crude_svg}</div></div>
-<div class="section"><div class="section-header"><span class="section-num">4</span><span class="section-title">석유제품 가격 추이</span></div><div class="chart-wrap"><div class="chart-legend"><div class="legend-item"><div class="legend-dot" style="background:#1A6FD4"></div>Gasoline</div><div class="legend-item"><div class="legend-dot" style="background:#E24B4A"></div>Diesel</div><div class="legend-item"><div class="legend-dot" style="background:#1D9E75"></div>Naphtha</div></div>{product_svg}</div></div>
-<div class="section"><div class="section-header"><span class="section-num">5</span><span class="section-title">이해관계자·정책 주요 동향 (전일 기준)</span></div><div class="issue-list">{issues_html}</div><div class="fact-note">※ 일정·이슈 영향도는 보고서 작성 목적의 해석</div></div>
-<div class="section"><div class="section-header"><span class="section-num">6</span><span class="section-title">금일 주요 일정 ({esc(today_label)})</span></div><div class="schedule-list">{schedules_html}</div><div class="note">※ 세이프타임즈 일정 텍스트 기준</div></div>
-<div class="section"><div class="section-header"><span class="section-num">7</span><span class="section-title">조간 신문 트렌드 ({esc(today_label)})</span></div><div class="news-body"><div class="news-trend">{esc(news_summary or '조간 신문 트렌드는 대표 기사 기준 정리')}</div><div class="news-separator"></div><div class="news-links-title">대표 기사</div>{article_html}</div><div class="fact-note">※ 조간 트렌드는 웹 확인 가능한 보도 중 업계 관련성이 높은 기사 중심 작성</div></div>
-<div class="footer">SK Innovation Communication Division · {esc(date_text)}</div></div></body></html>'''
+    return html_text
 
 
 def main() -> int:
     args = parse_args()
-    if args.input:
-        in_path = Path(args.input)
-        date_text = args.date or in_path.name.replace(".report.json", "")
-    else:
-        if not args.date:
-            raise SystemExit("--date 또는 --input이 필요합니다.")
-        date_text = args.date
-        in_path = Path(args.report_dir) / f"{date_text}.report.json"
-    if args.output:
-        out_path = Path(args.output)
-    else:
-        out_path = Path(args.out_dir) / f"{date_text}.html"
-    if not in_path.exists():
-        raise SystemExit(f"[ERROR] report JSON이 없습니다: {in_path}")
-    data = json.loads(in_path.read_text(encoding="utf-8"))
-    date_text = get_report_date(data, date_text)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(render(data, date_text), encoding="utf-8")
-    print(f"[OK] HTML 리포트 생성 완료: {out_path}")
+    input_path, output_path, date_text = resolve_paths(args)
+    if not input_path.exists():
+        raise FileNotFoundError(f"입력 JSON을 찾을 수 없습니다: {input_path}")
+    data = json.loads(input_path.read_text(encoding="utf-8"))
+    html_text = render(data, date_text)
+    atomic_write(output_path, html_text)
+    print(f"[OK] HTML 리포트 생성 완료: {output_path}")
     return 0
 
 
