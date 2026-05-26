@@ -13,6 +13,7 @@ import argparse
 import json
 import re
 import tempfile
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict, List
 
@@ -21,6 +22,8 @@ BAD_SUMMARY_PHRASES = [
     "자동 수집된 대표 기사 없음", "가격 데이터 중심", "원문 데이터", "fallback",
     "찾지 못했습니다", "미확인", "주요 보도 없음", "대표 기사 없음",
 ]
+KST = timezone(timedelta(hours=9))
+
 PRICE_SUMMARY_RE = re.compile(r"\s*가격 그래프는 기준일 전일 기준 과거 2개월\([^)]*\)만 표시하며, 값이 0인 가격은 제외\.?,?", re.U)
 
 
@@ -101,10 +104,49 @@ def make_trend_headline(articles: List[Dict[str, str]], topics: List[str] | None
     return "주요 매체가 " + " ".join(f"△{x}" for x in labels) + " 등을 중심으로 보도."
 
 
+def _has_batchim(text: str) -> bool:
+    """마지막 한글 음절의 받침 여부를 반환합니다."""
+    t = clean(text)
+    if not t:
+        return False
+    ch = t[-1]
+    code = ord(ch)
+    if 0xAC00 <= code <= 0xD7A3:
+        return (code - 0xAC00) % 28 != 0
+    # 영문·숫자·기호는 자연스러운 기본 조사로 처리
+    return False
+
+
+def topic_particle(text: str) -> str:
+    return "은" if _has_batchim(text) else "는"
+
+
+def strip_polite_endings(text: str) -> str:
+    """공개 보고서에 남기지 않을 서술형 종결을 명사형/보고서형으로 정리합니다."""
+    t = to_report_style(text)
+    replacements = {
+        "다뤘습니다.": "다룸.",
+        "다뤘습니다": "다룸.",
+        "보도했습니다.": "보도.",
+        "보도했습니다": "보도.",
+        "소개했습니다.": "소개.",
+        "분석했습니다.": "분석.",
+        "전망했습니다.": "전망.",
+        "설명했습니다.": "설명.",
+        "밝혔습니다.": "밝힘.",
+    }
+    for src, dst in replacements.items():
+        if t.endswith(src):
+            t = t[: -len(src)] + dst
+            break
+    t = t.replace(" 다뤘음.", " 다룸.").replace(" 보도함.", " 보도.")
+    return t
+
+
 def article_trend_sentence(article: Dict[str, str]) -> str:
     press = clean(article.get("press")) or "해당 매체"
     title = clean(article.get("title"))
-    summary = to_report_style(article.get("summary", ""))
+    summary = strip_polite_endings(article.get("summary", ""))
     published = clean(article.get("published_at_kst"))
     time_text = ""
     if published:
@@ -115,11 +157,12 @@ def article_trend_sentence(article: Dict[str, str]) -> str:
     core = title
     core = re.sub(r"^\[[^\]]+\]\s*", "", core).strip()
     core = re.sub(r"\s+-\s+[^-]{2,12}$", "", core).strip()
+    particle = topic_particle(press)
     if summary and summary not in {"원문 링크 기준으로 세부 내용 검수가 필요합니다.", "원문 링크 기준으로 세부 내용 검수가 필요함."}:
         if time_text:
             summary = re.sub(r"^\d{1,2}/\d{1,2}\s+\d{1,2}:\d{2}\s*입력\.?\s*", "", summary).strip()
-        return f"{press}는 {time_text}{summary}"
-    return f"{press}는 {time_text}{core} 관련 내용 보도."
+        return f"{press}{particle} {time_text}{summary}"
+    return f"{press}{particle} {time_text}{core} 관련 내용 보도."
 
 
 def make_trend_paragraphs(articles: List[Dict[str, str]]) -> List[str]:
@@ -134,6 +177,9 @@ def parse_args():
     p.add_argument("--news-dir", default="data/news")
     p.add_argument("--max-articles", type=int, default=3)
     p.add_argument("--min-required", type=int, default=1)
+    p.add_argument("--lookback-hours", type=int, default=18)
+    p.add_argument("--cutoff-hour", type=int, default=11)
+    p.add_argument("--cutoff-minute", type=int, default=30)
     return p.parse_args()
 
 
@@ -156,7 +202,43 @@ def clean(v: Any) -> str:
     return re.sub(r"\s+", " ", "" if v is None else str(v)).strip()
 
 
-def valid_article(item: Dict[str, Any]) -> bool:
+def in_morning_issue_window(
+    item: Dict[str, Any],
+    target_date: str,
+    lookback_hours: int,
+    cutoff_hour: int,
+    cutoff_minute: int,
+) -> bool:
+    """기사 발행일·시간이 기준일 조간 범위인지 최종 검증합니다.
+
+    허용 범위: 전일 18:00 ~ 기준일 11:30 KST.
+    published_at_kst가 있으면 시간까지 엄격히 검증하고, published_date만 있으면
+    전일/기준일 날짜까지만 허용합니다. 발행 정보가 없는 보조 검색 후보는
+    fetch 단계의 기간 필터를 신뢰하되, 기존 보존 기사에는 적용하지 않습니다.
+    """
+    target = datetime.strptime(target_date, "%Y-%m-%d").replace(tzinfo=KST)
+    start = target - timedelta(hours=lookback_hours)
+    end = target.replace(hour=cutoff_hour, minute=cutoff_minute, second=59)
+    published_at = clean(item.get("published_at_kst"))
+    published_date = clean(item.get("published_date"))
+    if published_at:
+        try:
+            dt = datetime.strptime(published_at[:16], "%Y-%m-%d %H:%M").replace(tzinfo=KST)
+            return start <= dt <= end
+        except Exception:
+            return False
+    if published_date:
+        return published_date in {start.strftime("%Y-%m-%d"), target.strftime("%Y-%m-%d")}
+    return True
+
+
+def valid_article(
+    item: Dict[str, Any],
+    target_date: str | None = None,
+    lookback_hours: int = 18,
+    cutoff_hour: int = 11,
+    cutoff_minute: int = 30,
+) -> bool:
     title = clean(item.get("title"))
     url = clean(item.get("url"))
     if not title or not url:
@@ -164,6 +246,8 @@ def valid_article(item: Dict[str, Any]) -> bool:
     if any(b in title for b in BAD_TITLES):
         return False
     if any(b in url for b in ["safetimes.co.kr/news/articleView"]):
+        return False
+    if target_date and not in_morning_issue_window(item, target_date, lookback_hours, cutoff_hour, cutoff_minute):
         return False
     return True
 
@@ -175,8 +259,9 @@ def normalize_article(item: Dict[str, Any]) -> Dict[str, str]:
         snippet = re.sub(r" - [^ ]+(?:\s|$)", " ", snippet)
         snippet = re.sub(r"\s+", " ", snippet).strip()
         summary = snippet[:147] + "..." if len(snippet) > 150 else snippet
+        summary = strip_polite_endings(summary)
     else:
-        summary = "원문 링크 기준으로 세부 내용 검수가 필요합니다."
+        summary = "원문 링크 기준으로 세부 내용 검수 필요."
     return {
         "title": title,
         "press": clean(item.get("press") or item.get("source")) or "Google News",
@@ -196,7 +281,7 @@ def build_news_summary(news: Dict[str, Any], articles: List[Dict[str, Any]]) -> 
     topics = [clean(t) for t in news.get("topics", []) if clean(t)]
     provided = clean(news.get("summary"))
     if provided and not any(x in provided for x in BAD_SUMMARY_PHRASES) and not any(x in provided for x in ["다뤘습니다", "보도했습니다", "수집됐습니다"]):
-        return to_report_style(provided)
+        return strip_polite_endings(provided)
     return make_trend_headline(articles, topics)
 
 def update_summary(report: Dict[str, Any], news_summary: str) -> None:
@@ -206,6 +291,7 @@ def update_summary(report: Dict[str, Any], news_summary: str) -> None:
         if not isinstance(item, dict) or item.get("type") == "news_trend":
             continue
         text = PRICE_SUMMARY_RE.sub("", clean(item.get("text"))).strip()
+        text = strip_polite_endings(text)
         if not text:
             continue
         if any(x in text for x in BAD_SUMMARY_PHRASES):
@@ -233,8 +319,14 @@ def main() -> int:
 
     news = read_json(news_path)
     raw_articles = news.get("articles", []) if isinstance(news.get("articles"), list) else []
-    new_articles = [normalize_article(i) for i in raw_articles if isinstance(i, dict) and valid_article(i)][:a.max_articles]
-    old_articles = [normalize_article(i) for i in existing_valid_articles(report)][:a.max_articles]
+    new_articles = [
+        normalize_article(i) for i in raw_articles
+        if isinstance(i, dict) and valid_article(i, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)
+    ][:a.max_articles]
+    old_articles = [
+        normalize_article(i) for i in existing_valid_articles(report)
+        if isinstance(i, dict) and valid_article(i, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)
+    ][:a.max_articles]
 
     if new_articles:
         articles = new_articles
