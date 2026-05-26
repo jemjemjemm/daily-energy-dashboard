@@ -1,232 +1,161 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""Generate docs/report-index.json for the dashboard calendar.
-
-This script indexes already-rendered HTML reports under docs/reports.
-It accepts both the old report template and the new mobile "Daily 유가 동향" template.
-
-Operational notes:
-- This file is only responsible for making already-rendered HTML visible in the dashboard.
-- It does not collect schedules/news/prices and does not rewrite report contents.
-- It must remain CLI-compatible with generate_reports_range.py and the GitHub Actions workflow:
-  python scripts/generate_report_index.py --reports-dir docs/reports --out docs/report-index.json
-- argparse abbreviation is disabled so that --out is never ambiguous with --out-dir/--output aliases.
-"""
-from __future__ import annotations
-
-import argparse
-import json
-import re
-import tempfile
-from datetime import datetime, timezone, timedelta
-from pathlib import Path
-from typing import Any
-
-DATE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})")
-TITLE_RE = re.compile(r"<title[^>]*>\s*(.*?)\s*</title>", re.I | re.S)
-HEADER_DATE_RE = re.compile(
-    r'<div[^>]*class=["\'][^"\']*header-date[^"\']*["\'][^>]*>\s*(.*?)\s*</div>',
-    re.I | re.S,
-)
-
-# Only true fallback/broken-report phrases. Do NOT include normal source labels such as
-# "세이프타임즈", "데이터 없음", "A 직접", "B 간접", "C 참고".
-BAD_HTML_PHRASES = [
-    "자동 추출된 일정 항목이 없습니다",
-    "본문 구조 확인 및 수동 검수가 필요합니다",
-    "원문 자동 매칭 실패",
-    "주요일정 원문 데이터 미확보",
-    "원문 데이터 없음",
-    "가격 데이터 중심 리포트",
-    "가격 중심 자동생성",
-    "Data 없음",
-    "No data",
-    "정유·석유화학·LNG 관련 조간 기사 후보를 찾지 못했습니다",
-    "조간 기사 후보를 찾지 못했습니다",
-    "자동 수집된 대표 기사 없음",
-    "대표 기사 데이터가 아직 없습니다",
-    "대표 기사 미확인",
-    "기준일 조간 기준 주요 보도 없음",
-    "기준일 조간 기준 정유·석유화학·LNG 관련 대표 기사 미확인",
-]
-
-
-def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(
-        description="캘린더 대시보드용 report-index.json 생성",
-        allow_abbrev=False,
-    )
-    parser.add_argument("--reports-dir", default="docs/reports", help="HTML 리포트 폴더")
-    # Backward/operational compatible output options. generate_reports_range.py uses --out.
-    parser.add_argument("--out", default=None, help="출력 JSON 파일. 기본값 docs/report-index.json")
-    parser.add_argument("--output", default=None, help="--out 별칭")
-    parser.add_argument("--out-dir", default=None, help="호환용 별칭. 파일 경로 또는 폴더 경로 모두 허용")
-    return parser.parse_args()
-
-
-def resolve_out_path(args: argparse.Namespace) -> Path:
-    value = args.out or args.output or args.out_dir or "docs/report-index.json"
-    path = Path(value)
-    if path.suffix.lower() != ".json":
-        path = path / "report-index.json"
-    return path
-
-
-def strip_tags(value: str) -> str:
-    value = re.sub(r"<br\s*/?>", " ", value or "", flags=re.I)
-    value = re.sub(r"<[^>]*>", "", value)
-    value = (
-        value.replace("&amp;", "&")
-        .replace("&lt;", "<")
-        .replace("&gt;", ">")
-        .replace("&quot;", '"')
-        .replace("&#x27;", "'")
-        .replace("&#39;", "'")
-    )
-    return re.sub(r"\s+", " ", value).strip()
-
-
-def now_kst_text() -> str:
-    kst = timezone(timedelta(hours=9))
-    return datetime.now(kst).strftime("%Y-%m-%d %H:%M:%S KST")
-
-
-def atomic_write_json(path: Path, payload: dict[str, Any]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    text = json.dumps(payload, ensure_ascii=False, indent=2)
-    with tempfile.NamedTemporaryFile(
-        "w",
-        encoding="utf-8",
-        dir=str(path.parent),
-        delete=False,
-        prefix=f".{path.name}.",
-        suffix=".tmp",
-    ) as tmp:
-        tmp.write(text)
-        tmp_path = Path(tmp.name)
-    tmp_path.replace(path)
-
-
-def has_bad_phrase(text: str) -> bool:
-    return any(phrase in text for phrase in BAD_HTML_PHRASES)
-
-
-def has_required_structure(text: str) -> tuple[bool, str]:
-    if not text.strip():
-        return False, "empty_html"
-    if has_bad_phrase(text):
-        return False, "bad_phrase"
-
-    # Accept both old and new report templates.
-    has_title = (
-        "Daily Issue Report" in text
-        or "Daily 유가 동향" in text
-        or "Daily_유가_동향" in text
-        or "유가 동향 Dashboard" in text
-    )
-    if not has_title:
-        return False, "missing_title"
-
-    required_sections = ["Summary", "유가 동향", "조간 신문 트렌드"]
-    missing = [token for token in required_sections if token not in text]
-    if missing:
-        return False, "missing_required_section:" + ",".join(missing)
-
-    # New template uses news-link; older templates may use news-item/article-card.
-    has_news_area = (
-        "대표 기사" in text
-        or "news-link" in text
-        or "news-item" in text
-        or "article-card" in text
-        or "조간" in text
-    )
-    if not has_news_area:
-        return False, "missing_news_area"
-
-    has_layout = (
-        'class="section"' in text
-        or "class='section'" in text
-        or "report-section" in text
-        or 'class="container"' in text
-        or "class='container'" in text
-    )
-    if not has_layout:
-        return False, "missing_layout"
-
-    return True, "ok"
-
-
-def read_report_meta(html_path: Path) -> tuple[dict[str, Any] | None, str | None]:
-    date_match = DATE_RE.search(html_path.name)
-    if not date_match:
-        return None, "missing_date_in_filename"
-    date = date_match.group(1)
-
-    try:
-        text = html_path.read_text(encoding="utf-8", errors="ignore")
-    except Exception as exc:
-        return None, f"read_failed:{exc.__class__.__name__}"
-
-    ok, reason = has_required_structure(text)
-    if not ok:
-        return None, reason
-
-    title_match = TITLE_RE.search(text)
-    header_date_match = HEADER_DATE_RE.search(text)
-    title = strip_tags(title_match.group(1)) if title_match else f"Daily 유가 동향 — {date}"
-    display_date = strip_tags(header_date_match.group(1)) if header_date_match else date
-
-    return {
-        "date": date,
-        "displayDate": display_date,
-        "title": title,
-        "url": f"reports/{html_path.name}",
-        "status": "발간",
-        "fileName": html_path.name,
-        "exists": True,
-    }, None
-
-
-def main() -> int:
-    args = parse_args()
-    reports_dir = Path(args.reports_dir)
-    out_path = resolve_out_path(args)
-
-    if not reports_dir.exists():
-        print(f"[ERROR] reports 폴더가 없습니다: {reports_dir}")
-        return 1
-
-    reports: list[dict[str, Any]] = []
-    warnings: list[dict[str, str]] = []
-
-    for html_path in sorted(reports_dir.glob("*.html")):
-        item, reason = read_report_meta(html_path)
-        if item:
-            reports.append(item)
-        else:
-            warnings.append({"fileName": html_path.name, "reason": reason or "unknown"})
-
-    reports.sort(key=lambda item: item["date"], reverse=True)
-    payload = {
-        "schemaVersion": "1.1",
-        "generatedAt": now_kst_text(),
-        "count": len(reports),
-        "latestDate": reports[0]["date"] if reports else "",
-        "availableDates": sorted([item["date"] for item in reports]),
-        "warnings": warnings,
-        "reports": reports,
+{
+  "schemaVersion": "1.1",
+  "generatedAt": "2026-05-26 16:29:09 KST",
+  "count": 15,
+  "latestDate": "2026-05-26",
+  "availableDates": [
+    "2026-05-04",
+    "2026-05-06",
+    "2026-05-07",
+    "2026-05-08",
+    "2026-05-11",
+    "2026-05-12",
+    "2026-05-13",
+    "2026-05-14",
+    "2026-05-15",
+    "2026-05-18",
+    "2026-05-19",
+    "2026-05-20",
+    "2026-05-21",
+    "2026-05-22",
+    "2026-05-26"
+  ],
+  "warnings": [],
+  "reports": [
+    {
+      "date": "2026-05-26",
+      "displayDate": "2026년 5월 26일 (화)",
+      "title": "Daily 유가 동향 — 2026.05.26",
+      "url": "reports/2026-05-26.html",
+      "status": "발간",
+      "fileName": "2026-05-26.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-22",
+      "displayDate": "2026년 5월 22일 (금)",
+      "title": "Daily 유가 동향 — 2026.05.22",
+      "url": "reports/2026-05-22.html",
+      "status": "발간",
+      "fileName": "2026-05-22.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-21",
+      "displayDate": "2026년 5월 21일 (목)",
+      "title": "Daily 유가 동향 — 2026.05.21",
+      "url": "reports/2026-05-21.html",
+      "status": "발간",
+      "fileName": "2026-05-21.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-20",
+      "displayDate": "2026년 5월 20일 (수)",
+      "title": "Daily 유가 동향 — 2026.05.20",
+      "url": "reports/2026-05-20.html",
+      "status": "발간",
+      "fileName": "2026-05-20.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-19",
+      "displayDate": "2026년 5월 19일 (화)",
+      "title": "Daily 유가 동향 — 2026.05.19",
+      "url": "reports/2026-05-19.html",
+      "status": "발간",
+      "fileName": "2026-05-19.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-18",
+      "displayDate": "2026년 5월 18일 (월)",
+      "title": "Daily 유가 동향 — 2026.05.18",
+      "url": "reports/2026-05-18.html",
+      "status": "발간",
+      "fileName": "2026-05-18.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-15",
+      "displayDate": "2026년 5월 15일 (금)",
+      "title": "Daily 유가 동향 — 2026.05.15",
+      "url": "reports/2026-05-15.html",
+      "status": "발간",
+      "fileName": "2026-05-15.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-14",
+      "displayDate": "2026년 5월 14일 (목)",
+      "title": "Daily 유가 동향 — 2026.05.14",
+      "url": "reports/2026-05-14.html",
+      "status": "발간",
+      "fileName": "2026-05-14.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-13",
+      "displayDate": "2026년 5월 13일 (수)",
+      "title": "Daily 유가 동향 — 2026.05.13",
+      "url": "reports/2026-05-13.html",
+      "status": "발간",
+      "fileName": "2026-05-13.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-12",
+      "displayDate": "2026년 5월 12일 (화)",
+      "title": "Daily 유가 동향 — 2026.05.12",
+      "url": "reports/2026-05-12.html",
+      "status": "발간",
+      "fileName": "2026-05-12.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-11",
+      "displayDate": "2026년 5월 11일 (월)",
+      "title": "Daily 유가 동향 — 2026.05.11",
+      "url": "reports/2026-05-11.html",
+      "status": "발간",
+      "fileName": "2026-05-11.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-08",
+      "displayDate": "2026년 5월 8일 (금)",
+      "title": "Daily 유가 동향 — 2026.05.08",
+      "url": "reports/2026-05-08.html",
+      "status": "발간",
+      "fileName": "2026-05-08.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-07",
+      "displayDate": "2026년 5월 7일 (목)",
+      "title": "Daily 유가 동향 — 2026.05.07",
+      "url": "reports/2026-05-07.html",
+      "status": "발간",
+      "fileName": "2026-05-07.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-06",
+      "displayDate": "2026년 5월 6일 (수)",
+      "title": "Daily 유가 동향 — 2026.05.06",
+      "url": "reports/2026-05-06.html",
+      "status": "발간",
+      "fileName": "2026-05-06.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-04",
+      "displayDate": "2026년 5월 4일 (월)",
+      "title": "Daily 유가 동향 — 2026.05.04",
+      "url": "reports/2026-05-04.html",
+      "status": "발간",
+      "fileName": "2026-05-04.html",
+      "exists": true
     }
-
-    atomic_write_json(out_path, payload)
-
-    print(f"[OK] report-index.json 생성 완료: {out_path}")
-    print(f"[OK] 리포트 수: {len(reports)}")
-    if warnings:
-        print(f"[WARN] 제외 HTML 수: {len(warnings)}")
-        for warning in warnings[:30]:
-            print(f" - {warning['fileName']}: {warning['reason']}")
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "2.3",
   "date": "2026-05-06",
-  "collected_at": "2026-05-26 15:57:11 KST",
+  "collected_at": "2026-05-26 16:28:08 KST",
   "source": "Google News RSS + Naver/Daum News Search",
   "queries": [
     "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
@@ -42,12 +42,12 @@
     "호르무즈"
   ],
   "time_window": "전일 06:00~기준일 11:30 KST",
-  "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △물가 지표와 에너지 비용 부담 등을 중심으로 보도.",
+  "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △물가 지표와 에너지 비용 부담 △정부·국회 에너지 정책 등을 중심으로 보도.",
   "topics": [
     "석유 최고가격제·유류세 등 가격 안정 정책",
     "중동 정세와 원유·LNG 수급 리스크",
-    "정유·석유화학 업계 실적·원가·제품 가격",
-    "물가 지표와 에너지 비용 부담"
+    "물가 지표와 에너지 비용 부담",
+    "정부·국회 에너지 정책"
   ],
   "articles": [
     {
@@ -69,6 +69,17 @@
       "published_at_kst": "2026-05-05 16:00",
       "snippet": "중동 긴장 재고조에 국제유가 급등…브렌트유 5.8%↑(종합) 연합뉴스",
       "score": 41,
+      "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
+      "collector": "google_news_rss"
+    },
+    {
+      "title": "중동 긴장 고조에 브렌트유 5.8% 치솟아…원유 수급난 6월 본격화 - v.daum.net",
+      "press": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBacFZ4dHZuUmxjdDhYNTk5XzYtRjNDcnF3VW9wUXMydVZ6YkN5eVM1NUthSG9VMTZPRC1ZbXFMbmJPUmU4akJBUXVnc19xUU01Wk53Qg?oc=5",
+      "published_date": "2026-05-05",
+      "published_at_kst": "2026-05-05 16:00",
+      "snippet": "중동 긴장 고조에 브렌트유 5.8% 치솟아…원유 수급난 6월 본격화 v.daum.net",
+      "score": 36,
       "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
       "collector": "google_news_rss"
     },
@@ -117,12 +128,34 @@
       "collector": "google_news_rss"
     },
     {
+      "title": "호르무즈 긴장속 국제유가 하루만에 하락 전환 - v.daum.net",
+      "press": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lVWtuN2tHeVBXNzVwOVFOZTVaNU54aXpNVFZvRzJQX1lyczNYak5QVUpLU0xDZTNNZnNmWXJ4TjRCUlRnVWdVdzNXTWlGMFBfcXhrSQ?oc=5",
+      "published_date": "2026-05-05",
+      "published_at_kst": "2026-05-05 16:00",
+      "snippet": "호르무즈 긴장속 국제유가 하루만에 하락 전환 v.daum.net",
+      "score": 30,
+      "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
+      "collector": "google_news_rss"
+    },
+    {
       "title": "호르무즈 해협 긴장 고조에 다시 급등한 국제유가 - 연합뉴스",
       "press": "연합뉴스",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wN0lleGQxVmZXTU9YdXQ5UDVZcnpwOUNVNmljcUJ3VkFhZm0tX2RGVXFPUGNNZ3pxZGVGRHp1czQ1S0JxQzlCQ2VNMzkyMEd1eG91aUh0V3h2c0nSAWBBVV95cUxPNmFoOU9sS2J3enJweXhCWlUtTWxhNkU5eUNKMVRvdEZYUHVId3NWWUtlaF9jcjhyaENMdnZPUW5tV2FRR3ZCREt5b3h3YllTRWpMNjJtUVJ4d2JVN05ZdFc?oc=5",
       "published_date": "2026-05-05",
       "published_at_kst": "2026-05-05 16:00",
       "snippet": "호르무즈 해협 긴장 고조에 다시 급등한 국제유가 연합뉴스",
+      "score": 30,
+      "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
+      "collector": "google_news_rss"
+    },
+    {
+      "title": "호르무즈 해협 긴장 재고조…국제유가 급등 - v.daum.net",
+      "press": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBsaEhXVFFKRG4zSElveHVWTmZ4dGJCMkUzczI4WGRwRjdoVUVsNGxjMkFVaUhmaFFfMFVlNTBDTkowenBsV1E?oc=5",
+      "published_date": "2026-05-05",
+      "published_at_kst": "2026-05-05 16:00",
+      "snippet": "호르무즈 해협 긴장 재고조…국제유가 급등 v.daum.net",
       "score": 30,
       "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
       "collector": "google_news_rss"
@@ -146,39 +179,6 @@
       "published_at_kst": "2026-05-05 16:00",
       "snippet": "[휘발유 2천원 시대] 정부 “원유 80% 확보”…공급망 다변화 yonhapmidas.com",
       "score": 28,
-      "source_query": "석유화학 OR 나프타 OR 에틸렌 OR 프로필렌 OR 화학제품",
-      "collector": "google_news_rss"
-    },
-    {
-      "title": "석유 최고가격제 뒤 남은 숙제…손실 보전 해법 '안갯속' - 뉴시스",
-      "press": "뉴시스",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxZ3pWbUxIRnRNVm1NTS0zeFk2NGRvY0VpdzdvQnZBUjE0c09zWWVvTEJ2ODdvT0FLV0NMUUY5UThMVW5PZld1U3JwOUxhem56QjBRaFRVU3IyRVRkbmRqMtIBeEFVX3lxTE5lUXQxcnNCdFNsaWNpQmRvLWNoT2JfN21ubXIyeUtaaWYxeV9tSF9qeElRbEpmY01RTDVYVXFISW1EWDhQX0h2VzZPa1oyeFBTWC00UVlxc3QtQ25aVmxCTmNhNUw4SUNFR0VLVjNHRHJPVjhta0pvYg?oc=5",
-      "published_date": "2026-05-05",
-      "published_at_kst": "2026-05-05 16:00",
-      "snippet": "석유 최고가격제 뒤 남은 숙제…손실 보전 해법 '안갯속' 뉴시스",
-      "score": 22,
-      "source_query": "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
-      "collector": "google_news_rss"
-    },
-    {
-      "title": "일본 석유화학공업협회, 석유화학 제품 생산 감소 불구 재고 등을 통해 공급 유지 - 통신일보",
-      "press": "통신일보",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10cEFoUzJ2QUFzNEdDRzZOMXQ1c05YY2lpSm12TmluYTNXVG9Pb2VSc1I2Q01aX2FicjFQdXZOcXVJMF9ZTU9FeXpsaG5qSTlhelMwSXJJYm44RlQtVWhQb3dVaGE0dw?oc=5",
-      "published_date": "2026-05-05",
-      "published_at_kst": "2026-05-05 16:00",
-      "snippet": "일본 석유화학공업협회, 석유화학 제품 생산 감소 불구 재고 등을 통해 공급 유지 통신일보",
-      "score": 21,
-      "source_query": "석유화학 OR 나프타 OR 에틸렌 OR 프로필렌 OR 화학제품",
-      "collector": "google_news_rss"
-    },
-    {
-      "title": "석유화학 재편 용두사미?…울산·여수 ‘게걸음’ 지속 [비즈360] - v.daum.net",
-      "press": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1VY1dSMXA4OXpVZXNSekRwYjBmMEZfdlozOHgyNW9TMWh2dExmZHBfQUx3eEVUNjlDVUNodEJ4VVhDZUROS1E?oc=5",
-      "published_date": "2026-05-05",
-      "published_at_kst": "2026-05-05 16:00",
-      "snippet": "석유화학 재편 용두사미?…울산·여수 ‘게걸음’ 지속 [비즈360] v.daum.net",
-      "score": 21,
       "source_query": "석유화학 OR 나프타 OR 에틸렌 OR 프로필렌 OR 화학제품",
       "collector": "google_news_rss"
     }
