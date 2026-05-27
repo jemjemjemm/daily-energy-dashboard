@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 4일 (월)",
     "previous_day_label": "4/30",
     "today_label": "5/4",
-    "generated_at": "2026-05-26 17:17 KST",
+    "generated_at": "2026-05-27 13:42 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -1380,18 +1380,11 @@
   "news_trend": {
     "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △물가 지표와 에너지 비용 부담 등을 중심으로 보도.",
     "trend_paragraphs": [
-      "미주중앙일보는 5/3 16:00 입력 기사에서 출구 모를 최고가격제…정부·정유사, 보상 기준 샅바싸움 미주중앙일보.",
       "중앙일보는 5/3 16:00 입력 기사에서 출구 모를 최고가격제…정부·정유사, 보상 기준 샅바싸움 중앙일보.",
-      "뉴스1는 5/3 16:00 입력 기사에서 5월 원유 87%·나프타 90% 수급 '숨통'…고유가 리스크는 여전 뉴스1."
+      "뉴스1는 5/3 16:00 입력 기사에서 5월 원유 87%·나프타 90% 수급 '숨통'…고유가 리스크는 여전 뉴스1.",
+      "동아일보는 5/3 16:00 입력 기사에서 5월 원유 87%·나프타 90% 수급 ‘숨통’…고유가 리스크는 여전 동아일보."
     ],
     "articles": [
-      {
-        "title": "출구 모를 최고가격제…정부·정유사, 보상 기준 샅바싸움 - 미주중앙일보",
-        "press": "미주중앙일보",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42RW9xRldubS1DOFl4aVVUejlObU9aSVo2dG4yTGY5QWxhV0NmVFBxbHh6Q1laZWFOcFhodVRnc3BVX2oxZVpackg2N2IyZnFCMWdfZUNDdGRsVTBrLURHTkZn?oc=5",
-        "summary": "출구 모를 최고가격제…정부·정유사, 보상 기준 샅바싸움 미주중앙일보.",
-        "published_at_kst": "2026-05-03 16:00"
-      },
       {
         "title": "출구 모를 최고가격제…정부·정유사, 보상 기준 샅바싸움 - 중앙일보",
         "press": "중앙일보",
@@ -1404,6 +1397,13 @@
         "press": "뉴스1",
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMeVJHNGhpWW5yR1JrcVVtaXNVeDVhS1N4Vmc1Q1FXR2JzazYyaTJIWlZsTmQwaXBJSFVHTVdxWlU0c0FYMzJuczQwVnN5UlVmNjlXRg?oc=5",
         "summary": "5월 원유 87%·나프타 90% 수급 '숨통'…고유가 리스크는 여전 뉴스1.",
+        "published_at_kst": "2026-05-03 16:00"
+      },
+      {
+        "title": "5월 원유 87%·나프타 90% 수급 ‘숨통’…고유가 리스크는 여전 - 동아일보",
+        "press": "동아일보",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ta21pWjRKMFh1cnY0ai1mbkMzdGhwd3VRbTJ0anVVZWF2NXp5UzlSanhzS1Y1NGhObS1UV3VRempEamhucks2QndkV2UybVhKbXozcFFfTkNjdFo1dVh3UkMxUEdqMWlRSlVZ0gFmQVVfeXFMTUZ0X1ZsbHVid1FzYTNDRTFmQ0tDUmhrcWVPVGhRU0pfVzd0LWlNSWZqS1FXNHNtSkZuN285SEhnWmlOYURJZWNEZnVZYkw0VDdmVEFaUURqeF94NDdOaklRTXpYMk5n?oc=5",
+        "summary": "5월 원유 87%·나프타 90% 수급 ‘숨통’…고유가 리스크는 여전 동아일보.",
         "published_at_kst": "2026-05-03 16:00"
       }
     ],
@@ -1529,7 +1529,7 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-26 17:17:20 KST",
+      "merged_at": "2026-05-27 13:42:27 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }

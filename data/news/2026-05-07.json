@@ -1,7 +1,7 @@
 {
   "schema_version": "2.3",
   "date": "2026-05-07",
-  "collected_at": "2026-05-26 17:17:29 KST",
+  "collected_at": "2026-05-27 13:42:35 KST",
   "source": "Google News RSS + Naver/Daum News Search",
   "queries": [
     "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
@@ -62,9 +62,20 @@
       "collector": "google_news_rss"
     },
     {
+      "title": "정유사 5조 벌었다지만…속타는 '최고가격제 청구서' - v.daum.net",
+      "press": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBmQVpncXZNUDA4ZkVqS09JV0pOd0lRb25tTWsxYjNqZ2dxS0lVdDJRR3A1akhHZl9JdlV2T09sRi1PTFZlRWc?oc=5",
+      "published_date": "2026-05-06",
+      "published_at_kst": "2026-05-06 16:00",
+      "snippet": "정유사 5조 벌었다지만…속타는 '최고가격제 청구서' v.daum.net",
+      "score": 31,
+      "source_query": "정유 OR 정유사 OR 석유제품 OR 주유소 OR 유류세 OR 휘발유 OR 경유",
+      "collector": "google_news_rss"
+    },
+    {
       "title": "정유사 \"팔수록 손해…최고가격제 손실 4조\" - v.daum.net",
       "press": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBIVjVHdjhTWkIxYklBb2E2NUNpZUQ5a1Ezd2lhMWQ2MnNzZnJJTFJlWXVDMVU1Z3Y4aV9odmM2YzVKRnUtQ1E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA0dlVMa0xwV3c4UC1EUThMdUZqdkJTbkZEX2ZOWFd3X05faVlMdnNYenNxQk9YcWhhWVlNYlRpRlc5Q3BFcGJxQzBDWjBkb1U?oc=5",
       "published_date": "2026-05-06",
       "published_at_kst": "2026-05-06 16:00",
       "snippet": "정유사 \"팔수록 손해…최고가격제 손실 4조\" v.daum.net",
@@ -141,7 +152,7 @@
     {
       "title": "휘발유 21%↑·경유 30%↑…소비자물가 1년9개월 만에 최고 - v.daum.net",
       "press": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9zM3FwcWpjRHNpczZ2SVcyVEZ0dXlULXh0Vm1QS2tlUElheFU1dGZLYXc1c2l5MGNVQ2g0RmpNZE95WjBPYUc1NW1Hdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54QlBYRGJXYTdkSUVYUGozRGVfSE04c3JPZWFmbl81cVBhckJqdVQ5TjFsOG03UHlleUcyUlhXeXFUR1laMl9lYzlNTzlsSi1TLUdRcA?oc=5",
       "published_date": "2026-05-06",
       "published_at_kst": "2026-05-06 16:00",
       "snippet": "휘발유 21%↑·경유 30%↑…소비자물가 1년9개월 만에 최고 v.daum.net",
@@ -163,21 +174,10 @@
     {
       "title": "유가 폭등이 끌어올린 물가…최고가격제 없었다면 4% 육박 - v.daum.net",
       "press": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBlQW9qNi1aY3piZXVFV0wwMzBWNXhzbkpMNm9CNFhTM2hQX0VDWmFwODB4Y1UzUDNfU0FBUEVXdEZDTlpVNHA3X2ZDYnY0anc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE56eUFZV1ZIbjExQjFFNlhuSjRjdlR6cFhtblo4T2ZHazJLVU1RRXh1TDlLMXZhUTZaaXJWU0VkNjVoT2tPSlh6cFZScUozczB5X3N1LQ?oc=5",
       "published_date": "2026-05-06",
       "published_at_kst": "2026-05-06 16:00",
       "snippet": "유가 폭등이 끌어올린 물가…최고가격제 없었다면 4% 육박 v.daum.net",
-      "score": 27,
-      "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
-      "collector": "google_news_rss"
-    },
-    {
-      "title": "유가 폭등이 끌어올린 물가…최고가격제 없었다면 4% 육박 - 한국경제",
-      "press": "한국경제",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5iaS0ycFpXUHVZSWQyekl5VDl5amVGMm9HSUVVc0JBRUVlNVhEbjJFQnR5ZFNfU3VScFprWW5ZeEJpWW40ZHFKWTV4d2lkTUYtcGs2eTR6YUJHQdIBVEFVX3lxTFB1ZDllQmNGUldwczR2LWFEWnI5NFhteTczeklZM2VOdGtRV2NYOHNhZlJOb3M4b01yRzFCcXU5c0ROZkJSN1VrT2dQQXJVZVFWMEl1Zw?oc=5",
-      "published_date": "2026-05-06",
-      "published_at_kst": "2026-05-06 16:00",
-      "snippet": "유가 폭등이 끌어올린 물가…최고가격제 없었다면 4% 육박 한국경제",
       "score": 27,
       "source_query": "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
       "collector": "google_news_rss"
