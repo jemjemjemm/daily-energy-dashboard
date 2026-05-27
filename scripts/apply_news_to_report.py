@@ -410,6 +410,41 @@ def main() -> int:
         "status": status,
         "needs_review": True,
     }
+    # 이슈 항목에 관련 기사 링크 매칭: 제목 유사도 기반으로 articles에서 링크를 찾아 붙임
+    def _norm_for_compare(text: str) -> str:
+        t = re.sub(r"\([^)]*\)", "", clean(text or ""))
+        return re.sub(r"[\s\W_]+", "", t, flags=re.U).lower()
+
+    related_default = {"label": "관련 기사 없음", "url": ""}
+    issue_list = report.get("issues", []) if isinstance(report.get("issues"), list) else []
+    for issue in issue_list:
+        try:
+            it_title = clean(issue.get("title") or issue.get("name") or "")
+            it_n = _norm_for_compare(it_title)
+            candidates = []
+            for a in articles:
+                a_title = clean(a.get("title") or "")
+                a_url = clean(a.get("url") or "")
+                if not a_url:
+                    continue
+                a_n = _norm_for_compare(a_title)
+                if (it_n and a_n and (a_n in it_n or it_n in a_n)) or (a_title and it_title and (a_title in it_title or it_title in a_title)) or (a_n and it_n and a_n[:16] == it_n[:16]):
+                    candidates.append(a)
+            chosen = None
+            # 국회 회의는 의회 영상 회의록 링크 우선 탐색
+            for c in candidates:
+                url = clean(c.get("url") or "")
+                if "assembly.go.kr" in url or "w3.assembly.go.kr" in url:
+                    chosen = c
+                    break
+            if not chosen and candidates:
+                chosen = candidates[0]
+            if chosen:
+                issue["links"] = [{"label": clean(chosen.get("press") or "관련 자료"), "url": clean(chosen.get("url") or "")}]
+            else:
+                issue["links"] = [related_default]
+        except Exception:
+            issue.setdefault("links", [related_default])
     atomic_write_json(report_path, report)
     print(f"[OK] 뉴스 후보 반영 완료: {report_path} / status={status} / articles={len(articles)}")
     return 0
