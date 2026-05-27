@@ -34,7 +34,7 @@ COLORS = {
 
 STYLE = r"""
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
-*{box-sizing:border-box}body{margin:0;padding:16px;background:#F4F5F7;color:#1A1A1A;font-family:'Noto Sans KR',sans-serif;font-size:14px;line-height:1.6}.container{max-width:480px;margin:0 auto}.header{background:#0A2444;color:#fff;padding:18px 16px 14px;border-radius:12px 12px 0 0}.header-top{display:flex;justify-content:space-between;gap:12px}.header-title{font-size:20px;font-weight:700}.header-date{font-size:12px;color:rgba(255,255,255,.7);margin-top:3px}.header-badge{font-size:11px;background:rgba(255,255,255,.12);border-radius:20px;padding:4px 10px;height:fit-content;white-space:nowrap}.section{background:#fff;border:1px solid #E5E7EB;border-radius:12px;margin:10px 0;overflow:hidden}.section-header{display:flex;align-items:center;gap:8px;padding:11px 16px;border-bottom:1px solid #E5E7EB;background:#F8F9FA}.section-num{font-size:11px;font-weight:700;color:#fff;background:#0A2444;border-radius:4px;padding:2px 7px;min-width:24px;text-align:center}.section-title{font-size:14px;font-weight:700}.summary-body,.news-body{padding:14px 16px}.summary-item{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid #F0F0F0;font-size:13px}.summary-item:last-child{border-bottom:none}.summary-dot{flex:0 0 6px;width:6px;height:6px;border-radius:50%;background:#1A6FD4;margin-top:8px}.price-section-label{font-size:12px;font-weight:500;color:#666;padding:12px 16px 6px}.price-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:0 16px 14px}.price-card{background:#F8F9FA;border-radius:8px;padding:10px 8px;text-align:center}.price-label{font-size:11px;color:#666;margin-bottom:4px}.price-value{font-size:18px;font-weight:700;line-height:1}.price-unit{font-size:10px;color:#999;margin-top:2px}.price-change{font-size:11px;margin-top:3px}.up{color:#C0392B}.down{color:#0A7B4E}.flat{color:#888}.divider{height:1px;background:#F0F0F0;margin:0 16px 4px}.chart-wrap{padding:12px 14px}.chart-legend{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:10px;font-size:12px;color:#666}.legend-item{display:flex;align-items:center;gap:5px}.legend-dot{width:12px;height:3px;border-radius:2px}.chart-box{position:relative;width:100%;min-height:245px;touch-action:pan-y;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;overflow:visible}.chart-svg{width:100%;height:auto;display:block;overflow:visible}.chart-hover-line{opacity:0}.chart-tooltip{position:absolute;z-index:20;display:none;min-width:132px;max-width:220px;background:rgba(10,36,68,.96);color:#fff;border-radius:8px;padding:8px 10px;font-size:11px;line-height:1.45;pointer-events:none;box-shadow:0 6px 18px rgba(0,0,0,.18)}.chart-tooltip .date{font-weight:700;margin-bottom:4px}.tooltip-row{display:flex;justify-content:space-between;gap:12px}.no-data{padding:24px 8px;text-align:center;color:#888;background:#F8F9FA;border-radius:8px}.issue-list,.schedule-list{padding:10px 12px}.issue-card{background:#F8F9FA;border-radius:8px;padding:12px 14px;margin-bottom:8px;border-left:3px solid #1A6FD4}.issue-tag{display:inline-block;font-size:10px;font-weight:700;background:#E6F1FB;color:#185FA5;border-radius:3px;padding:2px 6px;margin-bottom:6px}.issue-title{font-size:13px;font-weight:700;margin-bottom:5px;line-height:1.5}.issue-desc{font-size:12px;color:#444;line-height:1.65}.issue-links{margin-top:8px;font-size:11px}.issue-links a{display:block;color:#0A2444;text-decoration:underline;margin-top:3px}.schedule-row{display:flex;align-items:flex-start;gap:8px;padding:9px 0;border-bottom:1px solid #F0F0F0}.schedule-row:last-child{border-bottom:none}.schedule-time{flex:0 0 38px;font-size:11px;font-weight:700;color:#185FA5;margin-top:1px}.schedule-org{flex:0 0 48px;font-size:10px;background:#F0F1F3;border:1px solid #E0E0E0;border-radius:3px;padding:1px 4px;color:#555;text-align:center}.schedule-main{flex:1;font-size:12px;line-height:1.5}.schedule-rel{font-size:11px;color:#777;margin-top:2px}.news-trend{font-size:13px;line-height:1.75;margin-bottom:14px}.news-separator{height:1px;background:#F0F0F0;margin:12px 0}.news-links-title{font-size:11px;font-weight:700;color:#999;letter-spacing:.5px;margin-bottom:8px}.news-link{display:block;padding:9px 0;border-bottom:1px solid #F0F0F0;text-decoration:none;color:inherit}.news-link-title{font-size:13px;font-weight:600;color:#0A2444;line-height:1.45;text-decoration:underline}.news-link-press{font-size:11px;color:#888;margin:2px 0}.news-link-desc{font-size:11px;color:#555;line-height:1.55}.fact-note{font-size:11px;color:#888;background:#F8F9FA;border-top:1px solid #E5E7EB;padding:10px 16px}.footer{text-align:center;padding:12px;font-size:11px;color:#aaa;border-top:1px solid #E5E7EB;margin-top:4px}@media(max-width:430px){body{padding:10px}.header-title{font-size:18px}.header-badge{font-size:10px;padding:4px 8px}.price-grid{gap:6px;padding:0 12px 12px}.price-value{font-size:16px}.chart-wrap{padding:10px 8px}.chart-box{min-height:230px}.chart-tooltip{font-size:10.5px;min-width:124px}.schedule-org{flex-basis:42px}}
+*{box-sizing:border-box}body{margin:0;padding:16px;background:#F4F5F7;color:#1A1A1A;font-family:'Noto Sans KR',sans-serif;font-size:14px;line-height:1.6}.container{max-width:480px;margin:0 auto}.header{background:#0A2444;color:#fff;padding:18px 16px 14px;border-radius:12px 12px 0 0}.header-top{display:flex;justify-content:space-between;gap:12px}.header-title{font-size:20px;font-weight:700}.header-date{font-size:12px;color:rgba(255,255,255,.7);margin-top:3px}.header-badge{font-size:11px;background:rgba(255,255,255,.12);border-radius:20px;padding:4px 10px;height:fit-content;white-space:nowrap}.section{background:#fff;border:1px solid #E5E7EB;border-radius:12px;margin:10px 0;overflow:hidden}.section-header{display:flex;align-items:center;gap:8px;padding:11px 16px;border-bottom:1px solid #E5E7EB;background:#F8F9FA}.section-num{font-size:11px;font-weight:700;color:#fff;background:#0A2444;border-radius:4px;padding:2px 7px;min-width:24px;text-align:center}.section-title{font-size:14px;font-weight:700}.summary-body,.news-body{padding:14px 16px}.summary-item{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid #F0F0F0;font-size:13px}.summary-item:last-child{border-bottom:none}.summary-dot{flex:0 0 6px;width:6px;height:6px;border-radius:50%;background:#1A6FD4;margin-top:8px}.price-section-label{font-size:12px;font-weight:500;color:#666;padding:12px 16px 6px}.price-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:0 16px 14px}.price-card{background:#F8F9FA;border-radius:8px;padding:10px 8px;text-align:center}.price-label{font-size:11px;color:#666;margin-bottom:4px}.price-value{font-size:18px;font-weight:700;line-height:1}.price-unit{font-size:10px;color:#999;margin-top:2px}.price-change{font-size:11px;margin-top:3px}.up{color:#C0392B}.down{color:#0A7B4E}.flat{color:#888}.divider{height:1px;background:#F0F0F0;margin:0 16px 4px}.chart-wrap{padding:12px 14px}.chart-legend{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:10px;font-size:12px;color:#666}.legend-item{display:flex;align-items:center;gap:5px}.legend-dot{width:12px;height:3px;border-radius:2px}.chart-box{position:relative;width:100%;min-height:245px;touch-action:pan-y;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;overflow:visible}.chart-svg{width:100%;height:auto;display:block;overflow:visible}.chart-hover-line{opacity:0}.chart-tooltip{position:absolute;z-index:20;display:none;min-width:132px;max-width:220px;background:rgba(10,36,68,.96);color:#fff;border-radius:8px;padding:8px 10px;font-size:11px;line-height:1.45;pointer-events:none;box-shadow:0 6px 18px rgba(0,0,0,.18)}.chart-tooltip .date{font-weight:700;margin-bottom:4px}.tooltip-row{display:flex;justify-content:space-between;gap:12px}.no-data{padding:24px 8px;text-align:center;color:#888;background:#F8F9FA;border-radius:8px}.issue-list,.schedule-list{padding:10px 12px}.issue-card{background:#F8F9FA;border-radius:8px;padding:12px 14px;margin-bottom:8px;border-left:3px solid #1A6FD4}.issue-tag{display:inline-block;font-size:10px;font-weight:700;background:#E6F1FB;color:#185FA5;border-radius:3px;padding:2px 6px;margin-bottom:6px}.issue-title{font-size:13px;font-weight:700;margin-bottom:5px;line-height:1.5}.issue-desc{font-size:12px;color:#444;line-height:1.65}.issue-links{margin-top:8px;font-size:11px}.issue-links a{display:block;color:#0A2444;text-decoration:underline;margin-top:3px}.issue-links span{display:block;color:#777;margin-top:3px}.schedule-row{display:flex;align-items:flex-start;gap:8px;padding:9px 0;border-bottom:1px solid #F0F0F0}.schedule-row:last-child{border-bottom:none}.schedule-time{flex:0 0 38px;font-size:11px;font-weight:700;color:#185FA5;margin-top:1px}.schedule-org{flex:0 0 48px;font-size:10px;background:#F0F1F3;border:1px solid #E0E0E0;border-radius:3px;padding:1px 4px;color:#555;text-align:center}.schedule-main{flex:1;font-size:12px;line-height:1.5}.schedule-rel{font-size:11px;color:#777;margin-top:2px}.news-trend{font-size:13px;line-height:1.75;margin-bottom:14px}.news-separator{height:1px;background:#F0F0F0;margin:12px 0}.news-links-title{font-size:11px;font-weight:700;color:#999;letter-spacing:.5px;margin-bottom:8px}.news-link{display:block;padding:9px 0;border-bottom:1px solid #F0F0F0;text-decoration:none;color:inherit}.news-link-title{font-size:13px;font-weight:600;color:#0A2444;line-height:1.45;text-decoration:underline}.news-link-press{font-size:11px;color:#888;margin:2px 0}.news-link-desc{font-size:11px;color:#555;line-height:1.55}.fact-note{font-size:11px;color:#888;background:#F8F9FA;border-top:1px solid #E5E7EB;padding:10px 16px}.footer{text-align:center;padding:12px;font-size:11px;color:#aaa;border-top:1px solid #E5E7EB;margin-top:4px}@media(max-width:430px){body{padding:10px}.header-title{font-size:18px}.header-badge{font-size:10px;padding:4px 8px}.price-grid{gap:6px;padding:0 12px 12px}.price-value{font-size:16px}.chart-wrap{padding:10px 8px}.chart-box{min-height:230px}.chart-tooltip{font-size:10.5px;min-width:124px}.schedule-org{flex-basis:42px}}
 """.strip()
 
 
@@ -443,13 +443,86 @@ def render_chart(title: str, rows: list[dict[str, Any]], keys: Sequence[str], la
     return section(3 if keys == CRUDE_KEYS else 4, title, body)
 
 
+def normalize_issue_compare(text: str) -> str:
+    text = clean_text(text)
+    text = re.sub(r"\([^)]*\)", "", text)
+    text = re.sub(r"\b\d{1,2}[:：]\d{2}\b", "", text)
+    return re.sub(r"[\s\W_]+", "", text, flags=re.UNICODE).lower()
+
+
+def split_issue_title_location(title: str) -> tuple[str, str]:
+    title = clean_text(title)
+    location = ""
+    while True:
+        match = re.search(r"\(([^()]*)\)\s*$", title)
+        if not match:
+            break
+        inner = clean_text(match.group(1))
+        inner_location = clean_text(re.sub(r"\b\d{1,2}[:：]\d{2}\b", "", inner))
+        if inner_location:
+            location = inner_location if not location else f"{inner_location} · {location}"
+        title = clean_text(title[:match.start()])
+    title = re.sub(r"^\b\d{1,2}[:：]\d{2}\b\s*", "", title).strip()
+    if "," in title:
+        left, right = [part.strip() for part in title.split(",", 1)]
+        if any(role in left for role in ["장관", "차관", "위원장", "의장", "지사", "시장", "대표", "원내대표"]) and right:
+            title = right
+    return title, location
+
+
+def issue_desc_for_display(item: Mapping[str, Any], display_title: str, location: str) -> str:
+    raw_desc = clean_text(item.get("description") or item.get("desc") or item.get("summary") or item.get("impact") or "")
+    time = clean_text(item.get("time") or item.get("start_time") or "")
+    org = clean_text(item.get("org") or item.get("organization") or item.get("agency") or "")
+    item_location = clean_text(item.get("location") or location)
+
+    if raw_desc:
+        # 방어 로직: 설명에 제목(또는 괄호 포함 제목)이 그대로 포함된 경우 제거
+        try:
+            # 제목 그대로 또는 괄호 포함 형태가 반복되어 들어오면 제거
+            if display_title:
+                raw_desc = re.sub(re.escape(display_title), "", raw_desc, flags=re.I)
+                raw_desc = re.sub(rf"{re.escape(display_title)}\s*\([^)]*\)", "", raw_desc, flags=re.I)
+        except Exception:
+            pass
+        raw_desc = raw_desc.replace("/", " · ")
+        parts = [clean_text(part) for part in re.split(r"\s*·\s*", raw_desc) if clean_text(part)]
+        kept = []
+        title_n = normalize_issue_compare(display_title)
+        for part in parts:
+            part_n = normalize_issue_compare(part)
+            if title_n and part_n and (part_n in title_n or title_n in part_n):
+                continue
+            # 추가 방어: 파트 자체가 제목을 포함하거나 제목이 파트에 포함되는 경우 제외
+            if display_title and display_title.strip():
+                if display_title.strip() in part or part in display_title.strip():
+                    continue
+            kept.append(part)
+        if kept:
+            return " · ".join(kept)
+
+    desc_parts = []
+    if time and time != "시간미정":
+        desc_parts.append(time)
+    if org:
+        desc_parts.append(org)
+    if item_location:
+        desc_parts.append(item_location)
+    return " · ".join(desc_parts) or "세부 정보 확인 필요"
+
+
 def normalize_links(item: Mapping[str, Any]) -> list[dict[str, str]]:
     raw = item.get("links") or item.get("related_links") or []
     out = []
     if isinstance(raw, list):
         for link in raw[:3]:
-            if isinstance(link, Mapping) and link.get("url"):
-                out.append({"url": str(link.get("url")), "label": clean_text(link.get("label") or link.get("title") or "관련 자료")})
+            if isinstance(link, Mapping):
+                label = clean_text(link.get("label") or link.get("title") or "관련 자료")
+                url = str(link.get("url") or "").strip()
+                if label or url:
+                    out.append({"url": url, "label": label or "관련 자료"})
+    if not out:
+        out.append({"url": "", "label": "관련 기사 없음"})
     return out
 
 
@@ -459,12 +532,20 @@ def render_issues(data: Mapping[str, Any]) -> str:
         if not isinstance(item, Mapping):
             continue
         tag = clean_text(item.get("tag") or item.get("category") or "동향")
-        title = clean_text(item.get("title") or item.get("name") or "주요 동향")
-        desc = clean_text(item.get("description") or item.get("desc") or item.get("summary") or item.get("impact") or "세부 내용 확인 필요")
+        raw_title = clean_text(item.get("title") or item.get("name") or "주요 동향")
+        title, location = split_issue_title_location(raw_title)
+        title = title or raw_title
+        desc = issue_desc_for_display(item, title, location)
         links = normalize_links(item)
         link_html = ""
         if links:
-            link_html = '<div class="issue-links">관련 링크' + ''.join(f'<a href="{esc(l["url"])}" target="_blank" rel="noopener noreferrer">{esc(l["label"])}</a>' for l in links) + '</div>'
+            rendered_links = []
+            for l in links:
+                if l.get("url"):
+                    rendered_links.append(f'<a href="{esc(l["url"])}" target="_blank" rel="noopener noreferrer">{esc(l["label"])}</a>')
+                else:
+                    rendered_links.append(f'<span>{esc(l["label"])}</span>')
+            link_html = '<div class="issue-links">관련 링크' + ''.join(rendered_links) + '</div>'
         rows.append(f'<div class="issue-card"><div class="issue-tag">{esc(tag)}</div><div class="issue-title">{esc(title)}</div><div class="issue-desc">{esc(desc)}</div>{link_html}</div>')
     if not rows:
         rows.append('<div class="issue-card"><div class="issue-tag">확인</div><div class="issue-title">전일 주요 동향 데이터 확인 필요</div><div class="issue-desc">전일 일정·이슈 데이터가 비어 있음</div></div>')
@@ -713,7 +794,8 @@ def main() -> int:
     input_path, output_path, date_text = resolve_paths(args)
     if not input_path.exists():
         raise FileNotFoundError(f"입력 JSON을 찾을 수 없습니다: {input_path}")
-    data = json.loads(input_path.read_text(encoding="utf-8"))
+    # 일부 report JSON에 UTF-8 BOM이 포함될 수 있어 'utf-8-sig'로 안전하게 읽음
+    data = json.loads(input_path.read_text(encoding="utf-8-sig"))
     date_text = get_report_date(data, date_text)
     if not args.output:
         output_path = Path(args.out_dir) / f"{date_text}.html"
