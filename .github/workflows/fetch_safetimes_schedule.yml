@@ -88,8 +88,30 @@ jobs:
           echo "DATE_FROM=${DATE_FROM:-}"
           echo "DATE_TO=${DATE_TO:-}"
 
-      - name: Decide previous report date
+      - name: Decide single business day
         if: env.RUN_MODE == 'single'
+        run: |
+          python - <<'PY' >> "$GITHUB_ENV"
+          import datetime as dt
+          target = dt.date.fromisoformat("${{ env.TARGET_DATE }}")
+          holidays = {
+              "2026-01-01", "2026-02-16", "2026-02-17", "2026-02-18",
+              "2026-03-02", "2026-05-01", "2026-05-05", "2026-05-25",
+              "2026-06-03", "2026-08-17", "2026-09-24", "2026-09-25", "2026-09-28",
+              "2026-10-05", "2026-10-09", "2026-12-25",
+          }
+          is_business_day = target.weekday() < 5 and target.isoformat() not in holidays
+          print(f"IS_BUSINESS_DAY={'true' if is_business_day else 'false'}")
+          PY
+          echo "IS_BUSINESS_DAY=$IS_BUSINESS_DAY"
+
+      - name: Skip non-business day
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY != 'true'
+        run: |
+          echo "[INFO] 비영업일이므로 자동 수집/리포트 생성을 건너뜁니다: $TARGET_DATE"
+
+      - name: Decide previous report date
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         run: |
           python - <<'PY' >> "$GITHUB_ENV"
           import datetime as dt
@@ -136,7 +158,7 @@ jobs:
             --report-dir data/reports
 
       - name: Try Fetch SafeTimes schedule
-        if: env.RUN_MODE == 'single'
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         continue-on-error: true
         run: |
           python scripts/fetch_safetimes_schedule.py \
@@ -146,7 +168,7 @@ jobs:
             --retry-delay 10
 
       - name: Try Fetch previous SafeTimes schedule
-        if: env.RUN_MODE == 'single'
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         continue-on-error: true
         run: |
           python scripts/fetch_safetimes_schedule.py \
@@ -156,7 +178,7 @@ jobs:
             --retry-delay 10
 
       - name: Try Build report draft from SafeTimes
-        if: env.RUN_MODE == 'single'
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         continue-on-error: true
         run: |
           rm -f "data/reports/$TARGET_DATE.report.json"
@@ -173,7 +195,7 @@ jobs:
           fi
 
       - name: Ensure report draft exists
-        if: env.RUN_MODE == 'single'
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         run: |
           python scripts/ensure_report_draft.py \
             --date "$TARGET_DATE" \
@@ -181,7 +203,7 @@ jobs:
             --base-report report_sample.json
 
       - name: Fetch and apply news candidates
-        if: env.RUN_MODE == 'single'
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         run: |
           test -f scripts/fetch_news_candidates.py || (echo "ERROR: scripts/fetch_news_candidates.py 파일이 없습니다." && exit 1)
           test -f scripts/apply_news_to_report.py || (echo "ERROR: scripts/apply_news_to_report.py 파일이 없습니다." && exit 1)
@@ -189,7 +211,7 @@ jobs:
           python scripts/apply_news_to_report.py --date "$TARGET_DATE" --news-dir data/news --report-dir data/reports --min-required 1
 
       - name: Fetch Opinet international prices for today only
-        if: env.RUN_MODE == 'single'
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         run: |
           TODAY=$(TZ=Asia/Seoul date +%Y-%m-%d)
           if [ -f "data/prices/$TARGET_DATE.json" ]; then
@@ -203,7 +225,7 @@ jobs:
           fi
 
       - name: Merge prices into report
-        if: env.RUN_MODE == 'single'
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         run: |
           python scripts/merge_prices_into_report.py \
             --date "$TARGET_DATE" \
@@ -213,12 +235,12 @@ jobs:
             --chart-months 2
 
       - name: Validate report source separation
-        if: env.RUN_MODE == 'single'
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         run: |
           python scripts/validate_report_sources.py --date "$TARGET_DATE" --report-dir data/reports
 
       - name: Generate HTML report
-        if: env.RUN_MODE == 'single'
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         run: |
           python scripts/generate_html_report.py \
             --date "$TARGET_DATE" \
@@ -226,19 +248,21 @@ jobs:
             --out-dir docs/reports
 
       - name: Generate report index
-        if: env.RUN_MODE == 'single'
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         run: |
           python scripts/generate_report_index.py \
             --reports-dir docs/reports \
             --out docs/report-index.json
 
       - name: Show generated files
+        if: env.RUN_MODE == 'range' || env.IS_BUSINESS_DAY == 'true'
         run: |
           echo "생성된 파일:"
           find data -maxdepth 3 -type f || true
           find docs -maxdepth 3 -type f || true
 
       - name: Commit collected data and dashboard files
+        if: env.RUN_MODE == 'range' || env.IS_BUSINESS_DAY == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
