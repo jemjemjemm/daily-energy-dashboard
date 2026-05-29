@@ -262,6 +262,23 @@ def schedule_items_from_json_or_body(schedule_data: Dict[str, Any], max_items: i
     return filter_relevant_items(structured, max_items=max_items)
 
 
+def schedule_candidate_count(schedule_data: Dict[str, Any], max_items: int) -> int:
+    """Count source schedule rows before report relevance filtering.
+
+    A zero final schedule count can mean either "no report-relevant schedule" or
+    "source/parse failed"; this count keeps those cases separate.
+    """
+    parsed = parse_schedule_items(source_body(schedule_data), max_items=max_items * 30)
+    if parsed:
+        return len(parsed)
+
+    structured = []
+    for raw_item in schedule_data.get("items") or []:
+        if isinstance(raw_item, dict) and normalize_schedule_item(raw_item):
+            structured.append(raw_item)
+    return len(structured)
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="세이프타임즈 일정 JSON을 리포트용 JSON 초안에 반영")
     parser.add_argument("--date", required=True, help="기준일 YYYY-MM-DD")
@@ -576,15 +593,15 @@ def update_summary(
     # 금일 주요 일정은 기준일 일정에서 각각 만든다. 같은 데이터를 양쪽에 복사하지 않는다.
     if previous_items:
         previous_titles = ", ".join(item["title"] for item in previous_items[:3])
-        stakeholder_text = f"주요 이해관계자 동향: {previous_label} 기준 {previous_titles}."
+        stakeholder_text = f"전일 주요 이슈: {previous_label} 기준 {previous_titles}."
     else:
-        stakeholder_text = f"주요 이해관계자 동향: {previous_label} 기준 관련 자료 찾지 못함."
+        stakeholder_text = "전일 주요 이슈: 주요 동향 없음."
 
     if today_items:
         today_titles = ", ".join(item["title"] for item in today_items[:4])
         today_text = f"금일 주요 일정: {today_titles}."
     else:
-        today_text = "금일 주요 일정: 관련 자료 찾지 못함."
+        today_text = "금일 주요 일정: 주요 일정 없음."
 
     news = base_report.get("news_trend", {}) if isinstance(base_report.get("news_trend"), dict) else {}
     articles = news.get("articles", []) if isinstance(news.get("articles"), list) else []
@@ -663,9 +680,12 @@ def build_report_draft(
     # 기사 0건인 경우 fallback 문구를 JSON에 남기지 않는다.
     report["news_trend"] = {"summary": "", "articles": []}
 
+    today_candidate_count = schedule_candidate_count(schedule_data, max_items=max_items)
     today_items = schedule_items_from_json_or_body(schedule_data, max_items=max_items)
     previous_items: List[Dict[str, str]] = []
+    previous_candidate_count = 0
     if previous_schedule_data and previous_schedule_data.get("success", True):
+        previous_candidate_count = schedule_candidate_count(previous_schedule_data, max_items=max_items)
         previous_items = schedule_items_from_json_or_body(previous_schedule_data, max_items=max_items)
 
     previous_label = short_date_label(previous_dt) if previous_dt else "전일"
@@ -685,25 +705,54 @@ def build_report_draft(
     update_sources(report, schedule_data)
 
     # 자동화 이력 저장
+    validation = report.setdefault("automation", {}).setdefault("validation", {})
+    today_parse_failed = today_candidate_count == 0 and not today_items
+    previous_source_unavailable = previous_schedule_data is None
+    previous_parse_failed = (
+        previous_schedule_data is not None
+        and previous_schedule_data.get("success", True)
+        and previous_candidate_count == 0
+        and not previous_items
+    )
+    if today_parse_failed:
+        validation["today_schedule_parse_failed"] = True
+        validation["today_schedule_status"] = "parse_failed"
+        for row in report.get("summary", []):
+            if isinstance(row, dict) and row.get("type") == "today":
+                row["text"] = "금일 주요 일정: 데이터 확인 필요."
+    else:
+        validation.pop("today_schedule_parse_failed", None)
+        validation["today_schedule_status"] = "ok" if today_items else "no_relevant_schedule"
+
+    if previous_source_unavailable:
+        validation.pop("previous_schedule_parse_failed", None)
+        validation["previous_schedule_source_unavailable"] = True
+        validation["previous_schedule_status"] = "source_unavailable"
+    elif previous_parse_failed:
+        validation.pop("previous_schedule_source_unavailable", None)
+        validation["previous_schedule_parse_failed"] = True
+        validation["previous_schedule_status"] = "parse_failed"
+    else:
+        validation.pop("previous_schedule_source_unavailable", None)
+        validation.pop("previous_schedule_parse_failed", None)
+        validation["previous_schedule_status"] = "ok" if previous_items else "no_relevant_schedule"
+
     report.setdefault("automation", {})
     report["automation"]["safetimes"] = {
         "today_source_file_date": target_dt.strftime("%Y-%m-%d"),
         "today_source_title": schedule_data.get("title", ""),
         "today_source_url": source_url(schedule_data),
         "today_source_published_at": schedule_data.get("approved_date", "") or schedule_data.get("published_at", ""),
+        "today_source_schedule_candidate_count": today_candidate_count,
         "today_parsed_schedule_count": len(today_items),
         "previous_source_file_date": previous_dt.strftime("%Y-%m-%d") if previous_dt else "",
         "previous_source_title": previous_schedule_data.get("title", "") if previous_schedule_data else "",
         "previous_source_url": source_url(previous_schedule_data) if previous_schedule_data else "",
+        "previous_source_schedule_candidate_count": previous_candidate_count,
         "previous_parsed_schedule_count": len(previous_items),
-        "parser_version": "build_report_draft_from_schedule.py v2.1-prevday-separated",
+        "parser_version": "build_report_draft_from_schedule.py v2.2-source-vs-relevant-status",
         "needs_review": True,
     }
-
-    if not today_items:
-        report.setdefault("automation", {}).setdefault("validation", {})["today_schedule_parse_failed"] = True
-    if previous_schedule_data is None or not previous_items:
-        report.setdefault("automation", {}).setdefault("validation", {})["previous_schedule_parse_failed"] = True
 
     return report
 

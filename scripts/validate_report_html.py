@@ -7,7 +7,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -26,6 +26,17 @@ KOREAN_HOLIDAYS_2026 = {
     "2026-10-05", "2026-10-09",
     "2026-12-25",
 }
+BAD_REPORT_PHRASES = (
+    "금일 주요 일정 데이터 확인 필요",
+    "일정 데이터가 비어 있음",
+    "관련 자료 찾지 못함",
+    "원문 데이터 없음",
+    "자동 확인하지 못했습니다",
+    "원문 자동 매칭 실패",
+    "대표 기사 데이터 확인 필요",
+    "조간 기사 후보를 찾지 못했습니다",
+    "자동 매칭 실패",
+)
 
 
 def parse_args() -> argparse.Namespace:
@@ -33,6 +44,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--reports-dir", default="docs/reports")
     parser.add_argument("--index", default="docs/report-index.json")
     parser.add_argument("--since", default="2026-05-01")
+    parser.add_argument("--end", default="")
     parser.add_argument("--allow-weekends", action="store_true")
     return parser.parse_args()
 
@@ -88,6 +100,9 @@ def validate_html_file(path: Path, since: str, allow_weekends: bool) -> list[str
         errors.append(f"{path}: schedule body is missing")
     if "News Trend" not in titles.get("6", "") or "news-body" not in news_body:
         errors.append(f"{path}: News Trend section is missing")
+    for phrase in BAD_REPORT_PHRASES:
+        if phrase in text:
+            errors.append(f"{path}: unresolved fallback/error phrase exists: {phrase}")
 
     return errors
 
@@ -121,6 +136,21 @@ def validate_index(path: Path, since: str, allow_weekends: bool) -> list[str]:
     return errors
 
 
+def expected_workdays(since: str, end: str, allow_weekends: bool) -> list[str]:
+    if not end:
+        return []
+    start_dt = datetime.strptime(since, "%Y-%m-%d")
+    end_dt = datetime.strptime(end, "%Y-%m-%d")
+    dates: list[str] = []
+    cur = start_dt
+    while cur <= end_dt:
+        date_text = cur.strftime("%Y-%m-%d")
+        if (allow_weekends or not is_weekend(date_text)) and not is_holiday(date_text):
+            dates.append(date_text)
+        cur += timedelta(days=1)
+    return dates
+
+
 def main() -> int:
     args = parse_args()
     reports_dir = Path(args.reports_dir)
@@ -132,6 +162,9 @@ def main() -> int:
     else:
         for path in sorted(reports_dir.glob("*.html")):
             errors.extend(validate_html_file(path, args.since, args.allow_weekends))
+        for date_text in expected_workdays(args.since, args.end, args.allow_weekends):
+            if not (reports_dir / f"{date_text}.html").exists():
+                errors.append(f"{reports_dir}: expected workday report is missing: {date_text}")
 
     errors.extend(validate_index(index_path, args.since, args.allow_weekends))
 

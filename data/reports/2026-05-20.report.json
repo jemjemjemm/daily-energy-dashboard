@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 20일 (수)",
     "previous_day_label": "5/19",
     "today_label": "5/20",
-    "generated_at": "2026-05-28 01:51 KST",
+    "generated_at": "2026-05-29 14:32 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -17,7 +17,7 @@
   "summary": [
     {
       "type": "stakeholder",
-      "text": "주요 이해관계자 동향: 5/19 기준 08:00 중동전쟁 대응 보건의약단체 회의(서울), 기후에너지환경노동위원회 기후에너지환경법안심사소위원회(09:30 본관 622호), 10:00 공급망기금 상생협약식."
+      "text": "전일 주요 이슈: 5/19 기준 08:00 중동전쟁 대응 보건의약단체 회의(서울), 기후에너지환경노동위원회 기후에너지환경법안심사소위원회(09:30 본관 622호), 10:00 공급망기금 상생협약식."
     },
     {
       "type": "today",
@@ -25,7 +25,7 @@
     },
     {
       "type": "news_trend",
-      "text": "조간 보도: 주요 매체가 △중동 정세와 원유·LNG 수급 리스크 △물가 지표와 에너지 비용 부담 △정부·국회 에너지 정책 등을 중심으로 보도."
+      "text": "조간 보도: 주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △물가 지표와 에너지 비용 부담 △정부·국회 에너지 정책 등을 중심으로 보도."
     }
   ],
   "prices": {
@@ -1543,11 +1543,11 @@
     }
   ],
   "news_trend": {
-    "summary": "주요 매체가 △중동 정세와 원유·LNG 수급 리스크 △물가 지표와 에너지 비용 부담 △정부·국회 에너지 정책 등을 중심으로 보도.",
+    "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △물가 지표와 에너지 비용 부담 △정부·국회 에너지 정책 등을 중심으로 보도.",
     "trend_paragraphs": [
       "코리아리포트는 5/20 10:55 입력 기사에서 LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도.",
       "매일일보는 5/19 17:22 입력 기사에서 LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도.",
-      "국제신문은 5/19 23:12 입력 기사에서 국제유가와 석유시장 변동 요인을 중심으로 정리."
+      "이투데이는 5/19 20:19 입력 기사에서 국제유가와 석유시장 변동 요인을 중심으로 정리."
     ],
     "articles": [
       {
@@ -1565,11 +1565,11 @@
         "published_at_kst": "2026-05-19 17:22"
       },
       {
-        "title": "한일, 원유·석유제품 스와프 추진…\"중동발 에너지 위기 대응\" - 국제신문",
-        "press": "국제신문",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMmF3OFE4WG1oSjdyTTQ4ZjFzdDI1Vm1KNGVlS00yTk9LcXg3RkswS1dRdkFKMVNuR2V5M0VTR3RvZHV4MndoYlNYem9ZYkxoN0NMQXd0cVZkeTRBUGlKQVVPX1B3a3o2SWs5b2xIQVJtQWs3SkI1VkJzTUxqcmMtOWhoVFpXQXpBbzFMOS1B?oc=5",
+        "title": "정부, 일본과 원유·석유제품 스와프 추진…\"공급망 위기 공동대응\" - 이투데이",
+        "press": "이투데이",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9NanZxdFhoNmJoYjFlSFpzVjNjc3hiaEI5TjNTNjladndlckZyaXZLN3I2a2pfZW1mbWFVMDQ1dTBUWmVlWm83WFBLSFV1Yk9FbEJGOQ?oc=5",
         "summary": "국제유가와 석유시장 변동 요인을 중심으로 정리",
-        "published_at_kst": "2026-05-19 23:12"
+        "published_at_kst": "2026-05-19 20:19"
       }
     ],
     "source": "Google News RSS",
@@ -1655,21 +1655,27 @@
     ]
   },
   "automation": {
+    "validation": {
+      "today_schedule_status": "ok",
+      "previous_schedule_status": "ok"
+    },
     "safetimes": {
       "today_source_file_date": "2026-05-20",
       "today_source_title": "[오늘의 주요일정·20일] 이재명 대통령 9차 비상경제점검회의",
       "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=242880",
       "today_source_published_at": "2026-05-20",
+      "today_source_schedule_candidate_count": 90,
       "today_parsed_schedule_count": 9,
       "previous_source_file_date": "2026-05-19",
       "previous_source_title": "[오늘의 주요일정·19일] 일본 핵오염수 해양투기 중단 기자회견",
       "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=242840",
+      "previous_source_schedule_candidate_count": 91,
       "previous_parsed_schedule_count": 12,
-      "parser_version": "build_report_draft_from_schedule.py v2.1-prevday-separated",
+      "parser_version": "build_report_draft_from_schedule.py v2.2-source-vs-relevant-status",
       "needs_review": true
     },
     "news": {
-      "source_file": "data/news/2026-05-20.json",
+      "source_file": "data\\news\\2026-05-20.json",
       "article_count": 3,
       "source": "Google News RSS",
       "status": "updated",
@@ -1690,7 +1696,7 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-28 01:51:45 KST",
+      "merged_at": "2026-05-29 14:32:12 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }

@@ -1,7 +1,7 @@
 {
   "schema_version": "2.3",
   "date": "2026-05-08",
-  "collected_at": "2026-05-28 01:50:55 KST",
+  "collected_at": "2026-05-29 14:29:05 KST",
   "source": "Google News RSS + Naver/Daum News Search",
   "queries": [
     "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
@@ -42,22 +42,22 @@
     "호르무즈"
   ],
   "time_window": "전일 06:00~기준일 11:30 KST",
-  "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △물가 지표와 에너지 비용 부담 등을 중심으로 보도.",
+  "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △물가 지표와 에너지 비용 부담 △정부·국회 에너지 정책 등을 중심으로 보도.",
   "topics": [
     "석유 최고가격제·유류세 등 가격 안정 정책",
     "중동 정세와 원유·LNG 수급 리스크",
-    "정유·석유화학 업계 실적·원가·제품 가격",
-    "물가 지표와 에너지 비용 부담"
+    "물가 지표와 에너지 비용 부담",
+    "정부·국회 에너지 정책"
   ],
   "articles": [
     {
-      "title": "석유 최고가 또 동결…국제유가 불안에도 \"소비자물가 고려\" - v.daum.net",
+      "title": "[국제유가] 미·이란 합의 임박에 브렌트유 7.8% 급락… WTI는 배럴당 100달러 아래로 - v.daum.net",
       "press": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1lMlJGTElaaUtaRXpmdUJ4NjNpRndPeGRQUnFLMXhBNThLbE4xQnFkWUpocDN4X1FwdWFoZVNCRkx3eVZTWERDa2l1VkI1Ujg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE44eGdoYldESTlrNVZ4cEtBekViN0o4N2ZWdHd1UkNYSXlBNkgwY1FGX1U2aFhpay1CRkFwYjYwZU5Sd0xLM0E?oc=5",
       "published_date": "2026-05-07",
       "published_at_kst": "2026-05-07 16:00",
-      "snippet": "석유 최고가 또 동결…국제유가 불안에도 \"소비자물가 고려\" v.daum.net",
-      "score": 40,
+      "snippet": "[국제유가] 미·이란 합의 임박에 브렌트유 7.8% 급락… WTI는 배럴당 100달러 아래로 v.daum.net",
+      "score": 41,
       "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
       "collector": "google_news_rss"
     },
@@ -70,17 +70,6 @@
       "snippet": "민주 중동특위 \"석유최고가격제·유류세 인하...물가 상승분 3분의 1 경감\" 미디어펜",
       "score": 40,
       "source_query": "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
-      "collector": "google_news_rss"
-    },
-    {
-      "title": "[오일쇼크 폭풍전야] 최고가격제 언제까지...정유사·주유소 임계점 임박 - v.daum.net",
-      "press": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIcG9tZWFZbWFsb0tSdDh0YV9ubTdYN1dxSUZSWEdpcVNYZEYxUTlKMXh3ZVBUeG9BemdCM1NMalQ3a2U4YTBUV2YyQ0ZFNzA?oc=5",
-      "published_date": "2026-05-07",
-      "published_at_kst": "2026-05-07 16:00",
-      "snippet": "[오일쇼크 폭풍전야] 최고가격제 언제까지...정유사·주유소 임계점 임박 v.daum.net",
-      "score": 38,
-      "source_query": "정유 OR 정유사 OR 석유제품 OR 주유소 OR 유류세 OR 휘발유 OR 경유",
       "collector": "google_news_rss"
     },
     {
@@ -106,6 +95,17 @@
       "collector": "google_news_rss"
     },
     {
+      "title": "미국·이란 협상 기대감에 국제유가 급락‥브렌트유 7.8%↓ - MBC 뉴스",
+      "press": "MBC 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81bWt0aUdoMnNEcERXNDg3dkJQRFBpRV9mdWczWExHb3U1S3JMYUhxOEl0UUVFYnczV1B0Sl9paGtBckQ4Vllldi1ra09hUHpsbzZMclJEdzh4WXBLek1EenlnQ0t4T2lfNFFYR2ZSSDFlQVRI0gF0QVVfeXFMUHVpVUUzUTh6NC00Q1FPY0VncUpSNDJqZEVHLUk0TGNTOENCVmZHcktWTDRhU3hxUUFCc0FvTjhkWE40WlZ1eGdKWkZmMzVmY05yai1kVTFxNHRxb0lfSi1scXVYSjlwQ3AtcXl2bGNtMVFuSkc?oc=5",
+      "published_date": "2026-05-07",
+      "published_at_kst": "2026-05-07 16:00",
+      "snippet": "미국·이란 협상 기대감에 국제유가 급락‥브렌트유 7.8%↓ MBC 뉴스",
+      "score": 35,
+      "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
+      "collector": "google_news_rss"
+    },
+    {
       "title": "미·이란 종전 논의에 국제유가 급락…브렌트유 7.8%↓ - 연합뉴스",
       "press": "연합뉴스",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pWHhWaHQ3RmNvYVJsWHM2aUhmYXAtdFFDbDZEWTZNUFBBVFJrTzZSeElnMjlSU3ZkM21RNmx0YkVkc1VsaWM5ak0xaENQa0MyeGlVUlZFMFFiUTjSAWBBVV95cUxOeTlVOE1lbkV1WjFiT1ZkUXE4WXF4dGUzeDI5c0V6aGw1RTA2SndUZVI5dXRhTnJzbjJOYjkya1pDX1JTR2FRNTh4NEVGMlF2ZHhpQXpIWVp0X3c3Z1J3SXo?oc=5",
@@ -117,12 +117,12 @@
       "collector": "google_news_rss"
     },
     {
-      "title": "美·이란 종전 합의 기대감에 국제유가 급락… 브렌트유 7.8%↓ - 글로벌이코노믹",
-      "press": "글로벌이코노믹",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMTdJUGdJTFozWXgyb1B0M0hJQTRneHRhaHprUkJfV3NmUlIxRnNYcnpZRE1tcWVOMFk1emh5djBiSDZCUV9LMXpiSDJoR0xtZGUyZHJoVVl3MEJNcV9KTjJ2X25XckxOem1KXzh0bUxWMEJHR1N6QXRMa1lzWDN1cjBXa0JWYzZK?oc=5",
+      "title": "미·이란 합의 기대에 국제유가 급락⋯브렌트유 7.8%↓ - 브릿지경제",
+      "press": "브릿지경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tSUxYZE00TzdrR09uNXQ2Nlo3TnFWU05XZ3Y1ZHA3QlhZMWJjek94VlI0NE1PaENVSTltNGFUZVZBOFJ4ZVlVS3NYQlp3U0pIVk1MbjhEeEcwQQ?oc=5",
       "published_date": "2026-05-07",
       "published_at_kst": "2026-05-07 16:00",
-      "snippet": "美·이란 종전 합의 기대감에 국제유가 급락… 브렌트유 7.8%↓ 글로벌이코노믹",
+      "snippet": "미·이란 합의 기대에 국제유가 급락⋯브렌트유 7.8%↓ 브릿지경제",
       "score": 35,
       "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
       "collector": "google_news_rss"
@@ -134,6 +134,17 @@
       "published_date": "2026-05-07",
       "published_at_kst": "2026-05-07 16:00",
       "snippet": "민주 한정애 “석유 최고가격제, 물가 낮추는 방파제…고유가 부담완화 신속 입법” v.daum.net",
+      "score": 35,
+      "source_query": "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
+      "collector": "google_news_rss"
+    },
+    {
+      "title": "당정 \"고유가 피해지원금 80% 집행…석유최고가격제 등으로 1.2%p 물가 억제\" - 매일일보",
+      "press": "매일일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Eb0pyYTJMdUx3NWJlY1hsUEJ6QXhoN2FDeWd4U0Y2MEZlZjNDbjd6Zmd4ZjlMUGkyZTljUnEzSzhseVNMd3hSZGNMNXEzamJudFAxZk1FRGdJbERoRWdYM3Jjb1Y?oc=5",
+      "published_date": "2026-05-07",
+      "published_at_kst": "2026-05-07 16:00",
+      "snippet": "당정 \"고유가 피해지원금 80% 집행…석유최고가격제 등으로 1.2%p 물가 억제\" 매일일보",
       "score": 35,
       "source_query": "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
       "collector": "google_news_rss"
@@ -161,25 +172,14 @@
       "collector": "google_news_rss"
     },
     {
-      "title": "정부, 석유 최고가격제 당분간 유지…유가 안정 조짐에 화학업계 기대감 - 녹색경제신문",
-      "press": "녹색경제신문",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92eWpyanMta2t4TFlQU0k4Vkd2UFAyT3NFclVPY2NEcnpBWF9vdWI2SkhfOXJBWDRkLVdUVWdCb1k2UUxnT2ZBLThJSWxvcDE4Q2pjeFpYT1BhR3NZUzBYNkFGaElaeVFV?oc=5",
+      "title": "국제유가, 美-이란 종전 타결 기대감에 급락…브렌트·WTI 7％↓ - 인더스트리뉴스",
+      "press": "인더스트리뉴스",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5NU2NoMG9JbGY2QXRvdmJTN2NkcERQRjdRUzMwd0pNa2czb1FqOTBPazVXOHBIMDRPZThyMDgybFpCc3pBUWZjUEFIUFFJNFpuME50S1FqOS1tdEIxTGRIdzFGTmgxSHRBOHplbE1YWWRfUQ?oc=5",
       "published_date": "2026-05-07",
       "published_at_kst": "2026-05-07 16:00",
-      "snippet": "정부, 석유 최고가격제 당분간 유지…유가 안정 조짐에 화학업계 기대감 녹색경제신문",
+      "snippet": "국제유가, 美-이란 종전 타결 기대감에 급락…브렌트·WTI 7％↓ 인더스트리뉴스",
       "score": 34,
       "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
-      "collector": "google_news_rss"
-    },
-    {
-      "title": "고유가 지속…정부, 5차 석유 최고가격제 금일 발표 - 뉴스1",
-      "press": "뉴스1",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE82eE9Sc0N3NmJlT04ydWdZSmZpQVRUd1JvaV9aZnJ1UWEzYm91ZHBJeWU3anpicldCVm9qVXVmV1VReGJGNUJ3TS1oMA?oc=5",
-      "published_date": "2026-05-07",
-      "published_at_kst": "2026-05-07 16:00",
-      "snippet": "고유가 지속…정부, 5차 석유 최고가격제 금일 발표 뉴스1",
-      "score": 34,
-      "source_query": "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
       "collector": "google_news_rss"
     }
   ],

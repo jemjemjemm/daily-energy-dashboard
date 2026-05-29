@@ -138,6 +138,12 @@ def render_summary(data: Mapping[str, Any]) -> str:
     rows = []
     for item in list_of(data.get("summary"))[:3]:
         text = text_of(item)
+        if text.startswith("주요 이해관계자 동향:"):
+            text = "전일 주요 이슈:" + text.split(":", 1)[1]
+        if text.startswith("전일 주요 이슈:") and "관련 자료 찾지 못함" in text:
+            text = "전일 주요 이슈: 주요 동향 없음."
+        if text.startswith("금일 주요 일정:") and "관련 자료 찾지 못함" in text:
+            text = "금일 주요 일정: 주요 일정 없음."
         if text:
             rows.append(f'<div class="summary-item"><span class="summary-dot"></span><span>{esc(text)}</span></div>')
     defaults = [
@@ -585,7 +591,14 @@ def render_schedules(data: Mapping[str, Any]) -> str:
         rel_html = f'<div class="schedule-rel">{esc(rel)}</div>' if rel else ''
         rows.append(f'<div class="schedule-row"><div class="schedule-time">{esc(time)}</div><div class="schedule-org">{esc(org[:8])}</div><div class="schedule-main">{esc(title)}{rel_html}</div></div>')
     if not rows:
-        rows.append('<div class="schedule-row"><div class="schedule-time">-</div><div class="schedule-org">-</div><div class="schedule-main">금일 주요 일정 데이터 확인 필요<div class="schedule-rel">일정 데이터가 비어 있음</div></div></div>')
+        validation = dict_of(dict_of(data.get("automation")).get("validation"))
+        if validation.get("today_schedule_parse_failed") or validation.get("today_schedule_status") == "parse_failed":
+            title = "금일 주요 일정 데이터 확인 필요"
+            rel = "일정 원문 수집 또는 파싱 결과 확인 필요."
+        else:
+            title = "주요 일정 없음"
+            rel = "확인된 정유·석유화학·LNG 관련 주요 일정이 없습니다."
+        rows.append(f'<div class="schedule-row"><div class="schedule-time">-</div><div class="schedule-org">일정</div><div class="schedule-main">{esc(title)}<div class="schedule-rel">{esc(rel)}</div></div></div>')
     return '<div class="schedule-list">' + ''.join(rows) + '</div>'
 
 

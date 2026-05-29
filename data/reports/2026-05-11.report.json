@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 11일 (월)",
     "previous_day_label": "5/8",
     "today_label": "5/11",
-    "generated_at": "2026-05-28 01:50 KST",
+    "generated_at": "2026-05-29 14:29 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -17,7 +17,7 @@
   "summary": [
     {
       "type": "stakeholder",
-      "text": "주요 이해관계자 동향: 5/8 기준 08:30 비상경제본부회의 겸 경제관계장관회의(세종), 08:30 비상경제본부회의(정부서울청사), 김소희 의원실, 수소경제 바로알기 : 산업에서 발전까지(08:30 의원회관 제1간담회의실)."
+      "text": "전일 주요 이슈: 5/8 기준 08:30 비상경제본부회의 겸 경제관계장관회의(세종), 08:30 비상경제본부회의(정부서울청사), 김소희 의원실, 수소경제 바로알기 : 산업에서 발전까지(08:30 의원회관 제1간담회의실)."
     },
     {
       "type": "today",
@@ -1525,7 +1525,7 @@
       {
         "title": "재경부, 중동전쟁發 원유수급 불안 점검…석유수입기업 금융지원 확대 - v.daum.net",
         "press": "v.daum.net",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wRGZCR3BKempiNUczQ24zMHhITUhCUW54YVhlUmlCU1F4ZEszYnppZWlwV1d4VUVqb3hobW90dGZsMzQyTEdfcXNjOVJnbWs?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1MSGU3SFRJd0F1MkVwYTdTSk1rSmlBYVhNRlFRNktyMF9ndWQ5bE5DeVZIUG1ZYTBweGFhRDJNSzlHTkdSUUtYN2pvdw?oc=5",
         "summary": "국제유가와 석유시장 변동 요인을 중심으로 정리",
         "published_at_kst": "2026-05-10 16:00"
       }
@@ -1613,21 +1613,27 @@
     ]
   },
   "automation": {
+    "validation": {
+      "today_schedule_status": "ok",
+      "previous_schedule_status": "ok"
+    },
     "safetimes": {
       "today_source_file_date": "2026-05-11",
       "today_source_title": "",
       "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=242654",
       "today_source_published_at": "2026-05-11",
+      "today_source_schedule_candidate_count": 67,
       "today_parsed_schedule_count": 2,
       "previous_source_file_date": "2026-05-08",
       "previous_source_title": "[오늘의 주요일정·8일] 범정부 허위가짜뉴스 단속협의체 회의",
       "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=242586",
+      "previous_source_schedule_candidate_count": 107,
       "previous_parsed_schedule_count": 11,
-      "parser_version": "build_report_draft_from_schedule.py v2.1-prevday-separated",
+      "parser_version": "build_report_draft_from_schedule.py v2.2-source-vs-relevant-status",
       "needs_review": true
     },
     "news": {
-      "source_file": "data/news/2026-05-11.json",
+      "source_file": "data\\news\\2026-05-11.json",
       "article_count": 3,
       "source": "Google News RSS",
       "status": "updated",
@@ -1648,7 +1654,7 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-28 01:51:03 KST",
+      "merged_at": "2026-05-29 14:29:20 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }

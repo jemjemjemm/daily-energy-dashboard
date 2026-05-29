@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 26일 (화)",
     "previous_day_label": "5/22",
     "today_label": "5/26",
-    "generated_at": "2026-05-28 01:51 KST",
+    "generated_at": "2026-05-29 14:32 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -17,7 +17,7 @@
   "summary": [
     {
       "type": "stakeholder",
-      "text": "주요 이해관계자 동향: 5/22 기준 08:00 비상경제본부 회의 겸 경제관계장관회의 겸 국가창업시대 전략회의의(정부서울청사), 08:00 비상경제본부회의, 경제장관회의, 국가창업시대 전략회의(서울), 10:00 2026년 기후위기대응위원회 정기회의(중회의실)."
+      "text": "전일 주요 이슈: 5/22 기준 08:00 비상경제본부 회의 겸 경제관계장관회의 겸 국가창업시대 전략회의의(정부서울청사), 08:00 비상경제본부회의, 경제장관회의, 국가창업시대 전략회의(서울), 10:00 2026년 기후위기대응위원회 정기회의(중회의실)."
     },
     {
       "type": "today",
@@ -1480,11 +1480,18 @@
   "news_trend": {
     "summary": "주요 매체가 △중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △물가 지표와 에너지 비용 부담 등을 중심으로 보도.",
     "trend_paragraphs": [
+      "티제이비는 5/26 07:17 입력 기사에서 호르무즈 개방 기대 변화가 원유 수급 안정성과 정유 수익성 압박을 함께 부각.",
       "연합뉴스는 5/26 06:22 입력 기사에서 호르무즈 개방 기대 변화가 원유 수급 안정성과 정유 수익성 압박을 함께 부각.",
-      "KBS 뉴스는 5/26 06:37 입력 기사에서 호르무즈 개방 기대 변화가 원유 수급 안정성과 정유 수익성 압박을 함께 부각.",
-      "v.daum.net는 5/26 06:24 입력 기사에서 호르무즈 개방 기대 변화가 원유 수급 안정성과 정유 수익성 압박을 함께 부각."
+      "KBS 뉴스는 5/26 06:37 입력 기사에서 호르무즈 개방 기대 변화가 원유 수급 안정성과 정유 수익성 압박을 함께 부각."
     ],
     "articles": [
+      {
+        "title": "호르무즈 재개방 기대감에 국제유가 급락…브렌트유 7% 하락 - 티제이비",
+        "press": "티제이비",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RdlNTRG5kd3BJMW9XcndCNDR4WGtGQlRzUWtrRGNOZ3o4Q3ZtbklSUl9ub042NndiOWZvdlAtdjFkM1JyT0xIYXU3WFl2eXRKS2xiU3VkUzhtUy1VMDlscQ?oc=5",
+        "summary": "호르무즈 개방 기대 변화가 원유 수급 안정성과 정유 수익성 압박을 함께 부각",
+        "published_at_kst": "2026-05-26 07:17"
+      },
       {
         "title": "호르무즈 재개방 기대감에 국제유가 7% 안팎 급락…WTI 90달러선 - 연합뉴스",
         "press": "연합뉴스",
@@ -1498,13 +1505,6 @@
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9US2Q2NWZJRkVNdWRMTU1HQUFXWFN0Zy1pS0sybHZDZ1NwUTIzcU1WeEpzYlpnLXpqZk9ZN2tEUl9xSUxyN1I2TURsR0gtZXBPbGNiSUVmMGEzTU0?oc=5",
         "summary": "호르무즈 개방 기대 변화가 원유 수급 안정성과 정유 수익성 압박을 함께 부각",
         "published_at_kst": "2026-05-26 06:37"
-      },
-      {
-        "title": "호르무즈 재개방 기대감에 국제유가 7% 안팎 급락…WTI 90달러선 - v.daum.net",
-        "press": "v.daum.net",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xbExnYWJoVE9uQUVzLXV0c0JoOHN0bERJOFRremp0ZVJqT3BCeWw0SXllazZKNjhseFFSa185MkR2bUFOQW9vMDJUY1p5c2VPekVacg?oc=5",
-        "summary": "호르무즈 개방 기대 변화가 원유 수급 안정성과 정유 수익성 압박을 함께 부각",
-        "published_at_kst": "2026-05-26 06:24"
       }
     ],
     "source": "Google News RSS",
@@ -1590,21 +1590,27 @@
     ]
   },
   "automation": {
+    "validation": {
+      "today_schedule_status": "ok",
+      "previous_schedule_status": "ok"
+    },
     "safetimes": {
       "today_source_file_date": "2026-05-26",
       "today_source_title": "",
       "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=242993",
       "today_source_published_at": "2026-05-26",
+      "today_source_schedule_candidate_count": 65,
       "today_parsed_schedule_count": 3,
       "previous_source_file_date": "2026-05-22",
       "previous_source_title": "",
       "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=242949",
+      "previous_source_schedule_candidate_count": 92,
       "previous_parsed_schedule_count": 5,
-      "parser_version": "build_report_draft_from_schedule.py v2.1-prevday-separated",
+      "parser_version": "build_report_draft_from_schedule.py v2.2-source-vs-relevant-status",
       "needs_review": true
     },
     "news": {
-      "source_file": "data/news/2026-05-26.json",
+      "source_file": "data\\news\\2026-05-26.json",
       "article_count": 3,
       "source": "Google News RSS",
       "status": "updated",
@@ -1625,7 +1631,7 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-28 01:52:05 KST",
+      "merged_at": "2026-05-29 14:32:46 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }

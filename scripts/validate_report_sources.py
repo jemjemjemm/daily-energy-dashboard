@@ -50,6 +50,14 @@ def check(path: Path) -> list[str]:
     if today_src and prev_src and prev_src == today_src:
         errors.append(f'{path}: today_source_file_date와 previous_source_file_date가 동일함: {today_src}')
 
+    validation = data.get('automation', {}).get('validation', {})
+    if isinstance(validation, dict):
+        if validation.get('today_schedule_parse_failed') or validation.get('today_schedule_status') == 'parse_failed':
+            errors.append(f'{path}: 금일 주요 일정 원문/파싱 실패 상태')
+    today_candidate_count = auto.get('today_source_schedule_candidate_count')
+    if today_candidate_count in (None, ''):
+        errors.append(f'{path}: today_source_schedule_candidate_count 누락')
+
     # 조간신문 트렌드는 매일 발행 기사 기반으로 반드시 존재해야 함.
     # 기사 0건/fallback은 정상 리포트가 아니므로 배포 전 실패 처리.
     news = data.get('news_trend', {}) if isinstance(data.get('news_trend'), dict) else {}
@@ -87,6 +95,8 @@ def main() -> int:
     for p in paths:
         if p.exists():
             all_errors.extend(check(p))
+        else:
+            all_errors.append(f'{p}: report JSON 파일 누락')
     if all_errors:
         print('\n'.join('[ERROR] '+e for e in all_errors))
         return 1

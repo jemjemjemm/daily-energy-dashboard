@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 29일 (금)",
     "previous_day_label": "5/28",
     "today_label": "5/29",
-    "generated_at": "2026-05-29 12:42 KST",
+    "generated_at": "2026-05-29 14:33 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -17,7 +17,7 @@
   "summary": [
     {
       "type": "stakeholder",
-      "text": "주요 이해관계자 동향: 5/28 기준 09:00 비상경제본부 회의(정부서울청사), 09:00 비상경제본부회의, 비상경제본부회의(09:00 정부서울청사)."
+      "text": "전일 주요 이슈: 5/28 기준 09:00 비상경제본부 회의(정부서울청사), 09:00 비상경제본부회의, 비상경제본부회의(09:00 정부서울청사)."
     },
     {
       "type": "today",
@@ -1648,21 +1648,27 @@
     ]
   },
   "automation": {
+    "validation": {
+      "today_schedule_status": "ok",
+      "previous_schedule_status": "ok"
+    },
     "safetimes": {
       "today_source_file_date": "2026-05-29",
       "today_source_title": "",
       "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243081",
       "today_source_published_at": "2026-05-29",
+      "today_source_schedule_candidate_count": 115,
       "today_parsed_schedule_count": 12,
       "previous_source_file_date": "2026-05-28",
       "previous_source_title": "",
       "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243054",
+      "previous_source_schedule_candidate_count": 118,
       "previous_parsed_schedule_count": 6,
-      "parser_version": "build_report_draft_from_schedule.py v2.1-prevday-separated",
+      "parser_version": "build_report_draft_from_schedule.py v2.2-source-vs-relevant-status",
       "needs_review": true
     },
     "news": {
-      "source_file": "data/news/2026-05-29.json",
+      "source_file": "data\\news\\2026-05-29.json",
       "article_count": 3,
       "source": "Google News RSS",
       "status": "updated",
@@ -1683,7 +1689,7 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-29 12:42:09 KST",
+      "merged_at": "2026-05-29 14:33:17 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }

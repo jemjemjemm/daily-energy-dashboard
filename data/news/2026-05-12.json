@@ -1,7 +1,7 @@
 {
   "schema_version": "2.3",
   "date": "2026-05-12",
-  "collected_at": "2026-05-28 01:51:07 KST",
+  "collected_at": "2026-05-29 14:29:30 KST",
   "source": "Google News RSS + Naver/Daum News Search",
   "queries": [
     "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
@@ -51,14 +51,25 @@
   ],
   "articles": [
     {
+      "title": "[이로운주목]고유가·최고가격제 장기화에 주유소 부담 확대...SK에너지, 월 최대 200억원 지원 - 이로운넷",
+      "press": "이로운넷",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4enV3T3FoZlV6Y184eUlWVXJhMEd2NWdjUlhObVZUcGVOWHRReEJXd09VbmFEODg1M1dwS3dEYjRWVEUyLURDRHpsV1dRZHBydHQxSWhlY0pmWjJrakFvWTR4YjliQQ?oc=5",
+      "published_date": "2026-05-11",
+      "published_at_kst": "2026-05-11 16:00",
+      "snippet": "[이로운주목]고유가·최고가격제 장기화에 주유소 부담 확대...SK에너지, 월 최대 200억원 지원 이로운넷",
+      "score": 40,
+      "source_query": "정유 OR 정유사 OR 석유제품 OR 주유소 OR 유류세 OR 휘발유 OR 경유",
+      "collector": "google_news_rss"
+    },
+    {
       "title": "'더 멀어지는' 석유 최고가격제 출구... 종전협상 결렬에 국제유가 3.4% ↑ - v.daum.net",
       "press": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xZU5EbUxTVHBrQi1ycldTUnpqbmpxbktNRWJjV00tZ25ucXU4b2FwWW13c1phWGkxa2oyMFlPZXEzZWI0T2hWQy1oOGhJdkk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WVGlsY0x2V2gxb2EyRGhtb3h2WUJOVVBEbnZOVHp3WjZTcG85TnAwYk5FQXlSdURBUjFkTTRjZXpMS29tREdnWTFZdw?oc=5",
       "published_date": "2026-05-11",
       "published_at_kst": "2026-05-11 16:00",
       "snippet": "'더 멀어지는' 석유 최고가격제 출구... 종전협상 결렬에 국제유가 3.4% ↑ v.daum.net",
       "score": 40,
-      "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
+      "source_query": "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
       "collector": "google_news_rss"
     },
     {
@@ -95,36 +106,14 @@
       "collector": "google_news_rss"
     },
     {
-      "title": "구윤철 \"최고가격제로 물가 1.2%p 낮춰…중동·유가 상황 보고 종료 결정\" - 뉴스토마토",
-      "press": "뉴스토마토",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00d0YzVUItd2hvQU5lRG1NR3duckFvbEN4V0dXenBBbEtoYmREaEs1d2tLeWk3M0ZncWE4SnBzT3otR2I2Y252TEFHaFZ1NGZTQkJCakJxLU45VXNsX2pZMA?oc=5",
-      "published_date": "2026-05-11",
-      "published_at_kst": "2026-05-11 16:00",
-      "snippet": "구윤철 \"최고가격제로 물가 1.2%p 낮춰…중동·유가 상황 보고 종료 결정\" 뉴스토마토",
-      "score": 33,
-      "source_query": "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
-      "collector": "google_news_rss"
-    },
-    {
       "title": "정부, 당분간 '석유 최고가격제' 유지…폐업 주유소는 급증 - v.daum.net",
       "press": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBCbVZCcGYzSVo1ME1sUWt4ZV92b2MtVDMweERwLWRDUDRFZGRoSmlnemR0T1c5T0dVWFh1SzE2LU1sbnA2dnc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByMDhtYlVTeXNUTThPZTBvNUFENmljblE3Uzh3NFR4Mk9uWEJYQTNwbkFVdGZBa3BZUlp0Ul94YmNvR3pVbUljbDNEcw?oc=5",
       "published_date": "2026-05-11",
       "published_at_kst": "2026-05-11 16:00",
       "snippet": "정부, 당분간 '석유 최고가격제' 유지…폐업 주유소는 급증 v.daum.net",
       "score": 33,
-      "source_query": "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
-      "collector": "google_news_rss"
-    },
-    {
-      "title": "에쓰오일, 고유가 재고 효과에 실적↑…”최고가격제로 사실상 손실” - 에너지경제신문",
-      "press": "에너지경제신문",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TRGR3NXJ6MllJSDdBdHVOdW5HTFRVOHU5VmU5LXdvSG00MUpmNW1zaGJEWkdoMzBQVnRmZE0zWHV6ZTRUOGlHUlA2V3FzamhGN3lnM3ZZMGVQRVE?oc=5",
-      "published_date": "2026-05-11",
-      "published_at_kst": "2026-05-11 16:00",
-      "snippet": "에쓰오일, 고유가 재고 효과에 실적↑…”최고가격제로 사실상 손실” 에너지경제신문",
-      "score": 33,
-      "source_query": "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
+      "source_query": "정유 OR 정유사 OR 석유제품 OR 주유소 OR 유류세 OR 휘발유 OR 경유",
       "collector": "google_news_rss"
     },
     {
@@ -152,7 +141,7 @@
     {
       "title": "관세청, 석유화학 원료 수급 대응 총력...\"공급망 불안 최소화\" - v.daum.net",
       "press": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBteW9wT2l1Z3N2Skcwa0kzcG1PcWthaVBhTzdCS2FtSk53VEQxOXZUTlFDZGZUSHpaelNrMmprV0ctcjZGOEVMazBuQnNqMkU?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9nVW1XQXRuWDc4c2h2azBqTjBxLVBHaFQtakFKYnVvcVU3Y25Nbk9xSlpmZzBaMm84U3hSZkFfWHFNd3hBVEE?oc=5",
       "published_date": "2026-05-11",
       "published_at_kst": "2026-05-11 16:00",
       "snippet": "관세청, 석유화학 원료 수급 대응 총력...\"공급망 불안 최소화\" v.daum.net",
@@ -169,6 +158,17 @@
       "snippet": "관세청, 석유화학 원료 수급 대응 총력...공급망 불안 최소화 아주경제",
       "score": 31,
       "source_query": "석유화학 OR 나프타 OR 에틸렌 OR 프로필렌 OR 화학제품",
+      "collector": "google_news_rss"
+    },
+    {
+      "title": "문화체육관광부, 5차 석유제품 최고가격제 동결(5.8.~21.) - 경남도민뉴스",
+      "press": "경남도민뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1XVFRFenlfcXlyZHk0VDZCM3o2aklTVUV0Mzg5cFJKelMxazVld09iRUZCeDBHaW9LTDlldnNpdFRwQmUwaDBzS0d1Rlo3WDdsTzd6dDVkM0UybmhpYi1EeWNSbw?oc=5",
+      "published_date": "2026-05-11",
+      "published_at_kst": "2026-05-11 16:00",
+      "snippet": "문화체육관광부, 5차 석유제품 최고가격제 동결(5.8.~21.) 경남도민뉴스",
+      "score": 31,
+      "source_query": "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
       "collector": "google_news_rss"
     },
     {

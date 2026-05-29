@@ -1,7 +1,7 @@
 {
   "schema_version": "2.3",
   "date": "2026-05-06",
-  "collected_at": "2026-05-28 01:50:44 KST",
+  "collected_at": "2026-05-29 14:28:42 KST",
   "source": "Google News RSS + Naver/Daum News Search",
   "queries": [
     "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
@@ -42,25 +42,14 @@
     "호르무즈"
   ],
   "time_window": "전일 06:00~기준일 11:30 KST",
-  "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △물가 지표와 에너지 비용 부담 △정부·국회 에너지 정책 등을 중심으로 보도.",
+  "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △물가 지표와 에너지 비용 부담 등을 중심으로 보도.",
   "topics": [
     "석유 최고가격제·유류세 등 가격 안정 정책",
     "중동 정세와 원유·LNG 수급 리스크",
-    "물가 지표와 에너지 비용 부담",
-    "정부·국회 에너지 정책"
+    "정유·석유화학 업계 실적·원가·제품 가격",
+    "물가 지표와 에너지 비용 부담"
   ],
   "articles": [
-    {
-      "title": "중동 긴장 재고조에 국제유가 급등…브렌트유 5.80%↑ - 연합뉴스",
-      "press": "연합뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3N0V2WnNHMXU2WEc1emRtSkdaWXp6ZHF2UXJvcHNWN0FTVjlEVmdHeHJ6R2tUd0VrSWNJd2UzOUtuV2pKS3Rvc2pfOXZyZzlKVkt5ZVZEZnZJNU3SAWBBVV95cUxONDZxby00V25mbndZbWJiUF9CQ0xkdWhjZ01kOWM1MUlpVS1QcFVjQmRiRnBNQ2JvOXVVb1Y3c3ltWVNQZmZiWEE3ZjY0VEVCcFBYMDRfeTlHMV9wb204WU8?oc=5",
-      "published_date": "2026-05-05",
-      "published_at_kst": "2026-05-05 16:00",
-      "snippet": "중동 긴장 재고조에 국제유가 급등…브렌트유 5.80%↑ 연합뉴스",
-      "score": 41,
-      "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
-      "collector": "google_news_rss"
-    },
     {
       "title": "중동 긴장 재고조에 국제유가 급등…브렌트유 5.8%↑(종합) - 연합뉴스",
       "press": "연합뉴스",
@@ -68,6 +57,17 @@
       "published_date": "2026-05-05",
       "published_at_kst": "2026-05-05 16:00",
       "snippet": "중동 긴장 재고조에 국제유가 급등…브렌트유 5.8%↑(종합) 연합뉴스",
+      "score": 41,
+      "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
+      "collector": "google_news_rss"
+    },
+    {
+      "title": "중동 긴장 재고조에 국제유가 급등…브렌트유 5.80%↑ - 연합뉴스",
+      "press": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3N0V2WnNHMXU2WEc1emRtSkdaWXp6ZHF2UXJvcHNWN0FTVjlEVmdHeHJ6R2tUd0VrSWNJd2UzOUtuV2pKS3Rvc2pfOXZyZzlKVkt5ZVZEZnZJNU3SAWBBVV95cUxONDZxby00V25mbndZbWJiUF9CQ0xkdWhjZ01kOWM1MUlpVS1QcFVjQmRiRnBNQ2JvOXVVb1Y3c3ltWVNQZmZiWEE3ZjY0VEVCcFBYMDRfeTlHMV9wb204WU8?oc=5",
+      "published_date": "2026-05-05",
+      "published_at_kst": "2026-05-05 16:00",
+      "snippet": "중동 긴장 재고조에 국제유가 급등…브렌트유 5.80%↑ 연합뉴스",
       "score": 41,
       "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
       "collector": "google_news_rss"
@@ -95,45 +95,12 @@
       "collector": "google_news_rss"
     },
     {
-      "title": "지난달 소비자물가 1년 9개월 만 최대 상승…국제유가 영향 - knn.co.kr",
-      "press": "knn.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBlMGwwclZLWVJBNFdURG5GTTVtNnFPaXpXb3hHdFlhaUJvQ29kWUdvaHBNRXRQS2Nwc2tNVmRXTmlVai03ejFobk9NNGxVUG5hVGFFZ0ROdw?oc=5",
-      "published_date": "2026-05-06",
-      "published_at_kst": "2026-05-06 09:44",
-      "snippet": "지난달 소비자물가 1년 9개월 만 최대 상승…국제유가 영향 knn.co.kr",
-      "score": 32,
-      "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
-      "collector": "google_news_rss"
-    },
-    {
       "title": "호르무즈 긴장 재고조 국제유가 5% 급등...트럼프 \"유가 급락할 것\" - YTN",
       "press": "YTN",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNTUJkbVpIQldwZGd2dVJBSUtlN01uVzRRZzVneXhEa2FVQ3FMR0RkeVd1clFGbnBJUDVqdno4UlMtdmxGOGFuaE5wZjFQUExrSGktRDJEMGFXVDFUdFE?oc=5",
       "published_date": "2026-05-05",
       "published_at_kst": "2026-05-05 16:00",
       "snippet": "호르무즈 긴장 재고조 국제유가 5% 급등...트럼프 \"유가 급락할 것\" YTN",
-      "score": 30,
-      "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
-      "collector": "google_news_rss"
-    },
-    {
-      "title": "[국제]호르무즈 긴장 재고조 국제유가 5% 급등...트럼프 \"유가 급락할 것\" - YTN",
-      "press": "YTN",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HS2ZJTHdNYWRvQUxVREhFWFN4OEw0Qk95QlpSWHBIendUNWFNMDhHZVFXNXBqRTdTcmJFcTk5bTRtVGwzZWlqeFJJbzhTdldqOVlRdERwX1NpcVF0SjNnTGJqSWZ1TWpReEIzeGsybw?oc=5",
-      "published_date": "2026-05-05",
-      "published_at_kst": "2026-05-05 16:00",
-      "snippet": "[국제]호르무즈 긴장 재고조 국제유가 5% 급등...트럼프 \"유가 급락할 것\" YTN",
-      "score": 30,
-      "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
-      "collector": "google_news_rss"
-    },
-    {
-      "title": "호르무즈 긴장속 국제유가 하루만에 하락 전환 - v.daum.net",
-      "press": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lVWtuN2tHeVBXNzVwOVFOZTVaNU54aXpNVFZvRzJQX1lyczNYak5QVUpLU0xDZTNNZnNmWXJ4TjRCUlRnVWdVdzNXTWlGMFBfcXhrSQ?oc=5",
-      "published_date": "2026-05-05",
-      "published_at_kst": "2026-05-05 16:00",
-      "snippet": "호르무즈 긴장속 국제유가 하루만에 하락 전환 v.daum.net",
       "score": 30,
       "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
       "collector": "google_news_rss"
@@ -150,35 +117,68 @@
       "collector": "google_news_rss"
     },
     {
-      "title": "호르무즈 해협 긴장 재고조…국제유가 급등 - v.daum.net",
+      "title": "호르무즈 긴장속 국제유가 하루만에 하락 전환 - v.daum.net",
       "press": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5iY2hQVmRJdlZWTHYybjNUQ0J2NUNxTFhxVlZnRS1TakFFNlNqR3lac0NYNEhFbzY3YmZ6LUZFbDhQQlRkVks2eWk4b1BTem8?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lVWtuN2tHeVBXNzVwOVFOZTVaNU54aXpNVFZvRzJQX1lyczNYak5QVUpLU0xDZTNNZnNmWXJ4TjRCUlRnVWdVdzNXTWlGMFBfcXhrSQ?oc=5",
       "published_date": "2026-05-05",
       "published_at_kst": "2026-05-05 16:00",
-      "snippet": "호르무즈 해협 긴장 재고조…국제유가 급등 v.daum.net",
+      "snippet": "호르무즈 긴장속 국제유가 하루만에 하락 전환 v.daum.net",
       "score": 30,
       "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
       "collector": "google_news_rss"
     },
     {
-      "title": "중동긴장 재고조에 국제유가 급등 - 연합뉴스",
-      "press": "연합뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTdFhqV0g2LWpIcklqcmdROF9vdmNlcTZock9UMDhjbVY5OXlOXzhYbmZyZE9zWjJrOHF2VWt2cFhOSHMwZG5oMVpaTFpweXVGNjUxZnRJLWNaZjTSAWBBVV95cUxQcjJ0Vm4wMVk5ajFQVU8zWVFnMjdRaFN4R2JvTGNob21oQmxXTjBTQUJCQXpfaE1pR3huZXRfdnd5a1lRZGVuWjVpNDF4S3dSR1NjVWVRcG1sNU42UTBnTF8?oc=5",
+      "title": "호르무즈 해협 긴장 재고조…국제유가 급등 - 강원도민일보",
+      "press": "강원도민일보",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZRE1mX2NzdTFTZnU1Y2d1THprb2cwUUhzTXNpY1doWHB5V0ZNQ1NzMlp3ZkwyeWdCNlFUSDZDdXp0UXFTMFBFSG1va09TeC13cFo1M09SdnY5dEJpanlQQzNZX3gya00?oc=5",
       "published_date": "2026-05-05",
       "published_at_kst": "2026-05-05 16:00",
-      "snippet": "중동긴장 재고조에 국제유가 급등 연합뉴스",
-      "score": 28,
+      "snippet": "호르무즈 해협 긴장 재고조…국제유가 급등 강원도민일보",
+      "score": 30,
       "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
       "collector": "google_news_rss"
     },
     {
-      "title": "[휘발유 2천원 시대] 정부 “원유 80% 확보”…공급망 다변화 - yonhapmidas.com",
-      "press": "yonhapmidas.com",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXRm1aT0NWejA0Z1BSaHpWTEYteWI3WXYwNV84QTUwT1YtRGNNU1BNbkdpOTV0cUtQeEtDOWh4elp1MTNlbHJDNVYwa2VMUFhYVHVTZDFvbFdZR3dON1Z5VFVOX2hpSGd3VC1VV0JB?oc=5",
+      "title": "원가냐, 시세냐… 정부·업계, 석유 최고가격제 손실보전 방식 두고 ‘이견’ - 브릿지경제",
+      "press": "브릿지경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45ZThPY0Z2MEVLTF9RRUNZbjJrWmRTNFFyMmJ5U1pnSy1nSXN4RkZ2amNnTDE3UDBlY1RGazMwYm94VGNfTkU0WUV0dWwtY1NmQ3Q0M2dMaGJpdw?oc=5",
       "published_date": "2026-05-05",
       "published_at_kst": "2026-05-05 16:00",
-      "snippet": "[휘발유 2천원 시대] 정부 “원유 80% 확보”…공급망 다변화 yonhapmidas.com",
-      "score": 28,
+      "snippet": "원가냐, 시세냐… 정부·업계, 석유 최고가격제 손실보전 방식 두고 ‘이견’ 브릿지경제",
+      "score": 26,
+      "source_query": "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
+      "collector": "google_news_rss"
+    },
+    {
+      "title": "석유 최고가격제 뒤 남은 숙제…손실 보전 해법 '안갯속' - 뉴시스",
+      "press": "뉴시스",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxZ3pWbUxIRnRNVm1NTS0zeFk2NGRvY0VpdzdvQnZBUjE0c09zWWVvTEJ2ODdvT0FLV0NMUUY5UThMVW5PZld1U3JwOUxhem56QjBRaFRVU3IyRVRkbmRqMtIBeEFVX3lxTE5lUXQxcnNCdFNsaWNpQmRvLWNoT2JfN21ubXIyeUtaaWYxeV9tSF9qeElRbEpmY01RTDVYVXFISW1EWDhQX0h2VzZPa1oyeFBTWC00UVlxc3QtQ25aVmxCTmNhNUw4SUNFR0VLVjNHRHJPVjhta0pvYg?oc=5",
+      "published_date": "2026-05-05",
+      "published_at_kst": "2026-05-05 16:00",
+      "snippet": "석유 최고가격제 뒤 남은 숙제…손실 보전 해법 '안갯속' 뉴시스",
+      "score": 22,
+      "source_query": "최고가격제 OR 가격상한 OR 민생물가 OR 생산자물가 OR 석탄및석유제품",
+      "collector": "google_news_rss"
+    },
+    {
+      "title": "브렌트유 가격 하락세 보이나 $110 선 유지, 미-이란 호르무즈 해협 충돌 속 - Investing.com 한국어",
+      "press": "Investing.com 한국어",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5EUGl2dHhtSlVZYmZDZFFrZlVPQkdNeDc0NWVqS01FSGlQX3A4TExkQU9ONktMWDN2azFGdmlpX1dCakNrelRqS3dtNlpLbjg0Y29vRW5kYkhVQlVEWG5Rb280cXkwYTlsZlJVOExaOA?oc=5",
+      "published_date": "2026-05-05",
+      "published_at_kst": "2026-05-05 16:00",
+      "snippet": "브렌트유 가격 하락세 보이나 $110 선 유지, 미-이란 호르무즈 해협 충돌 속 Investing.com 한국어",
+      "score": 21,
+      "source_query": "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
+      "collector": "google_news_rss"
+    },
+    {
+      "title": "일본 석유화학공업협회, 석유화학 제품 생산 감소 불구 재고 등을 통해 공급 유지 - 통신일보",
+      "press": "통신일보",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10cEFoUzJ2QUFzNEdDRzZOMXQ1c05YY2lpSm12TmluYTNXVG9Pb2VSc1I2Q01aX2FicjFQdXZOcXVJMF9ZTU9FeXpsaG5qSTlhelMwSXJJYm44RlQtVWhQb3dVaGE0dw?oc=5",
+      "published_date": "2026-05-05",
+      "published_at_kst": "2026-05-05 16:00",
+      "snippet": "일본 석유화학공업협회, 석유화학 제품 생산 감소 불구 재고 등을 통해 공급 유지 통신일보",
+      "score": 21,
       "source_query": "석유화학 OR 나프타 OR 에틸렌 OR 프로필렌 OR 화학제품",
       "collector": "google_news_rss"
     }

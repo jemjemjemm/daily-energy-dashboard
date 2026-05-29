@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 22일 (금)",
     "previous_day_label": "5/21",
     "today_label": "5/22",
-    "generated_at": "2026-05-28 01:51 KST",
+    "generated_at": "2026-05-29 14:32 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -17,7 +17,7 @@
   "summary": [
     {
       "type": "stakeholder",
-      "text": "주요 이해관계자 동향: 5/21 기준 08:00 물가안정TF 회의(정부서울청사), 08:00 민생물가 특별관리 관계장관 TF(정부서울청사), 09:00 대외경제장관회의(정부서울청사)."
+      "text": "전일 주요 이슈: 5/21 기준 08:00 물가안정TF 회의(정부서울청사), 08:00 민생물가 특별관리 관계장관 TF(정부서울청사), 09:00 대외경제장관회의(정부서울청사)."
     },
     {
       "type": "today",
@@ -25,7 +25,7 @@
     },
     {
       "type": "news_trend",
-      "text": "조간 보도: 주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △물가 지표와 에너지 비용 부담 등을 중심으로 보도."
+      "text": "조간 보도: 주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △물가 지표와 에너지 비용 부담 △정부·국회 에너지 정책 등을 중심으로 보도."
     }
   ],
   "prices": {
@@ -1519,20 +1519,13 @@
     }
   ],
   "news_trend": {
-    "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △물가 지표와 에너지 비용 부담 등을 중심으로 보도.",
+    "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △물가 지표와 에너지 비용 부담 △정부·국회 에너지 정책 등을 중심으로 보도.",
     "trend_paragraphs": [
-      "네이트는 5/21 16:36 입력 기사에서 중동 정세 변화가 국제유가와 원유 수급 리스크에 미치는 영향 보도.",
       "연합뉴스는 5/22 04:47 입력 기사에서 이란 협상 진전 기대가 국제유가 하락 요인으로 작용.",
-      "v.daum.net는 5/22 04:58 입력 기사에서 이란 협상 진전 기대가 국제유가 하락 요인으로 작용."
+      "v.daum.net는 5/22 05:02 입력 기사에서 이란 협상 진전 기대가 국제유가 하락 요인으로 작용.",
+      "KBS 뉴스는 5/22 05:03 입력 기사에서 이란 협상 진전 기대가 국제유가 하락 요인으로 작용."
     ],
     "articles": [
-      {
-        "title": "중동發 유가 폭탄에 4월 생산자물가 'IMF 이후 최대'…정부, 유류세 인하 전격 연장 - 네이트",
-        "press": "네이트",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYRENOWG9VUG5VdGFhbU5sRmxvUkJsbDFJRkU3endLdVJZMGZmbHBxQ3V4V1N6ZGZaOVpaWnltUGpZRG5vLUEzWHNGZkltRFZ3Vkk0?oc=5",
-        "summary": "중동 정세 변화가 국제유가와 원유 수급 리스크에 미치는 영향 보도",
-        "published_at_kst": "2026-05-21 16:36"
-      },
       {
         "title": "국제유가, 이란 협상 진전 기대에 하락 마감…브렌트유 2.3%↓ - 연합뉴스",
         "press": "연합뉴스",
@@ -1541,11 +1534,18 @@
         "published_at_kst": "2026-05-22 04:47"
       },
       {
-        "title": "국제유가, 이란 협상 진전 기대에 하락 마감‥브렌트유 2.3%↓ - v.daum.net",
+        "title": "국제유가, 이란 협상 진전 기대에 하락 마감…브렌트유 2.3%↓ - v.daum.net",
         "press": "v.daum.net",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pNUlLaElpMXM5SFRtdGRCdDZWMk1INDVXNWEybTF4ZFU4QTNGREpGRElBaUlFdERYbWVQdE5POWZtejhXTnBwdEJwYWRQakxaM3lBOA?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA1RW5JY2ZGTTdrS0hyNFlxRFlocDdxbW5JNTJFb1dZODJGbWFIOWpPYTZZYnRnM3EwTFhmbDFiRnZubEk0MEE?oc=5",
         "summary": "이란 협상 진전 기대가 국제유가 하락 요인으로 작용",
-        "published_at_kst": "2026-05-22 04:58"
+        "published_at_kst": "2026-05-22 05:02"
+      },
+      {
+        "title": "국제유가, 이란 협상 진전 기대에 하락 마감…브렌트유 2.3%↓ - KBS 뉴스",
+        "press": "KBS 뉴스",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ER25uajRnUEo4dXlfQVdUU3dYd3FHdmlVaXprbTRBMjgwVGZ0ZFdLNHBkNk43X3ZyZndkT2s1XzF5TUxzelYyeWlTc1VuQXFyUVVqbnRXa1RzWTA?oc=5",
+        "summary": "이란 협상 진전 기대가 국제유가 하락 요인으로 작용",
+        "published_at_kst": "2026-05-22 05:03"
       }
     ],
     "source": "Google News RSS",
@@ -1631,21 +1631,27 @@
     ]
   },
   "automation": {
+    "validation": {
+      "today_schedule_status": "ok",
+      "previous_schedule_status": "ok"
+    },
     "safetimes": {
       "today_source_file_date": "2026-05-22",
       "today_source_title": "",
       "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=242949",
       "today_source_published_at": "2026-05-22",
+      "today_source_schedule_candidate_count": 92,
       "today_parsed_schedule_count": 5,
       "previous_source_file_date": "2026-05-21",
       "previous_source_title": "[오늘의 주요일정·21일] 5공피해자단체 연합회, 스타벅스 규탄 기자회견",
       "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=242918",
+      "previous_source_schedule_candidate_count": 80,
       "previous_parsed_schedule_count": 9,
-      "parser_version": "build_report_draft_from_schedule.py v2.1-prevday-separated",
+      "parser_version": "build_report_draft_from_schedule.py v2.2-source-vs-relevant-status",
       "needs_review": true
     },
     "news": {
-      "source_file": "data/news/2026-05-22.json",
+      "source_file": "data\\news\\2026-05-22.json",
       "article_count": 3,
       "source": "Google News RSS",
       "status": "updated",
@@ -1666,7 +1672,7 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-28 01:51:58 KST",
+      "merged_at": "2026-05-29 14:32:35 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
