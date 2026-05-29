@@ -115,12 +115,22 @@ def is_probably_report(html_text: str) -> bool:
     return has_html_shape or has_report_word
 
 
+def is_weekend_report(date_text: str) -> bool:
+    try:
+        return datetime.strptime(date_text, "%Y-%m-%d").weekday() >= 5
+    except ValueError:
+        return False
+
+
 def read_report_meta(html_path: Path) -> tuple[dict[str, Any] | None, str | None]:
     date_match = DATE_RE.search(html_path.name)
     if not date_match:
         return None, "missing_date_in_filename"
 
     date_text = date_match.group(1)
+    if is_weekend_report(date_text):
+        return None, "weekend_report_skipped"
+
     try:
         html_text = html_path.read_text(encoding="utf-8", errors="ignore")
     except Exception as exc:
