@@ -111,7 +111,7 @@ jobs:
 
       - name: Validate no destructive stale deletion step
         run: |
-          if grep -R "rm -f docs/reports\|rm -f public/reports\|Remove unindexed stale report HTML" .github/workflows; then
+          if grep -R "rm -f docs/reports\|rm -f public/reports\|Remove unindexed stale report HTML" .github/workflows --exclude=sync_published_dashboard_files.yml; then
             echo "[ERROR] 리포트 HTML 삭제 로직이 workflow에 남아 있습니다."
             exit 1
           fi
