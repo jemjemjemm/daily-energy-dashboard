@@ -197,7 +197,7 @@
         ];
         if(badPhrases.some(phrase => html.includes(phrase))) return false;
         return html.includes('Daily Issue Report')
-          && html.includes('조간 신문 트렌드')
+          && html.includes('News Trend')
           && html.includes('news-item')
           && html.includes('유가 동향');
       }catch(e){ return false; }

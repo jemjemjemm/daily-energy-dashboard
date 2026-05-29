@@ -800,7 +800,7 @@ def render(data: Mapping[str, Any], date_text: str) -> str:
     {render_chart("석유제품 가격 추이", product_series, PRODUCT_KEYS, PRODUCT_LABELS)}
     {section(5, "이해관계자·정책 주요 동향 (전일 기준)", render_issues(data))}
     {section(6, f"금일 주요 일정 ({today_label})", render_schedules(data))}
-    {section(7, f"조간 신문 트렌드 ({today_label})", render_news(data))}
+    {section(7, f"News Trend ({today_label})", render_news(data))}
     <footer class="footer">SK Innovation Communication Division · {esc(date_text.replace('-', '.'))}</footer>
   </main>
   {TOOLTIP_SCRIPT}
