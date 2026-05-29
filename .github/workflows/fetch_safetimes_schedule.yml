@@ -2,7 +2,8 @@ name: Daily Energy Dashboard - Daily Data Pipeline
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    # 08:55 KST. Avoid the top-of-hour GitHub Actions schedule queue, then wait until 09:00 KST below.
+    - cron: "55 23 * * *"
 
   workflow_dispatch:
     inputs:
@@ -69,6 +70,26 @@ jobs:
 
       - name: Decide mode
         run: |
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then
+            NOW_MIN=$(TZ=Asia/Seoul date +%H%M)
+            NOW_MIN_NUM=$((10#$NOW_MIN))
+            if [ "$NOW_MIN_NUM" -gt 930 ]; then
+              echo "RUN_MODE=skip" >> $GITHUB_ENV
+              echo "SKIP_REASON=scheduled run started after 09:30 KST ($NOW_MIN)" >> $GITHUB_ENV
+              exit 0
+            fi
+            if [ "$NOW_MIN_NUM" -lt 900 ]; then
+              TODAY=$(TZ=Asia/Seoul date +%Y-%m-%d)
+              TARGET_EPOCH=$(TZ=Asia/Seoul date -d "$TODAY 09:00:00" +%s)
+              NOW_EPOCH=$(TZ=Asia/Seoul date +%s)
+              SLEEP_SECONDS=$((TARGET_EPOCH - NOW_EPOCH))
+              if [ "$SLEEP_SECONDS" -gt 0 ]; then
+                echo "[INFO] Scheduled run started at $NOW_MIN KST. Waiting ${SLEEP_SECONDS}s until 09:00 KST."
+                sleep "$SLEEP_SECONDS"
+              fi
+            fi
+          fi
+
           if [ -n "${{ github.event.inputs.date_from }}" ] && [ -n "${{ github.event.inputs.date_to }}" ]; then
             echo "RUN_MODE=range" >> $GITHUB_ENV
             echo "DATE_FROM=${{ github.event.inputs.date_from }}" >> $GITHUB_ENV
@@ -85,6 +106,7 @@ jobs:
       - name: Show mode
         run: |
           echo "RUN_MODE=$RUN_MODE"
+          echo "SKIP_REASON=${SKIP_REASON:-}"
           echo "TARGET_DATE=${TARGET_DATE:-}"
           echo "DATE_FROM=${DATE_FROM:-}"
           echo "DATE_TO=${DATE_TO:-}"
