@@ -71,6 +71,19 @@ def section_body(text: str, number: str) -> str:
     return match.group(1) if match else ""
 
 
+def short_date(dt: datetime) -> str:
+    return f"{dt.month}/{dt.day}"
+
+
+def expected_news_titles(date_text: str) -> tuple[str, str]:
+    d = datetime.strptime(date_text, "%Y-%m-%d")
+    prev = d - timedelta(days=1)
+    return (
+        f"News Trend ({short_date(prev)} 17:00 - {short_date(d)} 09:00)",
+        f"News Trend ({short_date(d)} 09:00 - 17:00)",
+    )
+
+
 def validate_html_file(path: Path, since: str, allow_weekends: bool) -> list[str]:
     match = DATE_RE.match(path.name)
     if not match:
@@ -87,6 +100,8 @@ def validate_html_file(path: Path, since: str, allow_weekends: bool) -> list[str
     titles = {num: title for num, title in sections}
     schedule_body = section_body(text, "5")
     news_body = section_body(text, "6")
+    afternoon_news_body = section_body(text, "7")
+    expected_morning_title, expected_afternoon_title = expected_news_titles(date_text)
 
     if is_weekend(date_text) and not allow_weekends:
         errors.append(f"{path}: weekend report should not exist")
@@ -94,12 +109,18 @@ def validate_html_file(path: Path, since: str, allow_weekends: bool) -> list[str
         errors.append(f"{path}: holiday report should not exist")
     if "이해관계자·정책 주요 동향 (전일 기준)" in text:
         errors.append(f"{path}: removed stakeholder/policy section still exists")
-    if nums != ["1", "2", "3", "4", "5", "6"]:
-        errors.append(f"{path}: expected section numbers 1..6, got {nums}")
+    if nums != ["1", "2", "3", "4", "5", "6", "7"]:
+        errors.append(f"{path}: expected section numbers 1..7, got {nums}")
     if "schedule-list" not in schedule_body or "schedule-row" not in schedule_body:
         errors.append(f"{path}: schedule body is missing")
     if "News Trend" not in titles.get("6", "") or "news-body" not in news_body:
         errors.append(f"{path}: News Trend section is missing")
+    if "News Trend" not in titles.get("7", "") or "news-body" not in afternoon_news_body:
+        errors.append(f"{path}: afternoon News Trend section is missing")
+    if titles.get("6") != expected_morning_title:
+        errors.append(f"{path}: expected section 6 title '{expected_morning_title}', got '{titles.get('6', '')}'")
+    if titles.get("7") != expected_afternoon_title:
+        errors.append(f"{path}: expected section 7 title '{expected_afternoon_title}', got '{titles.get('7', '')}'")
     for phrase in BAD_REPORT_PHRASES:
         if phrase in text:
             errors.append(f"{path}: unresolved fallback/error phrase exists: {phrase}")

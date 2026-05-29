@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-fetch_news_candidates.py v2.3
+fetch_news_candidates.py v2.4
 
 정유·석유화학·LNG Daily Issue Report용 조간 기사 후보를 수집합니다.
 
 운영 원칙
 - 조간 기사 0건은 정상 상태가 아니라 수집 실패입니다.
-- 조간은 기준일 당일 00:00~오전 기사뿐 아니라 전일 저녁 온라인 선공개 기사를 포함할 수 있으므로
-  기본 검색창은 전일 18:00 KST ~ 기준일 11:30 KST로 봅니다.
+- 조간 News Trend 기본 검색창은 전일 17:00 KST ~ 기준일 09:00 KST로 봅니다.
 - News Trend 데이터는 Naver 뉴스 검색 HTML > Daum 뉴스 검색 HTML > Google News RSS 순서로 사용합니다.
 - 0건이면 fallback 문구를 저장하고 통과시키지 않고, non-zero exit으로 workflow를 실패시킵니다.
 - 기존에 정상 기사 JSON이 있으면 외부 검색 일시 실패 시 기존 정상 JSON을 보존합니다.
@@ -110,9 +109,9 @@ def parse_args():
     p.add_argument("--out-dir", default="data/news")
     p.add_argument("--max-items", type=int, default=12)
     p.add_argument("--min-required", type=int, default=1, help="최소 필요 기사 수. 미달 시 실패")
-    p.add_argument("--lookback-hours", type=int, default=18, help="전일 온라인 선공개 조간 기사 포함 범위")
-    p.add_argument("--cutoff-hour", type=int, default=11)
-    p.add_argument("--cutoff-minute", type=int, default=30)
+    p.add_argument("--lookback-hours", type=int, default=16, help="전일 17:00부터 당일 09:00까지 조간 기사 포함 범위")
+    p.add_argument("--cutoff-hour", type=int, default=9)
+    p.add_argument("--cutoff-minute", type=int, default=0)
     p.add_argument("--force-refresh", action="store_true")
     return p.parse_args()
 
@@ -238,10 +237,18 @@ def score_article(title: str, snippet: str, source: str) -> tuple[int, dict[str,
     return sum(breakdown.values()), breakdown
 
 
+def issue_window(target: datetime, lookback_hours: int, cutoff_hour: int, cutoff_minute: int) -> tuple[datetime, datetime]:
+    end = target.replace(hour=cutoff_hour, minute=cutoff_minute, second=59)
+    return end - timedelta(hours=lookback_hours), end
+
+
+def issue_window_label(start: datetime, end: datetime) -> str:
+    return f"{start.strftime('%Y-%m-%d %H:%M')}~{end.strftime('%Y-%m-%d %H:%M')} KST"
+
+
 def in_morning_issue_window(item: dict[str, Any], target_date: str, lookback_hours: int, cutoff_hour: int, cutoff_minute: int) -> bool:
     target = datetime.strptime(target_date, "%Y-%m-%d").replace(tzinfo=KST)
-    start = target - timedelta(hours=lookback_hours)
-    end = target.replace(hour=cutoff_hour, minute=cutoff_minute, second=59)
+    start, end = issue_window(target, lookback_hours, cutoff_hour, cutoff_minute)
     pub = item.get("published_at_kst") or ""
     pub_date = item.get("published_date") or ""
     if pub:
@@ -256,8 +263,8 @@ def in_morning_issue_window(item: dict[str, Any], target_date: str, lookback_hou
     return True
 
 
-def fetch_google_news(query: str, target: datetime, min_score: int, lookback_hours: int) -> list[dict[str, Any]]:
-    start = target - timedelta(hours=lookback_hours)
+def fetch_google_news(query: str, target: datetime, min_score: int, lookback_hours: int, cutoff_hour: int, cutoff_minute: int) -> list[dict[str, Any]]:
+    start, _end = issue_window(target, lookback_hours, cutoff_hour, cutoff_minute)
     after = start.strftime("%Y-%m-%d")
     before = (target + timedelta(days=1)).strftime("%Y-%m-%d")
     q = f"({query}) after:{after} before:{before}"
@@ -282,13 +289,13 @@ def fetch_google_news(query: str, target: datetime, min_score: int, lookback_hou
     return out
 
 
-def fetch_naver_news(query: str, target: datetime, min_score: int, lookback_hours: int) -> list[dict[str, Any]]:
+def fetch_naver_news(query: str, target: datetime, min_score: int, lookback_hours: int, cutoff_hour: int, cutoff_minute: int) -> list[dict[str, Any]]:
     if BeautifulSoup is None:
         return []
-    start = target - timedelta(hours=lookback_hours)
+    start, end = issue_window(target, lookback_hours, cutoff_hour, cutoff_minute)
     ds = start.strftime("%Y.%m.%d")
-    de = target.strftime("%Y.%m.%d")
-    nso = f"so:r,p:from{start.strftime('%Y%m%d')}to{target.strftime('%Y%m%d')},a:all"
+    de = end.strftime("%Y.%m.%d")
+    nso = f"so:r,p:from{start.strftime('%Y%m%d')}to{end.strftime('%Y%m%d')},a:all"
     url = (
         "https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3"
         f"&ds={quote_plus(ds)}&de={quote_plus(de)}&nso={quote_plus(nso)}&query={quote_plus(query)}"
@@ -316,12 +323,12 @@ def fetch_naver_news(query: str, target: datetime, min_score: int, lookback_hour
     return out
 
 
-def fetch_daum_news(query: str, target: datetime, min_score: int, lookback_hours: int) -> list[dict[str, Any]]:
+def fetch_daum_news(query: str, target: datetime, min_score: int, lookback_hours: int, cutoff_hour: int, cutoff_minute: int) -> list[dict[str, Any]]:
     if BeautifulSoup is None:
         return []
-    start = target - timedelta(hours=lookback_hours)
+    start, end = issue_window(target, lookback_hours, cutoff_hour, cutoff_minute)
     sd = start.strftime("%Y%m%d%H%M%S")
-    ed = target.replace(hour=23, minute=59, second=59).strftime("%Y%m%d%H%M%S")
+    ed = end.strftime("%Y%m%d%H%M%S")
     url = f"https://search.daum.net/search?w=news&q={quote_plus(query)}&period=u&sd={sd}&ed={ed}&sort=recency"
     r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "ko-KR,ko;q=0.9"}, timeout=25)
     r.raise_for_status()
@@ -433,6 +440,8 @@ def read_existing_valid(
 def main() -> int:
     a = parse_args()
     target = datetime.strptime(a.date, "%Y-%m-%d").replace(tzinfo=KST)
+    window_start, window_end = issue_window(target, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)
+    time_window = issue_window_label(window_start, window_end)
     out_path = Path(a.out_dir) / f"{a.date}.json"
 
     existing = read_existing_valid(out_path, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute) if out_path.exists() else None
@@ -448,7 +457,7 @@ def main() -> int:
     # 1) Naver 뉴스 검색 HTML
     for q in PLAIN_QUERIES:
         try:
-            collected.extend(fetch_naver_news(q, target, min_score=4, lookback_hours=a.lookback_hours))
+            collected.extend(fetch_naver_news(q, target, min_score=4, lookback_hours=a.lookback_hours, cutoff_hour=a.cutoff_hour, cutoff_minute=a.cutoff_minute))
             time.sleep(0.2)
         except Exception as e:
             errors.append(f"naver {q}: {e}")
@@ -462,7 +471,7 @@ def main() -> int:
     if len(selected) < a.min_required:
         for q in PLAIN_QUERIES:
             try:
-                collected.extend(fetch_daum_news(q, target, min_score=4, lookback_hours=a.lookback_hours))
+                collected.extend(fetch_daum_news(q, target, min_score=4, lookback_hours=a.lookback_hours, cutoff_hour=a.cutoff_hour, cutoff_minute=a.cutoff_minute))
                 time.sleep(0.2)
             except Exception as e:
                 errors.append(f"daum {q}: {e}")
@@ -477,7 +486,7 @@ def main() -> int:
         for tier_idx, (min_score, queries) in enumerate(QUERY_TIERS, 1):
             for q in queries:
                 try:
-                    collected.extend(fetch_google_news(q, target, min_score=min_score, lookback_hours=a.lookback_hours))
+                    collected.extend(fetch_google_news(q, target, min_score=min_score, lookback_hours=a.lookback_hours, cutoff_hour=a.cutoff_hour, cutoff_minute=a.cutoff_minute))
                     time.sleep(0.15)
                 except Exception as e:
                     errors.append(f"google tier{tier_idx} {q}: {e}")
@@ -495,7 +504,7 @@ def main() -> int:
         for collector_name, fn in [("naver", fetch_naver_news), ("daum", fetch_daum_news)]:
             for q in PLAIN_QUERIES:
                 try:
-                    relaxed.extend(fn(q, target, min_score=2, lookback_hours=a.lookback_hours))
+                    relaxed.extend(fn(q, target, min_score=2, lookback_hours=a.lookback_hours, cutoff_hour=a.cutoff_hour, cutoff_minute=a.cutoff_minute))
                     time.sleep(0.15)
                 except Exception as e:
                     errors.append(f"{collector_name} relaxed {q}: {e}")
@@ -509,7 +518,7 @@ def main() -> int:
             for _tier_idx, (_min_score, queries) in enumerate(QUERY_TIERS, 1):
                 for q in queries:
                     try:
-                        relaxed.extend(fetch_google_news(q, target, min_score=2, lookback_hours=a.lookback_hours))
+                        relaxed.extend(fetch_google_news(q, target, min_score=2, lookback_hours=a.lookback_hours, cutoff_hour=a.cutoff_hour, cutoff_minute=a.cutoff_minute))
                         time.sleep(0.1)
                     except Exception as e:
                         errors.append(f"google relaxed {_tier_idx} {q}: {e}")
@@ -525,12 +534,12 @@ def main() -> int:
             print(f"[WARN] 새 뉴스 수집 실패. 기존 시간창 통과 뉴스 JSON 보존: {out_path} / articles={len(existing.get('articles', []))}")
             return 0
         payload = {
-            "schema_version": "2.3",
+            "schema_version": "2.4",
             "date": a.date,
             "collected_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S KST"),
             "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS",
             "queries": [q for _, qs in QUERY_TIERS for q in qs] + PLAIN_QUERIES,
-            "time_window": f"전일 {24 - a.lookback_hours:02d}:00~기준일 {a.cutoff_hour:02d}:{a.cutoff_minute:02d} KST",
+            "time_window": time_window,
             "summary": "",
             "topics": [],
             "articles": [],
@@ -545,12 +554,12 @@ def main() -> int:
 
     topics = infer_topics(selected)
     payload = {
-        "schema_version": "2.3",
+        "schema_version": "2.4",
         "date": a.date,
         "collected_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S KST"),
         "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS",
         "queries": [q for _, qs in QUERY_TIERS for q in qs] + PLAIN_QUERIES,
-        "time_window": f"전일 {24 - a.lookback_hours:02d}:00~기준일 {a.cutoff_hour:02d}:{a.cutoff_minute:02d} KST",
+        "time_window": time_window,
         "summary": build_summary(topics, selected),
         "topics": topics,
         "articles": selected,

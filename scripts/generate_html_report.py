@@ -20,7 +20,7 @@ import json
 import math
 import re
 import tempfile
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Iterable, Mapping, Sequence
 
@@ -90,6 +90,21 @@ def short_date(date_text: str) -> str:
         return f"{d.month}/{d.day}"
     except Exception:
         return date_text
+
+
+def news_window_labels(date_text: str) -> tuple[str, str]:
+    try:
+        d = datetime.strptime(date_text, "%Y-%m-%d")
+    except Exception:
+        today = short_date(date_text)
+        return f"{today} 09:00", f"{today} 17:00"
+    prev = d - timedelta(days=1)
+    prev_label = f"{prev.month}/{prev.day}"
+    today_label = f"{d.month}/{d.day}"
+    return (
+        f"{prev_label} 17:00 - {today_label} 09:00",
+        f"{today_label} 09:00 - 17:00",
+    )
 
 
 
@@ -667,6 +682,22 @@ def article_desc_for_display(article: Mapping[str, Any]) -> str:
     return strip_article_source_suffix(desc, press)
 
 
+def render_afternoon_news_placeholder() -> str:
+    return (
+        '<div class="news-body">'
+        '<div class="news-trend">17:00 업데이트 예정입니다.</div>'
+        '<div class="news-separator"></div>'
+        '<div class="news-links-title">대표 기사</div>'
+        '<div class="news-link">'
+        '<div class="news-link-title">오후 News Trend 데이터 대기</div>'
+        '<div class="news-link-press">-</div>'
+        '<div class="news-link-desc">당일 09:00~17:00 발간 기사 기준으로 추후 자동 업데이트됩니다.</div>'
+        '</div>'
+        '</div>'
+        '<div class="fact-note">※ 오후 트렌드는 당일 09:00~17:00 KST 발간 기사 기준으로 작성 예정.</div>'
+    )
+
+
 def render_news(data: Mapping[str, Any]) -> str:
     summary, articles = get_news(data)
     if not summary:
@@ -789,6 +820,7 @@ def render(data: Mapping[str, Any], date_text: str) -> str:
     report = dict_of(data.get("report"))
     badge = clean_text(report.get("report_badge") or "정유 · 석유화학 · LNG")
     today_label = short_date(date_text)
+    morning_news_label, afternoon_news_label = news_window_labels(date_text)
     crude_series = extract_series(data, "crude")
     product_series = extract_series(data, "product")
     html_text = f"""<!doctype html>
@@ -812,7 +844,8 @@ def render(data: Mapping[str, Any], date_text: str) -> str:
     {render_chart("원유 가격 추이", crude_series, CRUDE_KEYS)}
     {render_chart("석유제품 가격 추이", product_series, PRODUCT_KEYS, PRODUCT_LABELS)}
     {section(5, f"금일 주요 일정 ({today_label})", render_schedules(data))}
-    {section(6, f"News Trend ({today_label})", render_news(data))}
+    {section(6, f"News Trend ({morning_news_label})", render_news(data))}
+    {section(7, f"News Trend ({afternoon_news_label})", render_afternoon_news_placeholder())}
     <footer class="footer">SK Innovation Communication Division · {esc(date_text.replace('-', '.'))}</footer>
   </main>
   {TOOLTIP_SCRIPT}
