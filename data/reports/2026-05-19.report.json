@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 19일 (화)",
     "previous_day_label": "5/18",
     "today_label": "5/19",
-    "generated_at": "2026-05-30 00:26 KST",
+    "generated_at": "2026-05-30 00:56 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -1725,6 +1725,14 @@
       "needs_review": true,
       "report_slot": "morning"
     },
+    "news_afternoon": {
+      "source_file": "data/news/2026-05-19.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
+    },
     "opinet_prices": {
       "price_json_used": false,
       "source_date": "",
@@ -1740,9 +1748,67 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-30 00:27:35 KST",
+      "merged_at": "2026-05-30 00:58:07 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △물가 지표와 에너지 비용 부담 등을 중심으로 보도.",
+    "trend_paragraphs": [
+      "Daum News는 LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도.",
+      "Daum News는 국제유가와 석유시장 변동 요인을 중심으로 정리.",
+      "Daum News는 LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도."
+    ],
+    "articles": [
+      {
+        "title": "[속보] 李대통령 \"한일, LNG 협력 확대… 원유 수급 정보공유 심화\"",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260519170019731",
+        "summary": "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도",
+        "published_at_kst": "",
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 0,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "\"유럽, 수주 내 실제 원유 부족해질 것…재고 급감 경고\"",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260519164104597",
+        "summary": "국제유가와 석유시장 변동 요인을 중심으로 정리",
+        "published_at_kst": "",
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 0,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "[속보] 이 대통령 \"한·일 LNG· 원유 협력 강화… 원유 수급 비축 정보 공유\"",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260519170018730",
+        "summary": "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도",
+        "published_at_kst": "",
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 0,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }

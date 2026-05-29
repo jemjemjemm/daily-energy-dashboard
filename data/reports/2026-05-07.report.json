@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 7일 (목)",
     "previous_day_label": "5/6",
     "today_label": "5/7",
-    "generated_at": "2026-05-30 00:19 KST",
+    "generated_at": "2026-05-30 00:42 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -1671,6 +1671,14 @@
       "needs_review": true,
       "report_slot": "morning"
     },
+    "news_afternoon": {
+      "source_file": "data/news/2026-05-07.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
+    },
     "opinet_prices": {
       "price_json_used": false,
       "source_date": "",
@@ -1686,9 +1694,67 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-30 00:20:43 KST",
+      "merged_at": "2026-05-30 00:44:31 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △물가 지표와 에너지 비용 부담 등을 중심으로 보도.",
+    "trend_paragraphs": [
+      "Daum News는 국제유가와 석유시장 변동 요인을 중심으로 정리.",
+      "Daum News는 해당 이슈의 업계 관련성을 원문 기준으로 확인 필요.",
+      "Daum News는 해당 이슈의 업계 관련성을 원문 기준으로 확인 필요."
+    ],
+    "articles": [
+      {
+        "title": "5월 초 연휴 통행량 ‘명절 수준’… 석유 최고가격제 딜레마",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260507144315272",
+        "summary": "국제유가와 석유시장 변동 요인을 중심으로 정리",
+        "published_at_kst": "",
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 0,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "여천NCC 채권단, 나프타 수입신용장 3억불 신규공급…18일 실행",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260507163313672",
+        "summary": "해당 이슈의 업계 관련성을 원문 기준으로 확인 필요",
+        "published_at_kst": "",
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 0,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "중동전쟁 발 나프타 수급 불안에‥금융권, 여천NCC 수입 보증 한도 4천억 원으로 상향",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260507164012048",
+        "summary": "해당 이슈의 업계 관련성을 원문 기준으로 확인 필요",
+        "published_at_kst": "",
+        "score": 9,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 0,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }

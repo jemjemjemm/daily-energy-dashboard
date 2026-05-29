@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 18일 (월)",
     "previous_day_label": "5/15",
     "today_label": "5/18",
-    "generated_at": "2026-05-30 00:25 KST",
+    "generated_at": "2026-05-30 00:54 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -1689,6 +1689,14 @@
       "needs_review": true,
       "report_slot": "morning"
     },
+    "news_afternoon": {
+      "source_file": "data/news/2026-05-18.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
+    },
     "opinet_prices": {
       "price_json_used": false,
       "source_date": "",
@@ -1704,9 +1712,67 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-30 00:26:44 KST",
+      "merged_at": "2026-05-30 00:56:24 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △물가 지표와 에너지 비용 부담 등을 중심으로 보도.",
+    "trend_paragraphs": [
+      "Daum News는 중동 정세 변화가 국제유가와 원유 수급 리스크에 미치는 영향 보도.",
+      "Daum News는 정유업계 수익성·원가·시장 여건 변화를 중심으로 보도.",
+      "Daum News는 해당 이슈의 업계 관련성을 원문 기준으로 확인 필요."
+    ],
+    "articles": [
+      {
+        "title": "중동 전쟁에 엘니뇨까지 겹쳐…유가 180달러 경고까지",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260518151521481",
+        "summary": "중동 정세 변화가 국제유가와 원유 수급 리스크에 미치는 영향 보도",
+        "published_at_kst": "",
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 0,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "주유소 기름값 2000원대 유지…정유업계 \"최고가격제 부담 누적\"",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260518133408946",
+        "summary": "정유업계 수익성·원가·시장 여건 변화를 중심으로 보도",
+        "published_at_kst": "",
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 0,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "미·일 국채 금리 급등…코스피 요동치고 환율 1500원 넘기도",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260518165208323",
+        "summary": "해당 이슈의 업계 관련성을 원문 기준으로 확인 필요",
+        "published_at_kst": "",
+        "score": 9,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 0,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }

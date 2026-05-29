@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 6일 (수)",
     "previous_day_label": "5/4",
     "today_label": "5/6",
-    "generated_at": "2026-05-30 00:19 KST",
+    "generated_at": "2026-05-30 00:41 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -1610,6 +1610,14 @@
       "needs_review": true,
       "report_slot": "morning"
     },
+    "news_afternoon": {
+      "source_file": "data/news/2026-05-06.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
+    },
     "opinet_prices": {
       "price_json_used": false,
       "source_date": "",
@@ -1625,9 +1633,67 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-30 00:19:51 KST",
+      "merged_at": "2026-05-30 00:42:47 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △물가 지표와 에너지 비용 부담 등을 중심으로 보도.",
+    "trend_paragraphs": [
+      "Daum News는 정유업계 수익성·원가·시장 여건 변화를 중심으로 보도.",
+      "Daum News는 국제유가와 석유시장 변동 요인을 중심으로 정리.",
+      "Daum News는 국제유가와 석유시장 변동 요인을 중심으로 정리."
+    ],
+    "articles": [
+      {
+        "title": "정유사 5조 벌었다지만…속타는 '최고가격제 청구서'",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260506154733119",
+        "summary": "정유업계 수익성·원가·시장 여건 변화를 중심으로 보도",
+        "published_at_kst": "",
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 0,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "호르무즈 뉴노멀…‘6년 만에 원유 수입 재개’ 리비아가 수급 불안 돌파구 될까",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260506160700137",
+        "summary": "국제유가와 석유시장 변동 요인을 중심으로 정리",
+        "published_at_kst": "",
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 0,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "세 번째 홍해 원유 수송 성공…정부, 에너지 공급망 관리 총력",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260506154634065",
+        "summary": "국제유가와 석유시장 변동 요인을 중심으로 정리",
+        "published_at_kst": "",
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 0,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }

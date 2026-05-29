@@ -5,7 +5,7 @@
     "display_date": "2026년 5월 11일 (월)",
     "previous_day_label": "5/8",
     "today_label": "5/11",
-    "generated_at": "2026-05-30 00:21 KST",
+    "generated_at": "2026-05-30 00:46 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -1665,6 +1665,14 @@
       "needs_review": true,
       "report_slot": "morning"
     },
+    "news_afternoon": {
+      "source_file": "data/news/2026-05-11.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
+    },
     "opinet_prices": {
       "price_json_used": false,
       "source_date": "",
@@ -1680,9 +1688,67 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-05-30 00:22:27 KST",
+      "merged_at": "2026-05-30 00:47:55 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "주요 매체가 △석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △물가 지표와 에너지 비용 부담 등을 중심으로 보도.",
+    "trend_paragraphs": [
+      "Daum News는 국제유가와 석유시장 변동 요인을 중심으로 정리.",
+      "Daum News는 정유업계 수익성·원가·시장 여건 변화를 중심으로 보도.",
+      "Daum News는 정유업계 수익성·원가·시장 여건 변화를 중심으로 보도."
+    ],
+    "articles": [
+      {
+        "title": "구윤철 부총리 \"석유 최고가격제, 중동 정세 안정까지 유지\"",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260511165602192",
+        "summary": "국제유가와 석유시장 변동 요인을 중심으로 정리",
+        "published_at_kst": "",
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 0,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "정유업계, 고유가發 어닝 서프라이즈...\"손실보전 없으면 신기루\"",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260511165104998",
+        "summary": "정유업계 수익성·원가·시장 여건 변화를 중심으로 보도",
+        "published_at_kst": "",
+        "score": 9,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 0,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "유럽 3대 정유사, '중동전쟁 트레이딩' 최대 7조원 수익",
+        "press": "Daum News",
+        "url": "http://v.daum.net/v/20260511164705846",
+        "summary": "정유업계 수익성·원가·시장 여건 변화를 중심으로 보도",
+        "published_at_kst": "",
+        "score": 9,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 0,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
