@@ -324,7 +324,7 @@ jobs:
             --out docs/report-index.json
 
       - name: Sync docs reports to public
-        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
+        if: env.RUN_MODE == 'range' || (env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true')
         run: |
           mkdir -p public/reports
           cp -f docs/report-index.json public/report-index.json

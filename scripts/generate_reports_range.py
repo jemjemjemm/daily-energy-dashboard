@@ -254,6 +254,7 @@ def main() -> int:
             sys.executable,
             "scripts/fetch_news_candidates.py",
             "--date", date_text,
+            "--report-slot", "morning",
             "--out-dir", "data/news",
             "--min-required", "1",
             "--force-refresh",
@@ -262,6 +263,26 @@ def main() -> int:
             sys.executable,
             "scripts/apply_news_to_report.py",
             "--date", date_text,
+            "--report-slot", "morning",
+            "--news-dir", "data/news",
+            "--report-dir", args.report_dir,
+            "--min-required", "1",
+        ])
+        print(f"[INFO] News Trend slot 생성: {date_text} evening")
+        run([
+            sys.executable,
+            "scripts/fetch_news_candidates.py",
+            "--date", date_text,
+            "--report-slot", "evening",
+            "--out-dir", "data/news",
+            "--min-required", "1",
+            "--force-refresh",
+        ])
+        run([
+            sys.executable,
+            "scripts/apply_news_to_report.py",
+            "--date", date_text,
+            "--report-slot", "evening",
             "--news-dir", "data/news",
             "--report-dir", args.report_dir,
             "--min-required", "1",

@@ -68,12 +68,27 @@ jobs:
             --end "${{ github.event.inputs.date_to }}" \
             --report-dir data/reports
 
+      - name: Sync docs reports to public
+        run: |
+          mkdir -p public/reports
+          cp -f docs/report-index.json public/report-index.json
+          if compgen -G "docs/reports/*.html" > /dev/null; then
+            cp -f docs/reports/*.html public/reports/
+          fi
+
+      - name: Validate public report HTML
+        run: |
+          python scripts/validate_report_html.py \
+            --reports-dir public/reports \
+            --index public/report-index.json \
+            --since 2026-05-01
+
       - name: Commit backfilled reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/schedules/ data/reports/ data/news/ data/prices/ docs/reports/ docs/report-index.json || true
+          git add data/schedules/ data/reports/ data/news/ data/prices/ docs/reports/ docs/report-index.json public/reports/ public/report-index.json || true
 
           if git diff --cached --quiet; then
             echo "변경된 파일이 없습니다."
