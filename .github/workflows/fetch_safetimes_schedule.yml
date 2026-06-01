@@ -2,10 +2,16 @@ name: Daily Energy Dashboard - Daily Data Pipeline
 
 on:
   schedule:
-    # Backup runs. GitHub Actions cron is UTC.
-    # 09:07 KST = 00:07 UTC, 17:07 KST = 08:07 UTC.
+    # GitHub Actions cron is best-effort and can be delayed or dropped.
+    # Run three times per slot; done files make later successful backups no-ops.
+    # Morning: 09:07, 09:17, 09:27 KST.
     - cron: "7 0 * * 1-5"
+    - cron: "17 0 * * 1-5"
+    - cron: "27 0 * * 1-5"
+    # Evening: 17:07, 17:17, 17:27 KST.
     - cron: "7 8 * * 1-5"
+    - cron: "17 8 * * 1-5"
+    - cron: "27 8 * * 1-5"
 
   workflow_dispatch:
     inputs:
@@ -41,7 +47,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: daily-energy-dashboard-${{ github.ref }}-${{ github.event_name == 'schedule' && (github.event.schedule == '7 0 * * 1-5' && 'morning' || 'evening') || github.event.inputs.report_slot }}
+  group: daily-energy-dashboard-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -92,16 +98,20 @@ jobs:
           if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then
             echo "RUN_MODE=single" >> $GITHUB_ENV
             echo "INVOCATION_MODE=schedule" >> $GITHUB_ENV
-            UTC_HOUR=$(date -u +%H)
-            if [ "$UTC_HOUR" = "00" ]; then
-              echo "REPORT_SLOT=morning" >> $GITHUB_ENV
-            elif [ "$UTC_HOUR" = "08" ]; then
-              echo "REPORT_SLOT=evening" >> $GITHUB_ENV
-            else
-              echo "RUN_MODE=skip" >> $GITHUB_ENV
-              echo "SKIP_REASON=unrecognized schedule UTC hour: $UTC_HOUR" >> $GITHUB_ENV
-              exit 0
-            fi
+            echo "TRIGGER_SCHEDULE=${{ github.event.schedule }}" >> $GITHUB_ENV
+            case "${{ github.event.schedule }}" in
+              "7 0 * * 1-5"|"17 0 * * 1-5"|"27 0 * * 1-5")
+                echo "REPORT_SLOT=morning" >> $GITHUB_ENV
+                ;;
+              "7 8 * * 1-5"|"17 8 * * 1-5"|"27 8 * * 1-5")
+                echo "REPORT_SLOT=evening" >> $GITHUB_ENV
+                ;;
+              *)
+                echo "RUN_MODE=skip" >> $GITHUB_ENV
+                echo "SKIP_REASON=unrecognized schedule expression: ${{ github.event.schedule }}" >> $GITHUB_ENV
+                exit 0
+                ;;
+            esac
             echo "TARGET_DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)" >> $GITHUB_ENV
             exit 0
           fi
@@ -128,6 +138,7 @@ jobs:
           echo "RUN_MODE=$RUN_MODE"
           echo "REPORT_SLOT=${REPORT_SLOT:-}"
           echo "INVOCATION_MODE=${INVOCATION_MODE:-}"
+          echo "TRIGGER_SCHEDULE=${TRIGGER_SCHEDULE:-}"
           echo "SKIP_REASON=${SKIP_REASON:-}"
           echo "TARGET_DATE=${TARGET_DATE:-}"
           echo "DATE_FROM=${DATE_FROM:-}"
