@@ -26,6 +26,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) 주요 매체가 △호르무즈·중동 정세에 따른 원유·LNG 수급 리스크 △정유사 실적과 재고평가손익 변동성 등을 중심으로 보도."
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) 주요 매체가 △호르무즈·중동 정세에 따른 원유·LNG 수급 리스크 △고유가와 SAF 부담에 따른 항공·정유업계 영향 △석유제품 가격 안정 정책과 유류세 이슈 등을 중심으로 보도."
     }
   ],
   "prices": {
@@ -1558,6 +1562,78 @@
       "merged_at": "2026-06-02 09:07:33 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-06-02.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "주요 매체가 △호르무즈·중동 정세에 따른 원유·LNG 수급 리스크 △고유가와 SAF 부담에 따른 항공·정유업계 영향 △석유제품 가격 안정 정책과 유류세 이슈 등을 중심으로 보도.",
+    "trend_paragraphs": [
+      "헤럴드경제는 국제유가와 석유시장 변동 요인을 중심으로 정리.",
+      "이데일리는 정유업계 수익성·원가·시장 여건 변화를 중심으로 보도.",
+      "한겨레는 정유업계 수익성·원가·시장 여건 변화를 중심으로 보도."
+    ],
+    "articles": [
+      {
+        "title": "김정관 “8월 원유, 80% 중반 확보 가능…착하디 착한 주유소, 이번주 선정”",
+        "press": "헤럴드경제",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260602161819851",
+        "summary": "국제유가와 석유시장 변동 요인을 중심으로 정리",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 2,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "정부, 석유 원가 산정 고시 임박… 정유 업계 촉각",
+        "press": "이데일리",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260602155353876",
+        "summary": "정유업계 수익성·원가·시장 여건 변화를 중심으로 보도",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "러, 항공유 수출도 중단… 정유 시설 공습 받고, 유조선 나포 돼",
+        "press": "한겨레",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260602145202057",
+        "summary": "정유업계 수익성·원가·시장 여건 변화를 중심으로 보도",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
