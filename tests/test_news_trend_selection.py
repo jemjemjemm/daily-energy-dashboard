@@ -147,8 +147,9 @@ class NewsTrendSelectionTest(unittest.TestCase):
         )
 
         self.assertNotIn("\uc218\uc9d1 \ud6c4\ubcf4 \uc804\uccb4", summary)
-        self.assertRegex(summary, r"^△.+ 등을 중심으로 보도\.$")
+        self.assertRegex(summary, r"^△.+")
         self.assertNotIn("주요 매체가", summary)
+        self.assertNotIn("등을 중심으로 보도", summary)
         self.assertIn("\u25b3", summary)
         self.assertIn("\ud638\ub974\ubb34\uc988", summary)
         self.assertIn("\uace0\ud658\uc728", summary)

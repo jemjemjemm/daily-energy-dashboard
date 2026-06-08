@@ -483,7 +483,7 @@ def infer_topics(items: list[dict[str, Any]]) -> list[str]:
 
 def build_summary(topics: list[str], items: list[dict[str, Any]]) -> str:
     if topics:
-        return "주요 매체가 " + " ".join(f"△{t}" for t in topics[:4]) + " 등을 중심으로 보도."
+        return " ".join(f"△{t}" for t in topics[:4])
     titles = ", ".join(i.get("title", "") for i in items[:3])
     return f"정유·석유화학·LNG 관련 조간 기사 후보로 {titles} 등 수집."
 

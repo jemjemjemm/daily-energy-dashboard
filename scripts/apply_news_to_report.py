@@ -135,8 +135,8 @@ def infer_theme_labels(articles: List[Dict[str, str]], topics: List[str] | None 
 def make_trend_headline(articles: List[Dict[str, str]], topics: List[str] | None = None) -> str:
     labels = infer_theme_labels(articles, topics)
     if len(labels) == 1:
-        return f"주요 매체가 △{labels[0]} 등을 중심으로 보도."
-    return "주요 매체가 " + " ".join(f"△{x}" for x in labels) + " 등을 중심으로 보도."
+        return f"△{labels[0]}"
+    return " ".join(f"△{x}" for x in labels)
 
 
 def _has_batchim(text: str) -> bool:
@@ -370,7 +370,7 @@ def build_frame_summary(news: Dict[str, Any], articles: List[Dict[str, Any]]) ->
     frames = extract_report_frames(news, articles, max_frames=4)
     if not frames:
         return "해당 시간대 주요 보도 확인 건 없음."
-    return " ".join(f"△{frame}" for frame in frames) + " 등을 중심으로 보도."
+    return " ".join(f"△{frame}" for frame in frames)
 
 
 def parse_args():

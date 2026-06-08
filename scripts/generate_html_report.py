@@ -700,7 +700,7 @@ def render_news(data: Mapping[str, Any], key: str = "news_trend", empty_summary:
     summary, articles = get_news(data, key)
     if not summary:
         if articles:
-            summary = "주요 매체가 " + "·".join(clean_text(a.get("title")) for a in articles[:3]) + " 등을 중심으로 보도."
+            summary = " · ".join(clean_text(a.get("title")) for a in articles[:3])
         else:
             summary = empty_summary
     rows = []

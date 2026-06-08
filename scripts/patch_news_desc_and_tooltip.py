@@ -201,7 +201,7 @@ def replace_render_news(text: str) -> str:
     summary, articles = get_news(data)
     if not summary:
         if articles:
-            summary = "주요 매체가 " + "·".join(clean_text(a.get("title")) for a in articles[:3]) + " 등을 중심으로 보도."
+            summary = " · ".join(clean_text(a.get("title")) for a in articles[:3])
         else:
             summary = "기준일 조간 신문 트렌드 확인 필요."
     rows = []
