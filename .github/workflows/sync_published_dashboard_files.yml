@@ -11,6 +11,7 @@ on:
       - 'data/reports/**'
       - 'scripts/generate_report_index.py'
       - 'scripts/generate_html_report.py'
+      - 'scripts/generate_schedule_detail_html.py'
       - '.github/workflows/sync_published_dashboard_files.yml'
 
 permissions:
@@ -33,7 +34,7 @@ jobs:
 
       - name: Ensure report directories
         run: |
-          mkdir -p docs/reports public/reports data/reports
+          mkdir -p docs/reports docs/schedules public/reports public/schedules data/reports
 
       - name: Generate docs report index
         run: |
@@ -43,10 +44,13 @@ jobs:
 
       - name: Copy docs to public
         run: |
-          mkdir -p public/reports
+          mkdir -p public/reports public/schedules
           cp -f docs/report-index.json public/report-index.json
           if compgen -G "docs/reports/*.html" > /dev/null; then
             cp -f docs/reports/*.html public/reports/
+          fi
+          if compgen -G "docs/schedules/*.html" > /dev/null; then
+            cp -f docs/schedules/*.html public/schedules/
           fi
 
       - name: Validate published report index
@@ -122,7 +126,7 @@ jobs:
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add docs/report-index.json public/report-index.json public/reports docs/reports
+            git add docs/report-index.json public/report-index.json public/reports public/schedules docs/reports docs/schedules
             git commit -m "Sync published dashboard report files"
             git push
           else
