@@ -307,10 +307,10 @@
       const source = monthReports.length ? monthReports : state.reports;
       for(const r of source){
         const a=document.createElement('a');
-        a.href='javascript:void(0)';
+        a.href=r.url || `reports/${r.date}.html`;
         a.className='report-link' + (r.date===state.selectedDate ? ' selected' : '');
         a.textContent=formatShort(r.date);
-        a.addEventListener('click',()=>selectDate(r.date));
+        a.addEventListener('click', event=>{ event.preventDefault(); selectDate(r.date); });
         list.appendChild(a);
       }
     }
@@ -325,7 +325,7 @@
       document.getElementById('reportTitle').textContent=report.title || `Daily Issue Report — ${dateText}`;
       document.getElementById('reportMeta').textContent=`${dateText} · ${report.url}`;
       const frame=document.getElementById('reportFrame'); const empty=document.getElementById('emptyState');
-      frame.src=`${report.url}${report.url.includes('?')?'&':'?'}ts=${Date.now()}`;
+      frame.src=report.url;
       frame.style.display='block'; empty.style.display='none';
       document.getElementById('openNew').href=report.url;
 
@@ -338,7 +338,7 @@
 
     document.getElementById('prevMonth').addEventListener('click',()=>{ state.currentMonth=new Date(state.currentMonth.getFullYear(),state.currentMonth.getMonth()-1,1); renderCalendar(); renderReportList(); });
     document.getElementById('nextMonth').addEventListener('click',()=>{ state.currentMonth=new Date(state.currentMonth.getFullYear(),state.currentMonth.getMonth()+1,1); renderCalendar(); renderReportList(); });
-    document.getElementById('reloadBtn').addEventListener('click',()=>{ if(state.selectedDate) selectDate(state.selectedDate,{replaceUrl:false}); });
+    document.getElementById('reloadBtn').addEventListener('click',()=>{ if(state.selectedDate) document.getElementById('reportFrame').contentWindow.location.reload(); });
 
     loadIndex().catch(error=>{
       console.error(error);

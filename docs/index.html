@@ -108,7 +108,7 @@
     if(!state.reports.length){ links.innerHTML='<div class="empty">등록된 리포트가 없습니다.</div>'; return; }
     state.reports.forEach(r=>{
       const a=document.createElement('a');
-      a.href='#'; a.className='report-link'+(state.selected===r.date?' active':'');
+      a.href=r.url || `reports/${r.date}.html`; a.className='report-link'+(state.selected===r.date?' active':'');
       a.innerHTML=`<div class="report-date">${r.date}</div><div class="report-title">${escapeHtml(r.title || r.fileName || '')}</div>`;
       a.addEventListener('click', e=>{ e.preventDefault(); selectReport(r.date); });
       links.appendChild(a);
@@ -140,7 +140,7 @@
     $('viewerTitle').textContent=r.title || `Daily Issue Report — ${date}`;
     $('viewerMeta').textContent=r.displayDate || date;
     const url=r.url || `reports/${date}.html`;
-    $('viewer').src=`${url}?v=${Date.now()}`;
+    $('viewer').src=url;
     $('openNew').href=url;
     if(!state.month || state.month.getFullYear()!==parseDate(date).getFullYear() || state.month.getMonth()!==parseDate(date).getMonth()) state.month=new Date(parseDate(date).getFullYear(), parseDate(date).getMonth(), 1);
     renderCalendar(); renderLinks();
@@ -168,7 +168,7 @@
   $('prevMonth').addEventListener('click',()=>{ state.month.setMonth(state.month.getMonth()-1); renderCalendar(); });
   $('nextMonth').addEventListener('click',()=>{ state.month.setMonth(state.month.getMonth()+1); renderCalendar(); });
   $('mobileSelect').addEventListener('change', e=>selectReport(e.target.value));
-  $('reloadBtn').addEventListener('click',()=>{ if(state.selected) selectReport(state.selected); else init(); });
+  $('reloadBtn').addEventListener('click',()=>{ if(state.selected) $('viewer').contentWindow.location.reload(); else init(); });
   init();
 })();
 </script>
