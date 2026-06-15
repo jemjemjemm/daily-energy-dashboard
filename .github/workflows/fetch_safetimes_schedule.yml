@@ -1,18 +1,6 @@
 name: Daily Energy Dashboard - Daily Data Pipeline
 
 on:
-  schedule:
-    # GitHub Actions cron is best-effort and can be delayed or dropped.
-    # Run three times per slot; done files make later successful backups no-ops.
-    # Morning: 09:07, 09:17, 09:27 KST.
-    - cron: "7 0 * * 1-5"
-    - cron: "17 0 * * 1-5"
-    - cron: "27 0 * * 1-5"
-    # Evening: 17:07, 17:17, 17:27 KST.
-    - cron: "7 8 * * 1-5"
-    - cron: "17 8 * * 1-5"
-    - cron: "27 8 * * 1-5"
-
   workflow_dispatch:
     inputs:
       report_slot:
