@@ -1615,7 +1615,7 @@
       "needs_review": true
     },
     "news_afternoon": {
-      "source_file": "data/news/2026-06-16.evening.json",
+      "source_file": "data\\news\\2026-06-16.evening.json",
       "article_count": 3,
       "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
       "status": "updated",
@@ -1626,9 +1626,9 @@
   "news_trend_afternoon": {
     "summary": "△국제유가 5% 하락과 주유소 가격 반영 시차 △HD현대오일뱅크 유가 담합 혐의 수사 △이란 선박 호르무즈 통과와 종전 MOU 성과",
     "trend_paragraphs": [
-      "이데일리는 국제유가 5% 하락 이후 국내 주유소 가격 반영 시차와 유류세 환원 효과를 정리.",
-      "뉴시스는 HD현대오일뱅크 임직원 영장 청구를 계기로 유가 담합 혐의 수사 흐름과 정유업계 입장을 보도.",
-      "뉴시스는 이란 선박의 호르무즈 통과를 종전 MOU 이후 해상 운항 정상화 신호로 보도."
+      "이데일리는 국제유가 5% 하락과 주유소 가격 반영 시차.",
+      "뉴시스는 HD현대오일뱅크 유가 담합 혐의 수사.",
+      "뉴시스는 이란 선박 호르무즈 통과와 종전 MOU 성과."
     ],
     "articles": [
       {
@@ -1636,7 +1636,7 @@
         "press": "이데일리",
         "press_grade": "A",
         "url": "https://v.daum.net/v/20260616150135425",
-        "summary": "국제유가 5% 하락 이후 국내 주유소 가격 반영 시차와 유류세 환원 효과를 정리",
+        "summary": "국제유가 5% 하락과 주유소 가격 반영 시차",
         "published_at_kst": "",
         "industry_relevance": 5,
         "score": 14,
@@ -1653,7 +1653,7 @@
         "press": "뉴시스",
         "press_grade": "A",
         "url": "https://v.daum.net/v/20260616163251859",
-        "summary": "HD현대오일뱅크 임직원 영장 청구를 계기로 유가 담합 혐의 수사 흐름과 정유업계 입장을 보도",
+        "summary": "HD현대오일뱅크 유가 담합 혐의 수사",
         "published_at_kst": "",
         "industry_relevance": 5,
         "score": 11,
@@ -1670,7 +1670,7 @@
         "press": "뉴시스",
         "press_grade": "A",
         "url": "https://v.daum.net/v/20260616165948001",
-        "summary": "이란 선박의 호르무즈 통과를 종전 MOU 이후 해상 운항 정상화 신호로 보도",
+        "summary": "이란 선박 호르무즈 통과와 종전 MOU 성과",
         "published_at_kst": "",
         "industry_relevance": 4,
         "score": 12,

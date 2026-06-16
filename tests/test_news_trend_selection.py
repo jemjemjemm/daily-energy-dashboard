@@ -151,11 +151,32 @@ class NewsTrendSelectionTest(unittest.TestCase):
         self.assertNotIn("주요 매체가", summary)
         self.assertNotIn("등을 중심으로 보도", summary)
         self.assertIn("\u25b3", summary)
-        self.assertIn("\ud638\ub974\ubb34\uc988", summary)
-        self.assertIn("\uace0\ud658\uc728", summary)
+        self.assertIn("\ub300\uccb4 \uc6d0\uc720 \uc870\ub2ec", summary)
+        self.assertIn("\uc6d0\uc720\uc640 \ub098\ud504\ud0c0 \ub3c4\uc785 \ube44\uc6a9", summary)
         self.assertNotIn("'", summary)
         self.assertNotIn("\ub274\uc2a41\uc740", summary)
         self.assertNotIn("\ub9e4\uc77c\uacbd\uc81c\ub294", summary)
+
+    def test_generic_article_summary_falls_back_to_representative_title(self) -> None:
+        articles = [
+            {
+                "title": "\uad6d\uc81c\uc720\uac00 5% \ud558\ub77d\u2026\"\uadf8\ub798\uc11c \uc8fc\uc720\uc18c \uae30\ub984\uac12\uc740 \uc5b8\uc81c \ub0b4\ub824\uac00\ub098\uc694?\"",
+                "summary": "\uad6d\uc81c\uc720\uac00\uc640 \uc11d\uc720\uc2dc\uc7a5 \ubcc0\ub3d9 \uc694\uc778\uc744 \uc911\uc2ec\uc73c\ub85c \uc815\ub9ac",
+                "press": "\uc774\ub370\uc77c\ub9ac",
+            },
+            {
+                "title": "'\uc720\uac00 \ub2f4\ud569 \ud610\uc758' HD\ud604\ub300\uc624\uc77c\ubc45\ud06c \uc784\uc9c1\uc6d0 \uccab \uc601\uc7a5 \uccad\uad6c",
+                "summary": "\uc815\uc720\uc5c5\uacc4 \uc218\uc775\uc131\u00b7\uc6d0\uac00\u00b7\uc2dc\uc7a5 \uc5ec\uac74 \ubcc0\ud654\ub97c \uc911\uc2ec\uc73c\ub85c \ubcf4\ub3c4",
+                "press": "\ub274\uc2dc\uc2a4",
+            },
+        ]
+
+        summary = build_news_summary({}, articles)
+
+        self.assertIn("\uad6d\uc81c\uc720\uac00 5% \ud558\ub77d", summary)
+        self.assertIn("HD\ud604\ub300\uc624\uc77c\ubc45\ud06c", summary)
+        self.assertNotIn("\ubcc0\ub3d9 \uc694\uc778\uc744 \uc911\uc2ec\uc73c\ub85c \uc815\ub9ac", summary)
+        self.assertNotIn("\uc2dc\uc7a5 \uc5ec\uac74 \ubcc0\ud654\ub97c \uc911\uc2ec\uc73c\ub85c \ubcf4\ub3c4", summary)
 
     def test_empty_article_summary_uses_no_report_fallback(self) -> None:
         summary = build_news_summary({}, [])

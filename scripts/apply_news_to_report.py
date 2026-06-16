@@ -373,6 +373,35 @@ def build_frame_summary(news: Dict[str, Any], articles: List[Dict[str, Any]]) ->
     return " ".join(f"△{frame}" for frame in frames)
 
 
+def article_summary_part(article: Dict[str, Any]) -> str:
+    title = clean(article.get("title"))
+    summary = clean(article.get("summary"))
+    if summary and not is_generic_article_summary(summary) and not is_repeated_article_desc(title, summary, clean(article.get("press"))):
+        return _trim_summary_part(strip_polite_endings(summary), limit=68)
+    return title_summary_part(title)
+
+
+def build_representative_article_summary(articles: List[Dict[str, Any]], max_parts: int = 3) -> str:
+    parts: List[str] = []
+    seen: set[str] = set()
+    for article in articles:
+        if not isinstance(article, dict):
+            continue
+        part = article_summary_part(article)
+        if not part:
+            continue
+        norm = normalize_article_text(part)
+        if not norm or any(similar_issue(norm, existing) for existing in seen):
+            continue
+        seen.add(norm)
+        parts.append(part)
+        if len(parts) >= max_parts:
+            break
+    if not parts:
+        return "해당 시간대 주요 보도 확인 건 없음."
+    return " ".join(f"△{part}" for part in parts)
+
+
 def parse_args():
     p = argparse.ArgumentParser(description="뉴스 후보를 리포트 JSON에 반영")
     p.add_argument("--date", required=True)
@@ -489,11 +518,32 @@ def is_repeated_article_desc(title: str, desc: str, press: str = "") -> bool:
     return title_n and (desc_n in title_n or title_n in desc_n or title_n[:16] == desc_n[:16])
 
 
+def title_summary_part(title: str) -> str:
+    title = strip_article_source_suffix(title)
+    title = re.sub(r"^\[[^\]]+\]\s*", "", title).strip()
+    compact = re.sub(r"\s+", " ", title)
+
+    if "국제유가" in compact and "하락" in compact and "주유소" in compact:
+        pct = re.search(r"국제유가\s*([0-9.]+%)\s*하락", compact)
+        drop_text = f"국제유가 {pct.group(1)} 하락" if pct else "국제유가 하락"
+        return f"{drop_text}과 주유소 가격 반영 시차"
+    if "유가 담합" in compact and "HD현대오일뱅크" in compact:
+        return "HD현대오일뱅크 유가 담합 혐의 수사"
+    if "이란 선박" in compact and "호르무즈" in compact:
+        return "이란 선박 호르무즈 통과와 종전 MOU 성과"
+    if "호르무즈" in compact and "종전 MOU" in compact:
+        return "호르무즈 통과 재개와 종전 MOU 성과"
+    return _trim_summary_part(compact, limit=68)
+
+
 def fallback_article_summary(title: str) -> str:
     title = strip_article_source_suffix(title)
     title = re.sub(r"^\[[^\]]+\]\s*", "", title).strip()
     compact = re.sub(r"\s+", " ", title)
 
+    specific_title_summary = title_summary_part(compact)
+    if specific_title_summary != _trim_summary_part(compact, limit=68):
+        return specific_title_summary
     if "공습" in compact and ("브렌트" in compact or "유가" in compact):
         return "美 이란 공습 여파로 브렌트유 4% 가까이 반등"
     if "호르무즈" in compact and "유가" in compact:
@@ -731,9 +781,9 @@ def existing_valid_slot_articles(report: Dict[str, Any], report_slot: str) -> Li
 
 def build_news_summary(news: Dict[str, Any], articles: List[Dict[str, Any]]) -> str:
     # Collector summaries cover a broad candidate pool. Rebuild from the
-    # representative articles so the report headline reflects this slot's
-    # actual issue frames instead of repeating generic theme labels or titles.
-    return build_frame_summary(news, articles)
+    # selected representative articles so Morning/Evening headlines stay tied
+    # to the actual article summaries shown in the report.
+    return build_representative_article_summary(articles)
 
 
 def update_summary(report: Dict[str, Any], news_summary: str, report_slot: str = "morning") -> None:

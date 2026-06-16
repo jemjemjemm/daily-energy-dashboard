@@ -133,6 +133,7 @@
     function parseDate(dateText){ const [y,m,d]=dateText.split('-').map(Number); return new Date(y,m-1,d); }
     function formatShort(dateText){ const d=parseDate(dateText); return Number.isNaN(d.getTime()) ? (dateText||'-') : `${d.getMonth()+1}/${d.getDate()}`; }
     function formatMonth(dateObj){ return `${dateObj.getFullYear()}년 ${dateObj.getMonth()+1}월`; }
+    function cacheBust(url){ const joiner=String(url).includes('?') ? '&' : '?'; return `${url}${joiner}v=${Date.now()}`; }
     function isSameDay(a,b){ return a&&b&&a.getFullYear()===b.getFullYear()&&a.getMonth()===b.getMonth()&&a.getDate()===b.getDate(); }
     function setWarning(message){ const box=document.getElementById('warningBox'); if(!message){box.style.display='none';box.textContent='';return;} box.style.display='block'; box.textContent=message; }
 
@@ -325,7 +326,7 @@
       document.getElementById('reportTitle').textContent=report.title || `Daily Issue Report — ${dateText}`;
       document.getElementById('reportMeta').textContent=`${dateText} · ${report.url}`;
       const frame=document.getElementById('reportFrame'); const empty=document.getElementById('emptyState');
-      frame.src=report.url;
+      frame.src=cacheBust(report.url);
       frame.style.display='block'; empty.style.display='none';
       document.getElementById('openNew').href=report.url;
 
