@@ -302,7 +302,7 @@ def build_minimal_report(date_text: str, base_report_path: Path) -> Dict[str, An
         {
             "category": "데이터",
             "category_class": "data",
-            "title": "전일 주요 이슈 원문 데이터 없음",
+            "title": "전일 주요 이슈 확인 중",
             "description": "주요 이슈 자동 작성에 필요한 일정·기사 데이터가 부족해 별도 이해관계자 동향을 작성하지 않음.",
             "grade": ""
         }
@@ -312,8 +312,8 @@ def build_minimal_report(date_text: str, base_report_path: Path) -> Dict[str, An
         {
             "time": "-",
             "org": "데이터",
-            "title": "금일 주요 일정 원문 데이터 없음",
-            "relevance": "해당 날짜의 일정 원문을 확인하지 못해 일정 영향도 평가는 미작성."
+            "title": "금일 주요 일정 확인 중",
+            "relevance": "해당 날짜의 일정 원문이 확인되지 않아 일정 영향도 평가는 보류."
         }
     ]
 

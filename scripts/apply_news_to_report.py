@@ -594,7 +594,7 @@ def fallback_article_summary(title: str, context: str = "") -> str:
     if "정유" in compact and ("AI" in compact or "데이터센터" in compact or "액침냉각" in compact):
         return "액침냉각 등 정유사의 비석유 신사업 확대 흐름 조명"
     if "정유" in compact:
-        return "정유업계 수익성·원가·시장 여건 변화를 중심으로 보도"
+        return "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명"
     if "LNG" in compact:
         return "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도"
     if "유가" in compact or "원유" in compact or "석유" in compact:
