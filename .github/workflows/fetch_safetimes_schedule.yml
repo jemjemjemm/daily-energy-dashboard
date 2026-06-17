@@ -170,6 +170,24 @@ jobs:
         run: |
           echo "[INFO] 비영업일이므로 자동 수집/리포트 생성을 건너뜁니다: $TARGET_DATE"
 
+      - name: Skip premature evening report
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.REPORT_SLOT == 'evening'
+        run: |
+          python - <<'PY' >> "$GITHUB_ENV"
+          import datetime as dt
+          from zoneinfo import ZoneInfo
+
+          now = dt.datetime.now(ZoneInfo("Asia/Seoul"))
+          target = dt.date.fromisoformat("${{ env.TARGET_DATE }}")
+          cutoff = dt.time(17, 0)
+
+          if target == now.date() and now.time() < cutoff:
+              print("RUN_MODE=skip")
+              print(f"SKIP_REASON={target.isoformat()} evening report is not publishable before 17:00 KST")
+          PY
+          echo "RUN_MODE=$RUN_MODE"
+          echo "SKIP_REASON=${SKIP_REASON:-}"
+
       - name: Check duplicate report slot run
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         run: |
