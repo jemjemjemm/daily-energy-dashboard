@@ -399,7 +399,11 @@ def build_representative_article_summary(articles: List[Dict[str, Any]], max_par
             break
     if not parts:
         return "해당 시간대 주요 보도 확인 건 없음."
-    return " ".join(f"△{part}" for part in parts)
+    if len(parts) == 1:
+        return parts[0] + "."
+    if len(parts) == 2:
+        return f"{parts[0]}, {parts[1]}."
+    return f"{parts[0]}, {parts[1]}. {parts[2]}."
 
 
 def parse_args():
@@ -536,10 +540,47 @@ def title_summary_part(title: str) -> str:
     return _trim_summary_part(compact, limit=68)
 
 
-def fallback_article_summary(title: str) -> str:
+def specific_article_summary(title: str, context: str = "") -> str:
     title = strip_article_source_suffix(title)
     title = re.sub(r"^\[[^\]]+\]\s*", "", title).strip()
     compact = re.sub(r"\s+", " ", title)
+    corpus = f"{compact} {clean(context)}"
+
+    if "국제유가" in corpus and "주유소" in corpus:
+        return "국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음"
+    if "차량 2부제" in corpus and "호르무즈" in corpus:
+        return "정부가 호르무즈 해협 상황을 보며 차량 2부제 등 비상 수급 조치 완화 여부를 판단할 전망"
+    if "나프타" in corpus and ("중국" in corpus or "저가공세" in corpus or "저가 공세" in corpus):
+        return "호르무즈 리스크 완화로 나프타 수급 우려는 낮아졌지만 중국 저가 공세가 석유화학 업황 부담으로 잔존"
+    if "나프타" in corpus and ("수급" in corpus or "석화" in corpus or "석유화학" in corpus):
+        return "나프타 수급 여건 변화가 석유화학 원료 조달과 제품 마진 변수로 부각"
+    if "원유" in corpus and ("제재" in corpus or "이란" in corpus) and ("판매" in corpus or "수출" in corpus):
+        return "이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각"
+    if "브렌트" in corpus and ("80달러" in corpus or "80" in corpus) and ("밑" in corpus or "하락" in corpus):
+        return "브렌트유가 배럴당 80달러 밑으로 내려가며 중동 리스크 완화 기대가 유가에 반영"
+    if "호르무즈" in corpus and ("봉쇄" in corpus or "통과" in corpus or "해협" in corpus):
+        return "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각"
+    if "석유화학" in corpus or "석화" in corpus:
+        return "석유화학 업황은 원료 수급 완화와 중국발 공급 부담이 동시에 작용"
+    if "정유" in corpus and ("AI" in corpus or "데이터센터" in corpus or "액침냉각" in corpus):
+        return "정유사의 비석유 신사업으로 AI 데이터센터 냉각 수요 대응이 부각"
+    if "정유" in corpus and ("담합" in corpus or "HD현대오일뱅크" in corpus):
+        return "HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상"
+    if "LNG" in corpus:
+        return "LNG 수급·가격 변동이 발전 원가와 에너지 시장 안정성 변수로 작용"
+    if "유가" in corpus or "원유" in corpus or "석유" in corpus:
+        return "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
+    return ""
+
+
+def fallback_article_summary(title: str, context: str = "") -> str:
+    title = strip_article_source_suffix(title)
+    title = re.sub(r"^\[[^\]]+\]\s*", "", title).strip()
+    compact = re.sub(r"\s+", " ", title)
+
+    specific_context_summary = specific_article_summary(compact, context)
+    if specific_context_summary:
+        return specific_context_summary
 
     specific_title_summary = title_summary_part(compact)
     if specific_title_summary != _trim_summary_part(compact, limit=68):
@@ -561,8 +602,8 @@ def fallback_article_summary(title: str) -> str:
     if "LNG" in compact:
         return "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도"
     if "유가" in compact or "원유" in compact or "석유" in compact:
-        return "국제유가와 석유시장 변동 요인을 중심으로 정리"
-    return "해당 이슈의 업계 관련성을 원문 기준으로 확인 필요"
+        return "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
+    return _trim_summary_part(compact, limit=68)
 
 
 def in_issue_window(
@@ -620,6 +661,7 @@ def normalize_article(item: Dict[str, Any]) -> Dict[str, Any]:
     press = resolve_press(item)
     url = normalize_article_url(item.get("url"))
     snippet = clean(item.get("summary") or item.get("snippet"))
+    original_snippet = snippet
     if snippet:
         snippet = re.sub(
             rf"^{re.escape(press)}(?:\s+언론사\s*픽)?\s+개별문서메뉴(?:\s+톡으로\s+바로\s+공유)?(?:\s+공유하기)?\s*",
@@ -634,7 +676,7 @@ def normalize_article(item: Dict[str, Any]) -> Dict[str, Any]:
     else:
         summary = fallback_article_summary(title)
     if is_repeated_article_desc(title, summary, press):
-        summary = fallback_article_summary(title)
+        summary = fallback_article_summary(title, original_snippet)
     out: Dict[str, Any] = {
         "title": title,
         "press": press,

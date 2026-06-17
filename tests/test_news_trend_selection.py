@@ -147,10 +147,9 @@ class NewsTrendSelectionTest(unittest.TestCase):
         )
 
         self.assertNotIn("\uc218\uc9d1 \ud6c4\ubcf4 \uc804\uccb4", summary)
-        self.assertRegex(summary, r"^△.+")
+        self.assertNotRegex(summary, r"^△")
         self.assertNotIn("주요 매체가", summary)
         self.assertNotIn("등을 중심으로 보도", summary)
-        self.assertIn("\u25b3", summary)
         self.assertIn("\ub300\uccb4 \uc6d0\uc720 \uc870\ub2ec", summary)
         self.assertIn("\uc6d0\uc720\uc640 \ub098\ud504\ud0c0 \ub3c4\uc785 \ube44\uc6a9", summary)
         self.assertNotIn("'", summary)
@@ -182,6 +181,37 @@ class NewsTrendSelectionTest(unittest.TestCase):
         summary = build_news_summary({}, [])
 
         self.assertEqual(summary, "\ud574\ub2f9 \uc2dc\uac04\ub300 \uc8fc\uc694 \ubcf4\ub3c4 \ud655\uc778 \uac74 \uc5c6\uc74c.")
+
+    def test_617_articles_get_content_summaries_not_titles_or_review_notes(self) -> None:
+        articles = [
+            normalize_article({
+                "title": "국제유가 많이 떨어졌는데…주유소 기름값은 언제쯤?",
+                "press": "SBS",
+                "url": "https://v.daum.net/v/20260617064205528",
+                "snippet": "국제유가가 하락했지만 정유사 재고와 수요, 유류세 인하분 등으로 주유소 가격 반영에는 시간이 걸릴 전망이다.",
+            }),
+            normalize_article({
+                "title": "차량 2부제 언제 풀리나… 정부, 호르무즈 상황 따라 결정 전망",
+                "press": "국민일보",
+                "url": "https://v.daum.net/v/20260617002203535",
+                "snippet": "정부가 호르무즈 해협 상황을 보며 차량 2부제 등 비상 수급 조치 완화 여부를 검토한다.",
+            }),
+            normalize_article({
+                "title": "나프타 수급 ‘숨통’ 텄지만…중국 저가공세 ‘숙제’ 남은 석화업계",
+                "press": "경향신문",
+                "url": "https://v.daum.net/v/20260616203521388",
+                "snippet": "호르무즈 해협 봉쇄 우려가 완화되며 나프타 수급 부담은 줄었지만 중국발 공급과잉과 저가 공세는 남아 있다.",
+            }),
+        ]
+
+        summary = build_news_summary({}, articles)
+
+        self.assertIn("주유소 가격 반영", summary)
+        self.assertIn("차량 2부제", summary)
+        self.assertIn("나프타 수급", summary)
+        self.assertNotIn("△국제유가 많이 떨어졌는데", summary)
+        self.assertNotIn("국제유가와 석유시장 변동 요인을 중심으로 정리", summary)
+        self.assertNotIn("해당 이슈의 업계 관련성을 원문 기준으로 확인 필요", summary)
 
     def test_evening_summary_appends_without_replacing_morning(self) -> None:
         report = {

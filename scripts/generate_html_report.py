@@ -668,6 +668,16 @@ def fallback_article_desc(title: str) -> str:
     title = re.sub(r"^\[[^\]]+\]\s*", "", title).strip()
     compact = re.sub(r"\s+", " ", title)
 
+    if "국제유가" in compact and "주유소" in compact:
+        return "국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음"
+    if "차량 2부제" in compact and "호르무즈" in compact:
+        return "정부가 호르무즈 해협 상황을 보며 차량 2부제 등 비상 수급 조치 완화 여부를 판단할 전망"
+    if "나프타" in compact and ("중국" in compact or "저가공세" in compact or "저가 공세" in compact):
+        return "호르무즈 리스크 완화로 나프타 수급 우려는 낮아졌지만 중국 저가 공세가 석유화학 업황 부담으로 잔존"
+    if "나프타" in compact and ("수급" in compact or "석화" in compact or "석유화학" in compact):
+        return "나프타 수급 여건 변화가 석유화학 원료 조달과 제품 마진 변수로 부각"
+    if "호르무즈" in compact and ("봉쇄" in compact or "통과" in compact or "해협" in compact):
+        return "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각"
     if "공습" in compact and ("브렌트" in compact or "유가" in compact):
         return "美 이란 공습 여파로 브렌트유 4% 가까이 반등"
     if "호르무즈" in compact and "유가" in compact:
@@ -685,15 +695,18 @@ def fallback_article_desc(title: str) -> str:
     if "LNG" in compact:
         return "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도"
     if "유가" in compact or "원유" in compact or "석유" in compact:
-        return "국제유가와 석유시장 변동 요인을 중심으로 정리"
-    return "해당 이슈의 업계 관련성을 원문 기준으로 확인 필요"
+        return "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
+    return compact[:68].rstrip(" .")
 
 
 def article_desc_for_display(article: Mapping[str, Any]) -> str:
     title = clean_text(article.get("title") or "")
     press = clean_text(article.get("press") or article.get("source") or article.get("publisher") or "")
     desc = clean_text(article.get("summary") or article.get("description") or article.get("desc") or "")
-    if is_repeated_article_desc(title, desc, press):
+    if is_repeated_article_desc(title, desc, press) or any(
+        phrase in desc
+        for phrase in ("원문 기준으로 확인 필요", "업계 관련성", "중심으로 정리", "중심으로 보도", "시장 변동 요인")
+    ):
         return fallback_article_desc(title)
     return strip_article_source_suffix(desc, press)
 

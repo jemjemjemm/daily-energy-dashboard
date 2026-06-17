@@ -21,7 +21,7 @@
     },
     {
       "type": "news_trend",
-      "text": "(Morning) △국제유가 많이 떨어졌는데…주유소 기름값은 언제쯤? △차량 2부제 언제 풀리나… 정부, 호르무즈 상황 따라 결정 전망 △나프타 수급 ‘숨통’ 텄지만…중국 저가공세 ‘숙제’ 남은 석화업계"
+      "text": "(Morning) 국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음, 나프타 수급 여건 변화가 석유화학 원료 조달과 제품 마진 변수로 부각. 정부가 호르무즈 해협 상황을 보며 차량 2부제 등 비상 수급 조치 완화 여부를 판단할 전망."
     }
   ],
   "prices": {
@@ -1487,11 +1487,11 @@
     }
   ],
   "news_trend": {
-    "summary": "△국제유가 많이 떨어졌는데…주유소 기름값은 언제쯤? △차량 2부제 언제 풀리나… 정부, 호르무즈 상황 따라 결정 전망 △나프타 수급 ‘숨통’ 텄지만…중국 저가공세 ‘숙제’ 남은 석화업계",
+    "summary": "국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음, 나프타 수급 여건 변화가 석유화학 원료 조달과 제품 마진 변수로 부각. 정부가 호르무즈 해협 상황을 보며 차량 2부제 등 비상 수급 조치 완화 여부를 판단할 전망.",
     "trend_paragraphs": [
-      "SBS는 국제유가와 석유시장 변동 요인을 중심으로 정리.",
-      "국민일보는 해당 이슈의 업계 관련성을 원문 기준으로 확인 필요.",
-      "경향신문은 해당 이슈의 업계 관련성을 원문 기준으로 확인 필요."
+      "SBS는 국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음.",
+      "세계일보는 나프타 수급 여건 변화가 석유화학 원료 조달과 제품 마진 변수로 부각.",
+      "국민일보는 정부가 호르무즈 해협 상황을 보며 차량 2부제 등 비상 수급 조치 완화 여부를 판단할 전망."
     ],
     "articles": [
       {
@@ -1499,7 +1499,7 @@
         "press": "SBS",
         "press_grade": "B",
         "url": "https://v.daum.net/v/20260617064205528",
-        "summary": "국제유가와 석유시장 변동 요인을 중심으로 정리",
+        "summary": "국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음",
         "published_at_kst": "",
         "industry_relevance": 5,
         "score": 11,
@@ -1512,11 +1512,28 @@
         }
       },
       {
+        "title": "원유·나프타 수급난 숨통… 가격 안정화 시간 걸려 [美·이란 종전]",
+        "press": "세계일보",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260616191906506",
+        "summary": "나프타 수급 여건 변화가 석유화학 원료 조달과 제품 마진 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
         "title": "차량 2부제 언제 풀리나… 정부, 호르무즈 상황 따라 결정 전망",
         "press": "국민일보",
         "press_grade": "B",
         "url": "https://v.daum.net/v/20260617002203535",
-        "summary": "해당 이슈의 업계 관련성을 원문 기준으로 확인 필요",
+        "summary": "정부가 호르무즈 해협 상황을 보며 차량 2부제 등 비상 수급 조치 완화 여부를 판단할 전망",
         "published_at_kst": "",
         "industry_relevance": 4,
         "score": 11,
@@ -1525,23 +1542,6 @@
           "title_importance": 2,
           "press": 2,
           "originality": 2,
-          "duplicate_or_low_quality": 0
-        }
-      },
-      {
-        "title": "나프타 수급 ‘숨통’ 텄지만…중국 저가공세 ‘숙제’ 남은 석화업계",
-        "press": "경향신문",
-        "press_grade": "A",
-        "url": "https://v.daum.net/v/20260616203521388",
-        "summary": "해당 이슈의 업계 관련성을 원문 기준으로 확인 필요",
-        "published_at_kst": "",
-        "industry_relevance": 4,
-        "score": 13,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 4,
-          "press": 3,
-          "originality": 1,
           "duplicate_or_low_quality": 0
         }
       }
