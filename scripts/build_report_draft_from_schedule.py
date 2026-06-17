@@ -721,9 +721,176 @@ def build_issue_cards_from_schedules(items: List[Dict[str, str]]) -> List[Dict[s
     return cards
 
 
+KOREAN_RELEVANT_KEYWORDS = [
+    "재경부", "재정경제부", "기획처", "기획예산처", "산업부", "산업통상부",
+    "기후부", "기후에너지환경부", "공정위",
+    "에너지", "전력", "전력망", "발전공기업", "육상풍력", "LNG", "가스",
+    "석유", "정유", "석유화학", "유가", "유류", "민생물가", "거시경제",
+    "금융회의", "개발금융", "국가전략기술", "한미전략투자공사",
+    "공급망", "통상",
+]
+
+KOREAN_EXCLUDE_KEYWORDS = [
+    "야구", "축구", "골프", "문화", "공연", "전시", "선거", "체육",
+    "맛집", "여행", "복권",
+]
+
+KOREAN_SCHEDULE_SIGNALS = [
+    "회의", "간담회", "포럼", "행사", "본회의", "창립", "창립식", "점검",
+    "현장점검", "출장", "브리핑", "발표", "토론회", "세미나", "차관회의",
+]
+
+
+def clean_korean_bullet(value: str) -> str:
+    value = normalize_line(value)
+    value = re.sub(r"^[▲■ㆍ·\-\*\s]+", "", value).strip()
+    return value
+
+
+def has_korean_schedule_signal(value: str) -> bool:
+    return bool(re.search(r"\d{1,2}:\d{2}", value)) or any(word in value for word in KOREAN_SCHEDULE_SIGNALS)
+
+
+def parse_korean_time_title(value: str) -> tuple[str, str, str]:
+    title = clean_korean_bullet(value)
+    parsed_time = ""
+    locations: List[str] = []
+
+    while True:
+        match = re.search(r"\(([^()]*)\)\s*$", title)
+        if not match:
+            break
+        inner = normalize_line(match.group(1))
+        time_match = re.search(r"(\d{1,2}):(\d{2})", inner)
+        if time_match and not parsed_time:
+            parsed_time = f"{int(time_match.group(1)):02d}:{time_match.group(2)}"
+        location = re.sub(r"\d{1,2}:\d{2}", "", inner).strip()
+        if location:
+            locations.insert(0, location)
+        title = normalize_line(title[: match.start()])
+
+    leading = re.match(r"^(\d{1,2}):(\d{2})\s*", title)
+    if leading:
+        if not parsed_time:
+            parsed_time = f"{int(leading.group(1)):02d}:{leading.group(2)}"
+        title = normalize_line(title[leading.end():])
+
+    inline = re.search(r"(\d{1,2}):(\d{2})", title)
+    if inline and not parsed_time:
+        parsed_time = f"{int(inline.group(1)):02d}:{inline.group(2)}"
+        title = normalize_line((title[: inline.start()] + " " + title[inline.end():]).strip())
+
+    return parsed_time or "시간 미정", title, " · ".join(locations)
+
+
+def split_korean_actor_event(value: str, fallback_org: str = "") -> tuple[str, str, str]:
+    value = clean_korean_bullet(value)
+    if "," in value:
+        actor, event = [part.strip() for part in value.split(",", 1)]
+        org = actor or fallback_org
+        return actor or org, org, event
+    return fallback_org or "확인", fallback_org or "확인", value
+
+
+def korean_relevance_key(item: Dict[str, str]) -> bool:
+    combined = f"{item.get('org','')} {item.get('attendee','')} {item.get('title','')}"
+    if any(word in combined for word in KOREAN_EXCLUDE_KEYWORDS) and not any(
+        word in combined for word in ["에너지", "전력", "산업", "유가", "석유", "LNG"]
+    ):
+        return False
+    return any(word in combined for word in KOREAN_RELEVANT_KEYWORDS)
+
+
+def parse_modern_korean_schedule_entries(body: str, max_items: int) -> List[Dict[str, str]]:
+    lines = split_body_lines(body)
+    entries: List[Dict[str, str]] = []
+    top_section = ""
+    current_category = ""
+    current_org = ""
+    current_person = ""
+    order = 0
+
+    for raw_line in lines:
+        line = normalize_line(raw_line)
+        if not line:
+            continue
+
+        if line.startswith("■"):
+            if "분야별" in line:
+                top_section = "field"
+            elif "총리 및 장차관" in line:
+                top_section = "minister"
+            else:
+                top_section = "other"
+            current_category = ""
+            current_org = ""
+            current_person = ""
+            continue
+
+        section = schedule_section_name(line)
+        if section:
+            current_category = section
+            current_person = ""
+            if top_section == "minister":
+                current_org = section
+            continue
+
+        if top_section == "field":
+            if not line.startswith("▲"):
+                continue
+            attendee, org, event_text = split_korean_actor_event(line, current_category)
+            priority = "2" if re.search(r"[가-힣]{2,4}\s*(장관|차관|위원장|본부장|청장)", attendee) else "3"
+        elif top_section == "minister":
+            if line.startswith("▲"):
+                person_line = clean_korean_bullet(line)
+                if has_korean_schedule_signal(person_line) and "," in person_line:
+                    attendee, org, event_text = split_korean_actor_event(person_line, current_org)
+                else:
+                    current_person = person_line
+                    continue
+            else:
+                if not current_person or not has_korean_schedule_signal(line):
+                    continue
+                attendee = current_person
+                org = current_org or current_category
+                event_text = line
+            priority = "1"
+        else:
+            continue
+
+        time_text, title, location = parse_korean_time_title(event_text)
+        if not title:
+            continue
+        if location:
+            title = f"{title} ({location})"
+
+        entry = {
+            "time": time_text,
+            "org": org or current_category or "확인",
+            "attendee": attendee or org or current_category or "확인",
+            "title": title,
+            "raw_title": event_text,
+            "source_priority": priority,
+            "source_section": top_section,
+            "order": str(order),
+            "relevance": "",
+        }
+        order += 1
+        if korean_relevance_key(entry):
+            entries.append(entry)
+        if len(entries) >= max_items:
+            break
+
+    return sort_schedule_items(entries)
+
+
 def schedule_items_from_json_or_body(schedule_data: Dict[str, Any], max_items: int) -> List[Dict[str, str]]:
     # 세이프타임즈 items는 text만 저장되는 경우가 많아 직전 기관 헤더(▲ 산업부 등)가 사라진다.
     # 따라서 원문 body를 우선 파싱해 기관 문맥을 살리고, body 파싱이 실패할 때만 items를 fallback으로 사용한다.
+    parsed = parse_modern_korean_schedule_entries(source_body(schedule_data), max_items=max_items * 60)
+    if parsed:
+        return merge_schedule_items(parsed, max_items=max_items)
+
     parsed = parse_detailed_schedule_entries(source_body(schedule_data), max_items=max_items * 60)
     if parsed:
         return filter_relevant_items(parsed, max_items=max_items)
@@ -744,6 +911,10 @@ def schedule_candidate_count(schedule_data: Dict[str, Any], max_items: int) -> i
     A zero final schedule count can mean either "no report-relevant schedule" or
     "source/parse failed"; this count keeps those cases separate.
     """
+    parsed = parse_modern_korean_schedule_entries(source_body(schedule_data), max_items=max_items * 60)
+    if parsed:
+        return len(parsed)
+
     parsed = parse_detailed_schedule_entries(source_body(schedule_data), max_items=max_items * 60)
     if parsed:
         return len(parsed)

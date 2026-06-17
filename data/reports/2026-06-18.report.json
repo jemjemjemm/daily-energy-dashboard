@@ -2,12 +2,12 @@
   "template_version": "2.0",
   "report": {
     "report_date": "2026-06-18",
-    "display_date": "6/18(목)",
-    "previous_day_label": "6/17(수)",
-    "today_label": "6/18(목)",
-    "generated_at": "2026-06-18 08:23:24 KST",
-    "review_status": "가격 중심 자동생성 초안",
-    "report_version": "fallback-price-report-v1.3",
+    "display_date": "2026년 6월 18일 (목)",
+    "previous_day_label": "6/17",
+    "today_label": "6/18",
+    "generated_at": "2026-06-18 08:33 KST",
+    "review_status": "초안",
+    "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
     "report_title": "Daily Issue Report",
     "report_badge": "정유 · 석유화학 · LNG",
@@ -16,8 +16,8 @@
   },
   "summary": [
     {
-      "type": "price_only",
-      "text": "유가 및 석유제품 가격 카드는 기준일 전일 이하의 최신 history.json 데이터를 기준으로 반영합니다."
+      "type": "today",
+      "text": "금일 주요 일정: 확대 거시경제금융회의, 민생물가 특별관리 관계장관 TF 회의, 개발금융 국제포럼, 육상풍력 전주기 관리 강화 관련 업계 간담회."
     },
     {
       "type": "news_trend",
@@ -1335,25 +1335,192 @@
   },
   "issues": [
     {
-      "category": "데이터",
-      "category_class": "data",
-      "title": "전일 주요 이슈 확인 중",
-      "description": "주요 이슈 자동 작성에 필요한 일정·기사 데이터가 부족해 별도 이해관계자 동향을 작성하지 않음.",
-      "grade": "",
+      "category": "정책",
+      "category_class": "",
+      "title": "일자리 전담반",
+      "description": "08:00 · 이형일 1차관",
+      "time": "08:00",
+      "org": "이형일 1차관",
+      "location": "",
       "links": [
         {
           "label": "관련 기사 없음",
           "url": ""
         }
-      ]
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "정책",
+      "category_class": "",
+      "title": "섬진강 유역 현장방문",
+      "description": "10:30 · 김성환 장관",
+      "time": "10:30",
+      "org": "김성환 장관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "정책",
+      "category_class": "",
+      "title": "해상풍력 정책간담회",
+      "description": "10:30 · 이호현 2차관",
+      "time": "10:30",
+      "org": "이호현 2차관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "정책",
+      "category_class": "",
+      "title": "녹조계절관리제 중앙추진단 회의",
+      "description": "10:40 · 금한승 1차관",
+      "time": "10:40",
+      "org": "금한승 1차관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "에너지",
+      "category_class": "",
+      "title": "묘도 LNG허브터미널 공사 현장점검",
+      "description": "13:00 · 김민재 차관",
+      "time": "13:00",
+      "org": "김민재 차관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "정책",
+      "category_class": "",
+      "title": "기획예산처 주관 통합돌봄 현장 간담회",
+      "description": "14:00 · 현수엽 복지부 1차관",
+      "time": "14:00",
+      "org": "현수엽 복지부 1차관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
     }
   ],
   "schedules": [
     {
-      "time": "-",
-      "org": "데이터",
-      "title": "금일 주요 일정 확인 중",
-      "relevance": "해당 날짜의 일정 원문이 확인되지 않아 일정 영향도 평가는 보류."
+      "time": "07:40",
+      "org": "구윤철 부총리 겸 재정경제부 장관",
+      "attendees": "구윤철 부총리 겸 재정경제부 장관",
+      "title": "확대 거시경제금융회의",
+      "relevance": ""
+    },
+    {
+      "time": "09:00",
+      "org": "구윤철 부총리 겸 재정경제부 장관, 송미령 장관, 김용재 식약차장, 현수엽 복지부 1차관, 이병권 2차관, 남동일 부위원장, 김민재 차관, 김영수 1차관",
+      "attendees": "구윤철 부총리 겸 재정경제부 장관, 송미령 장관, 김용재 식약차장, 현수엽 복지부 1차관, 이병권 2차관, 남동일 부위원장, 김민재 차관, 김영수 1차관",
+      "title": "민생물가 특별관리 관계장관 TF 회의",
+      "relevance": ""
+    },
+    {
+      "time": "10:00",
+      "org": "허장 2차관",
+      "attendees": "허장 2차관",
+      "title": "개발금융 국제포럼",
+      "relevance": ""
+    },
+    {
+      "time": "10:00",
+      "org": "이호현 2차관",
+      "attendees": "이호현 2차관",
+      "title": "육상풍력 전주기 관리 강화 관련 업계 간담회",
+      "relevance": ""
+    },
+    {
+      "time": "10:00",
+      "org": "김성환 장관",
+      "attendees": "김성환 장관",
+      "title": "전력망 건설 대책위 제3차 간담회",
+      "relevance": ""
+    },
+    {
+      "time": "10:00",
+      "org": "이형일 1차관, 임기근 기획예산처 차관, 금한승 1차관",
+      "attendees": "이형일 1차관, 임기근 기획예산처 차관, 금한승 1차관",
+      "title": "차관회의",
+      "relevance": ""
+    },
+    {
+      "time": "14:00",
+      "org": "박홍근 기획예산처 장관",
+      "attendees": "박홍근 기획예산처 장관",
+      "title": "국가전략기술 NEXT 프로젝트 추진대회",
+      "relevance": ""
+    },
+    {
+      "time": "14:00",
+      "org": "김성환 장관",
+      "attendees": "김성환 장관",
+      "title": "발전공기업 역할 재정립 연구용역 중간보고회",
+      "relevance": ""
+    },
+    {
+      "time": "14:10",
+      "org": "사회",
+      "attendees": "사회",
+      "title": "카카오 공정위 상대 시정명령 및 과징금취소 파기환송심 선고",
+      "relevance": ""
+    },
+    {
+      "time": "15:00",
+      "org": "구윤철 부총리 겸 재정경제부 장관, 김진아 2차관",
+      "attendees": "구윤철 부총리 겸 재정경제부 장관, 김진아 2차관",
+      "title": "한미전략투자공사 창립 행사",
+      "relevance": ""
+    },
+    {
+      "time": "15:00",
+      "org": "문신학 1차관",
+      "attendees": "문신학 1차관",
+      "title": "한미전략투자공사 창립식",
+      "relevance": ""
+    },
+    {
+      "time": "16:00",
+      "org": "임기근 기획예산처 차관",
+      "attendees": "임기근 기획예산처 차관",
+      "title": "제4차 민간투자사업심의위원회",
+      "relevance": ""
     }
   ],
   "news_trend": {
@@ -1422,17 +1589,34 @@
   },
   "quality_control": {
     "quality_notes": [
-      "일정 또는 기사 데이터 부족으로 기본 리포트 초안을 생성함.",
-      "정책·일정·기사 관련 내용은 원문 확인 후 보완해야 합니다.",
-      "가격 그래프와 가격 카드는 history.json 또는 오피넷 수집 데이터 기준으로 반영됩니다.",
+      "기사 제목·URL·발행일 확인 후 대표 기사로 사용합니다.",
+      "일정·보도자료 원문 확인 범위 내에서 작성합니다.",
+      "가격 데이터에서 0값은 카드·그래프 산출에서 제외합니다.",
+      "정책 방향, 정부 의도, 업계 손익 영향은 원문 근거가 없는 경우 단정하지 않습니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(4/17~6/17)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
       "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
     ],
     "sources": [
       {
-        "name": "장기 가격 이력 history.json",
-        "type": "price-history",
+        "name": "오늘의 주요일정",
+        "type": "schedule",
+        "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243563"
+      },
+      {
+        "name": "국제 원유가격 원천 데이터",
+        "type": "price_file",
+        "url": ""
+      },
+      {
+        "name": "국제 석유제품가격 원천 데이터",
+        "type": "price_file",
+        "url": ""
+      },
+      {
+        "name": "대표 기사 원문",
+        "type": "news",
         "url": ""
       },
       {
@@ -1483,19 +1667,24 @@
     ]
   },
   "automation": {
-    "fallback_report": {
-      "created_at": "2026-06-18 08:23:24 KST",
-      "reason": "missing or empty schedule/news source data",
-      "script": "ensure_report_draft.py v1.3",
-      "scope": "price-centered report without fabricated issue/news content"
+    "validation": {
+      "today_schedule_status": "ok",
+      "previous_schedule_status": "ok"
     },
     "safetimes": {
       "today_source_file_date": "2026-06-18",
+      "today_source_title": "[주요일정·18일] 쿠팡 불공정행위 엄중 처분 촉구 기자회견",
+      "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243563",
+      "today_source_published_at": "2026-06-18",
+      "today_source_schedule_candidate_count": 41,
+      "today_parsed_schedule_count": 12,
       "previous_source_file_date": "2026-06-17",
-      "today_source_schedule_candidate_count": 0,
-      "previous_source_schedule_candidate_count": 163,
-      "previous_source_title": "오늘의 주요일정 2026-06-17",
-      "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243533"
+      "previous_source_title": "",
+      "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243533",
+      "previous_source_schedule_candidate_count": 22,
+      "previous_parsed_schedule_count": 12,
+      "parser_version": "build_report_draft_from_schedule.py v2.3-merged-schedule-attendees",
+      "needs_review": true
     },
     "news": {
       "source_file": "data\\news\\2026-06-18.json",
@@ -1520,7 +1709,7 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-06-18 08:23:25 KST",
+      "merged_at": "2026-06-18 08:33:11 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }

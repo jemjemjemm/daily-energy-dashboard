@@ -55,6 +55,7 @@ KNOWN_IDX_BY_DATE = {
     "2026-06-09": 243308,
     "2026-06-10": 243335,
     "2026-06-17": 243533,
+    "2026-06-18": 243563,
 }
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -127,6 +128,10 @@ def normalize_text(value: str) -> str:
     return re.sub(r"\s+", " ", value or "").strip()
 
 
+def is_schedule_article_title(title: str) -> bool:
+    return "주요일정" in title or "?ㅻ뒛??二쇱슂?쇱젙" in title
+
+
 def day_patterns(target: datetime) -> List[str]:
     day = target.day
     return [
@@ -138,6 +143,10 @@ def day_patterns(target: datetime) -> List[str]:
 
 
 def parse_approved_date_from_text(text: str) -> str:
+    m = re.search(r"승인\s*(20\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})", text)
+    if m:
+        return f"{int(m.group(1)):04d}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+
     # 기사 본문 내 "승인 2026.05.18 07:03" 형식
     m = re.search(r"승인\s*(20\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})", text)
     if m:
@@ -156,7 +165,7 @@ def collect_search_candidates(max_pages: int) -> List[Dict[str, str]]:
     seen = set()
 
     for page in range(1, max_pages + 1):
-        html = fetch(SEARCH_URL, params={"page": page, "sc_word": "오늘의 주요일정"})
+        html = fetch(SEARCH_URL, params={"page": page, "sc_word": "주요일정"})
         soup = BeautifulSoup(html, "html.parser")
         page_added = 0
 
@@ -164,7 +173,7 @@ def collect_search_candidates(max_pages: int) -> List[Dict[str, str]]:
             title = normalize_text(a.get_text(" ", strip=True))
             href = a.get("href", "")
 
-            if "오늘의 주요일정" not in title:
+            if not is_schedule_article_title(title):
                 continue
             if "articleView" not in href:
                 continue
@@ -195,6 +204,11 @@ def parse_article_candidate(article: Dict[str, str]) -> Dict[str, Any]:
 
     h1 = soup.find("h1")
     title = normalize_text(h1.get_text(" ", strip=True)) if h1 else article["title"]
+    if not title:
+        meta_title = soup.select_one("meta[property='og:title'], meta[name='title']")
+        title = normalize_text(meta_title.get("content", "")) if meta_title else ""
+    if not title:
+        title = article["title"]
 
     body_node = (
         soup.select_one("#article-view-content-div")
@@ -270,10 +284,13 @@ def extract_items(raw_text: str) -> List[Dict[str, str]]:
             continue
 
         # 기사 UI/메뉴성 문구 제외
-        if any(skip in clean for skip in ["댓글", "SNS 기사", "본문 글씨", "저작권", "회원로그인", "바로가기"]):
+        if any(skip in clean for skip in [
+            "댓글", "SNS 기사", "본문 글씨", "저작권", "회원로그인", "바로가기",
+            "이 기사를 공유합니다", "기사보내기", "출처 :",
+        ]):
             continue
 
-        if re.search(r"(\d{1,2}:\d{2}|오전|오후|국회|정부|장관|위원회|브리핑|회의|산업부|기후|에너지|공정위|금융위)", clean):
+        if re.search(r"(\d{1,2}:\d{2}|오전|오후|국회|정부|장관|차관|위원장|위원회|브리핑|회의|간담회|포럼|출장|현장점검|본회의|창립|산업부|기후|에너지|공정위|금융위)", clean):
             seen.add(clean)
             items.append({"text": clean})
 
