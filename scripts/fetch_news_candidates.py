@@ -63,6 +63,7 @@ USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36"
 )
+REQUEST_TIMEOUT_SECONDS = 8.0
 
 QUERY_TIERS: list[tuple[int, list[str]]] = [
     (5, [
@@ -132,6 +133,9 @@ def parse_args():
     p.add_argument("--cutoff-hour", type=int, default=None)
     p.add_argument("--cutoff-minute", type=int, default=0)
     p.add_argument("--force-refresh", action="store_true")
+    p.add_argument("--request-timeout-seconds", type=float, default=8.0, help="Per-request network timeout.")
+    p.add_argument("--global-timeout-seconds", type=float, default=0.0, help="Overall collection deadline. 0 disables it.")
+    p.add_argument("--max-queries-per-collector", type=int, default=0, help="Limit query fan-out per collector. 0 means all.")
     args = p.parse_args()
     if args.lookback_hours is None:
         args.lookback_hours = 15 if args.report_slot == "morning" else 9
@@ -307,7 +311,7 @@ def fetch_google_news(query: str, target: datetime, min_score: int, lookback_hou
     before = (target + timedelta(days=1)).strftime("%Y-%m-%d")
     q = f"({query}) after:{after} before:{before}"
     url = "https://news.google.com/rss/search?q=" + quote_plus(q) + "&hl=ko&gl=KR&ceid=KR:ko"
-    r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "ko-KR,ko;q=0.9"}, timeout=25)
+    r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "ko-KR,ko;q=0.9"}, timeout=REQUEST_TIMEOUT_SECONDS)
     r.raise_for_status()
     root = ET.fromstring(r.content)
     out: list[dict[str, Any]] = []
@@ -343,7 +347,7 @@ def fetch_naver_news(query: str, target: datetime, min_score: int, lookback_hour
         "https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3"
         f"&ds={quote_plus(ds)}&de={quote_plus(de)}&nso={quote_plus(nso)}&query={quote_plus(query)}"
     )
-    r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "ko-KR,ko;q=0.9"}, timeout=25)
+    r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "ko-KR,ko;q=0.9"}, timeout=REQUEST_TIMEOUT_SECONDS)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "html.parser")
     out: list[dict[str, Any]] = []
@@ -397,7 +401,7 @@ def fetch_daum_news(query: str, target: datetime, min_score: int, lookback_hours
     sd = start.strftime("%Y%m%d%H%M%S")
     ed = end.strftime("%Y%m%d%H%M%S")
     url = f"https://search.daum.net/search?w=news&q={quote_plus(query)}&period=u&sd={sd}&ed={ed}&sort=recency"
-    r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "ko-KR,ko;q=0.9"}, timeout=25)
+    r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "ko-KR,ko;q=0.9"}, timeout=REQUEST_TIMEOUT_SECONDS)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "html.parser")
     out: list[dict[str, Any]] = []
@@ -520,11 +524,25 @@ def read_existing_valid(
 
 
 def main() -> int:
+    global REQUEST_TIMEOUT_SECONDS
     a = parse_args()
+    REQUEST_TIMEOUT_SECONDS = max(1.0, float(a.request_timeout_seconds or REQUEST_TIMEOUT_SECONDS))
     target = datetime.strptime(a.date, "%Y-%m-%d").replace(tzinfo=KST)
     window_start, window_end = issue_window(target, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)
     time_window = issue_window_label(window_start, window_end)
     out_path = news_output_path(a.out_dir, a.date, a.report_slot)
+    deadline = time.monotonic() + a.global_timeout_seconds if a.global_timeout_seconds and a.global_timeout_seconds > 0 else None
+
+    def is_deadline_exceeded() -> bool:
+        return deadline is not None and time.monotonic() >= deadline
+
+    def limited_queries(queries: list[str]) -> list[str]:
+        if a.max_queries_per_collector and a.max_queries_per_collector > 0:
+            return queries[: a.max_queries_per_collector]
+        return queries
+
+    def note_deadline(stage: str) -> None:
+        errors.append(f"{stage}: global timeout {a.global_timeout_seconds:.0f}s exceeded")
 
     existing = read_existing_valid(out_path, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute) if out_path.exists() else None
     if existing and not a.force_refresh:
@@ -539,7 +557,10 @@ def main() -> int:
     quality_target = min(3, a.max_items)
 
     # 1) Naver 뉴스 검색 HTML
-    for q in PLAIN_QUERIES:
+    for q in limited_queries(PLAIN_QUERIES):
+        if is_deadline_exceeded():
+            note_deadline("naver")
+            break
         try:
             collected.extend(fetch_naver_news(q, target, min_score=4, lookback_hours=a.lookback_hours, cutoff_hour=a.cutoff_hour, cutoff_minute=a.cutoff_minute))
             time.sleep(0.2)
@@ -554,7 +575,10 @@ def main() -> int:
 
     # 2) Daum 뉴스 검색 HTML
     if trusted_direct_count(selected) < quality_target:
-        for q in PLAIN_QUERIES:
+        for q in limited_queries(PLAIN_QUERIES):
+            if is_deadline_exceeded():
+                note_deadline("daum")
+                break
             try:
                 collected.extend(fetch_daum_news(q, target, min_score=4, lookback_hours=a.lookback_hours, cutoff_hour=a.cutoff_hour, cutoff_minute=a.cutoff_minute))
                 time.sleep(0.2)
@@ -570,7 +594,13 @@ def main() -> int:
     # 3) Google News RSS
     if trusted_direct_count(selected) < quality_target:
         for tier_idx, (min_score, queries) in enumerate(QUERY_TIERS, 1):
-            for q in queries:
+            if is_deadline_exceeded():
+                note_deadline(f"google tier{tier_idx}")
+                break
+            for q in limited_queries(queries):
+                if is_deadline_exceeded():
+                    note_deadline(f"google tier{tier_idx}")
+                    break
                 try:
                     collected.extend(fetch_google_news(q, target, min_score=min_score, lookback_hours=a.lookback_hours, cutoff_hour=a.cutoff_hour, cutoff_minute=a.cutoff_minute))
                     time.sleep(0.15)
@@ -590,7 +620,13 @@ def main() -> int:
     if len(selected) < a.min_required:
         relaxed: list[dict[str, Any]] = []
         for collector_name, fn in [("naver", fetch_naver_news), ("daum", fetch_daum_news)]:
-            for q in RELAXED_PLAIN_QUERIES:
+            if is_deadline_exceeded():
+                note_deadline(f"{collector_name} relaxed")
+                break
+            for q in limited_queries(RELAXED_PLAIN_QUERIES):
+                if is_deadline_exceeded():
+                    note_deadline(f"{collector_name} relaxed")
+                    break
                 try:
                     relaxed.extend(fn(q, target, min_score=2, lookback_hours=a.lookback_hours, cutoff_hour=a.cutoff_hour, cutoff_minute=a.cutoff_minute))
                     time.sleep(0.15)
@@ -604,7 +640,13 @@ def main() -> int:
                 break
         if len(selected) < a.min_required:
             for _tier_idx, (_min_score, queries) in enumerate(QUERY_TIERS, 1):
-                for q in queries:
+                if is_deadline_exceeded():
+                    note_deadline(f"google relaxed {_tier_idx}")
+                    break
+                for q in limited_queries(queries):
+                    if is_deadline_exceeded():
+                        note_deadline(f"google relaxed {_tier_idx}")
+                        break
                     try:
                         relaxed.extend(fetch_google_news(q, target, min_score=2, lookback_hours=a.lookback_hours, cutoff_hour=a.cutoff_hour, cutoff_minute=a.cutoff_minute))
                         time.sleep(0.1)
