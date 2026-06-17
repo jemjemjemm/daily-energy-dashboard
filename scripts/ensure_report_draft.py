@@ -30,6 +30,14 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 
+HOLIDAYS_2026 = {
+    "2026-01-01", "2026-02-16", "2026-02-17", "2026-02-18",
+    "2026-03-02", "2026-05-01", "2026-05-05", "2026-05-25",
+    "2026-06-03", "2026-08-17", "2026-09-24", "2026-09-25", "2026-09-28",
+    "2026-10-05", "2026-10-09", "2026-12-25",
+}
+
+
 def parse_args():
     parser = argparse.ArgumentParser(description="리포트 JSON 안전 생성/보강")
     parser.add_argument("--date", required=True, help="리포트 기준일 YYYY-MM-DD")
@@ -69,6 +77,77 @@ def read_json_optional(path: Path) -> Dict[str, Any]:
         return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return {}
+
+
+def is_workday(value) -> bool:
+    return value.weekday() < 5 and value.isoformat() not in HOLIDAYS_2026
+
+
+def previous_workday(date_text: str):
+    cur = datetime.strptime(date_text, "%Y-%m-%d").date() - timedelta(days=1)
+    for _ in range(14):
+        if is_workday(cur):
+            return cur
+        cur -= timedelta(days=1)
+    return datetime.strptime(date_text, "%Y-%m-%d").date() - timedelta(days=1)
+
+
+def source_url(data: Dict[str, Any]) -> str:
+    return str(data.get("article_url") or data.get("url") or "")
+
+
+def source_title(data: Dict[str, Any]) -> str:
+    return str(data.get("title") or data.get("article_title") or "")
+
+
+def schedule_candidate_count(data: Dict[str, Any]) -> int:
+    items = data.get("items")
+    if isinstance(items, list) and items:
+        return len(items)
+
+    body = str(data.get("raw_text") or data.get("body") or "")
+    if not body.strip():
+        return 0
+    return len([line for line in body.splitlines() if line.strip()])
+
+
+def set_if_missing(target: Dict[str, Any], key: str, value: Any) -> bool:
+    if target.get(key) not in (None, ""):
+        return False
+    target[key] = value
+    return True
+
+
+def ensure_safetimes_metadata(report: Dict[str, Any], date_text: str, schedule_dir: Path = Path("data/schedules")) -> bool:
+    previous_date_text = previous_workday(date_text).isoformat()
+    today_schedule = read_json_optional(schedule_dir / f"{date_text}.json")
+    previous_schedule = read_json_optional(schedule_dir / f"{previous_date_text}.json")
+
+    report_meta = report.setdefault("report", {})
+    automation = report.setdefault("automation", {})
+    safetimes = automation.setdefault("safetimes", {})
+
+    changed = False
+    changed |= set_if_missing(report_meta, "report_date", date_text)
+    changed |= set_if_missing(report_meta, "previous_source_date", previous_date_text)
+    changed |= set_if_missing(safetimes, "today_source_file_date", date_text)
+    changed |= set_if_missing(safetimes, "previous_source_file_date", previous_date_text)
+    changed |= set_if_missing(safetimes, "today_source_schedule_candidate_count", schedule_candidate_count(today_schedule))
+    changed |= set_if_missing(safetimes, "previous_source_schedule_candidate_count", schedule_candidate_count(previous_schedule))
+
+    if today_schedule:
+        changed |= set_if_missing(safetimes, "today_source_title", source_title(today_schedule))
+        changed |= set_if_missing(safetimes, "today_source_url", source_url(today_schedule))
+        changed |= set_if_missing(
+            safetimes,
+            "today_source_published_at",
+            today_schedule.get("approved_date", "") or today_schedule.get("published_at", ""),
+        )
+    if previous_schedule:
+        changed |= set_if_missing(safetimes, "previous_source_title", source_title(previous_schedule))
+        changed |= set_if_missing(safetimes, "previous_source_url", source_url(previous_schedule))
+
+    return changed
 
 
 BAD_FALLBACK_PHRASES = [
@@ -289,10 +368,16 @@ def main() -> int:
     existing = read_json_optional(out_path)
 
     if existing and not args.refresh_fallback:
+        if ensure_safetimes_metadata(existing, args.date):
+            atomic_write_json(out_path, existing)
+            print(f"[OK] source metadata patched: {out_path}")
         print(f"[OK] 기존 리포트 JSON 사용: {out_path}")
         return 0
 
     if existing and args.refresh_fallback and not is_fallback_or_empty_report(existing):
+        if ensure_safetimes_metadata(existing, args.date):
+            atomic_write_json(out_path, existing)
+            print(f"[OK] source metadata patched: {out_path}")
         print(f"[OK] 실제 이슈/일정/뉴스가 있는 기존 리포트 보존: {out_path}")
         return 0
 
@@ -300,6 +385,7 @@ def main() -> int:
         print(f"[INFO] 빈 리포트 또는 fallback 리포트를 보강합니다: {out_path}")
 
     report = build_minimal_report(args.date, Path(args.base_report))
+    ensure_safetimes_metadata(report, args.date)
     atomic_write_json(out_path, report)
 
     print(f"[OK] 가격 중심 기본 리포트 JSON 생성/갱신: {out_path}")
