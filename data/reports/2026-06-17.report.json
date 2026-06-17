@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음 △나프타 수급 여건 변화가 석유화학 원료 조달과 제품 마진 변수로 부각 △정부가 호르무즈 해협 상황을 보며 차량 2부제 등 비상 수급 조치 완화 여부를 판단할 전망"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음 △이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각"
     }
   ],
   "prices": {
@@ -1675,6 +1679,78 @@
       "merged_at": "2026-06-17 09:44:27 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data\\news\\2026-06-17.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음 △이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각",
+    "trend_paragraphs": [
+      "뉴스1는 호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각.",
+      "뉴시스는 국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음.",
+      "한국경제는 이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각."
+    ],
+    "articles": [
+      {
+        "title": "\"美, 호르무즈 선박 호위 '유료 VIP패스' 검토…선사·보험 유인책\"",
+        "press": "뉴스1",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260617165611632",
+        "summary": "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "국제유가 3개월 만에 최저가",
+        "press": "뉴시스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260617144611218",
+        "summary": "국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "미·이란 종전 MOU 초안 공개…\"해상봉쇄 해제· 원유 수출 허용\"",
+        "press": "한국경제",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260617170016834",
+        "summary": "이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 8,
+        "score_breakdown": {
+          "keyword": 3,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
