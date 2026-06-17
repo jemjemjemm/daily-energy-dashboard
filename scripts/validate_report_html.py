@@ -16,6 +16,7 @@ SECTION_RE = re.compile(
     r'<span class="section-num">(\d+)</span><span class="section-title">([^<]+)</span>'
 )
 NEWS_WINDOW_CUTOFF_DATE = "2026-06-01"
+NEWS_QUALITY_CUTOFF_DATE = "2026-06-17"
 KOREAN_HOLIDAYS_2026 = {
     "2026-01-01",
     "2026-02-16", "2026-02-17", "2026-02-18",
@@ -37,6 +38,13 @@ BAD_REPORT_PHRASES = (
     "대표 기사 데이터 확인 필요",
     "조간 기사 후보를 찾지 못했습니다",
     "자동 매칭 실패",
+)
+BAD_NEWS_QUALITY_PHRASES = (
+    "국제유가와 석유시장 변동 요인을 중심으로 정리",
+    "해당 이슈의 업계 관련성을 원문 기준으로 확인 필요",
+    "업계 관련성을 원문 기준으로 확인 필요",
+    "시장 변동 요인을 중심으로 정리",
+    "시장 여건 변화를 중심으로 보도",
 )
 
 
@@ -70,6 +78,52 @@ def section_body(text: str, number: str) -> str:
     )
     match = pattern.search(text)
     return match.group(1) if match else ""
+
+
+def strip_tags(value: str) -> str:
+    value = re.sub(r"<[^>]+>", " ", value)
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def news_texts(body: str) -> tuple[str, list[str], list[str]]:
+    summary_match = re.search(r'<div class="news-trend">(.+?)</div>', body, re.S)
+    summary = strip_tags(summary_match.group(1)) if summary_match else ""
+    titles = [strip_tags(item) for item in re.findall(r'<div class="news-link-title">(.+?)</div>', body, re.S)]
+    descs = [strip_tags(item) for item in re.findall(r'<div class="news-link-desc">(.+?)</div>', body, re.S)]
+    return summary, titles, descs
+
+
+def validate_news_quality(path: Path, date_text: str, body: str, slot: str) -> list[str]:
+    if date_text < NEWS_QUALITY_CUTOFF_DATE:
+        return []
+
+    errors: list[str] = []
+    summary, titles, descs = news_texts(body)
+    real_titles = [
+        title for title in titles
+        if title and "데이터 대기" not in title and "데이터 확인 필요" not in title
+    ]
+
+    if real_titles and "△" not in summary:
+        errors.append(f"{path}: {slot} news summary is missing per-item △ markers")
+
+    for phrase in BAD_NEWS_QUALITY_PHRASES:
+        if phrase in summary:
+            errors.append(f"{path}: {slot} news summary contains generic/review phrase: {phrase}")
+        if any(phrase in desc for desc in descs):
+            errors.append(f"{path}: {slot} news article description contains generic/review phrase: {phrase}")
+
+    for title in real_titles:
+        if f"△{title}" in summary:
+            errors.append(f"{path}: {slot} news summary lists article title instead of content: {title}")
+
+    if real_titles:
+        summary_without_markers = re.sub(r"[△·,\s.]+", "", summary)
+        titles_joined = re.sub(r"[△·,\s.]+", "", "".join(real_titles[:3]))
+        if titles_joined and summary_without_markers == titles_joined:
+            errors.append(f"{path}: {slot} news summary is only article titles")
+
+    return errors
 
 
 def short_date(dt: datetime) -> str:
@@ -134,6 +188,8 @@ def validate_html_file(path: Path, since: str, allow_weekends: bool) -> list[str
     for phrase in BAD_REPORT_PHRASES:
         if phrase in text:
             errors.append(f"{path}: unresolved fallback/error phrase exists: {phrase}")
+    errors.extend(validate_news_quality(path, date_text, news_body, "morning"))
+    errors.extend(validate_news_quality(path, date_text, afternoon_news_body, "evening"))
 
     return errors
 
