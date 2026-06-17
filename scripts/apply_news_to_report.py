@@ -399,11 +399,7 @@ def build_representative_article_summary(articles: List[Dict[str, Any]], max_par
             break
     if not parts:
         return "해당 시간대 주요 보도 확인 건 없음."
-    if len(parts) == 1:
-        return parts[0] + "."
-    if len(parts) == 2:
-        return f"{parts[0]}, {parts[1]}."
-    return f"{parts[0]}, {parts[1]}. {parts[2]}."
+    return " ".join(f"△{part}" for part in parts)
 
 
 def parse_args():
