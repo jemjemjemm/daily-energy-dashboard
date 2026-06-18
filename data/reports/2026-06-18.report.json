@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각 △석유화학 업황은 원료 수급 완화와 중국발 공급 부담이 동시에 작용"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상 △LNG 수급·가격 변동이 발전 원가와 에너지 시장 안정성 변수로 작용"
     }
   ],
   "prices": {
@@ -1712,6 +1716,78 @@
       "merged_at": "2026-06-18 08:33:11 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-06-18.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상 △LNG 수급·가격 변동이 발전 원가와 에너지 시장 안정성 변수로 작용",
+    "trend_paragraphs": [
+      "이투데이는 호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각.",
+      "중앙일보는 HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상.",
+      "MBC는 LNG 수급·가격 변동이 발전 원가와 에너지 시장 안정성 변수로 작용."
+    ],
+    "articles": [
+      {
+        "title": "골드만삭스 “호르무즈 해협 개방해도 원유 통항량 전쟁 전 70% 전망”",
+        "press": "이투데이",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260618165103767",
+        "summary": "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 2,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "유가담합 의혹 임직원 구속 기로… 타 정유사 수사 확대될까",
+        "press": "중앙일보",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260618165323856",
+        "summary": "HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "고유가 대응 위해 하반기 LNG·LPG 할당관세 0%‥농산물 22개 품목 지원",
+        "press": "MBC",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260618103717422",
+        "summary": "LNG 수급·가격 변동이 발전 원가와 에너지 시장 안정성 변수로 작용",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 2,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
