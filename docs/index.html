@@ -22,7 +22,10 @@
       #errorBox{order:3}
       .stats{order:4;grid-template-columns:repeat(2,1fr);margin:0}
       .report-calendar-section{order:5}
-      .viewer-wrap{height:72vh;min-height:560px}
+      .viewer-wrap{height:calc(100vh - 78px);height:calc(100svh - 78px);min-height:0}
+      .viewer-toolbar{display:none}
+      .viewer-actions{display:none!important}
+      .viewer{height:100%}
       .calendar-report-viewer-badge,.desktop-updated-stat{display:none}
       .mobile-list-updated-at{display:block;grid-column:1/-1;padding:2px 4px;color:#4b5563;font-size:13px;white-space:nowrap}
       .links{display:block;max-height:260px}
