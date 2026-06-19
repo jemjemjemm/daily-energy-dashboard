@@ -50,7 +50,7 @@
     .report-link.selected{background:#1A6FD4;color:#fff;border-color:#1A6FD4}
     .legend{display:flex;gap:10px;align-items:center;padding:0 12px 12px;color:var(--muted);font-size:11px}
     .legend-dot{display:inline-block;width:7px;height:7px;background:var(--blue);border-radius:50%;margin-right:4px}
-    .report-panel{min-height:640px}
+    .report-panel{min-height:640px;scroll-margin-top:12px}
     .report-head{padding:13px 15px;background:#F8FAFC;border-bottom:1px solid var(--line);display:flex;gap:12px;justify-content:space-between;align-items:center}
     .selected-title{font-weight:850}
     .selected-meta{color:var(--muted);font-size:11px;margin-top:2px}
@@ -126,7 +126,7 @@
         </div>
       </aside>
 
-      <section class="panel report-panel daily-report-section">
+      <section class="panel report-panel daily-report-section" id="reportTop">
         <div class="report-head">
           <div>
             <div class="selected-title" id="reportTitle">리포트를 선택해 주세요.</div>
@@ -322,7 +322,7 @@
         if(state.selectedDate===dateText) day.classList.add('selected');
         if(isSameDay(d,today)) day.classList.add('today');
         day.innerHTML=`<div class="day-number">${d.getDate()}</div>${state.availableDates.has(dateText)?'<span class="dot"></span>':''}`;
-        if(state.availableDates.has(dateText)) day.addEventListener('click',()=>selectDate(dateText));
+        if(state.availableDates.has(dateText)) day.addEventListener('click',()=>selectDate(dateText, { scrollToReport:true }));
         container.appendChild(day);
       }
     }
@@ -385,6 +385,30 @@
       }catch(e){ syncReportFrameHeight(); }
     }
 
+    let pendingMobileReportPath = null;
+
+    function scrollToReportTopOnMobile(){
+      if(window.innerWidth > 768 || !pendingMobileReportPath) return;
+
+      const frame=document.getElementById('reportFrame');
+      try{
+        if(new URL(frame.contentWindow.location.href).pathname !== pendingMobileReportPath) return;
+      }catch(e){ return; }
+
+      pendingMobileReportPath=null;
+      const target=document.getElementById('reportTop');
+      if(!target) return;
+
+      window.requestAnimationFrame(()=>{
+        window.setTimeout(()=>target.scrollIntoView({ behavior:'smooth', block:'start' }),50);
+      });
+    }
+
+    function handleReportFrameLoad(){
+      observeReportDocument();
+      scrollToReportTopOnMobile();
+    }
+
     function selectDate(dateText, options={}){
       const report=state.reportMap.get(dateText);
       if(!report){ setWarning(`${dateText} 리포트를 찾지 못했습니다.`); return; }
@@ -396,6 +420,9 @@
       document.getElementById('reportMeta').textContent=`${dateText} · ${report.url}`;
       const frame=document.getElementById('reportFrame'); const empty=document.getElementById('emptyState');
       if(mobileLayout.matches) frame.style.height='100svh';
+      pendingMobileReportPath=options.scrollToReport && window.innerWidth <= 768
+        ? new URL(report.url,window.location.href).pathname
+        : null;
       frame.src=cacheBust(report.url);
       frame.style.display='block'; empty.style.display='none';
       document.getElementById('openNew').href=report.url;
@@ -410,7 +437,7 @@
     document.getElementById('prevMonth').addEventListener('click',()=>{ state.currentMonth=new Date(state.currentMonth.getFullYear(),state.currentMonth.getMonth()-1,1); renderCalendar(); renderReportList(); });
     document.getElementById('nextMonth').addEventListener('click',()=>{ state.currentMonth=new Date(state.currentMonth.getFullYear(),state.currentMonth.getMonth()+1,1); renderCalendar(); renderReportList(); });
     document.getElementById('reloadBtn').addEventListener('click',()=>{ if(state.selectedDate) document.getElementById('reportFrame').contentWindow.location.reload(); });
-    document.getElementById('reportFrame').addEventListener('load',observeReportDocument);
+    document.getElementById('reportFrame').addEventListener('load',handleReportFrameLoad);
     if(mobileLayout.addEventListener) mobileLayout.addEventListener('change',observeReportDocument);
     else mobileLayout.addListener(observeReportDocument);
 
