@@ -60,30 +60,46 @@
     iframe{width:100%;height:100%;border:0;background:#fff;display:block}
     .empty{padding:80px 20px;text-align:center;color:var(--muted)}
     .empty-title{font-weight:850;color:var(--ink);margin-bottom:6px}
-    @media(max-width:860px){body{padding:10px}.layout{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.title{font-size:22px}.report-frame-wrap{height:76vh;min-height:560px}}
+    .mobile-list-updated-at,.mobile-dashboard-title,.mobile-date-value{display:none}
+    @media(max-width:860px){
+      body{padding:10px}
+      .app{display:flex;flex-direction:column;gap:12px}
+      .layout{display:contents}
+      .daily-report-section{order:1}
+      .dashboard-summary-section{order:2}
+      .report-calendar-section{order:3}
+      .stats{grid-template-columns:repeat(2,1fr)}
+      .title{font-size:22px}
+      .report-frame-wrap{height:76vh;min-height:560px}
+      .calendar-report-viewer-badge,.desktop-updated-stat{display:none}
+      .desktop-dashboard-title,.desktop-date-value{display:none}
+      .mobile-dashboard-title,.mobile-date-value{display:block}
+      .mobile-list-updated-at{display:block;grid-column:1/-1;color:rgba(255,255,255,.82);font-size:13px;white-space:nowrap}
+    }
   </style>
 </head>
 <body>
   <main class="app">
-    <section class="hero">
+    <section class="hero dashboard-summary-section">
       <div class="hero-top">
         <div>
-          <div class="title">유가 동향 Dashboard</div>
+          <div class="title"><span class="desktop-dashboard-title">유가 동향 Dashboard</span><span class="mobile-dashboard-title">Daily Issue Dashboard</span></div>
           <div class="subtitle">정유 · 석유화학 · LNG AI 리포트</div>
         </div>
-        <div class="badge">Calendar Report Viewer</div>
+        <div class="badge calendar-report-viewer-badge">Calendar Report Viewer</div>
       </div>
       <div class="stats">
         <div class="stat"><div class="stat-label">등록 리포트 수</div><div class="stat-value" id="totalCount">-</div></div>
-        <div class="stat"><div class="stat-label">최신 기준일</div><div class="stat-value" id="latestDate">-</div></div>
-        <div class="stat"><div class="stat-label">선택 날짜</div><div class="stat-value" id="selectedDate">-</div></div>
-        <div class="stat"><div class="stat-label">목록 업데이트</div><div class="stat-value" id="updatedAt">-</div></div>
+        <div class="stat"><div class="stat-label">최신 기준일</div><div class="stat-value desktop-date-value" id="latestDate">-</div><div class="stat-value mobile-date-value" id="mobileLatestDate">-</div></div>
+        <div class="stat"><div class="stat-label">선택 날짜</div><div class="stat-value desktop-date-value" id="selectedDate">-</div><div class="stat-value mobile-date-value" id="mobileSelectedDate">-</div></div>
+        <div class="stat desktop-updated-stat"><div class="stat-label">목록 업데이트</div><div class="stat-value" id="updatedAt">-</div></div>
+        <div class="mobile-list-updated-at">목록 업데이트: <span id="mobileUpdatedAt">-</span></div>
       </div>
       <div class="warning" id="warningBox"></div>
     </section>
 
     <section class="layout">
-      <aside class="panel">
+      <aside class="panel report-calendar-section">
         <div class="panel-head">
           <div>
             <div class="panel-title">월별 리포트 캘린더</div>
@@ -100,13 +116,13 @@
           <div class="days" id="calendarDays"></div>
         </div>
         <div class="legend"><span><span class="legend-dot"></span>리포트 있음</span><span>오늘</span></div>
-        <div class="report-list">
+        <div class="report-list report-shortcut-section">
           <div class="report-list-title">리포트 바로가기</div>
           <div id="reportList"></div>
         </div>
       </aside>
 
-      <section class="panel report-panel">
+      <section class="panel report-panel daily-report-section">
         <div class="report-head">
           <div>
             <div class="selected-title" id="reportTitle">리포트를 선택해 주세요.</div>
@@ -274,7 +290,15 @@
       document.getElementById('totalCount').textContent = String(state.reports.length);
       document.getElementById('latestDate').textContent = latest ? formatShort(latest.date) : '-';
       document.getElementById('selectedDate').textContent = state.selectedDate ? formatShort(state.selectedDate) : '-';
+      document.getElementById('mobileLatestDate').textContent = latest ? latest.date : '-';
+      document.getElementById('mobileSelectedDate').textContent = state.selectedDate || '-';
       document.getElementById('updatedAt').textContent = state.indexUpdatedAt ? String(state.indexUpdatedAt).split(' ')[0] : '-';
+      document.getElementById('mobileUpdatedAt').textContent = formatUpdatedAt(state.indexUpdatedAt);
+    }
+
+    function formatUpdatedAt(value){
+      const match=String(value||'').match(/\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}/);
+      return match ? match[0].replace('T',' ') : (value || '-');
     }
 
     function renderCalendar(){

@@ -13,18 +13,33 @@
     h1{margin:0;font-size:26px;line-height:1.2}.subtitle{margin-top:6px;color:rgba(255,255,255,.72);font-size:13px}.badge{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:6px 12px;font-size:12px;white-space:nowrap}
     .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:14px 0}.stat{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:12px 14px}.stat-label{font-size:11px;color:#6b7280;margin-bottom:4px}.stat-value{font-size:18px;font-weight:800;color:#111827;min-height:27px}
     .grid{display:grid;grid-template-columns:360px minmax(0,1fr);gap:14px}.panel{background:#fff;border:1px solid #e5e7eb;border-radius:16px;overflow:hidden}.panel-head{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:13px 14px;border-bottom:1px solid #e5e7eb;background:#f8fafc}.panel-title{font-weight:800}.panel-sub{font-size:12px;color:#6b7280;margin-top:2px}.btn{border:1px solid #d1d5db;background:#fff;border-radius:10px;padding:7px 10px;font-size:12px;cursor:pointer}.btn:hover{background:#f3f4f6}.calendar{padding:12px}.month-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}.month-title{font-weight:800}.weekdays,.days{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}.weekday{text-align:center;font-size:11px;color:#6b7280;padding:4px 0}.day{height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:12px;color:#9ca3af;border:1px solid transparent}.day.in-month{color:#374151;background:#f9fafb}.day.has-report{background:#e8f1ff;color:#0A2444;border-color:#bfd7ff;font-weight:800;cursor:pointer}.day.has-report:hover{background:#dbeafe}.day.selected{background:#0A2444;color:#fff;border-color:#0A2444}.day.today{box-shadow:inset 0 0 0 2px #f59e0b}.legend{display:flex;gap:12px;margin:12px 2px 2px;color:#6b7280;font-size:11px}.legend span{display:inline-flex;align-items:center;gap:5px}.dot{width:9px;height:9px;border-radius:50%;display:inline-block}.dot.report{background:#1A6FD4}.dot.today{background:#f59e0b}.links{padding:0 12px 12px;max-height:350px;overflow:auto}.report-link{display:block;padding:10px 8px;border-bottom:1px solid #f0f0f0;color:#111827;text-decoration:none;border-radius:8px}.report-link:hover{background:#f8fafc}.report-link.active{background:#eff6ff;color:#0A2444}.report-date{font-weight:800}.report-title{font-size:12px;color:#6b7280;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.viewer-wrap{height:calc(100vh - 188px);min-height:680px;background:#fff}.viewer-toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid #e5e7eb;background:#fff}.viewer-title{font-weight:800}.viewer-meta{font-size:12px;color:#6b7280;margin-top:2px}.viewer-actions{display:flex;gap:8px}.viewer{width:100%;height:calc(100% - 62px);border:0;background:#f4f5f7}.empty{padding:30px;text-align:center;color:#6b7280}.error{margin:12px 0;padding:12px 14px;border-radius:12px;background:#fff1f2;border:1px solid #fecdd3;color:#9f1239;display:none;white-space:pre-wrap}.loading{padding:24px;text-align:center;color:#6b7280}.mobile-select{display:none;width:100%;border:1px solid #d1d5db;border-radius:10px;padding:9px 10px;background:#fff;margin-top:10px}
-    @media(max-width:860px){.app{padding:10px}.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.viewer-wrap{height:72vh;min-height:560px}.links{display:none}.mobile-select{display:block}h1{font-size:22px}}
+    .mobile-list-updated-at{display:none}
+    @media(max-width:860px){
+      .app{display:flex;flex-direction:column;gap:10px;padding:10px}
+      .grid{display:contents}
+      .daily-report-section{order:1}
+      .dashboard-summary-section{order:2}
+      #errorBox{order:3}
+      .stats{order:4;grid-template-columns:repeat(2,1fr);margin:0}
+      .report-calendar-section{order:5}
+      .viewer-wrap{height:72vh;min-height:560px}
+      .calendar-report-viewer-badge,.desktop-updated-stat{display:none}
+      .mobile-list-updated-at{display:block;grid-column:1/-1;padding:2px 4px;color:#4b5563;font-size:13px;white-space:nowrap}
+      .links{display:block;max-height:260px}
+      .mobile-select{display:block}
+      h1{font-size:22px}
+    }
   </style>
 </head>
 <body>
   <div class="app">
-    <header class="top">
+    <header class="top dashboard-summary-section">
       <div class="top-row">
         <div>
           <h1>Daily Issue Dashboard</h1>
           <div class="subtitle">정유 · 석유화학 · LNG AI 리포트</div>
         </div>
-        <div class="badge">Calendar Report Viewer</div>
+        <div class="badge calendar-report-viewer-badge">Calendar Report Viewer</div>
       </div>
     </header>
 
@@ -34,11 +49,12 @@
       <div class="stat"><div class="stat-label">등록 리포트 수</div><div id="count" class="stat-value">-</div></div>
       <div class="stat"><div class="stat-label">최신 기준일</div><div id="latestDate" class="stat-value">-</div></div>
       <div class="stat"><div class="stat-label">선택 날짜</div><div id="selectedDate" class="stat-value">-</div></div>
-      <div class="stat"><div class="stat-label">목록 업데이트</div><div id="generatedAt" class="stat-value">-</div></div>
+      <div class="stat desktop-updated-stat"><div class="stat-label">목록 업데이트</div><div id="generatedAt" class="stat-value">-</div></div>
+      <div class="mobile-list-updated-at">목록 업데이트: <span id="mobileGeneratedAt">-</span></div>
     </section>
 
     <main class="grid">
-      <section class="panel">
+      <section class="panel report-calendar-section">
         <div class="panel-head">
           <div><div class="panel-title">월별 리포트 캘린더</div><div class="panel-sub">월 기준으로 리포트가 있는 날짜를 표시합니다.</div></div>
         </div>
@@ -53,11 +69,11 @@
           <div class="legend"><span><i class="dot report"></i>리포트 있음</span><span><i class="dot today"></i>오늘</span></div>
           <select id="mobileSelect" class="mobile-select" aria-label="리포트 선택"></select>
         </div>
-        <div class="panel-head"><div><div class="panel-title">리포트 바로가기</div></div></div>
-        <div id="links" class="links"><div class="loading">리포트를 불러오는 중입니다.</div></div>
+        <div class="panel-head report-shortcut-section"><div><div class="panel-title">리포트 바로가기</div></div></div>
+        <div id="links" class="links report-shortcut-section"><div class="loading">리포트를 불러오는 중입니다.</div></div>
       </section>
 
-      <section class="panel viewer-wrap">
+      <section class="panel viewer-wrap daily-report-section">
         <div class="viewer-toolbar">
           <div><div id="viewerTitle" class="viewer-title">리포트를 선택해 주세요.</div><div id="viewerMeta" class="viewer-meta">캘린더 또는 바로가기에서 날짜를 선택해 주세요.</div></div>
           <div class="viewer-actions"><a id="openNew" class="btn" href="#" target="_blank" rel="noopener">새 창</a><button id="reloadBtn" class="btn" type="button">새로고침</button></div>
@@ -100,6 +116,12 @@
     $('count').textContent = String(data.count ?? state.reports.length);
     $('latestDate').textContent = data.latestDate || (state.reports[0] && state.reports[0].date) || '-';
     $('generatedAt').textContent = data.generatedAt || '-';
+    $('mobileGeneratedAt').textContent = formatUpdatedAt(data.generatedAt);
+  }
+
+  function formatUpdatedAt(value){
+    const match=String(value||'').match(/\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}/);
+    return match ? match[0].replace('T',' ') : (value || '-');
   }
 
   function renderLinks(){
