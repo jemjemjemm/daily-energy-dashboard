@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상 △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △석유 최고가격제와 유류세·LNG/LPG 세제 조치가 하반기 물가 대응 변수로 부상"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결 △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각"
     }
   ],
   "prices": {
@@ -1705,6 +1709,78 @@
       "merged_at": "2026-06-19 08:37:51 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-06-19.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결 △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+    "trend_paragraphs": [
+      "아시아경제는 정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명.",
+      "파이낸셜뉴스는 국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결.",
+      "머니투데이는 호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각."
+    ],
+    "articles": [
+      {
+        "title": "정유사 손실보전 본격화…정유업계 \"실제 보상규모 모호\"",
+        "press": "아시아경제",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260619142830498",
+        "summary": "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "종전에 국제유가 떨어지자… 원유 레버리지 ETN '와르르'",
+        "press": "파이낸셜뉴스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260619164943569",
+        "summary": "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "호르무즈 열리자 중동 원유 생산 재가동…\"2주 내 정상화 가능\"",
+        "press": "머니투데이",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260619153151827",
+        "summary": "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
