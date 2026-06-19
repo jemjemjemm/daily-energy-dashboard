@@ -22,10 +22,10 @@
       #errorBox{order:3}
       .stats{order:4;grid-template-columns:repeat(2,1fr);margin:0}
       .report-calendar-section{order:5}
-      .viewer-wrap{height:calc(100vh - 78px);height:calc(100svh - 78px);min-height:0}
+      .viewer-wrap{height:auto;min-height:100vh;min-height:100svh;border:0;border-radius:0;box-shadow:none;background:transparent;overflow:visible}
       .viewer-toolbar{display:none}
       .viewer-actions{display:none!important}
-      .viewer{height:100%}
+      .viewer{height:100vh;height:100svh;min-height:100vh;min-height:100svh;overflow:hidden}
       .calendar-report-viewer-badge,.desktop-updated-stat{display:none}
       .mobile-list-updated-at{display:block;grid-column:1/-1;padding:2px 4px;color:#4b5563;font-size:13px;white-space:nowrap}
       .links{display:block;max-height:260px}
@@ -89,6 +89,8 @@
 <script>
 (function(){
   const state = { reports: [], byDate: new Map(), selected: null, month: null };
+  const mobileLayout = window.matchMedia('(max-width:860px)');
+  let viewerResizeObserver = null;
   const $ = (id) => document.getElementById(id);
   const pad = (n) => String(n).padStart(2,'0');
   const fmtMonth = (d) => `${d.getFullYear()}년 ${d.getMonth()+1}월`;
@@ -160,12 +162,52 @@
     }
   }
 
+  function syncViewerHeight(){
+    const viewer=$('viewer');
+    if(!mobileLayout.matches){
+      viewer.style.height='';
+      viewer.removeAttribute('scrolling');
+      return;
+    }
+    try{
+      const doc=viewer.contentDocument;
+      if(!doc || !doc.documentElement || !doc.body) return;
+      const height=Math.max(doc.documentElement.scrollHeight, doc.body.scrollHeight);
+      if(height>0){
+        viewer.style.height=`${Math.ceil(height)}px`;
+        viewer.setAttribute('scrolling','no');
+      }
+    }catch(e){
+      viewer.style.height='100svh';
+    }
+  }
+
+  function observeViewerDocument(){
+    if(viewerResizeObserver){ viewerResizeObserver.disconnect(); viewerResizeObserver=null; }
+    if(!mobileLayout.matches){ syncViewerHeight(); return; }
+    const viewer=$('viewer');
+    try{
+      const doc=viewer.contentDocument;
+      if(!doc || !doc.documentElement || !doc.body) return;
+      syncViewerHeight();
+      if('ResizeObserver' in window){
+        viewerResizeObserver=new ResizeObserver(()=>window.requestAnimationFrame(syncViewerHeight));
+        viewerResizeObserver.observe(doc.documentElement);
+        viewerResizeObserver.observe(doc.body);
+      }
+      if(doc.fonts && doc.fonts.ready) doc.fonts.ready.then(syncViewerHeight);
+      window.setTimeout(syncViewerHeight,100);
+      window.setTimeout(syncViewerHeight,500);
+    }catch(e){ syncViewerHeight(); }
+  }
+
   function selectReport(date){
     const r=state.byDate.get(date); if(!r) return;
     state.selected=date; $('selectedDate').textContent=date;
     $('viewerTitle').textContent=r.title || `Daily Issue Report — ${date}`;
     $('viewerMeta').textContent=r.displayDate || date;
     const url=r.url || `reports/${date}.html`;
+    if(mobileLayout.matches) $('viewer').style.height='100svh';
     $('viewer').src=cacheBust(url);
     $('openNew').href=url;
     if(!state.month || state.month.getFullYear()!==parseDate(date).getFullYear() || state.month.getMonth()!==parseDate(date).getMonth()) state.month=new Date(parseDate(date).getFullYear(), parseDate(date).getMonth(), 1);
@@ -195,6 +237,9 @@
   $('nextMonth').addEventListener('click',()=>{ state.month.setMonth(state.month.getMonth()+1); renderCalendar(); });
   $('mobileSelect').addEventListener('change', e=>selectReport(e.target.value));
   $('reloadBtn').addEventListener('click',()=>{ if(state.selected) $('viewer').contentWindow.location.reload(); else init(); });
+  $('viewer').addEventListener('load',observeViewerDocument);
+  if(mobileLayout.addEventListener) mobileLayout.addEventListener('change',observeViewerDocument);
+  else mobileLayout.addListener(observeViewerDocument);
   init();
 })();
 </script>

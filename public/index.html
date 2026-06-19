@@ -70,10 +70,11 @@
       .report-calendar-section{order:3}
       .stats{grid-template-columns:repeat(2,1fr)}
       .title{font-size:22px}
-      .report-panel{min-height:0}
+      .report-panel{min-height:100vh;min-height:100svh;border:0;border-radius:0;box-shadow:none;background:transparent;overflow:visible}
       .report-head{display:none}
       .actions{display:none!important}
-      .report-frame-wrap{height:calc(100vh - 80px);height:calc(100svh - 80px);min-height:0}
+      .report-frame-wrap{height:auto;min-height:100vh;min-height:100svh;background:transparent;overflow:visible}
+      .report-frame-wrap iframe{height:100vh;height:100svh;min-height:100vh;min-height:100svh;overflow:hidden}
       .calendar-report-viewer-badge,.desktop-updated-stat{display:none}
       .desktop-dashboard-title,.desktop-date-value{display:none}
       .mobile-dashboard-title,.mobile-date-value{display:block}
@@ -146,6 +147,8 @@
 
   <script>
     const state = { reports: [], reportMap: new Map(), availableDates: new Set(), currentMonth: null, selectedDate: null, indexUpdatedAt: '' };
+    const mobileLayout = window.matchMedia('(max-width:860px)');
+    let reportResizeObserver = null;
 
     function qs(name){ return new URLSearchParams(window.location.search).get(name); }
     function normalizeDate(value){ if(!value) return ''; const m=String(value).match(/(\d{4})-(\d{2})-(\d{2})/); return m ? `${m[1]}-${m[2]}-${m[3]}` : ''; }
@@ -343,6 +346,45 @@
       }
     }
 
+    function syncReportFrameHeight(){
+      const frame=document.getElementById('reportFrame');
+      if(!mobileLayout.matches){
+        frame.style.height='';
+        frame.removeAttribute('scrolling');
+        return;
+      }
+      try{
+        const doc=frame.contentDocument;
+        if(!doc || !doc.documentElement || !doc.body) return;
+        const height=Math.max(doc.documentElement.scrollHeight,doc.body.scrollHeight);
+        if(height>0){
+          frame.style.height=`${Math.ceil(height)}px`;
+          frame.setAttribute('scrolling','no');
+        }
+      }catch(e){
+        frame.style.height='100svh';
+      }
+    }
+
+    function observeReportDocument(){
+      if(reportResizeObserver){ reportResizeObserver.disconnect(); reportResizeObserver=null; }
+      if(!mobileLayout.matches){ syncReportFrameHeight(); return; }
+      const frame=document.getElementById('reportFrame');
+      try{
+        const doc=frame.contentDocument;
+        if(!doc || !doc.documentElement || !doc.body) return;
+        syncReportFrameHeight();
+        if('ResizeObserver' in window){
+          reportResizeObserver=new ResizeObserver(()=>window.requestAnimationFrame(syncReportFrameHeight));
+          reportResizeObserver.observe(doc.documentElement);
+          reportResizeObserver.observe(doc.body);
+        }
+        if(doc.fonts && doc.fonts.ready) doc.fonts.ready.then(syncReportFrameHeight);
+        window.setTimeout(syncReportFrameHeight,100);
+        window.setTimeout(syncReportFrameHeight,500);
+      }catch(e){ syncReportFrameHeight(); }
+    }
+
     function selectDate(dateText, options={}){
       const report=state.reportMap.get(dateText);
       if(!report){ setWarning(`${dateText} 리포트를 찾지 못했습니다.`); return; }
@@ -353,6 +395,7 @@
       document.getElementById('reportTitle').textContent=report.title || `Daily Issue Report — ${dateText}`;
       document.getElementById('reportMeta').textContent=`${dateText} · ${report.url}`;
       const frame=document.getElementById('reportFrame'); const empty=document.getElementById('emptyState');
+      if(mobileLayout.matches) frame.style.height='100svh';
       frame.src=cacheBust(report.url);
       frame.style.display='block'; empty.style.display='none';
       document.getElementById('openNew').href=report.url;
@@ -367,6 +410,9 @@
     document.getElementById('prevMonth').addEventListener('click',()=>{ state.currentMonth=new Date(state.currentMonth.getFullYear(),state.currentMonth.getMonth()-1,1); renderCalendar(); renderReportList(); });
     document.getElementById('nextMonth').addEventListener('click',()=>{ state.currentMonth=new Date(state.currentMonth.getFullYear(),state.currentMonth.getMonth()+1,1); renderCalendar(); renderReportList(); });
     document.getElementById('reloadBtn').addEventListener('click',()=>{ if(state.selectedDate) document.getElementById('reportFrame').contentWindow.location.reload(); });
+    document.getElementById('reportFrame').addEventListener('load',observeReportDocument);
+    if(mobileLayout.addEventListener) mobileLayout.addEventListener('change',observeReportDocument);
+    else mobileLayout.addListener(observeReportDocument);
 
     loadIndex().catch(error=>{
       console.error(error);
