@@ -53,7 +53,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Sync latest main
         run: |
@@ -89,25 +89,10 @@ jobs:
 
       - name: Decide mode
         run: |
-          if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then
-            echo "RUN_MODE=single" >> $GITHUB_ENV
-            echo "INVOCATION_MODE=schedule" >> $GITHUB_ENV
-            echo "TRIGGER_SCHEDULE=${{ github.event.schedule }}" >> $GITHUB_ENV
-            case "${{ github.event.schedule }}" in
-              "7 0 * * 1-5"|"17 0 * * 1-5"|"27 0 * * 1-5")
-                echo "REPORT_SLOT=morning" >> $GITHUB_ENV
-                ;;
-              "7 8 * * 1-5"|"17 8 * * 1-5"|"27 8 * * 1-5")
-                echo "REPORT_SLOT=evening" >> $GITHUB_ENV
-                ;;
-              *)
-                echo "RUN_MODE=skip" >> $GITHUB_ENV
-                echo "SKIP_REASON=unrecognized schedule expression: ${{ github.event.schedule }}" >> $GITHUB_ENV
-                exit 0
-                ;;
-            esac
-            echo "TARGET_DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)" >> $GITHUB_ENV
-            exit 0
+          REPORT_SLOT_INPUT="${{ github.event.inputs.report_slot }}"
+          if [ "$REPORT_SLOT_INPUT" != "morning" ] && [ "$REPORT_SLOT_INPUT" != "evening" ]; then
+            echo "ERROR: report_slot must be either 'morning' or 'evening'; received: '$REPORT_SLOT_INPUT'" >&2
+            exit 1
           fi
 
           if [ -n "${{ github.event.inputs.date_from }}" ] && [ -n "${{ github.event.inputs.date_to }}" ]; then
@@ -136,7 +121,6 @@ jobs:
           echo "RUN_MODE=$RUN_MODE"
           echo "REPORT_SLOT=${REPORT_SLOT:-}"
           echo "INVOCATION_MODE=${INVOCATION_MODE:-}"
-          echo "TRIGGER_SCHEDULE=${TRIGGER_SCHEDULE:-}"
           echo "SKIP_REASON=${SKIP_REASON:-}"
           echo "TARGET_DATE=${TARGET_DATE:-}"
           echo "DATE_FROM=${DATE_FROM:-}"
@@ -189,7 +173,7 @@ jobs:
           echo "SKIP_REASON=${SKIP_REASON:-}"
 
       - name: Check duplicate report slot run
-        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.FORCE_RUN != 'true'
         run: |
           set +e
           python scripts/report_run_status.py check --date "$TARGET_DATE" --report-slot "$REPORT_SLOT"
@@ -294,9 +278,8 @@ jobs:
             --out-dir data/reports \
             --base-report report_sample.json
 
-      - name: Fetch and apply news candidates
+      - name: Validate report draft before news processing
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
-        timeout-minutes: 4
         run: |
           test -f scripts/fetch_news_candidates.py || (echo "ERROR: scripts/fetch_news_candidates.py 파일이 없습니다." && exit 1)
           test -f scripts/apply_news_to_report.py || (echo "ERROR: scripts/apply_news_to_report.py 파일이 없습니다." && exit 1)
@@ -304,6 +287,12 @@ jobs:
             echo "[ERROR] 오후 보고서는 오전 report JSON이 먼저 필요합니다: data/reports/$TARGET_DATE.report.json"
             exit 1
           fi
+
+      - name: Fetch news candidates
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
+        timeout-minutes: 6
+        continue-on-error: true
+        run: |
           python scripts/fetch_news_candidates.py \
             --date "$TARGET_DATE" \
             --report-slot "$REPORT_SLOT" \
@@ -314,7 +303,17 @@ jobs:
             --request-timeout-seconds 6 \
             --global-timeout-seconds 120 \
             --max-queries-per-collector 8
-          python scripts/apply_news_to_report.py --date "$TARGET_DATE" --report-slot "$REPORT_SLOT" --news-dir data/news --report-dir data/reports --min-required 1
+
+      - name: Apply news candidates
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
+        continue-on-error: true
+        run: |
+          python scripts/apply_news_to_report.py \
+            --date "$TARGET_DATE" \
+            --report-slot "$REPORT_SLOT" \
+            --news-dir data/news \
+            --report-dir data/reports \
+            --min-required 1
 
       - name: Fetch Opinet international prices for today only
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.REPORT_SLOT == 'morning'
@@ -435,27 +434,6 @@ jobs:
             exit 0
           fi
 
-          git fetch origin main
-          git reset --soft origin/main
-
-          git add data/schedules/ || true
-          git add data/reports/ || true
-          git add data/prices/ || true
-          git add data/news/ || true
-          git add data/run_status/ || true
-          git add docs/index.html || true
-          git add docs/reports/ || true
-          git add docs/schedules/ || true
-          git add docs/report-index.json || true
-          git add public/index.html || true
-          git add public/reports/ || true
-          git add public/schedules/ || true
-          git add public/report-index.json || true
-
-          if git diff --cached --quiet; then
-            echo "최신 원격 기준으로 보니 추가 변경이 없습니다."
-            exit 0
-          fi
-
-          git commit -m "Update dashboard reports"
+          echo "[WARN] Initial push failed; rebasing onto the latest origin/main before retrying."
+          git pull --rebase origin main
           git push
