@@ -542,6 +542,8 @@ def specific_article_summary(title: str, context: str = "") -> str:
     compact = re.sub(r"\s+", " ", title)
     corpus = f"{compact} {clean(context)}"
 
+    if "주유소" in corpus and "도로점용료" in corpus:
+        return "전기차 충전시설과 달리 감면 대상에서 빠진 주유소 업계가 도로점용료 부담 완화를 요구"
     if "국제유가" in corpus and "주유소" in corpus:
         return "국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음"
     if "차량 2부제" in corpus and "호르무즈" in corpus:
