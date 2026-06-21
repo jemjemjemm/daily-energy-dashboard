@@ -378,7 +378,7 @@ def article_summary_part(article: Dict[str, Any]) -> str:
     summary = clean(article.get("summary"))
     if summary and not is_generic_article_summary(summary) and not is_repeated_article_desc(title, summary, clean(article.get("press"))):
         return _trim_summary_part(strip_polite_endings(summary), limit=68)
-    return title_summary_part(title)
+    return fallback_article_summary(title, summary)
 
 
 def build_representative_article_summary(articles: List[Dict[str, Any]], max_parts: int = 3) -> str:
@@ -576,13 +576,13 @@ def fallback_article_summary(title: str, context: str = "") -> str:
     title = re.sub(r"^\[[^\]]+\]\s*", "", title).strip()
     compact = re.sub(r"\s+", " ", title)
 
-    specific_context_summary = specific_article_summary(compact, context)
-    if specific_context_summary:
-        return specific_context_summary
-
     specific_title_summary = title_summary_part(compact)
     if specific_title_summary != _trim_summary_part(compact, limit=68):
         return specific_title_summary
+
+    specific_context_summary = specific_article_summary(compact, context)
+    if specific_context_summary:
+        return specific_context_summary
     if "공습" in compact and ("브렌트" in compact or "유가" in compact):
         return "美 이란 공습 여파로 브렌트유 4% 가까이 반등"
     if "호르무즈" in compact and "유가" in compact:
@@ -601,7 +601,11 @@ def fallback_article_summary(title: str, context: str = "") -> str:
         return "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도"
     if "유가" in compact or "원유" in compact or "석유" in compact:
         return "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
-    return _trim_summary_part(compact, limit=68)
+    if "주유소" in compact:
+        return "주유소 업계의 비용 부담과 영업환경 변화가 정책 현안으로 부각"
+    if "유류세" in compact:
+        return "유류세 제도와 석유제품 소비자 부담 관련 동향"
+    return "정유·석유화학·LNG 업계 관련 정책·시장 동향 보도"
 
 
 def in_issue_window(

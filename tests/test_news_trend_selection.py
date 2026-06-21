@@ -183,6 +183,20 @@ class NewsTrendSelectionTest(unittest.TestCase):
 
         self.assertEqual(summary, "\ud574\ub2f9 \uc2dc\uac04\ub300 \uc8fc\uc694 \ubcf4\ub3c4 \ud655\uc778 \uac74 \uc5c6\uc74c.")
 
+    def test_unknown_repeated_title_uses_publishable_content_summary(self) -> None:
+        title = "새로운 에너지 업계 현안을 다룬 기사 제목"
+        article = normalize_article({
+            "title": title,
+            "press": "연합뉴스",
+            "url": "https://example.test/energy",
+            "snippet": title,
+        })
+
+        summary = build_news_summary({}, [article])
+
+        self.assertNotIn(title, summary)
+        self.assertIn("정책·시장 동향", summary)
+
     def test_617_articles_get_content_summaries_not_titles_or_review_notes(self) -> None:
         articles = [
             normalize_article({

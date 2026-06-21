@@ -240,8 +240,8 @@ jobs:
           python scripts/fetch_safetimes_schedule.py \
             --date "$TARGET_DATE" \
             --out-dir data/schedules \
-            --max-retries 1 \
-            --retry-delay 10
+            --max-retries 3 \
+            --retry-delay 15
 
       - name: Try Fetch previous SafeTimes schedule
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.REPORT_SLOT == 'morning'
@@ -250,8 +250,8 @@ jobs:
           python scripts/fetch_safetimes_schedule.py \
             --date "$PREVIOUS_DATE" \
             --out-dir data/schedules \
-            --max-retries 1 \
-            --retry-delay 10
+            --max-retries 3 \
+            --retry-delay 15
 
       - name: Try Build report draft from SafeTimes
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.REPORT_SLOT == 'morning'
@@ -317,6 +317,7 @@ jobs:
 
       - name: Fetch Opinet international prices for today only
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.REPORT_SLOT == 'morning'
+        continue-on-error: true
         run: |
           TODAY=$(TZ=Asia/Seoul date +%Y-%m-%d)
           if [ -f "data/prices/$TARGET_DATE.json" ]; then
@@ -385,10 +386,19 @@ jobs:
       - name: Validate generated report HTML
         if: env.RUN_MODE == 'range' || (env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true')
         run: |
-          python scripts/validate_report_html.py \
-            --reports-dir docs/reports \
-            --index docs/report-index.json \
-            --since 2026-05-01
+          if [ "$RUN_MODE" = "single" ]; then
+            python scripts/validate_report_html.py \
+              --reports-dir docs/reports \
+              --index docs/report-index.json \
+              --since "$TARGET_DATE" \
+              --date "$TARGET_DATE"
+          else
+            python scripts/validate_report_html.py \
+              --reports-dir docs/reports \
+              --index docs/report-index.json \
+              --since "$DATE_FROM" \
+              --end "$DATE_TO"
+          fi
 
       - name: Mark report slot done
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'

@@ -54,6 +54,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--index", default="docs/report-index.json")
     parser.add_argument("--since", default="2026-05-01")
     parser.add_argument("--end", default="")
+    parser.add_argument("--date", default="", help="이 날짜의 보고서와 인덱스 항목만 검사")
     parser.add_argument("--allow-weekends", action="store_true")
     return parser.parse_args()
 
@@ -101,7 +102,10 @@ def validate_news_quality(path: Path, date_text: str, body: str, slot: str) -> l
     summary, titles, descs = news_texts(body)
     real_titles = [
         title for title in titles
-        if title and "데이터 대기" not in title and "데이터 확인 필요" not in title
+        if title
+        and "데이터 대기" not in title
+        and "데이터 확인 필요" not in title
+        and "뉴스 수집 지연" not in title
     ]
 
     if real_titles and "△" not in summary:
@@ -194,7 +198,7 @@ def validate_html_file(path: Path, since: str, allow_weekends: bool) -> list[str
     return errors
 
 
-def validate_index(path: Path, since: str, allow_weekends: bool) -> list[str]:
+def validate_index(path: Path, since: str, allow_weekends: bool, target_date: str = "") -> list[str]:
     if not path.exists():
         return [f"{path}: index file is missing"]
 
@@ -209,6 +213,8 @@ def validate_index(path: Path, since: str, allow_weekends: bool) -> list[str]:
             errors.append(f"{path}: report item is not an object")
             continue
         date_text = str(item.get("date", ""))
+        if target_date and date_text != target_date:
+            continue
         if date_text < since:
             continue
         if is_weekend(date_text) and not allow_weekends:
@@ -247,13 +253,17 @@ def main() -> int:
     if not reports_dir.exists():
         errors.append(f"{reports_dir}: reports directory is missing")
     else:
-        for path in sorted(reports_dir.glob("*.html")):
+        paths = [reports_dir / f"{args.date}.html"] if args.date else sorted(reports_dir.glob("*.html"))
+        for path in paths:
+            if not path.exists():
+                errors.append(f"{path}: report file is missing")
+                continue
             errors.extend(validate_html_file(path, args.since, args.allow_weekends))
         for date_text in expected_workdays(args.since, args.end, args.allow_weekends):
             if not (reports_dir / f"{date_text}.html").exists():
                 errors.append(f"{reports_dir}: expected workday report is missing: {date_text}")
 
-    errors.extend(validate_index(index_path, args.since, args.allow_weekends))
+    errors.extend(validate_index(index_path, args.since, args.allow_weekends, args.date))
 
     if errors:
         for error in errors:

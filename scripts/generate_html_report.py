@@ -744,7 +744,7 @@ def render_news(data: Mapping[str, Any], key: str = "news_trend", empty_summary:
         # 중요: 긴 URL 텍스트는 출력하지 않고, 제목에만 href를 건다.
         rows.append(f'<a class="news-link" href="{esc(url)}" target="_blank" rel="noopener noreferrer"><div class="news-link-title">{esc(title)}</div><div class="news-link-press">{esc(press)}</div>{desc_html}</a>')
     if not rows:
-        rows.append(f'<div class="news-link"><div class="news-link-title">대표 기사 데이터 확인 필요</div><div class="news-link-press">-</div><div class="news-link-desc">{esc(empty_article_desc)}</div></div>')
+        rows.append(f'<div class="news-link"><div class="news-link-title">뉴스 수집 지연</div><div class="news-link-press">자동 수집 상태</div><div class="news-link-desc">외부 뉴스 검색이 복구되면 재실행 시 자동 반영됩니다.</div></div>')
     if fact_note is None:
         fact_note = "※ 조간 트렌드는 웹 확인 가능한 기준일 오전 보도 중 정유·석유화학·LNG 업계 관련성이 높은 기사 중심 작성."
     return f'<div class="news-body"><div class="news-trend">{esc(summary)}</div><div class="news-separator"></div><div class="news-links-title">대표 기사</div>{"".join(rows)}</div><div class="fact-note">{esc(fact_note)}</div>'

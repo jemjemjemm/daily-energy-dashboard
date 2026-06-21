@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-ensure_report_draft.py v1.3
+ensure_report_draft.py v1.4
 
 리포트 JSON이 없거나, 과거에 만들어진 빈 placeholder 리포트이면
 가격 중심 기본 리포트로 보강합니다.
@@ -279,14 +279,14 @@ def build_minimal_report(date_text: str, base_report_path: Path) -> Dict[str, An
         "previous_day_label": prev_label,
         "today_label": today_label,
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S KST"),
-        "report_version": "fallback-price-report-v1.3",
-        "review_status": "가격 중심 자동생성 초안",
+        "report_version": "source-delay-report-v1.4",
+        "review_status": "자동 발간",
     }
 
     report["summary"] = [
         {
             "type": "price_only",
-            "text": "해당 날짜의 일정·기사 원문 데이터가 없어 가격 데이터 중심 리포트로 생성."
+            "text": "일정 원문 수집이 지연되어 가격 및 뉴스 중심 리포트로 우선 발간."
         },
         {
             "type": "price_only",
@@ -294,7 +294,7 @@ def build_minimal_report(date_text: str, base_report_path: Path) -> Dict[str, An
         },
         {
             "type": "review_note",
-            "text": "정책·일정·기사 요약은 원문 데이터 확보 후 후속 보완 필요."
+            "text": "일정 수집이 복구되면 같은 날짜를 재실행해 자동 보강할 수 있음."
         }
     ]
 
@@ -302,8 +302,8 @@ def build_minimal_report(date_text: str, base_report_path: Path) -> Dict[str, An
         {
             "category": "데이터",
             "category_class": "data",
-            "title": "전일 주요 이슈 확인 중",
-            "description": "주요 이슈 자동 작성에 필요한 일정·기사 데이터가 부족해 별도 이해관계자 동향을 작성하지 않음.",
+            "title": "전일 주요 이슈 수집 지연",
+            "description": "일정 원문 수집이 지연되어 전일 이해관계자 동향은 이번 발간에서 제외.",
             "grade": ""
         }
     ]
@@ -312,26 +312,20 @@ def build_minimal_report(date_text: str, base_report_path: Path) -> Dict[str, An
         {
             "time": "-",
             "org": "데이터",
-            "title": "금일 주요 일정 확인 중",
-            "relevance": "해당 날짜의 일정 원문이 확인되지 않아 일정 영향도 평가는 보류."
+            "title": "금일 주요 일정 수집 지연",
+            "relevance": "외부 일정 원문 수집이 복구되면 재실행 시 자동 반영."
         }
     ]
 
     report["news_trend"] = {
-        "summary": "해당 날짜의 조간 신문 트렌드 원문 데이터가 없어 자동 요약 미작성. 가격 데이터 중심 리포트로 제공.",
-        "articles": [
-            {
-                "title": "대표 기사 데이터 없음",
-                "press": "자동 수집 미적용",
-                "url": ""
-            }
-        ]
+        "summary": "조간 뉴스 수집을 진행 중이며 수집 결과에 따라 자동 갱신.",
+        "articles": []
     }
 
     report["quality_control"] = {
         "quality_notes": [
-            "일정 또는 기사 데이터 부족으로 기본 리포트 초안을 생성함.",
-            "정책·일정·기사 관련 내용은 원문 확인 후 보완해야 합니다.",
+            "외부 일정 수집 지연 시 가격 및 뉴스 중심으로 자동 발간함.",
+            "재실행 시 확보된 원문을 기준으로 자동 보강함.",
             "가격 그래프와 가격 카드는 history.json 또는 오피넷 수집 데이터 기준으로 반영됩니다."
         ],
         "sources": [
@@ -350,11 +344,11 @@ def build_minimal_report(date_text: str, base_report_path: Path) -> Dict[str, An
 
     report["automation"] = {
         **(report.get("automation", {}) if isinstance(report.get("automation"), dict) else {}),
-        "fallback_report": {
+        "source_availability": {
             "created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S KST"),
             "reason": "missing or empty schedule/news source data",
-            "script": "ensure_report_draft.py v1.3",
-            "scope": "price-centered report without fabricated issue/news content"
+            "script": "ensure_report_draft.py v1.4",
+            "scope": "publishable degraded report without fabricated issue/news content"
         }
     }
 
