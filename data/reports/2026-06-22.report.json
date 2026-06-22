@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결 △석유화학 업황은 원료 수급 완화와 중국발 공급 부담이 동시에 작용 △전기차 충전시설과 달리 감면 대상에서 빠진 주유소 업계가 도로점용료 부담 완화를 요구"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각 △국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음 △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명"
     }
   ],
   "prices": {
@@ -1688,6 +1692,78 @@
       "merged_at": "2026-06-22 08:44:59 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-06-22.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각 △국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음 △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
+    "trend_paragraphs": [
+      "연합뉴스는 이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각.",
+      "한겨레는 국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음.",
+      "에너지경제는 정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명."
+    ],
+    "articles": [
+      {
+        "title": "\"호르무즈 열려도 中 원유수입 즉각 복원 안할 듯…재고 넉넉\"",
+        "press": "연합뉴스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260622163508435",
+        "summary": "이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "“기름값 깜깜이 정산 끝낸다”…SK, 주유소 공급가 사전고지·경유 50원↓",
+        "press": "한겨레",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260622162146843",
+        "summary": "국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "[기자의 눈] 정유 업계, 중동전 이후 ‘공급망 해답’ 서둘러야",
+        "press": "에너지경제",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260622170003540",
+        "summary": "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
