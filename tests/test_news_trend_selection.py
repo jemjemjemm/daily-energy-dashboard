@@ -178,6 +178,49 @@ class NewsTrendSelectionTest(unittest.TestCase):
         self.assertNotIn("\ubcc0\ub3d9 \uc694\uc778\uc744 \uc911\uc2ec\uc73c\ub85c \uc815\ub9ac", summary)
         self.assertNotIn("\uc2dc\uc7a5 \uc5ec\uac74 \ubcc0\ud654\ub97c \uc911\uc2ec\uc73c\ub85c \ubcf4\ub3c4", summary)
 
+    def test_mismatched_article_summary_falls_back_to_title_specific_summary(self) -> None:
+        articles = [
+            {
+                "title": "석유 최고가격제 손실 보전도 정부 뜻대로? 정산위 회의 비공개 방침에 불안한 정유사들",
+                "summary": "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결",
+                "press": "조선일보",
+            },
+        ]
+
+        summary = build_news_summary({}, articles)
+
+        self.assertIn("최고가격제 손실보전", summary)
+        self.assertIn("정산위", summary)
+        self.assertNotIn("가격 반영 시차", summary)
+
+    def test_supply_price_article_does_not_get_collusion_summary_from_snippet(self) -> None:
+        article = normalize_article({
+            "title": "정유사 공급가격 체계 손질…사전고지 확대에 경유 할인 경쟁도",
+            "press": "파이낸셜뉴스",
+            "url": "https://v.daum.net/v/20260623142346694",
+            "snippet": (
+                "사후정산제 폐지를 공식화하면서 GS칼텍스와 HD현대오일뱅크 등 "
+                "경쟁사들도 관련 제도 정비에 착수했다."
+            ),
+        })
+
+        self.assertIn("공급가격 사전고지", article["summary"])
+        self.assertNotIn("담합", article["summary"])
+
+    def test_saved_collusion_summary_without_collusion_title_is_rebuilt(self) -> None:
+        articles = [
+            {
+                "title": "정유사 공급가격 체계 손질…사전고지 확대에 경유 할인 경쟁도",
+                "summary": "HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상",
+                "press": "파이낸셜뉴스",
+            },
+        ]
+
+        summary = build_news_summary({}, articles)
+
+        self.assertIn("공급가격 사전고지", summary)
+        self.assertNotIn("담합", summary)
+
     def test_empty_article_summary_uses_no_report_fallback(self) -> None:
         summary = build_news_summary({}, [])
 

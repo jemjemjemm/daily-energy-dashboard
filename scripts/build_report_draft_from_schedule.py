@@ -370,10 +370,16 @@ def is_org_only(value: str) -> bool:
 
 
 def affiliation_key(value: str, fallback_org: str = "") -> str:
+    for full, alias in KOREAN_ORG_ALIASES.items():
+        if full in value:
+            return alias
     for full, alias in ORG_ALIASES.items():
         if full in value:
             return alias
     combined = f"{value} {fallback_org}".strip()
+    for full, alias in KOREAN_ORG_ALIASES.items():
+        if full in combined:
+            return alias
     for full, alias in ORG_ALIASES.items():
         if full in combined:
             return alias
@@ -727,13 +733,43 @@ KOREAN_RELEVANT_KEYWORDS = [
     "에너지", "전력", "전력망", "발전공기업", "육상풍력", "LNG", "가스",
     "석유", "정유", "석유화학", "유가", "유류", "민생물가", "거시경제",
     "금융회의", "개발금융", "국가전략기술", "한미전략투자공사",
-    "공급망", "통상",
+    "공급망", "통상", "국방부", "방위산업", "드론", "대드론", "과기정통부",
+    "KEI", "한미 관계",
 ]
 
 KOREAN_EXCLUDE_KEYWORDS = [
     "야구", "축구", "골프", "문화", "공연", "전시", "선거", "체육",
     "맛집", "여행", "복권",
 ]
+
+KOREAN_ORG_ALIASES = {
+    "재정경제부": "재경부",
+    "재경부": "재경부",
+    "기획예산처": "기획처",
+    "기획처": "기획처",
+    "외교부": "외교부",
+    "국방부": "국방부",
+    "산업통상부": "산업통상부",
+    "산업부": "산업통상부",
+    "공정거래위원회": "공정위",
+    "공정위": "공정위",
+    "식품의약품안전처": "식약처",
+    "식약처": "식약처",
+    "과학기술정보통신부": "과기정통부",
+    "과기정통부": "과기정통부",
+    "기후에너지환경부": "기후에너지환경부",
+    "기후부": "기후에너지환경부",
+    "보건복지부": "복지부",
+    "복지부": "복지부",
+    "고용노동부": "노동부",
+    "노동부": "노동부",
+    "중소벤처기업부": "중기부",
+    "중기부": "중기부",
+}
+
+KOREAN_ATTENDEE_ALIASES = {
+    "남동일 부위원장": "남동일 공정위 부위원장",
+}
 
 KOREAN_SCHEDULE_SIGNALS = [
     "회의", "간담회", "포럼", "행사", "본회의", "창립", "창립식", "점검",
@@ -785,11 +821,51 @@ def parse_korean_time_title(value: str) -> tuple[str, str, str]:
 
 def split_korean_actor_event(value: str, fallback_org: str = "") -> tuple[str, str, str]:
     value = clean_korean_bullet(value)
+    if value.startswith("KEI "):
+        return "KEI", "KEI", value[4:].strip()
     if "," in value:
         actor, event = [part.strip() for part in value.split(",", 1)]
         org = actor or fallback_org
         return actor or org, org, event
     return fallback_org or "확인", fallback_org or "확인", value
+
+
+def normalize_korean_org(value: str) -> str:
+    value = clean_korean_bullet(value)
+    for full, alias in KOREAN_ORG_ALIASES.items():
+        if full in value:
+            return alias
+    return value
+
+
+def normalize_korean_attendee(attendee: str, org: str) -> str:
+    attendee = clean_korean_bullet(attendee)
+    org_label = normalize_korean_org(org)
+    if attendee in KOREAN_ATTENDEE_ALIASES:
+        return KOREAN_ATTENDEE_ALIASES[attendee]
+    if not attendee:
+        return org_label or "확인"
+    if not org_label or org_label == "확인":
+        return attendee
+    if org_label == attendee:
+        return attendee
+    if not re.match(r"^[가-힣]{2,4}\b", attendee):
+        return attendee
+
+    known_orgs = set(KOREAN_ORG_ALIASES.values()) | {"국무총리", "부총리"}
+    if any(label in attendee for label in known_orgs):
+        return attendee
+
+    match = re.match(r"^([가-힣]{2,4})\s+(1차관|2차관|장관|차관|처장|청장|위원장|부위원장|본부장)$", attendee)
+    if not match:
+        return attendee
+
+    name, role = match.groups()
+    if org_label == "식약처" and role in {"처장", "차장"}:
+        return f"{name} 식약{role}"
+    if org_label == "공정위" and role == "위원장":
+        return f"{name} 공정위원장"
+    return f"{name} {org_label} {role}"
 
 
 def korean_relevance_key(item: Dict[str, str]) -> bool:
@@ -799,6 +875,10 @@ def korean_relevance_key(item: Dict[str, str]) -> bool:
     ):
         return False
     return any(word in combined for word in KOREAN_RELEVANT_KEYWORDS)
+
+
+def filter_korean_relevant_items(items: List[Dict[str, str]], max_items: int) -> List[Dict[str, str]]:
+    return sort_schedule_items([item for item in items if korean_relevance_key(item)])[:max_items]
 
 
 def parse_modern_korean_schedule_entries(body: str, max_items: int) -> List[Dict[str, str]]:
@@ -859,10 +939,14 @@ def parse_modern_korean_schedule_entries(body: str, max_items: int) -> List[Dict
             continue
 
         time_text, title, location = parse_korean_time_title(event_text)
+        local_time = "현지시간" in event_text or "동부시간" in event_text or current_category == "국제"
+        time_text = normalize_time_label(time_text, local_time=local_time)
         if not title:
             continue
         if location:
             title = f"{title} ({location})"
+        attendee = normalize_korean_attendee(attendee, org or current_category)
+        org = normalize_korean_org(org or current_category)
 
         entry = {
             "time": time_text,
@@ -876,8 +960,7 @@ def parse_modern_korean_schedule_entries(body: str, max_items: int) -> List[Dict
             "relevance": "",
         }
         order += 1
-        if korean_relevance_key(entry):
-            entries.append(entry)
+        entries.append(entry)
         if len(entries) >= max_items:
             break
 
@@ -889,7 +972,8 @@ def schedule_items_from_json_or_body(schedule_data: Dict[str, Any], max_items: i
     # 따라서 원문 body를 우선 파싱해 기관 문맥을 살리고, body 파싱이 실패할 때만 items를 fallback으로 사용한다.
     parsed = parse_modern_korean_schedule_entries(source_body(schedule_data), max_items=max_items * 60)
     if parsed:
-        return merge_schedule_items(parsed, max_items=max_items)
+        merged = merge_schedule_items(parsed, max_items=max_items * 60)
+        return filter_korean_relevant_items(merged, max_items=max_items)
 
     parsed = parse_detailed_schedule_entries(source_body(schedule_data), max_items=max_items * 60)
     if parsed:

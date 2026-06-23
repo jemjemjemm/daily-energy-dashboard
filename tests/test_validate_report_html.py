@@ -135,6 +135,23 @@ class ValidateReportHtmlTest(unittest.TestCase):
 
         self.assertTrue(any("generic/review phrase" in error for error in errors))
 
+    def test_news_quality_rejects_summary_that_does_not_match_article_title(self) -> None:
+        body = (
+            '<div class="news-body"><div class="news-trend">'
+            '△국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결</div>'
+            '<a class="news-link"><div class="news-link-title">'
+            '석유 최고가격제 손실 보전도 정부 뜻대로? 정산위 회의 비공개 방침에 불안한 정유사들'
+            '</div><div class="news-link-desc">'
+            '국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결'
+            '</div></a></div>'
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "2026-06-17.html"
+            path.write_text(report_html_with_news("2026-06-17", body), encoding="utf-8")
+            errors = validate_html_file(path, "2026-05-01", False)
+
+        self.assertTrue(any("does not match article title" in error for error in errors))
+
     def test_news_quality_accepts_bulleted_content_summary_after_cutoff(self) -> None:
         body = (
             '<div class="news-body"><div class="news-trend">△국제유가 하락에도 국내 주유소 가격 반영에는 시차가 남아 있음 '

@@ -86,6 +86,51 @@ def strip_tags(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
+SUMMARY_ALIGNMENT_STOPWORDS = {
+    "국제유가", "원유", "수급", "변화", "국내", "정유", "석유", "석유제품",
+    "가격", "반영", "시차", "업계", "관련", "중심", "보도", "시장", "에너지",
+    "주요", "부각", "변수", "정책", "정부", "전망", "가능성", "영향",
+}
+
+BROAD_ENERGY_SUMMARY_PATTERNS = (
+    "국제유가와 원유 수급 변화",
+    "석유화학 업황은 원료 수급",
+    "LNG 수급·가격 변동",
+    "원유 수급 안정성과 정유 수익성",
+)
+
+
+def normalize_for_compare(value: str) -> str:
+    return re.sub(r"[\s\W_]+", "", strip_tags(value), flags=re.UNICODE).lower()
+
+
+def significant_title_tokens(text: str) -> set[str]:
+    tokens = set()
+    for token in re.findall(r"[가-힣A-Za-z0-9]{2,}", strip_tags(text)):
+        if len(token) < 3:
+            continue
+        if token in SUMMARY_ALIGNMENT_STOPWORDS:
+            continue
+        tokens.add(token.lower())
+    return tokens
+
+
+def summary_parts(summary: str) -> list[str]:
+    return [part.strip(" .") for part in re.split(r"\s*△\s*", summary) if part.strip(" .")]
+
+
+def summary_part_matches_title(part: str, title: str) -> bool:
+    tokens = significant_title_tokens(title)
+    if not tokens:
+        return True
+    part_norm = normalize_for_compare(part)
+    return any(normalize_for_compare(token) in part_norm for token in tokens)
+
+
+def is_broad_energy_summary(part: str) -> bool:
+    return any(pattern in part for pattern in BROAD_ENERGY_SUMMARY_PATTERNS)
+
+
 def news_texts(body: str) -> tuple[str, list[str], list[str]]:
     summary_match = re.search(r'<div class="news-trend">(.+?)</div>', body, re.S)
     summary = strip_tags(summary_match.group(1)) if summary_match else ""
@@ -117,6 +162,12 @@ def validate_news_quality(path: Path, date_text: str, body: str, slot: str) -> l
         if any(phrase in desc for desc in descs):
             errors.append(f"{path}: {slot} news article description contains generic/review phrase: {phrase}")
 
+    for index, (title, desc) in enumerate(zip(real_titles, descs)):
+        if is_broad_energy_summary(desc) and not summary_part_matches_title(desc, title):
+            errors.append(
+                f"{path}: {slot} news article description {index + 1} does not match article title: {title}"
+            )
+
     for title in real_titles:
         if f"△{title}" in summary:
             errors.append(f"{path}: {slot} news summary lists article title instead of content: {title}")
@@ -126,6 +177,12 @@ def validate_news_quality(path: Path, date_text: str, body: str, slot: str) -> l
         titles_joined = re.sub(r"[△·,\s.]+", "", "".join(real_titles[:3]))
         if titles_joined and summary_without_markers == titles_joined:
             errors.append(f"{path}: {slot} news summary is only article titles")
+        parts = summary_parts(summary)
+        for index, title in enumerate(real_titles[: len(parts)]):
+            if is_broad_energy_summary(parts[index]) and not summary_part_matches_title(parts[index], title):
+                errors.append(
+                    f"{path}: {slot} news summary item {index + 1} does not match article title: {title}"
+                )
 
     return errors
 

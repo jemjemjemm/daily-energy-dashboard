@@ -232,10 +232,61 @@ GENERIC_ARTICLE_SUMMARY_PATTERNS = [
     "시장 여건 변화",
 ]
 
+BROAD_ENERGY_SUMMARY_PATTERNS = [
+    "국제유가와 원유 수급 변화",
+    "석유화학 업황은 원료 수급",
+    "LNG 수급·가격 변동",
+    "원유 수급 안정성과 정유 수익성",
+]
+
 
 def is_generic_article_summary(text: str) -> bool:
     text = clean(text)
     return any(pattern in text for pattern in GENERIC_ARTICLE_SUMMARY_PATTERNS)
+
+
+def is_broad_energy_summary(text: str) -> bool:
+    text = clean(text)
+    return any(pattern in text for pattern in BROAD_ENERGY_SUMMARY_PATTERNS)
+
+
+SUMMARY_ALIGNMENT_STOPWORDS = {
+    "국제유가", "원유", "수급", "변화", "국내", "정유", "석유", "석유제품",
+    "가격", "반영", "시차", "업계", "관련", "중심", "보도", "시장", "에너지",
+    "주요", "부각", "변수", "정책", "정부", "전망", "가능성", "영향",
+}
+
+
+def significant_title_tokens(text: str) -> set[str]:
+    tokens = set()
+    for token in re.findall(r"[가-힣A-Za-z0-9]{2,}", clean(text)):
+        token = token.strip()
+        if len(token) < 3:
+            continue
+        if token in SUMMARY_ALIGNMENT_STOPWORDS:
+            continue
+        tokens.add(token.lower())
+    return tokens
+
+
+def summary_matches_article_title(title: str, summary: str) -> bool:
+    tokens = significant_title_tokens(title)
+    if not tokens:
+        return True
+    summary_norm = normalize_article_text(summary)
+    return any(normalize_article_text(token) in summary_norm for token in tokens)
+
+
+def summary_conflicts_with_article_title(title: str, summary: str) -> bool:
+    title = clean(title)
+    summary = clean(summary)
+    if not title or not summary:
+        return False
+    if "담합" in summary and "담합" not in title:
+        return True
+    if "HD현대오일뱅크" in summary and "HD현대오일뱅크" not in title and "담합" in summary:
+        return True
+    return False
 
 
 FRAME_RULES = [
@@ -376,7 +427,13 @@ def build_frame_summary(news: Dict[str, Any], articles: List[Dict[str, Any]]) ->
 def article_summary_part(article: Dict[str, Any]) -> str:
     title = clean(article.get("title"))
     summary = clean(article.get("summary"))
-    if summary and not is_generic_article_summary(summary) and not is_repeated_article_desc(title, summary, clean(article.get("press"))):
+    if (
+        summary
+        and not is_generic_article_summary(summary)
+        and not is_repeated_article_desc(title, summary, clean(article.get("press")))
+        and not summary_conflicts_with_article_title(title, summary)
+        and (not is_broad_energy_summary(summary) or summary_matches_article_title(title, summary))
+    ):
         return _trim_summary_part(strip_polite_endings(summary), limit=68)
     return fallback_article_summary(title, summary)
 
@@ -527,8 +584,23 @@ def title_summary_part(title: str) -> str:
         pct = re.search(r"국제유가\s*([0-9.]+%)\s*하락", compact)
         drop_text = f"국제유가 {pct.group(1)} 하락" if pct else "국제유가 하락"
         return f"{drop_text}과 주유소 가격 반영 시차"
+    if (
+        ("공급가" in compact or "공급가격" in compact or "공급 전 가격 고지" in compact or "가격 고지" in compact)
+        and ("사전고지" in compact or "사전 고지" in compact or "가격 고지" in compact or "사후정산" in compact or "알린다" in compact)
+    ):
+        return "정유사 공급가격 사전고지 확대와 경유 할인 경쟁이 유통가격 투명화 이슈로 부각"
+    if "경유" in compact and ("할인" in compact or "인하" in compact):
+        return "경유 가격 인하 경쟁이 주유소 유통가격과 소비자 체감가격 변수로 부각"
     if "유가 담합" in compact and "HD현대오일뱅크" in compact:
         return "HD현대오일뱅크 유가 담합 혐의 수사"
+    if ("기름값 담합" in compact or "가격 담합" in compact) and ("AI" in compact or "집단소송" in compact):
+        return "미국 주유소 AI 가격 알고리즘 담합 의혹 집단소송이 유통가격 규제 리스크로 부각"
+    if "최고가격제" in compact and ("손실 보전" in compact or "손실보전" in compact):
+        return "최고가격제 손실보전 정산위 비공개 방침으로 정유사 보상 절차 불확실성 부각"
+    if "정산위" in compact and "정유사" in compact:
+        return "정산위 운영 방식과 손실보전 기준을 둘러싼 정유업계 불안"
+    if "호르무즈 통항료" in compact or ("호르무즈" in compact and "자유항행" in compact):
+        return "호르무즈 통항료 논의와 자유항행 방어 필요성 부각"
     if "이란 선박" in compact and "호르무즈" in compact:
         return "이란 선박 호르무즈 통과와 종전 MOU 성과"
     if "호르무즈" in compact and "종전 MOU" in compact:
@@ -544,6 +616,13 @@ def specific_article_summary(title: str, context: str = "") -> str:
 
     if "주유소" in corpus and "도로점용료" in corpus:
         return "전기차 충전시설과 달리 감면 대상에서 빠진 주유소 업계가 도로점용료 부담 완화를 요구"
+    if (
+        ("공급가" in corpus or "공급가격" in corpus or "공급 전 가격 고지" in corpus or "가격 고지" in corpus)
+        and ("사전고지" in corpus or "사전 고지" in corpus or "가격 고지" in corpus or "사후정산" in corpus or "알린다" in corpus)
+    ):
+        return "정유사 공급가격 사전고지 확대와 경유 할인 경쟁이 유통가격 투명화 이슈로 부각"
+    if ("기름값 담합" in corpus or "가격 담합" in corpus) and ("AI" in corpus or "집단소송" in corpus):
+        return "미국 주유소 AI 가격 알고리즘 담합 의혹 집단소송이 유통가격 규제 리스크로 부각"
     if "국제유가" in corpus and "주유소" in corpus:
         return "국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음"
     if "차량 2부제" in corpus and "호르무즈" in corpus:
@@ -562,7 +641,7 @@ def specific_article_summary(title: str, context: str = "") -> str:
         return "석유화학 업황은 원료 수급 완화와 중국발 공급 부담이 동시에 작용"
     if "정유" in corpus and ("AI" in corpus or "데이터센터" in corpus or "액침냉각" in corpus):
         return "정유사의 비석유 신사업으로 AI 데이터센터 냉각 수요 대응이 부각"
-    if "정유" in corpus and ("담합" in corpus or "HD현대오일뱅크" in corpus):
+    if "담합" in corpus and ("정유" in corpus or "HD현대오일뱅크" in corpus):
         return "HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상"
     if "LNG" in corpus:
         return "LNG 수급·가격 변동이 발전 원가와 에너지 시장 안정성 변수로 작용"
@@ -677,8 +756,13 @@ def normalize_article(item: Dict[str, Any]) -> Dict[str, Any]:
         summary = strip_polite_endings(summary)
     else:
         summary = fallback_article_summary(title)
+    title_specific_summary = title_summary_part(title)
+    if title_specific_summary != _trim_summary_part(strip_article_source_suffix(title), limit=68):
+        summary = title_specific_summary
     if is_repeated_article_desc(title, summary, press):
         summary = fallback_article_summary(title, original_snippet)
+    if is_broad_energy_summary(summary) and not summary_matches_article_title(title, summary):
+        summary = fallback_article_summary(title, original_snippet or summary)
     out: Dict[str, Any] = {
         "title": title,
         "press": press,
