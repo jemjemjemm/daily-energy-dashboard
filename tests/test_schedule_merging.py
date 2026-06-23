@@ -7,7 +7,13 @@ import json
 import unittest
 from pathlib import Path
 
-from scripts.build_report_draft_from_schedule import schedule_items_from_json_or_body
+from datetime import datetime
+
+from scripts.build_report_draft_from_schedule import (
+    refresh_report_schedule_sections,
+    schedule_items_from_json_or_body,
+)
+from scripts.generate_schedule_detail_html import split_actor_event
 
 
 class ScheduleMergingTest(unittest.TestCase):
@@ -40,6 +46,60 @@ class ScheduleMergingTest(unittest.TestCase):
         seminar = by_title["한미 관계 전망 세미나"]
         self.assertEqual(seminar["time"], "10:00 현지시간")
         self.assertEqual(seminar["attendees"], "KEI")
+
+    def test_2026_06_23_items_only_schedule_is_parsed(self) -> None:
+        schedule_data = json.loads(Path("data/schedules/2026-06-23.json").read_text(encoding="utf-8"))
+
+        rows = schedule_items_from_json_or_body(schedule_data, max_items=12)
+        titles = {row["title"] for row in rows}
+
+        self.assertGreaterEqual(len(rows), 8)
+        self.assertIn("한미전략투자사업관리위원회", titles)
+        self.assertIn("국무회의 겸 비상경제점검회의", titles)
+        self.assertIn("중국 국제 공급망 박람회", titles)
+        self.assertNotIn("베이징)", titles)
+        self.assertNotIn("금일 주요 일정 수집 지연", titles)
+
+    def test_schedule_repair_replaces_placeholder_without_dropping_news(self) -> None:
+        schedule_data = json.loads(Path("data/schedules/2026-06-23.json").read_text(encoding="utf-8"))
+        report = {
+            "report": {"report_date": "2026-06-23"},
+            "summary": [
+                {"type": "price_only", "text": "일정 원문 수집이 지연되어 가격 및 뉴스 중심 리포트로 우선 발간."},
+                {"type": "news_trend", "text": "(Morning) 뉴스 요약"},
+            ],
+            "schedules": [
+                {
+                    "time": "-",
+                    "org": "데이터",
+                    "title": "금일 주요 일정 수집 지연",
+                    "relevance": "외부 일정 원문 수집이 복구되면 재실행 시 자동 반영.",
+                }
+            ],
+            "news_trend": {
+                "summary": "뉴스 요약",
+                "articles": [{"title": "기사", "url": "https://example.test"}],
+            },
+        }
+
+        refreshed = refresh_report_schedule_sections(
+            report=report,
+            schedule_data=schedule_data,
+            target_dt=datetime(2026, 6, 23),
+            max_items=12,
+        )
+
+        self.assertGreaterEqual(len(refreshed["schedules"]), 8)
+        self.assertNotEqual(refreshed["schedules"][0]["title"], "금일 주요 일정 수집 지연")
+        self.assertEqual(refreshed["news_trend"]["summary"], "뉴스 요약")
+        self.assertTrue(any(item["type"] == "news_trend" for item in refreshed["summary"]))
+        self.assertFalse(any("일정 원문 수집" in item.get("text", "") for item in refreshed["summary"]))
+
+    def test_schedule_detail_actor_split_ignores_parenthesized_comma(self) -> None:
+        actor, event = split_actor_event("중국 국제 공급망 박람회(∼26일, 베이징)")
+
+        self.assertEqual(actor, "")
+        self.assertEqual(event, "중국 국제 공급망 박람회(∼26일, 베이징)")
 
 
 if __name__ == "__main__":

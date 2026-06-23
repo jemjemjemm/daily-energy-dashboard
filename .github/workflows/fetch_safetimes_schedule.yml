@@ -288,6 +288,22 @@ jobs:
             exit 1
           fi
 
+      - name: Patch schedule sections from SafeTimes source
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
+        run: |
+          if [ -f "data/schedules/$TARGET_DATE.json" ]; then
+            python scripts/build_report_draft_from_schedule.py \
+              --date "$TARGET_DATE" \
+              --schedule-dir data/schedules \
+              --previous-date "$PREVIOUS_DATE" \
+              --previous-schedule-dir data/schedules \
+              --base-report report_sample.json \
+              --out-dir data/reports \
+              --patch-existing
+          else
+            echo "[WARN] 일정 JSON이 없어 일정 섹션 보강을 건너뜁니다: data/schedules/$TARGET_DATE.json"
+          fi
+
       - name: Fetch news candidates
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         timeout-minutes: 6

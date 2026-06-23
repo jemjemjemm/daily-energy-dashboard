@@ -57,6 +57,22 @@ def check(path: Path) -> list[str]:
     today_candidate_count = auto.get('today_source_schedule_candidate_count')
     if today_candidate_count in (None, ''):
         errors.append(f'{path}: today_source_schedule_candidate_count 누락')
+    schedules = data.get('schedules', []) if isinstance(data.get('schedules'), list) else []
+    schedule_blob = ' '.join(
+        str(item.get('title', '')) + ' ' + str(item.get('relevance', ''))
+        for item in schedules
+        if isinstance(item, dict)
+    )
+    has_placeholder_schedule = any(
+        phrase in schedule_blob
+        for phrase in ['수집 지연', '데이터 확인 필요', '원문 데이터 없음', '가격 중심']
+    )
+    try:
+        candidate_count_int = int(today_candidate_count or 0)
+    except Exception:
+        candidate_count_int = 0
+    if candidate_count_int > 0 and (not schedules or has_placeholder_schedule):
+        errors.append(f'{path}: 금일 일정 후보가 있으나 report schedules가 비어 있거나 fallback 상태')
 
     # 정상 수집에서는 대표 기사를 요구한다. 다만 모든 외부 뉴스 수집기가
     # 일시적으로 실패한 경우에는 명시적인 no_articles 상태로 발간을 허용한다.

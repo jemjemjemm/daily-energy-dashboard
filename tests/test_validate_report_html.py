@@ -7,7 +7,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.validate_report_html import validate_html_file
+from scripts.validate_report_html import BAD_REPORT_PHRASES, validate_html_file
 
 
 def report_html(date_text: str, morning_title: str, evening_title: str) -> str:
@@ -134,6 +134,23 @@ class ValidateReportHtmlTest(unittest.TestCase):
             errors = validate_html_file(path, "2026-05-01", False)
 
         self.assertTrue(any("generic/review phrase" in error for error in errors))
+
+    def test_rejects_schedule_collection_delay_placeholder(self) -> None:
+        bad_phrase = BAD_REPORT_PHRASES[1]
+        html = report_html(
+            "2026-06-23",
+            "News Trend - Morning (6/22 17:00 - 6/23 08:00)",
+            "News Trend - Evening (6/23 08:00 - 17:00)",
+        ).replace(
+            '<div class="schedule-list"><div class="schedule-row">ok</div></div>',
+            f'<div class="schedule-list"><div class="schedule-row">{bad_phrase}</div></div>',
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "2026-06-23.html"
+            path.write_text(html, encoding="utf-8")
+            errors = validate_html_file(path, "2026-05-01", False)
+
+        self.assertTrue(any("unresolved fallback/error phrase exists" in error for error in errors))
 
     def test_news_quality_rejects_summary_that_does_not_match_article_title(self) -> None:
         body = (

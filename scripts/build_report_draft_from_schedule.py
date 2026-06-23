@@ -819,12 +819,28 @@ def parse_korean_time_title(value: str) -> tuple[str, str, str]:
     return parsed_time or "시간 미정", title, " · ".join(locations)
 
 
+def split_top_level_comma(value: str) -> Optional[Tuple[str, str]]:
+    depth = 0
+    for index, char in enumerate(value):
+        if char == "(":
+            depth += 1
+        elif char == ")" and depth > 0:
+            depth -= 1
+        elif char == "," and depth == 0:
+            left = value[:index].strip()
+            right = value[index + 1 :].strip()
+            if left and right:
+                return left, right
+    return None
+
+
 def split_korean_actor_event(value: str, fallback_org: str = "") -> tuple[str, str, str]:
     value = clean_korean_bullet(value)
     if value.startswith("KEI "):
         return "KEI", "KEI", value[4:].strip()
-    if "," in value:
-        actor, event = [part.strip() for part in value.split(",", 1)]
+    comma_parts = split_top_level_comma(value)
+    if comma_parts:
+        actor, event = comma_parts
         org = actor or fallback_org
         return actor or org, org, event
     return fallback_org or "확인", fallback_org or "확인", value
@@ -1043,6 +1059,11 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=12,
         help="리포트에 반영할 최대 일정 수. 기본값 12",
+    )
+    parser.add_argument(
+        "--patch-existing",
+        action="store_true",
+        help="기존 report JSON의 뉴스/가격은 보존하고 일정 섹션만 최신 SafeTimes JSON으로 갱신",
     )
     return parser.parse_args()
 
@@ -1346,6 +1367,121 @@ def update_summary(
     base_report["summary"] = summary_rows
 
 
+def today_summary_text(today_items: List[Dict[str, str]]) -> str:
+    if today_items:
+        today_titles = ", ".join(item["title"] for item in today_items[:4])
+        return f"금일 주요 일정: {today_titles}."
+    return "금일 주요 일정: 주요 일정 없음."
+
+
+def is_placeholder_row(item: Dict[str, Any]) -> bool:
+    blob = " ".join(str(item.get(key, "")) for key in ("type", "title", "text", "description", "relevance"))
+    return any(
+        phrase in blob
+        for phrase in (
+            "수집 지연",
+            "데이터 확인 필요",
+            "데이터 없음",
+            "원문 데이터 없음",
+            "가격 및 뉴스 중심",
+            "가격 중심",
+            "fallback",
+        )
+    )
+
+
+def refresh_summary_schedule_row(report: Dict[str, Any], today_items: List[Dict[str, str]]) -> None:
+    existing = report.get("summary", []) if isinstance(report.get("summary"), list) else []
+    rows: List[Dict[str, Any]] = []
+    inserted = False
+    for item in existing:
+        if not isinstance(item, dict):
+            continue
+        item_type = item.get("type")
+        text = str(item.get("text", ""))
+        if item_type == "today":
+            if not inserted:
+                rows.append({"type": "today", "text": today_summary_text(today_items)})
+                inserted = True
+            continue
+        if item_type in {"price_only", "review_note"} and any(
+            phrase in text for phrase in ("일정 원문 수집", "일정 수집", "가격 및 뉴스 중심")
+        ):
+            continue
+        rows.append(item)
+    if not inserted:
+        rows.insert(0, {"type": "today", "text": today_summary_text(today_items)})
+    report["summary"] = rows
+
+
+def refresh_report_schedule_sections(
+    report: Dict[str, Any],
+    schedule_data: Dict[str, Any],
+    target_dt: datetime,
+    max_items: int,
+    previous_schedule_data: Dict[str, Any] | None = None,
+    previous_dt: datetime | None = None,
+) -> Dict[str, Any]:
+    today_candidate_count = schedule_candidate_count(schedule_data, max_items=max_items)
+    today_items = schedule_items_from_json_or_body(schedule_data, max_items=max_items)
+    previous_candidate_count = 0
+    previous_items: List[Dict[str, str]] = []
+    if previous_schedule_data and previous_schedule_data.get("success", True):
+        previous_candidate_count = schedule_candidate_count(previous_schedule_data, max_items=max_items)
+        previous_items = schedule_items_from_json_or_body(previous_schedule_data, max_items=max_items)
+
+    if today_items:
+        report["schedules"] = today_items
+
+    existing_issues = report.get("issues", []) if isinstance(report.get("issues"), list) else []
+    if previous_items and (not existing_issues or all(isinstance(item, dict) and is_placeholder_row(item) for item in existing_issues)):
+        report["issues"] = build_issue_cards_from_schedules(previous_items)
+
+    update_report_meta(report, target_dt)
+    if previous_dt:
+        report.setdefault("report", {})["previous_source_date"] = previous_dt.strftime("%Y-%m-%d")
+    update_sources(report, schedule_data)
+    refresh_summary_schedule_row(report, today_items)
+
+    validation = report.setdefault("automation", {}).setdefault("validation", {})
+    if today_candidate_count == 0 and not today_items:
+        validation["today_schedule_parse_failed"] = True
+        validation["today_schedule_status"] = "parse_failed"
+    else:
+        validation.pop("today_schedule_parse_failed", None)
+        validation["today_schedule_status"] = "ok" if today_items else "no_relevant_schedule"
+
+    if previous_schedule_data is None:
+        validation.pop("previous_schedule_parse_failed", None)
+        validation["previous_schedule_source_unavailable"] = True
+        validation["previous_schedule_status"] = "source_unavailable"
+    elif previous_candidate_count == 0 and not previous_items:
+        validation.pop("previous_schedule_source_unavailable", None)
+        validation["previous_schedule_parse_failed"] = True
+        validation["previous_schedule_status"] = "parse_failed"
+    else:
+        validation.pop("previous_schedule_source_unavailable", None)
+        validation.pop("previous_schedule_parse_failed", None)
+        validation["previous_schedule_status"] = "ok" if previous_items else "no_relevant_schedule"
+
+    report["automation"]["safetimes"] = {
+        "today_source_file_date": target_dt.strftime("%Y-%m-%d"),
+        "today_source_title": schedule_data.get("title", ""),
+        "today_source_url": source_url(schedule_data),
+        "today_source_published_at": schedule_data.get("approved_date", "") or schedule_data.get("published_at", ""),
+        "today_source_schedule_candidate_count": today_candidate_count,
+        "today_parsed_schedule_count": len(today_items),
+        "previous_source_file_date": previous_dt.strftime("%Y-%m-%d") if previous_dt else "",
+        "previous_source_title": previous_schedule_data.get("title", "") if previous_schedule_data else "",
+        "previous_source_url": source_url(previous_schedule_data) if previous_schedule_data else "",
+        "previous_source_schedule_candidate_count": previous_candidate_count,
+        "previous_parsed_schedule_count": len(previous_items),
+        "parser_version": "build_report_draft_from_schedule.py v2.4-schedule-repair",
+        "needs_review": True,
+    }
+    return report
+
+
 def update_report_meta(base_report: Dict[str, Any], target_dt: datetime) -> None:
     report = base_report.setdefault("report", {})
     date_text = target_dt.strftime("%Y-%m-%d")
@@ -1506,14 +1642,25 @@ def main() -> int:
     if previous_schedule_data is None:
         print(f"[WARN] 전일/직전 영업일 일정 JSON이 없습니다. 이슈 섹션은 비워 둡니다: {previous_schedule_path}")
 
-    draft = build_report_draft(
-        schedule_data=schedule_data,
-        previous_schedule_data=previous_schedule_data,
-        base_report=base_report,
-        target_dt=target_dt,
-        previous_dt=previous_dt,
-        max_items=args.max_items,
-    )
+    if args.patch_existing and out_path.exists():
+        draft = read_json(out_path)
+        draft = refresh_report_schedule_sections(
+            report=draft,
+            schedule_data=schedule_data,
+            target_dt=target_dt,
+            max_items=args.max_items,
+            previous_schedule_data=previous_schedule_data,
+            previous_dt=previous_dt,
+        )
+    else:
+        draft = build_report_draft(
+            schedule_data=schedule_data,
+            previous_schedule_data=previous_schedule_data,
+            base_report=base_report,
+            target_dt=target_dt,
+            previous_dt=previous_dt,
+            max_items=args.max_items,
+        )
 
     write_json(out_path, draft)
 

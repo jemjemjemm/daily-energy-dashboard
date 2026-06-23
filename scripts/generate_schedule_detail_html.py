@@ -154,12 +154,26 @@ def parse_event_text(text: str) -> dict[str, str]:
     }
 
 
+def split_top_level_comma(text: str) -> tuple[str, str] | None:
+    depth = 0
+    for index, char in enumerate(text):
+        if char == "(":
+            depth += 1
+        elif char == ")" and depth > 0:
+            depth -= 1
+        elif char == "," and depth == 0:
+            left = text[:index].strip()
+            right = text[index + 1 :].strip()
+            if left and right:
+                return left, right
+    return None
+
+
 def split_actor_event(text: str, fallback_actor: str = "") -> tuple[str, str]:
     text = clean_bullet(text)
-    if "," in text:
-        actor, event = [part.strip() for part in text.split(",", 1)]
-        if actor and event:
-            return actor, event
+    comma_parts = split_top_level_comma(text)
+    if comma_parts:
+        return comma_parts
     return fallback_actor, text
 
 
