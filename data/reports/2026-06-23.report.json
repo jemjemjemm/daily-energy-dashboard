@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결 △이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상 △국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음 △주유소 업계의 비용 부담과 영업환경 변화가 정책 현안으로 부각"
     }
   ],
   "prices": {
@@ -1686,6 +1690,78 @@
       "merged_at": "2026-06-23 08:17:39 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-06-23.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상 △국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음 △주유소 업계의 비용 부담과 영업환경 변화가 정책 현안으로 부각",
+    "trend_paragraphs": [
+      "파이낸셜뉴스는 HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상.",
+      "데일리안은 국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음.",
+      "뉴스1는 주유소 업계의 비용 부담과 영업환경 변화가 정책 현안으로 부각."
+    ],
+    "articles": [
+      {
+        "title": "정유사 공급가격 체계 손질…사전고지 확대에 경유 할인 경쟁도",
+        "press": "파이낸셜뉴스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260623142346694",
+        "summary": "HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "\"유가 내렸다며?\"…주유소 가격 붙잡은 건 원유 아닌 '제품가' [석유를 읽다 上]",
+        "press": "데일리안",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260623141940485",
+        "summary": "국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 2,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "\"AI 돌려 기름값 담합\"…美 주유소 상대 운전자들 집단소송",
+        "press": "뉴스1",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260623144036523",
+        "summary": "주유소 업계의 비용 부담과 영업환경 변화가 정책 현안으로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 8,
+        "score_breakdown": {
+          "keyword": 4,
+          "title_importance": 0,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
