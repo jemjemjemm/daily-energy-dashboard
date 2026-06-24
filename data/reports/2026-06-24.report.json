@@ -5,7 +5,7 @@
     "display_date": "2026년 6월 24일 (수)",
     "previous_day_label": "6/23",
     "today_label": "6/24",
-    "generated_at": "2026-06-24 08:20 KST",
+    "generated_at": "2026-06-24 17:23 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각 △정유사의 비석유 신사업으로 AI 데이터센터 냉각 수요 대응이 부각"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음 △이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각"
     }
   ],
   "prices": {
@@ -1578,7 +1582,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(4/23~6/23)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1694,6 +1699,78 @@
       "merged_at": "2026-06-24 08:21:00 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-06-24.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음 △이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각",
+    "trend_paragraphs": [
+      "이데일리는 호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각.",
+      "중앙일보는 국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음.",
+      "SBS는 이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각."
+    ],
+    "articles": [
+      {
+        "title": "“韓선박 4척 호르무즈 통과”…해운·정유·석화 공급망 불안 완화되나",
+        "press": "이데일리",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260624151952399",
+        "summary": "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "트럼프 “국제유가 내렸는데 휘발유값은 그대로”…법무부에 조사 지시",
+        "press": "중앙일보",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260624152157551",
+        "summary": "국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "\"미 원유 제재 면제로 이란 60일간 최대 4조 7천억 원 수익\"",
+        "press": "SBS",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260624164800084",
+        "summary": "이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 9,
+        "score_breakdown": {
+          "keyword": 3,
+          "title_importance": 2,
+          "press": 2,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
