@@ -221,6 +221,21 @@ class NewsTrendSelectionTest(unittest.TestCase):
         self.assertIn("공급가격 사전고지", summary)
         self.assertNotIn("담합", summary)
 
+    def test_oil_price_transparency_title_replaces_broad_refinery_summary(self) -> None:
+        articles = [
+            {
+                "title": "빨리 오르고 늦게 내리는 기름값?…투명성 강화에 나선 정유사들",
+                "summary": "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결",
+                "press": "연합뉴스",
+            },
+        ]
+
+        summary = build_news_summary({}, articles)
+
+        self.assertIn("기름값 변동 반영 지연", summary)
+        self.assertIn("투명성 강화", summary)
+        self.assertNotIn("국제유가와 원유 수급 변화", summary)
+
     def test_empty_article_summary_uses_no_report_fallback(self) -> None:
         summary = build_news_summary({}, [])
 

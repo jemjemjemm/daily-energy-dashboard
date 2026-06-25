@@ -589,6 +589,8 @@ def title_summary_part(title: str) -> str:
         and ("사전고지" in compact or "사전 고지" in compact or "가격 고지" in compact or "사후정산" in compact or "알린다" in compact)
     ):
         return "정유사 공급가격 사전고지 확대와 경유 할인 경쟁이 유통가격 투명화 이슈로 부각"
+    if "기름값" in compact and ("투명성" in compact or "빨리 오르고" in compact or "늦게 내리는" in compact):
+        return "기름값 변동 반영 지연 논란과 정유사 가격 투명성 강화 움직임"
     if "경유" in compact and ("할인" in compact or "인하" in compact):
         return "경유 가격 인하 경쟁이 주유소 유통가격과 소비자 체감가격 변수로 부각"
     if "유가 담합" in compact and "HD현대오일뱅크" in compact:
@@ -623,6 +625,8 @@ def specific_article_summary(title: str, context: str = "") -> str:
         return "정유사 공급가격 사전고지 확대와 경유 할인 경쟁이 유통가격 투명화 이슈로 부각"
     if ("기름값 담합" in corpus or "가격 담합" in corpus) and ("AI" in corpus or "집단소송" in corpus):
         return "미국 주유소 AI 가격 알고리즘 담합 의혹 집단소송이 유통가격 규제 리스크로 부각"
+    if "기름값" in corpus and ("투명성" in corpus or "빨리 오르고" in corpus or "늦게 내리는" in corpus):
+        return "기름값 변동 반영 지연 논란과 정유사 가격 투명성 강화 움직임"
     if "국제유가" in corpus and "주유소" in corpus:
         return "국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음"
     if "차량 2부제" in corpus and "호르무즈" in corpus:
@@ -660,7 +664,7 @@ def fallback_article_summary(title: str, context: str = "") -> str:
         return specific_title_summary
 
     specific_context_summary = specific_article_summary(compact, context)
-    if specific_context_summary:
+    if specific_context_summary and summary_matches_article_title(compact, specific_context_summary):
         return specific_context_summary
     if "공습" in compact and ("브렌트" in compact or "유가" in compact):
         return "美 이란 공습 여파로 브렌트유 4% 가까이 반등"

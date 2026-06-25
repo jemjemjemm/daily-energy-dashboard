@@ -5,7 +5,7 @@
     "display_date": "2026년 6월 25일 (목)",
     "previous_day_label": "6/24",
     "today_label": "6/25",
-    "generated_at": "2026-06-25 09:20 KST",
+    "generated_at": "2026-06-25 17:16 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △호르무즈 운항 재개로 국제유가가 급락하며 국내 정유·석유제품 가격 반영 시차가 변수로 부상 △경유 가격 인하 경쟁이 주유소 유통가격과 소비자 체감가격 변수로 부각 △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △기름값 변동 반영 지연 논란과 정유사 가격 투명성 강화 움직임 △국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음 △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각"
     }
   ],
   "prices": {
@@ -1358,7 +1362,110 @@
       }
     }
   },
-  "issues": [],
+  "issues": [
+    {
+      "category": "정책",
+      "category_class": "",
+      "title": "국회 연금특위 범부처 지원TF 2차회의",
+      "description": "10:00 · 이형일 재경부 1차관",
+      "time": "10:00",
+      "org": "이형일 재경부 1차관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "정책",
+      "category_class": "",
+      "title": "유통플랫폼 수출지원기관 MOU 체결식 및 민관합동 수출확대회의",
+      "description": "10:00 · 김정관 산업통상부 장관",
+      "time": "10:00",
+      "org": "김정관 산업통상부 장관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "정책",
+      "category_class": "",
+      "title": "국가경쟁력 정책협의회",
+      "description": "13:30 · 이형일 재경부 1차관",
+      "time": "13:30",
+      "org": "이형일 재경부 1차관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "정책",
+      "category_class": "",
+      "title": "중장기 국가발전전략 타운홀미팅",
+      "description": "14:00 · 박홍근 기획예산처 장관",
+      "time": "14:00",
+      "org": "박홍근 기획예산처 장관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "정책",
+      "category_class": "",
+      "title": "중동 전쟁 이후 공급망 정책간담회",
+      "description": "15:30 · 허장 재경부 2차관",
+      "time": "15:30",
+      "org": "허장 재경부 2차관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "에너지",
+      "category_class": "",
+      "title": "북한산국립공원 산사태 재해복구사업 현장방문",
+      "description": "15:40 · 금한승 기후에너지환경부 1차관",
+      "time": "15:40",
+      "org": "금한승 기후에너지환경부 1차관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    }
+  ],
   "schedules": [
     {
       "time": "08:30",
@@ -1518,7 +1625,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(4/24~6/24)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1591,8 +1699,7 @@
   "automation": {
     "validation": {
       "today_schedule_status": "ok",
-      "previous_schedule_source_unavailable": true,
-      "previous_schedule_status": "source_unavailable"
+      "previous_schedule_status": "ok"
     },
     "safetimes": {
       "today_source_file_date": "2026-06-25",
@@ -1602,11 +1709,11 @@
       "today_source_schedule_candidate_count": 105,
       "today_parsed_schedule_count": 12,
       "previous_source_file_date": "2026-06-24",
-      "previous_source_title": "",
-      "previous_source_url": "",
-      "previous_source_schedule_candidate_count": 0,
-      "previous_parsed_schedule_count": 0,
-      "parser_version": "build_report_draft_from_schedule.py v2.3-merged-schedule-attendees",
+      "previous_source_title": "[주요일정·24일] '이대통령 명예훼손' 모스탄 피의자 조사",
+      "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243676",
+      "previous_source_schedule_candidate_count": 98,
+      "previous_parsed_schedule_count": 10,
+      "parser_version": "build_report_draft_from_schedule.py v2.4-schedule-repair",
       "needs_review": true
     },
     "news": {
@@ -1635,6 +1742,78 @@
       "merged_at": "2026-06-25 09:20:27 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data\\news\\2026-06-25.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△기름값 변동 반영 지연 논란과 정유사 가격 투명성 강화 움직임 △국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음 △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+    "trend_paragraphs": [
+      "머니투데이는 기름값 변동 반영 지연 논란과 정유사 가격 투명성 강화 움직임.",
+      "SBS는 국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음.",
+      "이투데이는 호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각."
+    ],
+    "articles": [
+      {
+        "title": "빨리 오르고 늦게 내리는 기름값?…투명성 강화에 나선 정유사들",
+        "press": "머니투데이",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260625162118452",
+        "summary": "기름값 변동 반영 지연 논란과 정유사 가격 투명성 강화 움직임",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "[자막뉴스] \"뚝뚝 떨어진다\" 원유 파격 세일에…\"주유소 기름값 언제 떨어지나\"",
+        "press": "SBS",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260625160905826",
+        "summary": "국제유가 하락에도 국내 주유소 가격 반영에는 재고·수요·유류세 등 변수로 시차가 남아 있음",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 2,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "호르무즈 정상화에 공급과잉 신호…중동산 원유 넘친다",
+        "press": "이투데이",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260625134603843",
+        "summary": "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
