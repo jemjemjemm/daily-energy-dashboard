@@ -1,31 +1,27 @@
 {
   "template_version": "2.0",
   "report": {
-    "report_date": "2026-06-26",
-    "display_date": "2026년 6월 26일 (금)",
-    "previous_day_label": "6/25",
-    "today_label": "6/26",
-    "generated_at": "2026-06-29 08:43 KST",
+    "report_date": "2026-06-29",
+    "display_date": "2026년 6월 29일 (월)",
+    "previous_day_label": "6/26",
+    "today_label": "6/29",
+    "generated_at": "2026-06-29 08:45 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
     "report_title": "Daily Issue Report",
     "report_badge": "정유 · 석유화학 · LNG",
     "meta_description": "정유·석유화학·LNG 관련 일일 유가 동향 및 주요 이슈 리포트",
-    "previous_source_date": "2026-06-25"
+    "previous_source_date": "2026-06-26"
   },
   "summary": [
     {
       "type": "today",
-      "text": "금일 주요 일정: 비상경제본부회의, 국가과학기술자문회의 심의위원회, 제24회 차관회의, 통합재정사업 평가단 간담회."
+      "text": "금일 주요 일정: 산업경쟁력을 위한 탈탄소·순환성 포럼, 제1회 광부의 날 제정 기념식, 제2연평해전 승전 24주년 기념행사."
     },
     {
       "type": "news_trend",
-      "text": "(Morning) △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △일본의 LNG선 건조 재진입과 한국 기술 이전 여부가 조선·LNG 운송 경쟁 변수로 부각 △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명"
-    },
-    {
-      "type": "news_trend_afternoon",
-      "text": "(Evening) △정유·석유화학·LNG 업계 관련 정책·시장 동향 보도 △이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각 △LNG 수급·가격 변동이 발전 원가와 에너지 시장 안정성 변수로 작용"
+      "text": "(Morning) △정유·석유화학·LNG 업계 관련 정책·시장 동향 보도 △석유 최고가격제 인하 이후 가격 통제 출구와 국내 석유제품 시장 불확실성 조명 △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명"
     }
   ],
   "prices": {
@@ -56,19 +52,14 @@
           "unit": "$/Bbl"
         }
       ],
-      "chart_period_label": "4/27~6/24",
+      "chart_period_label": "4/28~6/24",
       "chart_window": {
-        "start": "2026-04-25",
-        "end": "2026-06-25",
+        "start": "2026-04-28",
+        "end": "2026-06-28",
         "rule": "report_date - 1 day, then minus 2 calendar months"
       },
       "chart_series": {
         "Brent": [
-          {
-            "date": "2026-04-27",
-            "label": "4/27",
-            "value": 108.23
-          },
           {
             "date": "2026-04-28",
             "label": "4/28",
@@ -282,11 +273,6 @@
         ],
         "WTI": [
           {
-            "date": "2026-04-27",
-            "label": "4/27",
-            "value": 96.37
-          },
-          {
             "date": "2026-04-28",
             "label": "4/28",
             "value": 99.93
@@ -488,11 +474,6 @@
           }
         ],
         "Dubai": [
-          {
-            "date": "2026-04-27",
-            "label": "4/27",
-            "value": 104.2
-          },
           {
             "date": "2026-04-28",
             "label": "4/28",
@@ -716,19 +697,14 @@
           "unit": "$/Bbl"
         }
       ],
-      "chart_period_label": "4/27~6/24",
+      "chart_period_label": "4/28~6/24",
       "chart_window": {
-        "start": "2026-04-25",
-        "end": "2026-06-25",
+        "start": "2026-04-28",
+        "end": "2026-06-28",
         "rule": "report_date - 1 day, then minus 2 calendar months"
       },
       "chart_series": {
         "Gasoline": [
-          {
-            "date": "2026-04-27",
-            "label": "4/27",
-            "value": 128.04
-          },
           {
             "date": "2026-04-28",
             "label": "4/28",
@@ -927,11 +903,6 @@
         ],
         "Diesel": [
           {
-            "date": "2026-04-27",
-            "label": "4/27",
-            "value": 174.04
-          },
-          {
             "date": "2026-04-28",
             "label": "4/28",
             "value": 167.38
@@ -1128,11 +1099,6 @@
           }
         ],
         "Naphtha": [
-          {
-            "date": "2026-04-27",
-            "label": "4/27",
-            "value": 119.67
-          },
           {
             "date": "2026-04-28",
             "label": "4/28",
@@ -1336,10 +1302,44 @@
     {
       "category": "정책",
       "category_class": "",
-      "title": "물가 관계기관 간담회",
-      "description": "08:30 · 구윤철 부총리 겸 재정경제부 장관",
-      "time": "08:30",
-      "org": "구윤철 부총리 겸 재정경제부 장관",
+      "title": "비상경제본부회의",
+      "description": "08:00 · 구윤철 부총리 겸 재정경제부 장관, 임기근 기획예산처 차관, 이형훈 복지부 2차관, 김영훈 노동부 장관",
+      "time": "08:00",
+      "org": "구윤철 부총리 겸 재정경제부 장관, 임기근 기획예산처 차관, 이형훈 복지부 2차관, 김영훈 노동부 장관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "국회",
+      "category_class": "",
+      "title": "국가과학기술자문회의 심의위원회",
+      "description": "09:00 · 배경훈 부총리 겸 과기정통부 장관",
+      "time": "09:00",
+      "org": "배경훈 부총리 겸 과기정통부 장관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "에너지",
+      "category_class": "",
+      "title": "제24회 차관회의",
+      "description": "10:00 · 임기근 기획예산처 차관, 박윤주 외교부 1차관, 남동일 공정위 부위원장, 김종구 농식품부 차관, 정구창 성평등가족부 차관, 김영수 문체부 1차관, 김민재 행안부 차관, 금한승 기후에너지환경부 1차관",
+      "time": "10:00",
+      "org": "임기근 기획예산처 차관, 박윤주 외교부 1차관, 남동일 공정위 부위원장, 김종구 농식품부 차관, 정구창 성평등가족부 차관, 김영수 문체부 1차관, 김민재 행안부 차관, 금한승 기후에너지환경부 1차관",
       "location": "",
       "links": [
         {
@@ -1353,9 +1353,26 @@
     {
       "category": "정책",
       "category_class": "",
-      "title": "산업자원안보 민관 전략회의",
-      "description": "09:30 · 김정관 산업통상부 장관",
-      "time": "09:30",
+      "title": "통합재정사업 평가단 간담회",
+      "description": "12:00 · 박홍근 기획예산처 장관",
+      "time": "12:00",
+      "org": "박홍근 기획예산처 장관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "정책",
+      "category_class": "",
+      "title": "우즈베키스탄 산업장관 면담",
+      "description": "14:00 · 김정관 산업통상부 장관",
+      "time": "14:00",
       "org": "김정관 산업통상부 장관",
       "location": "",
       "links": [
@@ -1370,61 +1387,10 @@
     {
       "category": "정책",
       "category_class": "",
-      "title": "6·25 전쟁 76주년 중앙행사",
-      "description": "10:00 · 국방부",
-      "time": "10:00",
-      "org": "국방부",
-      "location": "",
-      "links": [
-        {
-          "label": "관련 기사 없음",
-          "url": ""
-        }
-      ],
-      "grade": "",
-      "grade_class": ""
-    },
-    {
-      "category": "에너지",
-      "category_class": "",
-      "title": "공공소각시설 확충현황 점검",
-      "description": "10:00 · 금한승 기후에너지환경부 1차관",
-      "time": "10:00",
-      "org": "금한승 기후에너지환경부 1차관",
-      "location": "",
-      "links": [
-        {
-          "label": "관련 기사 없음",
-          "url": ""
-        }
-      ],
-      "grade": "",
-      "grade_class": ""
-    },
-    {
-      "category": "에너지",
-      "category_class": "",
-      "title": "여름철 전력수급 전망 및 대책 회의",
-      "description": "10:00 · 김성환 기후에너지환경부 장관",
-      "time": "10:00",
-      "org": "김성환 기후에너지환경부 장관",
-      "location": "",
-      "links": [
-        {
-          "label": "관련 기사 없음",
-          "url": ""
-        }
-      ],
-      "grade": "",
-      "grade_class": ""
-    },
-    {
-      "category": "정책",
-      "category_class": "",
-      "title": "조선협력투자 MOU 체결식",
-      "description": "10:00 · 구윤철 부총리 겸 재정경제부 장관",
-      "time": "10:00",
-      "org": "구윤철 부총리 겸 재정경제부 장관",
+      "title": "중동 인프라 실무 TF 겸 해외수주 협의회",
+      "description": "15:00 · 허장 재경부 2차관",
+      "time": "15:00",
+      "org": "허장 재경부 2차관",
       "location": "",
       "links": [
         {
@@ -1438,123 +1404,74 @@
   ],
   "schedules": [
     {
-      "time": "08:00",
-      "org": "구윤철 부총리 겸 재정경제부 장관, 임기근 기획예산처 차관, 이형훈 복지부 2차관, 김영훈 노동부 장관",
-      "attendees": "구윤철 부총리 겸 재정경제부 장관, 임기근 기획예산처 차관, 이형훈 복지부 2차관, 김영훈 노동부 장관",
-      "title": "비상경제본부회의",
-      "relevance": ""
-    },
-    {
       "time": "09:00",
-      "org": "배경훈 부총리 겸 과기정통부 장관",
-      "attendees": "배경훈 부총리 겸 과기정통부 장관",
-      "title": "국가과학기술자문회의 심의위원회",
+      "org": "기후부, 이호현 산업부 2차관",
+      "attendees": "기후부, 이호현 산업부 2차관",
+      "title": "산업경쟁력을 위한 탈탄소·순환성 포럼",
       "relevance": ""
     },
     {
       "time": "10:00",
-      "org": "임기근 기획예산처 차관, 박윤주 외교부 1차관, 남동일 공정위 부위원장, 김종구 농식품부 차관, 정구창 성평등가족부 차관, 김영수 문체부 1차관, 김민재 행안부 차관, 금한승 기후에너지환경부 1차관",
-      "attendees": "임기근 기획예산처 차관, 박윤주 외교부 1차관, 남동일 공정위 부위원장, 김종구 농식품부 차관, 정구창 성평등가족부 차관, 김영수 문체부 1차관, 김민재 행안부 차관, 금한승 기후에너지환경부 1차관",
-      "title": "제24회 차관회의",
+      "org": "문신학 산업통상부 1차관",
+      "attendees": "문신학 산업통상부 1차관",
+      "title": "제1회 광부의 날 제정 기념식",
       "relevance": ""
     },
     {
-      "time": "12:00",
-      "org": "박홍근 기획예산처 장관",
-      "attendees": "박홍근 기획예산처 장관",
-      "title": "통합재정사업 평가단 간담회",
-      "relevance": ""
-    },
-    {
-      "time": "14:00",
-      "org": "김정관 산업통상부 장관",
-      "attendees": "김정관 산업통상부 장관",
-      "title": "우즈베키스탄 산업장관 면담",
-      "relevance": ""
-    },
-    {
-      "time": "15:00",
-      "org": "허장 재경부 2차관",
-      "attendees": "허장 재경부 2차관",
-      "title": "중동 인프라 실무 TF 겸 해외수주 협의회",
-      "relevance": ""
-    },
-    {
-      "time": "16:00",
-      "org": "구혁채 과기정통부 1차관",
-      "attendees": "구혁채 과기정통부 1차관",
-      "title": "호주대사 면담",
-      "relevance": ""
-    },
-    {
-      "time": "시간 미정",
-      "org": "여한구 통상교섭본부장",
-      "attendees": "여한구 통상교섭본부장",
-      "title": "국외출장",
-      "relevance": ""
-    },
-    {
-      "time": "시간 미정",
-      "org": "이두희 국방부 차관",
-      "attendees": "이두희 국방부 차관",
-      "title": "미국 국외출장",
-      "relevance": ""
-    },
-    {
-      "time": "시간 미정",
-      "org": "국제",
-      "attendees": "국제",
-      "title": "중국 국제 공급망 박람회",
+      "time": "10:45",
+      "org": "안규백 국방부 장관",
+      "attendees": "안규백 국방부 장관",
+      "title": "제2연평해전 승전 24주년 기념행사",
       "relevance": ""
     }
   ],
   "news_trend": {
-    "summary": "△호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △일본의 LNG선 건조 재진입과 한국 기술 이전 여부가 조선·LNG 운송 경쟁 변수로 부각 △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
+    "summary": "△정유·석유화학·LNG 업계 관련 정책·시장 동향 보도 △석유 최고가격제 인하 이후 가격 통제 출구와 국내 석유제품 시장 불확실성 조명 △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
     "trend_paragraphs": [
-      "문화일보는 호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각.",
-      "서울경제는 LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도.",
-      "국민일보는 정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명."
+      "전자신문은 정유·석유화학·LNG 업계 관련 정책·시장 동향 보도.",
+      "아시아경제는 국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결.",
+      "뉴시스는 정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명."
     ],
     "articles": [
       {
-        "title": "호르무즈 통과하던 선박 피격됐다 “철수작전 중단”…국제유가 상승",
-        "press": "문화일보",
+        "title": "美·이란, 무력충돌 일단 멈췄다…30일 카타르서 '호르무즈 담판'",
+        "press": "전자신문",
         "press_grade": "B",
-        "url": "https://v.daum.net/v/20260626072717040",
-        "summary": "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
-        "published_at_kst": "",
-        "industry_relevance": 5,
-        "score": 10,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 3,
-          "press": 2,
-          "originality": 0,
-          "duplicate_or_low_quality": 0
-        }
-      },
-      {
-        "title": "LNG선 건조 부활 나선 일본 “한국 기술 이전이 최대 변수”",
-        "press": "서울경제",
-        "press_grade": "A",
-        "url": "https://v.daum.net/v/20260626060151552",
-        "summary": "일본의 LNG선 건조 재진입과 한국 기술 이전 여부가 조선·LNG 운송 경쟁 변수로 부각",
+        "url": "https://v.daum.net/v/20260629075451632",
+        "summary": "정유·석유화학·LNG 업계 관련 정책·시장 동향 보도",
         "published_at_kst": "",
         "industry_relevance": 4,
         "score": 11,
         "score_breakdown": {
           "keyword": 5,
           "title_importance": 2,
+          "press": 2,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "150원 내렸지만…석유 최고가격제 출구는 '안갯속'",
+        "press": "아시아경제",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260628193600514",
+        "summary": "석유 최고가격제 인하 이후 가격 통제 출구와 국내 석유제품 시장 불확실성 조명",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
           "press": 3,
           "originality": 1,
           "duplicate_or_low_quality": 0
         }
       },
       {
-        "title": "전쟁은 가고 숙제만 남았다… 정유·석화, ‘역래깅·구조조정’ 한숨",
-        "press": "국민일보",
-        "press_grade": "B",
-        "url": "https://v.daum.net/v/20260626060416776",
+        "title": "우크라, 러 슬로비안스크 등 정유소 2곳 장거리드론 공격…화재",
+        "press": "뉴시스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260628203001212",
         "summary": "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
         "published_at_kst": "",
         "industry_relevance": 4,
@@ -1562,8 +1479,8 @@
         "score_breakdown": {
           "keyword": 5,
           "title_importance": 2,
-          "press": 2,
-          "originality": 1,
+          "press": 3,
+          "originality": 0,
           "duplicate_or_low_quality": 0
         }
       }
@@ -1579,7 +1496,7 @@
       "가격 데이터에서 0값은 카드·그래프 산출에서 제외합니다.",
       "정책 방향, 정부 의도, 업계 손익 영향은 원문 근거가 없는 경우 단정하지 않습니다.",
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
-      "가격 추이 그래프는 기준일 전일 기준 과거 2개월(4/25~6/25)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
+      "가격 추이 그래프는 기준일 전일 기준 과거 2개월(4/28~6/28)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
       "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
     ],
@@ -1587,7 +1504,7 @@
       {
         "name": "오늘의 주요일정",
         "type": "schedule",
-        "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243751"
+        "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243782"
       },
       {
         "name": "국제 원유가격 원천 데이터",
@@ -1612,12 +1529,12 @@
       {
         "name": "오피넷 국제유가 > 원유",
         "type": "price",
-        "url": "https://www.opinet.co.kr/gloptotSelect.do"
+        "url": ""
       },
       {
         "name": "오피넷 국제유가 > 석유제품",
         "type": "price",
-        "url": "https://www.opinet.co.kr/glopopdSelect.do"
+        "url": ""
       },
       {
         "name": "장기 가격 이력 history.json",
@@ -1662,47 +1579,31 @@
       "previous_schedule_status": "ok"
     },
     "safetimes": {
-      "today_source_file_date": "2026-06-26",
-      "today_source_title": "[주요일정·26일] 보건의료산업 AX 공정전환 노사대표 간담회",
-      "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243751",
-      "today_source_published_at": "2026-06-26",
-      "today_source_schedule_candidate_count": 97,
-      "today_parsed_schedule_count": 10,
-      "previous_source_file_date": "2026-06-25",
-      "previous_source_title": "[주요일정·25일] 행안부 킨텍스서 어린이 안전박람회 개최",
-      "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243712",
-      "previous_source_schedule_candidate_count": 105,
-      "previous_parsed_schedule_count": 12,
+      "today_source_file_date": "2026-06-29",
+      "today_source_title": "[주요일정·29일] 이 대통령, 삼전닉스 '투자' 공개 … 4개부처 합동발표",
+      "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243782",
+      "today_source_published_at": "2026-06-29",
+      "today_source_schedule_candidate_count": 69,
+      "today_parsed_schedule_count": 3,
+      "previous_source_file_date": "2026-06-26",
+      "previous_source_title": "[주요일정·26일] 보건의료산업 AX 공정전환 노사대표 간담회",
+      "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243751",
+      "previous_source_schedule_candidate_count": 97,
+      "previous_parsed_schedule_count": 10,
       "parser_version": "build_report_draft_from_schedule.py v2.3-merged-schedule-attendees",
       "needs_review": true
     },
-    "news": {
-      "source_file": "data\\news\\2026-06-26.json",
-      "article_count": 3,
-      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
-      "status": "updated",
-      "needs_review": true,
-      "report_slot": "morning"
-    },
-    "news_afternoon": {
-      "source_file": "data\\news\\2026-06-26.evening.json",
-      "article_count": 3,
-      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
-      "status": "updated",
-      "needs_review": true,
-      "report_slot": "evening"
-    },
     "opinet_prices": {
-      "price_json_used": true,
-      "source_date": "2026-06-26",
+      "price_json_used": false,
+      "source_date": "",
       "history_schema_version": "1.3",
       "history_period": {
         "start": "2026-01-01",
         "end": "2026-05-20"
       },
       "chart_window": {
-        "start": "2026-04-25",
-        "end": "2026-06-25",
+        "start": "2026-04-28",
+        "end": "2026-06-28",
         "rule": "report_date - 1 day, then minus 2 calendar months"
       },
       "crude_chart_source": "history.json window",
@@ -1710,70 +1611,14 @@
       "merged_at": "2026-06-29 08:50:56 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news": {
+      "source_file": "data\\news\\2026-06-29.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "morning"
     }
-  },
-  "news_trend_afternoon": {
-    "summary": "△정유·석유화학·LNG 업계 관련 정책·시장 동향 보도 △이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각 △LNG 수급·가격 변동이 발전 원가와 에너지 시장 안정성 변수로 작용",
-    "trend_paragraphs": [
-      "KBS는 정유·석유화학·LNG 업계 관련 정책·시장 동향 보도.",
-      "중앙일보는 이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각.",
-      "연합뉴스는 LNG 수급·가격 변동이 발전 원가와 에너지 시장 안정성 변수로 작용."
-    ],
-    "articles": [
-      {
-        "title": "강원, 휘발유 1리터 2,016원… 경유 2,008원",
-        "press": "KBS",
-        "press_grade": "B",
-        "url": "https://v.daum.net/v/20260626152821827",
-        "summary": "정유·석유화학·LNG 업계 관련 정책·시장 동향 보도",
-        "published_at_kst": "",
-        "industry_relevance": 5,
-        "score": 9,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 0,
-          "press": 2,
-          "originality": 2,
-          "duplicate_or_low_quality": 0
-        }
-      },
-      {
-        "title": "“걸프 원유 수출, 전쟁 이전 75% 수준 회복”",
-        "press": "중앙일보",
-        "press_grade": "A",
-        "url": "https://v.daum.net/v/20260626163451557",
-        "summary": "이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각",
-        "published_at_kst": "",
-        "industry_relevance": 4,
-        "score": 13,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 3,
-          "press": 3,
-          "originality": 2,
-          "duplicate_or_low_quality": 0
-        }
-      },
-      {
-        "title": "\"日, 인도와 LNG 비축 협력 추진…내달 정상회담서 합의 전망\"",
-        "press": "연합뉴스",
-        "press_grade": "A",
-        "url": "https://v.daum.net/v/20260626140804707",
-        "summary": "LNG 수급·가격 변동이 발전 원가와 에너지 시장 안정성 변수로 작용",
-        "published_at_kst": "",
-        "industry_relevance": 4,
-        "score": 12,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 2,
-          "press": 3,
-          "originality": 2,
-          "duplicate_or_low_quality": 0
-        }
-      }
-    ],
-    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
-    "needs_review": true,
-    "report_slot": "evening"
   }
 }
