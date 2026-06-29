@@ -597,10 +597,16 @@ def title_summary_part(title: str) -> str:
         return "HD현대오일뱅크 유가 담합 혐의 수사"
     if ("기름값 담합" in compact or "가격 담합" in compact) and ("AI" in compact or "집단소송" in compact):
         return "미국 주유소 AI 가격 알고리즘 담합 의혹 집단소송이 유통가격 규제 리스크로 부각"
+    if "최고가격제" in compact and ("150원" in compact or "내렸" in compact or "출구" in compact or "안갯속" in compact):
+        return "석유 최고가격제 인하 이후 가격 통제 출구와 국내 석유제품 시장 불확실성 조명"
     if "최고가격제" in compact and ("손실 보전" in compact or "손실보전" in compact):
         return "최고가격제 손실보전 정산위 비공개 방침으로 정유사 보상 절차 불확실성 부각"
     if "정산위" in compact and "정유사" in compact:
         return "정산위 운영 방식과 손실보전 기준을 둘러싼 정유업계 불안"
+    if "휘발유" in compact and "경유" in compact and ("1900원" in compact or "1800원" in compact):
+        return "휘발유·경유 가격이 1900원대로 내려오며 주유소 가격 하락 흐름이 본격화"
+    if "울산항" in compact and "물동량" in compact and "원유" in compact:
+        return "울산항 물동량 감소와 원유 수입 둔화가 항만·정유 물류 흐름에 미친 영향"
     if "호르무즈 통항료" in compact or ("호르무즈" in compact and "자유항행" in compact):
         return "호르무즈 통항료 논의와 자유항행 방어 필요성 부각"
     if "이란 선박" in compact and "호르무즈" in compact:

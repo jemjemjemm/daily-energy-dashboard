@@ -193,6 +193,36 @@ class NewsTrendSelectionTest(unittest.TestCase):
         self.assertIn("정산위", summary)
         self.assertNotIn("가격 반영 시차", summary)
 
+    def test_price_cap_cut_article_uses_title_specific_summary(self) -> None:
+        articles = [
+            {
+                "title": "150원 내렸지만…석유 최고가격제 출구는 '안갯속'",
+                "summary": "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결",
+                "press": "아시아경제",
+            },
+        ]
+
+        summary = build_news_summary({}, articles)
+
+        self.assertIn("석유 최고가격제", summary)
+        self.assertIn("시장 불확실성", summary)
+        self.assertNotIn("가격 반영 시차", summary)
+
+    def test_ulsan_port_crude_volume_article_uses_title_specific_summary(self) -> None:
+        articles = [
+            {
+                "title": "울산항 5월 물동량 전년 대비 22% 감소... 원유 수입 감소 등 영향",
+                "summary": "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결",
+                "press": "파이낸셜뉴스",
+            },
+        ]
+
+        summary = build_news_summary({}, articles)
+
+        self.assertIn("울산항 물동량 감소", summary)
+        self.assertIn("원유 수입 둔화", summary)
+        self.assertNotIn("가격 반영 시차", summary)
+
     def test_supply_price_article_does_not_get_collusion_summary_from_snippet(self) -> None:
         article = normalize_article({
             "title": "정유사 공급가격 체계 손질…사전고지 확대에 경유 할인 경쟁도",

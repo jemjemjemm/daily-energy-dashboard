@@ -89,24 +89,46 @@ jobs:
 
       - name: Decide mode
         run: |
+          TARGET_DATE_INPUT="$(printf '%s' "${{ github.event.inputs.target_date }}" | xargs)"
+          DATE_FROM_INPUT="$(printf '%s' "${{ github.event.inputs.date_from }}" | xargs)"
+          DATE_TO_INPUT="$(printf '%s' "${{ github.event.inputs.date_to }}" | xargs)"
           REPORT_SLOT_INPUT="${{ github.event.inputs.report_slot }}"
           if [ "$REPORT_SLOT_INPUT" != "morning" ] && [ "$REPORT_SLOT_INPUT" != "evening" ]; then
             echo "ERROR: report_slot must be either 'morning' or 'evening'; received: '$REPORT_SLOT_INPUT'" >&2
             exit 1
           fi
 
-          if [ -n "${{ github.event.inputs.date_from }}" ] && [ -n "${{ github.event.inputs.date_to }}" ]; then
+          python - "$TARGET_DATE_INPUT" "$DATE_FROM_INPUT" "$DATE_TO_INPUT" <<'PY'
+          import datetime as dt
+          import sys
+
+          labels = ("target_date", "date_from", "date_to")
+          for label, value in zip(labels, sys.argv[1:]):
+              if not value:
+                  continue
+              try:
+                  dt.date.fromisoformat(value)
+              except ValueError:
+                  raise SystemExit(f"ERROR: {label} must be YYYY-MM-DD; received: {value!r}")
+
+          if bool(sys.argv[2]) ^ bool(sys.argv[3]):
+              raise SystemExit("ERROR: date_from and date_to must be provided together for range mode")
+          if sys.argv[2] and dt.date.fromisoformat(sys.argv[2]) > dt.date.fromisoformat(sys.argv[3]):
+              raise SystemExit("ERROR: date_from must be earlier than or equal to date_to")
+          PY
+
+          if [ -n "$DATE_FROM_INPUT" ] && [ -n "$DATE_TO_INPUT" ]; then
             echo "RUN_MODE=range" >> $GITHUB_ENV
-            echo "DATE_FROM=${{ github.event.inputs.date_from }}" >> $GITHUB_ENV
-            echo "DATE_TO=${{ github.event.inputs.date_to }}" >> $GITHUB_ENV
+            echo "DATE_FROM=$DATE_FROM_INPUT" >> $GITHUB_ENV
+            echo "DATE_TO=$DATE_TO_INPUT" >> $GITHUB_ENV
             echo "REPORT_SLOT=${{ github.event.inputs.report_slot }}" >> $GITHUB_ENV
             echo "INVOCATION_MODE=${{ github.event.inputs.run_mode }}" >> $GITHUB_ENV
           else
             echo "RUN_MODE=single" >> $GITHUB_ENV
             echo "REPORT_SLOT=${{ github.event.inputs.report_slot }}" >> $GITHUB_ENV
             echo "INVOCATION_MODE=${{ github.event.inputs.run_mode }}" >> $GITHUB_ENV
-            if [ -n "${{ github.event.inputs.target_date }}" ]; then
-              echo "TARGET_DATE=${{ github.event.inputs.target_date }}" >> $GITHUB_ENV
+            if [ -n "$TARGET_DATE_INPUT" ]; then
+              echo "TARGET_DATE=$TARGET_DATE_INPUT" >> $GITHUB_ENV
             else
               echo "TARGET_DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)" >> $GITHUB_ENV
             fi
@@ -137,7 +159,8 @@ jobs:
         run: |
           python - <<'PY' >> "$GITHUB_ENV"
           import datetime as dt
-          target = dt.date.fromisoformat("${{ env.TARGET_DATE }}")
+          import os
+          target = dt.date.fromisoformat(os.environ["TARGET_DATE"].strip())
           holidays = {
               "2026-01-01", "2026-02-16", "2026-02-17", "2026-02-18",
               "2026-03-02", "2026-05-01", "2026-05-05", "2026-05-25",
@@ -159,10 +182,11 @@ jobs:
         run: |
           python - <<'PY' >> "$GITHUB_ENV"
           import datetime as dt
+          import os
           from zoneinfo import ZoneInfo
 
           now = dt.datetime.now(ZoneInfo("Asia/Seoul"))
-          target = dt.date.fromisoformat("${{ env.TARGET_DATE }}")
+          target = dt.date.fromisoformat(os.environ["TARGET_DATE"].strip())
           cutoff = dt.time(17, 0)
 
           if target == now.date() and now.time() < cutoff:
@@ -191,7 +215,8 @@ jobs:
         run: |
           python - <<'PY' >> "$GITHUB_ENV"
           import datetime as dt
-          target = dt.date.fromisoformat("${{ env.TARGET_DATE }}")
+          import os
+          target = dt.date.fromisoformat(os.environ["TARGET_DATE"].strip())
           holidays = {
               "2026-01-01", "2026-02-16", "2026-02-17", "2026-02-18",
               "2026-03-02", "2026-05-01", "2026-05-05", "2026-05-25",
