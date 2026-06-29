@@ -2,7 +2,7 @@
   "schema_version": "2.6",
   "date": "2026-06-26",
   "report_slot": "evening",
-  "collected_at": "2026-06-29 08:44:14 KST",
+  "collected_at": "2026-06-29 21:44:44 KST",
   "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS",
   "queries": [
     "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
@@ -39,50 +39,31 @@
     "생산자물가 석유제품"
   ],
   "time_window": "2026-06-26 08:00~2026-06-26 17:00 KST",
-  "summary": "△석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크",
+  "summary": "△석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △물가 지표와 에너지 비용 부담",
   "topics": [
     "석유 최고가격제·유류세 등 가격 안정 정책",
-    "중동 정세와 원유·LNG 수급 리스크"
+    "중동 정세와 원유·LNG 수급 리스크",
+    "물가 지표와 에너지 비용 부담"
   ],
   "articles": [
     {
-      "title": "강원, 휘발유 1리터 2,016원… 경유 2,008원",
+      "title": "강원, 휘발유 1리터 2,016원…경유 2,008원",
       "press": "KBS",
       "press_grade": "B",
       "url": "https://v.daum.net/v/20260626152821827",
       "published_date": "2026-06-26",
       "published_at_kst": "",
-      "snippet": "KBS 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 강원, 휘발유 1리터 2,016원… 경유 2,008원 하락했습니다. 한국석유공사 오피넷에 따르면 어제(25일) 강원도 내 주유소의 휘발유 평균 가격은 리터당 2,016원을 기록했습니다. 경유 가격도 1리터에 평균 2,008원을 기록했습니다. 국제유가 안정세가 이어지면서, 휘발유와 경유 가격은 앞으로 더 내릴 전망... 2026.06.26",
-      "score": 9,
+      "snippet": "KBS 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 강원, 휘발유 1리터 2,016원…경유 2,008원 [KBS 춘천]강원도 내 주유소 의 기름값이 3주 연속 하락했습니다. 한국석유공사 오피넷에 따르면 어제(25일) 강원도 내 주유소 의 휘발유 평균 가격은 리터당 2,016원을 기록했습니다. 경유 가격도 1리터에 평균 2,008원을 기록했습니다. 국제유가 안정세가 이어지면서... 2026.06.26",
+      "score": 7,
       "score_breakdown": {
         "keyword": 5,
         "title_importance": 0,
         "press": 2,
-        "originality": 2,
+        "originality": 0,
         "duplicate_or_low_quality": 0
       },
       "industry_relevance": 5,
-      "source_query": "경유",
-      "collector": "daum_news_search"
-    },
-    {
-      "title": "[단독] 일민미술관에서 '낫' 휘두른 70대 10시간 만에 검거… 휘발유 통까지 발견",
-      "press": "한국일보",
-      "press_grade": "A",
-      "url": "https://v.daum.net/v/20260626140216539",
-      "published_date": "2026-06-26",
-      "published_at_kst": "",
-      "snippet": "한국일보 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 [단독] 일민미술관에서 '낫' 휘두른 70대 10시간 만에 검거… 휘발유 통까지 발견 미술관에서 흉기를 휘두르고 도주한 70대 남성이 10시간 만에 경찰에 붙잡혔다. 사건 현장에서는 피의자가 남긴 것으로 보이는 휘발유 도 발견돼, 경찰은 방화 가능성을 염두에 두고 수사하고 있다. 26일 서울 종로경찰서 등에 따르면, 경찰은 이날 오후 5시 50... 2026.06.26 1",
-      "score": 8,
-      "score_breakdown": {
-        "keyword": 2,
-        "title_importance": 0,
-        "press": 3,
-        "originality": 3,
-        "duplicate_or_low_quality": 0
-      },
-      "industry_relevance": 4,
-      "source_query": "휘발유",
+      "source_query": "주유소",
       "collector": "daum_news_search"
     },
     {
@@ -103,66 +84,6 @@
       },
       "industry_relevance": 4,
       "source_query": "원유",
-      "collector": "daum_news_search"
-    },
-    {
-      "title": "\"日, 인도와 LNG 비축 협력 추진…내달 정상회담서 합의 전망\"",
-      "press": "연합뉴스",
-      "press_grade": "A",
-      "url": "https://v.daum.net/v/20260626140804707",
-      "published_date": "2026-06-26",
-      "published_at_kst": "",
-      "snippet": "연합뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 \"日, 인도와 LNG 비축 협력 추진…내달 정상회담서 합의 전망\" 알려졌다. 일본은 인도의 가입을 지지함으로써 국제 에너지 거버넌스 내 영향력을 강화하겠다는 구상이다. 이 밖에도 양국 정상은 휘발유 보다 배기가스가 적은 압축천연가스(CNG) 차량용 바이오가스 분야에서의 협력 체계를 구축하고 핵심 광물·반도체 등의 공급망... 2026.06.26",
-      "score": 12,
-      "score_breakdown": {
-        "keyword": 5,
-        "title_importance": 2,
-        "press": 3,
-        "originality": 2,
-        "duplicate_or_low_quality": 0
-      },
-      "industry_relevance": 4,
-      "source_query": "휘발유",
-      "collector": "daum_news_search"
-    },
-    {
-      "title": "일본-인도, LNG 비축 협력 TF 구성 논의",
-      "press": "뉴스1",
-      "press_grade": "A",
-      "url": "https://v.daum.net/v/20260626153631228",
-      "published_date": "2026-06-26",
-      "published_at_kst": "",
-      "snippet": "뉴스1 개별문서메뉴 톡으로 바로 공유 공유하기 일본-인도, LNG 비축 협력 TF 구성 논의 ⓒ AFP=뉴스1 (서울=뉴스1) 김지완 기자 = 일본과 인도 정부가 다카이치 사나에 총리의 인도 방문을 앞두고 액화천연가스( LNG ) 비축 협력을 위한 태스크포스(TF)를 구성하는 방안을 중이라고 26일 산케이신문이 양국 외교 소식통을 인용해 보도했다. 소식통에 따르면... 2026.06.26",
-      "score": 11,
-      "score_breakdown": {
-        "keyword": 5,
-        "title_importance": 2,
-        "press": 3,
-        "originality": 1,
-        "duplicate_or_low_quality": 0
-      },
-      "industry_relevance": 4,
-      "source_query": "LNG",
-      "collector": "daum_news_search"
-    },
-    {
-      "title": "日 \"선박 2척 호르무즈 통과…이제 페르시아만에 35척 남아\"",
-      "press": "뉴스1",
-      "press_grade": "A",
-      "url": "https://v.daum.net/v/20260626165230127",
-      "published_date": "2026-06-26",
-      "published_at_kst": "",
-      "snippet": "뉴스1 개별문서메뉴 톡으로 바로 공유 공유하기 日 \"선박 2척 호르무즈 통과…이제 페르시아만에 35척 남아\" 호르무즈 해협의 선박들. 2026.06.25. ⓒ 로이터=뉴스1 (서울=뉴스1) 김지완 기자 = 일본 정부가 페르시아만에 머물던 일본 관련 선박 2척이 호르무즈 해협을 통과했으며, 현재 35척이 페르시아만에 머물고 있다고 밝혔다. TBS 뉴스에 따르면 가네코 야스시 국토교통... 2026.06.26",
-      "score": 10,
-      "score_breakdown": {
-        "keyword": 4,
-        "title_importance": 2,
-        "press": 3,
-        "originality": 1,
-        "duplicate_or_low_quality": 0
-      },
-      "industry_relevance": 4,
-      "source_query": "호르무즈",
       "collector": "daum_news_search"
     },
     {
@@ -206,66 +127,6 @@
       "collector": "daum_news_search"
     },
     {
-      "title": "\"이란, 호르무즈 '서비스 수수료'로 연 62조 수익 기대\"",
-      "press": "뉴시스",
-      "press_grade": "A",
-      "url": "https://v.daum.net/v/20260626153806309",
-      "published_date": "2026-06-26",
-      "published_at_kst": "",
-      "snippet": "뉴시스 개별문서메뉴 톡으로 바로 공유 공유하기 \"이란, 호르무즈 '서비스 수수료'로 연 62조 수익 기대\" 연간 400억 달러(약 61조8000억 원)의 수익을 올릴 수 있다고 보고 있다고 전했다. 호르무즈 해협은 중동산 원유와 액화천연가스( LNG )가 지나는 핵심 해상 통로다. 미국과 이란의 휴전 합의 이후 통항 재개 기대가 커졌지만, 해협의 향후 관리 방식을 둘러싼 갈등은... 2026.06.26 2",
-      "score": 10,
-      "score_breakdown": {
-        "keyword": 5,
-        "title_importance": 2,
-        "press": 3,
-        "originality": 0,
-        "duplicate_or_low_quality": 0
-      },
-      "industry_relevance": 4,
-      "source_query": "LNG",
-      "collector": "daum_news_search"
-    },
-    {
-      "title": "이 대통령 “ 호르무즈 에 남은 韓선박 3척…주말 안에 빠져나올 것”",
-      "press": "매일경제",
-      "press_grade": "A",
-      "url": "https://v.daum.net/v/20260626170000299",
-      "published_date": "2026-06-26",
-      "published_at_kst": "",
-      "snippet": "매일경제 개별문서메뉴 톡으로 바로 공유 공유하기 이 대통령 “ 호르무즈 에 남은 韓선박 3척…주말 안에 빠져나올 것” 미래신안보 혁신기업 육성전략’ 회의에서 발언하고 있다. [청와대통신사진기자단] 이재명 대통령은 26일 중동 전쟁 여파로 호르무즈 해협에 발이 묶였던 한국 선박과 관련해 “남은 배 5척 중 수리 중인 나무호와 화물 문제로 잔류 의사를 밝힌 1척 등 2척을 제외한... 2026.06.26",
-      "score": 9,
-      "score_breakdown": {
-        "keyword": 4,
-        "title_importance": 2,
-        "press": 3,
-        "originality": 0,
-        "duplicate_or_low_quality": 0
-      },
-      "industry_relevance": 4,
-      "source_query": "호르무즈",
-      "collector": "daum_news_search"
-    },
-    {
-      "title": "李, 韓 선박 호르무즈 탈출에 “남은 3척도 주말 안에”",
-      "press": "국민일보",
-      "press_grade": "B",
-      "url": "https://v.daum.net/v/20260626170051346",
-      "published_date": "2026-06-26",
-      "published_at_kst": "",
-      "snippet": "국민일보 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 李, 韓 선박 호르무즈 탈출에 “남은 3척도 주말 안에” 열린 '미래신안보 혁신기업 육성전략' 회의에서 발언하고 있다. 청와대통신사진기자단 이재명 대통령은 중동 전쟁으로 호르무즈 해협에 발이 묶였던 한국 선박과 관련해 “남은 배 5척 중 수리 중인 나무호와 화물 문제로 잔류 의사를 밝힌 1척 등 2척을 제외한 3척... 2026.06.26",
-      "score": 8,
-      "score_breakdown": {
-        "keyword": 4,
-        "title_importance": 2,
-        "press": 2,
-        "originality": 0,
-        "duplicate_or_low_quality": 0
-      },
-      "industry_relevance": 4,
-      "source_query": "호르무즈",
-      "collector": "daum_news_search"
-    },
-    {
       "title": "석유최고가격 106일만에 첫 인하",
       "press": "문화일보",
       "press_grade": "B",
@@ -283,6 +144,146 @@
       },
       "industry_relevance": 3,
       "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "정부 “하반기 물가상승률 3% 이내로 잡겠다”",
+      "press": "문화일보",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20260626115217815",
+      "published_date": "2026-06-26",
+      "published_at_kst": "",
+      "snippet": "문화일보 개별문서메뉴 톡으로 바로 공유 공유하기 정부 “하반기 물가상승률 3% 이내로 잡겠다” 주요 요인인 석유류 가격 안정을 위해 이날 오후에 발표할 7차 석유류 최고가격을 현행보다 낮추기로 했다. 현재 ℓ당 1934원인 정유사 휘발유 공급 가격이 최소 100원 이상 떨어질 것으로 전망된다. 여기에 더해 먹거리 등 민생물가 안정을 위해 총 1조 원의 재정을... 2026.06.26",
+      "score": 11,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 2,
+        "originality": 2,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 3,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "\"기름값 드디어 내리나\"…정부, 유가 하락 맞춰 최고가격 조정",
+      "press": "MBN",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20260626140140478",
+      "published_date": "2026-06-26",
+      "published_at_kst": "",
+      "snippet": "MBN 개별문서메뉴 톡으로 바로 공유 공유하기 2 \"기름값 드디어 내리나\"…정부, 유가 하락 맞춰 최고가격 조정 억제하기 위해 지난 3월 13일부터 석유 최고가격제를 전격 시행했습니다. 중동 전쟁 발발 이후 유가가 폭등세를 나타내자 정유사 가 주유소에 공급하는 도매가격에 상한선을 설정한 것입니다. 석유 최고가격은 지난 3월 27일 시행된 2차 조정 때 유종별로 L당 210원씩... 2026.06.26",
+      "score": 12,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 2,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 3,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "구윤철 “석유 최고가격 인하”",
+      "press": "헤럴드경제",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20260626112925914",
+      "published_date": "2026-06-26",
+      "published_at_kst": "",
+      "snippet": "헤럴드경제 개별문서메뉴 톡으로 바로 공유 공유하기 구윤철 “석유 최고가격 인하” 정부가 설정한 석유 최고가격이 여전히 높은 수준에 묶여 있는 점도 가격 하락을 가로막는 요인으로 지목된다. 석유최고가격제는 정유사 가 주유소에 공급하는 도매가격에 상한선을 설정했기 때문이다. 석유 최고가격제는 도입 당시에는 국내 유가 폭등을 막는... 2026.06.26",
+      "score": 10,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 2,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 3,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "정부, 1조원 투입해 물가 잡는다…'농축수산물 할인·공공요금 동결'(종합)",
+      "press": "뉴스1",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20260626115431897",
+      "published_date": "2026-06-26",
+      "published_at_kst": "",
+      "snippet": "뉴스1 개별문서메뉴 톡으로 바로 공유 공유하기 4 정부, 1조원 투입해 물가 잡는다…'농축수산물 할인·공공요금 동결'(종합) 담합 등 불공정거래행위에 대한 감시도 강화한다. 전분당과 산업용 윤활유 담합 건은 조사를 마치고 심의를 앞두고 있으며, 정유사 와 주유소, 페인트, PVC 등 중동전쟁 관련 품목 담합 혐의도 조사 중이다. 반복 담합 사업자에 대해서는 등록·허가 취소와 영업정지... 2026.06.26",
+      "score": 9,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 3,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "외인·기관 '8.4조 투매'…코스피 5% 내린 8410선 마감[시황종합]",
+      "press": "뉴스1",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20260626163147435",
+      "published_date": "2026-06-26",
+      "published_at_kst": "",
+      "snippet": "뉴스1 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 외인·기관 '8.4조 투매'…코스피 5% 내린 8410선 마감[시황종합] 0.78% 등은 하락했다. 한편 9월 인도분 브렌트유 선물은 2%대 하락해 73달러선에 거래되고 있다. 8월 인도분 미 서부텍사스산 원유 (WTI) 선물도 2%대 내리며 70달러선에서 거래 중이다. 미 10년물 국채 금리도 0.2% 내린 4.37%대를 기록 중이며. 나스닥100 선물은... 2026.06.26 3",
+      "score": 9,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 1,
+        "press": 3,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 3,
+      "source_query": "원유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "달걀도 돼지고기도 '할인, 할인'... 정부 1조원 쏟아 물가 폭등 막는다",
+      "press": "한국일보",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20260626134231785",
+      "published_date": "2026-06-26",
+      "published_at_kst": "",
+      "snippet": "한국일보 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 3 달걀도 돼지고기도 '할인, 할인'... 정부 1조원 쏟아 물가 폭등 막는다 이후 106일 만의 첫 하향 조정이다. 이에 따라 주유소 기름값은 2,000원대에서 1,800원대로 낮아질 전망이다. 7월 종료되는 유류세 인하 추가 연장 여부도 검토할 방침이다. 이와 함께 정부는 하반기 전기·가스요금 등 중앙 공공요금을 동결하고 지방 공공요금도... 2026.06.26",
+      "score": 10,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 3,
+        "originality": 2,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 2,
+      "source_query": "유류세",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "최고가격 유지의 딜레마…'수입상 차익' 막고 손실보전해야",
+      "press": "아시아경제",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20260626111801325",
+      "published_date": "2026-06-26",
+      "published_at_kst": "",
+      "snippet": "아시아경제 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 최고가격 유지의 딜레마…'수입상 차익' 막고 손실보전해야 정부가 7차 석유 최고가격을 인하하되 석유류 소비자가격이 안정될 때까지 제도를 유지하기로 한 가운데 정유 업계에서는 최고가격과 싱가포르 국제 석유제품 가격(몹스·MOPS) 간 괴리가 커질 경우 시장 왜곡이 발생할 수 있다는 우려가 나온다. 정부가 소비자 물가... 2026.06.26",
+      "score": 11,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 2,
+      "source_query": "정유",
       "collector": "daum_news_search"
     }
   ],
