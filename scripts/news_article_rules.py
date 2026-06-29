@@ -58,6 +58,18 @@ DIRECT_INDUSTRY_KEYWORDS = {
     "최고가격제", "가격상한", "정제마진", "석탄및석유제품",
 }
 BROAD_ONLY_KEYWORDS = {"에너지", "전력", "물가"}
+DAIRY_CRUDE_CONTEXT_KEYWORDS = {
+    "흰우유",
+    "우유",
+    "낙농",
+    "유제품",
+    "유업",
+    "유가공",
+    "젖소",
+    "목장",
+    "원유 쿼터",
+    "원유쿼터",
+}
 
 
 def clean_text(value: Any) -> str:
@@ -158,6 +170,9 @@ def press_grade(value: Any) -> str:
 def industry_relevance_score(title: Any, snippet: Any = "") -> int:
     title_text = clean_text(title).lower()
     body_text = clean_text(snippet).lower()
+    combined_text = f"{title_text} {body_text}"
+    if "원유" in combined_text and any(key in combined_text for key in DAIRY_CRUDE_CONTEXT_KEYWORDS):
+        return -1
     title_matches = {key for key in DIRECT_INDUSTRY_KEYWORDS if key.lower() in title_text}
     body_matches = {key for key in DIRECT_INDUSTRY_KEYWORDS if key.lower() in body_text}
     if title_matches:

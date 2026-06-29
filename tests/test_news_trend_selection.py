@@ -14,7 +14,7 @@ from scripts.apply_news_to_report import (
     update_summary,
 )
 from scripts.fetch_news_candidates import PLAIN_QUERIES, daum_card_press, trusted_direct_count
-from scripts.news_article_rules import is_forbidden_press, normalize_article_url, resolve_press
+from scripts.news_article_rules import industry_relevance_score, is_forbidden_press, normalize_article_url, resolve_press
 
 
 class NewsTrendSelectionTest(unittest.TestCase):
@@ -126,6 +126,34 @@ class NewsTrendSelectionTest(unittest.TestCase):
         selected = select_representative_articles(candidates, max_articles=3, min_required=1)
 
         self.assertEqual(len(selected), 3)
+
+    def test_dairy_raw_milk_article_is_not_treated_as_crude_oil(self) -> None:
+        dairy_title = "[Why&Next]남아도는 비싼 흰우유...' 원유 쿼터' 치열한 샅바싸움"
+        energy_title = "국제유가 급등과 원유 수급 경고"
+
+        self.assertLess(industry_relevance_score(dairy_title), 0)
+        self.assertGreater(industry_relevance_score(energy_title), 0)
+
+        selected = select_representative_articles(
+            [
+                normalize_article({
+                    "title": dairy_title,
+                    "press": "한국경제",
+                    "url": "https://example.test/dairy",
+                    "snippet": "흰우유 원유 쿼터를 둘러싼 낙농 업계 갈등",
+                }),
+                normalize_article({
+                    "title": energy_title,
+                    "press": "연합뉴스",
+                    "url": "https://example.test/energy",
+                    "snippet": "국제유가 원유 수급",
+                }),
+            ],
+            max_articles=3,
+            min_required=1,
+        )
+
+        self.assertEqual([article["title"] for article in selected], [energy_title])
 
     def test_report_summary_is_rebuilt_from_representative_articles(self) -> None:
         articles = [
