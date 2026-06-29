@@ -5,7 +5,7 @@
     "display_date": "2026년 6월 24일 (수)",
     "previous_day_label": "6/23",
     "today_label": "6/24",
-    "generated_at": "2026-06-29 21:43 KST",
+    "generated_at": "2026-06-29 21:45 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △호르무즈 개방 기대 변화가 원유 수급 안정성과 정유 수익성 압박을 함께 부각 △정유사의 비석유 신사업으로 AI 데이터센터 냉각 수요 대응이 부각 △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도 △정유·석유화학·LNG 업계 관련 정책·시장 동향 보도"
     }
   ],
   "prices": {
@@ -1608,7 +1612,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(4/23~6/23)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1724,6 +1729,78 @@
       "merged_at": "2026-06-29 21:44:05 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-06-24.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도 △정유·석유화학·LNG 업계 관련 정책·시장 동향 보도",
+    "trend_paragraphs": [
+      "이데일리는 호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각.",
+      "YTN는 LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도.",
+      "뉴스1는 정유·석유화학·LNG 업계 관련 정책·시장 동향 보도."
+    ],
+    "articles": [
+      {
+        "title": "“韓선박 4척 호르무즈 통과”…해운·정유·석화 공급망 불안 완화되나",
+        "press": "이데일리",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260624151952399",
+        "summary": "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "카타르 \"LNG 생산 몇 주 안에 회복... 석유 화학 공급 부족은 지속\"",
+        "press": "YTN",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260624161503520",
+        "summary": "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "삼성전자 9.8% 급반등, 시총 1위 복귀…코스피 8470선 회복[시황종합]",
+        "press": "뉴스1",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260624163805530",
+        "summary": "정유·석유화학·LNG 업계 관련 정책·시장 동향 보도",
+        "published_at_kst": "",
+        "industry_relevance": 3,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
