@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*-
 
 """
-fetch_safetimes_schedule.py v2.0
+fetch_safetimes_schedule.py v2.1
 
-세이프타임즈 '오늘의 주요일정' 기사를 날짜별로 수집합니다.
+세이프타임즈 '주요일정' 기사를 날짜별로 수집합니다.
 
 개선점
 - 검색 결과 첫 페이지만 보지 않고 여러 페이지를 탐색합니다.
 - 제목의 '·N일'만으로 판단하지 않고 기사 승인일(YYYY.MM.DD)을 함께 확인합니다.
 - 과거 날짜도 수집 가능하도록 설계했습니다.
-- 예: 2026-05-18 -> [오늘의 주요일정·18일] 기사 수집
+- 예: 2026-05-18 -> [오늘의 주요일정·18일] 또는 [주요일정·18일] 기사 수집
 """
 
 from __future__ import annotations
@@ -62,6 +62,9 @@ USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
 )
+SCHEDULE_SEARCH_TERMS = ("주요일정", "오늘의 주요일정")
+EMPTY_SEARCH_PAGE_LIMIT = 12
+NEARBY_ARTICLE_SCAN_LIMIT = 450
 
 
 class SafeTimesError(RuntimeError):
@@ -69,7 +72,7 @@ class SafeTimesError(RuntimeError):
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="세이프타임즈 오늘의 주요일정 수집")
+    parser = argparse.ArgumentParser(description="세이프타임즈 주요일정 수집")
     parser.add_argument("--date", required=True, help="수집 기준일 YYYY-MM-DD")
     parser.add_argument("--out-dir", default="data/schedules", help="저장 폴더")
     parser.add_argument("--max-retries", type=int, default=1)
@@ -129,8 +132,13 @@ def normalize_text(value: str) -> str:
     return re.sub(r"\s+", " ", value or "").strip()
 
 
+def compact_title(value: str) -> str:
+    return re.sub(r"\s+", "", normalize_text(value))
+
+
 def is_schedule_article_title(title: str) -> bool:
-    return "주요일정" in title or "?ㅻ뒛??二쇱슂?쇱젙" in title
+    compact = compact_title(title)
+    return "주요일정" in compact or "?ㅻ뒛??二쇱슂?쇱젙" in compact
 
 
 def day_patterns(target: datetime) -> List[str]:
@@ -138,9 +146,31 @@ def day_patterns(target: datetime) -> List[str]:
     return [
         f"·{day}일",
         f"ㆍ{day}일",
+        f"・{day}일",
         f"{day}일]",
+        f"{day}일",
+        f"{target.month}월{day}일",
         f"{target.month}월 {day}일",
     ]
+
+
+def title_matches_target_day(title: str, target: datetime) -> bool:
+    compact = compact_title(title)
+    day = target.day
+    month = target.month
+    if re.search(rf"(?<!\d){month}월{day}일(?!\d)", compact):
+        return True
+    return bool(re.search(rf"(?<!\d){day}일(?!\d)", compact))
+
+
+def article_idx_from_url(url: str) -> Optional[int]:
+    match = re.search(r"[?&]idxno=(\d+)", url or "")
+    if not match:
+        return None
+    try:
+        return int(match.group(1))
+    except ValueError:
+        return None
 
 
 def parse_approved_date_from_text(text: str) -> str:
@@ -165,35 +195,41 @@ def collect_search_candidates(max_pages: int) -> List[Dict[str, str]]:
     candidates: List[Dict[str, str]] = []
     seen = set()
 
-    for page in range(1, max_pages + 1):
-        html = fetch(SEARCH_URL, params={"page": page, "sc_word": "주요일정"})
-        soup = BeautifulSoup(html, "html.parser")
-        page_added = 0
+    for search_term in SCHEDULE_SEARCH_TERMS:
+        consecutive_empty_pages = 0
+        for page in range(1, max_pages + 1):
+            html = fetch(SEARCH_URL, params={"page": page, "sc_word": search_term})
+            soup = BeautifulSoup(html, "html.parser")
+            page_added = 0
 
-        for a in soup.find_all("a", href=True):
-            title = normalize_text(a.get_text(" ", strip=True))
-            href = a.get("href", "")
+            for a in soup.find_all("a", href=True):
+                title = normalize_text(a.get_text(" ", strip=True))
+                href = a.get("href", "")
 
-            if not is_schedule_article_title(title):
-                continue
-            if "articleView" not in href:
-                continue
+                if not is_schedule_article_title(title):
+                    continue
+                if "articleView" not in href:
+                    continue
 
-            url = urljoin(BASE_URL, href)
-            key = (title, url)
-            if key in seen:
-                continue
-            seen.add(key)
+                url = urljoin(BASE_URL, href)
+                key = url
+                if key in seen:
+                    continue
+                seen.add(key)
 
-            candidates.append({"title": title, "url": url})
-            page_added += 1
+                candidates.append({"title": title, "url": url, "search_term": search_term})
+                page_added += 1
 
-        # 너무 뒤 페이지까지 갈 필요가 없도록,
-        # 일정 후보가 전혀 안 나오는 페이지가 연속되면 중단
-        if page > 5 and page_added == 0:
-            break
+            if page_added == 0:
+                consecutive_empty_pages += 1
+            else:
+                consecutive_empty_pages = 0
 
-        time.sleep(0.15)
+            # 검색 결과가 성기게 섞이는 날이 있어 한두 빈 페이지로 중단하지 않는다.
+            if page > 5 and consecutive_empty_pages >= EMPTY_SEARCH_PAGE_LIMIT:
+                break
+
+            time.sleep(0.15)
 
     return candidates
 
@@ -243,7 +279,8 @@ def select_article_for_date(candidates: List[Dict[str, str]], target_date: str) 
 
     day_matched = [
         cand for cand in candidates
-        if any(pattern in cand["title"] for pattern in patterns)
+        if title_matches_target_day(cand["title"], target)
+        or any(pattern in cand["title"] for pattern in patterns)
     ]
 
     parsed: List[Dict[str, Any]] = []
@@ -268,9 +305,52 @@ def select_article_for_date(candidates: List[Dict[str, str]], target_date: str) 
         for item in parsed[:8]
     ]
     raise SafeTimesError(
-        f"오늘의 주요일정 대상 기사를 찾지 못했습니다. "
+        f"주요일정 대상 기사를 찾지 못했습니다. "
         f"target={target_date}, sample_candidates={sample}, day_matched={matched_sample}"
     )
+
+
+def article_matches_target(article: Dict[str, Any], target_date: str) -> bool:
+    target = target_datetime(target_date)
+    title = str(article.get("title") or article.get("article_title") or "")
+    if not is_schedule_article_title(title):
+        return False
+    if not title_matches_target_day(title, target):
+        return False
+    if article.get("approved_date") == target_date:
+        return True
+    dotted = target.strftime("%Y.%m.%d")
+    dashed = target.strftime("%Y-%m-%d")
+    full_text = article.get("full_text", "")
+    return dotted in full_text or dashed in full_text
+
+
+def find_article_by_nearby_ids(candidates: List[Dict[str, str]], target_date: str) -> Optional[Dict[str, Any]]:
+    base_ids = sorted(
+        {idx for idx in (article_idx_from_url(candidate.get("url", "")) for candidate in candidates) if idx},
+        reverse=True,
+    )
+    if not base_ids:
+        return None
+
+    seen: set[int] = set()
+    for base_idx in base_ids:
+        for offset in range(0, NEARBY_ARTICLE_SCAN_LIMIT + 1):
+            idx = base_idx - offset
+            if idx <= 0 or idx in seen:
+                continue
+            seen.add(idx)
+            try:
+                article = parse_article_candidate({
+                    "title": f"주요일정 후보 {idx}",
+                    "url": ARTICLE_URL.format(idxno=idx),
+                })
+            except Exception:
+                continue
+            if article_matches_target(article, target_date):
+                return article
+            time.sleep(0.05)
+    return None
 
 
 def extract_items(raw_text: str) -> List[Dict[str, str]]:
@@ -307,7 +387,7 @@ def collect(target_date: str, max_pages: int) -> Dict[str, Any]:
     if known_idx:
         try:
             article = parse_article_candidate({
-                "title": f"오늘의 주요일정 {target_date}",
+                "title": f"주요일정 {target_date}",
                 "url": ARTICLE_URL.format(idxno=known_idx),
             })
             if article.get("approved_date") != target_date:
@@ -319,15 +399,20 @@ def collect(target_date: str, max_pages: int) -> Dict[str, Any]:
     if article is None:
         candidates = collect_search_candidates(max_pages=max_pages)
         if not candidates:
-            raise SafeTimesError("오늘의 주요일정 후보 기사를 찾지 못했습니다.")
-        article = select_article_for_date(candidates, target_date)
+            raise SafeTimesError("주요일정 후보 기사를 찾지 못했습니다.")
+        try:
+            article = select_article_for_date(candidates, target_date)
+        except SafeTimesError:
+            article = find_article_by_nearby_ids(candidates, target_date)
+        if article is None:
+            raise SafeTimesError(f"주요일정 대상 기사를 찾지 못했습니다. target={target_date}")
 
     items = extract_items(article["raw_text"])
 
     return {
         "schema_version": "2.0",
         "source": "세이프타임즈",
-        "category": "오늘의 주요일정",
+        "category": "주요일정",
         "date": target_date,
         "title": article["title"],
         "article_title": article["article_title"],
@@ -377,7 +462,7 @@ def main() -> int:
     atomic_write_json(error_path, {
         "schema_version": "2.0",
         "source": "세이프타임즈",
-        "category": "오늘의 주요일정",
+        "category": "주요일정",
         "date": args.date,
         "collected_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S KST"),
         "success": False,

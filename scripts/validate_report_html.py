@@ -5,6 +5,7 @@
 from __future__ import annotations
 
 import argparse
+import html as html_module
 import json
 import re
 from datetime import datetime, timedelta
@@ -83,6 +84,7 @@ def section_body(text: str, number: str) -> str:
 
 
 def strip_tags(value: str) -> str:
+    value = html_module.unescape(value)
     value = re.sub(r"<[^>]+>", " ", value)
     return re.sub(r"\s+", " ", value).strip()
 

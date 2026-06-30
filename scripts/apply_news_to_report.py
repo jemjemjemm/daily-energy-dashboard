@@ -654,6 +654,15 @@ def specific_article_summary(title: str, context: str = "") -> str:
         return "HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상"
     if "LNG" in corpus:
         return "LNG 수급·가격 변동이 발전 원가와 에너지 시장 안정성 변수로 작용"
+    if ("위기경보" in corpus or "자원안보" in corpus) and "경보" in corpus:
+        if "천연가스" in corpus and "해제" in corpus:
+            return "원유 위기경보 하향, 천연가스 경보 해제로 자원안보 수급 우려 완화"
+        if ("비상" in corpus or "한고비" in corpus) and ("하향" in corpus or "낮췄" in corpus):
+            return "원유 수급 비상 한고비 넘겨 자원안보 경보 단계 하향"
+        if "하향" in corpus or "낮췄" in corpus or "해제" in corpus:
+            return "정부 원유 자원안보 위기경보 하향 조정, 수급 안정화 국면 진입"
+    if "원유" in corpus and "경보" in corpus and ("낮췄" in corpus or "하향" in corpus):
+        return "정부가 원유 위기경보를 하향 조정, 수급 여건 개선 반영"
     if ("유가" in corpus or "원유" in corpus or "석유" in corpus) and has_strong_energy_context(corpus):
         return "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
     return ""

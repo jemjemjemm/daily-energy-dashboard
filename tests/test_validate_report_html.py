@@ -170,6 +170,22 @@ class ValidateReportHtmlTest(unittest.TestCase):
 
         self.assertTrue(any("does not match article title" in error for error in errors))
 
+    def test_news_quality_accepts_html_escaped_matching_title(self) -> None:
+        title = "원유 위기경보 &#x27;경계→주의&#x27; 하향…천연가스 경보 해제"
+        summary = "△원유 위기경보 하향, 천연가스 경보 해제로 자원안보 수급 우려 완화"
+        desc = "원유 위기경보 하향, 천연가스 경보 해제로 자원안보 수급 우려 완화"
+        body = (
+            f'<div class="news-body"><div class="news-trend">{summary}</div>'
+            f'<a class="news-link"><div class="news-link-title">{title}</div>'
+            f'<div class="news-link-desc">{desc}</div></a></div>'
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "2026-06-17.html"
+            path.write_text(report_html_with_news("2026-06-17", body), encoding="utf-8")
+            errors = validate_html_file(path, "2026-05-01", False)
+
+        self.assertEqual(errors, [])
+
     def test_news_quality_accepts_bulleted_content_summary_after_cutoff(self) -> None:
         body = (
             '<div class="news-body"><div class="news-trend">△국제유가 하락에도 국내 주유소 가격 반영에는 시차가 남아 있음 '

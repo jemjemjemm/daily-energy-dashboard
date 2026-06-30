@@ -728,6 +728,15 @@ def fallback_article_desc(title: str) -> str:
         return "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명"
     if "LNG" in compact:
         return "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도"
+    if ("위기경보" in compact or "자원안보" in compact) and "경보" in compact:
+        if "천연가스" in compact and "해제" in compact:
+            return "원유 위기경보 하향, 천연가스 경보 해제로 자원안보 수급 우려 완화"
+        if ("비상" in compact or "한고비" in compact) and ("하향" in compact or "낮췄" in compact):
+            return "원유 수급 비상 한고비 넘겨 자원안보 경보 단계 하향"
+        if "하향" in compact or "낮췄" in compact or "해제" in compact:
+            return "정부 원유 자원안보 위기경보 하향 조정, 수급 안정화 국면 진입"
+    if "원유" in compact and "경보" in compact and ("낮췄" in compact or "하향" in compact):
+        return "정부가 원유 위기경보를 하향 조정, 수급 여건 개선 반영"
     if ("유가" in compact or "원유" in compact or "석유" in compact) and has_strong_energy_context(compact):
         return "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
     return compact[:68].rstrip(" .")
