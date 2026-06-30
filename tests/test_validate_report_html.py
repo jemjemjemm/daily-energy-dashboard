@@ -7,6 +7,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from scripts.generate_html_report import render
 from scripts.validate_report_html import BAD_REPORT_PHRASES, validate_html_file
 
 
@@ -179,6 +180,35 @@ class ValidateReportHtmlTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "2026-06-17.html"
             path.write_text(report_html_with_news("2026-06-17", body), encoding="utf-8")
+            errors = validate_html_file(path, "2026-05-01", False)
+
+        self.assertEqual(errors, [])
+
+    def test_generated_html_raw_milk_article_does_not_emit_broad_energy_desc(self) -> None:
+        data = {
+            "report": {"report_date": "2026-06-30", "report_badge": "정유 · 석유화학 · LNG"},
+            "summary": [{"type": "news_trend", "text": "(Morning) △원유 쿼터 논의는 낙농·유업계 이슈로 분리"}],
+            "prices": {},
+            "schedules": [{"time": "09:00", "title": "정책 회의", "attendees": "산업부", "relevance": "정유·석화·LNG 업계 관련 후속 자료 확인"}],
+            "news_trend": {
+                "summary": "△원유 쿼터 논의는 낙농·유업계 이슈로 분리",
+                "articles": [
+                    {
+                        "title": "[Why&Next]자유화되는 비싼 흰우유...'원유 쿼터' 치열한 입방아",
+                        "press": "한국경제",
+                        "url": "https://example.test/raw-milk",
+                        "summary": "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결",
+                    }
+                ],
+            },
+        }
+
+        html = render(data, "2026-06-30")
+        self.assertNotIn('<div class="news-link-desc">국제유가와 원유 수급 변화', html)
+
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "2026-06-30.html"
+            path.write_text(html, encoding="utf-8")
             errors = validate_html_file(path, "2026-05-01", False)
 
         self.assertEqual(errors, [])

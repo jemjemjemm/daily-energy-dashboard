@@ -36,6 +36,7 @@ try:
     from scripts.news_article_rules import (
         industry_relevance_score,
         is_forbidden_press,
+        is_non_energy_raw_milk_article,
         is_original_source_url,
         normalize_article_url,
         normalize_press as normalize_press_name,
@@ -46,6 +47,7 @@ except ImportError:
     from news_article_rules import (  # type: ignore
         industry_relevance_score,
         is_forbidden_press,
+        is_non_energy_raw_milk_article,
         is_original_source_url,
         normalize_article_url,
         normalize_press as normalize_press_name,
@@ -264,6 +266,14 @@ def quality_penalty(title: str, snippet: str) -> int:
 
 
 def score_article(title: str, snippet: str, source: str) -> tuple[int, dict[str, int]]:
+    if is_non_energy_raw_milk_article({"title": title, "snippet": snippet, "press": source}):
+        return -99, {
+            "keyword": -99,
+            "title_importance": 0,
+            "press": press_score(source),
+            "originality": 0,
+            "duplicate_or_low_quality": -3,
+        }
     breakdown = {
         "keyword": keyword_score(title, snippet),
         "title_importance": title_importance_score(title),
@@ -472,8 +482,13 @@ def trusted_direct_count(items: Iterable[dict[str, Any]]) -> int:
     return sum(
         1 for item in items
         if press_grade(item.get("press")) in {"A", "B"}
+        and not is_non_energy_raw_milk_article(item)
         and industry_relevance_score(item.get("title"), item.get("snippet")) > 0
     )
+
+
+def report_candidate(item: dict[str, Any]) -> bool:
+    return not is_non_energy_raw_milk_article(item)
 
 
 def infer_topics(items: list[dict[str, Any]]) -> list[str]:
@@ -515,6 +530,7 @@ def read_existing_valid(
         if isinstance(a, dict)
         and a.get("title")
         and a.get("url")
+        and not is_non_energy_raw_milk_article(a)
         and in_issue_window(a, target_date, lookback_hours, cutoff_hour, cutoff_minute)
     ]
     if valid:
@@ -568,7 +584,7 @@ def main() -> int:
             errors.append(f"naver {q}: {e}")
     used_collectors.append("naver_html")
     candidates = dedupe(collected, min_keep=a.min_required)
-    windowed = [i for i in candidates if in_issue_window(i, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)]
+    windowed = [i for i in candidates if report_candidate(i) and in_issue_window(i, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)]
     if len(windowed) >= a.min_required:
         selected = windowed[:a.max_items]
         used_tier = "+".join(used_collectors)
@@ -586,7 +602,7 @@ def main() -> int:
                 errors.append(f"daum {q}: {e}")
         used_collectors.append("daum_html")
         candidates = dedupe(collected, min_keep=a.min_required)
-        windowed = [i for i in candidates if in_issue_window(i, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)]
+        windowed = [i for i in candidates if report_candidate(i) and in_issue_window(i, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)]
         if len(windowed) >= a.min_required:
             selected = windowed[:a.max_items]
             used_tier = "+".join(used_collectors)
@@ -608,7 +624,7 @@ def main() -> int:
                     errors.append(f"google tier{tier_idx} {q}: {e}")
             used_collectors.append(f"google_tier{tier_idx}")
             candidates = dedupe(collected, min_keep=a.min_required)
-            windowed = [i for i in candidates if in_issue_window(i, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)]
+            windowed = [i for i in candidates if report_candidate(i) and in_issue_window(i, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)]
             if len(windowed) >= a.min_required:
                 selected = windowed[:a.max_items]
                 used_tier = "+".join(used_collectors)
@@ -633,7 +649,7 @@ def main() -> int:
                 except Exception as e:
                     errors.append(f"{collector_name} relaxed {q}: {e}")
             candidates = dedupe(relaxed, min_keep=a.min_required)
-            windowed = [i for i in candidates if in_issue_window(i, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)]
+            windowed = [i for i in candidates if report_candidate(i) and in_issue_window(i, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)]
             if len(windowed) >= a.min_required:
                 selected = windowed[:a.max_items]
                 used_tier = f"{collector_name}_html_relaxed"
@@ -653,7 +669,7 @@ def main() -> int:
                     except Exception as e:
                         errors.append(f"google relaxed {_tier_idx} {q}: {e}")
                 candidates = dedupe(relaxed, min_keep=a.min_required)
-                windowed = [i for i in candidates if in_issue_window(i, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)]
+                windowed = [i for i in candidates if report_candidate(i) and in_issue_window(i, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)]
                 if len(windowed) >= a.min_required:
                     selected = windowed[:a.max_items]
                     used_tier = f"google_tier{_tier_idx}_relaxed"

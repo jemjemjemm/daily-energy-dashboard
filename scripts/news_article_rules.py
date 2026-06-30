@@ -52,6 +52,20 @@ DOMAIN_PRESS = {
     "segye.com": "세계일보",
 }
 
+STRONG_ENERGY_KEYWORDS = {
+    "국제유가", "유가", "브렌트유", "브렌트", "WTI", "두바이유", "두바이", "나프타",
+    "석유제품", "석유화학", "정유", "정유사", "정제마진", "휘발유", "경유", "주유소",
+    "LNG", "천연가스", "OPEC", "호르무즈", "유류세", "최고가격제", "가격상한",
+    "원유 수입", "원유 도입", "원유 공급", "원유 수급", "원유 조달", "원유 판매", "원유 수출",
+    "석탄및석유제품", "항공유", "refinery", "crude oil",
+}
+
+DAIRY_RAW_MILK_KEYWORDS = {
+    "낙농", "원유 쿼터", "원유쿼터", "원유가격연동제", "낙농진흥회", "집유",
+    "목장", "우유", "유제품", "유가공", "젖소", "원유가",
+    "raw milk", "dairy",
+}
+
 DIRECT_INDUSTRY_KEYWORDS = {
     "국제유가", "브렌트유", "두바이유", "WTI", "원유", "정유", "정유사", "석유제품", "석유화학", "나프타",
     "에틸렌", "프로필렌", "LNG", "천연가스", "유류세", "호르무즈", "휘발유", "경유", "주유소",
@@ -76,6 +90,36 @@ def clean_text(value: Any) -> str:
     text = html.unescape("" if value is None else str(value))
     text = re.sub(r"<[^>]+>", " ", text)
     return re.sub(r"\s+", " ", text).strip()
+
+
+def article_rule_text(article_or_text: Any) -> str:
+    if isinstance(article_or_text, Mapping):
+        parts: list[str] = []
+        for key in ("title", "summary", "snippet", "description", "desc", "source_query", "keyword"):
+            value = article_or_text.get(key)
+            if isinstance(value, list):
+                parts.extend(clean_text(v) for v in value)
+            elif isinstance(value, Mapping):
+                parts.extend(clean_text(v) for v in value.values())
+            else:
+                parts.append(clean_text(value))
+        return " ".join(part for part in parts if part)
+    return clean_text(article_or_text)
+
+
+def has_strong_energy_context(text: Any) -> bool:
+    normalized = article_rule_text(text).lower()
+    return any(keyword.lower() in normalized for keyword in STRONG_ENERGY_KEYWORDS)
+
+
+def has_dairy_raw_milk_context(text: Any) -> bool:
+    normalized = article_rule_text(text).lower()
+    return any(keyword.lower() in normalized for keyword in DAIRY_RAW_MILK_KEYWORDS)
+
+
+def is_non_energy_raw_milk_article(article_or_text: Any) -> bool:
+    text = article_rule_text(article_or_text)
+    return has_dairy_raw_milk_context(text) and not has_strong_energy_context(text)
 
 
 def normalize_press(value: Any) -> str:
@@ -168,11 +212,10 @@ def press_grade(value: Any) -> str:
 
 
 def industry_relevance_score(title: Any, snippet: Any = "") -> int:
+    if is_non_energy_raw_milk_article({"title": title, "snippet": snippet}):
+        return -1
     title_text = clean_text(title).lower()
     body_text = clean_text(snippet).lower()
-    combined_text = f"{title_text} {body_text}"
-    if "원유" in combined_text and any(key in combined_text for key in DAIRY_CRUDE_CONTEXT_KEYWORDS):
-        return -1
     title_matches = {key for key in DIRECT_INDUSTRY_KEYWORDS if key.lower() in title_text}
     body_matches = {key for key in DIRECT_INDUSTRY_KEYWORDS if key.lower() in body_text}
     if title_matches:

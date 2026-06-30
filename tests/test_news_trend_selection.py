@@ -9,15 +9,88 @@ from bs4 import BeautifulSoup
 
 from scripts.apply_news_to_report import (
     build_news_summary,
+    fallback_article_summary,
     normalize_article,
     select_representative_articles,
+    specific_article_summary,
     update_summary,
 )
 from scripts.fetch_news_candidates import PLAIN_QUERIES, daum_card_press, trusted_direct_count
-from scripts.news_article_rules import industry_relevance_score, is_forbidden_press, normalize_article_url, resolve_press
+from scripts.generate_html_report import article_desc_for_display, fallback_article_desc
+from scripts.news_article_rules import (
+    has_dairy_raw_milk_context,
+    has_strong_energy_context,
+    industry_relevance_score,
+    is_forbidden_press,
+    is_non_energy_raw_milk_article,
+    normalize_article_url,
+    resolve_press,
+)
 
 
 class NewsTrendSelectionTest(unittest.TestCase):
+    RAW_MILK_TITLE = "[Why&Next]자유화되는 비싼 흰우유...'원유 쿼터' 치열한 입방아"
+
+    def test_non_energy_raw_milk_article_is_excluded_and_not_broad_summarized(self) -> None:
+        item = {
+            "title": self.RAW_MILK_TITLE,
+            "press": "한국경제",
+            "url": "https://example.test/raw-milk",
+            "snippet": "낙농진흥회와 유업계가 원유 쿼터와 raw milk 가격 연동제를 두고 논의했다.",
+        }
+
+        self.assertTrue(has_dairy_raw_milk_context(item))
+        self.assertFalse(has_strong_energy_context(item))
+        self.assertTrue(is_non_energy_raw_milk_article(item))
+        self.assertLess(industry_relevance_score(item["title"], item["snippet"]), 0)
+
+        broad = "국제유가와 원유 수급 변화"
+        self.assertNotIn(broad, fallback_article_summary(item["title"], item["snippet"]))
+        self.assertNotIn(broad, specific_article_summary(item["title"], item["snippet"]))
+        self.assertNotIn(broad, fallback_article_desc(item["title"]))
+        self.assertNotIn(broad, article_desc_for_display({**item, "summary": broad + "가 국내 정유·석유제품 가격 반영 시차로 연결"}))
+
+        selected = select_representative_articles(
+            [
+                normalize_article(item),
+                normalize_article({
+                    "title": "국제유가 상승에 정유업계 대응 확대",
+                    "press": "연합뉴스",
+                    "url": "https://example.test/oil",
+                    "snippet": "국제유가와 원유 수급 변동에 정유업계가 대응을 확대했다.",
+                }),
+            ],
+            max_articles=3,
+            min_required=1,
+        )
+
+        self.assertNotIn(self.RAW_MILK_TITLE, [article["title"] for article in selected])
+
+    def test_energy_raw_milk_lookalike_with_strong_context_is_kept(self) -> None:
+        item = {
+            "title": "정유업계, 원유 도입선 다변화 추진",
+            "snippet": "호르무즈 리스크와 국제유가 변동에 대응해 원유 수입선을 조정한다.",
+        }
+
+        self.assertTrue(has_strong_energy_context(item))
+        self.assertFalse(is_non_energy_raw_milk_article(item))
+        self.assertGreater(industry_relevance_score(item["title"], item["snippet"]), 0)
+
+    def test_representative_summary_keeps_selected_article_order_and_count(self) -> None:
+        articles = [
+            {"title": "국제유가 상승에 정유업계 대응 확대", "summary": "국제유가 상승으로 정유업계가 원가와 수익성 대응을 확대", "press": "연합뉴스"},
+            {"title": "브렌트유 80달러 밑으로 하락", "summary": "브렌트유가 배럴당 80달러 밑으로 내려가며 유가에 반영", "press": "한국경제"},
+            {"title": "LNG 수급 전망과 발전 원가 변수", "summary": "LNG 수급 전망이 발전 원가 변수로 부각", "press": "매일경제"},
+        ]
+
+        summary = build_news_summary({}, articles)
+        parts = [part.strip() for part in summary.split("△") if part.strip()]
+
+        self.assertEqual(len(parts), 3)
+        self.assertIn("국제유가", parts[0])
+        self.assertIn("브렌트유", parts[1])
+        self.assertIn("LNG", parts[2])
+
     def test_daum_press_falls_back_to_snippet_and_normalizes_portal_url(self) -> None:
         item = {
             "title": "미국산이 사우디 넘었다... 정유 업계 원유 조달 다변화",

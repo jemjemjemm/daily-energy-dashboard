@@ -24,6 +24,11 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Iterable, Mapping, Sequence
 
+try:
+    from scripts.news_article_rules import has_strong_energy_context, is_non_energy_raw_milk_article
+except ImportError:
+    from news_article_rules import has_strong_energy_context, is_non_energy_raw_milk_article  # type: ignore
+
 CRUDE_KEYS = ["Brent", "WTI", "Dubai"]
 PRODUCT_KEYS = ["Gasoline", "Diesel", "Naphtha"]
 PRODUCT_LABELS = {"Gasoline": "휘발유", "Diesel": "경유", "Naphtha": "나프타"}
@@ -663,6 +668,35 @@ def is_repeated_article_desc(title: str, desc: str, press: str = "") -> bool:
     return title_n and (desc_n in title_n or title_n in desc_n or title_n[:16] == desc_n[:16])
 
 
+BROAD_ENERGY_DESC_PATTERNS = (
+    "국제유가와 원유 수급 변화",
+    "석유화학 업황은 원료 수급",
+    "LNG 수급·가격 변동",
+    "원유 수급 안정성과 정유 수익성",
+)
+
+DESC_ALIGNMENT_STOPWORDS = {
+    "국제유가", "원유", "수급", "변화", "국내", "정유", "석유", "석유제품",
+    "가격", "반영", "시차", "업계", "관련", "중심", "보도", "시장", "에너지",
+    "주요", "부각", "변수", "정책", "정부", "전망", "가능성", "영향",
+}
+
+
+def is_broad_energy_desc(text: str) -> bool:
+    return any(pattern in clean_text(text) for pattern in BROAD_ENERGY_DESC_PATTERNS)
+
+
+def desc_matches_article_title(title: str, desc: str) -> bool:
+    tokens = set()
+    for token in re.findall(r"[가-힣A-Za-z0-9]{2,}", clean_text(title)):
+        if len(token) >= 3 and token not in DESC_ALIGNMENT_STOPWORDS:
+            tokens.add(token.lower())
+    if not tokens:
+        return True
+    desc_norm = normalize_article_text(desc)
+    return any(normalize_article_text(token) in desc_norm for token in tokens)
+
+
 def fallback_article_desc(title: str) -> str:
     title = strip_article_source_suffix(title)
     title = re.sub(r"^\[[^\]]+\]\s*", "", title).strip()
@@ -694,7 +728,7 @@ def fallback_article_desc(title: str) -> str:
         return "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명"
     if "LNG" in compact:
         return "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도"
-    if "유가" in compact or "원유" in compact or "석유" in compact:
+    if ("유가" in compact or "원유" in compact or "석유" in compact) and has_strong_energy_context(compact):
         return "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
     return compact[:68].rstrip(" .")
 
@@ -703,12 +737,19 @@ def article_desc_for_display(article: Mapping[str, Any]) -> str:
     title = clean_text(article.get("title") or "")
     press = clean_text(article.get("press") or article.get("source") or article.get("publisher") or "")
     desc = clean_text(article.get("summary") or article.get("description") or article.get("desc") or "")
-    if is_repeated_article_desc(title, desc, press) or any(
+    desc = strip_article_source_suffix(desc, press)
+    generic_or_repeated = is_repeated_article_desc(title, desc, press) or any(
         phrase in desc
         for phrase in ("원문 기준으로 확인 필요", "업계 관련성", "중심으로 정리", "중심으로 보도", "시장 변동 요인")
-    ):
+    )
+    broad_mismatch = is_broad_energy_desc(desc) and not desc_matches_article_title(title, desc)
+    if is_non_energy_raw_milk_article(article):
+        if desc and not generic_or_repeated and not is_broad_energy_desc(desc):
+            return desc
         return fallback_article_desc(title)
-    return strip_article_source_suffix(desc, press)
+    if generic_or_repeated or broad_mismatch:
+        return fallback_article_desc(title)
+    return desc
 
 
 def render_afternoon_news_placeholder() -> str:

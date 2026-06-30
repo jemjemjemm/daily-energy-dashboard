@@ -21,7 +21,9 @@ import time
 try:
     from scripts.news_article_rules import (
         industry_relevance_score,
+        has_strong_energy_context,
         is_forbidden_press,
+        is_non_energy_raw_milk_article,
         is_original_source_url,
         normalize_article_url,
         press_grade,
@@ -30,7 +32,9 @@ try:
 except ImportError:
     from news_article_rules import (  # type: ignore
         industry_relevance_score,
+        has_strong_energy_context,
         is_forbidden_press,
+        is_non_energy_raw_milk_article,
         is_original_source_url,
         normalize_article_url,
         press_grade,
@@ -440,17 +444,12 @@ def article_summary_part(article: Dict[str, Any]) -> str:
 
 def build_representative_article_summary(articles: List[Dict[str, Any]], max_parts: int = 3) -> str:
     parts: List[str] = []
-    seen: set[str] = set()
     for article in articles:
         if not isinstance(article, dict):
             continue
         part = article_summary_part(article)
         if not part:
             continue
-        norm = normalize_article_text(part)
-        if not norm or any(similar_issue(norm, existing) for existing in seen):
-            continue
-        seen.add(norm)
         parts.append(part)
         if len(parts) >= max_parts:
             break
@@ -655,7 +654,7 @@ def specific_article_summary(title: str, context: str = "") -> str:
         return "HD현대오일뱅크 유가 담합 혐의 수사가 정유업계 규제 리스크로 부상"
     if "LNG" in corpus:
         return "LNG 수급·가격 변동이 발전 원가와 에너지 시장 안정성 변수로 작용"
-    if "유가" in corpus or "원유" in corpus or "석유" in corpus:
+    if ("유가" in corpus or "원유" in corpus or "석유" in corpus) and has_strong_energy_context(corpus):
         return "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
     return ""
 
@@ -688,7 +687,7 @@ def fallback_article_summary(title: str, context: str = "") -> str:
         return "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명"
     if "LNG" in compact:
         return "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도"
-    if "유가" in compact or "원유" in compact or "석유" in compact:
+    if ("유가" in compact or "원유" in compact or "석유" in compact) and has_strong_energy_context(compact):
         return "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
     if "주유소" in compact:
         return "주유소 업계의 비용 부담과 영업환경 변화가 정책 현안으로 부각"
@@ -739,6 +738,8 @@ def valid_article(
     if not title or not url:
         return False
     if any(b in title for b in BAD_TITLES):
+        return False
+    if is_non_energy_raw_milk_article(item):
         return False
     if any(b in url for b in ["safetimes.co.kr/news/articleView"]):
         return False
@@ -837,32 +838,29 @@ def select_representative_articles(
     trusted_candidates = [
         article for article in candidates
         if press_grade(article.get("press")) in {"A", "B"}
+        and not is_non_energy_raw_milk_article(article)
         and industry_relevance_score(article.get("title"), article.get("summary")) > 0
     ]
     c_grade_candidates = [
         article for article in candidates
         if press_grade(article.get("press")) == "C"
+        and not is_non_energy_raw_milk_article(article)
         and industry_relevance_score(article.get("title"), article.get("summary")) > 0
     ]
     sorted_candidates = sorted(trusted_candidates, key=article_sort_key, reverse=True)
     sorted_candidates += sorted(c_grade_candidates, key=article_sort_key, reverse=True)[:1]
     selected: List[Dict[str, Any]] = []
     issue_keys: List[str] = []
-    term_sets: List[set[str]] = []
     selected_urls = set()
     for article in sorted_candidates:
         url = clean(article.get("url"))
         if url and url in selected_urls:
             continue
         key = article_issue_key(article)
-        terms = issue_terms(article)
         if any(similar_issue(key, existing) for existing in issue_keys):
-            continue
-        if terms and any(len(terms & existing_terms) >= 2 for existing_terms in term_sets):
             continue
         selected.append(article)
         issue_keys.append(key)
-        term_sets.append(terms)
         if url:
             selected_urls.add(url)
         if len(selected) >= max_articles:
@@ -873,6 +871,7 @@ def select_representative_articles(
             [
                 article for article in candidates
                 if press_grade(article.get("press")) in {"A", "B"}
+                and not is_non_energy_raw_milk_article(article)
                 and industry_relevance_score(article.get("title"), article.get("summary")) == 0
             ],
             key=article_sort_key,
