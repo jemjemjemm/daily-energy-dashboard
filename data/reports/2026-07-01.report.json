@@ -5,7 +5,7 @@
     "display_date": "2026년 7월 1일 (수)",
     "previous_day_label": "6/30",
     "today_label": "7/1",
-    "generated_at": "2026-07-01 08:41 KST",
+    "generated_at": "2026-07-01 17:02 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △원유 위기경보 하향, 천연가스 경보 해제로 자원안보 수급 우려 완화 △주유소 업계의 비용 부담과 영업환경 변화가 정책 현안으로 부각"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △호르무즈 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각 △호르무즈 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각 △주유소 업계의 비용 부담과 영업환경 변화가 정책 현안으로 부각"
     }
   ],
   "prices": {
@@ -1592,7 +1596,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(4/30~6/30)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1708,6 +1713,78 @@
       "merged_at": "2026-07-01 08:42:01 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-07-01.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△호르무즈 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각 △호르무즈 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각 △주유소 업계의 비용 부담과 영업환경 변화가 정책 현안으로 부각",
+    "trend_paragraphs": [
+      "경향신문은 호르무즈 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각.",
+      "이투데이는 호르무즈 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각.",
+      "뉴시스는 주유소 업계의 비용 부담과 영업환경 변화가 정책 현안으로 부각."
+    ],
+    "articles": [
+      {
+        "title": "호르무즈 위기 최대 수혜자는 중국···에너지 비축·재생에너지로 충격 흡수, 반사이익까지",
+        "press": "경향신문",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260701163032486",
+        "summary": "호르무즈 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "‘호르무즈 통행료’, 세계 경제 새 부담…물류비 쇼크 오나",
+        "press": "이투데이",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260701152808003",
+        "summary": "호르무즈 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 2,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "기름값 150원 일괄 인하에도 체감은 '제각각'…\"주유소 가격 양극화 심화\"",
+        "press": "뉴시스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260701114358015",
+        "summary": "주유소 업계의 비용 부담과 영업환경 변화가 정책 현안으로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 1,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
