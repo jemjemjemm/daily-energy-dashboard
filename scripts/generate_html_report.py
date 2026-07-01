@@ -738,7 +738,10 @@ def fallback_article_desc(title: str) -> str:
     if "원유" in compact and "경보" in compact and ("낮췄" in compact or "하향" in compact):
         return "정부가 원유 위기경보를 하향 조정, 수급 여건 개선 반영"
     if ("유가" in compact or "원유" in compact or "석유" in compact) and has_strong_energy_context(compact):
-        return "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
+        broad_desc = "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
+        if desc_matches_article_title(compact, broad_desc):
+            return broad_desc
+    # 어느 규칙과도 안 맞으면 제목을 다듬어 그대로 사용한다 (제목-요약 불일치 방지).
     return compact[:68].rstrip(" .")
 
 

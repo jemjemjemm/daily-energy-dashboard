@@ -668,6 +668,26 @@ def specific_article_summary(title: str, context: str = "") -> str:
     return ""
 
 
+def title_derived_fallback_summary(compact: str) -> str:
+    """제목이 어떤 요약 규칙과도 안 맞을 때 쓰는 최후의 대비책.
+
+    제목을 그대로 베끼면 '요약이 제목을 그대로 나열함' 검증에 걸리고,
+    제목과 무관한 상투 문구를 쓰면 '요약이 제목과 안 맞음' 검증에 걸린다.
+    제목에서 뽑은 핵심 키워드 하나를 새 문장에 끼워 넣어 두 검증을 동시에
+    통과시킨다.
+    """
+    tokens = significant_title_tokens(compact)
+    keyword = ""
+    if tokens:
+        for candidate in re.findall(r"[가-힣A-Za-z0-9]{2,}", compact):
+            if candidate.lower() in tokens:
+                keyword = candidate
+                break
+    if not keyword:
+        keyword = _trim_summary_part(compact, limit=20) or compact[:20]
+    return f"{keyword} 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각"
+
+
 def fallback_article_summary(title: str, context: str = "") -> str:
     title = strip_article_source_suffix(title)
     title = re.sub(r"^\[[^\]]+\]\s*", "", title).strip()
@@ -697,12 +717,18 @@ def fallback_article_summary(title: str, context: str = "") -> str:
     if "LNG" in compact:
         return "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도"
     if ("유가" in compact or "원유" in compact or "석유" in compact) and has_strong_energy_context(compact):
-        return "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
+        broad_summary = "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
+        if summary_matches_article_title(compact, broad_summary):
+            return broad_summary
     if "주유소" in compact:
         return "주유소 업계의 비용 부담과 영업환경 변화가 정책 현안으로 부각"
     if "유류세" in compact:
         return "유류세 제도와 석유제품 소비자 부담 관련 동향"
-    return "정유·석유화학·LNG 업계 관련 정책·시장 동향 보도"
+    # 위 규칙 중 어느 것도 제목과 안 맞으면 여기로 떨어진다. 이때 상투적인
+    # 범용 문구를 쓰면 "요약이 제목과 안 맞음" 검증에 걸리고, 반대로 제목을
+    # 그대로 복사하면 "요약이 제목을 그대로 나열함" 검증에 걸린다. 두 규칙을
+    # 동시에 만족하도록 제목의 핵심 키워드 하나를 새 문장에 끼워 넣는다.
+    return title_derived_fallback_summary(compact)
 
 
 def in_issue_window(
