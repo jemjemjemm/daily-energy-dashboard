@@ -279,6 +279,32 @@ class NewsTrendSelectionTest(unittest.TestCase):
         self.assertNotIn("\ubcc0\ub3d9 \uc694\uc778\uc744 \uc911\uc2ec\uc73c\ub85c \uc815\ub9ac", summary)
         self.assertNotIn("\uc2dc\uc7a5 \uc5ec\uac74 \ubcc0\ud654\ub97c \uc911\uc2ec\uc73c\ub85c \ubcf4\ub3c4", summary)
 
+    def test_refinery_keyword_does_not_collapse_distinct_articles(self) -> None:
+        articles = [
+            {
+                "title": "중동 생산 차질에 윤활기유 몸값 상승… 정유사 실적 버팀목 될까",
+                "summary": "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
+                "press": "파이낸셜뉴스",
+            },
+            {
+                "title": "러, 우크라 주유소 연일 맹폭… 정유 시설 피격에 맞보복",
+                "summary": "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
+                "press": "뉴스1",
+            },
+            {
+                "title": "우크라 드론 정유시설 공격에 연료난…러, 인도서 휘발유 수입",
+                "summary": "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
+                "press": "연합뉴스",
+            },
+        ]
+
+        summary = build_news_summary({}, articles)
+
+        self.assertIn("윤활기유 가격", summary)
+        self.assertIn("우크라이나 주유소 공격", summary)
+        self.assertIn("인도산 휘발유 수입", summary)
+        self.assertNotIn("정유업계 공급망 재편", summary)
+
     def test_mismatched_article_summary_falls_back_to_title_specific_summary(self) -> None:
         articles = [
             {

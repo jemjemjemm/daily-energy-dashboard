@@ -234,6 +234,7 @@ GENERIC_ARTICLE_SUMMARY_PATTERNS = [
     "중심으로 보도",
     "시장 변동 요인",
     "시장 여건 변화",
+    "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
 ]
 
 BROAD_ENERGY_SUMMARY_PATTERNS = [
@@ -444,12 +445,17 @@ def article_summary_part(article: Dict[str, Any]) -> str:
 
 def build_representative_article_summary(articles: List[Dict[str, Any]], max_parts: int = 3) -> str:
     parts: List[str] = []
+    seen_parts: set[str] = set()
     for article in articles:
         if not isinstance(article, dict):
             continue
         part = article_summary_part(article)
         if not part:
             continue
+        part_key = normalize_article_text(part)
+        if part_key in seen_parts:
+            continue
+        seen_parts.add(part_key)
         parts.append(part)
         if len(parts) >= max_parts:
             break
@@ -700,6 +706,18 @@ def fallback_article_summary(title: str, context: str = "") -> str:
     specific_context_summary = specific_article_summary(compact, context)
     if specific_context_summary and summary_matches_article_title(compact, specific_context_summary):
         return specific_context_summary
+    if "윤활기유" in compact:
+        return "중동 생산 차질로 윤활기유 가격이 오르며 정유사 실적 방어 가능성 부각"
+    if "호르무즈" in compact and ("통과" in compact or "원유" in compact) and "하락" in compact:
+        return "호르무즈 통과 원유 증가와 국제유가 하락세가 수급 우려 완화 신호로 부각"
+    if ("러" in compact or "러시아" in compact) and "우크라" in compact and "주유소" in compact:
+        return "러시아의 우크라이나 주유소 공격과 정유시설 피격 맞보복 양상 부각"
+    if "우크라" in compact and "드론" in compact and "정유시설" in compact:
+        if "인도" in compact and "휘발유" in compact:
+            return "우크라이나 드론 공격에 따른 러시아 정유시설 피해와 인도산 휘발유 수입 확대"
+        return "우크라이나 드론 공격에 따른 러시아 정유시설 피해와 연료난 확대"
+    if ("러" in compact or "러시아" in compact) and "인도" in compact and "휘발유" in compact and ("수입" in compact or "역수입" in compact or "구매" in compact):
+        return "러시아 정유시설 차질로 인도산 휘발유 수입·역수입 움직임 부각"
     if "공습" in compact and ("브렌트" in compact or "유가" in compact):
         return "美 이란 공습 여파로 브렌트유 4% 가까이 반등"
     if "호르무즈" in compact and "유가" in compact:
