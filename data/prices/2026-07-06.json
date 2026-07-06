@@ -4,14 +4,14 @@
   "source_site": "오피넷",
   "category": "국제유가",
   "unit": "$/Bbl",
-  "collected_at": "2026-07-06 08:24:25 KST",
+  "collected_at": "2026-07-06 17:46:46 KST",
   "source_urls": {
     "crude": "https://www.opinet.co.kr/gloptotSelect.do",
     "products": "https://www.opinet.co.kr/glopopdSelect.do"
   },
   "api": {
     "opinet_api_key_env": "OPINET_API_KEY",
-    "api_key_provided": true,
+    "api_key_provided": false,
     "note": "국제유가 메뉴 데이터는 현재 HTML 표에서 추출합니다. API Key는 향후 공식 국제유가 API 확인 시 사용합니다."
   },
   "crude": {
