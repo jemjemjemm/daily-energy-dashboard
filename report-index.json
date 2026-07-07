@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.1",
-  "generatedAt": "2026-07-03 08:29:33 KST",
-  "count": 42,
-  "latestDate": "2026-07-03",
+  "generatedAt": "2026-07-07 17:16:09 KST",
+  "count": 44,
+  "latestDate": "2026-07-07",
   "availableDates": [
     "2026-05-04",
     "2026-05-06",
@@ -45,7 +45,9 @@
     "2026-06-30",
     "2026-07-01",
     "2026-07-02",
-    "2026-07-03"
+    "2026-07-03",
+    "2026-07-06",
+    "2026-07-07"
   ],
   "warnings": [
     {
@@ -226,6 +228,24 @@
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-07",
+      "displayDate": "2026년 7월 7일 (화)",
+      "title": "Daily Issue Report — 2026.07.07",
+      "url": "reports/2026-07-07.html",
+      "status": "발간",
+      "fileName": "2026-07-07.html",
+      "exists": true
+    },
+    {
+      "date": "2026-07-06",
+      "displayDate": "2026년 7월 6일 (월)",
+      "title": "Daily Issue Report — 2026.07.06",
+      "url": "reports/2026-07-06.html",
+      "status": "발간",
+      "fileName": "2026-07-06.html",
+      "exists": true
+    },
     {
       "date": "2026-07-03",
       "displayDate": "2026년 7월 3일 (금)",
