@@ -5,7 +5,7 @@
     "display_date": "2026년 7월 8일 (수)",
     "previous_day_label": "7/7",
     "today_label": "7/8",
-    "generated_at": "2026-07-08 08:13 KST",
+    "generated_at": "2026-07-08 17:02 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -21,7 +21,11 @@
     },
     {
       "type": "news_trend",
-      "text": "(Morning) △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △최고가격제 손실보전 정산위 비공개 방침으로 정유사 보상 절차 불확실성 부각 △호르무즈 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각"
+      "text": "(Morning) △호르무즈 선박 피격 이후 미국 공습과 원유 제재 복원으로 중동발 수급 불안이 다시 커짐 △최고가격제 손실보전은 검찰 수사 변수와 맞물리며 정유사 보상 기준 재검토가 불가피 △이란 관련 긴장 재점화로 원유·석유제품 거래와 국내 가격 안정 대책을 함께 점검할 필요"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △호르무즈 선박 피격과 미국 공습 여파로 국제유가가 반등하면서 최고가격제 출구전략 논의가 다시 안갯속으로 들어감 △손실보전 정산은 정유 4사 담합 수사와 MOPS 반영 여부가 겹치며 보상 범위 산정이 핵심 쟁점으로 이동 △브렌트유 급등이 국내 주유소 가격, 정제마진, 비축유 대응으로 번질 가능성 점검 필요"
     }
   ],
   "prices": {
@@ -1499,11 +1503,11 @@
     }
   ],
   "news_trend": {
-    "summary": "△호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △최고가격제 손실보전 정산위 비공개 방침으로 정유사 보상 절차 불확실성 부각 △호르무즈 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
+    "summary": "△호르무즈 선박 피격 이후 미국 공습과 원유 제재 복원으로 중동발 수급 불안이 다시 커짐 △최고가격제 손실보전은 검찰 수사 변수와 맞물리며 정유사 보상 기준 재검토가 불가피 △이란 관련 긴장 재점화로 원유·석유제품 거래와 국내 가격 안정 대책을 함께 점검할 필요",
     "trend_paragraphs": [
-      "아시아경제는 호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각.",
-      "조선일보는 최고가격제 손실보전 정산위 비공개 방침으로 정유사 보상 절차 불확실성 부각.",
-      "뉴스1는 호르무즈 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각."
+      "아시아경제는 호르무즈 선박 피격 이후 미국 공습과 원유 제재 복원으로 중동발 수급 불안이 다시 커졌다고 보도.",
+      "조선일보는 검찰 수사가 석유 최고가격제 손실보전 절차의 돌발 변수로 떠오르며 보상 기준 논쟁이 커졌다고 분석.",
+      "뉴스1은 미국의 이란 공습·제재 복원으로 평화협상 불확실성과 원유 거래 리스크가 다시 부상했다고 전함."
     ],
     "articles": [
       {
@@ -1511,7 +1515,7 @@
         "press": "아시아경제",
         "press_grade": "A",
         "url": "https://v.daum.net/v/20260708072944450",
-        "summary": "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+        "summary": "호르무즈 선박 피격 이후 미국이 이란 공습과 원유 제재 복원에 나서며 수급 불안 재점화",
         "published_at_kst": "",
         "industry_relevance": 5,
         "score": 10,
@@ -1528,7 +1532,7 @@
         "press": "조선일보",
         "press_grade": "A",
         "url": "https://v.daum.net/v/20260708003303590",
-        "summary": "최고가격제 손실보전 정산위 비공개 방침으로 정유사 보상 절차 불확실성 부각",
+        "summary": "검찰 수사가 석유 최고가격제 손실보전 절차의 돌발 변수로 떠오르며 보상 기준 논쟁 확대",
         "published_at_kst": "",
         "industry_relevance": 4,
         "score": 13,
@@ -1545,7 +1549,7 @@
         "press": "뉴스1",
         "press_grade": "A",
         "url": "https://v.daum.net/v/20260708072501377",
-        "summary": "호르무즈 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
+        "summary": "미국의 이란 공습·제재 복원으로 평화협상 불확실성이 커지고 원유 거래 리스크 재부상",
         "published_at_kst": "",
         "industry_relevance": 4,
         "score": 11,
@@ -1689,5 +1693,69 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△호르무즈 선박 피격과 미국 공습 여파로 국제유가가 반등하면서 최고가격제 출구전략 논의가 다시 안갯속으로 들어감 △손실보전 정산은 정유 4사 담합 수사와 MOPS 반영 여부가 겹치며 보상 범위 산정이 핵심 쟁점으로 이동 △브렌트유 급등이 국내 주유소 가격, 정제마진, 비축유 대응으로 번질 가능성 점검 필요",
+    "trend_paragraphs": [
+      "머니투데이는 호르무즈 피격과 미국 공습으로 유가가 반등하면서 최고가격제 출구전략이 다시 불투명해졌다고 보도.",
+      "비즈워치는 정유사 손실보전 청구가 담합 수사와 맞물리며 보상 범위 논쟁으로 번지고 있다고 분석.",
+      "뉴시스는 호르무즈 선박 피격 이후 브렌트유가 74달러대로 뛰며 국내 석유제품 가격 전이 가능성이 커졌다고 전함."
+    ],
+    "articles": [
+      {
+        "title": "호르무즈 피격·美 공습에 유가 반등…최고가격제 출구전략 안갯속",
+        "press": "머니투데이",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260708160009381",
+        "summary": "호르무즈 피격·미 공습으로 유가가 반등해 최고가격제 종료 시점과 가격 통제 해제 판단이 어려워짐",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "'최고가격제 청구서' 내민 정유사 …담합 수사에 손실보전 꼬이나",
+        "press": "비즈워치",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260708144527117",
+        "summary": "정유사 손실보전 청구가 담합 수사와 맞물리며 MOPS 기준 보상 범위를 둘러싼 논쟁으로 확대",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "호르무즈 선박 피격으로 국제유가 급등",
+        "press": "뉴시스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260708154455595",
+        "summary": "호르무즈 선박 피격 이후 브렌트유가 74달러대로 뛰며 국내 석유제품 가격 전이 가능성 주시",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
