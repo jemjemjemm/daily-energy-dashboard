@@ -1,0 +1,638 @@
+{
+  "schemaVersion": "1.1",
+  "generatedAt": "2026-07-08 17:09:18 KST",
+  "count": 45,
+  "latestDate": "2026-07-08",
+  "availableDates": [
+    "2026-05-04",
+    "2026-05-06",
+    "2026-05-07",
+    "2026-05-08",
+    "2026-05-11",
+    "2026-05-12",
+    "2026-05-13",
+    "2026-05-14",
+    "2026-05-15",
+    "2026-05-18",
+    "2026-05-19",
+    "2026-05-20",
+    "2026-05-21",
+    "2026-05-22",
+    "2026-05-26",
+    "2026-05-27",
+    "2026-05-28",
+    "2026-05-29",
+    "2026-06-01",
+    "2026-06-02",
+    "2026-06-04",
+    "2026-06-05",
+    "2026-06-08",
+    "2026-06-09",
+    "2026-06-10",
+    "2026-06-11",
+    "2026-06-12",
+    "2026-06-15",
+    "2026-06-16",
+    "2026-06-17",
+    "2026-06-18",
+    "2026-06-19",
+    "2026-06-22",
+    "2026-06-23",
+    "2026-06-24",
+    "2026-06-25",
+    "2026-06-26",
+    "2026-06-29",
+    "2026-06-30",
+    "2026-07-01",
+    "2026-07-02",
+    "2026-07-03",
+    "2026-07-06",
+    "2026-07-07",
+    "2026-07-08"
+  ],
+  "warnings": [
+    {
+      "fileName": "2026-03-02.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-03.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-04.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-05.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-06.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-09.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-10.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-11.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-12.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-13.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-16.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-17.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-18.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-19.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-20.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-23.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-24.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-25.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-26.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-27.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-30.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-03-31.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-01.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-02.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-03.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-06.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-07.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-08.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-09.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-10.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-13.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-14.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-15.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-16.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-17.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-20.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-21.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-22.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-23.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-24.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-27.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-28.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-29.html",
+      "reason": "before_index_start_date"
+    },
+    {
+      "fileName": "2026-04-30.html",
+      "reason": "before_index_start_date"
+    }
+  ],
+  "reports": [
+    {
+      "date": "2026-07-08",
+      "displayDate": "2026년 7월 8일 (수)",
+      "title": "Daily Issue Report — 2026.07.08",
+      "url": "reports/2026-07-08.html",
+      "status": "발간",
+      "fileName": "2026-07-08.html",
+      "exists": true
+    },
+    {
+      "date": "2026-07-07",
+      "displayDate": "2026년 7월 7일 (화)",
+      "title": "Daily Issue Report — 2026.07.07",
+      "url": "reports/2026-07-07.html",
+      "status": "발간",
+      "fileName": "2026-07-07.html",
+      "exists": true
+    },
+    {
+      "date": "2026-07-06",
+      "displayDate": "2026년 7월 6일 (월)",
+      "title": "Daily Issue Report — 2026.07.06",
+      "url": "reports/2026-07-06.html",
+      "status": "발간",
+      "fileName": "2026-07-06.html",
+      "exists": true
+    },
+    {
+      "date": "2026-07-03",
+      "displayDate": "2026년 7월 3일 (금)",
+      "title": "Daily Issue Report — 2026.07.03",
+      "url": "reports/2026-07-03.html",
+      "status": "발간",
+      "fileName": "2026-07-03.html",
+      "exists": true
+    },
+    {
+      "date": "2026-07-02",
+      "displayDate": "2026년 7월 2일 (목)",
+      "title": "Daily Issue Report — 2026.07.02",
+      "url": "reports/2026-07-02.html",
+      "status": "발간",
+      "fileName": "2026-07-02.html",
+      "exists": true
+    },
+    {
+      "date": "2026-07-01",
+      "displayDate": "2026년 7월 1일 (수)",
+      "title": "Daily Issue Report — 2026.07.01",
+      "url": "reports/2026-07-01.html",
+      "status": "발간",
+      "fileName": "2026-07-01.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-30",
+      "displayDate": "2026년 6월 30일 (화)",
+      "title": "Daily Issue Report — 2026.06.30",
+      "url": "reports/2026-06-30.html",
+      "status": "발간",
+      "fileName": "2026-06-30.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-29",
+      "displayDate": "2026년 6월 29일 (월)",
+      "title": "Daily Issue Report — 2026.06.29",
+      "url": "reports/2026-06-29.html",
+      "status": "발간",
+      "fileName": "2026-06-29.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-26",
+      "displayDate": "2026년 6월 26일 (금)",
+      "title": "Daily Issue Report — 2026.06.26",
+      "url": "reports/2026-06-26.html",
+      "status": "발간",
+      "fileName": "2026-06-26.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-25",
+      "displayDate": "2026년 6월 25일 (목)",
+      "title": "Daily Issue Report — 2026.06.25",
+      "url": "reports/2026-06-25.html",
+      "status": "발간",
+      "fileName": "2026-06-25.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-24",
+      "displayDate": "2026년 6월 24일 (수)",
+      "title": "Daily Issue Report — 2026.06.24",
+      "url": "reports/2026-06-24.html",
+      "status": "발간",
+      "fileName": "2026-06-24.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-23",
+      "displayDate": "2026년 6월 23일 (화)",
+      "title": "Daily Issue Report — 2026.06.23",
+      "url": "reports/2026-06-23.html",
+      "status": "발간",
+      "fileName": "2026-06-23.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-22",
+      "displayDate": "2026년 6월 22일 (월)",
+      "title": "Daily Issue Report — 2026.06.22",
+      "url": "reports/2026-06-22.html",
+      "status": "발간",
+      "fileName": "2026-06-22.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-19",
+      "displayDate": "2026년 6월 19일 (금)",
+      "title": "Daily Issue Report — 2026.06.19",
+      "url": "reports/2026-06-19.html",
+      "status": "발간",
+      "fileName": "2026-06-19.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-18",
+      "displayDate": "2026년 6월 18일 (목)",
+      "title": "Daily Issue Report — 2026.06.18",
+      "url": "reports/2026-06-18.html",
+      "status": "발간",
+      "fileName": "2026-06-18.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-17",
+      "displayDate": "2026년 6월 17일 (수)",
+      "title": "Daily Issue Report — 2026.06.17",
+      "url": "reports/2026-06-17.html",
+      "status": "발간",
+      "fileName": "2026-06-17.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-16",
+      "displayDate": "2026년 6월 16일 (화)",
+      "title": "Daily Issue Report — 2026.06.16",
+      "url": "reports/2026-06-16.html",
+      "status": "발간",
+      "fileName": "2026-06-16.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-15",
+      "displayDate": "2026년 6월 15일 (월)",
+      "title": "Daily Issue Report — 2026.06.15",
+      "url": "reports/2026-06-15.html",
+      "status": "발간",
+      "fileName": "2026-06-15.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-12",
+      "displayDate": "2026년 6월 12일 (금)",
+      "title": "Daily Issue Report — 2026.06.12",
+      "url": "reports/2026-06-12.html",
+      "status": "발간",
+      "fileName": "2026-06-12.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-11",
+      "displayDate": "2026년 6월 11일 (목)",
+      "title": "Daily Issue Report — 2026.06.11",
+      "url": "reports/2026-06-11.html",
+      "status": "발간",
+      "fileName": "2026-06-11.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-10",
+      "displayDate": "2026년 6월 10일 (수)",
+      "title": "Daily Issue Report — 2026.06.10",
+      "url": "reports/2026-06-10.html",
+      "status": "발간",
+      "fileName": "2026-06-10.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-09",
+      "displayDate": "2026년 6월 9일 (화)",
+      "title": "Daily Issue Report — 2026.06.09",
+      "url": "reports/2026-06-09.html",
+      "status": "발간",
+      "fileName": "2026-06-09.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-08",
+      "displayDate": "2026년 6월 8일 (월)",
+      "title": "Daily Issue Report — 2026.06.08",
+      "url": "reports/2026-06-08.html",
+      "status": "발간",
+      "fileName": "2026-06-08.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-05",
+      "displayDate": "2026년 6월 5일 (금)",
+      "title": "Daily Issue Report — 2026.06.05",
+      "url": "reports/2026-06-05.html",
+      "status": "발간",
+      "fileName": "2026-06-05.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-04",
+      "displayDate": "2026년 6월 4일 (목)",
+      "title": "Daily Issue Report — 2026.06.04",
+      "url": "reports/2026-06-04.html",
+      "status": "발간",
+      "fileName": "2026-06-04.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-02",
+      "displayDate": "2026년 6월 2일 (화)",
+      "title": "Daily Issue Report — 2026.06.02",
+      "url": "reports/2026-06-02.html",
+      "status": "발간",
+      "fileName": "2026-06-02.html",
+      "exists": true
+    },
+    {
+      "date": "2026-06-01",
+      "displayDate": "2026년 6월 1일 (월)",
+      "title": "Daily Issue Report — 2026.06.01",
+      "url": "reports/2026-06-01.html",
+      "status": "발간",
+      "fileName": "2026-06-01.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-29",
+      "displayDate": "2026년 5월 29일 (금)",
+      "title": "Daily Issue Report — 2026.05.29",
+      "url": "reports/2026-05-29.html",
+      "status": "발간",
+      "fileName": "2026-05-29.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-28",
+      "displayDate": "2026년 5월 28일 (목)",
+      "title": "Daily Issue Report — 2026.05.28",
+      "url": "reports/2026-05-28.html",
+      "status": "발간",
+      "fileName": "2026-05-28.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-27",
+      "displayDate": "2026년 5월 27일 (수)",
+      "title": "Daily Issue Report — 2026.05.27",
+      "url": "reports/2026-05-27.html",
+      "status": "발간",
+      "fileName": "2026-05-27.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-26",
+      "displayDate": "2026년 5월 26일 (화)",
+      "title": "Daily Issue Report — 2026.05.26",
+      "url": "reports/2026-05-26.html",
+      "status": "발간",
+      "fileName": "2026-05-26.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-22",
+      "displayDate": "2026년 5월 22일 (금)",
+      "title": "Daily Issue Report — 2026.05.22",
+      "url": "reports/2026-05-22.html",
+      "status": "발간",
+      "fileName": "2026-05-22.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-21",
+      "displayDate": "2026년 5월 21일 (목)",
+      "title": "Daily Issue Report — 2026.05.21",
+      "url": "reports/2026-05-21.html",
+      "status": "발간",
+      "fileName": "2026-05-21.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-20",
+      "displayDate": "2026년 5월 20일 (수)",
+      "title": "Daily Issue Report — 2026.05.20",
+      "url": "reports/2026-05-20.html",
+      "status": "발간",
+      "fileName": "2026-05-20.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-19",
+      "displayDate": "2026년 5월 19일 (화)",
+      "title": "Daily Issue Report — 2026.05.19",
+      "url": "reports/2026-05-19.html",
+      "status": "발간",
+      "fileName": "2026-05-19.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-18",
+      "displayDate": "2026년 5월 18일 (월)",
+      "title": "Daily Issue Report — 2026.05.18",
+      "url": "reports/2026-05-18.html",
+      "status": "발간",
+      "fileName": "2026-05-18.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-15",
+      "displayDate": "2026년 5월 15일 (금)",
+      "title": "Daily Issue Report — 2026.05.15",
+      "url": "reports/2026-05-15.html",
+      "status": "발간",
+      "fileName": "2026-05-15.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-14",
+      "displayDate": "2026년 5월 14일 (목)",
+      "title": "Daily Issue Report — 2026.05.14",
+      "url": "reports/2026-05-14.html",
+      "status": "발간",
+      "fileName": "2026-05-14.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-13",
+      "displayDate": "2026년 5월 13일 (수)",
+      "title": "Daily Issue Report — 2026.05.13",
+      "url": "reports/2026-05-13.html",
+      "status": "발간",
+      "fileName": "2026-05-13.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-12",
+      "displayDate": "2026년 5월 12일 (화)",
+      "title": "Daily Issue Report — 2026.05.12",
+      "url": "reports/2026-05-12.html",
+      "status": "발간",
+      "fileName": "2026-05-12.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-11",
+      "displayDate": "2026년 5월 11일 (월)",
+      "title": "Daily Issue Report — 2026.05.11",
+      "url": "reports/2026-05-11.html",
+      "status": "발간",
+      "fileName": "2026-05-11.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-08",
+      "displayDate": "2026년 5월 8일 (금)",
+      "title": "Daily Issue Report — 2026.05.08",
+      "url": "reports/2026-05-08.html",
+      "status": "발간",
+      "fileName": "2026-05-08.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-07",
+      "displayDate": "2026년 5월 7일 (목)",
+      "title": "Daily Issue Report — 2026.05.07",
+      "url": "reports/2026-05-07.html",
+      "status": "발간",
+      "fileName": "2026-05-07.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-06",
+      "displayDate": "2026년 5월 6일 (수)",
+      "title": "Daily Issue Report — 2026.05.06",
+      "url": "reports/2026-05-06.html",
+      "status": "발간",
+      "fileName": "2026-05-06.html",
+      "exists": true
+    },
+    {
+      "date": "2026-05-04",
+      "displayDate": "2026년 5월 4일 (월)",
+      "title": "Daily Issue Report — 2026.05.04",
+      "url": "reports/2026-05-04.html",
+      "status": "발간",
+      "fileName": "2026-05-04.html",
+      "exists": true
+    }
+  ]
+}
