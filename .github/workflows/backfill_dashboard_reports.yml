@@ -25,6 +25,7 @@ jobs:
     env:
       TZ: Asia/Seoul
       OPINET_API_KEY: ${{ secrets.OPINET_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
     steps:
       - name: Checkout

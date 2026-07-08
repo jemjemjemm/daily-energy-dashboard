@@ -50,6 +50,10 @@ jobs:
     env:
       TZ: Asia/Seoul
       OPINET_API_KEY: ${{ secrets.OPINET_API_KEY }}
+      # 대표 기사 요약을 Claude API로 보강할 때 사용합니다. secret이 없으면
+      # scripts/llm_article_summary.py가 자동으로 no-op 처리되어 기존 규칙
+      # 기반 요약으로만 동작하므로, 이 secret이 없어도 파이프라인은 실패하지 않습니다.
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
     steps:
       - name: Checkout
@@ -348,6 +352,7 @@ jobs:
       - name: Apply news candidates
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         continue-on-error: true
+        timeout-minutes: 3
         run: |
           python scripts/apply_news_to_report.py \
             --date "$TARGET_DATE" \

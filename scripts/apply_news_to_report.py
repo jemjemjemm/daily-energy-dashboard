@@ -51,6 +51,16 @@ except Exception:
     def search_assembly_for_title(title: str, date: str | None = None) -> None:
         return None
 
+try:
+    from scripts.llm_article_summary import enrich_article_summaries
+except ImportError:
+    from llm_article_summary import enrich_article_summaries  # type: ignore
+except Exception:
+    # LLM 보강은 선택 기능입니다. 어떤 이유로든 로드에 실패하면 항상 규칙 기반
+    # 요약(fallback_article_summary)으로 동작해야 하므로 파이프라인을 막지 않습니다.
+    def enrich_article_summaries(articles, report_slot="morning", date_text=""):  # type: ignore
+        return [None] * len(articles)
+
 BAD_TITLES = ["오늘의 주요일정", "주요일정", "투데이 라인업", "대표 기사 데이터 없음", "자동 수집 미적용", "대표 기사 미확인"]
 BAD_SUMMARY_PHRASES = [
     "자동 수집된 대표 기사 없음", "가격 데이터 중심", "원문 데이터", "fallback",
@@ -1059,6 +1069,27 @@ def main() -> int:
 
     if new_articles:
         articles = new_articles
+        # LLM 기반 요약 보강: 성공한 문장만 채택하고, 실패/부적합 문장은 기존
+        # 규칙 기반 요약(normalize_article 단계에서 이미 채워진 값)을 그대로 둡니다.
+        try:
+            llm_candidates = enrich_article_summaries(articles, a.report_slot, a.date)
+        except Exception as exc:
+            llm_candidates = [None] * len(articles)
+            print(f"[WARN] LLM 요약 보강 실패, 규칙 기반 요약으로 진행합니다: {exc}")
+        for article, candidate in zip(articles, llm_candidates or []):
+            if not candidate:
+                continue
+            title = clean(article.get("title"))
+            candidate = _trim_summary_part(strip_polite_endings(clean(candidate)), limit=68)
+            if (
+                candidate
+                and not is_generic_article_summary(candidate)
+                and not is_broad_energy_summary(candidate)
+                and not summary_conflicts_with_article_title(title, candidate)
+                and summary_matches_article_title(title, candidate)
+                and not is_repeated_article_desc(title, candidate, clean(article.get("press")))
+            ):
+                article["summary"] = candidate
         news_summary = build_news_summary(news, articles)
         source = clean(news.get("source")) or "Naver News Search HTML + Daum News Search HTML + Google News RSS"
         used_tier = clean(news.get("used_tier"))
