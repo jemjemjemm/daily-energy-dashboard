@@ -101,6 +101,17 @@ class ScheduleMergingTest(unittest.TestCase):
         self.assertEqual(actor, "")
         self.assertEqual(event, "중국 국제 공급망 박람회(∼26일, 베이징)")
 
+    def test_july_10_keeps_business_items_and_excludes_generic_ministry_events(self) -> None:
+        schedule_data = json.loads(Path("data/schedules/2026-07-10.json").read_text(encoding="utf-8"))
+        rows = schedule_items_from_json_or_body(schedule_data, max_items=12)
+        titles = {row["title"] for row in rows}
+
+        self.assertIn("월간 석유리포트", titles)
+        self.assertIn("배전망 ESS 구축지원사업 협약식", titles)
+        self.assertIn("홈플러스 관련 관계기관 전담반(TF) 회의", titles)
+        self.assertNotIn("청년정책 전문가 간담회", titles)
+        self.assertNotIn("국외 출장", titles)
+
 
 if __name__ == "__main__":
     unittest.main()

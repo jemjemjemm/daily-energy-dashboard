@@ -728,13 +728,26 @@ def build_issue_cards_from_schedules(items: List[Dict[str, str]]) -> List[Dict[s
 
 
 KOREAN_RELEVANT_KEYWORDS = [
-    "재경부", "재정경제부", "기획처", "기획예산처", "산업부", "산업통상부",
-    "기후부", "기후에너지환경부", "공정위",
     "에너지", "전력", "전력망", "발전공기업", "육상풍력", "LNG", "가스",
     "석유", "정유", "석유화학", "유가", "유류", "민생물가", "거시경제",
     "금융회의", "개발금융", "국가전략기술", "한미전략투자공사",
-    "공급망", "통상", "국방부", "방위산업", "드론", "대드론", "과기정통부",
+    "공급망", "통상", "방위산업", "드론", "대드론",
+    "반도체", "배터리", "홈플러스", "기업", "산업단지", "산단", "원료", "연료",
     "KEI", "한미 관계",
+]
+
+# 기관 이름만으로 모든 일정을 채택하면 일반 출장·인사·복지 일정까지 섞인다.
+# 아래 기관은 제목에도 사업/시장 주제가 확인될 때만 관련 일정으로 인정한다.
+KOREAN_BUSINESS_ORGS = [
+    "재경부", "재정경제부", "기획처", "기획예산처", "산업부", "산업통상부",
+    "기후부", "기후에너지환경부", "공정위", "국방부", "과기정통부",
+]
+
+KOREAN_BUSINESS_TOPIC_KEYWORDS = [
+    "경제", "물가", "금융", "투자", "예산", "재정", "세제", "관세", "무역",
+    "산업", "기업", "시장", "기술", "수출", "수입", "규제", "공정거래",
+    "에너지", "전력", "ESS", "원전", "수소", "석유", "정유", "LNG", "가스",
+    "공급망", "통상", "반도체", "배터리", "방산", "드론", "홈플러스",
 ]
 
 KOREAN_EXCLUDE_KEYWORDS = [
@@ -886,11 +899,17 @@ def normalize_korean_attendee(attendee: str, org: str) -> str:
 
 def korean_relevance_key(item: Dict[str, str]) -> bool:
     combined = f"{item.get('org','')} {item.get('attendee','')} {item.get('title','')}"
+    title = str(item.get("title", ""))
     if any(word in combined for word in KOREAN_EXCLUDE_KEYWORDS) and not any(
         word in combined for word in ["에너지", "전력", "산업", "유가", "석유", "LNG"]
     ):
         return False
-    return any(word in combined for word in KOREAN_RELEVANT_KEYWORDS)
+    if any(word in combined for word in KOREAN_RELEVANT_KEYWORDS):
+        return True
+    return (
+        any(word in combined for word in KOREAN_BUSINESS_ORGS)
+        and any(word in title for word in KOREAN_BUSINESS_TOPIC_KEYWORDS)
+    )
 
 
 def filter_korean_relevant_items(items: List[Dict[str, str]], max_items: int) -> List[Dict[str, str]]:
