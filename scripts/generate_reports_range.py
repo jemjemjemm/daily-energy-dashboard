@@ -99,6 +99,45 @@ def file_exists(path: str) -> bool:
     return Path(path).exists()
 
 
+def valid_schedule_file(path: str, expected_date: str) -> bool:
+    """Return True only for a publishable, source-backed schedule payload."""
+    data = read_json_optional(path)
+    if not data or data.get("success") is not True:
+        return False
+    if data.get("date") != expected_date:
+        return False
+    if not (data.get("article_url") or data.get("url")):
+        return False
+    if not str(data.get("raw_text") or data.get("body") or "").strip():
+        return False
+    return True
+
+
+def fetch_schedule(args, date_text: str, schedule_path: str) -> None:
+    """Refresh invalid placeholders and stop publication if collection still fails."""
+    if valid_schedule_file(schedule_path, date_text):
+        print(f"[OK] 기존 유효 세이프타임즈 일정 JSON 사용: {schedule_path}")
+        return
+
+    if file_exists(schedule_path):
+        print(f"[WARN] 출처 URL/본문이 없는 일정 JSON을 폐기하고 재수집: {schedule_path}")
+
+    ok = run([
+        sys.executable,
+        "scripts/fetch_safetimes_schedule.py",
+        "--date", date_text,
+        "--out-dir", args.schedule_dir,
+        "--max-retries", "3",
+        "--retry-delay", "20",
+        "--max-pages", str(args.max_pages),
+        "--force-refresh",
+    ], allow_fail=True)
+    if not ok or not valid_schedule_file(schedule_path, date_text):
+        raise RuntimeError(
+            f"유효한 주요일정 원문을 확보하지 못해 발행을 중단합니다: {schedule_path}"
+        )
+
+
 
 def read_json_optional(path: str):
     p = Path(path)
@@ -187,37 +226,15 @@ def main() -> int:
         report_path = f"{args.report_dir}/{date_text}.report.json"
 
         # 1. 세이프타임즈 일정 수집. 실패해도 전체 백필은 멈추지 않음.
-        if file_exists(schedule_path):
-            print(f"[OK] 기존 세이프타임즈 일정 JSON 사용: {schedule_path}")
-        else:
-            run([
-                sys.executable,
-                "scripts/fetch_safetimes_schedule.py",
-                "--date", date_text,
-                "--out-dir", args.schedule_dir,
-                "--max-retries", "1",
-                "--retry-delay", "5",
-                "--max-pages", str(args.max_pages),
-            ], allow_fail=True)
+        fetch_schedule(args, date_text, schedule_path)
 
         # 1-1. 기준일 전일/직전 영업일 일정도 별도로 수집한다.
         # 주요 이해관계자 동향/이슈는 이 파일을 기준으로 만들며, 금일 일정과 절대 같은 데이터를 복사하지 않는다.
-        if file_exists(previous_schedule_path):
-            print(f"[OK] 기존 전일/직전 영업일 일정 JSON 사용: {previous_schedule_path}")
-        else:
-            run([
-                sys.executable,
-                "scripts/fetch_safetimes_schedule.py",
-                "--date", previous_date_text,
-                "--out-dir", args.schedule_dir,
-                "--max-retries", "1",
-                "--retry-delay", "5",
-                "--max-pages", str(args.max_pages),
-            ], allow_fail=True)
+        fetch_schedule(args, previous_date_text, previous_schedule_path)
 
         # 2. 일정 JSON이 있으면 일정 기반 리포트 재생성.
         # 기존 fallback/빈 리포트를 실제 일정 기반 리포트로 교체하기 위해 report_path를 삭제 후 생성.
-        if file_exists(schedule_path):
+        if valid_schedule_file(schedule_path, date_text):
             if file_exists(report_path):
                 Path(report_path).unlink()
                 print(f"[INFO] 기존 리포트 JSON 삭제 후 일정 기반으로 재생성: {report_path}")
