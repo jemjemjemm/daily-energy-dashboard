@@ -5,7 +5,7 @@
     "display_date": "2026년 7월 10일 (금)",
     "previous_day_label": "7/9",
     "today_label": "7/10",
-    "generated_at": "2026-07-10 15:00 KST",
+    "generated_at": "2026-07-10 17:13 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △수입선 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △다변화 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각 △인도네시아 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각"
     }
   ],
   "prices": {
@@ -1554,7 +1558,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(5/9~7/9)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1670,6 +1675,78 @@
       "merged_at": "2026-07-10 15:00:36 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-07-10.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △다변화 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각 △인도네시아 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
+    "trend_paragraphs": [
+      "뉴스1는 정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명.",
+      "헤럴드경제는 다변화 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각.",
+      "연합뉴스는 인도네시아 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각."
+    ],
+    "articles": [
+      {
+        "title": "러 '사라토프 정유공장'도 가동 중단…멈춰서는 정유시설 줄이어",
+        "press": "뉴스1",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260710163441055",
+        "summary": "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "쉽지 않은 원유 다변화…중동産 다시 늘었다",
+        "press": "헤럴드경제",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260710112040164",
+        "summary": "다변화 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 2,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "인도네시아, '경유·팜유 반반' B50 바이오디젤 도입",
+        "press": "연합뉴스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260710134057732",
+        "summary": "인도네시아 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 9,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 0,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
