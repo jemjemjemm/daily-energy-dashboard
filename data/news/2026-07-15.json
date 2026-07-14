@@ -1,0 +1,293 @@
+{
+  "schema_version": "2.6",
+  "date": "2026-07-15",
+  "report_slot": "morning",
+  "collected_at": "2026-07-15 08:36:40 KST",
+  "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS",
+  "queries": [
+    "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
+    "정유 OR 정유사 OR 석유제품 OR 주유소 OR 유류세 OR 휘발유 OR 경유",
+    "석유화학 OR 나프타 OR 에틸렌 OR 프로필렌 OR 화학제품",
+    "LNG OR 천연가스 OR 가스공사 OR 도시가스",
+    "최고가격제 OR 가격상한 OR 유류세 OR 석탄및석유제품",
+    "호르무즈 OR 원유 수급 OR 석유 공급망 OR OPEC",
+    "산업부 석유 OR 공정위 석유 OR 국회 유류세",
+    "생산자물가 석유제품 OR 소비자물가 유류세 OR 수입물가 원유",
+    "전력 LNG OR 에너지 국제유가 OR 물가 석유제품",
+    "경제 유가 OR 산업 에너지",
+    "정부 유류세 OR 전력 LNG",
+    "산업부 에너지 OR 기재부 물가 석유",
+    "국제유가",
+    "유가",
+    "원유",
+    "석유제품",
+    "정유",
+    "정유사",
+    "주유소",
+    "유류세",
+    "휘발유",
+    "경유",
+    "석유화학",
+    "나프타",
+    "LNG",
+    "천연가스",
+    "최고가격제",
+    "호르무즈",
+    "전력 LNG",
+    "에너지 국제유가",
+    "물가 석유제품",
+    "생산자물가 석유제품"
+  ],
+  "time_window": "2026-07-14 17:00~2026-07-15 08:00 KST",
+  "summary": "△중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △정부·국회 에너지 정책",
+  "topics": [
+    "중동 정세와 원유·LNG 수급 리스크",
+    "정유·석유화학 업계 실적·원가·제품 가격",
+    "정부·국회 에너지 정책"
+  ],
+  "articles": [
+    {
+      "title": "유가 다시 뛰는데 2분기 실적 ‘주춤’…정유사, 하반기 반전 노린다",
+      "press": "아시아경제",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20260715074849087",
+      "published_date": "2026-07-15",
+      "published_at_kst": "",
+      "snippet": "아시아경제 개별문서메뉴 톡으로 바로 공유 공유하기 유가 다시 뛰는데 2분기 실적 ‘주춤’…정유사, 하반기 반전 노린다 호르무즈 해협의 긴장 고조로 국제 유가 가 다시 상승하고 있지만 국내 정유업계의 2분기 영업이익은 전 분기 대비 감소할 전망이다. 당장 정부 규제와 시차 효과로 정유 부문의 단기 실적 둔화는 불가피한 상황이기 때문이다. 그러나 증권가에서는 전례 없는 글로벌... 47분 전",
+      "score": 12,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 2,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 5,
+      "source_query": "국제유가",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "또 닫히는 호르무즈…국제유가 10% 수직상승",
+      "press": "중앙일보",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20260715002746894",
+      "published_date": "2026-07-15",
+      "published_at_kst": "",
+      "snippet": "중앙일보 개별문서메뉴 톡으로 바로 공유 공유하기 또 닫히는 호르무즈…국제유가 10% 수직상승 수밖에 없어요.” 미국과 이란의 군사 충돌로 국내 원유 수급의 핵심 통로인 호르무즈해협 통항에 대한 불확실성이 커지면서 국내 정유 업계에 다시 긴장감이 감돌고 있다. 정유사들은 지난 3월 이후 우회 항로와 원유 수입선 다변화로 대응해 왔지만 ‘미봉책’에... 8시간 전",
+      "score": 13,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 5,
+      "source_query": "정유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "“풀리나 했더니 또” 호르무즈 재봉쇄에 정유업계 긴장…“9월부터는 위험”",
+      "press": "중앙일보",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20260714172237147",
+      "published_date": "2026-07-15",
+      "published_at_kst": "",
+      "snippet": "중앙일보 개별문서메뉴 톡으로 바로 공유 공유하기 4 “풀리나 했더니 또” 호르무즈 재봉쇄에 정유업계 긴장…“9월부터는 위험” 충돌로 국내 원유 수급의 핵심 통로인 호르무즈해협 통항에 대한 불확실성이 커지면서 국내 정유업계에 다시 긴장감이 돌고 있다. 정유사 들은 지난 3월 이후 우회 항로와 원유 수입선 다변화로 대응해왔지만 미봉책에 불과해 봉쇄가 길어질 경우 수급과 비용 부담이... 15시간 전 1",
+      "score": 11,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 5,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "원유 불안, 제품은 부족… 정유 ·화학 셈법 갈리나",
+      "press": "한스경제",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20260715073004785",
+      "published_date": "2026-07-15",
+      "published_at_kst": "",
+      "snippet": "한스경제 개별문서메뉴 톡으로 바로 공유 공유하기 2 원유 불안, 제품은 부족… 정유 ·화학 셈법 갈리나 졌다. 이로써 정유사는 정제마진 방어 기대가 커지는 반면 범용 석유화학은 제품가격 약세가 이어지며 온도차가 뚜렷해졌다. ▲ 정유 업계, 원유 가격 등락보다 제품 마진에 '촉각' 업계에 따르면 최근 브렌트유 선물 및 서부텍사스산원유(WTI) 가격은 중동 긴장 재발... 1시간 전",
+      "score": 10,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 2,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 5,
+      "source_query": "정유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "트럼프, 호르무즈 해협 '20% 통행료' 하루 만에 번복",
+      "press": "MBN",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20260715073754906",
+      "published_date": "2026-07-15",
+      "published_at_kst": "",
+      "snippet": "MBN 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 트럼프, 호르무즈 해협 '20% 통행료' 하루 만에 번복 공격 목표로 삼았다고 발표했습니다.\" 중동 내 전운이 다시 짙어지는 가운데, 트럼프 대통령의 통행료 번복 소식에도 불구하고 밤사이 국제 유가 는 1.7% 올랐습니다. MBN뉴스 이동연입니다. [lee.dongyeon@mbn.co.kr] 영상편집 : 이재형 그 래 픽 : 전성현 화면출처... 58분 전",
+      "score": 11,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 3,
+        "press": 2,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "국제유가",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "유가 향방 열쇠 쥔 中…원유수입 10년來 최저",
+      "press": "서울경제",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20260714173733850",
+      "published_date": "2026-07-15",
+      "published_at_kst": "",
+      "snippet": "서울경제 개별문서메뉴 톡으로 바로 공유 공유하기 유가 향방 열쇠 쥔 中…원유수입 10년來 최저 전 세계에서 가장 많은 비축유를 보유한 나라다. 다만 위성으로 확인한 중국 원유 저장시설의 재고가 크게 감소하지 않았고 정유사 들의 공장 가동률 축소도 한계가 있기 때문에 비축유로만 수입량을 대체하지는 않은 것으로 풀이된다. 석유 대신 쓸 수 있는 방대한... 14시간 전",
+      "score": 11,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 3,
+        "press": 3,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "美, 이란 원전· 정유 거점 전방위 공습… 범 중동전 확산 조짐도",
+      "press": "조선일보",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20260715005150180",
+      "published_date": "2026-07-15",
+      "published_at_kst": "",
+      "snippet": "조선일보 개별문서메뉴 톡으로 바로 공유 공유하기 美, 이란 원전· 정유 거점 전방위 공습… 범 중동전 확산 조짐도 휴전이 파탄 나면서 전쟁이 재개된 뒤 이란을 겨냥한 미국의 공세가 전방위적으로 전개되고 있다. 미국의 공습 범위는 원전과 정유 시설 등 이란의 핵심 에너지 시설이 자리하고 있는 곳까지 확대되고 있다. 전선도 사우디아라비아 등 걸프국과 이스라엘, ‘저항의... 7시간 전",
+      "score": 10,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "정유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "美 해상 봉쇄·이란 유조선 공격에…브렌트유 1.7% 껑충",
+      "press": "헤럴드경제",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20260715065951306",
+      "published_date": "2026-07-15",
+      "published_at_kst": "",
+      "snippet": "헤럴드경제 개별문서메뉴 톡으로 바로 공유 공유하기 美 해상 봉쇄·이란 유조선 공격에…브렌트유 1.7% 껑충 해협 통제권을 놓고 미국과 이란의 대치가 계속되면서 14일(현지시간) 국제유가가 크게 상승했다. 사진은 필리핀 마닐라의 한 주유소 에서 직원이 차량에 주유하는 모습. [EPA] [헤럴드경제=도현정 기자] 미국이 이란에 대한 해상 봉쇄를 시작하는 등 호르무즈 해협을... 1시간 전",
+      "score": 8,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 1,
+        "press": 2,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "주유소",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "유가 따라 수입물가 4.4% '뚝'…3년 6개월 만에 최대 하락",
+      "press": "뉴스1",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20260715060257397",
+      "published_date": "2026-07-15",
+      "published_at_kst": "",
+      "snippet": "뉴스1 개별문서메뉴 톡으로 바로 공유 공유하기 유가 따라 수입물가 4.4% '뚝'…3년 6개월 만에 최대 하락 호르무즈 해협 긴장이 고조되면서 국제유가가 10% 급등한 14일 서울 서초구 만남의광장 주유소 를 찾은 시민들이 주유를 하고 있다. 2026.7.14 ⓒ 뉴스1 안은나 기자 (서울=뉴스1) 김혜지 기자 = 지난달 수입물가가 국제유가 급락의 영향으로 한 달 전보다 4.4% 하락... 2시간 전",
+      "score": 12,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 3,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 3,
+      "source_query": "주유소",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "[오늘의 증시]美 CPI 3.5% '예상 하회'…코스피, 반도체 훈풍에 상승 기대감↑",
+      "press": "뉴시스",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20260715074050948",
+      "published_date": "2026-07-15",
+      "published_at_kst": "",
+      "snippet": "뉴시스 개별문서메뉴 톡으로 바로 공유 공유하기 [오늘의 증시]美 CPI 3.5% '예상 하회'…코스피, 반도체 훈풍에 상승 기대감↑ 호르무즈 해협 통과 화물에 대한 20% 수수료 부과 방침을 철회했음에도 미군의 이란 추가 공습 여파가 이어지면서 서부텍사스산 원유 (WTI) 8월물은 전 거래일보다 1.5% 오른 배럴당 79.34달러, 브렌트유 9월물은 1.72% 상승한 배럴당 84.73달러에 거래를 마쳤다. 한국... 55분 전",
+      "score": 10,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 3,
+      "source_query": "원유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "“차량 기름 지금 채우세요”…싱가포르 도매가 반등, 국내 기름값 압박",
+      "press": "에너지경제",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20260714173119533",
+      "published_date": "2026-07-15",
+      "published_at_kst": "",
+      "snippet": "에너지경제 개별문서메뉴 톡으로 바로 공유 공유하기 “차량 기름 지금 채우세요”…싱가포르 도매가 반등, 국내 기름값 압박 132.8달러로 급등했다. 싱가포르는 아시아 최대의 석유 거래 허브로, 이곳의 도매가격은 아시아 석유 시장의 기준이 된다. 국내 정유사 들 역시 싱가포르 시장 가격을 기준으로 국내 공급가를 책정하기 때문에, 수일 내로 국내 주유소 판매 가격도 상승 전환할 것으로... 15시간 전 5",
+      "score": 8,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 1,
+        "press": 2,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 3,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "한화오션, 캐나다 잠수함 불발 아쉽지만…성장 기대 유효-키움",
+      "press": "이데일리",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20260715075440184",
+      "published_date": "2026-07-15",
+      "published_at_kst": "",
+      "snippet": "이데일리 개별문서메뉴 톡으로 바로 공유 공유하기 한화오션, 캐나다 잠수함 불발 아쉽지만…성장 기대 유효-키움 분석했다. 하반기에는 수주 모멘텀이 다시 강화될 것으로 내다봤다. 한화오션은 올해 6월 말 기준 LNG운반선(LNG선) 6척, 초대형 원유 운반선(VLCC) 12척, 초대형암모니아운반선(VLAC) 3척 등 총 21척, 약 34억달러 규모의 상선을 수주했다. 지난해 연간 신규 수주... 41분 전",
+      "score": 10,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 3,
+        "originality": 2,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 2,
+      "source_query": "원유",
+      "collector": "daum_news_search"
+    }
+  ],
+  "errors": [],
+  "success": true,
+  "used_tier": "naver_html+daum_html"
+}
