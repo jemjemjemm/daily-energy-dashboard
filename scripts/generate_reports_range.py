@@ -110,6 +110,12 @@ def valid_schedule_file(path: str, expected_date: str) -> bool:
         return False
     if not str(data.get("raw_text") or data.get("body") or "").strip():
         return False
+    try:
+        from scripts.fetch_safetimes_schedule import has_complete_schedule_body
+    except ModuleNotFoundError:
+        from fetch_safetimes_schedule import has_complete_schedule_body  # type: ignore
+    if not has_complete_schedule_body(data.get("raw_text") or data.get("body") or ""):
+        return False
     return True
 
 

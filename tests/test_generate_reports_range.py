@@ -29,9 +29,19 @@ class SchedulePublicationValidationTests(unittest.TestCase):
                 "success": True,
                 "date": "2026-07-10",
                 "article_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=244094",
-                "raw_text": "▲ IEA, 월간 석유리포트",
+                "raw_text": "■ 분야별\n[정치]\n▲ IEA, 월간 석유리포트",
             })
             self.assertTrue(valid_schedule_file(path, "2026-07-10"))
+
+    def test_rejects_partial_source_backed_schedule(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = self.write_payload(directory, {
+                "success": True,
+                "date": "2026-07-10",
+                "article_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=244094",
+                "raw_text": "photo lead only",
+            })
+            self.assertFalse(valid_schedule_file(path, "2026-07-10"))
 
 
 if __name__ == "__main__":
