@@ -6,6 +6,7 @@ from types import SimpleNamespace
 from unittest.mock import patch
 
 from scripts.generate_reports_range import (
+    cached_incomplete_schedule_file,
     fetch_schedule,
     normalize_date_text,
     valid_schedule_file,
@@ -53,6 +54,22 @@ class SchedulePublicationValidationTests(unittest.TestCase):
                 "raw_text": "photo lead only",
             })
             self.assertFalse(valid_schedule_file(path, "2026-07-10"))
+
+    def test_cached_incomplete_source_is_not_fetched_again(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "2026-07-15.json"
+            path.write_text(json.dumps({
+                "success": True,
+                "date": "2026-07-15",
+                "article_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=244257",
+                "raw_text": "기사 원문은 있으나 분야별 일정 섹션이 없는 본문" * 30,
+            }, ensure_ascii=False), encoding="utf-8")
+            args = SimpleNamespace(schedule_dir=directory, max_pages="80")
+
+            self.assertTrue(cached_incomplete_schedule_file(str(path), "2026-07-15"))
+            with patch("scripts.generate_reports_range.run") as run_mock:
+                self.assertFalse(fetch_schedule(args, "2026-07-15", str(path)))
+            run_mock.assert_not_called()
 
     def test_failed_fetch_keeps_existing_file_and_returns_false(self):
         with tempfile.TemporaryDirectory() as directory:

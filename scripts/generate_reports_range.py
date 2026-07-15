@@ -136,11 +136,37 @@ def valid_schedule_file(path: str, expected_date: str) -> bool:
     return True
 
 
+def cached_incomplete_schedule_file(path: str, expected_date: str) -> bool:
+    """Return True for a fetched article that permanently lacks schedule sections.
+
+    Historical range runs must not search the same SafeTimes article and nearby
+    article ids again when the repository already contains the matching source
+    response.  The daily workflow remains responsible for refreshing new data.
+    """
+    data = read_json_optional(path)
+    if not data or data.get("success") is not True or data.get("date") != expected_date:
+        return False
+    if not (data.get("article_url") or data.get("url")):
+        return False
+    body = str(data.get("raw_text") or data.get("body") or "").strip()
+    if not body:
+        return False
+    try:
+        from scripts.fetch_safetimes_schedule import has_complete_schedule_body
+    except ModuleNotFoundError:
+        from fetch_safetimes_schedule import has_complete_schedule_body  # type: ignore
+    return not has_complete_schedule_body(body)
+
+
 def fetch_schedule(args, date_text: str, schedule_path: str) -> bool:
     """Return whether a valid source exists; never remove an existing schedule/report."""
     if valid_schedule_file(schedule_path, date_text):
         print(f"[OK] 기존 유효 세이프타임즈 일정 JSON 사용: {schedule_path}")
         return True
+
+    if cached_incomplete_schedule_file(schedule_path, date_text):
+        print(f"[WARN] 저장된 원문에 분야별 일정 본문이 없어 재검색 없이 보존합니다: {schedule_path}")
+        return False
 
     if file_exists(schedule_path):
         print(f"[WARN] 기존 일정 JSON이 유효하지 않아 원본은 보존한 채 재수집을 시도합니다: {schedule_path}")
