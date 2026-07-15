@@ -4,13 +4,40 @@
 from __future__ import annotations
 
 import unittest
+import json
+import tempfile
 from datetime import datetime
+from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 
 from scripts import fetch_safetimes_schedule as safetimes
 
 
 class SafeTimesScheduleFetchTest(unittest.TestCase):
+    def test_soft_fail_returns_success_and_records_warning_payload(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            args = SimpleNamespace(
+                date="2026-07-15",
+                out_dir=directory,
+                force_refresh=False,
+                max_retries=1,
+                retry_delay=0,
+                max_pages=1,
+                soft_fail=True,
+            )
+            with (
+                patch.object(safetimes, "parse_args", return_value=args),
+                patch.object(safetimes, "collect", side_effect=safetimes.SafeTimesError("partial body")),
+            ):
+                self.assertEqual(safetimes.main(), 0)
+
+            payload = json.loads(
+                (Path(directory) / "2026-07-15.error.json").read_text(encoding="utf-8")
+            )
+            self.assertFalse(payload["success"])
+            self.assertEqual(payload["error"], "partial body")
+
     def test_rejects_partial_article_body(self) -> None:
         self.assertFalse(safetimes.has_complete_schedule_body("photo lead only"))
         complete = "■ 분야별\n[산업]\n산업부 일정\n[국제]\n국제 일정\n" + ("10:00 회의\n" * 50)

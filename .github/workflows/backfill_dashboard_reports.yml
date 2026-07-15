@@ -88,14 +88,28 @@ jobs:
             --index-out docs/report-index.json \
             --base-report report_sample.json \
             --chart-months 2 \
-            --max-pages 80
+            --max-pages 80 \
+            --result-file "$RUNNER_TEMP/backfill-results.json"
 
       - name: Validate report source separation
         run: |
-          python scripts/validate_report_sources.py \
-            --start "$DATE_FROM" \
-            --end "$DATE_TO" \
-            --report-dir data/reports
+          python - <<'PY'
+          import json
+          import os
+          import subprocess
+          import sys
+
+          result_file = os.path.join(os.environ["RUNNER_TEMP"], "backfill-results.json")
+          result = json.load(open(result_file, encoding="utf-8"))
+          dates = result.get("generated_dates", [])
+          for date_text in dates:
+              subprocess.run([
+                  sys.executable, "scripts/validate_report_sources.py",
+                  "--date", date_text,
+                  "--report-dir", "data/reports",
+              ], check=True)
+          print(f"[OK] generated report source validation passed: {len(dates)} target(s)")
+          PY
 
       - name: Sync docs reports to public
         run: |
@@ -107,11 +121,25 @@ jobs:
 
       - name: Validate public report HTML
         run: |
-          python scripts/validate_report_html.py \
-            --reports-dir public/reports \
-            --index public/report-index.json \
-            --since "$DATE_FROM" \
-            --end "$DATE_TO"
+          python - <<'PY'
+          import json
+          import os
+          import subprocess
+          import sys
+
+          result_file = os.path.join(os.environ["RUNNER_TEMP"], "backfill-results.json")
+          result = json.load(open(result_file, encoding="utf-8"))
+          dates = result.get("generated_dates", [])
+          for date_text in dates:
+              subprocess.run([
+                  sys.executable, "scripts/validate_report_html.py",
+                  "--reports-dir", "public/reports",
+                  "--index", "public/report-index.json",
+                  "--since", date_text,
+                  "--date", date_text,
+              ], check=True)
+          print(f"[OK] generated public report HTML validation passed: {len(dates)} target(s)")
+          PY
 
       - name: Commit backfilled reports
         run: |

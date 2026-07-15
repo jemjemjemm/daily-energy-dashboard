@@ -55,6 +55,11 @@ def parse_args():
     parser.add_argument("--chart-months", default="2")
     parser.add_argument("--max-pages", default="12")
     parser.add_argument("--assembly-dir", default="data/assembly")
+    parser.add_argument(
+        "--result-file",
+        default="",
+        help="생성/건너뜀 날짜를 기록할 JSON 파일 (후속 검증용)",
+    )
     return parser.parse_args()
 
 
@@ -145,9 +150,12 @@ def fetch_schedule(args, date_text: str, schedule_path: str) -> bool:
         "scripts/fetch_safetimes_schedule.py",
         "--date", date_text,
         "--out-dir", args.schedule_dir,
-        "--max-retries", "3",
-        "--retry-delay", "20",
+        # 과거 원문은 재시도해도 내용이 바뀌지 않으므로 한 번만 확인한다.
+        # 일일 수집 workflow는 별도로 재시도 정책을 유지한다.
+        "--max-retries", "1",
+        "--retry-delay", "0",
         "--max-pages", str(args.max_pages),
+        "--soft-fail",
     ], allow_fail=True)
     if not ok or not valid_schedule_file(schedule_path, date_text):
         print(f"[WARN] 유효한 주요일정 원문을 확보하지 못해 이 날짜만 건너뜁니다: {schedule_path}")
@@ -170,6 +178,18 @@ def write_json(path: str, payload) -> None:
     p = Path(path)
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def write_result_file(path: str, start: str, end: str, generated_dates: list[str], skipped_dates: list[dict[str, str]]) -> None:
+    if not path:
+        return
+    write_json(path, {
+        "schema_version": "1.0",
+        "start": start,
+        "end": end,
+        "generated_dates": generated_dates,
+        "skipped_dates": skipped_dates,
+    })
 
 
 def normalize_source_metadata(report_path: str, date_text: str, previous_date_text: str, schedule_path: str, previous_schedule_path: str) -> None:
@@ -220,7 +240,8 @@ def main() -> int:
             print(f"[ERROR] 필수 파일이 없습니다: {file_name}")
             return 1
 
-    generated_dates = []
+    generated_dates: list[str] = []
+    skipped_dates: list[dict[str, str]] = []
 
     # 국회 일정은 월 필터 API를 월별 한 번만 호출하고, 기존 월 캐시가 있으면 재사용한다.
     # 인증키/API 장애는 에너지 리포트 생성 실패로 전파하지 않는다.
@@ -240,10 +261,12 @@ def main() -> int:
 
         if args.skip_weekends and d.weekday() >= 5:
             print(f"[SKIP] 주말 제외: {date_text}")
+            skipped_dates.append({"date": date_text, "reason": "weekend"})
             continue
 
         if args.skip_korean_holidays and date_text in KOREAN_HOLIDAYS_2026:
             print(f"[SKIP] 공휴일/휴무일 제외: {date_text}")
+            skipped_dates.append({"date": date_text, "reason": "holiday"})
             continue
 
         previous_d = previous_report_workday(d, skip_weekends=args.skip_weekends, skip_holidays=args.skip_korean_holidays)
@@ -259,6 +282,7 @@ def main() -> int:
         # 1. 세이프타임즈 일정 수집. 실패해도 전체 백필은 멈추지 않음.
         if not fetch_schedule(args, date_text, schedule_path):
             print(f"[SKIP] 기존 리포트/HTML을 변경하지 않고 다음 날짜로 진행: {date_text}")
+            skipped_dates.append({"date": date_text, "reason": "schedule_source_unavailable"})
             continue
 
         # 1-1. 기준일 전일/직전 영업일 일정도 별도로 수집한다.
@@ -384,6 +408,10 @@ def main() -> int:
 
     print("\n[OK] 기간 리포트 생성 완료")
     print("[OK] 생성 대상 날짜:", ", ".join(generated_dates))
+    print("[INFO] 원문 부재로 보존한 날짜:", ", ".join(
+        item["date"] for item in skipped_dates if item["reason"] == "schedule_source_unavailable"
+    ))
+    write_result_file(args.result_file, args.start, args.end, generated_dates, skipped_dates)
     return 0
 
 
