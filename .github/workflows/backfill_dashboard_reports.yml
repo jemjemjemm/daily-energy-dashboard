@@ -110,7 +110,8 @@ jobs:
           python scripts/validate_report_html.py \
             --reports-dir public/reports \
             --index public/report-index.json \
-            --since 2026-05-01
+            --since "$DATE_FROM" \
+            --end "$DATE_TO"
 
       - name: Commit backfilled reports
         run: |
