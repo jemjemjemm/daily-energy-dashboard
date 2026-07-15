@@ -5,7 +5,7 @@
     "display_date": "2026년 6월 30일 (화)",
     "previous_day_label": "6/29",
     "today_label": "6/30",
-    "generated_at": "2026-06-30 17:12 KST",
+    "generated_at": "2026-07-16 07:49 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -25,7 +25,7 @@
     },
     {
       "type": "news_trend_afternoon",
-      "text": "(Evening) △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △원유 위기경보가 경계에서 주의로 하향되고 천연가스 경보는 해제 △원유 수급 비상 완화로 자원안보 경보가 석 달 만에 하향"
+      "text": "(Evening) △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △원유 위기경보 하향, 천연가스 경보 해제로 자원안보 수급 우려 완화 △한고비 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각"
     }
   ],
   "prices": {
@@ -56,7 +56,7 @@
           "unit": "$/Bbl"
         }
       ],
-      "chart_period_label": "4/29~6/26",
+      "chart_period_label": "4/29~6/29",
       "chart_window": {
         "start": "2026-04-29",
         "end": "2026-06-29",
@@ -278,6 +278,11 @@
             "date": "2026-06-26",
             "label": "6/26",
             "value": 71.99
+          },
+          {
+            "date": "2026-06-29",
+            "label": "6/29",
+            "value": 73.15
           }
         ],
         "WTI": [
@@ -485,6 +490,11 @@
             "date": "2026-06-26",
             "label": "6/26",
             "value": 69.23
+          },
+          {
+            "date": "2026-06-29",
+            "label": "6/29",
+            "value": 70.75
           }
         ],
         "Dubai": [
@@ -687,6 +697,11 @@
             "date": "2026-06-26",
             "label": "6/26",
             "value": 64.69
+          },
+          {
+            "date": "2026-06-29",
+            "label": "6/29",
+            "value": 67.5
           }
         ]
       }
@@ -716,7 +731,7 @@
           "unit": "$/Bbl"
         }
       ],
-      "chart_period_label": "4/29~6/26",
+      "chart_period_label": "4/29~6/29",
       "chart_window": {
         "start": "2026-04-29",
         "end": "2026-06-29",
@@ -923,6 +938,11 @@
             "date": "2026-06-26",
             "label": "6/26",
             "value": 98.5
+          },
+          {
+            "date": "2026-06-29",
+            "label": "6/29",
+            "value": 99.64
           }
         ],
         "Diesel": [
@@ -1125,6 +1145,11 @@
             "date": "2026-06-26",
             "label": "6/26",
             "value": 111.6
+          },
+          {
+            "date": "2026-06-29",
+            "label": "6/29",
+            "value": 112.91
           }
         ],
         "Naphtha": [
@@ -1327,6 +1352,11 @@
             "date": "2026-06-26",
             "label": "6/26",
             "value": 67.55
+          },
+          {
+            "date": "2026-06-29",
+            "label": "6/29",
+            "value": 68.95
           }
         ]
       }
@@ -1450,24 +1480,10 @@
       "relevance": ""
     },
     {
-      "time": "15:00",
-      "org": "구혁채 과기정통부 1차관, 과기부",
-      "attendees": "구혁채 과기정통부 1차관, 과기부",
-      "title": "CMC 세미나",
-      "relevance": ""
-    },
-    {
-      "time": "15:00",
-      "org": "허장 재경부 2차관",
-      "attendees": "허장 재경부 2차관",
-      "title": "국유재산정책심의위원회 부동산분과위원회",
-      "relevance": ""
-    },
-    {
       "time": "15:30",
-      "org": "주병기 공정위원장",
-      "attendees": "주병기 공정위원장",
-      "title": "산하기관 업무보고",
+      "org": "이형일 재경부 1차관",
+      "attendees": "이형일 재경부 1차관",
+      "title": "수입란 포장·유통업체 방문",
       "relevance": ""
     }
   ],
@@ -1546,6 +1562,7 @@
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(4/29~6/29)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
       "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
@@ -1567,6 +1584,11 @@
       {
         "name": "대표 기사 원문",
         "type": "news",
+        "url": ""
+      },
+      {
+        "name": "장기 가격 이력 history.json",
+        "type": "price-history",
         "url": ""
       },
       {
@@ -1627,7 +1649,7 @@
       "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243814",
       "today_source_published_at": "2026-06-30",
       "today_source_schedule_candidate_count": 100,
-      "today_parsed_schedule_count": 12,
+      "today_parsed_schedule_count": 10,
       "previous_source_file_date": "2026-06-29",
       "previous_source_title": "[주요일정·29일] 이 대통령, 삼전닉스 '투자' 공개 … 4개부처 합동발표",
       "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243782",
@@ -1659,12 +1681,12 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-06-30 08:30:50 KST",
+      "merged_at": "2026-07-16 07:49:53 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     },
     "news_afternoon": {
-      "source_file": "data\\news\\2026-06-30.evening.json",
+      "source_file": "data/news/2026-06-30.evening.json",
       "article_count": 3,
       "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
       "status": "updated",
@@ -1673,11 +1695,11 @@
     }
   },
   "news_trend_afternoon": {
-    "summary": "△정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △원유 위기경보가 경계에서 주의로 하향되고 천연가스 경보는 해제 △원유 수급 비상 완화로 자원안보 경보가 석 달 만에 하향",
+    "summary": "△정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △원유 위기경보 하향, 천연가스 경보 해제로 자원안보 수급 우려 완화 △한고비 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
     "trend_paragraphs": [
       "뉴스1는 정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명.",
-      "파이낸셜뉴스는 원유 위기경보가 경계에서 주의로 하향되고 천연가스 경보는 해제.",
-      "한겨레는 원유 수급 비상 완화로 자원안보 경보가 석 달 만에 하향."
+      "파이낸셜뉴스는 원유 위기경보 하향, 천연가스 경보 해제로 자원안보 수급 우려 완화.",
+      "한겨레는 한고비 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각."
     ],
     "articles": [
       {
@@ -1702,7 +1724,7 @@
         "press": "파이낸셜뉴스",
         "press_grade": "A",
         "url": "https://v.daum.net/v/20260630145143472",
-        "summary": "원유 위기경보가 경계에서 주의로 하향되고 천연가스 경보는 해제",
+        "summary": "원유 위기경보 하향, 천연가스 경보 해제로 자원안보 수급 우려 완화",
         "published_at_kst": "",
         "industry_relevance": 5,
         "score": 10,
@@ -1719,7 +1741,7 @@
         "press": "한겨레",
         "press_grade": "A",
         "url": "https://v.daum.net/v/20260630154634294",
-        "summary": "원유 수급 비상 완화로 자원안보 경보가 석 달 만에 하향",
+        "summary": "한고비 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
         "published_at_kst": "",
         "industry_relevance": 4,
         "score": 13,

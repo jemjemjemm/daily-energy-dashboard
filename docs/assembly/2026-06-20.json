@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0",
+  "source": "열린국회정보",
+  "api": "ALLSCHEDULE",
+  "date": "2026-06-20",
+  "monthCache": "months/2026-06.json",
+  "collectedAt": "2026-07-16T07:48:26+09:00",
+  "count": 5,
+  "apiTotalCount": 5,
+  "fields": [
+    "SCH_KIND",
+    "SCH_CN",
+    "SCH_DT",
+    "SCH_TM",
+    "CONF_DIV",
+    "CMIT_NM",
+    "CONF_SESS",
+    "CONF_DGR",
+    "EV_INST_NM",
+    "EV_PLC"
+  ],
+  "items": [
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "NEXT K: 2026 문화콘텐츠학 연합학술대회",
+      "SCH_DT": "2026-06-20",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김재원 의원실, 문화콘텐츠학 연합학술대회 위원회",
+      "EV_PLC": "의원회관 대회의실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "(조안 트론토 교수 초청)돌봄민주주의 토론회",
+      "SCH_DT": "2026-06-20",
+      "SCH_TM": "14:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "정춘생·김선민·이수진·김남희 의원실, 국회건강과돌봄인권포럼,국회입법조사처,고려대학교 비교거버넌스연구소 등",
+      "EV_PLC": "국회도서관 소강당"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "국선도, 존재의 회복을 말하다: 과학과 철학의 탐색",
+      "SCH_DT": "2026-06-20",
+      "SCH_TM": "14:00~17:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "박정현 의원실, (사)세계국선도연맹",
+      "EV_PLC": "의원회관 제1소회의실"
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "국민의힘 박성훈 의원(수석대변인) 브리핑",
+      "SCH_DT": "2026-06-20",
+      "SCH_TM": "14:07",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "박성훈 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "더불어민주당 이주희 의원(원내대변인) 브리핑",
+      "SCH_DT": "2026-06-20",
+      "SCH_TM": "14:39",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "이주희 의원(더불어민주당)",
+      "EV_PLC": null
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0",
+  "source": "열린국회정보",
+  "api": "ALLSCHEDULE",
+  "date": "2026-05-17",
+  "monthCache": "months/2026-05.json",
+  "collectedAt": "2026-07-16T07:48:25+09:00",
+  "count": 7,
+  "apiTotalCount": 7,
+  "fields": [
+    "SCH_KIND",
+    "SCH_CN",
+    "SCH_DT",
+    "SCH_TM",
+    "CONF_DIV",
+    "CMIT_NM",
+    "CONF_SESS",
+    "CONF_DGR",
+    "EV_INST_NM",
+    "EV_PLC"
+  ],
+  "items": [
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "더불어민주당 강준현 의원(수석대변인) 브리핑",
+      "SCH_DT": "2026-05-17",
+      "SCH_TM": "09:01",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "강준현 의원(더불어민주당)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "국민의힘 최보윤 의원(수석대변인) 브리핑",
+      "SCH_DT": "2026-05-17",
+      "SCH_TM": "11:28",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "최보윤 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "국민의힘 박충권 의원(원내수석대변인) 브리핑",
+      "SCH_DT": "2026-05-17",
+      "SCH_TM": "14:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "박충권 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": "광주 고려인 마을 방문 (광주 광산구 산정공원로 28번길 13-12)",
+      "SCH_DT": "2026-05-17",
+      "SCH_TM": "14:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "서영교 의원 기자회견",
+      "SCH_DT": "2026-05-17",
+      "SCH_TM": "14:44",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "서영교 의원(더불어민주당)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": "국립 5.18민주묘지 참배 및 망월동 민족민주열사 묘역 참배 (국립 5.18민주묘지)",
+      "SCH_DT": "2026-05-17",
+      "SCH_TM": "15:50",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": "제46주년 5.18민주화운동 전야제 (17:18/국립아시아문화전당 5.18 민주광장)",
+      "SCH_DT": "2026-05-17",
+      "SCH_TM": "17:15",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    }
+  ]
+}

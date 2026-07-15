@@ -3,9 +3,9 @@
   "report": {
     "report_date": "2026-07-06",
     "display_date": "2026년 7월 6일 (월)",
-    "previous_day_label": "7/3",
+    "previous_day_label": "7/5",
     "today_label": "7/6",
-    "generated_at": "2026-07-06 17:47 KST",
+    "generated_at": "2026-07-16 07:50 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -21,11 +21,11 @@
     },
     {
       "type": "news_trend",
-      "text": "(Morning) △국제유가·석유 최고가격제 조정 영향으로 국내 주유소 가격 7주 연속 하락 △호르무즈 통항 재개와 OPEC+ 추가 증산으로 원유 공급 우려 완화 △휘발유 전국 평균 1800원대 진입 가능성 부각"
+      "text": "(Morning) △국제유가 하락과 주유소 가격 반영 시차 △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △휘발유 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각"
     },
     {
       "type": "news_trend_afternoon",
-      "text": "(Evening) △석유제품 최고가격제 종료 수순 속 정유사 손실보전 정산 논의 본격화 △검찰의 4대 정유사 유가 담합 기소로 가격 산정·정보교환 쟁점 확대 △석유공사 해외 생산 원유 154만 배럴 국내 반입으로 비상 수급 대응 강화"
+      "text": "(Evening) △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △휘발유 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각"
     }
   ],
   "prices": {
@@ -1519,19 +1519,19 @@
     }
   ],
   "news_trend": {
-    "summary": "△국제유가·석유 최고가격제 조정 영향으로 국내 주유소 가격 7주 연속 하락 △호르무즈 통항 재개와 OPEC+ 추가 증산으로 원유 공급 우려 완화 △휘발유 전국 평균 1800원대 진입 가능성 부각",
+    "summary": "△국제유가 하락과 주유소 가격 반영 시차 △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △휘발유 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
     "trend_paragraphs": [
-      "동아일보는 석유 최고가격제와 국제유가 하락 영향으로 국내 주유소 휘발유·경유 가격이 7주 연속 내렸다고 보도.",
-      "파이낸셜뉴스는 호르무즈 통행 재개 속 OPEC+가 8월 원유 생산 쿼터 추가 인상에 합의했다고 보도.",
-      "뉴시스는 국제유가와 환율 안정으로 휘발유 전국 평균 가격이 1800원대 진입을 앞뒀다고 보도."
+      "동아일보는 국제유가 하락과 주유소 가격 반영 시차.",
+      "파이낸셜뉴스는 호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각.",
+      "뉴시스는 휘발유 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각."
     ],
     "articles": [
       {
-        "title": "휘발유 가격 7주 연속 하락",
+        "title": "5일 서울 서초구 만남의광장 주유소 에 기름값이 표시돼 있다. 7차 석유 최고가격제 시행과 국제유가 하락의 영향으로 국내 주유소 의 휘발유와 경유 가격은 7주 연속 하락했다. 뉴스1",
         "press": "동아일보",
         "press_grade": "A",
         "url": "https://v.daum.net/v/20260706003210067",
-        "summary": "석유 최고가격제와 국제유가 하락 영향으로 국내 주유소 휘발유·경유 가격이 7주 연속 하락",
+        "summary": "국제유가 하락과 주유소 가격 반영 시차",
         "published_at_kst": "",
         "industry_relevance": 5,
         "score": 12,
@@ -1548,7 +1548,7 @@
         "press": "파이낸셜뉴스",
         "press_grade": "A",
         "url": "https://v.daum.net/v/20260706053817663",
-        "summary": "호르무즈 통행 재개와 OPEC+ 추가 증산 결정으로 원유 공급 우려가 완화되는 흐름",
+        "summary": "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
         "published_at_kst": "",
         "industry_relevance": 5,
         "score": 10,
@@ -1565,7 +1565,7 @@
         "press": "뉴시스",
         "press_grade": "A",
         "url": "https://v.daum.net/v/20260706060154006",
-        "summary": "국제유가와 환율 안정 속 휘발유 전국 평균 가격의 1800원대 진입 가능성 부각",
+        "summary": "휘발유 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
         "published_at_kst": "",
         "industry_relevance": 4,
         "score": 10,
@@ -1591,7 +1591,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(5/5~7/5)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1612,6 +1613,11 @@
       {
         "name": "대표 기사 원문",
         "type": "news",
+        "url": ""
+      },
+      {
+        "name": "장기 가격 이력 history.json",
+        "type": "price-history",
         "url": ""
       },
       {
@@ -1677,12 +1683,12 @@
       "previous_source_title": "[오늘의 주요일정·3일] 한성숙 국무총리, 홍수 대응체계 현장점검",
       "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243923",
       "previous_source_schedule_candidate_count": 68,
-      "previous_parsed_schedule_count": 6,
-      "parser_version": "build_report_draft_from_schedule.py v2.3-merged-schedule-attendees",
+      "previous_parsed_schedule_count": 3,
+      "parser_version": "build_report_draft_from_schedule.py v2.4-schedule-repair",
       "needs_review": true
     },
     "news_afternoon": {
-      "source_file": "data\\news\\2026-07-06.evening.json",
+      "source_file": "data/news/2026-07-06.evening.json",
       "article_count": 3,
       "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
       "status": "updated",
@@ -1690,7 +1696,7 @@
       "report_slot": "evening"
     },
     "news": {
-      "source_file": "data\\news\\2026-07-06.json",
+      "source_file": "data/news/2026-07-06.json",
       "article_count": 3,
       "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
       "status": "updated",
@@ -1712,42 +1718,42 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-07-06 17:51:53 KST",
+      "merged_at": "2026-07-16 07:50:03 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
   },
   "news_trend_afternoon": {
-    "summary": "△석유제품 최고가격제 종료 수순 속 정유사 손실보전 정산 논의 본격화 △검찰의 4대 정유사 유가 담합 기소로 가격 산정·정보교환 쟁점 확대 △석유공사 해외 생산 원유 154만 배럴 국내 반입으로 비상 수급 대응 강화",
+    "summary": "△정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △휘발유 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
     "trend_paragraphs": [
-      "머니투데이는 국제유가 하락으로 석유제품 최고가격제가 종료 수순에 들어가며 정유사 손실보전 정산 논의가 남았다고 보도.",
-      "YTN은 검찰이 4대 정유사를 유가 담합 혐의로 기소했고 경제 피해 규모를 26조 원대로 평가했다고 보도.",
-      "KBS는 석유공사가 중동 지정학 리스크 대응 차원에서 해외 생산 원유 154만 배럴을 국내로 반입했다고 보도."
+      "아시아경제는 정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명.",
+      "YTN는 정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명.",
+      "매일경제는 휘발유 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각."
     ],
     "articles": [
       {
-        "title": "유가 하락에 종료 앞둔 최고가격제…남은 건 손실보전 정산",
-        "press": "머니투데이",
+        "title": "담합 캐낸 검찰, 4조 혈세 청구…정유사 ‘손실 보상’ 억지도 막는다",
+        "press": "아시아경제",
         "press_grade": "A",
-        "url": "https://v.daum.net/v/20260706163017075",
-        "summary": "국제유가 하락으로 석유제품 최고가격제는 종료 수순에 들어가고, 정유사 손실보전 규모 산정 논의가 본격화",
+        "url": "https://v.daum.net/v/20260706165101200",
+        "summary": "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
         "published_at_kst": "",
-        "industry_relevance": 4,
-        "score": 14,
+        "industry_relevance": 5,
+        "score": 11,
         "score_breakdown": {
           "keyword": 5,
-          "title_importance": 4,
+          "title_importance": 2,
           "press": 3,
-          "originality": 2,
+          "originality": 1,
           "duplicate_or_low_quality": 0
         }
       },
       {
-        "title": "검찰, '유가 담합' 4대 정유사 기소...\"26조 원대 경제 피해\"",
+        "title": "검찰, ' 유가 담합' 4대 정유사 기소...\"26조 원대 경제 피해\"",
         "press": "YTN",
         "press_grade": "B",
         "url": "https://v.daum.net/v/20260706165834638",
-        "summary": "검찰의 4대 정유사 기소로 고유가 국면 가격 정보 교환과 가격 인상 조율 여부가 핵심 쟁점화",
+        "summary": "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
         "published_at_kst": "",
         "industry_relevance": 5,
         "score": 9,
@@ -1760,19 +1766,19 @@
         }
       },
       {
-        "title": "석유공사, 해외 생산 원유 154만 배럴 국내 반입",
-        "press": "KBS",
-        "press_grade": "B",
-        "url": "https://v.daum.net/v/20260706164554970",
-        "summary": "중동 지정학 리스크 대응을 위해 해외 생산 원유를 국내로 들여오며 비상 수급 대응 여력 확보",
+        "title": "“ 휘발유 50원만 올리면 안되쿠과?”…제주 농협-주유소 가격 담합 적발",
+        "press": "매일경제",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260706153603258",
+        "summary": "휘발유 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
         "published_at_kst": "",
-        "industry_relevance": 4,
-        "score": 9,
+        "industry_relevance": 5,
+        "score": 8,
         "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 0,
-          "press": 2,
-          "originality": 2,
+          "keyword": 4,
+          "title_importance": 1,
+          "press": 3,
+          "originality": 0,
           "duplicate_or_low_quality": 0
         }
       }

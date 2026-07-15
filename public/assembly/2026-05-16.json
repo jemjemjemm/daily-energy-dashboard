@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0",
+  "source": "열린국회정보",
+  "api": "ALLSCHEDULE",
+  "date": "2026-05-16",
+  "monthCache": "months/2026-05.json",
+  "collectedAt": "2026-07-16T07:48:25+09:00",
+  "count": 3,
+  "apiTotalCount": 3,
+  "fields": [
+    "SCH_KIND",
+    "SCH_CN",
+    "SCH_DT",
+    "SCH_TM",
+    "CONF_DIV",
+    "CMIT_NM",
+    "CONF_SESS",
+    "CONF_DGR",
+    "EV_INST_NM",
+    "EV_PLC"
+  ],
+  "items": [
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "IWIK MODEL UN",
+      "SCH_DT": "2026-05-16",
+      "SCH_TM": "10:00~17:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "이재강 의원실, IWIK",
+      "EV_PLC": "의원회관 신관 제3세미나실"
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "국민의힘 박성훈 의원(수석대변인) 브리핑\r\n",
+      "SCH_DT": "2026-05-16",
+      "SCH_TM": "10:22",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "박성훈 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "AI 시대, 인간과 전쟁에 대해 다시 묻다",
+      "SCH_DT": "2026-05-16",
+      "SCH_TM": "14:30~17:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김준형 의원실, 외교광장",
+      "EV_PLC": "의원회관 신관 제1세미나실"
+    }
+  ]
+}

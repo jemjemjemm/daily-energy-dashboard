@@ -3,9 +3,9 @@
   "report": {
     "report_date": "2026-06-15",
     "display_date": "2026년 6월 15일 (월)",
-    "previous_day_label": "6/12",
+    "previous_day_label": "6/14",
     "today_label": "6/15",
-    "generated_at": "2026-06-15 08:22 KST",
+    "generated_at": "2026-07-16 07:49 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -17,15 +17,15 @@
   "summary": [
     {
       "type": "today",
-      "text": "금일 주요 일정: 국토공간 대전환 범정부 추진 협의회, 영국 에너지안보탄소중립부 에너지장관 화상 면담."
+      "text": "금일 주요 일정: 제3차 국토공간 대전환 범정부 추진협의회, 한국전력거래소 중부본부 개청식, 캄보디아 부총리 면담, 영국 에너지안보탄소중립부 에너지장관 화상 면담."
     },
     {
       "type": "news_trend",
-      "text": "(Morning) △정유업계 수익성·정제마진 영향 △석유제품 가격 안정과 유류세 정책 논의 △호르무즈 봉쇄 가능성에 따른 대체 원유 조달 움직임 △중동 해협 리스크의 에너지 안보 변수화"
+      "text": "(Morning) △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △최고가격제 손실보전 정산위 비공개 방침으로 정유사 보상 절차 불확실성 부각"
     },
     {
       "type": "news_trend_afternoon",
-      "text": "(Evening) △호르무즈 봉쇄 가능성에 따른 대체 원유 조달 움직임 △중동 해협 리스크의 에너지 안보 변수화 △국제유가 변동과 원유 수급 전망 △고환율에 따른 정유·석유화학 원가 부담"
+      "text": "(Evening) △호르무즈 개방 기대 변화가 원유 수급 안정성과 정유 수익성 압박을 함께 부각 △고통분담 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각 △정상화 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각"
     }
   ],
   "prices": {
@@ -1406,9 +1406,23 @@
   "schedules": [
     {
       "time": "10:00",
-      "org": "구윤철 부총리 겸 재정경제부 장관, 문신학 산업통상부 1차관",
-      "attendees": "구윤철 부총리 겸 재정경제부 장관, 문신학 산업통상부 1차관",
-      "title": "국토공간 대전환 범정부 추진 협의회",
+      "org": "구윤철 부총리 겸 재정경제부 장관, 박홍근 기획예산처 장관, 문신학 산업통상부 1차관, 최은옥 교육부 차관",
+      "attendees": "구윤철 부총리 겸 재정경제부 장관, 박홍근 기획예산처 장관, 문신학 산업통상부 1차관, 최은옥 교육부 차관",
+      "title": "제3차 국토공간 대전환 범정부 추진협의회",
+      "relevance": ""
+    },
+    {
+      "time": "14:00",
+      "org": "이호현 기후에너지환경부 2차관",
+      "attendees": "이호현 기후에너지환경부 2차관",
+      "title": "한국전력거래소 중부본부 개청식",
+      "relevance": ""
+    },
+    {
+      "time": "15:30",
+      "org": "여한구 통상교섭본부장",
+      "attendees": "여한구 통상교섭본부장",
+      "title": "캄보디아 부총리 면담",
       "relevance": ""
     },
     {
@@ -1417,14 +1431,21 @@
       "attendees": "이호현 기후에너지환경부 2차관",
       "title": "영국 에너지안보탄소중립부 에너지장관 화상 면담",
       "relevance": ""
+    },
+    {
+      "time": "시간 미정",
+      "org": "김정관 산업통상부 장관",
+      "attendees": "김정관 산업통상부 장관",
+      "title": "국외 출장",
+      "relevance": ""
     }
   ],
   "news_trend": {
-    "summary": "△정유업계 수익성·정제마진 영향 △석유제품 가격 안정과 유류세 정책 논의 △호르무즈 봉쇄 가능성에 따른 대체 원유 조달 움직임 △중동 해협 리스크의 에너지 안보 변수화",
+    "summary": "△정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △최고가격제 손실보전 정산위 비공개 방침으로 정유사 보상 절차 불확실성 부각",
     "trend_paragraphs": [
-      "서울경제는 정유업계 수익성·원가·시장 여건 변화를 중심으로 보도.",
-      "뉴스1는 정유업계 수익성·원가·시장 여건 변화를 중심으로 보도.",
-      "경향신문은 국제유가와 석유시장 변동 요인을 중심으로 정리."
+      "서울경제는 정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명.",
+      "이투데이는 정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명.",
+      "뉴스1는 최고가격제 손실보전 정산위 비공개 방침으로 정유사 보상 절차 불확실성 부각."
     ],
     "articles": [
       {
@@ -1432,7 +1453,7 @@
         "press": "서울경제",
         "press_grade": "A",
         "url": "https://v.daum.net/v/20260615054121802",
-        "summary": "정유업계 수익성·원가·시장 여건 변화를 중심으로 보도",
+        "summary": "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
         "published_at_kst": "",
         "industry_relevance": 5,
         "score": 13,
@@ -1445,11 +1466,28 @@
         }
       },
       {
+        "title": "유가 하락 전망에… 정유사 하반기 먹구름",
+        "press": "이투데이",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260614172103820",
+        "summary": "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 2,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
         "title": "최고가격제 손실 보전 기준 이르면 이번 주 공개…정유업계 '촉각'",
         "press": "뉴스1",
         "press_grade": "A",
         "url": "https://v.daum.net/v/20260615063133715",
-        "summary": "정유업계 수익성·원가·시장 여건 변화를 중심으로 보도",
+        "summary": "최고가격제 손실보전 정산위 비공개 방침으로 정유사 보상 절차 불확실성 부각",
         "published_at_kst": "",
         "industry_relevance": 5,
         "score": 13,
@@ -1458,23 +1496,6 @@
           "title_importance": 4,
           "press": 3,
           "originality": 1,
-          "duplicate_or_low_quality": 0
-        }
-      },
-      {
-        "title": "호르무즈 해협 막혔어도 ‘원유는 사우디’…김정관, 사우디 찾아 안정적 공급 강조",
-        "press": "경향신문",
-        "press_grade": "A",
-        "url": "https://v.daum.net/v/20260614190202709",
-        "summary": "국제유가와 석유시장 변동 요인을 중심으로 정리",
-        "published_at_kst": "",
-        "industry_relevance": 5,
-        "score": 12,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 4,
-          "press": 3,
-          "originality": 0,
           "duplicate_or_low_quality": 0
         }
       }
@@ -1492,7 +1513,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(4/14~6/14)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1513,6 +1535,11 @@
       {
         "name": "대표 기사 원문",
         "type": "news",
+        "url": ""
+      },
+      {
+        "name": "장기 가격 이력 history.json",
+        "type": "price-history",
         "url": ""
       },
       {
@@ -1569,17 +1596,17 @@
     },
     "safetimes": {
       "today_source_file_date": "2026-06-15",
-      "today_source_title": "",
+      "today_source_title": "[오늘의 주요일정˙15일] 김명수 전 합참 의장 등 4명 내란중요임무종사 혐의 영장실질심사",
       "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243462",
       "today_source_published_at": "2026-06-15",
-      "today_source_schedule_candidate_count": 70,
-      "today_parsed_schedule_count": 2,
+      "today_source_schedule_candidate_count": 78,
+      "today_parsed_schedule_count": 5,
       "previous_source_file_date": "2026-06-12",
-      "previous_source_title": "",
+      "previous_source_title": "[오늘의 주요일정·12일] 윤석열 김용현 여인형 '일반이적죄' 선고",
       "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243427",
-      "previous_source_schedule_candidate_count": 55,
-      "previous_parsed_schedule_count": 2,
-      "parser_version": "build_report_draft_from_schedule.py v2.3-merged-schedule-attendees",
+      "previous_source_schedule_candidate_count": 80,
+      "previous_parsed_schedule_count": 4,
+      "parser_version": "build_report_draft_from_schedule.py v2.4-schedule-repair",
       "needs_review": true
     },
     "news": {
@@ -1605,7 +1632,7 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-06-15 08:23:08 KST",
+      "merged_at": "2026-07-16 07:49:21 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     },
@@ -1619,11 +1646,11 @@
     }
   },
   "news_trend_afternoon": {
-    "summary": "△호르무즈 봉쇄 가능성에 따른 대체 원유 조달 움직임 △중동 해협 리스크의 에너지 안보 변수화 △국제유가 변동과 원유 수급 전망 △고환율에 따른 정유·석유화학 원가 부담",
+    "summary": "△호르무즈 개방 기대 변화가 원유 수급 안정성과 정유 수익성 압박을 함께 부각 △고통분담 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각 △정상화 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
     "trend_paragraphs": [
       "헤럴드경제는 호르무즈 개방 기대 변화가 원유 수급 안정성과 정유 수익성 압박을 함께 부각.",
-      "파이낸셜뉴스는 해당 이슈의 업계 관련성을 원문 기준으로 확인 필요.",
-      "뉴스1는 해당 이슈의 업계 관련성을 원문 기준으로 확인 필요."
+      "머니투데이는 고통분담 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각.",
+      "파이낸셜뉴스는 정상화 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각."
     ],
     "articles": [
       {
@@ -1644,36 +1671,36 @@
         }
       },
       {
-        "title": "미-이란 종전..호르무즈 해협 개방에 산업계 기대감 ↑",
-        "press": "파이낸셜뉴스",
+        "title": "\"고통분담\" 원가 vs \"적자불가\" 시장가…최고가격제 정산 딜레마",
+        "press": "머니투데이",
         "press_grade": "A",
-        "url": "https://v.daum.net/v/20260615155250060",
-        "summary": "해당 이슈의 업계 관련성을 원문 기준으로 확인 필요",
+        "url": "https://v.daum.net/v/20260615161806457",
+        "summary": "고통분담 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
         "published_at_kst": "",
         "industry_relevance": 4,
-        "score": 12,
+        "score": 14,
         "score_breakdown": {
           "keyword": 5,
-          "title_importance": 2,
+          "title_importance": 4,
           "press": 3,
           "originality": 2,
           "duplicate_or_low_quality": 0
         }
       },
       {
-        "title": "호르무즈 다시 열린다…2000원 선 넘은 기름값 '2~3주 시차' 두고 하락",
-        "press": "뉴스1",
+        "title": "원유 정상화 최대 6개월 걸릴 수도…석유 최고 가격제 출구 '신중'",
+        "press": "파이낸셜뉴스",
         "press_grade": "A",
-        "url": "https://v.daum.net/v/20260615152240516",
-        "summary": "해당 이슈의 업계 관련성을 원문 기준으로 확인 필요",
+        "url": "https://v.daum.net/v/20260615153751313",
+        "summary": "정상화 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
         "published_at_kst": "",
         "industry_relevance": 4,
-        "score": 12,
+        "score": 14,
         "score_breakdown": {
           "keyword": 5,
-          "title_importance": 3,
+          "title_importance": 4,
           "press": 3,
-          "originality": 1,
+          "originality": 2,
           "duplicate_or_low_quality": 0
         }
       }

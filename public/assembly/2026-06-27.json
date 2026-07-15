@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0",
+  "source": "열린국회정보",
+  "api": "ALLSCHEDULE",
+  "date": "2026-06-27",
+  "monthCache": "months/2026-06.json",
+  "collectedAt": "2026-07-16T07:48:26+09:00",
+  "count": 3,
+  "apiTotalCount": 3,
+  "fields": [
+    "SCH_KIND",
+    "SCH_CN",
+    "SCH_DT",
+    "SCH_TM",
+    "CONF_DIV",
+    "CMIT_NM",
+    "CONF_SESS",
+    "CONF_DGR",
+    "EV_INST_NM",
+    "EV_PLC"
+  ],
+  "items": [
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "함흥검무 전형과 전승을 위한 학술 포럼",
+      "SCH_DT": "2026-06-27",
+      "SCH_TM": "09:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "한준호 의원실",
+      "EV_PLC": "의원회관 신관 제2세미나실"
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "더불어민주당 이주희 의원(원내대변인) 브리핑\r\n",
+      "SCH_DT": "2026-06-27",
+      "SCH_TM": "13:44",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "이주희 의원(더불어민주당)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "한국·중앙아시아 5개국의 상생협력 외교 환경 분석",
+      "SCH_DT": "2026-06-27",
+      "SCH_TM": "14:00~17:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김남근 의원실, (사)중앙아시아개발협력연구소",
+      "EV_PLC": "의원회관 신관 제2세미나실"
+    }
+  ]
+}

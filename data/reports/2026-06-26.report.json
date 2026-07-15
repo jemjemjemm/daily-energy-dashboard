@@ -5,7 +5,7 @@
     "display_date": "2026년 6월 26일 (금)",
     "previous_day_label": "6/25",
     "today_label": "6/26",
-    "generated_at": "2026-06-29 21:48 KST",
+    "generated_at": "2026-07-16 07:49 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -21,7 +21,11 @@
     },
     {
       "type": "news_trend",
-      "text": "(Morning) △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △정유·석유화학·LNG 업계 관련 정책·시장 동향 보도"
+      "text": "(Morning) △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △이전으로 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각 △수준으로 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △휘발유 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각 △이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각 △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각"
     }
   ],
   "prices": {
@@ -52,7 +56,7 @@
           "unit": "$/Bbl"
         }
       ],
-      "chart_period_label": "4/27~6/24",
+      "chart_period_label": "4/27~6/25",
       "chart_window": {
         "start": "2026-04-25",
         "end": "2026-06-25",
@@ -274,6 +278,11 @@
             "date": "2026-06-24",
             "label": "6/24",
             "value": 73.74
+          },
+          {
+            "date": "2026-06-25",
+            "label": "6/25",
+            "value": 75.26
           }
         ],
         "WTI": [
@@ -481,6 +490,11 @@
             "date": "2026-06-24",
             "label": "6/24",
             "value": 70.34
+          },
+          {
+            "date": "2026-06-25",
+            "label": "6/25",
+            "value": 71.92
           }
         ],
         "Dubai": [
@@ -683,6 +697,11 @@
             "date": "2026-06-24",
             "label": "6/24",
             "value": 67.29
+          },
+          {
+            "date": "2026-06-25",
+            "label": "6/25",
+            "value": 64.39
           }
         ]
       }
@@ -712,7 +731,7 @@
           "unit": "$/Bbl"
         }
       ],
-      "chart_period_label": "4/27~6/24",
+      "chart_period_label": "4/27~6/25",
       "chart_window": {
         "start": "2026-04-25",
         "end": "2026-06-25",
@@ -919,6 +938,11 @@
             "date": "2026-06-24",
             "label": "6/24",
             "value": 98.81
+          },
+          {
+            "date": "2026-06-25",
+            "label": "6/25",
+            "value": 97.11
           }
         ],
         "Diesel": [
@@ -1121,6 +1145,11 @@
             "date": "2026-06-24",
             "label": "6/24",
             "value": 112.25
+          },
+          {
+            "date": "2026-06-25",
+            "label": "6/25",
+            "value": 112.4
           }
         ],
         "Naphtha": [
@@ -1323,6 +1352,11 @@
             "date": "2026-06-24",
             "label": "6/24",
             "value": 68.01
+          },
+          {
+            "date": "2026-06-25",
+            "label": "6/25",
+            "value": 66.56
           }
         ]
       }
@@ -1469,31 +1503,10 @@
       "relevance": ""
     },
     {
-      "time": "15:00",
-      "org": "허장 재경부 2차관",
-      "attendees": "허장 재경부 2차관",
-      "title": "중동 인프라 실무 TF 겸 해외수주 협의회",
-      "relevance": ""
-    },
-    {
-      "time": "16:00",
-      "org": "구혁채 과기정통부 1차관",
-      "attendees": "구혁채 과기정통부 1차관",
-      "title": "호주대사 면담",
-      "relevance": ""
-    },
-    {
       "time": "시간 미정",
       "org": "여한구 통상교섭본부장",
       "attendees": "여한구 통상교섭본부장",
       "title": "국외출장",
-      "relevance": ""
-    },
-    {
-      "time": "시간 미정",
-      "org": "이두희 국방부 차관",
-      "attendees": "이두희 국방부 차관",
-      "title": "미국 국외출장",
       "relevance": ""
     },
     {
@@ -1505,11 +1518,11 @@
     }
   ],
   "news_trend": {
-    "summary": "△호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △정유·석유화학·LNG 업계 관련 정책·시장 동향 보도",
+    "summary": "△호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각 △이전으로 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각 △수준으로 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
     "trend_paragraphs": [
       "문화일보는 호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각.",
-      "국민일보는 정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명.",
-      "이데일리는 정유·석유화학·LNG 업계 관련 정책·시장 동향 보도."
+      "연합뉴스는 이전으로 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각.",
+      "MBN는 수준으로 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각."
     ],
     "articles": [
       {
@@ -1530,36 +1543,36 @@
         }
       },
       {
-        "title": "전쟁은 가고 숙제만 남았다… 정유·석화, ‘역래깅·구조조정’ 한숨",
-        "press": "국민일보",
-        "press_grade": "B",
-        "url": "https://v.daum.net/v/20260626060416776",
-        "summary": "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
+        "title": "전쟁 이전으로 돌아간 국제유가… 석유 최고가격 하향 전망",
+        "press": "연합뉴스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260626061713931",
+        "summary": "이전으로 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
         "published_at_kst": "",
         "industry_relevance": 4,
-        "score": 10,
+        "score": 14,
         "score_breakdown": {
           "keyword": 5,
-          "title_importance": 2,
-          "press": 2,
-          "originality": 1,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 2,
           "duplicate_or_low_quality": 0
         }
       },
       {
-        "title": "호르무즈 화물선 피격, 美 \"배후는 이란\"…MOU 이행 불투명",
-        "press": "이데일리",
-        "press_grade": "A",
-        "url": "https://v.daum.net/v/20260626075451565",
-        "summary": "정유·석유화학·LNG 업계 관련 정책·시장 동향 보도",
+        "title": "국제유가 전쟁 전 수준으로 뚝…국내 기름값은 '여전히 2천 원' 언제까지?",
+        "press": "MBN",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260625201202497",
+        "summary": "수준으로 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
         "published_at_kst": "",
         "industry_relevance": 4,
-        "score": 10,
+        "score": 11,
         "score_breakdown": {
           "keyword": 5,
           "title_importance": 2,
-          "press": 3,
-          "originality": 0,
+          "press": 2,
+          "originality": 2,
           "duplicate_or_low_quality": 0
         }
       }
@@ -1578,7 +1591,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(4/25~6/25)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1599,6 +1613,11 @@
       {
         "name": "대표 기사 원문",
         "type": "news",
+        "url": ""
+      },
+      {
+        "name": "장기 가격 이력 history.json",
+        "type": "price-history",
         "url": ""
       },
       {
@@ -1659,12 +1678,12 @@
       "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243751",
       "today_source_published_at": "2026-06-26",
       "today_source_schedule_candidate_count": 97,
-      "today_parsed_schedule_count": 10,
+      "today_parsed_schedule_count": 7,
       "previous_source_file_date": "2026-06-25",
       "previous_source_title": "[주요일정·25일] 행안부 킨텍스서 어린이 안전박람회 개최",
       "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243712",
       "previous_source_schedule_candidate_count": 105,
-      "previous_parsed_schedule_count": 12,
+      "previous_parsed_schedule_count": 11,
       "parser_version": "build_report_draft_from_schedule.py v2.4-schedule-repair",
       "needs_review": true
     },
@@ -1691,9 +1710,81 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-06-29 21:48:45 KST",
+      "merged_at": "2026-07-16 07:49:44 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-06-26.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△휘발유 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각 △이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각 △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+    "trend_paragraphs": [
+      "KBS는 휘발유 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각.",
+      "중앙일보는 이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각.",
+      "뉴시스는 호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각."
+    ],
+    "articles": [
+      {
+        "title": "강원, 휘발유 1리터 2,016원…경유 2,008원",
+        "press": "KBS",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260626152821827",
+        "summary": "휘발유 관련 이슈가 정유·석유화학·LNG 업계 정책·시장 동향으로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 7,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 0,
+          "press": 2,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "“걸프 원유 수출, 전쟁 이전 75% 수준 회복”",
+        "press": "중앙일보",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260626163451557",
+        "summary": "이란 원유 판매·수출 제재 완화 가능성이 국제 원유 공급 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "이란 외무 \"오만과 호르무즈 미래 관리 방안 논의할 것\"",
+        "press": "뉴시스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260626165014034",
+        "summary": "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
