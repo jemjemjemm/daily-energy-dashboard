@@ -20,6 +20,10 @@
       "text": "금일 주요 일정: AI 토론회, AM·드론박람회, UAM·드론박람회, 재경부·예산처·금융위 업무보고."
     },
     {
+      "type": "news_trend",
+      "text": "(Morning) △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각"
+    },
+    {
       "type": "news_trend_afternoon",
       "text": "(Evening) △정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △나프타 수급 여건 변화가 석유화학 원료 조달과 제품 마진 변수로 부각 △주유소 업계의 비용 부담과 영업환경 변화가 정책 현안으로 부각"
     }
@@ -1429,8 +1433,68 @@
     }
   ],
   "news_trend": {
-    "summary": "",
-    "articles": []
+    "summary": "△정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명 △호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+    "trend_paragraphs": [
+      "아시아경제는 정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명.",
+      "중앙일보는 호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각.",
+      "중앙일보는 호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각."
+    ],
+    "articles": [
+      {
+        "title": "유가 다시 뛰는데 2분기 실적 ‘주춤’…정유사, 하반기 반전 노린다",
+        "press": "아시아경제",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260715074849087",
+        "summary": "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "또 닫히는 호르무즈…국제유가 10% 수직상승",
+        "press": "중앙일보",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260715002746894",
+        "summary": "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      },
+      {
+        "title": "“풀리나 했더니 또” 호르무즈 재봉쇄에 정유업계 긴장…“9월부터는 위험”",
+        "press": "중앙일보",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260714172237147",
+        "summary": "호르무즈 해협 통항·봉쇄 리스크가 원유와 나프타 수급 안정성의 핵심 변수로 부각",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        }
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "morning"
   },
   "quality_control": {
     "quality_notes": [
@@ -1558,6 +1622,14 @@
       "merged_at": "2026-07-15 17:55:10 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news": {
+      "source_file": "data\\news\\2026-07-15.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "morning"
     }
   },
   "news_trend_afternoon": {

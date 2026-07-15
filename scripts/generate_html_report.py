@@ -915,6 +915,8 @@ SCHEDULE_DETAIL_SCRIPT = r"""
 
   function openModal(src){
     if(!src) return;
+    var separator = src.indexOf('?') >= 0 ? '&' : '?';
+    var freshSrc = src + separator + '_=' + Date.now();
     hideFallback();
     previousOverflow = document.body.style.overflow || "";
     document.body.style.overflow = "hidden";
@@ -922,9 +924,9 @@ SCHEDULE_DETAIL_SCRIPT = r"""
     modal.setAttribute('aria-hidden', 'false');
     modal.classList.add('is-open');
     frame.removeAttribute('src');
-    frame.src = src;
+    frame.src = freshSrc;
     if(window.fetch){
-      fetch(src, {method: 'HEAD', cache: 'no-store'}).then(function(response){
+      fetch(freshSrc, {method: 'HEAD', cache: 'no-store'}).then(function(response){
         if(!response.ok) showFallback();
       }).catch(function(){});
     }
