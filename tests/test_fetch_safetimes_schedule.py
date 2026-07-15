@@ -11,6 +11,10 @@ from scripts import fetch_safetimes_schedule as safetimes
 
 
 class SafeTimesScheduleFetchTest(unittest.TestCase):
+    def test_rejects_partial_article_body(self) -> None:
+        self.assertFalse(safetimes.has_complete_schedule_body("photo lead only"))
+        self.assertTrue(safetimes.has_complete_schedule_body("■ 분야별\n[정치]\n대통령 일정"))
+
     def test_schedule_title_accepts_current_and_legacy_names(self) -> None:
         self.assertTrue(safetimes.is_schedule_article_title("[주요일정·29일] 이 대통령, 일정"))
         self.assertTrue(safetimes.is_schedule_article_title("[오늘의 주요일정·29일] 주요 일정"))
@@ -82,7 +86,7 @@ class SafeTimesScheduleFetchTest(unittest.TestCase):
                     "article_title": "[주요일정·1일] 목표 일정",
                     "article_url": candidate["url"],
                     "approved_date": "2026-07-01",
-                    "raw_text": "10:00 산업부 회의",
+                    "raw_text": "\n".join(safetimes.SCHEDULE_SECTION_MARKERS),
                     "full_text": "승인 2026.07.01 07:00",
                 }
             return {
@@ -105,6 +109,48 @@ class SafeTimesScheduleFetchTest(unittest.TestCase):
 
         self.assertEqual(payload["article_url"], "https://www.safetimes.co.kr/news/articleView.html?idxno=98")
         self.assertEqual(payload["category"], "주요일정")
+
+    def test_nearby_article_ids_scans_newer_articles_before_older_ones(self) -> None:
+        self.assertEqual(
+            safetimes.nearby_article_ids(100, 3),
+            [100, 101, 99, 102, 98, 103, 97],
+        )
+
+    def test_collect_finds_newer_article_when_search_index_lags(self) -> None:
+        candidates = [
+            {"title": "[주요일정·10일] 이전 일정", "url": "https://example.test/news/articleView.html?idxno=100"},
+        ]
+
+        def fake_parse(candidate: dict[str, str]) -> dict[str, str]:
+            idx = safetimes.article_idx_from_url(candidate["url"])
+            if idx == 102:
+                return {
+                    "title": "[오늘의 주요일정·13일] 목표 일정",
+                    "article_title": "[오늘의 주요일정·13일] 목표 일정",
+                    "article_url": candidate["url"],
+                    "approved_date": "2026-07-13",
+                    "raw_text": "\n".join(safetimes.SCHEDULE_SECTION_MARKERS),
+                    "full_text": "승인 2026.07.13 07:00",
+                }
+            return {
+                "title": "[일반기사] 다른 기사",
+                "article_title": "[일반기사] 다른 기사",
+                "article_url": candidate["url"],
+                "approved_date": "2026-07-10",
+                "raw_text": "본문",
+                "full_text": "승인 2026.07.10 07:00",
+            }
+
+        with (
+            patch.object(safetimes, "KNOWN_IDX_BY_DATE", {}),
+            patch.object(safetimes, "NEARBY_ARTICLE_SCAN_LIMIT", 3),
+            patch.object(safetimes, "collect_search_candidates", return_value=candidates),
+            patch.object(safetimes, "parse_article_candidate", side_effect=fake_parse),
+            patch.object(safetimes.time, "sleep", return_value=None),
+        ):
+            payload = safetimes.collect("2026-07-13", max_pages=8)
+
+        self.assertEqual(payload["article_url"], "https://www.safetimes.co.kr/news/articleView.html?idxno=102")
 
 
 if __name__ == "__main__":

@@ -58,6 +58,10 @@ KNOWN_IDX_BY_DATE = {
     "2026-06-18": 243563,
     "2026-06-26": 243751,
     "2026-07-06": 243961,
+    # Search results can lag behind newly published schedule articles.  Keep
+    # verified recovery anchors for reports that have already been published.
+    "2026-07-13": 244146,
+    "2026-07-15": 244227,
 }
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -66,6 +70,7 @@ USER_AGENT = (
 SCHEDULE_SEARCH_TERMS = ("주요일정", "오늘의 주요일정")
 EMPTY_SEARCH_PAGE_LIMIT = 12
 NEARBY_ARTICLE_SCAN_LIMIT = 450
+SCHEDULE_SECTION_MARKERS = ("■ 분야별", "[정치]")
 
 
 class SafeTimesError(RuntimeError):
@@ -111,7 +116,7 @@ def read_existing_valid(path: Path) -> Optional[Dict[str, Any]]:
         return None
     if data.get("success") is False:
         return None
-    if data.get("article_url") and (data.get("items") or data.get("raw_text")):
+    if data.get("article_url") and has_complete_schedule_body(data.get("raw_text") or data.get("body") or ""):
         return data
     return None
 
@@ -131,6 +136,15 @@ def fetch(url: str, params: Optional[Dict[str, Any]] = None) -> str:
 
 def normalize_text(value: str) -> str:
     return re.sub(r"\s+", " ", value or "").strip()
+
+
+def has_complete_schedule_body(raw_text: str) -> bool:
+    """Return whether SafeTimes returned the actual major-schedule sections.
+
+    A title/photo-lead-only response looks like a successful fetch but renders
+    empty president and prime-minister blocks.  Do not publish such a payload.
+    """
+    return all(marker in (raw_text or "") for marker in SCHEDULE_SECTION_MARKERS)
 
 
 def compact_title(value: str) -> str:
@@ -326,6 +340,22 @@ def article_matches_target(article: Dict[str, Any], target_date: str) -> bool:
     return dotted in full_text or dashed in full_text
 
 
+def nearby_article_ids(base_idx: int, limit: int) -> List[int]:
+    """Return a bidirectional, nearest-first scan order around an article id.
+
+    SafeTimes search results are eventually consistent: immediately after a
+    morning article is published, the newest indexed result may still be from
+    the previous workday.  The old fallback looked only backwards, which made
+    it impossible to find a newly assigned (larger) article id.
+    """
+    ids = [base_idx]
+    for offset in range(1, limit + 1):
+        ids.append(base_idx + offset)
+        if base_idx - offset > 0:
+            ids.append(base_idx - offset)
+    return ids
+
+
 def find_article_by_nearby_ids(candidates: List[Dict[str, str]], target_date: str) -> Optional[Dict[str, Any]]:
     base_ids = sorted(
         {idx for idx in (article_idx_from_url(candidate.get("url", "")) for candidate in candidates) if idx},
@@ -336,9 +366,8 @@ def find_article_by_nearby_ids(candidates: List[Dict[str, str]], target_date: st
 
     seen: set[int] = set()
     for base_idx in base_ids:
-        for offset in range(0, NEARBY_ARTICLE_SCAN_LIMIT + 1):
-            idx = base_idx - offset
-            if idx <= 0 or idx in seen:
+        for idx in nearby_article_ids(base_idx, NEARBY_ARTICLE_SCAN_LIMIT):
+            if idx in seen:
                 continue
             seen.add(idx)
             try:
@@ -407,6 +436,12 @@ def collect(target_date: str, max_pages: int) -> Dict[str, Any]:
             article = find_article_by_nearby_ids(candidates, target_date)
         if article is None:
             raise SafeTimesError(f"주요일정 대상 기사를 찾지 못했습니다. target={target_date}")
+
+    if not has_complete_schedule_body(article["raw_text"]):
+        raise SafeTimesError(
+            "세이프타임즈가 주요일정 본문을 완전하게 반환하지 않았습니다 "
+            "(분야별/정치 섹션 누락). 빈 일정으로 발간하지 않습니다."
+        )
 
     items = extract_items(article["raw_text"])
 
