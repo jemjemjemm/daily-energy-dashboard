@@ -46,11 +46,38 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
+      - name: Normalize and validate date inputs
+        env:
+          RAW_DATE_FROM: ${{ github.event.inputs.date_from }}
+          RAW_DATE_TO: ${{ github.event.inputs.date_to }}
+        run: |
+          python - <<'PY'
+          import datetime as dt
+          import os
+          import re
+
+          def normalize(name):
+              raw = os.environ[name]
+              value = re.sub(r"[+\s./]+", "-", raw.strip())
+              try:
+                  return dt.date.fromisoformat(value).isoformat()
+              except ValueError:
+                  raise SystemExit(f"ERROR: {name} must be YYYY-MM-DD; received: {raw!r}")
+
+          date_from = normalize("RAW_DATE_FROM")
+          date_to = normalize("RAW_DATE_TO")
+          if date_from > date_to:
+              raise SystemExit("ERROR: date_from must be earlier than or equal to date_to")
+          with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as env_file:
+              env_file.write(f"DATE_FROM={date_from}\nDATE_TO={date_to}\n")
+          print(f"[OK] normalized range: {date_from}..{date_to}")
+          PY
+
       - name: Generate weekday reports for range
         run: |
           python scripts/generate_reports_range.py \
-            --start "${{ github.event.inputs.date_from }}" \
-            --end "${{ github.event.inputs.date_to }}" \
+            --start "$DATE_FROM" \
+            --end "$DATE_TO" \
             --skip-weekends \
             --skip-korean-holidays \
             --report-dir data/reports \
@@ -66,8 +93,8 @@ jobs:
       - name: Validate report source separation
         run: |
           python scripts/validate_report_sources.py \
-            --start "${{ github.event.inputs.date_from }}" \
-            --end "${{ github.event.inputs.date_to }}" \
+            --start "$DATE_FROM" \
+            --end "$DATE_TO" \
             --report-dir data/reports
 
       - name: Sync docs reports to public

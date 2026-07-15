@@ -18,9 +18,10 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 # 2026년 한국 공휴일/휴무일 중 대시보드 평일 백필에서 제외할 날짜
@@ -55,6 +56,15 @@ def parse_args():
     parser.add_argument("--max-pages", default="12")
     parser.add_argument("--assembly-dir", default="data/assembly")
     return parser.parse_args()
+
+
+def normalize_date_text(value: str, option_name: str) -> str:
+    """Normalize form-encoded/common date separators to ISO YYYY-MM-DD."""
+    normalized = re.sub(r"[+\s./]+", "-", str(value or "").strip())
+    try:
+        return date.fromisoformat(normalized).isoformat()
+    except ValueError as exc:
+        raise ValueError(f"{option_name}는 YYYY-MM-DD 형식이어야 합니다: {value}") from exc
 
 
 def date_range(start: str, end: str):
@@ -138,7 +148,6 @@ def fetch_schedule(args, date_text: str, schedule_path: str) -> bool:
         "--max-retries", "3",
         "--retry-delay", "20",
         "--max-pages", str(args.max_pages),
-        "--force-refresh",
     ], allow_fail=True)
     if not ok or not valid_schedule_file(schedule_path, date_text):
         print(f"[WARN] 유효한 주요일정 원문을 확보하지 못해 이 날짜만 건너뜁니다: {schedule_path}")
@@ -191,6 +200,8 @@ def normalize_source_metadata(report_path: str, date_text: str, previous_date_te
 
 def main() -> int:
     args = parse_args()
+    args.start = normalize_date_text(args.start, "--start")
+    args.end = normalize_date_text(args.end, "--end")
 
     required_files = [
         "scripts/fetch_safetimes_schedule.py",

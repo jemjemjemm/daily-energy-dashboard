@@ -5,10 +5,14 @@ from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
 
-from scripts.generate_reports_range import fetch_schedule, valid_schedule_file
+from scripts.generate_reports_range import fetch_schedule, normalize_date_text, valid_schedule_file
 
 
 class SchedulePublicationValidationTests(unittest.TestCase):
+    def test_normalizes_form_encoded_date_separator(self):
+        self.assertEqual(normalize_date_text("2026+07-13", "--start"), "2026-07-13")
+        self.assertEqual(normalize_date_text(" 2026.07.15 ", "--end"), "2026-07-15")
+
     def write_payload(self, directory: str, payload: dict) -> str:
         path = Path(directory) / "schedule.json"
         path.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
