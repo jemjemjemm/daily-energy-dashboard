@@ -358,7 +358,10 @@ def main() -> int:
             "--report-slot", "morning",
             "--out-dir", "data/news",
             "--min-required", "1",
-            "--force-refresh",
+            "--max-items", "12",
+            "--request-timeout-seconds", "6",
+            "--global-timeout-seconds", "120",
+            "--max-queries-per-collector", "8",
         ])
         run([
             sys.executable,
@@ -377,7 +380,10 @@ def main() -> int:
             "--report-slot", "evening",
             "--out-dir", "data/news",
             "--min-required", "1",
-            "--force-refresh",
+            "--max-items", "12",
+            "--request-timeout-seconds", "6",
+            "--global-timeout-seconds", "120",
+            "--max-queries-per-collector", "8",
         ])
         run([
             sys.executable,
