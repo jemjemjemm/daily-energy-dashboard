@@ -4,6 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Daily Issue Dashboard</title>
+  <link rel="stylesheet" href="assets/assembly-calendar.css" />
+  <style>.day{position:relative}</style>
   <style>
     *{box-sizing:border-box}
     body{margin:0;background:#f4f5f7;color:#172033;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',Arial,sans-serif;font-size:14px;line-height:1.55}
@@ -154,7 +156,7 @@
     for(let i=0;i<42;i++){
       const d=new Date(start); d.setDate(start.getDate()+i);
       const key=`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
-      const div=document.createElement('div');
+      const div=document.createElement('div'); div.dataset.date=key;
       div.className='day'+(d.getMonth()===m?' in-month':'')+(state.byDate.has(key)?' has-report':'')+(state.selected===key?' selected':'')+(todayKey===key?' today':'');
       div.textContent=d.getDate();
       if(state.byDate.has(key)) div.addEventListener('click',()=>selectReport(key, { scrollToReport:true }));
@@ -270,5 +272,6 @@
   init();
 })();
 </script>
+<script src="assets/assembly-calendar.js"></script>
 </body>
 </html>
