@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 from datetime import datetime, timedelta
@@ -52,6 +53,7 @@ def parse_args():
     parser.add_argument("--base-report", default="report_sample.json")
     parser.add_argument("--chart-months", default="2")
     parser.add_argument("--max-pages", default="12")
+    parser.add_argument("--assembly-dir", default="data/assembly")
     return parser.parse_args()
 
 
@@ -119,14 +121,14 @@ def valid_schedule_file(path: str, expected_date: str) -> bool:
     return True
 
 
-def fetch_schedule(args, date_text: str, schedule_path: str) -> None:
-    """Refresh invalid placeholders and stop publication if collection still fails."""
+def fetch_schedule(args, date_text: str, schedule_path: str) -> bool:
+    """Return whether a valid source exists; never remove an existing schedule/report."""
     if valid_schedule_file(schedule_path, date_text):
         print(f"[OK] 기존 유효 세이프타임즈 일정 JSON 사용: {schedule_path}")
-        return
+        return True
 
     if file_exists(schedule_path):
-        print(f"[WARN] 출처 URL/본문이 없는 일정 JSON을 폐기하고 재수집: {schedule_path}")
+        print(f"[WARN] 기존 일정 JSON이 유효하지 않아 원본은 보존한 채 재수집을 시도합니다: {schedule_path}")
 
     ok = run([
         sys.executable,
@@ -139,9 +141,9 @@ def fetch_schedule(args, date_text: str, schedule_path: str) -> None:
         "--force-refresh",
     ], allow_fail=True)
     if not ok or not valid_schedule_file(schedule_path, date_text):
-        raise RuntimeError(
-            f"유효한 주요일정 원문을 확보하지 못해 발행을 중단합니다: {schedule_path}"
-        )
+        print(f"[WARN] 유효한 주요일정 원문을 확보하지 못해 이 날짜만 건너뜁니다: {schedule_path}")
+        return False
+    return True
 
 
 
@@ -209,6 +211,19 @@ def main() -> int:
 
     generated_dates = []
 
+    # 국회 일정은 월 필터 API를 월별 한 번만 호출하고, 기존 월 캐시가 있으면 재사용한다.
+    # 인증키/API 장애는 에너지 리포트 생성 실패로 전파하지 않는다.
+    if os.environ.get("ASSEMBLY_API_KEY", "").strip() and Path("scripts/fetch_assembly_schedule.py").exists():
+        run([
+            sys.executable,
+            "scripts/fetch_assembly_schedule.py",
+            "--start", args.start,
+            "--end", args.end,
+            "--out-dir", args.assembly_dir,
+        ], allow_fail=True)
+    else:
+        print("[INFO] 국회 API 키가 없거나 수집기가 없어 기존 월 캐시만 사용합니다.")
+
     for d in date_range(args.start, args.end):
         date_text = d.isoformat()
 
@@ -220,7 +235,6 @@ def main() -> int:
             print(f"[SKIP] 공휴일/휴무일 제외: {date_text}")
             continue
 
-        generated_dates.append(date_text)
         previous_d = previous_report_workday(d, skip_weekends=args.skip_weekends, skip_holidays=args.skip_korean_holidays)
         previous_date_text = previous_d.isoformat()
 
@@ -232,20 +246,18 @@ def main() -> int:
         report_path = f"{args.report_dir}/{date_text}.report.json"
 
         # 1. 세이프타임즈 일정 수집. 실패해도 전체 백필은 멈추지 않음.
-        fetch_schedule(args, date_text, schedule_path)
+        if not fetch_schedule(args, date_text, schedule_path):
+            print(f"[SKIP] 기존 리포트/HTML을 변경하지 않고 다음 날짜로 진행: {date_text}")
+            continue
 
         # 1-1. 기준일 전일/직전 영업일 일정도 별도로 수집한다.
         # 주요 이해관계자 동향/이슈는 이 파일을 기준으로 만들며, 금일 일정과 절대 같은 데이터를 복사하지 않는다.
         fetch_schedule(args, previous_date_text, previous_schedule_path)
 
         # 2. 일정 JSON이 있으면 일정 기반 리포트 재생성.
-        # 기존 fallback/빈 리포트를 실제 일정 기반 리포트로 교체하기 위해 report_path를 삭제 후 생성.
+        # 기존 정상 리포트는 삭제하지 않는다. 있으면 일정 영역만 패치해 뉴스/가격을 보존한다.
         if valid_schedule_file(schedule_path, date_text):
-            if file_exists(report_path):
-                Path(report_path).unlink()
-                print(f"[INFO] 기존 리포트 JSON 삭제 후 일정 기반으로 재생성: {report_path}")
-
-            run([
+            build_cmd = [
                 sys.executable,
                 "scripts/build_report_draft_from_schedule.py",
                 "--date", date_text,
@@ -254,10 +266,14 @@ def main() -> int:
                 "--previous-schedule-dir", args.schedule_dir,
                 "--base-report", args.base_report,
                 "--out-dir", args.report_dir,
-            ])
+            ]
+            if file_exists(report_path):
+                build_cmd.append("--patch-existing")
+            run(build_cmd)
             normalize_source_metadata(report_path, date_text, previous_date_text, schedule_path, previous_schedule_path)
         else:
-            raise RuntimeError(f"기준일 일정 JSON이 없어 유효한 리포트를 생성할 수 없습니다: {schedule_path}")
+            print(f"[SKIP] 기준일 일정 JSON이 없어 기존 산출물을 보존합니다: {schedule_path}")
+            continue
 
         # 3. 리포트가 없거나 빈/fallback이면 보강.
         run([
@@ -343,7 +359,9 @@ def main() -> int:
             "--date", date_text,
             "--report-dir", args.report_dir,
             "--out-dir", args.html_dir,
+            "--assembly-dir", args.assembly_dir,
         ])
+        generated_dates.append(date_text)
 
     # 7. 캘린더용 index 갱신.
     run([

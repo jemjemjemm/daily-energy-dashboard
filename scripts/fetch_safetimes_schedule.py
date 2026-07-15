@@ -70,7 +70,11 @@ USER_AGENT = (
 SCHEDULE_SEARCH_TERMS = ("주요일정", "오늘의 주요일정")
 EMPTY_SEARCH_PAGE_LIMIT = 12
 NEARBY_ARTICLE_SCAN_LIMIT = 450
-SCHEDULE_SECTION_MARKERS = ("■ 분야별", "[정치]")
+SCHEDULE_SECTION_MARKERS = (
+    "[정치]", "[경제]", "[산업]", "[소비자경제]", "[테크]",
+    "[사회]", "[정책사회]", "[국제]", "[문화]",
+)
+HTTP_SESSION = requests.Session()
 
 
 class SafeTimesError(RuntimeError):
@@ -127,7 +131,7 @@ def fetch(url: str, params: Optional[Dict[str, Any]] = None) -> str:
         "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
         "Referer": BASE_URL,
     }
-    resp = requests.get(url, params=params, headers=headers, timeout=30)
+    resp = HTTP_SESSION.get(url, params=params, headers=headers, timeout=30)
     resp.raise_for_status()
     if resp.apparent_encoding:
         resp.encoding = resp.apparent_encoding
@@ -144,7 +148,9 @@ def has_complete_schedule_body(raw_text: str) -> bool:
     A title/photo-lead-only response looks like a successful fetch but renders
     empty president and prime-minister blocks.  Do not publish such a payload.
     """
-    return all(marker in (raw_text or "") for marker in SCHEDULE_SECTION_MARKERS)
+    text = raw_text or ""
+    section_count = sum(marker in text for marker in SCHEDULE_SECTION_MARKERS)
+    return len(text) >= 300 and "■ 분야별" in text and section_count >= 2
 
 
 def compact_title(value: str) -> str:
@@ -207,26 +213,37 @@ def parse_approved_date_from_text(text: str) -> str:
 
 
 def collect_search_candidates(max_pages: int) -> List[Dict[str, str]]:
+    """Collect article links that can anchor schedule discovery.
+
+    SafeTimes currently sometimes ignores ``sc_word`` and ``page`` and serves
+    the same unfiltered first page.  Keeping every article link gives the
+    nearby-id recovery path a current article number even in that state.
+    Repeated non-empty pages are detected so Actions does not request the same
+    page dozens of times.
+    """
     candidates: List[Dict[str, str]] = []
     seen = set()
 
     for search_term in SCHEDULE_SEARCH_TERMS:
         consecutive_empty_pages = 0
+        nonempty_page_signatures: set[tuple[str, ...]] = set()
         for page in range(1, max_pages + 1):
             html = fetch(SEARCH_URL, params={"page": page, "sc_word": search_term})
             soup = BeautifulSoup(html, "html.parser")
             page_added = 0
+            page_urls: List[str] = []
 
             for a in soup.find_all("a", href=True):
                 title = normalize_text(a.get_text(" ", strip=True))
                 href = a.get("href", "")
 
-                if not is_schedule_article_title(title):
-                    continue
                 if "articleView" not in href:
                     continue
 
                 url = urljoin(BASE_URL, href)
+                if article_idx_from_url(url) is None:
+                    continue
+                page_urls.append(url)
                 key = url
                 if key in seen:
                     continue
@@ -234,6 +251,12 @@ def collect_search_candidates(max_pages: int) -> List[Dict[str, str]]:
 
                 candidates.append({"title": title, "url": url, "search_term": search_term})
                 page_added += 1
+
+            signature = tuple(sorted(set(page_urls)))
+            if signature and signature in nonempty_page_signatures:
+                break
+            if signature:
+                nonempty_page_signatures.add(signature)
 
             if page_added == 0:
                 consecutive_empty_pages += 1
@@ -254,11 +277,14 @@ def parse_article_candidate(article: Dict[str, str]) -> Dict[str, Any]:
     soup = BeautifulSoup(html, "html.parser")
     text_all = soup.get_text("\n", strip=True)
 
+    heading = soup.select_one(".heading")
+    meta_title = soup.select_one("meta[property='og:title'], meta[name='title']")
     h1 = soup.find("h1")
-    title = normalize_text(h1.get_text(" ", strip=True)) if h1 else article["title"]
-    if not title:
-        meta_title = soup.select_one("meta[property='og:title'], meta[name='title']")
-        title = normalize_text(meta_title.get("content", "")) if meta_title else ""
+    title = normalize_text(heading.get_text(" ", strip=True)) if heading else ""
+    if not title and meta_title:
+        title = normalize_text(meta_title.get("content", ""))
+    if not title and h1:
+        title = normalize_text(h1.get_text(" ", strip=True))
     if not title:
         title = article["title"]
 
@@ -280,7 +306,7 @@ def parse_article_candidate(article: Dict[str, str]) -> Dict[str, Any]:
 
     return {
         "title": title,
-        "article_title": article["title"],
+        "article_title": title,
         "article_url": article["url"],
         "approved_date": approved_date,
         "raw_text": raw_text,
@@ -294,8 +320,11 @@ def select_article_for_date(candidates: List[Dict[str, str]], target_date: str) 
 
     day_matched = [
         cand for cand in candidates
-        if title_matches_target_day(cand["title"], target)
-        or any(pattern in cand["title"] for pattern in patterns)
+        if is_schedule_article_title(cand["title"])
+        and (
+            title_matches_target_day(cand["title"], target)
+            or any(pattern in cand["title"] for pattern in patterns)
+        )
     ]
 
     parsed: List[Dict[str, Any]] = []
@@ -429,7 +458,7 @@ def collect(target_date: str, max_pages: int) -> Dict[str, Any]:
     if article is None:
         candidates = collect_search_candidates(max_pages=max_pages)
         if not candidates:
-            raise SafeTimesError("주요일정 후보 기사를 찾지 못했습니다.")
+            raise SafeTimesError("세이프타임즈 기사 목록에서 복구 기준점을 찾지 못했습니다.")
         try:
             article = select_article_for_date(candidates, target_date)
         except SafeTimesError:
@@ -440,7 +469,7 @@ def collect(target_date: str, max_pages: int) -> Dict[str, Any]:
     if not has_complete_schedule_body(article["raw_text"]):
         raise SafeTimesError(
             "세이프타임즈가 주요일정 본문을 완전하게 반환하지 않았습니다 "
-            "(분야별/정치 섹션 누락). 빈 일정으로 발간하지 않습니다."
+            "(분야별 세부 섹션 부족). 빈 일정으로 발간하지 않습니다."
         )
 
     items = extract_items(article["raw_text"])
@@ -473,9 +502,11 @@ def collect(target_date: str, max_pages: int) -> Dict[str, Any]:
 def main() -> int:
     args = parse_args()
     output_path = Path(args.out_dir) / f"{args.date}.json"
+    error_path = Path(args.out_dir) / f"{args.date}.error.json"
 
     existing = read_existing_valid(output_path)
     if existing and not args.force_refresh:
+        error_path.unlink(missing_ok=True)
         print(f"[OK] 기존 세이프타임즈 일정 JSON 재사용: {output_path}")
         return 0
 
@@ -485,6 +516,7 @@ def main() -> int:
             print(f"[INFO] 세이프타임즈 수집 시도 {attempt}/{args.max_retries}: {args.date}")
             payload = collect(args.date, max_pages=args.max_pages)
             atomic_write_json(output_path, payload)
+            error_path.unlink(missing_ok=True)
             print(f"[OK] 세이프타임즈 일정 저장 완료: {output_path}")
             print(f"[OK] 기사: {payload.get('article_title')} / {payload.get('article_url')}")
             return 0
@@ -494,7 +526,6 @@ def main() -> int:
             if attempt < args.max_retries:
                 time.sleep(max(0, args.retry_delay))
 
-    error_path = Path(args.out_dir) / f"{args.date}.error.json"
     atomic_write_json(error_path, {
         "schema_version": "2.0",
         "source": "세이프타임즈",

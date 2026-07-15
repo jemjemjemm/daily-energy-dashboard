@@ -50,6 +50,7 @@ jobs:
     env:
       TZ: Asia/Seoul
       OPINET_API_KEY: ${{ secrets.OPINET_API_KEY }}
+      ASSEMBLY_API_KEY: ${{ secrets.ASSEMBLY_API_KEY }}
       # 대표 기사 요약을 Claude API로 보강할 때 사용합니다. secret이 없으면
       # scripts/llm_article_summary.py가 자동으로 no-op 처리되어 기존 규칙
       # 기반 요약으로만 동작하므로, 이 secret이 없어도 파이프라인은 실패하지 않습니다.
@@ -76,6 +77,7 @@ jobs:
       - name: Check required files
         run: |
           test -f scripts/fetch_safetimes_schedule.py || (echo "ERROR: scripts/fetch_safetimes_schedule.py 파일이 없습니다." && exit 1)
+          test -f scripts/fetch_assembly_schedule.py || (echo "ERROR: scripts/fetch_assembly_schedule.py 파일이 없습니다." && exit 1)
           test -f scripts/build_report_draft_from_schedule.py || (echo "ERROR: scripts/build_report_draft_from_schedule.py 파일이 없습니다." && exit 1)
           test -f scripts/fetch_opinet_international_prices.py || (echo "ERROR: scripts/fetch_opinet_international_prices.py 파일이 없습니다." && exit 1)
           test -f scripts/merge_prices_into_report.py || (echo "ERROR: scripts/merge_prices_into_report.py 파일이 없습니다." && exit 1)
@@ -271,8 +273,7 @@ jobs:
             --out-dir data/schedules \
             --max-retries 3 \
             --retry-delay 20 \
-            --max-pages 80 \
-            --force-refresh
+            --max-pages 80
 
       - name: Try Fetch previous SafeTimes schedule
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.REPORT_SLOT == 'morning'
@@ -283,6 +284,16 @@ jobs:
             --max-retries 3 \
             --retry-delay 20 \
             --max-pages 80
+
+      - name: Fetch National Assembly schedule
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.REPORT_SLOT == 'morning'
+        continue-on-error: true
+        run: |
+          if [ -z "${ASSEMBLY_API_KEY:-}" ]; then
+            echo "[INFO] ASSEMBLY_API_KEY가 없어 국회 일정 수집을 건너뜁니다."
+          else
+            python scripts/fetch_assembly_schedule.py --date "$TARGET_DATE"
+          fi
 
       - name: Validate SafeTimes schedule sources
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
@@ -463,15 +474,18 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add data/schedules/ || true
+          git add data/assembly/ || true
           git add data/reports/ || true
           git add data/prices/ || true
           git add data/news/ || true
           git add data/run_status/ || true
           git add docs/index.html || true
+          git add docs/assembly/ docs/assembly-schedule-index.json docs/assets/ || true
           git add docs/reports/ || true
           git add docs/schedules/ || true
           git add docs/report-index.json || true
           git add public/index.html || true
+          git add public/assembly/ public/assembly-schedule-index.json public/assets/ || true
           git add public/reports/ || true
           git add public/schedules/ || true
           git add public/report-index.json || true

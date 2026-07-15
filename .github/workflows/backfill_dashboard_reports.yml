@@ -26,6 +26,7 @@ jobs:
       TZ: Asia/Seoul
       OPINET_API_KEY: ${{ secrets.OPINET_API_KEY }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ASSEMBLY_API_KEY: ${{ secrets.ASSEMBLY_API_KEY }}
 
     steps:
       - name: Checkout
@@ -89,7 +90,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/schedules/ data/reports/ data/news/ data/prices/ docs/reports/ docs/report-index.json public/reports/ public/report-index.json || true
+          git add data/schedules/ data/reports/ data/news/ data/prices/ data/assembly/ docs/assembly/ docs/assembly-schedule-index.json docs/reports/ docs/report-index.json public/assembly/ public/assembly-schedule-index.json public/reports/ public/report-index.json || true
 
           if git diff --cached --quiet; then
             echo "변경된 파일이 없습니다."
