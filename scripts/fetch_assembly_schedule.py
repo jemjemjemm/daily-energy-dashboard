@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import tempfile
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -44,8 +45,9 @@ def parse_args() -> argparse.Namespace:
 
 
 def parse_date(value: str) -> date:
+    normalized = re.sub(r"[+\s./]+", "-", str(value or "").strip())
     try:
-        return date.fromisoformat(value)
+        return date.fromisoformat(normalized)
     except ValueError as exc:
         raise AssemblyAPIError(f"날짜는 YYYY-MM-DD 형식이어야 합니다: {value}") from exc
 

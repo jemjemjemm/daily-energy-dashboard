@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 import requests
 
-from scripts.fetch_assembly_schedule import ROW_FIELDS, AssemblyAPIError, decode_response, fetch_month
+from scripts.fetch_assembly_schedule import ROW_FIELDS, AssemblyAPIError, decode_response, fetch_month, parse_date
 
 
 class AssemblyScheduleResponseTest(unittest.TestCase):
@@ -28,17 +28,16 @@ class AssemblyScheduleResponseTest(unittest.TestCase):
         with self.assertRaises(AssemblyAPIError):
             decode_response({"RESULT": {"CODE": "ERROR-300", "MESSAGE": "인증키가 유효하지 않습니다."}})
 
-    def test_dashboard_assets_are_wired_to_date_cells(self) -> None:
+    def test_dashboard_does_not_load_assembly_calendar_decorations(self) -> None:
         for html_path in (Path("public/index.html"), Path("docs/index.html")):
             html = html_path.read_text(encoding="utf-8")
-            self.assertIn("assets/assembly-calendar.css", html)
-            self.assertIn("assets/assembly-calendar.js", html)
+            self.assertNotIn("assets/assembly-calendar.css", html)
+            self.assertNotIn("assets/assembly-calendar.js", html)
             self.assertIn("dataset.date", html)
 
-        script = Path("public/assets/assembly-calendar.js").read_text(encoding="utf-8")
-        self.assertIn("assembly-schedule-index.json", script)
-        self.assertIn("assemblyScheduleModal", script)
-        self.assertIn("event.stopPropagation()", script)
+    def test_form_encoded_date_separator_is_normalized(self) -> None:
+        self.assertEqual(parse_date("2026+07-13").isoformat(), "2026-07-13")
+        self.assertEqual(parse_date("2026 / 07 / 15").isoformat(), "2026-07-15")
 
     def test_generated_schedule_contains_no_api_key_field(self) -> None:
         path = Path("data/assembly/2026-07-15.json")
