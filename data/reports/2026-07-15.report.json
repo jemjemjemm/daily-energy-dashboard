@@ -3,21 +3,21 @@
   "report": {
     "report_date": "2026-07-15",
     "display_date": "2026년 7월 15일 (수)",
-    "previous_day_label": "7/10",
+    "previous_day_label": "7/14",
     "today_label": "7/15",
-    "generated_at": "2026-07-15 17:48 KST",
+    "generated_at": "2026-07-15 18:07 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
     "report_title": "Daily Issue Report",
     "report_badge": "정유 · 석유화학 · LNG",
     "meta_description": "정유·석유화학·LNG 관련 일일 유가 동향 및 주요 이슈 리포트",
-    "previous_source_date": "2026-07-10"
+    "previous_source_date": "2026-07-14"
   },
   "summary": [
     {
       "type": "today",
-      "text": "금일 주요 일정: 산업부, 여한구 산업부 통상교섭본부장."
+      "text": "금일 주요 일정: AI 토론회, AM·드론박람회, UAM·드론박람회, 재경부·예산처·금융위 업무보고."
     },
     {
       "type": "news_trend_afternoon",
@@ -1372,17 +1372,59 @@
   ],
   "schedules": [
     {
-      "time": "시간 미정",
-      "org": "산업",
-      "attendees": "산업",
-      "title": "산업부",
+      "time": "09:00",
+      "org": "김정관 산업통상부 장관",
+      "attendees": "김정관 산업통상부 장관",
+      "title": "AI 토론회",
+      "relevance": ""
+    },
+    {
+      "time": "10:00",
+      "org": "홍지선 국토부 2차관",
+      "attendees": "홍지선 국토부 2차관",
+      "title": "AM·드론박람회",
+      "relevance": ""
+    },
+    {
+      "time": "10:00",
+      "org": "김윤덕 국토부 장관",
+      "attendees": "김윤덕 국토부 장관",
+      "title": "UAM·드론박람회",
+      "relevance": ""
+    },
+    {
+      "time": "10:00",
+      "org": "이재명 대통령",
+      "attendees": "이재명 대통령",
+      "title": "재경부·예산처·금융위 업무보고",
+      "relevance": ""
+    },
+    {
+      "time": "13:30",
+      "org": "배경훈 부총리 겸 과기정통부 장관, 과기부",
+      "attendees": "배경훈 부총리 겸 과기정통부 장관, 과기부",
+      "title": "사우디 통신정보기술부 장관 면담",
+      "relevance": ""
+    },
+    {
+      "time": "14:00",
+      "org": "김성환 기후에너지환경부 장관, 이호현 기후에너지환경부 2차관",
+      "attendees": "김성환 기후에너지환경부 장관, 이호현 기후에너지환경부 2차관",
+      "title": "기후특위 전체회의",
+      "relevance": ""
+    },
+    {
+      "time": "14:30",
+      "org": "이호현 기후에너지환경부 2차관",
+      "attendees": "이호현 기후에너지환경부 2차관",
+      "title": "기후특위 법안소위",
       "relevance": ""
     },
     {
       "time": "시간 미정",
-      "org": "산업",
-      "attendees": "산업",
-      "title": "여한구 산업부 통상교섭본부장",
+      "org": "여한구 통상교섭본부장",
+      "attendees": "여한구 통상교섭본부장",
+      "title": "국외출장",
       "relevance": ""
     }
   ],
@@ -1399,7 +1441,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(5/14~7/14)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1479,14 +1522,14 @@
       "today_source_title": "[오늘의 주요일정·15일] 민주노총, 7·15 총파업대회",
       "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=244227",
       "today_source_published_at": "2026-07-15",
-      "today_source_schedule_candidate_count": 5,
-      "today_parsed_schedule_count": 2,
-      "previous_source_file_date": "2026-07-10",
-      "previous_source_title": "[오늘의 주요일정·10일] '정교유착' 한학자 통일교 총재 결심 공판",
-      "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=244094",
-      "previous_source_schedule_candidate_count": 60,
-      "previous_parsed_schedule_count": 5,
-      "parser_version": "build_report_draft_from_schedule.py v2.3-merged-schedule-attendees",
+      "today_source_schedule_candidate_count": 86,
+      "today_parsed_schedule_count": 8,
+      "previous_source_file_date": "2026-07-14",
+      "previous_source_title": "[오늘의 주요일정·14일] 민선9기 지방자치단체장 재난안전교육",
+      "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=244180",
+      "previous_source_schedule_candidate_count": 95,
+      "previous_parsed_schedule_count": 4,
+      "parser_version": "build_report_draft_from_schedule.py v2.4-schedule-repair",
       "needs_review": true
     },
     "news_afternoon": {

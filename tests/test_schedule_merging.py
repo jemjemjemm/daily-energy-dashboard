@@ -13,7 +13,7 @@ from scripts.build_report_draft_from_schedule import (
     refresh_report_schedule_sections,
     schedule_items_from_json_or_body,
 )
-from scripts.generate_schedule_detail_html import split_actor_event
+from scripts.generate_schedule_detail_html import parse_schedule, split_actor_event
 
 
 class ScheduleMergingTest(unittest.TestCase):
@@ -111,6 +111,25 @@ class ScheduleMergingTest(unittest.TestCase):
         self.assertIn("홈플러스 관련 관계기관 전담반(TF) 회의", titles)
         self.assertNotIn("청년정책 전문가 간담회", titles)
         self.assertNotIn("국외 출장", titles)
+
+    def test_july_15_full_source_keeps_real_events_and_detail_groups(self) -> None:
+        schedule_data = json.loads(Path("data/schedules/2026-07-15.json").read_text(encoding="utf-8"))
+
+        rows = schedule_items_from_json_or_body(schedule_data, max_items=12)
+        titles = {row["title"] for row in rows}
+        self.assertIn("AI 토론회", titles)
+        self.assertIn("UAM·드론박람회", titles)
+        self.assertIn("국외출장", titles)
+        self.assertNotIn("산업부", titles)
+        self.assertFalse(any(row["title"].endswith("통상교섭본부장") for row in rows))
+
+        core, parties, ministers, _fields = parse_schedule(schedule_data)
+        self.assertEqual(len(core["대통령"]), 1)
+        self.assertEqual(len(core["국무총리"]), 1)
+        self.assertGreaterEqual(len(parties["더불어민주당"]), 2)
+        self.assertGreaterEqual(len(parties["국민의힘"]), 3)
+        self.assertGreaterEqual(len(parties["개혁신당"]), 3)
+        self.assertGreaterEqual(sum(len(events) for people in ministers.values() for events in people.values()), 30)
 
 
 if __name__ == "__main__":

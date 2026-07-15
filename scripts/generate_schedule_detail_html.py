@@ -205,7 +205,6 @@ def parse_field_lines(field_lines: list[str]) -> tuple[dict[str, list[dict[str, 
         if line.startswith("▲"):
             subject = clean_bullet(line)
             if current_category == "정치":
-                current_subject = subject
                 if "대통령" in subject:
                     current_bucket = "대통령"
                 elif "국무총리" in subject or subject.endswith("총리"):
@@ -216,6 +215,26 @@ def parse_field_lines(field_lines: list[str]) -> tuple[dict[str, list[dict[str, 
                     current_bucket = "기타 정당"
                 else:
                     current_bucket = ""
+
+                # SafeTimes uses both of these forms for core schedules:
+                #   ▲ 이재명 대통령
+                #   일정명(10:00 장소)
+                # and the inline form:
+                #   ▲ 이재명 대통령, 일정명(10:00 장소)
+                # The latter used to be mistaken for a section header, leaving
+                # the president/prime-minister cards empty.
+                if current_bucket in core:
+                    actor_event = split_top_level_comma(subject)
+                    if actor_event:
+                        actor, event_text = actor_event
+                        item = parse_event_text(event_text)
+                        item["actor"] = actor
+                        core[current_bucket].append(item)
+                        current_subject = actor
+                    else:
+                        current_subject = subject
+                else:
+                    current_subject = subject
                 continue
 
             actor, event_text = split_actor_event(subject)
