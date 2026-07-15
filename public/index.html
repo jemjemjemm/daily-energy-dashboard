@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="format-detection" content="telephone=no" />
   <title>유가 동향 Dashboard</title>
+  <link rel="stylesheet" href="assets/assembly-calendar.css" />
   <style>
     :root {
       --bg:#F4F5F7; --card:#fff; --ink:#172033; --muted:#6B7280; --line:#E5E7EB;
@@ -316,7 +317,7 @@
       for(let i=0;i<42;i++){
         const d=new Date(start); d.setDate(start.getDate()+i);
         const dateText=`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-        const day=document.createElement('button'); day.type='button'; day.className='day';
+        const day=document.createElement('button'); day.type='button'; day.className='day'; day.dataset.date=dateText;
         if(d.getMonth()===month) day.classList.add('in-month');
         if(state.availableDates.has(dateText)) day.classList.add('has-report');
         if(state.selectedDate===dateText) day.classList.add('selected');
@@ -450,5 +451,6 @@
       document.getElementById('updatedAt').textContent='-';
     });
   </script>
+  <script src="assets/assembly-calendar.js"></script>
 </body>
 </html>

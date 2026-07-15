@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.0",
+  "source": "열린국회정보",
+  "api": "ALLSCHEDULE",
+  "date": "2026-07-22",
+  "collectedAt": "2026-07-15T21:49:07+09:00",
+  "count": 2,
+  "apiTotalCount": 2,
+  "fields": [
+    "SCH_KIND",
+    "SCH_CN",
+    "SCH_DT",
+    "SCH_TM",
+    "CONF_DIV",
+    "CMIT_NM",
+    "CONF_SESS",
+    "CONF_DGR",
+    "EV_INST_NM",
+    "EV_PLC"
+  ],
+  "items": [
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "전작권 환수=현(現) 한미염합사 해체, 서두를 일인가?",
+      "SCH_DT": "2026-07-22",
+      "SCH_TM": "09:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "강선영 의원실, 한반도선진화재단 북핵대응연구회",
+      "EV_PLC": "의원회관 제2소회의실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "밀려난 세대, 무엇이 청년을 불안하게 만드는가",
+      "SCH_DT": "2026-07-22",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "이주영 의원실",
+      "EV_PLC": "의원회관 제9간담회의실(212호)"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0",
+  "source": "열린국회정보",
+  "api": "ALLSCHEDULE",
+  "date": "2026-07-21",
+  "collectedAt": "2026-07-15T21:49:07+09:00",
+  "count": 3,
+  "apiTotalCount": 3,
+  "fields": [
+    "SCH_KIND",
+    "SCH_CN",
+    "SCH_DT",
+    "SCH_TM",
+    "CONF_DIV",
+    "CMIT_NM",
+    "CONF_SESS",
+    "CONF_DGR",
+    "EV_INST_NM",
+    "EV_PLC"
+  ],
+  "items": [
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "기본사회위원회 출범 100일! 이재명 정부의 기본사회 실현 추진 방향",
+      "SCH_DT": "2026-07-21",
+      "SCH_TM": "07:30~09:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "박주민 의원실",
+      "EV_PLC": "의원회관 신관 제2세미나실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "제11회(2026) 4차 산업혁명 AI Korea 대전",
+      "SCH_DT": "2026-07-21",
+      "SCH_TM": "14:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "이성권·김종민 의원실, 사단법인 한국언론인협회",
+      "EV_PLC": "의원회관 제2소회의실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "6·3 지방선거 및  이재명 정부 1년 평가와 지역 발전 개혁 과제 토론회",
+      "SCH_DT": "2026-07-21",
+      "SCH_TM": "14:00~17:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "임미애·권향엽·송재봉·이연희·전진숙 의원실, 공감연대, 정책공간 포용과 혁신, 지속가능공동체포럼",
+      "EV_PLC": "의원회관 신관 제3세미나실"
+    }
+  ]
+}

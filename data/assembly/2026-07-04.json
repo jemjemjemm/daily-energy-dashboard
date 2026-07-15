@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.0",
+  "source": "열린국회정보",
+  "api": "ALLSCHEDULE",
+  "date": "2026-07-04",
+  "collectedAt": "2026-07-15T21:49:05+09:00",
+  "count": 2,
+  "apiTotalCount": 2,
+  "fields": [
+    "SCH_KIND",
+    "SCH_CN",
+    "SCH_DT",
+    "SCH_TM",
+    "CONF_DIV",
+    "CMIT_NM",
+    "CONF_SESS",
+    "CONF_DGR",
+    "EV_INST_NM",
+    "EV_PLC"
+  ],
+  "items": [
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "환자의 알 권리 보장과 건전한 의료기관 광고 질서 확립을 위한 국회 토론회",
+      "SCH_DT": "2026-07-04",
+      "SCH_TM": "15:00~17:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "서미화·한지아 의원실, 대한정형외과의사회",
+      "EV_PLC": "의원회관 신관 제2세미나실"
+    },
+    {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": "WSL 서핑대회 / 거북섬 웨이브파크(서퍼스 파라다이스)",
+      "SCH_DT": "2026-07-04",
+      "SCH_TM": "19:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    }
+  ]
+}
