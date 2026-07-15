@@ -5,7 +5,12 @@ from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
 
-from scripts.generate_reports_range import fetch_schedule, normalize_date_text, valid_schedule_file
+from scripts.generate_reports_range import (
+    fetch_schedule,
+    normalize_date_text,
+    valid_schedule_file,
+    write_result_file,
+)
 
 
 class SchedulePublicationValidationTests(unittest.TestCase):
@@ -60,6 +65,24 @@ class SchedulePublicationValidationTests(unittest.TestCase):
                 self.assertFalse(fetch_schedule(args, "2026-07-15", str(path)))
 
             self.assertEqual(path.read_text(encoding="utf-8"), original)
+
+    def test_result_file_records_only_generated_dates_for_validation(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "backfill-results.json"
+            write_result_file(
+                str(path),
+                "2026-05-01",
+                "2026-05-07",
+                ["2026-05-06"],
+                [
+                    {"date": "2026-05-01", "reason": "holiday"},
+                    {"date": "2026-05-04", "reason": "schedule_source_unavailable"},
+                ],
+            )
+
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            self.assertEqual(payload["generated_dates"], ["2026-05-06"])
+            self.assertEqual(payload["skipped_dates"][1]["reason"], "schedule_source_unavailable")
 
 
 if __name__ == "__main__":

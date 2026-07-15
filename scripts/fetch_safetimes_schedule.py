@@ -88,6 +88,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-retries", type=int, default=1)
     parser.add_argument("--retry-delay", type=int, default=10)
     parser.add_argument("--force-refresh", action="store_true", help="기존 JSON이 있어도 재수집")
+    parser.add_argument(
+        "--soft-fail",
+        action="store_true",
+        help="원문을 확보하지 못해도 경고와 error JSON만 남기고 종료 코드는 0으로 반환",
+    )
     parser.add_argument("--max-pages", type=int, default=80, help="세이프타임즈 검색 페이지 탐색 수")
     return parser.parse_args()
 
@@ -535,6 +540,9 @@ def main() -> int:
         "success": False,
         "error": str(last_error) if last_error else "unknown error",
     })
+    if args.soft_fail:
+        print(f"[WARN] 원문 부재 정보 저장(백필 계속): {error_path}")
+        return 0
     print(f"[ERROR] 실패 정보 저장: {error_path}")
     return 1
 
