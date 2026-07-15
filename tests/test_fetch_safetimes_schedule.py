@@ -13,7 +13,24 @@ from scripts import fetch_safetimes_schedule as safetimes
 class SafeTimesScheduleFetchTest(unittest.TestCase):
     def test_rejects_partial_article_body(self) -> None:
         self.assertFalse(safetimes.has_complete_schedule_body("photo lead only"))
-        self.assertTrue(safetimes.has_complete_schedule_body("■ 분야별\n[정치]\n대통령 일정"))
+        complete = "■ 분야별\n[산업]\n산업부 일정\n[국제]\n국제 일정\n" + ("10:00 회의\n" * 50)
+        self.assertTrue(safetimes.has_complete_schedule_body(complete))
+
+    def test_article_parser_prefers_source_heading_over_recovery_placeholder(self) -> None:
+        source_title = "[오늘의 주요일정·14일] 실제 기사 제목"
+        html = f"""
+        <html><head><meta property="og:title" content="{source_title}"></head>
+        <body><h3 class="heading">{source_title}</h3>
+        <div id="article-view-content-div">본문</div><span>승인 2026.07.14 07:00</span></body></html>
+        """
+        with patch.object(safetimes, "fetch", return_value=html):
+            article = safetimes.parse_article_candidate({
+                "title": "주요일정 후보 244180",
+                "url": "https://example.test/news/articleView.html?idxno=244180",
+            })
+
+        self.assertEqual(article["title"], source_title)
+        self.assertEqual(article["article_title"], source_title)
 
     def test_schedule_title_accepts_current_and_legacy_names(self) -> None:
         self.assertTrue(safetimes.is_schedule_article_title("[주요일정·29일] 이 대통령, 일정"))
@@ -73,6 +90,24 @@ class SafeTimesScheduleFetchTest(unittest.TestCase):
         self.assertIn("[주요일정·29일] 최신 일정", titles)
         self.assertIn("[주요일정·26일] 목표 일정", titles)
 
+    def test_collect_search_candidates_keeps_general_article_anchor_and_stops_repeated_page(self) -> None:
+        page_html = '<a href="/news/articleView.html?idxno=244257">일반 최신 기사</a>'
+        calls: list[int] = []
+
+        def fake_fetch(_url: str, params: dict[str, object] | None = None) -> str:
+            calls.append(int((params or {}).get("page", 1)))
+            return page_html
+
+        with (
+            patch.object(safetimes, "SCHEDULE_SEARCH_TERMS", ("주요일정",)),
+            patch.object(safetimes, "fetch", side_effect=fake_fetch),
+            patch.object(safetimes.time, "sleep", return_value=None),
+        ):
+            candidates = safetimes.collect_search_candidates(max_pages=80)
+
+        self.assertEqual([item["title"] for item in candidates], ["일반 최신 기사"])
+        self.assertEqual(calls, [1, 2])
+
     def test_collect_falls_back_to_nearby_article_ids(self) -> None:
         candidates = [
             {"title": "[주요일정·3일] 최신 일정", "url": "https://example.test/news/articleView.html?idxno=100"},
@@ -86,7 +121,7 @@ class SafeTimesScheduleFetchTest(unittest.TestCase):
                     "article_title": "[주요일정·1일] 목표 일정",
                     "article_url": candidate["url"],
                     "approved_date": "2026-07-01",
-                    "raw_text": "\n".join(safetimes.SCHEDULE_SECTION_MARKERS),
+                    "raw_text": "■ 분야별\n[산업]\n[국제]\n" + ("10:00 회의\n" * 50),
                     "full_text": "승인 2026.07.01 07:00",
                 }
             return {
@@ -129,7 +164,7 @@ class SafeTimesScheduleFetchTest(unittest.TestCase):
                     "article_title": "[오늘의 주요일정·13일] 목표 일정",
                     "article_url": candidate["url"],
                     "approved_date": "2026-07-13",
-                    "raw_text": "\n".join(safetimes.SCHEDULE_SECTION_MARKERS),
+                    "raw_text": "■ 분야별\n[산업]\n[국제]\n" + ("10:00 회의\n" * 50),
                     "full_text": "승인 2026.07.13 07:00",
                 }
             return {

@@ -3,11 +3,9 @@ from __future__ import annotations
 import unittest
 import json
 from pathlib import Path
-from datetime import date
-
 import requests
 
-from scripts.fetch_assembly_schedule import ROW_FIELDS, AssemblyAPIError, decode_response, fetch_date
+from scripts.fetch_assembly_schedule import ROW_FIELDS, AssemblyAPIError, decode_response, fetch_month
 
 
 class AssemblyScheduleResponseTest(unittest.TestCase):
@@ -56,7 +54,7 @@ class AssemblyScheduleResponseTest(unittest.TestCase):
                 raise requests.ConnectionError("request URL contained secret-value")
 
         with self.assertRaises(AssemblyAPIError) as caught:
-            fetch_date(FailingSession(), "secret-value", date(2026, 7, 15), 1)
+            fetch_month(FailingSession(), "secret-value", "2026-07", 1)
         self.assertNotIn("secret-value", str(caught.exception))
 
 

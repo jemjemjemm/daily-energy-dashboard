@@ -15,6 +15,7 @@ Render data/reports/YYYY-MM-DD.report.json to docs/reports/YYYY-MM-DD.html.
 from __future__ import annotations
 
 import argparse
+import calendar
 import html
 import json
 import math
@@ -51,6 +52,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--input", help="입력 report JSON 파일")
     parser.add_argument("--output", help="출력 HTML 파일")
     parser.add_argument("--report-slot", choices=["morning", "evening"], default="morning", help="호출한 보고서 슬롯")
+    parser.add_argument("--assembly-dir", default="data/assembly", help="국회 일정 월 캐시/일별 JSON 폴더")
     return parser.parse_args()
 
 
@@ -159,6 +161,109 @@ def schedule_detail_modal() -> str:
     <div class="schedule-detail-topbar"><span>전체 일정</span><button type="button" class="schedule-detail-close" data-schedule-detail-close>닫기</button></div>
     <div class="schedule-detail-fallback" data-schedule-detail-fallback>상세 일정 파일을 찾을 수 없습니다.</div>
     <iframe id="scheduleDetailFrame" class="schedule-detail-frame" title="전체 일정 상세"></iframe>
+  </div>
+</div>
+""".strip()
+
+
+ASSEMBLY_REPORT_STYLE = r"""
+.assembly-report-wrap{border-top:1px solid #E5E7EB;padding:14px 12px 16px;background:#FBFCFE}.assembly-report-heading{font-size:13px;font-weight:800;color:#0A2444;margin-bottom:8px}.assembly-report-table{width:100%;border-collapse:collapse;table-layout:fixed;background:#fff;border:1px solid #E5E7EB}.assembly-report-table th,.assembly-report-table td{padding:7px 6px;border-bottom:1px solid #EEF0F3;text-align:left;vertical-align:top;font-size:11px}.assembly-report-table th{background:#F8FAFC;color:#666}.assembly-report-table th:first-child{width:50px}.assembly-report-table th:nth-child(2){width:82px}.assembly-report-kind{color:#9A3412;font-weight:700}.assembly-report-empty{padding:12px;text-align:center;color:#777;font-size:11px;background:#fff;border:1px solid #E5E7EB}.assembly-report-calendar-title{display:flex;justify-content:space-between;align-items:center;margin:14px 0 7px;font-size:12px;font-weight:800}.assembly-report-weekdays,.assembly-report-days{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}.assembly-report-weekday{text-align:center;color:#7C8799;font-size:10px}.assembly-report-day{position:relative;min-height:38px;border:1px solid #E8EBF0;border-radius:8px;background:#fff;color:#263244;font-size:11px}.assembly-report-day:disabled{color:#C5CAD2;background:#FAFAFB}.assembly-report-day.has-events{cursor:pointer;border-color:#F2C66D;background:#FFF9ED;font-weight:800}.assembly-report-day.is-selected{box-shadow:inset 0 0 0 2px #B45309}.assembly-report-modal{position:fixed;inset:0;z-index:10001;display:none;align-items:center;justify-content:center;padding:10px;background:rgba(10,36,68,.48)}.assembly-report-modal.is-open{display:flex}.assembly-report-panel{width:100%;max-width:430px;max-height:calc(100dvh - 20px);display:flex;flex-direction:column;background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 20px 55px rgba(0,0,0,.28)}.assembly-report-topbar{display:flex;justify-content:space-between;align-items:center;padding:11px 12px;background:#0A2444;color:#fff}.assembly-report-modal-title{font-size:13px;font-weight:800}.assembly-report-close{border:1px solid rgba(255,255,255,.35);border-radius:999px;background:rgba(255,255,255,.12);color:#fff;padding:5px 11px;font-size:11px;font-weight:700}.assembly-report-list{overflow:auto;padding:8px 12px 14px}.assembly-report-item{padding:10px 1px;border-bottom:1px solid #E5E7EB}.assembly-report-item-head{display:flex;align-items:center;gap:6px;margin-bottom:4px}.assembly-report-time{font-size:11px;font-weight:800;color:#185FA5}.assembly-report-chip{border-radius:999px;background:#FFF7ED;color:#9A3412;padding:1px 6px;font-size:9px;font-weight:700}.assembly-report-content{font-size:12px;font-weight:650;line-height:1.5}.assembly-report-meta{font-size:10px;color:#6B7280;margin-top:4px}
+""".strip()
+
+
+def load_assembly_month(assembly_dir: Path, date_text: str) -> dict[str, Any]:
+    month = date_text[:7]
+    cache_path = assembly_dir / "months" / f"{month}.json"
+    try:
+        payload = json.loads(cache_path.read_text(encoding="utf-8"))
+        if payload.get("month") == month and isinstance(payload.get("items"), list):
+            return payload
+    except (OSError, json.JSONDecodeError):
+        pass
+
+    items: list[dict[str, Any]] = []
+    for path in sorted(assembly_dir.glob(f"{month}-??.json")):
+        try:
+            daily = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        items.extend(item for item in daily.get("items", []) if isinstance(item, dict))
+    return {"month": month, "items": items, "count": len(items)}
+
+
+def assembly_item_meta(item: Mapping[str, Any]) -> str:
+    meeting = [item.get("CMIT_NM"), item.get("CONF_DIV"), item.get("CONF_SESS"), item.get("CONF_DGR")]
+    event = [item.get("EV_INST_NM"), item.get("EV_PLC")]
+    values = meeting if any(meeting) else event
+    return " · ".join(clean_text(value) for value in values if clean_text(value))
+
+
+def render_assembly_report(date_text: str, month_payload: Mapping[str, Any]) -> str:
+    items = [item for item in list_of(month_payload.get("items")) if isinstance(item, Mapping)]
+    if not items:
+        return ""
+    by_date: dict[str, list[Mapping[str, Any]]] = {}
+    for item in items:
+        item_date = clean_text(item.get("SCH_DT"))
+        if item_date.startswith(date_text[:7]):
+            by_date.setdefault(item_date, []).append(item)
+
+    meeting_items = [
+        item for item in by_date.get(date_text, [])
+        if "본회의" in clean_text(item.get("SCH_KIND")) or "위원회" in clean_text(item.get("SCH_KIND"))
+    ]
+    rows = []
+    for item in meeting_items:
+        title = clean_text(item.get("SCH_CN")) or "일정 내용 확인 필요"
+        committee = clean_text(item.get("CMIT_NM")) or clean_text(item.get("SCH_KIND")) or "국회"
+        rows.append(
+            f'<tr><td>{esc(item.get("SCH_TM") or "-")}</td><td class="assembly-report-kind">{esc(committee)}</td>'
+            f'<td>{esc(title)}</td></tr>'
+        )
+    table = (
+        '<table class="assembly-report-table"><thead><tr><th>시간</th><th>구분</th><th>일정</th></tr></thead><tbody>'
+        + "".join(rows) + "</tbody></table>"
+        if rows else '<div class="assembly-report-empty">해당 날짜의 본회의·위원회 일정이 없습니다.</div>'
+    )
+
+    target = datetime.strptime(date_text, "%Y-%m-%d").date()
+    weeks = calendar.Calendar(firstweekday=6).monthdatescalendar(target.year, target.month)
+    day_buttons = []
+    for week in weeks:
+        for day in week:
+            key = day.isoformat()
+            count = len(by_date.get(key, []))
+            in_month = day.month == target.month
+            classes = ["assembly-report-day"]
+            if count:
+                classes.append("has-events")
+            if key == date_text:
+                classes.append("is-selected")
+            disabled = "" if in_month and count else " disabled"
+            day_buttons.append(
+                f'<button type="button" class="{" ".join(classes)}" data-assembly-report-date="{key}"{disabled} '
+                f'aria-label="{key} 국회 일정 있음">{day.day}</button>'
+            )
+
+    safe_json = json.dumps(by_date, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    return f"""
+<div class="assembly-report-wrap">
+  <div class="assembly-report-heading">본회의 · 상임위 일정</div>
+  {table}
+  <div class="assembly-report-calendar-title"><span>월간 국회 일정 캘린더</span><span>{target.year}.{target.month:02d}</span></div>
+  <div class="assembly-report-weekdays">{''.join(f'<span class="assembly-report-weekday">{label}</span>' for label in ('일','월','화','수','목','금','토'))}</div>
+  <div class="assembly-report-days">{''.join(day_buttons)}</div>
+  <script type="application/json" id="assemblyReportData">{safe_json}</script>
+</div>
+""".strip()
+
+
+def assembly_report_modal() -> str:
+    return """
+<div id="assemblyReportModal" class="assembly-report-modal" hidden aria-hidden="true">
+  <div class="assembly-report-panel" role="dialog" aria-modal="true" aria-labelledby="assemblyReportModalTitle">
+    <div class="assembly-report-topbar"><span id="assemblyReportModalTitle" class="assembly-report-modal-title">국회 전체 일정</span><button type="button" class="assembly-report-close" data-assembly-report-close>닫기</button></div>
+    <div id="assemblyReportList" class="assembly-report-list"></div>
   </div>
 </div>
 """.strip()
@@ -960,6 +1065,38 @@ SCHEDULE_DETAIL_SCRIPT = r"""
 </script>
 """.strip()
 
+
+ASSEMBLY_REPORT_SCRIPT = r"""
+<script>
+(function(){
+  var modal=document.getElementById('assemblyReportModal');
+  var dataNode=document.getElementById('assemblyReportData');
+  if(!modal||!dataNode) return;
+  var list=modal.querySelector('#assemblyReportList');
+  var title=modal.querySelector('#assemblyReportModalTitle');
+  var closeBtn=modal.querySelector('[data-assembly-report-close]');
+  var lastFocus=null;
+  var schedules={};
+  try{schedules=JSON.parse(dataNode.textContent||'{}');}catch(error){schedules={};}
+  function esc(value){var div=document.createElement('div');div.textContent=String(value||'');return div.innerHTML;}
+  function meta(item){
+    var meeting=[item.CMIT_NM,item.CONF_DIV,item.CONF_SESS,item.CONF_DGR].filter(Boolean);
+    var event=[item.EV_INST_NM,item.EV_PLC].filter(Boolean);
+    return (meeting.length?meeting:event).join(' · ');
+  }
+  function closeModal(){modal.classList.remove('is-open');modal.hidden=true;modal.setAttribute('aria-hidden','true');document.body.style.overflow='';if(lastFocus)lastFocus.focus();}
+  function openModal(date,button){
+    var items=Array.isArray(schedules[date])?schedules[date]:[];lastFocus=button;
+    title.textContent=date+' 국회 전체 일정';
+    list.innerHTML=items.map(function(item){var detail=meta(item);return '<article class="assembly-report-item"><div class="assembly-report-item-head"><span class="assembly-report-time">'+esc(item.SCH_TM||'시간 미정')+'</span><span class="assembly-report-chip">'+esc(item.SCH_KIND||'국회 일정')+'</span></div><div class="assembly-report-content">'+esc(item.SCH_CN||'내용 없음')+'</div>'+(detail?'<div class="assembly-report-meta">'+esc(detail)+'</div>':'')+'</article>';}).join('');
+    modal.hidden=false;modal.classList.add('is-open');modal.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';closeBtn.focus();
+  }
+  document.querySelectorAll('[data-assembly-report-date]').forEach(function(button){button.addEventListener('click',function(){openModal(button.getAttribute('data-assembly-report-date'),button);});});
+  closeBtn.addEventListener('click',closeModal);modal.addEventListener('click',function(event){if(event.target===modal)closeModal();});document.addEventListener('keydown',function(event){if(event.key==='Escape'&&modal.classList.contains('is-open'))closeModal();});
+})();
+</script>
+""".strip()
+
 def resolve_paths(args: argparse.Namespace) -> tuple[Path, Path, str]:
     if args.input:
         input_path = Path(args.input)
@@ -981,7 +1118,7 @@ def atomic_write(path: Path, text: str) -> None:
     tmp_path.replace(path)
 
 
-def render(data: Mapping[str, Any], date_text: str) -> str:
+def render(data: Mapping[str, Any], date_text: str, assembly_month: Mapping[str, Any] | None = None) -> str:
     report = dict_of(data.get("report"))
     badge = clean_text(report.get("report_badge") or "정유 · 석유화학 · LNG")
     today_label = short_date(date_text)
@@ -994,7 +1131,7 @@ def render(data: Mapping[str, Any], date_text: str) -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Daily Issue Report — {esc(date_text.replace('-', '.'))}</title>
-  <style>{STYLE}</style>
+  <style>{STYLE}\n{ASSEMBLY_REPORT_STYLE}</style>
 </head>
 <body>
   <main class="container">
@@ -1008,14 +1145,16 @@ def render(data: Mapping[str, Any], date_text: str) -> str:
     {section(2, "유가 동향", render_price_section(data))}
     {render_chart("원유 가격 추이", crude_series, CRUDE_KEYS)}
     {render_chart("석유제품 가격 추이", product_series, PRODUCT_KEYS, PRODUCT_LABELS)}
-    {section(5, f"금일 주요 일정 ({today_label})", render_schedules(data), action_html=schedule_detail_button(date_text))}
+    {section(5, f"금일 주요 일정 ({today_label})", render_schedules(data) + render_assembly_report(date_text, assembly_month or {}), action_html=schedule_detail_button(date_text))}
     {section(6, f"News Trend - Morning ({morning_news_label})", render_news(data))}
     {section(7, f"News Trend - Evening ({afternoon_news_label})", render_afternoon_news(data))}
     <footer class="footer">SK Innovation Communication Division · {esc(date_text.replace('-', '.'))}</footer>
   </main>
   {schedule_detail_modal()}
+  {assembly_report_modal() if assembly_month and assembly_month.get("items") else ""}
   {TOOLTIP_SCRIPT}
   {SCHEDULE_DETAIL_SCRIPT}
+  {ASSEMBLY_REPORT_SCRIPT if assembly_month and assembly_month.get("items") else ""}
 </body>
 </html>
 """
@@ -1032,7 +1171,8 @@ def main() -> int:
     date_text = get_report_date(data, date_text)
     if not args.output:
         output_path = Path(args.out_dir) / f"{date_text}.html"
-    html_text = render(data, date_text)
+    assembly_month = load_assembly_month(Path(args.assembly_dir), date_text)
+    html_text = render(data, date_text, assembly_month)
     atomic_write(output_path, html_text)
     print(f"[OK] HTML 리포트 생성 완료: {output_path}")
     return 0

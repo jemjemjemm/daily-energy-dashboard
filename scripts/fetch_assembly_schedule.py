@@ -7,7 +7,6 @@ import argparse
 import json
 import os
 import tempfile
-from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -40,7 +39,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--public-index", default="public/assembly-schedule-index.json")
     parser.add_argument("--docs-index", default="docs/assembly-schedule-index.json")
     parser.add_argument("--timeout", type=int, default=30)
-    parser.add_argument("--workers", type=int, default=6, help="기간 수집 동시 요청 수")
+    parser.add_argument("--force-refresh", action="store_true", help="기존 월 캐시 무시")
     return parser.parse_args()
 
 
@@ -104,13 +103,13 @@ def decode_response(payload: dict[str, Any]) -> tuple[int, list[dict[str, Any]]]
     return total, rows
 
 
-def fetch_date(session: requests.Session, api_key: str, target: date, timeout: int) -> dict[str, Any]:
+def fetch_month(session: requests.Session, api_key: str, month: str, timeout: int) -> dict[str, Any]:
     params = {
         "KEY": api_key,
         "Type": "json",
         "pIndex": 1,
         "pSize": 1000,
-        "SCH_DT": target.isoformat(),
+        "SCH_DT": month,
     }
     try:
         response = session.get(API_URL, params=params, timeout=timeout)
@@ -121,16 +120,45 @@ def fetch_date(session: requests.Session, api_key: str, target: date, timeout: i
         # 원래 예외를 연결하거나 출력하지 않는다.
         raise AssemblyAPIError("국회 API 요청 또는 응답 해석에 실패했습니다.") from None
     total, raw_rows = decode_response(response_payload)
+    if total > len(raw_rows):
+        raise AssemblyAPIError(f"월 일정이 API 단일 응답 한도({len(raw_rows)}건)를 초과했습니다.")
     rows = [{field: row.get(field) for field in ROW_FIELDS} for row in raw_rows]
     rows.sort(key=lambda item: (str(item.get("SCH_TM") or "99:99"), str(item.get("SCH_KIND") or ""), str(item.get("SCH_CN") or "")))
     return {
         "schemaVersion": "1.0",
         "source": "열린국회정보",
         "api": API_NAME,
-        "date": target.isoformat(),
+        "month": month,
         "collectedAt": datetime.now(KST).isoformat(timespec="seconds"),
         "count": len(rows),
         "apiTotalCount": total,
+        "fields": list(ROW_FIELDS),
+        "items": rows,
+    }
+
+
+def valid_month_cache(path: Path, month: str) -> dict[str, Any] | None:
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    if payload.get("month") != month or payload.get("api") != API_NAME or not isinstance(payload.get("items"), list):
+        return None
+    return payload
+
+
+def daily_payload(month_payload: dict[str, Any], target: date) -> dict[str, Any]:
+    date_text = target.isoformat()
+    rows = [item for item in month_payload.get("items", []) if item.get("SCH_DT") == date_text]
+    return {
+        "schemaVersion": "1.0",
+        "source": month_payload.get("source", "열린국회정보"),
+        "api": API_NAME,
+        "date": date_text,
+        "monthCache": f"months/{date_text[:7]}.json",
+        "collectedAt": month_payload.get("collectedAt", ""),
+        "count": len(rows),
+        "apiTotalCount": len(rows),
         "fields": list(ROW_FIELDS),
         "items": rows,
     }
@@ -166,15 +194,22 @@ def main() -> int:
 
     dates = requested_dates(args)
     out_dir, public_dir, docs_dir = Path(args.out_dir), Path(args.public_dir), Path(args.docs_dir)
-    def collect_one(target: date) -> tuple[date, dict[str, Any]]:
-        with requests.Session() as session:
-            return target, fetch_date(session, api_key, target, args.timeout)
+    months = sorted({target.strftime("%Y-%m") for target in dates})
+    month_payloads: dict[str, dict[str, Any]] = {}
+    with requests.Session() as session:
+        for month in months:
+            cache_path = out_dir / "months" / f"{month}.json"
+            payload = None if args.force_refresh else valid_month_cache(cache_path, month)
+            if payload is None:
+                payload = fetch_month(session, api_key, month, args.timeout)
+                atomic_write_json(cache_path, payload)
+                print(f"[OK] 국회 월 캐시 수집 {month}: {payload['count']}건")
+            else:
+                print(f"[OK] 기존 국회 월 캐시 재사용 {month}: {payload['count']}건")
+            month_payloads[month] = payload
 
-    workers = max(1, min(args.workers, len(dates)))
-    with ThreadPoolExecutor(max_workers=workers) as executor:
-        collected = list(executor.map(collect_one, dates))
-
-    for target, payload in collected:
+    for target in dates:
+        payload = daily_payload(month_payloads[target.strftime("%Y-%m")], target)
         filename = f"{target.isoformat()}.json"
         for directory in (out_dir, public_dir, docs_dir):
             atomic_write_json(directory / filename, payload)
