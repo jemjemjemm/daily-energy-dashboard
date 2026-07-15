@@ -15,6 +15,32 @@ from scripts import fetch_safetimes_schedule as safetimes
 
 
 class SafeTimesScheduleFetchTest(unittest.TestCase):
+    def test_reuses_incomplete_previous_source_without_fetching(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "2026-07-15.json"
+            output.write_text(json.dumps({
+                "success": True,
+                "date": "2026-07-15",
+                "article_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=244257",
+                "raw_text": "분야별 세부 섹션이 부족하지만 파서가 활용할 수 있는 원문" * 30,
+            }, ensure_ascii=False), encoding="utf-8")
+            args = SimpleNamespace(
+                date="2026-07-15",
+                out_dir=directory,
+                force_refresh=False,
+                reuse_incomplete=True,
+                max_retries=3,
+                retry_delay=20,
+                max_pages=80,
+                soft_fail=True,
+            )
+            with (
+                patch.object(safetimes, "parse_args", return_value=args),
+                patch.object(safetimes, "collect") as collect_mock,
+            ):
+                self.assertEqual(safetimes.main(), 0)
+            collect_mock.assert_not_called()
+
     def test_soft_fail_returns_success_and_records_warning_payload(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             args = SimpleNamespace(
@@ -25,6 +51,7 @@ class SafeTimesScheduleFetchTest(unittest.TestCase):
                 retry_delay=0,
                 max_pages=1,
                 soft_fail=True,
+                reuse_incomplete=False,
             )
             with (
                 patch.object(safetimes, "parse_args", return_value=args),

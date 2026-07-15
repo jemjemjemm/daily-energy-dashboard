@@ -281,9 +281,11 @@ jobs:
           python scripts/fetch_safetimes_schedule.py \
             --date "$PREVIOUS_DATE" \
             --out-dir data/schedules \
-            --max-retries 3 \
-            --retry-delay 20 \
-            --max-pages 80
+            --max-retries 1 \
+            --retry-delay 0 \
+            --max-pages 80 \
+            --reuse-incomplete \
+            --soft-fail
 
       - name: Fetch National Assembly schedule
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.REPORT_SLOT == 'morning'
@@ -303,7 +305,8 @@ jobs:
             --schedule-dir data/schedules
           python scripts/validate_schedule_source.py \
             --date "$PREVIOUS_DATE" \
-            --schedule-dir data/schedules
+            --schedule-dir data/schedules \
+            --optional
 
       - name: Try Build report draft from SafeTimes
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.REPORT_SLOT == 'morning'

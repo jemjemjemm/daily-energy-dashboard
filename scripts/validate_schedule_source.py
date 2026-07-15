@@ -60,23 +60,31 @@ def main() -> int:
     parser.add_argument("--date", required=True)
     parser.add_argument("--schedule-dir", default="data/schedules")
     parser.add_argument("--max-items", type=int, default=12)
+    parser.add_argument(
+        "--optional",
+        action="store_true",
+        help="보조 소스 검증 실패를 경고로 기록하고 성공 종료",
+    )
     args = parser.parse_args()
 
     path = Path(args.schedule_dir) / f"{args.date}.json"
     if not path.exists():
-        print(f"[ERROR] 일정 JSON이 없습니다: {path}")
-        return 1
+        level = "WARN" if args.optional else "ERROR"
+        print(f"[{level}] 일정 JSON이 없습니다: {path}")
+        return 0 if args.optional else 1
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except Exception as exc:
-        print(f"[ERROR] 일정 JSON 파싱 실패: {path}: {exc}")
-        return 1
+        level = "WARN" if args.optional else "ERROR"
+        print(f"[{level}] 일정 JSON 파싱 실패: {path}: {exc}")
+        return 0 if args.optional else 1
 
     errors = validate_payload(data, args.date, max_items=args.max_items)
     if errors:
+        level = "WARN" if args.optional else "ERROR"
         for error in errors:
-            print(f"[ERROR] {path}: {error}")
-        return 1
+            print(f"[{level}] {path}: {error}")
+        return 0 if args.optional else 1
     print(f"[OK] 일정 원문 검증 통과: {path}")
     return 0
 

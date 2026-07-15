@@ -93,6 +93,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="원문을 확보하지 못해도 경고와 error JSON만 남기고 종료 코드는 0으로 반환",
     )
+    parser.add_argument(
+        "--reuse-incomplete",
+        action="store_true",
+        help="URL과 본문이 있는 기존 동일 날짜 응답은 불완전해도 재수집하지 않음 (보조 전일 소스용)",
+    )
     parser.add_argument("--max-pages", type=int, default=80, help="세이프타임즈 검색 페이지 탐색 수")
     return parser.parse_args()
 
@@ -128,6 +133,23 @@ def read_existing_valid(path: Path) -> Optional[Dict[str, Any]]:
     if data.get("article_url") and has_complete_schedule_body(data.get("raw_text") or data.get("body") or ""):
         return data
     return None
+
+
+def read_existing_source_response(path: Path, expected_date: str) -> Optional[Dict[str, Any]]:
+    """Return an existing source-backed response even when section completeness is low."""
+    if not path.exists():
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    if data.get("success") is not True or data.get("date") != expected_date:
+        return None
+    if not (data.get("article_url") or data.get("url")):
+        return None
+    if not str(data.get("raw_text") or data.get("body") or "").strip():
+        return None
+    return data
 
 
 def fetch(url: str, params: Optional[Dict[str, Any]] = None) -> str:
@@ -514,6 +536,12 @@ def main() -> int:
         error_path.unlink(missing_ok=True)
         print(f"[OK] 기존 세이프타임즈 일정 JSON 재사용: {output_path}")
         return 0
+    if args.reuse_incomplete and not args.force_refresh:
+        existing_source = read_existing_source_response(output_path, args.date)
+        if existing_source:
+            error_path.unlink(missing_ok=True)
+            print(f"[WARN] 직전일 기존 원문 응답 재사용(분야별 섹션 불완전 허용): {output_path}")
+            return 0
 
     last_error: Optional[Exception] = None
     for attempt in range(1, max(1, args.max_retries) + 1):
