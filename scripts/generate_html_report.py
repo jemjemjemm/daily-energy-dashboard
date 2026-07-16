@@ -832,7 +832,9 @@ def fallback_article_desc(title: str) -> str:
     if "정유" in compact:
         return "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명"
     if "LNG" in compact:
-        return "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도"
+        lng_desc = "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도"
+        if desc_matches_article_title(compact, lng_desc):
+            return lng_desc
     if ("위기경보" in compact or "자원안보" in compact) and "경보" in compact:
         if "천연가스" in compact and "해제" in compact:
             return "원유 위기경보 하향, 천연가스 경보 해제로 자원안보 수급 우려 완화"

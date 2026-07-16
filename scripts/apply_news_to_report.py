@@ -743,7 +743,9 @@ def fallback_article_summary(title: str, context: str = "") -> str:
     if "정유" in compact:
         return "정유업계 공급망 재편과 수익성 부담이 중동 리스크와 맞물린 흐름 조명"
     if "LNG" in compact:
-        return "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도"
+        lng_summary = "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도"
+        if summary_matches_article_title(compact, lng_summary):
+            return lng_summary
     if ("유가" in compact or "원유" in compact or "석유" in compact) and has_strong_energy_context(compact):
         broad_summary = "국제유가와 원유 수급 변화가 국내 정유·석유제품 가격 반영 시차로 연결"
         if summary_matches_article_title(compact, broad_summary):

@@ -350,6 +350,18 @@ class NewsTrendSelectionTest(unittest.TestCase):
         self.assertIn("원유 수입 둔화", summary)
         self.assertNotIn("가격 반영 시차", summary)
 
+    def test_lng_terminal_article_does_not_use_mismatched_broad_summary(self) -> None:
+        title = "울산 북항 LNG터미널 3단계 준공…21.5만㎘ 저장용량 추가"
+        broad = "LNG 수급·가격 변동이 에너지 시장에 미치는 영향 보도"
+        articles = [{"title": title, "summary": broad, "press": "연합뉴스"}]
+
+        summary = build_news_summary({}, articles)
+        desc = article_desc_for_display(articles[0])
+
+        self.assertIn("LNG터미널", summary)
+        self.assertNotIn(broad, summary)
+        self.assertNotEqual(desc, broad)
+
     def test_supply_price_article_does_not_get_collusion_summary_from_snippet(self) -> None:
         article = normalize_article({
             "title": "정유사 공급가격 체계 손질…사전고지 확대에 경유 할인 경쟁도",
