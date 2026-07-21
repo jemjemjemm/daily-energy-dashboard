@@ -5,10 +5,33 @@ import json
 from pathlib import Path
 import requests
 
-from scripts.fetch_assembly_schedule import ROW_FIELDS, AssemblyAPIError, decode_response, fetch_month, parse_date
+from datetime import date
+
+from scripts.fetch_assembly_schedule import (
+    ROW_FIELDS,
+    AssemblyAPIError,
+    decode_response,
+    fetch_month,
+    parse_date,
+    should_refresh_month,
+)
 
 
 class AssemblyScheduleResponseTest(unittest.TestCase):
+    def test_current_and_future_month_caches_are_always_refreshed(self) -> None:
+        today = date(2026, 7, 22)
+
+        self.assertFalse(should_refresh_month("2026-06", today=today))
+        self.assertTrue(should_refresh_month("2026-07", today=today))
+        self.assertTrue(should_refresh_month("2026-08", today=today))
+
+    def test_daily_workflow_explicitly_forces_assembly_refresh(self) -> None:
+        workflow = Path(".github/workflows/fetch_safetimes_schedule.yml").read_text(encoding="utf-8")
+        self.assertIn(
+            'python scripts/fetch_assembly_schedule.py --date "$TARGET_DATE" --force-refresh',
+            workflow,
+        )
+
     def test_decodes_actual_allschedule_shape(self) -> None:
         payload = {
             "ALLSCHEDULE": [

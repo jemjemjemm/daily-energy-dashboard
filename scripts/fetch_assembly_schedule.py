@@ -149,6 +149,18 @@ def valid_month_cache(path: Path, month: str) -> dict[str, Any] | None:
     return payload
 
 
+def should_refresh_month(month: str, today: date | None = None) -> bool:
+    """Return whether a monthly cache can still change at the source.
+
+    Committee meetings are often added only a few days—or hours—before they
+    begin.  Reusing a cache for the current/future month therefore publishes a
+    stale but apparently valid schedule.  Only completed past months are safe
+    to reuse without an explicit refresh.
+    """
+    current_month = (today or datetime.now(KST).date()).strftime("%Y-%m")
+    return month >= current_month
+
+
 def daily_payload(month_payload: dict[str, Any], target: date) -> dict[str, Any]:
     date_text = target.isoformat()
     rows = [item for item in month_payload.get("items", []) if item.get("SCH_DT") == date_text]
@@ -201,7 +213,8 @@ def main() -> int:
     with requests.Session() as session:
         for month in months:
             cache_path = out_dir / "months" / f"{month}.json"
-            payload = None if args.force_refresh else valid_month_cache(cache_path, month)
+            refresh = args.force_refresh or should_refresh_month(month)
+            payload = None if refresh else valid_month_cache(cache_path, month)
             if payload is None:
                 payload = fetch_month(session, api_key, month, args.timeout)
                 atomic_write_json(cache_path, payload)
