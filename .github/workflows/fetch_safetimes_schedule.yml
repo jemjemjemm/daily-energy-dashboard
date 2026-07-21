@@ -294,7 +294,7 @@ jobs:
           if [ -z "${ASSEMBLY_API_KEY:-}" ]; then
             echo "[INFO] ASSEMBLY_API_KEY가 없어 국회 일정 수집을 건너뜁니다."
           else
-            python scripts/fetch_assembly_schedule.py --date "$TARGET_DATE"
+            python scripts/fetch_assembly_schedule.py --date "$TARGET_DATE" --force-refresh
           fi
 
       - name: Validate SafeTimes schedule sources

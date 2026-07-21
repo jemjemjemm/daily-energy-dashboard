@@ -6,6 +6,59 @@ from scripts.generate_html_report import render
 
 
 class AssemblyReportHtmlTest(unittest.TestCase):
+    def test_full_and_subcommittee_meetings_are_all_rendered(self) -> None:
+        report = {
+            "report": {"report_date": "2026-07-22"},
+            "summary": [{"text": "요약"}],
+            "schedules": [],
+            "news_trend": {"summary": "△뉴스 요약", "articles": []},
+            "prices": {},
+        }
+        assembly = {
+            "month": "2026-07",
+            "items": [
+                {
+                    "SCH_KIND": "위원회",
+                    "SCH_CN": "법제사법위원회 전체회의",
+                    "SCH_DT": "2026-07-22",
+                    "SCH_TM": "10:00",
+                    "CMIT_NM": "법제사법위원회",
+                    "CONF_DIV": "전체회의",
+                },
+                {
+                    "SCH_KIND": "위원회",
+                    "SCH_CN": "기후에너지환경노동위원회 소위원회",
+                    "SCH_DT": "2026-07-22",
+                    "SCH_TM": "14:00",
+                    "CMIT_NM": "기후에너지환경노동위원회",
+                    "CONF_DIV": "소위원회",
+                },
+                {
+                    "SCH_KIND": "위원회",
+                    "SCH_CN": "법제사법위원회 소위원회",
+                    "SCH_DT": "2026-07-22",
+                    "SCH_TM": "15:00",
+                    "CMIT_NM": "법제사법위원회",
+                    "CONF_DIV": "소위원회",
+                },
+                {
+                    "SCH_KIND": "국회행사",
+                    "SCH_CN": "국회 전체 일정에 포함할 정책토론회",
+                    "SCH_DT": "2026-07-22",
+                    "SCH_TM": "16:00",
+                    "EV_INST_NM": "의원실",
+                    "EV_PLC": "의원회관",
+                },
+            ],
+        }
+
+        html = render(report, "2026-07-22", assembly)
+
+        self.assertIn("법제사법위원회 전체회의", html)
+        self.assertIn("기후에너지환경노동위원회 소위원회", html)
+        self.assertIn("법제사법위원회 소위원회", html)
+        self.assertIn("국회 전체 일정에 포함할 정책토론회", html)
+
     def test_assembly_sections_render_directly_below_daily_schedule(self) -> None:
         report = {
             "report": {"report_date": "2026-07-15"},
