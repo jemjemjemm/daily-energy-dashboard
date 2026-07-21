@@ -14,6 +14,7 @@ from scripts.apply_news_to_report import (
     select_representative_articles,
     specific_article_summary,
     update_summary,
+    to_summary_clause,
 )
 from scripts.fetch_news_candidates import PLAIN_QUERIES, daum_card_press, trusted_direct_count
 from scripts.generate_html_report import article_desc_for_display, fallback_article_desc
@@ -29,6 +30,19 @@ from scripts.news_article_rules import (
 
 
 class NewsTrendSelectionTest(unittest.TestCase):
+    def test_declarative_news_summaries_become_nominalized_clauses(self) -> None:
+        samples = {
+            "홍해와 흑해가 전쟁 여파로 위태로운 상황에 처하면서다": "홍해와 흑해가 전쟁 여파로 위태로운 상황에 처함",
+            "국내 정유사들이 수입선을 다변화해 수급불안은 피한 모습이다": "국내 정유사들이 수입선을 다변화해 수급불안은 피한 모습임",
+            "바브엘만데브 통과 원유량은 호르무즈 해협의 1.8배다": "바브엘만데브 통과 원유량은 호르무즈 해협의 1.8배임",
+        }
+
+        for sentence, expected in samples.items():
+            with self.subTest(sentence=sentence):
+                clause = to_summary_clause(sentence)
+                self.assertEqual(clause, expected)
+                self.assertFalse(clause.endswith(("다", "요", ".")))
+
     RAW_MILK_TITLE = "[Why&Next]자유화되는 비싼 흰우유...'원유 쿼터' 치열한 입방아"
 
     def test_non_energy_raw_milk_article_is_excluded_and_not_broad_summarized(self) -> None:
@@ -460,7 +474,7 @@ class NewsTrendSelectionTest(unittest.TestCase):
         report = {
             "summary": [
                 {"type": "stakeholder", "text": "\uc804\uc77c \uc8fc\uc694 \uc774\uc288: \uc694\uc57d."},
-                {"type": "today", "text": "\uae08\uc77c \uc8fc\uc694 \uc77c\uc815: \uc694\uc57d."},
+                {"type": "today", "text": "\uae08\uc77c \uc8fc\uc694 \uc77c\uc815: \uc694\uc57d"},
             ],
             "news_trend": {"summary": "\uc624\uc804 \ub274\uc2a4 \uc694\uc57d."},
         }
@@ -492,7 +506,7 @@ class NewsTrendSelectionTest(unittest.TestCase):
         self.assertEqual(
             report["summary"],
             [
-                {"type": "today", "text": "\uae08\uc77c \uc8fc\uc694 \uc77c\uc815: \uc694\uc57d."},
+                {"type": "today", "text": "\uae08\uc77c \uc8fc\uc694 \uc77c\uc815: \uc694\uc57d"},
                 {"type": "news_trend", "text": "(Morning) \uc624\uc804 \ub274\uc2a4 \uc694\uc57d."},
             ],
         )

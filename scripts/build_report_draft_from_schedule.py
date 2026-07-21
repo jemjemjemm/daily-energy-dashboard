@@ -1366,9 +1366,9 @@ def update_summary(
     # 금일 주요 일정은 기준일 일정에서 각각 만든다. 같은 데이터를 양쪽에 복사하지 않는다.
     if today_items:
         today_titles = ", ".join(item["title"] for item in today_items[:4])
-        today_text = f"금일 주요 일정: {today_titles}."
+        today_text = f"금일 주요 일정: {today_titles}"
     else:
-        today_text = "금일 주요 일정: 주요 일정 없음."
+        today_text = "금일 주요 일정: 주요 일정 없음"
 
     news = base_report.get("news_trend", {}) if isinstance(base_report.get("news_trend"), dict) else {}
     articles = news.get("articles", []) if isinstance(news.get("articles"), list) else []
@@ -1381,7 +1381,7 @@ def update_summary(
     # 기사 0건인 날짜에는 '대표 기사 미확인'류 fallback 문구를 남기지 않는다.
     if valid_articles:
         news_titles = ", ".join(a.get("title", "") for a in valid_articles[:3])
-        summary_rows.append({"type": "news_trend", "text": f"조간 보도: {news_titles}."})
+        summary_rows.append({"type": "news_trend", "text": f"조간 보도: {news_titles}"})
 
     base_report["summary"] = summary_rows
 
@@ -1389,8 +1389,8 @@ def update_summary(
 def today_summary_text(today_items: List[Dict[str, str]]) -> str:
     if today_items:
         today_titles = ", ".join(item["title"] for item in today_items[:4])
-        return f"금일 주요 일정: {today_titles}."
-    return "금일 주요 일정: 주요 일정 없음."
+        return f"금일 주요 일정: {today_titles}"
+    return "금일 주요 일정: 주요 일정 없음"
 
 
 def is_placeholder_row(item: Dict[str, Any]) -> bool:
@@ -1600,7 +1600,7 @@ def build_report_draft(
         validation["today_schedule_status"] = "parse_failed"
         for row in report.get("summary", []):
             if isinstance(row, dict) and row.get("type") == "today":
-                row["text"] = "금일 주요 일정: 데이터 확인 필요."
+                row["text"] = "금일 주요 일정: 데이터 확인 필요"
     else:
         validation.pop("today_schedule_parse_failed", None)
         validation["today_schedule_status"] = "ok" if today_items else "no_relevant_schedule"

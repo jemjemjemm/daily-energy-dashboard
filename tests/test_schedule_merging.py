@@ -12,11 +12,18 @@ from datetime import datetime
 from scripts.build_report_draft_from_schedule import (
     refresh_report_schedule_sections,
     schedule_items_from_json_or_body,
+    today_summary_text,
 )
 from scripts.generate_schedule_detail_html import parse_schedule, split_actor_event
 
 
 class ScheduleMergingTest(unittest.TestCase):
+    def test_today_summary_uses_headline_style_without_sentence_period(self) -> None:
+        text = today_summary_text([{"title": "산업경쟁력강화 관계장관회의"}])
+
+        self.assertEqual(text, "금일 주요 일정: 산업경쟁력강화 관계장관회의")
+        self.assertFalse(text.endswith("."))
+
     def test_2026_06_04_merges_repeated_events_and_prefers_named_attendees(self) -> None:
         schedule_data = json.loads(Path("data/schedules/2026-06-04.json").read_text(encoding="utf-8"))
 
