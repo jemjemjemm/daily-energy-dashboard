@@ -172,6 +172,12 @@ def enrich_article_summaries(
     if not articles:
         return []
 
+    try:
+        article_timeout = float(os.environ.get("ARTICLE_FETCH_TIMEOUT", "10"))
+    except ValueError:
+        article_timeout = 10.0
+    hydrate_article_bodies(articles, timeout=article_timeout)
+
     api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not api_key:
         return empty_result
@@ -183,11 +189,6 @@ def enrich_article_summaries(
         timeout = DEFAULT_TIMEOUT_SECONDS
 
     try:
-        try:
-            article_timeout = float(os.environ.get("ARTICLE_FETCH_TIMEOUT", "10"))
-        except ValueError:
-            article_timeout = 10.0
-        hydrate_article_bodies(articles, timeout=article_timeout)
         user_prompt = _build_user_prompt(articles, report_slot, date_text)
         text = _call_claude(SYSTEM_PROMPT, user_prompt, model, api_key, timeout)
         if not text:

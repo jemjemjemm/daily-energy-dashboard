@@ -41,8 +41,13 @@ jobs:
       - name: Validate summary logic
         run: python -m unittest tests.test_llm_article_summary tests.test_news_trend_selection
 
-      - name: Require article summarization secret
-        run: test -n "$ANTHROPIC_API_KEY" || (echo "[ERROR] ANTHROPIC_API_KEY is not configured" && exit 1)
+      - name: Report summarization mode
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "[OK] 원문 LLM 요약을 우선 시도하고 실패 시 원문 추출 요약을 사용합니다."
+          else
+            echo "[INFO] API 키가 없어 원문 추출 요약을 사용합니다."
+          fi
 
       - name: Rewrite Morning and Evening summaries from article bodies
         run: |

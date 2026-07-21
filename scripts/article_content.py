@@ -80,10 +80,21 @@ def extract_article_body(html: str | bytes, max_chars: int = MAX_BODY_CHARS) -> 
     for node in soup.select("script, style, noscript, iframe, svg, figure, figcaption, .ad, .advertisement"):
         node.decompose()
 
-    candidates = list(_json_ld_bodies(soup))
+    candidates = [text for text in _json_ld_bodies(soup) if len(text) >= MIN_BODY_CHARS]
+    if candidates:
+        body = max(candidates, key=len)
+        return body[:max_chars].rsplit(" ", 1)[0].strip() if len(body) > max_chars else body
+
     for selector in ARTICLE_SELECTORS:
+        candidates = []
         for node in soup.select(selector):
             candidates.append(clean_text(node.get_text(" ", strip=True)))
+        candidates = [text for text in candidates if len(text) >= MIN_BODY_CHARS]
+        if candidates:
+            body = max(candidates, key=len)
+            return body[:max_chars].rsplit(" ", 1)[0].strip() if len(body) > max_chars else body
+
+    candidates = []
     for selector in ('meta[property="og:description"]', 'meta[name="description"]'):
         for node in soup.select(selector):
             candidates.append(clean_text(node.get("content")))

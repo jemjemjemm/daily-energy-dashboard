@@ -7,6 +7,7 @@ import argparse
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Dict
+import json
 
 try:
     from scripts.apply_news_to_report import (
@@ -36,6 +37,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--end", required=True, help="YYYY-MM-DD")
     parser.add_argument("--report-dir", default="data/reports")
     parser.add_argument("--news-dir", default="data/news")
+    parser.add_argument("--override-dir", default="data/news_summary_overrides")
     return parser.parse_args()
 
 
@@ -51,6 +53,7 @@ def rebuild_slot(
     key: str,
     date_text: str,
     raw_articles: list[Dict[str, Any]] | None = None,
+    overrides: Dict[str, str] | None = None,
 ) -> str:
     news = report.get(key, {}) if isinstance(report.get(key), dict) else {}
     articles = news.get("articles", []) if isinstance(news.get("articles"), list) else []
@@ -84,7 +87,17 @@ def rebuild_slot(
             return summary
         return ""
     report_slot = "morning" if key == "news_trend" else "evening"
-    accepted = enrich_selected_article_summaries(articles, report_slot, date_text)
+    pending = []
+    accepted = 0
+    for article in articles:
+        reviewed = str((overrides or {}).get(str(article.get("url")), "")).strip()
+        if reviewed:
+            article["summary"] = reviewed
+            article["summary_basis"] = "editorial_article_body"
+            accepted += 1
+        else:
+            pending.append(article)
+    accepted += enrich_selected_article_summaries(pending, report_slot, date_text)
     if accepted != len(articles):
         raise RuntimeError(
             f"원문 기반 요약 미완료: {date_text} {report_slot} "
@@ -113,6 +126,11 @@ def main() -> int:
         raise SystemExit("[ERROR] --start must not be after --end")
 
     updated = 0
+    overrides: Dict[str, str] = {}
+    for override_path in sorted(Path(args.override_dir).glob("*.json")):
+        payload = json.loads(override_path.read_text(encoding="utf-8"))
+        if isinstance(payload, dict):
+            overrides.update({str(key): str(value) for key, value in payload.items() if value})
     for path in sorted(Path(args.report_dir).glob("*.report.json")):
         current = report_date(path)
         if current is None or current < start or current > end:
@@ -127,12 +145,14 @@ def main() -> int:
             "news_trend",
             current.isoformat(),
             morning_raw.get("articles", []) if isinstance(morning_raw.get("articles"), list) else [],
+            overrides,
         )
         evening_summary = rebuild_slot(
             report,
             "news_trend_afternoon",
             current.isoformat(),
             evening_raw.get("articles", []) if isinstance(evening_raw.get("articles"), list) else [],
+            overrides,
         )
         if morning_summary:
             update_summary(report, morning_summary, "morning")

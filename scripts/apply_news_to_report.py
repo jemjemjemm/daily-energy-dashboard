@@ -309,6 +309,46 @@ def summary_matches_article_evidence(article: Dict[str, Any], summary: str) -> b
     return len(matched) >= 2
 
 
+EXTRACTIVE_SKIP_PHRASES = (
+    "음성으로 듣기", "번역 설정", "글자크기", "다음뉴스", "무단전재", "재배포 금지",
+    "기자 =", "기자=", "사진=", "제공=", "공유하기", "인쇄하기",
+)
+
+
+def extractive_article_summary(article: Dict[str, Any], limit: int = 120) -> str:
+    """Choose a fact-rich sentence from the fetched body when the API is unavailable."""
+    title = clean(article.get("title"))
+    body = clean(article.get("article_body"))
+    if not body:
+        return ""
+    title_tokens = significant_title_tokens(title)
+    sentences = re.split(r"(?<=[.!?])\s+|(?<=[다요함됨임])\.\s*", body)
+    scored: List[tuple[int, int, str]] = []
+    for order, raw in enumerate(sentences):
+        sentence = clean(raw).strip(" -·")
+        if len(sentence) < 30 or len(sentence) > 260:
+            continue
+        if any(phrase in sentence for phrase in EXTRACTIVE_SKIP_PHRASES):
+            continue
+        if is_repeated_article_desc(title, sentence, clean(article.get("press"))):
+            continue
+        sentence_norm = normalize_article_text(sentence)
+        overlap = sum(1 for token in title_tokens if normalize_article_text(token) in sentence_norm)
+        facts = len(re.findall(r"\d+(?:\.\d+)?(?:%|달러|원|월|년|배럴|만|억|조)?", sentence))
+        energy_terms = sum(
+            1 for term in ("원유", "유가", "정유", "경유", "휘발유", "석유", "나프타", "LNG", "수급", "가격", "마진")
+            if term in sentence
+        )
+        score = overlap * 5 + min(facts, 3) * 2 + min(energy_terms, 3) * 2 + max(0, 5 - order // 2)
+        scored.append((score, -order, sentence))
+    if not scored:
+        return ""
+    sentence = max(scored)[2]
+    sentence = re.sub(r"^\([^)]{1,40}\)\s*", "", sentence)
+    sentence = re.sub(r"^\[[^]]{1,60}\]\s*", "", sentence)
+    return _trim_summary_part(strip_polite_endings(sentence), limit=limit)
+
+
 def summary_conflicts_with_article_title(title: str, summary: str) -> bool:
     title = clean(title)
     summary = clean(summary)
@@ -466,7 +506,7 @@ def article_summary_part(article: Dict[str, Any]) -> str:
         and not summary_conflicts_with_article_title(title, summary)
         and (not is_broad_energy_summary(summary) or summary_matches_article_title(title, summary))
     ):
-        return _trim_summary_part(strip_polite_endings(summary), limit=68)
+        return _trim_summary_part(strip_polite_endings(summary), limit=110)
     return fallback_article_summary(title, summary)
 
 
@@ -590,7 +630,9 @@ def strip_article_source_suffix(text: str, press: str = "") -> str:
     if press:
         text = re.sub(rf"\s*-\s*{re.escape(press)}\s*$", "", text).strip()
         text = re.sub(rf"\s+{re.escape(press)}\.?\s*$", "", text).strip()
-    text = re.sub(r"\s*-\s*[^-]{2,24}\s*$", "", text).strip()
+    # Generic press suffixes are separated by whitespace ("제목 - 매체").
+    # Requiring that whitespace avoids corrupting names such as S-Oil.
+    text = re.sub(r"\s+-\s*[^-]{2,24}\s*$", "", text).strip()
     return text
 
 
@@ -895,13 +937,8 @@ def enrich_selected_article_summaries(
     accepted = 0
     for article, candidate in zip(articles, llm_candidates or []):
         body_chars = len(clean(article.get("article_body")))
-        if not candidate:
-            article.pop("article_body", None)
-            article["summary_basis"] = "search_snippet_or_title"
-            article["article_content_chars"] = body_chars
-            continue
         title = clean(article.get("title"))
-        candidate = _trim_summary_part(strip_polite_endings(clean(candidate)), limit=92)
+        candidate = _trim_summary_part(strip_polite_endings(clean(candidate)), limit=92) if candidate else ""
         if (
             candidate
             and not is_generic_article_summary(candidate)
@@ -914,7 +951,13 @@ def enrich_selected_article_summaries(
             article["summary_basis"] = "article_body" if body_chars else "search_snippet"
             accepted += 1
         else:
-            article["summary_basis"] = "search_snippet_or_title"
+            extractive = extractive_article_summary(article)
+            if extractive and summary_matches_article_evidence(article, extractive):
+                article["summary"] = extractive
+                article["summary_basis"] = "article_body_extract"
+                accepted += 1
+            else:
+                article["summary_basis"] = "search_snippet_or_title"
         article["article_content_chars"] = body_chars
         article.pop("article_body", None)
     return accepted

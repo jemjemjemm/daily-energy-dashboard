@@ -2,6 +2,7 @@ import unittest
 from unittest.mock import patch
 
 from scripts.article_content import extract_article_body
+from scripts.apply_news_to_report import build_news_summary, extractive_article_summary
 from scripts.llm_article_summary import _build_user_prompt, enrich_article_summaries
 
 
@@ -19,6 +20,28 @@ class ArticleContentTest(unittest.TestCase):
         body = extract_article_body(html)
         self.assertIn("배럴당 90달러", body)
         self.assertNotIn("메뉴 메뉴", body)
+
+    def test_extractive_fallback_uses_article_fact_not_generic_theme(self) -> None:
+        article = {
+            "title": "러시아 경유 수출금지에 K정유 공급 확대 기대",
+            "press": "연합뉴스",
+            "article_body": (
+                "러시아가 경유 수출을 전면 금지하면서 국제 제품 마진이 상승했다. "
+                "세계 5위 정제능력을 보유한 국내 정유사는 수출 확대 기회를 얻었지만 원유 확보와 국내 수급 안정도 병행해야 한다."
+            ),
+        }
+        summary = extractive_article_summary(article)
+        self.assertIn("전면 금지", summary)
+        self.assertIn("마진", summary)
+        self.assertNotIn("공급망 재편과 수익성 부담", summary)
+
+    def test_hyphenated_company_name_is_not_treated_as_press_suffix(self) -> None:
+        summary = build_news_summary({}, [{
+            "title": "정유 구조적 강세기에 S-Oil 목표주가 상향",
+            "press": "한국경제TV",
+            "summary": "탈탄소 투자 축소와 지정학 위험 누적으로 정유 업황이 강세기에 진입했다는 분석에 S-Oil 목표주가 상향",
+        }])
+        self.assertIn("S-Oil 목표주가 상향", summary)
 
     def test_prompt_prefers_original_body_over_search_snippet(self) -> None:
         articles = [{
