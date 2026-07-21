@@ -133,11 +133,17 @@ def _call_claude(system: str, user: str, model: str, api_key: str, timeout: floa
         try:
             error_payload = resp.json()
             error_type = error_payload.get("error", {}).get("type", "unknown_error")
+            error_message = re.sub(
+                r"sk-ant-[A-Za-z0-9_-]+",
+                "[redacted]",
+                str(error_payload.get("error", {}).get("message", "")),
+            )[:300]
         except Exception:
             error_type = "unparseable_error"
+            error_message = ""
         print(
             f"[WARN] Claude summary API returned HTTP {resp.status_code}: {error_type} "
-            f"(model={model})",
+            f"(model={model}) {error_message}",
             file=sys.stderr,
         )
         return None
