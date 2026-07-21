@@ -237,6 +237,63 @@ def _trim_summary_part(text: str, limit: int = 62) -> str:
     return text
 
 
+def to_summary_clause(text: str) -> str:
+    """Convert a declarative news sentence to a concise nominalized clause.
+
+    Summary bullets must keep a subject/predicate relationship, but should not
+    read like full prose sentences.  Normalizing the final predicate to
+    ``-함/-됨/-임`` also makes LLM and extractive fallbacks render consistently.
+    """
+    clause = clean(text).strip(" .。!?")
+    if not clause:
+        return ""
+
+    if re.search(r"\d(?:\.\d+)?배다$", clause):
+        return clause[:-1] + "임"
+
+    suffixes = (
+        ("하면서다", "함"),
+        ("모습이다", "모습임"),
+        ("상황이다", "상황임"),
+        ("수준이다", "수준임"),
+        ("전망이다", "전망임"),
+        ("가능성이다", "가능성임"),
+        ("때문이다", "때문임"),
+        ("것이다", "것임"),
+        ("이었다", "이었음"),
+        ("였다", "였음"),
+        ("이다", "임"),
+        ("됐습니다", "됐음"),
+        ("되었습니다", "됐음"),
+        ("됐다", "됐음"),
+        ("됩니다", "됨"),
+        ("된다", "됨"),
+        ("했습니다", "함"),
+        ("하였다", "함"),
+        ("했다", "함"),
+        ("합니다", "함"),
+        ("한다", "함"),
+        ("있습니다", "있음"),
+        ("있었다", "있었음"),
+        ("있다", "있음"),
+        ("없습니다", "없음"),
+        ("없었다", "없었음"),
+        ("없다", "없음"),
+    )
+    for source, replacement in suffixes:
+        if clause.endswith(source):
+            return clause[: -len(source)] + replacement
+
+    # Already nominalized/headline-style content is kept as-is.  Any other
+    # declarative ending is embedded as a content clause instead of being
+    # exposed as a standalone sentence.
+    if clause.endswith(("함", "됨", "임", "음", "움", "기", "전망", "가능성", "상황", "흐름", "수준")):
+        return clause
+    if clause.endswith("다"):
+        return clause + "는 내용"
+    return clause
+
+
 GENERIC_ARTICLE_SUMMARY_PATTERNS = [
     "원문 기준으로 확인 필요",
     "업계 관련성",
@@ -506,8 +563,8 @@ def article_summary_part(article: Dict[str, Any]) -> str:
         and not summary_conflicts_with_article_title(title, summary)
         and (not is_broad_energy_summary(summary) or summary_matches_article_title(title, summary))
     ):
-        return _trim_summary_part(strip_polite_endings(summary), limit=110)
-    return fallback_article_summary(title, summary)
+        return to_summary_clause(_trim_summary_part(strip_polite_endings(summary), limit=110))
+    return to_summary_clause(fallback_article_summary(title, summary))
 
 
 def build_representative_article_summary(articles: List[Dict[str, Any]], max_parts: int = 3) -> str:
@@ -1119,7 +1176,10 @@ def update_summary(report: Dict[str, Any], news_summary: str, report_slot: str =
         if not isinstance(item, dict) or item.get("type") in {"news_trend", "news_trend_afternoon"}:
             continue
         text = PRICE_SUMMARY_RE.sub("", clean(item.get("text"))).strip()
-        text = strip_polite_endings(text)
+        if item.get("type") == "today":
+            text = text.rstrip(" .。!?")
+        else:
+            text = strip_polite_endings(text)
         if not text:
             continue
         if any(x in text for x in BAD_SUMMARY_PHRASES):
