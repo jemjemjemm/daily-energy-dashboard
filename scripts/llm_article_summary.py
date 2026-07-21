@@ -23,6 +23,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
 from typing import Any, Dict, List, Optional
 
 try:
@@ -125,16 +126,28 @@ def _call_claude(system: str, user: str, model: str, api_key: str, timeout: floa
     }
     try:
         resp = requests.post(API_URL, headers=headers, json=payload, timeout=timeout)
-    except Exception:
+    except Exception as exc:
+        print(f"[WARN] Claude summary request failed: {type(exc).__name__}", file=sys.stderr)
         return None
     if resp.status_code != 200:
+        try:
+            error_payload = resp.json()
+            error_type = error_payload.get("error", {}).get("type", "unknown_error")
+        except Exception:
+            error_type = "unparseable_error"
+        print(
+            f"[WARN] Claude summary API returned HTTP {resp.status_code}: {error_type} "
+            f"(model={model})",
+            file=sys.stderr,
+        )
         return None
     try:
         data = resp.json()
         parts = data.get("content") or []
         text = "".join(p.get("text", "") for p in parts if isinstance(p, dict) and p.get("type") == "text")
         return text or None
-    except Exception:
+    except Exception as exc:
+        print(f"[WARN] Claude summary response parse failed: {type(exc).__name__}", file=sys.stderr)
         return None
 
 
