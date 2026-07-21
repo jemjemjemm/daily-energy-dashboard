@@ -70,6 +70,15 @@ class SafeTimesScheduleFetchTest(unittest.TestCase):
         complete = "■ 분야별\n[산업]\n산업부 일정\n[국제]\n국제 일정\n" + ("10:00 회의\n" * 50)
         self.assertTrue(safetimes.has_complete_schedule_body(complete))
 
+    def test_accepts_complete_article_without_decorative_section_heading(self) -> None:
+        complete = "[정치]\n정부 일정\n[산업]\n산업부 일정\n" + ("10:00 회의\n" * 50)
+        self.assertNotIn("■ 분야별", complete)
+        self.assertTrue(safetimes.has_complete_schedule_body(complete))
+
+    def test_rejects_long_article_with_only_one_schedule_section(self) -> None:
+        incomplete = "[정치]\n" + ("10:00 회의\n" * 50)
+        self.assertFalse(safetimes.has_complete_schedule_body(incomplete))
+
     def test_article_parser_prefers_source_heading_over_recovery_placeholder(self) -> None:
         source_title = "[오늘의 주요일정·14일] 실제 기사 제목"
         html = f"""
