@@ -174,10 +174,15 @@ def has_complete_schedule_body(raw_text: str) -> bool:
 
     A title/photo-lead-only response looks like a successful fetch but renders
     empty president and prime-minister blocks.  Do not publish such a payload.
+
+    SafeTimes does not consistently include the decorative ``■ 분야별``
+    heading.  The dated section markers are the stable structure, so requiring
+    that heading rejects otherwise complete articles (as happened on
+    2026-07-22).
     """
     text = raw_text or ""
     section_count = sum(marker in text for marker in SCHEDULE_SECTION_MARKERS)
-    return len(text) >= 300 and "■ 분야별" in text and section_count >= 2
+    return len(text) >= 300 and section_count >= 2
 
 
 def compact_title(value: str) -> str:
