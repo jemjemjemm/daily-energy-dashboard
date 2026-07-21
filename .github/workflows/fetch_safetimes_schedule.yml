@@ -333,6 +333,7 @@ jobs:
         run: |
           test -f scripts/fetch_news_candidates.py || (echo "ERROR: scripts/fetch_news_candidates.py 파일이 없습니다." && exit 1)
           test -f scripts/apply_news_to_report.py || (echo "ERROR: scripts/apply_news_to_report.py 파일이 없습니다." && exit 1)
+          test -f scripts/article_content.py || (echo "ERROR: scripts/article_content.py 파일이 없습니다." && exit 1)
           if [ "$REPORT_SLOT" = "evening" ] && [ ! -f "data/reports/$TARGET_DATE.report.json" ]; then
             echo "[ERROR] 오후 보고서는 오전 report JSON이 먼저 필요합니다: data/reports/$TARGET_DATE.report.json"
             exit 1
@@ -377,6 +378,10 @@ jobs:
             --news-dir data/news \
             --report-dir data/reports \
             --min-required 1
+
+      - name: Validate article summary logic
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
+        run: python -m unittest tests.test_llm_article_summary tests.test_news_trend_selection
 
       - name: Fetch Opinet international prices for today only
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.REPORT_SLOT == 'morning'

@@ -25,17 +25,23 @@ import os
 import re
 from typing import Any, Dict, List, Optional
 
+try:
+    from scripts.article_content import hydrate_article_bodies
+except ImportError:
+    from article_content import hydrate_article_bodies  # type: ignore
+
 API_URL = "https://api.anthropic.com/v1/messages"
 DEFAULT_MODEL = "claude-sonnet-5"
 DEFAULT_TIMEOUT_SECONDS = 25
-MAX_SNIPPET_CHARS = 260
+MAX_SNIPPET_CHARS = 700
+MAX_BODY_CHARS = 4200
 
 SYSTEM_PROMPT = """당신은 정유·석유화학·LNG 업계를 담당하는 국내 에너지 산업 애널리스트입니다.
-수집된 기사 후보 목록을 보고, 각 기사에 대해 한국어 한 문장 요약을 작성하세요.
+수집된 기사 원문을 읽고, 각 기사에 대해 한국어 한 문장 요약을 작성하세요.
 
 작성 원칙:
-1. 제공된 제목/언론사/스니펫에 있는 사실만 근거로 삼습니다. 없는 사실을 새로 만들거나 추정하지 않습니다.
-2. 단순히 제목을 반복하거나 나열하지 말고, 그 이슈가 "왜 중요한지", "어떤 이해관계자(정유사·주유소·정부·소비자·업계 등)에게 영향이 있는지", "정책·시장·업계 관점에서 어떤 의미인지"가 드러나도록 씁니다.
+1. 제공된 제목/언론사/기사 본문에 명시된 사실만 근거로 삼습니다. 없는 사실을 만들거나 추정하지 않습니다.
+2. 제목을 바꿔 쓰는 데 그치지 말고 기사 본문의 핵심 사실, 수치, 원인과 결과를 우선 요약합니다. 기사에 없는 업계 영향이나 의미를 임의로 덧붙이지 않습니다.
 3. 여러 기사가 같은 사건(예: 같은 지정학적 이슈)을 다루더라도, 문장마다 다른 측면(배경/쟁점/파급 효과 등)을 부각시켜 서로 겹치지 않게 씁니다.
 4. 같은 문장 종결 표현을 반복하지 마세요. 특히 "~로 부각", "~로 부각됨" 같은 표현을 여러 문장에서 반복하지 마세요. 종결 표현을 문장마다 다르게(예: ~불가피, ~번질 가능성, ~쟁점으로 이동, ~안갯속, ~점검 필요, ~논쟁 확대 등) 다양화하세요.
 5. 근거가 빈약하거나 기사 수가 적으면 과장하지 말고 담백하게 씁니다.
@@ -69,10 +75,16 @@ def _build_user_prompt(articles: List[Dict[str, Any]], report_slot: str, date_te
     for idx, article in enumerate(articles, start=1):
         title = _clean(article.get("title"))
         press = _clean(article.get("press"))
+        body = _clean(article.get("article_body"))
         snippet = _clean(article.get("snippet") or article.get("summary"))
         if len(snippet) > MAX_SNIPPET_CHARS:
             snippet = snippet[:MAX_SNIPPET_CHARS].rsplit(" ", 1)[0].strip() + "..."
-        lines.append(f"{idx}. [{press}] {title}\n   스니펫: {snippet}")
+        if len(body) > MAX_BODY_CHARS:
+            body = body[:MAX_BODY_CHARS].rsplit(" ", 1)[0].strip() + "..."
+        if body:
+            lines.append(f"{idx}. [{press}] {title}\n   기사 원문 본문: {body}")
+        else:
+            lines.append(f"{idx}. [{press}] {title}\n   본문 수집 실패 시 보조 자료(검색 스니펫): {snippet}")
     lines.append(f"\n위 {len(articles)}건 각각에 대해 JSON으로만 응답하세요.")
     return "\n".join(lines)
 
@@ -152,6 +164,11 @@ def enrich_article_summaries(
         timeout = DEFAULT_TIMEOUT_SECONDS
 
     try:
+        try:
+            article_timeout = float(os.environ.get("ARTICLE_FETCH_TIMEOUT", "10"))
+        except ValueError:
+            article_timeout = 10.0
+        hydrate_article_bodies(articles, timeout=article_timeout)
         user_prompt = _build_user_prompt(articles, report_slot, date_text)
         text = _call_claude(SYSTEM_PROMPT, user_prompt, model, api_key, timeout)
         if not text:

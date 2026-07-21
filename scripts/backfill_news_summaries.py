@@ -12,6 +12,7 @@ try:
     from scripts.apply_news_to_report import (
         atomic_write_json,
         build_news_summary,
+        enrich_selected_article_summaries,
         is_previous_issue_summary,
         make_trend_paragraphs,
         read_json,
@@ -21,6 +22,7 @@ except ImportError:
     from apply_news_to_report import (  # type: ignore
         atomic_write_json,
         build_news_summary,
+        enrich_selected_article_summaries,
         is_previous_issue_summary,
         make_trend_paragraphs,
         read_json,
@@ -33,6 +35,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--start", required=True, help="YYYY-MM-DD")
     parser.add_argument("--end", required=True, help="YYYY-MM-DD")
     parser.add_argument("--report-dir", default="data/reports")
+    parser.add_argument("--news-dir", default="data/news")
     return parser.parse_args()
 
 
@@ -43,7 +46,12 @@ def report_date(path: Path) -> date | None:
         return None
 
 
-def rebuild_slot(report: Dict[str, Any], key: str) -> str:
+def rebuild_slot(
+    report: Dict[str, Any],
+    key: str,
+    date_text: str,
+    raw_articles: list[Dict[str, Any]] | None = None,
+) -> str:
     news = report.get(key, {}) if isinstance(report.get(key), dict) else {}
     articles = news.get("articles", []) if isinstance(news.get("articles"), list) else []
     articles = [
@@ -56,6 +64,16 @@ def rebuild_slot(report: Dict[str, Any], key: str) -> str:
             and "데이터 대기" not in str(article.get("title"))
         )
     ]
+    raw_by_url = {
+        str(article.get("url")): article
+        for article in (raw_articles or [])
+        if isinstance(article, dict) and article.get("url")
+    }
+    for article in articles:
+        raw = raw_by_url.get(str(article.get("url")), {})
+        snippet = raw.get("snippet") or raw.get("summary")
+        if snippet:
+            article["snippet"] = str(snippet)
     if not articles:
         if news:
             summary = "해당 시간대 주요 보도 확인 건 없음."
@@ -65,6 +83,13 @@ def rebuild_slot(report: Dict[str, Any], key: str) -> str:
             report[key] = news
             return summary
         return ""
+    report_slot = "morning" if key == "news_trend" else "evening"
+    accepted = enrich_selected_article_summaries(articles, report_slot, date_text)
+    if accepted != len(articles):
+        raise RuntimeError(
+            f"원문 기반 요약 미완료: {date_text} {report_slot} "
+            f"accepted={accepted}/{len(articles)}"
+        )
     summary = build_news_summary(news, articles)
     news["summary"] = summary
     news["trend_paragraphs"] = make_trend_paragraphs(articles)
@@ -93,9 +118,22 @@ def main() -> int:
         if current is None or current < start or current > end:
             continue
         report = read_json(path)
+        news_dir = Path(args.news_dir)
+        morning_raw = read_json(news_dir / f"{current.isoformat()}.json")
+        evening_raw = read_json(news_dir / f"{current.isoformat()}.evening.json")
         remove_previous_issue_summary(report)
-        morning_summary = rebuild_slot(report, "news_trend")
-        evening_summary = rebuild_slot(report, "news_trend_afternoon")
+        morning_summary = rebuild_slot(
+            report,
+            "news_trend",
+            current.isoformat(),
+            morning_raw.get("articles", []) if isinstance(morning_raw.get("articles"), list) else [],
+        )
+        evening_summary = rebuild_slot(
+            report,
+            "news_trend_afternoon",
+            current.isoformat(),
+            evening_raw.get("articles", []) if isinstance(evening_raw.get("articles"), list) else [],
+        )
         if morning_summary:
             update_summary(report, morning_summary, "morning")
         if evening_summary:

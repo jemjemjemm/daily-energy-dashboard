@@ -1,0 +1,98 @@
+name: Backfill Article Body Summaries
+
+on:
+  workflow_dispatch:
+    inputs:
+      date_from:
+        description: "요약 재작성 시작일(YYYY-MM-DD)"
+        required: true
+        default: "2026-07-13"
+      date_to:
+        description: "요약 재작성 종료일(YYYY-MM-DD)"
+        required: true
+        default: "2026-07-21"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: article-summary-backfill-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Seoul
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Validate summary logic
+        run: python -m unittest tests.test_llm_article_summary tests.test_news_trend_selection
+
+      - name: Require article summarization secret
+        run: test -n "$ANTHROPIC_API_KEY" || (echo "[ERROR] ANTHROPIC_API_KEY is not configured" && exit 1)
+
+      - name: Rewrite Morning and Evening summaries from article bodies
+        run: |
+          python scripts/backfill_news_summaries.py \
+            --start "${{ inputs.date_from }}" \
+            --end "${{ inputs.date_to }}" \
+            --report-dir data/reports \
+            --news-dir data/news
+
+      - name: Regenerate report pages and index
+        run: |
+          python - <<'PY'
+          import datetime as dt
+          import os
+          import subprocess
+          import sys
+
+          start = dt.date.fromisoformat("${{ inputs.date_from }}")
+          end = dt.date.fromisoformat("${{ inputs.date_to }}")
+          current = start
+          while current <= end:
+              report = f"data/reports/{current.isoformat()}.report.json"
+              if os.path.exists(report):
+                  subprocess.run([
+                      sys.executable, "scripts/generate_html_report.py",
+                      "--date", current.isoformat(),
+                      "--report-dir", "data/reports",
+                      "--out-dir", "docs/reports",
+                  ], check=True)
+              current += dt.timedelta(days=1)
+          PY
+          python scripts/generate_report_index.py --reports-dir docs/reports --out docs/report-index.json
+          mkdir -p public/reports
+          cp -f docs/report-index.json public/report-index.json
+          cp -f docs/reports/*.html public/reports/
+
+      - name: Validate generated pages
+        run: |
+          python scripts/validate_report_html.py \
+            --reports-dir docs/reports \
+            --index docs/report-index.json \
+            --since "${{ inputs.date_from }}" \
+            --end "${{ inputs.date_to }}"
+
+      - name: Commit and push published summaries
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/reports docs/reports docs/report-index.json public/reports public/report-index.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Backfill article body summaries"
+          git pull --rebase origin main
+          git push origin main

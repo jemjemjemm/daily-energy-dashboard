@@ -292,6 +292,23 @@ def summary_matches_article_title(title: str, summary: str) -> bool:
     return any(normalize_article_text(token) in summary_norm for token in tokens)
 
 
+def summary_matches_article_evidence(article: Dict[str, Any], summary: str) -> bool:
+    """Require a generated summary to be anchored in the title or fetched body."""
+    title = clean(article.get("title"))
+    if summary_matches_article_title(title, summary):
+        return True
+    body = clean(article.get("article_body"))
+    if not body:
+        return False
+    body_norm = normalize_article_text(body)
+    summary_tokens = significant_title_tokens(summary)
+    matched = {
+        token for token in summary_tokens
+        if len(token) >= 3 and normalize_article_text(token) in body_norm
+    }
+    return len(matched) >= 2
+
+
 def summary_conflicts_with_article_title(title: str, summary: str) -> bool:
     title = clean(title)
     summary = clean(summary)
@@ -845,6 +862,7 @@ def normalize_article(item: Dict[str, Any]) -> Dict[str, Any]:
         "press_grade": press_grade(press),
         "url": url,
         "summary": summary,
+        "snippet": snippet,
         "published_at_kst": clean(item.get("published_at_kst")),
         "industry_relevance": industry_relevance_score(title, snippet),
     }
@@ -857,7 +875,49 @@ def normalize_article(item: Dict[str, Any]) -> Dict[str, Any]:
         out["score"] = 0
     if isinstance(item.get("score_breakdown"), dict):
         out["score_breakdown"] = item.get("score_breakdown")
+    if clean(item.get("summary_basis")):
+        out["summary_basis"] = clean(item.get("summary_basis"))
     return out
+
+
+def enrich_selected_article_summaries(
+    articles: List[Dict[str, Any]],
+    report_slot: str,
+    date_text: str,
+) -> int:
+    """Replace fallback text with evidence-backed article summaries."""
+    try:
+        llm_candidates = enrich_article_summaries(articles, report_slot, date_text)
+    except Exception as exc:
+        llm_candidates = [None] * len(articles)
+        print(f"[WARN] LLM 요약 보강 실패, 규칙 기반 요약으로 진행합니다: {exc}")
+
+    accepted = 0
+    for article, candidate in zip(articles, llm_candidates or []):
+        body_chars = len(clean(article.get("article_body")))
+        if not candidate:
+            article.pop("article_body", None)
+            article["summary_basis"] = "search_snippet_or_title"
+            article["article_content_chars"] = body_chars
+            continue
+        title = clean(article.get("title"))
+        candidate = _trim_summary_part(strip_polite_endings(clean(candidate)), limit=92)
+        if (
+            candidate
+            and not is_generic_article_summary(candidate)
+            and not is_broad_energy_summary(candidate)
+            and not summary_conflicts_with_article_title(title, candidate)
+            and summary_matches_article_evidence(article, candidate)
+            and not is_repeated_article_desc(title, candidate, clean(article.get("press")))
+        ):
+            article["summary"] = candidate
+            article["summary_basis"] = "article_body" if body_chars else "search_snippet"
+            accepted += 1
+        else:
+            article["summary_basis"] = "search_snippet_or_title"
+        article["article_content_chars"] = body_chars
+        article.pop("article_body", None)
+    return accepted
 
 
 def article_issue_key(article: Dict[str, Any]) -> str:
@@ -1071,27 +1131,8 @@ def main() -> int:
 
     if new_articles:
         articles = new_articles
-        # LLM 기반 요약 보강: 성공한 문장만 채택하고, 실패/부적합 문장은 기존
-        # 규칙 기반 요약(normalize_article 단계에서 이미 채워진 값)을 그대로 둡니다.
-        try:
-            llm_candidates = enrich_article_summaries(articles, a.report_slot, a.date)
-        except Exception as exc:
-            llm_candidates = [None] * len(articles)
-            print(f"[WARN] LLM 요약 보강 실패, 규칙 기반 요약으로 진행합니다: {exc}")
-        for article, candidate in zip(articles, llm_candidates or []):
-            if not candidate:
-                continue
-            title = clean(article.get("title"))
-            candidate = _trim_summary_part(strip_polite_endings(clean(candidate)), limit=68)
-            if (
-                candidate
-                and not is_generic_article_summary(candidate)
-                and not is_broad_energy_summary(candidate)
-                and not summary_conflicts_with_article_title(title, candidate)
-                and summary_matches_article_title(title, candidate)
-                and not is_repeated_article_desc(title, candidate, clean(article.get("press")))
-            ):
-                article["summary"] = candidate
+        accepted_summaries = enrich_selected_article_summaries(articles, a.report_slot, a.date)
+        print(f"[OK] 원문 기반 기사 요약: {accepted_summaries}/{len(articles)}건")
         news_summary = build_news_summary(news, articles)
         source = clean(news.get("source")) or "Naver News Search HTML + Daum News Search HTML + Google News RSS"
         used_tier = clean(news.get("used_tier"))
