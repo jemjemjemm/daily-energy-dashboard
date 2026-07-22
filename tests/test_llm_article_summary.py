@@ -7,6 +7,22 @@ from scripts.llm_article_summary import _build_user_prompt, enrich_article_summa
 
 
 class ArticleContentTest(unittest.TestCase):
+    def test_byline_removal_preserves_the_opening_article_sentence(self) -> None:
+        html = """
+        <html><body><div class="article_view">
+        (서울=뉴스1) 김지완 기자 = 이란 지원을 받는 예멘 후티 반군이 봉쇄를 선언하자,
+        아시아 정유사들이 수에즈 운하 우회 운송을 모색하고 있다.
+        이 문장은 본문 길이 기준을 충족하기 위한 기사 세부 내용이다.
+        이 문장은 본문 길이 기준을 충족하기 위한 추가 설명이다.
+        </div></body></html>
+        """
+
+        body = extract_article_body(html)
+
+        self.assertNotIn("김지완 기자", body)
+        self.assertIn("이란 지원을 받는 예멘 후티 반군이 봉쇄를 선언하자", body)
+        self.assertTrue(body.startswith("이란 지원을 받는 예멘 후티 반군이"))
+
     def test_extracts_article_body_instead_of_navigation(self) -> None:
         html = """
         <html><body><nav>메뉴 메뉴 메뉴</nav><div class="article_view">
