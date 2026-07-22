@@ -34,7 +34,12 @@ ARTICLE_SELECTORS = (
 BOILERPLATE_PATTERNS = (
     r"무단전재[^\n]{0,80}",
     r"재배포[^\n]{0,80}",
-    r"기자\s*=?\s*[^\n]{0,40}",
+    # Remove only the byline itself.  Body text is flattened to one line
+    # before these patterns run, so consuming ``[^\n]{0,40}`` also deleted
+    # the first 40 characters of the article (for example, ``기자 = 이란
+    # 지원을 ... 선언하자`` became the corrupt fragment ``언하자``).
+    r"(?:\([^)]{1,30}\)\s*)?[가-힣]{2,5}\s+기자\s*=\s*",
+    r"기자\s*=\s*",
     r"제보는\s*카카오톡[^\n]{0,100}",
     r"공유하기",
 )
