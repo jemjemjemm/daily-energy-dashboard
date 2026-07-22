@@ -251,6 +251,13 @@ def to_summary_clause(text: str) -> str:
     if re.search(r"\d(?:\.\d+)?배다$", clause):
         return clause[:-1] + "임"
 
+    connective_action = re.search(
+        r"(승인|검토|모색|우회|운송|확보|확대|축소|통합|전환|대비|대응|지원)해$",
+        clause,
+    )
+    if connective_action:
+        return clause[: connective_action.start()] + connective_action.group(1) + "함"
+
     suffixes = (
         ("했다고", "함"),
         ("한다고", "함"),
