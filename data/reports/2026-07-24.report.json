@@ -5,7 +5,7 @@
     "display_date": "2026년 7월 24일 (금)",
     "previous_day_label": "7/23",
     "today_label": "7/24",
-    "generated_at": "2026-07-24 08:26 KST",
+    "generated_at": "2026-07-24 17:03 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △정부가 석유 최고가격제 시행 4개월째를 맞아 정유사 손실보전을 위한 정산 절차를 본격화함 △인테르팍스통신은 23일(현지시간) 러시아 정부가 이달 말 종료되는 석유제품 생산업체의 경유 수출 금지 조치를 한 달 더 연장하고, 같은 시점에 끝나는 휘발유 수출 금지는 6개월 연장하는 방안을 △로이터통신에 따르면 토탈에너지의 파트리크 푸야네 최고경영자(CEO)는 23일(현지시간) 2분기 실적 발표 자리에서 자사의 '북극 LNG 2' 프로젝트 지분 10%를 프로젝트 최대 주주인 러시아"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △24일 정부 안팎에 따르면 산업통상부는 전날 국내 정유사들을 대상으로 8월 선박운영계획을 조사함 △따라서 리터당 유류세는 인하 전 세율과 비교해 휘발유가 122원 내린 698원, 경유는 145원 내린 436원, 부탄은 51원 내린 152원으로 각각 유지됨 △국제유가가 중동 지역 지정학적 리스크 고조로 배럴당 100달러를 돌파하면서 흥구석유를 비롯한 정유·에너지 관련주가 24일 장 초반 강세를 보이고 있음"
     }
   ],
   "prices": {
@@ -1496,7 +1500,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(5/23~7/23)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1612,6 +1617,87 @@
       "merged_at": "2026-07-24 08:27:09 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-07-24.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△24일 정부 안팎에 따르면 산업통상부는 전날 국내 정유사들을 대상으로 8월 선박운영계획을 조사함 △따라서 리터당 유류세는 인하 전 세율과 비교해 휘발유가 122원 내린 698원, 경유는 145원 내린 436원, 부탄은 51원 내린 152원으로 각각 유지됨 △국제유가가 중동 지역 지정학적 리스크 고조로 배럴당 100달러를 돌파하면서 흥구석유를 비롯한 정유·에너지 관련주가 24일 장 초반 강세를 보이고 있음",
+    "trend_paragraphs": [
+      "매일경제는 24일 정부 안팎에 따르면 산업통상부는 전날 국내 정유사들을 대상으로 8월 선박운영계획을 조사했다.",
+      "매일경제는 따라서 리터당 유류세는 인하 전 세율과 비교해 휘발유가 122원 내린 698원, 경유는 145원 내린 436원, 부탄은 51원 내린 152원으로 각각 유지된다.",
+      "뉴시스는 국제유가가 중동 지역 지정학적 리스크 고조로 배럴당 100달러를 돌파하면서 흥구석유를 비롯한 정유·에너지 관련주가 24일 장 초반 강세를 보이고 있다."
+    ],
+    "articles": [
+      {
+        "title": "정부, 정유사 8월 선박운영계획 점검…원유 도입 지연 우려",
+        "press": "매일경제",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260724134802144",
+        "summary": "24일 정부 안팎에 따르면 산업통상부는 전날 국내 정유사들을 대상으로 8월 선박운영계획을 조사했다",
+        "snippet": "정부, 정유사 8월 선박운영계획 점검…원유 도입 지연 우려 후티반군 예멘 후티 반군이 홍해 봉쇄를 선언하면서 사우디아라비아 인근 해역의 긴장이 고조된 가운데, 정부가 국내 정유사 들을 상대로 원유 수송 계획 점검에 나섰다. 정유사 들이 운항 위험을 줄이기 위해 수송 항로 변경을 검토하면서 9월 도입 물량 일정에도... 3시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 828
+      },
+      {
+        "title": "“휘발유 122원·경유 145원 싸게”... 정부, 유류세 인하 9월 말까지 연장",
+        "press": "매일경제",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260724163902653",
+        "summary": "따라서 리터당 유류세는 인하 전 세율과 비교해 휘발유가 122원 내린 698원, 경유는 145원 내린 436원, 부탄은 51원 내린 152원으로 각각 유지된다",
+        "snippet": "“휘발유 122원·경유 145원 싸게”... 정부, 유류세 인하 9월 말까지 연장 겸 재정경제부 장관 주재로 ‘민생물가 특별관리 관계장관 태스크포스(TF)’를 열었다.(뉴시스) 정부가 이달 말 종료 예정이던 유류세 한시적 인하 조치를 9월 말까지 두 달 더 연장한다고 24일 밝혔다. 중동 전쟁 지속에 따른 유가 변동성 확대에 대응하고, 국민의... 25분 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 516
+      },
+      {
+        "title": "국제유가 배럴당 100달러 돌파…흥구석유 등 정유주 강세",
+        "press": "뉴시스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260724103937245",
+        "summary": "국제유가가 중동 지역 지정학적 리스크 고조로 배럴당 100달러를 돌파하면서 흥구석유를 비롯한 정유·에너지 관련주가 24일 장 초반 강세를 보이고 있다",
+        "snippet": "국제유가 배럴당 100달러 돌파…흥구석유 등 정유주 강세 서울=뉴시스]송혜리 기자 = 국제유가가 중동 지역 지정학적 리스크 고조로 배럴당 100달러를 돌파하면서 흥구석유를 비롯한 정유 ·에너지 관련주가 24일 장 초반 강세를 보이고 있다. 한국거래소에 따르면 이날 오전 10시24분 기준 흥구석유는 전 거래일보다 3.03%... 6시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 544
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
