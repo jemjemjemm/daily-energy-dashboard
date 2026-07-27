@@ -3,9 +3,10 @@
   "source": "열린국회정보",
   "api": "ALLSCHEDULE",
   "date": "2026-07-28",
-  "collectedAt": "2026-07-15T21:49:15+09:00",
-  "count": 0,
-  "apiTotalCount": 0,
+  "monthCache": "months/2026-07.json",
+  "collectedAt": "2026-07-28T08:23:18+09:00",
+  "count": 11,
+  "apiTotalCount": 11,
   "fields": [
     "SCH_KIND",
     "SCH_CN",
@@ -18,5 +19,138 @@
     "EV_INST_NM",
     "EV_PLC"
   ],
-  "items": []
+  "items": [
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "Agentic AI 국회 조찬 포럼",
+      "SCH_DT": "2026-07-28",
+      "SCH_TM": "07:30~08:50",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "조인철·이인선 의원실",
+      "EV_PLC": "의원회관 제3간담회의실(203호)"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "경제는 민주당 제53강",
+      "SCH_DT": "2026-07-28",
+      "SCH_TM": "08:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김태년 의원실",
+      "EV_PLC": "의원회관 제1소회의실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "(K-컬처 400조 달성을 위한)게임산업의 역할과 정책적 위상 강화",
+      "SCH_DT": "2026-07-28",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김재원 의원실",
+      "EV_PLC": "의원회관 제9간담회의실(212호)"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "(국가균형발전 및 지역산업 육성을 위한)2차 공공기관 이전 대구유치전략 정책토론회",
+      "SCH_DT": "2026-07-28",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "권영진·주호영·윤재옥·김상훈·강대식·이인선·권영진·김승수·이진숙·김기웅·유영하·최은석·우재준·김위상·이달희 의원실",
+      "EV_PLC": "의원회관 신관 제2세미나실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "피지컬 AI 시대, 자율주행은 어떻게 일상이 되는가?",
+      "SCH_DT": "2026-07-28",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "엄태영 의원실, 카카오모빌리티",
+      "EV_PLC": "의원회관 제8간담회의실(211호)"
+    },
+    {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제437회국회(임시회) 제1차 국회운영개선소위원회",
+      "SCH_DT": "2026-07-28",
+      "SCH_TM": "10:00",
+      "CONF_DIV": "국회운영개선소위원회",
+      "CMIT_NM": "국회운영위원회",
+      "CONF_SESS": "제437회국회(임시회)",
+      "CONF_DGR": "제1차",
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제437회국회(임시회) 제2차 전체회의",
+      "SCH_DT": "2026-07-28",
+      "SCH_TM": "10:00",
+      "CONF_DIV": "전체회의",
+      "CMIT_NM": "정무위원회",
+      "CONF_SESS": "제437회국회(임시회)",
+      "CONF_DGR": "제2차",
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제437회국회(임시회) 제9차 법안심사제1소위원회",
+      "SCH_DT": "2026-07-28",
+      "SCH_TM": "10:00",
+      "CONF_DIV": "법안심사제1소위원회",
+      "CMIT_NM": "법제사법위원회",
+      "CONF_SESS": "제437회국회(임시회)",
+      "CONF_DGR": "제9차",
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": "국회의장 기자간담회 / 사랑재",
+      "SCH_DT": "2026-07-28",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "31번 신고해도 막지 못한 교제폭력, 무엇이 문제인가?",
+      "SCH_DT": "2026-07-28",
+      "SCH_TM": "14:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "전진숙 의원실, 여성의당",
+      "EV_PLC": "의원회관 제9간담회의실(212호)"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "한국경영기술지도사회 정책현안 간담회: 더불어민주당 전국소상공인위원회",
+      "SCH_DT": "2026-07-28",
+      "SCH_TM": "14:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "오세희 의원실, 더불어민주당 전국소상공인위원회",
+      "EV_PLC": "의원회관 제2간담회의실(202호)"
+    }
+  ]
 }
