@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0",
+  "source": "열린국회정보",
+  "api": "ALLSCHEDULE",
+  "date": "2026-06-21",
+  "monthCache": "months/2026-06.json",
+  "collectedAt": "2026-07-16T07:48:26+09:00",
+  "count": 1,
+  "apiTotalCount": 1,
+  "fields": [
+    "SCH_KIND",
+    "SCH_CN",
+    "SCH_DT",
+    "SCH_TM",
+    "CONF_DIV",
+    "CMIT_NM",
+    "CONF_SESS",
+    "CONF_DGR",
+    "EV_INST_NM",
+    "EV_PLC"
+  ],
+  "items": [
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "조작기소 국정조사 특별위원회 소속 더불어민주당 위원 일동 기자회견",
+      "SCH_DT": "2026-06-21",
+      "SCH_TM": "10:01",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "이건태 의원(더불어민주당), 서영교 의원(더불어민주당), 이용우 의원(더불어민주당)",
+      "EV_PLC": null
+    }
+  ]
+}

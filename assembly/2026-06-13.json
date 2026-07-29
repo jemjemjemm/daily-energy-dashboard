@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0",
+  "source": "열린국회정보",
+  "api": "ALLSCHEDULE",
+  "date": "2026-06-13",
+  "monthCache": "months/2026-06.json",
+  "collectedAt": "2026-07-16T07:48:26+09:00",
+  "count": 2,
+  "apiTotalCount": 2,
+  "fields": [
+    "SCH_KIND",
+    "SCH_CN",
+    "SCH_DT",
+    "SCH_TM",
+    "CONF_DIV",
+    "CMIT_NM",
+    "CONF_SESS",
+    "CONF_DGR",
+    "EV_INST_NM",
+    "EV_PLC"
+  ],
+  "items": [
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "국민의힘 박성훈 의원(수석대변인) 브리핑",
+      "SCH_DT": "2026-06-13",
+      "SCH_TM": "11:07",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "박성훈 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "췌장장애 등록 완벽 대비 원데이 All-in-One 당뇨병 아카데미",
+      "SCH_DT": "2026-06-13",
+      "SCH_TM": "13:00~17:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "서미화 의원실, 대한소아내분비학회, 한국췌장장애인협회, 사단법인 한국대사증후군포럼, 사단법인한국소아당뇨인협회 등",
+      "EV_PLC": "의원회관 신관 제3세미나실"
+    }
+  ]
+}

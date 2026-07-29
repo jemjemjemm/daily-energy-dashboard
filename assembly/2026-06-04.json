@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0",
+  "source": "열린국회정보",
+  "api": "ALLSCHEDULE",
+  "date": "2026-06-04",
+  "monthCache": "months/2026-06.json",
+  "collectedAt": "2026-07-16T07:48:26+09:00",
+  "count": 5,
+  "apiTotalCount": 5,
+  "fields": [
+    "SCH_KIND",
+    "SCH_CN",
+    "SCH_DT",
+    "SCH_TM",
+    "CONF_DIV",
+    "CMIT_NM",
+    "CONF_SESS",
+    "CONF_DGR",
+    "EV_INST_NM",
+    "EV_PLC"
+  ],
+  "items": [
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "보조공학의 발전과 평등한 활용을 위한 기자회견",
+      "SCH_DT": "2026-06-04",
+      "SCH_TM": "10:56",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "서미화 의원(더불어민주당) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "현안 관련 기자회견",
+      "SCH_DT": "2026-06-04",
+      "SCH_TM": "11:33",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "배현진 의원(국민의힘), 박정훈 의원(국민의힘) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "김복동상 시상식 국제평화포럼 \"차별 가고 평화 오라!\": 인권평화운동가 김복동 100세 기념사업",
+      "SCH_DT": "2026-06-04",
+      "SCH_TM": "13:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김준형 의원실, 김복동의 희망, 김복동100세기념사업추진위원회",
+      "EV_PLC": "의원회관 제1소회의실"
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "가칭 일베 금지법 이훈기 의원 대표발의 및 조롱, 혐오표현 근절 촉구 기자회견",
+      "SCH_DT": "2026-06-04",
+      "SCH_TM": "13:40",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "이훈기 의원(더불어민주당) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "국민의힘 최보윤 의원(수석대변인) 브리핑\r\n",
+      "SCH_DT": "2026-06-04",
+      "SCH_TM": "17:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "최보윤 의원(국민의힘)",
+      "EV_PLC": null
+    }
+  ]
+}
