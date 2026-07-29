@@ -5,7 +5,7 @@
     "display_date": "2026년 7월 29일 (수)",
     "previous_day_label": "7/28",
     "today_label": "7/29",
-    "generated_at": "2026-07-29 08:19 KST",
+    "generated_at": "2026-07-29 17:50 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △28일(현지시간) 뉴욕상업거래소에서 9월물 미국 서부 텍사스산 원유(WTI)는 전 거래일 대비 3.35달러(4.06%) 하락한 배럴당 79.25달러에 마감함 △28일(현지시간) 로이터통신 등에 따르면 브렌트유 선물은 전 거래일보다 약 5% 하락한 배럴당 84.09달러에 거래를 마쳤다는 내용 △글로벌 정유 업황이 과거 반도체(DRAM) 시장에서 나타난 대규모 공급 부족 사태와 비슷한 흐름을 보이고 있다는 분석이 나왔다는 내용"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △한국주유소협회(협회)는 29일 '석유제품 최고가격 인하에도 주유소의 70%가 이를 제대로 반영하지 않았다'는 논란과 관련해 주유소의 재고 구조와 실제 영업 환경을 반영하지 않은 주장이라고 밝혔다는 내용 △중국이 예멘의 친이란 반군 후티와 직접 협의해 사우디아라비아산 원유를 실은 중국행 유조선이 통항할 홍해 수송로 확보에 나섰다는 보도가 나왔음 △러시아 연방보안국(FSB)이 텔레그램 창업자인 파벨 두로프(41)를 테러 지원 혐의로 기소하고 국제 수배 명단에 올렸다고 러시아 리아노보스티 통신이 29일(현지시간) 보도함"
     }
   ],
   "prices": {
@@ -1525,7 +1529,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(5/28~7/28)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1641,6 +1646,87 @@
       "merged_at": "2026-07-29 08:19:31 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-07-29.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△한국주유소협회(협회)는 29일 '석유제품 최고가격 인하에도 주유소의 70%가 이를 제대로 반영하지 않았다'는 논란과 관련해 주유소의 재고 구조와 실제 영업 환경을 반영하지 않은 주장이라고 밝혔다는 내용 △중국이 예멘의 친이란 반군 후티와 직접 협의해 사우디아라비아산 원유를 실은 중국행 유조선이 통항할 홍해 수송로 확보에 나섰다는 보도가 나왔음 △러시아 연방보안국(FSB)이 텔레그램 창업자인 파벨 두로프(41)를 테러 지원 혐의로 기소하고 국제 수배 명단에 올렸다고 러시아 리아노보스티 통신이 29일(현지시간) 보도함",
+    "trend_paragraphs": [
+      "뉴시스는 한국주유소협회(협회)는 29일 '석유제품 최고가격 인하에도 주유소의 70%가 이를 제대로 반영하지 않았다'는 논란과 관련해 주유소의 재고 구조와 실제 영업 환경을 반영하지 않은 주장이라고 밝혔다.",
+      "KBS는 중국이 예멘의 친이란 반군 후티와 직접 협의해 사우디아라비아산 원유를 실은 중국행 유조선이 통항할 홍해 수송로 확보에 나섰다는 보도가 나왔음.",
+      "한국일보는 러시아 연방보안국(FSB)이 텔레그램 창업자인 파벨 두로프(41)를 테러 지원 혐의로 기소하고 국제 수배 명단에 올렸다고 러시아 리아노보스티 통신이 29일(현지시간) 보도했다."
+    ],
+    "articles": [
+      {
+        "title": "주유소협회 \"'시간차 폭리' 주장 사실과 달라…재고 손실 고려해야\" 주장",
+        "press": "뉴시스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260729093251778",
+        "summary": "한국주유소협회(협회)는 29일 '석유제품 최고가격 인하에도 주유소의 70%가 이를 제대로 반영하지 않았다'는 논란과 관련해 주유소의 재고 구조와 실제 영업 환경을 반영하지 않은 주장이라고 밝혔다",
+        "snippet": "주유소협회 \"'시간차 폭리' 주장 사실과 달라…재고 손실 고려해야\" 주장 않은 주장이라고 밝혔다. 정부는 지난달 말부터 휘발유와 경유, 등유의 최고가격을 리터(ℓ)당 150원씩 인하했다. 이에 따라 정유사 공급가격 상한은 휘발유 1784원, 경유 1773원, 등유 1380원으로 조정됐다. 하지만 시민단체 에너지·석유시장감시단은 지난 27일... 8시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 9,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 0,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 984
+      },
+      {
+        "title": "“중국, 후티와 유조선 통항 직접 협의…홍해 원유 수송로 확보”",
+        "press": "KBS",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260729163139175",
+        "summary": "중국이 예멘의 친이란 반군 후티와 직접 협의해 사우디아라비아산 원유를 실은 중국행 유조선이 통항할 홍해 수송로 확보에 나섰다는 보도가 나왔음",
+        "snippet": "“중국, 후티와 유조선 통항 직접 협의…홍해 원유 수송로 확보” 중국이 예멘의 친이란 반군 후티와 직접 협의해 사우디아라비아산 원유 를 실은 중국행 유조선이 통항할 홍해 수송로 확보에 나섰다는 보도가 나왔습니다. 현지 시각 28일 로이터 통신은 이란 고위 당국자를 포함해 관련 사안에 정통한 소식통 6명을 인용해 중국이... 1시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 7,
+        "score_breakdown": {
+          "keyword": 3,
+          "title_importance": 2,
+          "press": 2,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1148
+      },
+      {
+        "title": "러시아, 텔레그램 창업자에 체포영장... 우크라전 고전에 분풀이?",
+        "press": "한국일보",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260729163809500",
+        "summary": "러시아 연방보안국(FSB)이 텔레그램 창업자인 파벨 두로프(41)를 테러 지원 혐의로 기소하고 국제 수배 명단에 올렸다고 러시아 리아노보스티 통신이 29일(현지시간) 보도했다",
+        "snippet": "러시아, 텔레그램 창업자에 체포영장... 우크라전 고전에 분풀이? 전투 손실이 급격하게 늘어나고 있다고 분석했다고 블룸버그통신이 보도했다. 러시아가 점령한 크림반도는 최근 우크라이나의 정유 시설 공격으로 극심한 전력난을 겪고 있다. 러시아와 텔레그램 사이 갈등은 이번이 처음은 아니다. 파벨 두로프는 4월 자신의... 1시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 1,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 0,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1006
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
