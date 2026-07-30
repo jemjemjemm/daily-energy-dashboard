@@ -3,9 +3,10 @@
   "source": "열린국회정보",
   "api": "ALLSCHEDULE",
   "date": "2026-07-31",
-  "collectedAt": "2026-07-15T21:49:16+09:00",
-  "count": 0,
-  "apiTotalCount": 0,
+  "monthCache": "months/2026-07.json",
+  "collectedAt": "2026-07-31T08:28:57+09:00",
+  "count": 3,
+  "apiTotalCount": 3,
   "fields": [
     "SCH_KIND",
     "SCH_CN",
@@ -18,5 +19,42 @@
     "EV_INST_NM",
     "EV_PLC"
   ],
-  "items": []
+  "items": [
+    {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": " (계속) 본회의 / 본회의장",
+      "SCH_DT": "2026-07-31",
+      "SCH_TM": "00:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "검찰 수사권 폐지 이후 피해자 인권 강화 방안",
+      "SCH_DT": "2026-07-31",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "최민희·정청래·김용민·박은정·이성윤·한민수 의원실",
+      "EV_PLC": "의원회관 제1소회의실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "추락재해방지 국회토론회: 추락사고예방을 위한 안전관리 실효성 제고 및 제도 개선방안",
+      "SCH_DT": "2026-07-31",
+      "SCH_TM": "14:00~16:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "강득구 의원실",
+      "EV_PLC": "의원회관 제3간담회의실(203호)"
+    }
+  ]
 }
