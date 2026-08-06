@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0",
+  "source": "열린국회정보",
+  "api": "ALLSCHEDULE",
+  "date": "2026-08-07",
+  "monthCache": "months/2026-08.json",
+  "collectedAt": "2026-08-07T08:26:15+09:00",
+  "count": 2,
+  "apiTotalCount": 2,
+  "fields": [
+    "SCH_KIND",
+    "SCH_CN",
+    "SCH_DT",
+    "SCH_TM",
+    "CONF_DIV",
+    "CMIT_NM",
+    "CONF_SESS",
+    "CONF_DGR",
+    "EV_INST_NM",
+    "EV_PLC"
+  ],
+  "items": [
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "우리나라의 바람직한 전력산업 구조개편 방향모색",
+      "SCH_DT": "2026-08-07",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김주영 의원실",
+      "EV_PLC": "의원회관 신관 제2세미나실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "아시아 예술 허브를 향한 모색: 국립아시아문화전당 문화예술토론회",
+      "SCH_DT": "2026-08-07",
+      "SCH_TM": "14:00~17:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "안도걸 의원실",
+      "EV_PLC": "기타 : 국립아시아문화전당 문화정보원 지하 1층 대강의실"
+    }
+  ]
+}
