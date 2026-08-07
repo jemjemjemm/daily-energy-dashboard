@@ -5,7 +5,7 @@
     "display_date": "2026년 8월 7일 (금)",
     "previous_day_label": "8/6",
     "today_label": "8/7",
-    "generated_at": "2026-08-07 08:26 KST",
+    "generated_at": "2026-08-07 17:24 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △6일(현지 시간) CBS뉴스에 따르면 국제유가 기준인 브렌트유는 거래일 기준 3거래일 연속 하락하며 배럴당 80달러 아래로 떨어졌지만, 이날 거래에서는 약 4% 상승해 장중 배럴당 82달러를 △전쟁 전 우리가 수입하는 원유 중 중동산 비율은 70% 안팎이었는데 이를 60% 이하로 낮춰 공식적으로 다변화에 나서겠다는 뜻임 △6일(현지시간) 로이터통신에 따르면 시노펙은 최근 러시아산 원유 구매 물량을 크게 확대하는 한편 중동산 원유 계약 물량은 일부 축소한 것으로 전해졌다는 내용"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △6일(현지시간) 인베스팅닷컴에 따르면 미국 정부의 예비 통계에서 7월 사우디산 원유의 대미 선적량은 0을 기록함 △40여년 만에 처음으로 미국의 사우디아라비아산 원유 수입량이 7월 한 달 간 전무했던 것으로 확인됐음 △대한송유관공사는 약 1000㎞가 넘는 송유관망을 통해 휘발유와 경유, 항공유 등 국내 석유제품 소비량의 약 58%를 수송하고 있음"
     }
   ],
   "prices": {
@@ -1582,7 +1586,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(6/6~8/6)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1698,6 +1703,87 @@
       "merged_at": "2026-08-07 08:26:47 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-08-07.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△6일(현지시간) 인베스팅닷컴에 따르면 미국 정부의 예비 통계에서 7월 사우디산 원유의 대미 선적량은 0을 기록함 △40여년 만에 처음으로 미국의 사우디아라비아산 원유 수입량이 7월 한 달 간 전무했던 것으로 확인됐음 △대한송유관공사는 약 1000㎞가 넘는 송유관망을 통해 휘발유와 경유, 항공유 등 국내 석유제품 소비량의 약 58%를 수송하고 있음",
+    "trend_paragraphs": [
+      "뉴시스는 6일(현지시간) 인베스팅닷컴에 따르면 미국 정부의 예비 통계에서 7월 사우디산 원유의 대미 선적량은 0을 기록했다.",
+      "뉴스1는 40여년 만에 처음으로 미국의 사우디아라비아산 원유 수입량이 7월 한 달 간 전무했던 것으로 확인됐다.",
+      "뉴시스는 대한송유관공사는 약 1000㎞가 넘는 송유관망을 통해 휘발유와 경유, 항공유 등 국내 석유제품 소비량의 약 58%를 수송하고 있다."
+    ],
+    "articles": [
+      {
+        "title": "호르무즈 차질에 美 7월 사우디산 원유 수입 끊겼다",
+        "press": "뉴시스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260807160700294",
+        "summary": "6일(현지시간) 인베스팅닷컴에 따르면 미국 정부의 예비 통계에서 7월 사우디산 원유의 대미 선적량은 0을 기록했다",
+        "snippet": "2 호르무즈 차질에 美 7월 사우디산 원유 수입 끊겼다 전쟁 이후 원유 가격이 오르고 운송이 불안해지자 대체 공급원 확보에 나섰다. 필립스66의 마크 래시어 최고경영자(CEO)는 자사 정유 시설에 투입되는 중동산 원유 비중을 1% 미만으로 낮췄다고 밝혔다. 일부 해외산 원유 대신 미국 유전에서 생산한 경질유를 뉴저지... 1시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 840
+      },
+      {
+        "title": "美 7월 사우디産 원유 수입량 '0'…1985년 이후 처음",
+        "press": "뉴스1",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260807112446234",
+        "summary": "40여년 만에 처음으로 미국의 사우디아라비아산 원유 수입량이 7월 한 달 간 전무했던 것으로 확인됐다",
+        "snippet": "美 7월 사우디産 원유 수입량 '0'…1985년 이후 처음 전무한 경우는 종종 있었으나, 한 달 전체에 걸쳐 전국 단위로 전무했던 것은 1985년 이후 처음이다. 올해 초까지만 해도 미국 정유사 들은 일일 80만 배럴 이상의 사우디산 원유를 구매했다. 특히 쉐브론과 PBF에너지 등이 사우디산 원유에 크게 의존해 왔다. 그러나... 6시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 695
+      },
+      {
+        "title": "폭염에 휘발유 출하 일부 중단…대한송유관공사 \"공급엔 차질 없어\"",
+        "press": "뉴시스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260807085553644",
+        "summary": "대한송유관공사는 약 1000㎞가 넘는 송유관망을 통해 휘발유와 경유, 항공유 등 국내 석유제품 소비량의 약 58%를 수송하고 있다",
+        "snippet": "폭염에 휘발유 출하 일부 중단…대한송유관공사 \"공급엔 차질 없어\" 무더위 속 작업으로 인한 사고 가능성을 최소화하는 데 초점을 맞췄다는 것이다. 일각에서는 폭염으로 휘발유 출하가 제한되면서 주유소 공급에도 차질이 발생할 수 있다는 우려가 제기됐지만, 공사 측은 가능성을 일축했다. 대한송유관공사 관계자는 \"이번 조치는... 8시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 9,
+        "score_breakdown": {
+          "keyword": 4,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 937
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
