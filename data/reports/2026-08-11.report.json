@@ -5,7 +5,7 @@
     "display_date": "2026년 8월 11일 (화)",
     "previous_day_label": "8/10",
     "today_label": "8/11",
-    "generated_at": "2026-08-11 08:14 KST",
+    "generated_at": "2026-08-11 17:08 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △이란은 지난 8일 호르무즈 해협 개방의 선결 조건으로 지난 6월 체결한 종전 업무협약(MOU) 내용을 크게 넘어서는 수준의 6개 요구사항을 미국 측에 내걸었다는 내용 △호르무즈 해협 재개 협상을 둘러싸고 미국과 이란이 기싸움을 이어가면서 국제 유가가 5% 급등했음 △지난 10일(현지시간) 뉴욕증시에서 다우존스산업평균지수는 전 거래일 대비 60.95포인트(0.11%) 내린 5만3975.98에 거래를 마쳤다는 내용"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △미국과 이란의 호르무즈 해협 재개방 협상 기대가 후퇴하면서 국제유가가 5% 넘게 급등하자 국내 정유주가 장 초반 강세를 보이고 있음 △산업용 가열로(Fired Heater) 전문기업 제이엔케이글로벌(126880)이 나이지리아 정유·석유화학 기업과 1700억원대 대규모 공급계약을 체결했다고 11일 밝혔다는 내용 △한편 GS칼텍스의 호실적에 힘입어 GS그룹도 올해 2·4분기 매출 7조4131억원, 영업이익 1조7174억원을 기록하며 전년 동기 대비 각각 25%, 253% 증가함"
     }
   ],
   "prices": {
@@ -1500,7 +1504,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(6/10~8/10)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1616,6 +1621,87 @@
       "merged_at": "2026-08-11 08:14:33 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-08-11.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△미국과 이란의 호르무즈 해협 재개방 협상 기대가 후퇴하면서 국제유가가 5% 넘게 급등하자 국내 정유주가 장 초반 강세를 보이고 있음 △산업용 가열로(Fired Heater) 전문기업 제이엔케이글로벌(126880)이 나이지리아 정유·석유화학 기업과 1700억원대 대규모 공급계약을 체결했다고 11일 밝혔다는 내용 △한편 GS칼텍스의 호실적에 힘입어 GS그룹도 올해 2·4분기 매출 7조4131억원, 영업이익 1조7174억원을 기록하며 전년 동기 대비 각각 25%, 253% 증가함",
+    "trend_paragraphs": [
+      "이데일리는 미국과 이란의 호르무즈 해협 재개방 협상 기대가 후퇴하면서 국제유가가 5% 넘게 급등하자 국내 정유주가 장 초반 강세를 보이고 있다.",
+      "이데일리는 산업용 가열로(Fired Heater) 전문기업 제이엔케이글로벌(126880)이 나이지리아 정유·석유화학 기업과 1700억원대 대규모 공급계약을 체결했다고 11일 밝혔다.",
+      "파이낸셜뉴스는 한편 GS칼텍스의 호실적에 힘입어 GS그룹도 올해 2·4분기 매출 7조4131억원, 영업이익 1조7174억원을 기록하며 전년 동기 대비 각각 25%, 253% 증가했다."
+    ],
+    "articles": [
+      {
+        "title": "호르무즈 협상 난항에 정유株 강세…S-Oil 7%대↑[특징주]",
+        "press": "이데일리",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260811093507648",
+        "summary": "미국과 이란의 호르무즈 해협 재개방 협상 기대가 후퇴하면서 국제유가가 5% 넘게 급등하자 국내 정유주가 장 초반 강세를 보이고 있다",
+        "snippet": "호르무즈 협상 난항에 정유株 강세…S-Oil 7%대↑[특징주] 마쳤다. 10월 인도분 브렌트유 역시 5.0% 상승한 배럴당 87.72달러를 기록했다. 이와 함께 원재료 조달 비용 측면에서도 국내 정유사 에 우호적인 환경이 조성되고 있다는 분석이 나온다. 하나증권에 따르면 사우디 아람코의 9월 아랍 경질유(Arab Light) 기준 공식... 7시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": -2
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1042
+      },
+      {
+        "title": "제이엔케이글로벌, 나이지리아 정유사 와 1712억 공급계약",
+        "press": "이데일리",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260811144736176",
+        "summary": "산업용 가열로(Fired Heater) 전문기업 제이엔케이글로벌(126880)이 나이지리아 정유·석유화학 기업과 1700억원대 대규모 공급계약을 체결했다고 11일 밝혔다",
+        "snippet": "제이엔케이글로벌, 나이지리아 정유사 와 1712억 공급계약 [이데일리 김형일 기자] 산업용 가열로(Fired Heater) 전문기업 제이엔케이글로벌(126880)이 나이지리아 정유·석유화학 기업과 1700억원대 대규모 공급계약을 체결했다고 11일 밝혔다. 제이엔케이글로벌 CI.(사진=제이엔케이글로벌) 확정 계약금액은 1712억 5130만... 2시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 748
+      },
+      {
+        "title": "GS칼텍스, 정유부문 힘입어 흑자전환…GS그룹도 동반 호실적",
+        "press": "파이낸셜뉴스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260811163646853",
+        "summary": "한편 GS칼텍스의 호실적에 힘입어 GS그룹도 올해 2·4분기 매출 7조4131억원, 영업이익 1조7174억원을 기록하며 전년 동기 대비 각각 25%, 253% 증가했다",
+        "snippet": "GS칼텍스, 정유부문 힘입어 흑자전환…GS그룹도 동반 호실적 평가이익 확대도 실적을 끌어올린 것으로 분석된다. 중장기적으로는 원가 경쟁력 개선도 기대된다. 미국의 원유 생산 증가세는 둔화되는 반면 중동산 원유 는 공급 확대와 수요 감소 영향으로 가격 경쟁력이 높아질 것으로 전망된다. 실제 두바이유 가격은 서부텍사스... 31분 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1366
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
