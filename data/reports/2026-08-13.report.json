@@ -5,7 +5,7 @@
     "display_date": "2026년 8월 13일 (목)",
     "previous_day_label": "8/12",
     "today_label": "8/13",
-    "generated_at": "2026-08-13 08:37 KST",
+    "generated_at": "2026-08-13 17:17 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △블룸버그에 따르면 러시아 유조선 '사이클론'은 지난 6월 18일 첫 수입 물량으로 약 4만2000톤의 인도산 휘발유를 선적함 △이지헌 특파원 = 호르무즈 해협 통항 재개를 둘러싼 협상이 교착 상태를 지속하는 와중에 원유 수요 감소 전망이 나오면서 12일(현지시간) 국제 유가가 보합권에서 마감함 △이제는 지속가능항공유도 생산할 수 있고, 재활용 과정에서는 산업의 쌀이라고 불리는 나프타까지 만들 수 있음"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △벤 케이힐 미국 텍사스대 오스틴캠퍼스 연구원은 “호르무즈 해협은 전쟁 이전과 같은 비중의 원유 수출을 다시 담당하지는 못할 가능성이 크다”며 “걸프 산유국들은 비용이 더 들고 효율은 다소 △12일(현지시각) 뉴욕상업거래소에서 9월물 미국 서부 텍사스산 원유(WTI)는 전장 대비 0.07달러 상승한 배럴당 83.27달러로 마감함 △이번 유가 하락의 주요 원인으로는 석유수출국기구(OPEC)와 국제에너지기구(IEA)가 발표한 2026년 석유 수요 전망치 하향 조정이 꼽힌다는 내용"
     }
   ],
   "prices": {
@@ -1518,7 +1522,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(6/12~8/12)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1634,6 +1639,87 @@
       "merged_at": "2026-08-13 08:38:15 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-08-13.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△벤 케이힐 미국 텍사스대 오스틴캠퍼스 연구원은 “호르무즈 해협은 전쟁 이전과 같은 비중의 원유 수출을 다시 담당하지는 못할 가능성이 크다”며 “걸프 산유국들은 비용이 더 들고 효율은 다소 △12일(현지시각) 뉴욕상업거래소에서 9월물 미국 서부 텍사스산 원유(WTI)는 전장 대비 0.07달러 상승한 배럴당 83.27달러로 마감함 △이번 유가 하락의 주요 원인으로는 석유수출국기구(OPEC)와 국제에너지기구(IEA)가 발표한 2026년 석유 수요 전망치 하향 조정이 꼽힌다는 내용",
+    "trend_paragraphs": [
+      "이데일리는 벤 케이힐 미국 텍사스대 오스틴캠퍼스 연구원은 “호르무즈 해협은 전쟁 이전과 같은 비중의 원유 수출을 다시 담당하지는 못할 가능성이 크다”며 “걸프 산유국들은 비용이 더 들고 효율은 다소 떨어지더라도 인프라의.",
+      "신아일보는 12일(현지시각) 뉴욕상업거래소에서 9월물 미국 서부 텍사스산 원유(WTI)는 전장 대비 0.07달러 상승한 배럴당 83.27달러로 마감했다.",
+      "파이낸셜뉴스는 이번 유가 하락의 주요 원인으로는 석유수출국기구(OPEC)와 국제에너지기구(IEA)가 발표한 2026년 석유 수요 전망치 하향 조정이 꼽힌다."
+    ],
+    "articles": [
+      {
+        "title": "이란 전쟁이 바꾼 원유길… 걸프 산유국, 탈 호르무즈 속도",
+        "press": "이데일리",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260813161942282",
+        "summary": "벤 케이힐 미국 텍사스대 오스틴캠퍼스 연구원은 “호르무즈 해협은 전쟁 이전과 같은 비중의 원유 수출을 다시 담당하지는 못할 가능성이 크다”며 “걸프 산유국들은 비용이 더 들고 효율은 다소 떨어지더라도 인프라의",
+        "snippet": "이란 전쟁이 바꾼 원유길… 걸프 산유국, 탈 호르무즈 속도 나섰다. 미국과 이란이 휴전에 합의하더라도 과거 호르무즈 해협 중심의 수출 체제로는 돌아가기 어려울 것이란 판단에 따라 원유 공급망 재편을 시작했다는 분석이다. 12일(현지시간) 뉴욕타임스(NYT)는 걸프 국가들이 호르무즈 해협을 우회하기 위한 송유관과 항만... 58분 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1672
+      },
+      {
+        "title": "[국제유가] 호르무즈 차질에 수요 전망 하향…강보합 마감",
+        "press": "신아일보",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260813082627656",
+        "summary": "12일(현지시각) 뉴욕상업거래소에서 9월물 미국 서부 텍사스산 원유(WTI)는 전장 대비 0.07달러 상승한 배럴당 83.27달러로 마감했다",
+        "snippet": "[국제유가] 호르무즈 차질에 수요 전망 하향…강보합 마감 하루 약 127만배럴의 공급 부족이 발생할 것으로 전망했다. 사이먼 웡 가벨리 포트폴리오 매니저는 특히 아시아 지역의 정유사 들이 호르무즈 해협 폐쇄로 충분한 원유를 확보하지 못하면서 정유시설 가동률을 낮추고 있기 때문에 수요 전망 하향은 놀라운 일이... 8시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 2,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1449
+      },
+      {
+        "title": "OPEC·IEA 석유 수요 전망 낮추자 국제유가 하락",
+        "press": "파이낸셜뉴스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260813162908829",
+        "summary": "이번 유가 하락의 주요 원인으로는 석유수출국기구(OPEC)와 국제에너지기구(IEA)가 발표한 2026년 석유 수요 전망치 하향 조정이 꼽힌다",
+        "snippet": "2 OPEC·IEA 석유 수요 전망 낮추자 국제유가 하락 난항과 중동 지역의 지정학적 리스크가 이어지고 있음에도 불구하고, 국제유가가 주요 기관들의 수요 전망치 하향 조정과 미국 원유 재고 증가 소식에 일제히 하락했다. 오일프라이스닷컴에 따르면 13일 아시아 시장에서 북해산 브렌트유) 선물 가격은 전일 대비 0.5... 48분 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1008
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
