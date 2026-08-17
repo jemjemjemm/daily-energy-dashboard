@@ -3,9 +3,9 @@
   "source": "열린국회정보",
   "api": "ALLSCHEDULE",
   "month": "2026-08",
-  "collectedAt": "2026-08-14T08:18:54+09:00",
-  "count": 226,
-  "apiTotalCount": 226,
+  "collectedAt": "2026-08-18T08:09:04+09:00",
+  "count": 251,
+  "apiTotalCount": 251,
   "fields": [
     "SCH_KIND",
     "SCH_CN",
@@ -30,6 +30,18 @@
       "CONF_DGR": null,
       "EV_INST_NM": "정동영·최형두·정진욱·이철규 의원실",
       "EV_PLC": "의원회관 신관 제2세미나실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "정동영 통일부 장관 초청 조찬 세미나: 국회 한반도평화포럼 릴레이 세미나",
+      "SCH_DT": "2026-08-25",
+      "SCH_TM": "07:30~08:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "윤건영·박지원 의원실, 국회한반도평화포럼",
+      "EV_PLC": "의원회관 신관 제1세미나실"
     },
     {
       "SCH_KIND": "국회행사",
@@ -66,6 +78,18 @@
       "CONF_DGR": null,
       "EV_INST_NM": "남인순 의원실",
       "EV_PLC": "기타 : 국회 본청 316호"
+    },
+    {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": "공무원 비상소집훈련 격려 방문 / 본청 지하1층 국회종합상황실",
+      "SCH_DT": "2026-08-18",
+      "SCH_TM": "08:40",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
+      "EV_PLC": null
     },
     {
       "SCH_KIND": "기자회견",
@@ -149,6 +173,18 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "강경숙 의원(조국혁신당)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": "전력산업발전을 통한 전력안보 강화 세미나 / 의원회관 제3세미나실",
+      "SCH_DT": "2026-08-19",
+      "SCH_TM": "09:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
       "EV_PLC": null
     },
     {
@@ -465,6 +501,18 @@
     },
     {
       "SCH_KIND": "국회행사",
+      "SCH_CN": "표현의 자유와 혐오표현",
+      "SCH_DT": "2026-08-25",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "윤용근 의원실",
+      "EV_PLC": "의원회관 제1간담회의실(201호)"
+    },
+    {
+      "SCH_KIND": "국회행사",
       "SCH_CN": "한·미 경제협력의 새 프레임",
       "SCH_DT": "2026-08-03",
       "SCH_TM": "10:00",
@@ -577,7 +625,7 @@
       "SCH_DT": "2026-08-19",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "과학기술정보방송통신위원회",
+      "CMIT_NM": "법제사법위원회",
       "CONF_SESS": "제438회국회(임시회)",
       "CONF_DGR": "제1차",
       "EV_INST_NM": null,
@@ -590,6 +638,18 @@
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
       "CMIT_NM": "보건복지위원회",
+      "CONF_SESS": "제438회국회(임시회)",
+      "CONF_DGR": "제1차",
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제438회국회(임시회) 제1차 전체회의",
+      "SCH_DT": "2026-08-19",
+      "SCH_TM": "10:00",
+      "CONF_DIV": "전체회의",
+      "CMIT_NM": "과학기술정보방송통신위원회",
       "CONF_SESS": "제438회국회(임시회)",
       "CONF_DGR": "제1차",
       "EV_INST_NM": null,
@@ -661,7 +721,7 @@
       "SCH_DT": "2026-08-31",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "과학기술정보방송통신위원회",
+      "CMIT_NM": "농림축산식품해양수산위원회",
       "CONF_SESS": "제438회국회(임시회)",
       "CONF_DGR": "제2차",
       "EV_INST_NM": null,
@@ -673,7 +733,31 @@
       "SCH_DT": "2026-08-31",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "농림축산식품해양수산위원회",
+      "CMIT_NM": "과학기술정보방송통신위원회",
+      "CONF_SESS": "제438회국회(임시회)",
+      "CONF_DGR": "제2차",
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제438회국회(임시회) 제2차 전체회의",
+      "SCH_DT": "2026-08-21",
+      "SCH_TM": "10:00",
+      "CONF_DIV": "전체회의",
+      "CMIT_NM": "법제사법위원회",
+      "CONF_SESS": "제438회국회(임시회)",
+      "CONF_DGR": "제2차",
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제438회국회(임시회) 제2차 전체회의",
+      "SCH_DT": "2026-08-19",
+      "SCH_TM": "10:00",
+      "CONF_DIV": "전체회의",
+      "CMIT_NM": "외교통일위원회",
       "CONF_SESS": "제438회국회(임시회)",
       "CONF_DGR": "제2차",
       "EV_INST_NM": null,
@@ -736,6 +820,30 @@
       "CMIT_NM": "행정안전위원회",
       "CONF_SESS": "제438회국회(임시회)",
       "CONF_DGR": "제8차",
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": "김대중 대통령 서거 17주기 추모식 / 국립서울현충원 현충관",
+      "SCH_DT": "2026-08-18",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": "제81주년 광복절 경축식 / 세종문화회관",
+      "SCH_DT": "2026-08-15",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
       "EV_INST_NM": null,
       "EV_PLC": null
     },
@@ -993,6 +1101,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "현안 관련 기자회견",
+      "SCH_DT": "2026-08-14",
+      "SCH_TM": "10:20",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김민전 의원(국민의힘) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "집회 자유의 확대를 위한 집회·시위에 관한 법률 개정안 발의 참여연대-용혜인 의원 공동기자회견",
       "SCH_DT": "2026-08-06",
       "SCH_TM": "10:21",
@@ -1232,6 +1352,18 @@
       "EV_PLC": "의원회관 제6간담회의실(209호)"
     },
     {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": "승진자 임명장 수여식 / 국회의사당 본청 제4회의실",
+      "SCH_DT": "2026-08-20",
+      "SCH_TM": "11:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
       "SCH_KIND": "의장단(부의장)",
       "SCH_CN": " 마리아 레이첼 아레나즈 필리핀 하원 부의장 접견 / 박덕흠 부의장실",
       "SCH_DT": "2026-08-13",
@@ -1376,6 +1508,18 @@
       "EV_PLC": null
     },
     {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": "퇴직공무원 포상 수여식 / 국회 접견실",
+      "SCH_DT": "2026-08-20",
+      "SCH_TM": "11:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
       "SCH_KIND": "기자회견",
       "SCH_CN": "더불어민주당 이주희 의원(원내대변인) 브리핑",
       "SCH_DT": "2026-08-04",
@@ -1436,6 +1580,18 @@
       "EV_PLC": null
     },
     {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": "퇴직공무원 오찬간담회 / 국회 본관 2식당 별실 2호",
+      "SCH_DT": "2026-08-20",
+      "SCH_TM": "12:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
       "SCH_KIND": "기자회견",
       "SCH_CN": "주요 현안 관련 기자회견",
       "SCH_DT": "2026-08-10",
@@ -1458,6 +1614,18 @@
       "CONF_DGR": null,
       "EV_INST_NM": "이정헌 의원(더불어민주당)",
       "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "가맹사업법 시행령 입법예고안의 한계와 단체협의원 실효성 확보 방안 토론회",
+      "SCH_DT": "2026-08-21",
+      "SCH_TM": "13:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "이강일·민병덕·강준현·김남근·김문수·김우영·김윤·박상혁·박희승·송재봉·오세희·우원식·이용우·이재관·이학영 의원실 등",
+      "EV_PLC": "의원회관 제6간담회의실(209호)"
     },
     {
       "SCH_KIND": "기자회견",
@@ -1532,6 +1700,18 @@
       "EV_PLC": null
     },
     {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "올바른 수계기금 활용을 통한 댐 주변지역 발전방안 모색",
+      "SCH_DT": "2026-08-31",
+      "SCH_TM": "13:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "문금주 의원실, 전남댐주민연합회, 전국댐법과제도개선위원회",
+      "EV_PLC": "의원회관 제11간담회의실(216호)"
+    },
+    {
       "SCH_KIND": "의장단(국회의장)",
       "SCH_CN": "2026 통일걷기 해단식 / 파주 평화누리 DMZ생태관광지원센터",
       "SCH_DT": "2026-08-14",
@@ -1578,6 +1758,18 @@
       "CONF_DGR": null,
       "EV_INST_NM": "이수진·남인순·김용만 의원실, 국회 역사정의포럼, 식민과 냉전연구회·일본군'위안부'문제연구소",
       "EV_PLC": "의원회관 제8간담회의실(211호)"
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "더불어민주당 국민소통위원회 민주파출소 정례브리핑",
+      "SCH_DT": "2026-08-14",
+      "SCH_TM": "13:39",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김현 의원(더불어민주당)",
+      "EV_PLC": null
     },
     {
       "SCH_KIND": "기자회견",
@@ -1661,6 +1853,18 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "민병덕 의원(더불어민주당) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "긴급조치 특별법 제정 촉구 기자회견",
+      "SCH_DT": "2026-08-14",
+      "SCH_TM": "13:53",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "박주민 의원(더불어민주당) 외",
       "EV_PLC": null
     },
     {
@@ -1881,6 +2085,18 @@
     },
     {
       "SCH_KIND": "국회행사",
+      "SCH_CN": "우키시마호 폭침사건 진상규명 세미나",
+      "SCH_DT": "2026-08-19",
+      "SCH_TM": "14:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "이상식 의원실, 사단법인 우키시마호연합회",
+      "EV_PLC": "의원회관 제8간담회의실(211호)"
+    },
+    {
+      "SCH_KIND": "국회행사",
       "SCH_CN": "웨딩플래너가 만든 그림자 거래, 어떻게 할 것인가?: 웨딩산업 거래구조 개선 방안 토론회",
       "SCH_DT": "2026-08-14",
       "SCH_TM": "14:00",
@@ -2061,6 +2277,18 @@
     },
     {
       "SCH_KIND": "국회행사",
+      "SCH_CN": "통합돌봄시대, 방문치과진료 시범사업 시행을 위한 국회 토론회",
+      "SCH_DT": "2026-08-27",
+      "SCH_TM": "14:00~15:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "서영석 의원실, 고령사회 치과의료 포럼",
+      "EV_PLC": "의원회관 제3간담회의실(203호)"
+    },
+    {
+      "SCH_KIND": "국회행사",
       "SCH_CN": "(공공AI도입을 통한) 국가 AI대전환 촉진 2차 국회 토론회",
       "SCH_DT": "2026-08-10",
       "SCH_TM": "14:00~15:50",
@@ -2166,6 +2394,18 @@
       "CONF_DGR": null,
       "EV_INST_NM": "이재정·안철수·이강일·강경숙·강선우·김건·김민전·김병주·김소회·김태호·나경원·민병덕·박홍배·백혜련·부승찬 의원실 등",
       "EV_PLC": "의원회관 제4간담회의실(204호)"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "외국인 유학생의 유치·취업·정착 연계 강화를 위한 국회 정책세미나",
+      "SCH_DT": "2026-08-21",
+      "SCH_TM": "14:00~16:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김준혁·박범계·고민정·정성국·강경숙 의원실",
+      "EV_PLC": "의원회관 제2간담회의실(202호)"
     },
     {
       "SCH_KIND": "국회행사",
@@ -2277,6 +2517,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "김태규 의원 기자회견",
+      "SCH_DT": "2026-08-14",
+      "SCH_TM": "14:15",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김태규 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "현안 관련 기자회견",
       "SCH_DT": "2026-08-04",
       "SCH_TM": "14:16",
@@ -2285,6 +2537,18 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "김민전 의원(국민의힘) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "5.18 민주화운동 관련 긴급 기자회견",
+      "SCH_DT": "2026-08-14",
+      "SCH_TM": "14:19",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "이진숙 의원(국민의힘)",
       "EV_PLC": null
     },
     {
@@ -2529,6 +2793,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "정치 현안 관련 기자회견",
+      "SCH_DT": "2026-08-14",
+      "SCH_TM": "15:20",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김문수 의원(더불어민주당), 조계원 의원(더불어민주당) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "국회 기후위기특별위원회 소속 국민의힘 위원 일동 기자회견",
       "SCH_DT": "2026-08-10",
       "SCH_TM": "15:23",
@@ -2624,6 +2900,18 @@
       "EV_PLC": "의원회관 제11간담회의실(216호)"
     },
     {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "제조암묵지 디지털 전환을 위한 제도(K-FDE)구축 정책간담회",
+      "SCH_DT": "2026-08-18",
+      "SCH_TM": "16:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "임문영 의원실",
+      "EV_PLC": "의원회관 제7간담회의실(210호)"
+    },
+    {
       "SCH_KIND": "기자회견",
       "SCH_CN": "현안 관련 기자회견",
       "SCH_DT": "2026-08-13",
@@ -2657,6 +2945,18 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "윤건영 의원(더불어민주당), 정춘생 의원(조국혁신당), 양부남 의원(더불어민주당), 이해식 의원(더불어민주당), 전용기 의원(더불어민주당), 김영배 의원(더불어민주당), 이기헌 의원(더불어민주당), 김용만 의원(더불어민주당), 김남희 의원(더불어민주당), 김성회 의원(더불어민주당)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "국민의힘 박충권 의원(수석대변인) 브리핑",
+      "SCH_DT": "2026-08-14",
+      "SCH_TM": "16:57",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "박충권 의원(국민의힘)",
       "EV_PLC": null
     },
     {
