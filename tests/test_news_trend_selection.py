@@ -15,6 +15,7 @@ from scripts.apply_news_to_report import (
     specific_article_summary,
     update_summary,
     to_summary_clause,
+    valid_article,
 )
 from scripts.fetch_news_candidates import PLAIN_QUERIES, daum_card_press, trusted_direct_count
 from scripts.generate_html_report import article_desc_for_display, fallback_article_desc
@@ -30,6 +31,26 @@ from scripts.news_article_rules import (
 
 
 class NewsTrendSelectionTest(unittest.TestCase):
+    def test_photo_caption_article_is_excluded(self) -> None:
+        item = {
+            "title": "(서울=연합뉴스) 류영석 기자 = 주유소에서 시민이 차에 기름을 넣고 있다. 2026.8.21 ondol@yna.co.kr (끝) ▶제보는 카톡 okjebo",
+            "press": "연합뉴스",
+            "url": "https://v.daum.net/v/20260821140502845",
+            "snippet": "오늘 9차 석유 최고가격 발표 사진입니다. Copyright © 연합뉴스",
+        }
+
+        self.assertFalse(valid_article(item))
+
+    def test_regular_yonhap_article_with_byline_footer_is_kept(self) -> None:
+        item = {
+            "title": "인천 7월 수출, 금 456% 늘고 석유 제품 99% 줄어",
+            "press": "연합뉴스",
+            "url": "https://v.daum.net/v/20260821162402099",
+            "snippet": "인천 석유제품 수출은 98.8% 감소했다. chamse@yna.co.kr ▶제보는 카톡 okjebo",
+        }
+
+        self.assertTrue(valid_article(item))
+
     def test_declarative_news_summaries_become_nominalized_clauses(self) -> None:
         samples = {
             "홍해와 흑해가 전쟁 여파로 위태로운 상황에 처하면서다": "홍해와 흑해가 전쟁 여파로 위태로운 상황에 처함",

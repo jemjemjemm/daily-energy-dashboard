@@ -68,6 +68,12 @@ BAD_SUMMARY_PHRASES = [
 ]
 KST = timezone(timedelta(hours=9))
 
+PHOTO_CAPTION_MARKERS = (
+    "▶제보는 카톡",
+    "Copyright © 연합뉴스",
+    "(끝)",
+)
+
 PRICE_SUMMARY_RE = re.compile(r"\s*가격 그래프는 기준일 전일 기준 과거 2개월\([^)]*\)만 표시하며, 값이 0인 가격은 제외\.?,?", re.U)
 
 
@@ -928,6 +934,17 @@ def valid_article(
     title = clean(item.get("title"))
     url = clean(item.get("url"))
     if not title or not url:
+        return False
+    # 연합뉴스 사진 기사처럼 제목 자리에 촬영 캡션·기자 이메일·제보 문구가
+    # 들어온 항목은 본문 기사가 아니다. 이런 항목을 대표 기사로 쓰면 제목과
+    # 요약에 날짜/이메일/저작권 안내만 노출되므로 선별 전에 제외한다.
+    title_and_snippet = f"{title} {clean(item.get('snippet') or item.get('summary'))}"
+    has_reporter_email = bool(re.search(r"[A-Za-z0-9._%+-]+@yna\.co\.kr\b", title_and_snippet, re.I))
+    has_caption_lead = bool(re.match(r"^\([^)]{2,30}=연합뉴스\)\s+.+?\s+기자\s*=", title))
+    marker_count = sum(marker in title_and_snippet for marker in PHOTO_CAPTION_MARKERS)
+    if has_caption_lead and (has_reporter_email or marker_count >= 1):
+        return False
+    if has_reporter_email and marker_count >= 2:
         return False
     if any(b in title for b in BAD_TITLES):
         return False
