@@ -3,9 +3,9 @@
   "source": "열린국회정보",
   "api": "ALLSCHEDULE",
   "month": "2026-08",
-  "collectedAt": "2026-08-24T08:22:41+09:00",
-  "count": 377,
-  "apiTotalCount": 377,
+  "collectedAt": "2026-08-25T08:34:38+09:00",
+  "count": 393,
+  "apiTotalCount": 393,
   "fields": [
     "SCH_KIND",
     "SCH_CN",
@@ -168,6 +168,18 @@
       "SCH_CN": "조국혁신당 강경숙 의원(원내대변인) 브리핑",
       "SCH_DT": "2026-08-12",
       "SCH_TM": "09:16",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "강경숙 의원(조국혁신당)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "조국혁신당 강경숙 의원(원내대변인) 브리핑",
+      "SCH_DT": "2026-08-24",
+      "SCH_TM": "09:17",
       "CONF_DIV": null,
       "CMIT_NM": null,
       "CONF_SESS": null,
@@ -861,6 +873,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "더불어민주당 박성준 의원(수석대변인) 브리핑",
+      "SCH_DT": "2026-08-23",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "박성준 의원(더불어민주당)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "사회연대경제기본법 8월 본회의 통과 촉구 기자회견",
       "SCH_DT": "2026-08-12",
       "SCH_TM": "10:00",
@@ -926,6 +950,18 @@
       "SCH_TM": "10:00",
       "CONF_DIV": "예산·결산기금심사소위원회",
       "CMIT_NM": "행정안전위원회",
+      "CONF_SESS": "제438회국회(임시회)",
+      "CONF_DGR": "제1차",
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제438회국회(임시회) 제1차 예산결산기금심사소위원회",
+      "SCH_DT": "2026-08-25",
+      "SCH_TM": "10:00",
+      "CONF_DIV": "예산결산기금심사소위원회",
+      "CMIT_NM": "기후에너지환경노동위원회",
       "CONF_SESS": "제438회국회(임시회)",
       "CONF_DGR": "제1차",
       "EV_INST_NM": null,
@@ -1021,7 +1057,7 @@
       "SCH_DT": "2026-08-24",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "예산결산특별위원회",
+      "CMIT_NM": "행정안전위원회",
       "CONF_SESS": "제438회국회(임시회)",
       "CONF_DGR": "제1차",
       "EV_INST_NM": null,
@@ -1033,19 +1069,7 @@
       "SCH_DT": "2026-08-24",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "행정안전위원회",
-      "CONF_SESS": "제438회국회(임시회)",
-      "CONF_DGR": "제1차",
-      "EV_INST_NM": null,
-      "EV_PLC": null
-    },
-    {
-      "SCH_KIND": "위원회",
-      "SCH_CN": "제438회국회(임시회) 제1차 전체회의",
-      "SCH_DT": "2026-08-20",
-      "SCH_TM": "10:00",
-      "CONF_DIV": "전체회의",
-      "CMIT_NM": "재정경제기획위원회",
+      "CMIT_NM": "예산결산특별위원회",
       "CONF_SESS": "제438회국회(임시회)",
       "CONF_DGR": "제1차",
       "EV_INST_NM": null,
@@ -1058,6 +1082,18 @@
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
       "CMIT_NM": "국방위원회",
+      "CONF_SESS": "제438회국회(임시회)",
+      "CONF_DGR": "제1차",
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제438회국회(임시회) 제1차 전체회의",
+      "SCH_DT": "2026-08-20",
+      "SCH_TM": "10:00",
+      "CONF_DIV": "전체회의",
+      "CMIT_NM": "재정경제기획위원회",
       "CONF_SESS": "제438회국회(임시회)",
       "CONF_DGR": "제1차",
       "EV_INST_NM": null,
@@ -1081,7 +1117,7 @@
       "SCH_DT": "2026-08-19",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "과학기술정보방송통신위원회",
+      "CMIT_NM": "보건복지위원회",
       "CONF_SESS": "제438회국회(임시회)",
       "CONF_DGR": "제1차",
       "EV_INST_NM": null,
@@ -1093,7 +1129,7 @@
       "SCH_DT": "2026-08-19",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "보건복지위원회",
+      "CMIT_NM": "과학기술정보방송통신위원회",
       "CONF_SESS": "제438회국회(임시회)",
       "CONF_DGR": "제1차",
       "EV_INST_NM": null,
@@ -1198,10 +1234,10 @@
     {
       "SCH_KIND": "위원회",
       "SCH_CN": "제438회국회(임시회) 제2차 전체회의",
-      "SCH_DT": "2026-08-21",
+      "SCH_DT": "2026-08-25",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "법제사법위원회",
+      "CMIT_NM": "국회운영위원회",
       "CONF_SESS": "제438회국회(임시회)",
       "CONF_DGR": "제2차",
       "EV_INST_NM": null,
@@ -1214,6 +1250,18 @@
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
       "CMIT_NM": "보건복지위원회",
+      "CONF_SESS": "제438회국회(임시회)",
+      "CONF_DGR": "제2차",
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제438회국회(임시회) 제2차 전체회의",
+      "SCH_DT": "2026-08-21",
+      "SCH_TM": "10:00",
+      "CONF_DIV": "전체회의",
+      "CMIT_NM": "법제사법위원회",
       "CONF_SESS": "제438회국회(임시회)",
       "CONF_DGR": "제2차",
       "EV_INST_NM": null,
@@ -1653,6 +1701,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "더불어민주당 조계원 의원(대변인) 브리핑",
+      "SCH_DT": "2026-08-23",
+      "SCH_TM": "10:20",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "조계원 의원(더불어민주당)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "법안 발의 관련 기자회견",
       "SCH_DT": "2026-08-04",
       "SCH_TM": "10:20",
@@ -1881,6 +1941,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "인요한 대한적십자사 회장 인준 반대 기자회견",
+      "SCH_DT": "2026-08-24",
+      "SCH_TM": "10:40",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "전종덕 의원(진보당) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "현안 관련 기자회견",
       "SCH_DT": "2026-08-07",
       "SCH_TM": "10:40",
@@ -1961,6 +2033,18 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "전진숙 의원(더불어민주당)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제438회국회(임시회) 제1차 국회운영개선소위원회",
+      "SCH_DT": "2026-08-24",
+      "SCH_TM": "10:50",
+      "CONF_DIV": "국회운영개선소위원회",
+      "CMIT_NM": "국회운영위원회",
+      "CONF_SESS": "제438회국회(임시회)",
+      "CONF_DGR": "제1차",
+      "EV_INST_NM": null,
       "EV_PLC": null
     },
     {
@@ -2145,6 +2229,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "더불어민주당 이용우 의원(대변인) 브리핑",
+      "SCH_DT": "2026-08-24",
+      "SCH_TM": "11:11",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "이용우 의원(더불어민주당)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "더불어민주당 이주희 의원(원내대변인) 브리핑",
       "SCH_DT": "2026-08-20",
       "SCH_TM": "11:11",
@@ -2304,6 +2400,18 @@
       "SCH_CN": "국민의힘 최보윤 의원(수석대변인) 브리핑",
       "SCH_DT": "2026-08-16",
       "SCH_TM": "11:27",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "최보윤 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "국민의힘 최보윤 의원(수석대변인) 브리핑",
+      "SCH_DT": "2026-08-23",
+      "SCH_TM": "11:28",
       "CONF_DIV": null,
       "CMIT_NM": null,
       "CONF_SESS": null,
@@ -2493,6 +2601,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "국민의힘 최수진 의원(원내수석대변인) 브리핑",
+      "SCH_DT": "2026-08-22",
+      "SCH_TM": "13:10",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "최수진 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "더불어민주당 이주희 의원(원내대변인) 브리핑",
       "SCH_DT": "2026-08-13",
       "SCH_TM": "13:18",
@@ -2669,7 +2789,7 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "남인순·김윤 의원실, 국민연금공단 국민연금연구원",
-      "EV_PLC": "국회도서관 소강당"
+      "EV_PLC": "의원회관 신관 제3세미나실"
     },
     {
       "SCH_KIND": "국회행사",
@@ -2682,6 +2802,18 @@
       "CONF_DGR": null,
       "EV_INST_NM": "이수진·남인순·김용만 의원실, 국회 역사정의포럼, 식민과 냉전연구회·일본군'위안부'문제연구소",
       "EV_PLC": "의원회관 제8간담회의실(211호)"
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "배준영 의원 기자회견",
+      "SCH_DT": "2026-08-22",
+      "SCH_TM": "13:32",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "배준영 의원(국민의힘)",
+      "EV_PLC": null
     },
     {
       "SCH_KIND": "기자회견",
@@ -3234,6 +3366,18 @@
       "CONF_DGR": null,
       "EV_INST_NM": "이언주 의원실",
       "EV_PLC": "의원회관 제7간담회의실(210호)"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "지역경제활성화를 위한 지역재투자법 제정 입법토론회",
+      "SCH_DT": "2026-08-27",
+      "SCH_TM": "14:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "송재봉·민병덕·임호선·박희승·윤종오·이강일·이광희·전진숙·정진욱·허성무 의원실, (재)희망제작소 등",
+      "EV_PLC": "의원회관 제6간담회의실(209호)"
     },
     {
       "SCH_KIND": "국회행사",
@@ -3933,6 +4077,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "더불어민주당 박성준 의원(수석대변인) 브리핑",
+      "SCH_DT": "2026-08-23",
+      "SCH_TM": "14:31",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "박성준 의원(더불어민주당)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "현안 관련 기자회견",
       "SCH_DT": "2026-08-21",
       "SCH_TM": "14:38",
@@ -4341,6 +4497,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "국민의힘 박성훈 의원(수석대변인) 브리핑",
+      "SCH_DT": "2026-08-22",
+      "SCH_TM": "15:36",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "박성훈 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "국민의힘 박충권 의원(수석대변인) 브리핑",
       "SCH_DT": "2026-08-11",
       "SCH_TM": "15:40",
@@ -4349,6 +4517,18 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "박충권 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "국민의힘 박성훈 의원(수석대변인) 브리핑",
+      "SCH_DT": "2026-08-24",
+      "SCH_TM": "15:46",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "박성훈 의원(국민의힘)",
       "EV_PLC": null
     },
     {
@@ -4493,6 +4673,18 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "안철수 의원(국민의힘) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "더불어민주당 박성준 의원(수석대변인) 브리핑",
+      "SCH_DT": "2026-08-23",
+      "SCH_TM": "17:12",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "박성준 의원(더불어민주당)",
       "EV_PLC": null
     },
     {
