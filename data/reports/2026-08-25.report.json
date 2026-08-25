@@ -5,7 +5,7 @@
     "display_date": "2026년 8월 25일 (화)",
     "previous_day_label": "8/24",
     "today_label": "8/25",
-    "generated_at": "2026-08-25 08:34 KST",
+    "generated_at": "2026-08-25 17:26 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △정제가 새로운 병목으로 떠오르면서 세계 5위의 정제 능력을 갖춘 한국 정유업계가 해외 고객 확보에 적극 나서고 있음 △24일(현지시간) 독일 도이체벨레 등 외신들에 따르면 이란이 호르무즈해협 통행료 징수 목적으로 신설한 페르시아만해협청(PGSA)은 전날 소셜미디어 엑스(X)에 45척의 유조선 명단을 공개함 △미국 뉴욕증시는 인공지능(AI)과 반도체 관련주를 중심으로 기술주 매도세가 이어지며 혼조세로 마감함"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △아시아 정유업체들이 9월 미국산 원유 구매량을 전월의 두 배 가까이 늘리는 등 매입을 재개하고 있음 △이에 따라 항공유는 전체 수출 비중 22.5%를 기록해 휘발유(21.1%)를 제치고 최대 수출품목인 경유에 이어 2위로 올라섰다는 내용 △25일(현지 시간) 파이낸셜타임스(FT)에 따르면 이란 에너지최적화기구(EOO)는 현재 자국내 휘발유 공급량이 하루 수요량인 1억3500만L(리터)보다 1500만L(리터)가 부족하다고 밝혔다는 내용"
     }
   ],
   "prices": {
@@ -1602,7 +1606,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(6/24~8/24)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1718,6 +1723,87 @@
       "merged_at": "2026-08-25 08:35:12 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-08-25.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△아시아 정유업체들이 9월 미국산 원유 구매량을 전월의 두 배 가까이 늘리는 등 매입을 재개하고 있음 △이에 따라 항공유는 전체 수출 비중 22.5%를 기록해 휘발유(21.1%)를 제치고 최대 수출품목인 경유에 이어 2위로 올라섰다는 내용 △25일(현지 시간) 파이낸셜타임스(FT)에 따르면 이란 에너지최적화기구(EOO)는 현재 자국내 휘발유 공급량이 하루 수요량인 1억3500만L(리터)보다 1500만L(리터)가 부족하다고 밝혔다는 내용",
+    "trend_paragraphs": [
+      "뉴스1는 아시아 정유업체들이 9월 미국산 원유 구매량을 전월의 두 배 가까이 늘리는 등 매입을 재개하고 있다.",
+      "서울경제는 이에 따라 항공유는 전체 수출 비중 22.5%를 기록해 휘발유(21.1%)를 제치고 최대 수출품목인 경유에 이어 2위로 올라섰다.",
+      "뉴시스는 25일(현지 시간) 파이낸셜타임스(FT)에 따르면 이란 에너지최적화기구(EOO)는 현재 자국내 휘발유 공급량이 하루 수요량인 1억3500만L(리터)보다 1500만L(리터)가 부족하다고 밝혔다."
+    ],
+    "articles": [
+      {
+        "title": "亞 정유 업체, 중동 또 막히자 美원유 '싹쓸이'…美내수 공급 압박",
+        "press": "뉴스1",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260825154351782",
+        "summary": "아시아 정유업체들이 9월 미국산 원유 구매량을 전월의 두 배 가까이 늘리는 등 매입을 재개하고 있다",
+        "snippet": "亞 정유 업체, 중동 또 막히자 美원유 '싹쓸이'…美내수 공급 압박 미국 텍사스주 미들랜드 남쪽 유전 지대의 시추 장비. 2026.5.5. ⓒ 로이터=뉴스1 (서울=뉴스1) 윤다정 기자 = 아시아 정유 업체들이 9월 미국산 원유 구매량을 전월의 두 배 가까이 늘리는 등 매입을 재개하고 있다. 미국 내 휘발유 가격이 이미 사상 최고 수준인... 1시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1472
+      },
+      {
+        "title": "‘단가의 힘’ 울산 석유제품 173억 달러 수출…항공유, 휘발유 제치고 2위",
+        "press": "서울경제",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260825164551952",
+        "summary": "이에 따라 항공유는 전체 수출 비중 22.5%를 기록해 휘발유(21.1%)를 제치고 최대 수출품목인 경유에 이어 2위로 올라섰다",
+        "snippet": "‘단가의 힘’ 울산 석유제품 173억 달러 수출…항공유, 휘발유 제치고 2위 감소에도 주요 품목의 수출단가 상승이 전체 수출 실적 확대를 이끌었다”며 “항공유와 윤활유의 비중 확대와 함께 품목별 시장 차별화가 뚜렷해진 만큼 국제 유가 및 글로벌 시장 동향을 면밀히 모니터링할 방침”이라고 밝혔다. 울산=장지승 기자 jjs@sedaily.com 40분 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 8,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 0,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1590
+      },
+      {
+        "title": "주유소에 긴 줄…美 해상 봉쇄에 이란 내 휘발유 부족 심화",
+        "press": "뉴시스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260825160556029",
+        "summary": "25일(현지 시간) 파이낸셜타임스(FT)에 따르면 이란 에너지최적화기구(EOO)는 현재 자국내 휘발유 공급량이 하루 수요량인 1억3500만L(리터)보다 1500만L(리터)가 부족하다고 밝혔다",
+        "snippet": "주유소에 긴 줄…美 해상 봉쇄에 이란 내 휘발유 부족 심화 전해진다. 이란은 주요 원유 수출국이지만 국내 휘발유 수요를 충당하기 위해 오랫동안 수입에 의존해 왔다. 그러나 전쟁으로 정유 시설이 파괴되고 미국의 해상 봉쇄가 지난달 14일부터 이어지며 연료 확보가 크게 제한됐다. 미국의 경제 압박도 강화되고 있다... 1시간 전 4",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 8,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 0,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1265
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
