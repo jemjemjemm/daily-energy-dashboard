@@ -5,7 +5,7 @@
     "display_date": "2026년 8월 26일 (수)",
     "previous_day_label": "8/25",
     "today_label": "8/26",
-    "generated_at": "2026-08-26 17:15 KST",
+    "generated_at": "2026-08-26 17:17 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △이란 전쟁 장기화로 호르무즈해협 통항이 불안정한 가운데 일본 정부가 중동에 집중된 원유 조달 구조를 개선하기 위해 호르무즈해협 우회 송유관 건설을 지원하기로 함 △일본 정부가 석유 수송의 안정성을 확보하기 위해 호르무즈 해협을 우회하는 원유 조달 파이프라인의 건설을 지원하기로 했다고 니혼게이자이신문이 25일 보도했음 △미국과 이란 간 전쟁으로 호르무즈 해협이 봉쇄된 후 일본이 대체 원유 수입길을 확보하기 위해 중동 국가의 대체 송유관 건설 지원에 나선다는 내용"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △지난 3월 13일부터 시행된 석유 최고가격제는 이번 9차 가격 적용으로 도입 6개월 넘기게 됐고 6월 27일 7차 최고가격에서 휘발유·경유·등유 모두 리터당 150원씩 인하한 가격이 8차에 이어 △【파이낸셜뉴스 도쿄=서혜진 특파원】일본 정부가 2050년대까지 원자력발전소를 최대 14기 재건축하고 호르무즈해협을 우회하는 송유관 건설을 지원함 △앞서 올해 4월 9일 한국주유소협회와 정유 4사는 전량구매 계약을 60% 이상 구매하는 혼합계약으로 바꾸고, 일일판매기준가격을 사전에 공시하며, 사후정산제를 폐지하는 내용의 상생협약을 체결함"
     }
   ],
   "prices": {
@@ -1632,7 +1636,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(6/25~8/25)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1748,6 +1753,87 @@
       "merged_at": "2026-08-26 17:16:28 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-08-26.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△지난 3월 13일부터 시행된 석유 최고가격제는 이번 9차 가격 적용으로 도입 6개월 넘기게 됐고 6월 27일 7차 최고가격에서 휘발유·경유·등유 모두 리터당 150원씩 인하한 가격이 8차에 이어 △【파이낸셜뉴스 도쿄=서혜진 특파원】일본 정부가 2050년대까지 원자력발전소를 최대 14기 재건축하고 호르무즈해협을 우회하는 송유관 건설을 지원함 △앞서 올해 4월 9일 한국주유소협회와 정유 4사는 전량구매 계약을 60% 이상 구매하는 혼합계약으로 바꾸고, 일일판매기준가격을 사전에 공시하며, 사후정산제를 폐지하는 내용의 상생협약을 체결함",
+    "trend_paragraphs": [
+      "뉴시스는 지난 3월 13일부터 시행된 석유 최고가격제는 이번 9차 가격 적용으로 도입 6개월 넘기게 됐고 6월 27일 7차 최고가격에서 휘발유·경유·등유 모두 리터당 150원씩 인하한 가격이 8차에 이어 9차로 이어지는.",
+      "파이낸셜뉴스는 【파이낸셜뉴스 도쿄=서혜진 특파원】일본 정부가 2050년대까지 원자력발전소를 최대 14기 재건축하고 호르무즈해협을 우회하는 송유관 건설을 지원한다.",
+      "서울경제는 앞서 올해 4월 9일 한국주유소협회와 정유 4사는 전량구매 계약을 60% 이상 구매하는 혼합계약으로 바꾸고, 일일판매기준가격을 사전에 공시하며, 사후정산제를 폐지하는 내용의 상생협약을 체결했다."
+    ],
+    "articles": [
+      {
+        "title": "딜레마에 빠진 석유 최고가격제…단계적 출구기준 마련 필요성↑",
+        "press": "뉴시스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260826115439239",
+        "summary": "지난 3월 13일부터 시행된 석유 최고가격제는 이번 9차 가격 적용으로 도입 6개월 넘기게 됐고 6월 27일 7차 최고가격에서 휘발유·경유·등유 모두 리터당 150원씩 인하한 가격이 8차에 이어 9차로 이어지는",
+        "snippet": "3 딜레마에 빠진 석유 최고가격제…단계적 출구기준 마련 필요성↑ 업계는 국제 제품가격과 국내 최고가격의 차이를 기준으로 지난 4월 기준 누적 손실이 3조원을 넘어섰다고 주장하고 있고 정부는 정유사 가 실제 부담한 원가와 적정 마진 등 회계 검증을 통해 보전액을 산정한다는 방침이다. 결국 정부가 풀어야할 과제는 '유지 또는... 5시간 전 1",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 2063
+      },
+      {
+        "title": "日, 원전 최대 14기 재건축…호르무즈 의존도 낮춘다",
+        "press": "파이낸셜뉴스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260826163410299",
+        "summary": "【파이낸셜뉴스 도쿄=서혜진 특파원】일본 정부가 2050년대까지 원자력발전소를 최대 14기 재건축하고 호르무즈해협을 우회하는 송유관 건설을 지원한다",
+        "snippet": "2 日, 원전 최대 14기 재건축…호르무즈 의존도 낮춘다 특파원】일본 정부가 2050년대까지 원자력발전소를 최대 14기 재건축하고 호르무즈해협을 우회하는 송유관 건설을 지원한다. 원유 수입의 90% 이상을 중동에 의존해온 공급망의 취약성을 줄이는 동시에 원전과 재생에너지를 중심으로 탈탄소 전환을 앞당기겠다는... 42분 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1528
+      },
+      {
+        "title": "주유소, 타사 기름 40%까지 구매 허용...사후정산 원칙 폐지",
+        "press": "서울경제",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260826120203594",
+        "summary": "앞서 올해 4월 9일 한국주유소협회와 정유 4사는 전량구매 계약을 60% 이상 구매하는 혼합계약으로 바꾸고, 일일판매기준가격을 사전에 공시하며, 사후정산제를 폐지하는 내용의 상생협약을 체결했다",
+        "snippet": "주유소, 타사 기름 40%까지 구매 허용...사후정산 원칙 폐지 유통업종 표준대리점거래계약서’를 개정했다고 밝혔다. 올해 4월 주유소 업계와 SK에너지·HD현대오일뱅크·S-OIL·GS칼텍스 등 정유 4사가 체결한 상생협약의 후속 조치다. 가장 큰 변화는 주유소의 ‘혼합구매’를 계약서에 명시한 것이다. 기존에는 특정 정유사... 5시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 1,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1418
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
