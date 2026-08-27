@@ -5,7 +5,7 @@
     "display_date": "2026년 8월 27일 (목)",
     "previous_day_label": "8/26",
     "today_label": "8/27",
-    "generated_at": "2026-08-27 08:27 KST",
+    "generated_at": "2026-08-27 17:07 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △“○○ 간판을 단 주유소에서도 □□정유사의 석유를 공급받을 수 있는 길이 열린다는 내용 △개정 표준계약서에는 주유소가 상표 사용을 계약한 정유사의 제품을 60% 이상 구매하는 조건으로 다른 정유사 제품을 최대 40%까지 구매할 수 있다는 내용이 담겼다는 내용 △\"A사 간판을 단 주유소에서도 B사 정유사의 석유를 공급받을 수 있는 길이 열린다는 내용"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △석유 최고가격제 시행으로 발생한 정유업계 손실을 보전하기 위해 지난달 출범한 최고액 정산위원회(이하 정산위)가 최근 정유사들에 손실보전 신청에 필요한 자료와 제출 기준을 담은 가이드라인을 배포한 △중동 정세 불확실성이 이어지면서 정부가 나프타와 석유화학제품 원료에 대한 수출 제한 및 수급조정 조치를 내년 1월까지 연장하기로 함 △정부는 중동전쟁 발발 이후 지난 4∼5개월간 나프타와 석화제품 수급조정 조치를 시행해 왔다는 내용"
     }
   ],
   "prices": {
@@ -1616,7 +1620,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(6/26~8/26)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1732,6 +1737,87 @@
       "merged_at": "2026-08-27 08:27:32 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-08-27.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△석유 최고가격제 시행으로 발생한 정유업계 손실을 보전하기 위해 지난달 출범한 최고액 정산위원회(이하 정산위)가 최근 정유사들에 손실보전 신청에 필요한 자료와 제출 기준을 담은 가이드라인을 배포한 △중동 정세 불확실성이 이어지면서 정부가 나프타와 석유화학제품 원료에 대한 수출 제한 및 수급조정 조치를 내년 1월까지 연장하기로 함 △정부는 중동전쟁 발발 이후 지난 4∼5개월간 나프타와 석화제품 수급조정 조치를 시행해 왔다는 내용",
+    "trend_paragraphs": [
+      "이데일리는 석유 최고가격제 시행으로 발생한 정유업계 손실을 보전하기 위해 지난달 출범한 최고액 정산위원회(이하 정산위)가 최근 정유사들에 손실보전 신청에 필요한 자료와 제출 기준을 담은 가이드라인을 배포한 것으로 확인됐다.",
+      "뉴시스는 중동 정세 불확실성이 이어지면서 정부가 나프타와 석유화학제품 원료에 대한 수출 제한 및 수급조정 조치를 내년 1월까지 연장하기로 했다.",
+      "전자신문은 정부는 중동전쟁 발발 이후 지난 4∼5개월간 나프타와 석화제품 수급조정 조치를 시행해 왔다."
+    ],
+    "articles": [
+      {
+        "title": "[단독]최고액정산위, 정유사 에 손실보전 지침 배포…10월 결론 낸다",
+        "press": "이데일리",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260827111948766",
+        "summary": "석유 최고가격제 시행으로 발생한 정유업계 손실을 보전하기 위해 지난달 출범한 최고액 정산위원회(이하 정산위)가 최근 정유사들에 손실보전 신청에 필요한 자료와 제출 기준을 담은 가이드라인을 배포한 것으로 확인됐다",
+        "snippet": "[단독]최고액정산위, 정유사 에 손실보전 지침 배포…10월 결론 낸다 기자] 석유 최고가격제 시행으로 발생한 정유업계 손실을 보전하기 위해 지난달 출범한 최고액 정산위원회(이하 정산위)가 최근 정유사 들에 손실보전 신청에 필요한 자료와 제출 기준을 담은 가이드라인을 배포한 것으로 확인됐다. 정산위는 정유사 들이 제출한 자료... 5시간 전 2",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 14,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 3,
+          "originality": 3,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1799
+      },
+      {
+        "title": "정부, 나프타·석화 제품 수급조정 조치 내년 1월까지 연장",
+        "press": "뉴시스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260827161055391",
+        "summary": "중동 정세 불확실성이 이어지면서 정부가 나프타와 석유화학제품 원료에 대한 수출 제한 및 수급조정 조치를 내년 1월까지 연장하기로 했다",
+        "snippet": "2 정부, 나프타·석화 제품 수급조정 조치 내년 1월까지 연장 쌓여 있다. 2026.04.15. xconfind@newsis.com [세종=뉴시스]이수정 기자 = 중동 정세 불확실성이 이어지면서 정부가 나프타와 석유 화학 제품 원료에 대한 수출 제한 및 수급조정 조치를 내년 1월까지 연장하기로 했다. 산업통상부는 27일 '나프타의 수출제한 및 수급... 57분 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1141
+      },
+      {
+        "title": "중동 불확실성 여전…정부, 나프타·석화제품 수급조정 5개월 연장",
+        "press": "전자신문",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260827141109840",
+        "summary": "정부는 중동전쟁 발발 이후 지난 4∼5개월간 나프타와 석화제품 수급조정 조치를 시행해 왔다",
+        "snippet": "중동 불확실성 여전…정부, 나프타·석화제품 수급조정 5개월 연장 필요시 특정 품목을 지정해 생산량, 출고량, 판매량 등 공급망 관리를 위한 조정을 명령할 수 있다. 앞서 산업부는 지난 24일, 정유사 에서 확보한 원유가 도입되기 전에 비축유를 먼저 빌려주는 비축유 스와프(SWAP·교환) 제도도 재개한 상태다. 산업부 관계자는... 2시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 967
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
