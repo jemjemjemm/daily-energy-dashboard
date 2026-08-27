@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0",
+  "source": "열린국회정보",
+  "api": "ALLSCHEDULE",
+  "date": "2026-08-03",
+  "monthCache": "months/2026-08.json",
+  "collectedAt": "2026-08-03T08:36:09+09:00",
+  "count": 1,
+  "apiTotalCount": 1,
+  "fields": [
+    "SCH_KIND",
+    "SCH_CN",
+    "SCH_DT",
+    "SCH_TM",
+    "CONF_DIV",
+    "CMIT_NM",
+    "CONF_SESS",
+    "CONF_DGR",
+    "EV_INST_NM",
+    "EV_PLC"
+  ],
+  "items": [
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "한·미 경제협력의 새 프레임: 정책 세미나",
+      "SCH_DT": "2026-08-03",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김태규 의원실",
+      "EV_PLC": "의원회관 제2소회의실"
+    }
+  ]
+}
