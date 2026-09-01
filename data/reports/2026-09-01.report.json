@@ -5,7 +5,7 @@
     "display_date": "2026년 9월 1일 (화)",
     "previous_day_label": "8/31",
     "today_label": "9/1",
-    "generated_at": "2026-09-01 17:24 KST",
+    "generated_at": "2026-09-01 17:25 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △사우디 국영 석유회사 아람코는 아시아 지역에 적용하는 아랍라이트 OSP(기준 유가에 덧붙이거나 깎아주는 가격)를 지난 7월 배럴당 9.5달러 할증에서 8월 1.5달러 할인으로 돌려세운 데 이어 △1일 에너지경제연구원의 '주간 국제유가 및 시장 동향'에 따르면 원유시장 분석업체 케이플러(Kpler)는 호르무즈 해협을 통과하는 원유와 석유제품 물량이 전쟁 이전 하루 1800만 배럴에서 지난 △도널드 트럼프 미국 대통령이 이란 전쟁 여파로 급등한 휘발윳값을 잡기 위해 미국 정유·연료 유통업계 경영진을 백악관으로 소집함"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △산업부 관계자는 \"현재 예비비로 확보된 4조 2000억 원의 예산은 2·3분기 최고가격제로 인한 정유사 손실 정산을 위한 것\"이고, \"이번 예산은 4분기 시행 시에 발생하는 손실 정산을 위한 △오승철 산업부 기획조정실장은 전날 사전 브리핑에서 \"2027년 예산안은 2026년 본예산 대비 40.5% 증가한 역대 최대 규모이자 최고 증가율\"이라며 \"신설되는 미래대응기금 내 산업부 소관 △정부가 ‘석유제품 최고가격제’ 시행에 따른 정유업계 손실보전 정산 작업에 본격 착수한 가운데, 일부 정유사를 중심으로 원가 절감 노력에 따라 기업별 마진율을 차등 적용하자는 목소리가 나오고 있음"
     }
   ],
   "prices": {
@@ -1625,7 +1629,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(6/30~8/31)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1741,6 +1746,87 @@
       "merged_at": "2026-09-01 17:24:52 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-09-01.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△산업부 관계자는 \"현재 예비비로 확보된 4조 2000억 원의 예산은 2·3분기 최고가격제로 인한 정유사 손실 정산을 위한 것\"이고, \"이번 예산은 4분기 시행 시에 발생하는 손실 정산을 위한 △오승철 산업부 기획조정실장은 전날 사전 브리핑에서 \"2027년 예산안은 2026년 본예산 대비 40.5% 증가한 역대 최대 규모이자 최고 증가율\"이라며 \"신설되는 미래대응기금 내 산업부 소관 △정부가 ‘석유제품 최고가격제’ 시행에 따른 정유업계 손실보전 정산 작업에 본격 착수한 가운데, 일부 정유사를 중심으로 원가 절감 노력에 따라 기업별 마진율을 차등 적용하자는 목소리가 나오고 있음",
+    "trend_paragraphs": [
+      "뉴스1는 산업부 관계자는 \"현재 예비비로 확보된 4조 2000억 원의 예산은 2·3분기 최고가격제로 인한 정유사 손실 정산을 위한 것\"이고, \"이번 예산은 4분기 시행 시에 발생하는 손실 정산을 위한 것\"이라고 설명했다.",
+      "머니투데이는 오승철 산업부 기획조정실장은 전날 사전 브리핑에서 \"2027년 예산안은 2026년 본예산 대비 40.5% 증가한 역대 최대 규모이자 최고 증가율\"이라며 \"신설되는 미래대응기금 내 산업부 소관 사업(9118억원)을.",
+      "매일경제는 정부가 ‘석유제품 최고가격제’ 시행에 따른 정유업계 손실보전 정산 작업에 본격 착수한 가운데, 일부 정유사를 중심으로 원가 절감 노력에 따라 기업별 마진율을 차등 적용하자는 목소리가 나오고 있다."
+    ],
+    "articles": [
+      {
+        "title": "석유 최고가제 4분기에도 이어지나… 정유사 손실 보전 예산 1.4조 추가",
+        "press": "뉴스1",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260901130927243",
+        "summary": "산업부 관계자는 \"현재 예비비로 확보된 4조 2000억 원의 예산은 2·3분기 최고가격제로 인한 정유사 손실 정산을 위한 것\"이고, \"이번 예산은 4분기 시행 시에 발생하는 손실 정산을 위한 것\"이라고 설명했다",
+        "snippet": "석유 최고가제 4분기에도 이어지나… 정유사 손실 보전 예산 1.4조 추가 지속에 따른 편성으로 풀이된다. 산업부 관계자는 \"현재 예비비로 확보된 4조 2000억 원의 예산은 2·3분기 최고가격제로 인한 정유사 손실 정산을 위한 것\"이고, \"이번 예산은 4분기 시행 시에 발생하는 손실 정산을 위한 것\"이라고 설명했다. 여전한 중동 불안에... 4시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1761
+      },
+      {
+        "title": "끝나지 않은 중동전쟁…산업부 내년 예산, 정유사 손실보전 편성",
+        "press": "머니투데이",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260901125809841",
+        "summary": "오승철 산업부 기획조정실장은 전날 사전 브리핑에서 \"2027년 예산안은 2026년 본예산 대비 40.5% 증가한 역대 최대 규모이자 최고 증가율\"이라며 \"신설되는 미래대응기금 내 산업부 소관 사업(9118억원)을",
+        "snippet": "끝나지 않은 중동전쟁…산업부 내년 예산, 정유사 손실보전 편성 25일(현지 시간) 중국 베이징에서 열리고 있는 제2회 세계 휴머노이드 로봇 경기에서 휴머노이드 로봇들이 줄다리기 경기를 펼치고 있다. 2026.08.25. /사진=베이징=AP/뉴시스 산업통상부가 2027년도 예산안으로 역대 최대 규모인 13조2573억원을 편성했다. 글로벌... 4시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1741
+      },
+      {
+        "title": "[단독] “싸게 살수록 손해봅니다”…복잡해진 ‘석유최고가격제 손실보전’ 셈법",
+        "press": "매일경제",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260901143301903",
+        "summary": "정부가 ‘석유제품 최고가격제’ 시행에 따른 정유업계 손실보전 정산 작업에 본격 착수한 가운데, 일부 정유사를 중심으로 원가 절감 노력에 따라 기업별 마진율을 차등 적용하자는 목소리가 나오고 있다",
+        "snippet": "[단독] “싸게 살수록 손해봅니다”…복잡해진 ‘석유최고가격제 손실보전’ 셈법 yesphoto@newsis.com 정부가 ‘석유제품 최고가격제’ 시행에 따른 정유업계 손실보전 정산 작업에 본격 착수한 가운데, 일부 정유사 를 중심으로 원가 절감 노력에 따라 기업별 마진율을 차등 적용하자는 목소리가 나오고 있다. 또 정산 과정에서 각종 쟁점이... 2시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 15,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 3,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1386
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
