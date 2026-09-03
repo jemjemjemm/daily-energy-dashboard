@@ -5,7 +5,7 @@
     "display_date": "2026년 9월 3일 (목)",
     "previous_day_label": "9/2",
     "today_label": "9/3",
-    "generated_at": "2026-09-03 08:14 KST",
+    "generated_at": "2026-09-03 17:38 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △미 외환거래 플랫폼 포렉스닷컴은 \"WTI 가격이 배럴당 90달러를 넘어서면 시장의 관심은 7월 고점인 배럴당 93.30달러로 옮겨갈 것\"이라며 \"중기적으로 100달러까지 오를 수도 있다\"고 전망함 △2일 정유업계에 따르면 국내 정유사들은 친환경 연료와 인공지능(AI) 데이터센터용 냉각 솔루션 등 새로운 성장동력 확보에 적극 나서고 있음 △ESG Now 국내 정유사들이 수소내연기관용 엔진오일과 전기차용 윤활유, 지속가능항공유(SAF) 등 친환경 모빌리티 시장을 선점하기 위해 속도를 내고 있음"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △중동 공급 차질까지 겹치며 공급 병목이 이어지는 탓에 정제마진 강세가 상당 기간 유지될 것으로 예상돼 국내 정유사는 수출 확대의 호재를 맞았지만, 석유제품 최고가격제와 함께 시행 중인 수출 제한 △3일(현지시간) 오일프라이스닷컴은 미국과 이란 간의 지정학적 긴장과 호르무즈 해협의 공급 차질 속에서도 아시아 정유사들의 수요가 폭발하며 두바이유 선물 가격이 배럴당 100달러 선에 바짝 △9월이 시작됐지만 한여름의 열기가 쉽게 가시지 않듯, 석유화학 업계를 둘러싼 대내외 환경도 좀처럼 식을 기미를 보이지 않는다는 내용"
     }
   ],
   "prices": {
@@ -1583,7 +1587,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(7/2~9/2)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1699,6 +1704,87 @@
       "merged_at": "2026-09-03 08:15:10 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-09-03.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△중동 공급 차질까지 겹치며 공급 병목이 이어지는 탓에 정제마진 강세가 상당 기간 유지될 것으로 예상돼 국내 정유사는 수출 확대의 호재를 맞았지만, 석유제품 최고가격제와 함께 시행 중인 수출 제한 △3일(현지시간) 오일프라이스닷컴은 미국과 이란 간의 지정학적 긴장과 호르무즈 해협의 공급 차질 속에서도 아시아 정유사들의 수요가 폭발하며 두바이유 선물 가격이 배럴당 100달러 선에 바짝 △9월이 시작됐지만 한여름의 열기가 쉽게 가시지 않듯, 석유화학 업계를 둘러싼 대내외 환경도 좀처럼 식을 기미를 보이지 않는다는 내용",
+    "trend_paragraphs": [
+      "문화일보는 중동 공급 차질까지 겹치며 공급 병목이 이어지는 탓에 정제마진 강세가 상당 기간 유지될 것으로 예상돼 국내 정유사는 수출 확대의 호재를 맞았지만, 석유제품 최고가격제와 함께 시행 중인 수출 제한 조치가 유지되며.",
+      "파이낸셜뉴스는 3일(현지시간) 오일프라이스닷컴은 미국과 이란 간의 지정학적 긴장과 호르무즈 해협의 공급 차질 속에서도 아시아 정유사들의 수요가 폭발하며 두바이유 선물 가격이 배럴당 100달러 선에 바짝 다가섰다고 보도했다.",
+      "전자신문은 9월이 시작됐지만 한여름의 열기가 쉽게 가시지 않듯, 석유화학 업계를 둘러싼 대내외 환경도 좀처럼 식을 기미를 보이지 않는다."
+    ],
+    "articles": [
+      {
+        "title": "수출 상한·최고가격제 묶인 정유업계… 러 감산에도 ‘한숨’",
+        "press": "문화일보",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260903120315768",
+        "summary": "중동 공급 차질까지 겹치며 공급 병목이 이어지는 탓에 정제마진 강세가 상당 기간 유지될 것으로 예상돼 국내 정유사는 수출 확대의 호재를 맞았지만, 석유제품 최고가격제와 함께 시행 중인 수출 제한 조치가 유지되며",
+        "snippet": "수출 상한·최고가격제 묶인 정유업계… 러 감산에도 ‘한숨’ 장기화하고 있다. 중동 공급 차질까지 겹치며 공급 병목이 이어지는 탓에 정제마진 강세가 상당 기간 유지될 것으로 예상돼 국내 정유사 는 수출 확대의 호재를 맞았지만, 석유제품 최고가격제와 함께 시행 중인 수출 제한 조치가 유지되며 고민도 깊어지고 있다. 3일... 5시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1267
+      },
+      {
+        "title": "아시아 국가 수입 증가에 중동산 원유 배럴당 100달러 접근",
+        "press": "파이낸셜뉴스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260903162043114",
+        "summary": "3일(현지시간) 오일프라이스닷컴은 미국과 이란 간의 지정학적 긴장과 호르무즈 해협의 공급 차질 속에서도 아시아 정유사들의 수요가 폭발하며 두바이유 선물 가격이 배럴당 100달러 선에 바짝 다가섰다고 보도했다",
+        "snippet": "아시아 국가 수입 증가에 중동산 원유 배럴당 100달러 접근 지난 5월8일 아랍에미리트(UAE)산 원유 를 실은 유조선 오데사가 충남 서산을 향해 이동하고 있는 모습.로이터연합뉴스 [파이낸셜뉴스] 중국과 인도를 비롯한 아시아 국가들의 중동산 원유 매수세가 증가하면서 국제 유가가 고공행진을 벌이고 있다. 3일(현지시간... 1시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1136
+      },
+      {
+        "title": "[기고]호르무즈가 남긴 교훈",
+        "press": "전자신문",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260903160228052",
+        "summary": "9월이 시작됐지만 한여름의 열기가 쉽게 가시지 않듯, 석유화학 업계를 둘러싼 대내외 환경도 좀처럼 식을 기미를 보이지 않는다",
+        "snippet": "[기고]호르무즈가 남긴 교훈 해협 봉쇄로 나프타 공급 차질이 현실화됐을 때 우리는 수액백과 주사기, 쓰레기봉투처럼 평소에는 당연하게 여기던 제품 하나하나가 석유 화학산업과 연결돼 있다는 사실을 확인하며 다시 한번 공급망의 중요성을 절감했다. 당시 기업들은 대체 물량 확보 등 가능한... 1시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 9,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 2,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1789
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
