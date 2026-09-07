@@ -34,8 +34,6 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -54,6 +52,58 @@ jobs:
           PY
       - name: Assemble unified site
         run: python tools/assemble_site.py
+      - name: Verify unified site contents and oil relative paths
+        run: |
+          python - <<'PY'
+          import json
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import unquote, urlsplit
+
+          site = Path("_site").resolve()
+          oil = site / "oil"
+          daily_reports = sorted((site / "reports").glob("*.html"))
+          oil_reports = sorted((oil / "reports").glob("*.html"))
+          oil_data_reports = sorted((oil / "data" / "reports").glob("*.json"))
+          oil_index = json.loads((oil / "data" / "report-index.json").read_text(encoding="utf-8"))
+
+          assert len(daily_reports) == 131, len(daily_reports)
+          assert len(oil_reports) == 253, len(oil_reports)
+          assert len(oil_data_reports) == 253, len(oil_data_reports)
+          assert len(oil_index) == 253, len(oil_index)
+
+          class References(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.values = []
+
+              def handle_starttag(self, tag, attrs):
+                  for name, value in attrs:
+                      if name in {"href", "src"} and value:
+                          self.values.append(value)
+
+          checked = 0
+          for html_path in [oil / "index.html", *oil_reports]:
+              parser = References()
+              parser.feed(html_path.read_text(encoding="utf-8"))
+              for value in parser.values:
+                  parsed = urlsplit(value)
+                  if parsed.scheme or parsed.netloc or value.startswith(("#", "/", "mailto:", "javascript:", "data:")):
+                      continue
+                  relative = unquote(parsed.path)
+                  if not relative:
+                      continue
+                  target = (html_path.parent / relative).resolve()
+                  assert target == site or site in target.parents, (html_path, value)
+                  assert target.exists(), (html_path, value, target)
+                  checked += 1
+
+          for relative in ("assets/css/style.css", "assets/js/app.js", "data/report-index.json"):
+              assert (oil / relative).is_file(), relative
+
+          print("[OK] Unified artifact verified: Daily=131, oil HTML=253, oil JSON=253")
+          print(f"[OK] Oil relative paths verified: {checked} local references")
+          PY
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload GitHub Pages artifact
@@ -62,6 +112,7 @@ jobs:
           path: _site
 
   deploy:
+    if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     permissions:
