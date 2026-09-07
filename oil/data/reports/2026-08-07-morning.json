@@ -1,0 +1,216 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-07",
+  "slot": "morning",
+  "period_start": "2026-08-07T00:00:00+09:00",
+  "period_end": "2026-08-07T08:00:00+09:00",
+  "period_label": "2026-08-07 00:00 ~ 2026-08-07 08:00",
+  "generated_at": "2026-08-07T17:09:35.551208+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1568,
+  "total_deduped_count": 5,
+  "total_ok_count": 5,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1178
+  },
+  "query_counts": {
+    "공정위 유가 담합": 1,
+    "석유 담합": 5,
+    "석유제품 담합": 2,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 1,
+    "정유업계 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "경상수지 흑자 사상 최대…주가누르기 방지법 도마 위 [한강로 경제브리핑]",
+      "url": "http://v.daum.net/v/20260807070313474",
+      "source": "세계일보",
+      "published_at": "2026-08-07T07:26:42.719810+09:00",
+      "snippet": "반도체가 수출 신기록을 쓰고 석유·화공품 수출도 받쳐주면서 6월 한국이 국제교역을 통해 70조원이 넘는 사상 최대 흑자를 기록했다...때문이다. 국고채 전문딜러(PD)사들의 국고채 입찰담합 사건에 대해 공정거래위원회가 “매우 중대한 위법행위”로 판단하고... 1시간 전",
+      "collected_at": "2026-08-07T08:26:42.719835+09:00",
+      "normalized_title": "경상수지 흑자 사상 최대…주가누르기 방지법 도마 위 [한강로 경제브리핑]",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::경상수지 흑자 사상 최대…주가누르기 방지법 도마 위 [한강로 경제브리핑]",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260807070313474",
+      "id": "9807a1ce35560cd6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "세계일보",
+      "url": "https://v.daum.net/channel/38/home",
+      "source": "세계일보",
+      "published_at": "2026-08-07T07:26:40.856673+09:00",
+      "snippet": "반도체가 수출 신기록을 쓰고 석유·화공품 수출도 받쳐주면서 6월 한국이 국제교역을 통해 70조원이 넘는 사상 최대 흑자를 기록했다...때문이다. 국고채 전문딜러(PD)사들의 국고채 입찰담합 사건에 대해 공정거래위원회가 “매우 중대한 위법행위”로 판단하고... 1시간 전",
+      "collected_at": "2026-08-07T08:26:40.856698+09:00",
+      "normalized_title": "세계일보",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::세계일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/38/home",
+      "id": "84b9eb17cf27ffac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경상수지 흑자 사상 최대…주가누르기 방지법 도마 위 [한강로 경제브리...새 창 열림",
+      "url": "https://www.segye.com/newsView/20260806522960?OutUrl=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-08-07T07:26:39.865614+09:00",
+      "snippet": "반도체가 수출 신기록을 쓰고 석유·화공품 수출도 받쳐주면서 6월 한국이 국제교역을 통해 70조원이 넘는 사상 최대 흑자를 기록했다. 상반기 흐름이... 국고채 전문딜러(PD)사들의 국고채 입찰담합 사건에 대해 공정거래위원회가 “매우 중대한 위법행위”로 판단하고 심의 절차에 착수했다. 공정위가... 새 창 열림",
+      "collected_at": "2026-08-07T08:26:39.865644+09:00",
+      "normalized_title": "경상수지 흑자 사상 최대…주가누르기 방지법 도마 위 [한강로 경제브리...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::경상수지 흑자 사상 최대…주가누르기 방지법 도마 위 [한강로 경제브리...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.segye.com/newsView/20260806522960?OutUrl=naver",
+      "id": "0f96d819ad7e15d5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "위기의 ‘K-석화’, 검찰 ‘담합’ 수사 착수…“LG·한화·롯데 등 7개...새 창 열림",
+      "url": "https://www.ceoscoredaily.com/page/view/2026080613250123215",
+      "source": "새 창 열림",
+      "published_at": "2026-08-07T07:26:14.224675+09:00",
+      "snippet": "수년간 폴리염화비닐(PVC)과 가소제, 가성소다, 염산 등 총 8개 석유화학제품 가격을 담합한 협의를 받고 있다. 검찰의 조사대상은 LG화학, 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC, 유니드 등 국내 대표 석화기업 7곳으로 알려졌다. 해당 기업 중 일부는 앞서 공정위의 현장조사를 받기도 했다. 공정위는... 새 창 열림",
+      "collected_at": "2026-08-07T08:26:14.224707+09:00",
+      "normalized_title": "위기의 ‘K-석화’, 검찰 ‘담합’ 수사 착수…“LG·한화·롯데 등 7개...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::위기의 ‘k-석화’, 검찰 ‘담합’ 수사 착수…“lg·한화·롯데 등 7개...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.ceoscoredaily.com/page/view/2026080613250123215",
+      "id": "d790931e1e316fd5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[기자수첩] 호실적이 '혐의'가 된 정유사새 창 열림",
+      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5048523",
+      "source": "새 창 열림",
+      "published_at": "2026-08-07T06:26:14.226170+09:00",
+      "snippet": "지난달 유가 담합 수사 결과가 발표된 데다 정부의 석유제품 최고가격제에 따른 손실보전 절차가 남아 있기 때문이다. 돈을 많이 벌었다는 인상이 손실보전과 재판, 여론에서 불리하게 작용할 수 있다는 우려다. 검찰은 HD현대오일뱅크가 SK에너지와 미국·이란 전쟁 직후 가격 인상 시기와 규모를 합의했다고 보고... 새 창 열림",
+      "collected_at": "2026-08-07T08:26:14.226193+09:00",
+      "normalized_title": "[기자수첩] 호실적이 '혐의'가 된 정유사새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[기자수첩] 호실적이 '혐의'가 된 정유사새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5048523",
+      "id": "48f7a4decf8dc4da",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

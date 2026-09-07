@@ -1,0 +1,78 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-27",
+  "slot": "morning",
+  "period_start": "2026-07-27T00:00:00+09:00",
+  "period_end": "2026-07-27T08:00:00+09:00",
+  "period_label": "2026-07-27 00:00 ~ 2026-07-27 08:00",
+  "generated_at": "2026-07-27T09:10:52.270499+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1552,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1162
+  },
+  "query_counts": {
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "별빛 아래 먹거리·공연 한가득…사북 야시장 ‘활짝’새 창 열림",
+      "url": "https://www.kwnews.co.kr/article/20260724500201",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T00:46:39.310528+09:00",
+      "snippet": "이와 함께 군은 야시장 개장에 맞춰 바가지요금과 가격 담합 등 불공정 상거래 행위를 예방하기 위한 물가안정 캠페인도 실시했다. 또 사용기한이 8월31일까지인 고유가 피해지원금의 지역 내 소비를 독려하며 다시 찾고 싶은 사북시장 만들기에 힘을 모으기로 했다. 김태진 사북시장상인회장은 “착한가격으로... 새 창 열림",
+      "collected_at": "2026-07-27T08:46:39.310562+09:00",
+      "normalized_title": "별빛 아래 먹거리·공연 한가득…사북 야시장 ‘활짝’새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::별빛 아래 먹거리·공연 한가득…사북 야시장 ‘활짝’새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.kwnews.co.kr/article/20260724500201",
+      "id": "1cf042c04c6944c2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

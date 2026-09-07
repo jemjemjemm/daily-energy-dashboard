@@ -1,0 +1,143 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-05",
+  "slot": "evening",
+  "period_start": "2026-07-05T08:00:00+09:00",
+  "period_end": "2026-07-05T17:00:00+09:00",
+  "period_label": "2026-07-05 08:00 ~ 2026-07-05 17:00",
+  "generated_at": "2026-07-05T19:26:12.703407+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1508,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 2,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1118
+  },
+  "query_counts": {
+    "주유소 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "이투데이",
+      "url": "https://v.daum.net/channel/552786/home",
+      "source": "이투데이",
+      "published_at": "2026-07-05T09:25:59.090905+09:00",
+      "snippet": "법학전문대학원생 대상 ‘하계 공익 법무실습’ 실시 △한국주유소협회 제주도지회의 사업자단체 금지행위 및 제주시 농협, 서귀포시...2·3차 협력사 상생협약 체결식 개최 △전분 및 전분당 가격담합 제재 8일(수) △공정위 위원장 10:00 전원회의(심판정... 10시간 전",
+      "collected_at": "2026-07-05T19:25:59.090932+09:00",
+      "normalized_title": "이투데이",
+      "source_normalized": "이투데이",
+      "duplicate_key": "이투데이::이투데이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/552786/home",
+      "id": "cb49091ab34da669",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "담합",
+        "가격담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[정부 주요 일정] 경제·사회부처 주간 일정 (7월 6일 ~ 7월 10일)",
+      "url": "https://www.etoday.co.kr/news/view/2600286",
+      "source": "이투데이",
+      "published_at": "2026-07-05T09:25:58.198787+09:00",
+      "snippet": "실시 △한국주유소협회 제주도지회의 사업자단체 금지행위 및 제주시 농협, 서귀포시 농협의 참가행위 제재 7일(화) △공정위 위원장, 10:00 국무회의(세종청사), 15:45 현대차-1,2,3차 협력사 상생협약 체결식(판교) △현대차 그룹 – 1·2·3차 협력사 상생협약 체결식 개최 △전분 및 전분당 가격담합...",
+      "collected_at": "2026-07-05T19:25:58.198811+09:00",
+      "normalized_title": "[정부 주요 일정] 경제·사회부처 주간 일정 (7월 6일 ~ 7월 10일)",
+      "source_normalized": "이투데이",
+      "duplicate_key": "이투데이::[정부 주요 일정] 경제·사회부처 주간 일정 (7월 6일 ~ 7월 10일)",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.etoday.co.kr/news/view/2600286",
+      "id": "31cb7e94cf3ebe28",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "담합",
+        "가격담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[정부 주요 일정] 경제·사회부처 주간 일정 (7월 6일 ~ 7월 10일)",
+      "url": "http://v.daum.net/v/20260705090107774",
+      "source": "10시간 전",
+      "published_at": "2026-07-05T09:25:59.091478+09:00",
+      "snippet": "법학전문대학원생 대상 ‘하계 공익 법무실습’ 실시 △한국주유소협회 제주도지회의 사업자단체 금지행위 및 제주시 농협, 서귀포시...2·3차 협력사 상생협약 체결식 개최 △전분 및 전분당 가격담합 제재 8일(수) △공정위 위원장 10:00 전원회의(심판정... 10시간 전",
+      "collected_at": "2026-07-05T19:25:59.091495+09:00",
+      "normalized_title": "[정부 주요 일정] 경제·사회부처 주간 일정 (7월 6일 ~ 7월 10일)",
+      "source_normalized": "10시간 전",
+      "duplicate_key": "10시간 전::[정부 주요 일정] 경제·사회부처 주간 일정 (7월 6일 ~ 7월 10일)",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260705090107774",
+      "id": "45ce39ea13690c3a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "담합",
+        "가격담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

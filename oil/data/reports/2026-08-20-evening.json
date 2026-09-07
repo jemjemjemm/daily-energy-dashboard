@@ -1,0 +1,2762 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-20",
+  "slot": "evening",
+  "period_start": "2026-08-20T08:00:00+09:00",
+  "period_end": "2026-08-20T17:00:00+09:00",
+  "period_label": "2026-08-20 08:00 ~ 2026-08-20 17:00",
+  "generated_at": "2026-08-20T17:52:44.022174+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1555,
+  "total_deduped_count": 80,
+  "total_ok_count": 80,
+  "total_review_count": 0,
+  "total_excluded_count": 14,
+  "grade_counts": {
+    "A": 21,
+    "B": 4,
+    "C": 55
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1165
+  },
+  "query_counts": {
+    "경유 담합": 11,
+    "공정거래위원회 정유사 담합": 29,
+    "공정위 유가 담합": 28,
+    "기름값 담합": 11,
+    "석유 담합": 29,
+    "석유제품 담합": 27,
+    "유가 담합": 35,
+    "유가담합": 35,
+    "유류가격 담합": 11,
+    "정유사 담합": 33,
+    "정유업계 담합": 34,
+    "주유소 담합": 28,
+    "휘발유 담합": 13
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "한국경제",
+      "url": "https://v.daum.net/channel/3/home",
+      "source": "한국경제",
+      "published_at": "2026-08-20T14:03:19.677095+09:00",
+      "snippet": "측은 \"관련 대화방 메시지가 그대로 남아있고 대화방에는 담합과 관련된 내용도 없었다\"고 했다. 구속된 채로 기소된 현대오일뱅크...없다\"고 말했다. 하지만 검찰은 \"전례가 없는 규모로 모든 정유사가 일제히 가격을 인상했다\"며 \"단순히 이틀만 가격담합을 했다는... 3시간 전",
+      "collected_at": "2026-08-20T17:03:19.677111+09:00",
+      "normalized_title": "한국경제",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::한국경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/3/home",
+      "id": "6ea5739e4883b5ac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조 유가 담합' 정유 4사 첫 공판서 혐의 부인…\"사실 아냐\"",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjb0JXbGJqd2o0dGoyR3dvMEJDcGo4Y0NWejljeVhmaklWMTR5YVQwekhRUWVBMTBjNUIwb2ROeGpsVUlXTnBvSF9HU21sWlpLdjB6R3Z4ZDRZUQ?oc=5",
+      "source": "한국경제",
+      "published_at": "2026-08-20T13:04:14+09:00",
+      "snippet": "측은 \"관련 대화방 메시지가 그대로 남아있고 대화방에는 담합과 관련된 내용도 없었다\"고 했다. 구속된 채로 기소된 현대오일뱅크...없다\"고 말했다. 하지만 검찰은 \"전례가 없는 규모로 모든 정유사가 일제히 가격을 인상했다\"며 \"단순히 이틀만 가격담합을 했다는... 3시간 전",
+      "collected_at": "2026-08-20T17:02:55.843486+09:00",
+      "normalized_title": "'26조 유가 담합' 정유 4사 첫 공판서 혐의 부인…\"사실 아냐\"",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::'26조 유가 담합' 정유 4사 첫 공판서 혐의 부인…\"사실 아냐\"",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjb0JXbGJqd2o0dGoyR3dvMEJDcGo4Y0NWejljeVhmaklWMTR5YVQwekhRUWVBMTBjNUIwb2ROeGpsVUlXTnBvSF9HU21sWlpLdjB6R3Z4ZDRZUQ?oc=5",
+      "id": "2678a48824a7713b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울경제",
+      "url": "https://v.daum.net/channel/129/home",
+      "source": "서울경제",
+      "published_at": "2026-08-20T14:03:18.585901+09:00",
+      "snippet": "무죄를 주장한다”고 밝혔다. HD현대오일뱅크와 SK에너지는 담합 행위에서 주요한 역할을 하며 2024년 7월부터 올해 2월까지 가격 정책을 결정하기 위해 서로 가격 정보를 교환한 혐의로 지난달 6일 재판에 넘겨졌다. GS칼텍스와 에쓰오일은 오른 유가를 추종하는... 3시간 전",
+      "collected_at": "2026-08-20T17:03:18.585920+09:00",
+      "normalized_title": "서울경제",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::서울경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/129/home",
+      "id": "901ba30ba77d44f5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘26조원대 유가 담합’ 국내 정유사 4곳, 첫 재판서 혐의 부인",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuTGtFMXJaSTBWQTBwZkZMTFYzOUFoRUY0ZGVSeDV5Vi1CSkZ2VGpOV2lnM1l5RVBhWGV5dnZNbmpsSkp5RHlxejNwUFJBaVVGS3lj?oc=5",
+      "source": "서울경제",
+      "published_at": "2026-08-20T13:31:55+09:00",
+      "snippet": "무죄를 주장한다”고 밝혔다. HD현대오일뱅크와 SK에너지는 담합 행위에서 주요한 역할을 하며 2024년 7월부터 올해 2월까지 가격 정책을 결정하기 위해 서로 가격 정보를 교환한 혐의로 지난달 6일 재판에 넘겨졌다. GS칼텍스와 에쓰오일은 오른 유가를 추종하는... 3시간 전",
+      "collected_at": "2026-08-20T17:02:55.845291+09:00",
+      "normalized_title": "‘26조원대 유가 담합’ 국내 정유사 4곳, 첫 재판서 혐의 부인",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::‘26조원대 유가 담합’ 국내 정유사 4곳, 첫 재판서 혐의 부인",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuTGtFMXJaSTBWQTBwZkZMTFYzOUFoRUY0ZGVSeDV5Vi1CSkZ2VGpOV2lnM1l5RVBhWGV5dnZNbmpsSkp5RHlxejNwUFJBaVVGS3lj?oc=5",
+      "id": "436a1ef65fef3cc7",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조 유가담합' 정유 4개사, 첫 재판서 전부 혐의 부인",
+      "url": "http://v.daum.net/v/20260820134152056",
+      "source": "머니투데이",
+      "published_at": "2026-08-20T14:03:18.584599+09:00",
+      "snippet": "혐의를 받는다. 검찰은 이들이 이란 전쟁 등 중동발 위기를 이용해 유가를 인위적으로 끌어올린 것으로 의심한다. 4개 정유사의 직접 담합 규모는 약 14조2000억원, 경쟁제한 효과는 26조원에 달하는 것으로 파악됐다. 이외에도 검찰은 4대 정유사가 거래상 우월적... 3시간 전",
+      "collected_at": "2026-08-20T17:03:18.584625+09:00",
+      "normalized_title": "'14조 유가담합' 정유 4개사, 첫 재판서 전부 혐의 부인",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::'14조 유가담합' 정유 4개사, 첫 재판서 전부 혐의 부인",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://v.daum.net/v/20260820134152056",
+      "id": "f9bf87d12c85f24e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "머니투데이",
+      "url": "https://v.daum.net/channel/5/home",
+      "source": "머니투데이",
+      "published_at": "2026-08-20T14:03:17.493345+09:00",
+      "snippet": "혐의를 받는다. 검찰은 이들이 이란 전쟁 등 중동발 위기를 이용해 유가를 인위적으로 끌어올린 것으로 의심한다. 4개 정유사의 직접 담합 규모는 약 14조2000억원, 경쟁제한 효과는 26조원에 달하는 것으로 파악됐다. 이외에도 검찰은 4대 정유사가 거래상 우월적... 3시간 전",
+      "collected_at": "2026-08-20T17:03:17.493362+09:00",
+      "normalized_title": "머니투데이",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::머니투데이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/5/home",
+      "id": "15b948cff6e29cc5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조 유가담합' 정유 4개사, 첫 재판서 전부 혐의 부인 - 머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GeGRaRDlWZ3BGYkNBdEZhbHZ5WmR3MlJxbVNUanhoSGwwSGJoVW5fVFFCMkZUbWl0YjU4LUJMRVVJem1MMFU0Ylg2R2NlN0Y3YUhMOTAwMU5EUDFCOENaMjkxZEVZSXlaTEgyeEhUNVXSAXBBVV95cUxORnhkWkQ5VmdwRmJDQXRGYWx2eVpkdzJScW1TVGp4aEhsMEhiaFVuX1RRQjJGVG1pdGI1OC1CTEVVSXptTDBVNGJYNkdjZTdGN2FITDkwMDFORFAxQjhDWjI5MWRFWUl5WkxIMnhIVDVV?oc=5",
+      "source": "머니투데이",
+      "published_at": "2026-08-20T13:40:07+09:00",
+      "snippet": "'14조 유가담합' 정유 4개사, 첫 재판서 전부 혐의 부인 - 머니투데이 머니투데이",
+      "collected_at": "2026-08-20T17:02:55.844008+09:00",
+      "normalized_title": "'14조 유가담합' 정유 4개사, 첫 재판서 전부 혐의 부인 - 머니투데이",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::'14조 유가담합' 정유 4개사, 첫 재판서 전부 혐의 부인 - 머니투데이",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GeGRaRDlWZ3BGYkNBdEZhbHZ5WmR3MlJxbVNUanhoSGwwSGJoVW5fVFFCMkZUbWl0YjU4LUJMRVVJem1MMFU0Ylg2R2NlN0Y3YUhMOTAwMU5EUDFCOENaMjkxZEVZSXlaTEgyeEhUNVXSAXBBVV95cUxORnhkWkQ5VmdwRmJDQXRGYWx2eVpkdzJScW1TVGp4aEhsMEhiaFVuX1RRQjJGVG1pdGI1OC1CTEVVSXptTDBVNGJYNkdjZTdGN2FITDkwMDFORFAxQjhDWjI5MWRFWUl5WkxIMnhIVDVV?oc=5",
+      "id": "23bb1be8e5545823",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조 유가담합' 1심 본격화…정유사들 혐의 부인",
+      "url": "http://v.daum.net/v/20260820140951196",
+      "source": "이데일리",
+      "published_at": "2026-08-20T15:02:54.199137+09:00",
+      "snippet": "임직원 4명에 대한 첫 공판을 진행했다. 검찰은 HD현대오일뱅크와 SK에너지가 가격정보를 공유하고 미국·이란 전쟁 발발 이후 석유제품 가격 인상 시기와 규모까지 합의했다고 보고 있다. 검찰이 산정한 두 회사의 직접 담합 관련 거래 규모는 14조 2000억원으로... 2시간 전",
+      "collected_at": "2026-08-20T17:02:54.199163+09:00",
+      "normalized_title": "'26조 유가담합' 1심 본격화…정유사들 혐의 부인",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::'26조 유가담합' 1심 본격화…정유사들 혐의 부인",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://v.daum.net/v/20260820140951196",
+      "id": "43294cfff1b3059a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이데일리",
+      "url": "https://v.daum.net/channel/6/home",
+      "source": "이데일리",
+      "published_at": "2026-08-20T15:02:52.815736+09:00",
+      "snippet": "임직원 4명에 대한 첫 공판을 진행했다. 검찰은 HD현대오일뱅크와 SK에너지가 가격정보를 공유하고 미국·이란 전쟁 발발 이후 석유제품 가격 인상 시기와 규모까지 합의했다고 보고 있다. 검찰이 산정한 두 회사의 직접 담합 관련 거래 규모는 14조 2000억원으로... 2시간 전",
+      "collected_at": "2026-08-20T17:02:52.815753+09:00",
+      "normalized_title": "이데일리",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::이데일리",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/6/home",
+      "id": "bfd3d796eb34da9b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구윤철 \"9차 석유 최고가격 21일 발표..국제유가, 민생부담 감안\"",
+      "url": "http://v.daum.net/v/20260820081638793",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-08-20T09:03:51.705286+09:00",
+      "snippet": "달 말 발표한 8차 최고가격은 7차와 같이 L당 휘발유 1784원, 경유 1773원, 등유 1380원으로 동결했다. 또 8월말 만료되는 요소수와...고 말했다. 또 구 부총리는 \"독점적 플랫폼의 불공정거래, 담합과 각종 소비자 기만행위 등 유통질서를 어지럽히고 민생 안정을... 8시간 전",
+      "collected_at": "2026-08-20T17:03:51.705313+09:00",
+      "normalized_title": "구윤철 \"9차 석유 최고가격 21일 발표..국제유가, 민생부담 감안\"",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::구윤철 \"9차 석유 최고가격 21일 발표..국제유가, 민생부담 감안\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260820081638793",
+      "id": "8068187c763cfe72",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "파이낸셜뉴스",
+      "url": "https://v.daum.net/channel/139/home",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-08-20T09:03:50.496465+09:00",
+      "snippet": "달 말 발표한 8차 최고가격은 7차와 같이 L당 휘발유 1784원, 경유 1773원, 등유 1380원으로 동결했다. 또 8월말 만료되는 요소수와...고 말했다. 또 구 부총리는 \"독점적 플랫폼의 불공정거래, 담합과 각종 소비자 기만행위 등 유통질서를 어지럽히고 민생 안정을... 8시간 전",
+      "collected_at": "2026-08-20T17:03:50.496482+09:00",
+      "normalized_title": "파이낸셜뉴스",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::파이낸셜뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/139/home",
+      "id": "f9b058269ce9069e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합 의혹' 정유 4사 재판서 혐의 부인",
+      "url": "http://v.daum.net/v/20260820161328841",
+      "source": "아시아경제",
+      "published_at": "2026-08-20T16:13:49.239571+09:00",
+      "snippet": "측 역시 혐의를 부인했다. SK에너지 측은 \"전량구매 계약은 공정위의 시정명령을 참고해 진행된 사안으로, (혐의 적용을) 이해하기...가격을 일시에 인상하기로 담합한 혐의로 지난달 기소됐다. 두 정유사의 담합 규모는 총 14조2000억원으로 조사됐다. 검찰은 GS... 51분 전",
+      "collected_at": "2026-08-20T17:02:49.239597+09:00",
+      "normalized_title": "'유가 담합 의혹' 정유 4사 재판서 혐의 부인",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::'유가 담합 의혹' 정유 4사 재판서 혐의 부인",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://v.daum.net/v/20260820161328841",
+      "id": "4d1cd1626e69312a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "아시아경제",
+      "url": "https://v.daum.net/channel/90/home",
+      "source": "아시아경제",
+      "published_at": "2026-08-20T16:13:48.096730+09:00",
+      "snippet": "측 역시 혐의를 부인했다. SK에너지 측은 \"전량구매 계약은 공정위의 시정명령을 참고해 진행된 사안으로, (혐의 적용을) 이해하기...가격을 일시에 인상하기로 담합한 혐의로 지난달 기소됐다. 두 정유사의 담합 규모는 총 14조2000억원으로 조사됐다. 검찰은 GS... 51분 전",
+      "collected_at": "2026-08-20T17:02:48.096747+09:00",
+      "normalized_title": "아시아경제",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::아시아경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/90/home",
+      "id": "7197c286bb7e5fce",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크, 법정서 유가담합 부인…\"구조적 비리 없어\"",
+      "url": "http://v.daum.net/v/20260820152954357",
+      "source": "연합뉴스",
+      "published_at": "2026-08-20T16:02:50.399078+09:00",
+      "snippet": "검찰, 정유4사 26조원대 유가담합 적발 (서울=연합뉴스) 김인철 기자 = 미국·이란 전쟁 후 담합을 통해 유가를 폭등시킨 혐의를 받는...혐의로 기소했다고 밝혔다. 사진은 이날 서울 시내의 한 주유소 모습. 2026.7.6 yatoya@yna.co.kr (서울=연합뉴스) 이영섭 기자... 1시간 전",
+      "collected_at": "2026-08-20T17:02:50.399103+09:00",
+      "normalized_title": "HD현대오일뱅크, 법정서 유가담합 부인…\"구조적 비리 없어\"",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::hd현대오일뱅크, 법정서 유가담합 부인…\"구조적 비리 없어\"",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "http://v.daum.net/v/20260820152954357",
+      "id": "3384980462727872",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스",
+      "url": "https://v.daum.net/channel/2/home",
+      "source": "연합뉴스",
+      "published_at": "2026-08-20T16:02:49.240884+09:00",
+      "snippet": "검찰, 정유4사 26조원대 유가담합 적발 (서울=연합뉴스) 김인철 기자 = 미국·이란 전쟁 후 담합을 통해 유가를 폭등시킨 혐의를 받는...혐의로 기소했다고 밝혔다. 사진은 이날 서울 시내의 한 주유소 모습. 2026.7.6 yatoya@yna.co.kr (서울=연합뉴스) 이영섭 기자... 1시간 전",
+      "collected_at": "2026-08-20T17:02:49.240901+09:00",
+      "normalized_title": "연합뉴스",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::연합뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/2/home",
+      "id": "46cc1eae4f6d3542",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "석화 첫 잣대 세운 공정위…'여수 1호'도 협조 가능성 따진다",
+      "url": "http://v.daum.net/v/20260820161240803",
+      "source": "뉴시스",
+      "published_at": "2026-08-20T16:13:38.192967+09:00",
+      "snippet": "newsis.com 과거 담합·상품 동질성도 주목…\"여수는 상품시장 다시 따져야\" 공정위는 지분연계뿐 아니라 석유화학 제품의 높은 동질성과 과거 담합 전력, 경쟁사 정보를 비교적 쉽게 파악할 수 있다는 특성도 협조 가능성을 키우는 요인으로 보고 있다. 실제 이번... 50분 전",
+      "collected_at": "2026-08-20T17:03:38.193001+09:00",
+      "normalized_title": "석화 첫 잣대 세운 공정위…'여수 1호'도 협조 가능성 따진다",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::석화 첫 잣대 세운 공정위…'여수 1호'도 협조 가능성 따진다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260820161240803",
+      "id": "5adb42f2e04090cc",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴시스",
+      "url": "https://v.daum.net/channel/21/home",
+      "source": "뉴시스",
+      "published_at": "2026-08-20T13:03:28.043225+09:00",
+      "snippet": "[서울=뉴시스] 미국과 이란 사이 전쟁이 발발한 직후 국내 석유제품 가격을 담합해 유가를 교란한 혐의를 받는 정유사 4곳과 임직원들이 첫 재판에서 가격 담합에 대한 혐의를 모두 부인했다. (사진=뉴시스 DB) 2026.08.20. photo@newsis.com [서울=뉴시스]이윤석... 4시간 전 1",
+      "collected_at": "2026-08-20T17:03:28.043242+09:00",
+      "normalized_title": "뉴시스",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::뉴시스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유류가격 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/21/home",
+      "id": "e250fa63010cdcd6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유사들, '전쟁 핑계\" 기름값 담합 혐의 부인…1심 재판 시작",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LZ0d6dEl0MTNWN3VvR29nLWR2eURLcGEtV2Z5S3BBN1M0WUZJZl9UMHBiZnNUdWlIZVQxMkduTURwdDZlSE5lSmRGalVEalN2U0hpdjFnanFub3ZiWmJCQ3h2ZUVKQThWSlhyR1lfcXMxcGU2bTJTdtIBeEFVX3lxTE9LZ0d6dEl0MTNWN3VvR29nLWR2eURLcGEtV2Z5S3BBN1M0WUZJZl9UMHBiZnNUdWlIZVQxMkduTURwdDZlSE5lSmRGalVEalN2U0hpdjFnanFub3ZiWmJCQ3h2ZUVKQThWSlhyR1lfcXMxcGU2bTJTdg?oc=5",
+      "source": "뉴시스",
+      "published_at": "2026-08-20T12:43:24+09:00",
+      "snippet": "[서울=뉴시스] 미국과 이란 사이 전쟁이 발발한 직후 국내 석유제품 가격을 담합해 유가를 교란한 혐의를 받는 정유사 4곳과 임직원들이 첫 재판에서 가격 담합에 대한 혐의를 모두 부인했다. (사진=뉴시스 DB) 2026.08.20. photo@newsis.com [서울=뉴시스]이윤석... 4시간 전 1",
+      "collected_at": "2026-08-20T17:03:22.194465+09:00",
+      "normalized_title": "정유사들, '전쟁 핑계\" 기름값 담합 혐의 부인…1심 재판 시작",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::정유사들, '전쟁 핑계\" 기름값 담합 혐의 부인…1심 재판 시작",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LZ0d6dEl0MTNWN3VvR29nLWR2eURLcGEtV2Z5S3BBN1M0WUZJZl9UMHBiZnNUdWlIZVQxMkduTURwdDZlSE5lSmRGalVEalN2U0hpdjFnanFub3ZiWmJCQ3h2ZUVKQThWSlhyR1lfcXMxcGU2bTJTdtIBeEFVX3lxTE9LZ0d6dEl0MTNWN3VvR29nLWR2eURLcGEtV2Z5S3BBN1M0WUZJZl9UMHBiZnNUdWlIZVQxMkduTURwdDZlSE5lSmRGalVEalN2U0hpdjFnanFub3ZiWmJCQ3h2ZUVKQThWSlhyR1lfcXMxcGU2bTJTdg?oc=5",
+      "id": "baf4ed64171e0aa1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "기름값",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조 유가 담합'…정유사4사·임직원들 첫 공판서 혐의 부인",
+      "url": "http://v.daum.net/v/20260820134348136",
+      "source": "뉴스1",
+      "published_at": "2026-08-20T14:03:17.492076+09:00",
+      "snippet": "하고 있다. 2026.3.6 ⓒ 뉴스1 김진환 기자 (서울=뉴스1) 권진영 기자 = 미국·이란 전쟁 발발 후 14조 원대 규모의 유가 담합으로 국내 기름값을 인위적으로 인상한 혐의를 받는 주요 정유회사 4곳과 임직원들이 첫 재판에서 혐의를 부인했다. 서울중앙지법 형사5... 3시간 전",
+      "collected_at": "2026-08-20T17:03:17.492102+09:00",
+      "normalized_title": "'14조 유가 담합'…정유사4사·임직원들 첫 공판서 혐의 부인",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::'14조 유가 담합'…정유사4사·임직원들 첫 공판서 혐의 부인",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260820134348136",
+      "id": "8db70b3d12c69dbb",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스1",
+      "url": "https://v.daum.net/channel/396/home",
+      "source": "뉴스1",
+      "published_at": "2026-08-20T14:03:16.359347+09:00",
+      "snippet": "하고 있다. 2026.3.6 ⓒ 뉴스1 김진환 기자 (서울=뉴스1) 권진영 기자 = 미국·이란 전쟁 발발 후 14조 원대 규모의 유가 담합으로 국내 기름값을 인위적으로 인상한 혐의를 받는 주요 정유회사 4곳과 임직원들이 첫 재판에서 혐의를 부인했다. 서울중앙지법 형사5... 3시간 전",
+      "collected_at": "2026-08-20T17:03:16.359365+09:00",
+      "normalized_title": "뉴스1",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::뉴스1",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://v.daum.net/channel/396/home",
+      "id": "c8ccc99cbe11b78a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"적자였는데 부당이득 14조?\"…정유 담합 첫 재판서 공방 예고",
+      "url": "http://v.daum.net/v/20260820104650116",
+      "source": "뉴스1",
+      "published_at": "2026-08-20T11:03:49.388518+09:00",
+      "snippet": "대대적인 담합 조사와 과징금 부과가 이뤄졌지만 이후 장기간의 소송을 거치며 관련 제재가 잇달아 취소된 전례가 있다. 호르무즈...데 힘을 보탰다는 설명이다. 업계 관계자는 \"휘발유·경유 등을 국제 시황 가격으로 수출하지 않고 국내 수급 안정을 위해 상당... 6시간 전",
+      "collected_at": "2026-08-20T17:03:49.388544+09:00",
+      "normalized_title": "\"적자였는데 부당이득 14조?\"…정유 담합 첫 재판서 공방 예고",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::\"적자였는데 부당이득 14조?\"…정유 담합 첫 재판서 공방 예고",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260820104650116",
+      "id": "7f62c30d1fb68259",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "담합",
+        "조사",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조대 유가 담합' 재판 본격화…정유 4사, 첫 공판서 혐의 부인",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzX3MtSDQ4YlV0RXRUN3JzMlhfd1lqejNoUS0tWkZsemYyVmM2UUE3ZF9fZjlMR0F3M1VPZ1VIR3Rrd1FpRVRXbms2NEtTa28xNzl5RGo2MzBTS1Jw?oc=5",
+      "source": "뉴스핌",
+      "published_at": "2026-08-20T13:50:00+09:00",
+      "snippet": "'26조대 유가 담합' 재판 본격화…정유 4사, 첫 공판서 혐의 부인 뉴스핌",
+      "collected_at": "2026-08-20T17:02:55.843734+09:00",
+      "normalized_title": "'26조대 유가 담합' 재판 본격화…정유 4사, 첫 공판서 혐의 부인",
+      "source_normalized": "뉴스핌",
+      "duplicate_key": "뉴스핌::'26조대 유가 담합' 재판 본격화…정유 4사, 첫 공판서 혐의 부인",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzX3MtSDQ4YlV0RXRUN3JzMlhfd1lqejNoUS0tWkZsemYyVmM2UUE3ZF9fZjlMR0F3M1VPZ1VIR3Rrd1FpRVRXbms2NEtTa28xNzl5RGo2MzBTS1Jw?oc=5",
+      "id": "f7411138b2b10d2b",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "조선비즈",
+      "url": "https://v.daum.net/channel/216/home",
+      "source": "조선비즈",
+      "published_at": "2026-08-20T13:03:20.580640+09:00",
+      "snippet": "행사 등을 마련하겠다”며 “독점적 플랫폼의 불공정 거래, 담합, 소비자 기만 행위에 대해서도 대응하겠다”고 했다. 이어 “8월 말...가격 수준은 정유사 공급 가격 기준 휘발유가 리터(L)당 1784원, 경유 1773원, 등유 1380원이다. - Copyright ⓒ 조선비즈... 8시간 전",
+      "collected_at": "2026-08-20T17:03:20.580657+09:00",
+      "normalized_title": "조선비즈",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::조선비즈",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/216/home",
+      "id": "3757e0e10af8e443",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 4사, ‘26조원 유가 담합’ 첫 재판서 혐의 부인",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTUMxODlZVlh6aUQ0cDVDdnBnX2ZUQ1RIZnJnVFhlcGliRy13RU1xMm45Q3o5QjBwd0szZnByUEVOVGh0V3NRZmJocG42Y1pLZmJIbi1RY0pFSFBmMTU1UDdlTmdFOXQ4cFo0Z1RBYzBLVDdnNWdkNmJ3bmwtSkN4VVNGdw?oc=5",
+      "source": "Chosunbiz",
+      "published_at": "2026-08-20T12:59:00+09:00",
+      "snippet": "볼 수 없다고 주장했다. GS칼텍스와 D씨는 공정위 조사방해와 관련한 일부 행위 자체는 인정했다. 그러나 유류 가격 담합이 없었던 만큼 해당 행위를 담합 조사를 방해한 범죄로 평가할 수 없다는 입장이다. ◇검찰 “전쟁 직후 공급가 함께 올려”…직접 담합 14조... 4시간 전",
+      "collected_at": "2026-08-20T17:02:55.842965+09:00",
+      "normalized_title": "정유 4사, ‘26조원 유가 담합’ 첫 재판서 혐의 부인",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::정유 4사, ‘26조원 유가 담합’ 첫 재판서 혐의 부인",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 11,
+      "canonical_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTUMxODlZVlh6aUQ0cDVDdnBnX2ZUQ1RIZnJnVFhlcGliRy13RU1xMm45Q3o5QjBwd0szZnByUEVOVGh0V3NRZmJocG42Y1pLZmJIbi1RY0pFSFBmMTU1UDdlTmdFOXQ4cFo0Z1RBYzBLVDdnNWdkNmJ3bmwtSkN4VVNGdw?oc=5",
+      "id": "fd37f3d162768126",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구윤철 “‘집중호우’ 거제·통영 특별재난지역 선포 검토”",
+      "url": "http://v.daum.net/v/20260820083609275",
+      "source": "조선비즈",
+      "published_at": "2026-08-20T09:03:50.495233+09:00",
+      "snippet": "행사 등을 마련하겠다”며 “독점적 플랫폼의 불공정 거래, 담합, 소비자 기만 행위에 대해서도 대응하겠다”고 했다. 이어 “8월 말...가격 수준은 정유사 공급 가격 기준 휘발유가 리터(L)당 1784원, 경유 1773원, 등유 1380원이다. - Copyright ⓒ 조선비즈... 8시간 전",
+      "collected_at": "2026-08-20T17:03:50.495260+09:00",
+      "normalized_title": "구윤철 “‘집중호우’ 거제·통영 특별재난지역 선포 검토”",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::구윤철 “‘집중호우’ 거제·통영 특별재난지역 선포 검토”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260820083609275",
+      "id": "353a1ded63d371cd",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조 유가담합' 1심 본격화…정유사들 혐의 부인",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQalNNQlN0Q2pHbDAzTTJ0SVlkbm85ZjlYZmh2eHZremFaU25PZ2d1NUZfcENaY1JDeXBFMVZ5ZzFfbHNxZG9KU0VYcUxERjdZVzVZQ1RySGtaS2pQem9XRDh5QVRGZ3JuT3hTUFl6SjRUWmZMbURnVE9qei1NRmtJTg?oc=5",
+      "source": "edaily.co.kr",
+      "published_at": "2026-08-20T14:06:58+09:00",
+      "snippet": "'26조 유가담합' 1심 본격화…정유사들 혐의 부인 edaily.co.kr",
+      "collected_at": "2026-08-20T17:02:55.846227+09:00",
+      "normalized_title": "'26조 유가담합' 1심 본격화…정유사들 혐의 부인",
+      "source_normalized": "edaily.co.kr",
+      "duplicate_key": "edaily.co.kr::'26조 유가담합' 1심 본격화…정유사들 혐의 부인",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQalNNQlN0Q2pHbDAzTTJ0SVlkbm85ZjlYZmh2eHZremFaU25PZ2d1NUZfcENaY1JDeXBFMVZ5ZzFfbHNxZG9KU0VYcUxERjdZVzVZQ1RySGtaS2pQem9XRDh5QVRGZ3JuT3hTUFl6SjRUWmZMbURnVE9qei1NRmtJTg?oc=5",
+      "id": "a8eb949748eebd80",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조 유가 담합'…정유사4사·임직원들 첫 공판서 혐의 부인",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41akRnbmFtYmdxOW14TEJCTnVGbXhEZmRDS1NVLU16R0NHcVVLTlh3R1ZMWUNzMWJ0VmpVLThfZnpRTzhqcU56Q09ZNDd4ZnpiNkk5RFhJZ2NsMEZmTWl1M2d2anPSAWpBVV95cUxOVUZXQXpNcGxEUDc0X1ZjLTh2QjZYSG40bGVkdS15bGs1MlI2ZjN3Z25fYUstQzVGMS13LVNzRW43Rk54ZkFyOGNtMDBhbDA0ci1GeEpLWGRKaFkwRUw3VmZidXc5WjVCUXdn?oc=5",
+      "source": "news1.kr",
+      "published_at": "2026-08-20T13:42:05+09:00",
+      "snippet": "'14조 유가 담합'…정유사4사·임직원들 첫 공판서 혐의 부인 news1.kr",
+      "collected_at": "2026-08-20T17:02:55.844514+09:00",
+      "normalized_title": "'14조 유가 담합'…정유사4사·임직원들 첫 공판서 혐의 부인",
+      "source_normalized": "news1.kr",
+      "duplicate_key": "news1.kr::'14조 유가 담합'…정유사4사·임직원들 첫 공판서 혐의 부인",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41akRnbmFtYmdxOW14TEJCTnVGbXhEZmRDS1NVLU16R0NHcVVLTlh3R1ZMWUNzMWJ0VmpVLThfZnpRTzhqcU56Q09ZNDd4ZnpiNkk5RFhJZ2NsMEZmTWl1M2d2anPSAWpBVV95cUxOVUZXQXpNcGxEUDc0X1ZjLTh2QjZYSG40bGVkdS15bGs1MlI2ZjN3Z25fYUstQzVGMS13LVNzRW43Rk54ZkFyOGNtMDBhbDA0ci1GeEpLWGRKaFkwRUw3VmZidXc5WjVCUXdn?oc=5",
+      "id": "b46c28e9d82b9815",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, ‘대산 1호 프로젝트’ 조건부 승인…LDPE·EVA 가격 인상 제한",
+      "url": "http://v.daum.net/v/20260820163740989",
+      "source": "경기일보",
+      "published_at": "2026-08-20T16:38:35.666008+09:00",
+      "snippet": "HD현대케미칼이 각각 운영하던 나프타분해설비(NCC)와 기타 석유화학제품 생산시설도 통합 운영된다. 공정위는 결합 이후 국내 LDPE와...공급 과잉이 문제였던 1990년대 국내 LDPE 시장에서는 담합이 10여년간 이어진 전례가 있다. 공정위는 현재 심사 중인 ‘여수... 25분 전",
+      "collected_at": "2026-08-20T17:03:35.666034+09:00",
+      "normalized_title": "공정위, ‘대산 1호 프로젝트’ 조건부 승인…LDPE·EVA 가격 인상 제한",
+      "source_normalized": "경기일보",
+      "duplicate_key": "경기일보::공정위, ‘대산 1호 프로젝트’ 조건부 승인…ldpe·eva 가격 인상 제한",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260820163740989",
+      "id": "d26b95066fc7a0c2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경기일보",
+      "url": "https://v.daum.net/channel/408483/home",
+      "source": "경기일보",
+      "published_at": "2026-08-20T16:38:34.358863+09:00",
+      "snippet": "HD현대케미칼이 각각 운영하던 나프타분해설비(NCC)와 기타 석유화학제품 생산시설도 통합 운영된다. 공정위는 결합 이후 국내 LDPE와...공급 과잉이 문제였던 1990년대 국내 LDPE 시장에서는 담합이 10여년간 이어진 전례가 있다. 공정위는 현재 심사 중인 ‘여수... 25분 전",
+      "collected_at": "2026-08-20T17:03:34.358879+09:00",
+      "normalized_title": "경기일보",
+      "source_normalized": "경기일보",
+      "duplicate_key": "경기일보::경기일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/408483/home",
+      "id": "bcff46503b8d58a8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조원 유가 담합' 정유 4사, 첫 재판서 \"가격 상승 영향 사실 아니다\"",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VSkYxZ05uLUJkeXVyeFVKWVdVc08zTW1HY2RSTzVYSEgzekd2WDRnLU9SdWFadnFscXF3elgtZjIzU1Z4cFctZE5yTEZFdnBCSnRwSkVoVGpvMFl3VWh2Ng?oc=5",
+      "source": "네이트",
+      "published_at": "2026-08-20T16:21:00+09:00",
+      "snippet": "'14조원 유가 담합' 정유 4사, 첫 재판서 \"가격 상승 영향 사실 아니다\" 네이트",
+      "collected_at": "2026-08-20T17:02:55.846000+09:00",
+      "normalized_title": "'14조원 유가 담합' 정유 4사, 첫 재판서 \"가격 상승 영향 사실 아니다\"",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::'14조원 유가 담합' 정유 4사, 첫 재판서 \"가격 상승 영향 사실 아니다\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VSkYxZ05uLUJkeXVyeFVKWVdVc08zTW1HY2RSTzVYSEgzekd2WDRnLU9SdWFadnFscXF3elgtZjIzU1Z4cFctZE5yTEZFdnBCSnRwSkVoVGpvMFl3VWh2Ng?oc=5",
+      "id": "b66ae28949d07785",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, '대산 1호 프로젝트' 조건부 승인…LDPE·EVA 가격 인상 제한",
+      "url": "http://v.daum.net/v/20260820142909408",
+      "source": "뉴스웨이",
+      "published_at": "2026-08-20T15:03:42.657043+09:00",
+      "snippet": "각각 운영하던 나프타분해설비(NCC)와 기타 석유화학제품 생산시설을 함께 운영하는 방식이다. 공정위가 기업결합에 조건을 붙인 핵심...사례도 근거로 들었다. 공급 과잉이 문제가 됐던 1990년대 국내 LDPE 시장에서는 담합이 10여년 동안 지속된 전례가 있었다... 2시간 전",
+      "collected_at": "2026-08-20T17:03:42.657069+09:00",
+      "normalized_title": "공정위, '대산 1호 프로젝트' 조건부 승인…LDPE·EVA 가격 인상 제한",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::공정위, '대산 1호 프로젝트' 조건부 승인…ldpe·eva 가격 인상 제한",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260820142909408",
+      "id": "19964dba88d4b347",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스웨이",
+      "url": "https://v.daum.net/channel/552788/home",
+      "source": "뉴스웨이",
+      "published_at": "2026-08-20T15:03:41.472250+09:00",
+      "snippet": "각각 운영하던 나프타분해설비(NCC)와 기타 석유화학제품 생산시설을 함께 운영하는 방식이다. 공정위가 기업결합에 조건을 붙인 핵심...사례도 근거로 들었다. 공급 과잉이 문제가 됐던 1990년대 국내 LDPE 시장에서는 담합이 10여년 동안 지속된 전례가 있었다... 2시간 전",
+      "collected_at": "2026-08-20T17:03:41.472267+09:00",
+      "normalized_title": "뉴스웨이",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::뉴스웨이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/552788/home",
+      "id": "1d07a152bbd5705c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조 유가 담합' 정유 4사 첫 공판…불공정 거래·조사 방해 혐의도",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iT1JkTXNGSmR2OVhvTDBWLWFhcXl2M0JQcUhaclRiNVJJc3hLRm82dVdVVERxTE5fRWd3TUo3cG5oVGxlNmhZYnNYdDdwR19xRWkzdzZHTWlQVFl0MjJYNGx1U1Z2dzZSQmcw0gFuQVVfeXFMT0QwVWxudlJHbFF1YjZKWUJJTmVPQUJrMTUzS0dCblJuNGpJcGZvM0VJLUpIY0ozdUtERnR3ODduVDFSZUFRSWlzWHc4T1VkaFh3U0FXQW1LUEtvNlcyZFFrUHRLbDlydDBlNUxHd1E?oc=5",
+      "source": "뉴시안",
+      "published_at": "2026-08-20T09:46:13+09:00",
+      "snippet": "'14조 유가 담합' 정유 4사 첫 공판…불공정 거래·조사 방해 혐의도 뉴시안",
+      "collected_at": "2026-08-20T17:02:55.845047+09:00",
+      "normalized_title": "'14조 유가 담합' 정유 4사 첫 공판…불공정 거래·조사 방해 혐의도",
+      "source_normalized": "뉴시안",
+      "duplicate_key": "뉴시안::'14조 유가 담합' 정유 4사 첫 공판…불공정 거래·조사 방해 혐의도",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iT1JkTXNGSmR2OVhvTDBWLWFhcXl2M0JQcUhaclRiNVJJc3hLRm82dVdVVERxTE5fRWd3TUo3cG5oVGxlNmhZYnNYdDdwR19xRWkzdzZHTWlQVFl0MjJYNGx1U1Z2dzZSQmcw0gFuQVVfeXFMT0QwVWxudlJHbFF1YjZKWUJJTmVPQUJrMTUzS0dCblJuNGpJcGZvM0VJLUpIY0ozdUtERnR3ODduVDFSZUFRSWlzWHc4T1VkaFh3U0FXQW1LUEtvNlcyZFFrUHRLbDlydDBlNUxHd1E?oc=5",
+      "id": "e800e089d64bc61b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"석유화학 재편 1호\" 대산 기업결합 조건부 승인…가격·공급 제한",
+      "url": "http://v.daum.net/v/20260820160301313",
+      "source": "대전일보",
+      "published_at": "2026-08-20T16:03:39.296807+09:00",
+      "snippet": "생산능력과 국제가격 등 주요 정보를 비교적 쉽게 파악할 수 있다는 점도 경쟁 제한 우려를 키우는 요인으로 꼽혔다. 과거 담합 전례도 있다. 공정위는 2007년 당시 호남석유화학 등 7개 업체가 1994년부터 2005년까지 LDPE 판매가격을 담합한 사실을 적발해 541억... 1시간 전",
+      "collected_at": "2026-08-20T17:03:39.296835+09:00",
+      "normalized_title": "\"석유화학 재편 1호\" 대산 기업결합 조건부 승인…가격·공급 제한",
+      "source_normalized": "대전일보",
+      "duplicate_key": "대전일보::\"석유화학 재편 1호\" 대산 기업결합 조건부 승인…가격·공급 제한",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260820160301313",
+      "id": "2c561d82b4846d55",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "대전일보",
+      "url": "https://v.daum.net/channel/98009/home",
+      "source": "대전일보",
+      "published_at": "2026-08-20T16:03:38.194217+09:00",
+      "snippet": "생산능력과 국제가격 등 주요 정보를 비교적 쉽게 파악할 수 있다는 점도 경쟁 제한 우려를 키우는 요인으로 꼽혔다. 과거 담합 전례도 있다. 공정위는 2007년 당시 호남석유화학 등 7개 업체가 1994년부터 2005년까지 LDPE 판매가격을 담합한 사실을 적발해 541억... 1시간 전",
+      "collected_at": "2026-08-20T17:03:38.194234+09:00",
+      "normalized_title": "대전일보",
+      "source_normalized": "대전일보",
+      "duplicate_key": "대전일보::대전일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/98009/home",
+      "id": "cb1e86727d0138fc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조원 유가 담합' 정유 4사 첫 재판서 혐의 부인",
+      "url": "http://v.daum.net/v/20260820142636257",
+      "source": "더팩트",
+      "published_at": "2026-08-20T15:02:52.814480+09:00",
+      "snippet": "\"정유업계 구조적 담합 사실 아냐\" 미국·이란 전쟁 후 14조원 대 유가를 담합한 혐의를 받는 국내 정유사와 임직원들이 첫 재판에서 혐의를 부인했다. /박헌우 기자 [더팩트ㅣ설상미 기자] ] 14조원대 유가 담합과 불공정 거래 혐의로 기소된 국내 정유사와 임직원... 2시간 전",
+      "collected_at": "2026-08-20T17:02:52.814506+09:00",
+      "normalized_title": "'14조원 유가 담합' 정유 4사 첫 재판서 혐의 부인",
+      "source_normalized": "더팩트",
+      "duplicate_key": "더팩트::'14조원 유가 담합' 정유 4사 첫 재판서 혐의 부인",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 11,
+      "canonical_url": "http://v.daum.net/v/20260820142636257",
+      "id": "97731390ea43f608",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "더팩트",
+      "url": "https://v.daum.net/channel/359/home",
+      "source": "더팩트",
+      "published_at": "2026-08-20T15:02:51.716489+09:00",
+      "snippet": "\"정유업계 구조적 담합 사실 아냐\" 미국·이란 전쟁 후 14조원 대 유가를 담합한 혐의를 받는 국내 정유사와 임직원들이 첫 재판에서 혐의를 부인했다. /박헌우 기자 [더팩트ㅣ설상미 기자] ] 14조원대 유가 담합과 불공정 거래 혐의로 기소된 국내 정유사와 임직원... 2시간 전",
+      "collected_at": "2026-08-20T17:02:51.716506+09:00",
+      "normalized_title": "더팩트",
+      "source_normalized": "더팩트",
+      "duplicate_key": "더팩트::더팩트",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://v.daum.net/channel/359/home",
+      "id": "e42bf7540eecea3b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘26조 유가 담합’ 법정 간 HD현대오일뱅크…첫 재판서 혐의 부인",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Jcll1UjUxeVRvV0NpZi1Hd3h2N1pMUVl0cWJhV0ZzMUl3c05kWnhGQ0NuSmJEdm9PcURNVjhmenVuOXJwMEZaNnF2YndyUFEzSnVBLVNHZEZ4bmxjaWtMVnZKeFl2QmpPTjFTbGlncGjSAXRBVV95cUxPdmpCVU10YXQybWgxZEZoNEdTU2NLcEdtbmNxR09xSmFBOGpaMkFUaWxnV2xUaHBBTUlKTzd4bHB6SmxLWU5EVGx4UW9HTXRndlBJN0pQalp5YWpmaHNzX0FoNVlRd1d3Slp4NU9mbDIzanUwOA?oc=5",
+      "source": "산경투데이",
+      "published_at": "2026-08-20T15:37:02+09:00",
+      "snippet": "‘26조 유가 담합’ 법정 간 HD현대오일뱅크…첫 재판서 혐의 부인 산경투데이",
+      "collected_at": "2026-08-20T17:02:55.844275+09:00",
+      "normalized_title": "‘26조 유가 담합’ 법정 간 HD현대오일뱅크…첫 재판서 혐의 부인",
+      "source_normalized": "산경투데이",
+      "duplicate_key": "산경투데이::‘26조 유가 담합’ 법정 간 hd현대오일뱅크…첫 재판서 혐의 부인",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Jcll1UjUxeVRvV0NpZi1Hd3h2N1pMUVl0cWJhV0ZzMUl3c05kWnhGQ0NuSmJEdm9PcURNVjhmenVuOXJwMEZaNnF2YndyUFEzSnVBLVNHZEZ4bmxjaWtMVnZKeFl2QmpPTjFTbGlncGjSAXRBVV95cUxPdmpCVU10YXQybWgxZEZoNEdTU2NLcEdtbmNxR09xSmFBOGpaMkFUaWxnV2xUaHBBTUlKTzd4bHB6SmxLWU5EVGx4UW9HTXRndlBJN0pQalp5YWpmaHNzX0FoNVlRd1d3Slp4NU9mbDIzanUwOA?oc=5",
+      "id": "ad8aeef88255945d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 롯데·HD현대 석유화학 대산 1호 합병 조건부 승인새 창 열림",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/08/20/2026082090198.html",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:48:31.213082+09:00",
+      "snippet": "롯데케미칼과 HD현대가 추진하는 석유화학 사업 재편인 대산 1호 기업결합에 대해 공정거래위원회가 조건부 승인을 내렸다. 공정위는 이번 결합이... 또한 범용 제품의 특성상 사업자 간 가격 협조가 용이해지고 과거 1990년대 공급 과잉 시기 10여 년간 가격 담합이 지속됐던 점 등도 고려됐다. 특히... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:31.213109+09:00",
+      "normalized_title": "공정위, 롯데·HD현대 석유화학 대산 1호 합병 조건부 승인새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 롯데·hd현대 석유화학 대산 1호 합병 조건부 승인새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.tvchosun.com/site/data/html_dir/2026/08/20/2026082090198.html",
+      "id": "83d691e59ff3f200",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구윤철 \"9차 최고가 21일 발표…요소수 매점매석 고시 2개월 연장\"새 창 열림",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202608201616269090749",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:40:41.463271+09:00",
+      "snippet": "정부가 최근 국제유가 상승 및 중동 정세 불안정에 대응해 오는21일 '제9차 석유 최고가격'을 확정 발표한다. 아울러 이달 말 만료 예정이던 요소수와... 독점적 플랫폼의 불공정행위 및 유통 담합 등에 대해서도 강력 단속할 방침이다. 구 부총리는 \"중동전쟁 등 글로벌 공급망 불안이 지속되는 상황은 '안보가... 새 창 열림",
+      "collected_at": "2026-08-20T17:02:41.463310+09:00",
+      "normalized_title": "구윤철 \"9차 최고가 21일 발표…요소수 매점매석 고시 2개월 연장\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::구윤철 \"9차 최고가 21일 발표…요소수 매점매석 고시 2개월 연장\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202608201616269090749",
+      "id": "f113bd0deae72943",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, ‘대산 1호 프로젝트’ 조건부 승인…LDPE·EVA 가격 인상 제한새 창 열림",
+      "url": "https://www.kyeonggi.com/article/20260820580369",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:38:31.216089+09:00",
+      "snippet": "공정거래위원회가 석유화학업계 구조 개편의 첫 사례인 ‘대산 1호 프로젝트’ 기업결합을 조건부 승인했다. 결합으로 국내 저밀도 폴리에틸렌(LDPE)... 실제로 공급 과잉이 문제였던 1990년대 국내 LDPE 시장에서는 담합이 10여년간 이어진 전례가 있다. 공정위는 현재 심사 중인 ‘여수 1호 프로젝트’까지... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:31.216106+09:00",
+      "normalized_title": "공정위, ‘대산 1호 프로젝트’ 조건부 승인…LDPE·EVA 가격 인상 제한새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, ‘대산 1호 프로젝트’ 조건부 승인…ldpe·eva 가격 인상 제한새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.kyeonggi.com/article/20260820580369",
+      "id": "d882c23c6eab0373",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 롯데·HD현대 '대산 1호' 조건부 승인새 창 열림",
+      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245049",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:36:31.217523+09:00",
+      "snippet": "LDPE와 EVA는 제품의 동질성이 높은 범용제품인 데다 경쟁사 생산능력과 국제가격 등 시장정보 파악도 비교적 쉽다는 점이 고려됐다. 과거 담합 전력도 판단 근거가 됐다. 공정위는 2007년 호남석유화학(현 롯데케미칼) 등 7개 업체가 1994년부터 2005년까지 LDPE 판매가격을 담합한 사실을 적발해 541억7500만원의... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:31.217540+09:00",
+      "normalized_title": "공정위, 롯데·HD현대 '대산 1호' 조건부 승인새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 롯데·hd현대 '대산 1호' 조건부 승인새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245049",
+      "id": "21a58589633188bc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구 부총리 \"집중호우 피해 거제·통영 특별재난지역 선포 검토\"새 창 열림",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148970346&call_from=naver_news",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:30:41.464664+09:00",
+      "snippet": "불공정거래·담합 등에 대해서도 집중 대응하기로 했다. 또한 기록적인 집중호우로 피해를 본 거제·통영 등 경남 지역은 특별재난지역 선포 검토 등... 구 부총리는 \"22일 0시부터 적용할 9차 석유 최고가격은 최근 국제유가 상승과 민생부담 등을 종합적으로 감안해 오늘 논의를 거쳐 21일 오후 7시에 발표하겠다... 새 창 열림",
+      "collected_at": "2026-08-20T17:02:41.464682+09:00",
+      "normalized_title": "구 부총리 \"집중호우 피해 거제·통영 특별재난지역 선포 검토\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::구 부총리 \"집중호우 피해 거제·통영 특별재난지역 선포 검토\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148970346&call_from=naver_news",
+      "id": "55c7d5504ab133b0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "대산 1호 석화 재편 최종 관문 넘어 … 여수 구조조정도 '파란불', 울산...새 창 열림",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/08/20/2026082000193.html",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:26:31.220274+09:00",
+      "snippet": "뉴데일리 김수한 기자 = 공정거래위원회가 20일 석유화학 사업 재편 '대산 1호 프로젝트' 기업결합을 조건부 승인했다. 올해 2월 산업통상부의 사업... 공급과잉이 문제가 됐던 1990년대 국내 LDPE 시장에서 담합이 10여 년간 이어진 전례도 근거로 들었다. 특히 공정위는 가장 낮은 가격에 제품을 공급해 온... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:31.220291+09:00",
+      "normalized_title": "대산 1호 석화 재편 최종 관문 넘어 … 여수 구조조정도 '파란불', 울산...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::대산 1호 석화 재편 최종 관문 넘어 … 여수 구조조정도 '파란불', 울산...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://biz.newdaily.co.kr/site/data/html/2026/08/20/2026082000193.html",
+      "id": "a72e165f606d1516",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "요소수·주사기 매점매석 금지 10월말까지 연장…“중동 정세 불확실”새 창 열림",
+      "url": "https://www.donga.com/news/Economy/article/all/20260820/134512523/1",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:23:41.466236+09:00",
+      "snippet": "최근 국제유가 상승과 중동 정세 불확실성에 대응해 22일부터 적용할 9차 석유 최고가격도 21일 발표한다. 20일 구윤철 부총리 겸 재정경제부 장관은... 행사 등을 담은 추석 민생안정 대책도 다음달 초 발표된다. 정부는 플랫폼 불공정거래와 담합, 소비자 기만행위에도 관계 부처 합동 대응에 나설 예정이다.새 창 열림",
+      "collected_at": "2026-08-20T17:02:41.466255+09:00",
+      "normalized_title": "요소수·주사기 매점매석 금지 10월말까지 연장…“중동 정세 불확실”새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::요소수·주사기 매점매석 금지 10월말까지 연장…“중동 정세 불확실”새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.donga.com/news/Economy/article/all/20260820/134512523/1",
+      "id": "b7c2b607c7a9cb47",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조원 유가 담합' 정유 4사, 첫 재판서 \"가격 상승 영향 사실 아니다\"새 창 열림",
+      "url": "https://www.ajunews.com/view/20260820145406969",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:22:41.467691+09:00",
+      "snippet": "대해서도 \"공정위 시정명령 참고한 사안\" 아주경제=박종호 기자 jjongho0918@ajunews.com 지난 4월 22일 서울의 한 주유소 모습 [사진=연합뉴스] 미국·이란 전쟁이 발발한 이후 14조원대 규모의 유가를 담합했다는 혐의로 기소된 국내 정유회사 4곳이 첫 재판에서 혐의를 부인했다. 서울중앙지법 형사5단독 류지미... 새 창 열림",
+      "collected_at": "2026-08-20T17:02:41.467707+09:00",
+      "normalized_title": "'14조원 유가 담합' 정유 4사, 첫 재판서 \"가격 상승 영향 사실 아니다\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'14조원 유가 담합' 정유 4사, 첫 재판서 \"가격 상승 영향 사실 아니다\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.ajunews.com/view/20260820145406969",
+      "id": "208764bff9895420",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "코스피와 반대로 가는 금융주…악재도 산적새 창 열림",
+      "url": "https://news.mtn.co.kr/news-detail/2026082016010190819",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:18:41.469122+09:00",
+      "snippet": "지난달 증시 조정기에 '방어주'로 몸값을 올렸던 은행주들이 지수 반등 국면에서는 소외됐다.20일 유가증권시장(코스피)에서 KB금융은 전 거래일보다... 이미 확정된 담보인정비율(LTV) 담합 과징금 2720억원과 금융위원회 의결을 기다리는 홍콩 주가연계증권(ELS) 불완전판매 과징금 6000억원을 합치면 KB... 새 창 열림",
+      "collected_at": "2026-08-20T17:02:41.469137+09:00",
+      "normalized_title": "코스피와 반대로 가는 금융주…악재도 산적새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::코스피와 반대로 가는 금융주…악재도 산적새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.mtn.co.kr/news-detail/2026082016010190819",
+      "id": "a6b8d239ae60ab6a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합 의혹' 정유 4사 재판서 혐의 부인새 창 열림",
+      "url": "https://view.asiae.co.kr/article/2026082016113283052",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:11:41.470692+09:00",
+      "snippet": "정유사들과 담합해 유가를 띄운 혐의로 기소된 정유사 4곳이 첫 재판에서 가격 담합과 불공정거래 혐의를 부인했다. HD현대오일뱅크와 SK에너지... SK에너지 측은 \"전량구매 계약은 공정위의 시정명령을 참고해 진행된 사안으로, (혐의 적용을) 이해하기 어렵다\"고 했다. HD현대오일뱅크는 SK에너지와 2024년... 새 창 열림",
+      "collected_at": "2026-08-20T17:02:41.470707+09:00",
+      "normalized_title": "'유가 담합 의혹' 정유 4사 재판서 혐의 부인새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'유가 담합 의혹' 정유 4사 재판서 혐의 부인새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://view.asiae.co.kr/article/2026082016113283052",
+      "id": "1e2efa85d845a15e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "석화 첫 잣대 세운 공정위…'여수 1호'도 협조 가능성 따진다새 창 열림",
+      "url": "https://www.newsis.com/view/NISX20260820_0003756356",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:10:31.224782+09:00",
+      "snippet": "과거 담합·상품 동질성도 주목…\"여수는 상품시장 다시 따져야\" 공정위는 지분연계뿐 아니라 석유화학 제품의 높은 동질성과 과거 담합 전력, 경쟁사 정보를 비교적 쉽게 파악할 수 있다는 특성도 협조 가능성을 키우는 요인으로 보고 있다. 실제 이번 기업결합에서도 공급과잉이 문제가 됐던 1990년대 국내... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:31.224797+09:00",
+      "normalized_title": "석화 첫 잣대 세운 공정위…'여수 1호'도 협조 가능성 따진다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::석화 첫 잣대 세운 공정위…'여수 1호'도 협조 가능성 따진다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsis.com/view/NISX20260820_0003756356",
+      "id": "e5a9c01bf0df26db",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 석화 사업재편 ‘대산 1호’ 조건부 승인…“경쟁 제한 우려”새 창 열림",
+      "url": "https://www.g-enews.com/view.php?ud=20260820155548330624debea800_1",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:06:31.226197+09:00",
+      "snippet": "공정거래위원회가 과점 심화 등으로 시장 경쟁이 제한될 수 있다고 보고 석유화학 사업재편 1호인 ‘대산 1호’ 기업결합을 조건부 승인했다.... 국내 LDPE 시장에서는 공급과잉이 이어졌던 1994년부터 2005년까지 7개 업체가 판매가격을 담합한 전례도 있다. 기존 사업자인 롯데케미칼과 신규 사업자인... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:31.226213+09:00",
+      "normalized_title": "공정위, 석화 사업재편 ‘대산 1호’ 조건부 승인…“경쟁 제한 우려”새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 석화 사업재편 ‘대산 1호’ 조건부 승인…“경쟁 제한 우려”새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.g-enews.com/view.php?ud=20260820155548330624debea800_1",
+      "id": "50d659a4c4633924",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "석유화학 재편 '대산 1호' 결합 조건부 승인…제품가격 5년 인상제한새 창 열림",
+      "url": "http://www.seouleconews.com/news/articleView.html?idxno=93198",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:04:27.231482+09:00",
+      "snippet": "아울러 대산산단에서 롯데케미칼과 HD현대케미칼이 각각 보유하던 나프타분해설비(NCC)와 기타 석유화학제품 생산시설이 통합 운영하게 된다.... 실제로 지금과 같이 공급과잉이 문제가 됐던 1990년대에 국내 LDPE 시장에서는 담합이 10여년간 지속된 전례도 있었다. 아울러 대산산단에 이어 국내... 새 창 열림",
+      "collected_at": "2026-08-20T17:04:27.231496+09:00",
+      "normalized_title": "석유화학 재편 '대산 1호' 결합 조건부 승인…제품가격 5년 인상제한새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::석유화학 재편 '대산 1호' 결합 조건부 승인…제품가격 5년 인상제한새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.seouleconews.com/news/articleView.html?idxno=93198",
+      "id": "8393fa6f93fb8f88",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, '대산 1호 프로젝트' 기업결합 조건부 승인새 창 열림",
+      "url": "http://www.segyebiz.com/newsView/20260820517086?OutUrl=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:04:27.230079+09:00",
+      "snippet": "과거 1990년대부터 10년간 국내 LDPE 시장에서 롯데케미칼의 전신인 호남석유화학 등 7개 업체의 가격 담합이 적발돼 과징금을 부과받은 바 있다. 현재 추진 중인 ‘여수 1호’ 사업재편과의 연계성도 판단 근거가 됐다. 사업재편이 성사될 경우 롯데케미칼을 매개로 관련 제품을 생산하는 합작법인 간 지분... 새 창 열림",
+      "collected_at": "2026-08-20T17:04:27.230096+09:00",
+      "normalized_title": "공정위, '대산 1호 프로젝트' 기업결합 조건부 승인새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, '대산 1호 프로젝트' 기업결합 조건부 승인새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.segyebiz.com/newsView/20260820517086?OutUrl=naver",
+      "id": "a5c4f0522b77c0e8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 석화 재편 '대산 1호' 결합 조건부 승인…가격 인상 제한새 창 열림",
+      "url": "https://www.delighti.co.kr/news/articleView.html?idxno=120495",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:04:27.228691+09:00",
+      "snippet": "또 대산산업단지에서 롯데케미칼과 HD현대케미칼이 각각 운영하던 나프타분해설비(NCC)와 기타 석유화학 제품 생산시설도 통합 운영된다. 공정위는... 공급 과잉이 심각했던 1990년대 국내 LDPE 시장에서 담합이 10여년간 지속된 전례도 고려했다. 공정위는 또 이번 결합을 기존 사업자인 롯데케미칼과 신규... 새 창 열림",
+      "collected_at": "2026-08-20T17:04:27.228706+09:00",
+      "normalized_title": "공정위, 석화 재편 '대산 1호' 결합 조건부 승인…가격 인상 제한새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 석화 재편 '대산 1호' 결합 조건부 승인…가격 인상 제한새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.delighti.co.kr/news/articleView.html?idxno=120495",
+      "id": "d88a7726c042afe9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조 유가담합' 정유4사 재판서 혐의 부인···자료 삭제만 일부 인정새 창 열림",
+      "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=423181",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:02:41.473700+09:00",
+      "snippet": "검찰이 최대 26조원 규모의 경쟁제한 효과가 발생했다고 판단한 '유가담합' 사건의 피고인들이 첫 재판에서 가격담합과 불공정거래 혐의를 부인했다.... GS칼텍스 측은 자영주유소가 계약 체결 당시 여러 정유사 가운데 거래 상대를 선택할 수 있고 이후 계약 갱신도 거절할 수 있다고 밝혔다. 주유소에 계약을... 새 창 열림",
+      "collected_at": "2026-08-20T17:02:41.473715+09:00",
+      "normalized_title": "'26조 유가담합' 정유4사 재판서 혐의 부인···자료 삭제만 일부 인정새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'26조 유가담합' 정유4사 재판서 혐의 부인···자료 삭제만 일부 인정새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.sisajournal-e.com/news/articleView.html?idxno=423181",
+      "id": "4885db061e89daaa",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "주유소",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크, 법정서 유가담합 부인…\"구조적 비리 없어\"새 창 열림",
+      "url": "https://www.yna.co.kr/view/AKR20260820129400004?input=1195m",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T16:02:41.472274+09:00",
+      "snippet": "이란 전쟁 발발 직후 가격 올린 혐의…SK에너지는 '자진신고 감면' 불기소 미국·이란 전쟁 직후 다른 정유사와 담합해 유가를 폭등시킨 혐의로 재판에... 맺어 유가를 띄운 혐의로 함께 재판에 넘겨진 SK에너지, GS칼텍스, 에쓰오일 측 역시 혐의를 부인했다. SK에너지 측 변호인은 \"전량구매 계약은 공정위의... 새 창 열림",
+      "collected_at": "2026-08-20T17:02:41.472291+09:00",
+      "normalized_title": "HD현대오일뱅크, 법정서 유가담합 부인…\"구조적 비리 없어\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::hd현대오일뱅크, 법정서 유가담합 부인…\"구조적 비리 없어\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.yna.co.kr/view/AKR20260820129400004?input=1195m",
+      "id": "1e59744df27ca0a5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'석유화학 사업 재편' 대산 1호 기업결합 조건부 승인...5년간 가격인상...새 창 열림",
+      "url": "https://www.livebiz.today/news/articleView.html?idxno=204272",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T15:04:27.235577+09:00",
+      "snippet": "이에 따라 대산 산단에 롯데케미칼과 HD현대케미칼이 각각 보유하던 나프타분해설비(NCC)와 기타 석유화학제품 생산시설이 통합 운영될 예정이다. 앞서... 사업자 수가 줄어들면 담합행위가 발생할 수 있고 수익성이 낮은 품목의 생산을 중단하거나 가격을 인상할 가능성이 높아진다는 게 공정위의... 새 창 열림",
+      "collected_at": "2026-08-20T17:04:27.235592+09:00",
+      "normalized_title": "'석유화학 사업 재편' 대산 1호 기업결합 조건부 승인...5년간 가격인상...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'석유화학 사업 재편' 대산 1호 기업결합 조건부 승인...5년간 가격인상...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.livebiz.today/news/articleView.html?idxno=204272",
+      "id": "8b0b476929e36823",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조 유가담합' 1심 본격화…정유사들 혐의 부인새 창 열림",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04185286645549288",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T15:03:10.097875+09:00",
+      "snippet": "검찰, 석유 담합 정유사 4곳 기소(사진 = 뉴시스) 서울중앙지법 형사5단독 류지미 판사는 20일 공정거래법 위반 등 혐의로 기소된 HD현대오일뱅크·SK에너지·GS칼텍스·에쓰오일 등 정유 4개 법인과 임직원 4명에 대한 첫 공판을 진행했다. 검찰은 HD현대오일뱅크와 SK에너지가 가격정보를 공유하고 미국·이란 전쟁... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:10.097890+09:00",
+      "normalized_title": "'26조 유가담합' 1심 본격화…정유사들 혐의 부인새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'26조 유가담합' 1심 본격화…정유사들 혐의 부인새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04185286645549288",
+      "id": "b8bf0f925f653aae",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 4사 '26조원 유가 담합' 첫 공판 혐의 부인새 창 열림",
+      "url": "http://www.4th.kr/news/articleView.html?idxno=2116631",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T15:03:10.096296+09:00",
+      "snippet": "검찰이 산정한 HD현대오일뱅크와 SK에너지의 직접적인 담합 규모는 14조2000억원이다. GS칼텍스와 에쓰오일의 가격 인상에 따른 파급 효과까지 포함하면 약 26조원 상당의 경쟁제한 효과가 발생했다고 검찰은 추산했다. 공정위 조사 과정에서의 자료 삭제 행위를 놓고도 검찰과 피고인 측 주장이 엇갈렸다.... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:10.096312+09:00",
+      "normalized_title": "정유 4사 '26조원 유가 담합' 첫 공판 혐의 부인새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정유 4사 '26조원 유가 담합' 첫 공판 혐의 부인새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://www.4th.kr/news/articleView.html?idxno=2116631",
+      "id": "813e03536d697ca9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조원 유가 담합' 정유 4사 첫 재판서 혐의 부인새 창 열림",
+      "url": "https://news.tf.co.kr/read/life/2355992.htm",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T15:03:10.094832+09:00",
+      "snippet": "\"정유업계 구조적 담합 사실 아냐\" ] 14조원대 유가 담합과 불공정 거래 혐의로 기소된 국내 정유사와 임직원들이 첫 재판에서 혐의를 부인했다. 서울중앙지법 형사5단독 류지미 판사는 20일 독점규제 및 공정거래에 관한 법률 위반 혐의로 기소된 HD현대오일뱅크와 SK에너지, 에쓰오일(S-OIL), GS칼텍스와 임직원... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:10.094861+09:00",
+      "normalized_title": "'14조원 유가 담합' 정유 4사 첫 재판서 혐의 부인새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'14조원 유가 담합' 정유 4사 첫 재판서 혐의 부인새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://news.tf.co.kr/read/life/2355992.htm",
+      "id": "1d965ce141121707",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크, SK에너지 등 정유4사 유가 담합 의혹 재판 본격화… 檢...새 창 열림",
+      "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=84717",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T15:02:41.476552+09:00",
+      "snippet": "인더스트리뉴스 문기수 기자 국내 주요 정유 4사인 HD현대오일뱅크,SK에너지, S-오일, GS칼텍스와 그 임직원들이 연루된 유가 담합 의혹 재판이 본격화 됐다. 검찰은 정유4사가 수익극대화를 위해 장기간 정보교환을 통해 가격을 결정하고 담합을 저질렀고, 수사가 시작되자 조직적인 증거인멸을 자행했다고... 새 창 열림",
+      "collected_at": "2026-08-20T17:02:41.476567+09:00",
+      "normalized_title": "HD현대오일뱅크, SK에너지 등 정유4사 유가 담합 의혹 재판 본격화… 檢...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::hd현대오일뱅크, sk에너지 등 정유4사 유가 담합 의혹 재판 본격화… 檢...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.industrynews.co.kr/news/articleView.html?idxno=84717",
+      "id": "f767b814318475e9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘자영주유소 불공정거래’ 정유 4사 첫 재판…혐의 부인새 창 열림",
+      "url": "https://www.etoday.co.kr/news/view/2616424",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T15:02:41.475129+09:00",
+      "snippet": "이투데이=조소현 기자 | 현대오일뱅크, 유가담합 혐의도 부인 자영주유소가 자사 석유제품만 구매하도록 하고 이를 어길 경우 불이익을 주는 등 불공정거래를 한 혐의로 재판에 넘겨진 국내 정유 4사가 첫 재판에서 혐의를 모두 부인했다. 서울중앙지법 형사5단독 류지미 판사는 20일 독점규제 및 공정거래에... 새 창 열림",
+      "collected_at": "2026-08-20T17:02:41.475146+09:00",
+      "normalized_title": "‘자영주유소 불공정거래’ 정유 4사 첫 재판…혐의 부인새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘자영주유소 불공정거래’ 정유 4사 첫 재판…혐의 부인새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.etoday.co.kr/news/view/2616424",
+      "id": "13062138053dca2c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "주유소",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조 유가담합' 정유 4개사, 첫 재판서 전부 혐의 부인새 창 열림",
+      "url": "https://www.mt.co.kr/society/2026/08/20/2026082010204662049",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T14:03:45.883458+09:00",
+      "snippet": "4개 정유사와 그 직원들은 사전 협의를 통해 국내 유통되는 유류 및 석유제품의 가격을 임의로 올리거나 동결하는 등 담합한 혐의를 받는다. 검찰은 이들이 이란 전쟁 등 중동발 위기를 이용해 유가를 인위적으로 끌어올린 것으로 의심한다. 4개 정유사의 직접 담합 규모는 약 14조2000억원, 경쟁제한 효과는... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:45.883489+09:00",
+      "normalized_title": "'14조 유가담합' 정유 4개사, 첫 재판서 전부 혐의 부인새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'14조 유가담합' 정유 4개사, 첫 재판서 전부 혐의 부인새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유류가격 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.mt.co.kr/society/2026/08/20/2026082010204662049",
+      "id": "e95ec2bc025ac26f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조 유가 담합' 정유 4사 첫 공판서 혐의 부인…\"사실 아냐\"새 창 열림",
+      "url": "https://www.hankyung.com/article/202608202043i",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T14:03:23.299386+09:00",
+      "snippet": "중동 전쟁이 벌어진 틈을 타 유가 담합으로 기름값을 인상하고 주유소에 '갑질'을 한 혐의로 기소된 정유 4사가 첫 공판에서 혐의를 부인했다. 서울중앙지법 형사5단독 류지미 판사는 20일 독점규제 및 공정거래에 관한 법률 위반 등 혐의로 기소된 HD현대오일뱅크, SK에너지, GS칼텍스, 에쓰오일과 임직원 4명에... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:23.299403+09:00",
+      "normalized_title": "'26조 유가 담합' 정유 4사 첫 공판서 혐의 부인…\"사실 아냐\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'26조 유가 담합' 정유 4사 첫 공판서 혐의 부인…\"사실 아냐\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.hankyung.com/article/202608202043i",
+      "id": "31ff8a555b6f9a77",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조 유가 담합'…정유사4사·임직원들 첫 공판서 혐의 부인새 창 열림",
+      "url": "https://www.news1.kr/society/court-prosecution/6264315",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T14:03:23.297794+09:00",
+      "snippet": "미국·이란 전쟁 발발 후 14조 원대 규모의 유가 담합으로 국내 기름값을 인위적으로 인상한 혐의를 받는 주요 정유회사 4곳과 임직원들이 첫 재판에서... 검찰은 관련 담합 규모가 14조2000억 원에 이르고 경쟁제한 효과는 26조 원에 달하는 것으로 보고 있다. C·D 씨는 공정위 현장조사를 앞두고 타사 가격 정보... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:23.297811+09:00",
+      "normalized_title": "'14조 유가 담합'…정유사4사·임직원들 첫 공판서 혐의 부인새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'14조 유가 담합'…정유사4사·임직원들 첫 공판서 혐의 부인새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.news1.kr/society/court-prosecution/6264315",
+      "id": "d0edb983707099d9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조대 유가 담합' 재판 본격화…정유 4사, 첫 공판서 혐의 부인새 창 열림",
+      "url": "https://www.newspim.com/news/view/20260820000769",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T14:03:10.099303+09:00",
+      "snippet": "26조 원대 규모의 유가 담합과 주유소 대상 갑질 혐의로 기소된 4대 정유사들이 첫 재판에서 혐의를 전면 부인했다. 서울중앙지법 형사5단독 류지미 판사는 20일 오전 독점규제 및 공정거래에 관한 법률 위반 등 혐의로 기소된 HD현대오일뱅크·SK에너지·에쓰오일(S-OIL)·GS칼텍스 등 4개 법인과 임직원 4명에 대한... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:10.099318+09:00",
+      "normalized_title": "'26조대 유가 담합' 재판 본격화…정유 4사, 첫 공판서 혐의 부인새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'26조대 유가 담합' 재판 본격화…정유 4사, 첫 공판서 혐의 부인새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.newspim.com/news/view/20260820000769",
+      "id": "a447ccc05ad3d474",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 4사, ‘26조원 유가 담합’ 첫 재판서 혐의 부인새 창 열림",
+      "url": "https://biz.chosun.com/topics/law_firm/2026/08/20/Q3IFPASUVRGA7N7VSRTZKRLWIM/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T13:04:40.355095+09:00",
+      "snippet": "그러나 유류 가격 담합이 없었던 만큼 해당 행위를 담합 조사를 방해한 범죄로 평가할 수 없다는 입장이다. 검찰 “전쟁 직후 공급가 함께 올려”…직접 담합 14조원 주장 이번 재판의 핵심 쟁점은 정유사들이 경쟁사의 가격 정보를 주고받으며 공급가격을 함께 올렸는지다. 검찰은 HD현대오일뱅크와... 새 창 열림",
+      "collected_at": "2026-08-20T17:04:40.355111+09:00",
+      "normalized_title": "정유 4사, ‘26조원 유가 담합’ 첫 재판서 혐의 부인새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정유 4사, ‘26조원 유가 담합’ 첫 재판서 혐의 부인새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유류가격 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://biz.chosun.com/topics/law_firm/2026/08/20/Q3IFPASUVRGA7N7VSRTZKRLWIM/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "id": "a67015771af7adc4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유사들, '전쟁 핑계\" 기름값 담합 혐의 부인…1심 재판 시작새 창 열림",
+      "url": "https://www.newsis.com/view/NISX20260820_0003755857",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T13:03:23.300951+09:00",
+      "snippet": "미국과 이란 사이 전쟁이 발발한 직후 국내 석유제품 가격을 담합해 유가를 교란한 혐의를 받는 정유사 4곳과 임직원들이 첫 재판에서 가격 담합에 대한 혐의를 모두 부인했다. 서울중앙지법 형사5단독 류지미 판사는 20일 현대오일뱅크와 SK에너지, GS칼텍스, 에쓰오일 4개 회사의 독점규제 및 공정거래에 관한... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:23.300967+09:00",
+      "normalized_title": "정유사들, '전쟁 핑계\" 기름값 담합 혐의 부인…1심 재판 시작새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정유사들, '전쟁 핑계\" 기름값 담합 혐의 부인…1심 재판 시작새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsis.com/view/NISX20260820_0003755857",
+      "id": "effe84fee72626ca",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "기름값",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"적자였는데 부당이득 14조?\"…정유 담합 첫 재판서 공방 예고새 창 열림",
+      "url": "https://www.news1.kr/industry/general-industry/6264028",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T11:03:45.885086+09:00",
+      "snippet": "채 담합 의혹만 부각되고 있다고 호소하고 있다. 호르무즈 해협 통항 불안 등으로 원유 도입 리스크가 커진 기간에 국내 정유사들은 정부와 협력해 원유를 안정적으로 확보하고 국내 공급망을 유지하는 데 힘을 보탰다는 설명이다. 업계 관계자는 \"휘발유·경유 등을 국제 시황 가격으로 수출하지 않고 국내... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:45.885106+09:00",
+      "normalized_title": "\"적자였는데 부당이득 14조?\"…정유 담합 첫 재판서 공방 예고새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::\"적자였는데 부당이득 14조?\"…정유 담합 첫 재판서 공방 예고새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.news1.kr/industry/general-industry/6264028",
+      "id": "b7f66f5af92521c5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "요소수·주사기 매점매석 금지 두 달 더 … 석유최고가격 21일 발표새 창 열림",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/08/20/2026082000044.html",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T10:03:53.385057+09:00",
+      "snippet": "요소수는 경유차 배기가스 저감장치의 촉매제로 대부분의 경유차는 요소수 없이는 시동 자체가 걸리지 않는다. 다만 요소수·요소의 경우 규제 문턱은... 아울러 독점적 플랫폼의 불공정거래나 담합 등 유통 질서를 어지럽히는 소비자 기만행위에도 관계부처와 함께 체계적으로 대응할 계획이다. 다만 중동... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:53.385074+09:00",
+      "normalized_title": "요소수·주사기 매점매석 금지 두 달 더 … 석유최고가격 21일 발표새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::요소수·주사기 매점매석 금지 두 달 더 … 석유최고가격 21일 발표새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://biz.newdaily.co.kr/site/data/html/2026/08/20/2026082000044.html",
+      "id": "c3a008a2b3dd6e64",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "박상영 장편소설…재벌가와 자이니치 모녀의 미스터리새 창 열림",
+      "url": "https://www.news1.kr/life-culture/book/6263737",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T10:03:53.382098+09:00",
+      "snippet": "단단해 보이는 재벌가의 성공 서사 뒤에는 담합과 부패, 축적된 재화, 그 과정에서 상처 입은 이들의 시간이 놓여 있다. 2부 '요정의 세계'는 죽은 마츠노... 박상영은 동세대의 사랑과 고민을 다뤄온 흐름에서 나아가, 이 소설에서 한국 현대 경제사의 사건들을 경유하는 미스터리 스릴러 형식에 처음 도전한다.... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:53.382117+09:00",
+      "normalized_title": "박상영 장편소설…재벌가와 자이니치 모녀의 미스터리새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::박상영 장편소설…재벌가와 자이니치 모녀의 미스터리새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.news1.kr/life-culture/book/6263737",
+      "id": "15f17616f378796d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구윤철 \"성장 전망 3%대 속속 상향…물가안정 총력 대응\"새 창 열림",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=850903",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T10:03:45.888062+09:00",
+      "snippet": "이어 \"독점적 플랫폼의 불공정거래, 담합과 각종 소비자 기만행위 등 유통질서를 어지럽히고 민생안정을 저해하는 행위에 대해서는 관계부처와 함께... 지난달 25일부터 이달 21일까지 적용되는 8차 최고가격의 경우 휘발유는 리터(ℓ)당 1784원, 경유는 1773원, 등유는 1380원으로 7차 수준으로 유지됐다.... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:45.888079+09:00",
+      "normalized_title": "구윤철 \"성장 전망 3%대 속속 상향…물가안정 총력 대응\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::구윤철 \"성장 전망 3%대 속속 상향…물가안정 총력 대응\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsworks.co.kr/news/articleView.html?idxno=850903",
+      "id": "888eaf561c2a88cb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조 유가 담합' 정유 4사 첫 공판…불공정 거래·조사 방해 혐의도새 창 열림",
+      "url": "http://www.newsian.co.kr/news/articleView.html?idxno=93953",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T10:03:45.886609+09:00",
+      "snippet": "［뉴시안= 조현선 기자］미국·이란 전쟁 전후로 석유제품 가격을 담합하고 자영주유소에 불공정 거래를 강요한 혐의를 받는 국내 정유 4사가 법정에 선다. 8일 한국석유공사 유가정보시스템 오피넷에 따르면 8월 첫째 주(2~6일) 전국 주유소 휘발유 평균 판매가격은 L당 1866.2원으로 집계됐다.[사진=뉴시스]... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:45.886626+09:00",
+      "normalized_title": "'14조 유가 담합' 정유 4사 첫 공판…불공정 거래·조사 방해 혐의도새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'14조 유가 담합' 정유 4사 첫 공판…불공정 거래·조사 방해 혐의도새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.newsian.co.kr/news/articleView.html?idxno=93953",
+      "id": "8058c842c29c0752",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "휘발유",
+        "주유소",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구윤철 \"9차 석유 최고가격 21일 발표..국제유가, 민생부담 감안\"새 창 열림",
+      "url": "http://www.fnnews.com/news/202608200810585792",
+      "source": "새 창 열림",
+      "published_at": "2026-08-20T09:03:45.891400+09:00",
+      "snippet": "앞서 지난달 말 발표한 8차 최고가격은 7차와 같이 L당 휘발유 1784원, 경유 1773원, 등유 1380원으로 동결했다. 또 8월말 만료되는 요소수와 주사기에 대한... 또 구 부총리는 \"독점적 플랫폼의 불공정거래, 담합과 각종 소비자 기만행위 등 유통질서를 어지럽히고 민생 안정을 저해하는 행위도 관계부처가... 새 창 열림",
+      "collected_at": "2026-08-20T17:03:45.891419+09:00",
+      "normalized_title": "구윤철 \"9차 석유 최고가격 21일 발표..국제유가, 민생부담 감안\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::구윤철 \"9차 석유 최고가격 21일 발표..국제유가, 민생부담 감안\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.fnnews.com/news/202608200810585792",
+      "id": "fa944e6a04d0ac60",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 4사 '26조원 경쟁제한' 법정 공방…첫 재판서 유가 담합 전면 부인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1VeHRYVFFTazkzOXprTkxTTlVHUEdGNmoyaUc1U0JELXp3ajlzd0xLXzJ0ZEk5aldGWUR5SlhrMHpEakpxR2xGVWlLOVJ4R3RGLVliT1FiTEU5V1l0b19KQkFLbzZDc1JRWFNN?oc=5",
+      "source": "서울뉴스통신",
+      "published_at": "2026-08-20T14:00:00+09:00",
+      "snippet": "정유 4사 '26조원 경쟁제한' 법정 공방…첫 재판서 유가 담합 전면 부인 서울뉴스통신",
+      "collected_at": "2026-08-20T17:02:55.844749+09:00",
+      "normalized_title": "정유 4사 '26조원 경쟁제한' 법정 공방…첫 재판서 유가 담합 전면 부인",
+      "source_normalized": "서울뉴스통신",
+      "duplicate_key": "서울뉴스통신::정유 4사 '26조원 경쟁제한' 법정 공방…첫 재판서 유가 담합 전면 부인",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1VeHRYVFFTazkzOXprTkxTTlVHUEdGNmoyaUc1U0JELXp3ajlzd0xLXzJ0ZEk5aldGWUR5SlhrMHpEakpxR2xGVWlLOVJ4R3RGLVliT1FiTEU5V1l0b19KQkFLbzZDc1JRWFNN?oc=5",
+      "id": "28758822c27cd040",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘26조 유가담합’ 정유4사 재판서 혐의 부인···자료 삭제만 일부 인정",
+      "url": "http://v.daum.net/v/20260820151505412",
+      "source": "시사저널e",
+      "published_at": "2026-08-20T16:02:51.715154+09:00",
+      "snippet": "합의했다는 것이 검찰 판단이다. 검찰이 산정한 두 회사의 직접 담합 규모는 14조2000억원이다. GS칼텍스와 에쓰오일이 이 가격을...않았다. 정유4사 법인에 공통으로 적용된 혐의는 자영주유소와 맺은 전량구매계약 등 불공정거래 행위다. 이들은 2021년 1월부터... 1시간 전",
+      "collected_at": "2026-08-20T17:02:51.715178+09:00",
+      "normalized_title": "‘26조 유가담합’ 정유4사 재판서 혐의 부인···자료 삭제만 일부 인정",
+      "source_normalized": "시사저널e",
+      "duplicate_key": "시사저널e::‘26조 유가담합’ 정유4사 재판서 혐의 부인···자료 삭제만 일부 인정",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://v.daum.net/v/20260820151505412",
+      "id": "c1e6dc4336d7ce91",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "시사저널e",
+      "url": "https://v.daum.net/channel/552777/home",
+      "source": "시사저널e",
+      "published_at": "2026-08-20T16:02:50.400298+09:00",
+      "snippet": "합의했다는 것이 검찰 판단이다. 검찰이 산정한 두 회사의 직접 담합 규모는 14조2000억원이다. GS칼텍스와 에쓰오일이 이 가격을...않았다. 정유4사 법인에 공통으로 적용된 혐의는 자영주유소와 맺은 전량구매계약 등 불공정거래 행위다. 이들은 2021년 1월부터... 1시간 전",
+      "collected_at": "2026-08-20T17:02:50.400314+09:00",
+      "normalized_title": "시사저널e",
+      "source_normalized": "시사저널e",
+      "duplicate_key": "시사저널e::시사저널e",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://v.daum.net/channel/552777/home",
+      "id": "be5d378168406334",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크, SK에너지 등 정유4사 유가 담합 의혹 재판 본격화… 檢 \"조직적 담합\" vs 정유4사 \"무죄\"",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wMDFXM2FjRTVmbERFTXlZbFdsYTRJcENFM3VEcHFRNVIzMzNxSDdka0VzN2tUUVplNmxWRS1IenM5SlZjdlh0My1jNnNKSGdBYklZME5Ga29HSGJFT1ZnbllPdG02eldiMXB5NGlvTkxvZw?oc=5",
+      "source": "인더스트리뉴스",
+      "published_at": "2026-08-20T14:36:55+09:00",
+      "snippet": "HD현대오일뱅크, SK에너지 등 정유4사 유가 담합 의혹 재판 본격화… 檢 \"조직적 담합\" vs 정유4사 \"무죄\" 인더스트리뉴스",
+      "collected_at": "2026-08-20T17:02:55.843233+09:00",
+      "normalized_title": "HD현대오일뱅크, SK에너지 등 정유4사 유가 담합 의혹 재판 본격화… 檢 \"조직적 담합\" vs 정유4사 \"무죄\"",
+      "source_normalized": "인더스트리뉴스",
+      "duplicate_key": "인더스트리뉴스::hd현대오일뱅크, sk에너지 등 정유4사 유가 담합 의혹 재판 본격화… 檢 \"조직적 담합\" vs 정유4사 \"무죄\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wMDFXM2FjRTVmbERFTXlZbFdsYTRJcENFM3VEcHFRNVIzMzNxSDdka0VzN2tUUVplNmxWRS1IenM5SlZjdlh0My1jNnNKSGdBYklZME5Ga29HSGJFT1ZnbllPdG02eldiMXB5NGlvTkxvZw?oc=5",
+      "id": "956f49e8c303b7b9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구 부총리 \"집중호우 피해 거제·통영 특별재난지역 선포 검토\"",
+      "url": "http://v.daum.net/v/20260820164027110",
+      "source": "정책브리핑",
+      "published_at": "2026-08-20T16:40:44.246174+09:00",
+      "snippet": "부총리는 \"22일 0시부터 적용할 9차 석유 최고가격은 최근 국제유가 상승과 민생부담 등을 종합적으로 감안해 오늘 논의를 거쳐 21일...마련하겠다\"고 밝혔다. 이어 \"독점적 플랫폼의 불공정거래, 담합과 각종 소비자 기만행위 등 유통질서를 어지럽히고 민생안정을... 22분 전",
+      "collected_at": "2026-08-20T17:02:44.246201+09:00",
+      "normalized_title": "구 부총리 \"집중호우 피해 거제·통영 특별재난지역 선포 검토\"",
+      "source_normalized": "정책브리핑",
+      "duplicate_key": "정책브리핑::구 부총리 \"집중호우 피해 거제·통영 특별재난지역 선포 검토\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260820164027110",
+      "id": "f2446d5df5cdab8d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정책브리핑",
+      "url": "https://v.daum.net/channel/65/home",
+      "source": "정책브리핑",
+      "published_at": "2026-08-20T16:40:42.651414+09:00",
+      "snippet": "부총리는 \"22일 0시부터 적용할 9차 석유 최고가격은 최근 국제유가 상승과 민생부담 등을 종합적으로 감안해 오늘 논의를 거쳐 21일...마련하겠다\"고 밝혔다. 이어 \"독점적 플랫폼의 불공정거래, 담합과 각종 소비자 기만행위 등 유통질서를 어지럽히고 민생안정을... 22분 전",
+      "collected_at": "2026-08-20T17:02:42.651442+09:00",
+      "normalized_title": "정책브리핑",
+      "source_normalized": "정책브리핑",
+      "duplicate_key": "정책브리핑::정책브리핑",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/65/home",
+      "id": "48d7805abf5cf20b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 4사 '26조원 유가 담합' 첫 공판 혐의 부인",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5YSXBVeGx1VG9KMDlyUFZzQ1N2TmRLbGE3bVRLeTV5bklqQ2hsR2xIMkgwQjNGMmIyeEd1bDExNXBiX2c3OEdJRjR3a1lNWkNpNWZlYXctXzVDeFdqWkRUZUVOeHg?oc=5",
+      "source": "포쓰저널",
+      "published_at": "2026-08-20T14:13:06+09:00",
+      "snippet": "정유 4사 '26조원 유가 담합' 첫 공판 혐의 부인 포쓰저널",
+      "collected_at": "2026-08-20T17:02:55.845748+09:00",
+      "normalized_title": "정유 4사 '26조원 유가 담합' 첫 공판 혐의 부인",
+      "source_normalized": "포쓰저널",
+      "duplicate_key": "포쓰저널::정유 4사 '26조원 유가 담합' 첫 공판 혐의 부인",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5YSXBVeGx1VG9KMDlyUFZzQ1N2TmRLbGE3bVRLeTV5bklqQ2hsR2xIMkgwQjNGMmIyeEd1bDExNXBiX2c3OEdJRjR3a1lNWkNpNWZlYXctXzVDeFdqWkRUZUVOeHg?oc=5",
+      "id": "59daab973670ce80",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

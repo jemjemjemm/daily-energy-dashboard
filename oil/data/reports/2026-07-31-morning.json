@@ -1,0 +1,281 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-31",
+  "slot": "morning",
+  "period_start": "2026-07-31T00:00:00+09:00",
+  "period_end": "2026-07-31T08:00:00+09:00",
+  "period_label": "2026-07-31 00:00 ~ 2026-07-31 08:00",
+  "generated_at": "2026-07-31T17:31:30.576107+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1577,
+  "total_deduped_count": 7,
+  "total_ok_count": 7,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 4,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1187
+  },
+  "query_counts": {
+    "경유 담합": 7,
+    "공정거래위원회 정유사 담합": 3,
+    "기름값 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "유류가격 담합": 1,
+    "정유사 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "바이오연료 담합 혐의…공정위, 7곳 제재 착수",
+      "url": "http://v.daum.net/v/20260731000314366",
+      "source": "중앙일보",
+      "published_at": "2026-07-31T00:25:23.915664+09:00",
+      "snippet": "공정거래위원회가 바이오연료의 입찰가격을 담합한 혐의를 받는 7개 제조업체에 대한 제재 절차에 착수했다. 공정위는 관련 심사...담합한 혐의를 받았다. 오행록 공정위 카르텔조사국장은 “경유 가격에도 일부 영향을 미쳤을 수밖에 없다”고 말했다. 제재 수위는... 8시간 전",
+      "collected_at": "2026-07-31T08:25:23.915693+09:00",
+      "normalized_title": "바이오연료 담합 혐의…공정위, 7곳 제재 착수",
+      "source_normalized": "중앙일보",
+      "duplicate_key": "중앙일보::바이오연료 담합 혐의…공정위, 7곳 제재 착수",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260731000314366",
+      "id": "dd75cb210e43f3d2",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중앙일보",
+      "url": "https://v.daum.net/channel/8/home",
+      "source": "중앙일보",
+      "published_at": "2026-07-31T00:25:22.269864+09:00",
+      "snippet": "공정거래위원회가 바이오연료의 입찰가격을 담합한 혐의를 받는 7개 제조업체에 대한 제재 절차에 착수했다. 공정위는 관련 심사...담합한 혐의를 받았다. 오행록 공정위 카르텔조사국장은 “경유 가격에도 일부 영향을 미쳤을 수밖에 없다”고 말했다. 제재 수위는... 8시간 전",
+      "collected_at": "2026-07-31T08:25:22.269887+09:00",
+      "normalized_title": "중앙일보",
+      "source_normalized": "중앙일보",
+      "duplicate_key": "중앙일보::중앙일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/8/home",
+      "id": "eb7afd40bf8b1876",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경유값 상승에 영향줬나…바이오연료 9.7조 담합 적발 [Pick코노미]",
+      "url": "http://v.daum.net/v/20260731060155202",
+      "source": "서울경제",
+      "published_at": "2026-07-31T06:24:43.583700+09:00",
+      "snippet": "입찰이 7조 7600억 원, 바이오중유는 1조 9500억 원 규모다. 담합 업체들의 시장지배력은 매우 큰 편이었다. 담합에 참여한 업체들의...가능성이 있다고 봤다. 현재 국내에서 판매되는 경유에는 바이오디젤이 의무적으로 4% 혼합되는 만큼 원가 상승이 경유 가격... 2시간 전",
+      "collected_at": "2026-07-31T08:24:43.583727+09:00",
+      "normalized_title": "경유값 상승에 영향줬나…바이오연료 9.7조 담합 적발 [Pick코노미]",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::경유값 상승에 영향줬나…바이오연료 9.7조 담합 적발 [pick코노미]",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260731060155202",
+      "id": "e29dc3fe12d2ae1f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울경제",
+      "url": "https://v.daum.net/channel/129/home",
+      "source": "서울경제",
+      "published_at": "2026-07-31T06:24:41.995220+09:00",
+      "snippet": "입찰이 7조 7600억 원, 바이오중유는 1조 9500억 원 규모다. 담합 업체들의 시장지배력은 매우 큰 편이었다. 담합에 참여한 업체들의...가능성이 있다고 봤다. 현재 국내에서 판매되는 경유에는 바이오디젤이 의무적으로 4% 혼합되는 만큼 원가 상승이 경유 가격... 2시간 전",
+      "collected_at": "2026-07-31T08:24:41.995248+09:00",
+      "normalized_title": "서울경제",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::서울경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/129/home",
+      "id": "901ba30ba77d44f5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[전연우 경제 칼럼] 호르무즈에서 온 청구서새 창 열림",
+      "url": "https://www.dailyt.co.kr/newsView/dlt202607300014",
+      "source": "새 창 열림",
+      "published_at": "2026-07-31T07:24:26.456590+09:00",
+      "snippet": "최근 검찰은 국내 정유 4사가 중동 정세를 틈타 14조 원대 규모의 가격 담합을 벌인 사실을 적발했다. 국제유가가 오르는 시기를 이용해 국내 기름값을... 항공사들에게 유류비는 전체 영업비용의 30% 이상을 차지 하는 최대 지출 항목이다. 국적 항공사인 대한항공은 올해 2분기 유류비가 전체 영업비용의 42%까지... 새 창 열림",
+      "collected_at": "2026-07-31T08:24:26.456626+09:00",
+      "normalized_title": "[전연우 경제 칼럼] 호르무즈에서 온 청구서새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[전연우 경제 칼럼] 호르무즈에서 온 청구서새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.dailyt.co.kr/newsView/dlt202607300014",
+      "id": "0482e9d015b29e13",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경유값 상승에 영향줬나…바이오연료 9.7조 담합 적발 [Pick코노미]새 창 열림",
+      "url": "https://www.sedaily.com/article/20074011?ref=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-07-31T06:24:41.005166+09:00",
+      "snippet": "담합 대상은 정유사들이 실시한 바이오연료 구매 입찰뿐 아니라 한국남부발전과 한국중부발전이 발주한 입찰까지 포함됐다. 공정위는 이 기간 영향을 받은 입찰 규모가 모두 9조 7000억 원에 달하는 것으로 보고 있다. 바이오디젤 관련 입찰이 7조 7600억 원, 바이오중유는 1조 9500억 원 규모다. 담합 업체들의... 새 창 열림",
+      "collected_at": "2026-07-31T08:24:41.005195+09:00",
+      "normalized_title": "경유값 상승에 영향줬나…바이오연료 9.7조 담합 적발 [Pick코노미]새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::경유값 상승에 영향줬나…바이오연료 9.7조 담합 적발 [pick코노미]새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.sedaily.com/article/20074011?ref=naver",
+      "id": "440260938d952d79",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "경유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "바이오연료 담합 혐의…공정위, 7곳 제재 착수새 창 열림",
+      "url": "https://www.joongang.co.kr/article/25449601",
+      "source": "새 창 열림",
+      "published_at": "2026-07-31T00:25:19.733531+09:00",
+      "snippet": "이들 업체는 2013년 12월부터 11년3개월 동안 바이오디젤과 발전용 바이오중유 입찰 전에 가격과 낙찰자 등을 담합한 혐의를 받았다. 오행록 공정위 카르텔조사국장은 “경유 가격에도 일부 영향을 미쳤을 수밖에 없다”고 말했다. 제재 수위는 향후 공정위 전원회의 심의를 거쳐 확정된다. 담합의 영향을... 새 창 열림",
+      "collected_at": "2026-07-31T08:25:19.733545+09:00",
+      "normalized_title": "바이오연료 담합 혐의…공정위, 7곳 제재 착수새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::바이오연료 담합 혐의…공정위, 7곳 제재 착수새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.joongang.co.kr/article/25449601",
+      "id": "98c02567041fdaf0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "공정위",
+        "담합",
+        "조사",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

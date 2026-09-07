@@ -1,0 +1,528 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-25",
+  "slot": "evening",
+  "period_start": "2026-06-25T08:00:00+09:00",
+  "period_end": "2026-06-25T17:00:00+09:00",
+  "period_label": "2026-06-25 08:00 ~ 2026-06-25 17:00",
+  "generated_at": "2026-06-26T19:11:05.443134+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1530,
+  "total_deduped_count": 15,
+  "total_ok_count": 15,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 1,
+    "B": 4,
+    "C": 10
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1140
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 1,
+    "공정위 유가 담합": 3,
+    "기름값 담합": 1,
+    "석유 담합": 6,
+    "석유제품 담합": 1,
+    "유가 담합": 8,
+    "유가담합": 8,
+    "유류가격 담합": 1,
+    "정유사 담합": 2,
+    "정유업계 담합": 2,
+    "주유소 담합": 5,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "연합뉴스",
+      "url": "https://v.daum.net/channel/2/home",
+      "source": "연합뉴스",
+      "published_at": "2026-06-25T10:10:44.299713+09:00",
+      "snippet": "모니터링 및 물가 정보 공개, 할당관세 등 정책의 효과를 높이도록 관계 부처와 기관이 최선을 다해달라고 당부했다. 서울의 한 주유소 모습 [연합뉴스 자료사진] 참석자들은 민생 밀접 품목 할인지원·공급 확대 및 필수생계비 부담 경감, 담합을 비롯한 불공정행위... 7시간 전",
+      "collected_at": "2026-06-25T17:10:44.299736+09:00",
+      "normalized_title": "연합뉴스",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::연합뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/2/home",
+      "id": "46cc1eae4f6d3542",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "아주경제",
+      "url": "https://v.daum.net/channel/552779/home",
+      "source": "아주경제",
+      "published_at": "2026-06-25T10:10:34.429501+09:00",
+      "snippet": "위해 민생밀접품목 할인지원·공급확대, 필수생계비 부담 경감, 담합 등 불공정행위 근절에 나설 계획이다. 끝으로 구 부총리는 정부...할당관세 품목을 확대하고 에너지 비용 경감을 위해 석유 최고가격제 등을 시행하고 있다. 그는 \"정부는 유통구조 개선, 다각적... 7시간 전",
+      "collected_at": "2026-06-25T17:10:34.429521+09:00",
+      "normalized_title": "아주경제",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::아주경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/552779/home",
+      "id": "8b7579cc6a870697",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구윤철 \"종전에도 에너지 가격 상승 여전…물가안정 위해 가용수단 총동...",
+      "url": "https://www.ajunews.com/view/20260625085507031",
+      "source": "아주경제",
+      "published_at": "2026-06-25T10:10:33.213751+09:00",
+      "snippet": "경감, 담합 등 불공정행위 근절에 나설 계획이다. 끝으로 구 부총리는 정부의 가격인하 정책의 효용성을 높이기 위해 관계부처와 기관의 적극적인 협조를 요청했다. 정부는 할당관세 품목을 확대하고 에너지 비용 경감을 위해 석유 최고가격제 등을 시행하고 있다. 그는 \"정부는 유통구조 개선, 다각적 물가...",
+      "collected_at": "2026-06-25T17:10:33.213768+09:00",
+      "normalized_title": "구윤철 \"종전에도 에너지 가격 상승 여전…물가안정 위해 가용수단 총동...",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::구윤철 \"종전에도 에너지 가격 상승 여전…물가안정 위해 가용수단 총동...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.ajunews.com/view/20260625085507031",
+      "id": "e1c26d1400935e2d",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[아주사설│기본·원칙·상식] 유가 하락의 혜택, 소비자에게 돌아가야...",
+      "url": "https://www.ajunews.com/view/20260625073857872",
+      "source": "아주경제",
+      "published_at": "2026-06-25T08:10:19.987580+09:00",
+      "snippet": "국제 유가가 큰 폭으로 하락했는데도 주유소 휘발유와 경유 가격은 기대만큼 내려가지 않고 있다. 도널드 트럼프 미국 대통령이 \"원유 가격은 급격히... 정유사와 유통업체가 국제 유가 하락분을 합리적인 기간 안에 소비자 가격에 반영하고 있는지, 담합이나 시장지배력 남용은 없는지 감독하는 것이 정부의 본래...",
+      "collected_at": "2026-06-25T17:10:19.987596+09:00",
+      "normalized_title": "[아주사설│기본·원칙·상식] 유가 하락의 혜택, 소비자에게 돌아가야...",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::[아주사설│기본·원칙·상식] 유가 하락의 혜택, 소비자에게 돌아가야...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://www.ajunews.com/view/20260625073857872",
+      "id": "082b11e79f566efd",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁 여파 장바구니로…식품값 도미노 인상 시작되나",
+      "url": "https://www.dailian.co.kr/news/view/1659424/?sc=Naver",
+      "source": "데일리안",
+      "published_at": "2026-06-25T08:10:19.988937+09:00",
+      "snippet": "고유가, 고환율 기조가 원·부자재 가격 폭등을 유발하더니, 버티다 못한 식품사의 가격 상승 결단으로까지 이어졌다. 당초 예상대로 업계 전반의 원가... 그간 이 대통령은 공정거래위원회와 검찰에 대대적 담합 조사를 지시하며 식품업계의 가격 인하를 유도하고, 이를 개인 SNS에 언급해 왔다. 업계 관계자는...",
+      "collected_at": "2026-06-25T17:10:19.988956+09:00",
+      "normalized_title": "전쟁 여파 장바구니로…식품값 도미노 인상 시작되나",
+      "source_normalized": "데일리안",
+      "duplicate_key": "데일리안::전쟁 여파 장바구니로…식품값 도미노 인상 시작되나",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.dailian.co.kr/news/view/1659424/?sc=Naver",
+      "id": "ba0254f100910d10",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구윤철 부총리 “재정·세제 등 가용 수단 총동원 물가안정에 총력”",
+      "url": "http://v.daum.net/v/20260625101040506",
+      "source": "6시간 전",
+      "published_at": "2026-06-25T11:10:21.676952+09:00",
+      "snippet": "2.4%로 예상했다. 그러면서 한국은행은 향후 물가 경로는 국제유가 및 환율 움직임, 비용상승의 파급 정도, 정부 물가안정 대책의...밀접 품목 할인 지원과 공급 확대, 필수 생계비 경감, 담합 등 불공정행위 근절 등 정부의 물가안정 노력에 협조하기로 했다... 6시간 전",
+      "collected_at": "2026-06-25T17:10:21.676967+09:00",
+      "normalized_title": "구윤철 부총리 “재정·세제 등 가용 수단 총동원 물가안정에 총력”",
+      "source_normalized": "6시간 전",
+      "duplicate_key": "6시간 전::구윤철 부총리 “재정·세제 등 가용 수단 총동원 물가안정에 총력”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260625101040506",
+      "id": "5c4237325b82963a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구윤철 부총리 “재정·세제 등 가용 수단 총동원 물가안정에 총력”",
+      "url": "http://v.daum.net/v/20260625101040506",
+      "source": "7시간 전",
+      "published_at": "2026-06-25T10:10:57.486638+09:00",
+      "snippet": "수산부·공정거래위원회 등 정부를 비롯해 축산물품질평가원·농협·수협·한국식품산업협회·한국소비자원·한국소비자단체협의회 등...달 28일 발표한 통화정책방향에서 앞으로도 물가 오름세는 국제유가 상승의 파급 영향이 확대되는 가운데 소득 증가에 따른... 7시간 전",
+      "collected_at": "2026-06-25T17:10:57.486653+09:00",
+      "normalized_title": "구윤철 부총리 “재정·세제 등 가용 수단 총동원 물가안정에 총력”",
+      "source_normalized": "7시간 전",
+      "duplicate_key": "7시간 전::구윤철 부총리 “재정·세제 등 가용 수단 총동원 물가안정에 총력”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260625101040506",
+      "id": "bb69f79f143d0202",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구윤철 \"민생물가 안정, 정부 최우선 과제…가용수단 총동원\"",
+      "url": "http://v.daum.net/v/20260625093154270",
+      "source": "7시간 전",
+      "published_at": "2026-06-25T10:10:44.300206+09:00",
+      "snippet": "모니터링 및 물가 정보 공개, 할당관세 등 정책의 효과를 높이도록 관계 부처와 기관이 최선을 다해달라고 당부했다. 서울의 한 주유소 모습 [연합뉴스 자료사진] 참석자들은 민생 밀접 품목 할인지원·공급 확대 및 필수생계비 부담 경감, 담합을 비롯한 불공정행위... 7시간 전",
+      "collected_at": "2026-06-25T17:10:44.300221+09:00",
+      "normalized_title": "구윤철 \"민생물가 안정, 정부 최우선 과제…가용수단 총동원\"",
+      "source_normalized": "7시간 전",
+      "duplicate_key": "7시간 전::구윤철 \"민생물가 안정, 정부 최우선 과제…가용수단 총동원\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260625093154270",
+      "id": "a3bbf95a33ea72cd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구윤철 \"종전에도 에너지 가격 상승 여전…물가안정 위해 가용수단 총동원\"",
+      "url": "http://v.daum.net/v/20260625093021183",
+      "source": "7시간 전",
+      "published_at": "2026-06-25T10:10:34.430000+09:00",
+      "snippet": "위해 민생밀접품목 할인지원·공급확대, 필수생계비 부담 경감, 담합 등 불공정행위 근절에 나설 계획이다. 끝으로 구 부총리는 정부...할당관세 품목을 확대하고 에너지 비용 경감을 위해 석유 최고가격제 등을 시행하고 있다. 그는 \"정부는 유통구조 개선, 다각적... 7시간 전",
+      "collected_at": "2026-06-25T17:10:34.430014+09:00",
+      "normalized_title": "구윤철 \"종전에도 에너지 가격 상승 여전…물가안정 위해 가용수단 총동원\"",
+      "source_normalized": "7시간 전",
+      "duplicate_key": "7시간 전::구윤철 \"종전에도 에너지 가격 상승 여전…물가안정 위해 가용수단 총동원\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260625093021183",
+      "id": "d109b42ff8f721a9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "금시세(금값) 25일",
+      "url": "https://www.bntnews.co.kr/article/view/bnt202606250054",
+      "source": "bnt뉴스",
+      "published_at": "2026-06-25T09:10:19.986297+09:00",
+      "snippet": "대대적인 담합 조사를 지시했다고 공식적으로 밝혔다. 그는 본인의 사회관계망서비스 계정을 통해 미국 국민이 부담하는 휘발유 가격은 지금보다 훨씬 더 빠르고 가파르게 내려가야만 마땅하다고 목소리를 높였다. 원유 공급망 정상화 기대감에 힘입어 국제유가는 이날 하루에만 1% 넘게 큰 폭으로...",
+      "collected_at": "2026-06-25T17:10:19.986312+09:00",
+      "normalized_title": "금시세(금값) 25일",
+      "source_normalized": "bnt뉴스",
+      "duplicate_key": "bnt뉴스::금시세(금값) 25일",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.bntnews.co.kr/article/view/bnt202606250054",
+      "id": "d44f9018be341d20",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크 담합 수사 '윗선' 겨누나…사측 \"아직 혐의 입증 안 돼\"",
+      "url": "http://www.lkp.news/news/articleView.html?idxno=81197",
+      "source": "리버티코리아포스트",
+      "published_at": "2026-06-25T16:10:19.982298+09:00",
+      "snippet": "이면에 정유사들의 담합이 자리잡고 있는 것 아니냐는 게 검찰의 시각이다. 이런 상황에서 임직원의 구속은 HD현대오일뱅크의 법적 리스크와 ESG 평판 하락을 야기할 것으로 예상된다. 공정거래 자율준수 프로그램(CP) 등 내부통제 시스템이 제 기능을 하지 못했다는 비판 역시 피하기 어렵게 됐다. 검찰의 '윗선...",
+      "collected_at": "2026-06-25T17:10:19.982330+09:00",
+      "normalized_title": "HD현대오일뱅크 담합 수사 '윗선' 겨누나…사측 \"아직 혐의 입증 안 돼\"",
+      "source_normalized": "리버티코리아포스트",
+      "duplicate_key": "리버티코리아포스트::hd현대오일뱅크 담합 수사 '윗선' 겨누나…사측 \"아직 혐의 입증 안 돼\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://www.lkp.news/news/articleView.html?idxno=81197",
+      "id": "918bb1e3edee4c18",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "브릿지경제",
+      "url": "https://v.daum.net/channel/552787/home",
+      "source": "브릿지경제",
+      "published_at": "2026-06-25T11:10:21.676439+09:00",
+      "snippet": "2.4%로 예상했다. 그러면서 한국은행은 향후 물가 경로는 국제유가 및 환율 움직임, 비용상승의 파급 정도, 정부 물가안정 대책의...밀접 품목 할인 지원과 공급 확대, 필수 생계비 경감, 담합 등 불공정행위 근절 등 정부의 물가안정 노력에 협조하기로 했다... 6시간 전",
+      "collected_at": "2026-06-25T17:10:21.676459+09:00",
+      "normalized_title": "브릿지경제",
+      "source_normalized": "브릿지경제",
+      "duplicate_key": "브릿지경제::브릿지경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/552787/home",
+      "id": "02165ddbd82d5859",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구윤철 부총리 “재정·세제 등 가용 수단 총동원 물가안정에 총력”",
+      "url": "https://www.viva100.com/article/20260625500422",
+      "source": "브릿지경제",
+      "published_at": "2026-06-25T11:10:19.983683+09:00",
+      "snippet": "유가 및 환율 움직임, 비용상승의 파급 정도, 정부 물가안정 대책의 효과 등과 관련한 불확실성이 높은 것으로 판단했다. 한국은행의 물가안정 목표는 2019년 이후 소비자물가 상승률 2%이다. 이날 간담회 참석자들은 물가안정 중요성에 공감하고 민생 밀접 품목 할인 지원과 공급 확대, 필수 생계비 경감, 담합 등...",
+      "collected_at": "2026-06-25T17:10:19.983702+09:00",
+      "normalized_title": "구윤철 부총리 “재정·세제 등 가용 수단 총동원 물가안정에 총력”",
+      "source_normalized": "브릿지경제",
+      "duplicate_key": "브릿지경제::구윤철 부총리 “재정·세제 등 가용 수단 총동원 물가안정에 총력”",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.viva100.com/article/20260625500422",
+      "id": "e5f217c4a04a432d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구윤철 \"민생물가 안정,정부 최우선 과제…가용수단 총동원\"",
+      "url": "http://www.seouleconews.com/news/articleView.html?idxno=92026",
+      "source": "서울이코노미뉴스",
+      "published_at": "2026-06-25T12:10:43.089965+09:00",
+      "snippet": "서울의 한 주유소 모습 구윤철 부총리 겸 재정경제부 장관은 25일 재정·세제·금융 등 가용한 수단을 모두 동원해 물가안정과 서민 부담 경감을 위해... 참석자들은 민생 밀접품목 할인지원·공급 확대 및 필수생계비 부담 경감, 담합을 비롯한 불공정행위 근절 등 정부의 물가안정 노력에 적극적으로 협조하기로...",
+      "collected_at": "2026-06-25T17:10:43.089989+09:00",
+      "normalized_title": "구윤철 \"민생물가 안정,정부 최우선 과제…가용수단 총동원\"",
+      "source_normalized": "서울이코노미뉴스",
+      "duplicate_key": "서울이코노미뉴스::구윤철 \"민생물가 안정,정부 최우선 과제…가용수단 총동원\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.seouleconews.com/news/articleView.html?idxno=92026",
+      "id": "35875481fde9e214",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구윤철 \"민생물가 안정이 정부 최우선 과제... 가용한 수단 총동원\"",
+      "url": "http://www.efnews.co.kr/news/articleView.html?idxno=130543",
+      "source": "파이낸셜신문",
+      "published_at": "2026-06-25T10:10:19.985024+09:00",
+      "snippet": "간담회 참석자들은 물가안정의 중요성에 공감하고, 민생밀접품목 할인지원·공급확대와 필수생계비 부담 경감, 담합 등 불공정행위 근절 등 정부의... 농협 정승일 본부장은 \"하나로마트 최대 65% 할인, 중동전쟁 관련 면세유 유가보조금·주유할인 지원, 농업용 비닐 등 영농자재 최대 30% 할인 등 물간안정에...",
+      "collected_at": "2026-06-25T17:10:19.985039+09:00",
+      "normalized_title": "구윤철 \"민생물가 안정이 정부 최우선 과제... 가용한 수단 총동원\"",
+      "source_normalized": "파이낸셜신문",
+      "duplicate_key": "파이낸셜신문::구윤철 \"민생물가 안정이 정부 최우선 과제... 가용한 수단 총동원\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.efnews.co.kr/news/articleView.html?idxno=130543",
+      "id": "dde1ef0011d0d506",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

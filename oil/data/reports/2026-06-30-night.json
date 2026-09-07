@@ -1,0 +1,170 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-30",
+  "slot": "night",
+  "period_start": "2026-06-30T17:00:00+09:00",
+  "period_end": "2026-07-01T00:00:00+09:00",
+  "period_label": "2026-06-30 17:00 ~ 2026-07-01 00:00",
+  "generated_at": "2026-07-01T09:19:54.310919+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1517,
+  "total_deduped_count": 4,
+  "total_ok_count": 4,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1127
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "유가 담합": 4,
+    "유가담합": 4
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "“하이닉스 290층에 사람 있어요” 폭락하고 ‘찔끔’ 오르자 개미들 발...",
+      "url": "https://www.seoul.co.kr/news/economy/securities/2026/06/30/20260630500243?wlog_tag3=naver",
+      "source": "서울신문",
+      "published_at": "2026-06-30T17:34:19.069906+09:00",
+      "snippet": "30일 유가증권시장에서 SK하이닉스는 전 거래일 대비 0.84% 오른 265만원에 거래를 마쳤다. 이날 SK하이닉스는 하루 사이에 3% 급락과 4% 급등을 모두 겪는... 삼성전자와 SK하이닉스, 마이크론 등이 미국에서 D램 가격 담합 의혹으로 집단 소송에 휘말렸다는 언론 보도도 투심을 악화시킨 것으로 분석된다....",
+      "collected_at": "2026-07-01T08:34:19.069925+09:00",
+      "normalized_title": "“하이닉스 290층에 사람 있어요” 폭락하고 ‘찔끔’ 오르자 개미들 발...",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::“하이닉스 290층에 사람 있어요” 폭락하고 ‘찔끔’ 오르자 개미들 발...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.seoul.co.kr/news/economy/securities/2026/06/30/20260630500243?wlog_tag3=naver",
+      "id": "2f28422093857859",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "코스피, 사흘 만에 반등 마감···반도체주 주도 8470선 회복",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=632309",
+      "source": "서울파이낸스",
+      "published_at": "2026-06-30T17:34:19.068476+09:00",
+      "snippet": "유가증권시장에서 외국인은 3조6620억원을 순매도했고, 개인과 기관은 각각 5357억원, 3조853억원을 순매수했다. 코스피 시장에서는 상승 종목이... SK하이닉스의 담합 관련 소송 등 노이즈가 이어지며 부진한 흐름을 보이고 있다\"며 \"전일 공개된 대도약 3대 메가 프로젝트에서 AI 반도체 관련 대규모...",
+      "collected_at": "2026-07-01T08:34:19.068498+09:00",
+      "normalized_title": "코스피, 사흘 만에 반등 마감···반도체주 주도 8470선 회복",
+      "source_normalized": "서울파이낸스",
+      "duplicate_key": "서울파이낸스::코스피, 사흘 만에 반등 마감···반도체주 주도 8470선 회복",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.seoulfn.com/news/articleView.html?idxno=632309",
+      "id": "9177e6174e395750",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령, 공공부문 차량 2부제 전면 해제 지시",
+      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2443941",
+      "source": "이뉴스투데이",
+      "published_at": "2026-06-30T17:34:19.067134+09:00",
+      "snippet": "이 대통령은 공정거래위원장 중소벤처기업부로부터 소기업·소상공인 등 이른바 '을'이 대기업·중견기업과 단체 협상을 할 경우 담합 적용을 면제하는... '여객자동차운수사업법 시행령' 개정안도 통과돼 국토교통부는 7월 중 '여객자동차 유가보조금 지급지침'을 개정하고 지급 단가와 지급 방식 등 세부 기준을...",
+      "collected_at": "2026-07-01T08:34:19.067155+09:00",
+      "normalized_title": "이 대통령, 공공부문 차량 2부제 전면 해제 지시",
+      "source_normalized": "이뉴스투데이",
+      "duplicate_key": "이뉴스투데이::이 대통령, 공공부문 차량 2부제 전면 해제 지시",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2443941",
+      "id": "98cc71c469221c4d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "외인 3.8조 '팔자'에도 코스피, 0.97% 오른 8476.48에 거래 마쳐",
+      "url": "https://economist.co.kr/article/view/ecn202606300040",
+      "source": "이코노미스트",
+      "published_at": "2026-06-30T17:34:19.071363+09:00",
+      "snippet": "유가증권시장에서 외국인은 3조8174억원어치를 순매도했다. 반면 기관은 2조9361억원, 개인은 8335억원을 순매수했다. 코스피 상승은 반도체 투톱이 이끌었다. 미국 애플의 반도체 비용 부담에 따른 제품 가격 인상 가능성과 메모리 업체 담합 관련 소송 등으로 변동성이 켜졌지만, 정부가 지난 29일...",
+      "collected_at": "2026-07-01T08:34:19.071383+09:00",
+      "normalized_title": "외인 3.8조 '팔자'에도 코스피, 0.97% 오른 8476.48에 거래 마쳐",
+      "source_normalized": "이코노미스트",
+      "duplicate_key": "이코노미스트::외인 3.8조 '팔자'에도 코스피, 0.97% 오른 8476.48에 거래 마쳐",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://economist.co.kr/article/view/ecn202606300040",
+      "id": "08d3210ced673964",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

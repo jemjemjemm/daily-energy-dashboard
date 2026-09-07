@@ -1,0 +1,3877 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-19",
+  "slot": "evening",
+  "period_start": "2026-06-19T08:00:00+09:00",
+  "period_end": "2026-06-19T17:00:00+09:00",
+  "period_label": "2026-06-19 08:00 ~ 2026-06-19 17:00",
+  "generated_at": "2026-06-22T09:38:03.544925+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1498,
+  "total_deduped_count": 115,
+  "total_ok_count": 115,
+  "total_review_count": 0,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 23,
+    "B": 11,
+    "C": 81
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1108
+  },
+  "query_counts": {
+    "경유 담합": 8,
+    "공정거래위원회 정유사 담합": 7,
+    "공정위 유가 담합": 6,
+    "기름값 담합": 41,
+    "석유 담합": 52,
+    "석유제품 담합": 31,
+    "유가 담합": 68,
+    "유가담합": 68,
+    "유류가격 담합": 34,
+    "정유사 담합": 38,
+    "정유업계 담합": 21,
+    "주유소 담합": 28,
+    "휘발유 담합": 26
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "조선일보",
+      "url": "https://v.daum.net/channel/200/home",
+      "source": "조선일보",
+      "published_at": "2026-06-19T15:26:47.222067+09:00",
+      "snippet": "따른 것이다. 정 장관은 이날 페이스북에 “유가 담합으로 국민이 입은 피해가 14조원대에 이른다”며 “이재명 대통령은 중동 전쟁...미국과 이란 간 전쟁이 발발한 직후 국내 주유소 휘발유와 경유 리터당 가격은 하루 평균 20~80원씩 치솟았다. 서울중앙지검 공정... 2시간 전",
+      "collected_at": "2026-06-19T17:26:47.222084+09:00",
+      "normalized_title": "조선일보",
+      "source_normalized": "조선일보",
+      "duplicate_key": "조선일보::조선일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/200/home",
+      "id": "4a6dd87e3493016c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무 장관 “유가 담합으로 14조 국민 피해…엄중히 책임 물을 ...",
+      "url": "https://www.chosun.com/national/court_law/2026/06/19/EVRKEUZT35HPDJ3JSYMNMN7Q2M/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "source": "조선일보",
+      "published_at": "2026-06-19T15:26:45.918451+09:00",
+      "snippet": "지난 3월 미국과 이란 간 전쟁이 발발한 직후 국내 주유소 휘발유와 경유 리터당 가격은 하루 평균 20~80원씩 치솟았다. 서울중앙지검 공정거래조사부는 SK에너지·GS칼텍스·에쓰오일·HD현대오일뱅크 등 국내 시장을 과점하는 정유 4사가 중동 위기를 틈타 유가를 담합해 국내 유류 및 석유제품 가격을...",
+      "collected_at": "2026-06-19T17:26:45.918472+09:00",
+      "normalized_title": "정성호 법무 장관 “유가 담합으로 14조 국민 피해…엄중히 책임 물을 ...",
+      "source_normalized": "조선일보",
+      "duplicate_key": "조선일보::정성호 법무 장관 “유가 담합으로 14조 국민 피해…엄중히 책임 물을 ...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.chosun.com/national/court_law/2026/06/19/EVRKEUZT35HPDJ3JSYMNMN7Q2M/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "id": "f660efa1ff429c62",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "휘발유",
+        "경유",
+        "주유소",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무 장관 \"유가 담합으로 14조 국민 피해…엄중히 책임 물을 것\"",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTHR3UHg2TFlSMXNOd0p0VlNyRE8wT1c5OUN2ZGdlZVp6enU5ZW1HZ3NnMjRFZHNuMGdMS0lyQTdBQndfbUFiTHZMa0laRzUzbjN1ZVczR1dzWkdlVUlNLVpCWWJJLWtCb0lxeEhJU1M1czYwN0R1TUdIeFpiVURoSGtfUG8wVms?oc=5",
+      "source": "조선일보",
+      "published_at": "2026-06-19T14:47:44+09:00",
+      "snippet": "정성호 법무 장관 \"유가 담합으로 14조 국민 피해…엄중히 책임 물을 것\" 조선일보",
+      "collected_at": "2026-06-19T17:26:47.827517+09:00",
+      "normalized_title": "정성호 법무 장관 \"유가 담합으로 14조 국민 피해…엄중히 책임 물을 것\"",
+      "source_normalized": "조선일보",
+      "duplicate_key": "조선일보::정성호 법무 장관 \"유가 담합으로 14조 국민 피해…엄중히 책임 물을 것\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTHR3UHg2TFlSMXNOd0p0VlNyRE8wT1c5OUN2ZGdlZVp6enU5ZW1HZ3NnMjRFZHNuMGdMS0lyQTdBQndfbUFiTHZMa0laRzUzbjN1ZVczR1dzWkdlVUlNLVpCWWJJLWtCb0lxeEhJU1M1czYwN0R1TUdIeFpiVURoSGtfUG8wVms?oc=5",
+      "id": "ce96153ec1ba4cfe",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 “유가 담합으로 14조원대 피해…책임 엄중히 물을 것”",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQazFvd0tENWtPc3IycWh6bEdBcm9WTmtWV3N6MzRhUVhyNWtSZFNkZ1YzRURuZ2ZGSXdKaGJpSFg5aWxSVGNfRmg1dlpvZVlPZlBxUFRkMThEVUNUZjNvR0laQU1tV2dOekJQeEw2WHlGMTBzZWZGUVNweUkxLUVSajNieFI2d9IBbEFVX3lxTE9jemlZbzkxRzFCbzRJM3hkb3hiLUFZR2VNNy13OTk1OGpZRWtHOU1rSWZzMnVEZlRPU2RFTWxXV2lYLTMwa0Z1SXNOalFRbDNORy02bWROSFhiSkUzVU1VMEpvNjlEWElNYlVHaw?oc=5",
+      "source": "국민일보",
+      "published_at": "2026-06-19T14:39:00+09:00",
+      "snippet": "정성호 “유가 담합으로 14조원대 피해…책임 엄중히 물을 것” 국민일보",
+      "collected_at": "2026-06-19T17:26:38.067255+09:00",
+      "normalized_title": "정성호 “유가 담합으로 14조원대 피해…책임 엄중히 물을 것”",
+      "source_normalized": "국민일보",
+      "duplicate_key": "국민일보::정성호 “유가 담합으로 14조원대 피해…책임 엄중히 물을 것”",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQazFvd0tENWtPc3IycWh6bEdBcm9WTmtWV3N6MzRhUVhyNWtSZFNkZ1YzRURuZ2ZGSXdKaGJpSFg5aWxSVGNfRmg1dlpvZVlPZlBxUFRkMThEVUNUZjNvR0laQU1tV2dOekJQeEw2WHlGMTBzZWZGUVNweUkxLUVSajNieFI2d9IBbEFVX3lxTE9jemlZbzkxRzFCbzRJM3hkb3hiLUFZR2VNNy13OTk1OGpZRWtHOU1rSWZzMnVEZlRPU2RFTWxXV2lYLTMwa0Z1SXNOalFRbDNORy02bWROSFhiSkUzVU1VMEpvNjlEWElNYlVHaw?oc=5",
+      "id": "696a577d9bfcf04c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국민일보",
+      "url": "https://v.daum.net/channel/45/home",
+      "source": "국민일보",
+      "published_at": "2026-06-19T10:26:59.788368+09:00",
+      "snippet": "서울 시내 한 주유소. 연합뉴스 국내 정유 4개사의 ‘유가 담합’ 의혹과 관련해 HD현대오일뱅크 관계자 1명이 구속됐다. 19일 법조계에 따르면 부동식 서울중앙지법 영장전담 부장판사는 전날 독점규제 및 공정거래에 관한 법률 위반 혐의를 받는 HD현대오일뱅크... 7시간 전 1",
+      "collected_at": "2026-06-19T17:26:59.788384+09:00",
+      "normalized_title": "국민일보",
+      "source_normalized": "국민일보",
+      "duplicate_key": "국민일보::국민일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/45/home",
+      "id": "24bfcc347c6ceaa1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘이란 전쟁 틈타 유가 담합’ 의혹, HD현대오일뱅크 관계자 구속",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPdlctU0VWY0ZCU0h5STBYQU16eW5rMjV2NGIzVGhJdlFhckpCZ3QwQjZ0X0M4WDZKUTd4dTFUd0l1cGFzWm5zekhGMlZGOC1aNmVZNXVUQ05oaG9ia1hUWENxaUFmY0tzM2swNtIBbEFVX3lxTFBPdlctU0VWY0ZCU0h5STBYQU16eW5rMjV2NGIzVGhJdlFhckpCZ3QwQjZ0X0M4WDZKUTd4dTFUd0l1cGFzWm5zekhGMlZGOC1aNmVZNXVUQ05oaG9ia1hUWENxaUFmY0tzM2swNg?oc=5",
+      "source": "국민일보",
+      "published_at": "2026-06-19T09:35:00+09:00",
+      "snippet": "‘이란 전쟁 틈타 유가 담합’ 의혹, HD현대오일뱅크 관계자 구속 국민일보",
+      "collected_at": "2026-06-19T17:26:38.065429+09:00",
+      "normalized_title": "‘이란 전쟁 틈타 유가 담합’ 의혹, HD현대오일뱅크 관계자 구속",
+      "source_normalized": "국민일보",
+      "duplicate_key": "국민일보::‘이란 전쟁 틈타 유가 담합’ 의혹, hd현대오일뱅크 관계자 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPdlctU0VWY0ZCU0h5STBYQU16eW5rMjV2NGIzVGhJdlFhckpCZ3QwQjZ0X0M4WDZKUTd4dTFUd0l1cGFzWm5zekhGMlZGOC1aNmVZNXVUQ05oaG9ia1hUWENxaUFmY0tzM2swNtIBbEFVX3lxTFBPdlctU0VWY0ZCU0h5STBYQU16eW5rMjV2NGIzVGhJdlFhckpCZ3QwQjZ0X0M4WDZKUTd4dTFUd0l1cGFzWm5zekhGMlZGOC1aNmVZNXVUQ05oaG9ia1hUWENxaUFmY0tzM2swNg?oc=5",
+      "id": "4b25882f992df7fd",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울신문",
+      "url": "https://v.daum.net/channel/33/home",
+      "source": "서울신문",
+      "published_at": "2026-06-19T16:30:37.435757+09:00",
+      "snippet": "에 참석해 박수를 치고 있다. 연합뉴스 경쟁사들과 유가(기름값)를 담합한 혐의를 받는 HD현대오일뱅크 직원이 구속된 것과 관련해...이같이 밝혔다. 정 장관은 “검찰이 중동 전쟁을 틈타 일주일 만에 휘발유 가격을 200원 폭등시킨 혐의로 정유사 직원을 구속했다... 57분 전",
+      "collected_at": "2026-06-19T17:26:37.435771+09:00",
+      "normalized_title": "서울신문",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::서울신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://v.daum.net/channel/33/home",
+      "id": "80c4d7f4831c358c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘유가 담합’ 구속…정성호 “국민 피해 14조, 엄중 대응할 것”",
+      "url": "https://www.seoul.co.kr/news/society/2026/06/19/20260619500209?wlog_tag3=naver",
+      "source": "서울신문",
+      "published_at": "2026-06-19T16:28:35.916994+09:00",
+      "snippet": "정 장관은 “검찰이 중동 전쟁을 틈타 일주일 만에 휘발유 가격을 200원 폭등시킨 혐의로 정유사 직원을 구속했다”며 “유가 담합으로 국민이 입은 피해는 14조원대에 이른다”고 했다. 이어 “이재명 대통령은 중동 전쟁 직후 유류 공급에 여파가 미치기도 전에 강력하고 단호한 대응을 지시한 바 있다”며...",
+      "collected_at": "2026-06-19T17:26:35.917014+09:00",
+      "normalized_title": "‘유가 담합’ 구속…정성호 “국민 피해 14조, 엄중 대응할 것”",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::‘유가 담합’ 구속…정성호 “국민 피해 14조, 엄중 대응할 것”",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 10,
+      "canonical_url": "https://www.seoul.co.kr/news/society/2026/06/19/20260619500209?wlog_tag3=naver",
+      "id": "38cd42d992bc8c63",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, ‘기름값 담합’ HD현대오일뱅크 직원 구속…정유 4사 수사 확대",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1VV0x4bnVGWk9UUUY4Y1lyWWxSbW9DeFJKeDliQnYxQVgxSXUxSlFMWlFFQUhhR0dVTUc0Y2FIb3kxTmdJdFNZc0xNbkJzb0YxUUJ3YTF5SGkweVdXbTFCNllSQ0trM29fLXNudU1qVQ?oc=5",
+      "source": "서울신문",
+      "published_at": "2026-06-19T10:41:49+09:00",
+      "snippet": "檢, ‘기름값 담합’ HD현대오일뱅크 직원 구속…정유 4사 수사 확대 서울신문",
+      "collected_at": "2026-06-19T17:26:47.826302+09:00",
+      "normalized_title": "檢, ‘기름값 담합’ HD현대오일뱅크 직원 구속…정유 4사 수사 확대",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::檢, ‘기름값 담합’ hd현대오일뱅크 직원 구속…정유 4사 수사 확대",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1VV0x4bnVGWk9UUUY4Y1lyWWxSbW9DeFJKeDliQnYxQVgxSXUxSlFMWlFFQUhhR0dVTUc0Y2FIb3kxTmdJdFNZc0xNbkJzb0YxUUJ3YTF5SGkweVdXbTFCNllSQ0trM29fLXNudU1qVQ?oc=5",
+      "id": "fa6539fcc92b1865",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "세계일보",
+      "url": "https://v.daum.net/channel/38/home",
+      "source": "세계일보",
+      "published_at": "2026-06-19T15:26:37.447573+09:00",
+      "snippet": "경쟁사들과 유가(기름값)를 담합한 혐의를 받는 HD현대오일뱅크 직원이 구속된 것과 관련해 정성호 법무부 장관이 19일 “국민의 삶을...페이스북에 글을 올려 “검찰이 중동 전쟁을 틈타 일주일만에 휘발유 가격을 200원 폭등시킨 혐의로 정유사 임직원을 구속했다... 2시간 전 1",
+      "collected_at": "2026-06-19T17:26:37.447588+09:00",
+      "normalized_title": "세계일보",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::세계일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://v.daum.net/channel/38/home",
+      "id": "84b9eb17cf27ffac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘유가 담합’ HD현대오일뱅크 직원 구속",
+      "url": "https://www.naeil.com/news/read/592523?ref=naver",
+      "source": "내일신문",
+      "published_at": "2026-06-19T13:26:58.456597+09:00",
+      "snippet": "국내 정유업계의 유가 담합 의혹을 수사 중인 검찰이 HD현대오일뱅크 가격결정 담당 부서장을 구속했다. 관련 수사가 시작된 후 첫 신병확보다. 19일 법조계에 따르면 서울중앙지방법원 부동식 영장전담 부장판사는 전날 HD현대오일뱅크 가격결정 담당 부서장 김 모씨에 대한 구속 전 피의자심문(영장실질심사)을...",
+      "collected_at": "2026-06-19T17:26:58.456612+09:00",
+      "normalized_title": "‘유가 담합’ HD현대오일뱅크 직원 구속",
+      "source_normalized": "내일신문",
+      "duplicate_key": "내일신문::‘유가 담합’ hd현대오일뱅크 직원 구속",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.naeil.com/news/read/592523?ref=naver",
+      "id": "30b7404357143742",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국경제",
+      "url": "https://v.daum.net/channel/3/home",
+      "source": "한국경제",
+      "published_at": "2026-06-19T15:26:37.445980+09:00",
+      "snippet": "해당 부서 직원에 대해서는 영장이 기각됐다. SK에너지, GS칼텍스, 에쓰오일, HD현대오일뱅크 등 4개 정유사는 국내 유통 유류 및 석유제품 가격을 사전 협의를 통해 인위적으로 올리거나 동결한 담합 혐의를 받고 있다. 검찰은 이란 전쟁 발발 직후 국내 유가가... 2시간 전 1",
+      "collected_at": "2026-06-19T17:26:37.445995+09:00",
+      "normalized_title": "한국경제",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::한국경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/3/home",
+      "id": "6ea5739e4883b5ac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 “유가 담합 상응한 책임 물을 것”",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93YzhSN1pYN1dOMkJBcl9SejJUenNtTmdBMDZ6WElGSXlXcHA1MnlFa0hpSjhSSG9ManNna2M5eS1VeXgwdnA5bDRTV2ZYWlIzVkHSAVNBVV95cUxOSGxfRWNOOHdRRXZBWVJ3YmNyNGlzT0QxYWx0cHpJcXI2M293NmgtX05vaU5wV0ZSUy1vM0JjMjRLNEhjZ2lvQU50RHFPYmc4dDRoTQ?oc=5",
+      "source": "서울경제",
+      "published_at": "2026-06-19T14:55:10+09:00",
+      "snippet": "정성호 “유가 담합 상응한 책임 물을 것” 서울경제",
+      "collected_at": "2026-06-19T17:26:38.069793+09:00",
+      "normalized_title": "정성호 “유가 담합 상응한 책임 물을 것”",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::정성호 “유가 담합 상응한 책임 물을 것”",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93YzhSN1pYN1dOMkJBcl9SejJUenNtTmdBMDZ6WElGSXlXcHA1MnlFa0hpSjhSSG9ManNna2M5eS1VeXgwdnA5bDRTV2ZYWlIzVkHSAVNBVV95cUxOSGxfRWNOOHdRRXZBWVJ3YmNyNGlzT0QxYWx0cHpJcXI2M293NmgtX05vaU5wV0ZSUy1vM0JjMjRLNEhjZ2lvQU50RHFPYmc4dDRoTQ?oc=5",
+      "id": "c3837159caa3dea0",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "머니투데이",
+      "url": "https://v.daum.net/channel/5/home",
+      "source": "머니투데이",
+      "published_at": "2026-06-19T15:27:06.213715+09:00",
+      "snippet": "SK에너지·GS칼텍스·에쓰오일·HD현대오일뱅크 등 4개 정유사는 사전 협의를 통해 국내에 유통되는 유류 및 석유제품의 가격을 임의로 올리는 등 담합한 혐의를 받는다. 검찰은 이들이 이란 전쟁 등 중동발 위기를 이용해 유가를 인위적으로 끌어올린 것으로 의심... 2시간 전",
+      "collected_at": "2026-06-19T17:27:06.213730+09:00",
+      "normalized_title": "머니투데이",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::머니투데이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/5/home",
+      "id": "15b948cff6e29cc5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 \"유가담합, 반사회적 중대범죄…14조 피해 엄정 대응\"",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTWYyenNrQ1FQUWZRTTZqYkVqT3VLdHlraDNHVEVWWmFVQnhneVdqY0N1VjN2bDVwdkpDZlRYajJFYzVnTlBhRDNDN1Z1TGYtTFNGYXMxSzZpSURFQmpieHB2UzFuWXJQMTZYbnhtZlUxNkcyNFB6U0J3NHZCeHdWeg?oc=5",
+      "source": "이데일리",
+      "published_at": "2026-06-19T14:16:28+09:00",
+      "snippet": "정성호 법무장관 \"유가담합, 반사회적 중대범죄…14조 피해 엄정 대응\" 이데일리",
+      "collected_at": "2026-06-19T17:26:38.071737+09:00",
+      "normalized_title": "정성호 법무장관 \"유가담합, 반사회적 중대범죄…14조 피해 엄정 대응\"",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::정성호 법무장관 \"유가담합, 반사회적 중대범죄…14조 피해 엄정 대응\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTWYyenNrQ1FQUWZRTTZqYkVqT3VLdHlraDNHVEVWWmFVQnhneVdqY0N1VjN2bDVwdkpDZlRYajJFYzVnTlBhRDNDN1Z1TGYtTFNGYXMxSzZpSURFQmpieHB2UzFuWXJQMTZYbnhtZlUxNkcyNFB6U0J3NHZCeHdWeg?oc=5",
+      "id": "f40dc55002577e7e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "파이낸셜뉴스",
+      "url": "https://v.daum.net/channel/139/home",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-06-19T16:26:37.441015+09:00",
+      "snippet": "정성호 법무부 장관. 뉴스1 [파이낸셜뉴스]정성호 법무부 장관이 최근 검찰 수사를 받고 있는 국내 정유사들의 유가 담합 의혹과 관련해 \"국민 피해 규모가 14조원대에 이른다\"며 엄정 대응 방침을 밝혔다. 정 장관은 19일 자신의 페이스북을 통해 \"검찰이 중동 전쟁... 1시간 전",
+      "collected_at": "2026-06-19T17:26:37.441031+09:00",
+      "normalized_title": "파이낸셜뉴스",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::파이낸셜뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/139/home",
+      "id": "f9b058269ce9069e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 \"유가담합 국민 피해 14조원대...반사회적 중대 범죄\"",
+      "url": "http://www.fnnews.com/news/202606191605467252",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-06-19T16:16:03+09:00",
+      "snippet": "최근 서울중앙지검 공정거래조사부(나희석 부장검사)는 SK에너지, GS칼텍스, 에쓰오일, HD현대오일뱅크 등 국내 정유 4사가 석유제품 가격을 담합해 인위적으로 가격을 높인 것으로 보고 수사를 진행 중이다. 앞서 이재명 대통령은 \"아침, 점심, 저녁 가격이 다르고 심지어 리터당 200원 가까이 올리는 곳도 있다...",
+      "collected_at": "2026-06-19T17:26:38.070013+09:00",
+      "normalized_title": "정성호 법무장관 \"유가담합 국민 피해 14조원대...반사회적 중대 범죄\"",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::정성호 법무장관 \"유가담합 국민 피해 14조원대...반사회적 중대 범죄\"",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://www.fnnews.com/news/202606191605467252",
+      "id": "466b98321ef4d50c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합 의혹' HD현대오일뱅크 직원 구속…檢, 정유 4사 수사 확대",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5FYkh3ZXRhdXZ4NFJ5VTJTSHB1b3RZZFBmdEd6RkJlSFF4dHlmdHhHV0hwd21VM3NiYmFRdlN3dHppcng4QlJvb3NkWGxLSmNxZG1ZX3pYMTVRTnBmWmJuMExqVWxRMVF1QW5iSHA3VDllcjRLTnBzTHhnUQ?oc=5",
+      "source": "아시아경제",
+      "published_at": "2026-06-19T10:09:45+09:00",
+      "snippet": "'유가 담합 의혹' HD현대오일뱅크 직원 구속…檢, 정유 4사 수사 확대 아시아경제",
+      "collected_at": "2026-06-19T17:26:38.069084+09:00",
+      "normalized_title": "'유가 담합 의혹' HD현대오일뱅크 직원 구속…檢, 정유 4사 수사 확대",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::'유가 담합 의혹' hd현대오일뱅크 직원 구속…檢, 정유 4사 수사 확대",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5FYkh3ZXRhdXZ4NFJ5VTJTSHB1b3RZZFBmdEd6RkJlSFF4dHlmdHhHV0hwd21VM3NiYmFRdlN3dHppcng4QlJvb3NkWGxLSmNxZG1ZX3pYMTVRTnBmWmJuMExqVWxRMVF1QW5iSHA3VDllcjRLTnBzTHhnUQ?oc=5",
+      "id": "9428bc84ab0fbaf8",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\"",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16SzN0N3BMaHM4MzFWQ3lLWjZmUVl2ZGoyR1FMTENjeXZRUm1YQ2hrNUY0NjMtSlNjd19vTVJQdEt2blFrbVMweUIyWms4djBMM2IxZjV4UjlkalXSAWBBVV95cUxOTzFmdUF3emdRZG95X0JKc2JhTDBsWjk3QnJHS194WHBrSEZsTGZlTkg3dWRkRHhMSkxlRzZZYzltZ0pHWWEyOEJ6ak5uYTRqOFg4V2c3TkphaHJ3VmphTlk?oc=5",
+      "source": "연합뉴스",
+      "published_at": "2026-06-19T14:35:04+09:00",
+      "snippet": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\" 연합뉴스",
+      "collected_at": "2026-06-19T17:26:38.062070+09:00",
+      "normalized_title": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\"",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16SzN0N3BMaHM4MzFWQ3lLWjZmUVl2ZGoyR1FMTENjeXZRUm1YQ2hrNUY0NjMtSlNjd19vTVJQdEt2blFrbVMweUIyWms4djBMM2IxZjV4UjlkalXSAWBBVV95cUxOTzFmdUF3emdRZG95X0JKc2JhTDBsWjk3QnJHS194WHBrSEZsTGZlTkg3dWRkRHhMSkxlRzZZYzltZ0pHWWEyOEJ6ak5uYTRqOFg4V2c3TkphaHJ3VmphTlk?oc=5",
+      "id": "4efa8bfda09b2d6f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴시스",
+      "url": "https://v.daum.net/channel/21/home",
+      "source": "뉴시스",
+      "published_at": "2026-06-19T14:26:47.223769+09:00",
+      "snippet": "[과천=뉴시스] 황준선 기자 = 유가 담합 의혹 관련으로 정유사 직원 1명이 구속된 가운데, 정성호 법무부 장관이 \"유가 담합의 실체를 밝히고 상응하는 책임을 엄중히 묻겠다\"고 밝혔다. 사진은 정 장관. 2026.06.19. hwang@newsis.com [서울=뉴시스] 오정우 기자... 3시간 전",
+      "collected_at": "2026-06-19T17:26:47.223785+09:00",
+      "normalized_title": "뉴시스",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::뉴시스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/21/home",
+      "id": "e250fa63010cdcd6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합' 첫 구속…정성호 \"국민 피해 14조, 엄중 대응할 것\"",
+      "url": "https://www.newsis.com/view/NISX20260619_0003675973",
+      "source": "뉴시스",
+      "published_at": "2026-06-19T14:26:45.919885+09:00",
+      "snippet": "유가 담합 의혹과 관련해 처음으로 정유사 직원이 구속된 가운데, 정성호 법무부 장관이 \"유가 담합의 실체를 밝히고 상응하는 책임을 엄중히 묻겠다\"고 경고했다. 정 장관은 19일 자신의 사회관계망서비스(SNS)를 통해 \"민생을 무너뜨리는 유가 담합을 엄중히 대응하겠다\"며 이같이 밝혔다. 그는 \"검찰이 중동...",
+      "collected_at": "2026-06-19T17:26:45.919901+09:00",
+      "normalized_title": "'기름값 담합' 첫 구속…정성호 \"국민 피해 14조, 엄중 대응할 것\"",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::'기름값 담합' 첫 구속…정성호 \"국민 피해 14조, 엄중 대응할 것\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.newsis.com/view/NISX20260619_0003675973",
+      "id": "6e42650fed3c99ad",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스1",
+      "url": "https://v.daum.net/channel/396/home",
+      "source": "뉴스1",
+      "published_at": "2026-06-19T13:26:47.226970+09:00",
+      "snippet": "정성호 법무부 장관.ⓒ 뉴스1 신웅수 기자 (서울=뉴스1) 최동현 기자 = 정성호 법무부 장관은 검찰이 중동 전쟁을 틈타 국내 기름값을 담합 인상한 혐의를 받는 HD현대오일뱅크 가격결정부서 실무진을 구속한 것에 대해 \"국민의 삶을 위협하는 불공정 거래, 시장경제... 4시간 전",
+      "collected_at": "2026-06-19T17:26:47.226987+09:00",
+      "normalized_title": "뉴스1",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::뉴스1",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/396/home",
+      "id": "c8ccc99cbe11b78a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 \"유가 담합으로 14조 국민 피해…중대 경제범죄 엄정 대응\"",
+      "url": "https://www.news1.kr/society/court-prosecution/6202501",
+      "source": "뉴스1",
+      "published_at": "2026-06-19T13:17:02+09:00",
+      "snippet": "정성호 법무부 장관은 검찰이 중동 전쟁을 틈타 국내 기름값을 담합 인상한 혐의를 받는 HD현대오일뱅크 가격결정부서 실무진을 구속한 것에 대해 \"국민의 삶을 위협하는 불공정 거래, 시장경제 질서를 해치는 중대 경제범죄에 엄정 대응하겠다\"고 19일 밝혔다. 정 장관은 이날 엑스(X·옛 트위터)를 통해 \"유가...",
+      "collected_at": "2026-06-19T17:26:38.066808+09:00",
+      "normalized_title": "정성호 \"유가 담합으로 14조 국민 피해…중대 경제범죄 엄정 대응\"",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::정성호 \"유가 담합으로 14조 국민 피해…중대 경제범죄 엄정 대응\"",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.news1.kr/society/court-prosecution/6202501",
+      "id": "633b30b78b58aac5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘유가 담합’ HD현대오일뱅크 임직원 구속",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fVGRVV3kxaTFvRHdxeWU1Um0tUE5reXBtRzVGVER5SHZEY2hHdG1IOE9zRDJWcEZwY3JXVjFBTVRYNWUtS0RsMUxjaGVPNjRENHFOVDA3QjR4UlppWEZBd21hTHVRUFRjU2x3ZjBn?oc=5",
+      "source": "아시아투데이",
+      "published_at": "2026-06-19T11:32:16+09:00",
+      "snippet": "‘유가 담합’ HD현대오일뱅크 임직원 구속 아시아투데이",
+      "collected_at": "2026-06-19T17:26:38.075275+09:00",
+      "normalized_title": "‘유가 담합’ HD현대오일뱅크 임직원 구속",
+      "source_normalized": "아시아투데이",
+      "duplicate_key": "아시아투데이::‘유가 담합’ hd현대오일뱅크 임직원 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fVGRVV3kxaTFvRHdxeWU1Um0tUE5reXBtRzVGVER5SHZEY2hHdG1IOE9zRDJWcEZwY3JXVjFBTVRYNWUtS0RsMUxjaGVPNjRENHFOVDA3QjR4UlppWEZBd21hTHVRUFRjU2x3ZjBn?oc=5",
+      "id": "f9a44110242a6d2b",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 유가담합 실체 밝히고 상응한 책임 엄중히 물을 것",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ESFZYLUQxM1A1TEcyRUhjVE45ZVpRSnEyUnJ6eFRGb3YxSHQzWXpodWpPdm92elYyUFNBR0FPRlNVeWdvamZzVVBKUDk0U0duUV8ybGxJeDDSAVhBVV95cUxOREhWWC1EMTNQNUxHMkVIY1ROOWVaUUpxMlJyenhURm92MUh0M1l6aHVqT3ZvdnpWMlBTQUdBT0ZTVXlnb2pmc1VQSlA5NFNHblFfMmxsSXgw?oc=5",
+      "source": "아주경제",
+      "published_at": "2026-06-19T14:55:42+09:00",
+      "snippet": "정성호 법무장관 유가담합 실체 밝히고 상응한 책임 엄중히 물을 것 아주경제",
+      "collected_at": "2026-06-19T17:26:38.064762+09:00",
+      "normalized_title": "정성호 법무장관 유가담합 실체 밝히고 상응한 책임 엄중히 물을 것",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::정성호 법무장관 유가담합 실체 밝히고 상응한 책임 엄중히 물을 것",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ESFZYLUQxM1A1TEcyRUhjVE45ZVpRSnEyUnJ6eFRGb3YxSHQzWXpodWpPdm92elYyUFNBR0FPRlNVeWdvamZzVVBKUDk0U0duUV8ybGxJeDDSAVhBVV95cUxOREhWWC1EMTNQNUxHMkVIY1ROOWVaUUpxMlJyenhURm92MUh0M1l6aHVqT3ZvdnpWMlBTQUdBT0ZTVXlnb2pmc1VQSlA5NFNHblFfMmxsSXgw?oc=5",
+      "id": "df34b9f7c5691a71",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "유가 담합 HD현대오일뱅크 임원 구속...정유사 수사 탄력",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1MUW5GUXF0OXd3VC1wOS14Nk5fcWlhZEwyVmtGemdVVFpHWUJQNHFJVk5TNUExRlAtbEdrdnR2YlRXT0xQZy10ZFdDN1NxWklNZVg0TFJndEHSAVhBVV95cUxNTFFuRlFxdDl3d1QtcDkteDZOX3FpYWRMMlZrRnpnVVRaR1lCUDRxSVZOUzVBMUZQLWxHa3Z0dmJUV09MUGctdGRXQzdTcVpJTWVYNExSZ3RB?oc=5",
+      "source": "아주경제",
+      "published_at": "2026-06-19T08:32:16+09:00",
+      "snippet": "유가 담합 HD현대오일뱅크 임원 구속...정유사 수사 탄력 아주경제",
+      "collected_at": "2026-06-19T17:26:38.068627+09:00",
+      "normalized_title": "유가 담합 HD현대오일뱅크 임원 구속...정유사 수사 탄력",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::유가 담합 hd현대오일뱅크 임원 구속...정유사 수사 탄력",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1MUW5GUXF0OXd3VC1wOS14Nk5fcWlhZEwyVmtGemdVVFpHWUJQNHFJVk5TNUExRlAtbEdrdnR2YlRXT0xQZy10ZFdDN1NxWklNZVg0TFJndEHSAVhBVV95cUxNTFFuRlFxdDl3d1QtcDkteDZOX3FpYWRMMlZrRnpnVVRaR1lCUDRxSVZOUzVBMUZQLWxHa3Z0dmJUV09MUGctdGRXQzdTcVpJTWVYNExSZ3RB?oc=5",
+      "id": "72de92759a157aad",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합' HD현대오일뱅크 임직원 구속…법원 \"증거인멸 염려\"",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yMmJIdEcxZDFicnJzSDMyZGNaVGxNM2JrZFVvS19jSzRXell3WWVkWVhPamFkYTV6djUyTHRLQ050dE43MGdRaC1mTVNmS2pERm43cg?oc=5",
+      "source": "이투데이",
+      "published_at": "2026-06-19T08:40:00+09:00",
+      "snippet": "'유가 담합' HD현대오일뱅크 임직원 구속…법원 \"증거인멸 염려\" 이투데이",
+      "collected_at": "2026-06-19T17:26:50.792445+09:00",
+      "normalized_title": "'유가 담합' HD현대오일뱅크 임직원 구속…법원 \"증거인멸 염려\"",
+      "source_normalized": "이투데이",
+      "duplicate_key": "이투데이::'유가 담합' hd현대오일뱅크 임직원 구속…법원 \"증거인멸 염려\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yMmJIdEcxZDFicnJzSDMyZGNaVGxNM2JrZFVvS19jSzRXell3WWVkWVhPamFkYTV6djUyTHRLQ050dE43MGdRaC1mTVNmS2pERm43cg?oc=5",
+      "id": "ef2e1fd30ae45f44",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합 혐의' HD현대오일뱅크 직원 1명 구속",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaSWNvNHF0RUZJWVdCWXBBbzFBNkJJcmoybVVUSjNGSGNxYmhmaFBEMVVuSHZTQVRLcXNrUVhTQTFBWURDVldLY0tic1llTVZmd2hFZTBfOEZ1Q3NvRlJhcQ?oc=5",
+      "source": "뉴스토마토",
+      "published_at": "2026-06-19T08:25:12+09:00",
+      "snippet": "'유가 담합 혐의' HD현대오일뱅크 직원 1명 구속 뉴스토마토",
+      "collected_at": "2026-06-19T17:26:38.065211+09:00",
+      "normalized_title": "'유가 담합 혐의' HD현대오일뱅크 직원 1명 구속",
+      "source_normalized": "뉴스토마토",
+      "duplicate_key": "뉴스토마토::'유가 담합 혐의' hd현대오일뱅크 직원 1명 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaSWNvNHF0RUZJWVdCWXBBbzFBNkJJcmoybVVUSjNGSGNxYmhmaFBEMVVuSHZTQVRLcXNrUVhTQTFBWURDVldLY0tic1llTVZmd2hFZTBfOEZ1Q3NvRlJhcQ?oc=5",
+      "id": "190bf80deb982d89",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "MBC",
+      "url": "https://v.daum.net/channel/98/home",
+      "source": "MBC",
+      "published_at": "2026-06-19T15:26:37.444341+09:00",
+      "snippet": "사전 협의를 통해 유류 및 석유제품의 가격을 담합한 혐의를 받고 있습니다. 검찰은 이란 전쟁 발발 직후 국내 정유사들이 계획적으로 담합을 했다고 보고 수사를 이어가고 있습니다. 김지성 기자(js@mbc.co.kr) 기사 원문 - https://imnews.imbc.com/news/2026... 2시간 전",
+      "collected_at": "2026-06-19T17:26:37.444356+09:00",
+      "normalized_title": "MBC",
+      "source_normalized": "MBC",
+      "duplicate_key": "mbc::mbc",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/98/home",
+      "id": "1e1cb4b87c32e18a",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 \"유가 담합으로 국민 피해 14조원… 책임 묻겠다\"",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMnBOVXhnWG96ZEhlZWVWcWpFb2VXV2ZZUHRUYnQ2b3B0QWpkdDRxb1Z6Q29PMklhSGYyNVYxTU5pTlhHSnlGeUFQTGNlSDVCeVZhWWxtcDY1WlBFZGoxZDBVT0pfRFNURFN3Xzg1WnlEZVctWHBrU3ZjRjJSZWQzUG9wbkpIY20tWVE?oc=5",
+      "source": "Chosunbiz",
+      "published_at": "2026-06-19T14:48:00+09:00",
+      "snippet": "정성호 \"유가 담합으로 국민 피해 14조원… 책임 묻겠다\" Chosunbiz",
+      "collected_at": "2026-06-19T17:26:38.066115+09:00",
+      "normalized_title": "정성호 \"유가 담합으로 국민 피해 14조원… 책임 묻겠다\"",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::정성호 \"유가 담합으로 국민 피해 14조원… 책임 묻겠다\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMnBOVXhnWG96ZEhlZWVWcWpFb2VXV2ZZUHRUYnQ2b3B0QWpkdDRxb1Z6Q29PMklhSGYyNVYxTU5pTlhHSnlGeUFQTGNlSDVCeVZhWWxtcDY1WlBFZGoxZDBVT0pfRFNURFN3Xzg1WnlEZVctWHBrU3ZjRjJSZWQzUG9wbkpIY20tWVE?oc=5",
+      "id": "e85b802a0823ae64",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "데일리안",
+      "url": "https://v.daum.net/channel/43/home",
+      "source": "데일리안",
+      "published_at": "2026-06-19T16:26:37.439342+09:00",
+      "snippet": "장관. ⓒ데일리안 홍금표 기자 정성호 법무부 장관은 유가 담합 혐의를 받는 HD현대오일뱅크 직원이 구속된 것과 관련해 \"국민의 삶을...서비스(SNS)에서 \"검찰이 중동 전쟁을 틈타 일주일 만에 휘발유 가격을 200원 폭등시킨 혐의로 정유사 임직원을 구속했다\"며 이... 1시간 전",
+      "collected_at": "2026-06-19T17:26:37.439361+09:00",
+      "normalized_title": "데일리안",
+      "source_normalized": "데일리안",
+      "duplicate_key": "데일리안::데일리안",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/43/home",
+      "id": "869228886c807077",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 \"유가 담합, 중대 경제범죄…엄정히 대응할 것\"",
+      "url": "https://www.dailian.co.kr/news/view/1657828/?sc=Naver",
+      "source": "데일리안",
+      "published_at": "2026-06-19T16:26:35.919635+09:00",
+      "snippet": "﻿정성호 법무부 장관은 유가 담합 혐의를 받는 HD현대오일뱅크 직원이 구속된 것과 관련해 \"국민의 삶을 위협하는 불공정 거래, 시장경제 질서를 해치는 중대 경제범죄에 엄정히 대응하겠다\"고 19일 밝혔다. 정 장관은 이날 사회관계망서비스(SNS)에서 \"검찰이 중동 전쟁을 틈타 일주일 만에 휘발유 가격을 200원...",
+      "collected_at": "2026-06-19T17:26:35.919650+09:00",
+      "normalized_title": "정성호 법무장관 \"유가 담합, 중대 경제범죄…엄정히 대응할 것\"",
+      "source_normalized": "데일리안",
+      "duplicate_key": "데일리안::정성호 법무장관 \"유가 담합, 중대 경제범죄…엄정히 대응할 것\"",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://www.dailian.co.kr/news/view/1657828/?sc=Naver",
+      "id": "913eb93aba1fac21",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "YTN",
+      "url": "https://v.daum.net/channel/23/home",
+      "source": "YTN",
+      "published_at": "2026-06-19T14:26:47.225345+09:00",
+      "snippet": "있다면서 구속영장을 발부했습니다. 검찰은 HD현대오일뱅크 등 정유사 4곳이 이란 전쟁으로 국제유가가 폭등한 틈을 타 국내 기름값을 담합했다고 보고 있습니다. YTN 안동준 (eastjun@ytn.co.kr) ※ '당신의 제보가 뉴스가 됩니다' [카카오톡] YTN 검색해 채널 추가... 3시간 전",
+      "collected_at": "2026-06-19T17:26:47.225361+09:00",
+      "normalized_title": "YTN",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::ytn",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/23/home",
+      "id": "d2d24d5b6b97e3ae",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 \"민생 무너뜨리는 유가 담합에 엄정 대응\"",
+      "url": "https://www.ytn.co.kr/_ln/0103_202606191401235267",
+      "source": "YTN",
+      "published_at": "2026-06-19T14:26:45.921178+09:00",
+      "snippet": "앞서 법원은 유가 담합 의혹에 연루된 HD현대오일뱅크 직원 1명에 대해 증거인멸의 우려가 있다면서 구속영장을 발부했습니다. 검찰은 HD현대오일뱅크 등 정유사 4곳이 이란 전쟁으로 국제유가가 폭등한 틈을 타 국내 기름값을 담합했다고 보고 있습니다.",
+      "collected_at": "2026-06-19T17:26:45.921192+09:00",
+      "normalized_title": "정성호 \"민생 무너뜨리는 유가 담합에 엄정 대응\"",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::정성호 \"민생 무너뜨리는 유가 담합에 엄정 대응\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.ytn.co.kr/_ln/0103_202606191401235267",
+      "id": "70b9251a50df8f3b",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 \"유가담합 국민 피해 14조원대...반사회적 중대 범죄\"",
+      "url": "http://v.daum.net/v/20260619161801471",
+      "source": "1시간 전",
+      "published_at": "2026-06-19T16:26:37.441569+09:00",
+      "snippet": "정성호 법무부 장관. 뉴스1 [파이낸셜뉴스]정성호 법무부 장관이 최근 검찰 수사를 받고 있는 국내 정유사들의 유가 담합 의혹과 관련해 \"국민 피해 규모가 14조원대에 이른다\"며 엄정 대응 방침을 밝혔다. 정 장관은 19일 자신의 페이스북을 통해 \"검찰이 중동 전쟁... 1시간 전",
+      "collected_at": "2026-06-19T17:26:37.441585+09:00",
+      "normalized_title": "정성호 법무장관 \"유가담합 국민 피해 14조원대...반사회적 중대 범죄\"",
+      "source_normalized": "1시간 전",
+      "duplicate_key": "1시간 전::정성호 법무장관 \"유가담합 국민 피해 14조원대...반사회적 중대 범죄\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://v.daum.net/v/20260619161801471",
+      "id": "b24e72d58f13afd5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 \"유가 담합, 중대 경제범죄…엄정히 대응할 것\"",
+      "url": "http://v.daum.net/v/20260619161803476",
+      "source": "1시간 전",
+      "published_at": "2026-06-19T16:26:37.439912+09:00",
+      "snippet": "장관. ⓒ데일리안 홍금표 기자 정성호 법무부 장관은 유가 담합 혐의를 받는 HD현대오일뱅크 직원이 구속된 것과 관련해 \"국민의 삶을...서비스(SNS)에서 \"검찰이 중동 전쟁을 틈타 일주일 만에 휘발유 가격을 200원 폭등시킨 혐의로 정유사 임직원을 구속했다\"며 이... 1시간 전",
+      "collected_at": "2026-06-19T17:26:37.439930+09:00",
+      "normalized_title": "정성호 법무장관 \"유가 담합, 중대 경제범죄…엄정히 대응할 것\"",
+      "source_normalized": "1시간 전",
+      "duplicate_key": "1시간 전::정성호 법무장관 \"유가 담합, 중대 경제범죄…엄정히 대응할 것\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://v.daum.net/v/20260619161803476",
+      "id": "b89914503f131aaa",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 “유가담합 실체 밝히고 책임 묻겠다”",
+      "url": "http://v.daum.net/v/20260619162348665",
+      "source": "1시간 전",
+      "published_at": "2026-06-19T16:26:37.438231+09:00",
+      "snippet": "전후로 사전에 석유제품 가격에 대한 정보를 공유하고 가격을 담합한 의혹을 두고 수사를 벌여왔다. 이후 지난 18일 서울중앙지법...대해 정 장관은 “검찰이 중동 전쟁을 틈타 일주일 만에 휘발유 가격을 200원 폭등시킨 혐의로 정유사 임직원을 구속했다\"며 “유가... 1시간 전",
+      "collected_at": "2026-06-19T17:26:37.438245+09:00",
+      "normalized_title": "정성호 법무장관 “유가담합 실체 밝히고 책임 묻겠다”",
+      "source_normalized": "1시간 전",
+      "duplicate_key": "1시간 전::정성호 법무장관 “유가담합 실체 밝히고 책임 묻겠다”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260619162348665",
+      "id": "78cc185447d63f70",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 \"유가 담합 국민 피해 14조, 불공정 거래 엄정 대응\"",
+      "url": "http://v.daum.net/v/20260619150218662",
+      "source": "2시간 전",
+      "published_at": "2026-06-19T15:27:06.214240+09:00",
+      "snippet": "SK에너지·GS칼텍스·에쓰오일·HD현대오일뱅크 등 4개 정유사는 사전 협의를 통해 국내에 유통되는 유류 및 석유제품의 가격을 임의로 올리는 등 담합한 혐의를 받는다. 검찰은 이들이 이란 전쟁 등 중동발 위기를 이용해 유가를 인위적으로 끌어올린 것으로 의심... 2시간 전",
+      "collected_at": "2026-06-19T17:27:06.214252+09:00",
+      "normalized_title": "정성호 \"유가 담합 국민 피해 14조, 불공정 거래 엄정 대응\"",
+      "source_normalized": "2시간 전",
+      "duplicate_key": "2시간 전::정성호 \"유가 담합 국민 피해 14조, 불공정 거래 엄정 대응\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260619150218662",
+      "id": "f1a014524a589e7c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응\"",
+      "url": "http://v.daum.net/v/20260619145207287",
+      "source": "2시간 전",
+      "published_at": "2026-06-19T15:27:02.954969+09:00",
+      "snippet": "동결하는 방식으로 담합한 것으로 보고 수사를 이어가고 있습니다. 특히 이란 전쟁 직후 국내 유가가 급등한 배경에 정유업계의 조직적 담합이 있었는지 여부를 집중적으로 들여다보고 있으며, 추가 신병 확보와 수사 확대 가능성도 제기되고 있습니다. 앞서 이재명... 2시간 전",
+      "collected_at": "2026-06-19T17:27:02.954984+09:00",
+      "normalized_title": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응\"",
+      "source_normalized": "2시간 전",
+      "duplicate_key": "2시간 전::정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260619145207287",
+      "id": "bb4dfe62cb47b2f9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 \"유가 담합 국민 피해 14조원대…엄정 대응\"",
+      "url": "http://v.daum.net/v/20260619150602822",
+      "source": "2시간 전",
+      "published_at": "2026-06-19T15:26:53.176258+09:00",
+      "snippet": "SK에너지·GS칼텍스·에쓰오일·HD현대오일뱅크 등 4개 정유사는 사전 협의를 통해 국내 유통되는 유류 및 석유제품의 가격을 임의로 올리거나 동결하는 등 담합한 혐의를 받습니다. 검찰은 이란 전쟁 발발 직후 국내 유가가 일제히 급등한 배경에 정유사들의 계획적... 2시간 전",
+      "collected_at": "2026-06-19T17:26:53.176281+09:00",
+      "normalized_title": "정성호 \"유가 담합 국민 피해 14조원대…엄정 대응\"",
+      "source_normalized": "2시간 전",
+      "duplicate_key": "2시간 전::정성호 \"유가 담합 국민 피해 14조원대…엄정 대응\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유제품 담합",
+        "유류가격 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260619150602822",
+      "id": "755ac0a22f9cafc3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무 장관 “유가 담합으로 14조 국민 피해…엄중히 책임 물을 것”",
+      "url": "http://v.daum.net/v/20260619143906809",
+      "source": "2시간 전",
+      "published_at": "2026-06-19T15:26:47.222648+09:00",
+      "snippet": "따른 것이다. 정 장관은 이날 페이스북에 “유가 담합으로 국민이 입은 피해가 14조원대에 이른다”며 “이재명 대통령은 중동 전쟁...미국과 이란 간 전쟁이 발발한 직후 국내 주유소 휘발유와 경유 리터당 가격은 하루 평균 20~80원씩 치솟았다. 서울중앙지검 공정... 2시간 전",
+      "collected_at": "2026-06-19T17:26:47.222665+09:00",
+      "normalized_title": "정성호 법무 장관 “유가 담합으로 14조 국민 피해…엄중히 책임 물을 것”",
+      "source_normalized": "2시간 전",
+      "duplicate_key": "2시간 전::정성호 법무 장관 “유가 담합으로 14조 국민 피해…엄중히 책임 물을 것”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260619143906809",
+      "id": "4097f1d35d797a6a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무 “유가 담합 피해 14조원대… 엄정 대응할 것”",
+      "url": "http://v.daum.net/v/20260619151432162",
+      "source": "2시간 전",
+      "published_at": "2026-06-19T15:26:37.448110+09:00",
+      "snippet": "경쟁사들과 유가(기름값)를 담합한 혐의를 받는 HD현대오일뱅크 직원이 구속된 것과 관련해 정성호 법무부 장관이 19일 “국민의 삶을...페이스북에 글을 올려 “검찰이 중동 전쟁을 틈타 일주일만에 휘발유 가격을 200원 폭등시킨 혐의로 정유사 임직원을 구속했다... 2시간 전 1",
+      "collected_at": "2026-06-19T17:26:37.448124+09:00",
+      "normalized_title": "정성호 법무 “유가 담합 피해 14조원대… 엄정 대응할 것”",
+      "source_normalized": "2시간 전",
+      "duplicate_key": "2시간 전::정성호 법무 “유가 담합 피해 14조원대… 엄정 대응할 것”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://v.daum.net/v/20260619151432162",
+      "id": "611bf079681551c2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁 틈타 폭리…정유사 직원 구속에 법무장관 경고",
+      "url": "http://v.daum.net/v/20260619151906346",
+      "source": "2시간 전",
+      "published_at": "2026-06-19T15:26:37.446451+09:00",
+      "snippet": "해당 부서 직원에 대해서는 영장이 기각됐다. SK에너지, GS칼텍스, 에쓰오일, HD현대오일뱅크 등 4개 정유사는 국내 유통 유류 및 석유제품 가격을 사전 협의를 통해 인위적으로 올리거나 동결한 담합 혐의를 받고 있다. 검찰은 이란 전쟁 발발 직후 국내 유가가... 2시간 전 1",
+      "collected_at": "2026-06-19T17:26:37.446466+09:00",
+      "normalized_title": "전쟁 틈타 폭리…정유사 직원 구속에 법무장관 경고",
+      "source_normalized": "2시간 전",
+      "duplicate_key": "2시간 전::전쟁 틈타 폭리…정유사 직원 구속에 법무장관 경고",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://v.daum.net/v/20260619151906346",
+      "id": "6a453bf6c9e51a6b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무부장관 \"유가 담합은 중대 범죄\" 엄정 대응 강조",
+      "url": "http://v.daum.net/v/20260619151908351",
+      "source": "2시간 전",
+      "published_at": "2026-06-19T15:26:37.444904+09:00",
+      "snippet": "사전 협의를 통해 유류 및 석유제품의 가격을 담합한 혐의를 받고 있습니다. 검찰은 이란 전쟁 발발 직후 국내 정유사들이 계획적으로 담합을 했다고 보고 수사를 이어가고 있습니다. 김지성 기자(js@mbc.co.kr) 기사 원문 - https://imnews.imbc.com/news/2026... 2시간 전",
+      "collected_at": "2026-06-19T17:26:37.444923+09:00",
+      "normalized_title": "정성호 법무부장관 \"유가 담합은 중대 범죄\" 엄정 대응 강조",
+      "source_normalized": "2시간 전",
+      "duplicate_key": "2시간 전::정성호 법무부장관 \"유가 담합은 중대 범죄\" 엄정 대응 강조",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://v.daum.net/v/20260619151908351",
+      "id": "5ce2977251c327bc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 장관, ‘유가 담합 구속’에 “국민 피해 14조원…책임 물을 것”",
+      "url": "http://v.daum.net/v/20260619152016394",
+      "source": "2시간 전",
+      "published_at": "2026-06-19T15:26:37.443212+09:00",
+      "snippet": "무도대회'에 참석해 박수를 치고 있다. ⓒ연합뉴스 이른바 '유가 담합' 혐의로 HD현대오일뱅크 임직원이 구속된 가운데 정성호 법무부...원대에 이른다\"면서 \"검찰은 중동 전쟁을 틈타 일주일 만에 휘발유 가격을 200원 폭등시킨 혐의로 정유사 임직원을 구속했다\"고... 2시간 전 3",
+      "collected_at": "2026-06-19T17:26:37.443226+09:00",
+      "normalized_title": "정성호 장관, ‘유가 담합 구속’에 “국민 피해 14조원…책임 물을 것”",
+      "source_normalized": "2시간 전",
+      "duplicate_key": "2시간 전::정성호 장관, ‘유가 담합 구속’에 “국민 피해 14조원…책임 물을 것”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://v.daum.net/v/20260619152016394",
+      "id": "0bf034a68f337f86",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 \"민생 무너뜨리는 유가 담합에 엄정 대응\"",
+      "url": "http://v.daum.net/v/20260619140605608",
+      "source": "3시간 전",
+      "published_at": "2026-06-19T14:26:47.225889+09:00",
+      "snippet": "있다면서 구속영장을 발부했습니다. 검찰은 HD현대오일뱅크 등 정유사 4곳이 이란 전쟁으로 국제유가가 폭등한 틈을 타 국내 기름값을 담합했다고 보고 있습니다. YTN 안동준 (eastjun@ytn.co.kr) ※ '당신의 제보가 뉴스가 됩니다' [카카오톡] YTN 검색해 채널 추가... 3시간 전",
+      "collected_at": "2026-06-19T17:26:47.225904+09:00",
+      "normalized_title": "정성호 \"민생 무너뜨리는 유가 담합에 엄정 대응\"",
+      "source_normalized": "3시간 전",
+      "duplicate_key": "3시간 전::정성호 \"민생 무너뜨리는 유가 담합에 엄정 대응\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260619140605608",
+      "id": "ac2de737ff22fe8a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합' 첫 구속…정성호 \"국민 피해 14조, 엄중 대응할 것\"",
+      "url": "http://v.daum.net/v/20260619141752063",
+      "source": "3시간 전",
+      "published_at": "2026-06-19T14:26:47.224344+09:00",
+      "snippet": "[과천=뉴시스] 황준선 기자 = 유가 담합 의혹 관련으로 정유사 직원 1명이 구속된 가운데, 정성호 법무부 장관이 \"유가 담합의 실체를 밝히고 상응하는 책임을 엄중히 묻겠다\"고 밝혔다. 사진은 정 장관. 2026.06.19. hwang@newsis.com [서울=뉴시스] 오정우 기자... 3시간 전",
+      "collected_at": "2026-06-19T17:26:47.224359+09:00",
+      "normalized_title": "'기름값 담합' 첫 구속…정성호 \"국민 피해 14조, 엄중 대응할 것\"",
+      "source_normalized": "3시간 전",
+      "duplicate_key": "3시간 전::'기름값 담합' 첫 구속…정성호 \"국민 피해 14조, 엄중 대응할 것\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260619141752063",
+      "id": "4e78a03c32c6933f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘담합 구속’ HD현대오일뱅크, 윤리경영 ‘물음표‘",
+      "url": "http://v.daum.net/v/20260619164408394",
+      "source": "42분 전",
+      "published_at": "2026-06-19T16:44:37.434643+09:00",
+      "snippet": "유가 담합 의혹과 관련해 첫 신병 확보에 성공했다. 이에 따라 향후 수사가 더욱 빠르게 확대될 것으로 예상된다. 유가 담합 혐의를 받는 정유사는 HD현대오일뱅크를 비롯해 SK에너지, GS칼텍스, 에쓰오일 등 국내 주요 4개사다. 이 중 첫 타깃이 된 HD현대오일뱅크... 42분 전",
+      "collected_at": "2026-06-19T17:26:37.434659+09:00",
+      "normalized_title": "‘담합 구속’ HD현대오일뱅크, 윤리경영 ‘물음표‘",
+      "source_normalized": "42분 전",
+      "duplicate_key": "42분 전::‘담합 구속’ hd현대오일뱅크, 윤리경영 ‘물음표‘",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260619164408394",
+      "id": "9fdd9b5b5653f42d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘담합 구속’ HD현대오일뱅크, 윤리경영 ‘물음표‘",
+      "url": "http://v.daum.net/v/20260619164408394",
+      "source": "43분 전",
+      "published_at": "2026-06-19T16:44:09.654215+09:00",
+      "snippet": "함께 엄정 대응을 주문한 바 있다. / 뉴시스 이후 공정거래위원회는 담합 의혹에 휩싸인 정유 4사에 대한 현장조사에 착수했다. 검찰...더욱 빠르게 확대될 것으로 예상된다. 유가 담합 혐의를 받는 정유사는 HD현대오일뱅크를 비롯해 SK에너지, GS칼텍스, 에쓰오일... 43분 전",
+      "collected_at": "2026-06-19T17:27:09.654230+09:00",
+      "normalized_title": "‘담합 구속’ HD현대오일뱅크, 윤리경영 ‘물음표‘",
+      "source_normalized": "43분 전",
+      "duplicate_key": "43분 전::‘담합 구속’ hd현대오일뱅크, 윤리경영 ‘물음표‘",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260619164408394",
+      "id": "ee3e4e9427935818",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 \"유가 담합으로 14조 국민 피해…중대 경제범죄 엄정 대응\"",
+      "url": "http://v.daum.net/v/20260619131903916",
+      "source": "4시간 전",
+      "published_at": "2026-06-19T13:26:47.227501+09:00",
+      "snippet": "정성호 법무부 장관.ⓒ 뉴스1 신웅수 기자 (서울=뉴스1) 최동현 기자 = 정성호 법무부 장관은 검찰이 중동 전쟁을 틈타 국내 기름값을 담합 인상한 혐의를 받는 HD현대오일뱅크 가격결정부서 실무진을 구속한 것에 대해 \"국민의 삶을 위협하는 불공정 거래, 시장경제... 4시간 전",
+      "collected_at": "2026-06-19T17:26:47.227521+09:00",
+      "normalized_title": "정성호 \"유가 담합으로 14조 국민 피해…중대 경제범죄 엄정 대응\"",
+      "source_normalized": "4시간 전",
+      "duplicate_key": "4시간 전::정성호 \"유가 담합으로 14조 국민 피해…중대 경제범죄 엄정 대응\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260619131903916",
+      "id": "7354bac98b293d14",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘유가 담합’ 구속…정성호 “국민 피해 14조, 엄중 대응할 것”",
+      "url": "http://v.daum.net/v/20260619162951869",
+      "source": "56분 전",
+      "published_at": "2026-06-19T16:30:37.436418+09:00",
+      "snippet": "며 이같이 밝혔다. 정 장관은 “검찰이 중동 전쟁을 틈타 일주일 만에 휘발유 가격을 200원 폭등시킨 혐의로 정유사 직원을 구속했다”며 “유가 담합으로 국민이 입은 피해는 14조원대에 이른다”고 했다. 이어 “이재명 대통령은 중동 전쟁 직후 유류 공급에 여파... 56분 전",
+      "collected_at": "2026-06-19T17:26:37.436434+09:00",
+      "normalized_title": "‘유가 담합’ 구속…정성호 “국민 피해 14조, 엄중 대응할 것”",
+      "source_normalized": "56분 전",
+      "duplicate_key": "56분 전::‘유가 담합’ 구속…정성호 “국민 피해 14조, 엄중 대응할 것”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260619162951869",
+      "id": "9ae82d0f55153965",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘유가 담합’ 구속…정성호 “국민 피해 14조, 엄중 대응할 것”",
+      "url": "http://v.daum.net/v/20260619162951869",
+      "source": "57분 전",
+      "published_at": "2026-06-19T16:29:53.163349+09:00",
+      "snippet": "에 참석해 박수를 치고 있다. 연합뉴스 경쟁사들과 유가(기름값)를 담합한 혐의를 받는 HD현대오일뱅크 직원이 구속된 것과 관련해...이같이 밝혔다. 정 장관은 “검찰이 중동 전쟁을 틈타 일주일 만에 휘발유 가격을 200원 폭등시킨 혐의로 정유사 직원을 구속했다... 57분 전",
+      "collected_at": "2026-06-19T17:26:53.163366+09:00",
+      "normalized_title": "‘유가 담합’ 구속…정성호 “국민 피해 14조, 엄중 대응할 것”",
+      "source_normalized": "57분 전",
+      "duplicate_key": "57분 전::‘유가 담합’ 구속…정성호 “국민 피해 14조, 엄중 대응할 것”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유류가격 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260619162951869",
+      "id": "dd1d2b4aac9e8fde",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "담합 의혹에 직원 구속까지…HD현대오일뱅크 'ESG 경영' 어떻게",
+      "url": "http://v.daum.net/v/20260619115103568",
+      "source": "5시간 전",
+      "published_at": "2026-06-19T12:26:59.783999+09:00",
+      "snippet": "[서울=뉴시스] 김근수 기자 = 검찰이 미국·이란 전쟁 여파로 급등한 유가 관련해 '담합 의혹'을 받는 정유사 4곳에 대해 강제수사에 나선 지난 3월23일 오전 서울 시내의 한 HD현대오일뱅크 주유소 앞으로 시민이 지나가고 있다. 2026.03.23. ks@newsis.com [서울... 5시간 전",
+      "collected_at": "2026-06-19T17:26:59.784015+09:00",
+      "normalized_title": "담합 의혹에 직원 구속까지…HD현대오일뱅크 'ESG 경영' 어떻게",
+      "source_normalized": "5시간 전",
+      "duplicate_key": "5시간 전::담합 의혹에 직원 구속까지…hd현대오일뱅크 'esg 경영' 어떻게",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260619115103568",
+      "id": "e5267535eca1710c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, ‘기름값 담합’ HD현대오일뱅크 직원 구속…정유 4사 수사 확대",
+      "url": "http://v.daum.net/v/20260619104551456",
+      "source": "6시간 전",
+      "published_at": "2026-06-19T11:26:47.230961+09:00",
+      "snippet": "종합특검, ‘김건희 수사 무마’ 중앙지검·대검 압수수색 - 서울중앙지검. 뉴스1 국내 정유 4사의 ‘유가 담합 의혹’을 수사 중인 검찰이 HD현대오일뱅크 임직원을 구속하며 신병을 확보했다. SK에너지·GS칼텍스·에쓰오일 등 나머지 정유사로 수사가 확대될 전망... 6시간 전",
+      "collected_at": "2026-06-19T17:26:47.230974+09:00",
+      "normalized_title": "檢, ‘기름값 담합’ HD현대오일뱅크 직원 구속…정유 4사 수사 확대",
+      "source_normalized": "6시간 전",
+      "duplicate_key": "6시간 전::檢, ‘기름값 담합’ hd현대오일뱅크 직원 구속…정유 4사 수사 확대",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260619104551456",
+      "id": "aaed97cf65e0fb0d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'전쟁통 기름값 담합' 혐의 HD현대오일뱅크 부서장 구속…정유사들 떨고 있나",
+      "url": "http://v.daum.net/v/20260619105002648",
+      "source": "6시간 전",
+      "published_at": "2026-06-19T11:26:47.229295+09:00",
+      "snippet": "대해서는 엄단해야 한다\"며 \"정유사와 주유소의 담합, 매점매석, 사재기 등 불법 행위는 철저하게 단속하고 위반할 경우 그로 인해 생길 이익의 몇 배에 해당하는 엄정한 제재를 할 필요가 있다\"고 강조했습니다. #기름값 #담합 #HD현대오일뱅크 #구속 #중동전쟁 #검찰 6시간 전",
+      "collected_at": "2026-06-19T17:26:47.229308+09:00",
+      "normalized_title": "'전쟁통 기름값 담합' 혐의 HD현대오일뱅크 부서장 구속…정유사들 떨고 있나",
+      "source_normalized": "6시간 전",
+      "duplicate_key": "6시간 전::'전쟁통 기름값 담합' 혐의 hd현대오일뱅크 부서장 구속…정유사들 떨고 있나",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260619105002648",
+      "id": "c70a088fcff6ca80",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "주유소",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘이란 전쟁 틈타 유가 담합’ 의혹, HD현대오일뱅크 관계자 구속",
+      "url": "http://v.daum.net/v/20260619093616085",
+      "source": "7시간 전",
+      "published_at": "2026-06-19T10:26:59.788920+09:00",
+      "snippet": "서울 시내 한 주유소. 연합뉴스 국내 정유 4개사의 ‘유가 담합’ 의혹과 관련해 HD현대오일뱅크 관계자 1명이 구속됐다. 19일 법조계에 따르면 부동식 서울중앙지법 영장전담 부장판사는 전날 독점규제 및 공정거래에 관한 법률 위반 혐의를 받는 HD현대오일뱅크... 7시간 전 1",
+      "collected_at": "2026-06-19T17:26:59.788936+09:00",
+      "normalized_title": "‘이란 전쟁 틈타 유가 담합’ 의혹, HD현대오일뱅크 관계자 구속",
+      "source_normalized": "7시간 전",
+      "duplicate_key": "7시간 전::‘이란 전쟁 틈타 유가 담합’ 의혹, hd현대오일뱅크 관계자 구속",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260619093616085",
+      "id": "32f55f4183f6c66b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합' HD현대오일뱅크 직원 구속…정유사 수사 확대",
+      "url": "http://v.daum.net/v/20260619084208858",
+      "source": "8시간 전",
+      "published_at": "2026-06-19T09:26:47.234403+09:00",
+      "snippet": "이란 전쟁 이후 유가 급등 배경 수사 검찰, 정유 4사 가격 담합 의혹 추적 현대오일뱅크 정유업계의 유가 담합 의혹을 수사 중인 검찰이 HD현대오일뱅크 직원을 구속하며 수사에 속도를 내고 있습니다. 서울중앙지법은 18일 HD현대오일뱅크 가격결정 부서 직원 김모... 8시간 전",
+      "collected_at": "2026-06-19T17:26:47.234440+09:00",
+      "normalized_title": "'기름값 담합' HD현대오일뱅크 직원 구속…정유사 수사 확대",
+      "source_normalized": "8시간 전",
+      "duplicate_key": "8시간 전::'기름값 담합' hd현대오일뱅크 직원 구속…정유사 수사 확대",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260619084208858",
+      "id": "87c00f11f2eefd22",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"설마했는데\"...'기름값 담합' 의혹 일파만파",
+      "url": "http://v.daum.net/v/20260619085318218",
+      "source": "8시간 전",
+      "published_at": "2026-06-19T09:26:47.232654+09:00",
+      "snippet": "사진=연합뉴스 유가 담합 혐의를 받는 HD현대오일뱅크 관계자 1명이 18일 구속된 것으로 확인됐다. 19일 법조계에 따르면 서울중앙지법 부동식 영장전담 부장판사는 전날 HD현대오일뱅크 가격결정부서 현직 부서장 김모씨에 대한 구속 전 피의자심문(영장실질심사)을... 8시간 전 2",
+      "collected_at": "2026-06-19T17:26:47.232668+09:00",
+      "normalized_title": "\"설마했는데\"...'기름값 담합' 의혹 일파만파",
+      "source_normalized": "8시간 전",
+      "duplicate_key": "8시간 전::\"설마했는데\"...'기름값 담합' 의혹 일파만파",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260619085318218",
+      "id": "c51b0b570b4b2b84",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합' HD현대오일뱅크 직원 구속",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aVzBMN081WE0wWXdveFhhcEE4VWdGbVVyWDJIZ2pJNWtSNDd5VjIyek9yOVJvLTY5cnNIMmNPaTdQejhmbTktTWRTTGF5WHRyRlIycG9kNkhoOHo4SnpyTU9CelZqTUlrRGJkNUJlZ0c?oc=5",
+      "source": "B world",
+      "published_at": "2026-06-19T12:58:07+09:00",
+      "snippet": "'기름값 담합' HD현대오일뱅크 직원 구속 B world",
+      "collected_at": "2026-06-19T17:26:47.830654+09:00",
+      "normalized_title": "'기름값 담합' HD현대오일뱅크 직원 구속",
+      "source_normalized": "B world",
+      "duplicate_key": "b world::'기름값 담합' hd현대오일뱅크 직원 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aVzBMN081WE0wWXdveFhhcEE4VWdGbVVyWDJIZ2pJNWtSNDd5VjIyek9yOVJvLTY5cnNIMmNPaTdQejhmbTktTWRTTGF5WHRyRlIycG9kNkhoOHo4SnpyTU9CelZqTUlrRGJkNUJlZ0c?oc=5",
+      "id": "ca2d70528afc4037",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 \"유가 담합으로 14조 국민 피해…엄정 대응할 것\"",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGSjBpNU1VNDVXRkhtcmcwTW9NMjVFWktnSjUwSDNPVE9Pb0tpU29mSkxYMnV5SlYxNFlmZFNPb0NOb01EbjRMZl9IWjlEVE80OFNtSEpZMHl3M21pcGtwSUpPTmxHcmZIT1JF?oc=5",
+      "source": "BBS불교방송",
+      "published_at": "2026-06-19T14:53:21+09:00",
+      "snippet": "정성호 \"유가 담합으로 14조 국민 피해…엄정 대응할 것\" BBS불교방송",
+      "collected_at": "2026-06-19T17:26:38.063949+09:00",
+      "normalized_title": "정성호 \"유가 담합으로 14조 국민 피해…엄정 대응할 것\"",
+      "source_normalized": "BBS불교방송",
+      "duplicate_key": "bbs불교방송::정성호 \"유가 담합으로 14조 국민 피해…엄정 대응할 것\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGSjBpNU1VNDVXRkhtcmcwTW9NMjVFWktnSjUwSDNPVE9Pb0tpU29mSkxYMnV5SlYxNFlmZFNPb0NOb01EbjRMZl9IWjlEVE80OFNtSEpZMHl3M21pcGtwSUpPTmxHcmZIT1JF?oc=5",
+      "id": "08402a12f4f4ba79",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "유가 담합 수사 본격화...HD현대오일뱅크 가격결정부서 직원 구속",
+      "url": "https://cwn.kr/article/1065594719837603",
+      "source": "CWN",
+      "published_at": "2026-06-19T16:26:58.449597+09:00",
+      "snippet": "이재명 대통령은 \"어려운 시장 환경을 악용해 부당 이익을 취하려는 세력에 대해서는 엄단해야 한다\"며 \"정유사와 주유소의 담합, 매점매석, 사재기 등 불법 행위는 철저하게 단속하고 위반할 경우 그로 인해 생길 이익의 몇 배에 해당하는 엄정한 제재를 할 필요가 있다\"고 강조했다.",
+      "collected_at": "2026-06-19T17:26:58.449614+09:00",
+      "normalized_title": "유가 담합 수사 본격화...HD현대오일뱅크 가격결정부서 직원 구속",
+      "source_normalized": "CWN",
+      "duplicate_key": "cwn::유가 담합 수사 본격화...hd현대오일뱅크 가격결정부서 직원 구속",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://cwn.kr/article/1065594719837603",
+      "id": "503a3bf275133725",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "주유소",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 \"유가 담합, 중대 경제범죄\" 엄정 대응 예고",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83SVFfZEkyRXhQNS1kSHE3U2ZrWUo4d21pd19rc0JyaWlyQ1lvWFhnTkx3T2NrMEFzUEpxendQbjlwR29PbHB0dXZNS082SWF2b1hEaUQ0UFFDNjBKTkZlRURqbTZURDdZVnIzREt3?oc=5",
+      "source": "gukjenews.com",
+      "published_at": "2026-06-19T14:21:00+09:00",
+      "snippet": "정성호 법무장관 \"유가 담합, 중대 경제범죄\" 엄정 대응 예고 gukjenews.com",
+      "collected_at": "2026-06-19T17:26:38.075951+09:00",
+      "normalized_title": "정성호 법무장관 \"유가 담합, 중대 경제범죄\" 엄정 대응 예고",
+      "source_normalized": "gukjenews.com",
+      "duplicate_key": "gukjenews.com::정성호 법무장관 \"유가 담합, 중대 경제범죄\" 엄정 대응 예고",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83SVFfZEkyRXhQNS1kSHE3U2ZrWUo4d21pd19rc0JyaWlyQ1lvWFhnTkx3T2NrMEFzUEpxendQbjlwR29PbHB0dXZNS082SWF2b1hEaUQ0UFFDNjBKTkZlRURqbTZURDdZVnIzREt3?oc=5",
+      "id": "bb7cc903a3402ffa",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "kbc광주방송",
+      "url": "https://v.daum.net/channel/133710/home",
+      "source": "kbc광주방송",
+      "published_at": "2026-06-19T11:26:47.228692+09:00",
+      "snippet": "대해서는 엄단해야 한다\"며 \"정유사와 주유소의 담합, 매점매석, 사재기 등 불법 행위는 철저하게 단속하고 위반할 경우 그로 인해 생길 이익의 몇 배에 해당하는 엄정한 제재를 할 필요가 있다\"고 강조했습니다. #기름값 #담합 #HD현대오일뱅크 #구속 #중동전쟁 #검찰 6시간 전",
+      "collected_at": "2026-06-19T17:26:47.228709+09:00",
+      "normalized_title": "kbc광주방송",
+      "source_normalized": "kbc광주방송",
+      "duplicate_key": "kbc광주방송::kbc광주방송",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/133710/home",
+      "id": "15e2acd50ead8a74",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "주유소",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'전쟁통 기름값 담합' 혐의 HD현대오일뱅크 부서장 구속…정유사들 떨고 있나",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OMXdHLWsya0xzWVlqd0l5LUtzazZPQ2FGclRaZTNBRWZUeDJPSnB3bVIySjdJdEQ0SUtpTWg1YUxXM3N3dWhpaFZ0VjJta2hTYVJ0aWVqbDE4MHA5SjdTaw?oc=5",
+      "source": "KBC광주방송",
+      "published_at": "2026-06-19T10:49:01+09:00",
+      "snippet": "'전쟁통 기름값 담합' 혐의 HD현대오일뱅크 부서장 구속…정유사들 떨고 있나 KBC광주방송",
+      "collected_at": "2026-06-19T17:26:38.073272+09:00",
+      "normalized_title": "'전쟁통 기름값 담합' 혐의 HD현대오일뱅크 부서장 구속…정유사들 떨고 있나",
+      "source_normalized": "KBC광주방송",
+      "duplicate_key": "kbc광주방송::'전쟁통 기름값 담합' 혐의 hd현대오일뱅크 부서장 구속…정유사들 떨고 있나",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OMXdHLWsya0xzWVlqd0l5LUtzazZPQ2FGclRaZTNBRWZUeDJPSnB3bVIySjdJdEQ0SUtpTWg1YUxXM3N3dWhpaFZ0VjJta2hTYVJ0aWVqbDE4MHA5SjdTaw?oc=5",
+      "id": "afd958cdd976b78c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무부장관 \"유가 담합은 중대 범죄\" 엄정 대응 강조",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9VS3lCVUp4dDZJelhVVE1QOGVHOTFoVmU2c2QzVW04MG1TZGs3ZTl4RFdtNllEb05VSWZxLXJFV3dyX20tNS14MGFOMU5CMmJ1UXhtMlFfZ2d2RjlfZHdZeFpkeEZIbDJ5ZWwyWWgydFFZU1ZDdjZZ0gF3QVVfeXFMTndnMDVIRWJMRm1YOTBpUTBWSlZfa1dzY3hGenN6WTlNUTFaVGhidG9xM093c1NJclZSZ1c1WEZ3Zjd3Tk5sRzVhamxleEF1ZlZHajhTSjRyOE04OU5EcmY4NlhLRkxPUV9IaG9ZTTVoNGVVOGRNRlk?oc=5",
+      "source": "MBC 뉴스",
+      "published_at": "2026-06-19T15:06:11+09:00",
+      "snippet": "정성호 법무부장관 \"유가 담합은 중대 범죄\" 엄정 대응 강조 MBC 뉴스",
+      "collected_at": "2026-06-19T17:26:38.062641+09:00",
+      "normalized_title": "정성호 법무부장관 \"유가 담합은 중대 범죄\" 엄정 대응 강조",
+      "source_normalized": "MBC 뉴스",
+      "duplicate_key": "mbc 뉴스::정성호 법무부장관 \"유가 담합은 중대 범죄\" 엄정 대응 강조",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9VS3lCVUp4dDZJelhVVE1QOGVHOTFoVmU2c2QzVW04MG1TZGs3ZTl4RFdtNllEb05VSWZxLXJFV3dyX20tNS14MGFOMU5CMmJ1UXhtMlFfZ2d2RjlfZHdZeFpkeEZIbDJ5ZWwyWWgydFFZU1ZDdjZZ0gF3QVVfeXFMTndnMDVIRWJMRm1YOTBpUTBWSlZfa1dzY3hGenN6WTlNUTFaVGhidG9xM093c1NJclZSZ1c1WEZ3Zjd3Tk5sRzVhamxleEF1ZlZHajhTSjRyOE04OU5EcmY4NlhLRkxPUV9IaG9ZTTVoNGVVOGRNRlk?oc=5",
+      "id": "f2c0bb0ad0d6f17d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합 혐의' HD현대오일뱅크 직원 1명 구속…\"증거인멸 우려\"",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5STGx4MlI0QXNHQnFTdFc2aVF3Q3VpZ3Q0RTFyanRWYWE2OEFBSVUydFl1SzZLY1RfbXpmZHJnbllMa1NwVDR2NGZfbDhOTFM1Q1QzYmdid0FacFhKWkFmRW1Gb0E?oc=5",
+      "source": "MTN 머니투데이방송",
+      "published_at": "2026-06-19T11:08:29+09:00",
+      "snippet": "'유가 담합 혐의' HD현대오일뱅크 직원 1명 구속…\"증거인멸 우려\" MTN 머니투데이방송",
+      "collected_at": "2026-06-19T17:26:38.064502+09:00",
+      "normalized_title": "'유가 담합 혐의' HD현대오일뱅크 직원 1명 구속…\"증거인멸 우려\"",
+      "source_normalized": "MTN 머니투데이방송",
+      "duplicate_key": "mtn 머니투데이방송::'유가 담합 혐의' hd현대오일뱅크 직원 1명 구속…\"증거인멸 우려\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5STGx4MlI0QXNHQnFTdFc2aVF3Q3VpZ3Q0RTFyanRWYWE2OEFBSVUydFl1SzZLY1RfbXpmZHJnbllMa1NwVDR2NGZfbDhOTFM1Q1QzYmdid0FacFhKWkFmRW1Gb0E?oc=5",
+      "id": "bd7ff99cfa91b892",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응\"",
+      "url": "http://www.tjb.co.kr/sub0301/bodo/view/id/99736",
+      "source": "TJB",
+      "published_at": "2026-06-19T15:27:01.562804+09:00",
+      "snippet": "특히 이란 전쟁 직후 국내 유가가 급등한 배경에 정유업계의 조직적 담합이 있었는지 여부를 집중적으로 들여다보고 있으며, 추가 신병 확보와 수사 확대 가능성도 제기되고 있습니다. 앞서 이재명 대통령도 유가 급등과 관련해 강경 대응을 주문한 바 있으며, 정 장관 역시 유가 담합을 \"국민의 고통을 폭리의...",
+      "collected_at": "2026-06-19T17:27:01.562821+09:00",
+      "normalized_title": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응\"",
+      "source_normalized": "TJB",
+      "duplicate_key": "tjb::정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.tjb.co.kr/sub0301/bodo/view/id/99736",
+      "id": "03629362b52910aa",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "TJB",
+      "url": "https://v.daum.net/channel/551724/home",
+      "source": "TJB",
+      "published_at": "2026-06-19T09:26:47.233790+09:00",
+      "snippet": "이란 전쟁 이후 유가 급등 배경 수사 검찰, 정유 4사 가격 담합 의혹 추적 현대오일뱅크 정유업계의 유가 담합 의혹을 수사 중인 검찰이 HD현대오일뱅크 직원을 구속하며 수사에 속도를 내고 있습니다. 서울중앙지법은 18일 HD현대오일뱅크 가격결정 부서 직원 김모... 8시간 전",
+      "collected_at": "2026-06-19T17:26:47.233813+09:00",
+      "normalized_title": "TJB",
+      "source_normalized": "TJB",
+      "duplicate_key": "tjb::tjb",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/551724/home",
+      "id": "5fdf9f9bdc2e6b76",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 장관, ‘유가 담합 구속’에 “국민 피해 14조원…책임 물을 것”",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVTlJzMTNDRG9EZW1FY0JudHFvc1lMTER0OVJnd0VPLThPMU5tZWotMndQWkE3dzY4MzBlR1VaTnFKc0g1OGtsSjhBM1p4Y0E?oc=5",
+      "source": "v.daum.net",
+      "published_at": "2026-06-19T15:20:16+09:00",
+      "snippet": "정성호 장관, ‘유가 담합 구속’에 “국민 피해 14조원…책임 물을 것” v.daum.net",
+      "collected_at": "2026-06-19T17:26:38.066339+09:00",
+      "normalized_title": "정성호 장관, ‘유가 담합 구속’에 “국민 피해 14조원…책임 물을 것”",
+      "source_normalized": "v.daum.net",
+      "duplicate_key": "v.daum.net::정성호 장관, ‘유가 담합 구속’에 “국민 피해 14조원…책임 물을 것”",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVTlJzMTNDRG9EZW1FY0JudHFvc1lMTER0OVJnd0VPLThPMU5tZWotMndQWkE3dzY4MzBlR1VaTnFKc0g1OGtsSjhBM1p4Y0E?oc=5",
+      "id": "0ce7ba97af8b2db8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\"",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1iVXltVGdVSzQxcHdKZHQ3enZIRGJINGJobVpSU191SlJjOFFadmhJa3czekU4MTBGd0l0OGRYQjR2RzN0cVFJX2VSWk1zbWM?oc=5",
+      "source": "v.daum.net",
+      "published_at": "2026-06-19T14:42:06+09:00",
+      "snippet": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\" v.daum.net",
+      "collected_at": "2026-06-19T17:26:38.062902+09:00",
+      "normalized_title": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\"",
+      "source_normalized": "v.daum.net",
+      "duplicate_key": "v.daum.net::정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1iVXltVGdVSzQxcHdKZHQ3enZIRGJINGJobVpSU191SlJjOFFadmhJa3czekU4MTBGd0l0OGRYQjR2RzN0cVFJX2VSWk1zbWM?oc=5",
+      "id": "a92459040d7bdcca",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"설마했는데\"...'기름값 담합' 의혹 일파만파",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9YTGhFTlZMbFlmUTdyTmJWNEFmQzhrVFVfcVR6SmxjTUNYb0lfSjBtVGZ2OEowVDR5dXpsWnM2d2FhYWt6R3c?oc=5",
+      "source": "v.daum.net",
+      "published_at": "2026-06-19T08:53:18+09:00",
+      "snippet": "\"설마했는데\"...'기름값 담합' 의혹 일파만파 v.daum.net",
+      "collected_at": "2026-06-19T17:26:47.827777+09:00",
+      "normalized_title": "\"설마했는데\"...'기름값 담합' 의혹 일파만파",
+      "source_normalized": "v.daum.net",
+      "duplicate_key": "v.daum.net::\"설마했는데\"...'기름값 담합' 의혹 일파만파",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9YTGhFTlZMbFlmUTdyTmJWNEFmQzhrVFVfcVR6SmxjTUNYb0lfSjBtVGZ2OEowVDR5dXpsWnM2d2FhYWt6R3c?oc=5",
+      "id": "b9e432cce717613a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '유가 담합' 혐의 정유사 임직원 구속…정부 \"시장질서 교란 엄정 대응\"",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zeGhqVTJ1c1FkVTRrT1pja2xjUE5yUktFbWVzd3A4QkFBOVRzcFZsVjhhdms3ZW1wOWVabi1VQU43VnBoTFVuQk0wVllvTjhYNm1CVkI4dl9tcU9zcWZKVE5vR0FEUFdr?oc=5",
+      "source": "강원신문",
+      "published_at": "2026-06-19T14:45:40+09:00",
+      "snippet": "검찰, '유가 담합' 혐의 정유사 임직원 구속…정부 \"시장질서 교란 엄정 대응\" 강원신문",
+      "collected_at": "2026-06-19T17:26:38.066583+09:00",
+      "normalized_title": "검찰, '유가 담합' 혐의 정유사 임직원 구속…정부 \"시장질서 교란 엄정 대응\"",
+      "source_normalized": "강원신문",
+      "duplicate_key": "강원신문::검찰, '유가 담합' 혐의 정유사 임직원 구속…정부 \"시장질서 교란 엄정 대응\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zeGhqVTJ1c1FkVTRrT1pja2xjUE5yUktFbWVzd3A4QkFBOVRzcFZsVjhhdms3ZW1wOWVabi1VQU43VnBoTFVuQk0wVllvTjhYNm1CVkI4dl9tcU9zcWZKVE5vR0FEUFdr?oc=5",
+      "id": "e5d231092cd420ad",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크 부서장 구속… 유가 담합 파문 확산",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HT1dwNXdYVlNLODhHamktMUVMSzNCZEMxbnB3Wkh1YlJ5OVhGTDEtZGZhaFJoTHFSR3doNHlwNkhWV3E5SkFLblRWMTRoZWJVV1I5V3ZqZU5OcW81M2REelBuMXZqVE9X?oc=5",
+      "source": "공감신문",
+      "published_at": "2026-06-19T11:32:47+09:00",
+      "snippet": "HD현대오일뱅크 부서장 구속… 유가 담합 파문 확산 공감신문",
+      "collected_at": "2026-06-19T17:26:38.079386+09:00",
+      "normalized_title": "HD현대오일뱅크 부서장 구속… 유가 담합 파문 확산",
+      "source_normalized": "공감신문",
+      "duplicate_key": "공감신문::hd현대오일뱅크 부서장 구속… 유가 담합 파문 확산",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HT1dwNXdYVlNLODhHamktMUVMSzNCZEMxbnB3Wkh1YlJ5OVhGTDEtZGZhaFJoTHFSR3doNHlwNkhWV3E5SkFLblRWMTRoZWJVV1I5V3ZqZU5OcW81M2REelBuMXZqVE9X?oc=5",
+      "id": "9a4d2a4d36224500",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호, '유가 담합' HD현대오일 부서장 구속에 \"엄정대응\" 지시",
+      "url": "https://www.globale.co.kr/news/articleView.html?idxno=38906",
+      "source": "글로벌E",
+      "published_at": "2026-06-19T16:52:35.913055+09:00",
+      "snippet": "사법당국이 국내 정유사들의 유가 담합 의혹과 관련해 핵심 피의자의 신병을 확보한 것을 기점으로 시장경제 질서를 해치는 중대 범죄에 대한 엄정... 검찰은 SK에너지, GS칼텍스, 에쓰오일, HD현대오일뱅크 등 국내 4개 정유사가 사전 협의를 거쳐 국내 유통되는 유류 제품 가격을 임의로 올리거나 동결한 것으로...",
+      "collected_at": "2026-06-19T17:26:35.913072+09:00",
+      "normalized_title": "정성호, '유가 담합' HD현대오일 부서장 구속에 \"엄정대응\" 지시",
+      "source_normalized": "글로벌E",
+      "duplicate_key": "글로벌e::정성호, '유가 담합' hd현대오일 부서장 구속에 \"엄정대응\" 지시",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 11,
+      "canonical_url": "https://www.globale.co.kr/news/articleView.html?idxno=38906",
+      "id": "231d6ee6885d9296",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '유가 담합 혐의' HD현대오일뱅크 현직 부서장 구속",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3VlJfMmltSUNocWpDRzd0dFd5eHlZaFNuOVZXdlE2M2NoTlBKSDZ6ckxrejZSTVhwUEk1bGdjTnJ6U1hHZHhhV3lvcmgyaW5oS0dGY2tHRFJJLUtpc3RaTG13TmVrZDJlOVlJ0gFvQVVfeXFMTVhhREE0aWZBT0o2Zkl6SGtUM0xrZHFVXzFXOUI4ZzdZOHVZbl8tbl93Z2hYM01lLWg1WlVWY0RzTHIyd0NsbTNsRFI3UnZDSDVpQWN1THE5d1hiVXR1M01mNzgyaTFibkYyN0llM2pr?oc=5",
+      "source": "글로벌E",
+      "published_at": "2026-06-19T08:54:26+09:00",
+      "snippet": "검찰, '유가 담합 혐의' HD현대오일뱅크 현직 부서장 구속 글로벌E",
+      "collected_at": "2026-06-19T17:26:38.080740+09:00",
+      "normalized_title": "검찰, '유가 담합 혐의' HD현대오일뱅크 현직 부서장 구속",
+      "source_normalized": "글로벌E",
+      "duplicate_key": "글로벌e::검찰, '유가 담합 혐의' hd현대오일뱅크 현직 부서장 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3VlJfMmltSUNocWpDRzd0dFd5eHlZaFNuOVZXdlE2M2NoTlBKSDZ6ckxrejZSTVhwUEk1bGdjTnJ6U1hHZHhhV3lvcmgyaW5oS0dGY2tHRFJJLUtpc3RaTG13TmVrZDJlOVlJ0gFvQVVfeXFMTVhhREE0aWZBT0o2Zkl6SGtUM0xrZHFVXzFXOUI4ZzdZOHVZbl8tbl93Z2hYM01lLWg1WlVWY0RzTHIyd0NsbTNsRFI3UnZDSDVpQWN1THE5d1hiVXR1M01mNzgyaTFibkYyN0llM2pr?oc=5",
+      "id": "255c33b0cfbe7671",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 정유사 수사 확대...'기름값 담합' 오일뱅크 부서장 구속",
+      "url": "http://www.newsfc.co.kr/news/articleView.html?idxno=79391",
+      "source": "금융소비자뉴스",
+      "published_at": "2026-06-19T12:03:00+09:00",
+      "snippet": "앞서 이재명 대통령은 \"어려운 시장 환경을 악용해 부당 이익을 취하려는 세력에 대해서는 엄단해야 한다\"며 \"정유사와 주유소의 담합, 매점매석, 사재기 등 불법 행위는 철저하게 단속하고 위반할 경우 그로 인해 생길 이익의 몇 배에 해당하는 엄정한 제재를 할 필요가 있다\"고 강조한 바 있다.",
+      "collected_at": "2026-06-19T17:26:38.073728+09:00",
+      "normalized_title": "검찰, 정유사 수사 확대...'기름값 담합' 오일뱅크 부서장 구속",
+      "source_normalized": "금융소비자뉴스",
+      "duplicate_key": "금융소비자뉴스::검찰, 정유사 수사 확대...'기름값 담합' 오일뱅크 부서장 구속",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://www.newsfc.co.kr/news/articleView.html?idxno=79391",
+      "id": "469dea959c379e4f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "주유소",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 \"유가 담합 국민 피해 14조, 불공정 거래 엄정 대응\"",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ybG1iWXNoQlp6TmRhQnhkSDdYUkFfUmx1TTJmLXdUcEFXNVFyazdRcnFTa1NKMzU0VzlUV3FwRG9zY2FRdzFGM2tkU05uTTdrRl8w?oc=5",
+      "source": "네이트",
+      "published_at": "2026-06-19T15:01:00+09:00",
+      "snippet": "정성호 \"유가 담합 국민 피해 14조, 불공정 거래 엄정 대응\" 네이트",
+      "collected_at": "2026-06-19T17:26:38.077863+09:00",
+      "normalized_title": "정성호 \"유가 담합 국민 피해 14조, 불공정 거래 엄정 대응\"",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::정성호 \"유가 담합 국민 피해 14조, 불공정 거래 엄정 대응\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ybG1iWXNoQlp6TmRhQnhkSDdYUkFfUmx1TTJmLXdUcEFXNVFyazdRcnFTa1NKMzU0VzlUV3FwRG9zY2FRdzFGM2tkU05uTTdrRl8w?oc=5",
+      "id": "f96ec3b27b8a4ca2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\"",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HUHRXOGNfenNMcUdwSGU2TlBhYkphNlA5Tm03dDZZbFBWRmVGbTctNldQZEtPdnBSVXFZcGpacURJSTRGSnp4UW5fLWJyc2t2SWVn?oc=5",
+      "source": "네이트",
+      "published_at": "2026-06-19T14:36:00+09:00",
+      "snippet": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\" 네이트",
+      "collected_at": "2026-06-19T17:26:38.077637+09:00",
+      "normalized_title": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\"",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HUHRXOGNfenNMcUdwSGU2TlBhYkphNlA5Tm03dDZZbFBWRmVGbTctNldQZEtPdnBSVXFZcGpacURJSTRGSnp4UW5fLWJyc2t2SWVn?oc=5",
+      "id": "59c01488615e8309",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 \"유가담합, 반사회적 중대범죄…14조 피해 엄정 대응\"",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9mYTh3MWtaaUJkYnp4ZUY0RXNGVmJ0Wm5rOFIyb2xJa0l4UTB3TkRoa3RkcXVjUU1xN2RQUC1qdGdEdUNOc1VxdjFQaEtiNGlONkF6VDJCSldyN1U4bGgtcg?oc=5",
+      "source": "네이트",
+      "published_at": "2026-06-19T14:18:00+09:00",
+      "snippet": "정성호 법무장관 \"유가담합, 반사회적 중대범죄…14조 피해 엄정 대응\" 네이트",
+      "collected_at": "2026-06-19T17:26:38.081175+09:00",
+      "normalized_title": "정성호 법무장관 \"유가담합, 반사회적 중대범죄…14조 피해 엄정 대응\"",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::정성호 법무장관 \"유가담합, 반사회적 중대범죄…14조 피해 엄정 대응\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9mYTh3MWtaaUJkYnp4ZUY0RXNGVmJ0Wm5rOFIyb2xJa0l4UTB3TkRoa3RkcXVjUU1xN2RQUC1qdGdEdUNOc1VxdjFQaEtiNGlONkF6VDJCSldyN1U4bGgtcg?oc=5",
+      "id": "23be5db30c7491eb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 \"유가 담합으로 14조 국민 피해…중대 경제범죄 엄정 대응\"",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE53d0NJTWhnY0JuNnZtbm10eDdFNXAtUmlOUGFINFFybm42NGIyMnRyMjBLQmVTQ0ZHR1BzMFZMQ0hzNDRnT2cyb0JsajRQNE5Jem52LVdDRnpsUjJZS3VKSg?oc=5",
+      "source": "네이트",
+      "published_at": "2026-06-19T13:18:00+09:00",
+      "snippet": "정성호 \"유가 담합으로 14조 국민 피해…중대 경제범죄 엄정 대응\" 네이트",
+      "collected_at": "2026-06-19T17:26:38.078747+09:00",
+      "normalized_title": "정성호 \"유가 담합으로 14조 국민 피해…중대 경제범죄 엄정 대응\"",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::정성호 \"유가 담합으로 14조 국민 피해…중대 경제범죄 엄정 대응\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE53d0NJTWhnY0JuNnZtbm10eDdFNXAtUmlOUGFINFFybm42NGIyMnRyMjBLQmVTQ0ZHR1BzMFZMQ0hzNDRnT2cyb0JsajRQNE5Jem52LVdDRnpsUjJZS3VKSg?oc=5",
+      "id": "6e7a35de2e6d575b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합 혐의' HD현대오일 직원 구속, 업계 향한 사정 칼날",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE56TmhScGNsaFVWYnhpLUN4WVlNYW1mNkktLWJFSEpmVGprQ3RMYzVmVkU1cVhrNm9tN29ZSGJxVndYMFJhTzd5Mi0wWXhZWk9fYUhV?oc=5",
+      "source": "네이트",
+      "published_at": "2026-06-19T11:47:00+09:00",
+      "snippet": "'유가 담합 혐의' HD현대오일 직원 구속, 업계 향한 사정 칼날 네이트",
+      "collected_at": "2026-06-19T17:26:38.076176+09:00",
+      "normalized_title": "'유가 담합 혐의' HD현대오일 직원 구속, 업계 향한 사정 칼날",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::'유가 담합 혐의' hd현대오일 직원 구속, 업계 향한 사정 칼날",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE56TmhScGNsaFVWYnhpLUN4WVlNYW1mNkktLWJFSEpmVGprQ3RMYzVmVkU1cVhrNm9tN29ZSGJxVndYMFJhTzd5Mi0wWXhZWk9fYUhV?oc=5",
+      "id": "c7eddea70f26e076",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합 의혹' HD현대오일뱅크 직원 구속…檢, 정유 4사 수사 확대",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10d1lkalQzdzBtT0twdm9Qa0I4ZUx0WFlxYXpBU3Q2Qk5kVVQwWWhRc0xvTERIQmtqV195bzZCaWlNM2pVUUZ4d01JNERUd1o1RXZBczRka04ydkFlSGdfTTZ0S0wyNVFpTl9BY3dxWUxPSVdsWF8w?oc=5",
+      "source": "네이트",
+      "published_at": "2026-06-19T10:10:00+09:00",
+      "snippet": "'유가 담합 의혹' HD현대오일뱅크 직원 구속…檢, 정유 4사 수사 확대 네이트",
+      "collected_at": "2026-06-19T17:26:38.078961+09:00",
+      "normalized_title": "'유가 담합 의혹' HD현대오일뱅크 직원 구속…檢, 정유 4사 수사 확대",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::'유가 담합 의혹' hd현대오일뱅크 직원 구속…檢, 정유 4사 수사 확대",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10d1lkalQzdzBtT0twdm9Qa0I4ZUx0WFlxYXpBU3Q2Qk5kVVQwWWhRc0xvTERIQmtqV195bzZCaWlNM2pVUUZ4d01JNERUd1o1RXZBczRka04ydkFlSGdfTTZ0S0wyNVFpTl9BY3dxWUxPSVdsWF8w?oc=5",
+      "id": "a23efff3ceb7c0ad",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합' HD현대오일뱅크 임원 구속…정유사 수사 탄력",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pbXlfZGVIRVExMHl0Ql9fZ1JvRzgwN2xzbHpXYllfSDNPYUJZNllyOFkwRmpaT3lLQkMwZ1kxam9lRjBycDVLNFFDYkpRSkVXcjkw?oc=5",
+      "source": "네이트",
+      "published_at": "2026-06-19T08:33:00+09:00",
+      "snippet": "'유가 담합' HD현대오일뱅크 임원 구속…정유사 수사 탄력 네이트",
+      "collected_at": "2026-06-19T17:26:38.080496+09:00",
+      "normalized_title": "'유가 담합' HD현대오일뱅크 임원 구속…정유사 수사 탄력",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::'유가 담합' hd현대오일뱅크 임원 구속…정유사 수사 탄력",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pbXlfZGVIRVExMHl0Ql9fZ1JvRzgwN2xzbHpXYllfSDNPYUJZNllyOFkwRmpaT3lLQkMwZ1kxam9lRjBycDVLNFFDYkpRSkVXcjkw?oc=5",
+      "id": "2a0f68931c2fea20",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크 부서장 구속…정유 4사 담합 의혹 수사 본격화",
+      "url": "https://www.ddaily.co.kr/page/view/2026061909452897637",
+      "source": "디지털데일리",
+      "published_at": "2026-06-19T10:42:30+09:00",
+      "snippet": "휘발유와 경유 등 석유제품 가격을 인위적으로 인상하거나 일정 수준으로 유지한 것으로 의심하고 있다. 특히 검찰은 미국·이란 전쟁 발발 직후 국내 유가가 동시에 급등한 배경에 정유사들의 담합이 있었는지를 집중적으로 들여다보고 있다. 이와 함께 전쟁 이전부터 장기간 가격 담합이 이뤄졌는지도 수사...",
+      "collected_at": "2026-06-19T17:26:38.075735+09:00",
+      "normalized_title": "HD현대오일뱅크 부서장 구속…정유 4사 담합 의혹 수사 본격화",
+      "source_normalized": "디지털데일리",
+      "duplicate_key": "디지털데일리::hd현대오일뱅크 부서장 구속…정유 4사 담합 의혹 수사 본격화",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.ddaily.co.kr/page/view/2026061909452897637",
+      "id": "fffc999a273741c6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '유가 담합 의혹' HD현대오일뱅크 부서장 구속",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15NkJidG44WFhPTVpsQjVaZmkzVkc0cUNQTWhweW9zVnNTYkd3V2ozdlBoR1NYNnFuTzVfcEI5bEtHRThVQ3h3RFRHZkpoUDJBeHZZWDN4YVdiWkVWXzBReld4UzdJenpvN0tab0ZB0gFyQVVfeXFMT2NRd0psUnA3WVc1ek9NSUlqWGxiQWRaQ2Q0aHZMZnJGa2o0cWM1MURSUEtYbG92QndoaTBSSkJaRXV2dWhEbEtqbkl0QmhrN0tpWURXSjU0TTdJLVlRa182ZUVjTm5DcC0zdTQ2eTBvdGln?oc=5",
+      "source": "딜라이트닷넷",
+      "published_at": "2026-06-19T10:01:29+09:00",
+      "snippet": "검찰, '유가 담합 의혹' HD현대오일뱅크 부서장 구속 딜라이트닷넷",
+      "collected_at": "2026-06-19T17:26:38.081634+09:00",
+      "normalized_title": "검찰, '유가 담합 의혹' HD현대오일뱅크 부서장 구속",
+      "source_normalized": "딜라이트닷넷",
+      "duplicate_key": "딜라이트닷넷::검찰, '유가 담합 의혹' hd현대오일뱅크 부서장 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15NkJidG44WFhPTVpsQjVaZmkzVkc0cUNQTWhweW9zVnNTYkd3V2ozdlBoR1NYNnFuTzVfcEI5bEtHRThVQ3h3RFRHZkpoUDJBeHZZWDN4YVdiWkVWXzBReld4UzdJenpvN0tab0ZB0gFyQVVfeXFMT2NRd0psUnA3WVc1ek9NSUlqWGxiQWRaQ2Q0aHZMZnJGa2o0cWM1MURSUEtYbG92QndoaTBSSkJaRXV2dWhEbEtqbkl0QmhrN0tpWURXSjU0TTdJLVlRa182ZUVjTm5DcC0zdTQ2eTBvdGln?oc=5",
+      "id": "1902dc96b2148cdc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\"",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyTFJFemw4eU4xemMwNEFQYzBldnpGcmZsMmhQZXZwbzY1NncyaGswazdBMzZ4TWNzOERIVWVDU0ZVLUNyUXpMdUdvOHpfVEZuR3c?oc=5",
+      "source": "매일경제 마켓",
+      "published_at": "2026-06-19T14:35:04+09:00",
+      "snippet": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\" 매일경제 마켓",
+      "collected_at": "2026-06-19T17:26:50.787442+09:00",
+      "normalized_title": "정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\"",
+      "source_normalized": "매일경제 마켓",
+      "duplicate_key": "매일경제 마켓::정성호 법무 \"유가 담합 국민 피해 14조원대…엄정 대응할 것\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyTFJFemw4eU4xemMwNEFQYzBldnpGcmZsMmhQZXZwbzY1NncyaGswazdBMzZ4TWNzOERIVWVDU0ZVLUNyUXpMdUdvOHpfVEZuR3c?oc=5",
+      "id": "710bc15467d31a03",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "매일경제TV",
+      "url": "https://v.daum.net/channel/552794/home",
+      "source": "매일경제TV",
+      "published_at": "2026-06-19T15:26:53.175727+09:00",
+      "snippet": "SK에너지·GS칼텍스·에쓰오일·HD현대오일뱅크 등 4개 정유사는 사전 협의를 통해 국내 유통되는 유류 및 석유제품의 가격을 임의로 올리거나 동결하는 등 담합한 혐의를 받습니다. 검찰은 이란 전쟁 발발 직후 국내 유가가 일제히 급등한 배경에 정유사들의 계획적... 2시간 전",
+      "collected_at": "2026-06-19T17:26:53.175742+09:00",
+      "normalized_title": "매일경제TV",
+      "source_normalized": "매일경제TV",
+      "duplicate_key": "매일경제tv::매일경제tv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유제품 담합",
+        "유류가격 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/552794/home",
+      "id": "df5737ff1a3d018c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유가격 담합 수사 첫 구속자 발생… 업계선 SK이노베이션 리니언시설...",
+      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065578508172814",
+      "source": "메가경제",
+      "published_at": "2026-06-19T11:27:14.807209+09:00",
+      "snippet": "또 다른 정유사 관계자는 “수사 과정에서 담합 혐의가 없음을 적극 소명할 계획”이라고 밝혔다. 현재까지 검찰과 공정거래위원회는 수사 진행 상황과 리니언시 적용 여부에 대해 공식 입장을 내놓지 않고 있다. 다만 정유사 임직원에 대한 첫 구속이 이뤄진 만큼 향후 수사 결과에 따라 대규모 과징금과...",
+      "collected_at": "2026-06-19T17:27:14.807226+09:00",
+      "normalized_title": "정유가격 담합 수사 첫 구속자 발생… 업계선 SK이노베이션 리니언시설...",
+      "source_normalized": "메가경제",
+      "duplicate_key": "메가경제::정유가격 담합 수사 첫 구속자 발생… 업계선 sk이노베이션 리니언시설...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065578508172814",
+      "id": "f63858004abd7150",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유가격 담합 수사 첫 구속자 발생… 업계선 SK이노베이션 리니언시설 ′솔솔′",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fcWV6QU03VlF5Nlg0YWl0elp0VnZEdXJyRUJ3Z2xfMC1URF9uZDIyYV9aSkpueVlaUGpZWkc2NGdaTWp3N2Z4NmpVeF9STlFCS3Z4S2hfQjRIc1doQ0xIMlh5OGctRW8xdzdIOGlOWUZFZ9IBckFVX3lxTE5fcWV6QU03VlF5Nlg0YWl0elp0VnZEdXJyRUJ3Z2xfMC1URF9uZDIyYV9aSkpueVlaUGpZWkc2NGdaTWp3N2Z4NmpVeF9STlFCS3Z4S2hfQjRIc1doQ0xIMlh5OGctRW8xdzdIOGlOWUZFZw?oc=5",
+      "source": "메가경제",
+      "published_at": "2026-06-19T11:01:59+09:00",
+      "snippet": "정유가격 담합 수사 첫 구속자 발생… 업계선 SK이노베이션 리니언시설 ′솔솔′ 메가경제",
+      "collected_at": "2026-06-19T17:26:44.558484+09:00",
+      "normalized_title": "정유가격 담합 수사 첫 구속자 발생… 업계선 SK이노베이션 리니언시설 ′솔솔′",
+      "source_normalized": "메가경제",
+      "duplicate_key": "메가경제::정유가격 담합 수사 첫 구속자 발생… 업계선 sk이노베이션 리니언시설 ′솔솔′",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fcWV6QU03VlF5Nlg0YWl0elp0VnZEdXJyRUJ3Z2xfMC1URF9uZDIyYV9aSkpueVlaUGpZWkc2NGdaTWp3N2Z4NmpVeF9STlFCS3Z4S2hfQjRIc1doQ0xIMlh5OGctRW8xdzdIOGlOWUZFZ9IBckFVX3lxTE5fcWV6QU03VlF5Nlg0YWl0elp0VnZEdXJyRUJ3Z2xfMC1URF9uZDIyYV9aSkpueVlaUGpZWkc2NGdaTWp3N2Z4NmpVeF9STlFCS3Z4S2hfQjRIc1doQ0xIMlh5OGctRW8xdzdIOGlOWUZFZw?oc=5",
+      "id": "42fcc9572b37e27c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "휘발유값 급등 배후 겨눈 검찰, 정성호 장관 \"14조 피해, 엄정 대응\"",
+      "url": "https://www.mhj21.com/news/articleView.html?idxno=252770",
+      "source": "문화저널21",
+      "published_at": "2026-06-19T16:26:52.170325+09:00",
+      "snippet": "그는 검찰이 중동 전쟁 국면을 틈타 일주일 만에 휘발유 가격을 리터당 200원가량 인상한 혐의로 정유사 임직원을 구속했으며, 유가 담합으로 국민이 입은 피해 규모가 14조원대에 달한다고 언급했다. 정 장관은 특히 이재명 대통령이 중동 전쟁 직후 \"아침, 점심, 저녁 가격이 다르고, 심지어 리터당 200원 가까이...",
+      "collected_at": "2026-06-19T17:26:52.170347+09:00",
+      "normalized_title": "휘발유값 급등 배후 겨눈 검찰, 정성호 장관 \"14조 피해, 엄정 대응\"",
+      "source_normalized": "문화저널21",
+      "duplicate_key": "문화저널21::휘발유값 급등 배후 겨눈 검찰, 정성호 장관 \"14조 피해, 엄정 대응\"",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "석유제품 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.mhj21.com/news/articleView.html?idxno=252770",
+      "id": "fe6fb51dc258b20a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합' 정유사 직원 구속…정성호 \"국민경제 흔드는 중대 범죄\"",
+      "url": "http://www.iminju.net/news/articleView.html?idxno=165565",
+      "source": "민주신문",
+      "published_at": "2026-06-19T15:26:45.917057+09:00",
+      "snippet": "민주신문=이한호 기자｜국내 정유업계의 유가 담합 의혹과 관련해 첫 구속영장이 발부된 가운데, 정성호 법무부 장관이 \"시장 질서를 무너뜨리는 중대 경제범죄에 엄정 대응하겠다\"며 강경 대응 방침을 재차 강조했다. 정 장관은 19일 자신의 사회관계망서비스(SNS)를 통해 중동 지역 전쟁 상황을 계기로 국내...",
+      "collected_at": "2026-06-19T17:26:45.917072+09:00",
+      "normalized_title": "'기름값 담합' 정유사 직원 구속…정성호 \"국민경제 흔드는 중대 범죄\"",
+      "source_normalized": "민주신문",
+      "duplicate_key": "민주신문::'기름값 담합' 정유사 직원 구속…정성호 \"국민경제 흔드는 중대 범죄\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.iminju.net/news/articleView.html?idxno=165565",
+      "id": "824db51950006005",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "기름값 담합 HD현대오일뱅크 현직 부서장 구속...정유사 수사 확대 '탄력...",
+      "url": "https://www.livebiz.today/news/articleView.html?idxno=202738",
+      "source": "생생비즈플러스",
+      "published_at": "2026-06-19T12:27:01.568175+09:00",
+      "snippet": "정유업계에 대한 검찰 수사가 확대될 것이라는 관측이 나온다. 앞서 이재명 대통령은 올해 3월 국내 유가 상승 조짐이 나타나자 \"어려운 시장 환경을 악용해 부당 이익을 취하려는 세력에 대해서는 엄단해야 한다\"고 언급한 바 있다. 정성호 법무부장관도 \"국민의 고통을 폭리의 기회로 삼으려는 반칙과 담합은...",
+      "collected_at": "2026-06-19T17:27:01.568191+09:00",
+      "normalized_title": "기름값 담합 HD현대오일뱅크 현직 부서장 구속...정유사 수사 확대 '탄력...",
+      "source_normalized": "생생비즈플러스",
+      "duplicate_key": "생생비즈플러스::기름값 담합 hd현대오일뱅크 현직 부서장 구속...정유사 수사 확대 '탄력...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.livebiz.today/news/articleView.html?idxno=202738",
+      "id": "b003917bfc1564fb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "기름값 담합 HD현대오일뱅크 현직 부서장 구속...정유사 수사 확대 '탄력'",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HeGloQ1F6bkxBYVA3NUpOeGZVa0E1VVBBaDl4RDlpdnpBYVMxQVJxTElYbTBhbTFMR0lGMFpheGpNalByZXZ6ZGJVU2FYbkFON0xNTWdVUTR2OENTdlNTOHphanZnN0Jjc18tSw?oc=5",
+      "source": "생생비즈플러스",
+      "published_at": "2026-06-19T11:37:32+09:00",
+      "snippet": "기름값 담합 HD현대오일뱅크 현직 부서장 구속...정유사 수사 확대 '탄력' 생생비즈플러스",
+      "collected_at": "2026-06-19T17:26:44.559416+09:00",
+      "normalized_title": "기름값 담합 HD현대오일뱅크 현직 부서장 구속...정유사 수사 확대 '탄력'",
+      "source_normalized": "생생비즈플러스",
+      "duplicate_key": "생생비즈플러스::기름값 담합 hd현대오일뱅크 현직 부서장 구속...정유사 수사 확대 '탄력'",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HeGloQ1F6bkxBYVA3NUpOeGZVa0E1VVBBaDl4RDlpdnpBYVMxQVJxTElYbTBhbTFMR0lGMFpheGpNalByZXZ6ZGJVU2FYbkFON0xNTWdVUTR2OENTdlNTOHphanZnN0Jjc18tSw?oc=5",
+      "id": "41f4950b32322078",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합' HD현대오일뱅크 직원 구속…정유사 수사 확대",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfYnE2VFgwUkROUjZNZVZvUUh3RjUya1JXSnM5T09hYzlkd2pzMXVsWWFLTGhsdWJBaVR3eVllcEtST0hVLUR6cXFzMmlEbEdnYmx2bHhpT0FyQzZVVW5XV3BLbmM?oc=5",
+      "source": "서울경제TV",
+      "published_at": "2026-06-19T08:43:00+09:00",
+      "snippet": "'기름값 담합' HD현대오일뱅크 직원 구속…정유사 수사 확대 서울경제TV",
+      "collected_at": "2026-06-19T17:26:38.075065+09:00",
+      "normalized_title": "'기름값 담합' HD현대오일뱅크 직원 구속…정유사 수사 확대",
+      "source_normalized": "서울경제TV",
+      "duplicate_key": "서울경제tv::'기름값 담합' hd현대오일뱅크 직원 구속…정유사 수사 확대",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfYnE2VFgwUkROUjZNZVZvUUh3RjUya1JXSnM5T09hYzlkd2pzMXVsWWFLTGhsdWJBaVR3eVllcEtST0hVLUR6cXFzMmlEbEdnYmx2bHhpT0FyQzZVVW5XV3BLbmM?oc=5",
+      "id": "1a2e9d19c6a2a2f9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "法, 유가 담합 혐의 HD현대오일뱅크 관계자 1명 구속",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CWkJSeWtIMW9wYWZYR2MyR0t5YUZRcm5LTDRqa1BxNm9XNWI4aVcxRmR6YkFqRHNNa2NNalFmdWg2akNHS0RjN1Mxc0NrZmxOeXJlRi1mZGliZU9oVzNhVHdoNzhYdENueUE?oc=5",
+      "source": "서울파이낸스",
+      "published_at": "2026-06-19T08:52:30+09:00",
+      "snippet": "法, 유가 담합 혐의 HD현대오일뱅크 관계자 1명 구속 서울파이낸스",
+      "collected_at": "2026-06-19T17:26:38.070235+09:00",
+      "normalized_title": "法, 유가 담합 혐의 HD현대오일뱅크 관계자 1명 구속",
+      "source_normalized": "서울파이낸스",
+      "duplicate_key": "서울파이낸스::法, 유가 담합 혐의 hd현대오일뱅크 관계자 1명 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CWkJSeWtIMW9wYWZYR2MyR0t5YUZRcm5LTDRqa1BxNm9XNWI4aVcxRmR6YkFqRHNNa2NNalFmdWg2akNHS0RjN1Mxc0NrZmxOeXJlRi1mZGliZU9oVzNhVHdoNzhYdENueUE?oc=5",
+      "id": "a4878476b93ff0d1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크 직원 유가담합 구속에 정성호 “중대 경제범죄 엄정 대응”",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iRklNYWU3dTV0YnRBZkZEUHJzSm5ZTE1zaXBlU19NSWp5ejBXcWI3VWpxZnFoQVg1UklHRU94N1llNlRueS1ZM0R4R1dFSjF2NlVsXzlWQldYLXoycVpB?oc=5",
+      "source": "스마트투데이",
+      "published_at": "2026-06-19T15:40:00+09:00",
+      "snippet": "HD현대오일뱅크 직원 유가담합 구속에 정성호 “중대 경제범죄 엄정 대응” 스마트투데이",
+      "collected_at": "2026-06-19T17:26:38.067037+09:00",
+      "normalized_title": "HD현대오일뱅크 직원 유가담합 구속에 정성호 “중대 경제범죄 엄정 대응”",
+      "source_normalized": "스마트투데이",
+      "duplicate_key": "스마트투데이::hd현대오일뱅크 직원 유가담합 구속에 정성호 “중대 경제범죄 엄정 대응”",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iRklNYWU3dTV0YnRBZkZEUHJzSm5ZTE1zaXBlU19NSWp5ejBXcWI3VWpxZnFoQVg1UklHRU94N1llNlRueS1ZM0R4R1dFSjF2NlVsXzlWQldYLXoycVpB?oc=5",
+      "id": "9882ec0493c6daa6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "시사위크",
+      "url": "https://v.daum.net/channel/552791/home",
+      "source": "시사위크",
+      "published_at": "2026-06-19T16:44:37.434076+09:00",
+      "snippet": "유가 담합 의혹과 관련해 첫 신병 확보에 성공했다. 이에 따라 향후 수사가 더욱 빠르게 확대될 것으로 예상된다. 유가 담합 혐의를 받는 정유사는 HD현대오일뱅크를 비롯해 SK에너지, GS칼텍스, 에쓰오일 등 국내 주요 4개사다. 이 중 첫 타깃이 된 HD현대오일뱅크... 42분 전",
+      "collected_at": "2026-06-19T17:26:37.434094+09:00",
+      "normalized_title": "시사위크",
+      "source_normalized": "시사위크",
+      "duplicate_key": "시사위크::시사위크",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/552791/home",
+      "id": "e3ff0a664f8b0bcb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'담합 구속' HD현대오일뱅크, 윤리경영 '물음표'",
+      "url": "https://www.sisaweek.com/news/articleView.html?idxno=236225",
+      "source": "시사위크",
+      "published_at": "2026-06-19T16:44:35.914318+09:00",
+      "snippet": "유가 담합 혐의를 받는 정유사는 HD현대오일뱅크를 비롯해 SK에너지, GS칼텍스, 에쓰오일 등 국내 주요 4개사다. 이 중 첫 타깃이 된 HD현대오일뱅크는 준법·윤리경영을 향한 물음표가 또 한 번 커지게 됐다. 검찰이 4개사 중 HD현대오일뱅크에 대한 신병 확보를 가장 먼저 시도한 건, 담합을 주도했다고 보고 있기...",
+      "collected_at": "2026-06-19T17:26:35.914339+09:00",
+      "normalized_title": "'담합 구속' HD현대오일뱅크, 윤리경영 '물음표'",
+      "source_normalized": "시사위크",
+      "duplicate_key": "시사위크::'담합 구속' hd현대오일뱅크, 윤리경영 '물음표'",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://www.sisaweek.com/news/articleView.html?idxno=236225",
+      "id": "0052a670af75f6ec",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "시사저널",
+      "url": "https://v.daum.net/channel/178/home",
+      "source": "시사저널",
+      "published_at": "2026-06-19T15:26:37.442671+09:00",
+      "snippet": "무도대회'에 참석해 박수를 치고 있다. ⓒ연합뉴스 이른바 '유가 담합' 혐의로 HD현대오일뱅크 임직원이 구속된 가운데 정성호 법무부...원대에 이른다\"면서 \"검찰은 중동 전쟁을 틈타 일주일 만에 휘발유 가격을 200원 폭등시킨 혐의로 정유사 임직원을 구속했다\"고... 2시간 전 3",
+      "collected_at": "2026-06-19T17:26:37.442686+09:00",
+      "normalized_title": "시사저널",
+      "source_normalized": "시사저널",
+      "duplicate_key": "시사저널::시사저널",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/178/home",
+      "id": "60b180cab234a3a2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 장관, ‘유가 담합 구속’에 “국민 피해 14조원…책임 물을 것”",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2dUxsUXZNdzEyb3ZNdkdQSXhpMFlBLXB4UWZRdzItcElCOGZwa2tYd0xPUzdWOVY0ZGQ3YVk0R3ZzLU1SV3haeURCX1ZrYkoxOXRmVkxxcGdhRkRCbXZyUUZRSVhkbWZNWUhvUHU4d9IBc0FVX3lxTE4ySVp0OHhIaW50SThaU3hPMVZQR0hreFJ3MHFXZUZJUG9ETWw1cHhWeHhhTWdQN1pvNk9hbEVLR1pmOVdkZG45eTJMaDF4T2xGTWMyN0pHLUFLVWZ6b3U3M0psVG1ncHZXbkNqdUhxbVdteUU?oc=5",
+      "source": "시사저널",
+      "published_at": "2026-06-19T15:18:55+09:00",
+      "snippet": "정성호 장관, ‘유가 담합 구속’에 “국민 피해 14조원…책임 물을 것” 시사저널",
+      "collected_at": "2026-06-19T17:26:50.788154+09:00",
+      "normalized_title": "정성호 장관, ‘유가 담합 구속’에 “국민 피해 14조원…책임 물을 것”",
+      "source_normalized": "시사저널",
+      "duplicate_key": "시사저널::정성호 장관, ‘유가 담합 구속’에 “국민 피해 14조원…책임 물을 것”",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2dUxsUXZNdzEyb3ZNdkdQSXhpMFlBLXB4UWZRdzItcElCOGZwa2tYd0xPUzdWOVY0ZGQ3YVk0R3ZzLU1SV3haeURCX1ZrYkoxOXRmVkxxcGdhRkRCbXZyUUZRSVhkbWZNWUhvUHU4d9IBc0FVX3lxTE4ySVp0OHhIaW50SThaU3hPMVZQR0hreFJ3MHFXZUZJUG9ETWw1cHhWeHhhTWdQN1pvNk9hbEVLR1pmOVdkZG45eTJMaDF4T2xGTWMyN0pHLUFLVWZ6b3U3M0psVG1ncHZXbkNqdUhxbVdteUU?oc=5",
+      "id": "3778086a0a21b2ab",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "에너지경제",
+      "url": "https://v.daum.net/channel/552792/home",
+      "source": "에너지경제",
+      "published_at": "2026-06-19T16:26:37.437653+09:00",
+      "snippet": "전후로 사전에 석유제품 가격에 대한 정보를 공유하고 가격을 담합한 의혹을 두고 수사를 벌여왔다. 이후 지난 18일 서울중앙지법...대해 정 장관은 “검찰이 중동 전쟁을 틈타 일주일 만에 휘발유 가격을 200원 폭등시킨 혐의로 정유사 임직원을 구속했다\"며 “유가... 1시간 전",
+      "collected_at": "2026-06-19T17:26:37.437671+09:00",
+      "normalized_title": "에너지경제",
+      "source_normalized": "에너지경제",
+      "duplicate_key": "에너지경제::에너지경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/552792/home",
+      "id": "9dd100a88d85638b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 “유가담합 실체 밝히고 책임 묻겠다”",
+      "url": "https://www.ekn.kr/web/view.php?key=20260619020434850",
+      "source": "에너지경제",
+      "published_at": "2026-06-19T16:26:35.918259+09:00",
+      "snippet": "이에 대해 정 장관은 “검찰이 중동 전쟁을 틈타 일주일 만에 휘발유 가격을 200원 폭등시킨 혐의로 정유사 임직원을 구속했다\"며 “유가담합으로 국민이 입은 피해는 14조원 대에 이른다\"고 짚었다. 이재명 대통령도 “아침, 점심, 저녁 가격이 다르고 심지어 리터당 200원 가까이 올리는 곳도 있다\"며 단호히...",
+      "collected_at": "2026-06-19T17:26:35.918274+09:00",
+      "normalized_title": "정성호 법무장관 “유가담합 실체 밝히고 책임 묻겠다”",
+      "source_normalized": "에너지경제",
+      "duplicate_key": "에너지경제::정성호 법무장관 “유가담합 실체 밝히고 책임 묻겠다”",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.ekn.kr/web/view.php?key=20260619020434850",
+      "id": "64a35bb1b153f420",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 “유가담합 실체 밝히고 책임 묻겠다”",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91enFSQWFMazZJbVRUUWpqMWQyaFRUSE9XaFp1bWlyU0xZdmpYTml0S2hjYnJSdjQtRHZWTHZ2UTQ5ZVRaYVUtQVZrQjlwR3hQRnJMdkZFaklfQnB4dHJVYWZwYw?oc=5",
+      "source": "에너지경제신문",
+      "published_at": "2026-06-19T16:23:43+09:00",
+      "snippet": "정성호 법무장관 “유가담합 실체 밝히고 책임 묻겠다” 에너지경제신문",
+      "collected_at": "2026-06-19T17:26:38.062357+09:00",
+      "normalized_title": "정성호 법무장관 “유가담합 실체 밝히고 책임 묻겠다”",
+      "source_normalized": "에너지경제신문",
+      "duplicate_key": "에너지경제신문::정성호 법무장관 “유가담합 실체 밝히고 책임 묻겠다”",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91enFSQWFMazZJbVRUUWpqMWQyaFRUSE9XaFp1bWlyU0xZdmpYTml0S2hjYnJSdjQtRHZWTHZ2UTQ5ZVRaYVUtQVZrQjlwR3hQRnJMdkZFaklfQnB4dHJVYWZwYw?oc=5",
+      "id": "1b833148c96391d0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합 의혹' HD현대오일뱅크 직원 1명 구속",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5FRVF0bUVBWDNVR2NXOU1ZYkdMek82TnFsLUNLeGZyZ2dQMDJPOU9XWUdOVlVXODhYUFlzb09GMFkwNGZKRncwVnVzanppLW5ja1NSX3FaMUhFemlpcE9vY2ViTFRacHN2V29fWHRKWDA?oc=5",
+      "source": "에너지코리아뉴스",
+      "published_at": "2026-06-19T11:10:23+09:00",
+      "snippet": "'유가 담합 의혹' HD현대오일뱅크 직원 1명 구속 에너지코리아뉴스",
+      "collected_at": "2026-06-19T17:26:38.065668+09:00",
+      "normalized_title": "'유가 담합 의혹' HD현대오일뱅크 직원 1명 구속",
+      "source_normalized": "에너지코리아뉴스",
+      "duplicate_key": "에너지코리아뉴스::'유가 담합 의혹' hd현대오일뱅크 직원 1명 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5FRVF0bUVBWDNVR2NXOU1ZYkdMek82TnFsLUNLeGZyZ2dQMDJPOU9XWUdOVlVXODhYUFlzb09GMFkwNGZKRncwVnVzanppLW5ja1NSX3FaMUhFemlpcE9vY2ViTFRacHN2V29fWHRKWDA?oc=5",
+      "id": "4f5a00f5146a9cfc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘이란 전쟁 틈타 유가 담합’ 의혹....‘기름값 담합’ HD현대오일뱅크 직원 구속",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MTTN2Ty1uMjNrWHJLRDJKeU11VTcwbkdDWW4xeC0zZmN5ZkpPWkoxaGtWcndqUWZFWS1EeHc4elZsc1lEUmVIbHJUbktfNzZSVE5ZYV9CTC11RExUR3Z3Z0FNOFl1dWJsUl9uYzVR?oc=5",
+      "source": "이지경제",
+      "published_at": "2026-06-19T09:51:16+09:00",
+      "snippet": "‘이란 전쟁 틈타 유가 담합’ 의혹....‘기름값 담합’ HD현대오일뱅크 직원 구속 이지경제",
+      "collected_at": "2026-06-19T17:26:38.071495+09:00",
+      "normalized_title": "‘이란 전쟁 틈타 유가 담합’ 의혹....‘기름값 담합’ HD현대오일뱅크 직원 구속",
+      "source_normalized": "이지경제",
+      "duplicate_key": "이지경제::‘이란 전쟁 틈타 유가 담합’ 의혹....‘기름값 담합’ hd현대오일뱅크 직원 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MTTN2Ty1uMjNrWHJLRDJKeU11VTcwbkdDWW4xeC0zZmN5ZkpPWkoxaGtWcndqUWZFWS1EeHc4elZsc1lEUmVIbHJUbktfNzZSVE5ZYV9CTC11RExUR3Z3Z0FNOFl1dWJsUl9uYzVR?oc=5",
+      "id": "142d312ad7859abd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘유가 담합’ 의혹 HD현대오일뱅크 임직원 구속... 檢, 정유 4사 수사 ...",
+      "url": "https://www.mediawatch.kr/news/article.html?no=260091",
+      "source": "인싸잇",
+      "published_at": "2026-06-19T08:26:55.252166+09:00",
+      "snippet": "등 담합을 벌였다고 보고 수사를 진행해 왔다. 실제로 한국석유공사 등에 따르면, 국내 주유소 휘발유와 경유 가격은 중동 사태가 발발한 올해 2월 말 직후부터 하루 평균 리터(ℓ)당 20~80원씩 오르는 이례적 폭등세를 보인 바 있다. 이는 국제 유가가 통상 2~3주가 지난 국내 가격에 반영되는 흐름이 깨진 것으로...",
+      "collected_at": "2026-06-19T17:26:55.252189+09:00",
+      "normalized_title": "‘유가 담합’ 의혹 HD현대오일뱅크 임직원 구속... 檢, 정유 4사 수사 ...",
+      "source_normalized": "인싸잇",
+      "duplicate_key": "인싸잇::‘유가 담합’ 의혹 hd현대오일뱅크 임직원 구속... 檢, 정유 4사 수사 ...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.mediawatch.kr/news/article.html?no=260091",
+      "id": "ddde4e4c49bd0478",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조 폭리' 정유담합 첫 구속…서민·자영업자가 떠안은 기름값",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=358999",
+      "source": "중소기업신문",
+      "published_at": "2026-06-19T15:27:16+09:00",
+      "snippet": "가격결정부서는 정유사가 일선 주유소 등에 공급하는 유류의 기준가격을 정하는 핵심 부서로, 담합 구조의 실무 정점에 해당한다. 검찰은 2월 미국의 이란 공격 직후 국내 유가가 일제히 가파르게 오른 배경에 정유사들의 계획적 짬짜미가 있었다고 보고 있다. 이에 검찰은 3월 23일 정유 4사와 한국석유협회를...",
+      "collected_at": "2026-06-19T17:26:38.070702+09:00",
+      "normalized_title": "'14조 폭리' 정유담합 첫 구속…서민·자영업자가 떠안은 기름값",
+      "source_normalized": "중소기업신문",
+      "duplicate_key": "중소기업신문::'14조 폭리' 정유담합 첫 구속…서민·자영업자가 떠안은 기름값",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://www.smedaily.co.kr/news/articleView.html?idxno=358999",
+      "id": "302f15d9bc772609",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "기름값",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크, '14조 피해' 유가폭등 주범되나?···'수사 전방위 확...",
+      "url": "http://www.koreastocknews.com/news/articleView.html?idxno=119227",
+      "source": "증권경제신문",
+      "published_at": "2026-06-19T16:26:45.913051+09:00",
+      "snippet": "'기름값 담합' 협의로 HD현대(회장 정기선, 267250) 계열사 HD현대오일뱅크 관계자 1명이 구속되자 SK에너지·GS칼텍스·에쓰오일 등 나머지 정유사로 수사가 확대될 전망이다. 19일 법원과 검찰 등에 따르면 전날 서울중앙지법은 HD현대오일뱅크 가격결정부서 현직 부서장 김모씨에 대한 구속 전 피의자심문...",
+      "collected_at": "2026-06-19T17:26:45.913067+09:00",
+      "normalized_title": "HD현대오일뱅크, '14조 피해' 유가폭등 주범되나?···'수사 전방위 확...",
+      "source_normalized": "증권경제신문",
+      "duplicate_key": "증권경제신문::hd현대오일뱅크, '14조 피해' 유가폭등 주범되나?···'수사 전방위 확...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.koreastocknews.com/news/articleView.html?idxno=119227",
+      "id": "d4f628d8b552e170",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "法, '유가 담합 의혹' HD현대오일뱅크 직원 1명 구속…\"증거 인멸 염려\"",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRy1XQkVURFpPTFZsdkc0a3d5Mkh6UU5PSjhhTjlxSjE4SV93ejh0NTNCTlVTcnNoeVVOMkIyZTE5UTh5bnVSZXhraDZzQXI0OFRINDl3ZDV4MV94U3RSektxelRZN0k?oc=5",
+      "source": "청년일보",
+      "published_at": "2026-06-19T11:12:01+09:00",
+      "snippet": "法, '유가 담합 의혹' HD현대오일뱅크 직원 1명 구속…\"증거 인멸 염려\" 청년일보",
+      "collected_at": "2026-06-19T17:26:38.074400+09:00",
+      "normalized_title": "法, '유가 담합 의혹' HD현대오일뱅크 직원 1명 구속…\"증거 인멸 염려\"",
+      "source_normalized": "청년일보",
+      "duplicate_key": "청년일보::法, '유가 담합 의혹' hd현대오일뱅크 직원 1명 구속…\"증거 인멸 염려\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRy1XQkVURFpPTFZsdkc0a3d5Mkh6UU5PSjhhTjlxSjE4SV93ejh0NTNCTlVTcnNoeVVOMkIyZTE5UTh5bnVSZXhraDZzQXI0OFRINDl3ZDV4MV94U3RSektxelRZN0k?oc=5",
+      "id": "340bad7c4931b757",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합' HD현대오일뱅크 직원 구속…정유사 수사 확대",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oTjRMVkxqN09vRmxZeTl4QkZzaWFEZjE4UWFTdGVuT0VvZlFZR2tESHVhZl84dTc4cEV1a3Y0MlBhWHN3M1lqWjluQzVPNW9WSU10RXZOcWt2b3NEU2VteA?oc=5",
+      "source": "티제이비",
+      "published_at": "2026-06-19T08:35:55+09:00",
+      "snippet": "'기름값 담합' HD현대오일뱅크 직원 구속…정유사 수사 확대 티제이비",
+      "collected_at": "2026-06-19T17:26:38.072175+09:00",
+      "normalized_title": "'기름값 담합' HD현대오일뱅크 직원 구속…정유사 수사 확대",
+      "source_normalized": "티제이비",
+      "duplicate_key": "티제이비::'기름값 담합' hd현대오일뱅크 직원 구속…정유사 수사 확대",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oTjRMVkxqN09vRmxZeTl4QkZzaWFEZjE4UWFTdGVuT0VvZlFZR2tESHVhZl84dTc4cEV1a3Y0MlBhWHN3M1lqWjluQzVPNW9WSU10RXZOcWt2b3NEU2VteA?oc=5",
+      "id": "40493f91f30e08bc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 \"유가 담합은 중대 범죄\"…정유 4사 수사 확대 전망",
+      "url": "http://www.4th.kr/news/articleView.html?idxno=2113446",
+      "source": "포쓰저널",
+      "published_at": "2026-06-19T16:28:35.915607+09:00",
+      "snippet": "포쓰저널 박소연 기자 2026년 6월 14일 서울 서초구 만남의광장 주유소를 찾은 운전자들이 주유하고 있다./사진=연합뉴스 정성호 법무부 장관이 유가 담합... 검찰은 SK에너지, GS칼텍스, 에쓰오일, HD현대오일뱅크 등 국내 4대 정유사와 대한석유협회가 경쟁사 가격 정보를 사전에 공유하고 유류 가격을 공동으로...",
+      "collected_at": "2026-06-19T17:26:35.915623+09:00",
+      "normalized_title": "정성호 \"유가 담합은 중대 범죄\"…정유 4사 수사 확대 전망",
+      "source_normalized": "포쓰저널",
+      "duplicate_key": "포쓰저널::정성호 \"유가 담합은 중대 범죄\"…정유 4사 수사 확대 전망",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 13,
+      "canonical_url": "http://www.4th.kr/news/articleView.html?idxno=2113446",
+      "id": "57a4eee6ab07cd26",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합 혐의' HD현대오일 직원 구속, 업계 향한 사정 칼날",
+      "url": "http://www.newsprime.co.kr/news/article.html?no=737371",
+      "source": "프라임경제",
+      "published_at": "2026-06-19T11:43:24+09:00",
+      "snippet": "유가 담합 혐의를 받으면서다. 검찰이 정유업계에 대해 전방위적 수사를 벌이는 만큼, 업계 전반의 혼란이 예상된다. 서울중앙지방법원은 지난 18일 공정거래법 위반 혐의를 받는 HD현대오일뱅크 가격 결정 부서 임직원 1명에 대해 증거 인멸 염려가 있다며 구속영장을 발부했다. 다만 함께 영장이 청구된 다른...",
+      "collected_at": "2026-06-19T17:26:44.555944+09:00",
+      "normalized_title": "'유가 담합 혐의' HD현대오일 직원 구속, 업계 향한 사정 칼날",
+      "source_normalized": "프라임경제",
+      "duplicate_key": "프라임경제::'유가 담합 혐의' hd현대오일 직원 구속, 업계 향한 사정 칼날",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.newsprime.co.kr/news/article.html?no=737371",
+      "id": "9cbc658c86df1e14",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합 의혹' HD현대오일뱅크 직원 1명 구속",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CWU9YWkxiem5mMHhYX2pFcnpFUFN6VTNERGpUaFRQMkJoQloyX0ljUGFudmJJYXVRc3hpdFl5QnM4c3UyR0VGc21SSjFFaXQxZjE4THVoMUd2ckNsaHN1VXA5cVd4WEF6WTQ5NmNFLVFSZXPSAXdBVV95cUxQY001TF9rU1IyZ0FWU1dYYk5yWE8yMklBT2RVZ19Fbm9fQS1xaVNvcFMxU1lNbW5yTGFrXzJ0bkV1RW4zX2dHb1BpLTdzbjNCVGVvdnM1cFRLeHZVWjVxb2xRYzdVREMtaVdvcG9OQ2hRRTdnQnY0Zw?oc=5",
+      "source": "핀포인트뉴스",
+      "published_at": "2026-06-19T08:36:04+09:00",
+      "snippet": "'유가 담합 의혹' HD현대오일뱅크 직원 1명 구속 핀포인트뉴스",
+      "collected_at": "2026-06-19T17:26:38.077292+09:00",
+      "normalized_title": "'유가 담합 의혹' HD현대오일뱅크 직원 1명 구속",
+      "source_normalized": "핀포인트뉴스",
+      "duplicate_key": "핀포인트뉴스::'유가 담합 의혹' hd현대오일뱅크 직원 1명 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CWU9YWkxiem5mMHhYX2pFcnpFUFN6VTNERGpUaFRQMkJoQloyX0ljUGFudmJJYXVRc3hpdFl5QnM4c3UyR0VGc21SSjFFaXQxZjE4THVoMUd2ckNsaHN1VXA5cVd4WEF6WTQ5NmNFLVFSZXPSAXdBVV95cUxQY001TF9rU1IyZ0FWU1dYYk5yWE8yMklBT2RVZ19Fbm9fQS1xaVNvcFMxU1lNbW5yTGFrXzJ0bkV1RW4zX2dHb1BpLTdzbjNCVGVvdnM1cFRLeHZVWjVxb2xRYzdVREMtaVdvcG9OQ2hRRTdnQnY0Zw?oc=5",
+      "id": "b31846d470cddfa7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"설마했는데\"...'기름값 담합' 의혹 일파만파",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qYnpsVDZEQXJKbHJJY01vdXozc3cwQkFfeXpiMFNFVGVsd19ra25NOWZpR1VfVGJ4U0h2MWlNWDNlbXFBLVRNSFVKRUNHemRDMHRrZHJVVGs0bG8xZVdKeERiOUdrRW1nN3h3MA?oc=5",
+      "source": "한경매거진&북",
+      "published_at": "2026-06-19T08:51:00+09:00",
+      "snippet": "\"설마했는데\"...'기름값 담합' 의혹 일파만파 한경매거진&북",
+      "collected_at": "2026-06-19T17:26:38.070946+09:00",
+      "normalized_title": "\"설마했는데\"...'기름값 담합' 의혹 일파만파",
+      "source_normalized": "한경매거진&북",
+      "duplicate_key": "한경매거진&북::\"설마했는데\"...'기름값 담합' 의혹 일파만파",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qYnpsVDZEQXJKbHJJY01vdXozc3cwQkFfeXpiMFNFVGVsd19ra25NOWZpR1VfVGJ4U0h2MWlNWDNlbXFBLVRNSFVKRUNHemRDMHRrZHJVVGs0bG8xZVdKeERiOUdrRW1nN3h3MA?oc=5",
+      "id": "64fc0c0841f9bd8d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한경비즈니스",
+      "url": "https://v.daum.net/channel/77/home",
+      "source": "한경비즈니스",
+      "published_at": "2026-06-19T09:26:47.232067+09:00",
+      "snippet": "사진=연합뉴스 유가 담합 혐의를 받는 HD현대오일뱅크 관계자 1명이 18일 구속된 것으로 확인됐다. 19일 법조계에 따르면 서울중앙지법 부동식 영장전담 부장판사는 전날 HD현대오일뱅크 가격결정부서 현직 부서장 김모씨에 대한 구속 전 피의자심문(영장실질심사)을... 8시간 전 2",
+      "collected_at": "2026-06-19T17:26:47.232082+09:00",
+      "normalized_title": "한경비즈니스",
+      "source_normalized": "한경비즈니스",
+      "duplicate_key": "한경비즈니스::한경비즈니스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/77/home",
+      "id": "96b71310c86c3a40",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

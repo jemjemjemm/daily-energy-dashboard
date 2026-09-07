@@ -1,0 +1,348 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-29",
+  "slot": "night",
+  "period_start": "2026-06-29T17:00:00+09:00",
+  "period_end": "2026-06-30T00:00:00+09:00",
+  "period_label": "2026-06-29 17:00 ~ 2026-06-30 00:00",
+  "generated_at": "2026-06-30T09:17:50.622721+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1533,
+  "total_deduped_count": 10,
+  "total_ok_count": 10,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 1,
+    "C": 7
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1143
+  },
+  "query_counts": {
+    "유가 담합": 10,
+    "유가담합": 10
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "경향신문",
+      "url": "https://v.daum.net/channel/11/home",
+      "source": "경향신문",
+      "published_at": "2026-06-29T18:26:45.807880+09:00",
+      "snippet": "보고회 이후 낙폭을 축소했다. 이날 유가증권시장에선 외국인이 7조7557억원을 순매도하며 역대 최대 수준을 기록했다. 개인과 기관은...발표되기 전 상방 압력은 제한적”이라며 “삼성전자, SK하이닉스, 마이크론이 메모리 가격 담합 혐의로 미국 연방 집단소송... 14시간 전 389",
+      "collected_at": "2026-06-30T08:26:45.807895+09:00",
+      "normalized_title": "경향신문",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::경향신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/11/home",
+      "id": "be66a2e6ebbd2f4f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "삼전·닉스, 반도체 투자 발표에 주가 하락…외국인 7조원 팔아치워",
+      "url": "https://www.khan.co.kr/article/202606291740001",
+      "source": "경향신문",
+      "published_at": "2026-06-29T18:26:44.413259+09:00",
+      "snippet": "이날 유가증권시장에선 외국인이 7조7557억원을 순매도하며 역대 최대 수준을 기록했다. 개인과 기관은 4조5963억원과 2조9328억원을 각각 순매수했다.... 가격 담합 혐의로 미국 연방 집단소송에 직면한 점도 불확실성 요인으로 부각됐다”고 말했다. 인공지능(AI) 거품론이 다시 부상하며 반도체주...",
+      "collected_at": "2026-06-30T08:26:44.413273+09:00",
+      "normalized_title": "삼전·닉스, 반도체 투자 발표에 주가 하락…외국인 7조원 팔아치워",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::삼전·닉스, 반도체 투자 발표에 주가 하락…외국인 7조원 팔아치워",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.khan.co.kr/article/202606291740001",
+      "id": "640ad5597ee003c0",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴욕증시 프리뷰, 중동 긴장 완화에 나스닥 1% 상승…AI 우려·메모리 소...",
+      "url": "https://www.newspim.com/news/view/20260629001442",
+      "source": "뉴스핌",
+      "published_at": "2026-06-29T22:26:44.409099+09:00",
+      "snippet": "행정부가 유가를 낮추고 증시를 안정시키기 위해 협상을 성사시키려는 의지가 시장에 긍정적으로 작용하고 있다\"고 분석했다. 다만 긴장이 완전히... 가격 담합 의혹을 제기하며 집단소송을 제기했다. 원고 측은 세 회사가 글로벌 메모리 시장의 과점 지위를 이용해 공급 부족을 인위적으로 조성하고...",
+      "collected_at": "2026-06-30T08:26:44.409116+09:00",
+      "normalized_title": "뉴욕증시 프리뷰, 중동 긴장 완화에 나스닥 1% 상승…AI 우려·메모리 소...",
+      "source_normalized": "뉴스핌",
+      "duplicate_key": "뉴스핌::뉴욕증시 프리뷰, 중동 긴장 완화에 나스닥 1% 상승…ai 우려·메모리 소...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newspim.com/news/view/20260629001442",
+      "id": "2613851d8b5c7abe",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "삼전·닉스, 반도체 투자 발표에 주가 하락…외국인 7조원 팔아치워",
+      "url": "http://v.daum.net/v/20260629174148299",
+      "source": "14시간 전",
+      "published_at": "2026-06-29T18:26:45.808364+09:00",
+      "snippet": "보고회 이후 낙폭을 축소했다. 이날 유가증권시장에선 외국인이 7조7557억원을 순매도하며 역대 최대 수준을 기록했다. 개인과 기관은...발표되기 전 상방 압력은 제한적”이라며 “삼성전자, SK하이닉스, 마이크론이 메모리 가격 담합 혐의로 미국 연방 집단소송... 14시간 전 389",
+      "collected_at": "2026-06-30T08:26:45.808377+09:00",
+      "normalized_title": "삼전·닉스, 반도체 투자 발표에 주가 하락…외국인 7조원 팔아치워",
+      "source_normalized": "14시간 전",
+      "duplicate_key": "14시간 전::삼전·닉스, 반도체 투자 발표에 주가 하락…외국인 7조원 팔아치워",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260629174148299",
+      "id": "5c427e1cff86a895",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "삼성전자 4%대 급락 마감…SK하이닉스도 1%대 하락",
+      "url": "http://v.daum.net/v/20260629162851059",
+      "source": "15시간 전",
+      "published_at": "2026-06-29T17:26:45.809929+09:00",
+      "snippet": "긍정적이지만 세부 계획이 공개되기 전까지는 주가 상승 여력이 제한적”이라며 “삼성전자와 SK하이닉스, 마이크론이 메모리 가격 담합 혐의로 미국 연방 집단소송에 직면한 점도 불확실성 요인”이라고 분석했다. 이날 유가증권시장에서는 외국인이 7조7557억원을... 15시간 전",
+      "collected_at": "2026-06-30T08:26:45.809948+09:00",
+      "normalized_title": "삼성전자 4%대 급락 마감…SK하이닉스도 1%대 하락",
+      "source_normalized": "15시간 전",
+      "duplicate_key": "15시간 전::삼성전자 4%대 급락 마감…sk하이닉스도 1%대 하락",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260629162851059",
+      "id": "e41ffa1bc17bcfe1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "삼성전자 4.86% 급락 마감…SK하이닉스도 약세",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=300367",
+      "source": "PPSS",
+      "published_at": "2026-06-29T19:26:44.411888+09:00",
+      "snippet": "이어 \"삼성전자, SK하이닉스, 마이크론이 메모리 가격 담합 혐의로 미국 연방 집단소송에 직면한 점도 불확실성 요인으로 부각됐다\"고 설명했다. 수급 측면에서는 외국인의 매도세가 두드러졌다. 이날 유가증권시장에서 외국인은 홀로 7조7천557억원을 순매도했다. 반면 개인과 기관은 각각...",
+      "collected_at": "2026-06-30T08:26:44.411903+09:00",
+      "normalized_title": "삼성전자 4.86% 급락 마감…SK하이닉스도 약세",
+      "source_normalized": "PPSS",
+      "duplicate_key": "ppss::삼성전자 4.86% 급락 마감…sk하이닉스도 약세",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ppss.kr/news/articleView.html?idxno=300367",
+      "id": "1baa273e0d455569",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "강원도민일보",
+      "url": "https://v.daum.net/channel/172504/home",
+      "source": "강원도민일보",
+      "published_at": "2026-06-29T17:26:45.809458+09:00",
+      "snippet": "긍정적이지만 세부 계획이 공개되기 전까지는 주가 상승 여력이 제한적”이라며 “삼성전자와 SK하이닉스, 마이크론이 메모리 가격 담합 혐의로 미국 연방 집단소송에 직면한 점도 불확실성 요인”이라고 분석했다. 이날 유가증권시장에서는 외국인이 7조7557억원을... 15시간 전",
+      "collected_at": "2026-06-30T08:26:45.809472+09:00",
+      "normalized_title": "강원도민일보",
+      "source_normalized": "강원도민일보",
+      "duplicate_key": "강원도민일보::강원도민일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/172504/home",
+      "id": "149b20f33b42d73b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "삼성전자 4%대 급락 마감…SK하이닉스도 1%대 하락",
+      "url": "https://www.kado.net/news/articleView.html?idxno=2058402",
+      "source": "강원도민일보",
+      "published_at": "2026-06-29T17:26:44.415931+09:00",
+      "snippet": "이경민 대신증권 연구원은 \"AI 인프라 투자 확대 기대는 긍정적이지만 세부 계획이 공개되기 전까지는 주가 상승 여력이 제한적\"이라며 \"삼성전자와 SK하이닉스, 마이크론이 메모리 가격 담합 혐의로 미국 연방 집단소송에 직면한 점도 불확실성 요인\"이라고 분석했다. 이날 유가증권시장에서는...",
+      "collected_at": "2026-06-30T08:26:44.415945+09:00",
+      "normalized_title": "삼성전자 4%대 급락 마감…SK하이닉스도 1%대 하락",
+      "source_normalized": "강원도민일보",
+      "duplicate_key": "강원도민일보::삼성전자 4%대 급락 마감…sk하이닉스도 1%대 하락",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.kado.net/news/articleView.html?idxno=2058402",
+      "id": "b6de458cf704ea2c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "삼성전자, 4% 넘게 급락... SK하이닉스는 1%대 하락",
+      "url": "https://www.getnews.co.kr/news/articleView.html?idxno=873586",
+      "source": "글로벌경제",
+      "published_at": "2026-06-29T17:26:44.414554+09:00",
+      "snippet": "또, 삼성전자, SK하이닉스, 마이크론이 메모리 가격 담합 혐의로 미국 연방 집단소송에 직면한 점도 불확실성 요인으로 부각됐다\"고 말했다. 한편, 이날 유가증권시장에선 외국인이 홀로 7조7557억원을 순매도했다. 반면 개인과 기관은 4조5963억원과 2조9328억원을 순매수했다. 외국인은...",
+      "collected_at": "2026-06-30T08:26:44.414572+09:00",
+      "normalized_title": "삼성전자, 4% 넘게 급락... SK하이닉스는 1%대 하락",
+      "source_normalized": "글로벌경제",
+      "duplicate_key": "글로벌경제::삼성전자, 4% 넘게 급락... sk하이닉스는 1%대 하락",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.getnews.co.kr/news/articleView.html?idxno=873586",
+      "id": "cac97eb3c72710da",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부 발표 뒤 삼전닉스 낙폭 축소… 코스피 0.2% 하락 마감",
+      "url": "https://www.busan.com/view/busan/view.php?code=2026062918424055577",
+      "source": "부산일보",
+      "published_at": "2026-06-29T19:26:44.410613+09:00",
+      "snippet": "유가증권시장에서 7조 7560억 원을 순매도하며 역대 최대 규모의 투매를 감행했다. 이는 종전 최대치였던 지난 2월 27일(7조 530억 원)을 뛰어넘는 수치다. 시장에서는 반도체 대장주인 삼성전자와 SK하이닉스가 장중 5~6%가량 하락하며 지수를 짓눌렀다. 특히 미국 반도체 업종의 급락과 메모리 가격 담합...",
+      "collected_at": "2026-06-30T08:26:44.410630+09:00",
+      "normalized_title": "정부 발표 뒤 삼전닉스 낙폭 축소… 코스피 0.2% 하락 마감",
+      "source_normalized": "부산일보",
+      "duplicate_key": "부산일보::정부 발표 뒤 삼전닉스 낙폭 축소… 코스피 0.2% 하락 마감",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.busan.com/view/busan/view.php?code=2026062918424055577",
+      "id": "7f2ce02a147dc30b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

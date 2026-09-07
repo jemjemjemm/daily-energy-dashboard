@@ -1,0 +1,182 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-26",
+  "slot": "morning",
+  "period_start": "2026-06-26T00:00:00+09:00",
+  "period_end": "2026-06-26T08:00:00+09:00",
+  "period_label": "2026-06-26 00:00 ~ 2026-06-26 08:00",
+  "generated_at": "2026-06-26T10:29:08.206320+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1511,
+  "total_deduped_count": 4,
+  "total_ok_count": 4,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 2,
+    "B": 1,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1121
+  },
+  "query_counts": {
+    "석유 담합": 4,
+    "유가 담합": 3,
+    "유가담합": 3,
+    "휘발유 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "한국경제",
+      "url": "https://v.daum.net/channel/3/home",
+      "source": "한국경제",
+      "published_at": "2026-06-26T00:40:51.981133+09:00",
+      "snippet": "신호도 포착되었습니다. ④ 이라크도 OPEC 탈퇴 위협 이라크가 석유 생산 쿼터 증액 요구가 받아들여지지 않을 경우 아랍에미리트(UAE...충분하지 않다며 법무부에 관련 에너지 기업들에 대한 담합 조사를 지시하는 등 중간선거를 앞두고 유가 압박 수위를 높이고... 8시간 전",
+      "collected_at": "2026-06-26T08:40:51.981161+09:00",
+      "normalized_title": "한국경제",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::한국경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/3/home",
+      "id": "6ea5739e4883b5ac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"메모리 새 시대\"에 빅테크는 울상...애플, 결국 가격 인상 [빈난새의 개...",
+      "url": "https://www.hankyung.com/article/202606258846i",
+      "source": "한국경제",
+      "published_at": "2026-06-26T00:40:50.672109+09:00",
+      "snippet": "④ 이라크도 OPEC 탈퇴 위협 이라크가 석유 생산 쿼터 증액 요구가 받아들여지지 않을 경우 아랍에미리트(UAE)에 이어 OPEC 탈퇴를 검토하겠다고... 한편 트럼프 대통령은 국제 유가 하락에도 불구하고 휘발유 가격 인하폭이 충분하지 않다며 법무부에 관련 에너지 기업들에 대한 담합 조사를 지시하는 등...",
+      "collected_at": "2026-06-26T08:40:50.672145+09:00",
+      "normalized_title": "\"메모리 새 시대\"에 빅테크는 울상...애플, 결국 가격 인상 [빈난새의 개...",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::\"메모리 새 시대\"에 빅테크는 울상...애플, 결국 가격 인상 [빈난새의 개...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.hankyung.com/article/202606258846i",
+      "id": "0ad1cc71c9b72f15",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "휘발유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "韓 경제 물류비에 흔들…‘인플레이션’은 이제부터 [전쟁 후유증②]",
+      "url": "https://www.dailian.co.kr/news/view/1660004/?sc=Naver",
+      "source": "데일리안",
+      "published_at": "2026-06-26T07:41:01.496173+09:00",
+      "snippet": "반도체와 자동차, 배터리, 석유화학, 철강 등 주력 산업 98%가 해상운송에 의존한다. 이 때문에 해상운임 상승은 단순히 해운업계의 문제가 아니라 국가... 회의 참석자들은 물가안정 중요성에 공감하고, 민생 밀접 품목 할인 지원·공급 확대와 필수 생계비 부담 경감, 담합 등 불공정행위 근절 등 전방위적...",
+      "collected_at": "2026-06-26T08:41:01.496203+09:00",
+      "normalized_title": "韓 경제 물류비에 흔들…‘인플레이션’은 이제부터 [전쟁 후유증②]",
+      "source_normalized": "데일리안",
+      "duplicate_key": "데일리안::韓 경제 물류비에 흔들…‘인플레이션’은 이제부터 [전쟁 후유증②]",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.dailian.co.kr/news/view/1660004/?sc=Naver",
+      "id": "d8c2a5373277ec1c",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"메모리 새 시대\"에 빅테크는 울상...애플, 결국 가격 인상 [빈난새의 개장전요것만]",
+      "url": "http://v.daum.net/v/20260626000452321",
+      "source": "8시간 전",
+      "published_at": "2026-06-26T00:40:51.981582+09:00",
+      "snippet": "신호도 포착되었습니다. ④ 이라크도 OPEC 탈퇴 위협 이라크가 석유 생산 쿼터 증액 요구가 받아들여지지 않을 경우 아랍에미리트(UAE...충분하지 않다며 법무부에 관련 에너지 기업들에 대한 담합 조사를 지시하는 등 중간선거를 앞두고 유가 압박 수위를 높이고... 8시간 전",
+      "collected_at": "2026-06-26T08:40:51.981595+09:00",
+      "normalized_title": "\"메모리 새 시대\"에 빅테크는 울상...애플, 결국 가격 인상 [빈난새의 개장전요것만]",
+      "source_normalized": "8시간 전",
+      "duplicate_key": "8시간 전::\"메모리 새 시대\"에 빅테크는 울상...애플, 결국 가격 인상 [빈난새의 개장전요것만]",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260626000452321",
+      "id": "23ce868b0b327778",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

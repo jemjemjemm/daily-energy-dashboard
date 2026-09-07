@@ -1,0 +1,175 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-15",
+  "slot": "night",
+  "period_start": "2026-06-15T17:00:00+09:00",
+  "period_end": "2026-06-16T00:00:00+09:00",
+  "period_label": "2026-06-15 17:00 ~ 2026-06-16 00:00",
+  "generated_at": "2026-06-22T16:40:02.933417+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1535,
+  "total_deduped_count": 4,
+  "total_ok_count": 4,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 2,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1145
+  },
+  "query_counts": {
+    "기름값 담합": 3,
+    "석유 담합": 1,
+    "석유제품 담합": 2,
+    "유류가격 담합": 1,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "주유소 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "검찰 ‘유가 담합’ 의혹 HD현대오일뱅크 임직원 구속영장",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5TTzdTZGhfQkY0Qks0MFB0bXZvb2RSbkdqQ0VCTHFUd0FDdkpPS2N6UlQwX2syVFZDNXRSZ2x3OFE5YUxfUzV1R2pPMkV1YXBhZUVmOGlMRU5OX08wa3JWeWwydU1iOE52eEwxNk9n?oc=5",
+      "source": "아시아투데이",
+      "published_at": "2026-06-15T17:00:31+09:00",
+      "snippet": "검찰 ‘유가 담합’ 의혹 HD현대오일뱅크 임직원 구속영장 아시아투데이",
+      "collected_at": "2026-06-19T16:38:47.816707+09:00",
+      "normalized_title": "검찰 ‘유가 담합’ 의혹 HD현대오일뱅크 임직원 구속영장",
+      "source_normalized": "아시아투데이",
+      "duplicate_key": "아시아투데이::검찰 ‘유가 담합’ 의혹 hd현대오일뱅크 임직원 구속영장",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5TTzdTZGhfQkY0Qks0MFB0bXZvb2RSbkdqQ0VCTHFUd0FDdkpPS2N6UlQwX2syVFZDNXRSZ2x3OFE5YUxfUzV1R2pPMkV1YXBhZUVmOGlMRU5OX08wa3JWeWwydU1iOE52eEwxNk9n?oc=5",
+      "id": "ac12f57b10272635",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘기름값 담합 의혹’ HD현대오일뱅크 임직원 2명에…검찰, 구속영장 청구",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sdkExV0dxLWo1Q0pCWW8zTnRSZjlWYWFJVzl0TklXT0Jkb0dySWcxYUljcmNsLUs1SHplMFJsMkJCVTF5Y3JIcHA0LUREb00yVUE?oc=5",
+      "source": "JTBC",
+      "published_at": "2026-06-15T22:42:00+09:00",
+      "snippet": "‘기름값 담합 의혹’ HD현대오일뱅크 임직원 2명에…검찰, 구속영장 청구 JTBC",
+      "collected_at": "2026-06-19T16:38:50.475239+09:00",
+      "normalized_title": "‘기름값 담합 의혹’ HD현대오일뱅크 임직원 2명에…검찰, 구속영장 청구",
+      "source_normalized": "JTBC",
+      "duplicate_key": "jtbc::‘기름값 담합 의혹’ hd현대오일뱅크 임직원 2명에…검찰, 구속영장 청구",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sdkExV0dxLWo1Q0pCWW8zTnRSZjlWYWFJVzl0TklXT0Jkb0dySWcxYUljcmNsLUs1SHplMFJsMkJCVTF5Y3JIcHA0LUREb00yVUE?oc=5",
+      "id": "4ffc7584351e2c1d",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘기름값 담합 의혹’ HD현대오일뱅크 임직원 2명 구속영장",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XZHZ6dDVaWjU3Y3FZVXliZUZTMlRvUFVydE1IUTFUYmhDUUhZV1RoMHhleV9lY2Q3WmJzTFphNEVFMUZJUS1jdVd2T0NuTGgwSUsyVE5YSUo5bVFlcnlHSkQzRHVmd2tL?oc=5",
+      "source": "CEO스코어데일리",
+      "published_at": "2026-06-15T17:54:24+09:00",
+      "snippet": "‘기름값 담합 의혹’ HD현대오일뱅크 임직원 2명 구속영장 CEO스코어데일리",
+      "collected_at": "2026-06-19T16:38:50.473881+09:00",
+      "normalized_title": "‘기름값 담합 의혹’ HD현대오일뱅크 임직원 2명 구속영장",
+      "source_normalized": "CEO스코어데일리",
+      "duplicate_key": "ceo스코어데일리::‘기름값 담합 의혹’ hd현대오일뱅크 임직원 2명 구속영장",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유제품 담합",
+        "유류가격 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XZHZ6dDVaWjU3Y3FZVXliZUZTMlRvUFVydE1IUTFUYmhDUUhZV1RoMHhleV9lY2Q3WmJzTFphNEVFMUZJUS1jdVd2T0NuTGgwSUsyVE5YSUo5bVFlcnlHSkQzRHVmd2tL?oc=5",
+      "id": "5f5a40c9feb8cfd3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합' HD현대오일뱅크, 임직원 구속영장…에쓰오일도 불안",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vZW1uZ1o4cWlwU0lRNGZqZ1RtZTR2cGNOdi1QSXI3UHNWZWpLOHcwcW5FVWd5Ym5YZkZLYmxLajE3b2FyV0o4WlJjZGN1dFd5ZVRoWTdHWXBDSDNhQTB2cUxNWW5GZDRhb3RZ?oc=5",
+      "source": "대한데일리",
+      "published_at": "2026-06-15T17:36:58+09:00",
+      "snippet": "'기름값 담합' HD현대오일뱅크, 임직원 구속영장…에쓰오일도 불안 대한데일리",
+      "collected_at": "2026-06-19T16:38:50.474123+09:00",
+      "normalized_title": "'기름값 담합' HD현대오일뱅크, 임직원 구속영장…에쓰오일도 불안",
+      "source_normalized": "대한데일리",
+      "duplicate_key": "대한데일리::'기름값 담합' hd현대오일뱅크, 임직원 구속영장…에쓰오일도 불안",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vZW1uZ1o4cWlwU0lRNGZqZ1RtZTR2cGNOdi1QSXI3UHNWZWpLOHcwcW5FVWd5Ym5YZkZLYmxLajE3b2FyV0o4WlJjZGN1dFd5ZVRoWTdHWXBDSDNhQTB2cUxNWW5GZDRhb3RZ?oc=5",
+      "id": "5339b04939424e14",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

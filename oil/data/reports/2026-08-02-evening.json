@@ -1,0 +1,188 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-02",
+  "slot": "evening",
+  "period_start": "2026-08-02T08:00:00+09:00",
+  "period_end": "2026-08-02T17:00:00+09:00",
+  "period_label": "2026-08-02 08:00 ~ 2026-08-02 17:00",
+  "generated_at": "2026-08-02T19:06:39.391576+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1567,
+  "total_deduped_count": 4,
+  "total_ok_count": 4,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1177
+  },
+  "query_counts": {
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 4,
+    "유가담합": 4,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "주유소 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "베일 벗는 하반기 경제 지표…수출 '호조', 물가 '불안', 환율 '글쎄'",
+      "url": "http://v.daum.net/v/20260802160107082",
+      "source": "머니투데이",
+      "published_at": "2026-08-02T16:06:06.227073+09:00",
+      "snippet": "권장 소비자가격을 평균 8.2% 올렸다. 인상 폭은 지난 2월 정부 담합 조사 이후 단행했던 가격 인하 폭과 같은 수준이다. 농심은 용기...적잖다. 미국-이란 종전 선언 이후 협상 결렬로 다시 뛴 유가도 물가 불안을 부추기고 있다. 양준석 가톨릭대 경제학과 교수는... 3시간 전",
+      "collected_at": "2026-08-02T19:06:06.227100+09:00",
+      "normalized_title": "베일 벗는 하반기 경제 지표…수출 '호조', 물가 '불안', 환율 '글쎄'",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::베일 벗는 하반기 경제 지표…수출 '호조', 물가 '불안', 환율 '글쎄'",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260802160107082",
+      "id": "42a643489f5fcf10",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "머니투데이",
+      "url": "https://v.daum.net/channel/5/home",
+      "source": "머니투데이",
+      "published_at": "2026-08-02T16:06:04.402284+09:00",
+      "snippet": "권장 소비자가격을 평균 8.2% 올렸다. 인상 폭은 지난 2월 정부 담합 조사 이후 단행했던 가격 인하 폭과 같은 수준이다. 농심은 용기...적잖다. 미국-이란 종전 선언 이후 협상 결렬로 다시 뛴 유가도 물가 불안을 부추기고 있다. 양준석 가톨릭대 경제학과 교수는... 3시간 전",
+      "collected_at": "2026-08-02T19:06:04.402311+09:00",
+      "normalized_title": "머니투데이",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::머니투데이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/5/home",
+      "id": "15b948cff6e29cc5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "베일 벗는 하반기 경제 지표…수출 '호조', 물가 '불안', 환율 '글쎄'새 창 열림",
+      "url": "https://www.mt.co.kr/economy/2026/08/02/2026080212411312661",
+      "source": "새 창 열림",
+      "published_at": "2026-08-02T16:06:03.242036+09:00",
+      "snippet": "식품업계는 올해 초 정부의 밀가루·설탕 등 담합사건 조사에 발맞춰 일부 품목의 가격을 내렸으나 고환율·고유가 국면이 지속되자 버티지 못하고 가격 인상을 단행했다. CJ푸드빌이 운영하는 뚜레쥬르는 지난달 31일부터 빵과 케이크 76종 등의 권장 소비자가격을 평균 8.2% 올렸다. 인상 폭은 지난 2월... 새 창 열림",
+      "collected_at": "2026-08-02T19:06:03.242068+09:00",
+      "normalized_title": "베일 벗는 하반기 경제 지표…수출 '호조', 물가 '불안', 환율 '글쎄'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::베일 벗는 하반기 경제 지표…수출 '호조', 물가 '불안', 환율 '글쎄'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.mt.co.kr/economy/2026/08/02/2026080212411312661",
+      "id": "b9dcccf46aacbfcb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중동전쟁이 키운 미국 석유기업들의 '오일 대박'새 창 열림",
+      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=169166",
+      "source": "새 창 열림",
+      "published_at": "2026-08-02T10:06:03.243545+09:00",
+      "snippet": "유럽과 아시아 등 에너지 수입국들이 중동산 원유 대신 안전한 미국산 석유로 눈을 돌리면서 미국의 석유 제품 수출량은 주간 기준 사상 최고치를 경신한... 트럼프 대통령은 \"국제 유가 하락 속도에 비해 주유소 휘발유 가격이 너무 느리게 내려간다\"며 법무부에 정유업계의 가격 담합 여부를 철저히 조사하라고... 새 창 열림",
+      "collected_at": "2026-08-02T19:06:03.243568+09:00",
+      "normalized_title": "중동전쟁이 키운 미국 석유기업들의 '오일 대박'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::중동전쟁이 키운 미국 석유기업들의 '오일 대박'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://www.choicenews.co.kr/news/articleView.html?idxno=169166",
+      "id": "39ae65b611f8eef8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유업계",
+        "휘발유",
+        "주유소",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

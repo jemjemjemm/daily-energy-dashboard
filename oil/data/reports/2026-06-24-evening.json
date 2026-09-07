@@ -1,0 +1,305 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-24",
+  "slot": "evening",
+  "period_start": "2026-06-24T08:00:00+09:00",
+  "period_end": "2026-06-24T17:00:00+09:00",
+  "period_label": "2026-06-24 08:00 ~ 2026-06-24 17:00",
+  "generated_at": "2026-06-24T20:15:37.584603+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1526,
+  "total_deduped_count": 7,
+  "total_ok_count": 7,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 1,
+    "C": 6
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1136
+  },
+  "query_counts": {
+    "경유 담합": 4,
+    "기름값 담합": 2,
+    "석유 담합": 5,
+    "석유제품 담합": 3,
+    "유가 담합": 6,
+    "유가담합": 6,
+    "정유사 담합": 4,
+    "정유업계 담합": 4,
+    "주유소 담합": 2,
+    "휘발유 담합": 4
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "트럼프 \"국제유가 내렸는데 기름값 왜 안 내리나\"…법무부에 조사 지시",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/06/24/2026062490197.html",
+      "source": "TV조선",
+      "published_at": "2026-06-24T16:23:26.661946+09:00",
+      "snippet": "있는데도 주유소 판매 가격은 그에 상응해 내려가지 않고 있다”고 밝혔다. 이어 “휘발유 가격은 지금 내가 보고 있는 것보다 훨씬 더 빠르게 내려가기... 다만 트럼프 대통령은 법무부가 구체적으로 어떤 사안과 기업을 대상으로 조사에 나설지, 가격 담합이나 유통·정제 단계의 마진 문제 등을 들여다보라는...",
+      "collected_at": "2026-06-24T17:23:26.661983+09:00",
+      "normalized_title": "트럼프 \"국제유가 내렸는데 기름값 왜 안 내리나\"…법무부에 조사 지시",
+      "source_normalized": "TV조선",
+      "duplicate_key": "tv조선::트럼프 \"국제유가 내렸는데 기름값 왜 안 내리나\"…법무부에 조사 지시",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://news.tvchosun.com/site/data/html_dir/2026/06/24/2026062490197.html",
+      "id": "f75428bc46f16f8d",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "휘발유",
+        "주유소",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유사 가격담합 수사, HD현대오일뱅크 법적리스크 '경영 부담' 부각",
+      "url": "http://v.daum.net/v/20260624130802674",
+      "source": "4시간 전",
+      "published_at": "2026-06-24T13:23:28.540593+09:00",
+      "snippet": "관련 부서 직원 1명에 대해 증거인멸 염려가 있다고 판단해 지난 18일 구속영장을 발부했다. 이번 사건은 국내 정유사들의 유가 담합 의혹을 수사하는 과정에서 정유사 직원 신병이 처음 확보됐다는 점에서 주목된다. 검찰은 앞서 SK에너지, GS칼텍스, 에쓰오일, HD... 4시간 전",
+      "collected_at": "2026-06-24T17:23:28.540608+09:00",
+      "normalized_title": "정유사 가격담합 수사, HD현대오일뱅크 법적리스크 '경영 부담' 부각",
+      "source_normalized": "4시간 전",
+      "duplicate_key": "4시간 전::정유사 가격담합 수사, hd현대오일뱅크 법적리스크 '경영 부담' 부각",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://v.daum.net/v/20260624130802674",
+      "id": "4aad0dae49115118",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유사 가격담합 수사, HD현대오일뱅크 법적리스크 '경영 부담' 부각",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VeXhiY0FxSVNYakgzQXVNelF3Ui1vMzFhS01raGNLWVBKNnk1c2M4TmlFdGQzdjA2a01ySHIyZ3pzWFFJcW9NckxpRldncHc?oc=5",
+      "source": "v.daum.net",
+      "published_at": "2026-06-24T13:08:02+09:00",
+      "snippet": "정유사 가격담합 수사, HD현대오일뱅크 법적리스크 '경영 부담' 부각 v.daum.net",
+      "collected_at": "2026-06-24T17:23:35.823979+09:00",
+      "normalized_title": "정유사 가격담합 수사, HD현대오일뱅크 법적리스크 '경영 부담' 부각",
+      "source_normalized": "v.daum.net",
+      "duplicate_key": "v.daum.net::정유사 가격담합 수사, hd현대오일뱅크 법적리스크 '경영 부담' 부각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VeXhiY0FxSVNYakgzQXVNelF3Ui1vMzFhS01raGNLWVBKNnk1c2M4TmlFdGQzdjA2a01ySHIyZ3pzWFFJcW9NckxpRldncHc?oc=5",
+      "id": "a7f255d9e858c4c9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스웨이",
+      "url": "https://v.daum.net/channel/552788/home",
+      "source": "뉴스웨이",
+      "published_at": "2026-06-24T13:23:28.540049+09:00",
+      "snippet": "관련 부서 직원 1명에 대해 증거인멸 염려가 있다고 판단해 지난 18일 구속영장을 발부했다. 이번 사건은 국내 정유사들의 유가 담합 의혹을 수사하는 과정에서 정유사 직원 신병이 처음 확보됐다는 점에서 주목된다. 검찰은 앞서 SK에너지, GS칼텍스, 에쓰오일, HD... 4시간 전",
+      "collected_at": "2026-06-24T17:23:28.540074+09:00",
+      "normalized_title": "뉴스웨이",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::뉴스웨이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/552788/home",
+      "id": "1d07a152bbd5705c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유사 가격담합 수사, HD현대오일뱅크 법적리스크 '경영 부담' 부각",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026062412242687325",
+      "source": "뉴스웨이",
+      "published_at": "2026-06-24T13:23:26.665886+09:00",
+      "snippet": "수사당국은 중동발 지정학적 리스크가 커진 직후 국내 석유제품 가격이 빠르게 오른 배경에 가격 선반영이나 업체 간 공조가 있었는지 살펴보고 있다. 다만 현 단계에서 담합 여부가 확정된 것은 아니다. 구속은 수사 절차상 신병 확보 조치일 뿐 유죄 판단을 의미하지 않는다. HD현대오일뱅크 측은 \"향후 법적...",
+      "collected_at": "2026-06-24T17:23:26.665902+09:00",
+      "normalized_title": "정유사 가격담합 수사, HD현대오일뱅크 법적리스크 '경영 부담' 부각",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::정유사 가격담합 수사, hd현대오일뱅크 법적리스크 '경영 부담' 부각",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.newsway.co.kr/news/view?ud=2026062412242687325",
+      "id": "3e1e5d484abe6964",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“캘리포니아 기름값 왜 전국서 제일 비싼가 했더니…”",
+      "url": "http://www.koreatimes.com/article/1618658",
+      "source": "미주한국일보",
+      "published_at": "2026-06-24T15:23:26.664580+09:00",
+      "snippet": "이에 따라 개솔린 가격은 갤런 당 최대 22센트, 경유 가격은 최대 33센트 더 높게 부풀려졌다고 원고 측은 주장했다. AI를 활용해 가격을 높이는 것은 올해 1월 발효된 캘리포니아주 반독점법인 ‘카트라이트법’을 위반하는 행위기도 하다. 이 법은 알고리즘을 활용해 가격 담합을 하는 것을 금지하고 있다. 원고...",
+      "collected_at": "2026-06-24T17:23:26.664604+09:00",
+      "normalized_title": "“캘리포니아 기름값 왜 전국서 제일 비싼가 했더니…”",
+      "source_normalized": "미주한국일보",
+      "duplicate_key": "미주한국일보::“캘리포니아 기름값 왜 전국서 제일 비싼가 했더니…”",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://www.koreatimes.com/article/1618658",
+      "id": "1494f3db4a89a2af",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁은 끝났는데…유통업계 덮친 '3중 물가 압박'",
+      "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7171194",
+      "source": "주간한국",
+      "published_at": "2026-06-24T15:23:26.663304+09:00",
+      "snippet": "한국석유공사에 따르면 지난 19일 기준 두바이유 가격은 배럴당 73.61달러, 브렌트유는 80.57달러를 기록했다. 각각 전 거래일보다 0.52%, 0.72% 상승한... 제분·설탕업계 담합 제재 이후 가격 재조정 효과가 반영된 결과일 뿐 최근 고환율과 원재료 가격 상승분은 아직 충분히 반영되지 않았다는 이유에서다. 실제...",
+      "collected_at": "2026-06-24T17:23:26.663322+09:00",
+      "normalized_title": "전쟁은 끝났는데…유통업계 덮친 '3중 물가 압박'",
+      "source_normalized": "주간한국",
+      "duplicate_key": "주간한국::전쟁은 끝났는데…유통업계 덮친 '3중 물가 압박'",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://weekly.hankooki.com/news/articleView.html?idxno=7171194",
+      "id": "418071391052c2ec",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-20",
+  "slot": "evening",
+  "period_start": "2026-07-20T08:00:00+09:00",
+  "period_end": "2026-07-20T17:00:00+09:00",
+  "period_label": "2026-07-20 08:00 ~ 2026-07-20 17:00",
+  "generated_at": "2026-07-20T20:11:02.165801+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1580,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1190
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 1,
+    "기름값 담합": 1,
+    "석유 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 2,
+    "주유소 담합": 2,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "주유소 기름값이 안 내린 진짜 이유: 정유사 담합 이슈와 유류세의 모순",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15OHZXaXVaYURTaExEOHlQNjh3SVlfSUFZVUlPRDd5QlNOb25DMG9PSFZWd0pDVGNxSXZlVm0tNGN6VVVmS29LLXZOVU03QXBSczFyZUhqUzAxeU0?oc=5",
+      "source": "뉴닉",
+      "published_at": "2026-07-20T10:58:31+09:00",
+      "snippet": "주유소 기름값이 안 내린 진짜 이유: 정유사 담합 이슈와 유류세의 모순 뉴닉",
+      "collected_at": "2026-07-20T17:31:16.868732+09:00",
+      "normalized_title": "주유소 기름값이 안 내린 진짜 이유: 정유사 담합 이슈와 유류세의 모순",
+      "source_normalized": "뉴닉",
+      "duplicate_key": "뉴닉::주유소 기름값이 안 내린 진짜 이유: 정유사 담합 이슈와 유류세의 모순",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15OHZXaXVaYURTaExEOHlQNjh3SVlfSUFZVUlPRDd5QlNOb25DMG9PSFZWd0pDVGNxSXZlVm0tNGN6VVVmS29LLXZOVU03QXBSczFyZUhqUzAxeU0?oc=5",
+      "id": "fccb8eac92c672eb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "유류세 인하 4년9개월째…중동戰 재개에 22번째 연장?새 창 열림",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=469647",
+      "source": "새 창 열림",
+      "published_at": "2026-07-20T16:31:02.328632+09:00",
+      "snippet": "국제유가 재상승은 국내 석유류 가격에도 영향을 미칠 수 있다는 분석이다. 이달 둘째 주 기준 전국 주유소 휘발유·경유 가격은 8주 연속 하락하며 모두... 최근 정유 4사가 전쟁 상황을 틈타 가격을 담합한 혐의로 검찰에 기소되면서 세금 인하분이 소비자에게 제대로 반영되지 않았을 가능성이 제기됐기... 새 창 열림",
+      "collected_at": "2026-07-20T17:31:02.328651+09:00",
+      "normalized_title": "유류세 인하 4년9개월째…중동戰 재개에 22번째 연장?새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::유류세 인하 4년9개월째…중동戰 재개에 22번째 연장?새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=469647",
+      "id": "4728415dbb1009a6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"담합 신고로 '수천억 포상금' 가능성…공정위가 노리는 것은?\"새 창 열림",
+      "url": "https://www.gokorea.kr/news/articleView.html?idxno=872469",
+      "source": "새 창 열림",
+      "published_at": "2026-07-20T14:31:13.349032+09:00",
+      "snippet": "특히 최근 적발된 정유사 담합 사건에서 과징금이 2조원대에 달할 가능성이 있어 화제가 되고 있다. 공정위의 새로운 규정은 기존의 30억원 상한을 없애고, 담합 행위 신고 시 과징금의 최대 10%까지 포상금을 지급할 수 있도록 변경했다. 이는 담합 행위의 적발을 촉진하기 위한 방안으로, 제보된 정보의 수준과... 새 창 열림",
+      "collected_at": "2026-07-20T17:31:13.349058+09:00",
+      "normalized_title": "\"담합 신고로 '수천억 포상금' 가능성…공정위가 노리는 것은?\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::\"담합 신고로 '수천억 포상금' 가능성…공정위가 노리는 것은?\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.gokorea.kr/news/articleView.html?idxno=872469",
+      "id": "b9f883d15b50fa31",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

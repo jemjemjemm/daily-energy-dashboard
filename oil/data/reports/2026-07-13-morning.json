@@ -1,0 +1,140 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-13",
+  "slot": "morning",
+  "period_start": "2026-07-13T00:00:00+09:00",
+  "period_end": "2026-07-13T08:00:00+09:00",
+  "period_label": "2026-07-13 00:00 ~ 2026-07-13 08:00",
+  "generated_at": "2026-07-13T09:09:56.415861+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1606,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1216
+  },
+  "query_counts": {
+    "정유업계 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[취재수첩] 검찰 닮아가는 공정위의 담합 사실 공표",
+      "url": "http://v.daum.net/v/20260713001750325",
+      "source": "한국경제",
+      "published_at": "2026-07-13T01:09:41.625583+09:00",
+      "snippet": "등 식품 담합과 플랫폼 갑질 사건에서도 ‘전원회의에 넘겼다’ ‘조사에 착수했다’는 식으로 발표했다. 이달 6일 검찰이 정유업계 담합 수사 결과를 공개하자 공정위 안팎에선 “또 검찰에 선수를 빼앗겼다”는 말이 돌았다. 경쟁법 전문가들은 공정위의 ‘사전... 8시간 전",
+      "collected_at": "2026-07-13T09:09:41.625609+09:00",
+      "normalized_title": "[취재수첩] 검찰 닮아가는 공정위의 담합 사실 공표",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::[취재수첩] 검찰 닮아가는 공정위의 담합 사실 공표",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260713001750325",
+      "id": "1e9082b84a7e1da8",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국경제",
+      "url": "https://v.daum.net/channel/3/home",
+      "source": "한국경제",
+      "published_at": "2026-07-13T01:09:40.065463+09:00",
+      "snippet": "등 식품 담합과 플랫폼 갑질 사건에서도 ‘전원회의에 넘겼다’ ‘조사에 착수했다’는 식으로 발표했다. 이달 6일 검찰이 정유업계 담합 수사 결과를 공개하자 공정위 안팎에선 “또 검찰에 선수를 빼앗겼다”는 말이 돌았다. 경쟁법 전문가들은 공정위의 ‘사전... 8시간 전",
+      "collected_at": "2026-07-13T09:09:40.065490+09:00",
+      "normalized_title": "한국경제",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::한국경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/3/home",
+      "id": "6ea5739e4883b5ac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[취재수첩] 검찰 닮아가는 공정위의 담합 사실 공표새 창 열림",
+      "url": "https://www.hankyung.com/article/2026071201961",
+      "source": "새 창 열림",
+      "published_at": "2026-07-13T01:09:39.219451+09:00",
+      "snippet": "이달 6일 검찰이 정유업계 담합 수사 결과를 공개하자 공정위 안팎에선 “또 검찰에 선수를 빼앗겼다”는 말이 돌았다. 경쟁법 전문가들은 공정위의 ‘사전 사건 공표’는 준사법기관의 근간을 흔드는 위험한 행보라고 지적한다. 핵심은 공정위가 검찰(조사)과 법원(심판) 기능을 동시에 수행하는 ‘한 지붕’... 새 창 열림",
+      "collected_at": "2026-07-13T09:09:39.219476+09:00",
+      "normalized_title": "[취재수첩] 검찰 닮아가는 공정위의 담합 사실 공표새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[취재수첩] 검찰 닮아가는 공정위의 담합 사실 공표새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.hankyung.com/article/2026071201961",
+      "id": "ebe63d10de575532",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

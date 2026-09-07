@@ -1,0 +1,200 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-27",
+  "slot": "evening",
+  "period_start": "2026-08-27T08:00:00+09:00",
+  "period_end": "2026-08-27T17:00:00+09:00",
+  "period_label": "2026-08-27 08:00 ~ 2026-08-27 17:00",
+  "generated_at": "2026-08-27T17:07:57.777757+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1457,
+  "total_deduped_count": 4,
+  "total_ok_count": 4,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 4
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1067
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 3,
+    "석유 담합": 3,
+    "석유제품 담합": 3,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 3,
+    "정유업계 담합": 3,
+    "주유소 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "원유는 미국산, 주유소는 타사 기름…정유4사 조달·판매 '재편'",
+      "url": "http://v.daum.net/v/20260827154205771",
+      "source": "뉴스웨이",
+      "published_at": "2026-08-27T16:07:27.252476+09:00",
+      "snippet": "반영해야 실제 손실을 보전할 수 있다는 입장이었지만 최근 가격담합 사건과 공정위 조사 등 사법·규제 리스크가 겹치면서 정부의...11~12월 보전금을 지급할 예정이다. 원유 도입선 다변화와 주유소 혼합구매, 공급가격 결정 방식 변경이 동시에 진행되면서 정유... 1시간 전",
+      "collected_at": "2026-08-27T17:07:27.252530+09:00",
+      "normalized_title": "원유는 미국산, 주유소는 타사 기름…정유4사 조달·판매 '재편'",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::원유는 미국산, 주유소는 타사 기름…정유4사 조달·판매 '재편'",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260827154205771",
+      "id": "e142a187942ba963",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "담합",
+        "가격담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스웨이",
+      "url": "https://v.daum.net/channel/552788/home",
+      "source": "뉴스웨이",
+      "published_at": "2026-08-27T16:07:26.680492+09:00",
+      "snippet": "반영해야 실제 손실을 보전할 수 있다는 입장이었지만 최근 가격담합 사건과 공정위 조사 등 사법·규제 리스크가 겹치면서 정부의...11~12월 보전금을 지급할 예정이다. 원유 도입선 다변화와 주유소 혼합구매, 공급가격 결정 방식 변경이 동시에 진행되면서 정유... 1시간 전",
+      "collected_at": "2026-08-27T17:07:26.680522+09:00",
+      "normalized_title": "뉴스웨이",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::뉴스웨이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/552788/home",
+      "id": "1d07a152bbd5705c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "담합",
+        "가격담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "원유는 미국산, 주유소는 타사 기름…정유4사 조달·판매 '재편'새 창 열림",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026082713461022873",
+      "source": "새 창 열림",
+      "published_at": "2026-08-27T16:07:26.267091+09:00",
+      "snippet": "공정거래위원회는 지난 26일 석유유통업종 표준대리점계약서를 개정해 주유소가 상표 사용 계약을 맺은 정유사 제품을 60% 이상 구매하면 나머지 최대 40... 당초 정유업계는 국제 석유제품 가격을 반영해야 실제 손실을 보전할 수 있다는 입장이었지만 최근 가격담합 사건과 공정위 조사 등 사법·규제... 새 창 열림",
+      "collected_at": "2026-08-27T17:07:26.267124+09:00",
+      "normalized_title": "원유는 미국산, 주유소는 타사 기름…정유4사 조달·판매 '재편'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::원유는 미국산, 주유소는 타사 기름…정유4사 조달·판매 '재편'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.newsway.co.kr/news/view?ud=2026082713461022873",
+      "id": "928a852b75c7ef95",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "정유업계",
+        "주유소",
+        "석유제품",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "가격담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "창녕군, 여름 휴가철 피서지 물가 현장 점검 나서새 창 열림",
+      "url": "https://www.newsgn.com/news/articleView.html?idxno=570008",
+      "source": "새 창 열림",
+      "published_at": "2026-08-27T11:07:21.626878+09:00",
+      "snippet": "인상 ▲ 담합에 의한 가격 책정 ▲ 서비스 요금 과다 인상 및 서비스 질 저하 ▲ 가격표시제 및 원산지 표시 이행 여부 등이다. 이번 점검에는 경남도 물가책임관으로 창녕군을 담당하는 신종우 경상남도 행정국장과 이성봉 건설산업국장이 현장을 세심하게 점검하고, 고유가·고물가·고금리로 어려움을 겪고... 새 창 열림",
+      "collected_at": "2026-08-27T17:07:21.626920+09:00",
+      "normalized_title": "창녕군, 여름 휴가철 피서지 물가 현장 점검 나서새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::창녕군, 여름 휴가철 피서지 물가 현장 점검 나서새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsgn.com/news/articleView.html?idxno=570008",
+      "id": "8ee85b7403766abf",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

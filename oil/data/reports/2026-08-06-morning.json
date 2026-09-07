@@ -1,0 +1,337 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-06",
+  "slot": "morning",
+  "period_start": "2026-08-06T00:00:00+09:00",
+  "period_end": "2026-08-06T08:00:00+09:00",
+  "period_label": "2026-08-06 00:00 ~ 2026-08-06 08:00",
+  "generated_at": "2026-08-06T09:09:08.050198+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1571,
+  "total_deduped_count": 8,
+  "total_ok_count": 8,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 6
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1181
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 3,
+    "공정위 유가 담합": 3,
+    "석유 담합": 8,
+    "석유제품 담합": 6,
+    "유가 담합": 4,
+    "유가담합": 4,
+    "정유사 담합": 4,
+    "정유업계 담합": 4,
+    "주유소 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "정유 이어 석화까지 겨눈 검찰…담합 의혹에 업계 '긴장 고조'",
+      "url": "http://v.daum.net/v/20260806050215164",
+      "source": "뉴시스",
+      "published_at": "2026-08-06T05:29:15.902097+09:00",
+      "snippet": "업체가 폴리염화비닐(PVC), 가소제, 가성소다, 염산 등 8개 석유화학 제품의 가격 인상을 수년간 사전에 협의한 혐의(공정거래법 위반...석유화학업체를 대상으로 현장조사를 실시했다. 통상 담합 사건은 공정위 조사와 심의를 거쳐 검찰 고발 여부가 결정되는 경우... 3시간 전",
+      "collected_at": "2026-08-06T08:29:15.902132+09:00",
+      "normalized_title": "정유 이어 석화까지 겨눈 검찰…담합 의혹에 업계 '긴장 고조'",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::정유 이어 석화까지 겨눈 검찰…담합 의혹에 업계 '긴장 고조'",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 10,
+      "canonical_url": "http://v.daum.net/v/20260806050215164",
+      "id": "ad641ef70928cc84",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴시스",
+      "url": "https://v.daum.net/channel/21/home",
+      "source": "뉴시스",
+      "published_at": "2026-08-06T05:29:14.184036+09:00",
+      "snippet": "업체가 폴리염화비닐(PVC), 가소제, 가성소다, 염산 등 8개 석유화학 제품의 가격 인상을 수년간 사전에 협의한 혐의(공정거래법 위반...석유화학업체를 대상으로 현장조사를 실시했다. 통상 담합 사건은 공정위 조사와 심의를 거쳐 검찰 고발 여부가 결정되는 경우... 3시간 전",
+      "collected_at": "2026-08-06T08:29:14.184067+09:00",
+      "normalized_title": "뉴시스",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::뉴시스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/21/home",
+      "id": "e250fa63010cdcd6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중동전 틈타 담합의혹…檢, 석유화학업체 압색",
+      "url": "http://v.daum.net/v/20260806005911073",
+      "source": "경상일보",
+      "published_at": "2026-08-06T01:29:58.519780+09:00",
+      "snippet": "건축자재, 전선 피복 등에 광범위하게 쓰이는 대표적인 기초 합성 플라스틱이다. 가소제는 PVC에 유연성을 더해주는 필수 화학첨가제다. 앞서 공정거래위원회도 지난 5월 석유화학제품 가격 담합 의혹과 관련해 석화업체들을 대상으로 조사를 펼친 바 있다. 신동섭기자 7시간 전",
+      "collected_at": "2026-08-06T08:29:58.519806+09:00",
+      "normalized_title": "중동전 틈타 담합의혹…檢, 석유화학업체 압색",
+      "source_normalized": "경상일보",
+      "duplicate_key": "경상일보::중동전 틈타 담합의혹…檢, 석유화학업체 압색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260806005911073",
+      "id": "723e5a360b48a2bb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경상일보",
+      "url": "https://v.daum.net/channel/551740/home",
+      "source": "경상일보",
+      "published_at": "2026-08-06T01:29:57.506946+09:00",
+      "snippet": "건축자재, 전선 피복 등에 광범위하게 쓰이는 대표적인 기초 합성 플라스틱이다. 가소제는 PVC에 유연성을 더해주는 필수 화학첨가제다. 앞서 공정거래위원회도 지난 5월 석유화학제품 가격 담합 의혹과 관련해 석화업체들을 대상으로 조사를 펼친 바 있다. 신동섭기자 7시간 전",
+      "collected_at": "2026-08-06T08:29:57.506962+09:00",
+      "normalized_title": "경상일보",
+      "source_normalized": "경상일보",
+      "duplicate_key": "경상일보::경상일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/551740/home",
+      "id": "1d53fea71df2cf5a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, PVC·가소제 담합 의혹 석유화학업체 압수수색:경찰연합신문",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10aTk4Qzd6T1otMmJCRFlLeFJJa1pTZFZQMzdMMlVraExBVm5TOGFPaTVXREJZX0tlM2xGdjJWb1RfU3Y3TXVHMzVINEpyUm9H0gFsQVVfeXFMTXdtd1h3U2Q4SUctTjBlZzNZbXBpaGJhamI4bUdWYzdKU1E1eWJsS1VHTmtDMUktOU80TzBlZWJlTDNRTm5kbENhbV8tVHRkV2VZbmdsWXRUcTE2TlJ6ZTBZVmlXaXRXa2tIOGJP?oc=5",
+      "source": "경찰연합신문",
+      "published_at": "2026-08-06T00:56:15+09:00",
+      "snippet": "검찰, PVC·가소제 담합 의혹 석유화학업체 압수수색:경찰연합신문 경찰연합신문",
+      "collected_at": "2026-08-06T08:30:08.185047+09:00",
+      "normalized_title": "검찰, PVC·가소제 담합 의혹 석유화학업체 압수수색:경찰연합신문",
+      "source_normalized": "경찰연합신문",
+      "duplicate_key": "경찰연합신문::검찰, pvc·가소제 담합 의혹 석유화학업체 압수수색:경찰연합신문",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10aTk4Qzd6T1otMmJCRFlLeFJJa1pTZFZQMzdMMlVraExBVm5TOGFPaTVXREJZX0tlM2xGdjJWb1RfU3Y3TXVHMzVINEpyUm9H0gFsQVVfeXFMTXdtd1h3U2Q4SUctTjBlZzNZbXBpaGJhamI4bUdWYzdKU1E1eWJsS1VHTmtDMUktOU80TzBlZWJlTDNRTm5kbENhbV8tVHRkV2VZbmdsWXRUcTE2TlJ6ZTBZVmlXaXRXa2tIOGJP?oc=5",
+      "id": "ad23387d3d561cd3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 이어 석화까지 겨눈 검찰…담합 의혹에 업계 '긴장 고조'새 창 열림",
+      "url": "https://www.newsis.com/view/NISX20260805_0003737851",
+      "source": "새 창 열림",
+      "published_at": "2026-08-06T05:29:12.953574+09:00",
+      "snippet": "통상 담합 사건은 공정위 조사와 심의를 거쳐 검찰 고발 여부가 결정되는 경우가 많다. 하지만 이번 사건은 공정위 절차와 별도로 검찰이 자체 인지를... 검찰은 앞서 유가 교란 사건과 관련해 국내 정유사 4곳과 일부 임직원을 기소했다. 다만 일부 정유사는 담합 혐의가 기소 대상에서 제외됐음에도 당시 수사... 새 창 열림",
+      "collected_at": "2026-08-06T08:29:12.953604+09:00",
+      "normalized_title": "정유 이어 석화까지 겨눈 검찰…담합 의혹에 업계 '긴장 고조'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정유 이어 석화까지 겨눈 검찰…담합 의혹에 업계 '긴장 고조'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.newsis.com/view/NISX20260805_0003737851",
+      "id": "a539d4bd67e39a8b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "유가 급등에 정유사 '돈방석'…가주, 전시 폭리 규제 추진새 창 열림",
+      "url": "https://www.koreadaily.com/article/20260805112156752",
+      "source": "새 창 열림",
+      "published_at": "2026-08-06T03:29:12.955146+09:00",
+      "snippet": "LA타임스는 지난 5일 이란 전쟁 이후 정유업계의 '초과 이익'을 둘러싼 논란과 이를 규제하려는 가주 움직임을 집중 보도했다. 가주 2위 정유사인 마라톤... 한편 지난 6월에는 가주 운전자들이 주요 주유소 체인을 상대로 AI 가격 책정 소프트웨어를 이용해 휘발유 가격을 담합했다며 집단소송을 제기하기도... 새 창 열림",
+      "collected_at": "2026-08-06T08:29:12.955169+09:00",
+      "normalized_title": "유가 급등에 정유사 '돈방석'…가주, 전시 폭리 규제 추진새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::유가 급등에 정유사 '돈방석'…가주, 전시 폭리 규제 추진새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://www.koreadaily.com/article/20260805112156752",
+      "id": "c4d9ca8b995b5cd5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중동전 틈타 담합의혹…檢, 석유화학업체 압색새 창 열림",
+      "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1063924",
+      "source": "새 창 열림",
+      "published_at": "2026-08-06T00:29:55.368780+09:00",
+      "snippet": "나프타를 주원료로 생산되는 PVC는 파이프와 건축자재, 전선 피복 등에 광범위하게 쓰이는 대표적인 기초 합성 플라스틱이다. 가소제는 PVC에 유연성을 더해주는 필수 화학첨가제다. 앞서 공정거래위원회도 지난 5월 석유화학제품 가격 담합 의혹과 관련해 석화업체들을 대상으로 조사를 펼친 바 있다.새 창 열림",
+      "collected_at": "2026-08-06T08:29:55.368796+09:00",
+      "normalized_title": "중동전 틈타 담합의혹…檢, 석유화학업체 압색새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::중동전 틈타 담합의혹…檢, 석유화학업체 압색새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1063924",
+      "id": "32b52bc79c90ed3d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-11",
+  "slot": "evening",
+  "period_start": "2026-08-11T08:00:00+09:00",
+  "period_end": "2026-08-11T17:00:00+09:00",
+  "period_label": "2026-08-11 08:00 ~ 2026-08-11 17:00",
+  "generated_at": "2026-08-11T18:11:25.619135+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1568,
+  "total_deduped_count": 12,
+  "total_ok_count": 12,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 2,
+    "B": 2,
+    "C": 8
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1178
+  },
+  "query_counts": {
+    "경유 담합": 2,
+    "공정거래위원회 정유사 담합": 3,
+    "기름값 담합": 2,
+    "석유 담합": 4,
+    "석유제품 담합": 1,
+    "유가 담합": 7,
+    "유가담합": 7,
+    "정유사 담합": 3,
+    "정유업계 담합": 3,
+    "주유소 담합": 5,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "공정위, 정유 4사 가격 담합 결과 속도 낸다…5개월째 조사",
+      "url": "http://v.daum.net/v/20260811151353567",
+      "source": "아시아경제",
+      "published_at": "2026-08-11T16:07:57.679852+09:00",
+      "snippet": "내겠다는 방침이다. 11일 업계에 따르면 공정위는 SK에너지와 HD현대오일뱅크, GS칼텍스, 에쓰오일 등 국내 4대 정유사 일선 주유소에서 가격 담합 의혹과 관련한 조사를 전날부터 재차 진행하고 있다. 공정위는 정유 4사가 중동 전쟁으로 원유 가격이 급등할 것으로... 1시간 전",
+      "collected_at": "2026-08-11T17:07:57.679875+09:00",
+      "normalized_title": "공정위, 정유 4사 가격 담합 결과 속도 낸다…5개월째 조사",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::공정위, 정유 4사 가격 담합 결과 속도 낸다…5개월째 조사",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260811151353567",
+      "id": "372393cc1ac0ac76",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "아시아경제",
+      "url": "https://v.daum.net/channel/90/home",
+      "source": "아시아경제",
+      "published_at": "2026-08-11T16:07:56.993934+09:00",
+      "snippet": "내겠다는 방침이다. 11일 업계에 따르면 공정위는 SK에너지와 HD현대오일뱅크, GS칼텍스, 에쓰오일 등 국내 4대 정유사 일선 주유소에서 가격 담합 의혹과 관련한 조사를 전날부터 재차 진행하고 있다. 공정위는 정유 4사가 중동 전쟁으로 원유 가격이 급등할 것으로... 1시간 전",
+      "collected_at": "2026-08-11T17:07:56.993986+09:00",
+      "normalized_title": "아시아경제",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::아시아경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/90/home",
+      "id": "7197c286bb7e5fce",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "김윤덕 국토장관 “3기 신도시 착공 앞당겨 주택 공급 속도 높이겠다”",
+      "url": "http://v.daum.net/v/20260811150137855",
+      "source": "조선비즈",
+      "published_at": "2026-08-11T15:07:47.288829+09:00",
+      "snippet": "계획 수정계획도 마련할 예정이다. 김 장관은 부동산과 교통 분야의 불법행위에 대한 단속도 강화하겠다고 했다. 공인중개업계의 담합과 정비조합 관련 불법행위를 집중적으로 점검하고, 화물자동차 유가보조금 부정 수급과 자동차보험 허위·과잉 진료도 차단할... 2시간 전 10",
+      "collected_at": "2026-08-11T17:07:47.288850+09:00",
+      "normalized_title": "김윤덕 국토장관 “3기 신도시 착공 앞당겨 주택 공급 속도 높이겠다”",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::김윤덕 국토장관 “3기 신도시 착공 앞당겨 주택 공급 속도 높이겠다”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260811150137855",
+      "id": "70e0073acdbe1991",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "조선비즈",
+      "url": "https://v.daum.net/channel/216/home",
+      "source": "조선비즈",
+      "published_at": "2026-08-11T15:07:46.583059+09:00",
+      "snippet": "계획 수정계획도 마련할 예정이다. 김 장관은 부동산과 교통 분야의 불법행위에 대한 단속도 강화하겠다고 했다. 공인중개업계의 담합과 정비조합 관련 불법행위를 집중적으로 점검하고, 화물자동차 유가보조금 부정 수급과 자동차보험 허위·과잉 진료도 차단할... 2시간 전 10",
+      "collected_at": "2026-08-11T17:07:46.583082+09:00",
+      "normalized_title": "조선비즈",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::조선비즈",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/216/home",
+      "id": "3757e0e10af8e443",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰 수사에 공급 확대까지…석화업계 하반기 '첩첩산중'새 창 열림",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1394788",
+      "source": "새 창 열림",
+      "published_at": "2026-08-11T16:08:01.889607+09:00",
+      "snippet": "검찰은 이들 업체가 폴리염화비닐(PVC)과 가소제, 가성소다, 염산 등 8개 석유화학제품 가격 인상을 사전에 협의했는지 들여다보고 있다. 공정거래위원회도 지난 5월 관련 담합 정황을 포착해 일부 업체를 현장 조사했다. 공정위 조사에 이어 검찰 강제수사까지 이어지면서 관련 업체들의 대응 부담도 커졌다.... 새 창 열림",
+      "collected_at": "2026-08-11T17:08:01.889631+09:00",
+      "normalized_title": "검찰 수사에 공급 확대까지…석화업계 하반기 '첩첩산중'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰 수사에 공급 확대까지…석화업계 하반기 '첩첩산중'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://daily.hankooki.com/news/articleView.html?idxno=1394788",
+      "id": "af6f13f298a63cd0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 정유 4사 가격 담합 결과 속도 낸다…5개월째 조사새 창 열림",
+      "url": "https://view.asiae.co.kr/article/2026081114150217624",
+      "source": "새 창 열림",
+      "published_at": "2026-08-11T16:07:56.550374+09:00",
+      "snippet": "11일 업계에 따르면 공정위는 SK에너지와 HD현대오일뱅크, GS칼텍스, 에쓰오일 등 국내 4대 정유사 일선 주유소에서 가격 담합 의혹과 관련한 조사를 전날부터 재차 진행하고 있다. 공정위는 정유 4사가 중동 전쟁으로 원유 가격이 급등할 것으로 예상하고 이익을 확대하기 위해 제품 가격의 인상 시기와 규모를... 새 창 열림",
+      "collected_at": "2026-08-11T17:07:56.550399+09:00",
+      "normalized_title": "공정위, 정유 4사 가격 담합 결과 속도 낸다…5개월째 조사새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 정유 4사 가격 담합 결과 속도 낸다…5개월째 조사새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://view.asiae.co.kr/article/2026081114150217624",
+      "id": "06e6ea3eee9c47b4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "김윤덕 국토장관 “3기 신도시 착공 앞당겨 주택 공급 속도 높이겠다”새 창 열림",
+      "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/08/11/TMRLHAP3KBDLBINSXTNU3Z624U/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "source": "새 창 열림",
+      "published_at": "2026-08-11T15:07:46.119219+09:00",
+      "snippet": "공인중개업계의 담합과 정비조합 관련 불법행위를 집중적으로 점검하고, 화물자동차 유가보조금 부정 수급과 자동차보험 허위·과잉 진료도 차단할 방침이다. 김 장관은 “민생 안전에 모든 역량을 집중하면서 균형성장과 미래 성장동력 확충을 위해 최선을 다하겠다”고 말했다.새 창 열림",
+      "collected_at": "2026-08-11T17:07:46.119245+09:00",
+      "normalized_title": "김윤덕 국토장관 “3기 신도시 착공 앞당겨 주택 공급 속도 높이겠다”새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::김윤덕 국토장관 “3기 신도시 착공 앞당겨 주택 공급 속도 높이겠다”새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://biz.chosun.com/real_estate/real_estate_general/2026/08/11/TMRLHAP3KBDLBINSXTNU3Z624U/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "id": "f735d89014e8da75",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[Biz&Law] CJ대한통운 印 법인, '입찰비리' 제재 못 뒤집어… 法 \"청렴협...새 창 열림",
+      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=725838",
+      "source": "새 창 열림",
+      "published_at": "2026-08-11T14:08:01.890929+09:00",
+      "snippet": "국영 석유천연가스공사(ONGC)를 상대로 제기한 항소심 판결을 선고했다. 분쟁은 2017년 운송 입찰에서 내려진 입찰 배제와 6개월 거래정지, 입찰보증금... 청렴협약(Integrity Pact): 공공기관 등 발주처와 입찰 참여 업체가 입찰·계약 과정에서 담합이나 금품 제공 등 부정행위를 하지 않겠다고 약정하는... 새 창 열림",
+      "collected_at": "2026-08-11T17:08:01.890939+09:00",
+      "normalized_title": "[Biz&Law] CJ대한통운 印 법인, '입찰비리' 제재 못 뒤집어… 法 \"청렴협...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[biz&law] cj대한통운 印 법인, '입찰비리' 제재 못 뒤집어… 法 \"청렴협...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.the-biz.co.kr/news/articleView.html?idxno=725838",
+      "id": "7f7577963b02eb20",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘휘발유와의 전쟁’ 벌이는 트럼프와 푸틴의 동병상련… 기름값에 정치...새 창 열림",
+      "url": "https://weekly.donga.com/3/all/11/6343135/1",
+      "source": "새 창 열림",
+      "published_at": "2026-08-11T14:07:46.120012+09:00",
+      "snippet": "트럼프 대통령은 휘발유 가격이 국제유가 하락 폭만큼 내려가지 않는 이유를 조사하라며 법무부에 대형 석유업체들의 가격 담합이나 폭리 가능성을... 러시아 정부는 국내 연료 시장 안정화를 위해 8월 1일부터 2027년 1월 31일까지 휘발유, 경유, 선박용 연료, 가스오일의 수출 금지 조치를 내렸다. 특히... 새 창 열림",
+      "collected_at": "2026-08-11T17:07:46.120025+09:00",
+      "normalized_title": "‘휘발유와의 전쟁’ 벌이는 트럼프와 푸틴의 동병상련… 기름값에 정치...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘휘발유와의 전쟁’ 벌이는 트럼프와 푸틴의 동병상련… 기름값에 정치...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://weekly.donga.com/3/all/11/6343135/1",
+      "id": "c76322b759b99fa4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "기름값",
+        "휘발유",
+        "경유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘K푸드 질주’ CJ제일제당, 수익성은 뒷걸음…바이오 반등 기대새 창 열림",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260811010003483",
+      "source": "새 창 열림",
+      "published_at": "2026-08-11T12:07:46.120651+09:00",
+      "snippet": "다만 고유가에 따른 비용 부담은 지속될 것으로 예상했다. 국내 식품은 제조원가와 고정비 절감, 고수익 카테고리 중심 판매를 통해 수익성을 방어한다는 방침이다. 바이오는 주요 제품 판가 상승을 기반으로 전년 대비 수익성 회복을 기대하고 있다.올해 잇따른 담합 과징금 처분에도 2분기 손익에는 관련... 새 창 열림",
+      "collected_at": "2026-08-11T17:07:46.120661+09:00",
+      "normalized_title": "‘K푸드 질주’ CJ제일제당, 수익성은 뒷걸음…바이오 반등 기대새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘k푸드 질주’ cj제일제당, 수익성은 뒷걸음…바이오 반등 기대새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.asiatoday.co.kr/kn/view.php?key=20260811010003483",
+      "id": "7f343273cc2f3705",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "CJ제일제당, 내수 부진에 수익성 주춤…\"K푸드로 글로벌 영토 확장\"새 창 열림",
+      "url": "https://www.mt.co.kr/living/2026/08/11/2026081109172316786",
+      "source": "새 창 열림",
+      "published_at": "2026-08-11T10:07:46.121362+09:00",
+      "snippet": "해외에서 만두와 햇반 등 글로벌전략제품(GSP) 판매와 국내 신제품 출시 성과를 바탕으로 매출은 늘었으나 내수 부진과 고유가로 인한 비용 부담... 전분당, 설탕, 밀가루 등에 대한 담합 과징금은 지난해 제무재표상 충당부채로 선반영됐다. CJ제일제당은 3분기부터 최근 진행한 사업부문 리밸런싱을... 새 창 열림",
+      "collected_at": "2026-08-11T17:07:46.121371+09:00",
+      "normalized_title": "CJ제일제당, 내수 부진에 수익성 주춤…\"K푸드로 글로벌 영토 확장\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::cj제일제당, 내수 부진에 수익성 주춤…\"k푸드로 글로벌 영토 확장\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.mt.co.kr/living/2026/08/11/2026081109172316786",
+      "id": "54ddd9f34a8c91f9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘휘발유와의 전쟁’ 벌이는 트럼프와 푸틴의 동병상련… 기름값에 정치적 명운 달려",
+      "url": "http://v.daum.net/v/20260811140239245",
+      "source": "주간동아",
+      "published_at": "2026-08-11T14:07:49.670653+09:00",
+      "snippet": "가격 담합이나 폭리 가능성을 조사하도록 지시하기도 했다. 트럼프 대통령은 또 8월 10일 내 국내 항구 간 운송권을 자국 선박에만 주는 존스법을 90일간 추가 유예했다, 존스법은 1920년 제정된 법으로 미국 항구와 항구 사이의 화물은 미국에서 건조되고 미국인이... 3시간 전",
+      "collected_at": "2026-08-11T17:07:49.670680+09:00",
+      "normalized_title": "‘휘발유와의 전쟁’ 벌이는 트럼프와 푸틴의 동병상련… 기름값에 정치적 명운 달려",
+      "source_normalized": "주간동아",
+      "duplicate_key": "주간동아::‘휘발유와의 전쟁’ 벌이는 트럼프와 푸틴의 동병상련… 기름값에 정치적 명운 달려",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://v.daum.net/v/20260811140239245",
+      "id": "82cd16fbb26ce386",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

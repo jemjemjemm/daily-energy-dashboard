@@ -1,0 +1,92 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-16",
+  "slot": "morning",
+  "period_start": "2026-07-16T00:00:00+09:00",
+  "period_end": "2026-07-16T08:00:00+09:00",
+  "period_label": "2026-07-16 00:00 ~ 2026-07-16 08:00",
+  "generated_at": "2026-07-16T09:07:49.767909+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1578,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1188
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "국제유가 등락 속 정유업계 2Q 주춤 전망…하반기도 ‘산 넘어 산’새 창 열림",
+      "url": "https://www.kukinews.com/article/view/kuk202607150175",
+      "source": "새 창 열림",
+      "published_at": "2026-07-16T06:02:20.609669+09:00",
+      "snippet": "미국-이란이 종전 협상 후 재차 갈등을 빚는 등 국제유가가 등락을 반복하는 가운데, 하반기 굵직한 국내외 이슈도 남아 있어 넘어야 할 파고가 높은... 이 가운데, 정유4사 및 관계자들이 서울중앙지검 공정거래조사부로부터 가격 담합 혐의로 기소되면서 손실보전 기준 외에도 변수가 발생할 수 있게 됐다.... 새 창 열림",
+      "collected_at": "2026-07-16T08:02:20.609704+09:00",
+      "normalized_title": "국제유가 등락 속 정유업계 2Q 주춤 전망…하반기도 ‘산 넘어 산’새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::국제유가 등락 속 정유업계 2q 주춤 전망…하반기도 ‘산 넘어 산’새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.kukinews.com/article/view/kuk202607150175",
+      "id": "0613be84ba746a3a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

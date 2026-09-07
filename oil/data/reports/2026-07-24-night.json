@@ -1,0 +1,523 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-24",
+  "slot": "night",
+  "period_start": "2026-07-24T17:00:00+09:00",
+  "period_end": "2026-07-25T00:00:00+09:00",
+  "period_label": "2026-07-24 17:00 ~ 2026-07-25 00:00",
+  "generated_at": "2026-07-25T09:15:46.174623+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1553,
+  "total_deduped_count": 12,
+  "total_ok_count": 12,
+  "total_review_count": 0,
+  "total_excluded_count": 12,
+  "grade_counts": {
+    "A": 0,
+    "B": 2,
+    "C": 10
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1163
+  },
+  "query_counts": {
+    "경유 담합": 10,
+    "기름값 담합": 4,
+    "석유 담합": 10,
+    "석유제품 담합": 4,
+    "유가 담합": 10,
+    "유가담합": 10,
+    "정유사 담합": 10,
+    "주유소 담합": 10,
+    "휘발유 담합": 10
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "정부, 8차 석유 최고가격 동결⋯중동 갈등 재점화에 가격 인하 멈췄다",
+      "url": "http://v.daum.net/v/20260724194051365",
+      "source": "MBN",
+      "published_at": "2026-07-24T20:13:39.838453+09:00",
+      "snippet": "휘발유 100원, 등·경유는 300원 정도 낮은 수준입니다. 주유소 판매 가격은 23일 기준 리터당 휘발유 1,871원, 경유 1,856원으로...4조 2,000억 원을 편성한 상태입니다. 양 실장은 국내 정유사들이 담합으로 유가를 폭등시켰다는 검찰 수사 결과에 대해서는 \"검찰... 13시간 전",
+      "collected_at": "2026-07-25T09:13:39.838481+09:00",
+      "normalized_title": "정부, 8차 석유 최고가격 동결⋯중동 갈등 재점화에 가격 인하 멈췄다",
+      "source_normalized": "MBN",
+      "duplicate_key": "mbn::정부, 8차 석유 최고가격 동결⋯중동 갈등 재점화에 가격 인하 멈췄다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://v.daum.net/v/20260724194051365",
+      "id": "dc73a56603a12dfa",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "MBN",
+      "url": "https://v.daum.net/channel/60/home",
+      "source": "MBN",
+      "published_at": "2026-07-24T20:13:38.349061+09:00",
+      "snippet": "휘발유 100원, 등·경유는 300원 정도 낮은 수준입니다. 주유소 판매 가격은 23일 기준 리터당 휘발유 1,871원, 경유 1,856원으로...4조 2,000억 원을 편성한 상태입니다. 양 실장은 국내 정유사들이 담합으로 유가를 폭등시켰다는 검찰 수사 결과에 대해서는 \"검찰... 13시간 전",
+      "collected_at": "2026-07-25T09:13:38.349075+09:00",
+      "normalized_title": "MBN",
+      "source_normalized": "MBN",
+      "duplicate_key": "mbn::mbn",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/60/home",
+      "id": "34c3c21f7bad0e6c",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "석유 최고가격제 인하 제동...국제유가 급등에 8차 석유 최고가격 동결새 창 열림",
+      "url": "https://www.livebiz.today/news/articleView.html?idxno=203584",
+      "source": "새 창 열림",
+      "published_at": "2026-07-24T22:13:32.888604+09:00",
+      "snippet": "정부가 25일부터 적용되는 8차 석유 최고가격을 동결함에 따라 8차 최고가격이 리터(L)당 휘발유 1784원, 경유 1773원, 등유 1380원으로 유지된다. 당초... 한편, 양 실장은 국내 정유사들이 담합으로 유가를 폭등시켰다는 최근 검찰의 수사 결과에 대해서는 \"검찰이 넘겨준 자료를 받아 검토하고 있다\"며 \"(손실액... 새 창 열림",
+      "collected_at": "2026-07-25T09:13:32.888619+09:00",
+      "normalized_title": "석유 최고가격제 인하 제동...국제유가 급등에 8차 석유 최고가격 동결새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::석유 최고가격제 인하 제동...국제유가 급등에 8차 석유 최고가격 동결새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://www.livebiz.today/news/articleView.html?idxno=203584",
+      "id": "bf26dec43a88b14a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "유가 다시 뛰자 ‘출구전략’ 제동…석유 최고가격 동결새 창 열림",
+      "url": "https://www.g-enews.com/view.php?ud=2026072419152211303084322ec9_1",
+      "source": "새 창 열림",
+      "published_at": "2026-07-24T20:13:32.894755+09:00",
+      "snippet": "이에 따라 리터(L)당 최고가격은 휘발유 1784원, 경유 1773원, 등유 1380원으로 유지된다. 정부는 앞서 미국과 이란의 종전 합의 이후 국제유가가 하락하자... 국내 정유사들의 유가 담합 의혹과 관련해서는 검찰이 넘긴 자료를 토대로 정부 차원의 검토도 진행 중이다. 양 실장은 “정산 과정에서 정산위원회를... 새 창 열림",
+      "collected_at": "2026-07-25T09:13:32.894767+09:00",
+      "normalized_title": "유가 다시 뛰자 ‘출구전략’ 제동…석유 최고가격 동결새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::유가 다시 뛰자 ‘출구전략’ 제동…석유 최고가격 동결새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.g-enews.com/view.php?ud=2026072419152211303084322ec9_1",
+      "id": "ae0b1476bac83b0d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부, 8차 석유 최고가격 동결⋯중동 갈등 재점화에 가격 인하 멈췄다새 창 열림",
+      "url": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5208110",
+      "source": "새 창 열림",
+      "published_at": "2026-07-24T20:13:32.893595+09:00",
+      "snippet": "이에 따라 8차 최고가격은 리터당 휘발유 1,784원, 경유 1,773원, 등유 1,380원으로 유지됩니다. 정부는 미국과 이란의 종전 합의 이후 국제유가가... 양 실장은 국내 정유사들이 담합으로 유가를 폭등시켰다는 검찰 수사 결과에 대해서는 \"검찰이 넘겨준 자료를 받아 검토하고 있다\"며 \"(손실액 정산 과정에서)... 새 창 열림",
+      "collected_at": "2026-07-25T09:13:32.893606+09:00",
+      "normalized_title": "정부, 8차 석유 최고가격 동결⋯중동 갈등 재점화에 가격 인하 멈췄다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정부, 8차 석유 최고가격 동결⋯중동 갈등 재점화에 가격 인하 멈췄다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5208110",
+      "id": "a6fe2e7ff627a657",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부, 치솟는 국제유가에 8차 석유 최고가격 '동결 카드'새 창 열림",
+      "url": "http://www.newsprime.co.kr/news/article.html?no=741528",
+      "source": "새 창 열림",
+      "published_at": "2026-07-24T20:13:32.892325+09:00",
+      "snippet": "이에 따라 8차 최고가격은 리터당 △휘발유 1784원 △경유 1773원 △등유 1380원으로 유지된다. 앞서 정부는 미국과 이란의 종전 합의 이후 국제유가가... 양 실장은 국내 정유사들이 담합으로 유가를 폭등시켰다는 검찰 수사 결과에 대해서는 \"검찰이 넘겨준 자료를 받아 검토하고 있다\"며 \"(손실액 정산... 새 창 열림",
+      "collected_at": "2026-07-25T09:13:32.892336+09:00",
+      "normalized_title": "정부, 치솟는 국제유가에 8차 석유 최고가격 '동결 카드'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정부, 치솟는 국제유가에 8차 석유 최고가격 '동결 카드'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://www.newsprime.co.kr/news/article.html?no=741528",
+      "id": "99a6b7391f6d1702",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "8차 석유 최고가격 동결…휘발유 1784원·경유 1773원 유지새 창 열림",
+      "url": "https://www.busan.com/view/busan/view.php?code=2026072419263682189",
+      "source": "새 창 열림",
+      "published_at": "2026-07-24T20:13:32.891151+09:00",
+      "snippet": "전국 주유소에서 판매하는 석유제품 평균가격은 7차 최고가격 시행(6월 27일) 이후 지속 하락해 지난 23일 기준 L당 휘발유 1871원, 경유 1856원으로... 양 실장은 국내 정유사들이 담합으로 유가를 폭등시켰다는 검찰 수사 결과에 대해서는 \"검찰이 넘겨준 자료를 받아 검토하고 있다\"며 \"(손실액 정산 과정에서)... 새 창 열림",
+      "collected_at": "2026-07-25T09:13:32.891163+09:00",
+      "normalized_title": "8차 석유 최고가격 동결…휘발유 1784원·경유 1773원 유지새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::8차 석유 최고가격 동결…휘발유 1784원·경유 1773원 유지새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.busan.com/view/busan/view.php?code=2026072419263682189",
+      "id": "c87df0741a00e9a3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "주유소",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부 \"석유 최고가격 일몰 가능성 적어\"…유가 상승 예의주시새 창 열림",
+      "url": "https://zdnet.co.kr/view/?no=20260724162235",
+      "source": "새 창 열림",
+      "published_at": "2026-07-24T20:13:32.889887+09:00",
+      "snippet": "이날 정부는 오는 25일 0시부터 향후 4주간 적용될 8차 석유 최고가격을 기존 7차 최고가격으로 동결한 리터당 ▲휘발유 1784원 ▲경유 1773원 ▲등유... 최근 검찰은 정유4사를 유가 담합 혐의로 기소되자, 관련 수사가 석유 최고가격제 관련 정유사 손실 보전에 영향을 미칠 것이란 관측도 제기되고 있다. 양... 새 창 열림",
+      "collected_at": "2026-07-25T09:13:32.889902+09:00",
+      "normalized_title": "정부 \"석유 최고가격 일몰 가능성 적어\"…유가 상승 예의주시새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정부 \"석유 최고가격 일몰 가능성 적어\"…유가 상승 예의주시새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://zdnet.co.kr/view/?no=20260724162235",
+      "id": "f550f6f79fc1c8b6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "8차 석유 최고가격 동결…국제유가 급등에 출구전략 일단 정지새 창 열림",
+      "url": "https://www.yna.co.kr/view/AKR20260724136600003?input=1195m",
+      "source": "새 창 열림",
+      "published_at": "2026-07-24T19:15:12.162511+09:00",
+      "snippet": "주유소 판매 가격은 23일 기준 리터당 휘발유 1천871원, 경유 1천856원으로, 산업부는 당분간 1천800원대 가격이 당분간 유지될 것으로 전망했다. 하지만... 양 실장은 국내 정유사들이 담합으로 유가를 폭등시켰다는 검찰 수사 결과에 대해서는 \"검찰이 넘겨준 자료를 받아 검토하고 있다\"며 \"(손실액 정산... 새 창 열림",
+      "collected_at": "2026-07-25T09:15:12.162524+09:00",
+      "normalized_title": "8차 석유 최고가격 동결…국제유가 급등에 출구전략 일단 정지새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::8차 석유 최고가격 동결…국제유가 급등에 출구전략 일단 정지새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.yna.co.kr/view/AKR20260724136600003?input=1195m",
+      "id": "c1f21c8c909cc4e9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "산업부, 8차 석유 최고가격도 '동결'…\"중동 긴장 땐 조기 인상\"새 창 열림",
+      "url": "https://www.ajunews.com/view/20260724175017014",
+      "source": "새 창 열림",
+      "published_at": "2026-07-24T19:14:21.591904+09:00",
+      "snippet": "공급가 L당 휘발유 1784원·경유 1773원·등유 1380원 상한 국내 기름값 당분간 1800원대 유지될 듯…\"추경 고려 안해\" 아주경제=김성서 기자 biblekim@ajunews.... 최근 검찰이 정유사의 석유담합 혐의를 포착한 것과 관련해서는 \"아직 재판 과정인 만큼 언급하기에는 적절하지는 않다\"며 \"정산위원회를 통해... 새 창 열림",
+      "collected_at": "2026-07-25T09:14:21.591918+09:00",
+      "normalized_title": "산업부, 8차 석유 최고가격도 '동결'…\"중동 긴장 땐 조기 인상\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::산업부, 8차 석유 최고가격도 '동결'…\"중동 긴장 땐 조기 인상\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ajunews.com/view/20260724175017014",
+      "id": "d593db9540178749",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "기름값",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "석유 최고가격 4주 더 동결…“주유소 기름값 1800원대 유지될 듯”새 창 열림",
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1269886.html",
+      "source": "새 창 열림",
+      "published_at": "2026-07-24T19:13:32.897205+09:00",
+      "snippet": "이에 따라 25일 0시부터 4주 동안 적용되는 최고가격은 리터당 휘발유 1784원, 경유 1773원, 등유 1380원으로 유지된다. 석유 최고가격제는 정유사가... 정유사 담합 수사가 손실 보전 정산에 미칠 영향과 관련해서는 “재판이 진행 중이라 말하기 적절하지 않다”면서도 “검찰 자료와 정유사가 낸 자료를... 새 창 열림",
+      "collected_at": "2026-07-25T09:13:32.897220+09:00",
+      "normalized_title": "석유 최고가격 4주 더 동결…“주유소 기름값 1800원대 유지될 듯”새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::석유 최고가격 4주 더 동결…“주유소 기름값 1800원대 유지될 듯”새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://www.hani.co.kr/arti/economy/economy_general/1269886.html",
+      "id": "c93f04f9a5d65e84",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "기름값",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'국제유가 100달러' 급등에도… 정부, 석유 최고가 동결 \"물가·민생 고...새 창 열림",
+      "url": "http://www.metroseoul.co.kr/article/20260724500127",
+      "source": "새 창 열림",
+      "published_at": "2026-07-24T19:13:32.895931+09:00",
+      "snippet": "산업부, 8차 최고가격 7차 수준 유지… 휘발유 1784원·경유 1773원·등유 1380원 주유소 가격대비 리터당 최대 300원 낮아 정부의 8차 석유 최고가격 발표를... '정유사 담합 수사'가 향후 정부의 손실 보전 논의에 미칠 영향에 대해서는 실무적인 검증 방침을 밝혔다. 양 실장은 \"현재 재판이 진행 중인 사안이라... 새 창 열림",
+      "collected_at": "2026-07-25T09:13:32.895951+09:00",
+      "normalized_title": "'국제유가 100달러' 급등에도… 정부, 석유 최고가 동결 \"물가·민생 고...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'국제유가 100달러' 급등에도… 정부, 석유 최고가 동결 \"물가·민생 고...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://www.metroseoul.co.kr/article/20260724500127",
+      "id": "5cd68f1868e72d28",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

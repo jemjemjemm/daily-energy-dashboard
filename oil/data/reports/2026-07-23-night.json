@@ -1,0 +1,202 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-23",
+  "slot": "night",
+  "period_start": "2026-07-23T17:00:00+09:00",
+  "period_end": "2026-07-24T00:00:00+09:00",
+  "period_label": "2026-07-23 17:00 ~ 2026-07-24 00:00",
+  "generated_at": "2026-07-24T09:09:22.195387+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1554,
+  "total_deduped_count": 4,
+  "total_ok_count": 4,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 2,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1164
+  },
+  "query_counts": {
+    "경유 담합": 4,
+    "석유 담합": 4,
+    "석유제품 담합": 3,
+    "유가 담합": 4,
+    "유가담합": 4,
+    "정유사 담합": 4,
+    "정유업계 담합": 4,
+    "휘발유 담합": 4
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "정유 4사, 담합 논란 속 2분기도 웃나...정제마진이 살려",
+      "url": "http://v.daum.net/v/20260723180020632",
+      "source": "아주경제",
+      "published_at": "2026-07-23T18:26:42.229532+09:00",
+      "snippet": "시계방향으로 SK에너지 CI, GS칼텍스 CI, 에쓰오일 CI, HD현대오일뱅크 CI [사진=각사] 국내 정유 4사가 석유제품 가격 담합 논란 속에서도 올해 2분기 양호한 실적을 이어갈 것으로 전망된다. 23일 에프앤가이드에 따르면 SK이노베이션의 올해 2분기 영업이익은 1조... 14시간 전",
+      "collected_at": "2026-07-24T08:26:42.229557+09:00",
+      "normalized_title": "정유 4사, 담합 논란 속 2분기도 웃나...정제마진이 살려",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::정유 4사, 담합 논란 속 2분기도 웃나...정제마진이 살려",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://v.daum.net/v/20260723180020632",
+      "id": "3ae2cd77e7abf34a",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "아주경제",
+      "url": "https://v.daum.net/channel/552779/home",
+      "source": "아주경제",
+      "published_at": "2026-07-23T18:26:40.519338+09:00",
+      "snippet": "시계방향으로 SK에너지 CI, GS칼텍스 CI, 에쓰오일 CI, HD현대오일뱅크 CI [사진=각사] 국내 정유 4사가 석유제품 가격 담합 논란 속에서도 올해 2분기 양호한 실적을 이어갈 것으로 전망된다. 23일 에프앤가이드에 따르면 SK이노베이션의 올해 2분기 영업이익은 1조... 14시간 전",
+      "collected_at": "2026-07-24T08:26:40.519366+09:00",
+      "normalized_title": "아주경제",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::아주경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/552779/home",
+      "id": "8b7579cc6a870697",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SK이노·에쓰오일, 담합 논란 속 분기 영업익 1조…“중동전쟁 발 호황...새 창 열림",
+      "url": "https://www.ceoscoredaily.com/page/view/2026072317115442045",
+      "source": "새 창 열림",
+      "published_at": "2026-07-23T18:26:39.437129+09:00",
+      "snippet": "국내 정유 4사를 대상으로 검찰의 유가 담합 의혹 수사가 진행 중인 가운데 정부는 석유 최고가격제 8차 가격 고시와 제도 시행에 따른 정유사 손실 보전 협상을 앞두고 있다. 국제유가 안정화로 제도 종료 가능성이 거론됐지만, 최근 미국과 이란 간 무력 충돌이 재개되면서 정부는 최고가격제를 유지하는... 새 창 열림",
+      "collected_at": "2026-07-24T08:26:39.437147+09:00",
+      "normalized_title": "SK이노·에쓰오일, 담합 논란 속 분기 영업익 1조…“중동전쟁 발 호황...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::sk이노·에쓰오일, 담합 논란 속 분기 영업익 1조…“중동전쟁 발 호황...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://www.ceoscoredaily.com/page/view/2026072317115442045",
+      "id": "23f3ec6ec5c2b12f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 4사, 담합 논란 속 2분기도 웃나...정제마진이 살려새 창 열림",
+      "url": "https://www.ajunews.com/view/20260723135205023",
+      "source": "새 창 열림",
+      "published_at": "2026-07-23T18:26:39.435593+09:00",
+      "snippet": "SK이노베이션·에쓰오일 영업익 1조원대 전망 역래깅보다 정제마진 강세가 실적 견인 최고가격제 정산·담합 재판은 하반기 변수 아주경제=신지아 기자 fromjia@ajunews.com 시계방향으로 SK에너지 CI, GS칼텍스 CI, 에쓰오일 CI, HD현대오일뱅크 CI [사진=각사] 국내 정유 4사가 석유제품 가격 담합 논란 속에서도 올해... 새 창 열림",
+      "collected_at": "2026-07-24T08:26:39.435625+09:00",
+      "normalized_title": "정유 4사, 담합 논란 속 2분기도 웃나...정제마진이 살려새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정유 4사, 담합 논란 속 2분기도 웃나...정제마진이 살려새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.ajunews.com/view/20260723135205023",
+      "id": "a6c4ee2ad724987f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

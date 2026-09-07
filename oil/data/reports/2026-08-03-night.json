@@ -1,0 +1,124 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-03",
+  "slot": "night",
+  "period_start": "2026-08-03T17:00:00+09:00",
+  "period_end": "2026-08-04T00:00:00+09:00",
+  "period_label": "2026-08-03 17:00 ~ 2026-08-04 00:00",
+  "generated_at": "2026-08-04T09:15:26.057217+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1572,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1182
+  },
+  "query_counts": {
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유업계 담합": 1,
+    "주유소 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "고유가에 '가짜석유' 급증…두달간 주유소 5곳 영업정지새 창 열림",
+      "url": "https://www.newspim.com/news/view/20260803001282",
+      "source": "새 창 열림",
+      "published_at": "2026-08-03T18:10:46.024422+09:00",
+      "snippet": "최영수 선임기자 = 최근 고유가를 틈타 가짜석유를 판매하다 영업정치 처분을 받는 사례가 늘고 있다. 지난 6월 이후 두 달간 주유소 5곳이... 정부 관계자는 \"범부처 석유시장 점검단을 구성해 정량미달, 가짜석유, 가격담합, 세금탈루 등 불법행위를 엄중 단속하고 있다\"고 강조했다. [AI 일러스트=최영수... 새 창 열림",
+      "collected_at": "2026-08-04T08:10:46.024433+09:00",
+      "normalized_title": "고유가에 '가짜석유' 급증…두달간 주유소 5곳 영업정지새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::고유가에 '가짜석유' 급증…두달간 주유소 5곳 영업정지새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.newspim.com/news/view/20260803001282",
+      "id": "853626b2df397966",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "주유소",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "에쓰오일, 정유·윤활 호조 2분기 영업익 9650억…“하반기 공급 차질 전...새 창 열림",
+      "url": "https://www.ceoscoredaily.com/page/view/2026080315514430725",
+      "source": "새 창 열림",
+      "published_at": "2026-08-03T18:10:46.023415+09:00",
+      "snippet": "올해 2분기 두바이유 원유 평균 가격은 배럴당 79.5달러로 전년 동기 대비 10.2달러 상승했으며, 휘발유 스프레드는 배럴당 25.6달러로 15.7달러 올랐다.... 중동 정세와 함께 최고가격제 손실보전액 산정, 유가 담합 관련 검찰 수사 등 외부 변수도 하반기 실적에 영향을 미칠 요인으로 꼽힌다. 정부는 지난 3월... 새 창 열림",
+      "collected_at": "2026-08-04T08:10:46.023426+09:00",
+      "normalized_title": "에쓰오일, 정유·윤활 호조 2분기 영업익 9650억…“하반기 공급 차질 전...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::에쓰오일, 정유·윤활 호조 2분기 영업익 9650억…“하반기 공급 차질 전...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.ceoscoredaily.com/page/view/2026080315514430725",
+      "id": "3105cf701978ce48",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

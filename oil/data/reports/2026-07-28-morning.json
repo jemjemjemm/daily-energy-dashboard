@@ -1,0 +1,507 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-28",
+  "slot": "morning",
+  "period_start": "2026-07-28T00:00:00+09:00",
+  "period_end": "2026-07-28T08:00:00+09:00",
+  "period_label": "2026-07-28 00:00 ~ 2026-07-28 08:00",
+  "generated_at": "2026-07-28T09:11:54.463768+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1576,
+  "total_deduped_count": 13,
+  "total_ok_count": 13,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 11
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1186
+  },
+  "query_counts": {
+    "경유 담합": 8,
+    "석유 담합": 12,
+    "석유제품 담합": 3,
+    "유가 담합": 12,
+    "유가담합": 12,
+    "정유사 담합": 10,
+    "정유업계 담합": 5,
+    "주유소 담합": 2,
+    "휘발유 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "李 “정통망법 시행, 허위·조작 사례에 단호히 대응하라”",
+      "url": "http://v.daum.net/v/20260728004852980",
+      "source": "조선일보",
+      "published_at": "2026-07-28T01:10:05.855895+09:00",
+      "snippet": "단속을 강조한 것이다. 물가 안정과 관련해 이 대통령은 “유가 불안이 확실하게 해소되는 시점까지 석유 최고가격제를 지속하고...중동 전쟁을 틈타서 국내 정유사들이 수십조 원 규모의 담합 행위를 했던 것이 수사 결과 드러났다”며 “기름뿐 아니라, 다른 핵심... 8시간 전",
+      "collected_at": "2026-07-28T09:10:05.855920+09:00",
+      "normalized_title": "李 “정통망법 시행, 허위·조작 사례에 단호히 대응하라”",
+      "source_normalized": "조선일보",
+      "duplicate_key": "조선일보::李 “정통망법 시행, 허위·조작 사례에 단호히 대응하라”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260728004852980",
+      "id": "b847c7818a9f9afc",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "조선일보",
+      "url": "https://v.daum.net/channel/200/home",
+      "source": "조선일보",
+      "published_at": "2026-07-28T01:10:04.529883+09:00",
+      "snippet": "단속을 강조한 것이다. 물가 안정과 관련해 이 대통령은 “유가 불안이 확실하게 해소되는 시점까지 석유 최고가격제를 지속하고...중동 전쟁을 틈타서 국내 정유사들이 수십조 원 규모의 담합 행위를 했던 것이 수사 결과 드러났다”며 “기름뿐 아니라, 다른 핵심... 8시간 전",
+      "collected_at": "2026-07-28T09:10:04.529895+09:00",
+      "normalized_title": "조선일보",
+      "source_normalized": "조선일보",
+      "duplicate_key": "조선일보::조선일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/200/home",
+      "id": "4a6dd87e3493016c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정제마진 강세에 정유4사 실적 2분기 '맑음'…하반기 '먹구름'",
+      "url": "http://v.daum.net/v/20260728060137918",
+      "source": "동행미디어 시대",
+      "published_at": "2026-07-28T06:10:04.529032+09:00",
+      "snippet": "판매가격에 반영하기 어렵다. 정부가 정유업계가 주장하던 국제 석유제품 가격(MOPS)이 아닌 실제 투입 원가를 기준으로 손실보전액을...공동으로 올린 것으로 보고 있다. 검찰이 추산한 직접 담합 규모는 14조2000억원이다. 업계 관계자는 \"정제마진 강세가 2분기... 3시간 전",
+      "collected_at": "2026-07-28T09:10:04.529057+09:00",
+      "normalized_title": "정제마진 강세에 정유4사 실적 2분기 '맑음'…하반기 '먹구름'",
+      "source_normalized": "동행미디어 시대",
+      "duplicate_key": "동행미디어 시대::정제마진 강세에 정유4사 실적 2분기 '맑음'…하반기 '먹구름'",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://v.daum.net/v/20260728060137918",
+      "id": "f179dfb1c712687d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "동행미디어 시대",
+      "url": "https://v.daum.net/channel/157/home",
+      "source": "동행미디어 시대",
+      "published_at": "2026-07-28T06:10:03.306763+09:00",
+      "snippet": "판매가격에 반영하기 어렵다. 정부가 정유업계가 주장하던 국제 석유제품 가격(MOPS)이 아닌 실제 투입 원가를 기준으로 손실보전액을...공동으로 올린 것으로 보고 있다. 검찰이 추산한 직접 담합 규모는 14조2000억원이다. 업계 관계자는 \"정제마진 강세가 2분기... 3시간 전",
+      "collected_at": "2026-07-28T09:10:03.306780+09:00",
+      "normalized_title": "동행미디어 시대",
+      "source_normalized": "동행미디어 시대",
+      "duplicate_key": "동행미디어 시대::동행미디어 시대",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://v.daum.net/channel/157/home",
+      "id": "791f62688c3f3d07",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“이동노동자 등 경유 의존도 높은 계층 부담 완화해야”",
+      "url": "http://v.daum.net/v/20260728063241685",
+      "source": "매일노동뉴스",
+      "published_at": "2026-07-28T07:10:03.305840+09:00",
+      "snippet": "밝혔다. 그는 \"유가 불안이 확실하게 해소되는 시점까지 석유 최고가격제를 지속하고, 유류세 인하 등의 정책수단도 최대한 유지해...며 \"이번 중동전쟁을 틈타 국내 정유사들이 수십조원 규모의 담합행위를 했던 것이 수사 결과 드러났다\"고 지적했다. 그는 \"기름뿐... 2시간 전",
+      "collected_at": "2026-07-28T09:10:03.305868+09:00",
+      "normalized_title": "“이동노동자 등 경유 의존도 높은 계층 부담 완화해야”",
+      "source_normalized": "매일노동뉴스",
+      "duplicate_key": "매일노동뉴스::“이동노동자 등 경유 의존도 높은 계층 부담 완화해야”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260728063241685",
+      "id": "aacdaf1dbdb949ea",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "매일노동뉴스",
+      "url": "https://v.daum.net/channel/552800/home",
+      "source": "매일노동뉴스",
+      "published_at": "2026-07-28T07:10:01.639133+09:00",
+      "snippet": "밝혔다. 그는 \"유가 불안이 확실하게 해소되는 시점까지 석유 최고가격제를 지속하고, 유류세 인하 등의 정책수단도 최대한 유지해...며 \"이번 중동전쟁을 틈타 국내 정유사들이 수십조원 규모의 담합행위를 했던 것이 수사 결과 드러났다\"고 지적했다. 그는 \"기름뿐... 2시간 전",
+      "collected_at": "2026-07-28T09:10:01.639158+09:00",
+      "normalized_title": "매일노동뉴스",
+      "source_normalized": "매일노동뉴스",
+      "duplicate_key": "매일노동뉴스::매일노동뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/552800/home",
+      "id": "6516857be65e93e1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"이동노동자 등 경유 의존도 높은 계층 부담 완화해야\"새 창 열림",
+      "url": "https://www.labortoday.co.kr/news/articleView.html?idxno=235923",
+      "source": "새 창 열림",
+      "published_at": "2026-07-28T07:10:00.584915+09:00",
+      "snippet": "국제 유가가 출렁이고 있다\"며 \"국내 물가에 미칠 영향을 최소화하기 위한 선제적 노력을 빠르게 기울여야 한다\"고 밝혔다. 그는 \"유가 불안이 확실하게... 규모의 담합행위를 했던 것이 수사 결과 드러났다\"고 지적했다. 그는 \"기름뿐 아니라, 다른 핵심 민생 품목들에 대해서도 매점매석·담합 행위 같은 사례가... 새 창 열림",
+      "collected_at": "2026-07-28T09:10:00.584946+09:00",
+      "normalized_title": "\"이동노동자 등 경유 의존도 높은 계층 부담 완화해야\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::\"이동노동자 등 경유 의존도 높은 계층 부담 완화해야\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.labortoday.co.kr/news/articleView.html?idxno=235923",
+      "id": "764715509fb8b670",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정제마진 강세에 정유4사 실적 2분기 '맑음'…하반기 '먹구름'새 창 열림",
+      "url": "https://www.sidae.com/article/2026072714524082808",
+      "source": "새 창 열림",
+      "published_at": "2026-07-28T06:10:00.586098+09:00",
+      "snippet": "검찰은 이들이 가격 정보를 교환하고 중동 전쟁 이후 국내 석유제품 공급가격을 공동으로 올린 것으로 보고 있다. 검찰이 추산한 직접 담합 규모는 14조2000억원이다. 업계 관계자는 \"정제마진 강세가 2분기 실적을 뒷받침할 것으로 예상된다\"며 \"중동 정세와 국제유가의 변동성이 큰 만큼 상황을 면밀히 살피고... 새 창 열림",
+      "collected_at": "2026-07-28T09:10:00.586111+09:00",
+      "normalized_title": "정제마진 강세에 정유4사 실적 2분기 '맑음'…하반기 '먹구름'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정제마진 강세에 정유4사 실적 2분기 '맑음'…하반기 '먹구름'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.sidae.com/article/2026072714524082808",
+      "id": "ccbbdc324660ef20",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "브라질 순방 중 화상 수보회의 주재한 李새 창 열림",
+      "url": "https://www.ajunews.com/view/20260727163134768",
+      "source": "새 창 열림",
+      "published_at": "2026-07-28T04:10:00.587096+09:00",
+      "snippet": "이 대통령은 유가 상승에 직접적인 영향을 받는 업종과 계층에 대한 맞춤형 지원책을 주문했다. 시장 교란 행위에 대해서는 강력한 단속을 당부했다. 이 대통령은 “기름뿐만 아니라 다른 핵심 민생 품목에서도 매점매석이나 담합 행위가 발생하지 않도록 관계 당국이 시장 교란 행위 단속에 만전을 기해... 새 창 열림",
+      "collected_at": "2026-07-28T09:10:00.587111+09:00",
+      "normalized_title": "브라질 순방 중 화상 수보회의 주재한 李새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::브라질 순방 중 화상 수보회의 주재한 李새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.ajunews.com/view/20260727163134768",
+      "id": "34e76b5e9edb45ac",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李 \"'샌프란시스코 AI 선언', 국가적 출사표…후속 조치 만전\"새 창 열림",
+      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2453015",
+      "source": "새 창 열림",
+      "published_at": "2026-07-28T02:10:00.588106+09:00",
+      "snippet": "이 대통령은 \"유가 불안이 해소될 때까지 석유 최고가격제를 지속하고, 유류세 인하 등 정책 수단도 최대한 유지해 달라\"며 \"상황이 악화되면 민생의... 이 대통령은 최근 국내 정유업계 담합 의혹 수사 결과를 언급하며 \"힘든 시기를 악용해 불법적 돈벌이에 나서는 행태 역시 확실하게 단죄해야 한다\"며 \"기름뿐... 새 창 열림",
+      "collected_at": "2026-07-28T09:10:00.588117+09:00",
+      "normalized_title": "李 \"'샌프란시스코 AI 선언', 국가적 출사표…후속 조치 만전\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李 \"'샌프란시스코 ai 선언', 국가적 출사표…후속 조치 만전\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2453015",
+      "id": "90299adffe695f63",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李 “정통망법 시행, 허위·조작 사례에 단호히 대응하라”새 창 열림",
+      "url": "https://www.chosun.com/politics/blue_house/2026/07/28/BYXL3OWM7ZBJNCR5K5ETTVW44M/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "source": "새 창 열림",
+      "published_at": "2026-07-28T01:10:00.589157+09:00",
+      "snippet": "이어 “이번 중동 전쟁을 틈타서 국내 정유사들이 수십조 원 규모의 담합 행위를 했던 것이 수사 결과 드러났다”며 “기름뿐 아니라, 다른 핵심 민생 품목들에 대해서도 매점매석·담합 행위 같은 사례가 발생하지 않도록 관계 당국이 시장 교란 행위 단속에 만전을 기해 주시기 바란다”고 했다. 이 대통령은... 새 창 열림",
+      "collected_at": "2026-07-28T09:10:00.589168+09:00",
+      "normalized_title": "李 “정통망법 시행, 허위·조작 사례에 단호히 대응하라”새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李 “정통망법 시행, 허위·조작 사례에 단호히 대응하라”새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.chosun.com/politics/blue_house/2026/07/28/BYXL3OWM7ZBJNCR5K5ETTVW44M/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "id": "787a93fc3cb24a65",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[스카이 View] ‘담합하면 패가망신’ 현실화해야새 창 열림",
+      "url": "https://m.skyedaily.com/news_view.html?ID=308488",
+      "source": "새 창 열림",
+      "published_at": "2026-07-28T00:11:31.792522+09:00",
+      "snippet": "미국·이란 전쟁 발발 당시 정유업계 담합까지 걸리면서 대한민국이 담합 공화국이라는 말까지 나왔다. 먼저 CJ제일제당, 삼양사, 대한제당이 설탕 가격을 담합한 것이 걸려 4083억 원의 과징금과 시정명령이 부과됐고 전현직 고위 임원과 법인이 기소됐다. 또한 대한제분, 사조동아원, 삼양사, 대선제분... 새 창 열림",
+      "collected_at": "2026-07-28T09:11:31.792532+09:00",
+      "normalized_title": "[스카이 View] ‘담합하면 패가망신’ 현실화해야새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[스카이 view] ‘담합하면 패가망신’ 현실화해야새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://m.skyedaily.com/news_view.html?ID=308488",
+      "id": "472e9345591986cb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 \"유가 안정 때까지 석유 최고가격제 유지\"새 창 열림",
+      "url": "https://www.ccdailynews.com/news/articleView.html?idxno=2430579",
+      "source": "새 창 열림",
+      "published_at": "2026-07-28T00:10:00.590090+09:00",
+      "snippet": "이 대통령은 \"중동 전쟁을 틈타 국내 정유사들의 수십조원 규모 담합 행위가 수사 결과 드러났다\"며 \"석유뿐 아니라 다른 민생 품목에서도 매점매석과 담합 등 시장 교란 행위가 발생하지 않도록 관계 당국이 단속에 만전을 기하고, 불법적인 돈벌이는 확실히 단죄해야 한다\"고 말했다. 생활물가 관리도 당부했다.... 새 창 열림",
+      "collected_at": "2026-07-28T09:10:00.590101+09:00",
+      "normalized_title": "李대통령 \"유가 안정 때까지 석유 최고가격제 유지\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李대통령 \"유가 안정 때까지 석유 최고가격제 유지\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.ccdailynews.com/news/articleView.html?idxno=2430579",
+      "id": "585a7098848c6bfa",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

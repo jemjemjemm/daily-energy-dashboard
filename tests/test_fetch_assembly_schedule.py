@@ -52,11 +52,10 @@ class AssemblyScheduleResponseTest(unittest.TestCase):
             decode_response({"RESULT": {"CODE": "ERROR-300", "MESSAGE": "인증키가 유효하지 않습니다."}})
 
     def test_dashboard_does_not_load_assembly_calendar_decorations(self) -> None:
-        for html_path in (Path("public/index.html"), Path("docs/index.html")):
-            html = html_path.read_text(encoding="utf-8")
-            self.assertNotIn("assets/assembly-calendar.css", html)
-            self.assertNotIn("assets/assembly-calendar.js", html)
-            self.assertIn("dataset.date", html)
+        html = Path("docs/index.html").read_text(encoding="utf-8")
+        self.assertNotIn("assets/assembly-calendar.css", html)
+        self.assertNotIn("assets/assembly-calendar.js", html)
+        self.assertIn("dataset.date", html)
 
     def test_form_encoded_date_separator_is_normalized(self) -> None:
         self.assertEqual(parse_date("2026+07-13").isoformat(), "2026-07-13")

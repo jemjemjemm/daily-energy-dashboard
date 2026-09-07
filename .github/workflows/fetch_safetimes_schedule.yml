@@ -433,19 +433,6 @@ jobs:
             --reports-dir docs/reports \
             --out docs/report-index.json
 
-      - name: Sync docs reports to public
-        if: env.RUN_MODE == 'range' || (env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true')
-        run: |
-          mkdir -p public/reports
-          mkdir -p public/schedules
-          cp -f docs/report-index.json public/report-index.json
-          if compgen -G "docs/reports/*.html" > /dev/null; then
-            cp -f docs/reports/*.html public/reports/
-          fi
-          if compgen -G "docs/schedules/*.html" > /dev/null; then
-            cp -f docs/schedules/*.html public/schedules/
-          fi
-
       - name: Validate generated report HTML
         if: env.RUN_MODE == 'range' || (env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true')
         run: |
@@ -492,10 +479,6 @@ jobs:
           git add docs/reports/ || true
           git add docs/schedules/ || true
           git add docs/report-index.json || true
-          git add public/index.html || true
-          git add public/assembly/ public/assembly-schedule-index.json public/assets/ || true
-          git add public/reports/ || true
-          git add public/schedules/ || true
           git add public/report-index.json || true
 
           if git diff --cached --quiet; then

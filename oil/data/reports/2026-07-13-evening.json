@@ -1,0 +1,252 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-13",
+  "slot": "evening",
+  "period_start": "2026-07-13T08:00:00+09:00",
+  "period_end": "2026-07-13T17:00:00+09:00",
+  "period_label": "2026-07-13 08:00 ~ 2026-07-13 17:00",
+  "generated_at": "2026-07-14T08:36:01.631091+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1592,
+  "total_deduped_count": 6,
+  "total_ok_count": 6,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 6
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1202
+  },
+  "query_counts": {
+    "석유 담합": 5,
+    "석유제품 담합": 1,
+    "유가 담합": 5,
+    "유가담합": 5,
+    "정유사 담합": 4,
+    "정유업계 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[특징주]국제유가 껑충에…유가 담합 정유주 급등, 에쓰오일 5.6%↑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uRWdRNUthU1c3RmpCVnRMaGhBX0RBZnpEYzRMNUY1TzlUOWxuVzUxU1BxdXVCOFM2UkRYVk1FanROOXZPSjNlSVRYMjVUMkQ2U284?oc=5",
+      "source": "네이트",
+      "published_at": "2026-07-13T09:55:00+09:00",
+      "snippet": "[특징주]국제유가 껑충에…유가 담합 정유주 급등, 에쓰오일 5.6%↑ 네이트",
+      "collected_at": "2026-07-14T08:35:15.226791+09:00",
+      "normalized_title": "[특징주]국제유가 껑충에…유가 담합 정유주 급등, 에쓰오일 5.6%↑",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::[특징주]국제유가 껑충에…유가 담합 정유주 급등, 에쓰오일 5.6%↑",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uRWdRNUthU1c3RmpCVnRMaGhBX0RBZnpEYzRMNUY1TzlUOWxuVzUxU1BxdXVCOFM2UkRYVk1FanROOXZPSjNlSVRYMjVUMkQ2U284?oc=5",
+      "id": "15f3bd407b05a6eb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[특징주]국제유가 껑충에…유가 담합 정유주 급등, 에쓰오일 5.6%↑",
+      "url": "http://v.daum.net/v/20260713095637234",
+      "source": "동행미디어 시대",
+      "published_at": "2026-07-13T10:35:14.614419+09:00",
+      "snippet": "주요 정유사의 주가도 강세다. 최근 국내 주요 정유사들은 유가 담합이 적발돼 법인과 임직원들이 검찰에 기소된 바 있다. 13일 한국...상승한 11만3000원 선에서 거래 중이고 금호석유화학(3.41%), 한국석유(4.56%)도 상승세다. 코스닥 상상자 흥구석유도 10.79%... 22시간 전",
+      "collected_at": "2026-07-14T08:35:14.614447+09:00",
+      "normalized_title": "[특징주]국제유가 껑충에…유가 담합 정유주 급등, 에쓰오일 5.6%↑",
+      "source_normalized": "동행미디어 시대",
+      "duplicate_key": "동행미디어 시대::[특징주]국제유가 껑충에…유가 담합 정유주 급등, 에쓰오일 5.6%↑",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260713095637234",
+      "id": "58e3721ffed7cf74",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "동행미디어 시대",
+      "url": "https://v.daum.net/channel/157/home",
+      "source": "동행미디어 시대",
+      "published_at": "2026-07-13T10:35:12.818040+09:00",
+      "snippet": "주요 정유사의 주가도 강세다. 최근 국내 주요 정유사들은 유가 담합이 적발돼 법인과 임직원들이 검찰에 기소된 바 있다. 13일 한국...상승한 11만3000원 선에서 거래 중이고 금호석유화학(3.41%), 한국석유(4.56%)도 상승세다. 코스닥 상상자 흥구석유도 10.79%... 22시간 전",
+      "collected_at": "2026-07-14T08:35:12.818055+09:00",
+      "normalized_title": "동행미디어 시대",
+      "source_normalized": "동행미디어 시대",
+      "duplicate_key": "동행미디어 시대::동행미디어 시대",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/157/home",
+      "id": "791f62688c3f3d07",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국내 정유사, 사법 리스크에 '마이너스 래깅 효과'까지 '하반기 적신호...새 창 열림",
+      "url": "https://economist.co.kr/article/view/ecn202607130048",
+      "source": "새 창 열림",
+      "published_at": "2026-07-13T16:35:09.059105+09:00",
+      "snippet": "지난 2011년 과징금 총 4348억원이 부여된 정유사의 ‘원적지 담합사건’도 4년 동안 재판이 이어졌다. 석유제품 최고가격제 시행에 따른 정유사의 손실 보전 작업도 지체되고 있다. 정부는 4조2000억원 규모의 예비비를 편성하고 정유사의 손실 보전 작업을 진행 중이다. 하지만 담합이라는 사법 리스크가... 새 창 열림",
+      "collected_at": "2026-07-14T08:35:09.059124+09:00",
+      "normalized_title": "국내 정유사, 사법 리스크에 '마이너스 래깅 효과'까지 '하반기 적신호...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::국내 정유사, 사법 리스크에 '마이너스 래깅 효과'까지 '하반기 적신호...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://economist.co.kr/article/view/ecn202607130048",
+      "id": "e7743e76426f19e5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[특징주]국제유가 껑충에…유가 담합 정유주 급등, 에쓰오일 5.6%↑새 창 열림",
+      "url": "https://www.sidae.com/article/2026071309513017033",
+      "source": "새 창 열림",
+      "published_at": "2026-07-13T10:35:09.060523+09:00",
+      "snippet": "최근 국내 주요 정유사들은 유가 담합이 적발돼 법인과 임직원들이 검찰에 기소된 바 있다. 13일 한국거래소에 따르면 이날 오전 9시46분 기준 에쓰오일(S-OIL)은 코스피에서 전 거래일 대비 7400원(5.60%) 오른 13만9500원, GS는 3800원(4.74%) 뛴 8만4000원 선에서 거래된다. SK이노베이션은 1만100원(9.82... 새 창 열림",
+      "collected_at": "2026-07-14T08:35:09.060539+09:00",
+      "normalized_title": "[특징주]국제유가 껑충에…유가 담합 정유주 급등, 에쓰오일 5.6%↑새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[특징주]국제유가 껑충에…유가 담합 정유주 급등, 에쓰오일 5.6%↑새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.sidae.com/article/2026071309513017033",
+      "id": "8a33d0ef821c4cb7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[취재수첩] 검찰 닮아가는 공정위의 담합 사실 공표새 창 열림",
+      "url": "https://www.hankyung.com/article/2026071201961",
+      "source": "새 창 열림",
+      "published_at": "2026-07-13T08:35:46.723186+09:00",
+      "snippet": "이달 6일 검찰이 정유업계 담합 수사 결과를 공개하자 공정위 안팎에선 “또 검찰에 선수를 빼앗겼다”는 말이 돌았다. 경쟁법 전문가들은 공정위의 ‘사전 사건 공표’는 준사법기관의 근간을 흔드는 위험한 행보라고 지적한다. 핵심은 공정위가 검찰(조사)과 법원(심판) 기능을 동시에 수행하는 ‘한 지붕’... 새 창 열림",
+      "collected_at": "2026-07-14T08:35:46.723200+09:00",
+      "normalized_title": "[취재수첩] 검찰 닮아가는 공정위의 담합 사실 공표새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[취재수첩] 검찰 닮아가는 공정위의 담합 사실 공표새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.hankyung.com/article/2026071201961",
+      "id": "ebe63d10de575532",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

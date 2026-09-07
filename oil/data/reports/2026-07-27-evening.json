@@ -1,0 +1,2384 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-27",
+  "slot": "evening",
+  "period_start": "2026-07-27T08:00:00+09:00",
+  "period_end": "2026-07-27T17:00:00+09:00",
+  "period_label": "2026-07-27 08:00 ~ 2026-07-27 17:00",
+  "generated_at": "2026-07-27T20:35:56.673119+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1566,
+  "total_deduped_count": 72,
+  "total_ok_count": 72,
+  "total_review_count": 0,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 9,
+    "B": 12,
+    "C": 51
+  },
+  "portal_counts": {
+    "naver": 129,
+    "daum": 260,
+    "google": 1177
+  },
+  "query_counts": {
+    "경유 담합": 26,
+    "기름값 담합": 14,
+    "석유 담합": 32,
+    "석유제품 담합": 4,
+    "유가 담합": 34,
+    "유가담합": 30,
+    "유류가격 담합": 2,
+    "정유사 담합": 41,
+    "정유업계 담합": 20,
+    "주유소 담합": 3,
+    "휘발유 담합": 6
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "이 대통령 “중수청 개청 준비 만전…선공후사 원칙 잘 지켜야”…순방 중 수석보좌관회의 주재",
+      "url": "http://v.daum.net/v/20260727154127139",
+      "source": "경향신문",
+      "published_at": "2026-07-27T16:09:44.888379+09:00",
+      "snippet": "인하 같은 정책 수단도 최대한 유지해 주기 바란다”며 “(유가) 상황이 악화하면 민생의 어려움을 완화하기 위한 추가 방안도 적극...중동 전쟁을 틈타서 국내 정유사들이 수십조원 규모의 담합 행위를 했던 것이 수사 결과 드러났다”며 “기름뿐 아니라 다른 핵심... 1시간 전",
+      "collected_at": "2026-07-27T17:09:44.888403+09:00",
+      "normalized_title": "이 대통령 “중수청 개청 준비 만전…선공후사 원칙 잘 지켜야”…순방 중 수석보좌관회의 주재",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::이 대통령 “중수청 개청 준비 만전…선공후사 원칙 잘 지켜야”…순방 중 수석보좌관회의 주재",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260727154127139",
+      "id": "333b21a710b7d783",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경향신문",
+      "url": "https://v.daum.net/channel/11/home",
+      "source": "경향신문",
+      "published_at": "2026-07-27T16:09:43.691034+09:00",
+      "snippet": "인하 같은 정책 수단도 최대한 유지해 주기 바란다”며 “(유가) 상황이 악화하면 민생의 어려움을 완화하기 위한 추가 방안도 적극...중동 전쟁을 틈타서 국내 정유사들이 수십조원 규모의 담합 행위를 했던 것이 수사 결과 드러났다”며 “기름뿐 아니라 다른 핵심... 1시간 전",
+      "collected_at": "2026-07-27T17:09:43.691046+09:00",
+      "normalized_title": "경향신문",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::경향신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/11/home",
+      "id": "be66a2e6ebbd2f4f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보]李 “중동전쟁 틈타 정유사 수십조 담합, 최고가격제 지속”…국제유가 5% 가까이 급락",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1zbXM0OC1La1B3X2lJZkNaakczdmdhdEFUTDZRY2M4UE5FUGdZLWNicWxfNTMzTFdOZlc3TldMUE5LRlFaaVdsS21fd2F6amYz?oc=5",
+      "source": "문화일보",
+      "published_at": "2026-07-27T09:43:29+09:00",
+      "snippet": "매점매석과 담합 행위 같은 사례가 발생하지 않도록 관계 당국이 시장교란 단속에 만전을 기해주길 바란다”고 강조했다. 이 대통령은 “1분기에 이어 2분기 성장률도 거의 4%에 가까운 3.7%를 기록했다. 실제 국내총소득 증가도 38년만에 최고치인 15.6% 정도를... 7시간 전 1",
+      "collected_at": "2026-07-27T17:10:12.455711+09:00",
+      "normalized_title": "李 “중동전쟁 틈타 정유사 수십조 담합, 최고가격제 지속”…국제유가 5% 가까이 급락",
+      "source_normalized": "문화일보",
+      "duplicate_key": "문화일보::李 “중동전쟁 틈타 정유사 수십조 담합, 최고가격제 지속”…국제유가 5% 가까이 급락",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유제품 담합",
+        "유가 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1zbXM0OC1La1B3X2lJZkNaakczdmdhdEFUTDZRY2M4UE5FUGdZLWNicWxfNTMzTFdOZlc3TldMUE5LRlFaaVdsS21fd2F6amYz?oc=5",
+      "id": "4bb1db817181f68c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보] 李대통령 \"중동 전쟁 틈타 정유사 수십조 담합…시장교란 행위 단속에 만전\"",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UVTRWRkFUb1l1bFZkWGRsSkZtV3RFQWdrR1hGa1hzQVBuUUMwSWdsNjhfWExZZ3B4dUpJVmozZ2QtSFVHcFA1MTNYVHVJSmk4cEtoaUdKNm9kZw?oc=5",
+      "source": "한국경제",
+      "published_at": "2026-07-27T09:13:36+09:00",
+      "snippet": "[속보] 李대통령 \"중동 전쟁 틈타 정유사 수십조 담합…시장교란 행위 단속에 만전\" 한국경제",
+      "collected_at": "2026-07-27T17:10:27.926850+09:00",
+      "normalized_title": "李대통령 \"중동 전쟁 틈타 정유사 수십조 담합…시장교란 행위 단속에 만전\"",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::李대통령 \"중동 전쟁 틈타 정유사 수십조 담합…시장교란 행위 단속에 만전\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UVTRWRkFUb1l1bFZkWGRsSkZtV3RFQWdrR1hGa1hzQVBuUUMwSWdsNjhfWExZZ3B4dUpJVmozZ2QtSFVHcFA1MTNYVHVJSmk4cEtoaUdKNm9kZw?oc=5",
+      "id": "cb1aa512e289449d",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "브라질 순방 중 화상 수보회의…李 \"'샌프란 AI 선언' 국가적 출사표…후속조치 만전\"",
+      "url": "http://v.daum.net/v/20260727094727047",
+      "source": "아시아경제",
+      "published_at": "2026-07-27T10:11:11.686525+09:00",
+      "snippet": "말했다. 특히 경유 의존도가 높은 화물차·건설기계 운전자와 농어민, 이동노동자에 대한 지원도 지속해 달라고 당부했다. 정유업계의 담합 행위를 거론하면서는 \"기름뿐 아니라 다른 핵심 민생 품목에서도 매점매석과 담합 같은 시장교란 행위가 발생하지 않도록... 7시간 전 2",
+      "collected_at": "2026-07-27T17:11:11.686548+09:00",
+      "normalized_title": "브라질 순방 중 화상 수보회의…李 \"'샌프란 AI 선언' 국가적 출사표…후속조치 만전\"",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::브라질 순방 중 화상 수보회의…李 \"'샌프란 ai 선언' 국가적 출사표…후속조치 만전\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260727094727047",
+      "id": "4603ca3e4a3ef42e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "아시아경제",
+      "url": "https://v.daum.net/channel/90/home",
+      "source": "아시아경제",
+      "published_at": "2026-07-27T10:11:10.433989+09:00",
+      "snippet": "말했다. 특히 경유 의존도가 높은 화물차·건설기계 운전자와 농어민, 이동노동자에 대한 지원도 지속해 달라고 당부했다. 정유업계의 담합 행위를 거론하면서는 \"기름뿐 아니라 다른 핵심 민생 품목에서도 매점매석과 담합 같은 시장교란 행위가 발생하지 않도록... 7시간 전 2",
+      "collected_at": "2026-07-27T17:11:10.434002+09:00",
+      "normalized_title": "아시아경제",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::아시아경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/90/home",
+      "id": "7197c286bb7e5fce",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 “허위정보 여론 왜곡 단호 대응…AI 기본사회 공론화”",
+      "url": "http://v.daum.net/v/20260727135216281",
+      "source": "디지털타임스",
+      "published_at": "2026-07-27T14:09:54.719613+09:00",
+      "snippet": "중동 불안정에 따른 물가 대책을 재차 강조했다. 이 대통령은 “유가 불안이 확실하게 해소될 때까지 석유 최고가격제를 지속하고...고 주문했다. 아울러 “중동 전쟁을 틈타 수십조원 규모의 담합 행위를 한 국내 정유사들처럼 다른 핵심 품목에서도 매점매석이나... 3시간 전 1",
+      "collected_at": "2026-07-27T17:09:54.719638+09:00",
+      "normalized_title": "李대통령 “허위정보 여론 왜곡 단호 대응…AI 기본사회 공론화”",
+      "source_normalized": "디지털타임스",
+      "duplicate_key": "디지털타임스::李대통령 “허위정보 여론 왜곡 단호 대응…ai 기본사회 공론화”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260727135216281",
+      "id": "7d485773984290e8",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "디지털타임스",
+      "url": "https://v.daum.net/channel/94/home",
+      "source": "디지털타임스",
+      "published_at": "2026-07-27T14:09:53.248608+09:00",
+      "snippet": "중동 불안정에 따른 물가 대책을 재차 강조했다. 이 대통령은 “유가 불안이 확실하게 해소될 때까지 석유 최고가격제를 지속하고...고 주문했다. 아울러 “중동 전쟁을 틈타 수십조원 규모의 담합 행위를 한 국내 정유사들처럼 다른 핵심 품목에서도 매점매석이나... 3시간 전 1",
+      "collected_at": "2026-07-27T17:09:53.248620+09:00",
+      "normalized_title": "디지털타임스",
+      "source_normalized": "디지털타임스",
+      "duplicate_key": "디지털타임스::디지털타임스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/94/home",
+      "id": "7e90b144530fab47",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보] 李대통령 \"중동 전쟁 틈타 정유사 수십조 담합…시장교란 행위 단속에 만전\"",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqOHdvVUNNQjNfSHJSNkM1aXN1UlZubXNnaW1GbV90YXZnbmJlWUZGM0tCVXpUNTlMcElXZHowWlc4d001MnhMcmp2YmpxRnlORWgwal82dlNtVTQ?oc=5",
+      "source": "뉴스1",
+      "published_at": "2026-07-27T09:12:04+09:00",
+      "snippet": "[속보] 李대통령 \"중동 전쟁 틈타 정유사 수십조 담합…시장교란 행위 단속에 만전\" 뉴스1",
+      "collected_at": "2026-07-27T17:10:27.927258+09:00",
+      "normalized_title": "李대통령 \"중동 전쟁 틈타 정유사 수십조 담합…시장교란 행위 단속에 만전\"",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::李대통령 \"중동 전쟁 틈타 정유사 수십조 담합…시장교란 행위 단속에 만전\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqOHdvVUNNQjNfSHJSNkM1aXN1UlZubXNnaW1GbV90YXZnbmJlWUZGM0tCVXpUNTlMcElXZHowWlc4d001MnhMcmp2YmpxRnlORWgwal82dlNtVTQ?oc=5",
+      "id": "1d4359144ffb1ca5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보] 이재명 대통령 중동 전쟁 틈타 정유사 담합…시장교란 행위 단속",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5WE0yNlEwSElfTmhIX3BySWhTQVIyZUpLcENiYnhuOGNZQlBoeUxfS2hRZTVQM0RqRG1xQVVkSVBVVk80bUo0T3Z0SEpWQThJS1gtZ3FZZU1DQdIBWEFVX3lxTE1tdWxsaU91R3JJbVNyTE5WVXFwU0xFcV8zU1BLRC01MTB1UWl6TFZ2b2lVWjNyalNVR0s3MmZJZHdjWE5VYmtaa21uVmxsRHdFYm5mNkJXUVY?oc=5",
+      "source": "아주경제",
+      "published_at": "2026-07-27T09:17:44+09:00",
+      "snippet": "[속보] 이재명 대통령 중동 전쟁 틈타 정유사 담합…시장교란 행위 단속 아주경제",
+      "collected_at": "2026-07-27T17:10:27.926267+09:00",
+      "normalized_title": "이재명 대통령 중동 전쟁 틈타 정유사 담합…시장교란 행위 단속",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::이재명 대통령 중동 전쟁 틈타 정유사 담합…시장교란 행위 단속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5WE0yNlEwSElfTmhIX3BySWhTQVIyZUpLcENiYnhuOGNZQlBoeUxfS2hRZTVQM0RqRG1xQVVkSVBVVk80bUo0T3Z0SEpWQThJS1gtZ3FZZU1DQdIBWEFVX3lxTE1tdWxsaU91R3JJbVNyTE5WVXFwU0xFcV8zU1BLRC01MTB1UWl6TFZ2b2lVWjNyalNVR0s3MmZJZHdjWE5VYmtaa21uVmxsRHdFYm5mNkJXUVY?oc=5",
+      "id": "89ba0288a5a4614d",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"중동전 틈타 수십조 담합\"…순방 도중 '정유사' 직격",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JdDhzelhVZ1l2b2RQUmJXUlgybG5DT05aXzZhTWIyY1kzWXdFeTlySl9MZ0t2Y0JtOFdJUVpzd29oQ3JwdXhTUDVybnlsV3hMc0lTNkNjc1VIOWh1SUVvUw?oc=5",
+      "source": "뉴스토마토",
+      "published_at": "2026-07-27T15:19:41+09:00",
+      "snippet": "\"중동전 틈타 수십조 담합\"…순방 도중 '정유사' 직격 뉴스토마토",
+      "collected_at": "2026-07-27T17:10:27.926412+09:00",
+      "normalized_title": "\"중동전 틈타 수십조 담합\"…순방 도중 '정유사' 직격",
+      "source_normalized": "뉴스토마토",
+      "duplicate_key": "뉴스토마토::\"중동전 틈타 수십조 담합\"…순방 도중 '정유사' 직격",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JdDhzelhVZ1l2b2RQUmJXUlgybG5DT05aXzZhTWIyY1kzWXdFeTlySl9MZ0t2Y0JtOFdJUVpzd29oQ3JwdXhTUDVybnlsV3hMc0lTNkNjc1VIOWh1SUVvUw?oc=5",
+      "id": "55bb765cb42c7cb4",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"석유 최고가격제 지속\"…오늘 밤 룰라와 정상회담",
+      "url": "http://v.daum.net/v/20260727121206629",
+      "source": "SBS",
+      "published_at": "2026-07-27T13:10:27.268937+09:00",
+      "snippet": "수단도 최대한 유지해 주시기 바랍니다.] 화물차와 건설기계 운전자 등을 위한 지원 대책도 지속 추진하고 최근 적발된 국내 정유사들의 담합 행위 같은 시장 교란 행위 단속에 만전을 기해 달라고 관계 당국에 당부했습니다. 이 대통령은 지난 주말 샌프란시스코... 4시간 전",
+      "collected_at": "2026-07-27T17:10:27.268959+09:00",
+      "normalized_title": "\"석유 최고가격제 지속\"…오늘 밤 룰라와 정상회담",
+      "source_normalized": "SBS",
+      "duplicate_key": "sbs::\"석유 최고가격제 지속\"…오늘 밤 룰라와 정상회담",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260727121206629",
+      "id": "bcedd2ac29481938",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SBS",
+      "url": "https://v.daum.net/channel/73/home",
+      "source": "SBS",
+      "published_at": "2026-07-27T13:10:25.840985+09:00",
+      "snippet": "검찰은 HD현대오일뱅크와 SK에너지의 담합 규모는 14조 2천억 원에 이르고, GS칼텍스와 에스오일이 두 회사의 담합 가격을 참고해 기름값을 올린 것을 감안하면 26조 원 상당의 경쟁 제한, 담합 효과가 발생했다고 밝혔습니다. 이와 관련해 당시 한 정유사 가격결정... 7시간 전",
+      "collected_at": "2026-07-27T17:10:25.840996+09:00",
+      "normalized_title": "SBS",
+      "source_normalized": "SBS",
+      "duplicate_key": "sbs::sbs",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/73/home",
+      "id": "ed10ccec22df5a8e",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"정유사 담합 드러나…불법적 돈벌이 확실히 단죄\"",
+      "url": "http://v.daum.net/v/20260727100904330",
+      "source": "SBS",
+      "published_at": "2026-07-27T10:10:33.647134+09:00",
+      "snippet": "검찰은 HD현대오일뱅크와 SK에너지의 담합 규모는 14조 2천억 원에 이르고, GS칼텍스와 에스오일이 두 회사의 담합 가격을 참고해 기름값을 올린 것을 감안하면 26조 원 상당의 경쟁 제한, 담합 효과가 발생했다고 밝혔습니다. 이와 관련해 당시 한 정유사 가격결정... 7시간 전",
+      "collected_at": "2026-07-27T17:10:33.647164+09:00",
+      "normalized_title": "이 대통령 \"정유사 담합 드러나…불법적 돈벌이 확실히 단죄\"",
+      "source_normalized": "SBS",
+      "duplicate_key": "sbs::이 대통령 \"정유사 담합 드러나…불법적 돈벌이 확실히 단죄\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260727100904330",
+      "id": "fddbfe017a757b74",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "브라질에서 대수보 주재한 李대통령 \"샌프란 AI 선언은 국가적 출사표\"(종합)",
+      "url": "http://v.daum.net/v/20260727092103656",
+      "source": "연합인포맥스",
+      "published_at": "2026-07-27T10:11:14.135025+09:00",
+      "snippet": "덜기 위한 대책도 지속 추진해야 한다\"며 \"민생 안정을 위한 추가 방안을 적극적으로 검토해달라\"고 지시했다. 아울러 최근 정유업계 담합 수사 결과를 언급하며 \"국민이 어려운 시기를 악용해 불법적으로 돈벌이에 나서는 행태는 확실히 단죄해야 한다\"며 \"기름뿐... 7시간 전",
+      "collected_at": "2026-07-27T17:11:14.135048+09:00",
+      "normalized_title": "브라질에서 대수보 주재한 李대통령 \"샌프란 AI 선언은 국가적 출사표\"",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::브라질에서 대수보 주재한 李대통령 \"샌프란 ai 선언은 국가적 출사표\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260727092103656",
+      "id": "b4217007517ad864",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합인포맥스",
+      "url": "https://v.daum.net/channel/552842/home",
+      "source": "연합인포맥스",
+      "published_at": "2026-07-27T10:11:12.828137+09:00",
+      "snippet": "덜기 위한 대책도 지속 추진해야 한다\"며 \"민생 안정을 위한 추가 방안을 적극적으로 검토해달라\"고 지시했다. 아울러 최근 정유업계 담합 수사 결과를 언급하며 \"국민이 어려운 시기를 악용해 불법적으로 돈벌이에 나서는 행태는 확실히 단죄해야 한다\"며 \"기름뿐... 7시간 전",
+      "collected_at": "2026-07-27T17:11:12.828149+09:00",
+      "normalized_title": "연합인포맥스",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::연합인포맥스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/552842/home",
+      "id": "9d160e25694da2e6",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "순방지서 화상으로 국내 현안 점검...\"석유 최고가격제 유지\"",
+      "url": "http://v.daum.net/v/20260727165249804",
+      "source": "YTN",
+      "published_at": "2026-07-27T16:53:42.035415+09:00",
+      "snippet": "불안으로 출렁이는 기름값을 우려했습니다. [이재명 / 대통령 : 유가 변동성이 당분간 이어질 가능성이 큰 만큼 국내 물가에 미칠...의존도가 높은 계층의 부담 완화 방안을 추진하고, 매점매석과 담합 등 힘든 시기를 악용한 행태는 엄정 대응토록 했습니다. 청년... 16분 전",
+      "collected_at": "2026-07-27T17:09:42.035438+09:00",
+      "normalized_title": "순방지서 화상으로 국내 현안 점검...\"석유 최고가격제 유지\"",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::순방지서 화상으로 국내 현안 점검...\"석유 최고가격제 유지\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260727165249804",
+      "id": "2c5f7c638ee10cd0",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "YTN",
+      "url": "https://v.daum.net/channel/23/home",
+      "source": "YTN",
+      "published_at": "2026-07-27T16:53:39.728278+09:00",
+      "snippet": "불안으로 출렁이는 기름값을 우려했습니다. [이재명 / 대통령 : 유가 변동성이 당분간 이어질 가능성이 큰 만큼 국내 물가에 미칠...의존도가 높은 계층의 부담 완화 방안을 추진하고, 매점매석과 담합 등 힘든 시기를 악용한 행태는 엄정 대응토록 했습니다. 청년... 16분 전",
+      "collected_at": "2026-07-27T17:09:39.728306+09:00",
+      "normalized_title": "YTN",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::ytn",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/23/home",
+      "id": "d2d24d5b6b97e3ae",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령, 남미 순방중 화상회의…\"석유 최고가격제 유지\"",
+      "url": "http://v.daum.net/v/20260727153416782",
+      "source": "연합뉴스TV",
+      "published_at": "2026-07-27T16:09:48.898720+09:00",
+      "snippet": "정책 집행에 속도를 내야 되겠습니다.\" 중동 불안정으로 인한 유가 불안이 해소될 때까지 석유 최고 가격제를 유지하고 유류세 인하...아니라 다른 핵심 민생 품목들에 대해서도 매점매석·담합 행위 같은 사례가 발생하지 않도록 관계 당국이 시장 교란 행위 단속... 1시간 전",
+      "collected_at": "2026-07-27T17:09:48.898743+09:00",
+      "normalized_title": "이 대통령, 남미 순방중 화상회의…\"석유 최고가격제 유지\"",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::이 대통령, 남미 순방중 화상회의…\"석유 최고가격제 유지\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260727153416782",
+      "id": "41fa0d0b39025db8",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스TV",
+      "url": "https://v.daum.net/channel/318/home",
+      "source": "연합뉴스TV",
+      "published_at": "2026-07-27T16:09:46.380636+09:00",
+      "snippet": "정책 집행에 속도를 내야 되겠습니다.\" 중동 불안정으로 인한 유가 불안이 해소될 때까지 석유 최고 가격제를 유지하고 유류세 인하...아니라 다른 핵심 민생 품목들에 대해서도 매점매석·담합 행위 같은 사례가 발생하지 않도록 관계 당국이 시장 교란 행위 단속... 1시간 전",
+      "collected_at": "2026-07-27T17:09:46.380653+09:00",
+      "normalized_title": "연합뉴스TV",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::연합뉴스tv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/318/home",
+      "id": "3c5f8f96c9d1d1e1",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"샌프란 AI 선언, 국가적 출사표…유가 불안 해소까지 최고가격제 유지\"",
+      "url": "http://v.daum.net/v/20260727094550980",
+      "source": "연합뉴스TV",
+      "published_at": "2026-07-27T10:11:12.827211+09:00",
+      "snippet": "유류세 인하 등 정책수단을 최대한 유지하고 상황이 악화하면 추가 대책도 적극 검토해야 한다\"고 지시했습니다. 최근 정유업계 담합 수사 결과에 대해서는 \"국민이 어려운 시기를 악용해 불법적으로 돈벌이에 나서는 행태는 확실히 단죄해야 한다\"며 기름뿐 아니라... 7시간 전",
+      "collected_at": "2026-07-27T17:11:12.827235+09:00",
+      "normalized_title": "이 대통령 \"샌프란 AI 선언, 국가적 출사표…유가 불안 해소까지 최고가격제 유지\"",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::이 대통령 \"샌프란 ai 선언, 국가적 출사표…유가 불안 해소까지 최고가격제 유지\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260727094550980",
+      "id": "45c50978ef2293f4",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 “석유 최고가격제 유지…정유사 수십조 담합 척결”",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBQeFh6emZ2OEpfMXhJMEVQV3p1V3BSZk9rNFVxRGxGYU9NbFBybXdXR0hRUm5oYThmX09UOU9BQTdwVjdYRHB5RmNLbEJ3UQ?oc=5",
+      "source": "dt.co.kr",
+      "published_at": "2026-07-27T10:30:31+09:00",
+      "snippet": "李대통령 “석유 최고가격제 유지…정유사 수십조 담합 척결” dt.co.kr",
+      "collected_at": "2026-07-27T17:10:27.926557+09:00",
+      "normalized_title": "李대통령 “석유 최고가격제 유지…정유사 수십조 담합 척결”",
+      "source_normalized": "dt.co.kr",
+      "duplicate_key": "dt.co.kr::李대통령 “석유 최고가격제 유지…정유사 수십조 담합 척결”",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBQeFh6emZ2OEpfMXhJMEVQV3p1V3BSZk9rNFVxRGxGYU9NbFBybXdXR0hRUm5oYThmX09UOU9BQTdwVjdYRHB5RmNLbEJ3UQ?oc=5",
+      "id": "3e541c5f867ac9ed",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 \"유가불안 확실히 해소될 때까지 유류세 인하 유지...매점매석·담합 등 시장교란 단속 만전\"",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mcndqcnN5MF9XWmhpYmxEN2ozSWtWeFpFRlhxZC1FblBDMkluRmotN0JOSDZyaExRRW5lMk9NbUhZMjl6MmxGdWhQLXk0cGplUG84TzJoa2J6eUZYSVVjMw?oc=5",
+      "source": "KBC광주방송",
+      "published_at": "2026-07-27T11:13:01+09:00",
+      "snippet": "李대통령 \"유가불안 확실히 해소될 때까지 유류세 인하 유지...매점매석·담합 등 시장교란 단속 만전\" KBC광주방송",
+      "collected_at": "2026-07-27T17:10:12.456062+09:00",
+      "normalized_title": "李대통령 \"유가불안 확실히 해소될 때까지 유류세 인하 유지...매점매석·담합 등 시장교란 단속 만전\"",
+      "source_normalized": "KBC광주방송",
+      "duplicate_key": "kbc광주방송::李대통령 \"유가불안 확실히 해소될 때까지 유류세 인하 유지...매점매석·담합 등 시장교란 단속 만전\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mcndqcnN5MF9XWmhpYmxEN2ozSWtWeFpFRlhxZC1FblBDMkluRmotN0JOSDZyaExRRW5lMk9NbUhZMjl6MmxGdWhQLXk0cGplUG84TzJoa2J6eUZYSVVjMw?oc=5",
+      "id": "07999c686912f8b6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보] 李대통령 \"중동전쟁 틈타 정유사 수십조 담합…시장교란 단속 만전\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1NWnpiZUZmWlRRZkZjVEtTQ0FHc2I2TUxST1NnZlNFbXJXSTJGbGlRX3dxR1daYklVWXJ3UFJhd3A1THpSdVFHcnlnT1pZT0RKb0UtMC1LOHBqQ3NE?oc=5",
+      "source": "supple.kr",
+      "published_at": "2026-07-27T09:30:54+09:00",
+      "snippet": "[속보] 李대통령 \"중동전쟁 틈타 정유사 수십조 담합…시장교란 단속 만전\" supple.kr",
+      "collected_at": "2026-07-27T17:10:27.927957+09:00",
+      "normalized_title": "李대통령 \"중동전쟁 틈타 정유사 수십조 담합…시장교란 단속 만전\"",
+      "source_normalized": "supple.kr",
+      "duplicate_key": "supple.kr::李대통령 \"중동전쟁 틈타 정유사 수십조 담합…시장교란 단속 만전\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1NWnpiZUZmWlRRZkZjVEtTQ0FHc2I2TUxST1NnZlNFbXJXSTJGbGlRX3dxR1daYklVWXJ3UFJhd3A1THpSdVFHcnlnT1pZT0RKb0UtMC1LOHBqQ3NE?oc=5",
+      "id": "d300fc8bb01688d1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 “샌프란시스코 AI 선언, 국가적 출사표…유가 불안 해소까지 최고가격제 유지”",
+      "url": "http://v.daum.net/v/20260727091550437",
+      "source": "경기일보",
+      "published_at": "2026-07-27T10:11:15.232855+09:00",
+      "snippet": "가격제와 유류세 인하 등 정책수단을 최대한 유지하고 상황이 악화하면 추가 대책도 적극 검토해야 한다”고 지시했다. 최근 정유업계 담합 수사 결과에 대해서는 “국민이 어려운 시기를 악용해 불법적으로 돈벌이에 나서는 행태는 확실히 단죄해야 한다”며 기름뿐... 7시간 전",
+      "collected_at": "2026-07-27T17:11:15.232878+09:00",
+      "normalized_title": "李대통령 “샌프란시스코 AI 선언, 국가적 출사표…유가 불안 해소까지 최고가격제 유지”",
+      "source_normalized": "경기일보",
+      "duplicate_key": "경기일보::李대통령 “샌프란시스코 ai 선언, 국가적 출사표…유가 불안 해소까지 최고가격제 유지”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260727091550437",
+      "id": "f8994d59eab148a9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경기일보",
+      "url": "https://v.daum.net/channel/408483/home",
+      "source": "경기일보",
+      "published_at": "2026-07-27T10:11:14.135953+09:00",
+      "snippet": "가격제와 유류세 인하 등 정책수단을 최대한 유지하고 상황이 악화하면 추가 대책도 적극 검토해야 한다”고 지시했다. 최근 정유업계 담합 수사 결과에 대해서는 “국민이 어려운 시기를 악용해 불법적으로 돈벌이에 나서는 행태는 확실히 단죄해야 한다”며 기름뿐... 7시간 전",
+      "collected_at": "2026-07-27T17:11:14.135965+09:00",
+      "normalized_title": "경기일보",
+      "source_normalized": "경기일보",
+      "duplicate_key": "경기일보::경기일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/408483/home",
+      "id": "bcff46503b8d58a8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이재명 대통령 \"석유 최고가격제 유지…정유사 담합 등 시장교란 엄단\"",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10VFZuR0VjQlo1VHRkSkJMS1NQNE5fR0dTd2c3Z0ltZ282WlhnV0s4b0dZdTk1dEhEZmF2T1VCUS1qbnIzblpCT1cxZ1pPQVNYVWt3bnBKa3pQMUpGbHQ0alNvbjNYTG9pal9NekFOMFpzdw?oc=5",
+      "source": "굿모닝충청",
+      "published_at": "2026-07-27T09:54:56+09:00",
+      "snippet": "이재명 대통령 \"석유 최고가격제 유지…정유사 담합 등 시장교란 엄단\" 굿모닝충청",
+      "collected_at": "2026-07-27T17:10:27.925937+09:00",
+      "normalized_title": "이재명 대통령 \"석유 최고가격제 유지…정유사 담합 등 시장교란 엄단\"",
+      "source_normalized": "굿모닝충청",
+      "duplicate_key": "굿모닝충청::이재명 대통령 \"석유 최고가격제 유지…정유사 담합 등 시장교란 엄단\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10VFZuR0VjQlo1VHRkSkJMS1NQNE5fR0dTd2c3Z0ltZ282WlhnV0s4b0dZdTk1dEhEZmF2T1VCUS1qbnIzblpCT1cxZ1pPQVNYVWt3bnBKa3pQMUpGbHQ0alNvbjNYTG9pal9NekFOMFpzdw?oc=5",
+      "id": "17caf4818b46ebe2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 “유가불안 해소 때까지 석유최고가격제 지속…매점매석·담합 등 시장교란 단속 만전”",
+      "url": "http://v.daum.net/v/20260727153656927",
+      "source": "기호일보",
+      "published_at": "2026-07-27T16:09:46.379702+09:00",
+      "snippet": "중동 지역 상황이 다시 불안정해지면서 국제 유가가 출렁이고 있다. 유가 변동성이 당분간 이어질 가능성이 크다\"며 이같이 말했다...며 \"중동 전쟁을 틈타 국내 정유사들이 수십조 원 규모의 담합 행위를 한 것이 수사 결과 드러났다. 기름뿐 아니라 다른 민생 품목... 1시간 전",
+      "collected_at": "2026-07-27T17:09:46.379726+09:00",
+      "normalized_title": "이 대통령 “유가불안 해소 때까지 석유최고가격제 지속…매점매석·담합 등 시장교란 단속 만전”",
+      "source_normalized": "기호일보",
+      "duplicate_key": "기호일보::이 대통령 “유가불안 해소 때까지 석유최고가격제 지속…매점매석·담합 등 시장교란 단속 만전”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260727153656927",
+      "id": "2a51ba0912e7d324",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "기호일보",
+      "url": "https://v.daum.net/channel/551719/home",
+      "source": "기호일보",
+      "published_at": "2026-07-27T16:09:44.889338+09:00",
+      "snippet": "중동 지역 상황이 다시 불안정해지면서 국제 유가가 출렁이고 있다. 유가 변동성이 당분간 이어질 가능성이 크다\"며 이같이 말했다...며 \"중동 전쟁을 틈타 국내 정유사들이 수십조 원 규모의 담합 행위를 한 것이 수사 결과 드러났다. 기름뿐 아니라 다른 민생 품목... 1시간 전",
+      "collected_at": "2026-07-27T17:09:44.889351+09:00",
+      "normalized_title": "기호일보",
+      "source_normalized": "기호일보",
+      "duplicate_key": "기호일보::기호일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/551719/home",
+      "id": "06b5e99bcfbadb05",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 \"유가불안 확실 해소될 때까지 석유최고가격제 지속\"",
+      "url": "http://v.daum.net/v/20260727151845076",
+      "source": "남도일보",
+      "published_at": "2026-07-27T16:09:51.545684+09:00",
+      "snippet": "26일(현지시간) \"유가 불안이 확실하게 해소될 시점까지 석유 최고 가격제를 지속하고, 유류세 인하 같은 정책 수단도 최대한 유지해...대통령은 \"중동 전쟁을 틈타 국내 정유사들이 수십조원 규모의 담합 행위를 한 것이 수사 결과 드러났다\"면서 \"기름뿐 아니라... 1시간 전",
+      "collected_at": "2026-07-27T17:09:51.545708+09:00",
+      "normalized_title": "李대통령 \"유가불안 확실 해소될 때까지 석유최고가격제 지속\"",
+      "source_normalized": "남도일보",
+      "duplicate_key": "남도일보::李대통령 \"유가불안 확실 해소될 때까지 석유최고가격제 지속\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260727151845076",
+      "id": "4061bf9e04f17f65",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "남도일보",
+      "url": "https://v.daum.net/channel/551730/home",
+      "source": "남도일보",
+      "published_at": "2026-07-27T16:09:50.066385+09:00",
+      "snippet": "26일(현지시간) \"유가 불안이 확실하게 해소될 시점까지 석유 최고 가격제를 지속하고, 유류세 인하 같은 정책 수단도 최대한 유지해...대통령은 \"중동 전쟁을 틈타 국내 정유사들이 수십조원 규모의 담합 행위를 한 것이 수사 결과 드러났다\"면서 \"기름뿐 아니라... 1시간 전",
+      "collected_at": "2026-07-27T17:09:50.066396+09:00",
+      "normalized_title": "남도일보",
+      "source_normalized": "남도일보",
+      "duplicate_key": "남도일보::남도일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/551730/home",
+      "id": "c9ce77ec90312ddb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"정유사 담합 드러나…불법적 돈벌이 확실히 단죄\"",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTbUctbUV6VTEtbTUxdHBDeHQ5eG55b05oZUFweUNFR0pfQWUtcXdBM2duQXhkSUdOSzRvUGVXU3NQQWJLM00zbXNpMk9lTlBfNElF?oc=5",
+      "source": "네이트",
+      "published_at": "2026-07-27T10:11:00+09:00",
+      "snippet": "이 대통령 \"정유사 담합 드러나…불법적 돈벌이 확실히 단죄\" 네이트",
+      "collected_at": "2026-07-27T17:10:27.926988+09:00",
+      "normalized_title": "이 대통령 \"정유사 담합 드러나…불법적 돈벌이 확실히 단죄\"",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::이 대통령 \"정유사 담합 드러나…불법적 돈벌이 확실히 단죄\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTbUctbUV6VTEtbTUxdHBDeHQ5eG55b05oZUFweUNFR0pfQWUtcXdBM2duQXhkSUdOSzRvUGVXU3NQQWJLM00zbXNpMk9lTlBfNElF?oc=5",
+      "id": "8a14247bd7fde674",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보] 李대통령 \"중동 전쟁 틈타 정유사 수십조 담합…시장교란 행위 단속에 만전\"",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DVlJldHBmakRTY0JKSnE5a05zQnJnWXo2UFVqUWNmcDktcFpqV0ltZWtSb2o2ZHJNNnhnN1h4VUk2SkdqVEdpTV8yREVZZ3N3UFhmeTFpRk1IcWd3UndPcnBOdXBaNXJBRWVpQkluMmdCT0xyUk9VRw?oc=5",
+      "source": "네이트",
+      "published_at": "2026-07-27T09:14:00+09:00",
+      "snippet": "[속보] 李대통령 \"중동 전쟁 틈타 정유사 수십조 담합…시장교란 행위 단속에 만전\" 네이트",
+      "collected_at": "2026-07-27T17:10:27.928225+09:00",
+      "normalized_title": "李대통령 \"중동 전쟁 틈타 정유사 수십조 담합…시장교란 행위 단속에 만전\"",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::李대통령 \"중동 전쟁 틈타 정유사 수십조 담합…시장교란 행위 단속에 만전\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DVlJldHBmakRTY0JKSnE5a05zQnJnWXo2UFVqUWNmcDktcFpqV0ltZWtSb2o2ZHJNNnhnN1h4VUk2SkdqVEdpTV8yREVZZ3N3UFhmeTFpRk1IcWd3UndPcnBOdXBaNXJBRWVpQkluMmdCT0xyUk9VRw?oc=5",
+      "id": "67a964f590ff1733",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李 \"유가 안정시까지 최고가격제…여론 왜곡, 단호히 대응\"(종합)",
+      "url": "http://v.daum.net/v/20260727122412953",
+      "source": "노컷뉴스",
+      "published_at": "2026-07-27T13:10:25.840051+09:00",
+      "snippet": "노동자들처럼 경유 우선도가 높은 계층의 부담을 덜기 위한 대책도 지속적으로 추진해야겠다\"면서, 최근 수사로 드러난 정유사들의 유가 담합 행위에 대해서도 경고에 나섰다. 이 대통령은 \"모두가 힘든 시기를 악용해 불법적 돈벌이에 나서는 행태 역시 단호히 단죄... 4시간 전",
+      "collected_at": "2026-07-27T17:10:25.840079+09:00",
+      "normalized_title": "李 \"유가 안정시까지 최고가격제…여론 왜곡, 단호히 대응\"",
+      "source_normalized": "노컷뉴스",
+      "duplicate_key": "노컷뉴스::李 \"유가 안정시까지 최고가격제…여론 왜곡, 단호히 대응\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260727122412953",
+      "id": "87dc34697705718d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "노컷뉴스",
+      "url": "https://v.daum.net/channel/35/home",
+      "source": "노컷뉴스",
+      "published_at": "2026-07-27T13:10:24.481514+09:00",
+      "snippet": "노동자들처럼 경유 우선도가 높은 계층의 부담을 덜기 위한 대책도 지속적으로 추진해야겠다\"면서, 최근 수사로 드러난 정유사들의 유가 담합 행위에 대해서도 경고에 나섰다. 이 대통령은 \"모두가 힘든 시기를 악용해 불법적 돈벌이에 나서는 행태 역시 단호히 단죄... 4시간 전",
+      "collected_at": "2026-07-27T17:10:24.481527+09:00",
+      "normalized_title": "노컷뉴스",
+      "source_normalized": "노컷뉴스",
+      "duplicate_key": "노컷뉴스::노컷뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/35/home",
+      "id": "d278fa5159208a2e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"유가 불안 해소될 때까지 석유 최고가격제 유지\"",
+      "url": "http://v.daum.net/v/20260727153203680",
+      "source": "뉴스웨이",
+      "published_at": "2026-07-27T16:09:50.065468+09:00",
+      "snippet": "힘든 시기를 악용해서 불법적 돈벌이에 나서는 정유사들의 담합 행위 등은 확실하게 단죄해야 한다\"며 말했다. 이어 \"석유뿐만 아니라...밝혔다. 이에 배럴당 100달러를 넘어섰던 국제유가가 배럴당 90달러대로 급락했다. 한국시간 15시 20분 기준 9월 인도분... 1시간 전",
+      "collected_at": "2026-07-27T17:09:50.065489+09:00",
+      "normalized_title": "이 대통령 \"유가 불안 해소될 때까지 석유 최고가격제 유지\"",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::이 대통령 \"유가 불안 해소될 때까지 석유 최고가격제 유지\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260727153203680",
+      "id": "ae006613f596ac79",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스웨이",
+      "url": "https://v.daum.net/channel/552788/home",
+      "source": "뉴스웨이",
+      "published_at": "2026-07-27T16:09:48.899676+09:00",
+      "snippet": "힘든 시기를 악용해서 불법적 돈벌이에 나서는 정유사들의 담합 행위 등은 확실하게 단죄해야 한다\"며 말했다. 이어 \"석유뿐만 아니라...밝혔다. 이에 배럴당 100달러를 넘어섰던 국제유가가 배럴당 90달러대로 급락했다. 한국시간 15시 20분 기준 9월 인도분... 1시간 전",
+      "collected_at": "2026-07-27T17:09:48.899689+09:00",
+      "normalized_title": "뉴스웨이",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::뉴스웨이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/552788/home",
+      "id": "1d07a152bbd5705c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"석유최고가격제 지속…정유사 담합 엄벌\"",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55N3pnS3pTVU80QnJjT2FWcjlvUlFHQWNlczVFcEJYcjJFenRjUWloVldtRGVjUEFHczhpRXRacFRtZ3Y2dkhESlQ5Q3JWNldFQkI1TDM0OXMyOGR0cjlSN3RuWmN0U0tLajdB?oc=5",
+      "source": "뉴스저널리즘",
+      "published_at": "2026-07-27T15:51:56+09:00",
+      "snippet": "\"석유최고가격제 지속…정유사 담합 엄벌\" 뉴스저널리즘",
+      "collected_at": "2026-07-27T17:10:48.086364+09:00",
+      "normalized_title": "\"석유최고가격제 지속…정유사 담합 엄벌\"",
+      "source_normalized": "뉴스저널리즘",
+      "duplicate_key": "뉴스저널리즘::\"석유최고가격제 지속…정유사 담합 엄벌\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55N3pnS3pTVU80QnJjT2FWcjlvUlFHQWNlczVFcEJYcjJFenRjUWloVldtRGVjUEFHczhpRXRacFRtZ3Y2dkhESlQ5Q3JWNldFQkI1TDM0OXMyOGR0cjlSN3RuWmN0U0tLajdB?oc=5",
+      "id": "40b8654954d9eed1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "미·이란 교전 소강에 국제유가 급락…최고가격제 그대로 유지",
+      "url": "http://v.daum.net/v/20260727123051078",
+      "source": "더팩트",
+      "published_at": "2026-07-27T13:09:56.287550+09:00",
+      "snippet": "인하 같은 정책 수단도 최대한 유지하라고 지시했다. 정유업계 담합 사태 언급도 나왔다. 이 대통령은 \"중동 전쟁을 틈탄 국내 정유사 담합 행위가 수사로 드러났다\"고 지적하며 관계 당국에 매점·매석과 담합 등 시장교란 행위 단속을 지시했다. index@tf.co.kr 발... 4시간 전",
+      "collected_at": "2026-07-27T17:09:56.287574+09:00",
+      "normalized_title": "미·이란 교전 소강에 국제유가 급락…최고가격제 그대로 유지",
+      "source_normalized": "더팩트",
+      "duplicate_key": "더팩트::미·이란 교전 소강에 국제유가 급락…최고가격제 그대로 유지",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260727123051078",
+      "id": "e91c2b77bea7141b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "더팩트",
+      "url": "https://v.daum.net/channel/359/home",
+      "source": "더팩트",
+      "published_at": "2026-07-27T13:09:54.720563+09:00",
+      "snippet": "인하 같은 정책 수단도 최대한 유지하라고 지시했다. 정유업계 담합 사태 언급도 나왔다. 이 대통령은 \"중동 전쟁을 틈탄 국내 정유사 담합 행위가 수사로 드러났다\"고 지적하며 관계 당국에 매점·매석과 담합 등 시장교란 행위 단속을 지시했다. index@tf.co.kr 발... 4시간 전",
+      "collected_at": "2026-07-27T17:09:54.720575+09:00",
+      "normalized_title": "더팩트",
+      "source_normalized": "더팩트",
+      "duplicate_key": "더팩트::더팩트",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/359/home",
+      "id": "e42bf7540eecea3b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李 대통령 \"유가불안 해소까지 석유 최고가격제 지속…담합 단속에 만전\"",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHbXVuaE1tTEtmNjU3SWYxM1YzMjNoSjJzS3c5cUhiNU94ZzNzU3k5MHFmeWhtOVZrcXNJc1V3Q1JrVkp5aG1SR3BJZnNOREQ4N3E2RU5tWVnSAVNBVV95cUxOS0t6UXY1VEt3Wk1XYTRqWExQaldic0VTU1Qwa1AtQ3FkS2dRMk9UREFuVFRldzN0SlJwRGR2aFQ3eHJTVzh4cFdTb2ktZy1CSGVPQQ?oc=5",
+      "source": "더팩트",
+      "published_at": "2026-07-27T09:26:03+09:00",
+      "snippet": "李 대통령 \"유가불안 해소까지 석유 최고가격제 지속…담합 단속에 만전\" 더팩트",
+      "collected_at": "2026-07-27T17:10:12.456774+09:00",
+      "normalized_title": "李 대통령 \"유가불안 해소까지 석유 최고가격제 지속…담합 단속에 만전\"",
+      "source_normalized": "더팩트",
+      "duplicate_key": "더팩트::李 대통령 \"유가불안 해소까지 석유 최고가격제 지속…담합 단속에 만전\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHbXVuaE1tTEtmNjU3SWYxM1YzMjNoSjJzS3c5cUhiNU94ZzNzU3k5MHFmeWhtOVZrcXNJc1V3Q1JrVkp5aG1SR3BJZnNOREQ4N3E2RU5tWVnSAVNBVV95cUxOS0t6UXY1VEt3Wk1XYTRqWExQaldic0VTU1Qwa1AtQ3FkS2dRMk9UREFuVFRldzN0SlJwRGR2aFQ3eHJTVzh4cFdTb2ktZy1CSGVPQQ?oc=5",
+      "id": "1bed34d4093c0a64",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[이로운주목]이 대통령 \"유가 불안 해소까지 유류세 인하 유지\"...물가·...새 창 열림",
+      "url": "https://www.eroun.net/news/articleView.html?idxno=86349",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T16:52:38.359588+09:00",
+      "snippet": "기름뿐 아니라 핵심 민생 품목에서도 매점매석과 담합 등 시장 교란 행위가 발생하지 않도록 관계 당국에 철저한 단속을 주문했다. 유류세 인하 9월 말까지...휘발유 122원·경유 145원 절감 정부는 지난 24일 민생물가 특별관리 관계장관 태스크포스(TF)를 열고 이달 말 종료 예정이던 유류세 인하 조치를 9월... 새 창 열림",
+      "collected_at": "2026-07-27T17:09:38.359606+09:00",
+      "normalized_title": "[이로운주목]이 대통령 \"유가 불안 해소까지 유류세 인하 유지\"...물가·...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[이로운주목]이 대통령 \"유가 불안 해소까지 유류세 인하 유지\"...물가·...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.eroun.net/news/articleView.html?idxno=86349",
+      "id": "5badc7f8482f2929",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "순방지서 화상으로 국내 현안 점검...\"석유 최고가격제 유지\"새 창 열림",
+      "url": "https://www.ytn.co.kr/_ln/0101_202607271644197553",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T16:44:38.360700+09:00",
+      "snippet": "[이재명 / 대통령 : 유가 불안이 확실하게 해소되는 시점까지 석유 최고가격제를 지속하고, 유류세 인하 같은 정책 수단도 최대한 유지해 주시기 바랍니다.] 화물차 운전자 등 경유 의존도가 높은 계층의 부담 완화 방안을 추진하고, 매점매석과 담합 등 힘든 시기를 악용한 행태는 엄정 대응토록 했습니다. 청년... 새 창 열림",
+      "collected_at": "2026-07-27T17:09:38.360711+09:00",
+      "normalized_title": "순방지서 화상으로 국내 현안 점검...\"석유 최고가격제 유지\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::순방지서 화상으로 국내 현안 점검...\"석유 최고가격제 유지\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.ytn.co.kr/_ln/0101_202607271644197553",
+      "id": "199bc1f2c2bc5838",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이재명 대통령 “유가불안 해소까지 석유 최고가격제 지속”새 창 열림",
+      "url": "http://www.segyebiz.com/newsView/20260727513746?OutUrl=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T16:32:38.361708+09:00",
+      "snippet": "-“매점매석·담합 등 시장교란 단속 만전… 불법 돈벌이 단죄해야” 남미 순방 중인 이재명 대통령이 27일 브라질 브라질리아의 한 호텔에서 열린... 지난 25일부터 적용 중인 8차 석유 최고가격제도에 따르면 휘발유는 ℓ당 1784원, 경유는 1773원, 등유는 1380원이다. 당초 정부는 지난달 초 전쟁이 마무리될... 새 창 열림",
+      "collected_at": "2026-07-27T17:09:38.361719+09:00",
+      "normalized_title": "이재명 대통령 “유가불안 해소까지 석유 최고가격제 지속”새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이재명 대통령 “유가불안 해소까지 석유 최고가격제 지속”새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://www.segyebiz.com/newsView/20260727513746?OutUrl=naver",
+      "id": "71137c2434cb1315",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[퇴근길 7분 뉴스] 새빛가속기·네이버·엔비디아·CXMT새 창 열림",
+      "url": "https://news.dealsitetv.com/articles/173823",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T16:26:38.362696+09:00",
+      "snippet": "때까지 석유 최고가격제와 유류세 인하 등 정책 수단을 최대한 유지하라고 지시했다. 동시에 중동 전쟁을 틈타 국내 정유사들이 수십조원 규모의 담합 행위를 한 것이 수사로 드러났다며, 기름을 포함한 민생 품목의 매점매석·담합 행위 단속에 만전을 기하라고 강조했다. ◇'1.1조' 청주 새빛가속기... 새 창 열림",
+      "collected_at": "2026-07-27T17:09:38.362708+09:00",
+      "normalized_title": "[퇴근길 7분 뉴스] 새빛가속기·네이버·엔비디아·CXMT새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[퇴근길 7분 뉴스] 새빛가속기·네이버·엔비디아·cxmt새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.dealsitetv.com/articles/173823",
+      "id": "fdd5ef4bebb5d78f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 \"유가 불안 해소까지 석유 최고가격제 지속\"…민생물가 대응 ...새 창 열림",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1389642",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T16:24:38.363684+09:00",
+      "snippet": "화물차·건설기계 운전자와 농어민 등 경유 의존도가 높은 계층에 대한 추가 지원책도 검토하라고 주문했다. 브라질을 국빈 방문 중인 이 대통령은 26일... 규모의 담합 행위를 한 것이 수사 결과 드러났다\"고 말했다. 이어 \"기름뿐 아니라 다른 민생 품목에 대해서도 매점매석이나 담합 행위가 발생하지 않도록... 새 창 열림",
+      "collected_at": "2026-07-27T17:09:38.363694+09:00",
+      "normalized_title": "李대통령 \"유가 불안 해소까지 석유 최고가격제 지속\"…민생물가 대응 ...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李대통령 \"유가 불안 해소까지 석유 최고가격제 지속\"…민생물가 대응 ...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://daily.hankooki.com/news/articleView.html?idxno=1389642",
+      "id": "754ae90f5c4fe6a9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이재명 대통령 \"유가불안 해소될 때까지 석유 최고가격제 지속\"새 창 열림",
+      "url": "https://www.imaeil.com/page/view/2026072714554421659",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T16:10:29.198266+09:00",
+      "snippet": "현재 주유소 공급가격 기준 최고가격은 리터당 휘발유 1천784원, 경유 1천773원, 등유 1천380원이다. 이 대통령은 \"유가 변동성이 당분간 이어질 가능성이 큰... 이와 함께 이 대통령은 \"이번 중동전쟁을 틈타 국내 정유사들이 수십조 원 규모의 담합행위를 했던 것이 수사 결과로 드러났는데 모두가 힘든 시기를... 새 창 열림",
+      "collected_at": "2026-07-27T17:10:29.198277+09:00",
+      "normalized_title": "이재명 대통령 \"유가불안 해소될 때까지 석유 최고가격제 지속\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이재명 대통령 \"유가불안 해소될 때까지 석유 최고가격제 지속\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유제품 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.imaeil.com/page/view/2026072714554421659",
+      "id": "57f69de6e230ad22",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"유가 불안 해소될 때까지 석유 최고가격제 유지\"새 창 열림",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026072715302083550",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T16:10:13.551929+09:00",
+      "snippet": "이 대통령은 \"모두가 힘든 시기를 악용해서 불법적 돈벌이에 나서는 정유사들의 담합 행위 등은 확실하게 단죄해야 한다\"며 말했다. 이어 \"석유뿐만 아니라 다른 핵심 민생 품목에 대해서도 매점매석이나 담합 등 시장 교란 행위가 발생하지 않도록 관계 당국이 단속에 만전을 기해달라\"고 덧붙였다. 한편... 새 창 열림",
+      "collected_at": "2026-07-27T17:10:13.551939+09:00",
+      "normalized_title": "이 대통령 \"유가 불안 해소될 때까지 석유 최고가격제 유지\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이 대통령 \"유가 불안 해소될 때까지 석유 최고가격제 유지\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.newsway.co.kr/news/view?ud=2026072715302083550",
+      "id": "aaf24e8335b5878a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"유가불안 해소 때까지 석유최고가격제 지속…매점매석·담합...새 창 열림",
+      "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3030003",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T16:10:13.550968+09:00",
+      "snippet": "이 대통령은 또 \"모두가 힘든 시기를 악용해 불법적 돈벌이에 나서는 행태를 확실히 단죄해야 한다\"며 \"중동 전쟁을 틈타 국내 정유사들이 수십조 원 규모의 담합 행위를 한 것이 수사 결과 드러났다. 기름뿐 아니라 다른 민생 품목에 대해서도 매점매석이나 담합 행위가 발생하지 않도록 당국이 시장교란 행위... 새 창 열림",
+      "collected_at": "2026-07-27T17:10:13.550979+09:00",
+      "normalized_title": "이 대통령 \"유가불안 해소 때까지 석유최고가격제 지속…매점매석·담합...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이 대통령 \"유가불안 해소 때까지 석유최고가격제 지속…매점매석·담합...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3030003",
+      "id": "d35afe14557ad1f6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 “중수청 개청 준비 만전…선공후사 원칙 잘 지켜야”…순방...새 창 열림",
+      "url": "https://www.khan.co.kr/article/202607271539001",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T16:09:38.367685+09:00",
+      "snippet": "브라질을 국빈 방문 중인 이재명 대통령은 26일(현지시간) “유가 불안이 확실하게 해소될 시점까지 석유 최고가격제를 지속하고, 유류세 인하 같은 정책... 이 대통령은 “이번 중동 전쟁을 틈타서 국내 정유사들이 수십조원 규모의 담합 행위를 했던 것이 수사 결과 드러났다”며 “기름뿐 아니라 다른 핵심... 새 창 열림",
+      "collected_at": "2026-07-27T17:09:38.367695+09:00",
+      "normalized_title": "이 대통령 “중수청 개청 준비 만전…선공후사 원칙 잘 지켜야”…순방...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이 대통령 “중수청 개청 준비 만전…선공후사 원칙 잘 지켜야”…순방...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.khan.co.kr/article/202607271539001",
+      "id": "20c6055268be4895",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"석유최고가격제 지속…정유사 담합 엄벌\"새 창 열림",
+      "url": "https://www.ngetnews.com/news/articleView.html?idxno=551872",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T16:09:38.366629+09:00",
+      "snippet": "앞서 정부는 올해 3월13일부터 휘발유와 경유 등 주요 석유제품에 최고가격제를 시행해 왔다. 중동사태 이후 민생 부담을 낮추기 위한 조치로 시장 상황을... 이 대통령은 \"불법적 돈벌이를 확실히 단죄해야 한다\"며 정유업계 담합 사례를 언급하고 석유를 포함한 주요 민생 품목 전반의 매점매석과 담합 단속... 새 창 열림",
+      "collected_at": "2026-07-27T17:09:38.366639+09:00",
+      "normalized_title": "\"석유최고가격제 지속…정유사 담합 엄벌\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::\"석유최고가격제 지속…정유사 담합 엄벌\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.ngetnews.com/news/articleView.html?idxno=551872",
+      "id": "7887c9104411e178",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "정유업계",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "브라질 순방 중 수보회의…李 \"석유 최고 가격제 지속\"새 창 열림",
+      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5045019",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T16:09:38.365637+09:00",
+      "snippet": "브라질을 국빈방문 중인 이재명 대통령은 26일(현지시간) 국제유가 불안에 따른 국내 물가 대책을 집중적으로 점검했다. 미국 샌프란시스코 인공지능(AI)... 매점매석, 담합 행위 같은 사례가 발생하지 않도록 관계 당국이 시장 교란 행위 단속에 만전을 기해 주시기 바란다\"고 당부했다. 아울러 이 대통령은 \"글로벌... 새 창 열림",
+      "collected_at": "2026-07-27T17:09:38.365648+09:00",
+      "normalized_title": "브라질 순방 중 수보회의…李 \"석유 최고 가격제 지속\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::브라질 순방 중 수보회의…李 \"석유 최고 가격제 지속\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5045019",
+      "id": "31d7d69a358e70bd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 \"유가불안 해소될 때까지 석유최고가격제 유지\"새 창 열림",
+      "url": "https://www.newstopkorea.com/news/articleView.html?idxno=46556",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T16:09:38.364673+09:00",
+      "snippet": "브라질을 국빈 방문 중인 이재명 대통령이 26일(현지 시간 기준) 화상으로 주재한 원격 수석보좌관회의에서 \"유가 불안이 확실히 해소될 때까지 석유 최고... 동시에 \"위기를 악용한 불법 돈벌이는 확실히 단죄해야 한다\"며, 중동 전쟁을 틈타 정유사들이 수십조원 규모 담합을 벌인 사실이 수사로 드러난 만큼 기름... 새 창 열림",
+      "collected_at": "2026-07-27T17:09:38.364683+09:00",
+      "normalized_title": "李대통령 \"유가불안 해소될 때까지 석유최고가격제 유지\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李대통령 \"유가불안 해소될 때까지 석유최고가격제 유지\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.newstopkorea.com/news/articleView.html?idxno=46556",
+      "id": "849b0938534bc325",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 “유가 안정 때까지 최고가격제 유지”새 창 열림",
+      "url": "https://www.asiatime.co.kr/article/20260727500305",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T15:11:08.292235+09:00",
+      "snippet": "유지하고, 정유업계의 담합 등 시장 교란 행위에 대한 강력한 대응을 주문했다. 이재명 대통령.(사진=연합뉴스) 이 대통령은 26일(현지시간) 화상회의로 제42차 수석보좌관회의를 주재하고 “유가 불안이 확실하게 해소될 시점까지 석유 최고가격제를 지속하고 유류세 인하 같은 정책 수단도 최대한 유지해주길... 새 창 열림",
+      "collected_at": "2026-07-27T17:11:08.292246+09:00",
+      "normalized_title": "李대통령 “유가 안정 때까지 최고가격제 유지”새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李대통령 “유가 안정 때까지 최고가격제 유지”새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.asiatime.co.kr/article/20260727500305",
+      "id": "465dd93de642ad61",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이대통령 \"2분기 성장률 3.7%, 성장 온기 골목상권까지 퍼져야\"새 창 열림",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3420151",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T14:11:08.293196+09:00",
+      "snippet": "특히 최근 중동 정세를 틈탄 정유업계의 담합 행위를 언급하며 \"모두가 힘든 시기를 악용해 불법적으로 돈벌이에 나서는 행태는 확실히 단죄해야 한다\"고 강조했다. 이어 매점매석 등 시장 교란 행위를 철저히 단속하고 휴가철을 맞아 쪽방촌 주민과 취업준비 청년, 이동노동자 등 취약계층의 물가 부담을 덜기... 새 창 열림",
+      "collected_at": "2026-07-27T17:11:08.293207+09:00",
+      "normalized_title": "이대통령 \"2분기 성장률 3.7%, 성장 온기 골목상권까지 퍼져야\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이대통령 \"2분기 성장률 3.7%, 성장 온기 골목상권까지 퍼져야\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.newscj.com/news/articleView.html?idxno=3420151",
+      "id": "3f1efc771774c4bd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "미·이란 교전 소강에 국제유가 급락…최고가격제 그대로 유지새 창 열림",
+      "url": "https://news.tf.co.kr/read/economy/2347320.htm",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T13:11:08.295191+09:00",
+      "snippet": "유류세 인하 같은 정책 수단도 최대한 유지하라고 지시했다. 정유업계 담합 사태 언급도 나왔다. 이 대통령은 \"중동 전쟁을 틈탄 국내 정유사 담합 행위가 수사로 드러났다\"고 지적하며 관계 당국에 매점·매석과 담합 등 시장교란 행위 단속을 지시했다.새 창 열림",
+      "collected_at": "2026-07-27T17:11:08.295201+09:00",
+      "normalized_title": "미·이란 교전 소강에 국제유가 급락…최고가격제 그대로 유지새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::미·이란 교전 소강에 국제유가 급락…최고가격제 그대로 유지새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.tf.co.kr/read/economy/2347320.htm",
+      "id": "da6a37ec7ef764d8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령, 브라질서 화상 회의…“AI 성과, 국민 삶 개선으로”새 창 열림",
+      "url": "https://www.naeil.com/news/read/596689?ref=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T13:11:08.294164+09:00",
+      "snippet": "또 “모두가 힘든 시기를 악용해서 불법적 돈벌이에 나서는 행태 역시 확실하게 단죄해야 되겠다”며 최근 적발된 정유업계 담합 사건을 언급하고 핵심 민생 품목에 대한 매점매석과 담합 행위 단속에도 만전을 기해달라고 당부했다. 한편, 이 대통령은 이날부터 29일까지 루이스 이나시우 룰라 다시우바... 새 창 열림",
+      "collected_at": "2026-07-27T17:11:08.294174+09:00",
+      "normalized_title": "이 대통령, 브라질서 화상 회의…“AI 성과, 국민 삶 개선으로”새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이 대통령, 브라질서 화상 회의…“ai 성과, 국민 삶 개선으로”새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.naeil.com/news/read/596689?ref=naver",
+      "id": "b7f75524484c26f3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 \"샌프란 AI 선언 후속조치 만전\"…석유 최고가격제 유지새 창 열림",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=307728",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T12:11:08.296142+09:00",
+      "snippet": "◇ \"정유사 담합 엄단…시장 교란 행위 강력 대응\" 이 대통령은 정유업계 담합과 매점매석 등 시장 교란 행위에 대한 강경 대응 방침도 재확인했다. 그는 \"모두가 힘든 시기를 악용해 불법적인 돈벌이에 나서는 행태는 확실히 단죄해야 한다\"며 \"기름뿐 아니라 다른 핵심 민생 품목에서도 담합이나 매점매석 같은... 새 창 열림",
+      "collected_at": "2026-07-27T17:11:08.296154+09:00",
+      "normalized_title": "李대통령 \"샌프란 AI 선언 후속조치 만전\"…석유 최고가격제 유지새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李대통령 \"샌프란 ai 선언 후속조치 만전\"…석유 최고가격제 유지새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.straightnews.co.kr/news/articleView.html?idxno=307728",
+      "id": "f88544a5f1e821d8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"석유 최고가격제 지속\"…오늘 밤 룰라와 정상회담새 창 열림",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008676409&plink=ORI&cooper=NAVER",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T12:10:29.199357+09:00",
+      "snippet": "이 대통령은 브라질에서 화상으로 수석보좌관회의를 주재하고 기름값 불안이 해소될 때까지 석유 최고가격제를 지속한다고 밝혔습니다. 강청완... 정유사들의 담합 행위 같은 시장 교란 행위 단속에 만전을 기해 달라고 관계 당국에 당부했습니다. 이 대통령은 지난 주말 샌프란시스코에서 발표한 AI 선언은... 새 창 열림",
+      "collected_at": "2026-07-27T17:10:29.199368+09:00",
+      "normalized_title": "\"석유 최고가격제 지속\"…오늘 밤 룰라와 정상회담새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::\"석유 최고가격제 지속\"…오늘 밤 룰라와 정상회담새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008676409&plink=ORI&cooper=NAVER",
+      "id": "76cfbff227fa63ed",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 \"경유 의존계층 부담 덜어야\"…유가 급등 선제 대응 주문새 창 열림",
+      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=725062",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T11:11:21.257392+09:00",
+      "snippet": "브라질을 방문 중인 이재명 대통령이 중동 정세 불안으로 국제 유가 변동성이 커지고 있는 상황과 관련해 석유 최고가격제와 유류세 인하 조치를 당분간... 국제 정세 혼란을 이용해 가격을 부당하게 올리거나 담합으로 이익을 챙기는 행위를 방치해서는 안 된다는 취지다. 이 대통령은 \"모두가 힘든 시기를... 새 창 열림",
+      "collected_at": "2026-07-27T17:11:21.257403+09:00",
+      "normalized_title": "李대통령 \"경유 의존계층 부담 덜어야\"…유가 급등 선제 대응 주문새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李대통령 \"경유 의존계층 부담 덜어야\"…유가 급등 선제 대응 주문새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유류가격 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.the-biz.co.kr/news/articleView.html?idxno=725062",
+      "id": "73d223a3ce8104d9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李 대통령, \"유가 불안 해소될 때까지 석유 최고가격제 유지\"새 창 열림",
+      "url": "https://www.goodnews1.com/news/articleView.html?idxno=462410",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T11:11:08.298121+09:00",
+      "snippet": "특히 정유업계의 불법 행위에 대한 강력한 대응을 경고했다. 이 대통령은 \"중동 전쟁을 틈타 국내 정유사들이 수십조 원 규모의 담합 행위를 한 것이 수사 결과 드러났다\"며 \"기름뿐 아니라 다른 민생 품목에 대해서도 매점매석이나 담합 등 시장교란 행위가 발생하지 않도록 당국이 만전을 기해달라\"고 당부했다.... 새 창 열림",
+      "collected_at": "2026-07-27T17:11:08.298131+09:00",
+      "normalized_title": "李 대통령, \"유가 불안 해소될 때까지 석유 최고가격제 유지\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李 대통령, \"유가 불안 해소될 때까지 석유 최고가격제 유지\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.goodnews1.com/news/articleView.html?idxno=462410",
+      "id": "cff146a5269ab098",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"유가 불안 해소될 때까지 최고가격제 유지\"새 창 열림",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=360855",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T11:10:49.540314+09:00",
+      "snippet": "상승분을 판매가로 넘길 수 없는 구조여서 재고 회전이 느린 자영 주유소가 가장 먼저 눌린다. 반면 경유는 리터당 436원(25% 인하), 부탄은 152원(25% 인하)... 그는 \"모두가 힘든 시기를 악용해 불법적 돈벌이에 나서는 행태를 확실히 단죄해야 한다\"며 \"중동 전쟁을 틈타 국내 정유사들이 수십조원 규모의 담합... 새 창 열림",
+      "collected_at": "2026-07-27T17:10:49.540325+09:00",
+      "normalized_title": "이 대통령 \"유가 불안 해소될 때까지 최고가격제 유지\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이 대통령 \"유가 불안 해소될 때까지 최고가격제 유지\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.smedaily.co.kr/news/articleView.html?idxno=360855",
+      "id": "ce0016e43bcd93ea",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령, 브라질서 원격 수보회의···\"유가 안정될 때까지 최고가제...새 창 열림",
+      "url": "https://www.ziksir.com/news/articleView.html?idxno=141229",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T11:10:29.200315+09:00",
+      "snippet": "◇정유사 담합 행위에 분노…\"불법 돈벌이 확실히 단죄\" 최근 수사기관을 통해 밝혀진 정유업계의 불법 행위에 대해서는 매서운 경고장을 날렸다. 이 대통령은 \"모두가 힘든 시기를 악용해 불법적 돈벌이에 나서는 행태를 확실히 단죄해야 한다\"며 \"중동 전쟁을 틈타 국내 정유사들이 수십조원 규모의 담합 행위를... 새 창 열림",
+      "collected_at": "2026-07-27T17:10:29.200326+09:00",
+      "normalized_title": "李대통령, 브라질서 원격 수보회의···\"유가 안정될 때까지 최고가제...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李대통령, 브라질서 원격 수보회의···\"유가 안정될 때까지 최고가제...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ziksir.com/news/articleView.html?idxno=141229",
+      "id": "954beb813d9b7d13",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"유가 불안 해소 때까지 석유 최고가격제·유류세 인하 유지...새 창 열림",
+      "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4097130",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T10:11:08.300033+09:00",
+      "snippet": "이 대통령은 중동 전쟁을 틈탄 정유업계 담합이 수사에서 드러났다고 언급하며, 기름을 비롯한 민생 품목의 매점매석과 담합 등 시장교란 행위에 대한 단속도 강화하라고 지시했습니다. 경제 상황과 관련해서는 2분기 성장률이 3.7%를 기록하는 등 회복세가 나타나고 있지만 청년 고용 부진과 중소기업 대출... 새 창 열림",
+      "collected_at": "2026-07-27T17:11:08.300043+09:00",
+      "normalized_title": "이 대통령 \"유가 불안 해소 때까지 석유 최고가격제·유류세 인하 유지...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이 대통령 \"유가 불안 해소 때까지 석유 최고가격제·유류세 인하 유지...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4097130",
+      "id": "b74ef890b0303e19",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"유가 안정 때까지 최고가격제 유지…유류세 인하도 당분간 ...새 창 열림",
+      "url": "https://www.delighti.co.kr/news/articleView.html?idxno=119427",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T10:11:08.299087+09:00",
+      "snippet": "아울러 정유업계 담합과 매점매석 등 시장 교란 행위에 대한 강력한 단속과 함께 성장의 성과가 서민과 중소기업까지 확산될 수 있도록 경제정책 집행에 속도를 내야 한다고 강조했다. 이 대통령은 26일(현지시간) 브라질리아에서 화상으로 주재한 수석보좌관회의에서 \"중동 지역 정세가 다시 불안해지면서 국제... 새 창 열림",
+      "collected_at": "2026-07-27T17:11:08.299097+09:00",
+      "normalized_title": "이 대통령 \"유가 안정 때까지 최고가격제 유지…유류세 인하도 당분간 ...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이 대통령 \"유가 안정 때까지 최고가격제 유지…유류세 인하도 당분간 ...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.delighti.co.kr/news/articleView.html?idxno=119427",
+      "id": "8e078fd83b777db0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"정유사 담합 드러나…불법적 돈벌이 확실히 단죄\"새 창 열림",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008676059&plink=ORI&cooper=NAVER",
+      "source": "새 창 열림",
+      "published_at": "2026-07-27T10:10:29.202381+09:00",
+      "snippet": "검찰은 HD현대오일뱅크와 SK에너지의 담합 규모는 14조 2천억 원에 이르고, GS칼텍스와 에스오일이 두 회사의 담합 가격을 참고해 기름값을 올린 것을 감안하면 26조 원 상당의 경쟁 제한, 담합 효과가 발생했다고 밝혔습니다. 이와 관련해 당시 한 정유사 가격결정부서 대화방에서는 \"역시 전쟁으로 먹고사는... 새 창 열림",
+      "collected_at": "2026-07-27T17:10:29.202392+09:00",
+      "normalized_title": "이 대통령 \"정유사 담합 드러나…불법적 돈벌이 확실히 단죄\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이 대통령 \"정유사 담합 드러나…불법적 돈벌이 확실히 단죄\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008676059&plink=ORI&cooper=NAVER",
+      "id": "5abe429819384b06",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유사 유가 담합 또 저격한 李대통령...\"불법적 돈벌이 행태 확실히 단죄해야\"",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81U0RPQlYtcDZobjZhZW1Nd0ZhWHprMWk1RlBXZV9UdXhlc0t5MFpVY0g3b1JVaU8xdUtuaTN2VkpFcDJrSzNDZjVONGVQelVtNExmcWJQamdoZVMyVHNBdEwtWHU3VHlfUDltVg?oc=5",
+      "source": "생생비즈플러스",
+      "published_at": "2026-07-27T10:37:56+09:00",
+      "snippet": "정유사 유가 담합 또 저격한 李대통령...\"불법적 돈벌이 행태 확실히 단죄해야\" 생생비즈플러스",
+      "collected_at": "2026-07-27T17:09:56.912507+09:00",
+      "normalized_title": "정유사 유가 담합 또 저격한 李대통령...\"불법적 돈벌이 행태 확실히 단죄해야\"",
+      "source_normalized": "생생비즈플러스",
+      "duplicate_key": "생생비즈플러스::정유사 유가 담합 또 저격한 李대통령...\"불법적 돈벌이 행태 확실히 단죄해야\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81U0RPQlYtcDZobjZhZW1Nd0ZhWHprMWk1RlBXZV9UdXhlc0t5MFpVY0g3b1JVaU8xdUtuaTN2VkpFcDJrSzNDZjVONGVQelVtNExmcWJQamdoZVMyVHNBdEwtWHU3VHlfUDltVg?oc=5",
+      "id": "9796fca1d0d3d194",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"유가 불안 확실한 해소 때까지 석유 최고가격제·유류세 인하 유지\"",
+      "url": "http://v.daum.net/v/20260727140045577",
+      "source": "정책브리핑",
+      "published_at": "2026-07-27T14:09:53.247706+09:00",
+      "snippet": "시내 한 호텔에서 제41차 수석보좌관회의를 화상으로 주재하고 \"유가 유동성·변동성이 당분간 이어질 가능성이 큰 만큼 국내 물가에...이번 중동전쟁을 틈타 국내 정유사들이 수십조 원 규모의 담합행위를 한 사실이 수사 결과 드러난 것과 관련, \"모두가 힘든 시기... 3시간 전",
+      "collected_at": "2026-07-27T17:09:53.247728+09:00",
+      "normalized_title": "이 대통령 \"유가 불안 확실한 해소 때까지 석유 최고가격제·유류세 인하 유지\"",
+      "source_normalized": "정책브리핑",
+      "duplicate_key": "정책브리핑::이 대통령 \"유가 불안 확실한 해소 때까지 석유 최고가격제·유류세 인하 유지\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260727140045577",
+      "id": "532772ab1b91b724",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정책브리핑",
+      "url": "https://v.daum.net/channel/65/home",
+      "source": "정책브리핑",
+      "published_at": "2026-07-27T14:09:51.546664+09:00",
+      "snippet": "시내 한 호텔에서 제41차 수석보좌관회의를 화상으로 주재하고 \"유가 유동성·변동성이 당분간 이어질 가능성이 큰 만큼 국내 물가에...이번 중동전쟁을 틈타 국내 정유사들이 수십조 원 규모의 담합행위를 한 사실이 수사 결과 드러난 것과 관련, \"모두가 힘든 시기... 3시간 전",
+      "collected_at": "2026-07-27T17:09:51.546677+09:00",
+      "normalized_title": "정책브리핑",
+      "source_normalized": "정책브리핑",
+      "duplicate_key": "정책브리핑::정책브리핑",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/65/home",
+      "id": "48d7805abf5cf20b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령, 브라질서 중동위기 대응·여름철 민생대책 점검 지시",
+      "url": "http://v.daum.net/v/20260727154941579",
+      "source": "충청투데이",
+      "published_at": "2026-07-27T16:09:43.690107+09:00",
+      "snippet": "유가가 출렁이고 있다\"며 \"유가 변동성이 당분간 이어질 가능성이 큰 만큼 국내 물가에 미칠 영향을 최소화기 위한 선제적 노력을...이번 중동전쟁을 틈타서 국내 정유사들이 수십조원 규모의 담합행위를 했던 것이 수사 결과 드러났다\"고 언급했다. 그러면서 \"기름... 1시간 전",
+      "collected_at": "2026-07-27T17:09:43.690130+09:00",
+      "normalized_title": "이 대통령, 브라질서 중동위기 대응·여름철 민생대책 점검 지시",
+      "source_normalized": "충청투데이",
+      "duplicate_key": "충청투데이::이 대통령, 브라질서 중동위기 대응·여름철 민생대책 점검 지시",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260727154941579",
+      "id": "6795847bb616b991",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "충청투데이",
+      "url": "https://v.daum.net/channel/551721/home",
+      "source": "충청투데이",
+      "published_at": "2026-07-27T16:09:42.036284+09:00",
+      "snippet": "유가가 출렁이고 있다\"며 \"유가 변동성이 당분간 이어질 가능성이 큰 만큼 국내 물가에 미칠 영향을 최소화기 위한 선제적 노력을...이번 중동전쟁을 틈타서 국내 정유사들이 수십조원 규모의 담합행위를 했던 것이 수사 결과 드러났다\"고 언급했다. 그러면서 \"기름... 1시간 전",
+      "collected_at": "2026-07-27T17:09:42.036302+09:00",
+      "normalized_title": "충청투데이",
+      "source_normalized": "충청투데이",
+      "duplicate_key": "충청투데이::충청투데이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/551721/home",
+      "id": "6b0d40244ff2d058",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“3.7% 자화자찬 말라”…이재명, 지구 반대편서 정유사 담합 안 돼",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42Q1pua0E2VHI5cG5VN25CdUItRDFhOS1JZHh2NHFQcFJOc21Hc2RBanBpMHEtUmp2S2ZWR1p4UmM4WVRlOGdKNXI3UlRYSkZzZ0l4WVhFMTlKbXdVQTVFWUJWUXRBSm1QWnfSAW5BVV95cUxNZmlEMzQyVE9xWmZUV2ZfRVdyZy12SkVDd29qU2hIb0pnYmRKd3RpdnVpd0cxa2lTaVVJaFREUzR4dFFoU3RqaE1ya0R0SUszcl9mdzJKbkFnSzJrYzkxc3A0THRmSHk3NFVTMC12dw?oc=5",
+      "source": "파이낸셜투데이",
+      "published_at": "2026-07-27T10:13:08+09:00",
+      "snippet": "“3.7% 자화자찬 말라”…이재명, 지구 반대편서 정유사 담합 안 돼 파이낸셜투데이",
+      "collected_at": "2026-07-27T17:10:12.456639+09:00",
+      "normalized_title": "“3.7% 자화자찬 말라”…이재명, 지구 반대편서 정유사 담합 안 돼",
+      "source_normalized": "파이낸셜투데이",
+      "duplicate_key": "파이낸셜투데이::“3.7% 자화자찬 말라”…이재명, 지구 반대편서 정유사 담합 안 돼",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42Q1pua0E2VHI5cG5VN25CdUItRDFhOS1JZHh2NHFQcFJOc21Hc2RBanBpMHEtUmp2S2ZWR1p4UmM4WVRlOGdKNXI3UlRYSkZzZ0l4WVhFMTlKbXdVQTVFWUJWUXRBSm1QWnfSAW5BVV95cUxNZmlEMzQyVE9xWmZUV2ZfRVdyZy12SkVDd29qU2hIb0pnYmRKd3RpdnVpd0cxa2lTaVVJaFREUzR4dFFoU3RqaE1ya0R0SUszcl9mdzJKbkFnSzJrYzkxc3A0THRmSHk3NFVTMC12dw?oc=5",
+      "id": "449d69d74fb57622",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

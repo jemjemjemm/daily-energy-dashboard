@@ -1,0 +1,78 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-06",
+  "slot": "morning",
+  "period_start": "2026-07-06T00:00:00+09:00",
+  "period_end": "2026-07-06T08:00:00+09:00",
+  "period_label": "2026-07-06 00:00 ~ 2026-07-06 08:00",
+  "generated_at": "2026-07-06T09:15:15.830291+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1509,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1119
+  },
+  "query_counts": {
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "임시방편에서 근본 수술로: 1.8조 엔에서 7.5조 엔으로 가는 길 [김성민...",
+      "url": "https://www.fntimes.com/html/view.php?ud=202607031731245843c1c16452b0_18",
+      "source": "한국금융신문",
+      "published_at": "2026-07-06T06:25:30.310208+09:00",
+      "snippet": "은행권의 담합과 균등 배분을 용인한 임시 조치였다면 금융기능조기건전화법에 기반한 2차 자본 확충은 철저한 사전 심사와 구조조정을 전제로 한... 금융재생위원회는 은행이 제출한 자료를 액면 그대로 수용하지 않고 독자적인 실사를 통해 보유 유가증권의 평가손실, 충당금 부족, 잠재 부실채권 등을...",
+      "collected_at": "2026-07-06T08:25:30.310240+09:00",
+      "normalized_title": "임시방편에서 근본 수술로: 1.8조 엔에서 7.5조 엔으로 가는 길 [김성민...",
+      "source_normalized": "한국금융신문",
+      "duplicate_key": "한국금융신문::임시방편에서 근본 수술로: 1.8조 엔에서 7.5조 엔으로 가는 길 [김성민...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.fntimes.com/html/view.php?ud=202607031731245843c1c16452b0_18",
+      "id": "69f69e386cba3450",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-23",
+  "slot": "evening",
+  "period_start": "2026-08-23T08:00:00+09:00",
+  "period_end": "2026-08-23T17:00:00+09:00",
+  "period_label": "2026-08-23 08:00 ~ 2026-08-23 17:00",
+  "generated_at": "2026-08-23T17:45:31.813650+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1555,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1165
+  },
+  "query_counts": {
+    "석유 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "‘제27회 세계코리아포럼’, 인도 델리대학교에서 개최…‘한민족 평화...새 창 열림",
+      "url": "http://www.breaknews.com/1230786",
+      "source": "새 창 열림",
+      "published_at": "2026-08-23T09:44:59.350436+09:00",
+      "snippet": "Absolute한 군사적 우위가 한계에 부딪혔고, 국제 유가 폭등으로 러시아산 석유 제재를 완화하며 위안화·루블화 결제를... 규범과 규칙에 기초한 자유주의 국제질서가 죽어가고 세력권 질서가 부활하는 전환기 속에서, 약소국들은 강대국 간 담합과 거래의... 새 창 열림",
+      "collected_at": "2026-08-23T17:44:59.350461+09:00",
+      "normalized_title": "‘제27회 세계코리아포럼’, 인도 델리대학교에서 개최…‘한민족 평화...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘제27회 세계코리아포럼’, 인도 델리대학교에서 개최…‘한민족 평화...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.breaknews.com/1230786",
+      "id": "3e98607a5d148639",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

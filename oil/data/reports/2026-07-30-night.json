@@ -1,0 +1,526 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-30",
+  "slot": "night",
+  "period_start": "2026-07-30T17:00:00+09:00",
+  "period_end": "2026-07-31T00:00:00+09:00",
+  "period_label": "2026-07-30 17:00 ~ 2026-07-31 00:00",
+  "generated_at": "2026-07-31T17:31:30.450643+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1577,
+  "total_deduped_count": 14,
+  "total_ok_count": 14,
+  "total_review_count": 0,
+  "total_excluded_count": 9,
+  "grade_counts": {
+    "A": 4,
+    "B": 2,
+    "C": 8
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1187
+  },
+  "query_counts": {
+    "경유 담합": 11,
+    "공정거래위원회 정유사 담합": 9,
+    "석유 담합": 4,
+    "석유제품 담합": 3,
+    "유가 담합": 3,
+    "유가담합": 3,
+    "정유사 담합": 12,
+    "정유업계 담합": 3,
+    "주유소 담합": 3,
+    "휘발유 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "‘경유에 의무 혼합’ 바이오연료 가격 담합",
+      "url": "http://v.daum.net/v/20260730203127414",
+      "source": "경향신문",
+      "published_at": "2026-07-30T21:24:47.289921+09:00",
+      "snippet": "한다. 현재 혼합 의무 비율은 약 4% 수준이다. 공정위는 주요 정유사(SK에너지, 에쓰오일, HD현대오일뱅크, GS칼텍스)에 공급되는...남부발전과 중부발전 등에 바이오중유를 공급하는 과정에서도 담합을 벌인 것으로 조사됐다. 공정위는 RPS 도입 직후인 2013년... 11시간 전",
+      "collected_at": "2026-07-31T08:24:47.289949+09:00",
+      "normalized_title": "‘경유에 의무 혼합’ 바이오연료 가격 담합",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::‘경유에 의무 혼합’ 바이오연료 가격 담합",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260730203127414",
+      "id": "8d32eb463079ed74",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "경유",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경향신문",
+      "url": "https://v.daum.net/channel/11/home",
+      "source": "경향신문",
+      "published_at": "2026-07-30T21:24:45.341827+09:00",
+      "snippet": "한다. 현재 혼합 의무 비율은 약 4% 수준이다. 공정위는 주요 정유사(SK에너지, 에쓰오일, HD현대오일뱅크, GS칼텍스)에 공급되는...남부발전과 중부발전 등에 바이오중유를 공급하는 과정에서도 담합을 벌인 것으로 조사됐다. 공정위는 RPS 도입 직후인 2013년... 11시간 전",
+      "collected_at": "2026-07-31T08:24:45.341842+09:00",
+      "normalized_title": "경향신문",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::경향신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/11/home",
+      "id": "be66a2e6ebbd2f4f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "세계일보",
+      "url": "https://v.daum.net/channel/38/home",
+      "source": "세계일보",
+      "published_at": "2026-07-30T21:24:43.584858+09:00",
+      "snippet": "입찰에서 낙찰 예정자를 미리 정한 뒤 물량을 배분하는 식의 담합을 벌인 것으로 판단했다. 공정위가 파악한 관련 매출액은 9조7000억...SK에너지, 에쓰오일, HD현대오일뱅크, GS칼텍스 등 정유사가 입찰을 통해 구매하고 있다. 바이오중유도 신재생에너지 공급... 11시간 전",
+      "collected_at": "2026-07-31T08:24:43.584873+09:00",
+      "normalized_title": "세계일보",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::세계일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/38/home",
+      "id": "84b9eb17cf27ffac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국경제",
+      "url": "https://v.daum.net/channel/3/home",
+      "source": "한국경제",
+      "published_at": "2026-07-30T19:24:47.290961+09:00",
+      "snippet": "담합 낙찰 규모가 9조7100억원에 달해 과징금이 2조원을 넘을 수 있다. 공정위 사무처는 디에스단석, 애경케미칼, 에스케이에코프라임...수요가 보장되는 입찰 시장에서 팔린다. 바이오디젤은 정유사가, 바이오중유는 발전사가 사간다. 7개 업체 점유율이 높아... 13시간 전",
+      "collected_at": "2026-07-31T08:24:47.290975+09:00",
+      "normalized_title": "한국경제",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::한국경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/3/home",
+      "id": "6ea5739e4883b5ac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정제마진 강세에… 정유사 ‘逆래깅’ 공포에도 하반기 실적 개선 전망에 무게",
+      "url": "http://v.daum.net/v/20260730173537708",
+      "source": "조선비즈",
+      "published_at": "2026-07-30T18:24:30.338799+09:00",
+      "snippet": "가격 상한제를 시행하고 담합 의혹에 대한 처벌에 나서자, 정유사들이 규제의 압박에서 벗어나기 위해 하반기에는 업황이 어려워질 것...했다. 익명을 요구한 금융 시장 관계자는 “변동성이 큰 유가와 달리 정제마진 강세는 설비 부족에 따른 구조적 문제라 하반기... 14시간 전",
+      "collected_at": "2026-07-31T08:24:30.338862+09:00",
+      "normalized_title": "정제마진 강세에… 정유사 ‘逆래깅’ 공포에도 하반기 실적 개선 전망에 무게",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::정제마진 강세에… 정유사 ‘逆래깅’ 공포에도 하반기 실적 개선 전망에 무게",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://v.daum.net/v/20260730173537708",
+      "id": "e8b56d0c975a2067",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "조선비즈",
+      "url": "https://v.daum.net/channel/216/home",
+      "source": "조선비즈",
+      "published_at": "2026-07-30T18:24:27.984452+09:00",
+      "snippet": "가격 상한제를 시행하고 담합 의혹에 대한 처벌에 나서자, 정유사들이 규제의 압박에서 벗어나기 위해 하반기에는 업황이 어려워질 것...했다. 익명을 요구한 금융 시장 관계자는 “변동성이 큰 유가와 달리 정제마진 강세는 설비 부족에 따른 구조적 문제라 하반기... 14시간 전",
+      "collected_at": "2026-07-31T08:24:27.984481+09:00",
+      "normalized_title": "조선비즈",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::조선비즈",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://v.daum.net/channel/216/home",
+      "id": "3757e0e10af8e443",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘경유에 의무 혼합’ 바이오연료 가격 담합새 창 열림",
+      "url": "https://www.khan.co.kr/article/202607302025025",
+      "source": "새 창 열림",
+      "published_at": "2026-07-30T21:24:41.008084+09:00",
+      "snippet": "공정위는 주요 정유사(SK에너지, 에쓰오일, HD현대오일뱅크, GS칼텍스)에 공급되는 과정에서 담합이 이뤄진 만큼, 결과적으로 경유 가격에도 영향을 미쳤을 가능성이 있다고 보고 있다. 팜유나 동·식물성 유지 등으로 만드는 바이오중유 역시 ‘신재생에너지 공급의무화제도(RPS)’에 따라 발전사에... 새 창 열림",
+      "collected_at": "2026-07-31T08:24:41.008098+09:00",
+      "normalized_title": "‘경유에 의무 혼합’ 바이오연료 가격 담합새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘경유에 의무 혼합’ 바이오연료 가격 담합새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.khan.co.kr/article/202607302025025",
+      "id": "244af733ae47fe1f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "경유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[이학노 칼럼] 화려한 반도체의 장막, 그 뒤의 그림자새 창 열림",
+      "url": "https://www.ajunews.com/view/20260730064657196",
+      "source": "새 창 열림",
+      "published_at": "2026-07-30T19:25:05.559697+09:00",
+      "snippet": "국내 정유산업이 과거는 물론 미국-이란 전쟁의 와중에 석유가격을 놓고 담합했다는 의혹을 받는 것과 마찬가지다. 최근 삼전닉스의 호황을 가져온 메모리 반도체의 가격 폭등은 세계적인 '칩플레이션(Chipflation)' 논란으로 이어지고 있다. 반도체 가격 상승이 자동차, 스마트폰, 가전제품 등 연관 제품들의 가격... 새 창 열림",
+      "collected_at": "2026-07-31T08:25:05.559726+09:00",
+      "normalized_title": "[이학노 칼럼] 화려한 반도체의 장막, 그 뒤의 그림자새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[이학노 칼럼] 화려한 반도체의 장막, 그 뒤의 그림자새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.ajunews.com/view/20260730064657196",
+      "id": "6100a7c0f3c28d8e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "바이오연료 7개사, 9.7조 짬짜미 입찰새 창 열림",
+      "url": "https://www.hankyung.com/article/2026073064041",
+      "source": "새 창 열림",
+      "published_at": "2026-07-30T19:24:41.009418+09:00",
+      "snippet": "바이오디젤은 정유사가, 바이오중유는 발전사가 사간다. 7개 업체 점유율이 높아 소비자용 연료비·전기료 상승으로 전가됐을 수 있다. 입찰 들러리를 세운 정황도 나타나 관련 매출이 더 늘고, 과징금 규모(담합 매출의 최대 20%)도 확대될 수 있다. 공정위는 각 회사의 의견을 받은 뒤 전원회의에서 제재... 새 창 열림",
+      "collected_at": "2026-07-31T08:24:41.009433+09:00",
+      "normalized_title": "바이오연료 7개사, 9.7조 짬짜미 입찰새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::바이오연료 7개사, 9.7조 짬짜미 입찰새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.hankyung.com/article/2026073064041",
+      "id": "55bd96aa8e1ea35a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 10조원대 바이오연료 입찰담합 제재 착수…7개 업체 심판대 올...새 창 열림",
+      "url": "https://www.delighti.co.kr/news/articleView.html?idxno=119623",
+      "source": "새 창 열림",
+      "published_at": "2026-07-30T18:24:41.012019+09:00",
+      "snippet": "공정위에 따르면 이들 업체는 2013년 12월부터 2025년 2월까지 바이오디젤과 바이오중유 입찰에서 낙찰 예정자를 미리 정하고 다른 업체를 들러리로 참여시키는 방식으로 낙찰 물량을 배분하는 등 담합한 혐의를 받고 있다. 바이오디젤은 자동차용 경유에 의무적으로 혼합되는 신재생 연료로, SK에너지와 S-OIL... 새 창 열림",
+      "collected_at": "2026-07-31T08:24:41.012032+09:00",
+      "normalized_title": "공정위, 10조원대 바이오연료 입찰담합 제재 착수…7개 업체 심판대 올...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 10조원대 바이오연료 입찰담합 제재 착수…7개 업체 심판대 올...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.delighti.co.kr/news/articleView.html?idxno=119623",
+      "id": "c0be67ddae3c40c1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "공정위",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정제마진 강세에… 정유사 ‘逆래깅’ 공포에도 하반기 실적 개선 전망...새 창 열림",
+      "url": "https://biz.chosun.com/industry/company/2026/07/30/BIB5ZLFYHJEOTPFSMWG74RPFHY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "source": "새 창 열림",
+      "published_at": "2026-07-30T18:24:26.458122+09:00",
+      "snippet": "지난 6일에는 검찰이 SK에너지와 GS칼텍스, HD현대오일뱅크, 에쓰오일 등 정유 4사를 담합 혐의로 기소하기도 했다. 익명을 요구한 금융 시장 관계자는 “변동성이 큰 유가와 달리 정제마진 강세는 설비 부족에 따른 구조적 문제라 하반기에도 정유사들의 실적은 개선된다는 데 무게가 실린다”고 말했다.... 새 창 열림",
+      "collected_at": "2026-07-31T08:24:26.458141+09:00",
+      "normalized_title": "정제마진 강세에… 정유사 ‘逆래깅’ 공포에도 하반기 실적 개선 전망...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정제마진 강세에… 정유사 ‘逆래깅’ 공포에도 하반기 실적 개선 전망...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://biz.chosun.com/industry/company/2026/07/30/BIB5ZLFYHJEOTPFSMWG74RPFHY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "id": "6523f5cd5b32d078",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "11년 이어진 ‘바이오연료’ 담합… 공정위, 9조 7천억 원대 입찰담합 ...새 창 열림",
+      "url": "https://kidd.co.kr/news/246895",
+      "source": "새 창 열림",
+      "published_at": "2026-07-30T17:25:19.741723+09:00",
+      "snippet": "또 “경유에 바이오디젤을 4% 혼입하게 돼 있어, 경유 가격에 아주 작지만 영향을 안 미쳤다고 하기는 어려울 것 같다”며 담합이 유발한 파급력을 짚었다. 공정위 심사관은 이들의 행위가 공정거래법상 입찰담합과 물량담합에 해당하는 중대한 위법 행위라고 판단해 금지명령, 과징금 부과, 법인 및 전... 새 창 열림",
+      "collected_at": "2026-07-31T08:25:19.741737+09:00",
+      "normalized_title": "11년 이어진 ‘바이오연료’ 담합… 공정위, 9조 7천억 원대 입찰담합 ...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::11년 이어진 ‘바이오연료’ 담합… 공정위, 9조 7천억 원대 입찰담합 ...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://kidd.co.kr/news/246895",
+      "id": "2cb02b7277f6bdea",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "바이오연료 입찰서 11년간 담합…과징금 2조원대 예고새 창 열림",
+      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607300617&t=NN",
+      "source": "새 창 열림",
+      "published_at": "2026-07-30T17:24:41.014778+09:00",
+      "snippet": "이에 따라 SK에너지, S-OIL, HD 현대오일뱅크, GS칼텍스 등 정유사들이 1년에 한 번 입찰을 통해 구매하고 있다. 바이오중유도 신재생에너지 공급 의무화 제도에 따라 남부발전, 중부발전 등 발전사들이 수시 입찰을 통해 조달해오고 있다. 7개 업체의 담합 행위로 영향을 받은 입찰 규모는 바이오디젤의 경우... 새 창 열림",
+      "collected_at": "2026-07-31T08:24:41.014792+09:00",
+      "normalized_title": "바이오연료 입찰서 11년간 담합…과징금 2조원대 예고새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::바이오연료 입찰서 11년간 담합…과징금 2조원대 예고새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607300617&t=NN",
+      "id": "e1369b05a269b585",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "바이오연료 입찰서 11년간 담합…과징금 2조원대 예고",
+      "url": "http://v.daum.net/v/20260730165928993",
+      "source": "한국경제TV",
+      "published_at": "2026-07-30T17:24:52.327796+09:00",
+      "snippet": "이에 따라 SK에너지, S-OIL, HD 현대오일뱅크, GS칼텍스 등 정유사들이 1년에 한 번 입찰을 통해 구매하고 있다. 바이오중유도 신재생...판단하고 있다. 심사관은 7개 업체의 이번 행위가 공정거래법을 위반하는 '매우 중대한 위법 행위'라고 봤다. 이에 향후 금지... 15시간 전",
+      "collected_at": "2026-07-31T08:24:52.327847+09:00",
+      "normalized_title": "바이오연료 입찰서 11년간 담합…과징금 2조원대 예고",
+      "source_normalized": "한국경제TV",
+      "duplicate_key": "한국경제tv::바이오연료 입찰서 11년간 담합…과징금 2조원대 예고",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260730165928993",
+      "id": "c3a5a9b3d44ca22d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

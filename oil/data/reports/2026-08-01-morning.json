@@ -1,0 +1,78 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-01",
+  "slot": "morning",
+  "period_start": "2026-08-01T00:00:00+09:00",
+  "period_end": "2026-08-01T08:00:00+09:00",
+  "period_label": "2026-08-01 00:00 ~ 2026-08-01 08:00",
+  "generated_at": "2026-08-01T09:11:25.547466+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1569,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1179
+  },
+  "query_counts": {
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "계란·시금치 안 오른 게 없네…김밥 말기가 겁나는 사장님새 창 열림",
+      "url": "https://www.joongang.co.kr/article/25449994",
+      "source": "새 창 열림",
+      "published_at": "2026-08-01T02:10:29.296674+09:00",
+      "snippet": "지난 4월 밀가루 가격 담합 적발과 맞물려 서민 물가 안정에 동참하겠다며 주요 제품 가격을 내린 지 불과 4개월 만이다. 육개장사발면의 경우... 최철 숙명여대 소비자경제학과 교수는 “중동전쟁 장기화로 국제유가와 환율이 올라 기업들은 원재료·포장재·물류비 부담이 커진 상황이고, 작황 부진... 새 창 열림",
+      "collected_at": "2026-08-01T09:10:29.296701+09:00",
+      "normalized_title": "계란·시금치 안 오른 게 없네…김밥 말기가 겁나는 사장님새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::계란·시금치 안 오른 게 없네…김밥 말기가 겁나는 사장님새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.joongang.co.kr/article/25449994",
+      "id": "12e7513e49aed919",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

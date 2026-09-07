@@ -1,0 +1,2120 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-05",
+  "slot": "evening",
+  "period_start": "2026-08-05T08:00:00+09:00",
+  "period_end": "2026-08-05T17:00:00+09:00",
+  "period_label": "2026-08-05 08:00 ~ 2026-08-05 17:00",
+  "generated_at": "2026-08-05T19:45:09.040938+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1585,
+  "total_deduped_count": 66,
+  "total_ok_count": 66,
+  "total_review_count": 0,
+  "total_excluded_count": 11,
+  "grade_counts": {
+    "A": 18,
+    "B": 11,
+    "C": 37
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1195
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 8,
+    "공정위 유가 담합": 11,
+    "석유 담합": 42,
+    "석유제품 담합": 29,
+    "유가 담합": 21,
+    "유가담합": 20,
+    "유류가격 담합": 1,
+    "정유사 담합": 9,
+    "정유업계 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "檢 ‘석유화학제품 가격 담합 의혹’ 석화업체 7곳 압수수색",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOEZ6ZnhacTBGMjBOclNMOHFNUnZ1M0h0MUpRQ01BajRfYjVFMzM0NnhNelltcTBJYU8weUFZdU9WUDJ4endXLTVORzVHV0V6YjU2RXdUUE5wM2s2aWhHd1BJY2FuV0xqLU10UVRKMmd4T1U1V2VfRHhTbjBPdjFVbklNS090NzQ?oc=5",
+      "source": "조선일보",
+      "published_at": "2026-08-05T11:32:00+09:00",
+      "snippet": "檢 ‘석유화학제품 가격 담합 의혹’ 석화업체 7곳 압수수색 조선일보",
+      "collected_at": "2026-08-05T17:08:18.034307+09:00",
+      "normalized_title": "檢 ‘석유화학제품 가격 담합 의혹’ 석화업체 7곳 압수수색",
+      "source_normalized": "조선일보",
+      "duplicate_key": "조선일보::檢 ‘석유화학제품 가격 담합 의혹’ 석화업체 7곳 압수수색",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOEZ6ZnhacTBGMjBOclNMOHFNUnZ1M0h0MUpRQ01BajRfYjVFMzM0NnhNelltcTBJYU8weUFZdU9WUDJ4endXLTVORzVHV0V6YjU2RXdUUE5wM2s2aWhHd1BJY2FuV0xqLU10UVRKMmd4T1U1V2VfRHhTbjBPdjFVbklNS090NzQ?oc=5",
+      "id": "cc5390a88248a1dc",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘전쟁 틈타 PVC 등 담합’ 의혹으로 석유화학업체 7곳 압수수색",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tekhKeXc4QTZnYWtYN1A0YVBua3llUklZYmgtdGhUS21Oa1Q1cWcxbTZRRnJGMFJOVm9GQWJ2TWJua3dsUHJweVlYNExtXzBweXRVSmJB?oc=5",
+      "source": "중앙일보",
+      "published_at": "2026-08-05T11:18:47+09:00",
+      "snippet": "‘전쟁 틈타 PVC 등 담합’ 의혹으로 석유화학업체 7곳 압수수색 중앙일보",
+      "collected_at": "2026-08-05T17:08:18.036158+09:00",
+      "normalized_title": "‘전쟁 틈타 PVC 등 담합’ 의혹으로 석유화학업체 7곳 압수수색",
+      "source_normalized": "중앙일보",
+      "duplicate_key": "중앙일보::‘전쟁 틈타 pvc 등 담합’ 의혹으로 석유화학업체 7곳 압수수색",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tekhKeXc4QTZnYWtYN1A0YVBua3llUklZYmgtdGhUS21Oa1Q1cWcxbTZRRnJGMFJOVm9GQWJ2TWJua3dsUHJweVlYNExtXzBweXRVSmJB?oc=5",
+      "id": "b7c9a4fed7aeb1f4",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, ‘PVC·가소제 담합 의혹’ 석유화학업체 7개사 압수수색",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45Rmo3R0xhYThMZ2ZSYzAwY2ZjSEhvUnhPTGgxUGN5QWdLbjkzcTljcEpoeDdOWlVaWHBEdnFxeDhXeXVGRXRadEpCWmUtd2JUaENxQnZ4ZDhibGtPODZhS3RHTXpEQdIBZkFVX3lxTE45Rmo3R0xhYThMZ2ZSYzAwY2ZjSEhvUnhPTGgxUGN5QWdLbjkzcTljcEpoeDdOWlVaWHBEdnFxeDhXeXVGRXRadEpCWmUtd2JUaENxQnZ4ZDhibGtPODZhS3RHTXpEQQ?oc=5",
+      "source": "동아일보",
+      "published_at": "2026-08-05T12:59:22+09:00",
+      "snippet": "검찰, ‘PVC·가소제 담합 의혹’ 석유화학업체 7개사 압수수색 동아일보",
+      "collected_at": "2026-08-05T17:08:18.035468+09:00",
+      "normalized_title": "검찰, ‘PVC·가소제 담합 의혹’ 석유화학업체 7개사 압수수색",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::검찰, ‘pvc·가소제 담합 의혹’ 석유화학업체 7개사 압수수색",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45Rmo3R0xhYThMZ2ZSYzAwY2ZjSEhvUnhPTGgxUGN5QWdLbjkzcTljcEpoeDdOWlVaWHBEdnFxeDhXeXVGRXRadEpCWmUtd2JUaENxQnZ4ZDhibGtPODZhS3RHTXpEQdIBZkFVX3lxTE45Rmo3R0xhYThMZ2ZSYzAwY2ZjSEhvUnhPTGgxUGN5QWdLbjkzcTljcEpoeDdOWlVaWHBEdnFxeDhXeXVGRXRadEpCWmUtd2JUaENxQnZ4ZDhibGtPODZhS3RHTXpEQQ?oc=5",
+      "id": "300f61cbff13bbec",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9zZEhDQTZHUmMtQnpRbk5vV2QyLW5OVmN4bFdqVlRSeDRTbkxMQWZNa0Y2WklZTkxBRFM4UU5qX09JRm5PWU1SQVh3blZ0TzlkNEN6eEdnZEVTMlJJeGw2NnVJcVdrSGJSV290U1pPZjl0Z2_SAXNBVV95cUxPc2RIQ0E2R1JjLUJ6UW5Ob1dkMi1uTlZjeGxXalZUUng0U25MTEFmTWtGNlpJWU5MQURTOFFOal9PSUZuT1lNUkFYd25WdE85ZDRDenhHZ2RFUzJSSXhsNjZ1SXFXa0hiUldvdFNaT2Y5dGdv?oc=5",
+      "source": "한국일보",
+      "published_at": "2026-08-05T10:58:00+09:00",
+      "snippet": "검찰, '석유화학제품 담합 의혹' 7개사 압수수색 한국일보",
+      "collected_at": "2026-08-05T17:08:18.036375+09:00",
+      "normalized_title": "검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "source_normalized": "한국일보",
+      "duplicate_key": "한국일보::검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9zZEhDQTZHUmMtQnpRbk5vV2QyLW5OVmN4bFdqVlRSeDRTbkxMQWZNa0Y2WklZTkxBRFM4UU5qX09JRm5PWU1SQVh3blZ0TzlkNEN6eEdnZEVTMlJJeGw2NnVJcVdrSGJSV290U1pPZjl0Z2_SAXNBVV95cUxPc2RIQ0E2R1JjLUJ6UW5Ob1dkMi1uTlZjeGxXalZUUng0U25MTEFmTWtGNlpJWU5MQURTOFFOal9PSUZuT1lNUkFYd25WdE85ZDRDenhHZ2RFUzJSSXhsNjZ1SXFXa0hiUldvdFNaT2Y5dGdv?oc=5",
+      "id": "edf0147202d805e6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, ‘PVC·가소제’ 담합 의혹 석유화학 업체 압수수색",
+      "url": "http://v.daum.net/v/20260805133527359",
+      "source": "경향신문",
+      "published_at": "2026-08-05T14:07:32.905255+09:00",
+      "snippet": "OCI, 롯데정밀화학, PKC, 유니드 등 7곳을 압수수색하고 있다. 이 업체들은 PVC 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격을 수년간 담합한 혐의(공정거래법 위반)를 받는다. 앞서 공정거래위원회도 지난 5월 석유화학제품 가격 담합 의혹과 관련해... 3시간 전",
+      "collected_at": "2026-08-05T17:07:32.905283+09:00",
+      "normalized_title": "검찰, ‘PVC·가소제’ 담합 의혹 석유화학 업체 압수수색",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::검찰, ‘pvc·가소제’ 담합 의혹 석유화학 업체 압수수색",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260805133527359",
+      "id": "1427aec09bf6d31c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경향신문",
+      "url": "https://v.daum.net/channel/11/home",
+      "source": "경향신문",
+      "published_at": "2026-08-05T14:07:31.743352+09:00",
+      "snippet": "OCI, 롯데정밀화학, PKC, 유니드 등 7곳을 압수수색하고 있다. 이 업체들은 PVC 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격을 수년간 담합한 혐의(공정거래법 위반)를 받는다. 앞서 공정거래위원회도 지난 5월 석유화학제품 가격 담합 의혹과 관련해... 3시간 전",
+      "collected_at": "2026-08-05T17:07:31.743368+09:00",
+      "normalized_title": "경향신문",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::경향신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/11/home",
+      "id": "be66a2e6ebbd2f4f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이번엔 PVC 등 담합…중앙지검, 석유화학업체 7곳 압수수색",
+      "url": "http://v.daum.net/v/20260805132543116",
+      "source": "한국경제",
+      "published_at": "2026-08-05T14:07:34.121197+09:00",
+      "snippet": "보다 부드럽게 만드는 화학첨가제다. 공정거래위원회도 지난 5월 석유화학업체들이 담합을 한 단서를 잡고 현장조사에 나섰다. 오는...1년 새 설탕, 밀가루, 전분당 등 식료품 담합 사건과 4대 정유사의 유가 담합 사건 등을 수사를 완료했다. 현재 ‘반도체 부품... 3시간 전",
+      "collected_at": "2026-08-05T17:07:34.121224+09:00",
+      "normalized_title": "이번엔 PVC 등 담합…중앙지검, 석유화학업체 7곳 압수수색",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::이번엔 pvc 등 담합…중앙지검, 석유화학업체 7곳 압수수색",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://v.daum.net/v/20260805132543116",
+      "id": "9185d99a1bb45b0c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국경제",
+      "url": "https://v.daum.net/channel/3/home",
+      "source": "한국경제",
+      "published_at": "2026-08-05T14:07:32.906482+09:00",
+      "snippet": "보다 부드럽게 만드는 화학첨가제다. 공정거래위원회도 지난 5월 석유화학업체들이 담합을 한 단서를 잡고 현장조사에 나섰다. 오는...1년 새 설탕, 밀가루, 전분당 등 식료품 담합 사건과 4대 정유사의 유가 담합 사건 등을 수사를 완료했다. 현재 ‘반도체 부품... 3시간 전",
+      "collected_at": "2026-08-05T17:07:32.906498+09:00",
+      "normalized_title": "한국경제",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::한국경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/3/home",
+      "id": "6ea5739e4883b5ac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 이란전쟁 틈타 'PVC 담합 의혹' 석화업체 7곳 압수수색",
+      "url": "http://v.daum.net/v/20260805141852939",
+      "source": "머니투데이",
+      "published_at": "2026-08-05T15:08:13.337416+09:00",
+      "snippet": "석유화학제품 가격 자료를 확보 중인 것으로 전해졌다. LG화학 등은 PVC·가소제·가성소다·염산 등 8개 석유화학 제품 품목의 가격을 수년간 담합한 혐의를 받는다. 올해 중동전쟁 발발 이후 석유화학 핵심 원료인 나프타 조달에 차질이 빚어지자 해당 품목 가격을... 2시간 전",
+      "collected_at": "2026-08-05T17:08:13.337442+09:00",
+      "normalized_title": "검찰, 이란전쟁 틈타 'PVC 담합 의혹' 석화업체 7곳 압수수색",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::검찰, 이란전쟁 틈타 'pvc 담합 의혹' 석화업체 7곳 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260805141852939",
+      "id": "49e7db2881b9bd2a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "머니투데이",
+      "url": "https://v.daum.net/channel/5/home",
+      "source": "머니투데이",
+      "published_at": "2026-08-05T15:08:12.238180+09:00",
+      "snippet": "석유화학제품 가격 자료를 확보 중인 것으로 전해졌다. LG화학 등은 PVC·가소제·가성소다·염산 등 8개 석유화학 제품 품목의 가격을 수년간 담합한 혐의를 받는다. 올해 중동전쟁 발발 이후 석유화학 핵심 원료인 나프타 조달에 차질이 빚어지자 해당 품목 가격을... 2시간 전",
+      "collected_at": "2026-08-05T17:08:12.238197+09:00",
+      "normalized_title": "머니투데이",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::머니투데이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/5/home",
+      "id": "15b948cff6e29cc5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"檢수사권 폐지시 마약합수본 증거능력 상실\"…법무장관, 후폭풍 우려",
+      "url": "http://v.daum.net/v/20260805165142890",
+      "source": "이데일리",
+      "published_at": "2026-08-05T16:52:31.742115+09:00",
+      "snippet": "상반기 성과로는 보이스피싱 범죄가 7개월 연속 감소해 발생 건수와 피해액이 전년 동기 대비 35.3% 줄었고, 밀가루·설탕·유가·전분당 등 총 33조 6000억원 규모의 생필품 담합을 적발해 66명을 기소했다고 설명했다. 마약범죄는 8개 범죄집단 등 264명을 입건... 15분 전 8",
+      "collected_at": "2026-08-05T17:07:31.742142+09:00",
+      "normalized_title": "\"檢수사권 폐지시 마약합수본 증거능력 상실\"…법무장관, 후폭풍 우려",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::\"檢수사권 폐지시 마약합수본 증거능력 상실\"…법무장관, 후폭풍 우려",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260805165142890",
+      "id": "4b0595a5ffbb6cc8",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, 'PVC·가소제 가격 담합' LG화학·한화솔루션 등 7곳 압수수색",
+      "url": "http://v.daum.net/v/20260805131332831",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-08-05T14:09:11.601127+09:00",
+      "snippet": "7곳을 압수수색해 관련 자료를 확보하고 있다고 밝혔다. 이들 업체는 PVC와 가소제, 가성소다, 염산 등 총 8개 석유화학제품 품목의 가격을 수년간 담합한 혐의(공정거래법 위반)를 받는다. 검찰은 해당 업체들이 중동 지역 전쟁 발발로 원재료인 나프타 수급이... 3시간 전",
+      "collected_at": "2026-08-05T17:09:11.601153+09:00",
+      "normalized_title": "檢, 'PVC·가소제 가격 담합' LG화학·한화솔루션 등 7곳 압수수색",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::檢, 'pvc·가소제 가격 담합' lg화학·한화솔루션 등 7곳 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260805131332831",
+      "id": "afc2075f36d006df",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "파이낸셜뉴스",
+      "url": "https://v.daum.net/channel/139/home",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-08-05T14:09:10.595513+09:00",
+      "snippet": "7곳을 압수수색해 관련 자료를 확보하고 있다고 밝혔다. 이들 업체는 PVC와 가소제, 가성소다, 염산 등 총 8개 석유화학제품 품목의 가격을 수년간 담합한 혐의(공정거래법 위반)를 받는다. 검찰은 해당 업체들이 중동 지역 전쟁 발발로 원재료인 나프타 수급이... 3시간 전",
+      "collected_at": "2026-08-05T17:09:10.595529+09:00",
+      "normalized_title": "파이낸셜뉴스",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::파이낸셜뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/139/home",
+      "id": "f9b058269ce9069e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "법무부, '2026 하반기 업무계획' 발표…\"민생범죄 엄단·배임죄 정비\"",
+      "url": "http://v.daum.net/v/20260805165353979",
+      "source": "아시아경제",
+      "published_at": "2026-08-05T16:54:30.545924+09:00",
+      "snippet": "위치를 공유하는 시스템도 새로 구축하기로 했다. 경제 분야에서는 불공정거래 수사를 강화한다. 법무부는 상반기 밀가루·설탕·유가·전분당 등 33조6000억원 규모의 생필품 담합을 적발해 관련자 66명을 기소했다며, 전국 18개 검찰청에 편성한 민생·물가 안정... 13분 전",
+      "collected_at": "2026-08-05T17:07:30.545950+09:00",
+      "normalized_title": "법무부, '2026 하반기 업무계획' 발표…\"민생범죄 엄단·배임죄 정비\"",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::법무부, '2026 하반기 업무계획' 발표…\"민생범죄 엄단·배임죄 정비\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260805165353979",
+      "id": "15e95ee4b49bfc80",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "아시아경제",
+      "url": "https://v.daum.net/channel/90/home",
+      "source": "아시아경제",
+      "published_at": "2026-08-05T16:54:29.263215+09:00",
+      "snippet": "위치를 공유하는 시스템도 새로 구축하기로 했다. 경제 분야에서는 불공정거래 수사를 강화한다. 법무부는 상반기 밀가루·설탕·유가·전분당 등 33조6000억원 규모의 생필품 담합을 적발해 관련자 66명을 기소했다며, 전국 18개 검찰청에 편성한 민생·물가 안정... 13분 전",
+      "collected_at": "2026-08-05T17:07:29.263234+09:00",
+      "normalized_title": "아시아경제",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::아시아경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/90/home",
+      "id": "7197c286bb7e5fce",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 'PVC·가소제 담합 의혹' 석유화학업체 7개사 압수수색",
+      "url": "http://v.daum.net/v/20260805112217990",
+      "source": "뉴시스",
+      "published_at": "2026-08-05T12:07:35.378815+09:00",
+      "snippet": "건축, 의료용 기기, 소비재 등에 광범위하게 쓰인다. 앞서 공정거래위원회는 지난 5월 PVC와 가소제 등 가격 담합 정황을 포착하고...끌어올린 혐의로 현대오일뱅크와 SK에너지 등 국내 주요 정유사들을 재판에 넘긴 바 있다. ☞공감언론 뉴시스 leakwon@newsis.com 5시간 전",
+      "collected_at": "2026-08-05T17:07:35.378840+09:00",
+      "normalized_title": "검찰, 'PVC·가소제 담합 의혹' 석유화학업체 7개사 압수수색",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::검찰, 'pvc·가소제 담합 의혹' 석유화학업체 7개사 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260805112217990",
+      "id": "1952d70a72ab0536",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴시스",
+      "url": "https://v.daum.net/channel/21/home",
+      "source": "뉴시스",
+      "published_at": "2026-08-05T12:07:34.122400+09:00",
+      "snippet": "건축, 의료용 기기, 소비재 등에 광범위하게 쓰인다. 앞서 공정거래위원회는 지난 5월 PVC와 가소제 등 가격 담합 정황을 포착하고...끌어올린 혐의로 현대오일뱅크와 SK에너지 등 국내 주요 정유사들을 재판에 넘긴 바 있다. ☞공감언론 뉴시스 leakwon@newsis.com 5시간 전",
+      "collected_at": "2026-08-05T17:07:34.122416+09:00",
+      "normalized_title": "뉴시스",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::뉴시스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/21/home",
+      "id": "e250fa63010cdcd6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보]검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QNS1VdHByT3ZUNFZtOVpZOXdlZDFSYkRpMFQ5bUo0Yk1TNU9XenduaE9JRXVwTmNpSXhEODJER2FEc1RDdVNsX0xGNzdkRkR0OUY3RHpXWktUM2RqYjhMdtIBeEFVX3lxTE52VmczYS1wTzhoTERNVWZySy1ZYWhTaUtxMVUxcmJ3a1NheURDSVdPYU1qcDJ4aDJDNTNFYzFnQmZ0MDdxOEh1YXBqNFh1UlctUnZWMXJuN2xoTE1aTmJyU0VYNFF2WVZZS3ByNlQzZlM3bEViU1ZGaQ?oc=5",
+      "source": "뉴시스",
+      "published_at": "2026-08-05T10:55:03+09:00",
+      "snippet": "[속보]검찰, '석유화학제품 담합 의혹' 7개사 압수수색 뉴시스",
+      "collected_at": "2026-08-05T17:08:18.036616+09:00",
+      "normalized_title": "검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QNS1VdHByT3ZUNFZtOVpZOXdlZDFSYkRpMFQ5bUo0Yk1TNU9XenduaE9JRXVwTmNpSXhEODJER2FEc1RDdVNsX0xGNzdkRkR0OUY3RHpXWktUM2RqYjhMdtIBeEFVX3lxTE52VmczYS1wTzhoTERNVWZySy1ZYWhTaUtxMVUxcmJ3a1NheURDSVdPYU1qcDJ4aDJDNTNFYzFnQmZ0MDdxOEh1YXBqNFh1UlctUnZWMXJuN2xoTE1aTmJyU0VYNFF2WVZZS3ByNlQzZlM3bEViU1ZGaQ?oc=5",
+      "id": "0beeedac80d07d7e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, ‘PVC 등 담합 의혹’ 석유화학업체 7곳 압수수색",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0NXlJTXBlY1Q1dVV4dlUxNmoyaE9vNElMNDQ0X0VGcktkc2pBMjZEWHp4ck9GOFlHaUd1Vk9CYldDZlFJa0ZjRmVpMDRGSG5USGVGLWtGNjljVnRScVVvczRQMmZDTFEzZTQzR29B?oc=5",
+      "source": "아시아투데이",
+      "published_at": "2026-08-05T13:47:43+09:00",
+      "snippet": "檢, ‘PVC 등 담합 의혹’ 석유화학업체 7곳 압수수색 아시아투데이",
+      "collected_at": "2026-08-05T17:08:18.035938+09:00",
+      "normalized_title": "檢, ‘PVC 등 담합 의혹’ 석유화학업체 7곳 압수수색",
+      "source_normalized": "아시아투데이",
+      "duplicate_key": "아시아투데이::檢, ‘pvc 등 담합 의혹’ 석유화학업체 7곳 압수수색",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0NXlJTXBlY1Q1dVV4dlUxNmoyaE9vNElMNDQ0X0VGcktkc2pBMjZEWHp4ck9GOFlHaUd1Vk9CYldDZlFJa0ZjRmVpMDRGSG5USGVGLWtGNjljVnRScVVvczRQMmZDTFEzZTQzR29B?oc=5",
+      "id": "07027477bc1f3141",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보]검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EWWdqS2d6dVhLT0N3M2E4aE5kUU8yWng3aklTX2o0enlEUWpQdG1qZjBXcVdYZGJicDU4SjJEWlJDLU40TnFoOERJWGRjUXpfM0hyaQ?oc=5",
+      "source": "이투데이",
+      "published_at": "2026-08-05T11:01:00+09:00",
+      "snippet": "[속보]검찰, '석유화학제품 담합 의혹' 7개사 압수수색 이투데이",
+      "collected_at": "2026-08-05T17:08:18.038287+09:00",
+      "normalized_title": "검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "source_normalized": "이투데이",
+      "duplicate_key": "이투데이::검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EWWdqS2d6dVhLT0N3M2E4aE5kUU8yWng3aklTX2o0enlEUWpQdG1qZjBXcVdYZGJicDU4SjJEWlJDLU40TnFoOERJWGRjUXpfM0hyaQ?oc=5",
+      "id": "dbfaed28ff5faceb",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 이란전쟁 틈타 ‘PVC 담합 의혹’ 석화업체 7곳 압수수색",
+      "url": "http://v.daum.net/v/20260805124510363",
+      "source": "KBS",
+      "published_at": "2026-08-05T13:09:12.599032+09:00",
+      "snippet": "수급이 불안정해지자 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의한 혐의(공정거래법 위반)를...공정거래위원회도 지난 5월 석화업체들의 이 같은 담합 정황을 포착하고 현장조사를 진행한 바 있습니다. [사진 출처 : 연합... 4시간 전",
+      "collected_at": "2026-08-05T17:09:12.599058+09:00",
+      "normalized_title": "검찰, 이란전쟁 틈타 ‘PVC 담합 의혹’ 석화업체 7곳 압수수색",
+      "source_normalized": "KBS",
+      "duplicate_key": "kbs::검찰, 이란전쟁 틈타 ‘pvc 담합 의혹’ 석화업체 7곳 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260805124510363",
+      "id": "9516a87513b2b194",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "KBS",
+      "url": "https://v.daum.net/channel/327/home",
+      "source": "KBS",
+      "published_at": "2026-08-05T13:09:11.602360+09:00",
+      "snippet": "수급이 불안정해지자 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의한 혐의(공정거래법 위반)를...공정거래위원회도 지난 5월 석화업체들의 이 같은 담합 정황을 포착하고 현장조사를 진행한 바 있습니다. [사진 출처 : 연합... 4시간 전",
+      "collected_at": "2026-08-05T17:09:11.602375+09:00",
+      "normalized_title": "KBS",
+      "source_normalized": "KBS",
+      "duplicate_key": "kbs::kbs",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/327/home",
+      "id": "2deb64bd18d6b3a3",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁 틈타 PVC 등 담합 의혹…검찰, 석화업체 7곳 압수수색",
+      "url": "http://v.daum.net/v/20260805134640718",
+      "source": "데일리안",
+      "published_at": "2026-08-05T14:08:14.320954+09:00",
+      "snippet": "수급이 불안정해지자 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의한 혐의(공정거래법 위반)를...만드는 화학첨가제다. 앞서 공정거래위원회는 지난 5월 석화업체들의 이같은 담합 정황을 포착하고 현장조사에 나서기도 했다. 3시간 전",
+      "collected_at": "2026-08-05T17:08:14.320983+09:00",
+      "normalized_title": "전쟁 틈타 PVC 등 담합 의혹…검찰, 석화업체 7곳 압수수색",
+      "source_normalized": "데일리안",
+      "duplicate_key": "데일리안::전쟁 틈타 pvc 등 담합 의혹…검찰, 석화업체 7곳 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260805134640718",
+      "id": "71b173c70a5b4ca7",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "데일리안",
+      "url": "https://v.daum.net/channel/43/home",
+      "source": "데일리안",
+      "published_at": "2026-08-05T14:08:13.338640+09:00",
+      "snippet": "수급이 불안정해지자 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의한 혐의(공정거래법 위반)를...만드는 화학첨가제다. 앞서 공정거래위원회는 지난 5월 석화업체들의 이같은 담합 정황을 포착하고 현장조사에 나서기도 했다. 3시간 전",
+      "collected_at": "2026-08-05T17:08:13.338659+09:00",
+      "normalized_title": "데일리안",
+      "source_normalized": "데일리안",
+      "duplicate_key": "데일리안::데일리안",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/43/home",
+      "id": "869228886c807077",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '석유화학제품 담합' 압수수색...LG 화학 등 7개 기업",
+      "url": "http://v.daum.net/v/20260805133605382",
+      "source": "YTN",
+      "published_at": "2026-08-05T14:08:16.361265+09:00",
+      "snippet": "검찰이 중동전쟁을 틈타 폴리염화비닐과 가소제 등의 가격을 담합했다는 의혹을 받는 국내 석유화학업체들을 상대로 강제수사에 착수했습니다. 서울중앙지방검찰청 공정거래조사부는 오늘(5일) 오전부터 LG화학, 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC... 3시간 전",
+      "collected_at": "2026-08-05T17:08:16.361299+09:00",
+      "normalized_title": "검찰, '석유화학제품 담합' 압수수색...LG 화학 등 7개 기업",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::검찰, '석유화학제품 담합' 압수수색...lg 화학 등 7개 기업",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260805133605382",
+      "id": "5512710ca5a41e29",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "YTN",
+      "url": "https://v.daum.net/channel/23/home",
+      "source": "YTN",
+      "published_at": "2026-08-05T14:08:15.346964+09:00",
+      "snippet": "검찰이 중동전쟁을 틈타 폴리염화비닐과 가소제 등의 가격을 담합했다는 의혹을 받는 국내 석유화학업체들을 상대로 강제수사에 착수했습니다. 서울중앙지방검찰청 공정거래조사부는 오늘(5일) 오전부터 LG화학, 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC... 3시간 전",
+      "collected_at": "2026-08-05T17:08:15.346980+09:00",
+      "normalized_title": "YTN",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::ytn",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/23/home",
+      "id": "d2d24d5b6b97e3ae",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "url": "http://v.daum.net/v/20260805165652097",
+      "source": "연합뉴스TV",
+      "published_at": "2026-08-05T16:57:09.268962+09:00",
+      "snippet": "검찰이 석유화학제품 담합 혐의와 관련해 국내 석유화학업체들에 대한 강제수사에 나섰습니다. 서울중앙지검 공정거래조사부는 오늘(5일) 오전 LG화학과 한화솔루션, 애경케미칼, 오씨아이(OCI), 롯데정밀화학, 피케이씨(PKC), 유니드 등 7개 기업 사무실과 관련자에... 11분 전",
+      "collected_at": "2026-08-05T17:08:09.268987+09:00",
+      "normalized_title": "검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260805165652097",
+      "id": "84fc11c5efcc6bd5",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '석유화학 제품 담합' LG화학·한화솔루션 등 7곳 압수수색",
+      "url": "http://v.daum.net/v/20260805112011830",
+      "source": "연합뉴스TV",
+      "published_at": "2026-08-05T12:07:36.729474+09:00",
+      "snippet": "쓰이는 합성 플라스틱이며, 가소제는 PVC를 보다 부드럽고 유연하게 만드는 화학첨가제입니다. 지난달 검찰이 최종 처분했던 유가 담합 사건에 이어 최근 정부에서 강조하는 물가 교란 행위에 대한 엄정 대응의 연장선상으로 풀이됩니다. 앞서 공정거래위원회도 지난... 5시간 전",
+      "collected_at": "2026-08-05T17:07:36.729497+09:00",
+      "normalized_title": "검찰, '석유화학 제품 담합' LG화학·한화솔루션 등 7곳 압수수색",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::검찰, '석유화학 제품 담합' lg화학·한화솔루션 등 7곳 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260805112011830",
+      "id": "348f0cc441b2f03b",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스TV",
+      "url": "https://v.daum.net/channel/318/home",
+      "source": "연합뉴스TV",
+      "published_at": "2026-08-05T12:07:35.379976+09:00",
+      "snippet": "검찰이 석유화학제품 담합 혐의와 관련해 국내 석유화학업체들에 대한 강제수사에 나섰습니다. 서울중앙지검 공정거래조사부는 오늘(5일) 오전 LG화학과 한화솔루션, 애경케미칼, 오씨아이(OCI), 롯데정밀화학, 피케이씨(PKC), 유니드 등 7개 기업 사무실과 관련자에... 11분 전",
+      "collected_at": "2026-08-05T17:07:35.379992+09:00",
+      "normalized_title": "연합뉴스TV",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::연합뉴스tv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/318/home",
+      "id": "3c5f8f96c9d1d1e1",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘전쟁 틈탄 가격 담합’...LG화학·한화솔루션 등 석유화학업체 7곳 압수수색",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RV1JuQ29sSXUxaTYwdFYybW5rYUZXR3BjS1VGRFJQbXpwWUNuVkJrYVJjRzhYaF96ZXY2WXpMWHdtQXlETDRJQ2ZwM1VzMmJaRUJLaGxfS2pkbDF0bmRJdUFB?oc=5",
+      "source": "cwn.kr",
+      "published_at": "2026-08-05T12:55:00+09:00",
+      "snippet": "‘전쟁 틈탄 가격 담합’...LG화학·한화솔루션 등 석유화학업체 7곳 압수수색 cwn.kr",
+      "collected_at": "2026-08-05T17:08:18.037278+09:00",
+      "normalized_title": "‘전쟁 틈탄 가격 담합’...LG화학·한화솔루션 등 석유화학업체 7곳 압수수색",
+      "source_normalized": "cwn.kr",
+      "duplicate_key": "cwn.kr::‘전쟁 틈탄 가격 담합’...lg화학·한화솔루션 등 석유화학업체 7곳 압수수색",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RV1JuQ29sSXUxaTYwdFYybW5rYUZXR3BjS1VGRFJQbXpwWUNuVkJrYVJjRzhYaF96ZXY2WXpMWHdtQXlETDRJQ2ZwM1VzMmJaRUJLaGxfS2pkbDF0bmRJdUFB?oc=5",
+      "id": "538f1bb396188afb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호, 검찰 공개 칭찬 \"국민 권익 수호에 최선.. 수고의 말 전한다\"",
+      "url": "http://v.daum.net/v/20260805161104844",
+      "source": "JIBS",
+      "published_at": "2026-08-05T16:11:11.305316+09:00",
+      "snippet": "어떤 분야든 용납하지 않겠다고 경고한 바 있다\"고 말했습니다. 검찰 성과에 대해서도 \"법무부와 검찰은 최근 설탕과 밀가루, 석유 가격을 담합해 폭리를 취한 업자들도 철저한 수사 끝에 모두 기소했다\"라며 \"앞으로도 국민의 삶을 위협하고 시장 질서를 교란하는... 57분 전",
+      "collected_at": "2026-08-05T17:08:11.305343+09:00",
+      "normalized_title": "정성호, 검찰 공개 칭찬 \"국민 권익 수호에 최선.. 수고의 말 전한다\"",
+      "source_normalized": "JIBS",
+      "duplicate_key": "jibs::정성호, 검찰 공개 칭찬 \"국민 권익 수호에 최선.. 수고의 말 전한다\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260805161104844",
+      "id": "237d0945bf0b4048",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "JIBS",
+      "url": "https://v.daum.net/channel/133708/home",
+      "source": "JIBS",
+      "published_at": "2026-08-05T16:11:10.168016+09:00",
+      "snippet": "어떤 분야든 용납하지 않겠다고 경고한 바 있다\"고 말했습니다. 검찰 성과에 대해서도 \"법무부와 검찰은 최근 설탕과 밀가루, 석유 가격을 담합해 폭리를 취한 업자들도 철저한 수사 끝에 모두 기소했다\"라며 \"앞으로도 국민의 삶을 위협하고 시장 질서를 교란하는... 57분 전",
+      "collected_at": "2026-08-05T17:08:10.168033+09:00",
+      "normalized_title": "JIBS",
+      "source_normalized": "JIBS",
+      "duplicate_key": "jibs::jibs",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/133708/home",
+      "id": "55bc8e57dbe4cd99",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '전쟁 틈타 담합' 의혹 석유화학업체 7곳 압수수색",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBPT2dkbmhKVG5BUnJ3Ulk1WHE2UWpyNXowLU14SW55TFNjeTU4WHJ3TnF1Z0NiNTZsVjBPOTBGT1lSM1pxc0M3TFFWdzJJaElUT3ZWSEt4ZVlJRmZKQWxDenVaaWhSUElsc0FHeWxXMjlCc3MxbjJ30gF3QVVfeXFMUGYybEtraTFfY1VFZlVhaU4tYUFESnVVSVRvMDk4N3hEVzJ6d2c4Q2Vtd3drM1V4dDNfMTZwdWlraENuUDl6ZV9YNnM0N3dWVDhHa3ZHdzByWjlQODhaQ0ZEVU4zc3JiS0hSdncyVzlmaFRFYml3dTQ?oc=5",
+      "source": "MBC 뉴스",
+      "published_at": "2026-08-05T11:27:26+09:00",
+      "snippet": "검찰, '전쟁 틈타 담합' 의혹 석유화학업체 7곳 압수수색 MBC 뉴스",
+      "collected_at": "2026-08-05T17:08:18.034540+09:00",
+      "normalized_title": "검찰, '전쟁 틈타 담합' 의혹 석유화학업체 7곳 압수수색",
+      "source_normalized": "MBC 뉴스",
+      "duplicate_key": "mbc 뉴스::검찰, '전쟁 틈타 담합' 의혹 석유화학업체 7곳 압수수색",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBPT2dkbmhKVG5BUnJ3Ulk1WHE2UWpyNXowLU14SW55TFNjeTU4WHJ3TnF1Z0NiNTZsVjBPOTBGT1lSM1pxc0M3TFFWdzJJaElUT3ZWSEt4ZVlJRmZKQWxDenVaaWhSUElsc0FHeWxXMjlCc3MxbjJ30gF3QVVfeXFMUGYybEtraTFfY1VFZlVhaU4tYUFESnVVSVRvMDk4N3hEVzJ6d2c4Q2Vtd3drM1V4dDNfMTZwdWlraENuUDl6ZV9YNnM0N3dWVDhHa3ZHdzByWjlQODhaQ0ZEVU4zc3JiS0hSdncyVzlmaFRFYml3dTQ?oc=5",
+      "id": "967db0e69d941a47",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 석유화학업계 가격 담합 의혹 압수수색",
+      "url": "http://v.daum.net/v/20260805143357687",
+      "source": "MTN 머니투데이방송",
+      "published_at": "2026-08-05T15:08:12.236924+09:00",
+      "snippet": "/사진=뉴시스 검찰이 석유화학 제품 품목 가격 담합 혐의를 받는 국내 주요 석유화학 업체들에 대해 압수수색에 나섰다. 5일 법조계에 따르면, 서울중앙지검 공정거래조사부(부장검사 나희석)는 이날 오전부터 한화솔루션, LG화학, 애경케미칼, OCI, 롯데정밀화학... 2시간 전",
+      "collected_at": "2026-08-05T17:08:12.236951+09:00",
+      "normalized_title": "검찰, 석유화학업계 가격 담합 의혹 압수수색",
+      "source_normalized": "MTN 머니투데이방송",
+      "duplicate_key": "mtn 머니투데이방송::검찰, 석유화학업계 가격 담합 의혹 압수수색",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260805143357687",
+      "id": "29d1863e4032d9e3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "MTN 머니투데이방송",
+      "url": "https://v.daum.net/channel/552782/home",
+      "source": "MTN 머니투데이방송",
+      "published_at": "2026-08-05T15:08:11.306592+09:00",
+      "snippet": "/사진=뉴시스 검찰이 석유화학 제품 품목 가격 담합 혐의를 받는 국내 주요 석유화학 업체들에 대해 압수수색에 나섰다. 5일 법조계에 따르면, 서울중앙지검 공정거래조사부(부장검사 나희석)는 이날 오전부터 한화솔루션, LG화학, 애경케미칼, OCI, 롯데정밀화학... 2시간 전",
+      "collected_at": "2026-08-05T17:08:11.306609+09:00",
+      "normalized_title": "MTN 머니투데이방송",
+      "source_normalized": "MTN 머니투데이방송",
+      "duplicate_key": "mtn 머니투데이방송::mtn 머니투데이방송",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/552782/home",
+      "id": "85855eea7ba6713d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Ublk2RVNJM0g5dzJVc0M2dDJnakRFamROYWtBVE5OdlQwQTRfNklydWtVb01mblJSRXMzWVFyd01lcTBITGxBb1pJa0R0dG5sckFj?oc=5",
+      "source": "news.nate.com",
+      "published_at": "2026-08-05T16:57:00+09:00",
+      "snippet": "[속보]검찰, '석유화학제품 담합 의혹' 7개사 압수수색 news.nate.com",
+      "collected_at": "2026-08-05T17:08:18.039164+09:00",
+      "normalized_title": "검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "source_normalized": "news.nate.com",
+      "duplicate_key": "news.nate.com::검찰, '석유화학제품 담합 의혹' 7개사 압수수색",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Ublk2RVNJM0g5dzJVc0M2dDJnakRFamROYWtBVE5OdlQwQTRfNklydWtVb01mblJSRXMzWVFyd01lcTBITGxBb1pJa0R0dG5sckFj?oc=5",
+      "id": "afd0b4b7804ae658",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '석유화학 제품 담합' LG화학·한화솔루션 등 7곳 압수수색",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoVTQyZ2VMRXpKX1ZMZjhIMkVjYkJ4THQ1bzNvVFBmdGk5bFdXUWg2d25RMUFwQ1ZBY2lSQllNMFNsd0NjTnVzdUEwOTlmSVV4cFd2YjRfOG9VMDB1U3N2dw?oc=5",
+      "source": "news.nate.com",
+      "published_at": "2026-08-05T11:19:00+09:00",
+      "snippet": "검찰, '석유화학 제품 담합' LG화학·한화솔루션 등 7곳 압수수색 news.nate.com",
+      "collected_at": "2026-08-05T17:08:18.039375+09:00",
+      "normalized_title": "검찰, '석유화학 제품 담합' LG화학·한화솔루션 등 7곳 압수수색",
+      "source_normalized": "news.nate.com",
+      "duplicate_key": "news.nate.com::검찰, '석유화학 제품 담합' lg화학·한화솔루션 등 7곳 압수수색",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoVTQyZ2VMRXpKX1ZMZjhIMkVjYkJ4THQ1bzNvVFBmdGk5bFdXUWg2d25RMUFwQ1ZBY2lSQllNMFNsd0NjTnVzdUEwOTlmSVV4cFd2YjRfOG9VMDB1U3N2dw?oc=5",
+      "id": "1dc5e1359c10a563",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독] 검찰, ‘석유화학제품 담합’ 압수수색…한화솔루션·엘지화학 등 7곳",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DZkpSU2pHM3ZTemt3QkdkaFdza3lXYTZPZmUxbXowNGhGNlRYcGU0MXVQa3l4S1JubFNpZWI2dDBBaTJxOWtqYXZwb1N6ZENEY2xvYnFVaEdqc3lT?oc=5",
+      "source": "supple.kr",
+      "published_at": "2026-08-05T10:34:09+09:00",
+      "snippet": "[단독] 검찰, ‘석유화학제품 담합’ 압수수색…한화솔루션·엘지화학 등 7곳 supple.kr",
+      "collected_at": "2026-08-05T17:07:54.351502+09:00",
+      "normalized_title": "검찰, ‘석유화학제품 담합’ 압수수색…한화솔루션·엘지화학 등 7곳",
+      "source_normalized": "supple.kr",
+      "duplicate_key": "supple.kr::검찰, ‘석유화학제품 담합’ 압수수색…한화솔루션·엘지화학 등 7곳",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DZkpSU2pHM3ZTemt3QkdkaFdza3lXYTZPZmUxbXowNGhGNlRYcGU0MXVQa3l4S1JubFNpZWI2dDBBaTJxOWtqYXZwb1N6ZENEY2xvYnFVaEdqc3lT?oc=5",
+      "id": "0ac83baca9de2eec",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 “삼겹살 납품가 6년간 조작, 담합 카르텔 뿌리 뽑을 것”",
+      "url": "http://v.daum.net/v/20260805161835195",
+      "source": "경기일보",
+      "published_at": "2026-08-05T16:19:10.166739+09:00",
+      "snippet": "범죄는 어떤 분야든 용납하지 않겠다고 경고한 바 있다”고 지적했다. 또한 정 장관은 법무부와 검찰이 최근 설탕과 밀가루, 석유 가격을 담합한 업자들을 철저히 수사해 기소한 사례들을 언급하며 카르텔 근절 의지를 거듭 강조했다. 정 장관은 “앞으로도 국민의... 49분 전 1",
+      "collected_at": "2026-08-05T17:08:10.166766+09:00",
+      "normalized_title": "정성호 “삼겹살 납품가 6년간 조작, 담합 카르텔 뿌리 뽑을 것”",
+      "source_normalized": "경기일보",
+      "duplicate_key": "경기일보::정성호 “삼겹살 납품가 6년간 조작, 담합 카르텔 뿌리 뽑을 것”",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260805161835195",
+      "id": "e9ed996740796d17",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경기일보",
+      "url": "https://v.daum.net/channel/408483/home",
+      "source": "경기일보",
+      "published_at": "2026-08-05T16:19:09.270170+09:00",
+      "snippet": "범죄는 어떤 분야든 용납하지 않겠다고 경고한 바 있다”고 지적했다. 또한 정 장관은 법무부와 검찰이 최근 설탕과 밀가루, 석유 가격을 담합한 업자들을 철저히 수사해 기소한 사례들을 언급하며 카르텔 근절 의지를 거듭 강조했다. 정 장관은 “앞으로도 국민의... 49분 전 1",
+      "collected_at": "2026-08-05T17:08:09.270189+09:00",
+      "normalized_title": "경기일보",
+      "source_normalized": "경기일보",
+      "duplicate_key": "경기일보::경기일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/408483/home",
+      "id": "bcff46503b8d58a8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, '석유화학제품 수년간 담합 의혹' 7개사 압수수색",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zcXJmM0h1OUFWOTdPdlZtMEY2SFd6STNOQ0V2NUl3ai1SS3UzcVpnZTAzQXFxN2tVN1FwMWRWelQ0QnpjU3h4TlExT3lBLTNGakE?oc=5",
+      "source": "노컷뉴스",
+      "published_at": "2026-08-05T11:20:00+09:00",
+      "snippet": "檢, '석유화학제품 수년간 담합 의혹' 7개사 압수수색 노컷뉴스",
+      "collected_at": "2026-08-05T17:08:18.037854+09:00",
+      "normalized_title": "檢, '석유화학제품 수년간 담합 의혹' 7개사 압수수색",
+      "source_normalized": "노컷뉴스",
+      "duplicate_key": "노컷뉴스::檢, '석유화학제품 수년간 담합 의혹' 7개사 압수수색",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zcXJmM0h1OUFWOTdPdlZtMEY2SFd6STNOQ0V2NUl3ai1SS3UzcVpnZTAzQXFxN2tVN1FwMWRWelQ0QnpjU3h4TlExT3lBLTNGakE?oc=5",
+      "id": "9aa76cb1553552f8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '석유화학제품 담합 의혹' 7개사 압수수색새 창 열림",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH20260805165532Zzk",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:56:06.421127+09:00",
+      "snippet": "검찰이 석유화학제품 담합 혐의와 관련해 국내 석유화학업체들에 대한 강제수사에 나섰습니다. 서울중앙지검 공정거래조사부는 오늘(5일) 오전 LG화학과 한화솔루션, 애경케미칼, 오씨아이(OCI), 롯데정밀화학, 피케이씨(PKC), 유니드 등 7개 기업 사무실과 관련자에 대한 압수수색에 들어갔습니다. 이들... 새 창 열림",
+      "collected_at": "2026-08-05T17:08:06.421142+09:00",
+      "normalized_title": "검찰, '석유화학제품 담합 의혹' 7개사 압수수색새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, '석유화학제품 담합 의혹' 7개사 압수수색새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.yonhapnewstv.co.kr/news/MYH20260805165532Zzk",
+      "id": "dd90730310da6c1e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰이 LG화학 한화솔루션 포함 석화기업 7곳 수사 착수 : 미국-이란 전...새 창 열림",
+      "url": "https://www.huffingtonpost.kr/article/259305",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:56:06.419490+09:00",
+      "snippet": "검찰이 미국과 이란 사이 전쟁 국면을 이용해 폴리염화비닐(PVC) 등을 담합한 혐의로 국내 석유화학기업 7곳에 관한 강제수사에 돌입했다. 8월5일 법조계와 석유화학업계에 따르면 서울중앙지검 공정거래조사부는 이날 LG화학, 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC, 유니드 등 기업 7곳을... 새 창 열림",
+      "collected_at": "2026-08-05T17:08:06.419506+09:00",
+      "normalized_title": "검찰이 LG화학 한화솔루션 포함 석화기업 7곳 수사 착수 : 미국-이란 전...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰이 lg화학 한화솔루션 포함 석화기업 7곳 수사 착수 : 미국-이란 전...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.huffingtonpost.kr/article/259305",
+      "id": "f1e0d2f711fe83a7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "법무부, '2026 하반기 업무계획' 발표…\"민생범죄 엄단·배임죄 정비\"새 창 열림",
+      "url": "https://view.asiae.co.kr/article/2026080516500918659",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:51:26.622528+09:00",
+      "snippet": "법무부는 상반기 밀가루·설탕·유가·전분당 등 33조6000억원 규모의 생필품 담합을 적발해 관련자 66명을 기소했다며, 전국 18개 검찰청에 편성한 민생·물가 안정 전담수사팀과 공정거래위원회 협력을 통해 대응을 이어가겠다고 밝혔다. 기업 경영 부담으로 지목돼 온 배임죄에 대해선 구성요건을 정비하고 처벌... 새 창 열림",
+      "collected_at": "2026-08-05T17:07:26.622546+09:00",
+      "normalized_title": "법무부, '2026 하반기 업무계획' 발표…\"민생범죄 엄단·배임죄 정비\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::법무부, '2026 하반기 업무계획' 발표…\"민생범죄 엄단·배임죄 정비\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://view.asiae.co.kr/article/2026080516500918659",
+      "id": "b812f24d14668b7c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[업무보고] 법무부, 상반기 '마약·담합' 민생범죄 엄단 성과…배임죄 ...새 창 열림",
+      "url": "https://www.newspim.com/news/view/20260805001166",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:50:26.625528+09:00",
+      "snippet": "밀가루·설탕·유가 등 33조 6000억 원 규모의 대규모 생필품 담합을 적발해 66명을 기소했다. 법무부는 하반기에도 범정부 TF와 마약범죄 정부합동수사본부, 전국 18개 검찰청의 민생·물가 안정 전담수사팀을 중심으로 총력 대응 체계를 유지한다. ◆ 배임죄 성립요건 명확화…실용 법무행정으로 경제 활력... 새 창 열림",
+      "collected_at": "2026-08-05T17:07:26.625550+09:00",
+      "normalized_title": "[업무보고] 법무부, 상반기 '마약·담합' 민생범죄 엄단 성과…배임죄 ...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[업무보고] 법무부, 상반기 '마약·담합' 민생범죄 엄단 성과…배임죄 ...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newspim.com/news/view/20260805001166",
+      "id": "c644bc5ddc403f9b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"檢수사권 폐지시 마약합수본 증거능력 상실\"…법무장관, 후폭풍 우려새 창 열림",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05530086645544368",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:50:26.624085+09:00",
+      "snippet": "상반기 성과로는 보이스피싱 범죄가 7개월 연속 감소해 발생 건수와 피해액이 전년 동기 대비 35.3% 줄었고, 밀가루·설탕·유가·전분당 등 총 33조 6000억원 규모의 생필품 담합을 적발해 66명을 기소했다고 설명했다. 마약범죄는 8개 범죄집단 등 264명을 입건(125명 구속)하고 역대 최대 규모인 대마 636㎏ 밀수를... 새 창 열림",
+      "collected_at": "2026-08-05T17:07:26.624103+09:00",
+      "normalized_title": "\"檢수사권 폐지시 마약합수본 증거능력 상실\"…법무장관, 후폭풍 우려새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::\"檢수사권 폐지시 마약합수본 증거능력 상실\"…법무장관, 후폭풍 우려새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05530086645544368",
+      "id": "9dd8d0510dce7cad",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 “삼겹살 납품가 6년간 조작, 담합 카르텔 뿌리 뽑을 것”새 창 열림",
+      "url": "https://www.kyeonggi.com/article/20260805580332",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:19:06.422693+09:00",
+      "snippet": "또한 정 장관은 법무부와 검찰이 최근 설탕과 밀가루, 석유 가격을 담합한 업자들을 철저히 수사해 기소한 사례들을 언급하며 카르텔 근절 의지를 거듭 강조했다. 정 장관은 “앞으로도 국민의 삶을 위협하고 시장 질서를 교란하는 담합 카르텔 범죄는 철저히 파헤쳐 뿌리 뽑겠다”며 “부당하게 챙긴 이득도... 새 창 열림",
+      "collected_at": "2026-08-05T17:08:06.422709+09:00",
+      "normalized_title": "정성호 “삼겹살 납품가 6년간 조작, 담합 카르텔 뿌리 뽑을 것”새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정성호 “삼겹살 납품가 6년간 조작, 담합 카르텔 뿌리 뽑을 것”새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.kyeonggi.com/article/20260805580332",
+      "id": "5e47b402763006e0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '전쟁 틈타 PVC 등 담합' 의혹 석유화학업체 7곳 압수수색새 창 열림",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/08/05/2026080590212.html",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:15:06.424300+09:00",
+      "snippet": "검찰이 미국·이란 전쟁을 틈타 폴리염화비닐(PVC)과 가소제 등을 담합한 의혹을 받는 국내 석유화학업체들에 대한 강제수사에 착수했다. 5일 법조계에 따르면 서울중앙지검 공정거래조사부(나희석 부장검사)는 이날 오전 LG화학, 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC, 유니드 등 7곳을 압수수색해... 새 창 열림",
+      "collected_at": "2026-08-05T17:08:06.424315+09:00",
+      "normalized_title": "검찰, '전쟁 틈타 PVC 등 담합' 의혹 석유화학업체 7곳 압수수색새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, '전쟁 틈타 pvc 등 담합' 의혹 석유화학업체 7곳 압수수색새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.tvchosun.com/site/data/html_dir/2026/08/05/2026080590212.html",
+      "id": "a873fda2d12b8f57",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 전쟁 틈타 '가격 담합'···LG화학·OCI 등 7곳 강제수사 착수새 창 열림",
+      "url": "http://www.koreastocknews.com/news/articleView.html?idxno=120346",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:14:26.626983+09:00",
+      "snippet": "검찰이 중동전쟁을 틈타 석유 담합에 이어 폴리염화비닐(PVC)과 가소제 등을 담합한 의혹을 받는 국내 석유화학업체들에 대한 강제수사에 나섰다. 5일 서울중앙지검 공정거래조사부는 이날 오전 LG화학(부회장 신학철), 한화솔루션(대표 박승덕·남정운·김동관), 애경케미칼(대표 김성완), OCI(부회장 김유신)... 새 창 열림",
+      "collected_at": "2026-08-05T17:07:26.627000+09:00",
+      "normalized_title": "검찰, 전쟁 틈타 '가격 담합'···LG화학·OCI 등 7곳 강제수사 착수새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, 전쟁 틈타 '가격 담합'···lg화학·oci 등 7곳 강제수사 착수새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://www.koreastocknews.com/news/articleView.html?idxno=120346",
+      "id": "9e2e14e6a7e47402",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호, 검찰 공개 칭찬 \"국민 권익 수호에 최선.. 수고의 말 전한다\"새 창 열림",
+      "url": "https://www.jibs.co.kr/news/articles/articlesDetail/64222?feed=na",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:11:06.427209+09:00",
+      "snippet": "검찰 성과에 대해서도 \"법무부와 검찰은 최근 설탕과 밀가루, 석유 가격을 담합해 폭리를 취한 업자들도 철저한 수사 끝에 모두 기소했다\"라며 \"앞으로도 국민의 삶을 위협하고 시장 질서를 교란하는 담합 카르텔 범죄는 철저히 파헤쳐 뿌리 뽑겠고, 부당하게 챙긴 이득도 끝까지 환수할 것\"이라고... 새 창 열림",
+      "collected_at": "2026-08-05T17:08:06.427224+09:00",
+      "normalized_title": "정성호, 검찰 공개 칭찬 \"국민 권익 수호에 최선.. 수고의 말 전한다\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정성호, 검찰 공개 칭찬 \"국민 권익 수호에 최선.. 수고의 말 전한다\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.jibs.co.kr/news/articles/articlesDetail/64222?feed=na",
+      "id": "9c9cbb244401cdb6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“생활물가까지 손댔나”…검찰, LG화학·한화솔루션 등 7개 석화기업 압...새 창 열림",
+      "url": "https://wemakenews.co.kr/news/view.php?no=25976",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:10:26.628357+09:00",
+      "snippet": "검찰은 이들 기업이 PVC(폴리염화비닐), 가성소다, 가소제 등 석유화학 원료 가격을 담합한 혐의를 들여다보고 있다. 이번 압수수색은 단순한 기업 간 가격 담합 사건을 넘어 생활물가와 제조원가 전반에 영향을 미칠 수 있는 핵심 산업을 겨냥했다는 점에서 파장이 적지 않다. PVC는 수도관과 창호, 바닥재, 전선... 새 창 열림",
+      "collected_at": "2026-08-05T17:07:26.628373+09:00",
+      "normalized_title": "“생활물가까지 손댔나”…검찰, LG화학·한화솔루션 등 7개 석화기업 압...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::“생활물가까지 손댔나”…검찰, lg화학·한화솔루션 등 7개 석화기업 압...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://wemakenews.co.kr/news/view.php?no=25976",
+      "id": "8f91b94eb37d972f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 애경케미칼 등 석화업체 7곳 압수수색…PVC 담합 의혹 강제수사새 창 열림",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=346905",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:09:01.548196+09:00",
+      "snippet": "연합뉴스 검찰이 5일 폴리염화비닐(PVC) 등 석유화학제품 가격 담합 의혹과 관련해 LG화학, 한화솔루션 등 국내 석유화학업체 7곳에 대한 강제수사에 착수했다. 이번 수사는 앞서 지난 5월 공정거래위원회가 진행한 현장조사보다 대상이 3곳 늘어난 것이다. 당시 공정위는 LG화학·한화솔루션·애경케미칼·OCI... 새 창 열림",
+      "collected_at": "2026-08-05T17:09:01.548210+09:00",
+      "normalized_title": "검찰, 애경케미칼 등 석화업체 7곳 압수수색…PVC 담합 의혹 강제수사새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, 애경케미칼 등 석화업체 7곳 압수수색…pvc 담합 의혹 강제수사새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.greened.kr/news/articleView.html?idxno=346905",
+      "id": "2838685c45bf5fe1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '석유화학제품 가격 담합 의혹' 7개사 압수수색새 창 열림",
+      "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=607444",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:09:01.546756+09:00",
+      "snippet": "검찰이 폴리염화비닐(PVC)과 가소제 등 주요 석유화학제품 가격을 수년간 담합한 혐의를 포착하고 국내 주요 석유화학 업체들을 상대로 강제수사에 돌입했다. 5일 서울중앙지검 공정거래조사부(나희석 부장검사)는 이날 오전부터 PVC, 가소제, 가성소다, 염산 등 총 8개 석유화학제품 품목에 대해 수년간 가격을... 새 창 열림",
+      "collected_at": "2026-08-05T17:09:01.546771+09:00",
+      "normalized_title": "검찰, '석유화학제품 가격 담합 의혹' 7개사 압수수색새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, '석유화학제품 가격 담합 의혹' 7개사 압수수색새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=607444",
+      "id": "76967bf823c70114",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '석화 담합 의혹' LG화학·한화솔루션·OCI 등 7곳 압수수색…업계...새 창 열림",
+      "url": "http://www.kdfnews.com/news/articleView.html?idxno=186124",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:08:06.430010+09:00",
+      "snippet": "사진=연합뉴스 검찰이 중동전쟁을 계기로 석유화학 제품 가격을 담합한 의혹과 관련해 국내 주요 석유화학업체들의 강제수사에 착수했다. 5일 법조계에 따르면 서울중앙지검 공정거래조사부는 이날 LG화학, 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC, 유니드 등 7개 업체를 압수수색하고 관련 자료를... 새 창 열림",
+      "collected_at": "2026-08-05T17:08:06.430024+09:00",
+      "normalized_title": "검찰, '석화 담합 의혹' LG화학·한화솔루션·OCI 등 7곳 압수수색…업계...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, '석화 담합 의혹' lg화학·한화솔루션·oci 등 7곳 압수수색…업계...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.kdfnews.com/news/articleView.html?idxno=186124",
+      "id": "95e59372f7f9ab29",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 중동전쟁 틈타 '가격 담합 혐의' 석화업체 7곳 압수수색새 창 열림",
+      "url": "https://www.ajunews.com/view/20260805151757045",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T16:07:26.629802+09:00",
+      "snippet": "8개 석유화학제품 품목의 가격 인상을 사전에 협의한 혐의를 받고 있다. 나프타를 주재료로 하는 PVC는 건축자재, 파이프, 전선 피복 등에 광범위하게 쓰이는 합성 플라스틱이다. 가소제는 PVC를 보다 부드럽고 유연하게 만드는 화학 첨가제다. 앞서 공정거래위원회도 지난 5월 석화업체들의 이 같은 담합... 새 창 열림",
+      "collected_at": "2026-08-05T17:07:26.629818+09:00",
+      "normalized_title": "검찰, 중동전쟁 틈타 '가격 담합 혐의' 석화업체 7곳 압수수색새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, 중동전쟁 틈타 '가격 담합 혐의' 석화업체 7곳 압수수색새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.ajunews.com/view/20260805151757045",
+      "id": "cf763a6129aef3bf",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "LG화학‧한화솔루션 등 석화업체 7곳 PVC 담합 의혹…檢, 압수수색 착수새 창 열림",
+      "url": "https://www.thepublic.kr/news/articleView.html?idxno=313893",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T15:07:26.631222+09:00",
+      "snippet": "검찰이 미국‧이란 전쟁을 틈타 폴리염화비닐(PVC)과 가소제 등을 담합한 의혹을 받는 국내 석유화학업체들에 대한 강제수사에 나섰다. 5일 법조계 등에... 이들 업체는 중동전쟁으로 나프타 수급이 불안정해지자 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의한 혐의... 새 창 열림",
+      "collected_at": "2026-08-05T17:07:26.631239+09:00",
+      "normalized_title": "LG화학‧한화솔루션 등 석화업체 7곳 PVC 담합 의혹…檢, 압수수색 착수새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::lg화학‧한화솔루션 등 석화업체 7곳 pvc 담합 의혹…檢, 압수수색 착수새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.thepublic.kr/news/articleView.html?idxno=313893",
+      "id": "6da9f31ee07e32e1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 이어 석유화학까지...검찰, '중동전쟁 틈탄 가격 담합' 수사새 창 열림",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=537893",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T14:08:58.982617+09:00",
+      "snippet": "앞서 정유업계에서도 중동전쟁을 전후한 가격 담합 의혹이 불거졌다. 검찰은 지난 3월 SK에너지와 GS칼텍스, 에쓰오일, HD현대오일뱅크를 압수수색한 뒤 HD현대오일뱅크가 SK에너지와 석유제품 가격 인상 시기와 폭을 협의한 것으로 보고 지난달 관련 법인과 임직원을 재판에 넘겼다. 검찰이 추산한 직접 담합... 새 창 열림",
+      "collected_at": "2026-08-05T17:08:58.982644+09:00",
+      "normalized_title": "정유 이어 석유화학까지...검찰, '중동전쟁 틈탄 가격 담합' 수사새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정유 이어 석유화학까지...검찰, '중동전쟁 틈탄 가격 담합' 수사새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.joongangenews.com/news/articleView.html?idxno=537893",
+      "id": "4e29a61fc7941e4a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이번엔 PVC 등 담합…중앙지검, 석유화학업체 7곳 압수수색새 창 열림",
+      "url": "https://www.hankyung.com/article/202608056171i",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T14:07:55.457509+09:00",
+      "snippet": "공정거래위원회도 지난 5월 석유화학업체들이 담합을 한 단서를 잡고 현장조사에 나섰다. 오는 10월 검사의 직접수사 권한 폐지를 앞두고도 검찰이 담합... 서울중앙지검 공정거래조사부는 최근 1년 새 설탕, 밀가루, 전분당 등 식료품 담합 사건과 4대 정유사의 유가 담합 사건 등을 수사를 완료했다. 현재... 새 창 열림",
+      "collected_at": "2026-08-05T17:07:55.457526+09:00",
+      "normalized_title": "이번엔 PVC 등 담합…중앙지검, 석유화학업체 7곳 압수수색새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이번엔 pvc 등 담합…중앙지검, 석유화학업체 7곳 압수수색새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.hankyung.com/article/202608056171i",
+      "id": "ae5ad9639357dd62",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, ‘PVC·가소제’ 담합 의혹 석유화학 업체 압수수색새 창 열림",
+      "url": "https://www.khan.co.kr/article/202608051333001",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T14:07:26.634165+09:00",
+      "snippet": "공정거래부조사는 지난달 6일 HD현대오일뱅크와 SK에너지 법인의 유가 담합 혐의를 확인해 공정거래법 위반 혐의로 기소했다. 이들은 미국·이란 전쟁이 발발하자 담합해 가격을 크게 올린 혐의를 받는다. 당시는 4대 정유회사들이 상당한 원유를 비축한 상황이라 가격을 올릴 이유가 없었다. 지난 4월엔... 새 창 열림",
+      "collected_at": "2026-08-05T17:07:26.634180+09:00",
+      "normalized_title": "검찰, ‘PVC·가소제’ 담합 의혹 석유화학 업체 압수수색새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, ‘pvc·가소제’ 담합 의혹 석유화학 업체 압수수색새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.khan.co.kr/article/202608051333001",
+      "id": "aa2473e3304f542a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "LG화학·한화솔루션 등 석화업체 7곳, '가격 담합' 혐의 압수수색새 창 열림",
+      "url": "http://www.newslock.co.kr/news/articleView.html?idxno=133957",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T14:07:26.632648+09:00",
+      "snippet": "앞서 공정거래위원회도 지난 5월 석화업체들의 이 같은 담합 정황을 포착하고 현장조사에 나선 바 있다. 이번 압수수색 대상에 포함된 업체는 LG화학... 한편 검찰은 지난 3월에도 미국·이란 전쟁 여파로 국내 유가가 급등한 것과 관련해 SK에너지, GS칼텍스, 에쓰오일, HD현대오일뱅크 등 정유사 4곳과... 새 창 열림",
+      "collected_at": "2026-08-05T17:07:26.632664+09:00",
+      "normalized_title": "LG화학·한화솔루션 등 석화업체 7곳, '가격 담합' 혐의 압수수색새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::lg화학·한화솔루션 등 석화업체 7곳, '가격 담합' 혐의 압수수색새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://www.newslock.co.kr/news/articleView.html?idxno=133957",
+      "id": "809bc7cdd4000eb6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 'PVC·가소제 담합 의혹' 석유화학업체 7개사 압수수색새 창 열림",
+      "url": "https://www.newsis.com/view/NISX20260805_0003737226",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T12:07:55.460514+09:00",
+      "snippet": "앞서 공정거래위원회는 지난 5월 PVC와 가소제 등 가격 담합 정황을 포착하고,석유화학 기업 4곳에 대한 현장조사를 진행한 바 있다. 한편 검찰은 지난달 미국·이란 전쟁을 빌미로 국내 유가 가격 인상 시기와 폭을 사전에 합의해 가격을 끌어올린 혐의로 현대오일뱅크와 SK에너지 등 국내 주요 정유사들을... 새 창 열림",
+      "collected_at": "2026-08-05T17:07:55.460529+09:00",
+      "normalized_title": "검찰, 'PVC·가소제 담합 의혹' 석유화학업체 7개사 압수수색새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, 'pvc·가소제 담합 의혹' 석유화학업체 7개사 압수수색새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsis.com/view/NISX20260805_0003737226",
+      "id": "fc269f093fb4db50",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독] 검찰, ‘석유화학제품 담합’ 압수수색…한화솔루션·엘지화학 ...새 창 열림",
+      "url": "https://www.hani.co.kr/arti/society/society_general/1271457.html",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T11:07:55.462062+09:00",
+      "snippet": "공정거래조사부가 2024년 7월부터 지난 3월까지 추산한 정유사들의 짬짜미 규모는 14조2천억원에 이른다. 이 대통령은 공정거래조사부의 유가담합 수사가 진행 중이던 지난 3월24일 국무회의에서 “최근 검찰이 담합 조사를 신속하게 대규모로 했더라. 결과도 아주 잘 나왔다”며 “법무부에서 수사팀 포상이라도... 새 창 열림",
+      "collected_at": "2026-08-05T17:07:55.462078+09:00",
+      "normalized_title": "검찰, ‘석유화학제품 담합’ 압수수색…한화솔루션·엘지화학 ...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, ‘석유화학제품 담합’ 압수수색…한화솔루션·엘지화학 ...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.hani.co.kr/arti/society/society_general/1271457.html",
+      "id": "a8a6f841f1b42943",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁틈에 PVC 등 '가격 담합' 혐의...검찰, 석유화학업체 7곳 압수수색",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15RDVTb0dvV2tsdDAxWlVYb2dzZW84TFQ2UzdWZVZoWGVZOXJqSERfbkF2eGZ6QVNnT3J6a2REQUh3ejU3ZkkwczlWTno2bkhVWDhmSTlDOGRBLUdubXc1V1hYQ0NLMXZqSWRuel9pd0JZLTFF?oc=5",
+      "source": "조세일보",
+      "published_at": "2026-08-05T13:48:52+09:00",
+      "snippet": "전쟁틈에 PVC 등 '가격 담합' 혐의...검찰, 석유화학업체 7곳 압수수색 조세일보",
+      "collected_at": "2026-08-05T17:08:18.035025+09:00",
+      "normalized_title": "전쟁틈에 PVC 등 '가격 담합' 혐의...검찰, 석유화학업체 7곳 압수수색",
+      "source_normalized": "조세일보",
+      "duplicate_key": "조세일보::전쟁틈에 pvc 등 '가격 담합' 혐의...검찰, 석유화학업체 7곳 압수수색",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15RDVTb0dvV2tsdDAxWlVYb2dzZW84TFQ2UzdWZVZoWGVZOXJqSERfbkF2eGZ6QVNnT3J6a2REQUh3ejU3ZkkwczlWTno2bkhVWDhmSTlDOGRBLUdubXc1V1hYQ0NLMXZqSWRuel9pd0JZLTFF?oc=5",
+      "id": "5997410a2a89c53b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 중동전쟁 틈타 PVC·가소제 담합 의혹 국내 석유화학업체 강제수사 착수",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oMlRaSkw2ZnVVQTI0eGd3c1FveUFmVENHUXhpOHI5bXo3R29PT09YVDhqU19hNDhlVE1yZ01odG1DZVZSOS1oWWlIX05WYnJpQ2t5QWpPcnZvWUpKb0s2bGl5aS1vaTFq?oc=5",
+      "source": "한국NGO신문",
+      "published_at": "2026-08-05T11:41:23+09:00",
+      "snippet": "검찰, 중동전쟁 틈타 PVC·가소제 담합 의혹 국내 석유화학업체 강제수사 착수 한국NGO신문",
+      "collected_at": "2026-08-05T17:08:18.037059+09:00",
+      "normalized_title": "검찰, 중동전쟁 틈타 PVC·가소제 담합 의혹 국내 석유화학업체 강제수사 착수",
+      "source_normalized": "한국NGO신문",
+      "duplicate_key": "한국ngo신문::검찰, 중동전쟁 틈타 pvc·가소제 담합 의혹 국내 석유화학업체 강제수사 착수",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oMlRaSkw2ZnVVQTI0eGd3c1FveUFmVENHUXhpOHI5bXo3R29PT09YVDhqU19hNDhlVE1yZ01odG1DZVZSOS1oWWlIX05WYnJpQ2t5QWpPcnZvWUpKb0s2bGl5aS1vaTFq?oc=5",
+      "id": "2d61e30e483ba6e0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, LG화학·한화솔루션 등 압수수색…담합 혐의",
+      "url": "http://v.daum.net/v/20260805134127525",
+      "source": "한스경제",
+      "published_at": "2026-08-05T14:08:15.345814+09:00",
+      "snippet": "대상으로 압수수색을 실시했다. 검찰은 해당 업체들이 폴리염화비닐(PVC), 가소제, 가성소다, 염산 등 8개 석유화학제품의 가격을 수년간 담합한 혐의를 받고 있다고 밝혔다. 올해 중동전쟁 이후 나프타 조달에 차질이 발생하자 이들 품목 가격을 담합해 인상했다는... 3시간 전",
+      "collected_at": "2026-08-05T17:08:15.345840+09:00",
+      "normalized_title": "檢, LG화학·한화솔루션 등 압수수색…담합 혐의",
+      "source_normalized": "한스경제",
+      "duplicate_key": "한스경제::檢, lg화학·한화솔루션 등 압수수색…담합 혐의",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260805134127525",
+      "id": "0a9a460e707bf7be",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한스경제",
+      "url": "https://v.daum.net/channel/552790/home",
+      "source": "한스경제",
+      "published_at": "2026-08-05T14:08:14.322181+09:00",
+      "snippet": "대상으로 압수수색을 실시했다. 검찰은 해당 업체들이 폴리염화비닐(PVC), 가소제, 가성소다, 염산 등 8개 석유화학제품의 가격을 수년간 담합한 혐의를 받고 있다고 밝혔다. 올해 중동전쟁 이후 나프타 조달에 차질이 발생하자 이들 품목 가격을 담합해 인상했다는... 3시간 전",
+      "collected_at": "2026-08-05T17:08:14.322197+09:00",
+      "normalized_title": "한스경제",
+      "source_normalized": "한스경제",
+      "duplicate_key": "한스경제::한스경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/552790/home",
+      "id": "603fa84f63f31e74",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

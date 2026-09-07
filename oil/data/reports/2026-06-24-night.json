@@ -1,0 +1,79 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-24",
+  "slot": "night",
+  "period_start": "2026-06-24T17:00:00+09:00",
+  "period_end": "2026-06-25T00:00:00+09:00",
+  "period_label": "2026-06-24 17:00 ~ 2026-06-25 00:00",
+  "generated_at": "2026-06-25T09:21:04.320658+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1529,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1139
+  },
+  "query_counts": {
+    "주유소 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "AI로 고유가 담합했다…캘리포니아 운전자들, 주유소에 소송",
+      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxNT0prSlZkS0dlOUQ0MHFJQjl3a1JKZE9sOVhrNGs2QTVpYjkyTEM4emtWWjNhdDFNbE1FbG9saTc1V0ZNMmVfMmdoR2JwVWRhTDVBSG5IbHRRS191NDBXaWdJZG1uUk5DcS15QkNhQUFmbjFiR1BscmJYQTdQLUpvWU1CampSMEdscU1lTnlLbWFkN1h5MkItTFFlcUVkdXJha193dlJuQ0ROM3NadjZzd1hLWm1PSjR5dGdBVVVKUWJObVUxZy14NXltbGk4cDdSQy1hSlU5MS1SUDBzS3R0VDExQkNlZzZuT2RGaF84SklKN2JlTl9QLVpucmFTdXNYN3J4STFPUHFtbElTaFB4LS1UaWE0X1E4OTZNc0N1aGpsVmYzN1VqUGptOWxuVkhWSHhmRlFQam12S3JlWkhoSWt4dElNbHd5SERPM3Z5N29rWUtDQ0Nra2FzQTZMekhnVDFaQWFoVWhPeEVxLXpGMlhUVEVYYnh1elRUOA?oc=5",
+      "source": "MSN",
+      "published_at": "2026-06-24T18:58:31+09:00",
+      "snippet": "AI로 고유가 담합했다…캘리포니아 운전자들, 주유소에 소송 MSN",
+      "collected_at": "2026-06-25T09:13:43.426079+09:00",
+      "normalized_title": "AI로 고유가 담합했다…캘리포니아 운전자들, 주유소에 소송",
+      "source_normalized": "MSN",
+      "duplicate_key": "msn::ai로 고유가 담합했다…캘리포니아 운전자들, 주유소에 소송",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxNT0prSlZkS0dlOUQ0MHFJQjl3a1JKZE9sOVhrNGs2QTVpYjkyTEM4emtWWjNhdDFNbE1FbG9saTc1V0ZNMmVfMmdoR2JwVWRhTDVBSG5IbHRRS191NDBXaWdJZG1uUk5DcS15QkNhQUFmbjFiR1BscmJYQTdQLUpvWU1CampSMEdscU1lTnlLbWFkN1h5MkItTFFlcUVkdXJha193dlJuQ0ROM3NadjZzd1hLWm1PSjR5dGdBVVVKUWJObVUxZy14NXltbGk4cDdSQy1hSlU5MS1SUDBzS3R0VDExQkNlZzZuT2RGaF84SklKN2JlTl9QLVpucmFTdXNYN3J4STFPUHFtbElTaFB4LS1UaWE0X1E4OTZNc0N1aGpsVmYzN1VqUGptOWxuVkhWSHhmRlFQam12S3JlWkhoSWt4dElNbHd5SERPM3Z5N29rWUtDQ0Nra2FzQTZMekhnVDFaQWFoVWhPeEVxLXpGMlhUVEVYYnh1elRUOA?oc=5",
+      "id": "d4f46529b91052ee",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

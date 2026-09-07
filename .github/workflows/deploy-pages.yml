@@ -1,0 +1,76 @@
+name: Deploy unified reports to GitHub Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "oil/index.html"
+      - "oil/assets/**"
+      - "oil/data/report-index.json"
+      - "oil/data/reports/**"
+      - "oil/reports/**"
+      - "shared/**"
+      - "tools/assemble_site.py"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_run:
+    workflows:
+      - "Daily Energy Dashboard - Daily Data Pipeline"
+      - "F-Issue Report"
+      - "Backfill Article Body Summaries"
+      - "Backfill Dashboard Reports"
+    types: [completed]
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regenerate and verify Daily report index
+        run: |
+          python scripts/generate_report_index.py
+          python - <<'PY'
+          import glob
+          import json
+          docs = json.load(open("docs/report-index.json", encoding="utf-8"))
+          public = json.load(open("public/report-index.json", encoding="utf-8"))
+          expected = len(glob.glob("data/reports/*.report.json"))
+          assert docs == public
+          assert docs["count"] == len(docs["availableDates"]) == len(docs["reports"]) == expected
+          print(f"[OK] Daily index verified: {expected} reports")
+          PY
+      - name: Assemble unified site
+        run: python tools/assemble_site.py
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

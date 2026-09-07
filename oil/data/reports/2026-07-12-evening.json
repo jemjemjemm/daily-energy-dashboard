@@ -1,0 +1,438 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-12",
+  "slot": "evening",
+  "period_start": "2026-07-12T08:00:00+09:00",
+  "period_end": "2026-07-12T17:00:00+09:00",
+  "period_label": "2026-07-12 08:00 ~ 2026-07-12 17:00",
+  "generated_at": "2026-07-12T19:04:08.211520+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1600,
+  "total_deduped_count": 11,
+  "total_ok_count": 11,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 4,
+    "B": 2,
+    "C": 5
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1210
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 7,
+    "공정위 유가 담합": 5,
+    "기름값 담합": 3,
+    "석유 담합": 3,
+    "석유제품 담합": 3,
+    "유가 담합": 7,
+    "유가담합": 7,
+    "정유사 담합": 7,
+    "정유업계 담합": 2,
+    "주유소 담합": 6,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "담합 사건 단골 메뉴 ‘리니언시’…檢 폐지때 판단 주체는?[안현덕의 LawStory]",
+      "url": "http://v.daum.net/v/20260712080151300",
+      "source": "서울경제",
+      "published_at": "2026-07-12T08:03:43.995152+09:00",
+      "snippet": "것까지 감안하면 담합 효과가 총 26조원 상당에 이른다는 게 검찰의 판단입니다. 다만 GS칼텍스와 에쓰오일은 경쟁사와 직접 가격을...졌습니다. 대신 이들 정유 4사에게는 전량 구매 계약을 체결한 주유소들에게 공급 가격을 일방 통보하고, 타사 제품을 공급받을... 11시간 전",
+      "collected_at": "2026-07-12T19:03:43.995185+09:00",
+      "normalized_title": "담합 사건 단골 메뉴 ‘리니언시’…檢 폐지때 판단 주체는?[안현덕의 LawStory]",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::담합 사건 단골 메뉴 ‘리니언시’…檢 폐지때 판단 주체는?[안현덕의 lawstory]",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260712080151300",
+      "id": "8a97658155747e6c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울경제",
+      "url": "https://v.daum.net/channel/129/home",
+      "source": "서울경제",
+      "published_at": "2026-07-12T08:03:42.914378+09:00",
+      "snippet": "것까지 감안하면 담합 효과가 총 26조원 상당에 이른다는 게 검찰의 판단입니다. 다만 GS칼텍스와 에쓰오일은 경쟁사와 직접 가격을...졌습니다. 대신 이들 정유 4사에게는 전량 구매 계약을 체결한 주유소들에게 공급 가격을 일방 통보하고, 타사 제품을 공급받을... 11시간 전",
+      "collected_at": "2026-07-12T19:03:42.914396+09:00",
+      "normalized_title": "서울경제",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::서울경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/129/home",
+      "id": "901ba30ba77d44f5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 4사 '14조 담합' 발표한 검찰…공정위는 신중모드",
+      "url": "http://v.daum.net/v/20260712083150710",
+      "source": "뉴시스",
+      "published_at": "2026-07-12T09:03:10.300488+09:00",
+      "snippet": "다만 검찰이 제시한 14조2000억원은 형사처벌을 위해 산정한 담합 규모로, 공정위가 과징금 산정의 기초로 삼는 관련매출액과는 개념...0.11원 오른 2001.65원을 기록하며 상승세를 이어갔다. 휘발유의 경우, 전국 평균 가격은 2007.71원, 가장 비싼 서울 지역의... 10시간 전",
+      "collected_at": "2026-07-12T19:03:10.300515+09:00",
+      "normalized_title": "정유 4사 '14조 담합' 발표한 검찰…공정위는 신중모드",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::정유 4사 '14조 담합' 발표한 검찰…공정위는 신중모드",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 12,
+      "canonical_url": "http://v.daum.net/v/20260712083150710",
+      "id": "594f306b0e4ddeab",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴시스",
+      "url": "https://v.daum.net/channel/21/home",
+      "source": "뉴시스",
+      "published_at": "2026-07-12T09:03:09.122598+09:00",
+      "snippet": "다만 검찰이 제시한 14조2000억원은 형사처벌을 위해 산정한 담합 규모로, 공정위가 과징금 산정의 기초로 삼는 관련매출액과는 개념...0.11원 오른 2001.65원을 기록하며 상승세를 이어갔다. 휘발유의 경우, 전국 평균 가격은 2007.71원, 가장 비싼 서울 지역의... 10시간 전",
+      "collected_at": "2026-07-12T19:03:09.122637+09:00",
+      "normalized_title": "뉴시스",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::뉴시스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://v.daum.net/channel/21/home",
+      "id": "e250fa63010cdcd6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[기업기상도] 여름 수확 풍성한 기업 vs 호우주의보 내린 기업",
+      "url": "http://v.daum.net/v/20260712110253801",
+      "source": "연합뉴스TV",
+      "published_at": "2026-07-12T11:03:09.121284+09:00",
+      "snippet": "대상, CJ제일제당 전분당 4사입니다. 여기는 공정거래위원회가 담합 제재 심사 시작했습니다. 설탕 이어 대용품 물엿,포도당,액상과당...본 대가로 공정위가 책정한 과징금이 7,476억원입니다. 정유사와 행태가 비슷했습니다. 원료인 옥수수 값 오르면 판매가는 빛의... 8시간 전",
+      "collected_at": "2026-07-12T19:03:09.121316+09:00",
+      "normalized_title": "[기업기상도] 여름 수확 풍성한 기업 vs 호우주의보 내린 기업",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::[기업기상도] 여름 수확 풍성한 기업 vs 호우주의보 내린 기업",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260712110253801",
+      "id": "4c73b5ce0e59cc07",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스TV",
+      "url": "https://v.daum.net/channel/318/home",
+      "source": "연합뉴스TV",
+      "published_at": "2026-07-12T11:03:07.318747+09:00",
+      "snippet": "대상, CJ제일제당 전분당 4사입니다. 여기는 공정거래위원회가 담합 제재 심사 시작했습니다. 설탕 이어 대용품 물엿,포도당,액상과당...본 대가로 공정위가 책정한 과징금이 7,476억원입니다. 정유사와 행태가 비슷했습니다. 원료인 옥수수 값 오르면 판매가는 빛의... 8시간 전",
+      "collected_at": "2026-07-12T19:03:07.318781+09:00",
+      "normalized_title": "연합뉴스TV",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::연합뉴스tv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/318/home",
+      "id": "3c5f8f96c9d1d1e1",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[특별기고] 여름철 물가안정, 시민참여가 민생경제의 버팀목입니다새 창 열림",
+      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1168844",
+      "source": "새 창 열림",
+      "published_at": "2026-07-12T16:03:06.165014+09:00",
+      "snippet": "또 과도하게 가격을 인상하는 바가지요금 및 담합행위 등 불공정 거래행위가 발생하지 않도록 현장에서 집중 점검 중이다. 특히 중동사태 장기화에 따른 고유가·고물가 지속으로 서민경제 부담이 심화됨에 따라 지방공공요금의 동결 기조를 유지할 수 있도록 노력하며 시민의 고정 지출 부담을 낮추는 동시에 질... 새 창 열림",
+      "collected_at": "2026-07-12T19:03:06.165048+09:00",
+      "normalized_title": "[특별기고] 여름철 물가안정, 시민참여가 민생경제의 버팀목입니다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[특별기고] 여름철 물가안정, 시민참여가 민생경제의 버팀목입니다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ggilbo.com/news/articleView.html?idxno=1168844",
+      "id": "8b147f78c29c9648",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[기업기상도] 여름 수확 풍성한 기업 vs 호우주의보 내린 기업새 창 열림",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH20260711153804NBo",
+      "source": "새 창 열림",
+      "published_at": "2026-07-12T11:03:06.166685+09:00",
+      "snippet": "생각이 이러니 경제도 힘들고 유가 본격 상승국면도 아닌데 멋대로 값 올린 게 아닌가 싶네요. 서로 얼마 올릴지 의견 교환하며 팍팍 올려 소비자... 2018년부터 작년까지 7년 5개월 담합해 재미 본 대가로 공정위가 책정한 과징금이 7,476억원입니다. 정유사와 행태가 비슷했습니다. 원료인 옥수수 값 오르면... 새 창 열림",
+      "collected_at": "2026-07-12T19:03:06.166709+09:00",
+      "normalized_title": "[기업기상도] 여름 수확 풍성한 기업 vs 호우주의보 내린 기업새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[기업기상도] 여름 수확 풍성한 기업 vs 호우주의보 내린 기업새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://www.yonhapnewstv.co.kr/news/MYH20260711153804NBo",
+      "id": "30a0f607151be56e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 4사 '14조 담합' 발표한 검찰…공정위는 신중모드새 창 열림",
+      "url": "https://www.newsis.com/view/NISX20260710_0003704774",
+      "source": "새 창 열림",
+      "published_at": "2026-07-12T09:03:19.149836+09:00",
+      "snippet": "전분당 담합 사건 브리핑에서 \"아무래도 검찰은 형사제재를 위해 관련매출액을 산정하지만, 공정위는 과징금 부과라는 경제적 제재의 기초가 되는 만큼 세부적으로 발라서 보는 부분들이 있어 차이가 있다\"고 말한 바 있다. 이번 과징금 규모가 역대 최대 수준이 될지에 대해서는 아직 확정되지 않았다. 정유사... 새 창 열림",
+      "collected_at": "2026-07-12T19:03:19.149856+09:00",
+      "normalized_title": "정유 4사 '14조 담합' 발표한 검찰…공정위는 신중모드새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정유 4사 '14조 담합' 발표한 검찰…공정위는 신중모드새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.newsis.com/view/NISX20260710_0003704774",
+      "id": "aa5ca45ecca71f8d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[주간브리핑] 삼성전자 세계 영업익 1위 달성…SK하닉, 美 증시 상장새 창 열림",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=207294",
+      "source": "새 창 열림",
+      "published_at": "2026-07-12T09:03:06.168106+09:00",
+      "snippet": "추산한 담합 매출 규모는 14조2,000억원에 달한다. 서울중앙지검 공정거래조사부는 공정거래법 위반 혐의로 HD현대오일뱅크, SK에너지, GS칼텍스, S-OIL 등 4대 정유사 법인을 기소했다. 경쟁사와 가격 정보를 사전에 교환한 HD현대오일뱅크 가격결정부서 책임자 등 직원 2명과, 공정거래위원회 조사 직전 증거... 새 창 열림",
+      "collected_at": "2026-07-12T19:03:06.168126+09:00",
+      "normalized_title": "[주간브리핑] 삼성전자 세계 영업익 1위 달성…SK하닉, 美 증시 상장새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[주간브리핑] 삼성전자 세계 영업익 1위 달성…sk하닉, 美 증시 상장새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://www.srtimes.kr/news/articleView.html?idxno=207294",
+      "id": "a52c86b828717d2b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "담합 사건 단골 메뉴 ‘리니언시’…檢 폐지때 판단 주체는?[안현덕의 ...새 창 열림",
+      "url": "https://www.sedaily.com/article/20066547?ref=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-07-12T08:03:40.903158+09:00",
+      "snippet": "대신 이들 정유 4사에게는 전량 구매 계약을 체결한 주유소들에게 공급 가격을 일방 통보하고, 타사 제품을 공급받을 경우 거액의 손해배상을 청구하고, 보너스 카드를 중당하는 등 불이익을 제공한 혐의(공정거래법 위반)가 적용됐습니다. SK에너지가 정유 가격 담합 혐의로 재판에 넘겨질 위기에서 벗어난... 새 창 열림",
+      "collected_at": "2026-07-12T19:03:40.903174+09:00",
+      "normalized_title": "담합 사건 단골 메뉴 ‘리니언시’…檢 폐지때 판단 주체는?[안현덕의 ...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::담합 사건 단골 메뉴 ‘리니언시’…檢 폐지때 판단 주체는?[안현덕의 ...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.sedaily.com/article/20066547?ref=naver",
+      "id": "201945e1128fe0b9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

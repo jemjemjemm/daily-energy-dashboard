@@ -1,0 +1,83 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-19",
+  "slot": "night",
+  "period_start": "2026-08-19T17:00:00+09:00",
+  "period_end": "2026-08-20T00:00:00+09:00",
+  "period_label": "2026-08-19 17:00 ~ 2026-08-20 00:00",
+  "generated_at": "2026-08-20T08:34:29.163851+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1552,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1162
+  },
+  "query_counts": {
+    "공정위 유가 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "K뷰티 열풍에...포장재 수요 늘며 제지업계 깜짝 실적새 창 열림",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04300086645548960",
+      "source": "새 창 열림",
+      "published_at": "2026-08-19T17:03:26.521370+09:00",
+      "snippet": "다만 인쇄용지 가격 담합 제재 등으로 인한 과징금 부과는 당기순손실을 이끌었다. 무림페이퍼는 상반기 660억원의 순손실을 기록해 지난해 상반기... 한국제지 역시 공정위 과징금 491억원을 반영해 상반기 당기순손실 464억원을 기록했다. 2분기 실적 개선에도 불구하고 유가와 물류비 등 비용 인상으로... 새 창 열림",
+      "collected_at": "2026-08-20T08:03:26.521388+09:00",
+      "normalized_title": "K뷰티 열풍에...포장재 수요 늘며 제지업계 깜짝 실적새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::k뷰티 열풍에...포장재 수요 늘며 제지업계 깜짝 실적새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04300086645548960",
+      "id": "0d840b4bc77263ce",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+.report-tabs {
+  background: #071a31;
+  border-bottom: 1px solid rgba(255, 255, 255, .16);
+  color: #fff;
+}
+.report-tabs-inner {
+  display: flex;
+  width: min(1180px, calc(100% - 36px));
+  margin: 0 auto;
+  padding: 8px 0;
+  gap: 6px;
+}
+.report-tab {
+  min-width: 82px;
+  padding: 8px 16px;
+  border-radius: 9px;
+  color: rgba(255, 255, 255, .72);
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+}
+.report-tab:hover { background: rgba(255, 255, 255, .09); color: #fff; }
+.report-tab[aria-current="page"] { background: #fff; color: #0a2444; }
+@media (max-width: 860px) {
+  .report-tabs-inner { width: calc(100% - 20px); }
+  .report-tab { flex: 1; }
+}

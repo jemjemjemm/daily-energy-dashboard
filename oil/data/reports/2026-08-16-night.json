@@ -1,0 +1,138 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-16",
+  "slot": "night",
+  "period_start": "2026-08-16T17:00:00+09:00",
+  "period_end": "2026-08-17T00:00:00+09:00",
+  "period_label": "2026-08-16 17:00 ~ 2026-08-17 00:00",
+  "generated_at": "2026-08-17T08:33:58.422003+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1552,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1162
+  },
+  "query_counts": {
+    "유가 담합": 3,
+    "유가담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "'남산 곤돌라' 취소소송, 20일 항소심 결과 나온다",
+      "url": "http://v.daum.net/v/20260816184042907",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-08-16T19:33:03.724743+09:00",
+      "snippet": "21일) 법원에서는 남산 곤돌라 설치를 위해 공원 용도구역을 변경한 서울시 처분의 적법성에 대한 항소심 판단이 나온다. 26조원대 유가담합 등 혐의로 기소된 국내 정유 4사의 첫 재판도 열린다. '명태균 게이트'와 관련해 1심에서 유죄를 선고받은 윤석열 전... 13시간 전",
+      "collected_at": "2026-08-17T08:33:03.724771+09:00",
+      "normalized_title": "'남산 곤돌라' 취소소송, 20일 항소심 결과 나온다",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::'남산 곤돌라' 취소소송, 20일 항소심 결과 나온다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260816184042907",
+      "id": "cca363b330afc8a2",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "파이낸셜뉴스",
+      "url": "https://v.daum.net/channel/139/home",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-08-16T19:33:01.491847+09:00",
+      "snippet": "21일) 법원에서는 남산 곤돌라 설치를 위해 공원 용도구역을 변경한 서울시 처분의 적법성에 대한 항소심 판단이 나온다. 26조원대 유가담합 등 혐의로 기소된 국내 정유 4사의 첫 재판도 열린다. '명태균 게이트'와 관련해 1심에서 유죄를 선고받은 윤석열 전... 13시간 전",
+      "collected_at": "2026-08-17T08:33:01.491874+09:00",
+      "normalized_title": "파이낸셜뉴스",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::파이낸셜뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/139/home",
+      "id": "f9b058269ce9069e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'남산 곤돌라' 취소소송, 20일 항소심 결과 나온다새 창 열림",
+      "url": "http://www.fnnews.com/news/202608161836586750",
+      "source": "새 창 열림",
+      "published_at": "2026-08-16T19:32:59.813167+09:00",
+      "snippet": "26조원대 유가담합 등 혐의로 기소된 국내 정유 4사의 첫 재판도 열린다. '명태균 게이트'와 관련해 1심에서 유죄를 선고받은 윤석열 전 대통령과 오세훈 서울시장의 항소심도 시작된다. 16일 법조계에 따르면 서울고법 행정7부(권순형 부장판사)는 오는 20일 남산 케이블카 운영사 한국삭도공업 등이 서울시를... 새 창 열림",
+      "collected_at": "2026-08-17T08:32:59.813197+09:00",
+      "normalized_title": "'남산 곤돌라' 취소소송, 20일 항소심 결과 나온다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'남산 곤돌라' 취소소송, 20일 항소심 결과 나온다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.fnnews.com/news/202608161836586750",
+      "id": "8c8aee696a124742",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

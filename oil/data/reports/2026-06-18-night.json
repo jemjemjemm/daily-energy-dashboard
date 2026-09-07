@@ -1,0 +1,708 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-18",
+  "slot": "night",
+  "period_start": "2026-06-18T17:00:00+09:00",
+  "period_end": "2026-06-19T00:00:00+09:00",
+  "period_label": "2026-06-18 17:00 ~ 2026-06-19 00:00",
+  "generated_at": "2026-06-22T16:40:03.107355+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1534,
+  "total_deduped_count": 21,
+  "total_ok_count": 21,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 6,
+    "B": 4,
+    "C": 11
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1144
+  },
+  "query_counts": {
+    "경유 담합": 3,
+    "기름값 담합": 4,
+    "석유 담합": 4,
+    "석유제품 담합": 3,
+    "유가 담합": 10,
+    "유가담합": 13,
+    "정유사 담합": 3,
+    "정유업계 담합": 3,
+    "주유소 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "중앙일보",
+      "url": "https://v.daum.net/channel/8/home",
+      "source": "중앙일보",
+      "published_at": "2026-06-18T17:05:13.047616+09:00",
+      "snippet": "이란 전쟁 직후 사전 협의를 통해 국내에 공급하는 휘발유·경유 등 석유제품 가격을 함께 올린 것으로 보고 있다. 검찰은 올해 3월...의혹과 관련한 첫 구속영장을 청구했다. ━ 중앙지검, 유가 담합 세 갈래 수사 수사팀은 정유업계의 가격 담합과 불공정거래 의혹... 23시간 전",
+      "collected_at": "2026-06-19T16:05:13.047639+09:00",
+      "normalized_title": "중앙일보",
+      "source_normalized": "중앙일보",
+      "duplicate_key": "중앙일보::중앙일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/8/home",
+      "id": "eb7afd40bf8b1876",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유업계",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "유가담합 의혹 임직원 구속 기로… 타 정유사 수사 확대될까",
+      "url": "https://www.joongang.co.kr/article/25437954",
+      "source": "중앙일보",
+      "published_at": "2026-06-18T17:05:12.789625+09:00",
+      "snippet": "미국·이란 전쟁을 전후해 유가 담합 의혹을 받는 국내 대형 정유사 임직원들이 구속 갈림길에 섰다. 지난 3월 검찰이 국내 대형 정유사를 상대로... 서울중앙지검 공정거래조사부(부장 나희석)는 이들이 미국·이란 전쟁 직후 사전 협의를 통해 국내에 공급하는 휘발유·경유 등 석유제품 가격을 함께 올린 것으로...",
+      "collected_at": "2026-06-19T16:05:12.789634+09:00",
+      "normalized_title": "유가담합 의혹 임직원 구속 기로… 타 정유사 수사 확대될까",
+      "source_normalized": "중앙일보",
+      "duplicate_key": "중앙일보::유가담합 의혹 임직원 구속 기로… 타 정유사 수사 확대될까",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.joongang.co.kr/article/25437954",
+      "id": "938237fe1a478454",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보]‘유가 담합 의혹’ 현대오일뱅크 임직원 구속···“증거 인멸 우려”",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vcVlucWljeFhEdFhlb2xMZGJpcHl5Q2xZYWNnZ2ZmWnBUNllKQ25qVExPUVFPblVCSGYtcXdmMXczMTduV21IRlVTVTVlYnliOVQwNExCZHJlUdIBX0FVX3lxTE5qQXgxMXI1dmhUVmhsU3Z1aGNWQnRFbndBMVI2MHpqeVZVaW9HdEw5QUt2WkxuUW4tUnp5cUVVbDJqcFpiS1k5Zzk2S1Bfa2loSmhCZmZRbXlBNDVCcFhn?oc=5",
+      "source": "경향신문",
+      "published_at": "2026-06-18T23:58:00+09:00",
+      "snippet": "[속보]‘유가 담합 의혹’ 현대오일뱅크 임직원 구속···“증거 인멸 우려” 경향신문",
+      "collected_at": "2026-06-19T16:05:04.306033+09:00",
+      "normalized_title": "‘유가 담합 의혹’ 현대오일뱅크 임직원 구속···“증거 인멸 우려”",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::‘유가 담합 의혹’ 현대오일뱅크 임직원 구속···“증거 인멸 우려”",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vcVlucWljeFhEdFhlb2xMZGJpcHl5Q2xZYWNnZ2ZmWnBUNllKQ25qVExPUVFPblVCSGYtcXdmMXczMTduV21IRlVTVTVlYnliOVQwNExCZHJlUdIBX0FVX3lxTE5qQXgxMXI1dmhUVmhsU3Z1aGNWQnRFbndBMVI2MHpqeVZVaW9HdEw5QUt2WkxuUW4tUnp5cUVVbDJqcFpiS1k5Zzk2S1Bfa2loSmhCZmZRbXlBNDVCcFhn?oc=5",
+      "id": "5f93dafce0385ad3",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보]'유가 담합 의혹' HD현대오일뱅크 임직원 1명 구속…다른 1명 영장 기각",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FaTNneERCYl9MMkFwX1V2UE5ORXpkMU9wT241T2FzejBaWXpvX1VrcmZmWEFKb005NWVxMEJNcGRmMExTM0VhWHF2eXFHZURvM09iQzh6cjlqWXFPdkdTTg?oc=5",
+      "source": "아시아경제",
+      "published_at": "2026-06-18T23:55:58+09:00",
+      "snippet": "[속보]'유가 담합 의혹' HD현대오일뱅크 임직원 1명 구속…다른 1명 영장 기각 아시아경제",
+      "collected_at": "2026-06-19T16:05:04.308241+09:00",
+      "normalized_title": "'유가 담합 의혹' HD현대오일뱅크 임직원 1명 구속…다른 1명 영장 기각",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::'유가 담합 의혹' hd현대오일뱅크 임직원 1명 구속…다른 1명 영장 기각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FaTNneERCYl9MMkFwX1V2UE5ORXpkMU9wT241T2FzejBaWXpvX1VrcmZmWEFKb005NWVxMEJNcGRmMExTM0VhWHF2eXFHZURvM09iQzh6cjlqWXFPdkdTTg?oc=5",
+      "id": "e2d7a97d0e3b55f3",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보]'유가 담합 의혹' HD현대오일뱅크 임직원 1명 구속…1명 기각",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RVC0yY0FjNmJuMGJmZG1naXQ4eHJGTnNJQ3JRUlJuclkwLW12dS1Jcjk5dWN2bDF3aUJQcFI1a0pYUnlhLXVNUFVDRV9yanFFYTBXcnF3bnFUX1dWVWNNMtIBeEFVX3lxTE5ZeE1UVFdDQVJfTUhpQXlMcDhvLVlnZTR5UVNZeHZfQTFXS1BPR0FHTS1ueGJDMHlHNC1sRzJIUExvcGQ1dXRHUTVCTDU1bzRvdHphYlU1aFJWSnRBRDIzSUUtaXhscE9JU3FhdGF2X2dfNkNwSTFtUg?oc=5",
+      "source": "뉴시스",
+      "published_at": "2026-06-18T23:56:41+09:00",
+      "snippet": "[속보]'유가 담합 의혹' HD현대오일뱅크 임직원 1명 구속…1명 기각 뉴시스",
+      "collected_at": "2026-06-19T16:05:04.316536+09:00",
+      "normalized_title": "'유가 담합 의혹' HD현대오일뱅크 임직원 1명 구속…1명 기각",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::'유가 담합 의혹' hd현대오일뱅크 임직원 1명 구속…1명 기각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RVC0yY0FjNmJuMGJmZG1naXQ4eHJGTnNJQ3JRUlJuclkwLW12dS1Jcjk5dWN2bDF3aUJQcFI1a0pYUnlhLXVNUFVDRV9yanFFYTBXcnF3bnFUX1dWVWNNMtIBeEFVX3lxTE5ZeE1UVFdDQVJfTUhpQXlMcDhvLVlnZTR5UVNZeHZfQTFXS1BPR0FHTS1ueGJDMHlHNC1sRzJIUExvcGQ1dXRHUTVCTDU1bzRvdHphYlU1aFJWSnRBRDIzSUUtaXhscE9JU3FhdGF2X2dfNkNwSTFtUg?oc=5",
+      "id": "0e079d1ed518c155",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보] '유가 담합' 의혹 HD현대오일뱅크 임직원 1명 구속…1명 기각",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CNVBFQi1ESFA5OEp1S0JqWGIyNUY2bHYxdW91Z3VHZUVNZFM4SUp0Y3F3OTFfYUVzMEc2d1hBdVNPa2pXZUpEbGpTNm5OaENYdWdnQlJabUFqbUxSRVNDTVY1NWw?oc=5",
+      "source": "뉴스1",
+      "published_at": "2026-06-18T23:55:56+09:00",
+      "snippet": "[속보] '유가 담합' 의혹 HD현대오일뱅크 임직원 1명 구속…1명 기각 뉴스1",
+      "collected_at": "2026-06-19T16:05:04.312838+09:00",
+      "normalized_title": "'유가 담합' 의혹 HD현대오일뱅크 임직원 1명 구속…1명 기각",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::'유가 담합' 의혹 hd현대오일뱅크 임직원 1명 구속…1명 기각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CNVBFQi1ESFA5OEp1S0JqWGIyNUY2bHYxdW91Z3VHZUVNZFM4SUp0Y3F3OTFfYUVzMEc2d1hBdVNPa2pXZUpEbGpTNm5OaENYdWdnQlJabUFqbUxSRVNDTVY1NWw?oc=5",
+      "id": "c4d8db1e1afabe2a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘유가 담합 의혹’ HD현대오일뱅크 직원 1명 구속…“증거인멸 염려”",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2UVU0aWlzU2hzbVJOa3M0OFV0X1V4NEZYQTA3R3NRS3dZS3FlM0FaRmhuLWVZVTRpc0hDMDVCemc5R1hZSXF5dkpJU2d3ZmlYSTJURw?oc=5",
+      "source": "JTBC",
+      "published_at": "2026-06-18T23:59:00+09:00",
+      "snippet": "‘유가 담합 의혹’ HD현대오일뱅크 직원 1명 구속…“증거인멸 염려” JTBC",
+      "collected_at": "2026-06-19T16:05:05.840164+09:00",
+      "normalized_title": "‘유가 담합 의혹’ HD현대오일뱅크 직원 1명 구속…“증거인멸 염려”",
+      "source_normalized": "JTBC",
+      "duplicate_key": "jtbc::‘유가 담합 의혹’ hd현대오일뱅크 직원 1명 구속…“증거인멸 염려”",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2UVU0aWlzU2hzbVJOa3M0OFV0X1V4NEZYQTA3R3NRS3dZS3FlM0FaRmhuLWVZVTRpc0hDMDVCemc5R1hZSXF5dkpJU2d3ZmlYSTJURw?oc=5",
+      "id": "5ec5cf0336cedbe1",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독]“전쟁 직후 바로 인상”…‘유가 담합 혐의’ 구속 심사",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCVHhHLTlGLW8ydnpqX3Q2WXQ0OUU3LXZXV2xha1hyZ3NfZ3hIVTNCR2wtcDg5Ul9zblJidTA0WFZORThWdkNGb19maEFXNDd0TWg3SlFYVEl6WGdybmfSAWNBVV95cUxPRUxhb3JsNXJndGluMHJOcU81SnZRMzNVVGpsM0h1SHZ5R2xqS3lkUUpEWWpwYVNsZGFNQ0xpRkpBQkFQeVVvWUFkdDUzS09QUVRsU3lNRU5QakZBSnVhclc5RFk?oc=5",
+      "source": "채널A",
+      "published_at": "2026-06-18T19:49:00+09:00",
+      "snippet": "[단독]“전쟁 직후 바로 인상”…‘유가 담합 혐의’ 구속 심사 채널A",
+      "collected_at": "2026-06-19T16:05:07.488104+09:00",
+      "normalized_title": "“전쟁 직후 바로 인상”…‘유가 담합 혐의’ 구속 심사",
+      "source_normalized": "채널A",
+      "duplicate_key": "채널a::“전쟁 직후 바로 인상”…‘유가 담합 혐의’ 구속 심사",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCVHhHLTlGLW8ydnpqX3Q2WXQ0OUU3LXZXV2xha1hyZ3NfZ3hIVTNCR2wtcDg5Ul9zblJidTA0WFZORThWdkNGb19maEFXNDd0TWg3SlFYVEl6WGdybmfSAWNBVV95cUxPRUxhb3JsNXJndGluMHJOcU81SnZRMzNVVGpsM0h1SHZ5R2xqS3lkUUpEWWpwYVNsZGFNQ0xpRkpBQkFQeVVvWUFkdDUzS09QUVRsU3lNRU5QakZBSnVhclc5RFk?oc=5",
+      "id": "7e2b9f2f721bd29a",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스TV",
+      "url": "https://v.daum.net/channel/318/home",
+      "source": "연합뉴스TV",
+      "published_at": "2026-06-18T19:05:16.227157+09:00",
+      "snippet": "범죄 사실에도 일부 담긴 것으로 파악됐습니다. 또 그동안 정유업계에서 관행으로 여겨졌던 '전량 구매 계약' 역시 검찰 수사 대상...건 아닌지 의심하고 있습니다. 이번 구속영장 청구는 유가 담합 수사 착수 이후 검찰의 첫 신병확보 시도입니다. 이재명 대통령... 21시간 전",
+      "collected_at": "2026-06-19T16:05:16.227166+09:00",
+      "normalized_title": "연합뉴스TV",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::연합뉴스tv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/318/home",
+      "id": "3c5f8f96c9d1d1e1",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크 임직원 구속 기로…’유가 담합’ 의혹",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2MV9RUUVoUFYzekZJWVcwajhSY2d6dGNtakRKRlJPRi1mQjJ1R1FfVlNsNjJ4dTJYbHpvZkxtUVZOeTRwdVFQemhUWVJEM19IUjZIUFVaVk1xQzZxanNZamREc0JBV1U?oc=5",
+      "source": "연합뉴스TV",
+      "published_at": "2026-06-18T18:52:47+09:00",
+      "snippet": "HD현대오일뱅크 임직원 구속 기로…’유가 담합’ 의혹 연합뉴스TV",
+      "collected_at": "2026-06-19T16:05:04.309001+09:00",
+      "normalized_title": "HD현대오일뱅크 임직원 구속 기로…’유가 담합’ 의혹",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::hd현대오일뱅크 임직원 구속 기로…’유가 담합’ 의혹",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2MV9RUUVoUFYzekZJWVcwajhSY2d6dGNtakRKRlJPRi1mQjJ1R1FfVlNsNjJ4dTJYbHpvZkxtUVZOeTRwdVFQemhUWVJEM19IUjZIUFVaVk1xQzZxanNZamREc0JBV1U?oc=5",
+      "id": "3dd21a0293c4b9c7",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크 임직원 구속 기로…'유가 담합' 의혹",
+      "url": "http://v.daum.net/v/20260618185436428",
+      "source": "21시간 전",
+      "published_at": "2026-06-18T19:05:16.227403+09:00",
+      "snippet": "범죄 사실에도 일부 담긴 것으로 파악됐습니다. 또 그동안 정유업계에서 관행으로 여겨졌던 '전량 구매 계약' 역시 검찰 수사 대상...건 아닌지 의심하고 있습니다. 이번 구속영장 청구는 유가 담합 수사 착수 이후 검찰의 첫 신병확보 시도입니다. 이재명 대통령... 21시간 전",
+      "collected_at": "2026-06-19T16:05:16.227411+09:00",
+      "normalized_title": "HD현대오일뱅크 임직원 구속 기로…'유가 담합' 의혹",
+      "source_normalized": "21시간 전",
+      "duplicate_key": "21시간 전::hd현대오일뱅크 임직원 구속 기로…'유가 담합' 의혹",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260618185436428",
+      "id": "757501baf762b9f0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "유가담합 의혹 임직원 구속 기로… 타 정유사 수사 확대될까",
+      "url": "http://v.daum.net/v/20260618165323856",
+      "source": "23시간 전",
+      "published_at": "2026-06-18T17:05:13.048158+09:00",
+      "snippet": "이란 전쟁 직후 사전 협의를 통해 국내에 공급하는 휘발유·경유 등 석유제품 가격을 함께 올린 것으로 보고 있다. 검찰은 올해 3월...의혹과 관련한 첫 구속영장을 청구했다. ━ 중앙지검, 유가 담합 세 갈래 수사 수사팀은 정유업계의 가격 담합과 불공정거래 의혹... 23시간 전",
+      "collected_at": "2026-06-19T16:05:13.048172+09:00",
+      "normalized_title": "유가담합 의혹 임직원 구속 기로… 타 정유사 수사 확대될까",
+      "source_normalized": "23시간 전",
+      "duplicate_key": "23시간 전::유가담합 의혹 임직원 구속 기로… 타 정유사 수사 확대될까",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260618165323856",
+      "id": "e220ae82be00ce85",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "정유업계",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국내 정유 4사 '유가 담합' HD현대오일뱅크 실무진 구속기로",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5cWZ5MkZRQ2ptSXJsdEdFby1WcVhTTjI0amJ6WE5EMzg4TGhSMDlUTkhRdlN6OVA4SDBRdk1RRTZZbDhXYmJ5OEFLdXUtaFFjWG9reTE5U0FwYmFpbU5INUhJUXRqS2VGSTU2cFowUzc2NnUxRGZn0gF3QVVfeXFMUFpKRmxmZ1pnTnVJSzVJNlpMaVJ1ellHRGFHNHhHVVNzR01WTzNfSjd4b2JERXBfdVAta2NyLW16TTF0Rkc5UGJiRkRSelptVXozZmNMbUUxSHNwa2p6V3JBbG1CN0JBYWxsRTVaellfeGxmREpyRFk?oc=5",
+      "source": "MBC 뉴스",
+      "published_at": "2026-06-18T17:56:22+09:00",
+      "snippet": "국내 정유 4사 '유가 담합' HD현대오일뱅크 실무진 구속기로 MBC 뉴스",
+      "collected_at": "2026-06-19T16:05:10.699864+09:00",
+      "normalized_title": "국내 정유 4사 '유가 담합' HD현대오일뱅크 실무진 구속기로",
+      "source_normalized": "MBC 뉴스",
+      "duplicate_key": "mbc 뉴스::국내 정유 4사 '유가 담합' hd현대오일뱅크 실무진 구속기로",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5cWZ5MkZRQ2ptSXJsdEdFby1WcVhTTjI0amJ6WE5EMzg4TGhSMDlUTkhRdlN6OVA4SDBRdk1RRTZZbDhXYmJ5OEFLdXUtaFFjWG9reTE5U0FwYmFpbU5INUhJUXRqS2VGSTU2cFowUzc2NnUxRGZn0gF3QVVfeXFMUFpKRmxmZ1pnTnVJSzVJNlpMaVJ1ellHRGFHNHhHVVNzR01WTzNfSjd4b2JERXBfdVAta2NyLW16TTF0Rkc5UGJiRkRSelptVXozZmNMbUUxSHNwa2p6V3JBbG1CN0JBYWxsRTVaellfeGxmREpyRFk?oc=5",
+      "id": "39e0bc49dfb1085b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가담합 의혹' HD현대오일뱅크 임직원 2명 구속심사",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBEa0hDbTVIWUV1VFlKWDlFbUdlV1oxYUdDUVBEby1XSTJlSHUtOUpyMmhiS2RKNTBTR1prMGhDYnZSSTBPNXRtbmM4VW1zWmh2R0RUQWh0ejhRTXd4VFpKUlBGcU5pUFRHa2F6bWxR?oc=5",
+      "source": "OBS경인TV",
+      "published_at": "2026-06-18T19:14:09+09:00",
+      "snippet": "'유가담합 의혹' HD현대오일뱅크 임직원 2명 구속심사 OBS경인TV",
+      "collected_at": "2026-06-19T16:05:04.315505+09:00",
+      "normalized_title": "'유가담합 의혹' HD현대오일뱅크 임직원 2명 구속심사",
+      "source_normalized": "OBS경인TV",
+      "duplicate_key": "obs경인tv::'유가담합 의혹' hd현대오일뱅크 임직원 2명 구속심사",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBEa0hDbTVIWUV1VFlKWDlFbUdlV1oxYUdDUVBEby1XSTJlSHUtOUpyMmhiS2RKNTBTR1prMGhDYnZSSTBPNXRtbmM4VW1zWmh2R0RUQWh0ejhRTXd4VFpKUlBGcU5pUFRHa2F6bWxR?oc=5",
+      "id": "96b95f1b97a0eb8f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보] '유가 담합' 의혹 HD현대오일뱅크 임원 1명 구속…1명 기각",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vOXN1TVczSno0bGVoMElqdnltSUJvamdyNlViVjRvUXI0UUxZaDZHUFZ2bzE4ZVZMQ1FHamMyMzRVNV8xRUVzZk9OOFNFZG8?oc=5",
+      "source": "v.daum.net",
+      "published_at": "2026-06-18T23:57:00+09:00",
+      "snippet": "[속보] '유가 담합' 의혹 HD현대오일뱅크 임원 1명 구속…1명 기각 v.daum.net",
+      "collected_at": "2026-06-19T16:05:04.308456+09:00",
+      "normalized_title": "'유가 담합' 의혹 HD현대오일뱅크 임원 1명 구속…1명 기각",
+      "source_normalized": "v.daum.net",
+      "duplicate_key": "v.daum.net::'유가 담합' 의혹 hd현대오일뱅크 임원 1명 구속…1명 기각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vOXN1TVczSno0bGVoMElqdnltSUJvamdyNlViVjRvUXI0UUxZaDZHUFZ2bzE4ZVZMQ1FHamMyMzRVNV8xRUVzZk9OOFNFZG8?oc=5",
+      "id": "6694d5d568f0066a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크 임직원 구속 기로…'유가 담합' 의혹",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90VFBva1dMVVpQWEF4UDgxZTZxZFE0SERHamtuamhxS3hIbThkTkVZOFhfY0R5OXRFOG9rSzZlbkJjeXh2VXJFT2hWR3l2VUU?oc=5",
+      "source": "v.daum.net",
+      "published_at": "2026-06-18T18:54:36+09:00",
+      "snippet": "HD현대오일뱅크 임직원 구속 기로…'유가 담합' 의혹 v.daum.net",
+      "collected_at": "2026-06-19T16:05:04.310557+09:00",
+      "normalized_title": "HD현대오일뱅크 임직원 구속 기로…'유가 담합' 의혹",
+      "source_normalized": "v.daum.net",
+      "duplicate_key": "v.daum.net::hd현대오일뱅크 임직원 구속 기로…'유가 담합' 의혹",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90VFBva1dMVVpQWEF4UDgxZTZxZFE0SERHamtuamhxS3hIbThkTkVZOFhfY0R5OXRFOG9rSzZlbkJjeXh2VXJFT2hWR3l2VUU?oc=5",
+      "id": "a8af1263978d9891",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국내 정유 4사 '유가 담합' HD현대오일뱅크 실무진 구속기로",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqbklPN2VUVXdxdjBPRGxhMktSMTBSeE5xYTJySlVRajJhNGtTLXFPaVo2M1FRM09MTElFcHNWdEE4Q1JPMmI3dUw0VGpOTlE?oc=5",
+      "source": "v.daum.net",
+      "published_at": "2026-06-18T18:04:00+09:00",
+      "snippet": "국내 정유 4사 '유가 담합' HD현대오일뱅크 실무진 구속기로 v.daum.net",
+      "collected_at": "2026-06-19T16:05:04.312165+09:00",
+      "normalized_title": "국내 정유 4사 '유가 담합' HD현대오일뱅크 실무진 구속기로",
+      "source_normalized": "v.daum.net",
+      "duplicate_key": "v.daum.net::국내 정유 4사 '유가 담합' hd현대오일뱅크 실무진 구속기로",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqbklPN2VUVXdxdjBPRGxhMktSMTBSeE5xYTJySlVRajJhNGtTLXFPaVo2M1FRM09MTElFcHNWdEE4Q1JPMmI3dUw0VGpOTlE?oc=5",
+      "id": "e22ab6107b385905",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합' HD현대오일뱅크 임직원 구속 기로",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JN2dfdjF0RjlGdXd0Z2hOU3daN0FldWF5Q2U2RVdycm1HM3p0RE1meGwzM1A0aE1wQWRkeWlQT2pnalZ3bHFheUtIcDVVZmc?oc=5",
+      "source": "v.daum.net",
+      "published_at": "2026-06-18T17:20:02+09:00",
+      "snippet": "'유가 담합' HD현대오일뱅크 임직원 구속 기로 v.daum.net",
+      "collected_at": "2026-06-19T16:05:04.311941+09:00",
+      "normalized_title": "'유가 담합' HD현대오일뱅크 임직원 구속 기로",
+      "source_normalized": "v.daum.net",
+      "duplicate_key": "v.daum.net::'유가 담합' hd현대오일뱅크 임직원 구속 기로",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JN2dfdjF0RjlGdXd0Z2hOU3daN0FldWF5Q2U2RVdycm1HM3p0RE1meGwzM1A0aE1wQWRkeWlQT2pnalZ3bHFheUtIcDVVZmc?oc=5",
+      "id": "1c66a7aa3f501c8c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보]'유가 담합 의혹' HD현대오일뱅크 임직원 1명 구속…다른 1명 영장 기각",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBtNnhWeGRSMmI3N0I3TXduUmhKWHFCUVpfSk00Z01lZ1lsa3draF9mRkd4NzhlNmZYT2RjSnRuRkRwdVhldDhUQzFnVGR5ZVI2Q1VyUTM5WklQdnRfMkpVcmg4WWhKUmhhZ1ZKLVhCSXZBZ2lRNTBmUA?oc=5",
+      "source": "네이트",
+      "published_at": "2026-06-18T23:56:00+09:00",
+      "snippet": "[속보]'유가 담합 의혹' HD현대오일뱅크 임직원 1명 구속…다른 1명 영장 기각 네이트",
+      "collected_at": "2026-06-19T16:05:04.316086+09:00",
+      "normalized_title": "'유가 담합 의혹' HD현대오일뱅크 임직원 1명 구속…다른 1명 영장 기각",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::'유가 담합 의혹' hd현대오일뱅크 임직원 1명 구속…다른 1명 영장 기각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBtNnhWeGRSMmI3N0I3TXduUmhKWHFCUVpfSk00Z01lZ1lsa3draF9mRkd4NzhlNmZYT2RjSnRuRkRwdVhldDhUQzFnVGR5ZVI2Q1VyUTM5WklQdnRfMkpVcmg4WWhKUmhhZ1ZKLVhCSXZBZ2lRNTBmUA?oc=5",
+      "id": "afa6ebc9b23711ac",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크 임직원 구속 기로…'유가 담합' 의혹",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kRVZYb3Rha0JNZHM5WFU2blM4RlhIOUR1UzRta1cyVDJRSWtDV0dJOE9HamRsOGMwMnRrU04xMmJnbVFSRktqVktFbWhVdnJtaGFB?oc=5",
+      "source": "네이트",
+      "published_at": "2026-06-18T18:54:00+09:00",
+      "snippet": "HD현대오일뱅크 임직원 구속 기로…'유가 담합' 의혹 네이트",
+      "collected_at": "2026-06-19T16:05:04.316861+09:00",
+      "normalized_title": "HD현대오일뱅크 임직원 구속 기로…'유가 담합' 의혹",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::hd현대오일뱅크 임직원 구속 기로…'유가 담합' 의혹",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kRVZYb3Rha0JNZHM5WFU2blM4RlhIOUR1UzRta1cyVDJRSWtDV0dJOE9HamRsOGMwMnRrU04xMmJnbVFSRktqVktFbWhVdnJtaGFB?oc=5",
+      "id": "a6d7c8778e06cbea",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘전쟁 특수’ 유가 담합 의혹…정유업계 사정 수사 분수령",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PTjJvTUJQWGRSQmhPaklPeXM5RlBHVDdFd3A2NVZNZ0otWGtpNGFxRVhqd2RqTjNGZmpDM3hyd2cyZTFHZE1iQmtoaWNLeV85amtNd3hXbFk1bHFBZHZEQl9JTXdRYnJOaW5tUHdBcng?oc=5",
+      "source": "에너지코리아뉴스",
+      "published_at": "2026-06-18T17:22:24+09:00",
+      "snippet": "‘전쟁 특수’ 유가 담합 의혹…정유업계 사정 수사 분수령 에너지코리아뉴스",
+      "collected_at": "2026-06-19T16:05:04.312497+09:00",
+      "normalized_title": "‘전쟁 특수’ 유가 담합 의혹…정유업계 사정 수사 분수령",
+      "source_normalized": "에너지코리아뉴스",
+      "duplicate_key": "에너지코리아뉴스::‘전쟁 특수’ 유가 담합 의혹…정유업계 사정 수사 분수령",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PTjJvTUJQWGRSQmhPaklPeXM5RlBHVDdFd3A2NVZNZ0otWGtpNGFxRVhqd2RqTjNGZmpDM3hyd2cyZTFHZE1iQmtoaWNLeV85amtNd3hXbFk1bHFBZHZEQl9JTXdRYnJOaW5tUHdBcng?oc=5",
+      "id": "0300eda70f33ad8e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

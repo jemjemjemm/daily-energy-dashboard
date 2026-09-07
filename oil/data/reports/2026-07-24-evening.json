@@ -1,0 +1,199 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-24",
+  "slot": "evening",
+  "period_start": "2026-07-24T08:00:00+09:00",
+  "period_end": "2026-07-24T17:00:00+09:00",
+  "period_label": "2026-07-24 08:00 ~ 2026-07-24 17:00",
+  "generated_at": "2026-07-24T19:27:19.471177+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1553,
+  "total_deduped_count": 4,
+  "total_ok_count": 4,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 4
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1163
+  },
+  "query_counts": {
+    "석유 담합": 3,
+    "석유제품 담합": 3,
+    "유가 담합": 4,
+    "유가담합": 4,
+    "정유사 담합": 3,
+    "정유업계 담합": 3,
+    "주유소 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "\"어포더빌리티는 민주당이 만든 말\" 비웃다 큰코다친 트럼프새 창 열림",
+      "url": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=53326",
+      "source": "새 창 열림",
+      "published_at": "2026-07-24T14:03:24.122357+09:00",
+      "snippet": "몇 주 전 법무부와 17개 주는 가격 담합 혐의를 받던 3개 대형 계란 생산업체와 합의를 이끌어냈다. 합의 대상 중 유일한 상장사인 칼마인(Cal-Maine)은 2025 회계연도에 12억 2천만 달러의 이익을 올렸으며, 법적 책임을 인정하지 않는 조건으로 150만 달러의 벌금 납부와 계란 3000만 개 기부에 합의했다. 유가는... 새 창 열림",
+      "collected_at": "2026-07-24T17:03:24.122378+09:00",
+      "normalized_title": "\"어포더빌리티는 민주당이 만든 말\" 비웃다 큰코다친 트럼프새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::\"어포더빌리티는 민주당이 만든 말\" 비웃다 큰코다친 트럼프새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=53326",
+      "id": "3cf312a70b56ed74",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유업계 덮친 정책 리스크···손실보전·담합혐의 기소 '이중고'새 창 열림",
+      "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=422634",
+      "source": "새 창 열림",
+      "published_at": "2026-07-24T11:03:24.123812+09:00",
+      "snippet": "◇담합혐의 기소·중동 리스크까지···\"하반기 변수는 정책 불확실성\" 정유업계를 둘러싼 부담은 정책 리스크에 그치지 않는다. 검찰이 국내 정유사들의 담합 혐의로 기소하면서 사법 리스크도 동시에 확대되고 있다. 검찰은 일부 정유사가 국제유가 급등기에 석유제품 가격 인상 시기와 폭을 사전에 조율하고... 새 창 열림",
+      "collected_at": "2026-07-24T17:03:24.123828+09:00",
+      "normalized_title": "정유업계 덮친 정책 리스크···손실보전·담합혐의 기소 '이중고'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정유업계 덮친 정책 리스크···손실보전·담합혐의 기소 '이중고'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.sisajournal-e.com/news/articleView.html?idxno=422634",
+      "id": "cf22bca9ec962f17",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "정유업계",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유업계 덮친 정책 리스크···손실보전·담합혐의 기소 ‘이중고’",
+      "url": "http://v.daum.net/v/20260724105826110",
+      "source": "시사저널e",
+      "published_at": "2026-07-24T11:03:27.703498+09:00",
+      "snippet": "지난달 서울의 한 주유소 모습 / 사진=연합뉴스 [시사저널e=노경은 기자] 정부가 석유제품 최고가격제를 오는 9월 말까지 연장하면서...가운데 손실보전 기준을 둘러싼 정부와 업계의 이견, 검찰의 유가담합 혐의 기소까지 겹치며 정책·사법 리스크가 동시에 확대... 6시간 전",
+      "collected_at": "2026-07-24T17:03:27.703527+09:00",
+      "normalized_title": "정유업계 덮친 정책 리스크···손실보전·담합혐의 기소 ‘이중고’",
+      "source_normalized": "시사저널e",
+      "duplicate_key": "시사저널e::정유업계 덮친 정책 리스크···손실보전·담합혐의 기소 ‘이중고’",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 11,
+      "canonical_url": "http://v.daum.net/v/20260724105826110",
+      "id": "5035adad97b8331c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유업계",
+        "주유소",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "시사저널e",
+      "url": "https://v.daum.net/channel/552777/home",
+      "source": "시사저널e",
+      "published_at": "2026-07-24T11:03:25.616960+09:00",
+      "snippet": "지난달 서울의 한 주유소 모습 / 사진=연합뉴스 [시사저널e=노경은 기자] 정부가 석유제품 최고가격제를 오는 9월 말까지 연장하면서...가운데 손실보전 기준을 둘러싼 정부와 업계의 이견, 검찰의 유가담합 혐의 기소까지 겹치며 정책·사법 리스크가 동시에 확대... 6시간 전",
+      "collected_at": "2026-07-24T17:03:25.616991+09:00",
+      "normalized_title": "시사저널e",
+      "source_normalized": "시사저널e",
+      "duplicate_key": "시사저널e::시사저널e",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/552777/home",
+      "id": "be5d378168406334",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "주유소",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

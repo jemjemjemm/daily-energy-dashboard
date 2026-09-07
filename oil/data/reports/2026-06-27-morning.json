@@ -1,0 +1,147 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-27",
+  "slot": "morning",
+  "period_start": "2026-06-27T00:00:00+09:00",
+  "period_end": "2026-06-27T08:00:00+09:00",
+  "period_label": "2026-06-27 00:00 ~ 2026-06-27 08:00",
+  "generated_at": "2026-06-27T09:20:09.765007+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1529,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1139
+  },
+  "query_counts": {
+    "공정위 유가 담합": 2,
+    "유가 담합": 3,
+    "유가담합": 3,
+    "유류가격 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "동아일보",
+      "url": "https://v.daum.net/channel/190/home",
+      "source": "동아일보",
+      "published_at": "2026-06-27T02:19:34.842402+09:00",
+      "snippet": "대한항공과 아시아나항공을 비롯한 전 세계 15개 항공사가 담합 의혹을 받았다. 국내에서는 2010년 공정거래위원회가 1999∼2007년...세분해야 한다는 의견도 나왔다. 반면 소비자들은 유류할증료가 두 달 전 항공유 가격을 기준으로 결정되는 만큼 유가가 오를 때는... 7시간 전",
+      "collected_at": "2026-06-27T09:19:34.842435+09:00",
+      "normalized_title": "동아일보",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::동아일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/190/home",
+      "id": "4a0c6238fbb4fa64",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연료비 뛰면 덩달아 올라… 항공권 가격의 숨은 변수",
+      "url": "https://www.donga.com/news/Economy/article/all/20260626/134190712/2",
+      "source": "동아일보",
+      "published_at": "2026-06-27T02:19:33.576717+09:00",
+      "snippet": "국제유가가 오르더라도 소비자에게는 별도 유류할증료가 없는 것처럼 보이지만, 실제로는 연료비 상승분이 항공운임에 반영되는 구조다.... 2000년대 들어 세계 주요 항공사들은 유류할증료 도입 시기와 인상 폭을 사전에 협의한 이른바 ‘유류할증료 담합 사건’에 연루됐다. 대한항공과 아시아나항공을...",
+      "collected_at": "2026-06-27T09:19:33.576744+09:00",
+      "normalized_title": "연료비 뛰면 덩달아 올라… 항공권 가격의 숨은 변수",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::연료비 뛰면 덩달아 올라… 항공권 가격의 숨은 변수",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.donga.com/news/Economy/article/all/20260626/134190712/2",
+      "id": "4caad6abd555d374",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연료비 뛰면 덩달아 올라… 항공권 가격의 숨은 변수",
+      "url": "http://v.daum.net/v/20260627014356735",
+      "source": "7시간 전",
+      "published_at": "2026-06-27T02:19:34.842937+09:00",
+      "snippet": "대한항공과 아시아나항공을 비롯한 전 세계 15개 항공사가 담합 의혹을 받았다. 국내에서는 2010년 공정거래위원회가 1999∼2007년...세분해야 한다는 의견도 나왔다. 반면 소비자들은 유류할증료가 두 달 전 항공유 가격을 기준으로 결정되는 만큼 유가가 오를 때는... 7시간 전",
+      "collected_at": "2026-06-27T09:19:34.842952+09:00",
+      "normalized_title": "연료비 뛰면 덩달아 올라… 항공권 가격의 숨은 변수",
+      "source_normalized": "7시간 전",
+      "duplicate_key": "7시간 전::연료비 뛰면 덩달아 올라… 항공권 가격의 숨은 변수",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260627014356735",
+      "id": "c98b9af25c256df4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

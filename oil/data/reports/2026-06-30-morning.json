@@ -1,0 +1,78 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-30",
+  "slot": "morning",
+  "period_start": "2026-06-30T00:00:00+09:00",
+  "period_end": "2026-06-30T08:00:00+09:00",
+  "period_label": "2026-06-30 00:00 ~ 2026-06-30 08:00",
+  "generated_at": "2026-06-30T09:17:50.715556+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1533,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1143
+  },
+  "query_counts": {
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "\"드디어 빨간불, 얼마 만인지\"…'삼전닉스' 쉬어간 틈에 설움 딛고 다시...",
+      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202606300238&t=NN",
+      "source": "한국경제TV",
+      "published_at": "2026-06-30T07:26:44.407726+09:00",
+      "snippet": "반도체 고점 논란의 여파로 유가증권시장이 혼조세를 보인 가운데 올해 하반기부터 정부 정책의 훈풍으로 대규모 자금이 유입될 것이라는 기대감에... 특히 미국 반도체 업종의 급락과 메모리 가격 담합 혐의 소송 등 대내외 악재가 겹친 점도 투자 심리가 크게 위축됐다. 삼성전자와 SK하이닉스가 이날...",
+      "collected_at": "2026-06-30T08:26:44.407762+09:00",
+      "normalized_title": "\"드디어 빨간불, 얼마 만인지\"…'삼전닉스' 쉬어간 틈에 설움 딛고 다시...",
+      "source_normalized": "한국경제TV",
+      "duplicate_key": "한국경제tv::\"드디어 빨간불, 얼마 만인지\"…'삼전닉스' 쉬어간 틈에 설움 딛고 다시...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202606300238&t=NN",
+      "id": "0772e9ec78eeb889",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-06",
+  "slot": "night",
+  "period_start": "2026-08-06T17:00:00+09:00",
+  "period_end": "2026-08-07T00:00:00+09:00",
+  "period_label": "2026-08-06 17:00 ~ 2026-08-07 00:00",
+  "generated_at": "2026-08-07T17:09:35.452813+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1568,
+  "total_deduped_count": 10,
+  "total_ok_count": 10,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 2,
+    "B": 2,
+    "C": 6
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1178
+  },
+  "query_counts": {
+    "공정위 유가 담합": 3,
+    "석유 담합": 3,
+    "석유제품 담합": 1,
+    "유가 담합": 4,
+    "유가담합": 4,
+    "주유소 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[미리보는 이데일리 신문]中 반도체 장비 쇼크…韓도 '소부장'부터 국산화해야",
+      "url": "http://v.daum.net/v/20260806212253456",
+      "source": "이데일리",
+      "published_at": "2026-08-06T21:26:55.909830+09:00",
+      "snippet": "규제가 일하려는 의지 꺾어선 안돼” -국고채 담합 11.4조 과징금 폭탄 맞는다 -상반기 경상 흑자 4배…올해 2500억달러 청신 △9면...디자인 공개 -포스코퓨처엠, LFP양극재 첫 장기공급 계약 -GS칼텍스, 국가브랜드경쟁력 주유소 업종 1위 △13면 -삼성전기·LG... 11시간 전",
+      "collected_at": "2026-08-07T08:26:55.909858+09:00",
+      "normalized_title": "[미리보는 이데일리 신문]中 반도체 장비 쇼크…韓도 '소부장'부터 국산화해야",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::[미리보는 이데일리 신문]中 반도체 장비 쇼크…韓도 '소부장'부터 국산화해야",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260806212253456",
+      "id": "97986ee7de0e3aae",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이데일리",
+      "url": "https://v.daum.net/channel/6/home",
+      "source": "이데일리",
+      "published_at": "2026-08-06T21:26:53.530610+09:00",
+      "snippet": "규제가 일하려는 의지 꺾어선 안돼” -국고채 담합 11.4조 과징금 폭탄 맞는다 -상반기 경상 흑자 4배…올해 2500억달러 청신 △9면...디자인 공개 -포스코퓨처엠, LFP양극재 첫 장기공급 계약 -GS칼텍스, 국가브랜드경쟁력 주유소 업종 1위 △13면 -삼성전기·LG... 11시간 전",
+      "collected_at": "2026-08-07T08:26:53.530638+09:00",
+      "normalized_title": "이데일리",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::이데일리",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/6/home",
+      "id": "bfd3d796eb34da9b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[채권-마감] 레벨 부담에 전일 강세 되돌림…국고 3년 7.3bp↑",
+      "url": "http://v.daum.net/v/20260806184602552",
+      "source": "연합인포맥스",
+      "published_at": "2026-08-06T19:26:19.057564+09:00",
+      "snippet": "공동 수로를 조성하는 데 합의했다고 밝히면서 국제유가가 안정세를 보였지만 금리의 추가 강세를 이끌 정도는 아니었다. 간밤 서부...한편 이날 공정거래위원회는 국고채 입찰 과정에서 주요 증권사와 은행이 담합한 혐의를 포착해 곧 심의에 넘길 예정이라고... 13시간 전",
+      "collected_at": "2026-08-07T08:26:19.057595+09:00",
+      "normalized_title": "[채권-마감] 레벨 부담에 전일 강세 되돌림…국고 3년 7.3bp↑",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::[채권-마감] 레벨 부담에 전일 강세 되돌림…국고 3년 7.3bp↑",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260806184602552",
+      "id": "6cbc0e4c87de7107",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합인포맥스",
+      "url": "https://v.daum.net/channel/552842/home",
+      "source": "연합인포맥스",
+      "published_at": "2026-08-06T19:26:16.242633+09:00",
+      "snippet": "공동 수로를 조성하는 데 합의했다고 밝히면서 국제유가가 안정세를 보였지만 금리의 추가 강세를 이끌 정도는 아니었다. 간밤 서부...한편 이날 공정거래위원회는 국고채 입찰 과정에서 주요 증권사와 은행이 담합한 혐의를 포착해 곧 심의에 넘길 예정이라고... 13시간 전",
+      "collected_at": "2026-08-07T08:26:16.242660+09:00",
+      "normalized_title": "연합인포맥스",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::연합인포맥스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/552842/home",
+      "id": "9d160e25694da2e6",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국 정부가 석유화학 업계의 가격 담합 의혹에 대한 수사를 확대하고 있다.",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNakFVREdCZXBLRUJzdXptczc0dUJ0UU9PTkh1X1dLb1pqRGU5cVVFZXFjWk1HQzZ1bk12MGV2VE1UTV9icVdwdy1kOElXblZOQXM3akNYTlNSaXVYT2Z4VWptYmd3N016R2xaNl9aWXZzU3hVaGhhZ1k2d1oxWHFYeUd4OEhETWpkZl9JX0dWdmRISm1GRlBuaVZn?oc=5",
+      "source": "Vietnam.vn",
+      "published_at": "2026-08-06T19:26:06+09:00",
+      "snippet": "한국 정부가 석유화학 업계의 가격 담합 의혹에 대한 수사를 확대하고 있다. Vietnam.vn",
+      "collected_at": "2026-08-07T08:26:44.919210+09:00",
+      "normalized_title": "한국 정부가 석유화학 업계의 가격 담합 의혹에 대한 수사를 확대하고 있다.",
+      "source_normalized": "Vietnam.vn",
+      "duplicate_key": "vietnam.vn::한국 정부가 석유화학 업계의 가격 담합 의혹에 대한 수사를 확대하고 있다.",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNakFVREdCZXBLRUJzdXptczc0dUJ0UU9PTkh1X1dLb1pqRGU5cVVFZXFjWk1HQzZ1bk12MGV2VE1UTV9icVdwdy1kOElXblZOQXM3akNYTlNSaXVYT2Z4VWptYmd3N016R2xaNl9aWXZzU3hVaGhhZ1k2d1oxWHFYeUd4OEhETWpkZl9JX0dWdmRISm1GRlBuaVZn?oc=5",
+      "id": "a66b6fae56232ace",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "석유화학 7개사 가격 담합 의혹 강제수사",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40RE1hMkpneHF6Q0hsaWNrU0c0UGxtT09sc3NQUzVlMGxXZHo1bUZiT0hfMkIxSjNCUGNjVElRcEtZRkxJV0k3UndoT3gxSXU2Y28yek5RQ2pkWDJGSF90OE5LUnRoa0J4YWJHQg?oc=5",
+      "source": "메디컬투데이",
+      "published_at": "2026-08-06T18:25:30+09:00",
+      "snippet": "석유화학 7개사 가격 담합 의혹 강제수사 메디컬투데이",
+      "collected_at": "2026-08-07T08:26:44.915515+09:00",
+      "normalized_title": "석유화학 7개사 가격 담합 의혹 강제수사",
+      "source_normalized": "메디컬투데이",
+      "duplicate_key": "메디컬투데이::석유화학 7개사 가격 담합 의혹 강제수사",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40RE1hMkpneHF6Q0hsaWNrU0c0UGxtT09sc3NQUzVlMGxXZHo1bUZiT0hfMkIxSjNCUGNjVElRcEtZRkxJV0k3UndoT3gxSXU2Y28yek5RQ2pkWDJGSF90OE5LUnRoa0J4YWJHQg?oc=5",
+      "id": "112bc64cab76cfd7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[미리보는 이데일리 신문]中 반도체 장비 쇼크…韓도 '소부장'부터 국산...새 창 열림",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=09092166645544696",
+      "source": "새 창 열림",
+      "published_at": "2026-08-06T21:26:52.361004+09:00",
+      "snippet": "안돼” -국고채 담합 11.4조 과징금 폭탄 맞는다 -상반기 경상 흑자 4배…올해 2500억달러 청신 △9면 -보금자리론 몰렸지만…전세보증은 7년來 최저... 국가브랜드경쟁력 주유소 업종 1위 △13면 -삼성전기·LG이노텍, 로봇부품 조준 -한화솔루션·OCI, 美 태양광 공략 -피부온도가 7.8도 ‘뚝’…냉감침구... 새 창 열림",
+      "collected_at": "2026-08-07T08:26:52.361030+09:00",
+      "normalized_title": "[미리보는 이데일리 신문]中 반도체 장비 쇼크…韓도 '소부장'부터 국산...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[미리보는 이데일리 신문]中 반도체 장비 쇼크…韓도 '소부장'부터 국산...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.edaily.co.kr/news/newspath.asp?newsid=09092166645544696",
+      "id": "1923017d51e53c60",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[채권-마감] 레벨 부담에 전일 강세 되돌림…국고 3년 7.3bp↑새 창 열림",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4429023",
+      "source": "새 창 열림",
+      "published_at": "2026-08-06T19:26:14.227616+09:00",
+      "snippet": "이란과 오만이 호르무즈 해협의 공동 수로를 조성하는 데 합의했다고 밝히면서 국제유가가 안정세를 보였지만 금리의 추가 강세를 이끌 정도는... 한편 이날 공정거래위원회는 국고채 입찰 과정에서 주요 증권사와 은행이 담합한 혐의를 포착해 곧 심의에 넘길 예정이라고 밝혔다. 국고채 전문딜러(PD)... 새 창 열림",
+      "collected_at": "2026-08-07T08:26:14.227632+09:00",
+      "normalized_title": "[채권-마감] 레벨 부담에 전일 강세 되돌림…국고 3년 7.3bp↑새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[채권-마감] 레벨 부담에 전일 강세 되돌림…국고 3년 7.3bp↑새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4429023",
+      "id": "e25edb5bee133f01",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "석유화학 7개사 가격 담합 의혹 강제수사 : 메디컬투데이TV새 창 열림",
+      "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=607645",
+      "source": "새 창 열림",
+      "published_at": "2026-08-06T18:26:39.869888+09:00",
+      "snippet": "• 서울중앙지검 공정거래조사부는 폴리염화비닐(PVC)과 가소제를 비롯한 주요 석유화학제품 8개 품목의 가격을 수년간 담합한 혐의로 LG화학, 한화솔루션, 애경케미칼 등 국내 7개 석유화학 업체의 사무실과 관련자 주거지를 대상으로 압수수색을 진행하고 있다. 이번 강제수사는 건축자재와 전선 피복 등에... 새 창 열림",
+      "collected_at": "2026-08-07T08:26:39.869903+09:00",
+      "normalized_title": "석유화학 7개사 가격 담합 의혹 강제수사 : 메디컬투데이TV새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::석유화학 7개사 가격 담합 의혹 강제수사 : 메디컬투데이tv새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=607645",
+      "id": "3b8db99b4ae2462e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "본업 반등·자회사 적자 축소…에스텍시스템, 코스피 몸값 셈법[IPO 엑스...새 창 열림",
+      "url": "https://www.etoday.co.kr/news/view/2611870",
+      "source": "새 창 열림",
+      "published_at": "2026-08-06T17:26:14.229045+09:00",
+      "snippet": "경비·시설관리 업체 에스텍시스템이 지난해 꺾였던 수익성을 올해 1분기 끌어올리며 유가증권시장(코스피) 상장에 나섰다. 종속회사 적자도 크게... 에스텍시스템은 에스원 인력경비 부문에서 분사한 회사로, 공정위는 분사 이후 이어진 협력 관계를 담합 배경으로 지목했다. 공모 과정에서는 과거... 새 창 열림",
+      "collected_at": "2026-08-07T08:26:14.229060+09:00",
+      "normalized_title": "본업 반등·자회사 적자 축소…에스텍시스템, 코스피 몸값 셈법[IPO 엑스...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::본업 반등·자회사 적자 축소…에스텍시스템, 코스피 몸값 셈법[ipo 엑스...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.etoday.co.kr/news/view/2611870",
+      "id": "81296d86c2f979c4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

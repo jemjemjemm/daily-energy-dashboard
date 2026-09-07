@@ -35,9 +35,7 @@ def parse_args() -> argparse.Namespace:
     dates.add_argument("--start", help="기간 시작일(YYYY-MM-DD)")
     parser.add_argument("--end", help="기간 종료일(YYYY-MM-DD, --start와 함께 사용)")
     parser.add_argument("--out-dir", default="data/assembly")
-    parser.add_argument("--public-dir", default="public/assembly")
     parser.add_argument("--docs-dir", default="docs/assembly")
-    parser.add_argument("--public-index", default="public/assembly-schedule-index.json")
     parser.add_argument("--docs-index", default="docs/assembly-schedule-index.json")
     parser.add_argument("--timeout", type=int, default=30)
     parser.add_argument("--force-refresh", action="store_true", help="기존 월 캐시 무시")
@@ -207,7 +205,7 @@ def main() -> int:
         raise AssemblyAPIError("ASSEMBLY_API_KEY 환경변수가 비어 있습니다.")
 
     dates = requested_dates(args)
-    out_dir, public_dir, docs_dir = Path(args.out_dir), Path(args.public_dir), Path(args.docs_dir)
+    out_dir, docs_dir = Path(args.out_dir), Path(args.docs_dir)
     months = sorted({target.strftime("%Y-%m") for target in dates})
     month_payloads: dict[str, dict[str, Any]] = {}
     with requests.Session() as session:
@@ -226,12 +224,11 @@ def main() -> int:
     for target in dates:
         payload = daily_payload(month_payloads[target.strftime("%Y-%m")], target)
         filename = f"{target.isoformat()}.json"
-        for directory in (out_dir, public_dir, docs_dir):
+        for directory in (out_dir, docs_dir):
             atomic_write_json(directory / filename, payload)
         print(f"[OK] 국회 일정 {target.isoformat()}: {payload['count']}건")
 
     index = build_index(out_dir)
-    atomic_write_json(Path(args.public_index), index)
     atomic_write_json(Path(args.docs_index), index)
     print(f"[OK] 국회 일정 인덱스: {len(index['availableDates'])}일 / {index['count']}건")
     return 0

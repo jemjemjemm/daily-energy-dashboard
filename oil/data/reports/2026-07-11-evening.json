@@ -1,0 +1,160 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-11",
+  "slot": "evening",
+  "period_start": "2026-07-11T08:00:00+09:00",
+  "period_end": "2026-07-11T17:00:00+09:00",
+  "period_label": "2026-07-11 08:00 ~ 2026-07-11 17:00",
+  "generated_at": "2026-07-11T18:46:49.535843+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1606,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1216
+  },
+  "query_counts": {
+    "경유 담합": 2,
+    "기름값 담합": 3,
+    "유가 담합": 3,
+    "유가담합": 3,
+    "정유사 담합": 1,
+    "주유소 담합": 2,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "하락 전환에도 제주 기름 값, 여전히 전국 가장 비싸",
+      "url": "http://v.daum.net/v/20260711143932469",
+      "source": "KCTV제주방송",
+      "published_at": "2026-07-11T14:45:56.305886+09:00",
+      "snippet": "유가정보사이트 오피넷에 따르면 11일 기준 도내 주유소 휘발유 평균 판매가는 1리터에 1,920원으로 지난 6일보다 8원 떨어졌습니다...리터당 10원 내린 1,909원에 판매되고 있습니다. 기름값 담합 논란에 여전히 제주가 상대적으로 전국에서 가장 비싼 시세를 유지... 4시간 전",
+      "collected_at": "2026-07-11T18:45:56.305907+09:00",
+      "normalized_title": "하락 전환에도 제주 기름 값, 여전히 전국 가장 비싸",
+      "source_normalized": "KCTV제주방송",
+      "duplicate_key": "kctv제주방송::하락 전환에도 제주 기름 값, 여전히 전국 가장 비싸",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260711143932469",
+      "id": "2f1052f7b6a5b64e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "KCTV제주방송",
+      "url": "https://v.daum.net/channel/551760/home",
+      "source": "KCTV제주방송",
+      "published_at": "2026-07-11T14:45:54.780487+09:00",
+      "snippet": "유가정보사이트 오피넷에 따르면 11일 기준 도내 주유소 휘발유 평균 판매가는 1리터에 1,920원으로 지난 6일보다 8원 떨어졌습니다...리터당 10원 내린 1,909원에 판매되고 있습니다. 기름값 담합 논란에 여전히 제주가 상대적으로 전국에서 가장 비싼 시세를 유지... 4시간 전",
+      "collected_at": "2026-07-11T18:45:54.780514+09:00",
+      "normalized_title": "KCTV제주방송",
+      "source_normalized": "KCTV제주방송",
+      "duplicate_key": "kctv제주방송::kctv제주방송",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/551760/home",
+      "id": "39f6433c8c387bcc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[산경칼럼] 국민 고혈 짜낸 '26조 유가 담합'...재난을 돈벌이 삼은 정유사 엄벌해야 한다",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZYURaNUVZbG1saEh1aHI5Qm1pTGdRN0hRQnZ2UllEanVmMktELU9RVk96dUc1bnpaX2JRc0xVaDNoLXBSSzFWVXU4RTF5Rk13dVZ0OXhJcnA4LXp4Ui1MVXZjNTZUUnM?oc=5",
+      "source": "산경e뉴스",
+      "published_at": "2026-07-11T13:13:07+09:00",
+      "snippet": "[산경칼럼] 국민 고혈 짜낸 '26조 유가 담합'...재난을 돈벌이 삼은 정유사 엄벌해야 한다 산경e뉴스",
+      "collected_at": "2026-07-11T18:45:58.383642+09:00",
+      "normalized_title": "[산경칼럼] 국민 고혈 짜낸 '26조 유가 담합'...재난을 돈벌이 삼은 정유사 엄벌해야 한다",
+      "source_normalized": "산경e뉴스",
+      "duplicate_key": "산경e뉴스::[산경칼럼] 국민 고혈 짜낸 '26조 유가 담합'...재난을 돈벌이 삼은 정유사 엄벌해야 한다",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZYURaNUVZbG1saEh1aHI5Qm1pTGdRN0hRQnZ2UllEanVmMktELU9RVk96dUc1bnpaX2JRc0xVaDNoLXBSSzFWVXU4RTF5Rk13dVZ0OXhJcnA4LXp4Ui1MVXZjNTZUUnM?oc=5",
+      "id": "5620de0c3612a4c3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

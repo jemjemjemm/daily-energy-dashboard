@@ -1,0 +1,76 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-21",
+  "slot": "evening",
+  "period_start": "2026-07-21T08:00:00+09:00",
+  "period_end": "2026-07-21T17:00:00+09:00",
+  "period_label": "2026-07-21 08:00 ~ 2026-07-21 17:00",
+  "generated_at": "2026-07-21T19:32:28.037311+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1575,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1185
+  },
+  "query_counts": {
+    "석유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[K백년기업] 삼양그룹② 형제경영 전통···7대, 여성 회장 탄생하나새 창 열림",
+      "url": "https://www.globale.co.kr/news/articleView.html?idxno=39406",
+      "source": "새 창 열림",
+      "published_at": "2026-07-21T16:19:08.627591+09:00",
+      "snippet": "섬유의 핵심원료를 자체 조달하기 위해 1988년 미쓰비시와 합작해 삼남석유화학을 출범시키고 이듬해 고기능성 엔지니어링플라스틱 폴리카보네이트(PC)... 《계속》 ③ 체질 개선 나선 김윤 회장···소재기업 전환과 담합의 그늘 ④ 스페셜티로 미래 여는 4세 김건호···바이오 통한 승계 본격화새 창 열림",
+      "collected_at": "2026-07-21T17:19:08.627637+09:00",
+      "normalized_title": "[K백년기업] 삼양그룹② 형제경영 전통···7대, 여성 회장 탄생하나새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[k백년기업] 삼양그룹② 형제경영 전통···7대, 여성 회장 탄생하나새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.globale.co.kr/news/articleView.html?idxno=39406",
+      "id": "3243068cef2ac139",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

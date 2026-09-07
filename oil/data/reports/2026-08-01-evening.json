@@ -1,0 +1,223 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-01",
+  "slot": "evening",
+  "period_start": "2026-08-01T08:00:00+09:00",
+  "period_end": "2026-08-01T17:00:00+09:00",
+  "period_label": "2026-08-01 08:00 ~ 2026-08-01 17:00",
+  "generated_at": "2026-08-01T19:09:03.911469+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1568,
+  "total_deduped_count": 5,
+  "total_ok_count": 5,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 2,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1178
+  },
+  "query_counts": {
+    "기름값 담합": 1,
+    "석유 담합": 5,
+    "석유제품 담합": 3,
+    "유가 담합": 5,
+    "유가담합": 5,
+    "정유사 담합": 3,
+    "정유업계 담합": 4
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "중동전쟁에도 정유사 '깜짝 실적'…\"래깅 효과 작용\"",
+      "url": "http://v.daum.net/v/20260801092111054",
+      "source": "연합뉴스TV",
+      "published_at": "2026-08-01T10:08:11.115073+09:00",
+      "snippet": "[앵커] 중동 전쟁으로 원유 수급 차질이 이어졌지만, 국내 정유사들은 연달아 호실적을 발표하고 있습니다. 급변하는 국제유가 추이와 유가 담합 사건 재판은 향후 변수로 작용할 수 있습니다. 구하림 기자입니다. [기자] SK이노베이션은 2분기 3조 5천억 원에 육박... 9시간 전",
+      "collected_at": "2026-08-01T19:08:11.115106+09:00",
+      "normalized_title": "중동전쟁에도 정유사 '깜짝 실적'…\"래깅 효과 작용\"",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::중동전쟁에도 정유사 '깜짝 실적'…\"래깅 효과 작용\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260801092111054",
+      "id": "8765e177292190e1",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스TV",
+      "url": "https://v.daum.net/channel/318/home",
+      "source": "연합뉴스TV",
+      "published_at": "2026-08-01T10:08:09.857499+09:00",
+      "snippet": "[앵커] 중동 전쟁으로 원유 수급 차질이 이어졌지만, 국내 정유사들은 연달아 호실적을 발표하고 있습니다. 급변하는 국제유가 추이와 유가 담합 사건 재판은 향후 변수로 작용할 수 있습니다. 구하림 기자입니다. [기자] SK이노베이션은 2분기 3조 5천억 원에 육박... 9시간 전",
+      "collected_at": "2026-08-01T19:08:09.857516+09:00",
+      "normalized_title": "연합뉴스TV",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::연합뉴스tv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/318/home",
+      "id": "3c5f8f96c9d1d1e1",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "다시 뛰는 유가에 금리·환율·관세 '빨간불'… 불안한 하반기 물가새 창 열림",
+      "url": "https://www.thescoop.co.kr/news/articleView.html?idxno=311102",
+      "source": "새 창 열림",
+      "published_at": "2026-08-01T15:08:07.212721+09:00",
+      "snippet": "유류세 인하와 석유 최고가격제 시행, 농축수산물 할인 지원 등을 통해 물가상승 압력을 최소화할 방침이다. 하지만 여건이 녹록지 않다. 우선 물가... 이재명 대통령은 브라질을 국빈 방문 중인 7월 26일 수석보좌관회의를 화상으로 주재하고 \"민생 품목에 대한 매점매석이나 담합이 발생하지 않도록 시장교란... 새 창 열림",
+      "collected_at": "2026-08-01T19:08:07.212739+09:00",
+      "normalized_title": "다시 뛰는 유가에 금리·환율·관세 '빨간불'… 불안한 하반기 물가새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::다시 뛰는 유가에 금리·환율·관세 '빨간불'… 불안한 하반기 물가새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.thescoop.co.kr/news/articleView.html?idxno=311102",
+      "id": "4a395e333692bdc4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[마켓타임스] '고난의 7월' 식품가, 원가·환율에 결국 한계···'인상 릴...새 창 열림",
+      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2454591",
+      "source": "새 창 열림",
+      "published_at": "2026-08-01T15:08:07.211061+09:00",
+      "snippet": "실제 중동 정세 불안으로 국제유가와 원·달러 환율이 동시에 오른 지난 3월 수입물가는 전월 대비 16.1% 상승한 것으로 집계됐다. 1998년 1월 이후 가장 큰... 담합이나 원가 상승을 웃도는 과도한 가격 인상은 엄격히 관리해야 하지만, 정상적인 원가 상승까지 동일한 기준으로 억제하는 것은 구분할 필요가... 새 창 열림",
+      "collected_at": "2026-08-01T19:08:07.211091+09:00",
+      "normalized_title": "[마켓타임스] '고난의 7월' 식품가, 원가·환율에 결국 한계···'인상 릴...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[마켓타임스] '고난의 7월' 식품가, 원가·환율에 결국 한계···'인상 릴...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2454591",
+      "id": "a3a718d87117bfef",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중동전쟁에도 정유사 '깜짝 실적'…\"래깅 효과 작용\"새 창 열림",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH20260801091946tgI",
+      "source": "새 창 열림",
+      "published_at": "2026-08-01T10:08:07.214294+09:00",
+      "snippet": "급변하는 국제유가 추이와 유가 담합 사건 재판은 향후 변수로 작용할 수 있습니다. 구하림 기자입니다. [기자] SK이노베이션은 2분기 3조 5천억 원에 육박하는 영업이익을 달성했습니다. 매출은 지난해 같은 기간보다 50% 가까이 늘었습니다. 윤활유 사업을 맡은 SK엔무브 영업이익이 대폭 올랐는데, 중동 전쟁... 새 창 열림",
+      "collected_at": "2026-08-01T19:08:07.214312+09:00",
+      "normalized_title": "중동전쟁에도 정유사 '깜짝 실적'…\"래깅 효과 작용\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::중동전쟁에도 정유사 '깜짝 실적'…\"래깅 효과 작용\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://www.yonhapnewstv.co.kr/news/MYH20260801091946tgI",
+      "id": "2209497406821840",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

@@ -1,0 +1,1252 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-15",
+  "slot": "night",
+  "period_start": "2026-07-15T17:00:00+09:00",
+  "period_end": "2026-07-16T00:00:00+09:00",
+  "period_label": "2026-07-15 17:00 ~ 2026-07-16 00:00",
+  "generated_at": "2026-07-16T09:07:49.643188+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1578,
+  "total_deduped_count": 37,
+  "total_ok_count": 37,
+  "total_review_count": 0,
+  "total_excluded_count": 7,
+  "grade_counts": {
+    "A": 17,
+    "B": 2,
+    "C": 18
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1188
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정위 유가 담합": 1,
+    "기름값 담합": 6,
+    "석유 담합": 21,
+    "석유제품 담합": 22,
+    "유가 담합": 16,
+    "유가담합": 16,
+    "정유사 담합": 11,
+    "정유업계 담합": 7,
+    "주유소 담합": 5
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "'비정상의 정상화' 주문한 이 대통령... \"레버리지 ETF 신속히 보완하라\"",
+      "url": "http://v.daum.net/v/20260715210209319",
+      "source": "한국일보",
+      "published_at": "2026-07-15T21:03:08.700845+09:00",
+      "snippet": "마련됐다. 우선 이 대통령은 \"우리 사회엔 너무 비정상이 많다\"며 \"담합이나 물가 농단이 아주 일상이 돼 있다\"고 지적했다. 석유제품 담합 사례를 들어 \"국제 원유값이 오른다 싶으면 정제 석유제품을 미리 다 올리고, 또 내릴 때는 (제품 가격을) 잘 안 내리는 것... 11시간 전",
+      "collected_at": "2026-07-16T08:03:08.700870+09:00",
+      "normalized_title": "'비정상의 정상화' 주문한 이 대통령... \"레버리지 ETF 신속히 보완하라\"",
+      "source_normalized": "한국일보",
+      "duplicate_key": "한국일보::'비정상의 정상화' 주문한 이 대통령... \"레버리지 etf 신속히 보완하라\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260715210209319",
+      "id": "1c21aee42032ea56",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국일보",
+      "url": "https://v.daum.net/channel/49/home",
+      "source": "한국일보",
+      "published_at": "2026-07-15T21:03:07.660821+09:00",
+      "snippet": "마련됐다. 우선 이 대통령은 \"우리 사회엔 너무 비정상이 많다\"며 \"담합이나 물가 농단이 아주 일상이 돼 있다\"고 지적했다. 석유제품 담합 사례를 들어 \"국제 원유값이 오른다 싶으면 정제 석유제품을 미리 다 올리고, 또 내릴 때는 (제품 가격을) 잘 안 내리는 것... 11시간 전",
+      "collected_at": "2026-07-16T08:03:07.660833+09:00",
+      "normalized_title": "한국일보",
+      "source_normalized": "한국일보",
+      "duplicate_key": "한국일보::한국일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/49/home",
+      "id": "5926cc3eb8c5ea76",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, ‘삼전닉스에 부품 공급’ 미·중·일 3사 국내 사무소 압수수색",
+      "url": "http://v.daum.net/v/20260715180140735",
+      "source": "한겨레",
+      "published_at": "2026-07-15T18:02:27.696553+09:00",
+      "snippet": "영향 등을 조사할 것으로 보인다. 앞서 검찰은 지난 2월 미국·이스라엘-이란 전쟁 발발 직후 원유 비축량이 충분한데도 석유 가격을 담합해 국내 유가 폭등을 촉발한 혐의를 받는 4대 정유사 법인과 주요 임직원들을 재판에 넘긴 바 있다. 또한 밀가루·설탕·한국... 14시간 전",
+      "collected_at": "2026-07-16T08:02:27.696582+09:00",
+      "normalized_title": "검찰, ‘삼전닉스에 부품 공급’ 미·중·일 3사 국내 사무소 압수수색",
+      "source_normalized": "한겨레",
+      "duplicate_key": "한겨레::검찰, ‘삼전닉스에 부품 공급’ 미·중·일 3사 국내 사무소 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260715180140735",
+      "id": "f767bfb0836f6e2d",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한겨레",
+      "url": "https://v.daum.net/channel/17/home",
+      "source": "한겨레",
+      "published_at": "2026-07-15T18:02:26.709588+09:00",
+      "snippet": "영향 등을 조사할 것으로 보인다. 앞서 검찰은 지난 2월 미국·이스라엘-이란 전쟁 발발 직후 원유 비축량이 충분한데도 석유 가격을 담합해 국내 유가 폭등을 촉발한 혐의를 받는 4대 정유사 법인과 주요 임직원들을 재판에 넘긴 바 있다. 또한 밀가루·설탕·한국... 14시간 전",
+      "collected_at": "2026-07-16T08:02:26.709601+09:00",
+      "normalized_title": "한겨레",
+      "source_normalized": "한겨레",
+      "duplicate_key": "한겨레::한겨레",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/17/home",
+      "id": "f6dcaae612114d4a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, 삼성·SK하이닉스에 반도체 부품 공급하는 ‘몬타지’ 등 압수수색",
+      "url": "http://v.daum.net/v/20260715182811701",
+      "source": "서울신문",
+      "published_at": "2026-07-15T19:02:25.549499+09:00",
+      "snippet": "전화 등을 확보한 것으로 알려졌다. 앞서 공정거래조사부는 지난 6일 미국·이란 전쟁이 발발한 직후 국내 석유제품 가격을 담합해 유가를 교란한 혐의(공정거래법 등)를 받는 현대오일뱅크와 SK에너지, GS칼텍스, 에쓰오일 4개 법인을 기소한 바 있다. 또한 약 10조... 13시간 전",
+      "collected_at": "2026-07-16T08:02:25.549524+09:00",
+      "normalized_title": "檢, 삼성·SK하이닉스에 반도체 부품 공급하는 ‘몬타지’ 등 압수수색",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::檢, 삼성·sk하이닉스에 반도체 부품 공급하는 ‘몬타지’ 등 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260715182811701",
+      "id": "8a8e87963b152616",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울신문",
+      "url": "https://v.daum.net/channel/33/home",
+      "source": "서울신문",
+      "published_at": "2026-07-15T19:02:24.434945+09:00",
+      "snippet": "전화 등을 확보한 것으로 알려졌다. 앞서 공정거래조사부는 지난 6일 미국·이란 전쟁이 발발한 직후 국내 석유제품 가격을 담합해 유가를 교란한 혐의(공정거래법 등)를 받는 현대오일뱅크와 SK에너지, GS칼텍스, 에쓰오일 4개 법인을 기소한 바 있다. 또한 약 10조... 13시간 전",
+      "collected_at": "2026-07-16T08:02:24.434958+09:00",
+      "normalized_title": "서울신문",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::서울신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/33/home",
+      "id": "80c4d7f4831c358c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢 ‘담합 의혹’ 삼전·하이닉스 부품사 세 곳 압수수색",
+      "url": "http://v.daum.net/v/20260715185102337",
+      "source": "매일경제",
+      "published_at": "2026-07-15T19:02:53.850219+09:00",
+      "snippet": "속도와 안정성을 높이는 반도체 핵심 부품이다. 이에 업계에서는 3개사의 담합으로 반도체 부품 등 공급 과정에서 삼성전자 등이...특정 정유사 제품만 사도록 사실상 강제한 혐의를 받는 4대 정유회사 법인과 임직원 4명을 재판에 넘긴 바 있다. 또 약 10조원 규모... 13시간 전",
+      "collected_at": "2026-07-16T08:02:53.850242+09:00",
+      "normalized_title": "檢 ‘담합 의혹’ 삼전·하이닉스 부품사 세 곳 압수수색",
+      "source_normalized": "매일경제",
+      "duplicate_key": "매일경제::檢 ‘담합 의혹’ 삼전·하이닉스 부품사 세 곳 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260715185102337",
+      "id": "dadb1f82acfb983a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "매일경제",
+      "url": "https://v.daum.net/channel/7/home",
+      "source": "매일경제",
+      "published_at": "2026-07-15T19:02:52.846697+09:00",
+      "snippet": "속도와 안정성을 높이는 반도체 핵심 부품이다. 이에 업계에서는 3개사의 담합으로 반도체 부품 등 공급 과정에서 삼성전자 등이...특정 정유사 제품만 사도록 사실상 강제한 혐의를 받는 4대 정유회사 법인과 임직원 4명을 재판에 넘긴 바 있다. 또 약 10조원 규모... 13시간 전",
+      "collected_at": "2026-07-16T08:02:52.846710+09:00",
+      "normalized_title": "매일경제",
+      "source_normalized": "매일경제",
+      "duplicate_key": "매일경제::매일경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/7/home",
+      "id": "edcd66409bb90406",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, '반도체 부품가격 담합 의혹' 외국기업 3곳 압수수색",
+      "url": "http://v.daum.net/v/20260715224239744",
+      "source": "한국경제",
+      "published_at": "2026-07-15T23:03:02.918263+09:00",
+      "snippet": "속도를 내고 있다. 지난 6일 HD현대오일뱅크와 SK에너지를 공정거래법 위반 혐의로 기소했다. 중동 전쟁이 벌어진 틈을 타 국내 기름값을 인상하는 등 14조2000억원 규모 담합을 저지른 것으로 파악돼서다. GS칼텍스와 에쓰오일도 담합에 편승한 것으로 조사됐다... 9시간 전",
+      "collected_at": "2026-07-16T08:03:02.918286+09:00",
+      "normalized_title": "檢, '반도체 부품가격 담합 의혹' 외국기업 3곳 압수수색",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::檢, '반도체 부품가격 담합 의혹' 외국기업 3곳 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260715224239744",
+      "id": "c0373419aa63bd85",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국경제",
+      "url": "https://v.daum.net/channel/3/home",
+      "source": "한국경제",
+      "published_at": "2026-07-15T23:03:01.776213+09:00",
+      "snippet": "속도를 내고 있다. 지난 6일 HD현대오일뱅크와 SK에너지를 공정거래법 위반 혐의로 기소했다. 중동 전쟁이 벌어진 틈을 타 국내 기름값을 인상하는 등 14조2000억원 규모 담합을 저지른 것으로 파악돼서다. GS칼텍스와 에쓰오일도 담합에 편승한 것으로 조사됐다... 9시간 전",
+      "collected_at": "2026-07-16T08:03:01.776236+09:00",
+      "normalized_title": "한국경제",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::한국경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/3/home",
+      "id": "6ea5739e4883b5ac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독]검찰, 삼전·닉스 부품 공급사 3곳 압수수색…납품가 담합 혐의(종합)",
+      "url": "http://v.daum.net/v/20260715181609290",
+      "source": "머니투데이",
+      "published_at": "2026-07-15T19:02:54.974548+09:00",
+      "snippet": "2035년 139억9000만달러까지 커질 전망이다. 관련 업계에서는 이들 3개사의 담합으로 반도체 부품 등 공급 과정에서 삼성전자 등이...정유사 제품만 사도록 사실상 강제한 혐의를 받는 4대 정유회사 법인과 임직원 4명을 재판에 넘겼다. 또 약 10조원 규모의 밀가루... 13시간 전 45",
+      "collected_at": "2026-07-16T08:02:54.974573+09:00",
+      "normalized_title": "검찰, 삼전·닉스 부품 공급사 3곳 압수수색…납품가 담합 혐의",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::검찰, 삼전·닉스 부품 공급사 3곳 압수수색…납품가 담합 혐의",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260715181609290",
+      "id": "b1cb11a73d0647fb",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "머니투데이",
+      "url": "https://v.daum.net/channel/5/home",
+      "source": "머니투데이",
+      "published_at": "2026-07-15T19:02:53.851165+09:00",
+      "snippet": "2035년 139억9000만달러까지 커질 전망이다. 관련 업계에서는 이들 3개사의 담합으로 반도체 부품 등 공급 과정에서 삼성전자 등이...정유사 제품만 사도록 사실상 강제한 혐의를 받는 4대 정유회사 법인과 임직원 4명을 재판에 넘겼다. 또 약 10조원 규모의 밀가루... 13시간 전 45",
+      "collected_at": "2026-07-16T08:02:53.851177+09:00",
+      "normalized_title": "머니투데이",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::머니투데이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://v.daum.net/channel/5/home",
+      "id": "15b948cff6e29cc5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독]삼전닉스에 반도체 부품 대는 글로벌 3사, 담합 의혹...검찰 압수수색",
+      "url": "http://v.daum.net/v/20260715165812816",
+      "source": "머니투데이",
+      "published_at": "2026-07-15T17:02:57.027077+09:00",
+      "snippet": "안정성을 높이는 반도체 핵심 부품이다. 관련 업계에서는 이들 3개사의 담합으로 반도체 부품 등 공급 과정에서 삼성전자 등이 불필요...특정 정유사 제품만 사도록 사실상 강제한 혐의를 받는 4대 정유회사 법인과 임직원 4명을 재판에 넘겼다. 또 약 10조원 규모의... 15시간 전 1",
+      "collected_at": "2026-07-16T08:02:57.027102+09:00",
+      "normalized_title": "삼전닉스에 반도체 부품 대는 글로벌 3사, 담합 의혹...검찰 압수수색",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::삼전닉스에 반도체 부품 대는 글로벌 3사, 담합 의혹...검찰 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260715165812816",
+      "id": "b0852da444cc4412",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '반도체 부품가격 담합' 몬타지·르네사스·램버스 압수수색",
+      "url": "http://v.daum.net/v/20260715175637481",
+      "source": "뉴시스",
+      "published_at": "2026-07-15T18:02:29.100507+09:00",
+      "snippet": "핵심 고객사를 두고 있다. 앞서 공정거래조사부는 지난 6일 미국과 이란 사이 전쟁이 발발한 직후 국내 석유제품 가격을 담합해 유가를 교란한 혐의(공정거래법 등)를 받는 현대오일뱅크와 SK에너지, GS칼텍스, 에쓰오일 4개 법인을 기소한 바 있다. 또한 8년에 걸쳐... 14시간 전",
+      "collected_at": "2026-07-16T08:02:29.100529+09:00",
+      "normalized_title": "검찰, '반도체 부품가격 담합' 몬타지·르네사스·램버스 압수수색",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::검찰, '반도체 부품가격 담합' 몬타지·르네사스·램버스 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260715175637481",
+      "id": "303853f370ce06bf",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴시스",
+      "url": "https://v.daum.net/channel/21/home",
+      "source": "뉴시스",
+      "published_at": "2026-07-15T18:02:27.697511+09:00",
+      "snippet": "핵심 고객사를 두고 있다. 앞서 공정거래조사부는 지난 6일 미국과 이란 사이 전쟁이 발발한 직후 국내 석유제품 가격을 담합해 유가를 교란한 혐의(공정거래법 등)를 받는 현대오일뱅크와 SK에너지, GS칼텍스, 에쓰오일 4개 법인을 기소한 바 있다. 또한 8년에 걸쳐... 14시간 전",
+      "collected_at": "2026-07-16T08:02:27.697525+09:00",
+      "normalized_title": "뉴시스",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::뉴시스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/21/home",
+      "id": "e250fa63010cdcd6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '반도체 부품가 담합' 몬타지·르네사스·램버스 압수수색",
+      "url": "http://v.daum.net/v/20260715183150803",
+      "source": "뉴스1",
+      "published_at": "2026-07-15T19:03:03.911774+09:00",
+      "snippet": "거래조사부는 국내 산업계 전반의 '담합 범죄' 수사에 속도를 내고 있다. 지난 6일 미국·이란 전쟁을 틈타 14조 원 규모의 기름값을 담합한 혐의(공정거래법 위반 등)를 받는 HD현대오일뱅크·SK에너지·GS칼텍스·에쓰오일(S-OIL) 실무진과 4개 법인을 기소했다... 13시간 전",
+      "collected_at": "2026-07-16T08:03:03.911798+09:00",
+      "normalized_title": "검찰, '반도체 부품가 담합' 몬타지·르네사스·램버스 압수수색",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::검찰, '반도체 부품가 담합' 몬타지·르네사스·램버스 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260715183150803",
+      "id": "97c7814c1f7d7609",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스1",
+      "url": "https://v.daum.net/channel/396/home",
+      "source": "뉴스1",
+      "published_at": "2026-07-15T19:03:02.919185+09:00",
+      "snippet": "거래조사부는 국내 산업계 전반의 '담합 범죄' 수사에 속도를 내고 있다. 지난 6일 미국·이란 전쟁을 틈타 14조 원 규모의 기름값을 담합한 혐의(공정거래법 위반 등)를 받는 HD현대오일뱅크·SK에너지·GS칼텍스·에쓰오일(S-OIL) 실무진과 4개 법인을 기소했다... 13시간 전",
+      "collected_at": "2026-07-16T08:03:02.919197+09:00",
+      "normalized_title": "뉴스1",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::뉴스1",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/396/home",
+      "id": "c8ccc99cbe11b78a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, ‘삼전닉스’ 글로벌 부품사 3곳 압수수색… 납품가 담합 혐의",
+      "url": "http://v.daum.net/v/20260715191749932",
+      "source": "조선비즈",
+      "published_at": "2026-07-15T20:02:24.434006+09:00",
+      "snippet": "실제 납품 가격에 미친 영향 등을 집중 조사할 방침이다. 한편 서울중앙지검 공정거래조사부는 최근 미국·이란 전쟁 직후 석유 제품 가격 인상 시기와 규모를 담합한 혐의로 4대 정유사와 임직원 4명을 재판에 넘긴 바 있다. - Copyright ⓒ 조선비즈 & Chosun.com... 12시간 전",
+      "collected_at": "2026-07-16T08:02:24.434029+09:00",
+      "normalized_title": "검찰, ‘삼전닉스’ 글로벌 부품사 3곳 압수수색… 납품가 담합 혐의",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::검찰, ‘삼전닉스’ 글로벌 부품사 3곳 압수수색… 납품가 담합 혐의",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260715191749932",
+      "id": "3e862868ee20dc56",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "조선비즈",
+      "url": "https://v.daum.net/channel/216/home",
+      "source": "조선비즈",
+      "published_at": "2026-07-15T20:02:23.294822+09:00",
+      "snippet": "실제 납품 가격에 미친 영향 등을 집중 조사할 방침이다. 한편 서울중앙지검 공정거래조사부는 최근 미국·이란 전쟁 직후 석유 제품 가격 인상 시기와 규모를 담합한 혐의로 4대 정유사와 임직원 4명을 재판에 넘긴 바 있다. - Copyright ⓒ 조선비즈 & Chosun.com... 12시간 전",
+      "collected_at": "2026-07-16T08:02:23.294833+09:00",
+      "normalized_title": "조선비즈",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::조선비즈",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/216/home",
+      "id": "3757e0e10af8e443",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘유가 담합’ 정유사들, 수조원대 영업익 예상…손실보전 입증 부담 커진다",
+      "url": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxNMTkzaGlybFVLQ1FoOTRrOVIyaWEyMm5NMzZ6a1lHZllvLXRtYTgzT0ZYa2luU040dDJkb1JWUG45TmFKQlhyci1fYVFPNTVSbFdHVjNVRnN4RUN6NFJTTmJaeTAzenpXT01tVWRyaE9NTEZwcjd4aXdOZkMwWUR0N0hUOUFYbzEwb2tVSUtZc3BwT0RwUzdZX1E1MlpBRjhQZzRVanZSa0xydEg2N3hwMmZrSUxiWFdSN1ZFRDVqQWhJaWVzOHJtdHVsLXlMSHZWUkZUd18zU3IyeENkTlhnZkhrVEJmSm01ZU1DeF83VjdHYWgxTmtfYUtDUElLRmJmX0dTQ2VRTEhqVThGcWtQUU5YN2FVZWpRSjlRUG9ha2sxTnpOOXV3b05yMk5LV281eWhza2xmNHFEVGYxbktEemNVdkhGX2dfTUtISDg4QzRvMU02N3gxcjZBN0RVTWVsWVFOWDRCNXBxYXhmLXh4blVKVnhtVnlvSlBSbEhkb1BLT0lOSHZlUzFsT0VKdlp2V0Z5ZElVOG1nQjR6VTBwWlJmUEdVbzFlX1hxcFRjeVlZYVktSUZZUjVHaUhIUHdyeFE?oc=5",
+      "source": "MSN",
+      "published_at": "2026-07-15T21:43:10+09:00",
+      "snippet": "‘유가 담합’ 정유사들, 수조원대 영업익 예상…손실보전 입증 부담 커진다 MSN",
+      "collected_at": "2026-07-16T08:02:34.604327+09:00",
+      "normalized_title": "‘유가 담합’ 정유사들, 수조원대 영업익 예상…손실보전 입증 부담 커진다",
+      "source_normalized": "MSN",
+      "duplicate_key": "msn::‘유가 담합’ 정유사들, 수조원대 영업익 예상…손실보전 입증 부담 커진다",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxNMTkzaGlybFVLQ1FoOTRrOVIyaWEyMm5NMzZ6a1lHZllvLXRtYTgzT0ZYa2luU040dDJkb1JWUG45TmFKQlhyci1fYVFPNTVSbFdHVjNVRnN4RUN6NFJTTmJaeTAzenpXT01tVWRyaE9NTEZwcjd4aXdOZkMwWUR0N0hUOUFYbzEwb2tVSUtZc3BwT0RwUzdZX1E1MlpBRjhQZzRVanZSa0xydEg2N3hwMmZrSUxiWFdSN1ZFRDVqQWhJaWVzOHJtdHVsLXlMSHZWUkZUd18zU3IyeENkTlhnZkhrVEJmSm01ZU1DeF83VjdHYWgxTmtfYUtDUElLRmJmX0dTQ2VRTEhqVThGcWtQUU5YN2FVZWpRSjlRUG9ha2sxTnpOOXV3b05yMk5LV281eWhza2xmNHFEVGYxbktEemNVdkhGX2dfTUtISDg4QzRvMU02N3gxcjZBN0RVTWVsWVFOWDRCNXBxYXhmLXh4blVKVnhtVnlvSlBSbEhkb1BLT0lOSHZlUzFsT0VKdlp2V0Z5ZElVOG1nQjR6VTBwWlJmUEdVbzFlX1hxcFRjeVlZYVktSUZZUjVHaUhIUHdyeFE?oc=5",
+      "id": "e90a9462f4f74c87",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, ‘반도체 부품가격 담합’ 몬타지 테크놀로지 등 글로벌 3사 압수수색",
+      "url": "http://v.daum.net/v/20260715182747674",
+      "source": "법률신문",
+      "published_at": "2026-07-15T19:02:26.708664+09:00",
+      "snippet": "메모리인터페이스칩을 만드는 글로벌 과점 사업자다. 메모리인터페이스칩은 CPU와 메모리가 데이터를 안정적으로 주고받게 돕는 신호기 역할을 한다. 공정거래조사부는 7월 정유 4사의 유가담합을, 4월에는 전분당 업체 3사의 담합을 밝혀 법인과 임직원 등을 기소했다. 13시간 전",
+      "collected_at": "2026-07-16T08:02:26.708688+09:00",
+      "normalized_title": "검찰, ‘반도체 부품가격 담합’ 몬타지 테크놀로지 등 글로벌 3사 압수수색",
+      "source_normalized": "법률신문",
+      "duplicate_key": "법률신문::검찰, ‘반도체 부품가격 담합’ 몬타지 테크놀로지 등 글로벌 3사 압수수색",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260715182747674",
+      "id": "2d0fe146c7519f4b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "법률신문",
+      "url": "https://v.daum.net/channel/552818/home",
+      "source": "법률신문",
+      "published_at": "2026-07-15T19:02:25.550356+09:00",
+      "snippet": "메모리인터페이스칩을 만드는 글로벌 과점 사업자다. 메모리인터페이스칩은 CPU와 메모리가 데이터를 안정적으로 주고받게 돕는 신호기 역할을 한다. 공정거래조사부는 7월 정유 4사의 유가담합을, 4월에는 전분당 업체 3사의 담합을 밝혀 법인과 임직원 등을 기소했다. 13시간 전",
+      "collected_at": "2026-07-16T08:02:25.550368+09:00",
+      "normalized_title": "법률신문",
+      "source_normalized": "법률신문",
+      "duplicate_key": "법률신문::법률신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/552818/home",
+      "id": "4f8b97ee4a72137c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, '반도체 부품가격 담합 의혹' 외국기업 3곳 압수수색새 창 열림",
+      "url": "https://www.hankyung.com/article/2026071579411",
+      "source": "새 창 열림",
+      "published_at": "2026-07-15T23:03:00.820961+09:00",
+      "snippet": "중동 전쟁이 벌어진 틈을 타 국내 기름값을 인상하는 등 14조2000억원 규모 담합을 저지른 것으로 파악돼서다. GS칼텍스와 에쓰오일도 담합에 편승한 것으로 조사됐다. 지난 4월 전분과 전분당 가격을 담합한 대상, 사조CPK, CJ제일제당 등 3개 법인 대표 및 관련자 총 25명도 재판에 넘겼다.새 창 열림",
+      "collected_at": "2026-07-16T08:03:00.820987+09:00",
+      "normalized_title": "檢, '반도체 부품가격 담합 의혹' 외국기업 3곳 압수수색새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::檢, '반도체 부품가격 담합 의혹' 외국기업 3곳 압수수색새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.hankyung.com/article/2026071579411",
+      "id": "38c1dbd3d48ac749",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'비정상의 정상화' 주문한 이 대통령... \"레버리지 ETF 신속히 보완하라...새 창 열림",
+      "url": "https://www.hankookilbo.com/news/article/A2026071517110003851?did=NA",
+      "source": "새 창 열림",
+      "published_at": "2026-07-15T21:03:05.600522+09:00",
+      "snippet": "석유제품 담합 사례를 들어 \"국제 원유값이 오른다 싶으면 정제 석유제품을 미리 다 올리고, 또 내릴 때는 (제품 가격을) 잘 안 내리는 것이 국민의 일상적 불만\"이라고 했다. 이 대통령은 \"체납된 국세, 국세 외 수입도 백수십조 원이 밀려있는 것 아니냐\"며 세금 체납 문제도 짚었다. 임광현 국세청장이 국세... 새 창 열림",
+      "collected_at": "2026-07-16T08:03:05.600535+09:00",
+      "normalized_title": "'비정상의 정상화' 주문한 이 대통령... \"레버리지 ETF 신속히 보완하라...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'비정상의 정상화' 주문한 이 대통령... \"레버리지 etf 신속히 보완하라...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.hankookilbo.com/news/article/A2026071517110003851?did=NA",
+      "id": "5b9730bdef7767d0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, ‘삼전닉스’ 글로벌 부품사 3곳 압수수색… 납품가 담합 혐의새 창 열림",
+      "url": "https://biz.chosun.com/topics/law_firm/2026/07/15/24NNANY43BG55M7MZU6272HXRA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "source": "새 창 열림",
+      "published_at": "2026-07-15T20:02:49.960573+09:00",
+      "snippet": "압수 수색 과정에서 확보한 휴대전화 등을 분석해 정보 교환 여부와 담합 시기 및 범위, 실제 납품 가격에 미친 영향 등을 집중 조사할 방침이다. 한편 서울중앙지검 공정거래조사부는 최근 미국·이란 전쟁 직후 석유 제품 가격 인상 시기와 규모를 담합한 혐의로 4대 정유사와 임직원 4명을 재판에 넘긴 바 있다.새 창 열림",
+      "collected_at": "2026-07-16T08:02:49.960586+09:00",
+      "normalized_title": "검찰, ‘삼전닉스’ 글로벌 부품사 3곳 압수수색… 납품가 담합 혐의새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, ‘삼전닉스’ 글로벌 부품사 3곳 압수수색… 납품가 담합 혐의새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://biz.chosun.com/topics/law_firm/2026/07/15/24NNANY43BG55M7MZU6272HXRA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "id": "e8b7f140de5389d5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '반도체 부품가 담합' 몬타지·르네사스·램버스 압수수색새 창 열림",
+      "url": "https://www.news1.kr/society/court-prosecution/6229532",
+      "source": "새 창 열림",
+      "published_at": "2026-07-15T19:03:00.822088+09:00",
+      "snippet": "지난 6일 미국·이란 전쟁을 틈타 14조 원 규모의 기름값을 담합한 혐의(공정거래법 위반 등)를 받는 HD현대오일뱅크·SK에너지·GS칼텍스·에쓰오일(S-OIL) 실무진과 4개 법인을 기소했다. 또 8년에 걸쳐 10조 원대 전분 및 당류(전분당) 가격을 담합한 의혹을 받는 대상·사조CPK·CJ제일제당 등 3개 법인 각 회사의... 새 창 열림",
+      "collected_at": "2026-07-16T08:03:00.822099+09:00",
+      "normalized_title": "검찰, '반도체 부품가 담합' 몬타지·르네사스·램버스 압수수색새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, '반도체 부품가 담합' 몬타지·르네사스·램버스 압수수색새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.news1.kr/society/court-prosecution/6229532",
+      "id": "c52383b805307cc5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '반도체 부품가격 담합' 몬타지 테크놀로지 등 글로벌 3사 압수수...새 창 열림",
+      "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=223580",
+      "source": "새 창 열림",
+      "published_at": "2026-07-15T19:02:20.610659+09:00",
+      "snippet": "세 기업 모두 서버용 D램에 들어가는 메모리인터페이스칩을 만드는 글로벌 과점 사업자다. 메모리인터페이스칩은 CPU와 메모리가 데이터를 안정적으로 주고받게 돕는 신호기 역할을 한다. 공정거래조사부는 7월 정유 4사의 유가담합을, 4월에는 전분당 업체 3사의 담합을 밝혀 법인과 임직원 등을 기소했다.새 창 열림",
+      "collected_at": "2026-07-16T08:02:20.610672+09:00",
+      "normalized_title": "검찰, '반도체 부품가격 담합' 몬타지 테크놀로지 등 글로벌 3사 압수수...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, '반도체 부품가격 담합' 몬타지 테크놀로지 등 글로벌 3사 압수수...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=223580",
+      "id": "2da48ac38b811f14",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 \"담합·체납, 과감히 바로잡아야\"…경제질서 정상화 드라이브새 창 열림",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1386199",
+      "source": "새 창 열림",
+      "published_at": "2026-07-15T18:03:05.608133+09:00",
+      "snippet": "그는 \"최근 공정위가 정말 '열일'하고 있기는 하지만 담합이나 물가 농단이 아주 일상이 돼 있다\"고 지적했다. 그러면서 \"국제 원유가가 오른다 싶으면 정제 석유 제품 가격을 미리 다 올리고, 내릴 때는 잘 안 내리는 것이 국민들의 일상적인 불만\"이라며 \"으레 그런 것처럼 방치되고 있는데 사실 그러면 안 된다... 새 창 열림",
+      "collected_at": "2026-07-16T08:03:05.608145+09:00",
+      "normalized_title": "李대통령 \"담합·체납, 과감히 바로잡아야\"…경제질서 정상화 드라이브새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李대통령 \"담합·체납, 과감히 바로잡아야\"…경제질서 정상화 드라이브새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://daily.hankooki.com/news/articleView.html?idxno=1386199",
+      "id": "bf9c1d92eb6c2800",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "고환율·원재료 수급 비상…식품업계, ‘도미노 가격 인상’ 이어지나새 창 열림",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05261126645514848",
+      "source": "새 창 열림",
+      "published_at": "2026-07-15T18:02:20.615042+09:00",
+      "snippet": "올리브유 등 주요 식품 원재료 가격이 치솟은 데다 국제유가와 환율, 포장재 가격까지 동반 상승하면서 그동안 가격 인상을 자제해온 식품업체들이... 가격 담합 조사와 과징금 이슈가 진행되고 있는 기업들은 가격 인상을 검토하기도 쉽지 않다. 업계 관계자는 “기업 입장에서는 정부가 물가 안정을 이유로... 새 창 열림",
+      "collected_at": "2026-07-16T08:02:20.615054+09:00",
+      "normalized_title": "고환율·원재료 수급 비상…식품업계, ‘도미노 가격 인상’ 이어지나새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::고환율·원재료 수급 비상…식품업계, ‘도미노 가격 인상’ 이어지나새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05261126645514848",
+      "id": "1c46ec0e1bddf129",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '반도체 부품가격 담합' 몬타지·르네사스·램버스 압수수색새 창 열림",
+      "url": "https://www.newsis.com/view/NISX20260715_0003711063",
+      "source": "새 창 열림",
+      "published_at": "2026-07-15T18:02:20.613956+09:00",
+      "snippet": "앞서 공정거래조사부는 지난 6일 미국과 이란 사이 전쟁이 발발한 직후 국내 석유제품 가격을 담합해 유가를 교란한 혐의(공정거래법 등)를 받는 현대오일뱅크와 SK에너지, GS칼텍스, 에쓰오일 4개 법인을 기소한 바 있다. 또한 8년에 걸쳐 10조 원대 전분 및 당류(전분당) 가격을 담합한 의혹을 받는 대상... 새 창 열림",
+      "collected_at": "2026-07-16T08:02:20.613968+09:00",
+      "normalized_title": "검찰, '반도체 부품가격 담합' 몬타지·르네사스·램버스 압수수색새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, '반도체 부품가격 담합' 몬타지·르네사스·램버스 압수수색새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.newsis.com/view/NISX20260715_0003711063",
+      "id": "7a6a324ae4a4f722",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령, “비정상 정상화 과감히 추진… 체납징수·담합시정 강화\" 지...새 창 열림",
+      "url": "https://www.m-economynews.com/news/article.html?no=68783",
+      "source": "새 창 열림",
+      "published_at": "2026-07-15T17:03:45.258715+09:00",
+      "snippet": "◇ 담합시정·체납세금 징수 거론하며 \"과감히 해야“ 이 대통령은 이어진 재정경제부(국세청·관세청·조달철) 업무보고에서 담합 시정, 체납 세금 징수... 그러면서 \"예를 들면 국제 원유가가 오른다 싶으면 정제 석유 제품가격을 미리 다 올리고, 또 내릴 때는 잘 안 내리는 것이 국민들의 일상적인 불만\"이라며... 새 창 열림",
+      "collected_at": "2026-07-16T08:03:45.258726+09:00",
+      "normalized_title": "李대통령, “비정상 정상화 과감히 추진… 체납징수·담합시정 강화\" 지...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李대통령, “비정상 정상화 과감히 추진… 체납징수·담합시정 강화\" 지...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.m-economynews.com/news/article.html?no=68783",
+      "id": "bd6a5300407417eb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령, \"남은 3년11개월 더 중요\"…개혁·혁신 주문새 창 열림",
+      "url": "https://www.inews365.com/news/article.html?no=927880",
+      "source": "새 창 열림",
+      "published_at": "2026-07-15T17:03:32.871965+09:00",
+      "snippet": "이어 정유업계의 가격 담합 의혹을 거론하며 \"예를 들면 국제원유가가 오른다 싶으면 정제 석유제품 가격을 미리 올리고 내릴 때는 잘 안 내린다\"며 \"국민들이 갖는 일상적인 불만인데 이게 의례 그런 것처럼 방치되고 있다. 그러면 안 된다\"고 꼬집었다. 부동산에 대한 문제점을 재차 강조했다. 이 대통령은... 새 창 열림",
+      "collected_at": "2026-07-16T08:03:32.871976+09:00",
+      "normalized_title": "이 대통령, \"남은 3년11개월 더 중요\"…개혁·혁신 주문새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이 대통령, \"남은 3년11개월 더 중요\"…개혁·혁신 주문새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.inews365.com/news/article.html?no=927880",
+      "id": "1210d23a51475fe7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유업계",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "평창군, 여름철 물가 잡고 강릉 연계 '체류형 관광' 키운다새 창 열림",
+      "url": "https://www.the-pr.co.kr/news/articleView.html?idxno=61942",
+      "source": "새 창 열림",
+      "published_at": "2026-07-15T17:03:23.508305+09:00",
+      "snippet": "평창군, 여름 휴가철 피서지 물가안정대책 추진 평창군은 여름 휴가철 피서지 바가지요금과 요금 담합 등으로 인한 소비자 피해를 예방하기 위해 특별... 평창군은 이번 사업을 통해 기존의 경유형 관광에서 벗어나 관광객의 체류 시간을 늘리고, 지역 소비 확대와 생활인구 유입을 이끌어낼 계획이다. 나아가... 새 창 열림",
+      "collected_at": "2026-07-16T08:03:23.508317+09:00",
+      "normalized_title": "평창군, 여름철 물가 잡고 강릉 연계 '체류형 관광' 키운다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::평창군, 여름철 물가 잡고 강릉 연계 '체류형 관광' 키운다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.the-pr.co.kr/news/articleView.html?idxno=61942",
+      "id": "5935c93f8af6a998",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국세청장 \"국세청 과태료 관리 시작‥국세외수입 통합징수할 것\"새 창 열림",
+      "url": "https://imnews.imbc.com/news/2026/econo/article/6837667_36932.html",
+      "source": "새 창 열림",
+      "published_at": "2026-07-15T17:02:20.617083+09:00",
+      "snippet": "국세청은 하반기에 가격 담합과 매점매석을 통한 '물가 탈세'와 주가조작을 통한 탈세, 역외 탈세를 집중 조사하고, 법인 명의로 된 초고가주택에 사주 일가가 무상으로 거주하는 사례를 비롯해 법인 자금의 사적 유용 행위도 계속 조사하기로 했습니다. 또 고환율, 고유가로 어려움을 겪고 있는 위기기업에... 새 창 열림",
+      "collected_at": "2026-07-16T08:02:20.617094+09:00",
+      "normalized_title": "국세청장 \"국세청 과태료 관리 시작‥국세외수입 통합징수할 것\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::국세청장 \"국세청 과태료 관리 시작‥국세외수입 통합징수할 것\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://imnews.imbc.com/news/2026/econo/article/6837667_36932.html",
+      "id": "9b745386140c9dfa",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[2차 부처보고-재경부] 李 \"부동산에 묶인 사회 원시적, 생산적 금융 전...새 창 열림",
+      "url": "https://www.polinews.co.kr/news/articleView.html?idxno=737124",
+      "source": "새 창 열림",
+      "published_at": "2026-07-15T17:02:20.616020+09:00",
+      "snippet": "마치 정상인 것처럼 일상화돼 있다\"며 \"최근 공정위가 열심히 하고 있지만 담합이나 물가 농단이 일상처럼 방치되고 있다\"고 지적했다. 정유업계의 가격 담합 의혹을 언급하며 \"국제유가가 오르면 석유제품 가격을 미리 올리고 내릴 때는 잘 내리지 않는다. 국민들이 갖는 불만이 의례처럼 방치돼선 안 된다\"고... 새 창 열림",
+      "collected_at": "2026-07-16T08:02:20.616031+09:00",
+      "normalized_title": "[2차 부처보고-재경부] 李 \"부동산에 묶인 사회 원시적, 생산적 금융 전...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[2차 부처보고-재경부] 李 \"부동산에 묶인 사회 원시적, 생산적 금융 전...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.polinews.co.kr/news/articleView.html?idxno=737124",
+      "id": "f5d9786fb3f52c46",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유업계",
+        "석유제품",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이재명 \"비정상 바로잡아 경제 대도약\"",
+      "url": "http://v.daum.net/v/20260715171025393",
+      "source": "충청투데이",
+      "published_at": "2026-07-15T18:03:15.663138+09:00",
+      "snippet": "이 대통령은 이날 서민들의 삶과 직결되는 담합 문제와 체납 세금 징수 등과 관련해서는 인력 증원 등 과감한 자세를 주문했다. 이...담합과 관련해서는 \"국제 원유가가 오른다 싶으면 정제 석유 제품을 미리 다 올리고, 내릴때는 잘 안 내리는 것이 국민들의 일상적... 14시간 전 1",
+      "collected_at": "2026-07-16T08:03:15.663161+09:00",
+      "normalized_title": "이재명 \"비정상 바로잡아 경제 대도약\"",
+      "source_normalized": "충청투데이",
+      "duplicate_key": "충청투데이::이재명 \"비정상 바로잡아 경제 대도약\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260715171025393",
+      "id": "afb18beb9fba2951",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "충청투데이",
+      "url": "https://v.daum.net/channel/551721/home",
+      "source": "충청투데이",
+      "published_at": "2026-07-15T18:03:14.608586+09:00",
+      "snippet": "이 대통령은 이날 서민들의 삶과 직결되는 담합 문제와 체납 세금 징수 등과 관련해서는 인력 증원 등 과감한 자세를 주문했다. 이...담합과 관련해서는 \"국제 원유가가 오른다 싶으면 정제 석유 제품을 미리 다 올리고, 내릴때는 잘 안 내리는 것이 국민들의 일상적... 14시간 전 1",
+      "collected_at": "2026-07-16T08:03:14.608599+09:00",
+      "normalized_title": "충청투데이",
+      "source_normalized": "충청투데이",
+      "duplicate_key": "충청투데이::충청투데이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/551721/home",
+      "id": "6b0d40244ff2d058",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

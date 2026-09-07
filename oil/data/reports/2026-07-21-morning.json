@@ -1,0 +1,97 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-21",
+  "slot": "morning",
+  "period_start": "2026-07-21T00:00:00+09:00",
+  "period_end": "2026-07-21T08:00:00+09:00",
+  "period_label": "2026-07-21 00:00 ~ 2026-07-21 08:00",
+  "generated_at": "2026-07-21T09:07:56.866086+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1574,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1184
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "기름값 담합": 1,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "유류가격 담합": 1,
+    "정유업계 담합": 1,
+    "주유소 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[박근종 칼럼] 중동 전면전 위기에 다시 유가 급등, 충격 최소화를 위한...새 창 열림",
+      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=753860",
+      "source": "새 창 열림",
+      "published_at": "2026-07-21T05:41:11.471788+09:00",
+      "snippet": "미·이란 종전 양해각서(MOU)로 싱가포르 석유제품 도매 시장에서 지난달 말 배럴당 111달러선까지 안정됐던 경유 가격은 전 세계 수출량의 12%를... 검찰은 최근 HD현대오일뱅크와 SK에너지의 직접 담합 규모만 14조 2,000억 원이다. 정유 4사가 함께 가격을 인상한 파급 효과까지 감안하면 사실상 26조 원 규모의... 새 창 열림",
+      "collected_at": "2026-07-21T08:41:11.471820+09:00",
+      "normalized_title": "[박근종 칼럼] 중동 전면전 위기에 다시 유가 급등, 충격 최소화를 위한...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[박근종 칼럼] 중동 전면전 위기에 다시 유가 급등, 충격 최소화를 위한...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://www.mhns.co.kr/news/articleView.html?idxno=753860",
+      "id": "6d1ec702e23a4464",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "경유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

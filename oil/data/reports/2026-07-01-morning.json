@@ -1,0 +1,258 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-01",
+  "slot": "morning",
+  "period_start": "2026-07-01T00:00:00+09:00",
+  "period_end": "2026-07-01T08:00:00+09:00",
+  "period_label": "2026-07-01 00:00 ~ 2026-07-01 08:00",
+  "generated_at": "2026-07-01T09:19:54.405946+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1517,
+  "total_deduped_count": 6,
+  "total_ok_count": 6,
+  "total_review_count": 0,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 0,
+    "B": 3,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1127
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 1,
+    "석유 담합": 5,
+    "유가 담합": 5,
+    "유가담합": 5,
+    "정유사 담합": 2,
+    "주유소 담합": 4,
+    "휘발유 담합": 4
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[Invest]딜은 묶고 담합은 죄고…공정위에 진땀 빼는 기업들",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/06/30/2026063080126.html",
+      "source": "인베스트조선",
+      "published_at": "2026-07-01T07:34:25.733598+09:00",
+      "snippet": "공정거래위원회를 둘러싼 기업들의 부담이 커지고 있다. 인수합병(M&A) 시장에선 기업결합 심사가 지연되는 한편, 담합 조사는 전방위로 확대되며... 업계에선 검찰이 최근 정유사 담합 의혹과 관련해 압수수색에 나서는 등 수사에 속도를 내자, 공정위 역시 더 적극적으로 나서고 있단 해석이 나온다. 검찰...",
+      "collected_at": "2026-07-01T08:34:25.733626+09:00",
+      "normalized_title": "[Invest]딜은 묶고 담합은 죄고…공정위에 진땀 빼는 기업들",
+      "source_normalized": "인베스트조선",
+      "duplicate_key": "인베스트조선::[invest]딜은 묶고 담합은 죄고…공정위에 진땀 빼는 기업들",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.investchosun.com/site/data/html_dir/2026/06/30/2026063080126.html",
+      "id": "9583598b349b4f4e",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "데일리안",
+      "url": "https://v.daum.net/channel/43/home",
+      "source": "데일리안",
+      "published_at": "2026-07-01T01:34:20.595165+09:00",
+      "snippet": "기다리고 있을 것\"이라고 경고했다. 트럼프 대통령은 미국 내 휘발유 가격 목표치도 제시했다. 그는 \"갤런당 약 2.50달러 수준을 목표...누려야 한다\"고 주장했다. 또 \"가격 바가지는 불법\"이라며 정부가 가격 담합이나 폭리 여부를 예의주시하겠다는 뜻도 밝혔다... 7시간 전 1",
+      "collected_at": "2026-07-01T08:34:20.595182+09:00",
+      "normalized_title": "데일리안",
+      "source_normalized": "데일리안",
+      "duplicate_key": "데일리안::데일리안",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/43/home",
+      "id": "869228886c807077",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"휘발유값 당장 내려라\"…트럼프, 주유소에 공개 경고",
+      "url": "https://www.dailian.co.kr/news/view/1661807/?sc=Naver",
+      "source": "데일리안",
+      "published_at": "2026-07-01T01:34:19.065797+09:00",
+      "snippet": "그는 \"갤런당 약 2.50달러 수준을 목표로 해야 한다\"며 \"소비자들이 국제유가 하락의 혜택을 즉시 누려야 한다\"고 주장했다. 또 \"가격 바가지는 불법\"이라며 정부가 가격 담합이나 폭리 여부를 예의주시하겠다는 뜻도 밝혔다. 특히 캘리포니아주의 높은 연료세도 강하게 비판했다. 트럼프 대통령은 \"캘리포니아는...",
+      "collected_at": "2026-07-01T08:34:19.065819+09:00",
+      "normalized_title": "\"휘발유값 당장 내려라\"…트럼프, 주유소에 공개 경고",
+      "source_normalized": "데일리안",
+      "duplicate_key": "데일리안::\"휘발유값 당장 내려라\"…트럼프, 주유소에 공개 경고",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.dailian.co.kr/news/view/1661807/?sc=Naver",
+      "id": "5fd893333edb1871",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"휘발유값 당장 내려라\"…트럼프, 주유소에 공개 경고",
+      "url": "http://v.daum.net/v/20260701011400604",
+      "source": "7시간 전",
+      "published_at": "2026-07-01T01:34:20.595694+09:00",
+      "snippet": "기다리고 있을 것\"이라고 경고했다. 트럼프 대통령은 미국 내 휘발유 가격 목표치도 제시했다. 그는 \"갤런당 약 2.50달러 수준을 목표...누려야 한다\"고 주장했다. 또 \"가격 바가지는 불법\"이라며 정부가 가격 담합이나 폭리 여부를 예의주시하겠다는 뜻도 밝혔다... 7시간 전 1",
+      "collected_at": "2026-07-01T08:34:20.595709+09:00",
+      "normalized_title": "\"휘발유값 당장 내려라\"…트럼프, 주유소에 공개 경고",
+      "source_normalized": "7시간 전",
+      "duplicate_key": "7시간 전::\"휘발유값 당장 내려라\"…트럼프, 주유소에 공개 경고",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260701011400604",
+      "id": "d3789ef952f98aae",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[마켓 프리뷰] 코스피 3거래일 만에 상승…코스닥 급등 후 '숨고르기'",
+      "url": "https://biz.sbs.co.kr/article_hub/20000319912?division=NAVER",
+      "source": "SBS Biz",
+      "published_at": "2026-07-01T07:34:19.062994+09:00",
+      "snippet": "48 장 마감 - 외인 순매도세에 '휘청'…반도체주 업고 상승 성공 - 애플 가격 인상·D램 가격 담합 의혹 소송 등 노이즈 - 실적 개선 기대감 '유효'…저가... 4만건…노동시장 여전히 견조 확인 - 美소비자 신뢰 지수, 유가 하락에 소폭 상승 기록 - 외인 6월 일간·월간 '신기록'…삼전닉스 40조 순매도 - 외인...",
+      "collected_at": "2026-07-01T08:34:19.063021+09:00",
+      "normalized_title": "[마켓 프리뷰] 코스피 3거래일 만에 상승…코스닥 급등 후 '숨고르기'",
+      "source_normalized": "SBS Biz",
+      "duplicate_key": "sbs biz::[마켓 프리뷰] 코스피 3거래일 만에 상승…코스닥 급등 후 '숨고르기'",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://biz.sbs.co.kr/article_hub/20000319912?division=NAVER",
+      "id": "7ecf67a340ea9eec",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[Who Is ?] 이재명 대한민국 대통령",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=441001",
+      "source": "비즈니스포스트",
+      "published_at": "2026-07-01T07:34:19.064370+09:00",
+      "snippet": "이후 국제유가 변동을 반영해 2주 단위로 최고가격을 조정했으며, 3월27일에는 휘발유 1934원, 경유 1923원, 등유 1530원으로 재조정하고 선박용 경유도 적용 대상에 포함했다. 정부는 전국 주유소 가격을 매일 점검하고 담합·매점매석 행위를 집중 단속하는 한편, 호르무즈 해협을 우회하는 대체 원유 공급선...",
+      "collected_at": "2026-07-01T08:34:19.064388+09:00",
+      "normalized_title": "[Who Is ?] 이재명 대한민국 대통령",
+      "source_normalized": "비즈니스포스트",
+      "duplicate_key": "비즈니스포스트::[who is ?] 이재명 대한민국 대통령",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://www.businesspost.co.kr/BP?command=article_view&num=441001",
+      "id": "c353ff35d5881bf1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
