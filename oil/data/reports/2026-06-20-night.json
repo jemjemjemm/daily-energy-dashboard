@@ -1,0 +1,76 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-20",
+  "slot": "night",
+  "period_start": "2026-06-20T17:00:00+09:00",
+  "period_end": "2026-06-21T00:00:00+09:00",
+  "period_label": "2026-06-20 17:00 ~ 2026-06-21 00:00",
+  "generated_at": "2026-06-22T16:40:03.261986+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1513,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1123
+  },
+  "query_counts": {
+    "정유업계 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "정유가격 담합 수사 첫 구속자 발생… 업계선 SK이노베이션 리니언시설 '솔솔'",
+      "url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxNQmh3Zkp0VXRZVUNNNjFRMG1UUk85VFNBXzdJd0tvcENyWnVtdGJuaFRGNl83NGtnakk0bURQNmVtQThmSkFVbHNQaWxtSEE1UkFTUWNGbGp1X2pmM0JqbmNsMXFsZDlJNzZEMjNlRXRuazRTQkxJMGFHUHJ5VS11VFhJMS1nckJwWW1uVzBJMEdTTGNyUHJaVDRtNUl2VTRYSWszejdiTnR5X29ITUNfZUJ5b0FSZkVudHd0U2pBc1g0UE5pVWxPZU00OWxTdnphV0pnWkJvSENpaHhJaXBENHFQU1pBbUw1R3EwMEYzUW9TUF9wTzA0WW1tczFZcG1CVER2c2NFcWhBQ0ozYVduVFRvNW95QlBjejVNZm9kdHV4dGE2ejJiZnZLRTItbVNfSTVfVzMwNGY4NUVqWnhEMmNtQWZDTVEwSjF3bE53NkloQlJPTlVINTc3aTltYzlzTVZvZEdBSjZoWFMzMjJMQmpxZUZ6eEhGQlNCTl95VjUyeWZRdVAyMmlKMGxRdV90TF9WNUZ6cU4yUUM1NGp6eDNVaEQ3Vlo5RkQxdlZLdTNUdWpCZGhsaVpGU0F2OXZ6NUU4UnpXM0o?oc=5",
+      "source": "MSN",
+      "published_at": "2026-06-20T20:09:31+09:00",
+      "snippet": "정유가격 담합 수사 첫 구속자 발생… 업계선 SK이노베이션 리니언시설 '솔솔' MSN",
+      "collected_at": "2026-06-21T09:21:15.064213+09:00",
+      "normalized_title": "정유가격 담합 수사 첫 구속자 발생… 업계선 SK이노베이션 리니언시설 '솔솔'",
+      "source_normalized": "MSN",
+      "duplicate_key": "msn::정유가격 담합 수사 첫 구속자 발생… 업계선 sk이노베이션 리니언시설 '솔솔'",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxNQmh3Zkp0VXRZVUNNNjFRMG1UUk85VFNBXzdJd0tvcENyWnVtdGJuaFRGNl83NGtnakk0bURQNmVtQThmSkFVbHNQaWxtSEE1UkFTUWNGbGp1X2pmM0JqbmNsMXFsZDlJNzZEMjNlRXRuazRTQkxJMGFHUHJ5VS11VFhJMS1nckJwWW1uVzBJMEdTTGNyUHJaVDRtNUl2VTRYSWszejdiTnR5X29ITUNfZUJ5b0FSZkVudHd0U2pBc1g0UE5pVWxPZU00OWxTdnphV0pnWkJvSENpaHhJaXBENHFQU1pBbUw1R3EwMEYzUW9TUF9wTzA0WW1tczFZcG1CVER2c2NFcWhBQ0ozYVduVFRvNW95QlBjejVNZm9kdHV4dGE2ejJiZnZLRTItbVNfSTVfVzMwNGY4NUVqWnhEMmNtQWZDTVEwSjF3bE53NkloQlJPTlVINTc3aTltYzlzTVZvZEdBSjZoWFMzMjJMQmpxZUZ6eEhGQlNCTl95VjUyeWZRdVAyMmlKMGxRdV90TF9WNUZ6cU4yUUM1NGp6eDNVaEQ3Vlo5RkQxdlZLdTNUdWpCZGhsaVpGU0F2OXZ6NUU4UnpXM0o?oc=5",
+      "id": "d1a75b16d58d22e3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

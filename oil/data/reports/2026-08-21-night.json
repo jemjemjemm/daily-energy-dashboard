@@ -1,0 +1,142 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-21",
+  "slot": "night",
+  "period_start": "2026-08-21T17:00:00+09:00",
+  "period_end": "2026-08-22T00:00:00+09:00",
+  "period_label": "2026-08-21 17:00 ~ 2026-08-22 00:00",
+  "generated_at": "2026-08-22T08:36:44.780666+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1405,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1015
+  },
+  "query_counts": {
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "주유소 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "전국서 가장 비싼 제주 기름값…주유소·농협 담합 과징금 20억 / KBS 2026.07.06. Longueuil (prCaEvt9lj)",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1va3pPRWdkRXlVTlhyQlRPMG0wclhmVHJvOU1wXzFiN0tqbmdfSF80SGRIYm9zeVJPRzFqT0lDbEhSREhrU3ItS1FvQzdqZnB1aDhMdUlzTUF0RkpTUktvbQ?oc=5",
+      "source": "Mshale",
+      "published_at": "2026-08-21T20:55:32+09:00",
+      "snippet": "전국서 가장 비싼 제주 기름값…주유소·농협 담합 과징금 20억 / KBS 2026.07.06. Longueuil (prCaEvt9lj) Mshale",
+      "collected_at": "2026-08-22T08:36:24.983835+09:00",
+      "normalized_title": "전국서 가장 비싼 제주 기름값…주유소·농협 담합 과징금 20억 / KBS 2026.07.06. Longueuil (prCaEvt9lj)",
+      "source_normalized": "Mshale",
+      "duplicate_key": "mshale::전국서 가장 비싼 제주 기름값…주유소·농협 담합 과징금 20억 / kbs 2026.07.06. longueuil (prcaevt9lj)",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1va3pPRWdkRXlVTlhyQlRPMG0wclhmVHJvOU1wXzFiN0tqbmdfSF80SGRIYm9zeVJPRzFqT0lDbEhSREhrU3ItS1FvQzdqZnB1aDhMdUlzTUF0RkpTUktvbQ?oc=5",
+      "id": "6494b6ca2be216cf",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "주유소",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘대산 1호’ 조건부 승인…‘여수 1호’도 담합 우려 따진다새 창 열림",
+      "url": "https://www.sentv.co.kr/article/view/sentv202608210122",
+      "source": "새 창 열림",
+      "published_at": "2026-08-21T19:36:13.776966+09:00",
+      "snippet": "일부 합성수지 시장의 경쟁 사업자가 4곳에서 3곳으로 줄어들면서, 가격 등 담합 가능성이 커질 수 있다고 판단한 겁니다. 특히 석유화학 제품은 기업마다 생산하는 제품이 비슷한 데다, 국제 정보지나 거래처 등을 통해 경쟁사의 정보를 파악하기도 비교적 쉬워 담합 우려가 큰 업종이라는 점을... 새 창 열림",
+      "collected_at": "2026-08-22T08:36:13.777070+09:00",
+      "normalized_title": "‘대산 1호’ 조건부 승인…‘여수 1호’도 담합 우려 따진다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘대산 1호’ 조건부 승인…‘여수 1호’도 담합 우려 따진다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.sentv.co.kr/article/view/sentv202608210122",
+      "id": "b071e6b8a23db2c3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "롯데케미칼·HD현대케미칼 대산 통합, 공정위 조건부 승인…LDPE·EVA 가격...새 창 열림",
+      "url": "http://www.dailypop.kr/news/articleView.html?idxno=101777",
+      "source": "새 창 열림",
+      "published_at": "2026-08-21T17:36:13.778943+09:00",
+      "snippet": "공정위는 2007년 12월 호남석유화학(현 롯데케미칼) 등 7개 사업자의 LDPE 판매가격 담합(1994년4월~2005년4월)을 적발해 과징금 541억7500만원을 부과한 바 있다. 공정위는 또 현재 기업결합 심사가 진행 중인 여수 1호 건이 계획대로 진행될 경우 복수의 합작법인 간 지분연계가 발생할 수 있어, 이번 결합 이후... 새 창 열림",
+      "collected_at": "2026-08-22T08:36:13.778958+09:00",
+      "normalized_title": "롯데케미칼·HD현대케미칼 대산 통합, 공정위 조건부 승인…LDPE·EVA 가격...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::롯데케미칼·hd현대케미칼 대산 통합, 공정위 조건부 승인…ldpe·eva 가격...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.dailypop.kr/news/articleView.html?idxno=101777",
+      "id": "6bc840a07a58d9f4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

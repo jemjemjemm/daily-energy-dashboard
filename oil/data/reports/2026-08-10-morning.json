@@ -1,0 +1,211 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-10",
+  "slot": "morning",
+  "period_start": "2026-08-10T00:00:00+09:00",
+  "period_end": "2026-08-10T08:00:00+09:00",
+  "period_label": "2026-08-10 00:00 ~ 2026-08-10 08:00",
+  "generated_at": "2026-08-10T08:44:42.072708+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1565,
+  "total_deduped_count": 5,
+  "total_ok_count": 5,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1175
+  },
+  "query_counts": {
+    "공정위 유가 담합": 1,
+    "석유 담합": 4,
+    "석유제품 담합": 3,
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "구조조정 와중에 담합수사…석화업계 “죽으라고 고사지내나”",
+      "url": "http://v.daum.net/v/20260810050209575",
+      "source": "중앙일보",
+      "published_at": "2026-08-10T05:17:23.798282+09:00",
+      "snippet": "서울중앙지검 공정거래조사부가 지난 5일 폴리염화비닐 등 석유화학제품의 가격을 수년간 담합한 혐의로 7개 기업 사무실 등을 압수수색했다. 사진은 전남광주통합특별시의 여수국가산업단지. 연합뉴스 석유화학업계가 ‘삼중고’에 빠졌다. 중국발 공급과잉에 따른... 3시간 전",
+      "collected_at": "2026-08-10T08:17:23.798311+09:00",
+      "normalized_title": "구조조정 와중에 담합수사…석화업계 “죽으라고 고사지내나”",
+      "source_normalized": "중앙일보",
+      "duplicate_key": "중앙일보::구조조정 와중에 담합수사…석화업계 “죽으라고 고사지내나”",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260810050209575",
+      "id": "07de27dc85409d9d",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중앙일보",
+      "url": "https://v.daum.net/channel/8/home",
+      "source": "중앙일보",
+      "published_at": "2026-08-10T05:17:22.523603+09:00",
+      "snippet": "서울중앙지검 공정거래조사부가 지난 5일 폴리염화비닐 등 석유화학제품의 가격을 수년간 담합한 혐의로 7개 기업 사무실 등을 압수수색했다. 사진은 전남광주통합특별시의 여수국가산업단지. 연합뉴스 석유화학업계가 ‘삼중고’에 빠졌다. 중국발 공급과잉에 따른... 3시간 전",
+      "collected_at": "2026-08-10T08:17:22.523636+09:00",
+      "normalized_title": "중앙일보",
+      "source_normalized": "중앙일보",
+      "duplicate_key": "중앙일보::중앙일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/8/home",
+      "id": "eb7afd40bf8b1876",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "과징금 2조 시대…이재명 정부 공정위는 공정한가새 창 열림",
+      "url": "https://economist.co.kr/article/view/ecn202608080004",
+      "source": "새 창 열림",
+      "published_at": "2026-08-10T07:17:21.608431+09:00",
+      "snippet": "19세기 말 미국에서는 철도·석유·철강 산업을 장악한 거대 트러스트가 가격과 생산량을 좌우하고 경쟁자의 시장 진입을 막았다. 미국이 독점과 담합으로부터 시장을 보호하기 위해 1890년 최초의 경쟁법인 셔먼법을 제정한 이유다. 한국 공정거래법의 출발도 다르지 않다. 1960~1970년대 정부의 지원 아래 ‘재벌’... 새 창 열림",
+      "collected_at": "2026-08-10T08:17:21.608458+09:00",
+      "normalized_title": "과징금 2조 시대…이재명 정부 공정위는 공정한가새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::과징금 2조 시대…이재명 정부 공정위는 공정한가새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://economist.co.kr/article/view/ecn202608080004",
+      "id": "72dc0d66f1a8c8c6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "담합 과징금은 1.8조인데…피해 소비자 몫은 ‘0원’새 창 열림",
+      "url": "https://economist.co.kr/article/view/ecn202608040035",
+      "source": "새 창 열림",
+      "published_at": "2026-08-10T07:17:07.435708+09:00",
+      "snippet": "공정위는 담합 제재를 통해 해당 품목 가격을 최대 26.5% 낮췄다고 했다. 이를 원재료로 사용하는 빵과 라면, 과자 등 민생 밀접 품목에서도 최대 14.6%의... 최근 농심과 CJ제일제당, 오뚜기 등 주요 식품업체는 고유가와 고환율, 원부자재 가격 상승 등을 이유로 일부 제품 가격을 평균 5~11% 올렸다. 밀가루와... 새 창 열림",
+      "collected_at": "2026-08-10T08:17:07.435746+09:00",
+      "normalized_title": "담합 과징금은 1.8조인데…피해 소비자 몫은 ‘0원’새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::담합 과징금은 1.8조인데…피해 소비자 몫은 ‘0원’새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://economist.co.kr/article/view/ecn202608040035",
+      "id": "7eb870d8755e0f39",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "구조조정 와중에 담합수사…석화업계 “죽으라고 고사지내나”새 창 열림",
+      "url": "https://www.joongang.co.kr/article/25452013",
+      "source": "새 창 열림",
+      "published_at": "2026-08-10T05:17:21.610129+09:00",
+      "snippet": "9일 석화업계에 따르면 서울중앙지검 공정거래조사부는 지난 5일 폴리염화비닐(PVC)과 가소제, 가성소다 등 8개 석유화학제품의 가격을 수년간 담합한 혐의로 한화솔루션·LG화학·애경케미칼 등 7개 기업 사무실과 관련자들을 압수수색했다. 앞서 공정거래위원회도 지난 5월 관련 업체들을 상대로 현장조사에... 새 창 열림",
+      "collected_at": "2026-08-10T08:17:21.610145+09:00",
+      "normalized_title": "구조조정 와중에 담합수사…석화업계 “죽으라고 고사지내나”새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::구조조정 와중에 담합수사…석화업계 “죽으라고 고사지내나”새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.joongang.co.kr/article/25452013",
+      "id": "0ce8b2be74e97c13",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-08",
+  "slot": "night",
+  "period_start": "2026-07-08T17:00:00+09:00",
+  "period_end": "2026-07-09T00:00:00+09:00",
+  "period_label": "2026-07-08 17:00 ~ 2026-07-09 00:00",
+  "generated_at": "2026-07-09T09:19:43.912322+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1555,
+  "total_deduped_count": 15,
+  "total_ok_count": 15,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 5,
+    "B": 2,
+    "C": 8
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1165
+  },
+  "query_counts": {
+    "경유 담합": 8,
+    "기름값 담합": 11,
+    "석유 담합": 8,
+    "석유제품 담합": 5,
+    "유가 담합": 11,
+    "유가담합": 11,
+    "정유사 담합": 10,
+    "정유업계 담합": 7,
+    "주유소 담합": 12,
+    "휘발유 담합": 7
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "한겨레",
+      "url": "https://v.daum.net/channel/17/home",
+      "source": "한겨레",
+      "published_at": "2026-07-08T17:25:36.868739+09:00",
+      "snippet": "주병기 공정위원장은 씨제이(CJ)제일제당 등 제당 3사의 설탕 담합을 두고 “회사 중요 임원까지 관여하고 국민 경제에 미치는 영향이...조치를 이미 도입한 점도 고려 대상이다. 미국 법원이 1911년 석유기업 스탠더드오일을 34개 회사로 분할하도록 한 사례 등... 15시간 전",
+      "collected_at": "2026-07-09T08:25:36.868755+09:00",
+      "normalized_title": "한겨레",
+      "source_normalized": "한겨레",
+      "duplicate_key": "한겨레::한겨레",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/17/home",
+      "id": "f6dcaae612114d4a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 반복된 담합·일감몰아주기에 ‘기업 분할’ 도입 검토",
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1267297.html",
+      "source": "한겨레",
+      "published_at": "2026-07-08T17:25:34.292435+09:00",
+      "snippet": "미국과 유럽연합(EU) 등 국외 경쟁당국이 담합 등에 대해 구조적 조치를 이미 도입한 점도 고려 대상이다. 미국 법원이 1911년 석유기업 스탠더드오일을 34개 회사로 분할하도록 한 사례 등 미국을 중심으로 100년 넘게 이어진 제도다. 지난 수십년간 잘 활용되지 않다가 독과점 심화, 디지털 경제 확산 등에 따라...",
+      "collected_at": "2026-07-09T08:25:34.292452+09:00",
+      "normalized_title": "공정위, 반복된 담합·일감몰아주기에 ‘기업 분할’ 도입 검토",
+      "source_normalized": "한겨레",
+      "duplicate_key": "한겨레::공정위, 반복된 담합·일감몰아주기에 ‘기업 분할’ 도입 검토",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.hani.co.kr/arti/economy/economy_general/1267297.html",
+      "id": "000a8512d9e5377f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독] 정부 “정유사, 손실 없으면 보상 없다”…가격 조정 ‘이중적 행태’ 철퇴 [강 기자의 세종실록]",
+      "url": "http://v.daum.net/v/20260708165046751",
+      "source": "서울신문",
+      "published_at": "2026-07-08T17:24:31.324525+09:00",
+      "snippet": "모습. 연합뉴스 검찰 “정유사, 손실보상 아닌 토해내야” 담합 최소 14조…부당이익 환수 수조원 예상 검찰은 오히려 정유사들이...가격은 평균 40%가량 급등했습니다. 품목별로는 휘발유 12%, 경유 28%, 등유는 무려 80% 인상된 것으로 조사됐습니다. 검찰은 HD... 15시간 전 19",
+      "collected_at": "2026-07-09T08:24:31.324554+09:00",
+      "normalized_title": "정부 “정유사, 손실 없으면 보상 없다”…가격 조정 ‘이중적 행태’ 철퇴 [강 기자의 세종실록]",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::정부 “정유사, 손실 없으면 보상 없다”…가격 조정 ‘이중적 행태’ 철퇴 [강 기자의 세종실록]",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "http://v.daum.net/v/20260708165046751",
+      "id": "312c21e522f99625",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "경유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울신문",
+      "url": "https://v.daum.net/channel/33/home",
+      "source": "서울신문",
+      "published_at": "2026-07-08T17:24:29.033931+09:00",
+      "snippet": "모습. 연합뉴스 검찰 “정유사, 손실보상 아닌 토해내야” 담합 최소 14조…부당이익 환수 수조원 예상 검찰은 오히려 정유사들이...가격은 평균 40%가량 급등했습니다. 품목별로는 휘발유 12%, 경유 28%, 등유는 무려 80% 인상된 것으로 조사됐습니다. 검찰은 HD... 15시간 전 19",
+      "collected_at": "2026-07-09T08:24:29.033953+09:00",
+      "normalized_title": "서울신문",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::서울신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://v.daum.net/channel/33/home",
+      "id": "80c4d7f4831c358c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "경유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독] 정부 “정유사, 손실 없으면 보상 없다”…가격 조정 ‘이중적 ...",
+      "url": "https://www.seoul.co.kr/news/plan/Kangjournalist-Sejong/2026/07/08/20260708500219?wlog_tag3=naver",
+      "source": "서울신문",
+      "published_at": "2026-07-08T17:24:21.372400+09:00",
+      "snippet": "아니라, 담합으로 얻은 부당이득을 환수해야 할 규모가 수조원대에 이를 수 있다고 보고 있습니다. 검찰에 따르면 전쟁 발발 6일 뒤 정유사들이 주유소에 일방 통보한 공급가격은 평균 40%가량 급등했습니다. 품목별로는 휘발유 12%, 경유 28%, 등유는 무려 80% 인상된 것으로 조사됐습니다. 검찰은...",
+      "collected_at": "2026-07-09T08:24:21.372416+09:00",
+      "normalized_title": "정부 “정유사, 손실 없으면 보상 없다”…가격 조정 ‘이중적 ...",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::정부 “정유사, 손실 없으면 보상 없다”…가격 조정 ‘이중적 ...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://www.seoul.co.kr/news/plan/Kangjournalist-Sejong/2026/07/08/20260708500219?wlog_tag3=naver",
+      "id": "f7ddf168ff1c6ff8",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "KBS",
+      "url": "https://v.daum.net/channel/327/home",
+      "source": "KBS",
+      "published_at": "2026-07-08T17:24:27.005250+09:00",
+      "snippet": "값이 2,000원대였는데, 갑자기 1,800원대로 뚝 떨어졌죠. 전국 휘발유 평균 판매 가격을 좀 보면은 전국 평균이 일단 1,888원 정도...전쟁 때문에 이렇게 오른 거라고 생각을 했는데, 국내 정유사들이 담합해서 오른 거였어요. ▼정철진: 그렇게 검찰은 보고... 15시간 전 1",
+      "collected_at": "2026-07-09T08:24:27.005279+09:00",
+      "normalized_title": "KBS",
+      "source_normalized": "KBS",
+      "duplicate_key": "kbs::kbs",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/327/home",
+      "id": "2deb64bd18d6b3a3",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[사사건건] ‘역대급’ 이익에도 급락, 이유 찾아보니…",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8605404&ref=A",
+      "source": "KBS",
+      "published_at": "2026-07-08T17:24:21.373869+09:00",
+      "snippet": "전국 휘발유 평균 판매 가격을 좀 보면은 전국 평균이 일단 1,888원 정도 됩니다. 서울 경기 지역 이렇게 좀 차이는 있습니다마는, 그런데 이 평론가님, 기름값이 2천 원까지 올랐던 게 우리는 당연히 전쟁 때문에 이렇게 오른 거라고 생각을 했는데, 국내 정유사들이 담합해서 오른 거였어요. ▼정철진: 그렇게...",
+      "collected_at": "2026-07-09T08:24:21.373888+09:00",
+      "normalized_title": "[사사건건] ‘역대급’ 이익에도 급락, 이유 찾아보니…",
+      "source_normalized": "KBS",
+      "duplicate_key": "kbs::[사사건건] ‘역대급’ 이익에도 급락, 이유 찾아보니…",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 12,
+      "canonical_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8605404&ref=A",
+      "id": "81062de7134c3fc4",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[한걸음더]'깜깜이 유통'에 우는 동네 주유소",
+      "url": "https://kjmbc.co.kr/NewsArticle/1526658",
+      "source": "광주MBC",
+      "published_at": "2026-07-08T21:24:21.369526+09:00",
+      "snippet": "문 씨 주유소의 현재 경유 판매가는 1897원. 가격을 더 내리고 싶어도 그럴 수가 없습니다. 정부의 최고가격 조정 전날, 이미 정유사로부터 비싼 값에... ◀ st-up ▶ 최근 검찰이 국내 4대 정유사 간의 유가 담합 정황을 포착한 가운데, 대기업의 부당 이득으로 생긴 피해는 고스란히 자영업자와 서민들이 떠안게...",
+      "collected_at": "2026-07-09T08:24:21.369542+09:00",
+      "normalized_title": "[한걸음더]'깜깜이 유통'에 우는 동네 주유소",
+      "source_normalized": "광주MBC",
+      "duplicate_key": "광주mbc::[한걸음더]'깜깜이 유통'에 우는 동네 주유소",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://kjmbc.co.kr/NewsArticle/1526658",
+      "id": "181d9c70404f9b83",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"2조 벌 듯, 트럼프 만세\" 에쓰오일 단톡방…'유가 담합' 기소 HD현대오일뱅크, 송명준 대표는 빠졌다",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPdWpQNkRPbWdpcDIyUXZiOVE5eGlDc2tnaEc2YlE1SUdGbnkxYnpPTjlqQWpoV2p4b0ptNThsX0pQVkpLUHN5WnFlc1J2Q2FZZ2R3clhUcEcxb1huVVJTSE1vSndJdXBVd01DdHhoTkdYNlJZVXNCTUlBbE5TNUdIZlV0ZV8tNjgyZXZZeHFmcmljOU54WWp2eWN4bkpmNVJhVGZONHBlVmc2WG1hMHZ2Nlhab09LS1ZaRTM5aGl2NTR3Q2VjVlJjTDJMSlFjU2tCdGQyQnhIOFhBTTF6U2xUT0ZWeGI1M0JMTlVIYjNibFBpOEEtX051N2NkVTNDMjNPOGFBN2VZeFZLWG8xZjFwWXNDMzdKdFdrMEVjYnpOUGoyNnVaYmNoeFJB?oc=5",
+      "source": "뉴스필드",
+      "published_at": "2026-07-08T17:06:19+09:00",
+      "snippet": "\"2조 벌 듯, 트럼프 만세\" 에쓰오일 단톡방…'유가 담합' 기소 HD현대오일뱅크, 송명준 대표는 빠졌다 뉴스필드",
+      "collected_at": "2026-07-09T08:24:42.090999+09:00",
+      "normalized_title": "\"2조 벌 듯, 트럼프 만세\" 에쓰오일 단톡방…'유가 담합' 기소 HD현대오일뱅크, 송명준 대표는 빠졌다",
+      "source_normalized": "뉴스필드",
+      "duplicate_key": "뉴스필드::\"2조 벌 듯, 트럼프 만세\" 에쓰오일 단톡방…'유가 담합' 기소 hd현대오일뱅크, 송명준 대표는 빠졌다",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPdWpQNkRPbWdpcDIyUXZiOVE5eGlDc2tnaEc2YlE1SUdGbnkxYnpPTjlqQWpoV2p4b0ptNThsX0pQVkpLUHN5WnFlc1J2Q2FZZ2R3clhUcEcxb1huVVJTSE1vSndJdXBVd01DdHhoTkdYNlJZVXNCTUlBbE5TNUdIZlV0ZV8tNjgyZXZZeHFmcmljOU54WWp2eWN4bkpmNVJhVGZONHBlVmc2WG1hMHZ2Nlhab09LS1ZaRTM5aGl2NTR3Q2VjVlJjTDJMSlFjU2tCdGQyQnhIOFhBTTF6U2xUT0ZWeGI1M0JMTlVIYjNibFBpOEEtX051N2NkVTNDMjNPOGFBN2VZeFZLWG8xZjFwWXNDMzdKdFdrMEVjYnpOUGoyNnVaYmNoeFJB?oc=5",
+      "id": "0b7d31cf9069e5cd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'깜깜이 유통'에 우는 동네 주유소",
+      "url": "https://mpmbc.co.kr/NewsArticle/1526636",
+      "source": "목포MBC",
+      "published_at": "2026-07-08T21:24:21.368184+09:00",
+      "snippet": "문 씨 주유소의 현재 경유 판매가는 1897원. 가격을 더 내리고 싶어도 그럴 수가 없습니다. 정부의 최고가격 조정 전날, 이미 정유사로부터 비싼 값에... ◀ st-up ▶ 최근 검찰이 국내 4대 정유사 간의 유가 담합 정황을 포착한 가운데, 대기업의 부당 이득으로 생긴 피해는 고스란히 자영업자와 서민들이 떠안게...",
+      "collected_at": "2026-07-09T08:24:21.368205+09:00",
+      "normalized_title": "'깜깜이 유통'에 우는 동네 주유소",
+      "source_normalized": "목포MBC",
+      "duplicate_key": "목포mbc::'깜깜이 유통'에 우는 동네 주유소",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://mpmbc.co.kr/NewsArticle/1526636",
+      "id": "0b107c09a1862239",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "아이뉴스24",
+      "url": "https://v.daum.net/channel/10/home",
+      "source": "아이뉴스24",
+      "published_at": "2026-07-08T17:24:25.108427+09:00",
+      "snippet": "시행으로 수조원대 손실을 주장해 온 정유업계가 14조원대 가격 담합 혐의로 기소되면서 손실보전 협상에서도 수세에 몰리게 됐다...HD현대오일뱅크] 정부는 미국과 이란 간 전쟁 발발 이후 국제유가가 급등하자 지난 3월부터 석유 최고가격제를 시행해왔다. 정유사... 15시간 전",
+      "collected_at": "2026-07-09T08:24:25.108444+09:00",
+      "normalized_title": "아이뉴스24",
+      "source_normalized": "아이뉴스24",
+      "duplicate_key": "아이뉴스24::아이뉴스24",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/10/home",
+      "id": "5b7cbd34c03800d3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "14조 담합 정유업계 발목…4조대 손실보전 신뢰성 타격",
+      "url": "http://www.inews24.com/view/1983708",
+      "source": "아이뉴스24",
+      "published_at": "2026-07-08T17:24:21.371011+09:00",
+      "snippet": "정부의 석유 최고가격제 시행으로 수조원대 손실을 주장해 온 정유업계가 14조원대 가격 담합 혐의로 기소되면서 손실보전 협상에서도 수세에 몰리게... 정부는 미국과 이란 간 전쟁 발발 이후 국제유가가 급등하자 지난 3월부터 석유 최고가격제를 시행해왔다. 정유사가 주유소 등에 공급하는 석유제품 가격에...",
+      "collected_at": "2026-07-09T08:24:21.371027+09:00",
+      "normalized_title": "14조 담합 정유업계 발목…4조대 손실보전 신뢰성 타격",
+      "source_normalized": "아이뉴스24",
+      "duplicate_key": "아이뉴스24::14조 담합 정유업계 발목…4조대 손실보전 신뢰성 타격",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 14,
+      "canonical_url": "http://www.inews24.com/view/1983708",
+      "id": "d1b9939b314988a2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "정유업계",
+        "주유소",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'깜깜이 유통'에 우는 동네 주유소",
+      "url": "https://ysmbc.co.kr/NewsArticle/1526674",
+      "source": "여수MBC",
+      "published_at": "2026-07-08T21:24:21.366856+09:00",
+      "snippet": "문 씨 주유소의 현재 경유 판매가는 1897원. 가격을 더 내리고 싶어도 그럴 수가 없습니다. 정부의 최고가격 조정 전날, 이미 정유사로부터 비싼 값에... ◀ st-up ▶ 최근 검찰이 국내 4대 정유사 간의 유가 담합 정황을 포착한 가운데, 대기업의 부당 이득으로 생긴 피해는 고스란히 자영업자와 서민들이 떠안게...",
+      "collected_at": "2026-07-09T08:24:21.366873+09:00",
+      "normalized_title": "'깜깜이 유통'에 우는 동네 주유소",
+      "source_normalized": "여수MBC",
+      "duplicate_key": "여수mbc::'깜깜이 유통'에 우는 동네 주유소",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://ysmbc.co.kr/NewsArticle/1526674",
+      "id": "27993ae902bf02d1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "제주MBC",
+      "url": "https://v.daum.net/channel/551759/home",
+      "source": "제주MBC",
+      "published_at": "2026-07-08T21:25:25.548045+09:00",
+      "snippet": "◀ 앵 커 ▶ 최근 제주지역 주유소들이 기름값을 담합해오다 공정거래위원회에 적발됐는데요. 주유소들이 가격을 어떻게 올렸는지...농협-주유소협회 통화녹취록 (AI 음성대역) \"휘발유 50원 만 올리면 안되쿠과? (안 되겠습니까?) 예, 거믄(그러면) 50원 하죠 할... 11시간 전",
+      "collected_at": "2026-07-09T08:25:25.548075+09:00",
+      "normalized_title": "제주MBC",
+      "source_normalized": "제주MBC",
+      "duplicate_key": "제주mbc::제주mbc",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/551759/home",
+      "id": "0a981102b21d8e6b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "주유소",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"많이 좀 올려주세요~\" 일사불란하게 움직인 주유소",
+      "url": "https://jejumbc.com/NewsArticle/849907",
+      "source": "제주MBC",
+      "published_at": "2026-07-08T21:25:24.262358+09:00",
+      "snippet": "◀ 앵 커 ▶ 최근 제주지역 주유소들이 기름값을 담합해오다 공정거래위원회에 적발됐는데요. 주유소들이 가격을 어떻게 올렸는지 확인해보니... ◀ SYNC ▶ 농협-주유소협회 통화녹취록 (AI 음성대역) \"휘발유 50원 만 올리면 안되쿠과? (안 되겠습니까?) 예, 거믄(그러면) 50원 하죠 할 수 없지 뭐 예...",
+      "collected_at": "2026-07-09T08:25:24.262373+09:00",
+      "normalized_title": "\"많이 좀 올려주세요~\" 일사불란하게 움직인 주유소",
+      "source_normalized": "제주MBC",
+      "duplicate_key": "제주mbc::\"많이 좀 올려주세요~\" 일사불란하게 움직인 주유소",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://jejumbc.com/NewsArticle/849907",
+      "id": "82478518389b7e2f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "주유소",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

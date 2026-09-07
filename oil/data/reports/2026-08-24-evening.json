@@ -1,0 +1,280 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-24",
+  "slot": "evening",
+  "period_start": "2026-08-24T08:00:00+09:00",
+  "period_end": "2026-08-24T17:00:00+09:00",
+  "period_label": "2026-08-24 08:00 ~ 2026-08-24 17:00",
+  "generated_at": "2026-08-24T18:01:32.052153+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1559,
+  "total_deduped_count": 6,
+  "total_ok_count": 6,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 2,
+    "C": 4
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1169
+  },
+  "query_counts": {
+    "경유 담합": 3,
+    "공정거래위원회 정유사 담합": 3,
+    "공정위 유가 담합": 3,
+    "석유 담합": 6,
+    "석유제품 담합": 4,
+    "유가 담합": 3,
+    "유가담합": 3,
+    "유류가격 담합": 1,
+    "정유사 담합": 3,
+    "정유업계 담합": 3,
+    "주유소 담합": 3,
+    "휘발유 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "‘석유 최고가제’ 보상 두고 갈라진 정유업계…사법 리스크에 셈법 복잡",
+      "url": "http://v.daum.net/v/20260824112148496",
+      "source": "조선비즈",
+      "published_at": "2026-08-24T12:00:21.418380+09:00",
+      "snippet": "지난 20일 열린 첫 공판에서 정유사들은 가격 담합 혐의를 모두 부인했다. 이어 공정위는 이달 초 정유 4사가 주유소에 타사 제품...위해 현장 조사를 진행한 것으로 전해졌다. 이런 행위는 공정거래법 45조 1항 7조 위반이다. 가격 담합에 이어 새로운 법 위반 행위... 6시간 전",
+      "collected_at": "2026-08-24T18:00:21.418406+09:00",
+      "normalized_title": "‘석유 최고가제’ 보상 두고 갈라진 정유업계…사법 리스크에 셈법 복잡",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::‘석유 최고가제’ 보상 두고 갈라진 정유업계…사법 리스크에 셈법 복잡",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 10,
+      "canonical_url": "http://v.daum.net/v/20260824112148496",
+      "id": "8800d844679666aa",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "정유업계",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "조선비즈",
+      "url": "https://v.daum.net/channel/216/home",
+      "source": "조선비즈",
+      "published_at": "2026-08-24T12:00:19.225241+09:00",
+      "snippet": "지난 20일 열린 첫 공판에서 정유사들은 가격 담합 혐의를 모두 부인했다. 이어 공정위는 이달 초 정유 4사가 주유소에 타사 제품...위해 현장 조사를 진행한 것으로 전해졌다. 이런 행위는 공정거래법 45조 1항 7조 위반이다. 가격 담합에 이어 새로운 법 위반 행위... 6시간 전",
+      "collected_at": "2026-08-24T18:00:19.225270+09:00",
+      "normalized_title": "조선비즈",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::조선비즈",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 10,
+      "canonical_url": "https://v.daum.net/channel/216/home",
+      "id": "3757e0e10af8e443",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[로펌이슈] 대륜, '공정거래 전문가' 배진철 전 공정거래조정원장 영입새 창 열림",
+      "url": "https://www.newspim.com/news/view/20260824000632",
+      "source": "새 창 열림",
+      "published_at": "2026-08-24T13:00:43.545902+09:00",
+      "snippet": "그간 배 고문은 반도체, 정유, 석유화학, 해운사 등 대기업들의 대규모 담합 사건과 전력·통신·항공·의료기기 산업의 주요 기업인수합병(M&A) 사건을 수행해 왔다. 이같은 경험을 바탕으로 대륜에서 실무적 자문을 제공할 방침이다. 배 고문은 \"공정거래 관련 이슈는 사후 대응보다 사전 예방이 중요하다\"며... 새 창 열림",
+      "collected_at": "2026-08-24T18:00:43.545934+09:00",
+      "normalized_title": "[로펌이슈] 대륜, '공정거래 전문가' 배진철 전 공정거래조정원장 영입새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[로펌이슈] 대륜, '공정거래 전문가' 배진철 전 공정거래조정원장 영입새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.newspim.com/news/view/20260824000632",
+      "id": "e3e1fc53cf5fa3a8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘석유 최고가제’ 보상 두고 갈라진 정유업계…사법 리스크에 셈법 복...새 창 열림",
+      "url": "https://biz.chosun.com/industry/company/2026/08/24/TSEQAKACWVHLHBMNJ4PNKJQ67E/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "source": "새 창 열림",
+      "published_at": "2026-08-24T12:00:17.723970+09:00",
+      "snippet": "지난 20일 열린 첫 공판에서 정유사들은 가격 담합 혐의를 모두 부인했다. 이어 공정위는 이달 초 정유 4사가 주유소에 타사 제품 판매를 금지했는지 살펴보기 위해 현장 조사를 진행한 것으로 전해졌다. 이런 행위는 공정거래법 45조 1항 7조 위반이다. 가격 담합에 이어 새로운 법 위반 행위가 있는지 조사에... 새 창 열림",
+      "collected_at": "2026-08-24T18:00:17.724007+09:00",
+      "normalized_title": "‘석유 최고가제’ 보상 두고 갈라진 정유업계…사법 리스크에 셈법 복...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘석유 최고가제’ 보상 두고 갈라진 정유업계…사법 리스크에 셈법 복...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 10,
+      "canonical_url": "https://biz.chosun.com/industry/company/2026/08/24/TSEQAKACWVHLHBMNJ4PNKJQ67E/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "id": "4a0e804bc568718b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "정유업계",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[더벨][윤활유 담합 과징금 리스크] 극동유화, 시총 78% 수준 과징금 맞...새 창 열림",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608200833492300105535",
+      "source": "새 창 열림",
+      "published_at": "2026-08-24T08:00:43.550166+09:00",
+      "snippet": "10월 담합 기간 내 누적 최대 4500억원으로 추정된다. 이는 10개사 답합 매출의 22.3%에 해당하는 규모다. 이에 따라 극동유화에게 부과될 과징금은 최대 900억원 수준이 될 전망이다. 세부적으로 극동유화는 전체 매출 가운데 약 22% 내외를 유활유 사업에서 얻는다. 주력인 석유유통에 이어 윤활유 사업이... 새 창 열림",
+      "collected_at": "2026-08-24T18:00:43.550183+09:00",
+      "normalized_title": "[더벨][윤활유 담합 과징금 리스크] 극동유화, 시총 78% 수준 과징금 맞...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[더벨][윤활유 담합 과징금 리스크] 극동유화, 시총 78% 수준 과징금 맞...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608200833492300105535",
+      "id": "c396822d42b02018",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "롯데케미칼·HD현대케미칼 '대산 1호' 승인…EVA 95% 과점에 가격 5년 제...새 창 열림",
+      "url": "https://www.newswhoplus.com/news/articleView.html?idxno=67688",
+      "source": "새 창 열림",
+      "published_at": "2026-08-24T08:00:43.548874+09:00",
+      "snippet": "국내 LDPE 시장에서는 1994년 4월부터 2005년 4월까지 10년 넘게 판매가격 담합이 지속됐다. 공정위는 2007년 호남석유화학(현 롯데케미칼) 등 7개 업체를 적발해 총 541억7500만원의 과징금을 부과했다. 공정위는 HD현대케미칼이 시장에서 가장 낮은 가격으로 제품을 공급해온 점도 별도로 봤다. HD현대케미칼은... 새 창 열림",
+      "collected_at": "2026-08-24T18:00:43.548891+09:00",
+      "normalized_title": "롯데케미칼·HD현대케미칼 '대산 1호' 승인…EVA 95% 과점에 가격 5년 제...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::롯데케미칼·hd현대케미칼 '대산 1호' 승인…eva 95% 과점에 가격 5년 제...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newswhoplus.com/news/articleView.html?idxno=67688",
+      "id": "5aaf4234c65e0f5a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

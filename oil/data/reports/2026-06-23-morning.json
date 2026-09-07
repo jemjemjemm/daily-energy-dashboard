@@ -1,0 +1,78 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-23",
+  "slot": "morning",
+  "period_start": "2026-06-23T00:00:00+09:00",
+  "period_end": "2026-06-23T08:00:00+09:00",
+  "period_label": "2026-06-23 00:00 ~ 2026-06-23 08:00",
+  "generated_at": "2026-06-23T09:19:59.575390+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1562,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1172
+  },
+  "query_counts": {
+    "주유소 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "AI가 개스값 올렸나…가주 운전자들 ‘가격 담합’ 집단소송",
+      "url": "https://www.koreadaily.com/article/20260622152153562",
+      "source": "미주중앙일보",
+      "published_at": "2026-06-23T07:22:59.323784+09:00",
+      "snippet": "가격 담합 효과가 나타날 수 있다고 지적한다. 반면 기업들은 이러한 소프트웨어가 시장 상황에 보다 신속하게 대응하기 위한 도구일 뿐 불법적인 가격 공조와는 무관하다고 주장하고 있다. 한편 AAA에 따르면 현재 캘리포니아의 일반 휘발유 평균 가격은 갤런당 5.58달러로 전국 평균인 3.93달러보다 1.65달러...",
+      "collected_at": "2026-06-23T08:14:59.323813+09:00",
+      "normalized_title": "AI가 개스값 올렸나…가주 운전자들 ‘가격 담합’ 집단소송",
+      "source_normalized": "미주중앙일보",
+      "duplicate_key": "미주중앙일보::ai가 개스값 올렸나…가주 운전자들 ‘가격 담합’ 집단소송",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.koreadaily.com/article/20260622152153562",
+      "id": "75862744173dbf56",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

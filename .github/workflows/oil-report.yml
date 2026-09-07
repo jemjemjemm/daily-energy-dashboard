@@ -1,0 +1,90 @@
+name: F-Issue Report
+
+on:
+  schedule:
+    - cron: "10 23 * * *"
+    - cron: "10 8 * * *"
+  workflow_dispatch:
+    inputs:
+      report_slot:
+        description: "morning, evening or night"
+        required: true
+        default: morning
+        type: choice
+        options: [morning, evening, night]
+      base_date:
+        description: "YYYY-MM-DD, optional. Asia/Seoul 기준"
+        required: false
+        type: string
+      force_refresh:
+        description: "기존 raw 데이터를 다시 수집"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: oil-report-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  collect-and-build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Seoul
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      TELEGRAM_NOTIFY_ON_SUCCESS: ${{ vars.TELEGRAM_NOTIFY_ON_SUCCESS || 'false' }}
+      NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+      NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+      SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+      GOOGLE_CSE_KEY: ${{ secrets.GOOGLE_CSE_KEY }}
+      GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
+    defaults:
+      run:
+        working-directory: oil
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: oil/requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Collect news
+        run: >-
+          python scripts/collect_news.py
+          --slot "${{ inputs.report_slot || '' }}"
+          --base-date "${{ inputs.base_date || '' }}"
+          --force-refresh "${{ inputs.force_refresh || 'false' }}"
+          --include-previous-night "true"
+      - name: Build report
+        run: >-
+          python scripts/build_report.py
+          --slot "${{ inputs.report_slot || '' }}"
+          --base-date "${{ inputs.base_date || '' }}"
+          --include-previous-night "true"
+      - name: Run tests
+        run: |
+          python -m unittest discover -s tests -v
+          python scripts/validate_reports.py
+      - name: Commit generated report files
+        working-directory: .
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add oil/data oil/reports
+          git diff --cached --quiet && exit 0
+          git commit -m "Update oil issue report"
+          if git push; then exit 0; fi
+          git pull --rebase origin main
+          git push
+      - name: Notify workflow failure
+        if: failure()
+        continue-on-error: true
+        run: python scripts/telegram_notify.py --message "유가 리포트 생성에 실패했습니다. Actions 로그를 확인해 주세요."

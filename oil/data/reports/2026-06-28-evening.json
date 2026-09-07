@@ -1,0 +1,179 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-28",
+  "slot": "evening",
+  "period_start": "2026-06-28T08:00:00+09:00",
+  "period_end": "2026-06-28T17:00:00+09:00",
+  "period_label": "2026-06-28 08:00 ~ 2026-06-28 17:00",
+  "generated_at": "2026-06-28T19:33:37.664520+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1521,
+  "total_deduped_count": 4,
+  "total_ok_count": 4,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1131
+  },
+  "query_counts": {
+    "석유 담합": 3,
+    "유가 담합": 4,
+    "유가담합": 4
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "뉴스1",
+      "url": "https://v.daum.net/channel/396/home",
+      "source": "뉴스1",
+      "published_at": "2026-06-28T08:32:58.715145+09:00",
+      "snippet": "수급 상황을 상시 점검하기로 했다. 석유류 최고가격도 국제유가 하락분을 반영해 인하하고 유류세 인하 연장 여부를 검토하는 한편...동결하기로 했다. 소상공인 지원 확대와 매점매석 단속, 담합 조사 강화도 병행한다. 구윤철 부총리 겸 재정경제부 장관은 지난... 11시간 전 9",
+      "collected_at": "2026-06-28T19:32:58.715174+09:00",
+      "normalized_title": "뉴스1",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::뉴스1",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/396/home",
+      "id": "c8ccc99cbe11b78a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "계란 10개 5천원·고등어 폭등에…'1조원' 쏟아부어 물가 사수 총력전",
+      "url": "https://www.news1.kr/economy/trend/6209892",
+      "source": "뉴스1",
+      "published_at": "2026-06-28T08:32:57.016576+09:00",
+      "snippet": "석유류 최고가격도 국제유가 하락분을 반영해 인하하고 유류세 인하 연장 여부를 검토하는 한편 전기·가스요금은 하반기 동결하기로 했다. 소상공인 지원 확대와 매점매석 단속, 담합 조사 강화도 병행한다. 구윤철 부총리 겸 재정경제부 장관은 지난 26일 이 같은 대책을 발표한 자리에서 \"하반기...",
+      "collected_at": "2026-06-28T19:32:57.016594+09:00",
+      "normalized_title": "계란 10개 5천원·고등어 폭등에…'1조원' 쏟아부어 물가 사수 총력전",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::계란 10개 5천원·고등어 폭등에…'1조원' 쏟아부어 물가 사수 총력전",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.news1.kr/economy/trend/6209892",
+      "id": "5c90bb6783e9ab4b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "계란 10개 5천원·고등어 폭등에…'1조원' 쏟아부어 물가 사수 총력전",
+      "url": "http://v.daum.net/v/20260628080218107",
+      "source": "11시간 전",
+      "published_at": "2026-06-28T08:32:58.715662+09:00",
+      "snippet": "수급 상황을 상시 점검하기로 했다. 석유류 최고가격도 국제유가 하락분을 반영해 인하하고 유류세 인하 연장 여부를 검토하는 한편...동결하기로 했다. 소상공인 지원 확대와 매점매석 단속, 담합 조사 강화도 병행한다. 구윤철 부총리 겸 재정경제부 장관은 지난... 11시간 전 9",
+      "collected_at": "2026-06-28T19:32:58.715677+09:00",
+      "normalized_title": "계란 10개 5천원·고등어 폭등에…'1조원' 쏟아부어 물가 사수 총력전",
+      "source_normalized": "11시간 전",
+      "duplicate_key": "11시간 전::계란 10개 5천원·고등어 폭등에…'1조원' 쏟아부어 물가 사수 총력전",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260628080218107",
+      "id": "848de080f2b4a61c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[임종룡의 관치금융 역설] 보험·증권 품었지만 순익은 '나홀로 후퇴'…...",
+      "url": "https://www.sjsori.com/news/articleView.html?idxno=87100",
+      "source": "세종의 소리",
+      "published_at": "2026-06-28T08:32:57.015131+09:00",
+      "snippet": "우리금융은 주택담보대출 담합 관련 과징금 충당금 515억원을 반영한 점을 고려하면 사실상 역대 최대 실적이라고... 우리금융은 인도네시아 소다라은행과 관련한 1380억원 규모의 충당금과 희망퇴직 비용, 금융시장 변동에 따른 유가증...",
+      "collected_at": "2026-06-28T19:32:57.015162+09:00",
+      "normalized_title": "[임종룡의 관치금융 역설] 보험·증권 품었지만 순익은 '나홀로 후퇴'…...",
+      "source_normalized": "세종의 소리",
+      "duplicate_key": "세종의 소리::[임종룡의 관치금융 역설] 보험·증권 품었지만 순익은 '나홀로 후퇴'…...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.sjsori.com/news/articleView.html?idxno=87100",
+      "id": "62ffd2562470a778",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

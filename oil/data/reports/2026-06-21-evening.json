@@ -1,0 +1,299 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-21",
+  "slot": "evening",
+  "period_start": "2026-06-21T08:00:00+09:00",
+  "period_end": "2026-06-21T17:00:00+09:00",
+  "period_label": "2026-06-21 08:00 ~ 2026-06-21 17:00",
+  "generated_at": "2026-06-22T09:38:05.693761+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1497,
+  "total_deduped_count": 7,
+  "total_ok_count": 7,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 2,
+    "B": 2,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1107
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 4,
+    "공정위 유가 담합": 1,
+    "기름값 담합": 4,
+    "석유 담합": 4,
+    "유가 담합": 4,
+    "유가담합": 4,
+    "정유사 담합": 4,
+    "정유업계 담합": 2,
+    "주유소 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "국민일보",
+      "url": "https://v.daum.net/channel/45/home",
+      "source": "국민일보",
+      "published_at": "2026-06-21T16:23:55.273151+09:00",
+      "snippet": "장기화하는 중동발 유가 충격은 내수 전반을 위협하고 있다. 담합 제재로 겨우 눌러온 가공식품 물가와 농축산물 수급 불안, 여름철...물가 압박’으로 번질 수 있다는 분석이다. 21일 한국석유공사에 따르면 19일 기준 배럴당 두바이유는 73.61달러, 브렌트유는... 4시간 전",
+      "collected_at": "2026-06-21T20:23:55.273167+09:00",
+      "normalized_title": "국민일보",
+      "source_normalized": "국민일보",
+      "duplicate_key": "국민일보::국민일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/45/home",
+      "id": "24bfcc347c6ceaa1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "또 닫힌 호르무즈, 사라지지 않는 물가 리스크… 폭염까지 덮쳐온다",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=0029999015&code=61141111&cp=nv",
+      "source": "국민일보",
+      "published_at": "2026-06-21T16:23:53.993183+09:00",
+      "snippet": "담합 제재로 겨우 눌러온 가공식품 물가와 농축산물 수급 불안, 여름철 ‘히트플레이션’(폭염으로 인한 물가 상승)까지 자극하며 ‘3중 물가 압박’으로 번질 수 있다는 분석이다. 21일 한국석유공사에 따르면 19일 기준 배럴당 두바이유는 73.61달러, 브렌트유는 80.57달러로 집계됐다. 각각 전장보다 0.52%, 0.72...",
+      "collected_at": "2026-06-21T20:23:53.993203+09:00",
+      "normalized_title": "또 닫힌 호르무즈, 사라지지 않는 물가 리스크… 폭염까지 덮쳐온다",
+      "source_normalized": "국민일보",
+      "duplicate_key": "국민일보::또 닫힌 호르무즈, 사라지지 않는 물가 리스크… 폭염까지 덮쳐온다",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.kmib.co.kr/article/view.asp?arcid=0029999015&code=61141111&cp=nv",
+      "id": "5ecba8c8d58aec32",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스TV",
+      "url": "https://v.daum.net/channel/318/home",
+      "source": "연합뉴스TV",
+      "published_at": "2026-06-21T11:24:00.657396+09:00",
+      "snippet": "어떤 형태로든 제재 유력해졌습니다. 마지막은 HD현대오일뱅크 보시죠. 검찰 담합 수사 타깃 되더니 결국 구속자 나왔습니다. 기름값 담합 잡겠다는 검찰의 첫 정유사 임직원 신병확보인데요. 검찰은 그간 압수수색 등을 통해 HD현대오일뱅크 외에 SK에너지,GS칼텍스... 9시간 전",
+      "collected_at": "2026-06-21T20:24:00.657412+09:00",
+      "normalized_title": "연합뉴스TV",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::연합뉴스tv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/318/home",
+      "id": "3c5f8f96c9d1d1e1",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[기업기상도] '맑음' 예보 뜬 기업 vs'호우경보' 내린 기업",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH20260620130408DV1",
+      "source": "연합뉴스TV",
+      "published_at": "2026-06-21T11:23:59.753078+09:00",
+      "snippet": "공정거래위원회 조사 시작되자 배민 3천억원, 쿠팡이츠는 600억원 규모 상생안 내놓고 제재 말아달란 동의의결 신청냈지만 공정위가 기각했습니다. 피해... 기름값 담합 잡겠다는 검찰의 첫 정유사 임직원 신병확보인데요. 검찰은 그간 압수수색 등을 통해 HD현대오일뱅크 외에 SK에너지,GS칼텍스,S오일 등 4시가...",
+      "collected_at": "2026-06-21T20:23:59.753095+09:00",
+      "normalized_title": "[기업기상도] '맑음' 예보 뜬 기업 vs'호우경보' 내린 기업",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::[기업기상도] '맑음' 예보 뜬 기업 vs'호우경보' 내린 기업",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.yonhapnewstv.co.kr/news/MYH20260620130408DV1",
+      "id": "43506bf57df58d81",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "또 닫힌 호르무즈, 사라지지 않는 물가 리스크… 폭염까지 덮쳐온다",
+      "url": "http://v.daum.net/v/20260621160318760",
+      "source": "4시간 전",
+      "published_at": "2026-06-21T16:23:55.273668+09:00",
+      "snippet": "장기화하는 중동발 유가 충격은 내수 전반을 위협하고 있다. 담합 제재로 겨우 눌러온 가공식품 물가와 농축산물 수급 불안, 여름철...물가 압박’으로 번질 수 있다는 분석이다. 21일 한국석유공사에 따르면 19일 기준 배럴당 두바이유는 73.61달러, 브렌트유는... 4시간 전",
+      "collected_at": "2026-06-21T20:23:55.273682+09:00",
+      "normalized_title": "또 닫힌 호르무즈, 사라지지 않는 물가 리스크… 폭염까지 덮쳐온다",
+      "source_normalized": "4시간 전",
+      "duplicate_key": "4시간 전::또 닫힌 호르무즈, 사라지지 않는 물가 리스크… 폭염까지 덮쳐온다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260621160318760",
+      "id": "f40b21267be5fae9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[기업기상도] '맑음' 예보 뜬 기업 vs'호우경보' 내린 기업",
+      "url": "http://v.daum.net/v/20260621110151152",
+      "source": "9시간 전",
+      "published_at": "2026-06-21T11:24:00.657905+09:00",
+      "snippet": "어떤 형태로든 제재 유력해졌습니다. 마지막은 HD현대오일뱅크 보시죠. 검찰 담합 수사 타깃 되더니 결국 구속자 나왔습니다. 기름값 담합 잡겠다는 검찰의 첫 정유사 임직원 신병확보인데요. 검찰은 그간 압수수색 등을 통해 HD현대오일뱅크 외에 SK에너지,GS칼텍스... 9시간 전",
+      "collected_at": "2026-06-21T20:24:00.657918+09:00",
+      "normalized_title": "[기업기상도] '맑음' 예보 뜬 기업 vs'호우경보' 내린 기업",
+      "source_normalized": "9시간 전",
+      "duplicate_key": "9시간 전::[기업기상도] '맑음' 예보 뜬 기업 vs'호우경보' 내린 기업",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260621110151152",
+      "id": "f5058ba69e68ffbd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "15년째 법정 문턱 넘지 못한 정유사 가격담합 의혹 — 검찰은 대표 폰부...",
+      "url": "http://www.breaknews.com/1215693",
+      "source": "브레이크뉴스",
+      "published_at": "2026-06-21T11:23:53.994509+09:00",
+      "snippet": "일러스트=AI 생성 15년 전, 정유사 담합 의혹은 법정 문턱을 넘지 못했다. 이번엔 검찰이 정조준했다. 검찰이 SK에너지·GS칼텍스·에쓰오일·HD현대오일뱅크 대표이사 4명의 휴대전화를 모두 압수했다. 4개사 모두다. 기름값 의혹은 다시...",
+      "collected_at": "2026-06-21T20:23:53.994524+09:00",
+      "normalized_title": "15년째 법정 문턱 넘지 못한 정유사 가격담합 의혹 — 검찰은 대표 폰부...",
+      "source_normalized": "브레이크뉴스",
+      "duplicate_key": "브레이크뉴스::15년째 법정 문턱 넘지 못한 정유사 가격담합 의혹 — 검찰은 대표 폰부...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "http://www.breaknews.com/1215693",
+      "id": "52442bea062d1cf9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

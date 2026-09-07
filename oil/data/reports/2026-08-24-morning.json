@@ -1,0 +1,338 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-24",
+  "slot": "morning",
+  "period_start": "2026-08-24T00:00:00+09:00",
+  "period_end": "2026-08-24T08:00:00+09:00",
+  "period_label": "2026-08-24 00:00 ~ 2026-08-24 08:00",
+  "generated_at": "2026-08-24T08:33:57.798105+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1554,
+  "total_deduped_count": 8,
+  "total_ok_count": 8,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 8
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1164
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 3,
+    "공정위 유가 담합": 5,
+    "석유 담합": 8,
+    "석유제품 담합": 4,
+    "유가 담합": 6,
+    "유가담합": 6,
+    "유류가격 담합": 1,
+    "정유사 담합": 3,
+    "정유업계 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[최고가제, 시행 반년④]정부 1차 손실 5000억~6000억 추산…업계는 \"兆 단위\"",
+      "url": "http://v.daum.net/v/20260824062024236",
+      "source": "대한경제",
+      "published_at": "2026-08-24T06:23:15.523284+09:00",
+      "snippet": "제도시행 당시 총 4.2조 규모 확보 업계는 원가 자료ㆍ담합조사 부담감 [대한경제=신보훈 기자]정부가 석유 최고가격제에 따른 정유사 손실 보전 작업에 본격 착수하면서 정산금 규모도 눈길을 끌고 있다. 23일 산업통상부에 따르면 이번에 정산하는 1차 구간은 석유... 2시간 전",
+      "collected_at": "2026-08-24T08:23:15.523311+09:00",
+      "normalized_title": "[최고가제, 시행 반년④]정부 1차 손실 5000억~6000억 추산…업계는 \"兆 단위\"",
+      "source_normalized": "대한경제",
+      "duplicate_key": "대한경제::[최고가제, 시행 반년④]정부 1차 손실 5000억~6000억 추산…업계는 \"兆 단위\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://v.daum.net/v/20260824062024236",
+      "id": "a9810f3b642dd753",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "대한경제",
+      "url": "https://v.daum.net/channel/552780/home",
+      "source": "대한경제",
+      "published_at": "2026-08-24T06:23:14.116352+09:00",
+      "snippet": "제도시행 당시 총 4.2조 규모 확보 업계는 원가 자료ㆍ담합조사 부담감 [대한경제=신보훈 기자]정부가 석유 최고가격제에 따른 정유사 손실 보전 작업에 본격 착수하면서 정산금 규모도 눈길을 끌고 있다. 23일 산업통상부에 따르면 이번에 정산하는 1차 구간은 석유... 2시간 전",
+      "collected_at": "2026-08-24T08:23:14.116369+09:00",
+      "normalized_title": "대한경제",
+      "source_normalized": "대한경제",
+      "duplicate_key": "대한경제::대한경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/552780/home",
+      "id": "307451920ccec2b1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "롯데케미칼·HD현대케미칼 '대산 1호' 승인…EVA 95% 과점에 가격 5년 제...새 창 열림",
+      "url": "https://www.newswhoplus.com/news/articleView.html?idxno=67688",
+      "source": "새 창 열림",
+      "published_at": "2026-08-24T07:30:29.604355+09:00",
+      "snippet": "국내 LDPE 시장에서는 1994년 4월부터 2005년 4월까지 10년 넘게 판매가격 담합이 지속됐다. 공정위는 2007년 호남석유화학(현 롯데케미칼) 등 7개 업체를 적발해 총 541억7500만원의 과징금을 부과했다. 공정위는 HD현대케미칼이 시장에서 가장 낮은 가격으로 제품을 공급해온 점도 별도로 봤다. HD현대케미칼은... 새 창 열림",
+      "collected_at": "2026-08-24T08:23:29.604387+09:00",
+      "normalized_title": "롯데케미칼·HD현대케미칼 '대산 1호' 승인…EVA 95% 과점에 가격 5년 제...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::롯데케미칼·hd현대케미칼 '대산 1호' 승인…eva 95% 과점에 가격 5년 제...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newswhoplus.com/news/articleView.html?idxno=67688",
+      "id": "5aaf4234c65e0f5a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[더벨][윤활유 담합 과징금 리스크] 극동유화, 시총 78% 수준 과징금 맞...새 창 열림",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608200833492300105535",
+      "source": "새 창 열림",
+      "published_at": "2026-08-24T07:23:29.605800+09:00",
+      "snippet": "10월 담합 기간 내 누적 최대 4500억원으로 추정된다. 이는 10개사 답합 매출의 22.3%에 해당하는 규모다. 이에 따라 극동유화에게 부과될 과징금은 최대 900억원 수준이 될 전망이다. 세부적으로 극동유화는 전체 매출 가운데 약 22% 내외를 유활유 사업에서 얻는다. 주력인 석유유통에 이어 윤활유 사업이... 새 창 열림",
+      "collected_at": "2026-08-24T08:23:29.605823+09:00",
+      "normalized_title": "[더벨][윤활유 담합 과징금 리스크] 극동유화, 시총 78% 수준 과징금 맞...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[더벨][윤활유 담합 과징금 리스크] 극동유화, 시총 78% 수준 과징금 맞...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608200833492300105535",
+      "id": "c396822d42b02018",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“대화만 해도 나아진다” ‘을’들에게 스피커가 돼준 이 위원회의 13년새 창 열림",
+      "url": "https://www.sisain.co.kr/news/articleView.html?idxno=58368",
+      "source": "새 창 열림",
+      "published_at": "2026-08-24T07:23:11.033535+09:00",
+      "snippet": "예를 들어 중동전쟁에 따른 유가 급증 문제를 다루는 사회적 대화를 할 때에는 담합 여부를 조사하는 공정거래위원회가 오도록 한다. 그러면 사회적 대화에 참여하는 정유업계나 석유화학업계 기업들이 좀 더 무게감을 느끼며 진지하게 대화에 임하는 환경이 조성된다. 김진우 전국가맹점주협의회 공동의장은... 새 창 열림",
+      "collected_at": "2026-08-24T08:23:11.033554+09:00",
+      "normalized_title": "“대화만 해도 나아진다” ‘을’들에게 스피커가 돼준 이 위원회의 13년새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::“대화만 해도 나아진다” ‘을’들에게 스피커가 돼준 이 위원회의 13년새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.sisain.co.kr/news/articleView.html?idxno=58368",
+      "id": "424399735214974b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유업계",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[최고가제, 시행 반년④]정부 1차 손실 5000억~6000억 추산…업계는 \"兆...새 창 열림",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202608211618421040873",
+      "source": "새 창 열림",
+      "published_at": "2026-08-24T06:23:11.034839+09:00",
+      "snippet": "싱가포르 국제 석유제품 가격(MOPS) 기준 기회비용과 유가 변동에 따른 재고평가손실 등이 제대로 반영돼야 한다는 이유에서다. 최근 공정거래위원회의... 석유업계 한 관계자는 “원가를 공개해 제출해야 한다는 점과 함께 공정위의 담합 조사 결과 발표 등 외부 여건상 굉장히 민감한 분위기가 있다”며... 새 창 열림",
+      "collected_at": "2026-08-24T08:23:11.034855+09:00",
+      "normalized_title": "[최고가제, 시행 반년④]정부 1차 손실 5000억~6000억 추산…업계는 \"兆...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[최고가제, 시행 반년④]정부 1차 손실 5000억~6000억 추산…업계는 \"兆...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202608211618421040873",
+      "id": "401b495763cee8e0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "석유제품",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“대화만 해도 나아진다” ‘을’들에게 스피커가 돼준 이 위원회의 13년",
+      "url": "http://v.daum.net/v/20260824064843538",
+      "source": "시사IN",
+      "published_at": "2026-08-24T07:23:14.115276+09:00",
+      "snippet": "김남근 의원은 “이해 당사자뿐 아니라 행정부 소관 부처가 참여하는 것이 중요하다”라고 말했다. 예를 들어 중동전쟁에 따른 유가 급증 문제를 다루는 사회적 대화를 할 때에는 담합 여부를 조사하는 공정거래위원회가 오도록 한다. 그러면 사회적 대화에 참여하는... 1시간 전 1",
+      "collected_at": "2026-08-24T08:23:14.115306+09:00",
+      "normalized_title": "“대화만 해도 나아진다” ‘을’들에게 스피커가 돼준 이 위원회의 13년",
+      "source_normalized": "시사IN",
+      "duplicate_key": "시사in::“대화만 해도 나아진다” ‘을’들에게 스피커가 돼준 이 위원회의 13년",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260824064843538",
+      "id": "1a38a7cd8990842b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "시사IN",
+      "url": "https://v.daum.net/channel/131/home",
+      "source": "시사IN",
+      "published_at": "2026-08-24T07:23:12.361049+09:00",
+      "snippet": "김남근 의원은 “이해 당사자뿐 아니라 행정부 소관 부처가 참여하는 것이 중요하다”라고 말했다. 예를 들어 중동전쟁에 따른 유가 급증 문제를 다루는 사회적 대화를 할 때에는 담합 여부를 조사하는 공정거래위원회가 오도록 한다. 그러면 사회적 대화에 참여하는... 1시간 전 1",
+      "collected_at": "2026-08-24T08:23:12.361083+09:00",
+      "normalized_title": "시사IN",
+      "source_normalized": "시사IN",
+      "duplicate_key": "시사in::시사in",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/131/home",
+      "id": "e414e9bad502189c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

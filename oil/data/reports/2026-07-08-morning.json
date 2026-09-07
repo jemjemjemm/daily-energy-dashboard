@@ -1,0 +1,750 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-08",
+  "slot": "morning",
+  "period_start": "2026-07-08T00:00:00+09:00",
+  "period_end": "2026-07-08T08:00:00+09:00",
+  "period_label": "2026-07-08 00:00 ~ 2026-07-08 08:00",
+  "generated_at": "2026-07-08T09:13:31.043074+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1552,
+  "total_deduped_count": 20,
+  "total_ok_count": 20,
+  "total_review_count": 0,
+  "total_excluded_count": 6,
+  "grade_counts": {
+    "A": 6,
+    "B": 1,
+    "C": 13
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1162
+  },
+  "query_counts": {
+    "경유 담합": 6,
+    "공정거래위원회 정유사 담합": 1,
+    "공정위 유가 담합": 4,
+    "기름값 담합": 8,
+    "석유 담합": 12,
+    "석유제품 담합": 6,
+    "유가 담합": 14,
+    "유가담합": 14,
+    "정유사 담합": 10,
+    "정유업계 담합": 3,
+    "주유소 담합": 7,
+    "휘발유 담합": 6
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "조선일보",
+      "url": "https://v.daum.net/channel/200/home",
+      "source": "조선일보",
+      "published_at": "2026-07-08T01:10:41.406137+09:00",
+      "snippet": "원가를 부풀렸다고 본다. 국제 제품 가격(MOPS)과 국내 기름값이 사실상 연동된다는 정유사 주장이 틀렸다는 것이다. 검찰은 “MOPS가...중동 전쟁 때는 첫 영업일부터 정유 4사가 일제히 값을 올렸다는 점을 담합의 정황으로 제시했다. 여기에 “제조 원가 기준... 8시간 전",
+      "collected_at": "2026-07-08T09:10:41.406148+09:00",
+      "normalized_title": "조선일보",
+      "source_normalized": "조선일보",
+      "duplicate_key": "조선일보::조선일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/200/home",
+      "id": "4a6dd87e3493016c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "석유 최고가격제 손실 보전, 검찰發 돌발 변수 등장",
+      "url": "https://www.chosun.com/economy/industry-company/2026/07/08/UGBDHTL2N5BR5F4OM4WDJFDL3A/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "source": "조선일보",
+      "published_at": "2026-07-08T01:10:33.159528+09:00",
+      "snippet": "시장 가격을 인위적으로 묶어 놓고 그 손실을 예산으로 보전한다는 것인데, 검찰이 정유사들을 담합 혐의로 기소하면서 손실 범위를 정해야 하는... 국제 제품 가격(MOPS)과 국내 기름값이 사실상 연동된다는 정유사 주장이 틀렸다는 것이다. 검찰은 “MOPS가 20원 이상 크게 떨어졌을 때도 국내 가격을 동결하거나...",
+      "collected_at": "2026-07-08T09:10:33.159544+09:00",
+      "normalized_title": "석유 최고가격제 손실 보전, 검찰發 돌발 변수 등장",
+      "source_normalized": "조선일보",
+      "duplicate_key": "조선일보::석유 최고가격제 손실 보전, 검찰發 돌발 변수 등장",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 12,
+      "canonical_url": "https://www.chosun.com/economy/industry-company/2026/07/08/UGBDHTL2N5BR5F4OM4WDJFDL3A/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "id": "5cc95b8afb635b41",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국민일보",
+      "url": "https://v.daum.net/channel/45/home",
+      "source": "국민일보",
+      "published_at": "2026-07-08T02:10:40.047424+09:00",
+      "snippet": "않았다는 사실도 개탄스럽다. 앞서 검찰이 중동 전쟁 이후 현대오일뱅크·SK에너지·GS칼텍스·에쓰오일 등 정유 4사의 유가 담합 의혹을 적발해 재판에 넘긴 것도 같은 맥락이다. 검찰은 담합 규모가 총 26조원에 달하는 단일 사건 역대 최대 규모로 보고 있다... 7시간 전",
+      "collected_at": "2026-07-08T09:10:40.047436+09:00",
+      "normalized_title": "국민일보",
+      "source_normalized": "국민일보",
+      "duplicate_key": "국민일보::국민일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/45/home",
+      "id": "24bfcc347c6ceaa1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[사설] 대기업 담합으로 서민 바가지 씌워서야",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1783408087&code=11171111&cp=nv",
+      "source": "국민일보",
+      "published_at": "2026-07-08T02:10:33.158458+09:00",
+      "snippet": "앞서 검찰이 중동 전쟁 이후 현대오일뱅크·SK에너지·GS칼텍스·에쓰오일 등 정유 4사의 유가 담합 의혹을 적발해 재판에 넘긴 것도 같은 맥락이다. 검찰은 담합 규모가 총 26조원에 달하는 단일 사건 역대 최대 규모로 보고 있다. 상당한 원유를 이미 비축해 원가 부담이 크지 않았는데도 국제 정세를 명분으로...",
+      "collected_at": "2026-07-08T09:10:33.158469+09:00",
+      "normalized_title": "[사설] 대기업 담합으로 서민 바가지 씌워서야",
+      "source_normalized": "국민일보",
+      "duplicate_key": "국민일보::[사설] 대기업 담합으로 서민 바가지 씌워서야",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://www.kmib.co.kr/article/view.asp?arcid=1783408087&code=11171111&cp=nv",
+      "id": "0a4e611517056fe6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이데일리",
+      "url": "https://v.daum.net/channel/6/home",
+      "source": "이데일리",
+      "published_at": "2026-07-08T05:11:42.751716+09:00",
+      "snippet": "전분당 담합(대상·삼양사·사조 CPK·CJ제일제당) 과징금 7476억원이 추가로 부과됐다. 여기에 배달앱 사건과 국고채·석유화학 담합 등 초대형 사건이 줄줄이 위원회 심의를 기다리고 있어, 심의 결과에 따라 올해 전체 과징금 규모가 전무후무한 수준으로 불어날... 4시간 전 1",
+      "collected_at": "2026-07-08T09:11:42.751728+09:00",
+      "normalized_title": "이데일리",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::이데일리",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/6/home",
+      "id": "bfd3d796eb34da9b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "담합 땐 패가망신...'수조 과징금' 현실화",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01603926645512552",
+      "source": "이데일리",
+      "published_at": "2026-07-08T05:11:40.432243+09:00",
+      "snippet": "향후 국고채·석유화학 담합 등 조 단위 과징금 가능성이 거론되는 대형 사건까지 줄줄이 남아 있어, 기업 경영 전반에 ‘과징금 쇼크’가 새 변수로 떠오르고 있다. 7일 공정위는 대상·사조CPK·삼양사·CJ제일제당 등 전분·전분당 제조사 4곳이 7년 5개월간 가격 인상·인하 폭과 시기를 합의한 사실을 적발...",
+      "collected_at": "2026-07-08T09:11:40.432255+09:00",
+      "normalized_title": "담합 땐 패가망신...'수조 과징금' 현실화",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::담합 땐 패가망신...'수조 과징금' 현실화",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01603926645512552",
+      "id": "9b2bde9dd0a0f22f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁 발발하자 \"트럼프 만세!\"...26조원대 ‘유가 담합’ 정유 4사 기소",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12MVBMUTdxWEJRSUhUMGxUQzJ1RUFUWHptR0tqU2F3TFFiejBoUlR3Q2tob2hjOHJuUHZMTE1Yai12djlzV0pMN2p3ZEs4QmFkY0E?oc=5",
+      "source": "JTBC",
+      "published_at": "2026-07-08T04:21:59+09:00",
+      "snippet": "전쟁 발발하자 \"트럼프 만세!\"...26조원대 ‘유가 담합’ 정유 4사 기소 JTBC",
+      "collected_at": "2026-07-08T09:10:51.108678+09:00",
+      "normalized_title": "전쟁 발발하자 \"트럼프 만세!\"...26조원대 ‘유가 담합’ 정유 4사 기소",
+      "source_normalized": "JTBC",
+      "duplicate_key": "jtbc::전쟁 발발하자 \"트럼프 만세!\"...26조원대 ‘유가 담합’ 정유 4사 기소",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12MVBMUTdxWEJRSUhUMGxUQzJ1RUFUWHptR0tqU2F3TFFiejBoUlR3Q2tob2hjOHJuUHZMTE1Yai12djlzV0pMN2p3ZEs4QmFkY0E?oc=5",
+      "id": "7485054dea79c38e",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조 유가담합' 인정되면 집단소송 가능…손해액은 고차방정식",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uWUZUNTg4UGNLT2U2VXpma2ZGRWRPSEhJdC0yZXFHazBWOXZJazZLbzFzZTFULUFadEN3dERZRG9YVEhGTGpxX3RRbk5PTWxWRXlncA?oc=5",
+      "source": "v.daum.net",
+      "published_at": "2026-07-08T00:02:09+09:00",
+      "snippet": "'26조 유가담합' 인정되면 집단소송 가능…손해액은 고차방정식 v.daum.net",
+      "collected_at": "2026-07-08T09:11:07.426859+09:00",
+      "normalized_title": "'26조 유가담합' 인정되면 집단소송 가능…손해액은 고차방정식",
+      "source_normalized": "v.daum.net",
+      "duplicate_key": "v.daum.net::'26조 유가담합' 인정되면 집단소송 가능…손해액은 고차방정식",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uWUZUNTg4UGNLT2U2VXpma2ZGRWRPSEhJdC0yZXFHazBWOXZJazZLbzFzZTFULUFadEN3dERZRG9YVEhGTGpxX3RRbk5PTWxWRXlncA?oc=5",
+      "id": "6c0961808249d1da",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[기획] '적자 수렁' 대한제분의 역설… 오너가 채운 28억 배당금과 '5인...",
+      "url": "https://www.nbntv.co.kr/news/articleView.html?idxno=4022805",
+      "source": "내외경제tv",
+      "published_at": "2026-07-08T07:10:33.154624+09:00",
+      "snippet": "◆ 환율·유가 폭탄… 탈출구 막힌 '수입 밀 100%'의 역습 수익의 절대적인 부분을 내수에 의존하는 구조와 달리, 원재료인 밀의 수입 의존도가 100%에... 공정위는 지난 5월 7개 밀가루 제조·판매 사업자들의 가격 및 물량 담합 행위를 적발하고 총 6710억 원의 과징금을 부과했다. 이 중 대한제분이 부과받은...",
+      "collected_at": "2026-07-08T09:10:33.154637+09:00",
+      "normalized_title": "[기획] '적자 수렁' 대한제분의 역설… 오너가 채운 28억 배당금과 '5인...",
+      "source_normalized": "내외경제tv",
+      "duplicate_key": "내외경제tv::[기획] '적자 수렁' 대한제분의 역설… 오너가 채운 28억 배당금과 '5인...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.nbntv.co.kr/news/articleView.html?idxno=4022805",
+      "id": "d56c439203c994a3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[출근길 브리핑-7월 8일] 李대통령 '튀르키예' 출국·檢 '장윤기 사건' ...",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=846418",
+      "source": "뉴스웍스",
+      "published_at": "2026-07-08T06:10:33.156468+09:00",
+      "snippet": "유가증권시장에서 외국인은 2조9173억원을 순매도하며 13거래일 연속 순매도세를 이어갔습니다. 시가총액 상위 종목은 대부분 약세였습니다.... ◆전분당 가격담합 4사 과징금 7400억 공정거래위원회가 대상, 사조CPK, 삼양사, CJ제일제당 등 4개 전분 및 전분당 제조·판매 사업자에 7400억대 과징금을...",
+      "collected_at": "2026-07-08T09:10:33.156477+09:00",
+      "normalized_title": "[출근길 브리핑-7월 8일] 李대통령 '튀르키예' 출국·檢 '장윤기 사건' ...",
+      "source_normalized": "뉴스웍스",
+      "duplicate_key": "뉴스웍스::[출근길 브리핑-7월 8일] 李대통령 '튀르키예' 출국·檢 '장윤기 사건' ...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.newsworks.co.kr/news/articleView.html?idxno=846418",
+      "id": "bbc3c85bb236d38f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "가격담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[N2 모닝 경제 브리핑-7월 8일] 美 증시, 반도체주 급락 여파·유가 급등...",
+      "url": "https://www.news2day.co.kr/article/20260708500014",
+      "source": "뉴스투데이",
+      "published_at": "2026-07-08T07:10:33.152803+09:00",
+      "snippet": "가격 담합 제재 이유로 과징금 2341억4100만원 부과 관련 \"법률 절차에 따라 대응\" 예정 - 주연테크 : 오는 22일 임시주주총회 개최 - 유티아이 : 25억원 규모의 전환사채권 발행결정 - 데이타솔루션 : AI컴퓨팅자원 활용기반 강화 사업 관련해 약 4381억원 규모로 계약체결 - 선바이오 : 오는 21일 IR 개최...",
+      "collected_at": "2026-07-08T09:10:33.152816+09:00",
+      "normalized_title": "[N2 모닝 경제 브리핑-7월 8일] 美 증시, 반도체주 급락 여파·유가 급등...",
+      "source_normalized": "뉴스투데이",
+      "duplicate_key": "뉴스투데이::[n2 모닝 경제 브리핑-7월 8일] 美 증시, 반도체주 급락 여파·유가 급등...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.news2day.co.kr/article/20260708500014",
+      "id": "4edb2f4250e912d6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조 유가담합' 인정되면 집단소송 가능…손해액은 고차방정식",
+      "url": "https://news.tf.co.kr/read/life/2340838.htm",
+      "source": "더팩트",
+      "published_at": "2026-07-08T00:10:44.388367+09:00",
+      "snippet": "정유사 유죄 확정되면 민사상 손해배상 책임 국제 유가 등 변수 많아 손해액 산정 까다로워 26조 원 경쟁 제한 규모의 유가 담합 혐의로 정유사들이 재판에 넘겨지면서 소비자와 주유소의 손해배상 소송 가능성에도 관심이 쏠린다. 형사재판에서 담합 사실이 인정되면 민사상 손해배상 청구가 가능하지만, 실제...",
+      "collected_at": "2026-07-08T09:10:44.388391+09:00",
+      "normalized_title": "'26조 유가담합' 인정되면 집단소송 가능…손해액은 고차방정식",
+      "source_normalized": "더팩트",
+      "duplicate_key": "더팩트::'26조 유가담합' 인정되면 집단소송 가능…손해액은 고차방정식",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 12,
+      "canonical_url": "https://news.tf.co.kr/read/life/2340838.htm",
+      "id": "2fbc57977a221a6d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "더팩트",
+      "url": "https://v.daum.net/channel/359/home",
+      "source": "더팩트",
+      "published_at": "2026-07-08T00:10:43.114022+09:00",
+      "snippet": "등을 반영한 회귀분석으로 담합이 없었다면 형성됐을 '가상 경쟁가격'을 산정해 손해액을 인정했다. CJ제일제당은 12억3537만 원...지난 4월 10일 오전 서울 성동구의 한 주유소 안내판에 휘발유와 경유 등 석유 가격이 표시돼 있다. /박상민 기자 다만 이번 사건은... 9시간 전 2",
+      "collected_at": "2026-07-08T09:10:43.114035+09:00",
+      "normalized_title": "더팩트",
+      "source_normalized": "더팩트",
+      "duplicate_key": "더팩트::더팩트",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/359/home",
+      "id": "e42bf7540eecea3b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[사설] 전쟁 틈탄 정유사 26조 담합, 서민 등골 빨아먹는 악덕 범죄",
+      "url": "https://www.imaeil.com/page/view/2026070717455139681",
+      "source": "매일신문",
+      "published_at": "2026-07-08T05:10:33.157433+09:00",
+      "snippet": "국제 유가와 환율 상승 때문이라던 기름값 폭등의 실체가 결국 정유사들의 노골적인 가격 짬짜미와 시장 기만(欺瞞)이었음이 검찰 수사로 드러났다. 지난... HD현대오일뱅크와 SK에너지의 직접 담합(談合) 규모만 14조2천억원에 달하고, 타사들의 추종 효과까지 감안한 국내 석유 시장의 전체 경쟁 제한 효과는...",
+      "collected_at": "2026-07-08T09:10:33.157445+09:00",
+      "normalized_title": "[사설] 전쟁 틈탄 정유사 26조 담합, 서민 등골 빨아먹는 악덕 범죄",
+      "source_normalized": "매일신문",
+      "duplicate_key": "매일신문::[사설] 전쟁 틈탄 정유사 26조 담합, 서민 등골 빨아먹는 악덕 범죄",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.imaeil.com/page/view/2026070717455139681",
+      "id": "acf284ab310af601",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[Who Is ?] 정기선 HD현대 대표이사 회장",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=441351",
+      "source": "비즈니스포스트",
+      "published_at": "2026-07-08T07:11:40.430162+09:00",
+      "snippet": "사업에서의 담합 등의 문제로 불발됐다. 사업을 주관하는 방위사업청은 논란을 의식해 2년이 넘도록 사업자 선정방식을 정하지 못하면서 당초... 2025년 9월에는 HD현대필리핀조선이 건조하는 첫 선박인 11만5천 톤급 석유화학제품운반선 건조를 위한 강재절단식을 진행했다. 정기선은 2026년 3월24일...",
+      "collected_at": "2026-07-08T09:11:40.430173+09:00",
+      "normalized_title": "[Who Is ?] 정기선 HD현대 대표이사 회장",
+      "source_normalized": "비즈니스포스트",
+      "duplicate_key": "비즈니스포스트::[who is ?] 정기선 hd현대 대표이사 회장",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.businesspost.co.kr/BP?command=article_view&num=441351",
+      "id": "12e117647445059d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"트럼프 만세\" '담합' 정유사 4곳 재판행",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EZUxDZWNDeHhTSVBkd3ZYdXFKczdBTEJaeENUcTlzY1FGaGptb1VNMHdtNmsxSkFjV191aXdiQkRlcFJmcHFQVEc3WjVqbzQ2dnhqdkdrdGs3Q2drWW9rNFZn?oc=5",
+      "source": "아시아뉴스통신",
+      "published_at": "2026-07-08T00:03:18+09:00",
+      "snippet": "\"트럼프 만세\" '담합' 정유사 4곳 재판행 아시아뉴스통신",
+      "collected_at": "2026-07-08T09:11:23.393007+09:00",
+      "normalized_title": "\"트럼프 만세\" '담합' 정유사 4곳 재판행",
+      "source_normalized": "아시아뉴스통신",
+      "duplicate_key": "아시아뉴스통신::\"트럼프 만세\" '담합' 정유사 4곳 재판행",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EZUxDZWNDeHhTSVBkd3ZYdXFKczdBTEJaeENUcTlzY1FGaGptb1VNMHdtNmsxSkFjV191aXdiQkRlcFJmcHFQVEc3WjVqbzQ2dnhqdkdrdGs3Q2drWW9rNFZn?oc=5",
+      "id": "5c70e5a117372cf4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "세종시에 둥지 트는 ‘석유통합관제센터’…석유관리원 ‘지방 이전’ 신호탄?",
+      "url": "http://v.daum.net/v/20260708062006400",
+      "source": "에너지경제",
+      "published_at": "2026-07-08T07:10:38.470666+09:00",
+      "snippet": "1692.9원에서 3월7일 1889.4원으로 일주일 만에 11.6% 올랐고, 경유의 경우 같은 기간 1597.9원에서 1910.6원으로 19.6% 올랐다...반발했다. 이재명 대통령은 3월 6일 SNS를 통해 “(기름값) 담합 가격조작은 대국민 중대범죄이다. 그 대가가 얼마나 큰지 곧 알게 될... 2시간 전",
+      "collected_at": "2026-07-08T09:10:38.470693+09:00",
+      "normalized_title": "세종시에 둥지 트는 ‘석유통합관제센터’…석유관리원 ‘지방 이전’ 신호탄?",
+      "source_normalized": "에너지경제",
+      "duplicate_key": "에너지경제::세종시에 둥지 트는 ‘석유통합관제센터’…석유관리원 ‘지방 이전’ 신호탄?",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://v.daum.net/v/20260708062006400",
+      "id": "41c7d0a520e77d46",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "기름값",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "에너지경제",
+      "url": "https://v.daum.net/channel/552792/home",
+      "source": "에너지경제",
+      "published_at": "2026-07-08T07:10:36.871452+09:00",
+      "snippet": "1692.9원에서 3월7일 1889.4원으로 일주일 만에 11.6% 올랐고, 경유의 경우 같은 기간 1597.9원에서 1910.6원으로 19.6% 올랐다...반발했다. 이재명 대통령은 3월 6일 SNS를 통해 “(기름값) 담합 가격조작은 대국민 중대범죄이다. 그 대가가 얼마나 큰지 곧 알게 될... 2시간 전",
+      "collected_at": "2026-07-08T09:10:36.871464+09:00",
+      "normalized_title": "에너지경제",
+      "source_normalized": "에너지경제",
+      "duplicate_key": "에너지경제::에너지경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/552792/home",
+      "id": "9dd100a88d85638b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "세종시에 둥지 트는 ‘석유통합관제센터’…석유관리원 ‘지방 이전’...",
+      "url": "https://www.ekn.kr/web/view.php?key=20260707022530154",
+      "source": "에너지경제",
+      "published_at": "2026-07-08T07:10:33.153717+09:00",
+      "snippet": "한국석유공사 오피넷에 따르면 국내 주유소 판매가격은 보통휘발유의 경우 2월28일 리터당 1692.9원에서 3월7일 1889.4원으로 일주일 만에 11.6% 올랐고... 이재명 대통령은 3월 6일 SNS를 통해 “(기름값) 담합 가격조작은 대국민 중대범죄이다. 그 대가가 얼마나 큰지 곧 알게 될 것\"이라며 “불법을 자행하며...",
+      "collected_at": "2026-07-08T09:10:33.153729+09:00",
+      "normalized_title": "세종시에 둥지 트는 ‘석유통합관제센터’…석유관리원 ‘지방 이전’...",
+      "source_normalized": "에너지경제",
+      "duplicate_key": "에너지경제::세종시에 둥지 트는 ‘석유통합관제센터’…석유관리원 ‘지방 이전’...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.ekn.kr/web/view.php?key=20260707022530154",
+      "id": "1e26e64e1ac8f531",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "기름값",
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독]정유 4사 담합 검찰 기소…과징금 규모 2조원 넘을 수도",
+      "url": "http://www.joseilbo.com/news/news_read.php?uid=571466&class=17&grp=",
+      "source": "조세일보",
+      "published_at": "2026-07-08T07:11:08.634443+09:00",
+      "snippet": "앞서 2009년에는 LPG 공급사 6곳의 가격담합에 6689억원, 올해 3개 제당사의 설탕 담합에 4083억원, 6개 제지사의 인쇄용지 담합에 3383억원의 과징금을 부과했다. 같은 정유업계에서는 2011년 정유 4사의 이른바 '주유소 원적관리' 담합 사건에서 공정위가 4300억원대 과징금을 부과한 사례가 있다. 다만 이 사건은...",
+      "collected_at": "2026-07-08T09:11:08.634454+09:00",
+      "normalized_title": "정유 4사 담합 검찰 기소…과징금 규모 2조원 넘을 수도",
+      "source_normalized": "조세일보",
+      "duplicate_key": "조세일보::정유 4사 담합 검찰 기소…과징금 규모 2조원 넘을 수도",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://www.joseilbo.com/news/news_read.php?uid=571466&class=17&grp=",
+      "id": "b87f41e357b15850",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "주유소",
+        "LPG",
+        "공정위",
+        "담합",
+        "가격담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

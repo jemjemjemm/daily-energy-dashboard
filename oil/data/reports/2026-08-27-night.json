@@ -1,0 +1,108 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-27",
+  "slot": "night",
+  "period_start": "2026-08-27T17:00:00+09:00",
+  "period_end": "2026-08-28T00:00:00+09:00",
+  "period_label": "2026-08-27 17:00 ~ 2026-08-28 00:00",
+  "generated_at": "2026-08-28T15:55:14.521864+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1509,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1119
+  },
+  "query_counts": {
+    "유가 담합": 2,
+    "유가담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "창녕, 피서지 물가 합동 점검새 창 열림",
+      "url": "http://www.gnmaeil.com/news/articleView.html?idxno=593660",
+      "source": "새 창 열림",
+      "published_at": "2026-08-27T22:23:26.676314+09:00",
+      "snippet": "인상 △담합에 의한 가격 책정 △서비스 요금 과다 인상 및 서비스 질 저하 △가격표시제 및 원산지 표시 이행 여부 등이다. 이번 점검에는 경남도 물가책임관으로 창녕군을 담당하는 신종우 경상남도 행정국장과 이성봉 건설산업국장이 현장을 세심하게 점검하고, 고유가·고물가·고금리로 어려움을 겪고 있는... 새 창 열림",
+      "collected_at": "2026-08-28T08:23:26.676348+09:00",
+      "normalized_title": "창녕, 피서지 물가 합동 점검새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::창녕, 피서지 물가 합동 점검새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.gnmaeil.com/news/articleView.html?idxno=593660",
+      "id": "e004562560cf7308",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "창녕군, 여름 휴가철 피서지 물가 점검새 창 열림",
+      "url": "http://www.gndomin.com/news/articleView.html?idxno=487077",
+      "source": "새 창 열림",
+      "published_at": "2026-08-27T18:23:26.677223+09:00",
+      "snippet": "인상 ▲담합에 의한 가격 책정 ▲서비스 요금 과다 인상 및 서비스 질 저하 ▲가격표시제 및 원산지 표시 이행 여부 등이다. 이날 점검에는 경남도 물가책임관으로 창녕군을 담당하는 신종우 경상남도 행정국장과 이성봉 건설산업국장이 참여해 현장을 세심하게 살피고, 고유가·고물가·고금리로 어려움을 겪고... 새 창 열림",
+      "collected_at": "2026-08-28T08:23:26.677235+09:00",
+      "normalized_title": "창녕군, 여름 휴가철 피서지 물가 점검새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::창녕군, 여름 휴가철 피서지 물가 점검새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.gndomin.com/news/articleView.html?idxno=487077",
+      "id": "1292c1c365fad9c9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

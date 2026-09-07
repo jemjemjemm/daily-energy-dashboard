@@ -1,0 +1,143 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-16",
+  "slot": "night",
+  "period_start": "2026-06-16T17:00:00+09:00",
+  "period_end": "2026-06-17T00:00:00+09:00",
+  "period_label": "2026-06-16 17:00 ~ 2026-06-17 00:00",
+  "generated_at": "2026-06-22T16:40:03.010036+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1535,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 1,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1145
+  },
+  "query_counts": {
+    "기름값 담합": 1,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "정유사 담합": 2,
+    "정유업계 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[취재후일담] 최고가격제 정산 앞두고… 공교로운 정유사 담합 수사",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4ycDlQR0YxQURkekQya2lyRGJzUE12a1JsQ0pHU3lvZXAyVW1jaDJySk1GU3NwZG9FUDNfbXBoTTdtdV9rZEVNa1JJSndxX2Z0aTY3aTl0NGNNUmY1aXR2SXNoVFYyZEM5NzlMWjBn?oc=5",
+      "source": "아시아투데이",
+      "published_at": "2026-06-16T17:00:03+09:00",
+      "snippet": "[취재후일담] 최고가격제 정산 앞두고… 공교로운 정유사 담합 수사 아시아투데이",
+      "collected_at": "2026-06-19T16:41:10.309863+09:00",
+      "normalized_title": "[취재후일담] 최고가격제 정산 앞두고… 공교로운 정유사 담합 수사",
+      "source_normalized": "아시아투데이",
+      "duplicate_key": "아시아투데이::[취재후일담] 최고가격제 정산 앞두고… 공교로운 정유사 담합 수사",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4ycDlQR0YxQURkekQya2lyRGJzUE12a1JsQ0pHU3lvZXAyVW1jaDJySk1GU3NwZG9FUDNfbXBoTTdtdV9rZEVNa1JJSndxX2Z0aTY3aTl0NGNNUmY1aXR2SXNoVFYyZEM5NzlMWjBn?oc=5",
+      "id": "777f893bb5e5a3c8",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, HD현대오일뱅크 임직원 2명 구속영장… 정유4사 유가담합 수사 본격화",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9sbmZzYzdUOG8zd0d2SHBBLURrVHY4VWdnOGk1cFh4TVU1TFlNMnFzVzFVNGxtbUhrdGhjZjZZU3cyZV9HclRBV0FIcUV6SFlLTzFRWGRQTmpmNWFU?oc=5",
+      "source": "스카이데일리",
+      "published_at": "2026-06-16T20:04:23+09:00",
+      "snippet": "검찰, HD현대오일뱅크 임직원 2명 구속영장… 정유4사 유가담합 수사 본격화 스카이데일리",
+      "collected_at": "2026-06-19T16:41:24.975191+09:00",
+      "normalized_title": "검찰, HD현대오일뱅크 임직원 2명 구속영장… 정유4사 유가담합 수사 본격화",
+      "source_normalized": "스카이데일리",
+      "duplicate_key": "스카이데일리::검찰, hd현대오일뱅크 임직원 2명 구속영장… 정유4사 유가담합 수사 본격화",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9sbmZzYzdUOG8zd0d2SHBBLURrVHY4VWdnOGk1cFh4TVU1TFlNMnFzVzFVNGxtbUhrdGhjZjZZU3cyZV9HclRBV0FIcUV6SFlLTzFRWGRQTmpmNWFU?oc=5",
+      "id": "1136a3349c806a00",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘전쟁 중 기름값 담합’ 수사 가속도…정유4사 최고가격제 손실 최대한 보전 주장 흔들리나",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ubTRVSmpva0NzcVRqTWxIZU14M2M2UldfSWlFdEY1amRlZjZZMzVCQnA5cW0xeGZiTldjMVRSNUYxaEdjbl9CWldONlo5OFpIYkFNVFFlTW9PbEptcGR6WmRqRnJEbGpU0gFsQVVfeXFMTnIwckxZTUx0RWUtZXBOWURYWjlfQ0hjam41YVdZMGpSTkZhUVBObGhOS1Iyd2hvWVhNdVpuS21KbnZ2a2hFUGhJLWd6ZlZ0UnFwRUtfdUJtc196RkxiZzlrYUsxS0ZDN2N4bzdH?oc=5",
+      "source": "필드뉴스",
+      "published_at": "2026-06-16T17:17:51+09:00",
+      "snippet": "‘전쟁 중 기름값 담합’ 수사 가속도…정유4사 최고가격제 손실 최대한 보전 주장 흔들리나 필드뉴스",
+      "collected_at": "2026-06-19T16:41:10.309657+09:00",
+      "normalized_title": "‘전쟁 중 기름값 담합’ 수사 가속도…정유4사 최고가격제 손실 최대한 보전 주장 흔들리나",
+      "source_normalized": "필드뉴스",
+      "duplicate_key": "필드뉴스::‘전쟁 중 기름값 담합’ 수사 가속도…정유4사 최고가격제 손실 최대한 보전 주장 흔들리나",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ubTRVSmpva0NzcVRqTWxIZU14M2M2UldfSWlFdEY1amRlZjZZMzVCQnA5cW0xeGZiTldjMVRSNUYxaEdjbl9CWldONlo5OFpIYkFNVFFlTW9PbEptcGR6WmRqRnJEbGpU0gFsQVVfeXFMTnIwckxZTUx0RWUtZXBOWURYWjlfQ0hjam41YVdZMGpSTkZhUVBObGhOS1Iyd2hvWVhNdVpuS21KbnZ2a2hFUGhJLWd6ZlZ0UnFwRUtfdUJtc196RkxiZzlrYUsxS0ZDN2N4bzdH?oc=5",
+      "id": "558902cc37e866d1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

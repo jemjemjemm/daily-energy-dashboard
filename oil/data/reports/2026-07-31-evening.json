@@ -1,0 +1,238 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-31",
+  "slot": "evening",
+  "period_start": "2026-07-31T08:00:00+09:00",
+  "period_end": "2026-07-31T17:00:00+09:00",
+  "period_label": "2026-07-31 08:00 ~ 2026-07-31 17:00",
+  "generated_at": "2026-07-31T19:50:11.551096+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1571,
+  "total_deduped_count": 6,
+  "total_ok_count": 6,
+  "total_review_count": 0,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 6
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1181
+  },
+  "query_counts": {
+    "경유 담합": 5,
+    "공정거래위원회 정유사 담합": 3,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "'11년간 담합' 바이오연료 7개사, 공정위 심의 착수새 창 열림",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=849001",
+      "source": "새 창 열림",
+      "published_at": "2026-07-31T13:49:16.707378+09:00",
+      "snippet": "공정거래위원회 사무처는 바이오연료 담합 사건에 대해 심사관이 조사한 행위 사실, 위법성 및 조치 의견 등을 기재한 심사보고서를 위원회에 제출해... 0%)해야 하는 정유사들이 입찰을 통해 이들 업체로부터 구매하고 있다. 바이오연료 중 바이오중유는 신재생에너지 공급의무화제도(RPS)에 따라 총... 새 창 열림",
+      "collected_at": "2026-07-31T19:49:16.707402+09:00",
+      "normalized_title": "'11년간 담합' 바이오연료 7개사, 공정위 심의 착수새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'11년간 담합' 바이오연료 7개사, 공정위 심의 착수새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.newsworks.co.kr/news/articleView.html?idxno=849001",
+      "id": "3da8a1b6db791775",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[오늘의 신문] 7월 코스피 34% 급락·유가 90달러 돌파…계란시장 ‘웃돈...새 창 열림",
+      "url": "http://kor.theasian.asia/archives/411141",
+      "source": "새 창 열림",
+      "published_at": "2026-07-31T13:49:09.807157+09:00",
+      "snippet": "국내 증시 폭락과 중동전쟁 재격화, 국제유가 상승이 경제 전반의 불확실성을 키우는 가운데 기업 실적과 부동산 시장에서는 업종·지역별 양극화가... 담합 제재 이후 공신력 있는 기준가격이 사라진 것도 ‘깜깜이 거래’를 키운 원인으로 꼽힌다.AI 수혜국 한국, 충격도 먼저 받나외신은 한국이 인공지능과... 새 창 열림",
+      "collected_at": "2026-07-31T19:49:09.807179+09:00",
+      "normalized_title": "[오늘의 신문] 7월 코스피 34% 급락·유가 90달러 돌파…계란시장 ‘웃돈...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[오늘의 신문] 7월 코스피 34% 급락·유가 90달러 돌파…계란시장 ‘웃돈...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://kor.theasian.asia/archives/411141",
+      "id": "cf51e05e3db95030",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "DS단석 등 7개 바이오에너지, 11년간 10조원대 담합했나?새 창 열림",
+      "url": "http://www.e-platform.net/news/articleView.html?idxno=104269",
+      "source": "새 창 열림",
+      "published_at": "2026-07-31T09:49:16.711829+09:00",
+      "snippet": "담합 사건에 대해 심사관이 조사한 행위 사실, 위법성 및 조치 의견 등을 기재한 심사보고서를 위원회에 제출해 심의한 결과를 7개 바이오연료 제조 및 판매사업자들에게 30일 송부했다고 밝혔다. 바이오연료 중 바이오디젤은 신재생연료 의무혼합제도(Renewal Fuel Standard, RFS)에 따라 자동차용 경유에... 새 창 열림",
+      "collected_at": "2026-07-31T19:49:16.711843+09:00",
+      "normalized_title": "DS단석 등 7개 바이오에너지, 11년간 10조원대 담합했나?새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::ds단석 등 7개 바이오에너지, 11년간 10조원대 담합했나?새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.e-platform.net/news/articleView.html?idxno=104269",
+      "id": "99ba3aee9557878b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "바이오연료 7개사 9조7천억원 규모 담합 의심새 창 열림",
+      "url": "http://www.e2news.com/news/articleView.html?idxno=332851",
+      "source": "새 창 열림",
+      "published_at": "2026-07-31T09:49:16.710349+09:00",
+      "snippet": "정유사와 발전사는 바이오디젤과 바이오중유를 매년 입찰을 통해 구매한다. 공정위에 따르면 담합으로 영향을 받은 입찰규모는 바이오디젤 7조7600억원, 바이오중유 1조9500억원으로 모두 9조7000억원이다. 심사대상 업체들의 시장 영향력도 큰 것으로 나타났다. 7개사의 입찰시장 점유율은 바이오디젤... 새 창 열림",
+      "collected_at": "2026-07-31T19:49:16.710366+09:00",
+      "normalized_title": "바이오연료 7개사 9조7천억원 규모 담합 의심새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::바이오연료 7개사 9조7천억원 규모 담합 의심새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.e2news.com/news/articleView.html?idxno=332851",
+      "id": "6fbd2df4991aec0d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "DS단석·애경케미칼 등 바이오연료 7개사 담합 심의 착수…11년간 담합?",
+      "url": "http://v.daum.net/v/20260731134444448",
+      "source": "수소신문",
+      "published_at": "2026-07-31T13:49:39.112885+09:00",
+      "snippet": "낙찰 예정자와 공급물량을 사전에 합의한 것으로 판단했다. 담합으로 영향을 받은 입찰 규모는 바이오디젤 약 7조7600억원, 바이오...디젤은 신재생연료 의무혼합제도(RFS)에 따라 현재 자동차용 경유에 4% 혼합이 의무화돼 있으며,SK에너지, GS칼텍스, S-OIL, HD... 6시간 전",
+      "collected_at": "2026-07-31T19:49:39.112909+09:00",
+      "normalized_title": "DS단석·애경케미칼 등 바이오연료 7개사 담합 심의 착수…11년간 담합?",
+      "source_normalized": "수소신문",
+      "duplicate_key": "수소신문::ds단석·애경케미칼 등 바이오연료 7개사 담합 심의 착수…11년간 담합?",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260731134444448",
+      "id": "b1685d3dc6f817f1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "수소신문",
+      "url": "https://v.daum.net/channel/552806/home",
+      "source": "수소신문",
+      "published_at": "2026-07-31T13:49:37.147307+09:00",
+      "snippet": "낙찰 예정자와 공급물량을 사전에 합의한 것으로 판단했다. 담합으로 영향을 받은 입찰 규모는 바이오디젤 약 7조7600억원, 바이오...디젤은 신재생연료 의무혼합제도(RFS)에 따라 현재 자동차용 경유에 4% 혼합이 의무화돼 있으며,SK에너지, GS칼텍스, S-OIL, HD... 6시간 전",
+      "collected_at": "2026-07-31T19:49:37.147332+09:00",
+      "normalized_title": "수소신문",
+      "source_normalized": "수소신문",
+      "duplicate_key": "수소신문::수소신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/552806/home",
+      "id": "3abba606bfb5d4b6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

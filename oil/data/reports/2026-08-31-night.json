@@ -1,0 +1,80 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-31",
+  "slot": "night",
+  "period_start": "2026-08-31T17:00:00+09:00",
+  "period_end": "2026-09-01T00:00:00+09:00",
+  "period_label": "2026-08-31 17:00 ~ 2026-09-01 00:00",
+  "generated_at": "2026-09-01T17:24:52.655767+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1558,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1168
+  },
+  "query_counts": {
+    "공정위 유가 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "폐가전 90% 쥐고 분담금 쥐락펴락… 재활용 공제조합 ‘복마전’새 창 열림",
+      "url": "https://www.seoul.co.kr/news/plan/2026/08/31/20260831008002?wlog_tag3=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-08-31T17:24:07.884890+09:00",
+      "snippet": "‘독점·담합’ 의혹에 휩싸였다. 삼성전자·LG전자 등으로부터 받은 운영 재원인 ‘재활용 분담금’은 제대로 된 감시를 받지 않은 채 신규 업체의... 대형 폐가전을 재활용 처리해 확보된 플라스틱 합성수지나 구리, 고철 등 유가 금속은 그대로 팔아 수익이 된다. 이들 업체의 수익률은 국내 제조업 평균... 새 창 열림",
+      "collected_at": "2026-09-01T17:24:07.884908+09:00",
+      "normalized_title": "폐가전 90% 쥐고 분담금 쥐락펴락… 재활용 공제조합 ‘복마전’새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::폐가전 90% 쥐고 분담금 쥐락펴락… 재활용 공제조합 ‘복마전’새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.seoul.co.kr/news/plan/2026/08/31/20260831008002?wlog_tag3=naver",
+      "id": "146d5e3601fb2e9e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

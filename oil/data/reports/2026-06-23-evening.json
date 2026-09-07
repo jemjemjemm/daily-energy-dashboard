@@ -1,0 +1,1019 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-23",
+  "slot": "evening",
+  "period_start": "2026-06-23T08:00:00+09:00",
+  "period_end": "2026-06-23T17:00:00+09:00",
+  "period_label": "2026-06-23 08:00 ~ 2026-06-23 17:00",
+  "generated_at": "2026-06-23T20:28:32.083946+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1431,
+  "total_deduped_count": 29,
+  "total_ok_count": 29,
+  "total_review_count": 0,
+  "total_excluded_count": 7,
+  "grade_counts": {
+    "A": 7,
+    "B": 7,
+    "C": 15
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1041
+  },
+  "query_counts": {
+    "경유 담합": 15,
+    "공정위 유가 담합": 3,
+    "기름값 담합": 14,
+    "석유 담합": 3,
+    "석유제품 담합": 2,
+    "유가 담합": 12,
+    "유가담합": 12,
+    "주유소 담합": 20,
+    "휘발유 담합": 21
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "\"누가 총대 메나\" 가격 인상 카드 만지작…원가 폭탄, 식탁 덮친다",
+      "url": "https://www.mt.co.kr/living/2026/06/23/2026062314255638729",
+      "source": "머니투데이",
+      "published_at": "2026-06-23T16:19:00.241027+09:00",
+      "snippet": "중동 전쟁 장기화에 따른 고유가·고환율과 원재료 가격 상승이 이어지면서 국내 식품업계의 원가 부담이 한계에 달했다. 롯데칠성음료가 결국 가격... 한다\"며 \"불법 담합이 아니라면 자유 시장경제 논리에 따라 기업이 원가 상승분을 정상적으로 제품 가격에 반영할 수 있도록 해야 한다\"고 목소리를 높였다.",
+      "collected_at": "2026-06-23T17:19:00.241054+09:00",
+      "normalized_title": "\"누가 총대 메나\" 가격 인상 카드 만지작…원가 폭탄, 식탁 덮친다",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::\"누가 총대 메나\" 가격 인상 카드 만지작…원가 폭탄, 식탁 덮친다",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.mt.co.kr/living/2026/06/23/2026062314255638729",
+      "id": "d08b1e5754bc0907",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스",
+      "url": "https://v.daum.net/channel/2/home",
+      "source": "연합뉴스",
+      "published_at": "2026-06-23T12:19:01.376685+09:00",
+      "snippet": "책정했다. 이에 따라 휘발유 가격은 갤런당 최대 22센트, 경유 가격은 최대 33센트 더 높게 부풀려졌다고 원고 측은 주장했다. AI를...을 위반하는 행위기도 하다. 이 법은 알고리즘을 활용해 가격 담합을 하는 것을 금지하고 있다. 원고 측은 소장에서 \"(휘발유... 5시간 전",
+      "collected_at": "2026-06-23T17:19:01.376702+09:00",
+      "normalized_title": "연합뉴스",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::연합뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/2/home",
+      "id": "46cc1eae4f6d3542",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "캘리포니아 기름값 왜 비싼가 했더니…AI 가격담합 혐의로 피소",
+      "url": "https://www.yna.co.kr/view/AKR20260623087000075?input=1195m",
+      "source": "연합뉴스",
+      "published_at": "2026-06-23T12:19:00.248115+09:00",
+      "snippet": "이에 따라 휘발유 가격은 갤런당 최대 22센트, 경유 가격은 최대 33센트 더 높게 부풀려졌다고 원고 측은 주장했다. AI를 활용해 가격을 높이는 것은 올해 1월 발효된 캘리포니아주 반독점법인 '카트라이트법'을 위반하는 행위기도 하다. 이 법은 알고리즘을 활용해 가격 담합을 하는 것을 금지하고 있다. 원고...",
+      "collected_at": "2026-06-23T17:19:00.248130+09:00",
+      "normalized_title": "캘리포니아 기름값 왜 비싼가 했더니…AI 가격담합 혐의로 피소",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::캘리포니아 기름값 왜 비싼가 했더니…ai 가격담합 혐의로 피소",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.yna.co.kr/view/AKR20260623087000075?input=1195m",
+      "id": "6a710380d9792852",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "경유",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴시스",
+      "url": "https://v.daum.net/channel/21/home",
+      "source": "뉴시스",
+      "published_at": "2026-06-23T15:19:14.190025+09:00",
+      "snippet": "com. 2026.04.01. [서울=뉴시스]고재은 기자 = 캘리포니아주 운전자들이 미국 주유소 운영업체들이 인공지능(AI)을 활용해 휘발유 가격을 담합했다며 소송을 제기했다. 22일(현지 시간) 영국 가디언 등에 따르면 BP·서클K·마라톤·세븐일레븐·월마트·알버스튼 등... 2시간 전",
+      "collected_at": "2026-06-23T17:19:14.190041+09:00",
+      "normalized_title": "뉴시스",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::뉴시스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/21/home",
+      "id": "e250fa63010cdcd6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"AI로 고유가 담합했다\"…캘리포니아 운전자들, 주유소에 소송",
+      "url": "https://www.newsis.com/view/NISX20260623_0003679976",
+      "source": "뉴시스",
+      "published_at": "2026-06-23T15:19:00.242537+09:00",
+      "snippet": "소장에는 \"일반 가구가 출퇴근 비용을 감당하기 위해 고군분투하는 동안 피고들은 경쟁을 끝내기 위해 공모했다\"며 \"피고들은 AI 기반 담합체에 합류해서 운전자가 어느 (주유소를 방문하든) 휘발유 가격이 인위적으로 높게 유지되도록 했다\"고 적시돼 있다. 피고들은 주유소 1700개 이상을 운영하고 있다....",
+      "collected_at": "2026-06-23T17:19:00.242555+09:00",
+      "normalized_title": "\"AI로 고유가 담합했다\"…캘리포니아 운전자들, 주유소에 소송",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::\"ai로 고유가 담합했다\"…캘리포니아 운전자들, 주유소에 소송",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.newsis.com/view/NISX20260623_0003679976",
+      "id": "ccae78efbeda5ac5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스1",
+      "url": "https://v.daum.net/channel/396/home",
+      "source": "뉴스1",
+      "published_at": "2026-06-23T15:19:08.992936+09:00",
+      "snippet": "통해 휘발유 가격은 갤런당 최대 22센트(약 338원), 경유 가격은 33센트(약 450원) 인상할 수 있었다고 강조했다. 소프트웨어를...동안 피고들은 경쟁을 끝내기 위해 공모했으며, AI 기반 담합체에 참여해 운전자가 어디로 향하든 휘발유 가격이 인위적으로 높게... 2시간 전",
+      "collected_at": "2026-06-23T17:19:08.992952+09:00",
+      "normalized_title": "뉴스1",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::뉴스1",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/396/home",
+      "id": "c8ccc99cbe11b78a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"AI 돌려 기름값 담합\"…美주유소 상대 운전자들 집단소송",
+      "url": "https://www.news1.kr/world/usa-canada/6205775",
+      "source": "뉴스1",
+      "published_at": "2026-06-23T15:19:08.095967+09:00",
+      "snippet": "캘리포니아주 전역에서 1700개 이상의 주유소를 운영하는 이들 업체는 '캘리브라이트'라는 기업이 개발한 AI 소프트웨어를 사용해 휘발유 가격을 담합한... 원고 측은 이들 주유소가 소프트웨어를 통해 휘발유 가격은 갤런당 최대 22센트(약 338원), 경유 가격은 33센트(약 450원) 인상할 수 있었다고 강조했다....",
+      "collected_at": "2026-06-23T17:19:08.095985+09:00",
+      "normalized_title": "\"AI 돌려 기름값 담합\"…美주유소 상대 운전자들 집단소송",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::\"ai 돌려 기름값 담합\"…美주유소 상대 운전자들 집단소송",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://www.news1.kr/world/usa-canada/6205775",
+      "id": "5f77cf0e765f5fff",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "아주경제",
+      "url": "https://v.daum.net/channel/552779/home",
+      "source": "아주경제",
+      "published_at": "2026-06-23T12:19:01.375054+09:00",
+      "snippet": "세종청사 2동 공정거래위원회.[사진=유대길 기자 dbeorlf123@ajunews.com] 공정 당국이 러시아-우크라이나 전쟁 등 유가 상승기에 윤활유 가격을 담합한 제조·판매사업자 10개사에 대한 심사를 시작한다. 공정거래위원회는 지난 4일 윤활유 담합 사건에 대해 심사관... 5시간 전",
+      "collected_at": "2026-06-23T17:19:01.375069+09:00",
+      "normalized_title": "아주경제",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::아주경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/552779/home",
+      "id": "8b7579cc6a870697",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, '2조원 윤활유 담합' 심사…한국하우톤·범우화학 등 10개사",
+      "url": "https://www.ajunews.com/view/20260623112717940",
+      "source": "아주경제",
+      "published_at": "2026-06-23T12:19:00.245351+09:00",
+      "snippet": "러우 전쟁 등 유가 상승기 담합…제조업 기업 대규모 피해 아주경제=권성진 기자 mark1312@ajunews.com 세종시 정부세종청사 2동 공정거래위원회.[사진=유대길 기자 dbeorlf123@ajunews.com] 공정 당국이 러시아-우크라이나 전쟁 등 유가 상승기에 윤활유 가격을 담합한 제조·판매사업자 10개사에 대한 심사를 시작한다....",
+      "collected_at": "2026-06-23T17:19:00.245369+09:00",
+      "normalized_title": "공정위, '2조원 윤활유 담합' 심사…한국하우톤·범우화학 등 10개사",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::공정위, '2조원 윤활유 담합' 심사…한국하우톤·범우화학 등 10개사",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.ajunews.com/view/20260623112717940",
+      "id": "c0d313535fd4c755",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중국 공세에 구조조정도 벅찬데…공정위 칼날에 떠는 K-화학",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1713538",
+      "source": "EBN",
+      "published_at": "2026-06-23T10:19:10.690666+09:00",
+      "snippet": "◆ 정부는 구조조정, 공정위는 담합 조사 문제는 정부가 현재 석유화학산업 구조조정을 추진하고 있다는 점이다. 산업통상자원부는 공급 과잉 해소를 위해 사업 재편과 설비 통폐합을 유도하고 있다. 과거 조선업이나 철강업 구조조정과 유사한 방식으로 경쟁력이 떨어지는 설비를 정리하고 고부가가치 제품...",
+      "collected_at": "2026-06-23T17:19:10.690690+09:00",
+      "normalized_title": "중국 공세에 구조조정도 벅찬데…공정위 칼날에 떠는 K-화학",
+      "source_normalized": "EBN",
+      "duplicate_key": "ebn::중국 공세에 구조조정도 벅찬데…공정위 칼날에 떠는 k-화학",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.ebn.co.kr/news/articleView.html?idxno=1713538",
+      "id": "3f65b1238fd5092c",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "YTN",
+      "url": "https://v.daum.net/channel/23/home",
+      "source": "YTN",
+      "published_at": "2026-06-23T14:19:01.373355+09:00",
+      "snippet": "법'을 위반하는 행위입니다. 이 법은 알고리즘을 활용해 가격 담합을 하는 것을 금지하고 있습니다. 원고 측은 소장에서 \"(휘발유...휘발유 가격이 높은 주로 꼽힙니다. 최근 이란 전쟁 등으로 유가가 급등한 가운데 이 지역에서는 휘발유 소매 가격이 갤런당 7달러... 3시간 전",
+      "collected_at": "2026-06-23T17:19:01.373378+09:00",
+      "normalized_title": "YTN",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::ytn",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/23/home",
+      "id": "d2d24d5b6b97e3ae",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "유난히 비싼 캘리포니아 기름값...'AI 가격 담합' 때문?",
+      "url": "https://www.ytn.co.kr/_ln/0104_202606231334293983",
+      "source": "YTN",
+      "published_at": "2026-06-23T14:19:00.243988+09:00",
+      "snippet": "이에 따라 휘발유 가격은 갤런당 최대 22센트, 경유 가격은 최대 33센트 더 높게 부풀려졌다고 원고 측은 주장했습니다. AI를 활용해 가격을 높이는 것은 올해 1월 발효된 캘리포니아주 반독점법인 '카트라이트법'을 위반하는 행위입니다. 이 법은 알고리즘을 활용해 가격 담합을 하는 것을 금지하고 있습니다....",
+      "collected_at": "2026-06-23T17:19:00.244009+09:00",
+      "normalized_title": "유난히 비싼 캘리포니아 기름값...'AI 가격 담합' 때문?",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::유난히 비싼 캘리포니아 기름값...'ai 가격 담합' 때문?",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.ytn.co.kr/_ln/0104_202606231334293983",
+      "id": "bcec1109de80cafa",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스TV",
+      "url": "https://v.daum.net/channel/318/home",
+      "source": "연합뉴스TV",
+      "published_at": "2026-06-23T15:19:08.991197+09:00",
+      "snippet": "때마다 운전자들의 연간 부담은 1억 3,400만 달러가 늘어난다\"며 손해 배상을 청구했습니다. 캘리포니아는 미국에서 휘발유 가격이 가장 비싼 주로 꼽힙니다. #캘리포니아 #기름값 #담합 #소송 연합뉴스TV 기사문의 및 제보 : 카톡/라인 jebo23 이성섭(leess@yna.co... 2시간 전",
+      "collected_at": "2026-06-23T17:19:08.991221+09:00",
+      "normalized_title": "연합뉴스TV",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::연합뉴스tv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/318/home",
+      "id": "3c5f8f96c9d1d1e1",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"AI로 기름값 담합하다니\"...미 캘리포니아 소비자, 주유소 업체에 소송",
+      "url": "http://www.yonhapnewstv.co.kr/news/AKR20260623145917X7x",
+      "source": "연합뉴스TV",
+      "published_at": "2026-06-23T15:19:08.094523+09:00",
+      "snippet": "이 법에 따라 알고리즘을 활용해 가격 담합을 하는 행위가 금지됩니다. 원고 측은 소장에서 \"(휘발유 가격이) 1센트 오를 때마다 운전자들의 연간 부담은 1억 3,400만 달러가 늘어난다\"며 손해 배상을 청구했습니다. 캘리포니아는 미국에서 휘발유 가격이 가장 비싼 주로 꼽힙니다. #캘리포니아 #기름값 #담합 #소송",
+      "collected_at": "2026-06-23T17:19:08.094543+09:00",
+      "normalized_title": "\"AI로 기름값 담합하다니\"...미 캘리포니아 소비자, 주유소 업체에 소송",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::\"ai로 기름값 담합하다니\"...미 캘리포니아 소비자, 주유소 업체에 소송",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://www.yonhapnewstv.co.kr/news/AKR20260623145917X7x",
+      "id": "185c5559769bd401",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"AI로 고유가 담합했다\"…캘리포니아 운전자들, 주유소에 소송",
+      "url": "http://v.daum.net/v/20260623144152572",
+      "source": "2시간 전",
+      "published_at": "2026-06-23T15:19:14.190547+09:00",
+      "snippet": "com. 2026.04.01. [서울=뉴시스]고재은 기자 = 캘리포니아주 운전자들이 미국 주유소 운영업체들이 인공지능(AI)을 활용해 휘발유 가격을 담합했다며 소송을 제기했다. 22일(현지 시간) 영국 가디언 등에 따르면 BP·서클K·마라톤·세븐일레븐·월마트·알버스튼 등... 2시간 전",
+      "collected_at": "2026-06-23T17:19:14.190561+09:00",
+      "normalized_title": "\"AI로 고유가 담합했다\"…캘리포니아 운전자들, 주유소에 소송",
+      "source_normalized": "2시간 전",
+      "duplicate_key": "2시간 전::\"ai로 고유가 담합했다\"…캘리포니아 운전자들, 주유소에 소송",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260623144152572",
+      "id": "95331bd8cb5eafde",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"AI 돌려 기름값 담합\"…美주유소 상대 운전자들 집단소송",
+      "url": "http://v.daum.net/v/20260623144036523",
+      "source": "2시간 전",
+      "published_at": "2026-06-23T15:19:08.993511+09:00",
+      "snippet": "통해 휘발유 가격은 갤런당 최대 22센트(약 338원), 경유 가격은 33센트(약 450원) 인상할 수 있었다고 강조했다. 소프트웨어를...동안 피고들은 경쟁을 끝내기 위해 공모했으며, AI 기반 담합체에 참여해 운전자가 어디로 향하든 휘발유 가격이 인위적으로 높게... 2시간 전",
+      "collected_at": "2026-06-23T17:19:08.993525+09:00",
+      "normalized_title": "\"AI 돌려 기름값 담합\"…美주유소 상대 운전자들 집단소송",
+      "source_normalized": "2시간 전",
+      "duplicate_key": "2시간 전::\"ai 돌려 기름값 담합\"…美주유소 상대 운전자들 집단소송",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260623144036523",
+      "id": "038bc120ca5375c7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"AI로 기름값 담합하다니\"...미 캘리포니아 소비자, 주유소 업체에 소송",
+      "url": "http://v.daum.net/v/20260623150032492",
+      "source": "2시간 전",
+      "published_at": "2026-06-23T15:19:08.991809+09:00",
+      "snippet": "때마다 운전자들의 연간 부담은 1억 3,400만 달러가 늘어난다\"며 손해 배상을 청구했습니다. 캘리포니아는 미국에서 휘발유 가격이 가장 비싼 주로 꼽힙니다. #캘리포니아 #기름값 #담합 #소송 연합뉴스TV 기사문의 및 제보 : 카톡/라인 jebo23 이성섭(leess@yna.co... 2시간 전",
+      "collected_at": "2026-06-23T17:19:08.991824+09:00",
+      "normalized_title": "\"AI로 기름값 담합하다니\"...미 캘리포니아 소비자, 주유소 업체에 소송",
+      "source_normalized": "2시간 전",
+      "duplicate_key": "2시간 전::\"ai로 기름값 담합하다니\"...미 캘리포니아 소비자, 주유소 업체에 소송",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260623150032492",
+      "id": "e12e48eaeccd036d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "美 주유소, AI로 가격 '짬짜미' 혐의로 피소",
+      "url": "http://v.daum.net/v/20260623133901795",
+      "source": "3시간 전",
+      "published_at": "2026-06-23T14:19:14.195484+09:00",
+      "snippet": "책정했습니다. 이에 따라 휘발유 가격은 갤런당 최대 22센트, 경유 가격은 최대 33센트 더 높게 부풀려졌다고 원고 측은 주장했습니다...을 위반하는 행위기도 합닏. 이 법은 알고리즘을 활용해 가격 담합을 하는 것을 금지하고 있습니다. 원고 측은 소장에서... 3시간 전",
+      "collected_at": "2026-06-23T17:19:14.195498+09:00",
+      "normalized_title": "美 주유소, AI로 가격 '짬짜미' 혐의로 피소",
+      "source_normalized": "3시간 전",
+      "duplicate_key": "3시간 전::美 주유소, ai로 가격 '짬짜미' 혐의로 피소",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260623133901795",
+      "id": "3979fcb17e94e160",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "유난히 비싼 캘리포니아 기름값...'AI 가격 담합' 때문?",
+      "url": "http://v.daum.net/v/20260623134013854",
+      "source": "3시간 전",
+      "published_at": "2026-06-23T14:19:01.373905+09:00",
+      "snippet": "법'을 위반하는 행위입니다. 이 법은 알고리즘을 활용해 가격 담합을 하는 것을 금지하고 있습니다. 원고 측은 소장에서 \"(휘발유...휘발유 가격이 높은 주로 꼽힙니다. 최근 이란 전쟁 등으로 유가가 급등한 가운데 이 지역에서는 휘발유 소매 가격이 갤런당 7달러... 3시간 전",
+      "collected_at": "2026-06-23T17:19:01.373938+09:00",
+      "normalized_title": "유난히 비싼 캘리포니아 기름값...'AI 가격 담합' 때문?",
+      "source_normalized": "3시간 전",
+      "duplicate_key": "3시간 전::유난히 비싼 캘리포니아 기름값...'ai 가격 담합' 때문?",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260623134013854",
+      "id": "6d316fadb20f52c6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "캘리포니아 기름값 왜 비싼가 했더니…AI 가격담합 혐의로 피소",
+      "url": "http://v.daum.net/v/20260623115008613",
+      "source": "5시간 전",
+      "published_at": "2026-06-23T12:19:01.377230+09:00",
+      "snippet": "책정했다. 이에 따라 휘발유 가격은 갤런당 최대 22센트, 경유 가격은 최대 33센트 더 높게 부풀려졌다고 원고 측은 주장했다. AI를...을 위반하는 행위기도 하다. 이 법은 알고리즘을 활용해 가격 담합을 하는 것을 금지하고 있다. 원고 측은 소장에서 \"(휘발유... 5시간 전",
+      "collected_at": "2026-06-23T17:19:01.377246+09:00",
+      "normalized_title": "캘리포니아 기름값 왜 비싼가 했더니…AI 가격담합 혐의로 피소",
+      "source_normalized": "5시간 전",
+      "duplicate_key": "5시간 전::캘리포니아 기름값 왜 비싼가 했더니…ai 가격담합 혐의로 피소",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260623115008613",
+      "id": "53f545ac6101ae98",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "경유",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, '2조원 윤활유 담합' 심사…한국하우톤·범우화학 등 10개사",
+      "url": "http://v.daum.net/v/20260623120122974",
+      "source": "5시간 전",
+      "published_at": "2026-06-23T12:19:01.375594+09:00",
+      "snippet": "세종청사 2동 공정거래위원회.[사진=유대길 기자 dbeorlf123@ajunews.com] 공정 당국이 러시아-우크라이나 전쟁 등 유가 상승기에 윤활유 가격을 담합한 제조·판매사업자 10개사에 대한 심사를 시작한다. 공정거래위원회는 지난 4일 윤활유 담합 사건에 대해 심사관... 5시간 전",
+      "collected_at": "2026-06-23T17:19:01.375607+09:00",
+      "normalized_title": "공정위, '2조원 윤활유 담합' 심사…한국하우톤·범우화학 등 10개사",
+      "source_normalized": "5시간 전",
+      "duplicate_key": "5시간 전::공정위, '2조원 윤활유 담합' 심사…한국하우톤·범우화학 등 10개사",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260623120122974",
+      "id": "db9118257e4e22b9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중국 공세에 구조조정도 벅찬데…공정위 칼날에 떠는 K-화학",
+      "url": "http://v.daum.net/v/20260623101633269",
+      "source": "7시간 전",
+      "published_at": "2026-06-23T10:19:11.594319+09:00",
+      "snippet": "판매하는 경우도 적지 않다\"고 말했다. 실제로 국내 주요 석유화학 기업들은 최근 수년간 실적 부진에 시달리고 있다. 일부 제품은...가동률도 크게 떨어졌다. ◆ 정부는 구조조정, 공정위는 담합 조사 [출처=연합] 문제는 정부가 현재 석유화학산업 구조조정을 추진... 7시간 전",
+      "collected_at": "2026-06-23T17:19:11.594337+09:00",
+      "normalized_title": "중국 공세에 구조조정도 벅찬데…공정위 칼날에 떠는 K-화학",
+      "source_normalized": "7시간 전",
+      "duplicate_key": "7시간 전::중국 공세에 구조조정도 벅찬데…공정위 칼날에 떠는 k-화학",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260623101633269",
+      "id": "e997ff1310606007",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "EBN산업경제",
+      "url": "https://v.daum.net/channel/552778/home",
+      "source": "EBN산업경제",
+      "published_at": "2026-06-23T10:19:11.593773+09:00",
+      "snippet": "판매하는 경우도 적지 않다\"고 말했다. 실제로 국내 주요 석유화학 기업들은 최근 수년간 실적 부진에 시달리고 있다. 일부 제품은...가동률도 크게 떨어졌다. ◆ 정부는 구조조정, 공정위는 담합 조사 [출처=연합] 문제는 정부가 현재 석유화학산업 구조조정을 추진... 7시간 전",
+      "collected_at": "2026-06-23T17:19:11.593791+09:00",
+      "normalized_title": "EBN산업경제",
+      "source_normalized": "EBN산업경제",
+      "duplicate_key": "ebn산업경제::ebn산업경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/552778/home",
+      "id": "32d11e193b355012",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SBS Biz",
+      "url": "https://v.daum.net/channel/189/home",
+      "source": "SBS Biz",
+      "published_at": "2026-06-23T14:19:14.194979+09:00",
+      "snippet": "책정했습니다. 이에 따라 휘발유 가격은 갤런당 최대 22센트, 경유 가격은 최대 33센트 더 높게 부풀려졌다고 원고 측은 주장했습니다...을 위반하는 행위기도 합닏. 이 법은 알고리즘을 활용해 가격 담합을 하는 것을 금지하고 있습니다. 원고 측은 소장에서... 3시간 전",
+      "collected_at": "2026-06-23T17:19:14.194994+09:00",
+      "normalized_title": "SBS Biz",
+      "source_normalized": "SBS Biz",
+      "duplicate_key": "sbs biz::sbs biz",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/189/home",
+      "id": "a4d114649c7e5afd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "美 주유소, AI로 가격 '짬짜미' 혐의로 피소",
+      "url": "https://biz.sbs.co.kr/article_hub/20000318265?division=NAVER",
+      "source": "SBS Biz",
+      "published_at": "2026-06-23T14:19:13.285872+09:00",
+      "snippet": "이 법은 알고리즘을 활용해 가격 담합을 하는 것을 금지하고 있습니다. 원고 측은 소장에서 \"(휘발유 가격이) 1센트 오를 때마다 운전자들의 연간 부담은 1억3천400만 달러가 늘어난다\"며 손해 배상을 청구했습니다. 캘리포니아는 미국 내에서 가장 휘발유 가격이 높은 주로 꼽힙니다. 미국자동차협회(AAA)에...",
+      "collected_at": "2026-06-23T17:19:13.285891+09:00",
+      "normalized_title": "美 주유소, AI로 가격 '짬짜미' 혐의로 피소",
+      "source_normalized": "SBS Biz",
+      "duplicate_key": "sbs biz::美 주유소, ai로 가격 '짬짜미' 혐의로 피소",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://biz.sbs.co.kr/article_hub/20000318265?division=NAVER",
+      "id": "d26ef5de43347ead",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"AI로 기름값 담합하다니\"…미 캘리포니아 소비자, 주유소 업체에 소송",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PSFVCbWhhR1pWYVpnNVRTRndibDI4a2hyU3JHaWxFSjhVYjBTWXFnMVBPNHNpSWJjdk5zV3ExTWlTNjQ0cGlrNm5aSDdOQk5mRnNR?oc=5",
+      "source": "네이트",
+      "published_at": "2026-06-23T15:00:00+09:00",
+      "snippet": "\"AI로 기름값 담합하다니\"…미 캘리포니아 소비자, 주유소 업체에 소송 네이트",
+      "collected_at": "2026-06-23T17:19:09.577895+09:00",
+      "normalized_title": "\"AI로 기름값 담합하다니\"…미 캘리포니아 소비자, 주유소 업체에 소송",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::\"ai로 기름값 담합하다니\"…미 캘리포니아 소비자, 주유소 업체에 소송",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PSFVCbWhhR1pWYVpnNVRTRndibDI4a2hyU3JHaWxFSjhVYjBTWXFnMVBPNHNpSWJjdk5zV3ExTWlTNjQ0cGlrNm5aSDdOQk5mRnNR?oc=5",
+      "id": "fd75bdb433fa184b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "캘리포니아 기름값 왜 비싼가 했더니…AI 가격담합 혐의로 피소",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5sYlNkOUM0ZWFrdFRJUllLSUZmc011V3dBdERfS0pKbmNIaHJXUWZYanNmcHE2S1hPdTlPY1d1SGRZcFJaRnYxV2hLRVplZTBoZnhCTGdlNDZhbnAybXhYM3psdXlIbXBDUnlMalQ0RXpCMkJNYV9qLQ?oc=5",
+      "source": "네이트",
+      "published_at": "2026-06-23T11:49:00+09:00",
+      "snippet": "캘리포니아 기름값 왜 비싼가 했더니…AI 가격담합 혐의로 피소 네이트",
+      "collected_at": "2026-06-23T17:19:09.585170+09:00",
+      "normalized_title": "캘리포니아 기름값 왜 비싼가 했더니…AI 가격담합 혐의로 피소",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::캘리포니아 기름값 왜 비싼가 했더니…ai 가격담합 혐의로 피소",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5sYlNkOUM0ZWFrdFRJUllLSUZmc011V3dBdERfS0pKbmNIaHJXUWZYanNmcHE2S1hPdTlPY1d1SGRZcFJaRnYxV2hLRVplZTBoZnhCTGdlNDZhbnAybXhYM3psdXlIbXBDUnlMalQ0RXpCMkJNYV9qLQ?oc=5",
+      "id": "3d9e190d1873700f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "AI가 개스값 올렸나…가주 운전자들 ‘가격 담합’ 집단소송",
+      "url": "https://www.koreadaily.com/article/20260622152153562",
+      "source": "미주중앙일보",
+      "published_at": "2026-06-23T08:19:13.290250+09:00",
+      "snippet": "가격 담합 효과가 나타날 수 있다고 지적한다. 반면 기업들은 이러한 소프트웨어가 시장 상황에 보다 신속하게 대응하기 위한 도구일 뿐 불법적인 가격 공조와는 무관하다고 주장하고 있다. 한편 AAA에 따르면 현재 캘리포니아의 일반 휘발유 평균 가격은 갤런당 5.58달러로 전국 평균인 3.93달러보다 1.65달러...",
+      "collected_at": "2026-06-23T17:19:13.290268+09:00",
+      "normalized_title": "AI가 개스값 올렸나…가주 운전자들 ‘가격 담합’ 집단소송",
+      "source_normalized": "미주중앙일보",
+      "duplicate_key": "미주중앙일보::ai가 개스값 올렸나…가주 운전자들 ‘가격 담합’ 집단소송",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.koreadaily.com/article/20260622152153562",
+      "id": "75862744173dbf56",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "식품값 인상 초읽기… 1500원 고환율이 가른 K푸드 명암",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3411278",
+      "source": "천지일보",
+      "published_at": "2026-06-23T10:19:00.249394+09:00",
+      "snippet": "미국과 이란의 종전 합의로 국제 유가는 숨을 돌렸지만 환율은 좀처럼 내려올 기미를 보이지 않는다. 이 고환율 국면이 국내 식품업계를 두 갈래로... 공정거래위원회가 밀가루 가격 담합을 적발하고 7개 제분사에 가격 재결정 명령을 내리는 등 정부 압박이 전방위적으로 이어졌다. 소비자들은 밀가루...",
+      "collected_at": "2026-06-23T17:19:00.249410+09:00",
+      "normalized_title": "식품값 인상 초읽기… 1500원 고환율이 가른 K푸드 명암",
+      "source_normalized": "천지일보",
+      "duplicate_key": "천지일보::식품값 인상 초읽기… 1500원 고환율이 가른 k푸드 명암",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newscj.com/news/articleView.html?idxno=3411278",
+      "id": "63068f48b66ea39c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

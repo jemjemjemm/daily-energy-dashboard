@@ -1,0 +1,210 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-19",
+  "slot": "morning",
+  "period_start": "2026-08-19T00:00:00+09:00",
+  "period_end": "2026-08-19T08:00:00+09:00",
+  "period_label": "2026-08-19 00:00 ~ 2026-08-19 08:00",
+  "generated_at": "2026-08-19T08:34:09.460518+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1551,
+  "total_deduped_count": 5,
+  "total_ok_count": 5,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 5
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1161
+  },
+  "query_counts": {
+    "공정위 유가 담합": 1,
+    "석유 담합": 4,
+    "석유제품 담합": 2,
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "페인트값 올린 삼화ㆍ노루 웃고…철회한 KCC 울었다",
+      "url": "http://v.daum.net/v/20260819062007543",
+      "source": "대한경제",
+      "published_at": "2026-08-19T07:13:21.492717+09:00",
+      "snippet": "미친 것으로 풀이된다. 올해 2분기 미국과 이란 전쟁에 따라 석유화학 기반의 페인트 주요 원료인 톨루엔 등의 가격이 50%가량 급등...55%, KCC는 40% 가량이다. 하지만, 공정거래위원회가 담합 조사에 착수하자 각사는 인상분 조정에 나섰다. SP삼화는 10%, 노루... 1시간 전",
+      "collected_at": "2026-08-19T08:13:21.492745+09:00",
+      "normalized_title": "페인트값 올린 삼화ㆍ노루 웃고…철회한 KCC 울었다",
+      "source_normalized": "대한경제",
+      "duplicate_key": "대한경제::페인트값 올린 삼화ㆍ노루 웃고…철회한 kcc 울었다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260819062007543",
+      "id": "6a0912f0e97c13c1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "대한경제",
+      "url": "https://v.daum.net/channel/552780/home",
+      "source": "대한경제",
+      "published_at": "2026-08-19T07:13:19.638921+09:00",
+      "snippet": "미친 것으로 풀이된다. 올해 2분기 미국과 이란 전쟁에 따라 석유화학 기반의 페인트 주요 원료인 톨루엔 등의 가격이 50%가량 급등...55%, KCC는 40% 가량이다. 하지만, 공정거래위원회가 담합 조사에 착수하자 각사는 인상분 조정에 나섰다. SP삼화는 10%, 노루... 1시간 전",
+      "collected_at": "2026-08-19T08:13:19.638958+09:00",
+      "normalized_title": "대한경제",
+      "source_normalized": "대한경제",
+      "duplicate_key": "대한경제::대한경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/552780/home",
+      "id": "307451920ccec2b1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "페인트값 올린 삼화ㆍ노루 웃고…철회한 KCC 울었다새 창 열림",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202608181352557750334",
+      "source": "새 창 열림",
+      "published_at": "2026-08-19T07:13:18.717676+09:00",
+      "snippet": "올해 2분기 미국과 이란 전쟁에 따라 석유화학 기반의 페인트 주요 원료인 톨루엔 등의 가격이 50%가량 급등했다. 이에 페인트 3사는 원료가격 인상분을 제품 가격에 반영하고자 했다. SP삼화는 최대 20%, 노루페인트는 55%, KCC는 40% 가량이다. 하지만, 공정거래위원회가 담합 조사에 착수하자 각사는 인상분... 새 창 열림",
+      "collected_at": "2026-08-19T08:13:18.717693+09:00",
+      "normalized_title": "페인트값 올린 삼화ㆍ노루 웃고…철회한 KCC 울었다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::페인트값 올린 삼화ㆍ노루 웃고…철회한 kcc 울었다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202608181352557750334",
+      "id": "4d6f79420e98b7e8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[Invest]검찰 해체에 달라지는 기업 수사…하이브·카카오·쿠팡 '경찰 리...새 창 열림",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/08/18/2026081880121.html",
+      "source": "새 창 열림",
+      "published_at": "2026-08-19T07:13:18.716340+09:00",
+      "snippet": "검찰은 최근 SK에너지·GS칼텍스·에쓰오일·HD현대오일뱅크 등 정유 4사와 한국석유협회를 상대로 가격 담합 의혹을 수사해왔다. CJ제일제당·사조CPK·삼양사·대상 등 식품기업의 담합 사건 역시 검찰 공정거래조사부가 맡고 있다. 향후에는 지금까지 검찰이 직접 다뤄온 기업 사건 상당수가 중수청과 경찰 등... 새 창 열림",
+      "collected_at": "2026-08-19T08:13:18.716368+09:00",
+      "normalized_title": "[Invest]검찰 해체에 달라지는 기업 수사…하이브·카카오·쿠팡 '경찰 리...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[invest]검찰 해체에 달라지는 기업 수사…하이브·카카오·쿠팡 '경찰 리...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.investchosun.com/site/data/html_dir/2026/08/18/2026081880121.html",
+      "id": "5f4175b34bf580cf",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[Who Is ?] 홍영철 고려제강 회장새 창 열림",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=441620",
+      "source": "새 창 열림",
+      "published_at": "2026-08-19T07:13:02.826421+09:00",
+      "snippet": "1976년 한국거래소 유가증권시장에 상장했다. 고려열연을 설립했다. 1978년 유산공장을 가동했다. 고려트레필알베드(현 고려강선)를 설립했다. 1987년... 입찰담합을 한 고려제강 등 3개사에 공정거래위원회가 제재처분을 내렸다. 공정위는 2024년 12월9일 고려제강 등 3개사의 '독점 규제 및 공정거래법... 새 창 열림",
+      "collected_at": "2026-08-19T08:13:02.826455+09:00",
+      "normalized_title": "[Who Is ?] 홍영철 고려제강 회장새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[who is ?] 홍영철 고려제강 회장새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.businesspost.co.kr/BP?command=article_view&num=441620",
+      "id": "be0bd81bf7cb37ce",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

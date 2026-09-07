@@ -1,0 +1,141 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-11",
+  "slot": "night",
+  "period_start": "2026-08-11T17:00:00+09:00",
+  "period_end": "2026-08-12T00:00:00+09:00",
+  "period_label": "2026-08-11 17:00 ~ 2026-08-12 00:00",
+  "generated_at": "2026-08-12T08:57:39.572678+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1561,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1171
+  },
+  "query_counts": {
+    "석유 담합": 3,
+    "석유제품 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "담합 수사 중수청이 맡지만...리니언시·고발요청권 정리 안 돼",
+      "url": "http://v.daum.net/v/20260811175041866",
+      "source": "서울경제",
+      "published_at": "2026-08-11T18:19:26.944414+09:00",
+      "snippet": "서울중앙지검 공정거래조사부(부장검사 나희석)가 최근 수사에 돌입한 폴리염화비닐(PVC), 가소제 등 8개 석유화학제품 담합 사건을 끝으로 공소청 출범 전 담합 수사를 마무리하기로 했다. 검찰은 최근 1년간 주요 담합·공정거래 사건을 집중적으로 처리해왔다... 14시간 전",
+      "collected_at": "2026-08-12T08:19:26.944443+09:00",
+      "normalized_title": "담합 수사 중수청이 맡지만...리니언시·고발요청권 정리 안 돼",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::담합 수사 중수청이 맡지만...리니언시·고발요청권 정리 안 돼",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260811175041866",
+      "id": "863c571ba31fdd98",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울경제",
+      "url": "https://v.daum.net/channel/129/home",
+      "source": "서울경제",
+      "published_at": "2026-08-11T18:19:25.125188+09:00",
+      "snippet": "서울중앙지검 공정거래조사부(부장검사 나희석)가 최근 수사에 돌입한 폴리염화비닐(PVC), 가소제 등 8개 석유화학제품 담합 사건을 끝으로 공소청 출범 전 담합 수사를 마무리하기로 했다. 검찰은 최근 1년간 주요 담합·공정거래 사건을 집중적으로 처리해왔다... 14시간 전",
+      "collected_at": "2026-08-12T08:19:25.125216+09:00",
+      "normalized_title": "서울경제",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::서울경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/129/home",
+      "id": "901ba30ba77d44f5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "담합 수사 중수청이 맡지만...리니언시·고발요청권 정리 안 돼새 창 열림",
+      "url": "https://www.sedaily.com/article/20078232?ref=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-08-11T18:19:24.078890+09:00",
+      "snippet": "11일 법조계에 따르면 검찰은 서울중앙지검 공정거래조사부(부장검사 나희석)가 최근 수사에 돌입한 폴리염화비닐(PVC), 가소제 등 8개 석유화학제품 담합 사건을 끝으로 공소청 출범 전 담합 수사를 마무리하기로 했다. 검찰은 최근 1년간 주요 담합·공정거래 사건을 집중적으로 처리해왔다. 설탕과 밀가루... 새 창 열림",
+      "collected_at": "2026-08-12T08:19:24.078904+09:00",
+      "normalized_title": "담합 수사 중수청이 맡지만...리니언시·고발요청권 정리 안 돼새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::담합 수사 중수청이 맡지만...리니언시·고발요청권 정리 안 돼새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.sedaily.com/article/20078232?ref=naver",
+      "id": "14e520d17aa54999",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

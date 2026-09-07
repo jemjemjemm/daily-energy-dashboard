@@ -4,7 +4,7 @@
 remove_calendar_report_viewer_label.py
 
 대시보드 우상단에 노출되는 고정 문구 `Calendar Report Viewer`를 제거한다.
-- docs/index.html, public/index.html을 모두 대상으로 한다.
+- 공개 기준 파일인 docs/index.html을 대상으로 한다.
 - 파일이 없으면 건너뛰므로 GitHub Actions/로컬 실행 모두 안전하다.
 """
 from __future__ import annotations
@@ -13,7 +13,7 @@ import re
 import tempfile
 from pathlib import Path
 
-TARGETS = [Path("docs/index.html"), Path("public/index.html")]
+TARGETS = [Path("docs/index.html")]
 LABEL = "Calendar Report Viewer"
 
 

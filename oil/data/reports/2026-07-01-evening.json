@@ -1,0 +1,244 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-01",
+  "slot": "evening",
+  "period_start": "2026-07-01T08:00:00+09:00",
+  "period_end": "2026-07-01T17:00:00+09:00",
+  "period_label": "2026-07-01 08:00 ~ 2026-07-01 17:00",
+  "generated_at": "2026-07-01T20:32:49.446822+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1515,
+  "total_deduped_count": 6,
+  "total_ok_count": 6,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 2,
+    "B": 1,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1125
+  },
+  "query_counts": {
+    "공정위 유가 담합": 3,
+    "유가 담합": 6,
+    "유가담합": 6
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "이데일리",
+      "url": "https://v.daum.net/channel/6/home",
+      "source": "이데일리",
+      "published_at": "2026-07-01T16:19:54.612452+09:00",
+      "snippet": "대외적인 리스크 또한 여전하다. 중동 발 리스크가 완화하면서 유가는 안정되는 추세지만 건설 원자재 공급망 회복에는 시간이 걸릴...바 있다. 공정거래위원회의 경우 페인트 업체들의 가격 담합 의혹 조사 등으로 업계를 압박했다. 공정위는 지난 2024년에도 가구... 43분 전",
+      "collected_at": "2026-07-01T17:02:54.612477+09:00",
+      "normalized_title": "이데일리",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::이데일리",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/6/home",
+      "id": "bfd3d796eb34da9b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "반도체 성과급은 남일...인력 구조조정 무서운 건자재 업계",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05244726645510256",
+      "source": "이데일리",
+      "published_at": "2026-07-01T16:19:53.472369+09:00",
+      "snippet": "중동 발 리스크가 완화하면서 유가는 안정되는 추세지만 건설 원자재 공급망 회복에는 시간이 걸릴 전망이다. 환율과 금리 등 외부 리스크 역시... 공정거래위원회의 경우 페인트 업체들의 가격 담합 의혹 조사 등으로 업계를 압박했다. 공정위는 지난 2024년에도 가구업체들에 대규모 과징금을 부과하는...",
+      "collected_at": "2026-07-01T17:02:53.472403+09:00",
+      "normalized_title": "반도체 성과급은 남일...인력 구조조정 무서운 건자재 업계",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::반도체 성과급은 남일...인력 구조조정 무서운 건자재 업계",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05244726645510256",
+      "id": "5373f0952c51a1c0",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[모닝 리포트] \"실적 기대감 유효\"…반도체 변동성 속 상반기 피날레",
+      "url": "https://www.newspim.com/news/view/20260701000116",
+      "source": "뉴스핌",
+      "published_at": "2026-07-01T09:02:53.473761+09:00",
+      "snippet": "SK하이닉스의 담합 관련 소송 등 노이즈가 이어지며 반도체 업종 경계심리가 유입되고 있다\"고 짚었다. 코스피가 전장 종가보다 22.05포인트(0.26%) 상승한... 이란 측의 공식 답변이 확인되지 않았지만, 양측 간 군사 충돌이 중단되고 국제 유가가 하락 안정세가 유지되고 있다는 점은 긍정적\"이라고 부연했다.",
+      "collected_at": "2026-07-01T17:02:53.473779+09:00",
+      "normalized_title": "[모닝 리포트] \"실적 기대감 유효\"…반도체 변동성 속 상반기 피날레",
+      "source_normalized": "뉴스핌",
+      "duplicate_key": "뉴스핌::[모닝 리포트] \"실적 기대감 유효\"…반도체 변동성 속 상반기 피날레",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newspim.com/news/view/20260701000116",
+      "id": "b5796156066c37f8",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "반도체 성과급은 남일...인력 구조조정 무서운 건자재 업계",
+      "url": "http://v.daum.net/v/20260701161951961",
+      "source": "43분 전",
+      "published_at": "2026-07-01T16:19:54.613015+09:00",
+      "snippet": "대외적인 리스크 또한 여전하다. 중동 발 리스크가 완화하면서 유가는 안정되는 추세지만 건설 원자재 공급망 회복에는 시간이 걸릴...바 있다. 공정거래위원회의 경우 페인트 업체들의 가격 담합 의혹 조사 등으로 업계를 압박했다. 공정위는 지난 2024년에도 가구... 43분 전",
+      "collected_at": "2026-07-01T17:02:54.613032+09:00",
+      "normalized_title": "반도체 성과급은 남일...인력 구조조정 무서운 건자재 업계",
+      "source_normalized": "43분 전",
+      "duplicate_key": "43분 전::반도체 성과급은 남일...인력 구조조정 무서운 건자재 업계",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260701161951961",
+      "id": "93c081565ac82bbd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[마켓 프리뷰] 코스피 3거래일 만에 상승…코스닥 급등 후 '숨고르기'",
+      "url": "https://biz.sbs.co.kr/article_hub/20000319912?division=NAVER",
+      "source": "SBS Biz",
+      "published_at": "2026-07-01T08:02:53.476491+09:00",
+      "snippet": "48 장 마감 - 외인 순매도세에 '휘청'…반도체주 업고 상승 성공 - 애플 가격 인상·D램 가격 담합 의혹 소송 등 노이즈 - 실적 개선 기대감 '유효'…저가... 4만건…노동시장 여전히 견조 확인 - 美소비자 신뢰 지수, 유가 하락에 소폭 상승 기록 - 외인 6월 일간·월간 '신기록'…삼전닉스 40조 순매도 - 외인...",
+      "collected_at": "2026-07-01T17:02:53.476508+09:00",
+      "normalized_title": "[마켓 프리뷰] 코스피 3거래일 만에 상승…코스닥 급등 후 '숨고르기'",
+      "source_normalized": "SBS Biz",
+      "duplicate_key": "sbs biz::[마켓 프리뷰] 코스피 3거래일 만에 상승…코스닥 급등 후 '숨고르기'",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://biz.sbs.co.kr/article_hub/20000319912?division=NAVER",
+      "id": "7ecf67a340ea9eec",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[핀포인트] [노루페인트] 끝나지 않은 'CEO 잔혹사'…하반기 원가부담 변...",
+      "url": "https://news.dealsitetv.com/articles/172595",
+      "source": "딜사이트경제TV",
+      "published_at": "2026-07-01T08:02:53.475066+09:00",
+      "snippet": "여기에 고유가와 원·달러 환율 상승 영향까지 더해지면서 2분기 이후 제조원가 부담은 한층 커질 전망이다. 반면 제품 가격을 인상하기는 쉽지 않은 상황이다. 정부의 물가 관리 기조에 더해 공정거래위원회의 페인트업계 담합 조사 이후 가격 인상에 대한 부담도 커졌기 때문이다. 업계에서는 올해 초 최소 10...",
+      "collected_at": "2026-07-01T17:02:53.475086+09:00",
+      "normalized_title": "[핀포인트] [노루페인트] 끝나지 않은 'CEO 잔혹사'…하반기 원가부담 변...",
+      "source_normalized": "딜사이트경제TV",
+      "duplicate_key": "딜사이트경제tv::[핀포인트] [노루페인트] 끝나지 않은 'ceo 잔혹사'…하반기 원가부담 변...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.dealsitetv.com/articles/172595",
+      "id": "5045bcf9dc9693cc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

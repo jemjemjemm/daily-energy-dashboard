@@ -1,0 +1,141 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-17",
+  "slot": "night",
+  "period_start": "2026-08-17T17:00:00+09:00",
+  "period_end": "2026-08-18T00:00:00+09:00",
+  "period_label": "2026-08-17 17:00 ~ 2026-08-18 00:00",
+  "generated_at": "2026-08-18T08:35:10.348850+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1553,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1163
+  },
+  "query_counts": {
+    "유가 담합": 3,
+    "유가담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "제지업체 영업이익 두배 '껑충'…인쇄업계 \"호실적에도 가격 인상\"",
+      "url": "http://v.daum.net/v/20260817181655323",
+      "source": "한국경제",
+      "published_at": "2026-08-17T19:09:38.906778+09:00",
+      "snippet": "적용돼 2분기 실적과 직접적인 연관은 없다. 이들 업체는 최근 담합 과징금을 감면받은 직후 가격 인상에 나서 수요처인 인쇄업체가...SP는 일부 제품 가격을 인상했다. 제지업계는 원부재료와 유가, 물류비 등 비용 부담을 반영한 조치라는 입장이다. 반면 인쇄업계... 13시간 전",
+      "collected_at": "2026-08-18T08:09:38.906800+09:00",
+      "normalized_title": "제지업체 영업이익 두배 '껑충'…인쇄업계 \"호실적에도 가격 인상\"",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::제지업체 영업이익 두배 '껑충'…인쇄업계 \"호실적에도 가격 인상\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260817181655323",
+      "id": "c468894de4b3e0d4",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국경제",
+      "url": "https://v.daum.net/channel/3/home",
+      "source": "한국경제",
+      "published_at": "2026-08-17T19:09:37.239521+09:00",
+      "snippet": "적용돼 2분기 실적과 직접적인 연관은 없다. 이들 업체는 최근 담합 과징금을 감면받은 직후 가격 인상에 나서 수요처인 인쇄업체가...SP는 일부 제품 가격을 인상했다. 제지업계는 원부재료와 유가, 물류비 등 비용 부담을 반영한 조치라는 입장이다. 반면 인쇄업계... 13시간 전",
+      "collected_at": "2026-08-18T08:09:37.239543+09:00",
+      "normalized_title": "한국경제",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::한국경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/3/home",
+      "id": "6ea5739e4883b5ac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "제지업체 영업이익 두배 '껑충'…인쇄업계 \"호실적에도 가격 인상\"새 창 열림",
+      "url": "https://www.hankyung.com/article/2026081753261",
+      "source": "새 창 열림",
+      "published_at": "2026-08-17T19:09:36.075270+09:00",
+      "snippet": "담합 과징금을 대폭 감면받은 직후 제품가격을 인상한 데 이어 실적까지 개선되고 있어 인쇄업체들의 반발이 거세질 것으로 예상된다. 17일... 제지업계는 원부재료와 유가, 물류비 등 비용 부담을 반영한 조치라는 입장이다. 반면 인쇄업계는 담함 과징금까지 감면받은 제지사들이 다시 가격을 올리는... 새 창 열림",
+      "collected_at": "2026-08-18T08:09:36.075305+09:00",
+      "normalized_title": "제지업체 영업이익 두배 '껑충'…인쇄업계 \"호실적에도 가격 인상\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::제지업체 영업이익 두배 '껑충'…인쇄업계 \"호실적에도 가격 인상\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.hankyung.com/article/2026081753261",
+      "id": "3d53afda7b8f13af",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

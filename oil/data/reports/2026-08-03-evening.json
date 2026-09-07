@@ -1,0 +1,257 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-03",
+  "slot": "evening",
+  "period_start": "2026-08-03T08:00:00+09:00",
+  "period_end": "2026-08-03T17:00:00+09:00",
+  "period_label": "2026-08-03 08:00 ~ 2026-08-03 17:00",
+  "generated_at": "2026-08-03T20:39:47.835286+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1568,
+  "total_deduped_count": 6,
+  "total_ok_count": 6,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 4
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1178
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 4,
+    "석유 담합": 5,
+    "석유제품 담합": 4,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 5,
+    "정유업계 담합": 1,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "공정위 '현장조사' 1년새 2.5배 '역대 최대'…거세지는 칼날에 로펌 찾는 기업들",
+      "url": "http://v.daum.net/v/20260803110207329",
+      "source": "아시아경제",
+      "published_at": "2026-08-03T11:26:34.497972+09:00",
+      "snippet": "있는 데다, 식품·유통·IT 등 연루된 기업과 관계자가 다수인 대형 담합 사건에 공정위 화력이 집중됐기 때문으로 풀이된다. 공정위...이라고 설명했다. 쿠팡 총수 변경 결정타부터 '올다무'·정유사·재벌 상표권까지 올해 공정위의 사정 칼날은 특정 분야에 국한... 6시간 전",
+      "collected_at": "2026-08-03T17:26:34.498000+09:00",
+      "normalized_title": "공정위 '현장조사' 1년새 2.5배 '역대 최대'…거세지는 칼날에 로펌 찾는 기업들",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::공정위 '현장조사' 1년새 2.5배 '역대 최대'…거세지는 칼날에 로펌 찾는 기업들",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260803110207329",
+      "id": "6b6f6ca4be57c072",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "아시아경제",
+      "url": "https://v.daum.net/channel/90/home",
+      "source": "아시아경제",
+      "published_at": "2026-08-03T11:26:32.273666+09:00",
+      "snippet": "있는 데다, 식품·유통·IT 등 연루된 기업과 관계자가 다수인 대형 담합 사건에 공정위 화력이 집중됐기 때문으로 풀이된다. 공정위...이라고 설명했다. 쿠팡 총수 변경 결정타부터 '올다무'·정유사·재벌 상표권까지 올해 공정위의 사정 칼날은 특정 분야에 국한... 6시간 전",
+      "collected_at": "2026-08-03T17:26:32.273694+09:00",
+      "normalized_title": "아시아경제",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::아시아경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/90/home",
+      "id": "7197c286bb7e5fce",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "가습기살균제 리스크에 담합 심의까지…SK케미칼, 바이오연료 9.7조 의혹...새 창 열림",
+      "url": "http://sateconomy.co.kr/news/view/1065594577092154",
+      "source": "새 창 열림",
+      "published_at": "2026-08-03T16:26:31.100767+09:00",
+      "snippet": "담합 의혹의 영향을 받은 입찰 규모는 바이오디젤 7조7600억원, 바이오중유 1조9500억원 등 모두 9조7000억원 수준으로 파악됐다. 바이오디젤은 신재생연료 의무혼합제도에 따라 정유사들이 일정 비율 자동차용 경유에 혼입해야 한다. 2026년 기준 의무혼합 비율은 4.0%다. 바이오중유는 발전용 연료로 쓰인다.... 새 창 열림",
+      "collected_at": "2026-08-03T17:26:31.100796+09:00",
+      "normalized_title": "가습기살균제 리스크에 담합 심의까지…SK케미칼, 바이오연료 9.7조 의혹...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::가습기살균제 리스크에 담합 심의까지…sk케미칼, 바이오연료 9.7조 의혹...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://sateconomy.co.kr/news/view/1065594577092154",
+      "id": "e3eeb5e88032bca9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위 '현장조사' 1년새 2.5배 '역대 최대'…거세지는 칼날에 로펌 찾는...새 창 열림",
+      "url": "https://view.asiae.co.kr/article/2026073114580575709",
+      "source": "새 창 열림",
+      "published_at": "2026-08-03T11:26:31.103627+09:00",
+      "snippet": "공정위 관계자는 \"올해 들어 민생 물가 안정 및 시장 질서 확립을 위해 조사를 대폭 강화하고 있다\"며 \"특히 담합 사건의 경우 참고인을 포함해 연루된 다수의 기업을 한꺼번에 현장 조사하다 보니 수치가 크게 늘어난 것\"이라고 설명했다. 쿠팡 총수 변경 결정타부터 '올다무'·정유사·재벌 상표권까지 올해... 새 창 열림",
+      "collected_at": "2026-08-03T17:26:31.103641+09:00",
+      "normalized_title": "공정위 '현장조사' 1년새 2.5배 '역대 최대'…거세지는 칼날에 로펌 찾는...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위 '현장조사' 1년새 2.5배 '역대 최대'…거세지는 칼날에 로펌 찾는...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://view.asiae.co.kr/article/2026073114580575709",
+      "id": "cce8065c2f8519c6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "미국은 횡재세 압박, 한국은 손실보전 눈치 … 정유사 '호실적의 역설'새 창 열림",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/08/03/2026080300106.html",
+      "source": "새 창 열림",
+      "published_at": "2026-08-03T11:26:23.920574+09:00",
+      "snippet": "미국 정치권은 횡재세를 거론하며 이익 환수를 압박하고 있고, 한국 정유사들은 최고가격제 손실 보전과 담합 논란이 얽혀 있어 실적이 부각될수록... 현재 미국 평균 휘발유 가격은 갤런당 4.11달러로, 트럼프 대통령이 원하는 2.25달러를 크게 웃돈다. 다만 2.25달러는 팬데믹 당시 수요가 급감하며 기록된... 새 창 열림",
+      "collected_at": "2026-08-03T17:26:23.920596+09:00",
+      "normalized_title": "미국은 횡재세 압박, 한국은 손실보전 눈치 … 정유사 '호실적의 역설'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::미국은 횡재세 압박, 한국은 손실보전 눈치 … 정유사 '호실적의 역설'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://biz.newdaily.co.kr/site/data/html/2026/08/03/2026080300106.html",
+      "id": "9d85edfe2c76a94d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "에쓰오일, 정제마진·윤활기유 호조에 2분기 영업익 9650억 기록새 창 열림",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=537236",
+      "source": "새 창 열림",
+      "published_at": "2026-08-03T10:26:23.921857+09:00",
+      "snippet": "석유화학부문은 매출 1조125억원, 영업손실 448억원을 기록하며 전 분기 대비 적자로 돌아섰다. 윤활부문은 매출 1조3017억원, 영업이익 4774억원을 올렸다.... 다만 유가 담합 혐의에 따른 재판 결과는 부담이다. 서울중앙지검은 지난달 에쓰오일을 포함한 국내 정유 4개사를 공정거래법 위반 혐의로 기소했다.... 새 창 열림",
+      "collected_at": "2026-08-03T17:26:23.921876+09:00",
+      "normalized_title": "에쓰오일, 정제마진·윤활기유 호조에 2분기 영업익 9650억 기록새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::에쓰오일, 정제마진·윤활기유 호조에 2분기 영업익 9650억 기록새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.joongangenews.com/news/articleView.html?idxno=537236",
+      "id": "66429c7263fa8c7a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

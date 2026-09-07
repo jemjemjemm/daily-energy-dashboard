@@ -1,0 +1,458 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-22",
+  "slot": "evening",
+  "period_start": "2026-07-22T08:00:00+09:00",
+  "period_end": "2026-07-22T17:00:00+09:00",
+  "period_label": "2026-07-22 08:00 ~ 2026-07-22 17:00",
+  "generated_at": "2026-07-22T19:33:14.373084+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1567,
+  "total_deduped_count": 11,
+  "total_ok_count": 11,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 4,
+    "B": 2,
+    "C": 5
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1177
+  },
+  "query_counts": {
+    "경유 담합": 10,
+    "기름값 담합": 2,
+    "석유 담합": 11,
+    "석유제품 담합": 4,
+    "유가 담합": 7,
+    "유가담합": 7,
+    "유류가격 담합": 1,
+    "정유사 담합": 10,
+    "정유업계 담합": 9,
+    "주유소 담합": 5,
+    "휘발유 담합": 10
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[단독] 전기·열 원가 따져본 유승훈 교수, 정유사 손실액도 검증한다",
+      "url": "http://v.daum.net/v/20260722140141355",
+      "source": "한국일보",
+      "published_at": "2026-07-22T14:02:14.676086+09:00",
+      "snippet": "최근 유 교수가 위원장에 선임됐다. 최고액 정산위는 '석유판매가격 최고액 지정에 따른 손실보전을 위한 재정지원 규정'에 따라 구성...이를 토대로 격주 전체 회의를 연다. 정산 절차는 정유 4사의 담합 수사와는 별개로 진행 예정이다. 최근 검찰은 국내 정유사들... 4시간 전",
+      "collected_at": "2026-07-22T18:02:14.676126+09:00",
+      "normalized_title": "전기·열 원가 따져본 유승훈 교수, 정유사 손실액도 검증한다",
+      "source_normalized": "한국일보",
+      "duplicate_key": "한국일보::전기·열 원가 따져본 유승훈 교수, 정유사 손실액도 검증한다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260722140141355",
+      "id": "ef230714cefd444a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국일보",
+      "url": "https://v.daum.net/channel/49/home",
+      "source": "한국일보",
+      "published_at": "2026-07-22T14:02:13.458367+09:00",
+      "snippet": "최근 유 교수가 위원장에 선임됐다. 최고액 정산위는 '석유판매가격 최고액 지정에 따른 손실보전을 위한 재정지원 규정'에 따라 구성...이를 토대로 격주 전체 회의를 연다. 정산 절차는 정유 4사의 담합 수사와는 별개로 진행 예정이다. 최근 검찰은 국내 정유사들... 4시간 전",
+      "collected_at": "2026-07-22T18:02:13.458400+09:00",
+      "normalized_title": "한국일보",
+      "source_normalized": "한국일보",
+      "duplicate_key": "한국일보::한국일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/49/home",
+      "id": "5926cc3eb8c5ea76",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부, 유가 통제 더 죈다…정유업계 '손실보전·담합수사·중동불안' 삼중 부담",
+      "url": "http://v.daum.net/v/20260722111154521",
+      "source": "뉴시스",
+      "published_at": "2026-07-22T12:02:05.115868+09:00",
+      "snippet": "수 있다는 우려가 시장을 자극한 영향이다. 22일 서울 시내 한 주유소에 유가 정보가 표시돼 있다. 2026.07.22. jini@newsis.com...따른 수익성 악화에 더해 손실 보전 절차마저 검찰의 담합 수사와 맞물리면서 보상 규모와 시기 모두 불확실성이 커지는 모습이다... 6시간 전",
+      "collected_at": "2026-07-22T18:02:05.115894+09:00",
+      "normalized_title": "정부, 유가 통제 더 죈다…정유업계 '손실보전·담합수사·중동불안' 삼중 부담",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::정부, 유가 통제 더 죈다…정유업계 '손실보전·담합수사·중동불안' 삼중 부담",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 12,
+      "canonical_url": "http://v.daum.net/v/20260722111154521",
+      "id": "e5280f5df38cf95e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴시스",
+      "url": "https://v.daum.net/channel/21/home",
+      "source": "뉴시스",
+      "published_at": "2026-07-22T12:02:03.629057+09:00",
+      "snippet": "수 있다는 우려가 시장을 자극한 영향이다. 22일 서울 시내 한 주유소에 유가 정보가 표시돼 있다. 2026.07.22. jini@newsis.com...따른 수익성 악화에 더해 손실 보전 절차마저 검찰의 담합 수사와 맞물리면서 보상 규모와 시기 모두 불확실성이 커지는 모습이다... 6시간 전",
+      "collected_at": "2026-07-22T18:02:03.629071+09:00",
+      "normalized_title": "뉴시스",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::뉴시스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/21/home",
+      "id": "e250fa63010cdcd6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "홍해 봉쇄에 정유사 다시 웃나…‘최고가격제 손실론’ 시험대",
+      "url": "http://v.daum.net/v/20260722134651791",
+      "source": "뉴스토마토",
+      "published_at": "2026-07-22T14:02:03.627911+09:00",
+      "snippet": "최고가격제는 이달 말 종료 예정인 유류세 인하 조치 등 다 같이 묶여서 갈 것 같다”며 “정유업계는 SK가 같이 담합해 놓고 다른 정유사들 뒤통수를 친 데다 선제적으로 가격을 인하해 주고 있는데 나머지 3사는 따라가지 못해 시장이 골치 아프고 분위기도 뒤숭숭... 4시간 전",
+      "collected_at": "2026-07-22T18:02:03.627942+09:00",
+      "normalized_title": "홍해 봉쇄에 정유사 다시 웃나…‘최고가격제 손실론’ 시험대",
+      "source_normalized": "뉴스토마토",
+      "duplicate_key": "뉴스토마토::홍해 봉쇄에 정유사 다시 웃나…‘최고가격제 손실론’ 시험대",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://v.daum.net/v/20260722134651791",
+      "id": "0d18f1453247cfa6",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스토마토",
+      "url": "https://v.daum.net/channel/552844/home",
+      "source": "뉴스토마토",
+      "published_at": "2026-07-22T14:02:01.870369+09:00",
+      "snippet": "최고가격제는 이달 말 종료 예정인 유류세 인하 조치 등 다 같이 묶여서 갈 것 같다”며 “정유업계는 SK가 같이 담합해 놓고 다른 정유사들 뒤통수를 친 데다 선제적으로 가격을 인하해 주고 있는데 나머지 3사는 따라가지 못해 시장이 골치 아프고 분위기도 뒤숭숭... 4시간 전",
+      "collected_at": "2026-07-22T18:02:01.870396+09:00",
+      "normalized_title": "뉴스토마토",
+      "source_normalized": "뉴스토마토",
+      "duplicate_key": "뉴스토마토::뉴스토마토",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://v.daum.net/channel/552844/home",
+      "id": "0a0b87b49a0ae3ca",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "8차 석유최고가격 '인상' 무게…\"물가·성장 목표 달성 빨간불\"새 창 열림",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=470407",
+      "source": "새 창 열림",
+      "published_at": "2026-07-22T16:02:00.596833+09:00",
+      "snippet": "오는 24일 발표되는 8차 석유류 최고가격이 인상 쪽으로 방향을 틀 것으로 전망됐다. 국제유가가 지난달 중순~이달 중순 사이 한 달 동안 20%대로... 정유업계는 싱가포르 국제 석유제품 가격(MOPS)을 기준으로 최고가격제 시행 이후 4조~5조원대 손실을 입었다고 주장해 왔다. 그러나 검찰은 유가 담합 사건을... 새 창 열림",
+      "collected_at": "2026-07-22T18:02:00.596866+09:00",
+      "normalized_title": "8차 석유최고가격 '인상' 무게…\"물가·성장 목표 달성 빨간불\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::8차 석유최고가격 '인상' 무게…\"물가·성장 목표 달성 빨간불\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=470407",
+      "id": "9cb34673b259ba09",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유업계",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "홍해 봉쇄에 정유사 다시 웃나…‘최고가격제 손실론’ 시험대새 창 열림",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1307848&inflow=N",
+      "source": "새 창 열림",
+      "published_at": "2026-07-22T15:02:00.598131+09:00",
+      "snippet": "정유업계 관계자는 “최고가격제는 이달 말 종료 예정인 유류세 인하 조치 등 다 같이 묶여서 갈 것 같다”며 “정유업계는 SK가 같이 담합해 놓고 다른 정유사들 뒤통수를 친 데다 선제적으로 가격을 인하해 주고 있는데 나머지 3사는 따라가지 못해 시장이 골치 아프고 분위기도 뒤숭숭해 정부에 제대로... 새 창 열림",
+      "collected_at": "2026-07-22T18:02:00.598152+09:00",
+      "normalized_title": "홍해 봉쇄에 정유사 다시 웃나…‘최고가격제 손실론’ 시험대새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::홍해 봉쇄에 정유사 다시 웃나…‘최고가격제 손실론’ 시험대새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://www.newstomato.com/ReadNews.aspx?no=1307848&inflow=N",
+      "id": "350ca808ad6d9329",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독] 전기·열 원가 따져본 유승훈 교수, 정유사 손실액도 검증한다새 창 열림",
+      "url": "https://www.hankookilbo.com/news/article/A2026072114080003267?did=NA",
+      "source": "새 창 열림",
+      "published_at": "2026-07-22T14:02:12.496991+09:00",
+      "snippet": "22일 에너지 업계 등에 따르면 재정경제부·산업통상부·기획예산처의 정부위원 3명에 회계·법률·석유시장 분야 전문가인 민간위원 14명까지 총 17명으로... 정산 절차는 정유 4사의 담합 수사와는 별개로 진행 예정이다. 최근 검찰은 국내 정유사들이 미국·이란 전쟁을 틈타 담합으로 폭리를 취했다는 수사... 새 창 열림",
+      "collected_at": "2026-07-22T18:02:12.497005+09:00",
+      "normalized_title": "전기·열 원가 따져본 유승훈 교수, 정유사 손실액도 검증한다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::전기·열 원가 따져본 유승훈 교수, 정유사 손실액도 검증한다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.hankookilbo.com/news/article/A2026072114080003267?did=NA",
+      "id": "a228c0c651f7a328",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부, 유가 통제 더 죈다…정유업계 '손실보전·담합수사·중동불안' 삼...새 창 열림",
+      "url": "https://www.newsis.com/view/NISX20260722_0003718393",
+      "source": "새 창 열림",
+      "published_at": "2026-07-22T12:02:00.599534+09:00",
+      "snippet": "고유가에 따른 수익성 악화에 더해 손실 보전 절차마저 검찰의 담합 수사와 맞물리면서 보상 규모와 시기 모두 불확실성이 커지는 모습이다. 22일 업계에... 업계 관계자는 \"휘발유와 경유는 최고가격제에 따라 내수 물량을 우선 확보하고 가격도 사실상 통제되고 있어 단기간 내 국내 공급에는 큰 문제가 없을 것... 새 창 열림",
+      "collected_at": "2026-07-22T18:02:00.599547+09:00",
+      "normalized_title": "정부, 유가 통제 더 죈다…정유업계 '손실보전·담합수사·중동불안' 삼...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정부, 유가 통제 더 죈다…정유업계 '손실보전·담합수사·중동불안' 삼...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://www.newsis.com/view/NISX20260722_0003718393",
+      "id": "6018edb2f350197e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "CJ제일제당, 3대 축으로 재편...비비고·PHA·라이신에 건 실적 반등새 창 열림",
+      "url": "https://thetracker.co.kr/View.aspx?No=4156826",
+      "source": "새 창 열림",
+      "published_at": "2026-07-22T09:02:21.352697+09:00",
+      "snippet": "역시 석유화학 방식 대비 원가 경쟁력을 자랑한다. 여기에 국내 밀가루 소매시장 점유율 59.7%, 설탕 78.0%라는 압도적 시장 지배력이 안정적 실적을 떠받친다. 저당 트렌드를 탄 알룰로스 같은 신소재까지 더해 기존 강자의 저력에 새 성장동력을 얹는다. 과거 담합 관련 제재라는 과제를 안고 있지만... 새 창 열림",
+      "collected_at": "2026-07-22T18:02:21.352713+09:00",
+      "normalized_title": "CJ제일제당, 3대 축으로 재편...비비고·PHA·라이신에 건 실적 반등새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::cj제일제당, 3대 축으로 재편...비비고·pha·라이신에 건 실적 반등새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://thetracker.co.kr/View.aspx?No=4156826",
+      "id": "83845835f16f48b3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

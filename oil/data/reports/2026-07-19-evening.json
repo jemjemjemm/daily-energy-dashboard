@@ -1,0 +1,713 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-19",
+  "slot": "evening",
+  "period_start": "2026-07-19T08:00:00+09:00",
+  "period_end": "2026-07-19T17:00:00+09:00",
+  "period_label": "2026-07-19 08:00 ~ 2026-07-19 17:00",
+  "generated_at": "2026-07-19T19:01:14.100154+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1584,
+  "total_deduped_count": 22,
+  "total_ok_count": 22,
+  "total_review_count": 0,
+  "total_excluded_count": 6,
+  "grade_counts": {
+    "A": 10,
+    "B": 0,
+    "C": 12
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1194
+  },
+  "query_counts": {
+    "석유 담합": 1,
+    "유가 담합": 21,
+    "유가담합": 21
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "정성호 법무장관 취임 1년…'민생 법안 38건 통과' 역대 최다",
+      "url": "http://v.daum.net/v/20260719144439508",
+      "source": "한국일보",
+      "published_at": "2026-07-19T14:59:59.892692+09:00",
+      "snippet": "상법을 세 차례 개정해 이사의 주주 충실의무 도입, 대규모 상장회사 집중투표제 의무화 등 주주 보호를 강화했다. 밀가루, 설탕, 유가 등 서민 생활 품목에선 33조6,000억 원 규모의 담합을 적발해 64명을 기소(4명 구속)했다. 인권 분야에선 강력범죄 피해자 유족... 4시간 전 1",
+      "collected_at": "2026-07-19T18:59:59.892720+09:00",
+      "normalized_title": "정성호 법무장관 취임 1년…'민생 법안 38건 통과' 역대 최다",
+      "source_normalized": "한국일보",
+      "duplicate_key": "한국일보::정성호 법무장관 취임 1년…'민생 법안 38건 통과' 역대 최다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260719144439508",
+      "id": "062c9c5d419be11c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국일보",
+      "url": "https://v.daum.net/channel/49/home",
+      "source": "한국일보",
+      "published_at": "2026-07-19T14:59:57.973072+09:00",
+      "snippet": "상법을 세 차례 개정해 이사의 주주 충실의무 도입, 대규모 상장회사 집중투표제 의무화 등 주주 보호를 강화했다. 밀가루, 설탕, 유가 등 서민 생활 품목에선 33조6,000억 원 규모의 담합을 적발해 64명을 기소(4명 구속)했다. 인권 분야에선 강력범죄 피해자 유족... 4시간 전 1",
+      "collected_at": "2026-07-19T18:59:57.973089+09:00",
+      "normalized_title": "한국일보",
+      "source_normalized": "한국일보",
+      "duplicate_key": "한국일보::한국일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/49/home",
+      "id": "5926cc3eb8c5ea76",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 취임 1년…민생범죄 엄단 성과, ‘항소 포기’는 논란",
+      "url": "http://v.daum.net/v/20260719154809732",
+      "source": "경향신문",
+      "published_at": "2026-07-19T15:59:57.971869+09:00",
+      "snippet": "법무부 장관이 오는 21일로 취임 1년을 맞는다. 검찰은 보이스피싱·금융·마약 등 3대 악성 범죄를 엄단하고 특히 생필품·유가 담합을 적발하는 성과를 거뒀다. 하지만 검찰이 이재명 대통령이 재판을 받는 대장동 개발 비리 사건에 항소를 포기하고, 법무부는... 3시간 전 2",
+      "collected_at": "2026-07-19T18:59:57.971896+09:00",
+      "normalized_title": "정성호 법무장관 취임 1년…민생범죄 엄단 성과, ‘항소 포기’는 논란",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::정성호 법무장관 취임 1년…민생범죄 엄단 성과, ‘항소 포기’는 논란",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260719154809732",
+      "id": "8796d5afbd85709b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경향신문",
+      "url": "https://v.daum.net/channel/11/home",
+      "source": "경향신문",
+      "published_at": "2026-07-19T15:59:56.107777+09:00",
+      "snippet": "법무부 장관이 오는 21일로 취임 1년을 맞는다. 검찰은 보이스피싱·금융·마약 등 3대 악성 범죄를 엄단하고 특히 생필품·유가 담합을 적발하는 성과를 거뒀다. 하지만 검찰이 이재명 대통령이 재판을 받는 대장동 개발 비리 사건에 항소를 포기하고, 법무부는... 3시간 전 2",
+      "collected_at": "2026-07-19T18:59:56.107795+09:00",
+      "normalized_title": "경향신문",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::경향신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/11/home",
+      "id": "be66a2e6ebbd2f4f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 취임 1년…보이스피싱·마약 등 민생침해 범죄 엄단",
+      "url": "http://v.daum.net/v/20260719111409545",
+      "source": "서울신문",
+      "published_at": "2026-07-19T12:00:09.243345+09:00",
+      "snippet": "자산 2조원 이상 상장사 210곳의 전자주주총회 의무화도 추진해 내년부터 시행을 앞두고 있다. 아울러 밀가루, 설탕, 전분당, 유가 등 서민 가계와 직접 직결된 주요 소비재 분야에서 총 33조 6000억 원 규모의 대형 담합 사건을 적발했다. 이와 관련해 4명을 구속... 7시간 전 183",
+      "collected_at": "2026-07-19T19:00:09.243375+09:00",
+      "normalized_title": "정성호 법무장관 취임 1년…보이스피싱·마약 등 민생침해 범죄 엄단",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::정성호 법무장관 취임 1년…보이스피싱·마약 등 민생침해 범죄 엄단",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260719111409545",
+      "id": "657808937e28f279",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울신문",
+      "url": "https://v.daum.net/channel/33/home",
+      "source": "서울신문",
+      "published_at": "2026-07-19T12:00:07.452032+09:00",
+      "snippet": "자산 2조원 이상 상장사 210곳의 전자주주총회 의무화도 추진해 내년부터 시행을 앞두고 있다. 아울러 밀가루, 설탕, 전분당, 유가 등 서민 가계와 직접 직결된 주요 소비재 분야에서 총 33조 6000억 원 규모의 대형 담합 사건을 적발했다. 이와 관련해 4명을 구속... 7시간 전 183",
+      "collected_at": "2026-07-19T19:00:07.452050+09:00",
+      "normalized_title": "서울신문",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::서울신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/33/home",
+      "id": "80c4d7f4831c358c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무부 장관 취임 1년 성적표 '민생범죄 강력대응'",
+      "url": "http://v.daum.net/v/20260719133707143",
+      "source": "머니투데이",
+      "published_at": "2026-07-19T14:00:01.651343+09:00",
+      "snippet": "상장회사 집중투표제 의무화, 자기주식 1년 이내 소각 원칙 수립 등 주주 보호를 강화했다고 강조했다. 또 밀가루, 설탕, 전분당, 유가 등 주요 소비재 분야에서 총 33조 6000억원 규모의 대형 담합 사건을 적발하고, 관련자 64명을 기소했다. 법무부는 인권 분야... 5시간 전 1",
+      "collected_at": "2026-07-19T19:00:01.651375+09:00",
+      "normalized_title": "정성호 법무부 장관 취임 1년 성적표 '민생범죄 강력대응'",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::정성호 법무부 장관 취임 1년 성적표 '민생범죄 강력대응'",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260719133707143",
+      "id": "7b5b8872304239a0",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "머니투데이",
+      "url": "https://v.daum.net/channel/5/home",
+      "source": "머니투데이",
+      "published_at": "2026-07-19T13:59:59.893888+09:00",
+      "snippet": "상장회사 집중투표제 의무화, 자기주식 1년 이내 소각 원칙 수립 등 주주 보호를 강화했다고 강조했다. 또 밀가루, 설탕, 전분당, 유가 등 주요 소비재 분야에서 총 33조 6000억원 규모의 대형 담합 사건을 적발하고, 관련자 64명을 기소했다. 법무부는 인권 분야... 5시간 전 1",
+      "collected_at": "2026-07-19T18:59:59.893905+09:00",
+      "normalized_title": "머니투데이",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::머니투데이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/5/home",
+      "id": "15b948cff6e29cc5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무부 장관 취임 1년…\"국민 일상 안전과 경제 활력에 집중\"",
+      "url": "http://v.daum.net/v/20260719104956994",
+      "source": "뉴시스",
+      "published_at": "2026-07-19T11:00:13.263813+09:00",
+      "snippet": "상장회사 집중투표제 의무화, 자기주식 1년 이내 소각 원칙 수립 등 주주보호를 강화했다고 강조했다. 밀가루, 설탕, 전분당, 유가 등 주요 소비재 분야에서 총 33조 6천억 원 규모의 대형 담합 사건을 적발하고, 관련자 64명을 기소했다. [서울=뉴시스] 조성우 기자... 8시간 전 3",
+      "collected_at": "2026-07-19T19:00:13.263841+09:00",
+      "normalized_title": "정성호 법무부 장관 취임 1년…\"국민 일상 안전과 경제 활력에 집중\"",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::정성호 법무부 장관 취임 1년…\"국민 일상 안전과 경제 활력에 집중\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260719104956994",
+      "id": "4512a68aeb8e0789",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴시스",
+      "url": "https://v.daum.net/channel/21/home",
+      "source": "뉴시스",
+      "published_at": "2026-07-19T11:00:11.380338+09:00",
+      "snippet": "상장회사 집중투표제 의무화, 자기주식 1년 이내 소각 원칙 수립 등 주주보호를 강화했다고 강조했다. 밀가루, 설탕, 전분당, 유가 등 주요 소비재 분야에서 총 33조 6천억 원 규모의 대형 담합 사건을 적발하고, 관련자 64명을 기소했다. [서울=뉴시스] 조성우 기자... 8시간 전 3",
+      "collected_at": "2026-07-19T19:00:11.380356+09:00",
+      "normalized_title": "뉴시스",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::뉴시스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/21/home",
+      "id": "e250fa63010cdcd6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'정성호 1년' 법안 통과 부처 중 최대…피해자 유족 지원금 5배↑",
+      "url": "http://v.daum.net/v/20260719114354174",
+      "source": "더팩트",
+      "published_at": "2026-07-19T12:00:05.508361+09:00",
+      "snippet": "원 이상의 상장사 210곳의 전자주주총회를 의무화해 주주권 행사의 편의성을 극대화했다고 설명했다. 또 밀가루, 설탕, 전분당, 유가 등 서민 가계와 직결된 주요 소비재 분야에서 총 33조6000억 원 규모의 담합 사건을 적발하고 관련자 64명을 기소해 재판에 넘겼다... 7시간 전 1",
+      "collected_at": "2026-07-19T19:00:05.508391+09:00",
+      "normalized_title": "'정성호 1년' 법안 통과 부처 중 최대…피해자 유족 지원금 5배↑",
+      "source_normalized": "더팩트",
+      "duplicate_key": "더팩트::'정성호 1년' 법안 통과 부처 중 최대…피해자 유족 지원금 5배↑",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260719114354174",
+      "id": "4ef809f552707ccf",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "더팩트",
+      "url": "https://v.daum.net/channel/359/home",
+      "source": "더팩트",
+      "published_at": "2026-07-19T12:00:03.670653+09:00",
+      "snippet": "원 이상의 상장사 210곳의 전자주주총회를 의무화해 주주권 행사의 편의성을 극대화했다고 설명했다. 또 밀가루, 설탕, 전분당, 유가 등 서민 가계와 직결된 주요 소비재 분야에서 총 33조6000억 원 규모의 담합 사건을 적발하고 관련자 64명을 기소해 재판에 넘겼다... 7시간 전 1",
+      "collected_at": "2026-07-19T19:00:03.670671+09:00",
+      "normalized_title": "더팩트",
+      "source_normalized": "더팩트",
+      "duplicate_key": "더팩트::더팩트",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/359/home",
+      "id": "e42bf7540eecea3b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“일하는 법무부, 법치 패러다임 높여”",
+      "url": "http://v.daum.net/v/20260719124123318",
+      "source": "법률신문",
+      "published_at": "2026-07-19T13:00:03.669321+09:00",
+      "snippet": "또 자산 2조 원 이상 상장사 210곳에 대해 2027년부터 전자주주총회를 의무화하기로 했다. 검찰은 밀가루와 설탕, 전분당, 유가 등 주요 소비재 분야에서 총 33조6000억 원 규모의 담합 사건을 적발해 64명을 기소(4명 구속)했다. 민법 계약법 분야도 67년 만에 전면... 6시간 전",
+      "collected_at": "2026-07-19T19:00:03.669350+09:00",
+      "normalized_title": "“일하는 법무부, 법치 패러다임 높여”",
+      "source_normalized": "법률신문",
+      "duplicate_key": "법률신문::“일하는 법무부, 법치 패러다임 높여”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260719124123318",
+      "id": "d920081ce8d68676",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "법률신문",
+      "url": "https://v.daum.net/channel/552818/home",
+      "source": "법률신문",
+      "published_at": "2026-07-19T13:00:01.652625+09:00",
+      "snippet": "또 자산 2조 원 이상 상장사 210곳에 대해 2027년부터 전자주주총회를 의무화하기로 했다. 검찰은 밀가루와 설탕, 전분당, 유가 등 주요 소비재 분야에서 총 33조6000억 원 규모의 담합 사건을 적발해 64명을 기소(4명 구속)했다. 민법 계약법 분야도 67년 만에 전면... 6시간 전",
+      "collected_at": "2026-07-19T19:00:01.652643+09:00",
+      "normalized_title": "법률신문",
+      "source_normalized": "법률신문",
+      "duplicate_key": "법률신문::법률신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/552818/home",
+      "id": "4f8b97ee4a72137c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 취임 1년…민생범죄 엄단 성과, ‘항소 포기’는 논란새 창 열림",
+      "url": "https://www.khan.co.kr/article/202607191546001",
+      "source": "새 창 열림",
+      "published_at": "2026-07-19T15:59:52.409248+09:00",
+      "snippet": "검찰은 보이스피싱·금융·마약 등 3대 악성 범죄를 엄단하고 특히 생필품·유가 담합을 적발하는 성과를 거뒀다. 하지만 검찰이 이재명 대통령이 재판을 받는 대장동 개발 비리 사건에 항소를 포기하고, 법무부는 친여권 성향 기구를 구성해 이 대통령 사건 수사의 문제점을 조사하면서 논란도 불거졌다.... 새 창 열림",
+      "collected_at": "2026-07-19T18:59:52.409266+09:00",
+      "normalized_title": "정성호 법무장관 취임 1년…민생범죄 엄단 성과, ‘항소 포기’는 논란새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정성호 법무장관 취임 1년…민생범죄 엄단 성과, ‘항소 포기’는 논란새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.khan.co.kr/article/202607191546001",
+      "id": "5030c34aff225ab9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 취임 1년…'민생 법안 38건 통과' 역대 최다새 창 열림",
+      "url": "https://www.hankookilbo.com/news/article/A2026071912020004464?did=NA",
+      "source": "새 창 열림",
+      "published_at": "2026-07-19T14:59:52.410799+09:00",
+      "snippet": "밀가루, 설탕, 유가 등 서민 생활 품목에선 33조6,000억 원 규모의 담합을 적발해 64명을 기소(4명 구속)했다. 인권 분야에선 강력범죄 피해자 유족 구조금 하한액을 기존 1,600만 원에서 8,200만 원으로 약 5배 올렸다. 44개 기관, 100명으로 구성된 '이민자 인권침해 조사단'을 신설해 24시간 내 현장조사... 새 창 열림",
+      "collected_at": "2026-07-19T18:59:52.410817+09:00",
+      "normalized_title": "정성호 법무장관 취임 1년…'민생 법안 38건 통과' 역대 최다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정성호 법무장관 취임 1년…'민생 법안 38건 통과' 역대 최다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.hankookilbo.com/news/article/A2026071912020004464?did=NA",
+      "id": "9d4c56ea9698ee23",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무부 장관 취임 1년 성적표 '민생범죄 강력대응'새 창 열림",
+      "url": "https://www.mt.co.kr/society/2026/07/19/2026071911342484803",
+      "source": "새 창 열림",
+      "published_at": "2026-07-19T13:59:52.412368+09:00",
+      "snippet": "또 밀가루, 설탕, 전분당, 유가 등 주요 소비재 분야에서 총 33조 6000억원 규모의 대형 담합 사건을 적발하고, 관련자 64명을 기소했다. 법무부는 인권 분야에서는 전치 5주 이상 강력범죄 피해자 및 유족 중 생계 위기 가구에 350만원을 1회 지급하는 '긴급 생활 안정비'도 신설했다. 기존 약 1600만원 수준이던... 새 창 열림",
+      "collected_at": "2026-07-19T18:59:52.412390+09:00",
+      "normalized_title": "정성호 법무부 장관 취임 1년 성적표 '민생범죄 강력대응'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정성호 법무부 장관 취임 1년 성적표 '민생범죄 강력대응'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.mt.co.kr/society/2026/07/19/2026071911342484803",
+      "id": "ac268561406a7ffb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"일하는 법무부, 법치 패러다임 높여\"새 창 열림",
+      "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=223717",
+      "source": "새 창 열림",
+      "published_at": "2026-07-19T12:59:52.413830+09:00",
+      "snippet": "검찰은 밀가루와 설탕, 전분당, 유가 등 주요 소비재 분야에서 총 33조6000억 원 규모의 담합 사건을 적발해 64명을 기소(4명 구속)했다. 민법 계약법 분야도 67년 만에 전면 개정안을 발의해 계약법 현대화의 기반을 마련했다. '동물의 비물건화'를 골자로 한 민법 개정을 추진하고, 상가 관리비 14개 항목의... 새 창 열림",
+      "collected_at": "2026-07-19T18:59:52.413849+09:00",
+      "normalized_title": "\"일하는 법무부, 법치 패러다임 높여\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::\"일하는 법무부, 법치 패러다임 높여\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=223717",
+      "id": "8002f7611a18599c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무장관 취임 1년…보이스피싱·마약 등 민생침해 범죄 엄단새 창 열림",
+      "url": "https://www.seoul.co.kr/news/society/2026/07/19/20260719500036?wlog_tag3=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-07-19T11:59:52.418579+09:00",
+      "snippet": "아울러 밀가루, 설탕, 전분당, 유가 등 서민 가계와 직접 직결된 주요 소비재 분야에서 총 33조 6000억 원 규모의 대형 담합 사건을 적발했다. 이와 관련해 4명을 구속하고 64명을 기소하는 등 시장 독과점 횡포에 엄정 대처했다. 인권 보호를 위해 오는 2030년까지 교정시설 수용률을 118%까지 낮추겠다는... 새 창 열림",
+      "collected_at": "2026-07-19T18:59:52.418597+09:00",
+      "normalized_title": "정성호 법무장관 취임 1년…보이스피싱·마약 등 민생침해 범죄 엄단새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정성호 법무장관 취임 1년…보이스피싱·마약 등 민생침해 범죄 엄단새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.seoul.co.kr/news/society/2026/07/19/20260719500036?wlog_tag3=naver",
+      "id": "29fb986a99f3a7b6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'정성호 1년' 법안 통과 부처 중 최대…피해자 유족 지원금 5배↑새 창 열림",
+      "url": "https://news.tf.co.kr/read/life/2344528.htm",
+      "source": "새 창 열림",
+      "published_at": "2026-07-19T11:59:52.415391+09:00",
+      "snippet": "또 밀가루, 설탕, 전분당, 유가 등 서민 가계와 직결된 주요 소비재 분야에서 총 33조6000억 원 규모의 담합 사건을 적발하고 관련자 64명을 기소해 재판에 넘겼다. 이민 정책 등을 통한 인구 유치에도 적극 나섰다. '톱티어 비자'와 'K-스타 비자 트랙' 등을 활용해 300여 명의 해외 우수 인재를 국내에... 새 창 열림",
+      "collected_at": "2026-07-19T18:59:52.415408+09:00",
+      "normalized_title": "'정성호 1년' 법안 통과 부처 중 최대…피해자 유족 지원금 5배↑새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'정성호 1년' 법안 통과 부처 중 최대…피해자 유족 지원금 5배↑새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.tf.co.kr/read/life/2344528.htm",
+      "id": "4ef3c1a0db201671",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정성호 법무부 장관 취임 1년…\"국민 일상 안전과 경제 활력에 집중\"새 창 열림",
+      "url": "https://www.newsis.com/view/NISX20260719_0003713994",
+      "source": "새 창 열림",
+      "published_at": "2026-07-19T10:59:52.421692+09:00",
+      "snippet": "밀가루, 설탕, 전분당, 유가 등 주요 소비재 분야에서 총 33조 6천억 원 규모의 대형 담합 사건을 적발하고, 관련자 64명을 기소했다. 법무부는 인권 분야에서는 전치 5주 이상 강력범죄 피해자 및 유족 중 생계위기 가구에 350만원을 1회 지급하는 ‘긴급생활안정비’도 신설했다. 또 기존 약 1600만원 수준이던... 새 창 열림",
+      "collected_at": "2026-07-19T18:59:52.421709+09:00",
+      "normalized_title": "정성호 법무부 장관 취임 1년…\"국민 일상 안전과 경제 활력에 집중\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정성호 법무부 장관 취임 1년…\"국민 일상 안전과 경제 활력에 집중\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsis.com/view/NISX20260719_0003713994",
+      "id": "66032ab6b75653ea",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[CJ제일제당 뉴 웨이브③] 라이신부터 저당 소재까지···돈 버는 사업...새 창 열림",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=633232",
+      "source": "새 창 열림",
+      "published_at": "2026-07-19T08:00:42.445608+09:00",
+      "snippet": "CJ제일제당은 원당 기반 발효 공법을 활용해 메치오닌을 생산하고 있으며, 석유화학 원료를 사용하는 경쟁 방식 대비 원가 경쟁력을 확보할 수 있다는... 다만 기존 소재사업은 과거 담합 관련 제재라는 부담도 안고 있다. 공정위가 CJ제일제당에 부과한 담합 관련 과징금 규모는 총 3730억원으로, 설탕 1383억원... 새 창 열림",
+      "collected_at": "2026-07-19T19:00:42.445637+09:00",
+      "normalized_title": "[CJ제일제당 뉴 웨이브③] 라이신부터 저당 소재까지···돈 버는 사업...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[cj제일제당 뉴 웨이브③] 라이신부터 저당 소재까지···돈 버는 사업...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.seoulfn.com/news/articleView.html?idxno=633232",
+      "id": "cd286d11b1e56da0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

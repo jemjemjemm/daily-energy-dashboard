@@ -1,0 +1,129 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-04",
+  "slot": "morning",
+  "period_start": "2026-09-04T00:00:00+09:00",
+  "period_end": "2026-09-04T08:00:00+09:00",
+  "period_label": "2026-09-04 00:00 ~ 2026-09-04 08:00",
+  "generated_at": "2026-09-04T09:57:51.708708+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1484,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1094
+  },
+  "query_counts": {
+    "경유 담합": 2,
+    "공정위 유가 담합": 1,
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "내년 석유 최고가격제 손실보전액 30% 줄어든다새 창 열림",
+      "url": "https://news.mtn.co.kr/news-detail/2026090316071097392",
+      "source": "새 창 열림",
+      "published_at": "2026-09-04T06:15:08.763961+09:00",
+      "snippet": "이달 초 70달러대까지 내렸던 유가가 한 달도 안 돼 20달러 이상 뛴 셈이다.반면 9차 최고가격은 지난달 22일부터 4주간 리터당 휘발유 1784원, 경유 1773원... 원가 기준 적용에 따른 보전 규모 축소가 예산 숫자로 처음 드러난 것이라는 해석이 가능한 대목이다.여기에 담합 사건 수사 과정에서 최고가격제... 새 창 열림",
+      "collected_at": "2026-09-04T08:15:08.763995+09:00",
+      "normalized_title": "내년 석유 최고가격제 손실보전액 30% 줄어든다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::내년 석유 최고가격제 손실보전액 30% 줄어든다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://news.mtn.co.kr/news-detail/2026090316071097392",
+      "id": "b995c8d474bf5307",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'3.1% 상승' 8월 소비자물가, 휴대전화비 기저효과에 오름폭 확대새 창 열림",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3684341",
+      "source": "새 창 열림",
+      "published_at": "2026-09-04T00:15:08.765452+09:00",
+      "snippet": "8월 석유제품 최고가격제 도입으로 소비자물가 상승률이 0.5%포인트 완화됐으며, 이 조치가 없었다면 8월 물가는 전년 동월 대비 3.6% 상승했을 것으로... 아울러 정부는 민생 분야의 공정한 시장질서 확립과 담합, 독과점 남용, 소비자 기만 등 민생안정을 저해하는 행위를 근절하기 위해 '민생침해 범정부... 새 창 열림",
+      "collected_at": "2026-09-04T08:15:08.765470+09:00",
+      "normalized_title": "'3.1% 상승' 8월 소비자물가, 휴대전화비 기저효과에 오름폭 확대새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'3.1% 상승' 8월 소비자물가, 휴대전화비 기저효과에 오름폭 확대새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.gukjenews.com/news/articleView.html?idxno=3684341",
+      "id": "6759d6d14d296c0f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

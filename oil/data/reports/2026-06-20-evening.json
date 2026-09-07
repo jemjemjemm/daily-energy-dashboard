@@ -1,0 +1,122 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-20",
+  "slot": "evening",
+  "period_start": "2026-06-20T08:00:00+09:00",
+  "period_end": "2026-06-20T17:00:00+09:00",
+  "period_label": "2026-06-20 08:00 ~ 2026-06-20 17:00",
+  "generated_at": "2026-06-22T09:38:04.619125+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1513,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1123
+  },
+  "query_counts": {
+    "기름값 담합": 1,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 2,
+    "유가담합": 1,
+    "정유사 담합": 2,
+    "정유업계 담합": 1,
+    "주유소 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "종전 협상에도 안심 못한다…정유업계 여전히 '신중 모드'",
+      "url": "http://www.thebigdata.co.kr/view.php?ud=2026061914174052210a47484cf8_23",
+      "source": "빅데이터뉴스",
+      "published_at": "2026-06-20T09:40:06.070580+09:00",
+      "snippet": "호르무즈 해협의 통항 조건에 잠재적 '독소조항'이 포함된 데다, 정부의 최고가격제 손실 보전 갈등, 검찰의 전방위적 유가 담합 수사 등 대내외적 악재가 겹겹이 쌓였기 때문이다. 20일 정유 및 해운업계에 따르면, 미국과 이란은 3개월 반 동안의 전쟁 끝에 지난 17일 종전 MOU를 체결했다. 포괄적 최종 합의를...",
+      "collected_at": "2026-06-20T19:40:06.070614+09:00",
+      "normalized_title": "종전 협상에도 안심 못한다…정유업계 여전히 '신중 모드'",
+      "source_normalized": "빅데이터뉴스",
+      "duplicate_key": "빅데이터뉴스::종전 협상에도 안심 못한다…정유업계 여전히 '신중 모드'",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://www.thebigdata.co.kr/view.php?ud=2026061914174052210a47484cf8_23",
+      "id": "3029f680cb36ca38",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합' HD현대오일뱅크 임직원 구속…짬짜미 타 정유사 불똥 튈라",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzbm85azZ0Y3QwZTd5RlhmMXF5RGxyZHJrZ1piUE84a0UxdTM5UWhzVG5GalZzS3ZtajJ2cFkxT3dUNFdGcHE4dFJYQ3R2RnQzSml6RTU0SkNoMFpIVEJVODBaV1lIS05HcFA3cg?oc=5",
+      "source": "이슈인팩트",
+      "published_at": "2026-06-20T16:54:05+09:00",
+      "snippet": "'기름값 담합' HD현대오일뱅크 임직원 구속…짬짜미 타 정유사 불똥 튈라 이슈인팩트",
+      "collected_at": "2026-06-20T19:40:11.621022+09:00",
+      "normalized_title": "'기름값 담합' HD현대오일뱅크 임직원 구속…짬짜미 타 정유사 불똥 튈라",
+      "source_normalized": "이슈인팩트",
+      "duplicate_key": "이슈인팩트::'기름값 담합' hd현대오일뱅크 임직원 구속…짬짜미 타 정유사 불똥 튈라",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzbm85azZ0Y3QwZTd5RlhmMXF5RGxyZHJrZ1piUE84a0UxdTM5UWhzVG5GalZzS3ZtajJ2cFkxT3dUNFdGcHE4dFJYQ3R2RnQzSml6RTU0SkNoMFpIVEJVODBaV1lIS05HcFA3cg?oc=5",
+      "id": "8e971653b287ead1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

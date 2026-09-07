@@ -1,0 +1,1719 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-07",
+  "slot": "morning",
+  "period_start": "2026-07-07T00:00:00+09:00",
+  "period_end": "2026-07-07T08:00:00+09:00",
+  "period_label": "2026-07-07 00:00 ~ 2026-07-07 08:00",
+  "generated_at": "2026-07-07T17:09:42.204656+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1553,
+  "total_deduped_count": 47,
+  "total_ok_count": 47,
+  "total_review_count": 0,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 24,
+    "B": 9,
+    "C": 14
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1163
+  },
+  "query_counts": {
+    "경유 담합": 11,
+    "공정거래위원회 정유사 담합": 17,
+    "공정위 유가 담합": 14,
+    "기름값 담합": 27,
+    "석유 담합": 21,
+    "석유제품 담합": 20,
+    "유가 담합": 23,
+    "유가담합": 23,
+    "유류가격 담합": 8,
+    "정유사 담합": 22,
+    "정유업계 담합": 16,
+    "주유소 담합": 20,
+    "휘발유 담합": 19
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "“유가, 중동전쟁 직후 단기 급등”…정유 4사 공정법 위반 혐의 기소",
+      "url": "https://www.joongang.co.kr/article/25442880",
+      "source": "중앙일보",
+      "published_at": "2026-07-07T00:19:05.083701+09:00",
+      "snippet": "서울중앙지검 공정거래조사부는 6일, 주유소에 공급하는 석유제품 가격을 담합한 혐의로 HD현대오일뱅크 가격결정부서 부서장 등 임직원 3명과 GS칼텍스 국내영업 부문장을 재판에 넘겼다. 검찰은 HD현대오일뱅크·SK에너지·GS칼텍스·에쓰오일 등 4대 정유사도 공정거래법 위반 혐의로 기소했다. 검찰은...",
+      "collected_at": "2026-07-07T08:19:05.083736+09:00",
+      "normalized_title": "“유가, 중동전쟁 직후 단기 급등”…정유 4사 공정법 위반 혐의 기소",
+      "source_normalized": "중앙일보",
+      "duplicate_key": "중앙일보::“유가, 중동전쟁 직후 단기 급등”…정유 4사 공정법 위반 혐의 기소",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.joongang.co.kr/article/25442880",
+      "id": "220ab005dbad2273",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "주유소",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중앙일보",
+      "url": "https://v.daum.net/channel/8/home",
+      "source": "중앙일보",
+      "published_at": "2026-07-07T00:19:04.403579+09:00",
+      "snippet": "원에 달하고, 다른 업체의 가격 추종까지 고려하면 경쟁 제한 효과가 26조원에 이른다고 봤다. 정유업계에선 담합으로 보기 어렵다는 반론이 나온다. 한 정유업계 관계자는 “직원들끼리 가격을 서로 알려준 경우는 있지만, 이미 기준 가격이 정해진 이후라 담합으로... 8시간 전",
+      "collected_at": "2026-07-07T08:19:04.403591+09:00",
+      "normalized_title": "중앙일보",
+      "source_normalized": "중앙일보",
+      "duplicate_key": "중앙일보::중앙일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/8/home",
+      "id": "eb7afd40bf8b1876",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“전쟁으로 올해 2조 벌듯, 트럼프 만세” 담합으로 기름값 40% 올려",
+      "url": "https://www.donga.com/news/Society/article/all/20260707/134247863/2",
+      "source": "동아일보",
+      "published_at": "2026-07-07T05:18:55.675616+09:00",
+      "snippet": "검찰 조사 결과 HD현대오일뱅크는 이 대통령의 지시가 나왔던 당일에도 ‘휘발유 1955원, 등유 2515원, 경유 2185원’이라는 가격 정보를 SK에너지에 전달한 것으로 드러났다. ● 檢 “전쟁을 이윤 추구 기회로 삼아 담합 범행” 6일 서울중앙지검 공정거래조사부(부장검사 나희석)는 HD현대오일뱅크, SK에너지...",
+      "collected_at": "2026-07-07T08:18:55.675641+09:00",
+      "normalized_title": "“전쟁으로 올해 2조 벌듯, 트럼프 만세” 담합으로 기름값 40% 올려",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::“전쟁으로 올해 2조 벌듯, 트럼프 만세” 담합으로 기름값 40% 올려",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유류가격 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 14,
+      "canonical_url": "https://www.donga.com/news/Society/article/all/20260707/134247863/2",
+      "id": "dc2858eb213ae532",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "경유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "동아일보",
+      "url": "https://v.daum.net/channel/190/home",
+      "source": "동아일보",
+      "published_at": "2026-07-07T05:18:54.378395+09:00",
+      "snippet": "환호하고 있었던 것. 검찰 조사 결과 HD현대오일뱅크는 이 대통령의 지시가 나왔던 당일에도 ‘휘발유 1955원, 등유 2515원, 경유 2185원’이라는 가격 정보를 SK에너지에 전달한 것으로 드러났다. ● 檢 “전쟁을 이윤 추구 기회로 삼아 담합 범행” 6일 서울중앙... 3시간 전",
+      "collected_at": "2026-07-07T08:18:54.378407+09:00",
+      "normalized_title": "동아일보",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::동아일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유류가격 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 14,
+      "canonical_url": "https://v.daum.net/channel/190/home",
+      "id": "4a0c6238fbb4fa64",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중동전쟁 틈타 폭리… 정유사 ‘14조 담합’",
+      "url": "https://www.donga.com/news/Society/article/all/20260707/134248012/2",
+      "source": "동아일보",
+      "published_at": "2026-07-07T04:30:00+09:00",
+      "snippet": "검찰은 GS칼텍스와 에쓰오일까지 이같은 추세에 따라 가격을 올리면서 담합에 영향을 받은 석유제품 거래 규모가 총 26조 원 수준에 달한다고 밝혔다. 검찰은 불공정거래를 이어온 4대 정유사 법인을 공정거래법 위반 혐의로 재판에 넘기고, 관련 증거를 없앤 혐의를 받는 HD현대오일뱅크 법무실장과...",
+      "collected_at": "2026-07-07T08:18:45.529389+09:00",
+      "normalized_title": "중동전쟁 틈타 폭리… 정유사 ‘14조 담합’",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::중동전쟁 틈타 폭리… 정유사 ‘14조 담합’",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.donga.com/news/Society/article/all/20260707/134248012/2",
+      "id": "a3fe5174c09a8b81",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[사설]이란전에 ‘트럼프 만세’ ‘2조 벌 듯’… 정유사들의 추한 짬짜...",
+      "url": "https://www.donga.com/news/Opinion/article/all/20260706/134247642/2",
+      "source": "동아일보",
+      "published_at": "2026-07-07T00:20:10.765967+09:00",
+      "snippet": "GS칼텍스는 공정거래위원회 현장 조사를 앞두고 사내 메신저 대화를 삭제하는 등 증거를 인멸한 혐의도 받고 있다. 또 산업통상부가 석유 가격 조사에 나서자 인상액보다 낮춰 허위 보고한 것도 수사 중에 확인됐다. 담합으로 폭리를 취하고는 수사를 교란하며 책임을 회피하려 한 것이다. 거대 정유사들이...",
+      "collected_at": "2026-07-07T08:20:10.765982+09:00",
+      "normalized_title": "[사설]이란전에 ‘트럼프 만세’ ‘2조 벌 듯’… 정유사들의 추한 짬짜...",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::[사설]이란전에 ‘트럼프 만세’ ‘2조 벌 듯’… 정유사들의 추한 짬짜...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.donga.com/news/Opinion/article/all/20260706/134247642/2",
+      "id": "9f5a23922a87150a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[사설]이란전에 ‘트럼프 만세’ ‘2조 벌 듯’… 정유사들의 추한 짬짜미",
+      "url": "http://v.daum.net/v/20260706232902391",
+      "source": "동아일보",
+      "published_at": "2026-07-07T00:19:05.695901+09:00",
+      "snippet": "검찰 수사로 드러났다. 이들 정유사는 2024년 7월부터 상호 가격 정보를 공유해 왔고, 그 담합을 통해 최소 14조2000억 원어치의 석유를 판매했다고 검찰은 밝혔다. 한국석유공사의 가격정보사이트인 오피넷에 따르면 2월 28일 이란전 발발 당일 1690원대였던 전국... 8시간 전",
+      "collected_at": "2026-07-07T08:19:05.695945+09:00",
+      "normalized_title": "[사설]이란전에 ‘트럼프 만세’ ‘2조 벌 듯’… 정유사들의 추한 짬짜미",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::[사설]이란전에 ‘트럼프 만세’ ‘2조 벌 듯’… 정유사들의 추한 짬짜미",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유류가격 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260706232902391",
+      "id": "ed83299d1c868ff0",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국민일보",
+      "url": "https://v.daum.net/channel/45/home",
+      "source": "국민일보",
+      "published_at": "2026-07-07T03:19:03.635243+09:00",
+      "snippet": "회사는 기소 대상에서 제외했다. HD현대오일뱅크와 SK에너지의 담합 규모는 14조2000억원으로 추산됐다. 검찰은 GS칼텍스와 에쓰오일...원 상당의 경쟁 제한 효과가 나타났다고 밝혔다. 검찰은 또 정유업계의 고질적 문제로 지적됐던 ‘전량구매계약’과 관련해 HD... 5시간 전",
+      "collected_at": "2026-07-07T08:19:03.635257+09:00",
+      "normalized_title": "국민일보",
+      "source_normalized": "국민일보",
+      "duplicate_key": "국민일보::국민일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/45/home",
+      "id": "24bfcc347c6ceaa1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁통에 14조 유가담합…“트럼프 만세” 외치며 배불린 정유사",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1783329022&code=11131200&cp=nv",
+      "source": "국민일보",
+      "published_at": "2026-07-07T02:39:00+09:00",
+      "snippet": "검찰이 미국·이란 전쟁 발발 직후 14조원대 유가 담합을 주도한 국내 정유사와 직원들을 재판에 넘겼다. 검찰이 확보한 정유사 직원들의... 전량구매계약은 자영주유소가 정유사에서 통보하는 가격에 따라 석유제품을 전량 구매하도록 하고, 다른 업체에서는 제품을 구매하지 못하도록 하는 계약을 말한다....",
+      "collected_at": "2026-07-07T08:18:21.742810+09:00",
+      "normalized_title": "전쟁통에 14조 유가담합…“트럼프 만세” 외치며 배불린 정유사",
+      "source_normalized": "국민일보",
+      "duplicate_key": "국민일보::전쟁통에 14조 유가담합…“트럼프 만세” 외치며 배불린 정유사",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://www.kmib.co.kr/article/view.asp?arcid=1783329022&code=11131200&cp=nv",
+      "id": "0acabeee892f848f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "주유소",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“트럼프 만세” “2조 벌 듯”… 전쟁 틈타 14조 유가담합 ‘폭리’",
+      "url": "https://www.seoul.co.kr/news/society/law/2026/07/07/20260707010007?wlog_tag3=naver",
+      "source": "서울신문",
+      "published_at": "2026-07-07T05:19:07.838647+09:00",
+      "snippet": "품목별로는 등유가 80% 급등해 가장 큰 상승폭을 보였고 경유와 휘발유가 각각 28%, 12% 올랐다. GS칼텍스와 에쓰오일은 HD현대오일뱅크와 SK에너지가 설정한 가격을 추종하는 형태로 담합에 가담했다고 의심했지만, 구체적인 물증을 확보하지 못해 기소 대상에서는 제외됐다. 검찰은 압수수색을 통해 각 회사...",
+      "collected_at": "2026-07-07T08:19:07.838659+09:00",
+      "normalized_title": "“트럼프 만세” “2조 벌 듯”… 전쟁 틈타 14조 유가담합 ‘폭리’",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::“트럼프 만세” “2조 벌 듯”… 전쟁 틈타 14조 유가담합 ‘폭리’",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.seoul.co.kr/news/society/law/2026/07/07/20260707010007?wlog_tag3=naver",
+      "id": "1d8866cc74486e24",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[사설] 전쟁 틈타 서민 등골 뺀 14조원 유가 담합, 일벌백계해야",
+      "url": "https://www.seoul.co.kr/news/editOpinion/editorial/2026/07/07/20260707027005?wlog_tag3=naver",
+      "source": "서울신문",
+      "published_at": "2026-07-07T05:18:54.377515+09:00",
+      "snippet": "국내 대표적 정유사들이 중동 전쟁을 틈타 담합으로 기름값을 폭등시켰다는 소식은 당황스럽기만 하다. 국민은 그동안 각종 석유류 제품값 인상에 허리띠를 졸라매며 고통을 감내해 왔다. 그럼에도 HD현대오일뱅크와 SK에너지의 짬짜미 규모는 14조 2000억원에 이른다고 한다. GS칼텍스와 에쓰오일이 이들의...",
+      "collected_at": "2026-07-07T08:18:54.377539+09:00",
+      "normalized_title": "[사설] 전쟁 틈타 서민 등골 뺀 14조원 유가 담합, 일벌백계해야",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::[사설] 전쟁 틈타 서민 등골 뺀 14조원 유가 담합, 일벌백계해야",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.seoul.co.kr/news/editOpinion/editorial/2026/07/07/20260707027005?wlog_tag3=naver",
+      "id": "5d1657dd16163c2b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울신문",
+      "url": "https://v.daum.net/channel/33/home",
+      "source": "서울신문",
+      "published_at": "2026-07-07T05:18:53.596152+09:00",
+      "snippet": "소식은 당황스럽기만 하다. 국민은 그동안 각종 석유류 제품값 인상에 허리띠를 졸라매며 고통을 감내해 왔다. 그럼에도 HD현대...2000억원에 이른다고 한다. GS칼텍스와 에쓰오일이 이들의 담합을 참고해 올린 가격을 합치면 국민이 26조원의 덤터기를 썼다는 것... 3시간 전",
+      "collected_at": "2026-07-07T08:18:53.596165+09:00",
+      "normalized_title": "서울신문",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::서울신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/33/home",
+      "id": "80c4d7f4831c358c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "세계일보",
+      "url": "https://v.daum.net/channel/38/home",
+      "source": "세계일보",
+      "published_at": "2026-07-07T06:18:18.277304+09:00",
+      "snippet": "HD현대오일뱅크와 SK에너지의 가격부서 책임자들은 이란 전쟁 발발 직후 석유제품 가격 인상 시기와 규모를 담합한 것으로 조사됐다. 두 정유사의 직접 담합 규모는 14조2000억원으로 추산됐다. 검찰은 국내 정유 4사 중 나머지 2개사(GS칼텍스·에쓰오일)가 이 두... 2시간 전",
+      "collected_at": "2026-07-07T08:18:18.277315+09:00",
+      "normalized_title": "세계일보",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::세계일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://v.daum.net/channel/38/home",
+      "id": "84b9eb17cf27ffac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유사 직원들 “트럼프 만세”… 전쟁 나자 유가 올려 ‘폭리’",
+      "url": "https://www.segye.com/newsView/20260706515564?OutUrl=naver",
+      "source": "세계일보",
+      "published_at": "2026-07-07T06:18:12.090139+09:00",
+      "snippet": "두 정유사의 직접 담합 규모는 14조2000억원으로 추산됐다. 검찰은 국내 정유 4사 중 나머지 2개사(GS칼텍스·에쓰오일)가 이 두 회사의 담합 가격을 추종한 점을 감안하면 담합 효과가 26조원 상당까지 는다고 부연했다. 국내 정유시장은 정유 4사의 점유율 합계가 98.6%에 이르는 완전 과점시장이다. 이란 전쟁...",
+      "collected_at": "2026-07-07T08:18:12.090155+09:00",
+      "normalized_title": "정유사 직원들 “트럼프 만세”… 전쟁 나자 유가 올려 ‘폭리’",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::정유사 직원들 “트럼프 만세”… 전쟁 나자 유가 올려 ‘폭리’",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 17,
+      "canonical_url": "https://www.segye.com/newsView/20260706515564?OutUrl=naver",
+      "id": "b6df4c4e53dd6f28",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“기름값 오른 거 전쟁 아닌 이것 때문?” 檢, 정유 4사 담합 혐의 기소",
+      "url": "https://www.munhwa.com/article/11600692?ref=naver",
+      "source": "문화일보",
+      "published_at": "2026-07-07T06:18:20.376041+09:00",
+      "snippet": "연합뉴스 미국·이란 전쟁 이후 담합으로 유가를 폭등시킨 혐의를 받는 국내 정유사와 소속 직원들이 무더기로 재판에 넘겨졌다. 서울중앙지검... 검찰이 파악한 HD현대오일뱅크와 SK에너지의 직접 담합 규모는 14조2000억 원이다. GS칼텍스와 에쓰오일이 이들의 담합 가격을 참고해 인상한 부분까지 감안하면 총...",
+      "collected_at": "2026-07-07T08:18:20.376063+09:00",
+      "normalized_title": "“기름값 오른 거 전쟁 아닌 이것 때문?” 檢, 정유 4사 담합 혐의 기소",
+      "source_normalized": "문화일보",
+      "duplicate_key": "문화일보::“기름값 오른 거 전쟁 아닌 이것 때문?” 檢, 정유 4사 담합 혐의 기소",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 13,
+      "canonical_url": "https://www.munhwa.com/article/11600692?ref=naver",
+      "id": "e80905b2dd978498",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "문화일보",
+      "url": "https://v.daum.net/channel/15/home",
+      "source": "문화일보",
+      "published_at": "2026-07-07T06:18:19.682134+09:00",
+      "snippet": "이례적으로 폭등하자 수사에 착수했다. 수사 결과 HD현대오일뱅크와 SK에너지의 가격부서 책임자들은 전쟁 직후 석유제품 가격 인상 시기와 규모를 담합한 것으로 조사됐다. HD현대오일뱅크 직원들이 전쟁 이전부터 SK에너지 임직원과 가격 정보를 지속적으로 교환한... 2시간 전 2",
+      "collected_at": "2026-07-07T08:18:19.682166+09:00",
+      "normalized_title": "문화일보",
+      "source_normalized": "문화일보",
+      "duplicate_key": "문화일보::문화일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://v.daum.net/channel/15/home",
+      "id": "b64021856ebd46a3",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울경제",
+      "url": "https://v.daum.net/channel/129/home",
+      "source": "서울경제",
+      "published_at": "2026-07-07T07:18:17.405807+09:00",
+      "snippet": "이란 전쟁 국면을 계기로 국내 정유업계가 26조 원 규모의 유가 담합을 벌였다는 검찰 수사 결과가 공개됐다. 검찰은 일부 정유사가...합계는 98.6%다. 검찰은 미국·이란 전쟁 직후 국내 석유제품 가격이 급등한 배경을 규명하기 위해 3월 23일 정유 4사 등을 압수... 1시간 전",
+      "collected_at": "2026-07-07T08:18:17.405820+09:00",
+      "normalized_title": "서울경제",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::서울경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 15,
+      "canonical_url": "https://v.daum.net/channel/129/home",
+      "id": "901ba30ba77d44f5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "정유업계",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁 틈타 ‘26조’ 유가 담합…갑질·증거 인멸까지 적발",
+      "url": "https://www.sedaily.com/article/20064435?ref=naver",
+      "source": "서울경제",
+      "published_at": "2026-07-07T07:18:12.088332+09:00",
+      "snippet": "미국·이란 전쟁 국면을 계기로 국내 정유업계가 26조 원 규모의 유가 담합을 벌였다는 검찰 수사 결과가 공개됐다. 검찰은 일부 정유사가 가격 인상... HD현대오일뱅크 법무실장 A 씨는 공정위 현장조사 계획을 사전에 입수한 뒤 경쟁사 가격 정보가 담긴 전산 자료 삭제를 지시한 혐의를 받고 있다. GS칼텍스...",
+      "collected_at": "2026-07-07T08:18:12.088343+09:00",
+      "normalized_title": "전쟁 틈타 ‘26조’ 유가 담합…갑질·증거 인멸까지 적발",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::전쟁 틈타 ‘26조’ 유가 담합…갑질·증거 인멸까지 적발",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 21,
+      "canonical_url": "https://www.sedaily.com/article/20064435?ref=naver",
+      "id": "69bb4aa91310e977",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "카톡으로 “휘발유 50원 올립시다”...제주 기름값 담합 무더기 적발 [Pick코노미]",
+      "url": "http://v.daum.net/v/20260707060221291",
+      "source": "서울경제",
+      "published_at": "2026-07-07T06:18:51.895927+09:00",
+      "snippet": "지회에는 지역 주유소 116곳이 가입해 있다. 공정위는 이 같은 담합으로 제주 지역 소비자들이 육지보다 더 비싼 가격에 연료를 구매...제주지역 평균 휘발유 가격은 육지보다 리터당 최대 83원, 경유는 최대 150원, 등유는 최대 53원 높은 수준을 기록했다. 공정위... 2시간 전",
+      "collected_at": "2026-07-07T08:18:51.895953+09:00",
+      "normalized_title": "카톡으로 “휘발유 50원 올립시다”...제주 기름값 담합 무더기 적발 [Pick코노미]",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::카톡으로 “휘발유 50원 올립시다”...제주 기름값 담합 무더기 적발 [pick코노미]",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유류가격 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260707060221291",
+      "id": "a549f6e5f7867896",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "경유",
+        "주유소",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "카톡으로 “휘발유 50원 올립시다”...제주 기름값 담합 무더기 적발 [P...",
+      "url": "https://www.sedaily.com/article/20064419?ref=naver",
+      "source": "서울경제",
+      "published_at": "2026-07-07T06:18:46.058357+09:00",
+      "snippet": "담합 기간 제주지역 평균 휘발유 가격은 육지보다 리터당 최대 83원, 경유는 최대 150원, 등유는 최대 53원 높은 수준을 기록했다. 공정위는 도서지역 특성에 따른 운송비 부담을 감안하더라도 담합이 없었다면 실제 판매가격은 리터당 10~60원가량 더 낮아질 수 있었을 것으로 추산했다. 담합은 농협 주유소와...",
+      "collected_at": "2026-07-07T08:18:46.058366+09:00",
+      "normalized_title": "카톡으로 “휘발유 50원 올립시다”...제주 기름값 담합 무더기 적발 [P...",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::카톡으로 “휘발유 50원 올립시다”...제주 기름값 담합 무더기 적발 [p...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "유류가격 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.sedaily.com/article/20064419?ref=naver",
+      "id": "0005e727b3ecb66a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "경유",
+        "주유소",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "머니투데이",
+      "url": "https://v.daum.net/channel/5/home",
+      "source": "머니투데이",
+      "published_at": "2026-07-07T04:19:02.964379+09:00",
+      "snippet": "약 40% 오른 것으로 분석했다. 품목별로는 △휘발유 12% △경유 28% △등유가 80% 상승했다. 검찰 수사결과 HD현대오일뱅크와 SK...약 30~40원 높은 가격을 책정하는 방식으로 입금가를 대폭 올리기로 담합한 혐의를 받는다. 검찰은 HD현대오일뱅크와 SK에너지의... 4시간 전",
+      "collected_at": "2026-07-07T08:19:02.964392+09:00",
+      "normalized_title": "머니투데이",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::머니투데이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/5/home",
+      "id": "15b948cff6e29cc5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁 틈타 26조 담합, 정유4사 법정 선다",
+      "url": "https://www.mt.co.kr/society/2026/07/07/2026070619514324448",
+      "source": "머니투데이",
+      "published_at": "2026-07-07T04:18:57.494699+09:00",
+      "snippet": "12% △경유 28% △등유가 80% 상승했다. 검찰 수사결과 HD현대오일뱅크와 SK에너지의 가격결정 책임자들이 가격인상 시기와 규모를 합의한 정황이 확인됐다. 검찰에 따르면 두 회사는 전쟁 직후 SK에너지가 HD현대오일뱅크보다 리터당 약 30~40원 높은 가격을 책정하는 방식으로 입금가를 대폭 올리기로 담합한...",
+      "collected_at": "2026-07-07T08:18:57.494709+09:00",
+      "normalized_title": "전쟁 틈타 26조 담합, 정유4사 법정 선다",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::전쟁 틈타 26조 담합, 정유4사 법정 선다",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 12,
+      "canonical_url": "https://www.mt.co.kr/society/2026/07/07/2026070619514324448",
+      "id": "4064d89848e1ccee",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁 틈타 기름값 '14조 담합'…소비자들, 손해배상 가능할까",
+      "url": "https://www.newsis.com/view/NISX20260706_0003697863",
+      "source": "뉴시스",
+      "published_at": "2026-07-07T06:18:19.680294+09:00",
+      "snippet": "검찰은 이번 사건의 직접 담합 규모가 14조2000억원에 이르고, GS칼텍스와 에스오일의 담합 가격 추종에 따른 파급 효과까지 감안했을 때 경쟁제한 효과는... 밀가루나 설탕 등 식품 공정 과정에 들어가는 원재료는 최종 소비자가 간접적으로 부담한 손해액을 특정하기 어려운 데 비해, 유류비는 주유 영수증이나...",
+      "collected_at": "2026-07-07T08:18:19.680341+09:00",
+      "normalized_title": "전쟁 틈타 기름값 '14조 담합'…소비자들, 손해배상 가능할까",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::전쟁 틈타 기름값 '14조 담합'…소비자들, 손해배상 가능할까",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 14,
+      "canonical_url": "https://www.newsis.com/view/NISX20260706_0003697863",
+      "id": "0562aae5f2ecd34c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴시스",
+      "url": "https://v.daum.net/channel/21/home",
+      "source": "뉴시스",
+      "published_at": "2026-07-07T06:18:18.982280+09:00",
+      "snippet": "정유사들이 미국·이란 전쟁 발발을 빌미 삼아 14조원대 유가 담합을 한 혐의로 재판에 넘겨진 가운데, 담합 행위로 피해를 본 소비자...받을 수 있을지 관심이 쏠린다. 사진은 지난 2일 서울시내 한 주유소 유가정보 알림판. 2026.07.07. kmn@newsis.com [서울... 2시간 전 2",
+      "collected_at": "2026-07-07T08:18:18.982313+09:00",
+      "normalized_title": "뉴시스",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::뉴시스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/21/home",
+      "id": "e250fa63010cdcd6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "KBS",
+      "url": "https://v.daum.net/channel/327/home",
+      "source": "KBS",
+      "published_at": "2026-07-07T07:18:15.825727+09:00",
+      "snippet": "폭등했었죠. 중동 현지 유가가 국내에 반영되기도 전에 리터당 1,900원을 돌파했는데요. 정유사들의 '불공정 담합' 때문이었던 거로 검찰 수사에서 드러났습니다. 김우준 기자의 보도입니다. [리포트] 미국-이란 전쟁 직후 치솟은 기름값. [KBS 뉴스/3월 6일 : \"오늘... 1시간 전",
+      "collected_at": "2026-07-07T08:18:15.825741+09:00",
+      "normalized_title": "KBS",
+      "source_normalized": "KBS",
+      "duplicate_key": "kbs::kbs",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/327/home",
+      "id": "2deb64bd18d6b3a3",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁에 “트럼프 만세” “2조 벌듯”…4대 정유사 ‘유가 담합’ 기소",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8603754&ref=A",
+      "source": "KBS",
+      "published_at": "2026-07-07T07:18:12.089192+09:00",
+      "snippet": "정유사들의 '불공정 담합' 때문이었던 거로 검찰 수사에서 드러났습니다. 김우준 기자의 보도입니다. [리포트] 미국-이란 전쟁 직후 치솟은 기름값. [KBS 뉴스/3월 6일 : \"오늘 다시 돌아봤더니 2천 원을 넘긴 곳도 있었습니다.\"] 통상 중동 현지 유가가 국내에 반영되기까지 2~3주 정도 걸리는데 전쟁 일주일 만에...",
+      "collected_at": "2026-07-07T08:18:12.089203+09:00",
+      "normalized_title": "전쟁에 “트럼프 만세” “2조 벌듯”…4대 정유사 ‘유가 담합’ 기소",
+      "source_normalized": "KBS",
+      "duplicate_key": "kbs::전쟁에 “트럼프 만세” “2조 벌듯”…4대 정유사 ‘유가 담합’ 기소",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8603754&ref=A",
+      "id": "7a90953efb1a69cb",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "MBC",
+      "url": "https://v.daum.net/channel/98/home",
+      "source": "MBC",
+      "published_at": "2026-07-07T07:18:15.177591+09:00",
+      "snippet": "이란에 대규모 공습을 단행한 지난 2월 28일. 이날 전국 평균 휘발유값은 리터당 1천 692.89원이었습니다. 그런데 닷새 만에 140원...국내 시장을 98% 이상 차지하고 있는 4대 정유회사의 담합과 가격추종이 있었다고 결론내렸습니다. 재작년 7월부터 주유소 납품... 7시간 전 1",
+      "collected_at": "2026-07-07T08:18:15.177606+09:00",
+      "normalized_title": "MBC",
+      "source_normalized": "MBC",
+      "duplicate_key": "mbc::mbc",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/98/home",
+      "id": "1e1cb4b87c32e18a",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SBS",
+      "url": "https://v.daum.net/channel/73/home",
+      "source": "SBS",
+      "published_at": "2026-07-07T07:18:16.677336+09:00",
+      "snippet": "이를 주도한 HD현대오일뱅크와 SK에너지의 담합 규모는 14조 2천억 원에 이르고, GS칼텍스와 에스오일이 두 회사의 담합 가격을 참고해 기름값을 올린 것을 감안하면 26조 원 상당의 경쟁 제한, 담합 효과가 발생했다고 검찰은 밝혔습니다. 당시 정유 4사가 상당한... 1시간 전 1",
+      "collected_at": "2026-07-07T08:18:16.677349+09:00",
+      "normalized_title": "SBS",
+      "source_normalized": "SBS",
+      "duplicate_key": "sbs::sbs",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://v.daum.net/channel/73/home",
+      "id": "ed10ccec22df5a8e",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"트럼프 만세\" 외치며 26조 담합…정유 4사 기소",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008644393&plink=ORI&cooper=NAVER",
+      "source": "SBS",
+      "published_at": "2026-07-07T07:18:12.087508+09:00",
+      "snippet": "이를 주도한 HD현대오일뱅크와 SK에너지의 담합 규모는 14조 2천억 원에 이르고, GS칼텍스와 에스오일이 두 회사의 담합 가격을 참고해 기름값을 올린 것을 감안하면 26조 원 상당의 경쟁 제한, 담합 효과가 발생했다고 검찰은 밝혔습니다. 당시 정유 4사가 상당한 양의 원유를 비축해 둔 상태라 가격이 급등할...",
+      "collected_at": "2026-07-07T08:18:12.087527+09:00",
+      "normalized_title": "\"트럼프 만세\" 외치며 26조 담합…정유 4사 기소",
+      "source_normalized": "SBS",
+      "duplicate_key": "sbs::\"트럼프 만세\" 외치며 26조 담합…정유 4사 기소",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 12,
+      "canonical_url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008644393&plink=ORI&cooper=NAVER",
+      "id": "133ac68dbaaf90ec",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"트럼프 만세\"…전쟁 핑계로 기름값 담합 '철퇴'",
+      "url": "http://v.daum.net/v/20260707004258383",
+      "source": "SBS",
+      "published_at": "2026-07-07T01:19:15.166436+09:00",
+      "snippet": "<앵커> 미국-이란 전쟁을 핑계로 담합을 통해 기름가격을 대폭 올린 국내 정유사 4곳과 간부들이 재판에 넘겨졌습니다. 검찰은 이들...기자가 보도합니다. <기자> 지난 3월 서울의 휘발유 평균 가격은 리터당 1,800원을 훌쩍 뛰어넘었습니다. 당시에는 미국과 이란... 7시간 전",
+      "collected_at": "2026-07-07T08:19:15.166518+09:00",
+      "normalized_title": "\"트럼프 만세\"…전쟁 핑계로 기름값 담합 '철퇴'",
+      "source_normalized": "SBS",
+      "duplicate_key": "sbs::\"트럼프 만세\"…전쟁 핑계로 기름값 담합 '철퇴'",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260707004258383",
+      "id": "5948c828fb756bef",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "YTN",
+      "url": "https://v.daum.net/channel/23/home",
+      "source": "YTN",
+      "published_at": "2026-07-07T07:47:13.675441+09:00",
+      "snippet": "상황에서 보니까 전쟁 이후에 정유업체들만 돈을 많이 벌었다. 담합을 해서 선택권도 제한을 했다. 검찰이 지금 기소를 했지 않습니까...게. 바로 며칠 있다가, 하루이틀 후에 서울의 어떤 주유소가 갑자기 리터당 1900원, 2000원 올렸고요. 그리고 공급가도 얼마... 33분 전",
+      "collected_at": "2026-07-07T08:18:13.675453+09:00",
+      "normalized_title": "YTN",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::ytn",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/23/home",
+      "id": "d2d24d5b6b97e3ae",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[스타트 경제] 삼성전자, 메모리 가격 급등에 최대 실적 경신 기대감↑",
+      "url": "https://www.ytn.co.kr/_ln/0102_202607070732305900",
+      "source": "YTN",
+      "published_at": "2026-07-07T07:32:12.085022+09:00",
+      "snippet": "담합을 해서 선택권도 제한을 했다. 검찰이 지금 기소를 했지 않습니까? 어떤 내용입니까? [주원] 2월 28일인가, 제 기억으로 미국과 이란 전쟁이 발발했던 게. 바로 며칠 있다가, 하루이틀 후에 서울의 어떤 주유소가 갑자기 리터당 1900원, 2000원 올렸고요. 그리고 공급가도 얼마 있다가 바로바로 올렸거든요....",
+      "collected_at": "2026-07-07T08:18:12.085033+09:00",
+      "normalized_title": "[스타트 경제] 삼성전자, 메모리 가격 급등에 최대 실적 경신 기대감↑",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::[스타트 경제] 삼성전자, 메모리 가격 급등에 최대 실적 경신 기대감↑",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 11,
+      "canonical_url": "https://www.ytn.co.kr/_ln/0102_202607070732305900",
+      "id": "3310de6613c5b470",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '유가 담합' 4대 정유사 기소...\"26조 원대 경제 피해\"",
+      "url": "https://www.ytn.co.kr/_ln/0103_202607062323303042",
+      "source": "YTN",
+      "published_at": "2026-07-07T00:20:02.682464+09:00",
+      "snippet": "미국과 이란 전쟁 이후 유가 담합 의혹에 연루된 국내 4대 정유회사들이 재판에 넘겨졌습니다. 검찰은 이들의 담합 행위로 26조 원대에 달하는 경제... 이 밖에도 담합 행위에 직접 개입하거나 공정위의 현장조사 사실을 미리 알고 증거를 없앤 HD현대오일과 GS칼텍스 임직원들도 함께 재판에 넘겨졌습니다. YTN...",
+      "collected_at": "2026-07-07T08:20:02.682478+09:00",
+      "normalized_title": "검찰, '유가 담합' 4대 정유사 기소...\"26조 원대 경제 피해\"",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::검찰, '유가 담합' 4대 정유사 기소...\"26조 원대 경제 피해\"",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.ytn.co.kr/_ln/0103_202607062323303042",
+      "id": "da73b7047e9983c3",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁에 “트럼프 만세” “2조 벌듯”…4대 정유사 ‘유가 담합’ 기소",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1dE5DNVpGejR0SE1xTktkejdNeDZmWGR4RHBuZUdkODFsemd2Rldab01IUzRiNmU5YXhLN0RuUnlQRkxmTnMyczhlWmxhbEFjcHZZZ0c3OS1ybXM?oc=5",
+      "source": "KBS 뉴스",
+      "published_at": "2026-07-07T06:26:00+09:00",
+      "snippet": "전쟁에 “트럼프 만세” “2조 벌듯”…4대 정유사 ‘유가 담합’ 기소 KBS 뉴스",
+      "collected_at": "2026-07-07T08:18:21.742354+09:00",
+      "normalized_title": "전쟁에 “트럼프 만세” “2조 벌듯”…4대 정유사 ‘유가 담합’ 기소",
+      "source_normalized": "KBS 뉴스",
+      "duplicate_key": "kbs 뉴스::전쟁에 “트럼프 만세” “2조 벌듯”…4대 정유사 ‘유가 담합’ 기소",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1dE5DNVpGejR0SE1xTktkejdNeDZmWGR4RHBuZUdkODFsemd2Rldab01IUzRiNmU5YXhLN0RuUnlQRkxmTnMyczhlWmxhbEFjcHZZZ0c3OS1ybXM?oc=5",
+      "id": "864990ab5f86e88c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"트럼프 만세\"…전쟁 핑계로 기름값 담합 '철퇴'",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQREdtTXIyaEhCV3JWTnJtN05NTDc4Szdaak9OZ3NYRmp0cGM3V2RFWnVITzJwZGZ4dHVDV04wNThiV0k5bGtaelE0Qm91aHZkLV9KZ3FsUF9rMFVBcDE4dDdSc2lRcWhYM3l3eEdGN3F4ZjdUanBmZU1aRnR1R0doanZpU2VhUi1CdXIzT0drRdIBZkFVX3lxTFBreXY0Z3ZaWXNaRXhEbHRIVlEzaXBvQ01MZFVLNkQ3bTNQR1c3WVpBOUkyYU41ZTJDM2ptNFpjSjBUeXM0ZU5vTjB0d1NoajNHV0RDTDBlb2F6dnNBRGdYRE9fM1ptdw?oc=5",
+      "source": "news.sbs.co.kr",
+      "published_at": "2026-07-07T00:35:00+09:00",
+      "snippet": "\"트럼프 만세\"…전쟁 핑계로 기름값 담합 '철퇴' news.sbs.co.kr",
+      "collected_at": "2026-07-07T08:18:56.955881+09:00",
+      "normalized_title": "\"트럼프 만세\"…전쟁 핑계로 기름값 담합 '철퇴'",
+      "source_normalized": "news.sbs.co.kr",
+      "duplicate_key": "news.sbs.co.kr::\"트럼프 만세\"…전쟁 핑계로 기름값 담합 '철퇴'",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQREdtTXIyaEhCV3JWTnJtN05NTDc4Szdaak9OZ3NYRmp0cGM3V2RFWnVITzJwZGZ4dHVDV04wNThiV0k5bGtaelE0Qm91aHZkLV9KZ3FsUF9rMFVBcDE4dDdSc2lRcWhYM3l3eEdGN3F4ZjdUanBmZU1aRnR1R0doanZpU2VhUi1CdXIzT0drRdIBZkFVX3lxTFBreXY0Z3ZaWXNaRXhEbHRIVlEzaXBvQ01MZFVLNkQ3bTNQR1c3WVpBOUkyYU41ZTJDM2ptNFpjSjBUeXM0ZU5vTjB0d1NoajNHV0RDTDBlb2F6dnNBRGdYRE9fM1ptdw?oc=5",
+      "id": "a8fdc0dcfee87782",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 4대 정유사 ‘기름값 담합’ 기소",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1zOEV6SjBrTXBHeW5RWnpNdk9iRTNscHhFVDJBRlNTYU9YWUU4X1U4R0ZfUVFWTWREQkZQeGpnamVDU3RSVnRZ?oc=5",
+      "source": "pinenews.co.kr",
+      "published_at": "2026-07-07T00:36:00+09:00",
+      "snippet": "검찰, 4대 정유사 ‘기름값 담합’ 기소 pinenews.co.kr",
+      "collected_at": "2026-07-07T08:18:45.533242+09:00",
+      "normalized_title": "검찰, 4대 정유사 ‘기름값 담합’ 기소",
+      "source_normalized": "pinenews.co.kr",
+      "duplicate_key": "pinenews.co.kr::검찰, 4대 정유사 ‘기름값 담합’ 기소",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1zOEV6SjBrTXBHeW5RWnpNdk9iRTNscHhFVDJBRlNTYU9YWUU4X1U4R0ZfUVFWTWREQkZQeGpnamVDU3RSVnRZ?oc=5",
+      "id": "bdcb39b04b1dbab2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁 틈타 '26조' 유가 담합…갑질·증거 인멸까지 적발",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfdUlnQzdVNDNWX2VWY21Qdi1vVUhERGM5Y0VtZllIR3U2V2JhcEdyM01yZkpDM09Kd2FvOG5mdGcxQVQ2bGxtQWxVeTBvSjAwWVg4?oc=5",
+      "source": "네이트",
+      "published_at": "2026-07-07T06:31:00+09:00",
+      "snippet": "전쟁 틈타 '26조' 유가 담합…갑질·증거 인멸까지 적발 네이트",
+      "collected_at": "2026-07-07T08:18:21.755555+09:00",
+      "normalized_title": "전쟁 틈타 '26조' 유가 담합…갑질·증거 인멸까지 적발",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::전쟁 틈타 '26조' 유가 담합…갑질·증거 인멸까지 적발",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfdUlnQzdVNDNWX2VWY21Qdi1vVUhERGM5Y0VtZllIR3U2V2JhcEdyM01yZkpDM09Kd2FvOG5mdGcxQVQ2bGxtQWxVeTBvSjAwWVg4?oc=5",
+      "id": "e5e1df61ec1925ce",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "카톡으로 \"휘발유 50원 올립시다\"…제주 기름값 담합 무더기 적발 [Pick코노미]",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YcVdycm54eGszcGNpV3ZqeEJwVk01R3hNUjk5M0lQNXJBUXdSNUt1YTZkYTZZR1I2cnBUVXhoSjljVlVxZXpTRlVPSEQ3VDVxZmpJ?oc=5",
+      "source": "네이트",
+      "published_at": "2026-07-07T06:02:00+09:00",
+      "snippet": "카톡으로 \"휘발유 50원 올립시다\"…제주 기름값 담합 무더기 적발 [Pick코노미] 네이트",
+      "collected_at": "2026-07-07T08:18:56.967617+09:00",
+      "normalized_title": "카톡으로 \"휘발유 50원 올립시다\"…제주 기름값 담합 무더기 적발 [Pick코노미]",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::카톡으로 \"휘발유 50원 올립시다\"…제주 기름값 담합 무더기 적발 [pick코노미]",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YcVdycm54eGszcGNpV3ZqeEJwVk01R3hNUjk5M0lQNXJBUXdSNUt1YTZkYTZZR1I2cnBUVXhoSjljVlVxZXpTRlVPSEQ3VDVxZmpJ?oc=5",
+      "id": "715352317184ece4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이란 전쟁 틈타 14조 유가 담합…정유4사 재판행",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03VEc2Y2xFdVZOcHJWb3c2eTFRMFZEalpEaEJpQncteXZqWTJ3UnlmWEpKaWRWeHJmQklvdHZtODVxSUdpNGg4aVM0Vk9VaU5Ma1RVOVo2aElEMnJQZUMxcEEweDVWU2s2LUE?oc=5",
+      "source": "네이트",
+      "published_at": "2026-07-07T05:35:00+09:00",
+      "snippet": "이란 전쟁 틈타 14조 유가 담합…정유4사 재판행 네이트",
+      "collected_at": "2026-07-07T08:18:21.755177+09:00",
+      "normalized_title": "이란 전쟁 틈타 14조 유가 담합…정유4사 재판행",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::이란 전쟁 틈타 14조 유가 담합…정유4사 재판행",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03VEc2Y2xFdVZOcHJWb3c2eTFRMFZEalpEaEJpQncteXZqWTJ3UnlmWEpKaWRWeHJmQklvdHZtODVxSUdpNGg4aVM0Vk9VaU5Ma1RVOVo2aElEMnJQZUMxcEEweDVWU2s2LUE?oc=5",
+      "id": "35ccb8a0f68050aa",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"트럼프 만세\"…전쟁 핑계로 기름값 담합 '철퇴'",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBGS3I5MkJGMFYyYnQteHZvWHY1cDRmQ1ZGak11cTc2MkNJY0hPaGtPXzZISXZHVXhxVWczaW9BXzlpdU91SkVGMDJaUEN0djItTkM2aENnNkQ2b01LWTdGUzZvN202bHRueExDRVFnMTJoS0tLNTVXYg?oc=5",
+      "source": "네이트",
+      "published_at": "2026-07-07T00:44:00+09:00",
+      "snippet": "\"트럼프 만세\"…전쟁 핑계로 기름값 담합 '철퇴' 네이트",
+      "collected_at": "2026-07-07T08:18:56.966754+09:00",
+      "normalized_title": "\"트럼프 만세\"…전쟁 핑계로 기름값 담합 '철퇴'",
+      "source_normalized": "네이트",
+      "duplicate_key": "네이트::\"트럼프 만세\"…전쟁 핑계로 기름값 담합 '철퇴'",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBGS3I5MkJGMFYyYnQteHZvWHY1cDRmQ1ZGak11cTc2MkNJY0hPaGtPXzZISXZHVXhxVWczaW9BXzlpdU91SkVGMDJaUEN0djItTkM2aENnNkQ2b01LWTdGUzZvN202bHRueExDRVFnMTJoS0tLNTVXYg?oc=5",
+      "id": "2ff8bfbb031332fa",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[출근길 브리핑-7월 7일] 호남 반도체 클러스터 부지 선정·캐나다 잠수...",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=846272",
+      "source": "뉴스웍스",
+      "published_at": "2026-07-07T06:18:46.059045+09:00",
+      "snippet": "이들은 올해 2월 28일 미국과 이스라엘의 이란 공습으로 중동 전쟁이 발발한 직후 국내 석유제품의 가격 담합 등에 나선 것으로 파악됐습니다. 검찰은 4사의 직접 담합 규모를 14조2000억원, 경쟁제한 효과는 26조원에 달하는 것으로 판단했습니다. 담합 상황을 살펴보면 우선 HD현대오일뱅크와 SK에너지의...",
+      "collected_at": "2026-07-07T08:18:46.059053+09:00",
+      "normalized_title": "[출근길 브리핑-7월 7일] 호남 반도체 클러스터 부지 선정·캐나다 잠수...",
+      "source_normalized": "뉴스웍스",
+      "duplicate_key": "뉴스웍스::[출근길 브리핑-7월 7일] 호남 반도체 클러스터 부지 선정·캐나다 잠수...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.newsworks.co.kr/news/articleView.html?idxno=846272",
+      "id": "03680186c6968d82",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "법률신문",
+      "url": "https://v.daum.net/channel/552818/home",
+      "source": "법률신문",
+      "published_at": "2026-07-07T07:30:14.276223+09:00",
+      "snippet": "대응' 세미나 -오후 2시, 서울 삼성동 파르나스타워 39층 법무법인 율촌 렉처홀 [오늘의 PICK] ▷서울중앙지검 공조부, 4대 정유사 유가담합 적발…법인·임직원 기소 서울중앙지검 공정거래조사부는 국내 정유 4개사의 '유가 교란 사건'을 수사해 SK에너지, GS... 48분 전",
+      "collected_at": "2026-07-07T08:18:14.276236+09:00",
+      "normalized_title": "법률신문",
+      "source_normalized": "법률신문",
+      "duplicate_key": "법률신문::법률신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/552818/home",
+      "id": "4f8b97ee4a72137c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "【오늘의 법조】 2026년 7월 7일",
+      "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=223142",
+      "source": "법률신문",
+      "published_at": "2026-07-07T07:30:12.085659+09:00",
+      "snippet": "4대 정유사 유가담합 적발…법인·임직원 기소 서울중앙지검 공정거래조사부는 국내 정유 4개사의 '유가 교란 사건'을 수사해 SK에너지, GS칼텍스, 에스오일, HD현대오일뱅크를 공정거래법 위반 혐의로 기소했다고 밝혔다. 법인뿐만 아니라 담합을 주도한 HD현대오일뱅크의 가격결정부서 부서장과 책임매니저...",
+      "collected_at": "2026-07-07T08:18:12.085668+09:00",
+      "normalized_title": "【오늘의 법조】 2026년 7월 7일",
+      "source_normalized": "법률신문",
+      "duplicate_key": "법률신문::【오늘의 법조】 2026년 7월 7일",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=223142",
+      "id": "fad338b463284b45",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "용인은 첫 삽 뜨기까지 6년, 광주 반도체 산단은 임기 안에 완공 목표: ...",
+      "url": "https://slownews.kr/162810",
+      "source": "슬로우뉴스",
+      "published_at": "2026-07-07T07:38:12.084195+09:00",
+      "snippet": "검찰은 HD현대오일뱅크와 SK에너지의 직접 담합 규모가 14.2조 원이고, 나머지 두 회사가 추종한 것까지 감안하면 26조 원 상당의 경쟁 제한 효과가 발생했다고 보고 있다. 국제 유가는 이미 전쟁 이전 수준으로 돌아온 상태다. 오히려 공급 과잉 우려도 나온다. JP모건은 “호르무즈를 빠져나온 원유가 갈 곳은...",
+      "collected_at": "2026-07-07T08:18:12.084210+09:00",
+      "normalized_title": "용인은 첫 삽 뜨기까지 6년, 광주 반도체 산단은 임기 안에 완공 목표: ...",
+      "source_normalized": "슬로우뉴스",
+      "duplicate_key": "슬로우뉴스::용인은 첫 삽 뜨기까지 6년, 광주 반도체 산단은 임기 안에 완공 목표: ...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://slownews.kr/162810",
+      "id": "6d4bfdb859e0e340",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주유소협회 제주지회, 도내 농협과 기름값 담합 행위 적발",
+      "url": "http://www.e-platform.net/news/articleView.html?idxno=103613",
+      "source": "에너지플랫폼뉴스",
+      "published_at": "2026-07-07T07:18:46.057546+09:00",
+      "snippet": "한국주유소협회 제주도지회가 도내 농협 계열 주유소들과 기름값을 담합한 행위가 적발해 시정명령과 과징금 처분을 받았다. 공정거래위원회는 주유소협회 제주지회가 제주시농업협동조합, 서귀포농업협동조합으로부터 다음날 휘발유, 경유, 등유 등의 판매가격을 미리 제공받아 판매가격으로 결정한 후...",
+      "collected_at": "2026-07-07T08:18:46.057554+09:00",
+      "normalized_title": "주유소협회 제주지회, 도내 농협과 기름값 담합 행위 적발",
+      "source_normalized": "에너지플랫폼뉴스",
+      "duplicate_key": "에너지플랫폼뉴스::주유소협회 제주지회, 도내 농협과 기름값 담합 행위 적발",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://www.e-platform.net/news/articleView.html?idxno=103613",
+      "id": "074bb7167ac8eddd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "경유",
+        "주유소",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, 정유4사 26조원대 유가담합…2명 기소",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkZWdZdF9saVRYTkNkMk51cE1VQkxqUnFRX3ZjQ3hOZlllTWRZb0wzbmZ4RmhFNDBjSmtGSFZESElOX0QzYjY2d0o1d1JIVWI5UzRMQXU0T0wwS3ljUmgzWVNlSlMwVUpBY0NfWWtR?oc=5",
+      "source": "울산일보",
+      "published_at": "2026-07-07T00:01:50+09:00",
+      "snippet": "檢, 정유4사 26조원대 유가담합…2명 기소 울산일보",
+      "collected_at": "2026-07-07T08:18:21.743553+09:00",
+      "normalized_title": "檢, 정유4사 26조원대 유가담합…2명 기소",
+      "source_normalized": "울산일보",
+      "duplicate_key": "울산일보::檢, 정유4사 26조원대 유가담합…2명 기소",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkZWdZdF9saVRYTkNkMk51cE1VQkxqUnFRX3ZjQ3hOZlllTWRZb0wzbmZ4RmhFNDBjSmtGSFZESElOX0QzYjY2d0o1d1JIVWI5UzRMQXU0T0wwS3ljUmgzWVNlSlMwVUpBY0NfWWtR?oc=5",
+      "id": "3b116d28d57fa7af",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울중앙지검, SK에너지 등 정유4사 '공정거래법 위반 혐의' 기소",
+      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300006",
+      "source": "투데이에너지",
+      "published_at": "2026-07-07T07:32:34.258676+09:00",
+      "snippet": "특히 검찰은 GS칼텍스와 S-OIL이 SK에너지, HD현대오일뱅크 간 담합 가격을 참고해 시장에서 휘발유·경유 등 석유제품을 인상한 것까지 감안하면 총 26조원 상당 '경쟁 제한 효과'가 발생했다고 밝혔다. 이어 \"이번 중동 전쟁 발발 직후 담합은 일시적 일탈이 아닌 만성화된 관행\"이라며 \"중동 정세가...",
+      "collected_at": "2026-07-07T08:18:34.258688+09:00",
+      "normalized_title": "서울중앙지검, SK에너지 등 정유4사 '공정거래법 위반 혐의' 기소",
+      "source_normalized": "투데이에너지",
+      "duplicate_key": "투데이에너지::서울중앙지검, sk에너지 등 정유4사 '공정거래법 위반 혐의' 기소",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.todayenergy.kr/news/articleView.html?idxno=300006",
+      "id": "ab6a3a057b6e898f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

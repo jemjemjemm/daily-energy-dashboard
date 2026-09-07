@@ -1,0 +1,78 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-03",
+  "slot": "night",
+  "period_start": "2026-07-03T17:00:00+09:00",
+  "period_end": "2026-07-04T00:00:00+09:00",
+  "period_label": "2026-07-03 17:00 ~ 2026-07-04 00:00",
+  "generated_at": "2026-07-04T09:17:07.231829+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1504,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1114
+  },
+  "query_counts": {
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "219만→204만→245만원…“이게 하이닉스야 코인이야” 비명 터졌다 [내...",
+      "url": "https://www.seoul.co.kr/news/economy/securities/2026/07/03/20260703500247?wlog_tag3=naver",
+      "source": "서울신문",
+      "published_at": "2026-07-03T19:16:33.385702+09:00",
+      "snippet": "이날 유가증권시장에서 SK하이닉스는 전 거래일 대비 10.88% 급등한 242만 5000원에 거래를 마쳤다. 0.46% 오른 219만 7000원에 거래를 시작한 SK하이닉스는... 강진혁 신한투자증권 연구원은 “양사의 실적 발표를 앞두고 인공지능(AI) 과잉 투자론이나 애플의 중국산 칩 조달, D램 가격 담합 등 각종...",
+      "collected_at": "2026-07-04T09:16:33.385729+09:00",
+      "normalized_title": "219만→204만→245만원…“이게 하이닉스야 코인이야” 비명 터졌다 [내...",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::219만→204만→245만원…“이게 하이닉스야 코인이야” 비명 터졌다 [내...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.seoul.co.kr/news/economy/securities/2026/07/03/20260703500247?wlog_tag3=naver",
+      "id": "c13cc2c605fbc761",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

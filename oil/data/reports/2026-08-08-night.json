@@ -1,0 +1,84 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-08",
+  "slot": "night",
+  "period_start": "2026-08-08T17:00:00+09:00",
+  "period_end": "2026-08-09T00:00:00+09:00",
+  "period_label": "2026-08-08 17:00 ~ 2026-08-09 00:00",
+  "generated_at": "2026-08-09T08:43:14.315687+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1577,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1187
+  },
+  "query_counts": {
+    "공정위 유가 담합": 1,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "전력망엔 돈, 화학엔 칼…에너지·화학 ‘지원과 규율’ 한주새 창 열림",
+      "url": "https://sateconomy.co.kr/news/view/1065582525781879",
+      "source": "새 창 열림",
+      "published_at": "2026-08-08T18:42:35.884421+09:00",
+      "snippet": "정부, 전력망·재생에너지·자원안보 투자 확대…검찰은 석유화학 담합 의혹 압수수색 ▲ 김성환 기후에너지환경부 장관이 7일 전남광주 나주시 한국전력거래소를 방문, 여름철 폭염 대응 전력수급 운영 현황을 점검하고 있다. [기후에너지환경부] 8월 2~8일 에너지·인프라·화학업계는 정부 지원과 규제... 새 창 열림",
+      "collected_at": "2026-08-09T08:42:35.884450+09:00",
+      "normalized_title": "전력망엔 돈, 화학엔 칼…에너지·화학 ‘지원과 규율’ 한주새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::전력망엔 돈, 화학엔 칼…에너지·화학 ‘지원과 규율’ 한주새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://sateconomy.co.kr/news/view/1065582525781879",
+      "id": "0611f6c31f41c5cb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-26",
+  "slot": "night",
+  "period_start": "2026-07-26T17:00:00+09:00",
+  "period_end": "2026-07-27T00:00:00+09:00",
+  "period_label": "2026-07-26 17:00 ~ 2026-07-27 00:00",
+  "generated_at": "2026-07-27T09:10:52.149303+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1552,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1162
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 3,
+    "정유사 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[태평로] 국가 권력은 팽창하고, 국민은 위축되고",
+      "url": "http://v.daum.net/v/20260726234049579",
+      "source": "조선일보",
+      "published_at": "2026-07-26T23:46:47.537383+09:00",
+      "snippet": "쿠팡에 과징금 처분을 내리기 22일 전 공정거래위원회는 제분업체 7개사에 담합 관련 과징금 처분으로는 역대 최고액인 6710억원을...한술 더 떴다. 4개 정유사가 26조원대 규모의 가격 담합을 했다고 지난 6일 밝혔다. 담합 규모를 감안하면 과징금이 2조원대가 될... 9시간 전",
+      "collected_at": "2026-07-27T08:46:47.537412+09:00",
+      "normalized_title": "[태평로] 국가 권력은 팽창하고, 국민은 위축되고",
+      "source_normalized": "조선일보",
+      "duplicate_key": "조선일보::[태평로] 국가 권력은 팽창하고, 국민은 위축되고",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260726234049579",
+      "id": "7737eb44ab82300d",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "조선일보",
+      "url": "https://v.daum.net/channel/200/home",
+      "source": "조선일보",
+      "published_at": "2026-07-26T23:46:45.910692+09:00",
+      "snippet": "쿠팡에 과징금 처분을 내리기 22일 전 공정거래위원회는 제분업체 7개사에 담합 관련 과징금 처분으로는 역대 최고액인 6710억원을...한술 더 떴다. 4개 정유사가 26조원대 규모의 가격 담합을 했다고 지난 6일 밝혔다. 담합 규모를 감안하면 과징금이 2조원대가 될... 9시간 전",
+      "collected_at": "2026-07-27T08:46:45.910722+09:00",
+      "normalized_title": "조선일보",
+      "source_normalized": "조선일보",
+      "duplicate_key": "조선일보::조선일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/200/home",
+      "id": "4a6dd87e3493016c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[태평로] 국가 권력은 팽창하고, 국민은 위축되고새 창 열림",
+      "url": "https://www.chosun.com/opinion/taepyeongro/2026/07/26/EMKWS7XEZZCI5NLVTVXEGOFB5E/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "source": "새 창 열림",
+      "published_at": "2026-07-26T23:46:44.972416+09:00",
+      "snippet": "개인정보보호위원회가 쿠팡에 과징금 처분을 내리기 22일 전 공정거래위원회는 제분업체 7개사에 담합 관련 과징금 처분으로는 역대 최고액인 6710억원을... 4개사에 담합 과징금 7476억원을 부과하며 그 기록을 또 갈아치웠다. 검찰은 한술 더 떴다. 4개 정유사가 26조원대 규모의 가격 담합을 했다고 지난 6일... 새 창 열림",
+      "collected_at": "2026-07-27T08:46:44.972446+09:00",
+      "normalized_title": "[태평로] 국가 권력은 팽창하고, 국민은 위축되고새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[태평로] 국가 권력은 팽창하고, 국민은 위축되고새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.chosun.com/opinion/taepyeongro/2026/07/26/EMKWS7XEZZCI5NLVTVXEGOFB5E/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "id": "5ae3d207cc3a6029",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

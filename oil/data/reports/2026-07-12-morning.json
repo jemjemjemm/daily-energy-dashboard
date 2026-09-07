@@ -1,0 +1,227 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-12",
+  "slot": "morning",
+  "period_start": "2026-07-12T00:00:00+09:00",
+  "period_end": "2026-07-12T08:00:00+09:00",
+  "period_label": "2026-07-12 00:00 ~ 2026-07-12 08:00",
+  "generated_at": "2026-07-12T09:09:55.079041+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1601,
+  "total_deduped_count": 5,
+  "total_ok_count": 5,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1211
+  },
+  "query_counts": {
+    "석유 담합": 4,
+    "석유제품 담합": 4,
+    "유가 담합": 5,
+    "유가담합": 5,
+    "정유사 담합": 4,
+    "정유업계 담합": 3,
+    "주유소 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "중동 긴장 재고조에 정유업계 '예의주시'…최고가격 손실 보전도 '제자리'",
+      "url": "http://v.daum.net/v/20260712070213618",
+      "source": "뉴스1",
+      "published_at": "2026-07-12T07:08:56.630148+09:00",
+      "snippet": "정산 절차는 더욱 신중해질 전망이다. SK에너지, GS칼텍스, 에쓰오일, HD현대오일뱅크(004050) 등 정유 4사는 최근 국내 석유제품 가격 담합 혐의로 검찰에 기소됐다. 손실 보전이 세금으로 이뤄지는데 여론도 좋지 않아 이 역시 악재로 작용할 것이라는 우려도 있다... 2시간 전",
+      "collected_at": "2026-07-12T09:08:56.630174+09:00",
+      "normalized_title": "중동 긴장 재고조에 정유업계 '예의주시'…최고가격 손실 보전도 '제자리'",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::중동 긴장 재고조에 정유업계 '예의주시'…최고가격 손실 보전도 '제자리'",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://v.daum.net/v/20260712070213618",
+      "id": "a2536fec17a6cb51",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스1",
+      "url": "https://v.daum.net/channel/396/home",
+      "source": "뉴스1",
+      "published_at": "2026-07-12T07:08:55.360887+09:00",
+      "snippet": "정산 절차는 더욱 신중해질 전망이다. SK에너지, GS칼텍스, 에쓰오일, HD현대오일뱅크(004050) 등 정유 4사는 최근 국내 석유제품 가격 담합 혐의로 검찰에 기소됐다. 손실 보전이 세금으로 이뤄지는데 여론도 좋지 않아 이 역시 악재로 작용할 것이라는 우려도 있다... 2시간 전",
+      "collected_at": "2026-07-12T09:08:55.360908+09:00",
+      "normalized_title": "뉴스1",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::뉴스1",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/396/home",
+      "id": "c8ccc99cbe11b78a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 4사 모두 유가 담합?…14조 혐의와 26조 효과 따져보니",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGQ0hEdEhJZWJ1S09xbDZ0Mm02aVBaU2FYWjQ1TWJPRGFrVDRGYXdHbUx2U0JhcTBteVpKWTJIdG53N0R6S3dQdkEzbGRKeDRlM3Zha2N1MU1YZnozUkFfOVJZdTBnZw?oc=5",
+      "source": "비건뉴스",
+      "published_at": "2026-07-12T03:56:26+09:00",
+      "snippet": "정유 4사 모두 유가 담합?…14조 혐의와 26조 효과 따져보니 비건뉴스",
+      "collected_at": "2026-07-12T09:08:58.545457+09:00",
+      "normalized_title": "정유 4사 모두 유가 담합?…14조 혐의와 26조 효과 따져보니",
+      "source_normalized": "비건뉴스",
+      "duplicate_key": "비건뉴스::정유 4사 모두 유가 담합?…14조 혐의와 26조 효과 따져보니",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGQ0hEdEhJZWJ1S09xbDZ0Mm02aVBaU2FYWjQ1TWJPRGFrVDRGYXdHbUx2U0JhcTBteVpKWTJIdG53N0R6S3dQdkEzbGRKeDRlM3Zha2N1MU1YZnozUkFfOVJZdTBnZw?oc=5",
+      "id": "3594425c579154c0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중동 긴장 재고조에 정유업계 '예의주시'…최고가격 손실 보전도 '제자...새 창 열림",
+      "url": "https://www.news1.kr/industry/general-industry/6224659",
+      "source": "새 창 열림",
+      "published_at": "2026-07-12T07:08:52.442483+09:00",
+      "snippet": "SK에너지, GS칼텍스, 에쓰오일, HD현대오일뱅크(004050) 등 정유 4사는 최근 국내 석유제품 가격 담합 혐의로 검찰에 기소됐다. 손실 보전이 세금으로 이뤄지는데 여론도 좋지 않아 이 역시 악재로 작용할 것이라는 우려도 있다. 한 업계 관계자는 \"MOU 기간 국제 정세가 시시각각 변하고 있어 어떤 액션을 취하기는... 새 창 열림",
+      "collected_at": "2026-07-12T09:08:52.442500+09:00",
+      "normalized_title": "중동 긴장 재고조에 정유업계 '예의주시'…최고가격 손실 보전도 '제자...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::중동 긴장 재고조에 정유업계 '예의주시'…최고가격 손실 보전도 '제자...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.news1.kr/industry/general-industry/6224659",
+      "id": "e3288bf2c783c123",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 4사 모두 유가 담합?…14조 혐의와 26조 효과 따져보니새 창 열림",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=383958",
+      "source": "새 창 열림",
+      "published_at": "2026-07-12T04:08:52.443974+09:00",
+      "snippet": "HD현대오일뱅크·SK에너지 직접 담합 지목, 4개사는 전량구매계약 혐의 정유 4사가 모두 같은 유가 담합 혐의로 재판에 넘겨진 것은 아니다. 직접적인... 수사 과정에서 공개된 정유사 가격결정부서 대화방에는 “오늘 가격 100원 더 올린다. 우리 올해 2조 벌 듯”, “역시 전쟁으로 먹고사는 회사. 트럼프... 새 창 열림",
+      "collected_at": "2026-07-12T09:08:52.443989+09:00",
+      "normalized_title": "정유 4사 모두 유가 담합?…14조 혐의와 26조 효과 따져보니새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정유 4사 모두 유가 담합?…14조 혐의와 26조 효과 따져보니새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.vegannews.co.kr/news/article.html?no=383958",
+      "id": "18c56c553fd0130e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

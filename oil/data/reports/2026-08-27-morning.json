@@ -1,0 +1,88 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-27",
+  "slot": "morning",
+  "period_start": "2026-08-27T00:00:00+09:00",
+  "period_end": "2026-08-27T08:00:00+09:00",
+  "period_label": "2026-08-27 00:00 ~ 2026-08-27 08:00",
+  "generated_at": "2026-08-27T13:30:22.587911+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1562,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1172
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 1,
+    "공정위 유가 담합": 1,
+    "석유 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[Who Is ?] 박생근 KG에코솔루션 대표이사 사장새 창 열림",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=445697",
+      "source": "새 창 열림",
+      "published_at": "2026-08-27T07:26:42.559651+09:00",
+      "snippet": "석유화학사업본부 기획팀장, ABS공장장으로 근무했다. 2025년 9월 KG에코솔루션에 운영총괄(COO)로 합류했으며 2026년 대표이사 사장에 발탁됐다. 취임... < KG에코솔루션 > △공정위, 9조 원대 바이오연료 입찰담합 혐의 심의 착수 공정거래위원회가 2026년 7월 KG에코솔루션을 포함한 7개 바이오연료 제조... 새 창 열림",
+      "collected_at": "2026-08-27T08:26:42.559752+09:00",
+      "normalized_title": "[Who Is ?] 박생근 KG에코솔루션 대표이사 사장새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[who is ?] 박생근 kg에코솔루션 대표이사 사장새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.businesspost.co.kr/BP?command=article_view&num=445697",
+      "id": "77b281e8b37beb59",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

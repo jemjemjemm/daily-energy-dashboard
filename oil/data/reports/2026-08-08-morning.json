@@ -1,0 +1,147 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-08",
+  "slot": "morning",
+  "period_start": "2026-08-08T00:00:00+09:00",
+  "period_end": "2026-08-08T08:00:00+09:00",
+  "period_label": "2026-08-08 00:00 ~ 2026-08-08 08:00",
+  "generated_at": "2026-08-08T08:47:36.462341+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1573,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1183
+  },
+  "query_counts": {
+    "석유 담합": 3,
+    "석유제품 담합": 3,
+    "유가 담합": 3,
+    "유가담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "李대통령 주목한 '담합 수사'…중수청 이관 앞두고 \"수사력 저하 우려\"",
+      "url": "http://v.daum.net/v/20260808060242827",
+      "source": "뉴스1",
+      "published_at": "2026-08-08T06:46:51.748341+09:00",
+      "snippet": "가격을 담합한 혐의로 대상·사조 CPK·CJ제일제당 등 법인과 직원들을 재판에 넘겼다. 지난달에는 14조 2000억 원 규모의 유가를 담합한 혐의로 정유 4사와 임직원을 기소했으며, 앞서 약 6조 원 규모의 밀가루 담합과 3조 2000억 원 규모의 설탕 담합도 각각 적발... 2시간 전 6",
+      "collected_at": "2026-08-08T08:46:51.748375+09:00",
+      "normalized_title": "李대통령 주목한 '담합 수사'…중수청 이관 앞두고 \"수사력 저하 우려\"",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::李대통령 주목한 '담합 수사'…중수청 이관 앞두고 \"수사력 저하 우려\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260808060242827",
+      "id": "8a884406e32d392a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스1",
+      "url": "https://v.daum.net/channel/396/home",
+      "source": "뉴스1",
+      "published_at": "2026-08-08T06:46:49.584508+09:00",
+      "snippet": "가격을 담합한 혐의로 대상·사조 CPK·CJ제일제당 등 법인과 직원들을 재판에 넘겼다. 지난달에는 14조 2000억 원 규모의 유가를 담합한 혐의로 정유 4사와 임직원을 기소했으며, 앞서 약 6조 원 규모의 밀가루 담합과 3조 2000억 원 규모의 설탕 담합도 각각 적발... 2시간 전 6",
+      "collected_at": "2026-08-08T08:46:49.584541+09:00",
+      "normalized_title": "뉴스1",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::뉴스1",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/396/home",
+      "id": "c8ccc99cbe11b78a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 주목한 '담합 수사'…중수청 이관 앞두고 \"수사력 저하 우려\"새 창 열림",
+      "url": "https://www.news1.kr/society/court-prosecution/6252872",
+      "source": "새 창 열림",
+      "published_at": "2026-08-08T06:46:47.643807+09:00",
+      "snippet": "지난달에는 14조 2000억 원 규모의 유가를 담합한 혐의로 정유 4사와 임직원을 기소했으며, 앞서 약 6조 원 규모의 밀가루 담합과 3조 2000억 원 규모의 설탕 담합도 각각 적발해 재판에 넘긴 바 있다. 이번 석유화학 업체들에 대한 수사는 연말까지 이어질 것으로 보인다. 공소청법 부칙에 따르면 불가피한 경우... 새 창 열림",
+      "collected_at": "2026-08-08T08:46:47.643843+09:00",
+      "normalized_title": "李대통령 주목한 '담합 수사'…중수청 이관 앞두고 \"수사력 저하 우려\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李대통령 주목한 '담합 수사'…중수청 이관 앞두고 \"수사력 저하 우려\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.news1.kr/society/court-prosecution/6252872",
+      "id": "ae6fb0951103248d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

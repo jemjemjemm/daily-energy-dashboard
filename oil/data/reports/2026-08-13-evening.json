@@ -1,0 +1,419 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-13",
+  "slot": "evening",
+  "period_start": "2026-08-13T08:00:00+09:00",
+  "period_end": "2026-08-13T17:00:00+09:00",
+  "period_label": "2026-08-13 08:00 ~ 2026-08-13 17:00",
+  "generated_at": "2026-08-13T18:22:03.336475+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1562,
+  "total_deduped_count": 10,
+  "total_ok_count": 10,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 2,
+    "C": 6
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1172
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 5,
+    "공정위 유가 담합": 4,
+    "기름값 담합": 1,
+    "석유 담합": 6,
+    "석유제품 담합": 6,
+    "유가 담합": 6,
+    "유가담합": 6,
+    "유류가격 담합": 1,
+    "정유사 담합": 5,
+    "정유업계 담합": 3,
+    "주유소 담합": 6
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "\"담합 과징금 감면 받고 또 인상\"…인쇄업계, 제지사에 '최후통첩'",
+      "url": "http://v.daum.net/v/20260813151707216",
+      "source": "한국경제",
+      "published_at": "2026-08-13T15:17:51.798181+09:00",
+      "snippet": "감액 없이 기존 과징금이 유지됐다. 공정위 조사에 따르면 담합에 가담한 제지사는 국내 인쇄용지 판매시장의 약 95%를 차지했다. 약...제지업계 관계자는 “(가격 인상은) 원부재료 가격과 유가, 물류비 등 제반 비용 부담과 시장 상황을 종합적으로 고려해 결정... 2시간 전",
+      "collected_at": "2026-08-13T17:17:51.798206+09:00",
+      "normalized_title": "\"담합 과징금 감면 받고 또 인상\"…인쇄업계, 제지사에 '최후통첩'",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::\"담합 과징금 감면 받고 또 인상\"…인쇄업계, 제지사에 '최후통첩'",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260813151707216",
+      "id": "321f948e3c2034f4",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국경제",
+      "url": "https://v.daum.net/channel/3/home",
+      "source": "한국경제",
+      "published_at": "2026-08-13T15:17:50.273770+09:00",
+      "snippet": "감액 없이 기존 과징금이 유지됐다. 공정위 조사에 따르면 담합에 가담한 제지사는 국내 인쇄용지 판매시장의 약 95%를 차지했다. 약...제지업계 관계자는 “(가격 인상은) 원부재료 가격과 유가, 물류비 등 제반 비용 부담과 시장 상황을 종합적으로 고려해 결정... 2시간 전",
+      "collected_at": "2026-08-13T17:17:50.273799+09:00",
+      "normalized_title": "한국경제",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::한국경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/3/home",
+      "id": "6ea5739e4883b5ac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독] 공정위, 4대 정유사의 주유소 상대 ‘타사 제품 판매금지’ 조사",
+      "url": "http://v.daum.net/v/20260813110209928",
+      "source": "조선비즈",
+      "published_at": "2026-08-13T11:18:01.813322+09:00",
+      "snippet": "SK에너지, HD현대오일뱅크, GS칼텍스, 에쓰오일 등 정유 4사가 주유소에 타사 제품 판매를 금지했는지 살펴보기 위해 현장 조사를...졌다. 앞서 공정위는 지난 3월 정유 4사의 석유 제품 가격 담합 혐의에 대해서 조사한 바 있다. 이어 새로운 법 위반 행위가 있는지... 6시간 전 1",
+      "collected_at": "2026-08-13T17:18:01.813386+09:00",
+      "normalized_title": "공정위, 4대 정유사의 주유소 상대 ‘타사 제품 판매금지’ 조사",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::공정위, 4대 정유사의 주유소 상대 ‘타사 제품 판매금지’ 조사",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260813110209928",
+      "id": "8cca361611399303",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "조선비즈",
+      "url": "https://v.daum.net/channel/216/home",
+      "source": "조선비즈",
+      "published_at": "2026-08-13T11:18:00.466786+09:00",
+      "snippet": "SK에너지, HD현대오일뱅크, GS칼텍스, 에쓰오일 등 정유 4사가 주유소에 타사 제품 판매를 금지했는지 살펴보기 위해 현장 조사를...졌다. 앞서 공정위는 지난 3월 정유 4사의 석유 제품 가격 담합 혐의에 대해서 조사한 바 있다. 이어 새로운 법 위반 행위가 있는지... 6시간 전 1",
+      "collected_at": "2026-08-13T17:18:00.466816+09:00",
+      "normalized_title": "조선비즈",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::조선비즈",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/216/home",
+      "id": "3757e0e10af8e443",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, HD현대오일뱅크 등 정유4사 '타사 제품 판매금지' 위반 조사새 창 열림",
+      "url": "http://www.koreastocknews.com/news/articleView.html?idxno=120569",
+      "source": "새 창 열림",
+      "published_at": "2026-08-13T16:56:59.571252+09:00",
+      "snippet": "하지만 제도 폐지 이후에도 정유사들이 상표 주유소에 자사 제품만 취급하도록 사실상 강제한다는 지적이 꾸준히 제기돼 왔다. 한편 앞서 검찰은 HD현대(회장 정기선, 267250) 계열사 HD현대오일뱅크(대표 송명준, 정임주)와 SK에너지 간 직접 담합 규모를 14조2000억원으로 산정하고 정유 4개 법인과 임직원들을... 새 창 열림",
+      "collected_at": "2026-08-13T17:17:59.571281+09:00",
+      "normalized_title": "공정위, HD현대오일뱅크 등 정유4사 '타사 제품 판매금지' 위반 조사새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, hd현대오일뱅크 등 정유4사 '타사 제품 판매금지' 위반 조사새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://www.koreastocknews.com/news/articleView.html?idxno=120569",
+      "id": "86255430998f0f4d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 4사에 칼 겨누는 공정위, 자사 제품 판매 강제 여부 현장조사..업계...새 창 열림",
+      "url": "https://kpenews.com/View.aspx?No=4185569",
+      "source": "새 창 열림",
+      "published_at": "2026-08-13T15:17:49.116834+09:00",
+      "snippet": "com [한국정경신문=정아람 기자] 공정거래위원회가 SK에너지, HD현대오일뱅크, GS칼텍스, 에쓰오일 등 정유 4사를 상대로 등록 주유소에 타사 제품 판매를 금지했는지 여부를 살펴보는 현장 조사에 나선 것으로 13일 전해졌다.앞서 공정위는 지난 3월 정유 4사의 석유 제품 가격 담합 혐의를 조사한 바 있다.... 새 창 열림",
+      "collected_at": "2026-08-13T17:17:49.116852+09:00",
+      "normalized_title": "정유 4사에 칼 겨누는 공정위, 자사 제품 판매 강제 여부 현장조사..업계...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정유 4사에 칼 겨누는 공정위, 자사 제품 판매 강제 여부 현장조사..업계...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://kpenews.com/View.aspx?No=4185569",
+      "id": "527d8e0a10b05818",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "주유소",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"담합 과징금 감면 받고 또 인상\"…인쇄업계, 제지사에 '최후통첩'새 창 열림",
+      "url": "https://www.hankyung.com/article/202608139497i",
+      "source": "새 창 열림",
+      "published_at": "2026-08-13T15:17:49.115353+09:00",
+      "snippet": "공정위 조사에 따르면 담합에 가담한 제지사는 국내 인쇄용지 판매시장의 약 95%를 차지했다. 약 4년간 이어진 담합 기간 인쇄용지 판매가격은 평균 71... 이에 제지업계 관계자는 “(가격 인상은) 원부재료 가격과 유가, 물류비 등 제반 비용 부담과 시장 상황을 종합적으로 고려해 결정했다”면서도 “최근... 새 창 열림",
+      "collected_at": "2026-08-13T17:17:49.115398+09:00",
+      "normalized_title": "\"담합 과징금 감면 받고 또 인상\"…인쇄업계, 제지사에 '최후통첩'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::\"담합 과징금 감면 받고 또 인상\"…인쇄업계, 제지사에 '최후통첩'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.hankyung.com/article/202608139497i",
+      "id": "1d32b5a0ef1c0c5d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "오뚜기, 컵라면·만두값 최대 7.7% 인상···정부 물가안정 요청 무색새 창 열림",
+      "url": "http://www.koreastocknews.com/news/articleView.html?idxno=120555",
+      "source": "새 창 열림",
+      "published_at": "2026-08-13T14:17:49.118298+09:00",
+      "snippet": "회사 관계자는 \"고환율과 국제유가 변동으로 팜유·밀가루 등 원재료와 필름·플라스틱 용기 등 포장재 가격이 오르고 있다\"라고 전했다. 다만 전체... 공정거래위원회는 올해 2월 설탕값 담합 혐의로 제당업체들에 과징금을 부과했고, 제분업체들의 밀가루값 담합 의혹도 들여다봤다. 이재명 대통령은... 새 창 열림",
+      "collected_at": "2026-08-13T17:17:49.118313+09:00",
+      "normalized_title": "오뚜기, 컵라면·만두값 최대 7.7% 인상···정부 물가안정 요청 무색새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::오뚜기, 컵라면·만두값 최대 7.7% 인상···정부 물가안정 요청 무색새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.koreastocknews.com/news/articleView.html?idxno=120555",
+      "id": "43417aaf288640c9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독] 공정위, 4대 정유사의 주유소 상대 ‘타사 제품 판매금지’ 조사새 창 열림",
+      "url": "https://biz.chosun.com/policy/policy_sub/2026/08/13/NRVGE4X5SJBLJKMELIKWB3ISFY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "source": "새 창 열림",
+      "published_at": "2026-08-13T11:17:59.575135+09:00",
+      "snippet": "적발 시 시정명령·관련 매출액의 최대 4% 과징금 특정 정유사 제품만 취급하는 ‘폴 사인’ 폐지 후 18년 만에 조사 이 기사는 2026년 8월 13일 오전 10시... 앞서 공정위는 지난 3월 정유 4사의 석유 제품 가격 담합 혐의에 대해서 조사한 바 있다. 이어 새로운 법 위반 행위가 있는지 조사에 나선 것이다. 13일... 새 창 열림",
+      "collected_at": "2026-08-13T17:17:59.575155+09:00",
+      "normalized_title": "공정위, 4대 정유사의 주유소 상대 ‘타사 제품 판매금지’ 조사새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 4대 정유사의 주유소 상대 ‘타사 제품 판매금지’ 조사새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://biz.chosun.com/policy/policy_sub/2026/08/13/NRVGE4X5SJBLJKMELIKWB3ISFY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "id": "478d5f8af6ede2de",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[차세대 오너진단] ⑯허세홍의 GS칼텍스, 7년 '체질 개선' 성과는 어디에새 창 열림",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=308835",
+      "source": "새 창 열림",
+      "published_at": "2026-08-13T08:17:49.119717+09:00",
+      "snippet": "2026년 2분기에는 국제유가와 석유제품 가격 상승에 따른 정제마진 확대와 일시적인 재고효과로 연결 영업이익이 2조5507억원까지 늘었다. 정유... 다만 GS칼텍스의 가격 추종 자체는 형사처벌 대상 담합으로 기소된 것은 아니다. GS칼텍스 법인은 자영주유소에 대한 전량구매계약 등 공정거래법 위반 혐의로... 새 창 열림",
+      "collected_at": "2026-08-13T17:17:49.119734+09:00",
+      "normalized_title": "[차세대 오너진단] ⑯허세홍의 GS칼텍스, 7년 '체질 개선' 성과는 어디에새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[차세대 오너진단] ⑯허세홍의 gs칼텍스, 7년 '체질 개선' 성과는 어디에새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.straightnews.co.kr/news/articleView.html?idxno=308835",
+      "id": "7512495f066b5e4f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "주유소",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

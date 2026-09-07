@@ -1,0 +1,203 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-30",
+  "slot": "morning",
+  "period_start": "2026-07-30T00:00:00+09:00",
+  "period_end": "2026-07-30T08:00:00+09:00",
+  "period_label": "2026-07-30 00:00 ~ 2026-07-30 08:00",
+  "generated_at": "2026-07-30T09:08:39.310254+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1591,
+  "total_deduped_count": 5,
+  "total_ok_count": 5,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 5
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1201
+  },
+  "query_counts": {
+    "기름값 담합": 3,
+    "석유 담합": 2,
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[단독] 제당2사 설탕 시장점유율, 위법담합 이전에도 '판박이'였다새 창 열림",
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003253472&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+      "source": "새 창 열림",
+      "published_at": "2026-07-30T07:16:20.033934+09:00",
+      "snippet": "[관련기사] [단독] 이재명 정부 1년, '71년' 대한제당협회 해체된다 https://omn.kr/2imsk 그 날 국무회의 전후, 공정위에서 일어나고 있는 파격적 증원 https://omn.kr/2iqlw 조폭 수사했던 변호사의 제안 \"기름값 담합, 소비자가 직접 소송합시다\" https://omn.kr/2irky [단독] 설탕 담합 과징금 CJ만 냈다... 대한제당... 새 창 열림",
+      "collected_at": "2026-07-30T08:10:20.033974+09:00",
+      "normalized_title": "제당2사 설탕 시장점유율, 위법담합 이전에도 '판박이'였다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::제당2사 설탕 시장점유율, 위법담합 이전에도 '판박이'였다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003253472&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+      "id": "bc310bd66ca45bfb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한성숙 총리, 시장 질서 교란 상시 점검 지시…폭염 취약계층 보호 당부새 창 열림",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3650459",
+      "source": "새 창 열림",
+      "published_at": "2026-07-30T01:10:25.163823+09:00",
+      "snippet": "한성숙 국무총리는 29일 제16차 비상경제점검회의를 주재하고, 매점매석과 담합 등 시장 질서 교란 행위에 대한 상시 점검을 지시했다. 또 폭염에 취약한... 또한 여수 1호 석유화학업계 사업재편 승인에 따라 채권금융기관 중심으로 6500억 원 규모의 금융지원을 추진할 계획이며, 금융시장 리스크 요인에 대해... 새 창 열림",
+      "collected_at": "2026-07-30T08:10:25.163855+09:00",
+      "normalized_title": "한성숙 총리, 시장 질서 교란 상시 점검 지시…폭염 취약계층 보호 당부새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::한성숙 총리, 시장 질서 교란 상시 점검 지시…폭염 취약계층 보호 당부새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.gukjenews.com/news/articleView.html?idxno=3650459",
+      "id": "b47d64338b56f6c2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "비상경제점검회의 개편...한 총리 \"중동 대응 부총리 책임 구조\"새 창 열림",
+      "url": "http://www.00news.co.kr/news/articleView.html?idxno=105511",
+      "source": "새 창 열림",
+      "published_at": "2026-07-30T00:09:42.029472+09:00",
+      "snippet": "국제유가 변동 충격에 대응해 왔고, 에너지 공급망을 선제적으로 관리해 8월 원유 물량은 전년 대비 110%, 9월 물량도 90% 이상 확보한 상황\"이라고 말했다. 그러면서 \"이 같은 상황이 지속되거나 악화할 때를 대비해 추가적으로 필요한 대책도 미리 강구해야 한다\"고 강조했다. 아울러 \"매점매석과 담합 행위 등... 새 창 열림",
+      "collected_at": "2026-07-30T08:09:42.029506+09:00",
+      "normalized_title": "비상경제점검회의 개편...한 총리 \"중동 대응 부총리 책임 구조\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::비상경제점검회의 개편...한 총리 \"중동 대응 부총리 책임 구조\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.00news.co.kr/news/articleView.html?idxno=105511",
+      "id": "902d0ba954705cc9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독] 제당2사 설탕 시장점유율, 위법담합 이전에도 '판박이'였다",
+      "url": "http://v.daum.net/v/20260730071741591",
+      "source": "오마이뉴스",
+      "published_at": "2026-07-30T07:18:23.123313+09:00",
+      "snippet": "kr/2imsk 그 날 국무회의 전후, 공정위에서 일어나고 있는 파격적 증원 https://omn.kr/2iqlw 조폭 수사했던 변호사의 제안 \"기름값 담합, 소비자가 직접 소송합시다\" https://omn.kr/2irky [단독] 설탕 담합 과징금 CJ만 냈다... 대한제당·삼양사는 '뒤통수' https... 52분 전",
+      "collected_at": "2026-07-30T08:10:23.123342+09:00",
+      "normalized_title": "제당2사 설탕 시장점유율, 위법담합 이전에도 '판박이'였다",
+      "source_normalized": "오마이뉴스",
+      "duplicate_key": "오마이뉴스::제당2사 설탕 시장점유율, 위법담합 이전에도 '판박이'였다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260730071741591",
+      "id": "b3adcac366e41fc1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "오마이뉴스",
+      "url": "https://v.daum.net/channel/4/home",
+      "source": "오마이뉴스",
+      "published_at": "2026-07-30T07:18:21.245704+09:00",
+      "snippet": "kr/2imsk 그 날 국무회의 전후, 공정위에서 일어나고 있는 파격적 증원 https://omn.kr/2iqlw 조폭 수사했던 변호사의 제안 \"기름값 담합, 소비자가 직접 소송합시다\" https://omn.kr/2irky [단독] 설탕 담합 과징금 CJ만 냈다... 대한제당·삼양사는 '뒤통수' https... 52분 전",
+      "collected_at": "2026-07-30T08:10:21.245731+09:00",
+      "normalized_title": "오마이뉴스",
+      "source_normalized": "오마이뉴스",
+      "duplicate_key": "오마이뉴스::오마이뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/4/home",
+      "id": "7777c909c6faa807",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

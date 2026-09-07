@@ -1,0 +1,77 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-12",
+  "slot": "night",
+  "period_start": "2026-08-12T17:00:00+09:00",
+  "period_end": "2026-08-13T00:00:00+09:00",
+  "period_label": "2026-08-12 17:00 ~ 2026-08-13 00:00",
+  "generated_at": "2026-08-13T08:56:11.929900+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1562,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1172
+  },
+  "query_counts": {
+    "경유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "［팩트체크］ \"도매법인 영업이익률 24%, 대형마트의 8배 폭리\"새 창 열림",
+      "url": "https://www.farminsight.net/news/articleView.html?idxno=16758",
+      "source": "새 창 열림",
+      "published_at": "2026-08-12T21:37:49.740830+09:00",
+      "snippet": "즉 '결코 직거래할 수 없다'는 서술은 사실과 다르며, 정확히는 '원칙은 상장 경유, 예외적으로 직거래 허용'이라는 구조다. 회견문은 이 예외 경로의... 쟁점 5 — \"수수료 담합과 관련한 의견\" 판정 : 사실이지만 지금도 충분히 다툴 여지가 있는 쟁점 공정위 처분에 대한 불복소송은 일반 사건과 달리 2심제로... 새 창 열림",
+      "collected_at": "2026-08-13T08:37:49.740856+09:00",
+      "normalized_title": "［팩트체크］ \"도매법인 영업이익률 24%, 대형마트의 8배 폭리\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::［팩트체크］ \"도매법인 영업이익률 24%, 대형마트의 8배 폭리\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.farminsight.net/news/articleView.html?idxno=16758",
+      "id": "32a09a75a5bfcab7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

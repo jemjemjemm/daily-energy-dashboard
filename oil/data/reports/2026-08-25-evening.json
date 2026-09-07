@@ -1,0 +1,288 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-25",
+  "slot": "evening",
+  "period_start": "2026-08-25T08:00:00+09:00",
+  "period_end": "2026-08-25T17:00:00+09:00",
+  "period_label": "2026-08-25 08:00 ~ 2026-08-25 17:00",
+  "generated_at": "2026-08-25T17:55:46.445484+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1555,
+  "total_deduped_count": 7,
+  "total_ok_count": 7,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 1,
+    "C": 4
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1165
+  },
+  "query_counts": {
+    "경유 담합": 4,
+    "공정거래위원회 정유사 담합": 2,
+    "공정위 유가 담합": 2,
+    "석유 담합": 3,
+    "석유제품 담합": 3,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 2,
+    "정유업계 담합": 2,
+    "주유소 담합": 2,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "'98% 독점' 소주 원료 빗장 풀린다…내년부터 주정 직거래 2%→10%로 확대",
+      "url": "http://v.daum.net/v/20260825120249526",
+      "source": "아시아경제",
+      "published_at": "2026-08-25T12:26:25.143858+09:00",
+      "snippet": "손질해 실질적인 경쟁을 유도하겠다는 취지다. '98% 도매상 경유' 주정 시장 흔든다…직거래 비율 10%로 확대 가장 눈에 띄는 대목은...쓰레기 수거 카르텔 차단…회계법인 '체급 특례' 도입 담합과 독점 폐해가 잇따랐던 생활폐기물 수집·운반 시장의 진입 장벽도... 5시간 전",
+      "collected_at": "2026-08-25T17:26:25.143887+09:00",
+      "normalized_title": "'98% 독점' 소주 원료 빗장 풀린다…내년부터 주정 직거래 2%→10%로 확대",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::'98% 독점' 소주 원료 빗장 풀린다…내년부터 주정 직거래 2%→10%로 확대",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260825120249526",
+      "id": "9220263804e1ed97",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "아시아경제",
+      "url": "https://v.daum.net/channel/90/home",
+      "source": "아시아경제",
+      "published_at": "2026-08-25T12:26:22.912543+09:00",
+      "snippet": "손질해 실질적인 경쟁을 유도하겠다는 취지다. '98% 도매상 경유' 주정 시장 흔든다…직거래 비율 10%로 확대 가장 눈에 띄는 대목은...쓰레기 수거 카르텔 차단…회계법인 '체급 특례' 도입 담합과 독점 폐해가 잇따랐던 생활폐기물 수집·운반 시장의 진입 장벽도... 5시간 전",
+      "collected_at": "2026-08-25T17:26:22.912585+09:00",
+      "normalized_title": "아시아경제",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::아시아경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/90/home",
+      "id": "7197c286bb7e5fce",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부 보전 기다리는데 검찰·공정위까지 … 정유사 3중 압박 가중",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObG9VZHNWUmxjT2JZYlJDekRmVGVFMWRBNnlDTjg2WnNIeWNja21NVlhBZUMxNXA3eVNxakVyb25ERXpxMzNXQWpMZDBNdEtRemdmWXB3U1FmTzc3czJsVURfeWZKeTZCWkIyb1AzZVB5OENWYmd0ZFlVTFFOdlhSNNIBgAFBVV95cUxObG9VZHNWUmxjT2JZYlJDekRmVGVFMWRBNnlDTjg2WnNIeWNja21NVlhBZUMxNXA3eVNxakVyb25ERXpxMzNXQWpMZDBNdEtRemdmWXB3U1FmTzc3czJsVURfeWZKeTZCWkIyb1AzZVB5OENWYmd0ZFlVTFFOdlhSNA?oc=5",
+      "source": "뉴데일리",
+      "published_at": "2026-08-25T11:02:49+09:00",
+      "snippet": "정부 보전 기다리는데 검찰·공정위까지 … 정유사 3중 압박 가중 뉴데일리",
+      "collected_at": "2026-08-25T17:26:44.735380+09:00",
+      "normalized_title": "정부 보전 기다리는데 검찰·공정위까지 … 정유사 3중 압박 가중",
+      "source_normalized": "뉴데일리",
+      "duplicate_key": "뉴데일리::정부 보전 기다리는데 검찰·공정위까지 … 정유사 3중 압박 가중",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObG9VZHNWUmxjT2JZYlJDekRmVGVFMWRBNnlDTjg2WnNIeWNja21NVlhBZUMxNXA3eVNxakVyb25ERXpxMzNXQWpMZDBNdEtRemdmWXB3U1FmTzc3czJsVURfeWZKeTZCWkIyb1AzZVB5OENWYmd0ZFlVTFFOdlhSNNIBgAFBVV95cUxObG9VZHNWUmxjT2JZYlJDekRmVGVFMWRBNnlDTjg2WnNIeWNja21NVlhBZUMxNXA3eVNxakVyb25ERXpxMzNXQWpMZDBNdEtRemdmWXB3U1FmTzc3czJsVURfeWZKeTZCWkIyb1AzZVB5OENWYmd0ZFlVTFFOdlhSNA?oc=5",
+      "id": "6830ecceeb47a940",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[기자의눈] 위기 땐 '에너지 버팀목', 의혹엔 '폭리 기업'…정유사를 보...새 창 열림",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260825010008415",
+      "source": "새 창 열림",
+      "published_at": "2026-08-25T16:26:02.163974+09:00",
+      "snippet": "공정위는 2011년 정유 4사가 다른 회사의 기존 주유소를 서로 유치하지 않기로 합의했다며 이른바 '원적지 담합'으로 4000억원대 과징금을 부과했다. 당시에도 자진신고가 있었지만 소송에 나선 SK이노베이션과 현대오일뱅크, 에쓰오일은 2015년 대법원에서 최종 승소했다. 법원은 정유사 사이에 '합의'가 있었다고... 새 창 열림",
+      "collected_at": "2026-08-25T17:26:02.164020+09:00",
+      "normalized_title": "[기자의눈] 위기 땐 '에너지 버팀목', 의혹엔 '폭리 기업'…정유사를 보...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[기자의눈] 위기 땐 '에너지 버팀목', 의혹엔 '폭리 기업'…정유사를 보...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.asiatoday.co.kr/kn/view.php?key=20260825010008415",
+      "id": "368fd5c015bdeff6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[G500] 499위 LG화학, 김동춘 대표 수익성 회복·준법경영 시험대새 창 열림",
+      "url": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=53613",
+      "source": "새 창 열림",
+      "published_at": "2026-08-25T15:26:15.747760+09:00",
+      "snippet": "서울중앙지검은 석유화학제품의 가격 담합 의혹과 관련해 LG화학을 포함한 7개 업체를 압수수색했다. [사진=뉴시스] ◆ 검찰 수사로 내부통제 실효성도 시험대 실적 회복에 집중하기 위한 제반 사항 정리, 그중에서도 최근 불거진 담합 의혹 해소도 김 대표의 숙제로 꼽힌다. 서울중앙지검... 새 창 열림",
+      "collected_at": "2026-08-25T17:26:15.747777+09:00",
+      "normalized_title": "[G500] 499위 LG화학, 김동춘 대표 수익성 회복·준법경영 시험대새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[g500] 499위 lg화학, 김동춘 대표 수익성 회복·준법경영 시험대새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=53613",
+      "id": "295f6282884a13ec",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'98% 독점' 소주 원료 빗장 풀린다…내년부터 주정 직거래 2%→10%로 확대새 창 열림",
+      "url": "https://view.asiae.co.kr/article/2026082510211474756",
+      "source": "새 창 열림",
+      "published_at": "2026-08-25T12:26:21.721898+09:00",
+      "snippet": "'98% 도매상 경유' 주정 시장 흔든다…직거래 비율 10%로 확대 가장 눈에 띄는 대목은 주정 유통 구조의 개편이다. 현재 주류제조사와 주정제조사 간... '지역 독점' 쓰레기 수거 카르텔 차단…회계법인 '체급 특례' 도입 담합과 독점 폐해가 잇따랐던 생활폐기물 수집·운반 시장의 진입 장벽도 낮아진다. 그동안... 새 창 열림",
+      "collected_at": "2026-08-25T17:26:21.721940+09:00",
+      "normalized_title": "'98% 독점' 소주 원료 빗장 풀린다…내년부터 주정 직거래 2%→10%로 확대새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'98% 독점' 소주 원료 빗장 풀린다…내년부터 주정 직거래 2%→10%로 확대새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://view.asiae.co.kr/article/2026082510211474756",
+      "id": "bd6081b0b6a60daa",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부 보전 기다리는데 검찰·공정위까지 … 정유사 3중 압박 가중새 창 열림",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/08/25/2026082500141.html",
+      "source": "새 창 열림",
+      "published_at": "2026-08-25T11:26:02.165609+09:00",
+      "snippet": "산업통상부는 지난 21일 9차 석유제품 최고가격을 8차 수준(리터당 휘발유 1784원, 경유 1773원 등)으로 동결했다. 7차 때 가격을 인하한 이후 두 차례 연속... 검찰은 중동 정세 불안 직후 유가 인상을 담합으로 간주해 정유 4사를 기소했다. 직접 담합 규모 14조 2000억 원에 경쟁사들의 가격 추종 파급 효과를... 새 창 열림",
+      "collected_at": "2026-08-25T17:26:02.165630+09:00",
+      "normalized_title": "정부 보전 기다리는데 검찰·공정위까지 … 정유사 3중 압박 가중새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정부 보전 기다리는데 검찰·공정위까지 … 정유사 3중 압박 가중새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 10,
+      "canonical_url": "https://biz.newdaily.co.kr/site/data/html/2026/08/25/2026082500141.html",
+      "id": "73cf5a747477a8e8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

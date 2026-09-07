@@ -1,0 +1,127 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-21",
+  "slot": "morning",
+  "period_start": "2026-06-21T00:00:00+09:00",
+  "period_end": "2026-06-21T08:00:00+09:00",
+  "period_label": "2026-06-21 00:00 ~ 2026-06-21 08:00",
+  "generated_at": "2026-06-22T09:38:06.216589+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1513,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1123
+  },
+  "query_counts": {
+    "석유 담합": 2,
+    "석유제품 담합": 1,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 2,
+    "정유업계 담합": 2,
+    "주유소 담합": 1,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "정유 담합 수사 확대…송명준 사장은 결재라인에 없었나, 구속 수사가 ...",
+      "url": "https://www.sjsori.com/news/articleView.html?idxno=86845",
+      "source": "세종의 소리",
+      "published_at": "2026-06-21T01:20:51.108613+09:00",
+      "snippet": "실제로 한국석유공사 오피넷에 따르면 이란 전쟁 발발 직후인 올해 3월 첫째 주 HD현대오일뱅크의 보통휘발유 공급가격은 전주 대비 10.9%(176.4원) 상승한 리터당 1794.3원을 기록했다. 이는 정유 4사 가운데 가장 높은 상승폭이다. △ 이재명 정부의 물가관리 정책과 유가 담합 시점 당시는 이재명 정부가 국제유가...",
+      "collected_at": "2026-06-21T09:20:51.108635+09:00",
+      "normalized_title": "정유 담합 수사 확대…송명준 사장은 결재라인에 없었나, 구속 수사가 ...",
+      "source_normalized": "세종의 소리",
+      "duplicate_key": "세종의 소리::정유 담합 수사 확대…송명준 사장은 결재라인에 없었나, 구속 수사가 ...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.sjsori.com/news/articleView.html?idxno=86845",
+      "id": "c93af2bcfac0304a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이재명 대통령, 유가 상한제 꺼냈는데…송명준 사장은 왜 가격을 올렸나...",
+      "url": "https://www.sjsori.com/news/articleView.html?idxno=86849",
+      "source": "세종의 소리",
+      "published_at": "2026-06-21T01:20:51.107221+09:00",
+      "snippet": "◇ 정유업계 카르텔 실체 밝혀질까 검찰은 현재 HD현대오일뱅크를 비롯해 SK에너지, GS칼텍스, 에쓰오일 등 정유 4사의 담합 의혹을 수사하고 있다. 업계에서는 이번 수사가 단순히 실무자 처벌에 그칠지, 아니면 정유업계 전반의 가격 결정 구조와 정보 교환 체계, 의사결정 라인까지 확대될지 주목하고 있다....",
+      "collected_at": "2026-06-21T09:20:51.107330+09:00",
+      "normalized_title": "이재명 대통령, 유가 상한제 꺼냈는데…송명준 사장은 왜 가격을 올렸나...",
+      "source_normalized": "세종의 소리",
+      "duplicate_key": "세종의 소리::이재명 대통령, 유가 상한제 꺼냈는데…송명준 사장은 왜 가격을 올렸나...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.sjsori.com/news/articleView.html?idxno=86849",
+      "id": "687db79f98ebf323",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

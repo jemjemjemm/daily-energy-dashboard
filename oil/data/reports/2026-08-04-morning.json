@@ -1,0 +1,161 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-04",
+  "slot": "morning",
+  "period_start": "2026-08-04T00:00:00+09:00",
+  "period_end": "2026-08-04T08:00:00+09:00",
+  "period_label": "2026-08-04 00:00 ~ 2026-08-04 08:00",
+  "generated_at": "2026-08-04T09:15:26.185906+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1572,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 6,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1182
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정위 유가 담합": 1,
+    "기름값 담합": 1,
+    "석유 담합": 2,
+    "유가 담합": 3,
+    "유가담합": 3,
+    "주유소 담합": 1,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "트럼프, 엑손·셰브론에 \"너무 많은 돈 벌어…기름값 내려야\"새 창 열림",
+      "url": "https://view.asiae.co.kr/article/2026080406342568149",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T07:10:46.021329+09:00",
+      "snippet": "휘발유와 경유, 항공유를 생산하는 정유 부문의 마진도 크게 확대됐다. 트럼프 대통령의 발언 이후 이날 오후 셰브론 주가는 국제유가 하락과 함께 약 2... 지난 6월에는 휘발유 가격이 국제유가 하락 폭만큼 내려가지 않는 이유를 조사하라며 법무부에 가격 담합이나 폭리 가능성을 조사하도록 지시했다.... 새 창 열림",
+      "collected_at": "2026-08-04T08:10:46.021342+09:00",
+      "normalized_title": "트럼프, 엑손·셰브론에 \"너무 많은 돈 벌어…기름값 내려야\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::트럼프, 엑손·셰브론에 \"너무 많은 돈 벌어…기름값 내려야\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://view.asiae.co.kr/article/2026080406342568149",
+      "id": "810c2e10dd4563ee",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "휘발유",
+        "경유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독] “중소업체 다 문 닫을 위기” 관세청-농식품부의 ‘설탕 전쟁’새 창 열림",
+      "url": "https://www.sisain.co.kr/news/articleView.html?idxno=58268",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T07:10:46.020153+09:00",
+      "snippet": "지난 2월12일, 공정거래위원회는 4년간 설탕 가격을 담합한 제당 3사에 역대 두 번째 규모인 총 4083억원의 과징금을 부과했다. 공정위는 관세가 고율이라... 마이너스 수익을 보면서 사업할 이유가 없으니 대부분 할당량 안에서만 수입해왔다”라고 말했다. 재정경제부는 매년 할당관세가 적용되는 총량을... 새 창 열림",
+      "collected_at": "2026-08-04T08:10:46.020182+09:00",
+      "normalized_title": "“중소업체 다 문 닫을 위기” 관세청-농식품부의 ‘설탕 전쟁’새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::“중소업체 다 문 닫을 위기” 관세청-농식품부의 ‘설탕 전쟁’새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.sisain.co.kr/news/articleView.html?idxno=58268",
+      "id": "e87b23603036a139",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "트럼프 \"이란전쟁으로 빅오일 폭리, 휘발유값 당장 내려라\"새 창 열림",
+      "url": "https://www.mt.co.kr/world/2026/08/04/2026080405151575896",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T06:10:46.022449+09:00",
+      "snippet": "즉시 국제유가가 급락할 것이라고 자신하면서도 고유가 부담이 소비자들의 생활비 고통을 가중하지 않도록 휘발유 소매 가격이 낮아져야 한다고 주장해왔다. 트럼프 대통령은 지난 6월 국제유가 하락세가 미국 소비자 가격에 신속하게 반영되지 않는다며 법무부에 가격 담합 등을 조사하라고도 지시했다.새 창 열림",
+      "collected_at": "2026-08-04T08:10:46.022459+09:00",
+      "normalized_title": "트럼프 \"이란전쟁으로 빅오일 폭리, 휘발유값 당장 내려라\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::트럼프 \"이란전쟁으로 빅오일 폭리, 휘발유값 당장 내려라\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.mt.co.kr/world/2026/08/04/2026080405151575896",
+      "id": "8b2745d95853c665",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

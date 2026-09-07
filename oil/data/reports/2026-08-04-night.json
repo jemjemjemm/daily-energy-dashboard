@@ -1,0 +1,2118 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-04",
+  "slot": "night",
+  "period_start": "2026-08-04T17:00:00+09:00",
+  "period_end": "2026-08-05T00:00:00+09:00",
+  "period_label": "2026-08-04 17:00 ~ 2026-08-05 00:00",
+  "generated_at": "2026-08-05T09:13:42.671039+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1583,
+  "total_deduped_count": 59,
+  "total_ok_count": 59,
+  "total_review_count": 0,
+  "total_excluded_count": 6,
+  "grade_counts": {
+    "A": 10,
+    "B": 11,
+    "C": 38
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1193
+  },
+  "query_counts": {
+    "경유 담합": 29,
+    "공정거래위원회 정유사 담합": 5,
+    "공정위 유가 담합": 17,
+    "석유 담합": 27,
+    "석유제품 담합": 27,
+    "유가 담합": 17,
+    "유가담합": 17,
+    "정유사 담합": 5,
+    "주유소 담합": 23,
+    "휘발유 담합": 29
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "계열사 누락 땐 총수에 직접 ‘매출액 10%’ 과징금 부과",
+      "url": "http://v.daum.net/v/20260804212010644",
+      "source": "경향신문",
+      "published_at": "2026-08-04T22:06:43.858324+09:00",
+      "snippet": "자진신고 감면(리니언시) 제도의 악용을 막기 위해 감면 인정 범위도 축소할 계획이다. 올 하반기에는 화학제품, 페인트, 석유제품 업계의 담합을 집중 감시할 예정이다. 공정위의 법 집행 권한은 지자체로 분산·확대된다. 광역 지자체와 중앙행정기관 등에 직접... 10시간 전",
+      "collected_at": "2026-08-05T08:06:43.858354+09:00",
+      "normalized_title": "계열사 누락 땐 총수에 직접 ‘매출액 10%’ 과징금 부과",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::계열사 누락 땐 총수에 직접 ‘매출액 10%’ 과징금 부과",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260804212010644",
+      "id": "f5a25f136bfc2f0c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경향신문",
+      "url": "https://v.daum.net/channel/11/home",
+      "source": "경향신문",
+      "published_at": "2026-08-04T22:06:42.151401+09:00",
+      "snippet": "자진신고 감면(리니언시) 제도의 악용을 막기 위해 감면 인정 범위도 축소할 계획이다. 올 하반기에는 화학제품, 페인트, 석유제품 업계의 담합을 집중 감시할 예정이다. 공정위의 법 집행 권한은 지자체로 분산·확대된다. 광역 지자체와 중앙행정기관 등에 직접... 10시간 전",
+      "collected_at": "2026-08-05T08:06:42.151415+09:00",
+      "normalized_title": "경향신문",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::경향신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/11/home",
+      "id": "be66a2e6ebbd2f4f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 소비자 단체소송 사전허가제 폐지 추진… 담합엔 엄정 대응",
+      "url": "http://v.daum.net/v/20260804180538990",
+      "source": "서울신문",
+      "published_at": "2026-08-04T18:06:03.580886+09:00",
+      "snippet": "침해 행위에는 엄정 대응한다. 반복 담합 업체에 등록취소·영업정지 제도를 도입하고, 독과점 지위를 남용하거나 담합한 업체에 지분...관리 비용·책임을 전가하는 행위를 제재한다. 국제유가 급등으로 인해 어려움을 겪는 영세 주유소도 지원한다. 이를 위해 혼합... 14시간 전",
+      "collected_at": "2026-08-05T08:06:03.580918+09:00",
+      "normalized_title": "공정위, 소비자 단체소송 사전허가제 폐지 추진… 담합엔 엄정 대응",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::공정위, 소비자 단체소송 사전허가제 폐지 추진… 담합엔 엄정 대응",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260804180538990",
+      "id": "00f813d84465a42b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "공정위",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울신문",
+      "url": "https://v.daum.net/channel/33/home",
+      "source": "서울신문",
+      "published_at": "2026-08-04T18:06:01.663907+09:00",
+      "snippet": "침해 행위에는 엄정 대응한다. 반복 담합 업체에 등록취소·영업정지 제도를 도입하고, 독과점 지위를 남용하거나 담합한 업체에 지분...관리 비용·책임을 전가하는 행위를 제재한다. 국제유가 급등으로 인해 어려움을 겪는 영세 주유소도 지원한다. 이를 위해 혼합... 14시간 전",
+      "collected_at": "2026-08-05T08:06:01.663922+09:00",
+      "normalized_title": "서울신문",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::서울신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/33/home",
+      "id": "80c4d7f4831c358c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "담합·독과점 칼 빼든 공정위…등록취소부터 지분매각까지 검토",
+      "url": "http://v.daum.net/v/20260804204108850",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-08-04T21:06:45.268537+09:00",
+      "snippet": "입장을 밝혔다. 국민 생활과 밀접한 분야에 대한 감시도 강화된다. 공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합 여부를 집중 점검하고, 복지시설 식자재 납품 과정에서 발생하는 리베이트 제공 행위도 조사할 계획이다. 소비자 권익 보호를... 11시간 전",
+      "collected_at": "2026-08-05T08:06:45.268571+09:00",
+      "normalized_title": "담합·독과점 칼 빼든 공정위…등록취소부터 지분매각까지 검토",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::담합·독과점 칼 빼든 공정위…등록취소부터 지분매각까지 검토",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260804204108850",
+      "id": "a3ac648670931b67",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "파이낸셜뉴스",
+      "url": "https://v.daum.net/channel/139/home",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-08-04T21:06:43.859531+09:00",
+      "snippet": "입장을 밝혔다. 국민 생활과 밀접한 분야에 대한 감시도 강화된다. 공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합 여부를 집중 점검하고, 복지시설 식자재 납품 과정에서 발생하는 리베이트 제공 행위도 조사할 계획이다. 소비자 권익 보호를... 11시간 전",
+      "collected_at": "2026-08-05T08:06:43.859546+09:00",
+      "normalized_title": "파이낸셜뉴스",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::파이낸셜뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/139/home",
+      "id": "f9b058269ce9069e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 乙 단체협상은 담합 제외…주유소 '사후정산' 전격 폐지[업무보고]",
+      "url": "http://v.daum.net/v/20260804180849116",
+      "source": "아시아경제",
+      "published_at": "2026-08-04T19:06:32.634721+09:00",
+      "snippet": "협상을 담합 적용 대상에서 제외하고, 노동조합 등의 행위를 공정거래법 규율 대상에서 명확히 배제한다. 가맹점주 단체 등록제 도입...대금 지급기한은 현행 대비 50% 단축되며, 영세 주유소를 위해 정유사 제품 60% 이상 구매 시 타사 제품을 섞어 파는 '혼합판매... 13시간 전",
+      "collected_at": "2026-08-05T08:06:32.634752+09:00",
+      "normalized_title": "공정위, 乙 단체협상은 담합 제외…주유소 '사후정산' 전격 폐지[업무보고]",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::공정위, 乙 단체협상은 담합 제외…주유소 '사후정산' 전격 폐지[업무보고]",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260804180849116",
+      "id": "c5e0c44f3535ee7f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "아시아경제",
+      "url": "https://v.daum.net/channel/90/home",
+      "source": "아시아경제",
+      "published_at": "2026-08-04T19:06:31.317210+09:00",
+      "snippet": "협상을 담합 적용 대상에서 제외하고, 노동조합 등의 행위를 공정거래법 규율 대상에서 명확히 배제한다. 가맹점주 단체 등록제 도입...대금 지급기한은 현행 대비 50% 단축되며, 영세 주유소를 위해 정유사 제품 60% 이상 구매 시 타사 제품을 섞어 파는 '혼합판매... 13시간 전",
+      "collected_at": "2026-08-05T08:06:31.317253+09:00",
+      "normalized_title": "아시아경제",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::아시아경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/90/home",
+      "id": "7197c286bb7e5fce",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "반복담합·시장지위남용에 매각·양도명령…'초강수' 대응한다",
+      "url": "http://v.daum.net/v/20260804180453962",
+      "source": "연합뉴스",
+      "published_at": "2026-08-04T18:06:05.627938+09:00",
+      "snippet": "경제적 강자에 대항하는 단체협상을 담합 적용 대상에서 제외하되 부작용이 발생하지 않도록 보완책도 마련하겠다고 밝혔다. 노동조합...가맹점주가 폐업하는 경우에는 과도한 위약금이 부과되지 않도록 관련 법을 개정할 방침이다. 국제유가 급등으로 인한 주유소... 14시간 전 1",
+      "collected_at": "2026-08-05T08:06:05.627965+09:00",
+      "normalized_title": "반복담합·시장지위남용에 매각·양도명령…'초강수' 대응한다",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::반복담합·시장지위남용에 매각·양도명령…'초강수' 대응한다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260804180453962",
+      "id": "5ae2a7c93654c3ff",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스",
+      "url": "https://v.daum.net/channel/2/home",
+      "source": "연합뉴스",
+      "published_at": "2026-08-04T18:06:03.582074+09:00",
+      "snippet": "경제적 강자에 대항하는 단체협상을 담합 적용 대상에서 제외하되 부작용이 발생하지 않도록 보완책도 마련하겠다고 밝혔다. 노동조합...가맹점주가 폐업하는 경우에는 과도한 위약금이 부과되지 않도록 관련 법을 개정할 방침이다. 국제유가 급등으로 인한 주유소... 14시간 전 1",
+      "collected_at": "2026-08-05T08:06:03.582089+09:00",
+      "normalized_title": "연합뉴스",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::연합뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/2/home",
+      "id": "46cc1eae4f6d3542",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 반복 담합·시장 지위 남용에 매각·양도 명령으로 대응",
+      "url": "http://v.daum.net/v/20260804182400610",
+      "source": "SBS",
+      "published_at": "2026-08-04T19:07:13.976341+09:00",
+      "snippet": "국민 생활과 밀접한 분야에서 담합 감시와 소비자 보호도 강화합니다. 공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합을 집중적으로 점검하고, 복지시설 식자재 납품과 얽힌 리베이트 제공 행위 등을 조사할 계획입니다. 예식장 식대 계약 시... 13시간 전",
+      "collected_at": "2026-08-05T08:07:13.976374+09:00",
+      "normalized_title": "공정위, 반복 담합·시장 지위 남용에 매각·양도 명령으로 대응",
+      "source_normalized": "SBS",
+      "duplicate_key": "sbs::공정위, 반복 담합·시장 지위 남용에 매각·양도 명령으로 대응",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260804182400610",
+      "id": "561023f826995798",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SBS",
+      "url": "https://v.daum.net/channel/73/home",
+      "source": "SBS",
+      "published_at": "2026-08-04T19:07:12.546404+09:00",
+      "snippet": "국민 생활과 밀접한 분야에서 담합 감시와 소비자 보호도 강화합니다. 공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합을 집중적으로 점검하고, 복지시설 식자재 납품과 얽힌 리베이트 제공 행위 등을 조사할 계획입니다. 예식장 식대 계약 시... 13시간 전",
+      "collected_at": "2026-08-05T08:07:12.546418+09:00",
+      "normalized_title": "SBS",
+      "source_normalized": "SBS",
+      "duplicate_key": "sbs::sbs",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/73/home",
+      "id": "ed10ccec22df5a8e",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[공정위 업무보고] 하반기도 담합 '정조준'…화학·페인트·석유제품 |",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBPeTdqUzNrRUZrbWxKS2VCOTNSMGtleWptTEpJRnBjd1VsTkJnS0FNVGRIVkFib0hVU1BOcDdlVWVRUlZzcWJKV1hpZWExX0tnbGR0WV9EMjFHSE1RNWF1RlJhbDlnMVNPSEZHSmQ3LTNyWkRK?oc=5",
+      "source": "연합인포맥스",
+      "published_at": "2026-08-04T18:13:09+09:00",
+      "snippet": "[공정위 업무보고] 하반기도 담합 '정조준'…화학·페인트·석유제품 | 연합인포맥스",
+      "collected_at": "2026-08-05T08:06:56.060645+09:00",
+      "normalized_title": "[공정위 업무보고] 하반기도 담합 '정조준'…화학·페인트·석유제품 |",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::[공정위 업무보고] 하반기도 담합 '정조준'…화학·페인트·석유제품 |",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBPeTdqUzNrRUZrbWxKS2VCOTNSMGtleWptTEpJRnBjd1VsTkJnS0FNVGRIVkFib0hVU1BOcDdlVWVRUlZzcWJKV1hpZWExX0tnbGR0WV9EMjFHSE1RNWF1RlJhbDlnMVNPSEZHSmQ3LTNyWkRK?oc=5",
+      "id": "ee19e31913c4f0c3",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[공정위 업무보고] 하반기도 담합 '정조준'…화학·페인트·석유제품",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YM2dORFFzWnJqUUpENzNNeUVTeVB2c3FOSnExYlBJcTdLQXE0TVQ1NTNJYnJwaUUtWnZJenQtUEMxSFdHV1hkU2ZVZzdRVHo0T09FSGZQbWlfSzF0MnVCTkVQNEJCaDZGekVlV0hkQmU?oc=5",
+      "source": "연합인포맥스",
+      "published_at": "2026-08-04T18:01:06+09:00",
+      "snippet": "[공정위 업무보고] 하반기도 담합 '정조준'…화학·페인트·석유제품 연합인포맥스",
+      "collected_at": "2026-08-05T08:08:11.179074+09:00",
+      "normalized_title": "[공정위 업무보고] 하반기도 담합 '정조준'…화학·페인트·석유제품",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::[공정위 업무보고] 하반기도 담합 '정조준'…화학·페인트·석유제품",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YM2dORFFzWnJqUUpENzNNeUVTeVB2c3FOSnExYlBJcTdLQXE0TVQ1NTNJYnJwaUUtWnZJenQtUEMxSFdHV1hkU2ZVZzdRVHo0T09FSGZQbWlfSzF0MnVCTkVQNEJCaDZGekVlV0hkQmU?oc=5",
+      "id": "5b331a6e966b2caf",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 석유·화학 제품-페인트 담합 조사한다... 요양원 식자재 리베이트도 시정 나서",
+      "url": "http://v.daum.net/v/20260804181708407",
+      "source": "조선비즈",
+      "published_at": "2026-08-04T19:07:41.345782+09:00",
+      "snippet": "서울 서초구 만남의광장 주유소의 모습. / 뉴스1 공정거래위원회가 4일 대통령 업무보고에서 국민 생활과 밀접한 품목의 담합 및 불공정 행위를 집중 조사하겠다고 밝혔다. 주병기 공정위원장은 “휘발유, 경유 등 석유 제품과 화학 제품, 페인트 담합 여부를 집중... 13시간 전",
+      "collected_at": "2026-08-05T08:07:41.345814+09:00",
+      "normalized_title": "공정위, 석유·화학 제품-페인트 담합 조사한다... 요양원 식자재 리베이트도 시정 나서",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::공정위, 석유·화학 제품-페인트 담합 조사한다... 요양원 식자재 리베이트도 시정 나서",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260804181708407",
+      "id": "7e4b69fda1d01817",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "주유소",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "조선비즈",
+      "url": "https://v.daum.net/channel/216/home",
+      "source": "조선비즈",
+      "published_at": "2026-08-04T19:07:39.984750+09:00",
+      "snippet": "서울 서초구 만남의광장 주유소의 모습. / 뉴스1 공정거래위원회가 4일 대통령 업무보고에서 국민 생활과 밀접한 품목의 담합 및 불공정 행위를 집중 조사하겠다고 밝혔다. 주병기 공정위원장은 “휘발유, 경유 등 석유 제품과 화학 제품, 페인트 담합 여부를 집중... 13시간 전",
+      "collected_at": "2026-08-05T08:07:39.984768+09:00",
+      "normalized_title": "조선비즈",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::조선비즈",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/216/home",
+      "id": "3757e0e10af8e443",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "주유소",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 석유·화학 제품-페인트 담합 조사한다... 요양원 식자재 리베이트도 시정 나서 - 조선비즈",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTUN4ZEtIZHFnc19VNnJmWXBqYzNTY3NLUHVfWkxId3pudDUzb3Y5c19HNUI4eko2M21GZEo4bkpLUDFQNmNBeE5ZQnEwNlBLNHlUU1BmQno5UUFoMVNEUklnMjl6bFpNdGUxcG1NWTBubzVMLVpQclJJY3lHWExFTVlaWmZWbS1DODNoQnNfZGxja2RfUzVKb2530gGaAUFVX3lxTE5NQ3hkS0hkcWdzX1U2cmZZcGpjM1Njc0tQdV9aTEh3em50NTNvdjlzX0c1Qjh6SjYzbUZkSjhuSktQMVA2Y0F4TllCcTA2UEs0eVRTUGZCejlRQWgxU0RSSWcyOXpsWk10ZTFwbU1ZMG5vNUwtWlByUkljeUdYTEVNWVpaZlZtLUM4M2hCc19kbGNrZF9TNUpvbnc?oc=5",
+      "source": "Chosunbiz",
+      "published_at": "2026-08-04T18:15:00+09:00",
+      "snippet": "공정위, 석유·화학 제품-페인트 담합 조사한다... 요양원 식자재 리베이트도 시정 나서 - 조선비즈 Chosunbiz",
+      "collected_at": "2026-08-05T08:06:56.060876+09:00",
+      "normalized_title": "공정위, 석유·화학 제품-페인트 담합 조사한다... 요양원 식자재 리베이트도 시정 나서 - 조선비즈",
+      "source_normalized": "조선Biz",
+      "duplicate_key": "조선biz::공정위, 석유·화학 제품-페인트 담합 조사한다... 요양원 식자재 리베이트도 시정 나서 - 조선비즈",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTUN4ZEtIZHFnc19VNnJmWXBqYzNTY3NLUHVfWkxId3pudDUzb3Y5c19HNUI4eko2M21GZEo4bkpLUDFQNmNBeE5ZQnEwNlBLNHlUU1BmQno5UUFoMVNEUklnMjl6bFpNdGUxcG1NWTBubzVMLVpQclJJY3lHWExFTVlaWmZWbS1DODNoQnNfZGxja2RfUzVKb2530gGaAUFVX3lxTE5NQ3hkS0hkcWdzX1U2cmZZcGpjM1Njc0tQdV9aTEh3em50NTNvdjlzX0c1Qjh6SjYzbUZkSjhuSktQMVA2Y0F4TllCcTA2UEs0eVRTUGZCejlRQWgxU0RSSWcyOXpsWk10ZTFwbU1ZMG5vNUwtWlByUkljeUdYTEVNWVpaZlZtLUM4M2hCc19kbGNrZF9TNUpvbnc?oc=5",
+      "id": "6eeee7c1ce858060",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "담합 반복·시장 지위남용에 매각·양도명령...강력 대응",
+      "url": "http://v.daum.net/v/20260804194500371",
+      "source": "YTN",
+      "published_at": "2026-08-04T20:06:49.643186+09:00",
+      "snippet": "수 있도록 법을 개정하기로 했습니다. 담합 처분시효도 최대 12년에서 15년으로 연장합니다. 공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 관련 담합을 집중 점검하고, 복지시설 식자재 납품에 얽힌 리베이트 제공 행위 등을 조사할 계획이라고 밝혔습니다... 12시간 전",
+      "collected_at": "2026-08-05T08:06:49.643218+09:00",
+      "normalized_title": "담합 반복·시장 지위남용에 매각·양도명령...강력 대응",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::담합 반복·시장 지위남용에 매각·양도명령...강력 대응",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260804194500371",
+      "id": "af9f70e42553c87e",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "YTN",
+      "url": "https://v.daum.net/channel/23/home",
+      "source": "YTN",
+      "published_at": "2026-08-04T20:06:48.295133+09:00",
+      "snippet": "수 있도록 법을 개정하기로 했습니다. 담합 처분시효도 최대 12년에서 15년으로 연장합니다. 공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 관련 담합을 집중 점검하고, 복지시설 식자재 납품에 얽힌 리베이트 제공 행위 등을 조사할 계획이라고 밝혔습니다... 12시간 전",
+      "collected_at": "2026-08-05T08:06:48.295150+09:00",
+      "normalized_title": "YTN",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::ytn",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/23/home",
+      "id": "d2d24d5b6b97e3ae",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "대기업 계열사 자료 누락하면 총수 개인에게 과징금…담합 철퇴",
+      "url": "http://v.daum.net/v/20260804183812991",
+      "source": "연합뉴스TV",
+      "published_at": "2026-08-04T19:07:09.120580+09:00",
+      "snippet": "했습니다. 국민 생활과 밀접한 분야에서 담합 감시와 소비자 보호도 강화합니다. 공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합을 집중적으로 점검하고, 복지시설 식자재 납품과 얽힌 리베이트 제공 행위 등을 조사할 계획입니다. 예식장 식대... 13시간 전",
+      "collected_at": "2026-08-05T08:07:09.120612+09:00",
+      "normalized_title": "대기업 계열사 자료 누락하면 총수 개인에게 과징금…담합 철퇴",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::대기업 계열사 자료 누락하면 총수 개인에게 과징금…담합 철퇴",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260804183812991",
+      "id": "7780cb6fbe71d30e",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스TV",
+      "url": "https://v.daum.net/channel/318/home",
+      "source": "연합뉴스TV",
+      "published_at": "2026-08-04T19:07:07.611245+09:00",
+      "snippet": "했습니다. 국민 생활과 밀접한 분야에서 담합 감시와 소비자 보호도 강화합니다. 공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합을 집중적으로 점검하고, 복지시설 식자재 납품과 얽힌 리베이트 제공 행위 등을 조사할 계획입니다. 예식장 식대... 13시간 전",
+      "collected_at": "2026-08-05T08:07:07.611261+09:00",
+      "normalized_title": "연합뉴스TV",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::연합뉴스tv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/318/home",
+      "id": "3c5f8f96c9d1d1e1",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 반복 담합 '등록취소·영업정지' 추진…시장지배력 남용도 대응",
+      "url": "http://v.daum.net/v/20260804190908670",
+      "source": "EBN산업경제",
+      "published_at": "2026-08-04T20:05:59.659448+09:00",
+      "snippet": "경제적 약자가 대기업과 단체협상을 하는 경우 일정 범위에서 담합 적용 대상에서 제외하는 방안을 마련하되, 시장 왜곡 등 부작용을...개정할 방침이다. 아울러 국제유가 급등으로 어려움을 겪는 주유소의 경영 부담을 완화하기 위해 표준계약서를 개정해 혼합 판매... 12시간 전",
+      "collected_at": "2026-08-05T08:05:59.659480+09:00",
+      "normalized_title": "공정위, 반복 담합 '등록취소·영업정지' 추진…시장지배력 남용도 대응",
+      "source_normalized": "EBN산업경제",
+      "duplicate_key": "ebn산업경제::공정위, 반복 담합 '등록취소·영업정지' 추진…시장지배력 남용도 대응",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://v.daum.net/v/20260804190908670",
+      "id": "b96ee9bdc7fa369d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "EBN산업경제",
+      "url": "https://v.daum.net/channel/552778/home",
+      "source": "EBN산업경제",
+      "published_at": "2026-08-04T20:05:54.096114+09:00",
+      "snippet": "경제적 약자가 대기업과 단체협상을 하는 경우 일정 범위에서 담합 적용 대상에서 제외하는 방안을 마련하되, 시장 왜곡 등 부작용을...개정할 방침이다. 아울러 국제유가 급등으로 어려움을 겪는 주유소의 경영 부담을 완화하기 위해 표준계약서를 개정해 혼합 판매... 12시간 전",
+      "collected_at": "2026-08-05T08:05:54.096128+09:00",
+      "normalized_title": "EBN산업경제",
+      "source_normalized": "EBN산업경제",
+      "duplicate_key": "ebn산업경제::ebn산업경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://v.daum.net/channel/552778/home",
+      "id": "32d11e193b355012",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 독과점 구조개혁·공정성장 기반 구축 추진",
+      "url": "http://v.daum.net/v/20260804185905445",
+      "source": "EBN산업경제",
+      "published_at": "2026-08-04T19:06:55.427880+09:00",
+      "snippet": "완화 등 '독과점 구조개혁과 공정성장 기반 구축'을 설정했다. ◆ 담합 반복·불공정피해 대응 확대 공정위는 화학제품, 페인트, 석유제품 담합을 집중 점검하고 복지시설 식자재 납품 관련 리베이트 등 불공정행위를 신속히 조사·시정에 나선다는 방침이다. 반복... 13시간 전",
+      "collected_at": "2026-08-05T08:06:55.427913+09:00",
+      "normalized_title": "공정위, 독과점 구조개혁·공정성장 기반 구축 추진",
+      "source_normalized": "EBN산업경제",
+      "duplicate_key": "ebn산업경제::공정위, 독과점 구조개혁·공정성장 기반 구축 추진",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260804185905445",
+      "id": "56d2b0136cebb837",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 담합 반복 기업에 '등록취소·영업정지' 추진",
+      "url": "http://v.daum.net/v/20260804183324859",
+      "source": "SBS Biz",
+      "published_at": "2026-08-04T19:07:10.687097+09:00",
+      "snippet": "그러면서 \"공정하고 신뢰받는 시장은 정상적인 사회의 토대\"라고 덧붙였습니다. 공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합을 집중적으로 점검하고, 복지시설 식자재 납품과 얽힌 리베이트 제공 행위 등도 조사할 예정입니다. 예식장 식대... 13시간 전",
+      "collected_at": "2026-08-05T08:07:10.687127+09:00",
+      "normalized_title": "공정위, 담합 반복 기업에 '등록취소·영업정지' 추진",
+      "source_normalized": "SBS Biz",
+      "duplicate_key": "sbs biz::공정위, 담합 반복 기업에 '등록취소·영업정지' 추진",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260804183324859",
+      "id": "1405a693fccff265",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SBS Biz",
+      "url": "https://v.daum.net/channel/189/home",
+      "source": "SBS Biz",
+      "published_at": "2026-08-04T19:07:09.121837+09:00",
+      "snippet": "그러면서 \"공정하고 신뢰받는 시장은 정상적인 사회의 토대\"라고 덧붙였습니다. 공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합을 집중적으로 점검하고, 복지시설 식자재 납품과 얽힌 리베이트 제공 행위 등도 조사할 예정입니다. 예식장 식대... 13시간 전",
+      "collected_at": "2026-08-05T08:07:09.121855+09:00",
+      "normalized_title": "SBS Biz",
+      "source_normalized": "SBS Biz",
+      "duplicate_key": "sbs biz::sbs biz",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/189/home",
+      "id": "a4d114649c7e5afd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 乙 단체협상은 담합 제외…주유소 '사후정산' 전격 폐지[업무보고]",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhUGkwOGZlaTJ4eUxwU2M4NnBSZkMxeHNnNUlld2E4X3B0dmhiYlRvODNITExWeEMyZjJPLUNsV0NvQWJqUnFDYWRDb1Z0eWM?oc=5",
+      "source": "v.daum.net",
+      "published_at": "2026-08-04T18:08:49+09:00",
+      "snippet": "공정위, 乙 단체협상은 담합 제외…주유소 '사후정산' 전격 폐지[업무보고] v.daum.net",
+      "collected_at": "2026-08-05T08:07:50.229545+09:00",
+      "normalized_title": "공정위, 乙 단체협상은 담합 제외…주유소 '사후정산' 전격 폐지[업무보고]",
+      "source_normalized": "v.daum.net",
+      "duplicate_key": "v.daum.net::공정위, 乙 단체협상은 담합 제외…주유소 '사후정산' 전격 폐지[업무보고]",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhUGkwOGZlaTJ4eUxwU2M4NnBSZkMxeHNnNUlld2E4X3B0dmhiYlRvODNITExWeEMyZjJPLUNsV0NvQWJqUnFDYWRDb1Z0eWM?oc=5",
+      "id": "b4fbf4128f88c6da",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 대기업 계열사 자료 빠뜨리면 총수 개인에게 과징금 부과",
+      "url": "http://v.daum.net/v/20260804190809648",
+      "source": "국제신문",
+      "published_at": "2026-08-04T20:06:54.017453+09:00",
+      "snippet": "지난 2월 국무회의에서 이런 사안을 언급하자 개편을 본격화했다. 공정위는 더불어 화학제품·페인트·휘발유·경유 등 석유제품 시장의 담합 집중적으로 파악, 복지시설 식자재 납품과 얽힌 리베이트 제공 행위 조사, 예식장 식대 계약 때 신랑·신부에게 보증 인원... 12시간 전",
+      "collected_at": "2026-08-05T08:06:54.017485+09:00",
+      "normalized_title": "공정위, 대기업 계열사 자료 빠뜨리면 총수 개인에게 과징금 부과",
+      "source_normalized": "국제신문",
+      "duplicate_key": "국제신문::공정위, 대기업 계열사 자료 빠뜨리면 총수 개인에게 과징금 부과",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260804190809648",
+      "id": "4dca8bbfd2e987e4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국제신문",
+      "url": "https://v.daum.net/channel/174606/home",
+      "source": "국제신문",
+      "published_at": "2026-08-04T20:06:52.713671+09:00",
+      "snippet": "지난 2월 국무회의에서 이런 사안을 언급하자 개편을 본격화했다. 공정위는 더불어 화학제품·페인트·휘발유·경유 등 석유제품 시장의 담합 집중적으로 파악, 복지시설 식자재 납품과 얽힌 리베이트 제공 행위 조사, 예식장 식대 계약 때 신랑·신부에게 보증 인원... 12시간 전",
+      "collected_at": "2026-08-05T08:06:52.713688+09:00",
+      "normalized_title": "국제신문",
+      "source_normalized": "국제신문",
+      "duplicate_key": "국제신문::국제신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/174606/home",
+      "id": "6757d9679a18a806",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 담합에 철퇴 꺼냈다…반복 시 등록취소·영업정지 '초강수'",
+      "url": "http://v.daum.net/v/20260804201003994",
+      "source": "뉴스웨이",
+      "published_at": "2026-08-04T21:05:54.094896+09:00",
+      "snippet": "대한 감면 제한도 검토한다. 공정위는 국민 생활과 밀접한 분야의 불공정 행위 점검도 강화한다. 화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합을 집중 점검하고, 복지시설 식자재 납품 과정에서의 리베이트 제공 행위도 들여다볼 계획이다. 소비자 보호... 11시간 전",
+      "collected_at": "2026-08-05T08:05:54.094925+09:00",
+      "normalized_title": "공정위, 담합에 철퇴 꺼냈다…반복 시 등록취소·영업정지 '초강수'",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::공정위, 담합에 철퇴 꺼냈다…반복 시 등록취소·영업정지 '초강수'",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://v.daum.net/v/20260804201003994",
+      "id": "12223e2865611640",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스웨이",
+      "url": "https://v.daum.net/channel/552788/home",
+      "source": "뉴스웨이",
+      "published_at": "2026-08-04T21:05:52.090447+09:00",
+      "snippet": "대한 감면 제한도 검토한다. 공정위는 국민 생활과 밀접한 분야의 불공정 행위 점검도 강화한다. 화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합을 집중 점검하고, 복지시설 식자재 납품 과정에서의 리베이트 제공 행위도 들여다볼 계획이다. 소비자 보호... 11시간 전",
+      "collected_at": "2026-08-05T08:05:52.090469+09:00",
+      "normalized_title": "뉴스웨이",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::뉴스웨이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/552788/home",
+      "id": "1d07a152bbd5705c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, ‘시장질서 대개혁’ 시동…플랫폼·재벌·담합 전방위 개선",
+      "url": "http://v.daum.net/v/20260804183013740",
+      "source": "미디어펜",
+      "published_at": "2026-08-04T19:07:12.545192+09:00",
+      "snippet": "법을 위반하는 기업에 대해 등록취소와 영업정지를 추진하고, 담합 자진신고 감면제도(리니언시)도 축소하기로 했다. 더 주목되는...가능성에 주목하고 있다. 공정위가 화학제품과 휘발유, 경유 등 석유제품, 페인트를 비롯해 농산물 유통과 방위산업까지 경쟁제한... 13시간 전",
+      "collected_at": "2026-08-05T08:07:12.545232+09:00",
+      "normalized_title": "공정위, ‘시장질서 대개혁’ 시동…플랫폼·재벌·담합 전방위 개선",
+      "source_normalized": "미디어펜",
+      "duplicate_key": "미디어펜::공정위, ‘시장질서 대개혁’ 시동…플랫폼·재벌·담합 전방위 개선",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260804183013740",
+      "id": "f589d26cc247d340",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "미디어펜",
+      "url": "https://v.daum.net/channel/552789/home",
+      "source": "미디어펜",
+      "published_at": "2026-08-04T19:07:10.688338+09:00",
+      "snippet": "법을 위반하는 기업에 대해 등록취소와 영업정지를 추진하고, 담합 자진신고 감면제도(리니언시)도 축소하기로 했다. 더 주목되는...가능성에 주목하고 있다. 공정위가 화학제품과 휘발유, 경유 등 석유제품, 페인트를 비롯해 농산물 유통과 방위산업까지 경쟁제한... 13시간 전",
+      "collected_at": "2026-08-05T08:07:10.688352+09:00",
+      "normalized_title": "미디어펜",
+      "source_normalized": "미디어펜",
+      "duplicate_key": "미디어펜::미디어펜",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/552789/home",
+      "id": "18866ec8403d0b0d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위 \"담합 사업부 선제 매각, 규제 회피 아닌 자율 근절 노력\"새 창 열림",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/08/04/2026080490303.html",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T22:06:39.391145+09:00",
+      "snippet": "주 위원장은 \"국제정세 및 공급망 위기 상황을 역이용한 담합행위와 국민생활 밀접 분야의 불공정행위에 적극 대응하겠다\"며 화학제품·페인트·석유제품 담합을 집중 점검하고 복지시설 식자재 납품 관련 리베이트 등 불공정행위를 신속히 조사·시정하겠다고 밝혔다. 특히 반복 담합에 대해서는 사업자... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:39.391174+09:00",
+      "normalized_title": "공정위 \"담합 사업부 선제 매각, 규제 회피 아닌 자율 근절 노력\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위 \"담합 사업부 선제 매각, 규제 회피 아닌 자율 근절 노력\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.tvchosun.com/site/data/html_dir/2026/08/04/2026080490303.html",
+      "id": "6e39e1516615da4b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "담합·독과점 칼 빼든 공정위…등록취소부터 지분매각까지 검토새 창 열림",
+      "url": "http://www.fnnews.com/news/202608042033566315",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T21:06:39.396553+09:00",
+      "snippet": "공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합 여부를 집중 점검하고, 복지시설 식자재 납품 과정에서 발생하는 리베이트 제공 행위도 조사할 계획이다. 소비자 권익 보호를 위한 제도 개선도 이어진다. 예식장 계약 과정에서 신랑과 신부에게 각각 최소 보증 인원을 부담하도록 하는 이른바... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:39.396566+09:00",
+      "normalized_title": "담합·독과점 칼 빼든 공정위…등록취소부터 지분매각까지 검토새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::담합·독과점 칼 빼든 공정위…등록취소부터 지분매각까지 검토새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://www.fnnews.com/news/202608042033566315",
+      "id": "769b65ffa0462a2c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[2차 부처보고-중기부·공정위] 李 \"배달앱 독점 방치하면 안돼\" \"공정위...새 창 열림",
+      "url": "https://www.polinews.co.kr/news/articleView.html?idxno=739141",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T21:06:39.393828+09:00",
+      "snippet": "우선 국민 생활과 밀접한 화학제품·페인트·석유제품 담합, 복지시설 식자재 납품 리베이트 등 불공정행위를 집중 조사하고, 반복 담합 사업자에 대해서는 등록취소·영업정지 제도를 도입한다. 시장지배적 지위 남용에 대해서는 지분매각·영업양도 등 구조적 조치도 추진한다. 소비자와 중소기업 피해구제도... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:39.393843+09:00",
+      "normalized_title": "[2차 부처보고-중기부·공정위] 李 \"배달앱 독점 방치하면 안돼\" \"공정위...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[2차 부처보고-중기부·공정위] 李 \"배달앱 독점 방치하면 안돼\" \"공정위...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.polinews.co.kr/news/articleView.html?idxno=739141",
+      "id": "e608e2d0d4fa2a6a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 담합에 철퇴 꺼냈다…반복 시 등록취소·영업정지 '초강수'새 창 열림",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026080420085750544",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T21:05:47.986350+09:00",
+      "snippet": "조사 개시 전후의 자진신고 혜택을 다르게 적용하고, 시정조치 감면 삭제와 반복 담합에 대한 감면 제한도 검토한다. 공정위는 국민 생활과 밀접한 분야의... 과도한 위약금 문제도 제도 개선 대상에 포함됐다. 한편 국제유가 급등으로 어려움을 겪는 주유소를 위해 표준계약서를 고쳐 혼합 판매를 허용하기로 했다.새 창 열림",
+      "collected_at": "2026-08-05T08:05:47.986370+09:00",
+      "normalized_title": "공정위, 담합에 철퇴 꺼냈다…반복 시 등록취소·영업정지 '초강수'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 담합에 철퇴 꺼냈다…반복 시 등록취소·영업정지 '초강수'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.newsway.co.kr/news/view?ud=2026080420085750544",
+      "id": "c835732a6237d46b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "반복담합·시장지배력 남용에 매각·영업양도 명령 추진새 창 열림",
+      "url": "https://www.delighti.co.kr/news/articleView.html?idxno=119817",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T21:05:47.984898+09:00",
+      "snippet": "화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합 여부를 집중 점검하고, 복지시설 식자재 납품 과정의 리베이트 제공 행위도 조사할 예정이다. 소비자 보호를 위해 예식장 계약 시 신랑·신부에게 각각 보증 인원을 부담하도록 하는 이른바 '각자 보증' 약관을 점검하고, 필라테스·요가 분야의 중도 해지... 새 창 열림",
+      "collected_at": "2026-08-05T08:05:47.984936+09:00",
+      "normalized_title": "반복담합·시장지배력 남용에 매각·영업양도 명령 추진새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::반복담합·시장지배력 남용에 매각·영업양도 명령 추진새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.delighti.co.kr/news/articleView.html?idxno=119817",
+      "id": "57a2a35ed624e8e2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 대기업 계열사 자료 빠뜨리면 총수 개인에게 과징금 부과새 창 열림",
+      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260804.99099000949",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T20:06:57.820206+09:00",
+      "snippet": "공정위는 더불어 화학제품·페인트·휘발유·경유 등 석유제품 시장의 담합 집중적으로 파악, 복지시설 식자재 납품과 얽힌 리베이트 제공 행위 조사, 예식장 식대 계약 때 신랑·신부에게 보증 인원을 따로 나눠 책임지도록 하는 ‘각자 보증’ 요구와 같은 불공정 약관 점검, 필라테스·요가 업체의 중도 해지 때... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:57.820219+09:00",
+      "normalized_title": "공정위, 대기업 계열사 자료 빠뜨리면 총수 개인에게 과징금 부과새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 대기업 계열사 자료 빠뜨리면 총수 개인에게 과징금 부과새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260804.99099000949",
+      "id": "9031ed534010e3f4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "설탕 등 반복담합 시 ‘영업정지’…대기업 계열사 빼면 총수가 과징금새 창 열림",
+      "url": "https://www.ekn.kr/web/view.php?key=20260804025509531",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T20:06:57.817613+09:00",
+      "snippet": "공정위는 휘발유·경유 등 석유제품과 화학제품, 페인트 시장 담합도 집중 조사한다. 대한항공과 아시아나 기업결합, 코레일과 SR 통합 과정에서 운임, 좌석 등도 소비자 권익을 최우선에 두고 점검한다. 자진신고 감면 제도인 '리니언시'도 조사 개시 전후 자진신고 시 감면 차등화, 시정조치 감면 삭제, 반복... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:57.817628+09:00",
+      "normalized_title": "설탕 등 반복담합 시 ‘영업정지’…대기업 계열사 빼면 총수가 과징금새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::설탕 등 반복담합 시 ‘영업정지’…대기업 계열사 빼면 총수가 과징금새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ekn.kr/web/view.php?key=20260804025509531",
+      "id": "66e460a8589c3c38",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "담합 반복·시장 지위남용에 매각·양도명령...강력 대응새 창 열림",
+      "url": "https://www.ytn.co.kr/_ln/0102_202608041943000781",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T20:06:39.401805+09:00",
+      "snippet": "공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 관련 담합을 집중 점검하고, 복지시설 식자재 납품에 얽힌 리베이트 제공 행위 등을 조사할 계획이라고 밝혔습니다. 예식장 식대 계약 시 신랑·신부에게 보증 인원을 따로 나눠 책임지도록 하는 각자 보증 요구와 같은 불공정 약관도 점검해 바로 잡을... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:39.401817+09:00",
+      "normalized_title": "담합 반복·시장 지위남용에 매각·양도명령...강력 대응새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::담합 반복·시장 지위남용에 매각·양도명령...강력 대응새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.ytn.co.kr/_ln/0102_202608041943000781",
+      "id": "fefe4af2f3c2f6b8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 반복 담합 기업 영업정지 추진…배달앱·AI 구독 감시 강화새 창 열림",
+      "url": "https://zdnet.co.kr/view/?no=20260804181623",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T20:06:39.400536+09:00",
+      "snippet": "우선 화학제품과 페인트, 석유제품 등 민생 밀접 분야의 담합을 집중 점검한다. 복지시설 식자재 납품 과정에서 발생하는 리베이트 등 불공정행위도 조사할 계획이다. 반복 담합 사업자에 대해서는 등록취소와 영업정지를 도입하고, 조사 개시 전후에 따라 자진신고 감면 혜택을 차등화하는 등 제도를 손질한다.... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:39.400549+09:00",
+      "normalized_title": "공정위, 반복 담합 기업 영업정지 추진…배달앱·AI 구독 감시 강화새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 반복 담합 기업 영업정지 추진…배달앱·ai 구독 감시 강화새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://zdnet.co.kr/view/?no=20260804181623",
+      "id": "70c6858cf0fbf6e7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"반복 담합·갑질 적발 시 매각\"...공정위, 하반기 업무 추진계획 발표새 창 열림",
+      "url": "https://www.g-enews.com/view.php?ud=202608041950405761923c501012_1",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T20:06:39.399126+09:00",
+      "snippet": "아울러 석유제품과 화학, 페인트 등 국민 생활 밀착형 분야의 담합 점검을 강화하고 복지시설 식자재 납품 관련 리베이트 조사를 병행한다. 소비자 권익 보호 대책도 포함됐다. 예식장 계약 시 신랑·신부에게 보증 인원을 나누어 책임지게 하는 '각자 보증' 요구를 바로잡고, 필라테스·요가 분야 중도 해지... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:39.399139+09:00",
+      "normalized_title": "\"반복 담합·갑질 적발 시 매각\"...공정위, 하반기 업무 추진계획 발표새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::\"반복 담합·갑질 적발 시 매각\"...공정위, 하반기 업무 추진계획 발표새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.g-enews.com/view.php?ud=202608041950405761923c501012_1",
+      "id": "78217aa10185f3a7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 반복 담합 '등록취소·영업정지' 추진…시장지배력 남용도 대응새 창 열림",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1719119",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T20:05:47.987696+09:00",
+      "snippet": "화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합 여부를 집중 점검하고, 복지시설 식자재 납품 과정에서 발생하는 리베이트 제공 행위도 조사할 계획이다. 소비자 보호를 위해 예식장 계약 과정에서 신랑·신부에게 각각 보증 인원을 배정하는 이른바 '각자 보증' 약관 등 불공정 약관을 점검한다.... 새 창 열림",
+      "collected_at": "2026-08-05T08:05:47.987710+09:00",
+      "normalized_title": "공정위, 반복 담합 '등록취소·영업정지' 추진…시장지배력 남용도 대응새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 반복 담합 '등록취소·영업정지' 추진…시장지배력 남용도 대응새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.ebn.co.kr/news/articleView.html?idxno=1719119",
+      "id": "94b248d37ddb422f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 담합 반복 기업에 '등록취소·영업정지' 추진새 창 열림",
+      "url": "https://biz.sbs.co.kr/article_hub/20000326635?division=NAVER",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T19:07:15.896505+09:00",
+      "snippet": "공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합을 집중적으로 점검하고, 복지시설 식자재 납품과 얽힌 리베이트 제공 행위 등도 조사할 예정입니다. 예식장 식대 계약 시 신랑·신부에게 보증 인원을 따로 나눠 책임지도록 하는 '각자 보증' 요구와 같은 불공정 약관도 점검해 바로 잡을... 새 창 열림",
+      "collected_at": "2026-08-05T08:07:15.896517+09:00",
+      "normalized_title": "공정위, 담합 반복 기업에 '등록취소·영업정지' 추진새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 담합 반복 기업에 '등록취소·영업정지' 추진새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://biz.sbs.co.kr/article_hub/20000326635?division=NAVER",
+      "id": "7dcad0263f188a3d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, ‘시장질서 대개혁’ 시동…플랫폼·재벌·담합 전방위 개선새 창 열림",
+      "url": "https://www.mediapen.com/news/view/1114237",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T19:06:57.822872+09:00",
+      "snippet": "공정거래위원회가 담합과 갑질을 적발하는 전통적인 법 집행기관을 넘어, 독과점 구조를 해체하고 플랫폼과 인공지능(AI) 시장까지 경쟁 질서를 새롭게... 공정위가 화학제품과 휘발유, 경유 등 석유제품, 페인트를 비롯해 농산물 유통과 방위산업까지 경쟁제한 요소를 전면 재점검하겠다고 밝히면서 규제의... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:57.822886+09:00",
+      "normalized_title": "공정위, ‘시장질서 대개혁’ 시동…플랫폼·재벌·담합 전방위 개선새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, ‘시장질서 대개혁’ 시동…플랫폼·재벌·담합 전방위 개선새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.mediapen.com/news/view/1114237",
+      "id": "e39a31f3cf2ce35f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "대기업 계열사 자료 누락하면 총수 개인에게 과징금…담합 철퇴새 창 열림",
+      "url": "http://www.yonhapnewstv.co.kr/news/AKR20260804183609x7Z",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T19:06:57.821569+09:00",
+      "snippet": "공정위는 화학제품과 페인트, 휘발유·경유 등 석유제품 시장의 담합을 집중적으로 점검하고, 복지시설 식자재 납품과 얽힌 리베이트 제공 행위 등을 조사할 계획입니다. 예식장 식대 계약 시 신랑·신부에게 보증 인원을 따로 나눠 책임지도록 하는 '각자 보증' 요구와 같은 불공정 약관을 점검해 바로 잡을... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:57.821582+09:00",
+      "normalized_title": "대기업 계열사 자료 누락하면 총수 개인에게 과징금…담합 철퇴새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::대기업 계열사 자료 누락하면 총수 개인에게 과징금…담합 철퇴새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.yonhapnewstv.co.kr/news/AKR20260804183609x7Z",
+      "id": "63544afe2ff5bc08",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[업무보고] 공정위, 집행체계 전면 개편…독과점 구조부터 뜯어고친다새 창 열림",
+      "url": "https://www.newspim.com/news/view/20260804001404",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T19:06:29.782946+09:00",
+      "snippet": "[사진=청와대] ◆ 시장지배력 남용 과징금 상한 6→20%…담합은 30%로 우선 공정위는 경제적 제재부터 강화한다. 시장지배적 지위 남용의 과징금 상한율을... 모바일 상품권 수수료를 가맹점주에게 떠넘기는 유통 갑질을 조사하고, 정유사·주유소 표준계약서를 고쳐 혼합판매를 허용하고 사후정산은 폐지한다.... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:29.782978+09:00",
+      "normalized_title": "[업무보고] 공정위, 집행체계 전면 개편…독과점 구조부터 뜯어고친다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[업무보고] 공정위, 집행체계 전면 개편…독과점 구조부터 뜯어고친다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.newspim.com/news/view/20260804001404",
+      "id": "34d6718192691244",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "하반기 민생 불공정행위 엄정 대응…플랫폼·대기업집단 감시 강화새 창 열림",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148969350&call_from=naver_news",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T19:05:47.988850+09:00",
+      "snippet": "공정위는 상반기 담합 등 민생경제 침해행위에 엄정 대응하고 경제적 약자의 협상력 강화를 위한 제도개선을 추진했다. 하반기에는 ▲민생분야... 국제유가 급등으로 어려움을 겪는 영세 주유소의 부담을 줄이기 위해 혼합판매 허용과 사후정산 폐지 등 표준계약서 개선도 추진한다. ◆ 배달앱·AI 구독서비스... 새 창 열림",
+      "collected_at": "2026-08-05T08:05:47.988872+09:00",
+      "normalized_title": "하반기 민생 불공정행위 엄정 대응…플랫폼·대기업집단 감시 강화새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::하반기 민생 불공정행위 엄정 대응…플랫폼·대기업집단 감시 강화새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148969350&call_from=naver_news",
+      "id": "41fba75ab83d7d2c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 乙 단체협상은 담합 제외…주유소 '사후정산' 전격 폐지[업무보...새 창 열림",
+      "url": "https://view.asiae.co.kr/article/2026080418063601270",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T18:06:29.784369+09:00",
+      "snippet": "공정거래위원회가 중소기업과 소상공인 등 경제적 약자들이 대기업의 갑질에 맞서 정당한 대가를 요구할 수 있도록 단체협상 행위를 담합 규제 대상에서... 대규모 유통업체의 대금 지급기한은 현행 대비 50% 단축되며, 영세 주유소를 위해 정유사 제품 60% 이상 구매 시 타사 제품을 섞어 파는 '혼합판매'를... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:29.784383+09:00",
+      "normalized_title": "공정위, 乙 단체협상은 담합 제외…주유소 '사후정산' 전격 폐지[업무보...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 乙 단체협상은 담합 제외…주유소 '사후정산' 전격 폐지[업무보...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://view.asiae.co.kr/article/2026080418063601270",
+      "id": "e29f1622e5746806",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[공정위 업무보고] 납품대금 지급기한 절반 단축…'약자' 협상력 키운다새 창 열림",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428590",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T18:05:47.994475+09:00",
+      "snippet": "중소기업·소상공인 단체협상 담합서 제외 유통업체 직매입 납품대금 지급기한 60일→30일 공정거래위원회[출처: 연합뉴스 자료사진] (서울=연합인포맥스)... 업종 표준대리점계약서도 개정할 계획이다. 앞으로는 전속계약 관행을 폐지하고, 상표 계약 정유사 제품의 60% 이상만 구매하면 될 수 있게 개선할 예정이다.새 창 열림",
+      "collected_at": "2026-08-05T08:05:47.994489+09:00",
+      "normalized_title": "[공정위 업무보고] 납품대금 지급기한 절반 단축…'약자' 협상력 키운다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[공정위 업무보고] 납품대금 지급기한 절반 단축…'약자' 협상력 키운다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428590",
+      "id": "326bd1592606aee2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위 고발권 국민·지자체로…계열사 누락 총수 개인엔 최대 10% 과징...새 창 열림",
+      "url": "https://biz.heraldcorp.com/article/10830780?ref=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T18:05:47.993205+09:00",
+      "snippet": "조사 개시 전 공정위 통보, 조사 결과 보고, 공정위의 시정요구 권한 등을 통해 중복 집행과 오집행을 방지하는 안전장치도 마련할 계획이다. 민생 분야에서는 국제정세와 공급망 위기를 악용한 담합과 생활밀접 분야 불공정행위를 집중 점검한다. 화학제품·페인트·석유제품 담합과 복지시설 식자재 납품... 새 창 열림",
+      "collected_at": "2026-08-05T08:05:47.993219+09:00",
+      "normalized_title": "공정위 고발권 국민·지자체로…계열사 누락 총수 개인엔 최대 10% 과징...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위 고발권 국민·지자체로…계열사 누락 총수 개인엔 최대 10% 과징...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://biz.heraldcorp.com/article/10830780?ref=naver",
+      "id": "afab4e0883792da8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "반복담합·시장지위남용에 매각·양도명령…'초강수' 대응한다새 창 열림",
+      "url": "https://www.yna.co.kr/view/AKR20260804107300002?input=1195m",
+      "source": "새 창 열림",
+      "published_at": "2026-08-04T18:05:47.991788+09:00",
+      "snippet": "반복 담합 사업자의 등록을 취소하거나 영업 정지시킬 수 있도록 제도를 손질한다. 시장지배적 지위 남용이나 반복 담합 행위에는 지분 매각이나 영업... 부과되지 않도록 관련 법을 개정할 방침이다. 국제유가 급등으로 인한 주유소 등의 경영상 어려움을 해소하도록 표준계약서를 개선해 혼합 판매를 허용한다.새 창 열림",
+      "collected_at": "2026-08-05T08:05:47.991803+09:00",
+      "normalized_title": "반복담합·시장지위남용에 매각·양도명령…'초강수' 대응한다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::반복담합·시장지위남용에 매각·양도명령…'초강수' 대응한다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.yna.co.kr/view/AKR20260804107300002?input=1195m",
+      "id": "b77debb7c5d6fac6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "설탕 등 반복담합 시 ‘영업정지’…대기업 계열사 빼면 총수가 과징금",
+      "url": "http://v.daum.net/v/20260804192729042",
+      "source": "에너지경제",
+      "published_at": "2026-08-04T20:06:51.063347+09:00",
+      "snippet": "예컨대, 최근 CJ제일제당이 전분당 등 사업부를 매각하기로 조치한 것이 대표적이다. 공정위는 휘발유·경유 등 석유제품과 화학제품, 페인트 시장 담합도 집중 조사한다. 대한항공과 아시아나 기업결합, 코레일과 SR 통합 과정에서 운임, 좌석 등도 소비자 권익을... 12시간 전",
+      "collected_at": "2026-08-05T08:06:51.063379+09:00",
+      "normalized_title": "설탕 등 반복담합 시 ‘영업정지’…대기업 계열사 빼면 총수가 과징금",
+      "source_normalized": "에너지경제",
+      "duplicate_key": "에너지경제::설탕 등 반복담합 시 ‘영업정지’…대기업 계열사 빼면 총수가 과징금",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260804192729042",
+      "id": "6a6a43b01454a518",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "에너지경제",
+      "url": "https://v.daum.net/channel/552792/home",
+      "source": "에너지경제",
+      "published_at": "2026-08-04T20:06:49.644358+09:00",
+      "snippet": "예컨대, 최근 CJ제일제당이 전분당 등 사업부를 매각하기로 조치한 것이 대표적이다. 공정위는 휘발유·경유 등 석유제품과 화학제품, 페인트 시장 담합도 집중 조사한다. 대한항공과 아시아나 기업결합, 코레일과 SR 통합 과정에서 운임, 좌석 등도 소비자 권익을... 12시간 전",
+      "collected_at": "2026-08-05T08:06:49.644373+09:00",
+      "normalized_title": "에너지경제",
+      "source_normalized": "에너지경제",
+      "duplicate_key": "에너지경제::에너지경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/552792/home",
+      "id": "9dd100a88d85638b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "하반기 민생 불공정행위 엄정 대응…플랫폼·대기업집단 감시 강화",
+      "url": "http://v.daum.net/v/20260804184017030",
+      "source": "정책브리핑",
+      "published_at": "2026-08-04T19:06:01.662681+09:00",
+      "snippet": "소상공인의 협상력을 높이기 위해 경제적 약자의 단체협상을 담합 적용 대상에서 제외하는 제도 개선을 추진한다. 노동조합 등의 행위...개선한다. 국제유가 급등으로 어려움을 겪는 영세 주유소의 부담을 줄이기 위해 혼합판매 허용과 사후정산 폐지 등 표준계약서... 13시간 전",
+      "collected_at": "2026-08-05T08:06:01.662711+09:00",
+      "normalized_title": "하반기 민생 불공정행위 엄정 대응…플랫폼·대기업집단 감시 강화",
+      "source_normalized": "정책브리핑",
+      "duplicate_key": "정책브리핑::하반기 민생 불공정행위 엄정 대응…플랫폼·대기업집단 감시 강화",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260804184017030",
+      "id": "6b257ec4886e6728",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정책브리핑",
+      "url": "https://v.daum.net/channel/65/home",
+      "source": "정책브리핑",
+      "published_at": "2026-08-04T19:05:59.660771+09:00",
+      "snippet": "소상공인의 협상력을 높이기 위해 경제적 약자의 단체협상을 담합 적용 대상에서 제외하는 제도 개선을 추진한다. 노동조합 등의 행위...개선한다. 국제유가 급등으로 어려움을 겪는 영세 주유소의 부담을 줄이기 위해 혼합판매 허용과 사후정산 폐지 등 표준계약서... 13시간 전",
+      "collected_at": "2026-08-05T08:05:59.660790+09:00",
+      "normalized_title": "정책브리핑",
+      "source_normalized": "정책브리핑",
+      "duplicate_key": "정책브리핑::정책브리핑",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/65/home",
+      "id": "48d7805abf5cf20b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 반복 담합 기업 영업정지 추진…배달앱·AI 구독 감시 강화",
+      "url": "http://v.daum.net/v/20260804195449605",
+      "source": "지디넷코리아",
+      "published_at": "2026-08-04T20:06:48.294012+09:00",
+      "snippet": "디지털 시장 혁신 생태계 조성 ▲대기업집단 경제력 집중 완화 등 4대 핵심과제를 추진한다. 우선 화학제품과 페인트, 석유제품 등 민생 밀접 분야의 담합을 집중 점검한다. 복지시설 식자재 납품 과정에서 발생하는 리베이트 등 불공정행위도 조사할 계획이다. 반복... 12시간 전",
+      "collected_at": "2026-08-05T08:06:48.294045+09:00",
+      "normalized_title": "공정위, 반복 담합 기업 영업정지 추진…배달앱·AI 구독 감시 강화",
+      "source_normalized": "지디넷코리아",
+      "duplicate_key": "지디넷코리아::공정위, 반복 담합 기업 영업정지 추진…배달앱·ai 구독 감시 강화",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260804195449605",
+      "id": "77ce4d4e6fdccd5f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "지디넷코리아",
+      "url": "https://v.daum.net/channel/294/home",
+      "source": "지디넷코리아",
+      "published_at": "2026-08-04T20:06:46.592817+09:00",
+      "snippet": "디지털 시장 혁신 생태계 조성 ▲대기업집단 경제력 집중 완화 등 4대 핵심과제를 추진한다. 우선 화학제품과 페인트, 석유제품 등 민생 밀접 분야의 담합을 집중 점검한다. 복지시설 식자재 납품 과정에서 발생하는 리베이트 등 불공정행위도 조사할 계획이다. 반복... 12시간 전",
+      "collected_at": "2026-08-05T08:06:46.592832+09:00",
+      "normalized_title": "지디넷코리아",
+      "source_normalized": "지디넷코리아",
+      "duplicate_key": "지디넷코리아::지디넷코리아",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/294/home",
+      "id": "ec053bf35887ceb7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

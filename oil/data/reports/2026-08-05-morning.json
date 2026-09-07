@@ -1,0 +1,188 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-05",
+  "slot": "morning",
+  "period_start": "2026-08-05T00:00:00+09:00",
+  "period_end": "2026-08-05T08:00:00+09:00",
+  "period_label": "2026-08-05 00:00 ~ 2026-08-05 08:00",
+  "generated_at": "2026-08-05T09:13:42.804641+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1583,
+  "total_deduped_count": 4,
+  "total_ok_count": 4,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1193
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "석유 담합": 3,
+    "석유제품 담합": 3,
+    "주유소 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "“계열사 숨기면 총수도 과징금”...공정위, 대기업 규제 개편",
+      "url": "http://v.daum.net/v/20260805060305143",
+      "source": "서울경제",
+      "published_at": "2026-08-05T06:06:42.150322+09:00",
+      "snippet": "과태료 가중 비율을 크게 높인다. 민생과 직결되는 담합 단속도 한층 강화한다. 공정위는 화학제품과 페인트, 석유제품 등 공급망과 밀접한 업종의 담합을 집중 점검하고, 복지시설 식자재 납품 과정에서 발생하는 리베이트 등 불공정행위도 신속히 조사할 계획이다... 2시간 전",
+      "collected_at": "2026-08-05T08:06:42.150354+09:00",
+      "normalized_title": "“계열사 숨기면 총수도 과징금”...공정위, 대기업 규제 개편",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::“계열사 숨기면 총수도 과징금”...공정위, 대기업 규제 개편",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260805060305143",
+      "id": "83910fe1935afc93",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울경제",
+      "url": "https://v.daum.net/channel/129/home",
+      "source": "서울경제",
+      "published_at": "2026-08-05T06:06:40.574964+09:00",
+      "snippet": "과태료 가중 비율을 크게 높인다. 민생과 직결되는 담합 단속도 한층 강화한다. 공정위는 화학제품과 페인트, 석유제품 등 공급망과 밀접한 업종의 담합을 집중 점검하고, 복지시설 식자재 납품 과정에서 발생하는 리베이트 등 불공정행위도 신속히 조사할 계획이다... 2시간 전",
+      "collected_at": "2026-08-05T08:06:40.574999+09:00",
+      "normalized_title": "서울경제",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::서울경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/129/home",
+      "id": "901ba30ba77d44f5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[더벨][윤활유 담합 과징금 리스크] '6년 9개월' 담합, 청구서 받아든 윤...새 창 열림",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607281052325760105634",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T07:06:57.811109+09:00",
+      "snippet": "이들 제품은 일반 소비자가 주유소에서 직접 구매하는 휘발유·경유와는 다르지만 제조업 현장과 산업 설비에 폭넓게 사용된다. 만약 가격 담합이 사실로 확정될 경우 제조업체의 원가 부담과 납품단가 상승으로 이어졌을 가능성이 높아진다. 공정위 심사관은 윤활유 제조사들이 2018년 1월부터 2024년... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:57.811140+09:00",
+      "normalized_title": "[더벨][윤활유 담합 과징금 리스크] '6년 9개월' 담합, 청구서 받아든 윤...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[더벨][윤활유 담합 과징금 리스크] '6년 9개월' 담합, 청구서 받아든 윤...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607281052325760105634",
+      "id": "2417ecb8ae41d144",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“계열사 숨기면 총수도 과징금”...공정위, 대기업 규제 개편새 창 열림",
+      "url": "https://www.sedaily.com/article/20075756?ref=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-08-05T06:06:39.389672+09:00",
+      "snippet": "공정위는 화학제품과 페인트, 석유제품 등 공급망과 밀접한 업종의 담합을 집중 점검하고, 복지시설 식자재 납품 과정에서 발생하는 리베이트 등 불공정행위도 신속히 조사할 계획이다. 반복적으로 담합을 저지른 기업에는 과징금뿐 아니라 등록취소나 영업정지, 필요하면 사업부 매각이나 영업양도 같은... 새 창 열림",
+      "collected_at": "2026-08-05T08:06:39.389705+09:00",
+      "normalized_title": "“계열사 숨기면 총수도 과징금”...공정위, 대기업 규제 개편새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::“계열사 숨기면 총수도 과징금”...공정위, 대기업 규제 개편새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.sedaily.com/article/20075756?ref=naver",
+      "id": "3d1a46ddbea958a9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-26",
+  "slot": "night",
+  "period_start": "2026-06-26T17:00:00+09:00",
+  "period_end": "2026-06-27T00:00:00+09:00",
+  "period_label": "2026-06-26 17:00 ~ 2026-06-27 00:00",
+  "generated_at": "2026-06-27T09:20:09.643748+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1529,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1139
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "주유소 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "공정위, 산업용 윤활유 10개사 담합 의혹 심의… 과징금 최대 20% 가능",
+      "url": "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=519079",
+      "source": "일요서울",
+      "published_at": "2026-06-26T17:19:47.969948+09:00",
+      "snippet": "이들 제품은 일반 소비자가 주유소에서 직접 구매하는 휘발유·경유와는 다르지만 제조업 현장과 산업 설비에 폭넓게 사용된다. 만약 가격 담합이 사실로 확정될 경우 제조업체의 원가 부담과 납품단가 상승으로 이어졌을 가능성이 높아진다. 공정위 심사관은 피심인들이 2018년 1월부터 2024년 10월까지 총 6년...",
+      "collected_at": "2026-06-27T09:19:47.969974+09:00",
+      "normalized_title": "공정위, 산업용 윤활유 10개사 담합 의혹 심의… 과징금 최대 20% 가능",
+      "source_normalized": "일요서울",
+      "duplicate_key": "일요서울::공정위, 산업용 윤활유 10개사 담합 의혹 심의… 과징금 최대 20% 가능",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=519079",
+      "id": "cd8d94ea36f76fcc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "주유소",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

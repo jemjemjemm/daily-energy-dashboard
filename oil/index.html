@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#17324d">
+  <title>Oil Price Issue Report</title>
+  <meta name="description" content=" ">
+  <meta property="og:title" content="Oil Price Issue Report">
+  <meta property="og:description" content=" ">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jemjemjemm.github.io/daily-energy-dashboard/oil/">
+  <meta name="twitter:title" content="Oil Price Issue Report">
+  <meta name="twitter:description" content=" ">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260619-5">
+  <link rel="stylesheet" href="../shared/tabs.css?v=20260907">
+  <script defer src="assets/js/app.js?v=20260904-1"></script>
+</head>
+<body>
+  <nav class="report-tabs" aria-label="리포트 구분">
+    <div class="report-tabs-inner">
+      <a class="report-tab" href="../">Daily</a>
+      <a class="report-tab" href="./" aria-current="page">유가</a>
+    </div>
+  </nav>
+  <header class="site-header">
+    <div class="header-inner">
+      <div>
+        <h1>Oil Price Issue Report</h1>
+      </div>
+      <button id="refresh-button" class="refresh-button" type="button" aria-label="최신 데이터 새로고침">새로고침</button>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section id="loading" class="panel loading-panel" aria-live="polite">리포트를 불러오는 중입니다…</section>
+    <section id="error-panel" class="panel error-panel" hidden aria-live="assertive"></section>
+
+    <div id="dashboard" hidden>
+      <section id="report-root" class="article-section" aria-live="polite"></section>
+
+      <section id="calendar-root" class="panel calendar-section" aria-labelledby="calendar-title">
+        <div class="calendar-header">
+          <div>
+            <p class="eyebrow dark">ARCHIVE</p>
+            <h2 id="calendar-title">Calendar — 과거 기사 조회</h2>
+          </div>
+          <button id="calendar-today" class="secondary-button" type="button">이번 달</button>
+        </div>
+        <div class="calendar-controls">
+          <button id="calendar-prev" type="button" aria-label="이전 달">‹ 이전 달</button>
+          <strong id="calendar-month" aria-live="polite"></strong>
+          <button id="calendar-next" type="button" aria-label="다음 달">다음 달 ›</button>
+        </div>
+        <div id="calendar-grid" class="calendar-grid" role="grid" aria-label="리포트 달력"></div>
+      </section>
+    </div>
+  </main>
+  <footer>Oil Price Issue Report · 공개 뉴스 검색 결과 기반</footer>
+</body>
+</html>

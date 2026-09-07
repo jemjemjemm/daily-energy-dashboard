@@ -1,0 +1,457 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-14",
+  "slot": "night",
+  "period_start": "2026-07-14T17:00:00+09:00",
+  "period_end": "2026-07-15T00:00:00+09:00",
+  "period_label": "2026-07-14 17:00 ~ 2026-07-15 00:00",
+  "generated_at": "2026-07-15T09:03:44.373813+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1581,
+  "total_deduped_count": 13,
+  "total_ok_count": 13,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 11
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1191
+  },
+  "query_counts": {
+    "기름값 담합": 2,
+    "석유 담합": 7,
+    "석유제품 담합": 6,
+    "유가 담합": 2,
+    "유가담합": 5,
+    "유류가격 담합": 1,
+    "정유사 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "李대통령, “민간 의존 탈피, 농산물 유통 구조 개혁해야”",
+      "url": "http://v.daum.net/v/20260714165642906",
+      "source": "디지털타임스",
+      "published_at": "2026-07-14T17:36:44.426570+09:00",
+      "snippet": "경제부 장관으로부터 중동 전쟁에 따른 비상 국정운영 대응 및 석유제품 물가 관리 대책을 보고받은 뒤 이같이 밝혔다. 이 대통령은...진단했다. 이 대통령은 \"우리가 악착같이 공정거래위원회에 담합이나 독과점 폐해에 대해 엄청나게 압박하니 이 정도 유지하는 것... 15시간 전 5",
+      "collected_at": "2026-07-15T08:36:44.426598+09:00",
+      "normalized_title": "李대통령, “민간 의존 탈피, 농산물 유통 구조 개혁해야”",
+      "source_normalized": "디지털타임스",
+      "duplicate_key": "디지털타임스::李대통령, “민간 의존 탈피, 농산물 유통 구조 개혁해야”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260714165642906",
+      "id": "ad8ec43090b5692b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "디지털타임스",
+      "url": "https://v.daum.net/channel/94/home",
+      "source": "디지털타임스",
+      "published_at": "2026-07-14T17:36:43.008205+09:00",
+      "snippet": "경제부 장관으로부터 중동 전쟁에 따른 비상 국정운영 대응 및 석유제품 물가 관리 대책을 보고받은 뒤 이같이 밝혔다. 이 대통령은...진단했다. 이 대통령은 \"우리가 악착같이 공정거래위원회에 담합이나 독과점 폐해에 대해 엄청나게 압박하니 이 정도 유지하는 것... 15시간 전 5",
+      "collected_at": "2026-07-15T08:36:43.008221+09:00",
+      "normalized_title": "디지털타임스",
+      "source_normalized": "디지털타임스",
+      "duplicate_key": "디지털타임스::디지털타임스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/94/home",
+      "id": "7e90b144530fab47",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘제주 기름값 담합’ 농협에 과징금 20억",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOSEpNV252Skx0UTA2X3k3MUg2UHBjMjJLSW5HRkhKS1NSaUpXa2dsOWlfV21JRE8tUVB0YWlDZmRoc0p2clFaRmFDWHF6TURVRmZ4V3N1MktWOFlWcmM1c015Rjdabkw3QUVqSzRQXzdlblpHeWptZ3poT2R5Yk5EcW4zT2N2NExPRnd1QS15NDFzcEEyX1NYX1dzQlpFUDlCdEx1NlRpQ0wwSUVmamxMWEtIVnpTTFRfY0tWZGJPdnl4cERUcmY1cUxFNElKTDVGZXBkTkZub2lkU3dtVkx6RDZ3cGtucUZlTVhRYTRFUXQ0WEJMT3BJVWFqSlhha3A2eVhpRFFJZ1labHpyZkxETzZoNXRKb3M?oc=5",
+      "source": "MSN",
+      "published_at": "2026-07-14T21:28:07+09:00",
+      "snippet": "‘제주 기름값 담합’ 농협에 과징금 20억 MSN",
+      "collected_at": "2026-07-15T08:36:37.472862+09:00",
+      "normalized_title": "‘제주 기름값 담합’ 농협에 과징금 20억",
+      "source_normalized": "MSN",
+      "duplicate_key": "msn::‘제주 기름값 담합’ 농협에 과징금 20억",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOSEpNV252Skx0UTA2X3k3MUg2UHBjMjJLSW5HRkhKS1NSaUpXa2dsOWlfV21JRE8tUVB0YWlDZmRoc0p2clFaRmFDWHF6TURVRmZ4V3N1MktWOFlWcmM1c015Rjdabkw3QUVqSzRQXzdlblpHeWptZ3poT2R5Yk5EcW4zT2N2NExPRnd1QS15NDFzcEEyX1NYX1dzQlpFUDlCdEx1NlRpQ0wwSUVmamxMWEtIVnpTTFRfY0tWZGJPdnl4cERUcmY1cUxFNElKTDVGZXBkTkZub2lkU3dtVkx6RDZ3cGtucUZlTVhRYTRFUXQ0WEJMT3BJVWFqSlhha3A2eVhpRFFJZ1labHpyZkxETzZoNXRKb3M?oc=5",
+      "id": "798e9183f9129176",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "트럼프 만세 외친 정유사… 26조원 유가 담합 적발",
+      "url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxNTzE5V0xWeDExT1Z0M2tCSDBWcnNYbklfNWxQZzBFVVJRV2o2dENyRG5hRWdEREcxVjJFS2hmM3pIeWd6dzhNSm90VmdTY3N3SHJuRkN5Q1NCOG9ZN3dfUy1UUGJBVi1OT2hka2hMZlVCTWRFdDJCem03dDBxUFEwdzBhanl1ejlGelpXbnQtWVBFdlBLNnNubUhSX01Vay1yazdMUFdDTE5CQnZUai1YaWdQdTBJd2pUTXROMUdDczFfeC1CMUpXRGdCel9va0drVGJoXy1OSWRfNlNSdWV3NUt1d1dMNkFEUzJyakszLWt3bW1XUFVBSzZnRi1Xal84YmlSdmdDRTRLcURKSXAwdHVkSnFHMzJlcUpXTVhLOWJyXzdVMnZqTkpMRGEwQTNKR09IRFAtU3pDbF9yeWFuX1REQTZnSWpDdWY1cWhyamU3clBqcjM1TWVzcXFOSHphMHJzSGY0bk9kZlJvUjBGTkY5ckV5NGxkaTZKYzBFOWdLd3dqdVdINm4zcWdCdWJKLWRyRVlzUnNrVk9jNkJhUzV5Z2U3Nmh2RnREdUJMQVNPLTNYcEViVzZlU1VocG5YSWpuZWc2MGo5LWlvakJPekJKMnhKb2NT?oc=5",
+      "source": "MSN",
+      "published_at": "2026-07-14T20:39:23+09:00",
+      "snippet": "트럼프 만세 외친 정유사… 26조원 유가 담합 적발 MSN",
+      "collected_at": "2026-07-15T08:36:23.104784+09:00",
+      "normalized_title": "트럼프 만세 외친 정유사… 26조원 유가 담합 적발",
+      "source_normalized": "MSN",
+      "duplicate_key": "msn::트럼프 만세 외친 정유사… 26조원 유가 담합 적발",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxNTzE5V0xWeDExT1Z0M2tCSDBWcnNYbklfNWxQZzBFVVJRV2o2dENyRG5hRWdEREcxVjJFS2hmM3pIeWd6dzhNSm90VmdTY3N3SHJuRkN5Q1NCOG9ZN3dfUy1UUGJBVi1OT2hka2hMZlVCTWRFdDJCem03dDBxUFEwdzBhanl1ejlGelpXbnQtWVBFdlBLNnNubUhSX01Vay1yazdMUFdDTE5CQnZUai1YaWdQdTBJd2pUTXROMUdDczFfeC1CMUpXRGdCel9va0drVGJoXy1OSWRfNlNSdWV3NUt1d1dMNkFEUzJyakszLWt3bW1XUFVBSzZnRi1Xal84YmlSdmdDRTRLcURKSXAwdHVkSnFHMzJlcUpXTVhLOWJyXzdVMnZqTkpMRGEwQTNKR09IRFAtU3pDbF9yeWFuX1REQTZnSWpDdWY1cWhyamU3clBqcjM1TWVzcXFOSHphMHJzSGY0bk9kZlJvUjBGTkY5ckV5NGxkaTZKYzBFOWdLd3dqdVdINm4zcWdCdWJKLWRyRVlzUnNrVk9jNkJhUzV5Z2U3Nmh2RnREdUJMQVNPLTNYcEViVzZlU1VocG5YSWpuZWc2MGo5LWlvakJPekJKMnhKb2NT?oc=5",
+      "id": "1fff10610e6cbd3d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합 혐의' HD현대오일뱅크 임원 1명 구속… 1명 기각",
+      "url": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxQRWNucTNhNmhwMlhrcVozaE00YXZUWHJMVGt4Q1E2WXFDcU5oaHQ1c1Z2Wkg3a1hjYXRnR0tVWnF6c3Z5WmQ0aXVFanJ5UFRBWmJyWTVtLTRSUzItZnhtRk1mVmdZVmJaakYyTXJiaXFhWWZta3VydUd1MjNhaDlFSFpnUHlIUnA3cFhFc3VGQXhjb0pvNUNTMFBYUDRxUkpMOWd2UTdCcC1ZVUVJRF9KaDlRN3ZTdC01dkk1aW9QaDNHbE9jaEc5Mk5SaTlGNzItVEkybVJfMk5nZ0Z1OUZ1UGdCV2cySlBfVHJBbjNmZmZha2xXYUxUcVZNVENnVXRSdjBfS1NaVWN1TjN5YXl0em5ub2NYZklHUm5JTGNkSEpIaEFBUjkzVXBoNWxfaFVTREZndndWMU4xenlRY3p0amJHSGVtUVlLVUhsUUM3R05tTWdXS3pWY3piakstSnkza2h2Qi1FYUh4eVRmLXlyOEdob3RIWjFHYlZESUdXbUpTTnRDTnpCU3RHR013dWE0R29rMm9DYkdaY2QwWHg5LVg5SXVhY3pqdU5haG5tck9EZVdPNThpT0EtY3ExWWdEYkFpcVBzMDhHU1drT2pUQy1QajMxRDlXOGFYZ3Y1bG1CaHZEekVBUjNnMTdjbkotUllZ?oc=5",
+      "source": "MSN",
+      "published_at": "2026-07-14T20:10:01+09:00",
+      "snippet": "'유가 담합 혐의' HD현대오일뱅크 임원 1명 구속… 1명 기각 MSN",
+      "collected_at": "2026-07-15T08:36:23.104076+09:00",
+      "normalized_title": "'유가 담합 혐의' HD현대오일뱅크 임원 1명 구속… 1명 기각",
+      "source_normalized": "MSN",
+      "duplicate_key": "msn::'유가 담합 혐의' hd현대오일뱅크 임원 1명 구속… 1명 기각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxQRWNucTNhNmhwMlhrcVozaE00YXZUWHJMVGt4Q1E2WXFDcU5oaHQ1c1Z2Wkg3a1hjYXRnR0tVWnF6c3Z5WmQ0aXVFanJ5UFRBWmJyWTVtLTRSUzItZnhtRk1mVmdZVmJaakYyTXJiaXFhWWZta3VydUd1MjNhaDlFSFpnUHlIUnA3cFhFc3VGQXhjb0pvNUNTMFBYUDRxUkpMOWd2UTdCcC1ZVUVJRF9KaDlRN3ZTdC01dkk1aW9QaDNHbE9jaEc5Mk5SaTlGNzItVEkybVJfMk5nZ0Z1OUZ1UGdCV2cySlBfVHJBbjNmZmZha2xXYUxUcVZNVENnVXRSdjBfS1NaVWN1TjN5YXl0em5ub2NYZklHUm5JTGNkSEpIaEFBUjkzVXBoNWxfaFVTREZndndWMU4xenlRY3p0amJHSGVtUVlLVUhsUUM3R05tTWdXS3pWY3piakstSnkza2h2Qi1FYUh4eVRmLXlyOEdob3RIWjFHYlZESUdXbUpTTnRDTnpCU3RHR013dWE0R29rMm9DYkdaY2QwWHg5LVg5SXVhY3pqdU5haG5tck9EZVdPNThpT0EtY3ExWWdEYkFpcVBzMDhHU1drT2pUQy1QajMxRDlXOGFYZ3Y1bG1CaHZEekVBUjNnMTdjbkotUllZ?oc=5",
+      "id": "015878338b75391c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크 임직원 2명 구속영장…유가 담합 의혹",
+      "url": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxPYmx6NC16VWtzRGx3ejdwa2k0Z3NMLU9NNGhrWlZwOS1UTndHUFRmbWdqTGtVSE9xNmJidllLWmUyekVWbFJiZWpqQTBvMUh1SUFJRGNhbGJhZERlOG9nVVlEem1ndUdENHdWdWJCbTFJY3pGOHZWSFNZSVNkQnNJZnVQT2xmVzV5QVpDWGZxZDVCN3pzZ2dNb1o5aWNETjJPU2NmSThCRlE5RzZPQ0VReUhiYk1ZZy05UnlkNEFac3dpcWpKZ1ZHVmxuVUVKZGt6X1l4YW1PSllFQ1BWSjV3MS1ybGhqQnN2aVIxWW5PbThxeW1Ra3h2eGh4VGtrSDRocHdJRVdESnl4Z2g3YkU2WXJJR1EtbFk2Nl9pSzBJVGY5UldleGNvbGYzT0VpMy01dmJDUGRlaWhVdXRjQVliTnhsZnl3bUhrVk42ZWpzVmNNX0dWUmx3TGhjX2pkWm1uOFRMNElZbDFpemhfOUFxSGtJOVlqLWdaZXRMUVpvcEQtQVlvLU5BSmhTVC00NU0xX2l5ek05NVdmUlQ4YnpTQklSUFE4NGF5ZjdxWi1vTWs4SDBIbk9SNF9zRFBtVHBTajVCMGVCTGkzM1diS04xb2FyajFlc1lqWlk4eFFYU0F6VHQ0V1ZwRndidTNOZzFU?oc=5",
+      "source": "MSN",
+      "published_at": "2026-07-14T19:22:06+09:00",
+      "snippet": "HD현대오일뱅크 임직원 2명 구속영장…유가 담합 의혹 MSN",
+      "collected_at": "2026-07-15T08:36:23.098417+09:00",
+      "normalized_title": "HD현대오일뱅크 임직원 2명 구속영장…유가 담합 의혹",
+      "source_normalized": "MSN",
+      "duplicate_key": "msn::hd현대오일뱅크 임직원 2명 구속영장…유가 담합 의혹",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxPYmx6NC16VWtzRGx3ejdwa2k0Z3NMLU9NNGhrWlZwOS1UTndHUFRmbWdqTGtVSE9xNmJidllLWmUyekVWbFJiZWpqQTBvMUh1SUFJRGNhbGJhZERlOG9nVVlEem1ndUdENHdWdWJCbTFJY3pGOHZWSFNZSVNkQnNJZnVQT2xmVzV5QVpDWGZxZDVCN3pzZ2dNb1o5aWNETjJPU2NmSThCRlE5RzZPQ0VReUhiYk1ZZy05UnlkNEFac3dpcWpKZ1ZHVmxuVUVKZGt6X1l4YW1PSllFQ1BWSjV3MS1ybGhqQnN2aVIxWW5PbThxeW1Ra3h2eGh4VGtrSDRocHdJRVdESnl4Z2g3YkU2WXJJR1EtbFk2Nl9pSzBJVGY5UldleGNvbGYzT0VpMy01dmJDUGRlaWhVdXRjQVliTnhsZnl3bUhrVk42ZWpzVmNNX0dWUmx3TGhjX2pkWm1uOFRMNElZbDFpemhfOUFxSGtJOVlqLWdaZXRMUVpvcEQtQVlvLU5BSmhTVC00NU0xX2l5ek05NVdmUlQ4YnpTQklSUFE4NGF5ZjdxWi1vTWs4SDBIbk9SNF9zRFBtVHBTajVCMGVCTGkzM1diS04xb2FyajFlc1lqWlk4eFFYU0F6VHQ0V1ZwRndidTNOZzFU?oc=5",
+      "id": "6a375819301b9046",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰 \"정유4사 26조 원대 유가 담합\"…HD현대오일뱅크 재판행",
+      "url": "https://news.google.com/rss/articles/CBMiygRBVV95cUxNd0RpdDBfUzgxM1dtMng1UnNSVXhsQ0x0QXJwMUl3UDdaekppcnprRDZXaVpQTU91VG1rdzRQejY1ZlczUzE5ZkF3U2JkOV9RcDFuenlldEM2aXNVNnNsUHNDbEpldTZzZzNwSEhzUVhXbDZianhRRjF6dVBJYmtxRXlfU0lBT2RwcnVHRndXV3BzRmpfckZQYzdSeGIxNHFNbGJYaERNalFOWkNKS21xQl9zSzJYcmR0SDA5M2RLR2NXWXI2bTJnZFJ6aFdWTVhfOGJZaWxMUFlkakdDdVFVZjNqc1lQNDRPc0dQaVZwakRLT2FuZGhTX0NrVkdHUkxvWVc1OWV0dmVEbWg5QlppQ2N6U05HMVY0XzJNaWx1VDlZc2lrcHl0UWNIZXNXbXhaMjQzdVZ5VjFHRDdJRml3dVpHX2tsN0VQQnFkTmtsZVQwdjgxNEVfTkx0a19NZ2YzWmhiZVctVFhYcmgtczZnOUFQN3lSdmhGX0t4ejY3T0F1RFV5Vm1OdmZ0ZEkwVWRFU3dsMFZndjZEYS0wdEl5OHNTSllCSHZ1TTBzWlA2MzNhTkotZjlFS3UtU3lmejFObVFON2RIWG5oRHNJa0V2RlNvWC1zQ2gwMjcwTmNXUWV3M05iS0hrUDhmUkdkLXFtUzBHOXJSVFR1UmVETC1zdzM5YUtvb3NHVy1PV1lKRmxOLXo0U19uQWgtRmJ0a1dZTFFOUGFKVEhxU0dnbW5mY04zSE9LeDM5SldVcUxEVjF3OFEzOXp5dmt3?oc=5",
+      "source": "MSN",
+      "published_at": "2026-07-14T18:26:20+09:00",
+      "snippet": "검찰 \"정유4사 26조 원대 유가 담합\"…HD현대오일뱅크 재판행 MSN",
+      "collected_at": "2026-07-15T08:36:23.094500+09:00",
+      "normalized_title": "검찰 \"정유4사 26조 원대 유가 담합\"…HD현대오일뱅크 재판행",
+      "source_normalized": "MSN",
+      "duplicate_key": "msn::검찰 \"정유4사 26조 원대 유가 담합\"…hd현대오일뱅크 재판행",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiygRBVV95cUxNd0RpdDBfUzgxM1dtMng1UnNSVXhsQ0x0QXJwMUl3UDdaekppcnprRDZXaVpQTU91VG1rdzRQejY1ZlczUzE5ZkF3U2JkOV9RcDFuenlldEM2aXNVNnNsUHNDbEpldTZzZzNwSEhzUVhXbDZianhRRjF6dVBJYmtxRXlfU0lBT2RwcnVHRndXV3BzRmpfckZQYzdSeGIxNHFNbGJYaERNalFOWkNKS21xQl9zSzJYcmR0SDA5M2RLR2NXWXI2bTJnZFJ6aFdWTVhfOGJZaWxMUFlkakdDdVFVZjNqc1lQNDRPc0dQaVZwakRLT2FuZGhTX0NrVkdHUkxvWVc1OWV0dmVEbWg5QlppQ2N6U05HMVY0XzJNaWx1VDlZc2lrcHl0UWNIZXNXbXhaMjQzdVZ5VjFHRDdJRml3dVpHX2tsN0VQQnFkTmtsZVQwdjgxNEVfTkx0a19NZ2YzWmhiZVctVFhYcmgtczZnOUFQN3lSdmhGX0t4ejY3T0F1RFV5Vm1OdmZ0ZEkwVWRFU3dsMFZndjZEYS0wdEl5OHNTSllCSHZ1TTBzWlA2MzNhTkotZjlFS3UtU3lmejFObVFON2RIWG5oRHNJa0V2RlNvWC1zQ2gwMjcwTmNXUWV3M05iS0hrUDhmUkdkLXFtUzBHOXJSVFR1UmVETC1zdzM5YUtvb3NHVy1PV1lKRmxOLXo0U19uQWgtRmJ0a1dZTFFOUGFKVEhxU0dnbW5mY04zSE9LeDM5SldVcUxEVjF3OFEzOXp5dmt3?oc=5",
+      "id": "eac99fb3ee5a015d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "반도체·AI 대규모 투자…'대체 불가'한 경쟁력 키운다새 창 열림",
+      "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=553903",
+      "source": "새 창 열림",
+      "published_at": "2026-07-14T22:36:38.688053+09:00",
+      "snippet": "고물가·고환율·고금리 등 3고 리스크 대응 강화를 위해 석유 최고가격 해제를 검토하고, 필요시 유류세 인하 추가 연장여부를 검토한다. 장바구니... 집값 담합 등 시장 교란행위 근절을 위한 부동산감독원 설립 근거법 제정도 하반기 목표로 추진한다. 개인 대상 부동산 거래세와 보유세 등 세제 개편은... 새 창 열림",
+      "collected_at": "2026-07-15T08:36:38.688070+09:00",
+      "normalized_title": "반도체·AI 대규모 투자…'대체 불가'한 경쟁력 키운다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::반도체·ai 대규모 투자…'대체 불가'한 경쟁력 키운다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.idaegu.co.kr/news/articleView.html?idxno=553903",
+      "id": "204ae1ef86953bf5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "오뚜기, 카레·당면 등 인상…식료품값 줄줄이 오르나새 창 열림",
+      "url": "https://www.khan.co.kr/article/202607142032015",
+      "source": "새 창 열림",
+      "published_at": "2026-07-14T20:36:14.998064+09:00",
+      "snippet": "고환율·고유가와 중동사태로 원가 부담에 시달리던 국내 주요 식품업체들이 줄지어 가격 인상에 나설지 관심이 모아지고 있다. 대표 식품업체인... 최근 식품업체들이 설탕·밀가루·전분 및 전분당 등 원재료 담합 사건으로 올해 공정거래위원회가 부과한 2조원대 과징금을 내야 할 상황에 놓여 있는 점도... 새 창 열림",
+      "collected_at": "2026-07-15T08:36:14.998100+09:00",
+      "normalized_title": "오뚜기, 카레·당면 등 인상…식료품값 줄줄이 오르나새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::오뚜기, 카레·당면 등 인상…식료품값 줄줄이 오르나새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.khan.co.kr/article/202607142032015",
+      "id": "c0845a9e28017edd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"초고가 1주택 세 부담 강화 공감대\"…실시간 여론수렴새 창 열림",
+      "url": "https://www.iusm.co.kr/news/articleView.html?idxno=1065364",
+      "source": "새 창 열림",
+      "published_at": "2026-07-14T18:36:38.689357+09:00",
+      "snippet": "구윤철 부총리 겸 재정경제부 장관이 중동 전쟁 관련 비상 국정운영 대응 현황을 보고하며 석유제품 물가 관리 대책을 보고하자 이 대통령은 \"물가... 공정거래위원회에 담합이나 독과점 폐해에 대해 엄청나게 압박하니 이 정도 유지하는 것이지, 이게 아니었으면 물가 상승률은 엄청 높아졌을 것\"이라며 각... 새 창 열림",
+      "collected_at": "2026-07-15T08:36:38.689374+09:00",
+      "normalized_title": "이 대통령 \"초고가 1주택 세 부담 강화 공감대\"…실시간 여론수렴새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이 대통령 \"초고가 1주택 세 부담 강화 공감대\"…실시간 여론수렴새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.iusm.co.kr/news/articleView.html?idxno=1065364",
+      "id": "0fbd9b729f2a476f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령, “민간 의존 탈피, 농산물 유통 구조 개혁해야”새 창 열림",
+      "url": "https://www.dt.co.kr/article/12072903?ref=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-07-14T17:36:38.690844+09:00",
+      "snippet": "이 대통령은 14일 청와대에서 주재한 국무회의에서 구윤철 부총리 겸 재정경제부 장관으로부터 중동 전쟁에 따른 비상 국정운영 대응 및 석유제품 물가... 이 대통령은 \"우리가 악착같이 공정거래위원회에 담합이나 독과점 폐해에 대해 엄청나게 압박하니 이 정도 유지하는 것\"이라며 \"이게 아니었으면 물가... 새 창 열림",
+      "collected_at": "2026-07-15T08:36:38.690858+09:00",
+      "normalized_title": "李대통령, “민간 의존 탈피, 농산물 유통 구조 개혁해야”새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李대통령, “민간 의존 탈피, 농산물 유통 구조 개혁해야”새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.dt.co.kr/article/12072903?ref=naver",
+      "id": "6fd918e56e106e8d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 “초고가 1주택 세 부담 강화 공감대”…실시간 여론수렴",
+      "url": "http://v.daum.net/v/20260714173953971",
+      "source": "울산매일UTV",
+      "published_at": "2026-07-14T18:36:43.007015+09:00",
+      "snippet": "장관이 중동 전쟁 관련 비상 국정운영 대응 현황을 보고하며 석유제품 물가 관리 대책을 보고하자 이 대통령은 \"물가 관리와 관련해...말까지 나온다\"며 \"우리가 악착같이 공정거래위원회에 담합이나 독과점 폐해에 대해 엄청나게 압박하니 이 정도 유지하는 것... 14시간 전",
+      "collected_at": "2026-07-15T08:36:43.007054+09:00",
+      "normalized_title": "이 대통령 “초고가 1주택 세 부담 강화 공감대”…실시간 여론수렴",
+      "source_normalized": "울산매일UTV",
+      "duplicate_key": "울산매일utv::이 대통령 “초고가 1주택 세 부담 강화 공감대”…실시간 여론수렴",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260714173953971",
+      "id": "ef81c467cce3c3d2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "울산매일UTV",
+      "url": "https://v.daum.net/channel/551737/home",
+      "source": "울산매일UTV",
+      "published_at": "2026-07-14T18:36:41.618545+09:00",
+      "snippet": "장관이 중동 전쟁 관련 비상 국정운영 대응 현황을 보고하며 석유제품 물가 관리 대책을 보고하자 이 대통령은 \"물가 관리와 관련해...말까지 나온다\"며 \"우리가 악착같이 공정거래위원회에 담합이나 독과점 폐해에 대해 엄청나게 압박하니 이 정도 유지하는 것... 14시간 전",
+      "collected_at": "2026-07-15T08:36:41.618562+09:00",
+      "normalized_title": "울산매일UTV",
+      "source_normalized": "울산매일UTV",
+      "duplicate_key": "울산매일utv::울산매일utv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/551737/home",
+      "id": "0e8e274f2c8c15a9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

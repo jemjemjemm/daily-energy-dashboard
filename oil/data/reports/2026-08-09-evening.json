@@ -1,0 +1,87 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-09",
+  "slot": "evening",
+  "period_start": "2026-08-09T08:00:00+09:00",
+  "period_end": "2026-08-09T17:00:00+09:00",
+  "period_label": "2026-08-09 08:00 ~ 2026-08-09 17:00",
+  "generated_at": "2026-08-09T17:58:49.555147+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1573,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1183
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 1,
+    "기름값 담합": 1,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "정유사 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[기업기상도] 바람 불어 폭염 가신 기업 vs 열섬 속에 갇힌 기업새 창 열림",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH20260809010417RvE",
+      "source": "새 창 열림",
+      "published_at": "2026-08-09T11:58:10.412905+09:00",
+      "snippet": "기름값은 맘대로 못 올린 대신, 윤활기유에서 큰 돈 벌었습니다. 석유제품 중 비교적 기술, 자본 많이 드는 윤활유 원료가 윤활기유죠. 여기에 첨가제... 담합 혐의 잡은 검찰이 들이닥쳤습니다. 요새 담합 제재 매우 세졌죠. 그런데 여긴 설탕, 밀가루처럼 개별품목이 아니라 PVC,가소제,가성소다,염산 등... 새 창 열림",
+      "collected_at": "2026-08-09T17:58:10.412933+09:00",
+      "normalized_title": "[기업기상도] 바람 불어 폭염 가신 기업 vs 열섬 속에 갇힌 기업새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[기업기상도] 바람 불어 폭염 가신 기업 vs 열섬 속에 갇힌 기업새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://www.yonhapnewstv.co.kr/news/MYH20260809010417RvE",
+      "id": "74e44343c7f221d3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "기름값",
+        "석유제품",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

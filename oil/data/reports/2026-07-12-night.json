@@ -1,0 +1,124 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-12",
+  "slot": "night",
+  "period_start": "2026-07-12T17:00:00+09:00",
+  "period_end": "2026-07-13T00:00:00+09:00",
+  "period_label": "2026-07-12 17:00 ~ 2026-07-13 00:00",
+  "generated_at": "2026-07-13T09:09:56.264382+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1606,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1216
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정위 유가 담합": 1,
+    "기름값 담합": 1,
+    "석유 담합": 1,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[박근종 칼럼] 고유가·고환율에 치솟는 밥상 물가, 긴축 기조 견지하고...새 창 열림",
+      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=753145",
+      "source": "새 창 열림",
+      "published_at": "2026-07-12T22:09:10.745762+09:00",
+      "snippet": "정부는 하반기 소비자물가 상승률을 3% 이내로 관리하기 위해 농·축·수산물 할인 지원과 계란·돼지고기·고등어 등 주요 먹거리 공급 확대, 석유류... 여기에 원재료값 인상 등을 핑계로 과도하게 가격을 올리거나 담합을 하는 등 일부 기업들의 탐욕까지 더해져 밥상 물가를 올린다는 게 문제다. 지난... 새 창 열림",
+      "collected_at": "2026-07-13T09:09:10.745791+09:00",
+      "normalized_title": "[박근종 칼럼] 고유가·고환율에 치솟는 밥상 물가, 긴축 기조 견지하고...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[박근종 칼럼] 고유가·고환율에 치솟는 밥상 물가, 긴축 기조 견지하고...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.mhns.co.kr/news/articleView.html?idxno=753145",
+      "id": "5d09ac98bb3be289",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[따져보니] '빵값부터 기름값까지' 서민 울리는 담합…대기업들의 민낯...새 창 열림",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/07/12/2026071290137.html",
+      "source": "새 창 열림",
+      "published_at": "2026-07-12T20:09:10.747457+09:00",
+      "snippet": "먹거리하고, 휘발유나 경유가 되는 거죠. 그렇기 때문에 이 분야들에 대해서 어떤 가격 상승이 있다면은 그게 서민들이 더 크게 느끼게 되는 거죠\" 정부는 물가 안정을 위해 가공용 수입 옥수수에 관세 0% 특혜도 지원해 왔지만, 기업이 공급가 자체를 담합하면서 정부의 관세 지원 효과는 무색해졌고, 현장... 새 창 열림",
+      "collected_at": "2026-07-13T09:09:10.747480+09:00",
+      "normalized_title": "[따져보니] '빵값부터 기름값까지' 서민 울리는 담합…대기업들의 민낯...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[따져보니] '빵값부터 기름값까지' 서민 울리는 담합…대기업들의 민낯...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://news.tvchosun.com/site/data/html_dir/2026/07/12/2026071290137.html",
+      "id": "c53abd979da86aa3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

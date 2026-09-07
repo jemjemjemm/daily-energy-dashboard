@@ -1,0 +1,78 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-31",
+  "slot": "night",
+  "period_start": "2026-07-31T17:00:00+09:00",
+  "period_end": "2026-08-01T00:00:00+09:00",
+  "period_label": "2026-07-31 17:00 ~ 2026-08-01 00:00",
+  "generated_at": "2026-08-01T09:11:25.425201+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1569,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1179
+  },
+  "query_counts": {
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "조국혁신당, 형소법 통과에 \"노무현·노회찬 미소 떠올라…이젠 민생 대...새 창 열림",
+      "url": "https://www.newsis.com/view/NISX20260731_0003732102",
+      "source": "새 창 열림",
+      "published_at": "2026-07-31T18:10:29.298294+09:00",
+      "snippet": "생활필수품과 에너지 가격을 안정시키고, 유통 과정의 폭리와 담합을 바로잡아 국민의 생활비 부담을 낮추겠다\"고 말했다. 그는 \"과도한 수수료와 고유가로 어려움을 겪는 소상공인과 자영업자의 부담을 덜고, 불공정한 시장 질서를 바로잡겠다\"며 \"청년에게는 다시 도전할 기회를, 아이를 키우는 가정에는... 새 창 열림",
+      "collected_at": "2026-08-01T09:10:29.298311+09:00",
+      "normalized_title": "조국혁신당, 형소법 통과에 \"노무현·노회찬 미소 떠올라…이젠 민생 대...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::조국혁신당, 형소법 통과에 \"노무현·노회찬 미소 떠올라…이젠 민생 대...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsis.com/view/NISX20260731_0003732102",
+      "id": "1da2f6a5a1f24318",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

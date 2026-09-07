@@ -1,0 +1,84 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-30",
+  "slot": "morning",
+  "period_start": "2026-08-30T00:00:00+09:00",
+  "period_end": "2026-08-30T08:00:00+09:00",
+  "period_label": "2026-08-30 00:00 ~ 2026-08-30 08:00",
+  "generated_at": "2026-08-30T10:14:52.639839+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1556,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1166
+  },
+  "query_counts": {
+    "유가 담합": 1,
+    "유가담합": 1,
+    "유류가격 담합": 1,
+    "정유사 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "고유가·고환율에 개인은 지갑 닫는데…기업은 더 긁었다새 창 열림",
+      "url": "http://weekly.chosun.com/news/articleView.html?idxno=54751",
+      "source": "새 창 열림",
+      "published_at": "2026-08-30T07:14:02.462670+09:00",
+      "snippet": "윤 실장은 \"전쟁 초반에 유가가 크게 오르면서 관련 비용이 늘었지만 이후 정부의 최고가격제 시행, 정유사 유가 담합 조사, 차량 2부제·5부제 시행 등 유류 소비 억제도 복합적으로 영향을 미치면서 전년 대비 이례적으로 사용액이 줄었다\"면서 \"유가 상승으로 교통비 관련 소비를 줄인 영향도 있고... 새 창 열림",
+      "collected_at": "2026-08-30T10:14:02.462687+09:00",
+      "normalized_title": "고유가·고환율에 개인은 지갑 닫는데…기업은 더 긁었다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::고유가·고환율에 개인은 지갑 닫는데…기업은 더 긁었다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://weekly.chosun.com/news/articleView.html?idxno=54751",
+      "id": "96d8a01180fcd24d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

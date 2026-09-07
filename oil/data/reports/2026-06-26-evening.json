@@ -1,0 +1,699 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-26",
+  "slot": "evening",
+  "period_start": "2026-06-26T08:00:00+09:00",
+  "period_end": "2026-06-26T17:00:00+09:00",
+  "period_label": "2026-06-26 08:00 ~ 2026-06-26 17:00",
+  "generated_at": "2026-06-26T20:13:50.824583+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1505,
+  "total_deduped_count": 18,
+  "total_ok_count": 18,
+  "total_review_count": 0,
+  "total_excluded_count": 9,
+  "grade_counts": {
+    "A": 3,
+    "B": 5,
+    "C": 10
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1115
+  },
+  "query_counts": {
+    "경유 담합": 8,
+    "공정거래위원회 정유사 담합": 1,
+    "공정위 유가 담합": 5,
+    "기름값 담합": 1,
+    "석유 담합": 15,
+    "석유제품 담합": 8,
+    "유가 담합": 14,
+    "유가담합": 14,
+    "유류가격 담합": 3,
+    "정유사 담합": 9,
+    "정유업계 담합": 1,
+    "주유소 담합": 8,
+    "휘발유 담합": 7
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "정부, 역대 첫 농축수산물 전 품목 할인…물가안정에 1조원 투입",
+      "url": "https://biz.heraldcorp.com/article/10789072?ref=naver",
+      "source": "헤럴드경제",
+      "published_at": "2026-06-26T10:13:10.447615+09:00",
+      "snippet": "최근 석유류 가격 상승과 농축수산물 가격 강세 등으로 5월 소비자물가 상승률이 3.1%까지 오른 데 대응해 재정·세제·금융 등 가용수단을 총동원... 정유사와 주유소, 페인트, 폴리염화비닐(PVC) 등 중동전쟁 관련 품목의 담합 여부를 지속 조사하고 반복 담합 사업자에 대해서는 등록·허가 취소와 영업정지...",
+      "collected_at": "2026-06-26T20:13:10.447628+09:00",
+      "normalized_title": "정부, 역대 첫 농축수산물 전 품목 할인…물가안정에 1조원 투입",
+      "source_normalized": "헤럴드경제",
+      "duplicate_key": "헤럴드경제::정부, 역대 첫 농축수산물 전 품목 할인…물가안정에 1조원 투입",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://biz.heraldcorp.com/article/10789072?ref=naver",
+      "id": "2b769318e44609fe",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "주유소",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부, 1조원 투입해 물가 잡는다…'농축수산물 할인·공공요금 동결'(종...",
+      "url": "https://www.news1.kr/economy/trend/6209357",
+      "source": "뉴스1",
+      "published_at": "2026-06-26T12:13:10.442947+09:00",
+      "snippet": "소상공인과 중소기업 지원을 확대하는 한편 매점매석 과징금 신설과 담합 조사 강화 등 불공정 거래에 대한 대응도 병행해 물가 안정 효과를 높일... 현재 유류세 인하 폭은 휘발유 15%, 경유 25%다. 소형트럭과 택시 등 서민 연료 부담 완화를 위해 LPG 부탄에 대한 유류세 25% 인하도 7월까지 연장하고...",
+      "collected_at": "2026-06-26T20:13:10.442964+09:00",
+      "normalized_title": "정부, 1조원 투입해 물가 잡는다…'농축수산물 할인·공공요금 동결'(종...",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::정부, 1조원 투입해 물가 잡는다…'농축수산물 할인·공공요금 동결'(종...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.news1.kr/economy/trend/6209357",
+      "id": "496a98e4cce3a075",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "LPG",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부, 1조원 투입해 물가 잡는다…'농축수산물 할인·공공요금 동결'",
+      "url": "https://www.news1.kr/economy/trend/6209117",
+      "source": "뉴스1",
+      "published_at": "2026-06-26T10:13:17.412747+09:00",
+      "snippet": "소상공인과 중소기업 지원을 확대하는 한편 매점매석 과징금 신설과 담합 조사 강화 등 불공정 거래에 대한 대응도 병행해 물가 안정 효과를 높일... 현재 유류세 인하 폭은 휘발유 15%, 경유 25%다. 소형트럭과 택시 등 서민 연료 부담 완화를 위해 LPG 부탄에 대한 유류세 25% 인하도 7월까지 연장하고...",
+      "collected_at": "2026-06-26T20:13:17.412762+09:00",
+      "normalized_title": "정부, 1조원 투입해 물가 잡는다…'농축수산물 할인·공공요금 동결'",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::정부, 1조원 투입해 물가 잡는다…'농축수산물 할인·공공요금 동결'",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.news1.kr/economy/trend/6209117",
+      "id": "6b19f24cb1fca6c4",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "LPG",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "1조 투입해 '8월 고비' 정조준...정부, 하반기 물가 3% 방어 총력",
+      "url": "https://www.newspim.com/news/view/20260626000493",
+      "source": "뉴스핌",
+      "published_at": "2026-06-26T12:13:10.444068+09:00",
+      "snippet": "해당 TF는 담합·독과점 구조와 유통 단계에서의 문제를 점검하기 위해 꾸려진 장관급 조직이다. [서울=뉴스핌] 구윤철 부총리가 26일 서울 종로구... [서울=뉴스핌] 김현우 기자 = 국내 주유소 휘발유와 경유의 주간 평균 가격이 5주 연속 동반 상승했다. 한국석유공사 유가정보시스템 오피넷에 따르면 4월 5주...",
+      "collected_at": "2026-06-26T20:13:10.444084+09:00",
+      "normalized_title": "1조 투입해 '8월 고비' 정조준...정부, 하반기 물가 3% 방어 총력",
+      "source_normalized": "뉴스핌",
+      "duplicate_key": "뉴스핌::1조 투입해 '8월 고비' 정조준...정부, 하반기 물가 3% 방어 총력",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.newspim.com/news/view/20260626000493",
+      "id": "aec0a952c7bcd953",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스토마토",
+      "url": "https://v.daum.net/channel/552844/home",
+      "source": "뉴스토마토",
+      "published_at": "2026-06-26T16:13:12.174651+09:00",
+      "snippet": "균형 중요\" 공정위를 통해서는 제분·제당·전분당 업계의 가격 담합을 잇달아 적발하면서 '시장 감시'를 강화하고 있습니다. 조사...왔다\"고 설명했습니다. 이어 \"최근 중동 정세 완화되면서 국제유가는 안정됐지만 환율이 높은 수준을 유지하면서 수입물가 등 부담... 4시간 전",
+      "collected_at": "2026-06-26T20:13:12.174678+09:00",
+      "normalized_title": "뉴스토마토",
+      "source_normalized": "뉴스토마토",
+      "duplicate_key": "뉴스토마토::뉴스토마토",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/552844/home",
+      "id": "0a0b87b49a0ae3ca",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국정 2년차, 물가와의 전쟁…'가격 개입' 현실화",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1305342&inflow=N",
+      "source": "뉴스토마토",
+      "published_at": "2026-06-26T16:13:10.439494+09:00",
+      "snippet": "석유 최고가격제부터 정부 직수입, 비축물량 방출, 공정거래위원회(이하 공정위)의 가격 담합 조사까지 가격 형성과 공급 과정 전반에 정부가 적극... 이어 \"최근 중동 정세 완화되면서 국제유가는 안정됐지만 환율이 높은 수준을 유지하면서 수입물가 등 부담이 이어지고 있는 만큼, 정부가 체감물가 안정에 더욱...",
+      "collected_at": "2026-06-26T20:13:10.439511+09:00",
+      "normalized_title": "국정 2년차, 물가와의 전쟁…'가격 개입' 현실화",
+      "source_normalized": "뉴스토마토",
+      "duplicate_key": "뉴스토마토::국정 2년차, 물가와의 전쟁…'가격 개입' 현실화",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://www.newstomato.com/ReadNews.aspx?no=1305342&inflow=N",
+      "id": "8bd11dbd7a841950",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[더벨][Company Watch] 사조동아원, '1억주' 시대 마침표…주식 병합 배경...",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606231600426200109245",
+      "source": "더벨",
+      "published_at": "2026-06-26T14:13:10.440572+09:00",
+      "snippet": "유가증권시장에서도 발행주식 수가 과도하게 많거나 주가가 장기간 낮은 수준에 머무른 기업들이 거래 구조를 정비하기 위해 병합을 선택하는 사례가 적지 않다. 사조동아원 역시 이번 병합을 통해 시장 내 인식 변화를 기대하는 것으로 보인다. 출처: 사조동아원 ◇담합 혐의, 약 1831억 과징금…시장 신뢰...",
+      "collected_at": "2026-06-26T20:13:10.440588+09:00",
+      "normalized_title": "[더벨][Company Watch] 사조동아원, '1억주' 시대 마침표…주식 병합 배경...",
+      "source_normalized": "더벨",
+      "duplicate_key": "더벨::[더벨][company watch] 사조동아원, '1억주' 시대 마침표…주식 병합 배경...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606231600426200109245",
+      "id": "675ae201ecd9f609",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부, 민생물가 안정에 1조원 투입…\"하반기 CPI 3% 이내 관리\"",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4421999",
+      "source": "연합인포맥스",
+      "published_at": "2026-06-26T10:13:10.448769+09:00",
+      "snippet": "정부는 \"누적된 가격 상승과 국제유가의 국내 반영 시차 등으로 당분간 높은 상승률이 예상된다\"며 \"1조원 규모의 재정투입 및 세제·금융 등 가용수단을... 담합 등 불공정거래행위도 지속해서 모니터링하고, 혐의가 포착되면 신속히 조사한다는 방침이다. 정부는 \"이러한 정책들을 속도감 있게 추진해 올해...",
+      "collected_at": "2026-06-26T20:13:10.448782+09:00",
+      "normalized_title": "정부, 민생물가 안정에 1조원 투입…\"하반기 CPI 3% 이내 관리\"",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::정부, 민생물가 안정에 1조원 투입…\"하반기 cpi 3% 이내 관리\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4421999",
+      "id": "26aaa09b9e32ea95",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부, 하반기 공공요금 동결…농축수산물 할인 확대에 1조원 투입",
+      "url": "http://v.daum.net/v/20260626100300529",
+      "source": "10시간 전",
+      "published_at": "2026-06-26T10:13:12.179346+09:00",
+      "snippet": "6차 석유 최고가격을 유지했다\"면서 \"7차 석유 최고가격은 국제유가 하락과 민생부담, 재정여건 등을 종합적으로 감안해 현행 수준...등 서민 부담 완화 대책도 추진한다. 정부는 매점매석과 가격 담합 등 불공정 거래에 대한 단속도 강화할 방침이다. ※CBS노컷뉴스... 10시간 전",
+      "collected_at": "2026-06-26T20:13:12.179357+09:00",
+      "normalized_title": "정부, 하반기 공공요금 동결…농축수산물 할인 확대에 1조원 투입",
+      "source_normalized": "10시간 전",
+      "duplicate_key": "10시간 전::정부, 하반기 공공요금 동결…농축수산물 할인 확대에 1조원 투입",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260626100300529",
+      "id": "499dd433d49bc6f6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국정 2년차, 물가와의 전쟁…'가격 개입' 현실화",
+      "url": "http://v.daum.net/v/20260626155351948",
+      "source": "4시간 전",
+      "published_at": "2026-06-26T16:13:12.175108+09:00",
+      "snippet": "균형 중요\" 공정위를 통해서는 제분·제당·전분당 업계의 가격 담합을 잇달아 적발하면서 '시장 감시'를 강화하고 있습니다. 조사...왔다\"고 설명했습니다. 이어 \"최근 중동 정세 완화되면서 국제유가는 안정됐지만 환율이 높은 수준을 유지하면서 수입물가 등 부담... 4시간 전",
+      "collected_at": "2026-06-26T20:13:12.175120+09:00",
+      "normalized_title": "국정 2년차, 물가와의 전쟁…'가격 개입' 현실화",
+      "source_normalized": "4시간 전",
+      "duplicate_key": "4시간 전::국정 2년차, 물가와의 전쟁…'가격 개입' 현실화",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260626155351948",
+      "id": "8806b87e7e0e2dc6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부, 1조원 투입해 물가 잡는다…'농축수산물 할인·공공요금 동결'(종합)",
+      "url": "http://v.daum.net/v/20260626115431897",
+      "source": "8시간 전",
+      "published_at": "2026-06-26T12:13:12.176586+09:00",
+      "snippet": "행정안전부 제공) 2023.3.2 ⓒ 뉴스1 매점매석 과징금 신설…담합 조사 강화 정부는 물가안정 조치의 실효성을 높이기 위해 매점매석...산업용 윤활유 담합 건은 조사를 마치고 심의를 앞두고 있으며, 정유사와 주유소, 페인트, PVC 등 중동전쟁 관련 품목 담합 혐의... 8시간 전",
+      "collected_at": "2026-06-26T20:13:12.176597+09:00",
+      "normalized_title": "정부, 1조원 투입해 물가 잡는다…'농축수산물 할인·공공요금 동결'",
+      "source_normalized": "8시간 전",
+      "duplicate_key": "8시간 전::정부, 1조원 투입해 물가 잡는다…'농축수산물 할인·공공요금 동결'",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://v.daum.net/v/20260626115431897",
+      "id": "7194762049a9331e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부, 하반기 공공요금 동결…농축수산물 할인 확대에 1조원 투입",
+      "url": "https://www.nocutnews.co.kr/news/6539039?utm_source=naver&utm_medium=article&utm_campaign=20260626100042",
+      "source": "노컷뉴스",
+      "published_at": "2026-06-26T10:13:23.837944+09:00",
+      "snippet": "검토·석유최고가격 유지…하반기 물가상승률 3%內 목표 정부가 하반기 전기·가스요금 등 공공요금을 동결하고 농축수산물 할인 확대 등에 1조 원... 정부는 매점매석과 가격 담합 등 불공정 거래에 대한 단속도 강화할 방침이다. ※CBS노컷뉴스는 여러분의 제보로 함께 세상을 바꿉니다. 각종 비리와...",
+      "collected_at": "2026-06-26T20:13:23.837958+09:00",
+      "normalized_title": "정부, 하반기 공공요금 동결…농축수산물 할인 확대에 1조원 투입",
+      "source_normalized": "노컷뉴스",
+      "duplicate_key": "노컷뉴스::정부, 하반기 공공요금 동결…농축수산물 할인 확대에 1조원 투입",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.nocutnews.co.kr/news/6539039?utm_source=naver&utm_medium=article&utm_campaign=20260626100042",
+      "id": "0bc8134b30b1ed3d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "노컷뉴스",
+      "url": "https://v.daum.net/channel/35/home",
+      "source": "노컷뉴스",
+      "published_at": "2026-06-26T10:13:12.178923+09:00",
+      "snippet": "6차 석유 최고가격을 유지했다\"면서 \"7차 석유 최고가격은 국제유가 하락과 민생부담, 재정여건 등을 종합적으로 감안해 현행 수준...등 서민 부담 완화 대책도 추진한다. 정부는 매점매석과 가격 담합 등 불공정 거래에 대한 단속도 강화할 방침이다. ※CBS노컷뉴스... 10시간 전",
+      "collected_at": "2026-06-26T20:13:12.178934+09:00",
+      "normalized_title": "노컷뉴스",
+      "source_normalized": "노컷뉴스",
+      "duplicate_key": "노컷뉴스::노컷뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/35/home",
+      "id": "d278fa5159208a2e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[공정거래] 이재명 정부 1년, 공정거래 집행 회고와 향후 정책 방향",
+      "url": "http://www.legaltimes.co.kr/news/articleView.html?idxno=94664",
+      "source": "리걸타임즈",
+      "published_at": "2026-06-26T09:13:45.714440+09:00",
+      "snippet": "특히 유가 상승 국면에서도 가공식품류 가격이 내린 점을 사례로 들며, 물가 상승 폭을 최소화하기 위해 국가 역량을 최대한 동원하겠다고 밝혔다. 공정위 역시 민생 분야 담합에 대한 적극적 법 집행 및 관련 상품의 가격 인하를 최대 성과로 강조했다. 새 정부에서 공정거래 집행은 전통적 경쟁법의 집행을...",
+      "collected_at": "2026-06-26T20:13:45.714454+09:00",
+      "normalized_title": "[공정거래] 이재명 정부 1년, 공정거래 집행 회고와 향후 정책 방향",
+      "source_normalized": "리걸타임즈",
+      "duplicate_key": "리걸타임즈::[공정거래] 이재명 정부 1년, 공정거래 집행 회고와 향후 정책 방향",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.legaltimes.co.kr/news/articleView.html?idxno=94664",
+      "id": "32b89711d645a523",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "물가 3.1% 껑충…정부, 계란·고등어·쌀값 잡기 총력전",
+      "url": "https://www.imaeil.com/page/view/2026062609191133008",
+      "source": "매일신문",
+      "published_at": "2026-06-26T10:13:17.413988+09:00",
+      "snippet": "정유사·주유소·페인트·폴리염화비닐(PVC) 등 중동전쟁 관련 품목의 담합 혐의는 현재 조사 중이며, 전분당(관련 매출액 6조2천억원)과 산업용 윤활유(2조원) 담합 건은 다음 달 이후 심의가 예정돼 있다. 정부는 이러한 대책을 속도감 있게 시행해 올해 하반기 소비자물가 상승률을 3% 이내로 관리한다는...",
+      "collected_at": "2026-06-26T20:13:17.414000+09:00",
+      "normalized_title": "물가 3.1% 껑충…정부, 계란·고등어·쌀값 잡기 총력전",
+      "source_normalized": "매일신문",
+      "duplicate_key": "매일신문::물가 3.1% 껑충…정부, 계란·고등어·쌀값 잡기 총력전",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.imaeil.com/page/view/2026062609191133008",
+      "id": "72f919d535e9de66",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[AFTER 호르무즈②] ‘공급망 재편’ 뒷전?…정유사 덮친 담합 의혹",
+      "url": "https://theviewers.co.kr/View.aspx?No=4121787",
+      "source": "뷰어스",
+      "published_at": "2026-06-26T13:13:10.441731+09:00",
+      "snippet": "정부의 최고가격제에 따른 손실 보전 문제, 가격 담합 의혹 수사, 중동 의존도를 낮추기 위한 공급망 재편 그리고 탈(脫)오일 시대에 대비한 사업... 업계에서는 가격 인상 억제분이 휘발유는 리터당 200원대, 경유는 300원대, 등유는 400원대 수준에 이른다고 주장한다. 여기에 수출 물량을 국내로 전환하면서...",
+      "collected_at": "2026-06-26T20:13:10.441745+09:00",
+      "normalized_title": "[AFTER 호르무즈②] ‘공급망 재편’ 뒷전?…정유사 덮친 담합 의혹",
+      "source_normalized": "뷰어스",
+      "duplicate_key": "뷰어스::[after 호르무즈②] ‘공급망 재편’ 뒷전?…정유사 덮친 담합 의혹",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://theviewers.co.kr/View.aspx?No=4121787",
+      "id": "ce3aa80a7641cbcb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부, 하반기 전기·가스요금 동결…유류세 인하 추가 연장 검토",
+      "url": "https://www.taxtimes.co.kr/news/article.html?no=275700",
+      "source": "세정신문",
+      "published_at": "2026-06-26T11:13:10.446359+09:00",
+      "snippet": "정부는 현재 유류세 인하 폭을 휘발유 15%, 경유 25%, LPG 부탄 25%로 각각 확대한 뒤 7월 말까지 연장한 상태다. LPG 부탄 판매부과금도 올해말까지 한시... 또한 반복담합 사업자 등록·허가 취소 및 영업정지 제도와 임원해임명령 제도 도입을 검토한다. 정부는 현재 전분당, 산업용 윤활유 담합건의 조사를...",
+      "collected_at": "2026-06-26T20:13:10.446373+09:00",
+      "normalized_title": "정부, 하반기 전기·가스요금 동결…유류세 인하 추가 연장 검토",
+      "source_normalized": "세정신문",
+      "duplicate_key": "세정신문::정부, 하반기 전기·가스요금 동결…유류세 인하 추가 연장 검토",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://www.taxtimes.co.kr/news/article.html?no=275700",
+      "id": "2d11eddcb5f99bce",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "LPG",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "계란 2억 개·고등어 2000톤 푼다... 마트 가는 사람들 꼭 확인해야 할 ...",
+      "url": "https://www.wikitree.co.kr/articles/1143362",
+      "source": "위키트리",
+      "published_at": "2026-06-26T12:13:10.445200+09:00",
+      "snippet": "정부는 지난 5월 소비자물가가 중동전쟁 영향과 석유류 가격 급등 등으로 전년 동월 대비 3.1% 오른 상황을 무겁게 보고 있다. 종전 이후에도 국제유가가... 매점매석 과징금 신설… 반복 담합 사업자 제재 강화 정부는 물가 안정 조치가 시장에서 제대로 작동하도록 불공정 거래 대응도 강화한다. 매점매석 등...",
+      "collected_at": "2026-06-26T20:13:10.445214+09:00",
+      "normalized_title": "계란 2억 개·고등어 2000톤 푼다... 마트 가는 사람들 꼭 확인해야 할 ...",
+      "source_normalized": "위키트리",
+      "duplicate_key": "위키트리::계란 2억 개·고등어 2000톤 푼다... 마트 가는 사람들 꼭 확인해야 할 ...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://www.wikitree.co.kr/articles/1143362",
+      "id": "efdefd9a41eb44a9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-30",
+  "slot": "evening",
+  "period_start": "2026-06-30T08:00:00+09:00",
+  "period_end": "2026-06-30T17:00:00+09:00",
+  "period_label": "2026-06-30 08:00 ~ 2026-06-30 17:00",
+  "generated_at": "2026-06-30T20:19:56.526803+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1527,
+  "total_deduped_count": 18,
+  "total_ok_count": 18,
+  "total_review_count": 0,
+  "total_excluded_count": 6,
+  "grade_counts": {
+    "A": 8,
+    "B": 1,
+    "C": 9
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1137
+  },
+  "query_counts": {
+    "석유 담합": 5,
+    "유가 담합": 17,
+    "유가담합": 17,
+    "유류가격 담합": 1,
+    "정유업계 담합": 2,
+    "주유소 담합": 4,
+    "휘발유 담합": 4
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "한국경제",
+      "url": "https://v.daum.net/channel/3/home",
+      "source": "한국경제",
+      "published_at": "2026-06-30T16:12:29.029337+09:00",
+      "snippet": "반도체 비용 부담에 따른 제품 가격 인상 가능성과 메모리 업체 담합 관련 소송 등으로 변동성이 커졌다. 다만 실적 개선 기대가...유입되며 대형 반도체주가 반등했다. 수급은 엇갈렸다. 유가증권시장에서 외국인은 3조8174억원어치를 순매도했다. 반면 기관은... 57분 전",
+      "collected_at": "2026-06-30T17:09:29.029352+09:00",
+      "normalized_title": "한국경제",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::한국경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/3/home",
+      "id": "6ea5739e4883b5ac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "삼성전자·전기의 힘…코스피, 외인 '팔자'에도 0.97% 상승",
+      "url": "https://www.hankyung.com/article/2026063070016",
+      "source": "한국경제",
+      "published_at": "2026-06-30T16:11:27.529912+09:00",
+      "snippet": "업체 담합 관련 소송 등으로 변동성이 커졌다. 다만 실적 개선 기대가 여전히 유효하다는 인식 속에 저가 매수세가 유입되며 대형 반도체주가 반등했다. 수급은 엇갈렸다. 유가증권시장에서 외국인은 3조8174억원어치를 순매도했다. 반면 기관은 2조9361억원, 개인은 8335억원을 순매수했다. 기관 중...",
+      "collected_at": "2026-06-30T17:09:27.529928+09:00",
+      "normalized_title": "삼성전자·전기의 힘…코스피, 외인 '팔자'에도 0.97% 상승",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::삼성전자·전기의 힘…코스피, 외인 '팔자'에도 0.97% 상승",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.hankyung.com/article/2026063070016",
+      "id": "9048176bfdfac25d",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "머니투데이",
+      "url": "https://v.daum.net/channel/5/home",
+      "source": "머니투데이",
+      "published_at": "2026-06-30T11:09:29.035759+09:00",
+      "snippet": "25일 텍사스주 오스틴의 한 발레로 주유소에 휘발유 가격이 표시돼 있다. AAA에 따르면 미국 전국 휘발유 가격이 갤런당 평균 약 3.92...이어 \"이 성명에 신속히 대응해 마땅히 해야 할 일을 해야 한다\"며 \"불법적인 가격 담합 및 폭리 행위는 절대 용납되지 않을... 6시간 전 3",
+      "collected_at": "2026-06-30T17:09:29.035774+09:00",
+      "normalized_title": "머니투데이",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::머니투데이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/5/home",
+      "id": "15b948cff6e29cc5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "트럼프 \"휘발유값 갤런당 2.5달러까지 당장 내려야…거부시 큰일\"",
+      "url": "https://www.mt.co.kr/world/2026/06/30/2026063009210167035",
+      "source": "머니투데이",
+      "published_at": "2026-06-30T11:09:27.538382+09:00",
+      "snippet": "트럼프 대통령은 \"휘발유 소매업체들은 당장 가격을 인하해야 한다\"며 \"현재 유가가 배럴당 68달러이고 더 떨어질 것으로 예상되는 상황에서 휘발유 가격은 너무 높다\"고 주장했다. 이어 \"이 성명에 신속히 대응해 마땅히 해야 할 일을 해야 한다\"며 \"불법적인 가격 담합 및 폭리 행위는 절대 용납되지 않을 것...",
+      "collected_at": "2026-06-30T17:09:27.538399+09:00",
+      "normalized_title": "트럼프 \"휘발유값 갤런당 2.5달러까지 당장 내려야…거부시 큰일\"",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::트럼프 \"휘발유값 갤런당 2.5달러까지 당장 내려야…거부시 큰일\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.mt.co.kr/world/2026/06/30/2026063009210167035",
+      "id": "8c484aab90a7b980",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전자신문",
+      "url": "https://v.daum.net/channel/82/home",
+      "source": "전자신문",
+      "published_at": "2026-06-30T16:09:29.032541+09:00",
+      "snippet": "반도체 비용 부담에 따른 제품 가격 인상 가능성, 메모리 업체 담합 관련 소송 등으로 변동성이 커졌다. 다만 실적 개선 기대가...대형 반도체주가 반등했다. 수급은 엇갈렸다. 오후 3시35분 기준 유가증권시장에서 외국인은 3조8174억원을 순매도했다. 반면 기관은... 1시간 전",
+      "collected_at": "2026-06-30T17:09:29.032563+09:00",
+      "normalized_title": "전자신문",
+      "source_normalized": "전자신문",
+      "duplicate_key": "전자신문::전자신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/82/home",
+      "id": "2e114036158b986d",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "외국인 3.8조 팔았지만 코스피 상승 마감…반도체가 지수 방어",
+      "url": "https://www.etnews.com/20260630000366",
+      "source": "전자신문",
+      "published_at": "2026-06-30T16:09:27.534120+09:00",
+      "snippet": "업체 담합 관련 소송 등으로 변동성이 커졌다. 다만 실적 개선 기대가 여전히 유효하다는 인식 속에 저가 매수세가 유입되며 대형 반도체주가 반등했다. 수급은 엇갈렸다. 오후 3시35분 기준 유가증권시장에서 외국인은 3조8174억원을 순매도했다. 반면 기관은 2조9361억원, 개인은 8335억원을...",
+      "collected_at": "2026-06-30T17:09:27.534137+09:00",
+      "normalized_title": "외국인 3.8조 팔았지만 코스피 상승 마감…반도체가 지수 방어",
+      "source_normalized": "전자신문",
+      "duplicate_key": "전자신문::외국인 3.8조 팔았지만 코스피 상승 마감…반도체가 지수 방어",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.etnews.com/20260630000366",
+      "id": "4cc0375f6ae831e5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴시스",
+      "url": "https://v.daum.net/channel/21/home",
+      "source": "뉴시스",
+      "published_at": "2026-06-30T16:09:29.030916+09:00",
+      "snippet": "따른 제품 가격 인상과 마이크론, 삼성전자, SK하이닉스의 담합 관련 소송 등 노이즈가 이어지며 부진한 흐름을 나타냈다\"고 설명했다...확산되며 지수 상방 압력으로 작용했다\"고 평가했다. 이날 유가증권시장에서 기관과 개인이 각각 2조9361억원, 8356억원어치를... 1시간 전",
+      "collected_at": "2026-06-30T17:09:29.030930+09:00",
+      "normalized_title": "뉴시스",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::뉴시스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/21/home",
+      "id": "e250fa63010cdcd6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "코스피, 반도체 강세에 사흘만에 반등…0.97% 오른 8470선 마감",
+      "url": "https://www.newsis.com/view/NISX20260630_0003689979",
+      "source": "뉴시스",
+      "published_at": "2026-06-30T16:09:27.531371+09:00",
+      "snippet": "그럼에도 애플의 반도체 비용 부담에 따른 제품 가격 인상과 마이크론, 삼성전자, SK하이닉스의 담합 관련 소송 등 노이즈가 이어지며 부진한... 이날 유가증권시장에서 기관과 개인이 각각 2조9361억원, 8356억원어치를 사들이며 지수를 견인했다. 반면 외국인은 3조8196억원어치를 팔아치웠다....",
+      "collected_at": "2026-06-30T17:09:27.531392+09:00",
+      "normalized_title": "코스피, 반도체 강세에 사흘만에 반등…0.97% 오른 8470선 마감",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::코스피, 반도체 강세에 사흘만에 반등…0.97% 오른 8470선 마감",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsis.com/view/NISX20260630_0003689979",
+      "id": "bcd268ebd9f02510",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "7월이 온다! 드디어 코스닥에 '온기' 퍼질까",
+      "url": "https://www.ytn.co.kr/_ln/0102_202606301045093269",
+      "source": "YTN",
+      "published_at": "2026-06-30T11:09:27.536921+09:00",
+      "snippet": "가격 담합 관련 이슈로 소송을 걸었다 이런 내용도 있었고요. 크게 뉴스가 되지는 않았지만 그런 부분도 있었고 애플이 쇼크가 있었죠. 애플이 \"비싸서... 실제로 단일 종목 2배의 레버리지 나오고 나서 유가증권 시장에서 매도·매수 사이드카가 합산으로 하면 총 11번 나왔더라고요, 5월 27일 이후로. 근데 뭐...",
+      "collected_at": "2026-06-30T17:09:27.536944+09:00",
+      "normalized_title": "7월이 온다! 드디어 코스닥에 '온기' 퍼질까",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::7월이 온다! 드디어 코스닥에 '온기' 퍼질까",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ytn.co.kr/_ln/0102_202606301045093269",
+      "id": "035f161107068c3a",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "외국인 3.8조 팔았지만 코스피 상승 마감…반도체가 지수 방어",
+      "url": "http://v.daum.net/v/20260630154616277",
+      "source": "1시간 전",
+      "published_at": "2026-06-30T16:09:29.033043+09:00",
+      "snippet": "반도체 비용 부담에 따른 제품 가격 인상 가능성, 메모리 업체 담합 관련 소송 등으로 변동성이 커졌다. 다만 실적 개선 기대가...대형 반도체주가 반등했다. 수급은 엇갈렸다. 오후 3시35분 기준 유가증권시장에서 외국인은 3조8174억원을 순매도했다. 반면 기관은... 1시간 전",
+      "collected_at": "2026-06-30T17:09:29.033057+09:00",
+      "normalized_title": "외국인 3.8조 팔았지만 코스피 상승 마감…반도체가 지수 방어",
+      "source_normalized": "1시간 전",
+      "duplicate_key": "1시간 전::외국인 3.8조 팔았지만 코스피 상승 마감…반도체가 지수 방어",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260630154616277",
+      "id": "c701b7c8a4541f4e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "코스피, 반도체 강세에 사흘만에 반등…0.97% 오른 8470선 마감",
+      "url": "http://v.daum.net/v/20260630155614818",
+      "source": "1시간 전",
+      "published_at": "2026-06-30T16:09:29.031424+09:00",
+      "snippet": "따른 제품 가격 인상과 마이크론, 삼성전자, SK하이닉스의 담합 관련 소송 등 노이즈가 이어지며 부진한 흐름을 나타냈다\"고 설명했다...확산되며 지수 상방 압력으로 작용했다\"고 평가했다. 이날 유가증권시장에서 기관과 개인이 각각 2조9361억원, 8356억원어치를... 1시간 전",
+      "collected_at": "2026-06-30T17:09:29.031438+09:00",
+      "normalized_title": "코스피, 반도체 강세에 사흘만에 반등…0.97% 오른 8470선 마감",
+      "source_normalized": "1시간 전",
+      "duplicate_key": "1시간 전::코스피, 반도체 강세에 사흘만에 반등…0.97% 오른 8470선 마감",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260630155614818",
+      "id": "82adc3bb4d1f027e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "삼성전자·전기의 힘…코스피, 외인 '팔자'에도 0.97% 상승",
+      "url": "http://v.daum.net/v/20260630161223784",
+      "source": "57분 전",
+      "published_at": "2026-06-30T16:12:29.029831+09:00",
+      "snippet": "반도체 비용 부담에 따른 제품 가격 인상 가능성과 메모리 업체 담합 관련 소송 등으로 변동성이 커졌다. 다만 실적 개선 기대가...유입되며 대형 반도체주가 반등했다. 수급은 엇갈렸다. 유가증권시장에서 외국인은 3조8174억원어치를 순매도했다. 반면 기관은... 57분 전",
+      "collected_at": "2026-06-30T17:09:29.029843+09:00",
+      "normalized_title": "삼성전자·전기의 힘…코스피, 외인 '팔자'에도 0.97% 상승",
+      "source_normalized": "57분 전",
+      "duplicate_key": "57분 전::삼성전자·전기의 힘…코스피, 외인 '팔자'에도 0.97% 상승",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260630161223784",
+      "id": "282c4eb0fac852cc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "트럼프 \"휘발유값 갤런당 2.5달러까지 당장 내려야…거부시 큰일\"",
+      "url": "http://v.daum.net/v/20260630103218691",
+      "source": "6시간 전",
+      "published_at": "2026-06-30T11:09:29.036269+09:00",
+      "snippet": "25일 텍사스주 오스틴의 한 발레로 주유소에 휘발유 가격이 표시돼 있다. AAA에 따르면 미국 전국 휘발유 가격이 갤런당 평균 약 3.92...이어 \"이 성명에 신속히 대응해 마땅히 해야 할 일을 해야 한다\"며 \"불법적인 가격 담합 및 폭리 행위는 절대 용납되지 않을... 6시간 전 3",
+      "collected_at": "2026-06-30T17:09:29.036284+09:00",
+      "normalized_title": "트럼프 \"휘발유값 갤런당 2.5달러까지 당장 내려야…거부시 큰일\"",
+      "source_normalized": "6시간 전",
+      "duplicate_key": "6시간 전::트럼프 \"휘발유값 갤런당 2.5달러까지 당장 내려야…거부시 큰일\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260630103218691",
+      "id": "04f5a8bb64cc69e2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "코스피, 장 초반 8500선 회복했지만…외국인 매도에 8300대로",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=343724",
+      "source": "녹색경제신문",
+      "published_at": "2026-06-30T11:09:40.121770+09:00",
+      "snippet": "업종별로는 전기제품, 화학, 에너지장비, 철강 업종 등이 약세를 나타내고 있는 반면 전자제품, 전자장비, 반도체, 석유·가스 업종은 강세를... 다만 미국의 일부 소비자와 중소기업들이 삼성전자와 SK하이닉스, 마이크론 테크놀로지를 상대로 D램 가격 담합 의혹을 제기하며 소송을 제기한...",
+      "collected_at": "2026-06-30T17:09:40.121786+09:00",
+      "normalized_title": "코스피, 장 초반 8500선 회복했지만…외국인 매도에 8300대로",
+      "source_normalized": "녹색경제신문",
+      "duplicate_key": "녹색경제신문::코스피, 장 초반 8500선 회복했지만…외국인 매도에 8300대로",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.greened.kr/news/articleView.html?idxno=343724",
+      "id": "09939bf8863edfed",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "화장품 포장재도 비싸진다…무림, 중동사태에 패키지용 종이값 또 인상",
+      "url": "https://www.sidae.com/article/2026063009572129536",
+      "source": "동행미디어 시대",
+      "published_at": "2026-06-30T10:09:27.539810+09:00",
+      "snippet": "최근 공정거래위원회로부터 수천억 원대 담합 과징금 철퇴를 맞은 지 불과 두 달 만에 다시 가격 인상 카드를 꺼내 들면서, 전방 산업인 뷰티·식품... 무림 측은 공문을 통해 \"중동 전쟁 여파로 전 산업계의 원부자재 수급 불안과 원가 상승이 이어지고 있으며 유가 상승에 따른 에너지 및 물류 비용 증가 등...",
+      "collected_at": "2026-06-30T17:09:27.539828+09:00",
+      "normalized_title": "화장품 포장재도 비싸진다…무림, 중동사태에 패키지용 종이값 또 인상",
+      "source_normalized": "동행미디어 시대",
+      "duplicate_key": "동행미디어 시대::화장품 포장재도 비싸진다…무림, 중동사태에 패키지용 종이값 또 인상",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.sidae.com/article/2026063009572129536",
+      "id": "3ada0f7879ae3d34",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[마감시황] 상반기 피날레 장식한 반도체... 코스피 사흘만에 반등",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1386763",
+      "source": "매일일보",
+      "published_at": "2026-06-30T16:09:27.532699+09:00",
+      "snippet": "유가증권시장에서 기관이 대규모 물량을 사들이며 지수 반등을 주도했다. 기관은 홀로 2조9360억원을 순매수하며 상방 압력을 키웠다. 개인 역시... 애플 제품 가격 인상 소식과 반도체 3사 담합 소송 등 악재가 이어졌다. 하지만 전날 발표된 인공지능 반도체 대규모 투자 계획이 투자심리를 일부...",
+      "collected_at": "2026-06-30T17:09:27.532716+09:00",
+      "normalized_title": "[마감시황] 상반기 피날레 장식한 반도체... 코스피 사흘만에 반등",
+      "source_normalized": "매일일보",
+      "duplicate_key": "매일일보::[마감시황] 상반기 피날레 장식한 반도체... 코스피 사흘만에 반등",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.m-i.kr/news/articleView.html?idxno=1386763",
+      "id": "f4d59306f57761dd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "외인 3.8조 '팔자'에도 코스피, 0.97% 오른 8476.48에 거래 마쳐",
+      "url": "https://economist.co.kr/article/view/ecn202606300040",
+      "source": "이코노미스트",
+      "published_at": "2026-06-30T16:38:27.528481+09:00",
+      "snippet": "유가증권시장에서 외국인은 3조8174억원어치를 순매도했다. 반면 기관은 2조9361억원, 개인은 8335억원을 순매수했다. 코스피 상승은 반도체 투톱이 이끌었다. 미국 애플의 반도체 비용 부담에 따른 제품 가격 인상 가능성과 메모리 업체 담합 관련 소송 등으로 변동성이 켜졌지만, 정부가 지난 29일...",
+      "collected_at": "2026-06-30T17:09:27.528501+09:00",
+      "normalized_title": "외인 3.8조 '팔자'에도 코스피, 0.97% 오른 8476.48에 거래 마쳐",
+      "source_normalized": "이코노미스트",
+      "duplicate_key": "이코노미스트::외인 3.8조 '팔자'에도 코스피, 0.97% 오른 8476.48에 거래 마쳐",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://economist.co.kr/article/view/ecn202606300040",
+      "id": "08d3210ced673964",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "트럼프, 미국 석유업계 압박... \"가격 인하 안 하면 큰 문제 생길 것\"",
+      "url": "https://www.insight.co.kr/news/560784",
+      "source": "인사이트",
+      "published_at": "2026-06-30T11:09:27.535496+09:00",
+      "snippet": "또한 \"이 성명에 신속히 대응해 마땅히 해야 할 일을 해야 한다\"며 \"불법적인 가격 담합 및 폭리 행위는 절대 용납되지 않을 것\"이라고 강조했다. 이란과의 종전 양해각서 체결 이후 국제유가는 전쟁 전 수준으로 회복됐으나 미국의 일반 휘발유 평균 가격은 28일 기준 갤런당 약 3.87달러로 전쟁 발발 전에 비해...",
+      "collected_at": "2026-06-30T17:09:27.535513+09:00",
+      "normalized_title": "트럼프, 미국 석유업계 압박... \"가격 인하 안 하면 큰 문제 생길 것\"",
+      "source_normalized": "인사이트",
+      "duplicate_key": "인사이트::트럼프, 미국 석유업계 압박... \"가격 인하 안 하면 큰 문제 생길 것\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.insight.co.kr/news/560784",
+      "id": "802d23fa88ff46f3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

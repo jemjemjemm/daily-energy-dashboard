@@ -1,0 +1,93 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-29",
+  "slot": "morning",
+  "period_start": "2026-06-29T00:00:00+09:00",
+  "period_end": "2026-06-29T08:00:00+09:00",
+  "period_label": "2026-06-29 00:00 ~ 2026-06-29 08:00",
+  "generated_at": "2026-06-29T09:18:28.871862+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1508,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1118
+  },
+  "query_counts": {
+    "기름값 담합": 1,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 1,
+    "주유소 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "기름값 떨어져도 깊어가는 지역민의 한숨",
+      "url": "http://www.kwangju.co.kr/article.php?aid=1782659100800637074",
+      "source": "광주일보",
+      "published_at": "2026-06-29T00:29:30.460238+09:00",
+      "snippet": "미국과 이란 간 종전 협상으로 국제유가가 내림세를 보이지만 휘발유를 포함한 지역 주유소의 기름값은 여전히 2000원대를 넘고 있어 서민들의 속이... 하지만 담합이나 취약 지역 등 불합리한 구조로 피해가 발생한다면 상황이 전혀 다르다. 정부는 최고가격 조정과 함께 지역·산업별로 심한 격차를 보이는...",
+      "collected_at": "2026-06-29T08:29:30.460256+09:00",
+      "normalized_title": "기름값 떨어져도 깊어가는 지역민의 한숨",
+      "source_normalized": "광주일보",
+      "duplicate_key": "광주일보::기름값 떨어져도 깊어가는 지역민의 한숨",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://www.kwangju.co.kr/article.php?aid=1782659100800637074",
+      "id": "69e2366aff2b2795",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

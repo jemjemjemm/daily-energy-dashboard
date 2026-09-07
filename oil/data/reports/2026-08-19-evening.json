@@ -1,0 +1,122 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-08-19",
+  "slot": "evening",
+  "period_start": "2026-08-19T08:00:00+09:00",
+  "period_end": "2026-08-19T17:00:00+09:00",
+  "period_label": "2026-08-19 08:00 ~ 2026-08-19 17:00",
+  "generated_at": "2026-08-19T17:52:37.556010+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1553,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1163
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 1,
+    "공정위 유가 담합": 1,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 1,
+    "주유소 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "K뷰티 열풍에...포장재 수요 늘며 제지업계 깜짝 실적새 창 열림",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04300086645548960",
+      "source": "새 창 열림",
+      "published_at": "2026-08-19T16:51:37.094914+09:00",
+      "snippet": "다만 인쇄용지 가격 담합 제재 등으로 인한 과징금 부과는 당기순손실을 이끌었다. 무림페이퍼는 상반기 660억원의 순손실을 기록해 지난해 상반기... 한국제지 역시 공정위 과징금 491억원을 반영해 상반기 당기순손실 464억원을 기록했다. 2분기 실적 개선에도 불구하고 유가와 물류비 등 비용 인상으로... 새 창 열림",
+      "collected_at": "2026-08-19T17:51:37.094949+09:00",
+      "normalized_title": "K뷰티 열풍에...포장재 수요 늘며 제지업계 깜짝 실적새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::k뷰티 열풍에...포장재 수요 늘며 제지업계 깜짝 실적새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04300086645548960",
+      "id": "0d840b4bc77263ce",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유4사 담합 20일 첫 공판…반기보고서 기재는 '제각각'새 창 열림",
+      "url": "https://news.mtn.co.kr/news-detail/2026081914172285093",
+      "source": "새 창 열림",
+      "published_at": "2026-08-19T15:51:47.858980+09:00",
+      "snippet": "국내 정유 4사(SK에너지·HD현대오일뱅크·GS칼텍스·에쓰오일)가 최근 공시한 반기보고서에서 검찰이 기소한 담합 사건에 대한 기재 수준이 크게 엇갈린... 같은 보고서에서 올해 3월 13일 시행된 석유제품 최고가격제는 비교적 자세히 다뤄졌다. 최고가격제는 정부가 국내 판매가를 묶는 대신 손실을 재정으로... 새 창 열림",
+      "collected_at": "2026-08-19T17:51:47.859009+09:00",
+      "normalized_title": "정유4사 담합 20일 첫 공판…반기보고서 기재는 '제각각'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정유4사 담합 20일 첫 공판…반기보고서 기재는 '제각각'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://news.mtn.co.kr/news-detail/2026081914172285093",
+      "id": "131e41c10487f3c0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

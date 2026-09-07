@@ -1,0 +1,484 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-06-22",
+  "slot": "morning",
+  "period_start": "2026-06-22T00:00:00+09:00",
+  "period_end": "2026-06-22T08:00:00+09:00",
+  "period_label": "2026-06-22 00:00 ~ 2026-06-22 08:00",
+  "generated_at": "2026-06-22T09:38:06.753196+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1508,
+  "total_deduped_count": 12,
+  "total_ok_count": 12,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 5,
+    "B": 0,
+    "C": 7
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1118
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 6,
+    "공정위 유가 담합": 1,
+    "기름값 담합": 3,
+    "석유 담합": 11,
+    "유가 담합": 6,
+    "유가담합": 6,
+    "정유사 담합": 8,
+    "정유업계 담합": 4,
+    "주유소 담합": 8,
+    "휘발유 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "동아일보",
+      "url": "https://v.daum.net/channel/190/home",
+      "source": "동아일보",
+      "published_at": "2026-06-22T05:17:15.225740+09:00",
+      "snippet": "위해 공정위가 해야 할 일은. “중대한 담합 사건 처리가 예정돼 있다. 라면, 쌀 등 국민 필수 품목은 상시로 담합 여부를 감시하며 관리한다. 석유 관련 품목도 가격을 눌러놓은 부분이 있으니 물가 상승 압력이 있을 거다. 정유 4사, 일부 지역 주유소의 가격 담합... 3시간 전 1",
+      "collected_at": "2026-06-22T08:17:15.225772+09:00",
+      "normalized_title": "동아일보",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::동아일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/190/home",
+      "id": "4a0c6238fbb4fa64",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "주유소",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독]주병기 “담합 조사 시작되면 자진신고해도 과징금 최대 75%만 감...",
+      "url": "https://www.donga.com/news/Economy/article/all/20260621/134151673/1",
+      "source": "동아일보",
+      "published_at": "2026-06-22T05:17:14.290935+09:00",
+      "snippet": "공정거래위원회가 담합 조사 착수 이후 자진 신고한 사업자에 대해서는 최초 신고자라도 과징금 감면 한도를 현행 최대 100%에서 최대 75%로 줄이는... 현재 진행 중인 정유사 담합 조사에 대해서는 “정유 4사와 일부 지역 주유소에 대해 충분히 자료를 확보했다”고 밝혔다. 다음은 일문일답 ―공정위가 리니언시...",
+      "collected_at": "2026-06-22T08:17:14.290955+09:00",
+      "normalized_title": "주병기 “담합 조사 시작되면 자진신고해도 과징금 최대 75%만 감...",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::주병기 “담합 조사 시작되면 자진신고해도 과징금 최대 75%만 감...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.donga.com/news/Economy/article/all/20260621/134151673/1",
+      "id": "0b2be66559e6a07f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독]“담합 조사 시작후 자진신고땐 과징금 감면 75%로 축소 검토”",
+      "url": "https://www.donga.com/news/People/article/all/20260621/134152486/2",
+      "source": "동아일보",
+      "published_at": "2026-06-22T01:17:14.292437+09:00",
+      "snippet": "공정거래위원회가 담합 조사 착수 이후 자진 신고한 사업자에 대해서는 최초 신고자라도 과징금 감면 한도를 현행 최대 100%에서 최대 75%로 줄이는... 현재 진행 중인 정유사 담합 조사에 대해서는 “정유 4사와 일부 지역 주유소에 대해 충분히 자료를 확보했다”고 밝혔다. ―공정위가 리니언시 제도를 개편...",
+      "collected_at": "2026-06-22T08:17:14.292455+09:00",
+      "normalized_title": "“담합 조사 시작후 자진신고땐 과징금 감면 75%로 축소 검토”",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::“담합 조사 시작후 자진신고땐 과징금 감면 75%로 축소 검토”",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.donga.com/news/People/article/all/20260621/134152486/2",
+      "id": "653d89cfebe0bfeb",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국민일보",
+      "url": "https://v.daum.net/channel/45/home",
+      "source": "국민일보",
+      "published_at": "2026-06-22T01:17:10.000254+09:00",
+      "snippet": "장기화하는 중동발 유가 충격은 내수 전반을 위협하고 있다. 담합 제재로 겨우 눌러온 가공식품 물가와 농축산물 수급 불안, 여름철...물가 압박’으로 번질 수 있다는 분석이다. 21일 한국석유공사에 따르면 19일 기준 배럴당 두바이유는 73.61달러, 브렌트유는... 7시간 전",
+      "collected_at": "2026-06-22T08:17:10.000284+09:00",
+      "normalized_title": "국민일보",
+      "source_normalized": "국민일보",
+      "duplicate_key": "국민일보::국민일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/45/home",
+      "id": "24bfcc347c6ceaa1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "호르무즈 재봉쇄·고환율에 폭염까지… 진땀 나는 물가",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1782025541&code=11151100&cp=nv",
+      "source": "국민일보",
+      "published_at": "2026-06-22T01:17:08.865654+09:00",
+      "snippet": "담합 제재로 겨우 눌러온 가공식품 물가와 농축산물 수급 불안, 여름철 ‘히트플레이션’(폭염으로 인한 물가 상승)까지 자극하며 ‘3중 물가 압박’으로 번질 수 있다는 분석이다. 21일 한국석유공사에 따르면 19일 기준 배럴당 두바이유는 73.61달러, 브렌트유는 80.57달러로 집계됐다. 각각 전장보다 0.52%, 0.72...",
+      "collected_at": "2026-06-22T08:17:08.865670+09:00",
+      "normalized_title": "호르무즈 재봉쇄·고환율에 폭염까지… 진땀 나는 물가",
+      "source_normalized": "국민일보",
+      "duplicate_key": "국민일보::호르무즈 재봉쇄·고환율에 폭염까지… 진땀 나는 물가",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.kmib.co.kr/article/view.asp?arcid=1782025541&code=11151100&cp=nv",
+      "id": "f662c18fcf1c557c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독]주병기 “담합 조사 시작되면 자진신고해도 과징금 최대 75%만 감면”",
+      "url": "http://v.daum.net/v/20260622043312654",
+      "source": "3시간 전",
+      "published_at": "2026-06-22T05:17:15.226324+09:00",
+      "snippet": "위해 공정위가 해야 할 일은. “중대한 담합 사건 처리가 예정돼 있다. 라면, 쌀 등 국민 필수 품목은 상시로 담합 여부를 감시하며 관리한다. 석유 관련 품목도 가격을 눌러놓은 부분이 있으니 물가 상승 압력이 있을 거다. 정유 4사, 일부 지역 주유소의 가격 담합... 3시간 전 1",
+      "collected_at": "2026-06-22T08:17:15.226345+09:00",
+      "normalized_title": "주병기 “담합 조사 시작되면 자진신고해도 과징금 최대 75%만 감면”",
+      "source_normalized": "3시간 전",
+      "duplicate_key": "3시간 전::주병기 “담합 조사 시작되면 자진신고해도 과징금 최대 75%만 감면”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260622043312654",
+      "id": "ff7c52f11690f301",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[단독]“담합 조사 시작후 자진신고땐 과징금 감면 75%로 축소 검토”",
+      "url": "http://v.daum.net/v/20260622003223830",
+      "source": "7시간 전",
+      "published_at": "2026-06-22T01:17:15.227998+09:00",
+      "snippet": "위해 공정위가 해야 할 일은…. “중대한 담합 사건 처리가 예정돼 있다. 라면, 쌀 등 국민 필수 품목은 상시로 담합 여부를 감시하며 관리한다. 석유 관련 품목도 가격을 눌러놓은 부분이 있으니 물가 상승 압력이 있을 거다. 정유 4사, 일부 지역 주유소의 가격... 7시간 전 2",
+      "collected_at": "2026-06-22T08:17:15.228013+09:00",
+      "normalized_title": "“담합 조사 시작후 자진신고땐 과징금 감면 75%로 축소 검토”",
+      "source_normalized": "7시간 전",
+      "duplicate_key": "7시간 전::“담합 조사 시작후 자진신고땐 과징금 감면 75%로 축소 검토”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260622003223830",
+      "id": "a31b40ebc3f64f11",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "주유소",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "호르무즈 재봉쇄·고환율에 폭염까지… 진땀 나는 물가",
+      "url": "http://v.daum.net/v/20260622002102658",
+      "source": "7시간 전",
+      "published_at": "2026-06-22T01:17:10.000793+09:00",
+      "snippet": "장기화하는 중동발 유가 충격은 내수 전반을 위협하고 있다. 담합 제재로 겨우 눌러온 가공식품 물가와 농축산물 수급 불안, 여름철...물가 압박’으로 번질 수 있다는 분석이다. 21일 한국석유공사에 따르면 19일 기준 배럴당 두바이유는 73.61달러, 브렌트유는... 7시간 전",
+      "collected_at": "2026-06-22T08:17:10.000809+09:00",
+      "normalized_title": "호르무즈 재봉쇄·고환율에 폭염까지… 진땀 나는 물가",
+      "source_normalized": "7시간 전",
+      "duplicate_key": "7시간 전::호르무즈 재봉쇄·고환율에 폭염까지… 진땀 나는 물가",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260622002102658",
+      "id": "443c5606a538d938",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크 부서장 구속, '기름값 담합' SK에너지·GS칼텍스·에쓰오일 수사 확대",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Vc19qU0ZUcGJYcGdBMU8xVVNGV2loVVp0SjlqMGhJeGpTYnRVZk02WG9aRWNXZjd4cGRxa3ROU1BrUkZ1MVBENXcwdXhZRlZpZklpR3YtTHRlbEtRM1JBRGs1ZWRIOE95Mnk0ZUtB?oc=5",
+      "source": "뉴스후플러스",
+      "published_at": "2026-06-22T07:30:00+09:00",
+      "snippet": "HD현대오일뱅크 부서장 구속, '기름값 담합' SK에너지·GS칼텍스·에쓰오일 수사 확대 뉴스후플러스",
+      "collected_at": "2026-06-22T08:17:18.340283+09:00",
+      "normalized_title": "HD현대오일뱅크 부서장 구속, '기름값 담합' SK에너지·GS칼텍스·에쓰오일 수사 확대",
+      "source_normalized": "뉴스후플러스",
+      "duplicate_key": "뉴스후플러스::hd현대오일뱅크 부서장 구속, '기름값 담합' sk에너지·gs칼텍스·에쓰오일 수사 확대",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Vc19qU0ZUcGJYcGdBMU8xVVNGV2loVVp0SjlqMGhJeGpTYnRVZk02WG9aRWNXZjd4cGRxa3ROU1BrUkZ1MVBENXcwdXhZRlZpZklpR3YtTHRlbEtRM1JBRGs1ZWRIOE95Mnk0ZUtB?oc=5",
+      "id": "0a6f1d11bb0255b5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "기름값 청구서가 대통령 책상 위에 올라왔다?",
+      "url": "http://www.breaknews.com/1215714",
+      "source": "브레이크뉴스",
+      "published_at": "2026-06-22T07:17:08.864180+09:00",
+      "snippet": "■ 환율은 금융뉴스가 아니다 기름값을 밀어 올리는 변수는 담합 의혹만이 아니다. 원·달러 환율은 1500원 안팎의 고환율 압박을 키우고 있다. 6월 한때 원화 가치는 2009년 3월 이후 가장 약한 수준까지 밀렸고, 미·이란 협상 소식에...",
+      "collected_at": "2026-06-22T08:17:08.864198+09:00",
+      "normalized_title": "기름값 청구서가 대통령 책상 위에 올라왔다?",
+      "source_normalized": "브레이크뉴스",
+      "duplicate_key": "브레이크뉴스::기름값 청구서가 대통령 책상 위에 올라왔다?",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://www.breaknews.com/1215714",
+      "id": "574df2c308e1b727",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "<지금 호주는>호주는 유류세를 깎았고, 한국은 정유사 휴대전화를 열었...",
+      "url": "http://www.breaknews.com/1215715",
+      "source": "브레이크뉴스",
+      "published_at": "2026-06-22T07:17:08.862731+09:00",
+      "snippet": "연장과 정유 4사 담합 의혹 수사로 가격 결정 구조를 들여다보고 있다. 기름값은 이제 국제유가의 문제가 아니라... 국민이 체감하는 기름값 불신에 정유업계는 어떤 답을 내놓을 것인가. pcseong@naver.com 아래는 위 기사를 영문으로 옮긴...",
+      "collected_at": "2026-06-22T08:17:08.862769+09:00",
+      "normalized_title": "<지금 호주는>호주는 유류세를 깎았고, 한국은 정유사 휴대전화를 열었...",
+      "source_normalized": "브레이크뉴스",
+      "duplicate_key": "브레이크뉴스::<지금 호주는>호주는 유류세를 깎았고, 한국은 정유사 휴대전화를 열었...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "http://www.breaknews.com/1215715",
+      "id": "012c51b31555a4b9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[스카이 View] 정유업계 2~3주 공식은 깨졌다",
+      "url": "https://m.skyedaily.com/news_view.html?ID=306164",
+      "source": "스카이데일리",
+      "published_at": "2026-06-22T00:17:08.866969+09:00",
+      "snippet": "실제로 한국석유공사 유가 정보 사이트 오피넷 기준으로 6월15일 기준 l당 휘발유 가격은 전국 2009원, 서울 2051원이었고 6월16~18일은 모두 l당 전국 2009원... 이후 정부가 정유사들에 대한 담합 조사에 나섰고 HD현대오일뱅크 실무진이 18일 구속 전 피의자 심문에 출석하기로 했다. 검찰은 HD현대오일뱅크...",
+      "collected_at": "2026-06-22T08:17:08.866991+09:00",
+      "normalized_title": "[스카이 View] 정유업계 2~3주 공식은 깨졌다",
+      "source_normalized": "스카이데일리",
+      "duplicate_key": "스카이데일리::[스카이 view] 정유업계 2~3주 공식은 깨졌다",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://m.skyedaily.com/news_view.html?ID=306164",
+      "id": "151704b09b555e60",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "정유업계",
+        "휘발유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

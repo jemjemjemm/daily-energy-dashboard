@@ -3,12 +3,14 @@
 """
 generate_report_index.py
 
-Build docs/report-index.json from docs/reports/*.html for the dashboard.
+Build docs/report-index.json from data/reports/*.report.json for the dashboard.
 
 핵심 수정
-- docs/reports/YYYY-MM-DD.html 파일이 실제로 존재하면 기본적으로 인덱스에 포함한다.
+- data/reports/YYYY-MM-DD.report.json 파일 전체를 색인의 기준으로 사용한다.
+- 대응하는 docs/reports/YYYY-MM-DD.html이 있어야 공개 색인에 포함한다.
 - 본문에 '데이터 확인 필요' 같은 문구가 일부 포함되어도 전체 리포트를 제외하지 않는다.
 - 기존 대시보드 호환을 위해 schemaVersion/count/latestDate/availableDates/reports 구조를 유지한다.
+- 기존 색인 항목은 라벨과 경로를 포함해 그대로 보존하고 누락 항목만 HTML에서 복원한다.
 - docs/report-index.json 생성 시 public/report-index.json도 함께 동기화한다.
 """
 from __future__ import annotations
@@ -22,6 +24,7 @@ from pathlib import Path
 from typing import Any
 
 DATE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})")
+DATA_REPORT_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\.report\.json$")
 TITLE_RE = re.compile(r"<title[^>]*>\s*(.*?)\s*</title>", re.I | re.S)
 HEADER_DATE_RE = re.compile(
     r"class=[\"'][^\"']*header-date[^\"']*[\"'][^>]*>\s*(.*?)\s*</",
@@ -46,8 +49,9 @@ def parse_args() -> argparse.Namespace:
         allow_abbrev=False,
     )
     parser.add_argument("--reports-dir", default="docs/reports", help="HTML 리포트 폴더")
+    parser.add_argument("--data-reports-dir", default="data/reports", help="색인의 기준이 되는 report JSON 폴더")
     parser.add_argument("--out", default="docs/report-index.json", help="출력 JSON 파일")
-    parser.add_argument("--since", default="2026-05-01", help="이 날짜 이전 리포트는 캘린더 인덱스에서 제외")
+    parser.add_argument("--since", default="", help="선택 사항: 이 날짜 이전 리포트는 캘린더 인덱스에서 제외")
     # 기존 workflow 호환용. 더 이상 인덱스 제외 조건으로 쓰지 않음.
     parser.add_argument("--strict-json", action="store_true", help="호환 옵션: 현재는 HTML 존재 여부 중심으로 인덱싱")
     return parser.parse_args()
@@ -146,11 +150,6 @@ def read_report_meta(html_path: Path, since: str) -> tuple[dict[str, Any] | None
     date_text = date_match.group(1)
     if date_text < since:
         return None, "before_index_start_date"
-    if is_weekend_report(date_text):
-        return None, "weekend_report_skipped"
-    if is_holiday_report(date_text):
-        return None, "holiday_report_skipped"
-
     try:
         html_text = html_path.read_text(encoding="utf-8", errors="ignore")
     except Exception as exc:
@@ -181,34 +180,71 @@ def mirror_to_public_if_needed(out_path: Path, payload: dict[str, Any]) -> None:
             print(f"[WARN] public index 동기화 실패: {exc}")
 
 
+def load_existing_reports(out_path: Path) -> dict[str, dict[str, Any]]:
+    if not out_path.exists():
+        return {}
+    try:
+        payload = json.loads(out_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return {
+        item["date"]: item
+        for item in payload.get("reports", [])
+        if isinstance(item, dict) and isinstance(item.get("date"), str)
+    }
+
+
 def main() -> int:
     args = parse_args()
     reports_dir = Path(args.reports_dir)
+    data_reports_dir = Path(args.data_reports_dir)
     out_path = Path(args.out)
+    existing_reports = load_existing_reports(out_path)
 
-    if not reports_dir.exists():
+    if not reports_dir.exists() or not data_reports_dir.exists():
+        missing_dir = reports_dir if not reports_dir.exists() else data_reports_dir
         payload = {
             "schemaVersion": "1.1",
             "generatedAt": now_kst_text(),
             "count": 0,
             "latestDate": "",
             "availableDates": [],
-            "warnings": [{"fileName": str(reports_dir), "reason": "reports_dir_missing"}],
+            "warnings": [{"fileName": str(missing_dir), "reason": "reports_dir_missing"}],
             "reports": [],
         }
         atomic_write_json(out_path, payload)
         mirror_to_public_if_needed(out_path, payload)
-        print(f"[WARN] reports 폴더가 없습니다: {reports_dir}")
+        print(f"[WARN] reports 폴더가 없습니다: {missing_dir}")
         return 0
 
     reports: list[dict[str, Any]] = []
     warnings: list[dict[str, str]] = []
-    for html_path in sorted(reports_dir.glob("*.html")):
+    indexed_html_names: set[str] = set()
+    for data_path in sorted(data_reports_dir.glob("*.report.json")):
+        match = DATA_REPORT_RE.match(data_path.name)
+        if not match:
+            warnings.append({"fileName": data_path.name, "reason": "invalid_data_report_filename"})
+            continue
+        date_text = match.group(1)
+        if args.since and date_text < args.since:
+            warnings.append({"fileName": data_path.name, "reason": "before_index_start_date"})
+            continue
+        html_path = reports_dir / f"{date_text}.html"
+        if not html_path.exists():
+            warnings.append({"fileName": data_path.name, "reason": "matching_html_missing"})
+            continue
         item, reason = read_report_meta(html_path, args.since)
         if item:
-            reports.append(item)
+            reports.append(dict(existing_reports.get(date_text, item)))
+            indexed_html_names.add(html_path.name)
         else:
             warnings.append({"fileName": html_path.name, "reason": reason or "unknown"})
+
+    for html_path in sorted(reports_dir.glob("*.html")):
+        if html_path.name not in indexed_html_names:
+            date_match = DATE_RE.search(html_path.name)
+            if date_match and not (data_reports_dir / f"{date_match.group(1)}.report.json").exists():
+                warnings.append({"fileName": html_path.name, "reason": "matching_data_report_missing"})
 
     reports.sort(key=lambda item: item["date"], reverse=True)
     payload = {

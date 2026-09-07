@@ -1,0 +1,294 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-14",
+  "slot": "morning",
+  "period_start": "2026-07-14T00:00:00+09:00",
+  "period_end": "2026-07-14T08:00:00+09:00",
+  "period_label": "2026-07-14 00:00 ~ 2026-07-14 08:00",
+  "generated_at": "2026-07-14T17:18:01.020037+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1596,
+  "total_deduped_count": 8,
+  "total_ok_count": 8,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 6
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1206
+  },
+  "query_counts": {
+    "기름값 담합": 3,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 3,
+    "유가담합": 3,
+    "정유업계 담합": 1,
+    "주유소 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[사설]물가 흔든 반도체발 칩플레이션, 부작용 최소화해야",
+      "url": "http://v.daum.net/v/20260714050239021",
+      "source": "이데일리",
+      "published_at": "2026-07-14T05:07:04.382290+09:00",
+      "snippet": "공급망 붕괴, 2차는 러시아·우크라이나 전쟁으로 인한 에너지 가격 급등을 말한다. 최악의 시나리오는 미국·이란 전쟁이 촉발한 유가 불안과 칩플레이션이 동시다발적으로 일어나는 것이다. 지난달 미국에선 일부 소비자들이 D램 가격을 담합했다는 혐의로 빅3... 3시간 전",
+      "collected_at": "2026-07-14T08:07:04.382323+09:00",
+      "normalized_title": "[사설]물가 흔든 반도체발 칩플레이션, 부작용 최소화해야",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::[사설]물가 흔든 반도체발 칩플레이션, 부작용 최소화해야",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260714050239021",
+      "id": "fe731954c7949287",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이데일리",
+      "url": "https://v.daum.net/channel/6/home",
+      "source": "이데일리",
+      "published_at": "2026-07-14T05:07:02.626670+09:00",
+      "snippet": "공급망 붕괴, 2차는 러시아·우크라이나 전쟁으로 인한 에너지 가격 급등을 말한다. 최악의 시나리오는 미국·이란 전쟁이 촉발한 유가 불안과 칩플레이션이 동시다발적으로 일어나는 것이다. 지난달 미국에선 일부 소비자들이 D램 가격을 담합했다는 혐의로 빅3... 3시간 전",
+      "collected_at": "2026-07-14T08:07:02.626696+09:00",
+      "normalized_title": "이데일리",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::이데일리",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/6/home",
+      "id": "bfd3d796eb34da9b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "제주 농협 주유소 담합 '20억 과징금 철퇴'…도민들, \"배신감\" 분노",
+      "url": "https://news.google.com/rss/articles/CBMinwRBVV95cUxORGtEeWpCWFdWdXhmbFdaMFhSc1BScUlWaTNTMkxkNVUzRGQwY2VTWGVjbi1OdXF0OEF6Smd3OHpfT2I0ZGtpVHg3X2dYQXg0di12anh4WHd0Sjg1NmdSQjEzb1Vnb1M0RG1OVjRxUklfeVRfQTJnR0UzNlo3R2UxUnE3TG9ETzhzYVF0VzFDbHZCTmk5QXdqNDJJS0ZoWWxuSGUzSmFkcWk2TlNrWldXYnE0V0Z2RGs3WTdPd0xtTTAyRVlyNjJKdE42N0sxMmFWYW1lbjExWUlobjVVcXdvODUtWVdaYlpKSnBHY0ctQ0t2al9GMzNxM054d1dKb1RJN2REdnlqRnc5a2pYT0NHaVlSQmh6blM2ckV5cUNlNkxMb0V2UDRlMHBwQUV3RFJ1amtJQTJTdHNyd1BYaXZpNFZ4QTVGbkhrTmxETVQ0NTlvUHNfdmNHVWN5ZWNleXV6d2RlZmJoNGdLR1RVTHplX0xRQm03bHhrOWhONWI0Z0VaM3A3ejdaRF9xaU9MNURCVlEtcHZibTlZZWtTSHlQc09vUGs3UkJieVdwbW1ld2lPZ19USGNlMDFhMm9zRENIUjRhcHNlZlRTeHdQTlpmbVR1QU9XVnc3d0VmSk9BQUtZMTNJbnptR3RjY3o4eHBEZnJDMTBWXzVDSEx4N0JzWmdKazVKVm9UU0V6ZVNtMmRGU2FZY21Ua1B0TnJYaW8?oc=5",
+      "source": "MSN",
+      "published_at": "2026-07-14T05:18:49+09:00",
+      "snippet": "제주 농협 주유소 담합 '20억 과징금 철퇴'…도민들, \"배신감\" 분노 MSN",
+      "collected_at": "2026-07-14T08:07:34.851417+09:00",
+      "normalized_title": "제주 농협 주유소 담합 '20억 과징금 철퇴'…도민들, \"배신감\" 분노",
+      "source_normalized": "MSN",
+      "duplicate_key": "msn::제주 농협 주유소 담합 '20억 과징금 철퇴'…도민들, \"배신감\" 분노",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMinwRBVV95cUxORGtEeWpCWFdWdXhmbFdaMFhSc1BScUlWaTNTMkxkNVUzRGQwY2VTWGVjbi1OdXF0OEF6Smd3OHpfT2I0ZGtpVHg3X2dYQXg0di12anh4WHd0Sjg1NmdSQjEzb1Vnb1M0RG1OVjRxUklfeVRfQTJnR0UzNlo3R2UxUnE3TG9ETzhzYVF0VzFDbHZCTmk5QXdqNDJJS0ZoWWxuSGUzSmFkcWk2TlNrWldXYnE0V0Z2RGs3WTdPd0xtTTAyRVlyNjJKdE42N0sxMmFWYW1lbjExWUlobjVVcXdvODUtWVdaYlpKSnBHY0ctQ0t2al9GMzNxM054d1dKb1RJN2REdnlqRnc5a2pYT0NHaVlSQmh6blM2ckV5cUNlNkxMb0V2UDRlMHBwQUV3RFJ1amtJQTJTdHNyd1BYaXZpNFZ4QTVGbkhrTmxETVQ0NTlvUHNfdmNHVWN5ZWNleXV6d2RlZmJoNGdLR1RVTHplX0xRQm03bHhrOWhONWI0Z0VaM3A3ejdaRF9xaU9MNURCVlEtcHZibTlZZWtTSHlQc09vUGs3UkJieVdwbW1ld2lPZ19USGNlMDFhMm9zRENIUjRhcHNlZlRTeHdQTlpmbVR1QU9XVnc3d0VmSk9BQUtZMTNJbnptR3RjY3o4eHBEZnJDMTBWXzVDSEx4N0JzWmdKazVKVm9UU0V6ZVNtMmRGU2FZY21Ua1B0TnJYaW8?oc=5",
+      "id": "aa637fb393514372",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“생존 건 구조개편 코앞인데”…LG·한화·롯데, ‘석화 담합’ 조사에...새 창 열림",
+      "url": "https://www.ceoscoredaily.com/page/view/2026071311565370662",
+      "source": "새 창 열림",
+      "published_at": "2026-07-14T07:07:22.748226+09:00",
+      "snippet": "국내 석유화학 업계가 공정거래위원회 담합 의혹 조사에 촉각을 곤두세우고 있다. 공정위가 최근 식품, 정유 업계 등 생활 밀접 업종을 잇달아 겨냥하며... 한화솔루션은 PE(폴리에틸렌)와 PVC(폴리염화비닐) 등 주요 석유화학제품의 판매가격 인하를 결정했다. 고객사의 비용 부담을 줄이고 공급망 안정을... 새 창 열림",
+      "collected_at": "2026-07-14T08:07:22.748257+09:00",
+      "normalized_title": "“생존 건 구조개편 코앞인데”…LG·한화·롯데, ‘석화 담합’ 조사에...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::“생존 건 구조개편 코앞인데”…lg·한화·롯데, ‘석화 담합’ 조사에...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.ceoscoredaily.com/page/view/2026071311565370662",
+      "id": "d1db6e6a75997627",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "하늘이 고인 자리서 곱씹는 연꽃의 의미[렌즈로 본 세상]새 창 열림",
+      "url": "https://weekly.khan.co.kr/article/202607140600021",
+      "source": "새 창 열림",
+      "published_at": "2026-07-14T06:07:18.193426+09:00",
+      "snippet": "40여년 전, 민주주의를 위한 희생이 누군가에게 조롱거리가 되고, 비극적인 전쟁으로 요동치는 기름값 앞에서 누군가는 담합으로 이윤을 챙깁니다. 굴러떨어져야 할 것들이 자꾸 수면 위로 솟아오르고 있습니다. 연못에 비친 하늘은 진짜 하늘이 아니지만, 연꽃에는 그것으로 충분해 보였습니다. 무엇이 진흙에... 새 창 열림",
+      "collected_at": "2026-07-14T08:07:18.193455+09:00",
+      "normalized_title": "하늘이 고인 자리서 곱씹는 연꽃의 의미[렌즈로 본 세상]새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::하늘이 고인 자리서 곱씹는 연꽃의 의미[렌즈로 본 세상]새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://weekly.khan.co.kr/article/202607140600021",
+      "id": "c65efe3d2d722c08",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[사설]물가 흔든 반도체발 칩플레이션, 부작용 최소화해야새 창 열림",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01607206645514520",
+      "source": "새 창 열림",
+      "published_at": "2026-07-14T05:07:01.137569+09:00",
+      "snippet": "최악의 시나리오는 미국·이란 전쟁이 촉발한 유가 불안과 칩플레이션이 동시다발적으로 일어나는 것이다. 지난달 미국에선 일부 소비자들이 D램 가격을 담합했다는 혐의로 빅3 기업들을 상대로 소송을 내기도 했다. 삼성전자와 SK하이닉스는 칩플레이션 논란에 전략적으로 대응할 필요가 있다. 정책 당국은... 새 창 열림",
+      "collected_at": "2026-07-14T08:07:01.137604+09:00",
+      "normalized_title": "[사설]물가 흔든 반도체발 칩플레이션, 부작용 최소화해야새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[사설]물가 흔든 반도체발 칩플레이션, 부작용 최소화해야새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01607206645514520",
+      "id": "3a30c0841f9a43c8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "하늘이 고인 자리서 곱씹는 연꽃의 의미[렌즈로 본 세상]",
+      "url": "http://v.daum.net/v/20260714060239967",
+      "source": "주간경향",
+      "published_at": "2026-07-14T06:07:21.020237+09:00",
+      "snippet": "거꾸로인 듯합니다. 40여년 전, 민주주의를 위한 희생이 누군가에게 조롱거리가 되고, 비극적인 전쟁으로 요동치는 기름값 앞에서 누군가는 담합으로 이윤을 챙깁니다. 굴러떨어져야 할 것들이 자꾸 수면 위로 솟아오르고 있습니다. 연못에 비친 하늘은 진짜 하늘이... 2시간 전",
+      "collected_at": "2026-07-14T08:07:21.020265+09:00",
+      "normalized_title": "하늘이 고인 자리서 곱씹는 연꽃의 의미[렌즈로 본 세상]",
+      "source_normalized": "주간경향",
+      "duplicate_key": "주간경향::하늘이 고인 자리서 곱씹는 연꽃의 의미[렌즈로 본 세상]",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260714060239967",
+      "id": "1a96ab72a0393314",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주간경향",
+      "url": "https://v.daum.net/channel/29/home",
+      "source": "주간경향",
+      "published_at": "2026-07-14T06:07:19.326503+09:00",
+      "snippet": "거꾸로인 듯합니다. 40여년 전, 민주주의를 위한 희생이 누군가에게 조롱거리가 되고, 비극적인 전쟁으로 요동치는 기름값 앞에서 누군가는 담합으로 이윤을 챙깁니다. 굴러떨어져야 할 것들이 자꾸 수면 위로 솟아오르고 있습니다. 연못에 비친 하늘은 진짜 하늘이... 2시간 전",
+      "collected_at": "2026-07-14T08:07:19.326532+09:00",
+      "normalized_title": "주간경향",
+      "source_normalized": "주간경향",
+      "duplicate_key": "주간경향::주간경향",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/29/home",
+      "id": "1ddd3596cc1f6eef",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

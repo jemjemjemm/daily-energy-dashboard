@@ -1,0 +1,83 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-07-25",
+  "slot": "evening",
+  "period_start": "2026-07-25T08:00:00+09:00",
+  "period_end": "2026-07-25T17:00:00+09:00",
+  "period_label": "2026-07-25 08:00 ~ 2026-07-25 17:00",
+  "generated_at": "2026-07-25T19:00:36.446787+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1552,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1162
+  },
+  "query_counts": {
+    "석유제품 담합": 1,
+    "주유소 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "8차 석유 최고가격 동결...\"서민경제 보호 고려\"새 창 열림",
+      "url": "https://www.tfmedia.co.kr/news/article.html?no=205992",
+      "source": "새 창 열림",
+      "published_at": "2026-07-25T08:00:06.736377+09:00",
+      "snippet": "주유소 판매가는 23일 기준 리터당 휘발유 1,871원, 경유 1,856원으로, 산업부는 당분간 1,800원대 가격이 당분간 유지될 것으로 전망했다. 다만 중동 정세... 양 실장은 국내 정유사들이 담합으로 유가를 폭등시켰다는 검찰 수사 결과에 대해서는 \"검찰이 넘겨준 자료를 받아 검토하고 있다\"며 \"(손실액 정산... 새 창 열림",
+      "collected_at": "2026-07-25T19:00:06.736408+09:00",
+      "normalized_title": "8차 석유 최고가격 동결...\"서민경제 보호 고려\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::8차 석유 최고가격 동결...\"서민경제 보호 고려\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유제품 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.tfmedia.co.kr/news/article.html?no=205992",
+      "id": "3006bff00ff7a458",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
