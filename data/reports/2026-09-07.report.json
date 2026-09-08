@@ -5,7 +5,7 @@
     "display_date": "2026년 9월 7일 (월)",
     "previous_day_label": "9/6",
     "today_label": "9/7",
-    "generated_at": "2026-09-07 08:29 KST",
+    "generated_at": "2026-09-08 09:59 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △미국 정유 설비 가동률이 역대 최고 수준인 98%까지 올라간 상황에서도 경유 가격이 사상 최고치를 경신한 만큼 정유업의 실적 가시성이 높다는 평가다는 내용 △다만 정부는 국내 수급 안정을 위해 석유제품 수출을 통제하고 있고, 정유사들은 “이제는 수출 제한 조치를 풀어야 할 때”라고 맞서며 갑론을박이 계속되고 있음 △글로벌 시장조사기관 포천비즈니스인사이트는 데이터센터 액침냉각 시장 규모가 2025년 2억8729만 달러(약 3877억 원)에서 2034년 16억9411만 달러(약 2조2862억 원)로 매년"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △이란과 우크라이나 전쟁 여파로 정제설비 공급 부족 현상이 장기화되고 미국의 디젤 가격이 사상 최고치를 경신하는 가운데 국내 대표 정유사인 에쓰오일(S-Oil)이 올해 3분기 시장 기대치를 훌쩍 △한국의 호르무즈해협 파병을 놓고 미국은 \"기다리고 있다\", 이란은 \"전쟁 참여로 간주하겠다\" △실제 대한항공(003490)은 환율이 10원 하락할 때마다 장부상 외화평가손익이 약 560억 원 개선되는 것으로 나타났다는 내용"
     }
   ],
   "prices": {
@@ -1646,7 +1650,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(7/6~9/6)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1762,6 +1767,87 @@
       "merged_at": "2026-09-07 08:29:41 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-09-07.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△이란과 우크라이나 전쟁 여파로 정제설비 공급 부족 현상이 장기화되고 미국의 디젤 가격이 사상 최고치를 경신하는 가운데 국내 대표 정유사인 에쓰오일(S-Oil)이 올해 3분기 시장 기대치를 훌쩍 △한국의 호르무즈해협 파병을 놓고 미국은 \"기다리고 있다\", 이란은 \"전쟁 참여로 간주하겠다\" △실제 대한항공(003490)은 환율이 10원 하락할 때마다 장부상 외화평가손익이 약 560억 원 개선되는 것으로 나타났다는 내용",
+    "trend_paragraphs": [
+      "매일경제는 이란과 우크라이나 전쟁 여파로 정제설비 공급 부족 현상이 장기화되고 미국의 디젤 가격이 사상 최고치를 경신하는 가운데 국내 대표 정유사인 에쓰오일(S-Oil)이 올해 3분기 시장 기대치를 훌쩍 뛰어넘는 ‘어닝.",
+      "YTN는 한국의 호르무즈해협 파병을 놓고 미국은 \"기다리고 있다\", 이란은 \"전쟁 참여로 간주하겠다\".",
+      "뉴스1는 실제 대한항공(003490)은 환율이 10원 하락할 때마다 장부상 외화평가손익이 약 560억 원 개선되는 것으로 나타났다."
+    ],
+    "articles": [
+      {
+        "title": "“경유가격 미쳤다, 마진은 더 미쳤다”…에쓰오일, 3분기 실적 기대감",
+        "press": "매일경제",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260907092406084",
+        "summary": "이란과 우크라이나 전쟁 여파로 정제설비 공급 부족 현상이 장기화되고 미국의 디젤 가격이 사상 최고치를 경신하는 가운데 국내 대표 정유사인 에쓰오일(S-Oil)이 올해 3분기 시장 기대치를 훌쩍 뛰어넘는 ‘어닝",
+        "snippet": "“경유가격 미쳤다, 마진은 더 미쳤다”…에쓰오일, 3분기 실적 기대감 우크라이나 전쟁 여파로 정제설비 공급 부족 현상이 장기화되고 미국의 디젤 가격이 사상 최고치를 경신하는 가운데 국내 대표 정유사 인 에쓰오일(S-Oil)이 올해 3분기 시장 기대치를 훌쩍 뛰어넘는 ‘어닝 서프라이즈’를 기록할 것으로 전망된다. 중동 지역의 원유... 2026.09.07 2",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 2000
+      },
+      {
+        "title": "정부, '호르무즈' 파병할 경우 '군수지원함'은 뺀다..이유는?",
+        "press": "YTN",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260907125208968",
+        "summary": "한국의 호르무즈해협 파병을 놓고 미국은 \"기다리고 있다\", 이란은 \"전쟁 참여로 간주하겠다\"",
+        "snippet": "동영상 첨부된 문서 정부, '호르무즈' 파병할 경우 '군수지원함'은 뺀다..이유는? 나라인데요. 국제유가가 오르면 같은 양의 원유를 수입하는 데 훨씬 더 많은 달러가 필요합니다. 물가에 미치는 영향도 단순히 주유소 가격에만 그치지 않는데요. 한국개발연구원 분석에 따르면 운송 불안 때문에 두바이유 상승률이 10%포인트 높아질 경우 소비자... 21시간 전 2",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 2,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 3465
+      },
+      {
+        "title": "'환율 급락' 항공·철강· 정유 '숨통'…대한항공 10원당 560억 플러스",
+        "press": "뉴스1",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260907160046569",
+        "summary": "실제 대한항공(003490)은 환율이 10원 하락할 때마다 장부상 외화평가손익이 약 560억 원 개선되는 것으로 나타났다",
+        "snippet": "'환율 급락' 항공·철강· 정유 '숨통'…대한항공 10원당 560억 플러스 10원 하락할 때마다 장부상 외화평가손익이 약 560억 원 개선되는 것으로 나타났다. 원재료를 상당 부분 달러로 조달하는 철강· 정유 업계도 비슷한 기대를 내놓고 있다. 7일 업계에 따르면 최근 달러·원 환율 하락 수혜 업종으로 항공운송, 화학, 철강 등이 대표적... 17시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 3,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1740
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
