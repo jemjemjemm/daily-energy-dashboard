@@ -67,10 +67,13 @@ jobs:
           oil_data_reports = sorted((oil / "data" / "reports").glob("*.json"))
           oil_index = json.loads((oil / "data" / "report-index.json").read_text(encoding="utf-8"))
 
-          assert len(daily_reports) == 131, len(daily_reports)
-          assert len(oil_reports) == 253, len(oil_reports)
-          assert len(oil_data_reports) == 253, len(oil_data_reports)
-          assert len(oil_index) == 253, len(oil_index)
+          expected_daily = {p.name.replace('.report.json', '.html') for p in Path('data/reports').glob('*.report.json')}
+          expected_oil_html = {item['html_path'] for item in oil_index}
+          expected_oil_json = {item['json_path'] for item in oil_index}
+          assert expected_daily and {p.name for p in daily_reports} == expected_daily
+          assert oil_index and len(expected_oil_html) == len(expected_oil_json) == len(oil_index)
+          assert {p.relative_to(oil).as_posix() for p in oil_reports} == expected_oil_html
+          assert {p.relative_to(oil).as_posix() for p in oil_data_reports} == expected_oil_json
 
           class References(HTMLParser):
               def __init__(self):
@@ -101,7 +104,7 @@ jobs:
           for relative in ("assets/css/style.css", "assets/js/app.js", "data/report-index.json"):
               assert (oil / relative).is_file(), relative
 
-          print("[OK] Unified artifact verified: Daily=131, oil HTML=253, oil JSON=253")
+          print(f"[OK] Unified artifact verified: Daily={len(daily_reports)}, oil HTML={len(oil_reports)}, oil JSON={len(oil_data_reports)}")
           print(f"[OK] Oil relative paths verified: {checked} local references")
           PY
       - name: Configure GitHub Pages
