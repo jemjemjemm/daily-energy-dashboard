@@ -1,0 +1,81 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-09",
+  "slot": "morning",
+  "period_start": "2026-09-09T00:00:00+09:00",
+  "period_end": "2026-09-09T08:00:00+09:00",
+  "period_label": "2026-09-09 00:00 ~ 2026-09-09 08:00",
+  "generated_at": "2026-09-09T08:36:36.984028+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1562,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 5,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1172
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 1,
+    "석유 담합": 1,
+    "정유사 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[Who Is ?] 고준 애경케미칼 및 AK홀딩스 대표이사새 창 열림",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=446692",
+      "source": "새 창 열림",
+      "published_at": "2026-09-09T07:35:55.948478+09:00",
+      "snippet": "정유사와, 신재생에너지 공급의무화제도(RPS)에 따라 총 발전량 중 일정 비율을 신재생에너지로 공급해야 하는 발전사들은 KG에코솔루션 등으로부터 입찰을 통해 바이오연료를 구매하고 있다. 공정거래위원회 심사관은 애경케미칼 등 7개사의 이 같은 행위가 공정거래법 제40조 제1항 제8호(입찰담합)... 새 창 열림",
+      "collected_at": "2026-09-09T08:35:55.948504+09:00",
+      "normalized_title": "[Who Is ?] 고준 애경케미칼 및 AK홀딩스 대표이사새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[who is ?] 고준 애경케미칼 및 ak홀딩스 대표이사새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.businesspost.co.kr/BP?command=article_view&num=446692",
+      "id": "3b0121804571572b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
