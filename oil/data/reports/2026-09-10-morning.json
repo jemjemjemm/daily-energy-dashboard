@@ -1,0 +1,80 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-10",
+  "slot": "morning",
+  "period_start": "2026-09-10T00:00:00+09:00",
+  "period_end": "2026-09-10T08:00:00+09:00",
+  "period_label": "2026-09-10 00:00 ~ 2026-09-10 08:00",
+  "generated_at": "2026-09-10T08:18:34.294060+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1486,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1096
+  },
+  "query_counts": {
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[이슈체크] 비정기 세무조사, 매년 100~200건씩 증가…국세청 “신중히...새 창 열림",
+      "url": "https://www.tfmedia.co.kr/news/article.html?no=207110",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T07:52:41.515947+09:00",
+      "snippet": "가격담합 시장교란행위(12월) 등을 꼽았다. 2026년 1월부터 대형베이커리 상속 실태(확인)부터 8월 황제사택 조사 발표까지 상반기 내내 청와대... 고유가 장기화, 금리인상 우려 등 어려운 경제여건을 감안하여 세무조사를 보다 신중하게 실시하고, 납세자의 경제활동에 지장을 주지 않도록 세심히... 새 창 열림",
+      "collected_at": "2026-09-10T08:17:41.515971+09:00",
+      "normalized_title": "[이슈체크] 비정기 세무조사, 매년 100~200건씩 증가…국세청 “신중히...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[이슈체크] 비정기 세무조사, 매년 100~200건씩 증가…국세청 “신중히...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.tfmedia.co.kr/news/article.html?no=207110",
+      "id": "5395f3c0a56f3929",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "가격담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

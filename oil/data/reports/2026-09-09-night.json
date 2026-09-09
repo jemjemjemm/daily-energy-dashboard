@@ -1,0 +1,111 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-09",
+  "slot": "night",
+  "period_start": "2026-09-09T17:00:00+09:00",
+  "period_end": "2026-09-10T00:00:00+09:00",
+  "period_label": "2026-09-09 17:00 ~ 2026-09-10 00:00",
+  "generated_at": "2026-09-10T08:18:34.180726+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1486,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1096
+  },
+  "query_counts": {
+    "석유 담합": 1,
+    "유가 담합": 2,
+    "유가담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "유가 100달러 위협에 추석 물가 비상…정부 '900억' 더 푼다새 창 열림",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1313163&inflow=N",
+      "source": "새 창 열림",
+      "published_at": "2026-09-09T18:17:41.517441+09:00",
+      "snippet": "이달 들어 연이어 상승한 국제유가는 배럴당 100달러에 근접한 상황입니다. 유가 상승이 향후 물가 상방 압력으로 작용할 수 있는 만큼 정부는 900억원의... 지난달 28일 출범한 '민생침해 범정부 합동대응반'은 식재료 등 민생 밀접 품목의 가격 담합 등 불공정행위를 점검할 방침입니다. 정부는 \"추석 3주 전... 새 창 열림",
+      "collected_at": "2026-09-10T08:17:41.517458+09:00",
+      "normalized_title": "유가 100달러 위협에 추석 물가 비상…정부 '900억' 더 푼다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::유가 100달러 위협에 추석 물가 비상…정부 '900억' 더 푼다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.newstomato.com/ReadNews.aspx?no=1313163&inflow=N",
+      "id": "4874d4d6e9683a2e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부·기업 대거 할인 공세에도...추석물가 '복병'은 따로 있다새 창 열림",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=310796",
+      "source": "새 창 열림",
+      "published_at": "2026-09-09T17:17:41.518847+09:00",
+      "snippet": "수산물은 환율과 유가 상승으로 수입과 운송에 드는 비용이 커졌다. 한우는 사육 마릿수 감소로 도축 물량이 줄어든 데다 사료비 부담까지 겹쳤다.... 민생밀접 품목의 가격 담합과 할당관세 관련 위법행위에 대한 조사도 이어진다. 평균 차례상 비용 상승률은 낮지만 소비자가 자주 구매하는 일부 품목의... 새 창 열림",
+      "collected_at": "2026-09-10T08:17:41.518863+09:00",
+      "normalized_title": "정부·기업 대거 할인 공세에도...추석물가 '복병'은 따로 있다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정부·기업 대거 할인 공세에도...추석물가 '복병'은 따로 있다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.straightnews.co.kr/news/articleView.html?idxno=310796",
+      "id": "d59982c6983a6baf",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
