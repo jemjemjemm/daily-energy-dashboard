@@ -1,0 +1,322 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-11",
+  "slot": "morning",
+  "period_start": "2026-09-11T00:00:00+09:00",
+  "period_end": "2026-09-11T08:00:00+09:00",
+  "period_label": "2026-09-11 00:00 ~ 2026-09-11 08:00",
+  "generated_at": "2026-09-11T08:20:42.027833+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1570,
+  "total_deduped_count": 9,
+  "total_ok_count": 9,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 7
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1180
+  },
+  "query_counts": {
+    "석유 담합": 9,
+    "석유제품 담합": 7
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[법조브리핑] 선관위 특검 “법사위, 파견검사 수사 가능하도록 법안 재발의 확인…추가조치 없다”",
+      "url": "http://v.daum.net/v/20260911060553778",
+      "source": "세계일보",
+      "published_at": "2026-09-11T06:19:39.753750+09:00",
+      "snippet": "2항을 전면 삭제하는 내용이 담겼다. 서울 서초구 서울중앙지방검찰청에서 검찰 깃발이 휘날리고 있다. 연합뉴스 ◆검찰, ‘석유화학제품 담합 의혹' OCI 대표 피의자 조사 서울중앙지검 공정거래조사부(부장검사 나희석)은 전날 김유신 OCI 부회장 대표이사와... 2시간 전",
+      "collected_at": "2026-09-11T08:19:39.753768+09:00",
+      "normalized_title": "[법조브리핑] 선관위 특검 “법사위, 파견검사 수사 가능하도록 법안 재발의 확인…추가조치 없다”",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::[법조브리핑] 선관위 특검 “법사위, 파견검사 수사 가능하도록 법안 재발의 확인…추가조치 없다”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260911060553778",
+      "id": "17e6548cd9df319b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "세계일보",
+      "url": "https://v.daum.net/channel/38/home",
+      "source": "세계일보",
+      "published_at": "2026-09-11T06:19:38.760218+09:00",
+      "snippet": "2항을 전면 삭제하는 내용이 담겼다. 서울 서초구 서울중앙지방검찰청에서 검찰 깃발이 휘날리고 있다. 연합뉴스 ◆검찰, ‘석유화학제품 담합 의혹' OCI 대표 피의자 조사 서울중앙지검 공정거래조사부(부장검사 나희석)은 전날 김유신 OCI 부회장 대표이사와... 2시간 전",
+      "collected_at": "2026-09-11T08:19:38.760235+09:00",
+      "normalized_title": "세계일보",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::세계일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/38/home",
+      "id": "84b9eb17cf27ffac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "WSJ \"韓, 대미투자 첫 사업 합의 임박\"…김정관, 막판조율 위해 방미",
+      "url": "http://v.daum.net/v/20260911064504617",
+      "source": "SBS Biz",
+      "published_at": "2026-09-11T07:19:38.759061+09:00",
+      "snippet": "업체가 수년 동안 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의한 것으로 의심하는데요. 검찰은 이들 업체가 중동전쟁으로 나프타 수급이 불안정해지자 담합을 통해 수조원 규모의 부당이익을 챙긴 것으로 보고 지난달 압수... 1시간 전",
+      "collected_at": "2026-09-11T08:19:38.759080+09:00",
+      "normalized_title": "WSJ \"韓, 대미투자 첫 사업 합의 임박\"…김정관, 막판조율 위해 방미",
+      "source_normalized": "SBS Biz",
+      "duplicate_key": "sbs biz::wsj \"韓, 대미투자 첫 사업 합의 임박\"…김정관, 막판조율 위해 방미",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260911064504617",
+      "id": "c62854aac57ebd15",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SBS Biz",
+      "url": "https://v.daum.net/channel/189/home",
+      "source": "SBS Biz",
+      "published_at": "2026-09-11T07:19:37.631739+09:00",
+      "snippet": "업체가 수년 동안 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의한 것으로 의심하는데요. 검찰은 이들 업체가 중동전쟁으로 나프타 수급이 불안정해지자 담합을 통해 수조원 규모의 부당이익을 챙긴 것으로 보고 지난달 압수... 1시간 전",
+      "collected_at": "2026-09-11T08:19:37.631758+09:00",
+      "normalized_title": "SBS Biz",
+      "source_normalized": "SBS Biz",
+      "duplicate_key": "sbs biz::sbs biz",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/189/home",
+      "id": "a4d114649c7e5afd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 석유화학업체 담합 의혹 수사…경영진 줄소환:검찰연합일보",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBTTFNmZmtYdkdvMEhSVTlsXzdxdDcwdll0Z1BYSW14VE9mMnJpOXdjeXY0MkMyT0QzekFST0RNcHN6UlBhWnZzaNIBZEFVX3lxTFBUckdrLXlRdUZjV3pBajNKSFRUcmF4VGdxeHE1RHY0OXlrZElPbnpVMTNHQkpPckplS3lIcUJuNXJkV2JZa2gyM1N6X01EaTNvenFNTElOM0V3Y2U1dFh1WkczZ1k?oc=5",
+      "source": "검찰연합일보",
+      "published_at": "2026-09-11T05:51:36+09:00",
+      "snippet": "검찰, 석유화학업체 담합 의혹 수사…경영진 줄소환:검찰연합일보 검찰연합일보",
+      "collected_at": "2026-09-11T08:19:49.044088+09:00",
+      "normalized_title": "검찰, 석유화학업체 담합 의혹 수사…경영진 줄소환:검찰연합일보",
+      "source_normalized": "검찰연합일보",
+      "duplicate_key": "검찰연합일보::검찰, 석유화학업체 담합 의혹 수사…경영진 줄소환:검찰연합일보",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBTTFNmZmtYdkdvMEhSVTlsXzdxdDcwdll0Z1BYSW14VE9mMnJpOXdjeXY0MkMyT0QzekFST0RNcHN6UlBhWnZzaNIBZEFVX3lxTFBUckdrLXlRdUZjV3pBajNKSFRUcmF4VGdxeHE1RHY0OXlrZElPbnpVMTNHQkpPckplS3lIcUJuNXJkV2JZa2gyM1N6X01EaTNvenFNTElOM0V3Y2U1dFh1WkczZ1k?oc=5",
+      "id": "76c6e782072d4eed",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, ‘전쟁 틈타 수조원 담합’ 석유화학 7사 윗선 겨눈다",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9DVWU5SUdIQWwxWmdCTEI3bmEtMHpKX25JaG9NeWF2aUNfcDhPcjRsb2RvemJyNi1NS2ZJV0JVTmVNUmMtWkk4UHJiaVQ3dzZtUVloQU92NVJSeTJ0SlhDN2JBRFlkYVpJdzFDeXdjb9IBb0FVX3lxTE9DVWU5SUdIQWwxWmdCTEI3bmEtMHpKX25JaG9NeWF2aUNfcDhPcjRsb2RvemJyNi1NS2ZJV0JVTmVNUmMtWkk4UHJiaVQ3dzZtUVloQU92NVJSeTJ0SlhDN2JBRFlkYVpJdzFDeXdjbw?oc=5",
+      "source": "뉴스로드",
+      "published_at": "2026-09-11T07:04:50+09:00",
+      "snippet": "검찰, ‘전쟁 틈타 수조원 담합’ 석유화학 7사 윗선 겨눈다 뉴스로드",
+      "collected_at": "2026-09-11T08:19:49.043370+09:00",
+      "normalized_title": "검찰, ‘전쟁 틈타 수조원 담합’ 석유화학 7사 윗선 겨눈다",
+      "source_normalized": "뉴스로드",
+      "duplicate_key": "뉴스로드::검찰, ‘전쟁 틈타 수조원 담합’ 석유화학 7사 윗선 겨눈다",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9DVWU5SUdIQWwxWmdCTEI3bmEtMHpKX25JaG9NeWF2aUNfcDhPcjRsb2RvemJyNi1NS2ZJV0JVTmVNUmMtWkk4UHJiaVQ3dzZtUVloQU92NVJSeTJ0SlhDN2JBRFlkYVpJdzFDeXdjb9IBb0FVX3lxTE9DVWU5SUdIQWwxWmdCTEI3bmEtMHpKX25JaG9NeWF2aUNfcDhPcjRsb2RvemJyNi1NS2ZJV0JVTmVNUmMtWkk4UHJiaVQ3dzZtUVloQU92NVJSeTJ0SlhDN2JBRFlkYVpJdzFDeXdjbw?oc=5",
+      "id": "ec80efcf5a3ac02a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "WSJ \"韓, 대미투자 첫 사업 합의 임박\"…김정관, 막판조율 위해 방미새 창 열림",
+      "url": "https://biz.sbs.co.kr/article_hub/20000334022?division=NAVER",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T07:19:36.725473+09:00",
+      "snippet": "검찰은 LG화학과 한화솔루션, 애경케미칼 등 7개 업체가 수년 동안 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의한 것으로 의심하는데요. 검찰은 이들 업체가 중동전쟁으로 나프타 수급이 불안정해지자 담합을 통해 수조원 규모의 부당이익을 챙긴 것으로 보고 지난달... 새 창 열림",
+      "collected_at": "2026-09-11T08:19:36.725490+09:00",
+      "normalized_title": "WSJ \"韓, 대미투자 첫 사업 합의 임박\"…김정관, 막판조율 위해 방미새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::wsj \"韓, 대미투자 첫 사업 합의 임박\"…김정관, 막판조율 위해 방미새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://biz.sbs.co.kr/article_hub/20000334022?division=NAVER",
+      "id": "e32e678b6b0f50c9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '전쟁 틈타 수조원 담합' 석유화학 7사 윗선 겨눈다새 창 열림",
+      "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=64128",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T07:19:36.723889+09:00",
+      "snippet": "검찰이 수조원 규모의 담합 의혹을 받는 국내 주요 석유화학 업체 전·현직 경영진을 잇달아 소환하며 수사 강도를 높이고 있다. '전쟁 특수'를 이용해 원재료 가격 불안을 빌미로 제품 가격을 짜고 올렸는지, 그리고 이 과정에 그룹 차원의 '윗선' 개입이 있었는지가 핵심 쟁점이다. 10일 법조계에 따르면... 새 창 열림",
+      "collected_at": "2026-09-11T08:19:36.723912+09:00",
+      "normalized_title": "검찰, '전쟁 틈타 수조원 담합' 석유화학 7사 윗선 겨눈다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, '전쟁 틈타 수조원 담합' 석유화학 7사 윗선 겨눈다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.newsroad.co.kr/news/articleView.html?idxno=64128",
+      "id": "d762006a5c6db397",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[법조브리핑] 선관위 특검 “법사위, 파견검사 수사 가능하도록 법안 재...새 창 열림",
+      "url": "https://www.segye.com/newsView/20260910520343?OutUrl=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T06:19:36.727051+09:00",
+      "snippet": "연합뉴스 ◆검찰, ‘석유화학제품 담합 의혹' OCI 대표 피의자 조사 서울중앙지검 공정거래조사부(부장검사 나희석)은 전날 김유신 OCI 부회장 대표이사와 장영수 전 PKC 대표이사를 공정거래법 위반 혐의 피의자 신분으로 불러 조사했다. LG화학에서 폴리염화비닐(PVC)·가소제 사업부장을 맡고 있는 한모 전무도... 새 창 열림",
+      "collected_at": "2026-09-11T08:19:36.727069+09:00",
+      "normalized_title": "[법조브리핑] 선관위 특검 “법사위, 파견검사 수사 가능하도록 법안 재...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[법조브리핑] 선관위 특검 “법사위, 파견검사 수사 가능하도록 법안 재...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.segye.com/newsView/20260910520343?OutUrl=naver",
+      "id": "2e9a51450524516e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

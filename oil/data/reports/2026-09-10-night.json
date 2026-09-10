@@ -1,0 +1,1170 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-10",
+  "slot": "night",
+  "period_start": "2026-09-10T17:00:00+09:00",
+  "period_end": "2026-09-11T00:00:00+09:00",
+  "period_label": "2026-09-10 17:00 ~ 2026-09-11 00:00",
+  "generated_at": "2026-09-11T08:20:41.899774+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1570,
+  "total_deduped_count": 35,
+  "total_ok_count": 35,
+  "total_review_count": 0,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 10,
+    "B": 1,
+    "C": 24
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1180
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 7,
+    "공정위 유가 담합": 3,
+    "기름값 담합": 3,
+    "석유 담합": 25,
+    "석유제품 담합": 22,
+    "유가 담합": 11,
+    "유가담합": 11,
+    "유류가격 담합": 2,
+    "정유사 담합": 7,
+    "정유업계 담합": 3,
+    "주유소 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "수조원대 석화 담합 의혹…檢, OCI 부회장 등 줄소환",
+      "url": "http://v.daum.net/v/20260910184351601",
+      "source": "한국경제",
+      "published_at": "2026-09-10T19:19:41.964815+09:00",
+      "snippet": "검찰이 수조원 규모 담합 의혹을 받는 국내 석유화학업체 경영진을 줄줄이 소환했다. 10일 법조계에 따르면 서울중앙지방검찰청 공정...7개 업체가 수년간 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의했다고 보고 있다. 검찰... 13시간 전",
+      "collected_at": "2026-09-11T08:19:41.964835+09:00",
+      "normalized_title": "수조원대 석화 담합 의혹…檢, OCI 부회장 등 줄소환",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::수조원대 석화 담합 의혹…檢, oci 부회장 등 줄소환",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260910184351601",
+      "id": "2a5e059fab314123",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국경제",
+      "url": "https://v.daum.net/channel/3/home",
+      "source": "한국경제",
+      "published_at": "2026-09-10T19:19:40.778653+09:00",
+      "snippet": "검찰이 수조원 규모 담합 의혹을 받는 국내 석유화학업체 경영진을 줄줄이 소환했다. 10일 법조계에 따르면 서울중앙지방검찰청 공정...7개 업체가 수년간 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의했다고 보고 있다. 검찰... 13시간 전",
+      "collected_at": "2026-09-11T08:19:40.778670+09:00",
+      "normalized_title": "한국경제",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::한국경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/3/home",
+      "id": "6ea5739e4883b5ac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, 중동 전쟁 틈타 ‘수조원 담합’ 혐의‥OCI·PKC 경영진 소환",
+      "url": "http://v.daum.net/v/20260910181242410",
+      "source": "서울경제",
+      "published_at": "2026-09-10T18:19:43.034280+09:00",
+      "snippet": "중앙지검. 검찰이 올 초 발발한 중동전쟁을 틈타 수조원대 규모 석유화학제품 담합을 한 혐의를 받는 국내 석유화학업체 경영진을 불러 조사하며 수사 마무리 국면에 들어왔다. 서울중앙지검 공정거래조사부(부장검사 나희석)는 10일 김유신 OCI 부회장 대표이사와... 14시간 전",
+      "collected_at": "2026-09-11T08:19:43.034302+09:00",
+      "normalized_title": "檢, 중동 전쟁 틈타 ‘수조원 담합’ 혐의‥OCI·PKC 경영진 소환",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::檢, 중동 전쟁 틈타 ‘수조원 담합’ 혐의‥oci·pkc 경영진 소환",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260910181242410",
+      "id": "0e60b4bc3653ce03",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울경제",
+      "url": "https://v.daum.net/channel/129/home",
+      "source": "서울경제",
+      "published_at": "2026-09-10T18:19:41.965982+09:00",
+      "snippet": "중앙지검. 검찰이 올 초 발발한 중동전쟁을 틈타 수조원대 규모 석유화학제품 담합을 한 혐의를 받는 국내 석유화학업체 경영진을 불러 조사하며 수사 마무리 국면에 들어왔다. 서울중앙지검 공정거래조사부(부장검사 나희석)는 10일 김유신 OCI 부회장 대표이사와... 14시간 전",
+      "collected_at": "2026-09-11T08:19:41.965998+09:00",
+      "normalized_title": "서울경제",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::서울경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/129/home",
+      "id": "901ba30ba77d44f5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, '석유화학제품 담합 의혹' OCI 대표·LG화학 임원 등 소환",
+      "url": "http://v.daum.net/v/20260910165044871",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-09-10T17:19:24.454409+09:00",
+      "snippet": "만드는 첨가제다. 이번 사건은 검찰이 수사해온 담합 사건 가운데 최대 규모로 전해진다. 종전에는 지난 7월 기소한 14조원대 정유사 담합 사건이 가장 큰 규모로 꼽혔다. 공정거래위원회도 지난 5월 PVC와 가소제 등의 가격 담합 정황을 포착해 석유화학 기업 4곳에... 15시간 전",
+      "collected_at": "2026-09-11T08:19:24.454429+09:00",
+      "normalized_title": "檢, '석유화학제품 담합 의혹' OCI 대표·LG화학 임원 등 소환",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::檢, '석유화학제품 담합 의혹' oci 대표·lg화학 임원 등 소환",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260910165044871",
+      "id": "2183c32d52ebe8f1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "파이낸셜뉴스",
+      "url": "https://v.daum.net/channel/139/home",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-09-10T17:19:23.296421+09:00",
+      "snippet": "만드는 첨가제다. 이번 사건은 검찰이 수사해온 담합 사건 가운데 최대 규모로 전해진다. 종전에는 지난 7월 기소한 14조원대 정유사 담합 사건이 가장 큰 규모로 꼽혔다. 공정거래위원회도 지난 5월 PVC와 가소제 등의 가격 담합 정황을 포착해 석유화학 기업 4곳에... 15시간 전",
+      "collected_at": "2026-09-11T08:19:23.296448+09:00",
+      "normalized_title": "파이낸셜뉴스",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::파이낸셜뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/139/home",
+      "id": "f9b058269ce9069e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, '석유화학 담합 의혹' 수사 경영진으로 확대…LG화학·OCI·PKC 줄줄이 소환",
+      "url": "http://v.daum.net/v/20260910163728293",
+      "source": "아시아경제",
+      "published_at": "2026-09-10T17:19:02.500172+09:00",
+      "snippet": "나선 만큼 향후 윗선 보고·관여 여부를 규명하는 데 수사력이 집중될 전망이다. 서울중앙지검 공정거래조사부는 올해 밀가루·설탕·전력과 전분당, 정유업계 등 생활물가와 밀접한 주요 산업의 담합 사건을 잇달아 수사해온 바 있다. 염다연 기자 allsalt@asiae.co.kr 15시간 전",
+      "collected_at": "2026-09-11T08:19:02.500191+09:00",
+      "normalized_title": "檢, '석유화학 담합 의혹' 수사 경영진으로 확대…LG화학·OCI·PKC 줄줄이 소환",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::檢, '석유화학 담합 의혹' 수사 경영진으로 확대…lg화학·oci·pkc 줄줄이 소환",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://v.daum.net/v/20260910163728293",
+      "id": "c48e45f163908516",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "아시아경제",
+      "url": "https://v.daum.net/channel/90/home",
+      "source": "아시아경제",
+      "published_at": "2026-09-10T17:19:01.251928+09:00",
+      "snippet": "나선 만큼 향후 윗선 보고·관여 여부를 규명하는 데 수사력이 집중될 전망이다. 서울중앙지검 공정거래조사부는 올해 밀가루·설탕·전력과 전분당, 정유업계 등 생활물가와 밀접한 주요 산업의 담합 사건을 잇달아 수사해온 바 있다. 염다연 기자 allsalt@asiae.co.kr 15시간 전",
+      "collected_at": "2026-09-11T08:19:01.251948+09:00",
+      "normalized_title": "아시아경제",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::아시아경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://v.daum.net/channel/90/home",
+      "id": "7197c286bb7e5fce",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '전쟁 틈타 수조원 담합' 석화업체 경영진 줄소환(종합)",
+      "url": "http://v.daum.net/v/20260910171251974",
+      "source": "연합뉴스",
+      "published_at": "2026-09-10T17:19:46.272191+09:00",
+      "snippet": "연합뉴스) 최원정 기자 = 검찰이 수조원 규모의 담합 의혹을 받는 국내 석유화학업체 전·현직 경영진을 줄소환하며 수사에 속도를...7개 업체가 수년 동안 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의했다고 의심한다... 15시간 전",
+      "collected_at": "2026-09-11T08:19:46.272212+09:00",
+      "normalized_title": "검찰, '전쟁 틈타 수조원 담합' 석화업체 경영진 줄소환",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::검찰, '전쟁 틈타 수조원 담합' 석화업체 경영진 줄소환",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260910171251974",
+      "id": "fd0b78cda5e958b6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스",
+      "url": "https://v.daum.net/channel/2/home",
+      "source": "연합뉴스",
+      "published_at": "2026-09-10T17:19:45.270066+09:00",
+      "snippet": "연합뉴스) 최원정 기자 = 검찰이 수조원 규모의 담합 의혹을 받는 국내 석유화학업체 전·현직 경영진을 줄소환하며 수사에 속도를...7개 업체가 수년 동안 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의했다고 의심한다... 15시간 전",
+      "collected_at": "2026-09-11T08:19:45.270083+09:00",
+      "normalized_title": "연합뉴스",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::연합뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/2/home",
+      "id": "46cc1eae4f6d3542",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '석유제품 담합 의혹' OCI 부회장 피의자 소환",
+      "url": "http://v.daum.net/v/20260910172111313",
+      "source": "YTN",
+      "published_at": "2026-09-10T18:19:45.268865+09:00",
+      "snippet": "검찰은 OCI를 포함해 LG화학, 한화솔루션, 애경케미칼, 롯데정밀화학 등 7개 업체가 수년 동안 폴리염화비닐과 PVC 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의했다고 의심하고 있습니다. 앞서 검찰은 이들이 중동전쟁으로 PVC 주재료인 나프타 수급이... 14시간 전",
+      "collected_at": "2026-09-11T08:19:45.268885+09:00",
+      "normalized_title": "검찰, '석유제품 담합 의혹' OCI 부회장 피의자 소환",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::검찰, '석유제품 담합 의혹' oci 부회장 피의자 소환",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260910172111313",
+      "id": "d659aae88c2751a9",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '수조원대 담합 의혹' 석유화학업체 수사 박차…OCI·LG화학 임원 줄소환",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JX0JpaUsyWkFhWndlRUVnSEJaMTRSQk5sQVpVRUltSFM1OUZqdEFrQ3ZhZ2FwMlFmei1fQ094SjB0dHNkcFF5NHRTQTNGUkJ0RUYwUXVsX3pYWm1LaDRuMXF0UDJJcGhv0gFrQVVfeXFMTjlGY3ZyTVJXSE8xaEJiYWNKMHQyUVFUX093S1JGQTNMVzZMX0hIaW9lNW0xd3BidnltbHpsT3BvX0FIazRRRmVEbW9CUVFEZEdJQ3hXTllWaXFEcEtUZDhEaHlwWVRwSlZ2Szg?oc=5",
+      "source": "SR타임스",
+      "published_at": "2026-09-10T23:13:27+09:00",
+      "snippet": "검찰, '수조원대 담합 의혹' 석유화학업체 수사 박차…OCI·LG화학 임원 줄소환 SR타임스",
+      "collected_at": "2026-09-11T08:19:49.066957+09:00",
+      "normalized_title": "검찰, '수조원대 담합 의혹' 석유화학업체 수사 박차…OCI·LG화학 임원 줄소환",
+      "source_normalized": "SR타임스",
+      "duplicate_key": "sr타임스::검찰, '수조원대 담합 의혹' 석유화학업체 수사 박차…oci·lg화학 임원 줄소환",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JX0JpaUsyWkFhWndlRUVnSEJaMTRSQk5sQVpVRUltSFM1OUZqdEFrQ3ZhZ2FwMlFmei1fQ094SjB0dHNkcFF5NHRTQTNGUkJ0RUYwUXVsX3pYWm1LaDRuMXF0UDJJcGhv0gFrQVVfeXFMTjlGY3ZyTVJXSE8xaEJiYWNKMHQyUVFUX093S1JGQTNMVzZMX0hIaW9lNW0xd3BidnltbHpsT3BvX0FIazRRRmVEbW9CUVFEZEdJQ3hXTllWaXFEcEtUZDhEaHlwWVRwSlZ2Szg?oc=5",
+      "id": "b8318b0941e601bb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "산청군 수해 복구용 ‘전석’ 가격 폭등…재난 틈타 폭리?",
+      "url": "http://v.daum.net/v/20260910175043481",
+      "source": "경남도민일보",
+      "published_at": "2026-09-10T18:18:59.960074+09:00",
+      "snippet": "시행하는 공사에 불량 자재가 반입되면 결국 부실공사로 이어져 또다시 재난의 대상이 될 수 있다\"고 지적했다. 석재업체는 담합은 없다는 입장이다. 석재업체 관계자는 \"전석 가격 상승은 자재 가공과 유류비 인상 등 복합적인 원인이 있다\"며 \"유가가 오르다 보니... 14시간 전",
+      "collected_at": "2026-09-11T08:18:59.960103+09:00",
+      "normalized_title": "산청군 수해 복구용 ‘전석’ 가격 폭등…재난 틈타 폭리?",
+      "source_normalized": "경남도민일보",
+      "duplicate_key": "경남도민일보::산청군 수해 복구용 ‘전석’ 가격 폭등…재난 틈타 폭리?",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260910175043481",
+      "id": "99ddb4046d61a8ec",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경남도민일보",
+      "url": "https://v.daum.net/channel/551744/home",
+      "source": "경남도민일보",
+      "published_at": "2026-09-10T18:18:58.554632+09:00",
+      "snippet": "시행하는 공사에 불량 자재가 반입되면 결국 부실공사로 이어져 또다시 재난의 대상이 될 수 있다\"고 지적했다. 석재업체는 담합은 없다는 입장이다. 석재업체 관계자는 \"전석 가격 상승은 자재 가공과 유류비 인상 등 복합적인 원인이 있다\"며 \"유가가 오르다 보니... 14시간 전",
+      "collected_at": "2026-09-11T08:18:58.554651+09:00",
+      "normalized_title": "경남도민일보",
+      "source_normalized": "경남도민일보",
+      "duplicate_key": "경남도민일보::경남도민일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/551744/home",
+      "id": "b3738e420df3893d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "산청군 수해복구용 '전석' 가격 폭등…재난 틈타 인상?",
+      "url": "http://v.daum.net/v/20260910173713958",
+      "source": "경남신문",
+      "published_at": "2026-09-10T18:19:01.250764+09:00",
+      "snippet": "결국 부실공사로 이어져 또다시 재난의 대상이 될 수 있다”고 지적했다. 이에 대해 업체 관계자는 “석산 운영은 적자다. 기름값, 화약값 모두 안 오른 게 없다. 전석만 빼 낼려면 엄청난 경비가 든다. 업체간 담합 이야기는 말이 안된다.”고 말했다. 이상규 기자... 14시간 전",
+      "collected_at": "2026-09-11T08:19:01.250783+09:00",
+      "normalized_title": "산청군 수해복구용 '전석' 가격 폭등…재난 틈타 인상?",
+      "source_normalized": "경남신문",
+      "duplicate_key": "경남신문::산청군 수해복구용 '전석' 가격 폭등…재난 틈타 인상?",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260910173713958",
+      "id": "ad8a0aa163f38cb4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경남신문",
+      "url": "https://v.daum.net/channel/551753/home",
+      "source": "경남신문",
+      "published_at": "2026-09-10T18:18:59.961224+09:00",
+      "snippet": "결국 부실공사로 이어져 또다시 재난의 대상이 될 수 있다”고 지적했다. 이에 대해 업체 관계자는 “석산 운영은 적자다. 기름값, 화약값 모두 안 오른 게 없다. 전석만 빼 낼려면 엄청난 경비가 든다. 업체간 담합 이야기는 말이 안된다.”고 말했다. 이상규 기자... 14시간 전",
+      "collected_at": "2026-09-11T08:18:59.961241+09:00",
+      "normalized_title": "경남신문",
+      "source_normalized": "경남신문",
+      "duplicate_key": "경남신문::경남신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/551753/home",
+      "id": "bb597070afdb6978",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, '석유화학제품 가격담합' OCI·LG화학 등 임직원 줄소환(종합)",
+      "url": "http://v.daum.net/v/20260910174800385",
+      "source": "노컷뉴스",
+      "published_at": "2026-09-10T18:19:44.070846+09:00",
+      "snippet": "폴리염화비닐(PVC)과 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의했다고 의심하고 있다. 검찰은...자료를 확보했다. 검찰은 조만간 다른 업체 임직원을 상대로 가격 담합 의혹과 윗선 연루 의혹 등을 캐물을 예정이다. ※CBS노컷... 14시간 전",
+      "collected_at": "2026-09-11T08:19:44.070866+09:00",
+      "normalized_title": "檢, '석유화학제품 가격담합' OCI·LG화학 등 임직원 줄소환",
+      "source_normalized": "노컷뉴스",
+      "duplicate_key": "노컷뉴스::檢, '석유화학제품 가격담합' oci·lg화학 등 임직원 줄소환",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260910174800385",
+      "id": "23eb892d9e69a6f2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "노컷뉴스",
+      "url": "https://v.daum.net/channel/35/home",
+      "source": "노컷뉴스",
+      "published_at": "2026-09-10T18:19:43.035522+09:00",
+      "snippet": "폴리염화비닐(PVC)과 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의했다고 의심하고 있다. 검찰은...자료를 확보했다. 검찰은 조만간 다른 업체 임직원을 상대로 가격 담합 의혹과 윗선 연루 의혹 등을 캐물을 예정이다. ※CBS노컷... 14시간 전",
+      "collected_at": "2026-09-11T08:19:43.035540+09:00",
+      "normalized_title": "노컷뉴스",
+      "source_normalized": "노컷뉴스",
+      "duplicate_key": "노컷뉴스::노컷뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/35/home",
+      "id": "d278fa5159208a2e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '전쟁 틈타 수조원 담합' 석화업체 줄소환",
+      "url": "http://v.daum.net/v/20260910204404793",
+      "source": "매일경제TV",
+      "published_at": "2026-09-10T21:19:40.777601+09:00",
+      "snippet": "뉴스 이미지 검찰이 수조 원 규모의 담합 의혹을 받는 국내 석유화학업체 전·현직 경영진을 줄소환하며 수사에 속도를 내고 있습니다...수년 동안 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의했다고 의심합니다. 나프타를... 11시간 전",
+      "collected_at": "2026-09-11T08:19:40.777621+09:00",
+      "normalized_title": "검찰, '전쟁 틈타 수조원 담합' 석화업체 줄소환",
+      "source_normalized": "매일경제TV",
+      "duplicate_key": "매일경제tv::검찰, '전쟁 틈타 수조원 담합' 석화업체 줄소환",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260910204404793",
+      "id": "6ac5961dcdc77e0d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "매일경제TV",
+      "url": "https://v.daum.net/channel/552794/home",
+      "source": "매일경제TV",
+      "published_at": "2026-09-10T21:19:39.754893+09:00",
+      "snippet": "뉴스 이미지 검찰이 수조 원 규모의 담합 의혹을 받는 국내 석유화학업체 전·현직 경영진을 줄소환하며 수사에 속도를 내고 있습니다...수년 동안 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의했다고 의심합니다. 나프타를... 11시간 전",
+      "collected_at": "2026-09-11T08:19:39.754909+09:00",
+      "normalized_title": "매일경제TV",
+      "source_normalized": "매일경제TV",
+      "duplicate_key": "매일경제tv::매일경제tv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/552794/home",
+      "id": "df5737ff1a3d018c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, '담합 혐의' 석유화학 주요 업체 임원 줄소환",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBaelNfRE5lSnVpMUE3RlI4SVpTcTlUcm1QQ0ZsSHpTY192MUpXZWR3NXJJZUsyUXRDTHFBYXpXZmUwNlFHei1QWjBVN20yMzNBMXlxdHRyNEZHRloxWHg4bllCN1HSAWhBVV95cUxONV9LOWZqeXVMLS1kdERUWTdJcGxmcEZPWHh3VXZmS3ZiLXVLc09FSzRPeXYtUWtfeDIxZWdrcEJpcGJBX1VhYTBDaV9UYU80czh4OEZTSGNSeW5WWXpkOGw1UVhnQW9zSg?oc=5",
+      "source": "매일일보",
+      "published_at": "2026-09-10T17:28:49+09:00",
+      "snippet": "檢, '담합 혐의' 석유화학 주요 업체 임원 줄소환 매일일보",
+      "collected_at": "2026-09-11T08:19:49.042898+09:00",
+      "normalized_title": "檢, '담합 혐의' 석유화학 주요 업체 임원 줄소환",
+      "source_normalized": "매일일보",
+      "duplicate_key": "매일일보::檢, '담합 혐의' 석유화학 주요 업체 임원 줄소환",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBaelNfRE5lSnVpMUE3RlI4SVpTcTlUcm1QQ0ZsSHpTY192MUpXZWR3NXJJZUsyUXRDTHFBYXpXZmUwNlFHei1QWjBVN20yMzNBMXlxdHRyNEZHRloxWHg4bllCN1HSAWhBVV95cUxONV9LOWZqeXVMLS1kdERUWTdJcGxmcEZPWHh3VXZmS3ZiLXVLc09FSzRPeXYtUWtfeDIxZWdrcEJpcGJBX1VhYTBDaV9UYU80czh4OEZTSGNSeW5WWXpkOGw1UVhnQW9zSg?oc=5",
+      "id": "6b75188a9eba3b5c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '수조원대 담합 의혹' 석유화학업체 수사 박차…OCI·LG화학 임원 ...새 창 열림",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=212139",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T23:19:36.728509+09:00",
+      "snippet": "검찰이 수조 원 규모의 제품 가격 담합 의혹을 받는 국내 대형 석유화학업체 전·현직 경영진들을 잇달아 소환하며 윗선 개입 여부를 규명하는 데 수사력을 모으고 있다. 10일 법조계에 따르면 서울중앙지검 공정거래조사부(나희석 부장검사)는 이날 김유신 OCI 부회장 대표이사와 장영수 전 PKC 대표이사를... 새 창 열림",
+      "collected_at": "2026-09-11T08:19:36.728525+09:00",
+      "normalized_title": "검찰, '수조원대 담합 의혹' 석유화학업체 수사 박차…OCI·LG화학 임원 ...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, '수조원대 담합 의혹' 석유화학업체 수사 박차…oci·lg화학 임원 ...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.srtimes.kr/news/articleView.html?idxno=212139",
+      "id": "f848ac9ce270e1bb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '전쟁 틈타 수조원 담합' 석화업체 줄소환새 창 열림",
+      "url": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005920293",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T21:19:36.729958+09:00",
+      "snippet": "검찰이 수조 원 규모의 담합 의혹을 받는 국내 석유화학업체 전·현직 경영진을 줄소환하며 수사에 속도를 내고 있습니다. 오늘(10일) 법조계에 따르면... 검찰은 LG화학과 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC, 유니드 등 7개 업체가 수년 동안 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품... 새 창 열림",
+      "collected_at": "2026-09-11T08:19:36.729974+09:00",
+      "normalized_title": "검찰, '전쟁 틈타 수조원 담합' 석화업체 줄소환새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, '전쟁 틈타 수조원 담합' 석화업체 줄소환새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005920293",
+      "id": "b80bd37ab27d9975",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '수조원대 석화 제품 담합' OCI·LG화학·PCK 경영진 소환새 창 열림",
+      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5061130",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T20:19:36.731472+09:00",
+      "snippet": "검찰이 수조원대 석유화학 제품 가격 담합 의혹을 받는 석유화학업체 전·현직 경영진을 소환하며 수사에 박차를 가하고 있다. 10일 법조계에 따르면, 서울중앙지검 공정거래조사부(나희석 부장검사)는 이날 김유신 OCI 부회장 대표, 장영수 전 PKC 대표, 한모 LG화학 PVC·가소제 사업부장(전무)을 공정거래법... 새 창 열림",
+      "collected_at": "2026-09-11T08:19:36.731489+09:00",
+      "normalized_title": "검찰, '수조원대 석화 제품 담합' OCI·LG화학·PCK 경영진 소환새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, '수조원대 석화 제품 담합' oci·lg화학·pck 경영진 소환새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5061130",
+      "id": "81e9f1fdf3298772",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 중동전쟁 틈타 '수조원대 담합' 의혹…OCI·PKC 경영진 소환새 창 열림",
+      "url": "https://www.delighti.co.kr/news/articleView.html?idxno=121669",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T19:19:36.734463+09:00",
+      "snippet": "(사진=연합뉴스) 검찰이 수조원대 담합 의혹이 제기된 국내 석유화학업체의 전·현직 경영진을 잇달아 소환하며 수사에 박차를 가하고 있다. 10일... 검찰은 LG화학, 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC, 유니드 등 7개 업체가 수년간 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품의 가격 인상을... 새 창 열림",
+      "collected_at": "2026-09-11T08:19:36.734478+09:00",
+      "normalized_title": "검찰, 중동전쟁 틈타 '수조원대 담합' 의혹…OCI·PKC 경영진 소환새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, 중동전쟁 틈타 '수조원대 담합' 의혹…oci·pkc 경영진 소환새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.delighti.co.kr/news/articleView.html?idxno=121669",
+      "id": "008ec2a293654248",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "수조원대 석화 담합 의혹…檢, OCI 부회장 등 줄소환새 창 열림",
+      "url": "https://www.hankyung.com/article/2026091074101",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T19:19:36.733003+09:00",
+      "snippet": "검찰이 수조원 규모 담합 의혹을 받는 국내 석유화학업체 경영진을 줄줄이 소환했다. 10일 법조계에 따르면 서울중앙지방검찰청 공정거래조사부... 검찰은 LG화학과 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC, 유니드 등 7개 업체가 수년간 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격... 새 창 열림",
+      "collected_at": "2026-09-11T08:19:36.733019+09:00",
+      "normalized_title": "수조원대 석화 담합 의혹…檢, OCI 부회장 등 줄소환새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::수조원대 석화 담합 의혹…檢, oci 부회장 등 줄소환새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.hankyung.com/article/2026091074101",
+      "id": "ce5e683b39dbb041",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, '석유화학제품 가격담합' OCI·LG화학 등 임직원 줄소환(종합)새 창 열림",
+      "url": "https://www.nocutnews.co.kr/news/6576448?utm_source=naver&utm_medium=article&utm_campaign=20260910054609",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T18:19:36.737603+09:00",
+      "snippet": "검찰이 가격 담합 혐의로 석유화학업체들을 상대로 수사 속도를 높이고 있다. 10일 법조계에 따르면, 서울중앙지검 공정거래조사부(나희석 부장검사)는 이날 OCI 김유신 부회장과 장영수 전 PKC 대표이사를 공정거래법 위반 혐의 피의자 신분으로 불러 조사했다. 검찰은 전날 LG화학 임원인 한모 전무도 소환... 새 창 열림",
+      "collected_at": "2026-09-11T08:19:36.737619+09:00",
+      "normalized_title": "檢, '석유화학제품 가격담합' OCI·LG화학 등 임직원 줄소환(종합)새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::檢, '석유화학제품 가격담합' oci·lg화학 등 임직원 줄소환(종합)새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.nocutnews.co.kr/news/6576448?utm_source=naver&utm_medium=article&utm_campaign=20260910054609",
+      "id": "390dfe8834ecf7a7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "가격담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, 중동 전쟁 틈타 ‘수조원 담합’ 혐의‥OCI·PKC 경영진 소환새 창 열림",
+      "url": "https://www.sedaily.com/article/20089597?ref=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T18:19:36.736037+09:00",
+      "snippet": "검찰이 올 초 발발한 중동전쟁을 틈타 수조원대 규모 석유화학제품 담합을 한 혐의를 받는 국내 석유화학업체 경영진을 불러 조사하며 수사 마무리 국면에 들어왔다. 서울중앙지검 공정거래조사부(부장검사 나희석)는 10일 김유신 OCI 부회장 대표이사와 장영수 전 PKC 대표이사를 공정거래법 위반 혐의로... 새 창 열림",
+      "collected_at": "2026-09-11T08:19:36.736052+09:00",
+      "normalized_title": "檢, 중동 전쟁 틈타 ‘수조원 담합’ 혐의‥OCI·PKC 경영진 소환새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::檢, 중동 전쟁 틈타 ‘수조원 담합’ 혐의‥oci·pkc 경영진 소환새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.sedaily.com/article/20089597?ref=naver",
+      "id": "d690a09ee2d69627",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "산청군 수해복구용 '전석' 가격 폭등…재난 틈타 인상?새 창 열림",
+      "url": "https://www.knnews.co.kr/news/articleView.php?idxno=1550599",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T18:18:57.335544+09:00",
+      "snippet": "안전을 지키고자 시행하는 공사에 불량 자재가 반입되면 결국 부실공사로 이어져 또다시 재난의 대상이 될 수 있다”고 지적했다. 이에 대해 업체 관계자는 “석산 운영은 적자다. 기름값, 화약값 모두 안 오른 게 없다. 전석만 빼 낼려면 엄청난 경비가 든다. 업체간 담합 이야기는 말이 안된다.”고 말했다.새 창 열림",
+      "collected_at": "2026-09-11T08:18:57.335562+09:00",
+      "normalized_title": "산청군 수해복구용 '전석' 가격 폭등…재난 틈타 인상?새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::산청군 수해복구용 '전석' 가격 폭등…재난 틈타 인상?새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.knnews.co.kr/news/articleView.php?idxno=1550599",
+      "id": "1e3bf6303b5464a8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "산청군 수해 복구용 '전석' 가격 폭등…재난 틈타 폭리?새 창 열림",
+      "url": "https://www.idomin.com/news/articleView.html?idxno=2014624",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T18:18:57.334057+09:00",
+      "snippet": "공사에 불량 자재가 반입되면 결국 부실공사로 이어져 또다시 재난의 대상이 될 수 있다\"고 지적했다. 석재업체는 담합은 없다는 입장이다. 석재업체 관계자는 \"전석 가격 상승은 자재 가공과 유류비 인상 등 복합적인 원인이 있다\"며 \"유가가 오르다 보니 가격을 올릴 수밖에 없는 측면이 있었다\"고 해명했다.새 창 열림",
+      "collected_at": "2026-09-11T08:18:57.334090+09:00",
+      "normalized_title": "산청군 수해 복구용 '전석' 가격 폭등…재난 틈타 폭리?새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::산청군 수해 복구용 '전석' 가격 폭등…재난 틈타 폭리?새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.idomin.com/news/articleView.html?idxno=2014624",
+      "id": "c3437ff2a0974633",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, '석유화학제품 담합 의혹' OCI 대표·LG화학 임원 등 소환새 창 열림",
+      "url": "https://www.fnnews.com/news/202609101644541896",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T17:19:22.514403+09:00",
+      "snippet": "종전에는 지난 7월 기소한 14조원대 정유사 담합 사건이 가장 큰 규모로 꼽혔다. 공정거래위원회도 지난 5월 PVC와 가소제 등의 가격 담합 정황을 포착해 석유화학 기업 4곳에 대한 현장조사를 진행했다. 검찰이 압수수색에 이어 주요 피의자 소환까지 진행하면서 수사 결과가 공정위보다 먼저 나올 가능성도... 새 창 열림",
+      "collected_at": "2026-09-11T08:19:22.514421+09:00",
+      "normalized_title": "檢, '석유화학제품 담합 의혹' OCI 대표·LG화학 임원 등 소환새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::檢, '석유화학제품 담합 의혹' oci 대표·lg화학 임원 등 소환새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.fnnews.com/news/202609101644541896",
+      "id": "026ff8489f2c3c97",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, '석유화학 담합 의혹' 수사 경영진으로 확대…LG화학·OCI·PKC 줄줄이...새 창 열림",
+      "url": "https://view.asiae.co.kr/article/2026091016354850881",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T17:18:57.340008+09:00",
+      "snippet": "종전 최대는 지난 7월 SK에너지·GS칼텍스·HD현대오일뱅크·에쓰오일 등 정유사 4곳을 기소한 14조원 규모 유가 담합 사건이었다. 공정거래위원회도 지난 5월 석유화학업체들을 상대로 현장조사를 벌였지만 조사 대상 품목은 PVC와 가소제, 가성소다 등 3개였던 것으로 전해졌다. 검찰이 주요 업체 경영진에... 새 창 열림",
+      "collected_at": "2026-09-11T08:18:57.340023+09:00",
+      "normalized_title": "檢, '석유화학 담합 의혹' 수사 경영진으로 확대…LG화학·OCI·PKC 줄줄이...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::檢, '석유화학 담합 의혹' 수사 경영진으로 확대…lg화학·oci·pkc 줄줄이...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://view.asiae.co.kr/article/2026091016354850881",
+      "id": "6f56cae64f65699f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한성숙 총리 \"국제유가 상승, 민생물가 영향 최소화해야\"새 창 열림",
+      "url": "https://www.newscammp.co.kr/news/articleView.html?idxno=6896",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T17:18:57.338460+09:00",
+      "snippet": "국제유가 상승이 국내 경제와 민생물가에 미치는 부정적인 영향을 최소화하고 추석 명절을 앞두고 마련한 민생안정 대책도 차질 없이 추진해 달라고 주문했다. 가격 담합과 부당 인상 등 물가 교란 행위에는 엄정하게 대응해 달라고 당부했다. 최근 네팔에서 실종된 우리 국민 9명의 수색과 구조에도 최선을... 새 창 열림",
+      "collected_at": "2026-09-11T08:18:57.338477+09:00",
+      "normalized_title": "한성숙 총리 \"국제유가 상승, 민생물가 영향 최소화해야\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::한성숙 총리 \"국제유가 상승, 민생물가 영향 최소화해야\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newscammp.co.kr/news/articleView.html?idxno=6896",
+      "id": "94205dbf7059e40d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 전쟁 틈타 '가격 담합'···김유신 OCI 부회장 소환조사새 창 열림",
+      "url": "http://www.koreastocknews.com/news/articleView.html?idxno=121151",
+      "source": "새 창 열림",
+      "published_at": "2026-09-10T17:18:57.336992+09:00",
+      "snippet": "검찰과 별개로 앞서 공정거래위원회(공정위)도 지난 5월 석유화학업체를 상대로 현장조사를 벌인 바 있다. 이날 검찰이 김유신 부회장을 불러... 등 담합한 혐의로 HD현대오일뱅크와 SK에너지 등 정유사들을 재판에 넘긴 바 있다. 특히 이들의 유가 담합으로 국민이 입은 피해는 14조원대에 이른다는 것이... 새 창 열림",
+      "collected_at": "2026-09-11T08:18:57.337008+09:00",
+      "normalized_title": "검찰, 전쟁 틈타 '가격 담합'···김유신 OCI 부회장 소환조사새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, 전쟁 틈타 '가격 담합'···김유신 oci 부회장 소환조사새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://www.koreastocknews.com/news/articleView.html?idxno=121151",
+      "id": "3232fefbbb48cb55",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 수조원대 석유화학업계 담합 의혹 경영진 소환 조사",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95VUxDTTFuU1FGSjNpYUFyMWUzYnBWM2VqTjJSMjd2bzNzU0Q5RWdFVDFrUEZldmxiZnRJWUNTZTVFSE94NlNlRTJha2JoQVhOalBMMFVSdElUbUxrUC1VTldlLWJvQkpMMlRqMW1VX25UMUk?oc=5",
+      "source": "스페셜타임스",
+      "published_at": "2026-09-10T17:17:16+09:00",
+      "snippet": "검찰, 수조원대 석유화학업계 담합 의혹 경영진 소환 조사 스페셜타임스",
+      "collected_at": "2026-09-11T08:19:49.068756+09:00",
+      "normalized_title": "검찰, 수조원대 석유화학업계 담합 의혹 경영진 소환 조사",
+      "source_normalized": "스페셜타임스",
+      "duplicate_key": "스페셜타임스::검찰, 수조원대 석유화학업계 담합 의혹 경영진 소환 조사",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95VUxDTTFuU1FGSjNpYUFyMWUzYnBWM2VqTjJSMjd2bzNzU0Q5RWdFVDFrUEZldmxiZnRJWUNTZTVFSE94NlNlRTJha2JoQVhOalBMMFVSdElUbUxrUC1VTldlLWJvQkpMMlRqMW1VX25UMUk?oc=5",
+      "id": "fbca5595e069c558",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
