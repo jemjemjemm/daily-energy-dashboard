@@ -5,7 +5,7 @@
     "display_date": "2026년 9월 10일 (목)",
     "previous_day_label": "9/9",
     "today_label": "9/10",
-    "generated_at": "2026-09-10 08:17 KST",
+    "generated_at": "2026-09-10 17:15 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △한국은 ‘석유 최고가격제’가 기름값 상승을 억제하고 있지만 정유사의 공급가 인상이 불가피하다는 목소리가 나온다는 내용 △이날 런던 ICE선물거래소에서 11월 인도분 브렌트유는 전장보다 3.29달러(3.36%) 오른 배럴당 101.21달러에 거래를 마쳤다는 내용 △골드만삭스는 선박 공격이 격화하면서 브렌트유가 120달러를 넘어설 위험이 커졌다고 경고함"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △특히 국내 기름값의 산정 기준이 되는 싱가포르 석유제품 도매가격이 110여 일 만에 최고치를 기록하면서, 경유 원가는 석유 최고가격제를 넘은 것으로 분석됨 △국제유가가 다시 배럴당 100달러(약 13만4050원)를 돌파하면서 국내 증시에서도 파장이 일고 있음 △중동전쟁으로 원료 수급이 불안해진 틈을 타 석유화학제품 가격을 담합한 의혹을 수사하는 검찰이 LG화학과 OCI, PKC 등 주요 업체 경영진을 잇달아 소환함"
     }
   ],
   "prices": {
@@ -1612,7 +1616,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(7/9~9/9)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1728,6 +1733,87 @@
       "merged_at": "2026-09-10 08:18:19 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-09-10.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△특히 국내 기름값의 산정 기준이 되는 싱가포르 석유제품 도매가격이 110여 일 만에 최고치를 기록하면서, 경유 원가는 석유 최고가격제를 넘은 것으로 분석됨 △국제유가가 다시 배럴당 100달러(약 13만4050원)를 돌파하면서 국내 증시에서도 파장이 일고 있음 △중동전쟁으로 원료 수급이 불안해진 틈을 타 석유화학제품 가격을 담합한 의혹을 수사하는 검찰이 LG화학과 OCI, PKC 등 주요 업체 경영진을 잇달아 소환함",
+    "trend_paragraphs": [
+      "에너지경제는 특히 국내 기름값의 산정 기준이 되는 싱가포르 석유제품 도매가격이 110여 일 만에 최고치를 기록하면서, 경유 원가는 석유 최고가격제를 넘은 것으로 분석된다.",
+      "매일경제는 국제유가가 다시 배럴당 100달러(약 13만4050원)를 돌파하면서 국내 증시에서도 파장이 일고 있다.",
+      "아시아경제는 중동전쟁으로 원료 수급이 불안해진 틈을 타 석유화학제품 가격을 담합한 의혹을 수사하는 검찰이 LG화학과 OCI, PKC 등 주요 업체 경영진을 잇달아 소환했다."
+    ],
+    "articles": [
+      {
+        "title": "국제유가 100달러 재돌파…경유 원가, 석유 최고가격 넘어",
+        "press": "에너지경제",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260910091406833",
+        "summary": "특히 국내 기름값의 산정 기준이 되는 싱가포르 석유제품 도매가격이 110여 일 만에 최고치를 기록하면서, 경유 원가는 석유 최고가격제를 넘은 것으로 분석된다",
+        "snippet": "국제유가 100달러 재돌파…경유 원가, 석유 최고가격 넘어 20일 이후 112일 만에 130달러를 넘었고, 경유는 4월 30일 이후 133일 만에 170달러를 돌파했다. 이를 원화와 리터 단위로 환산한 뒤 유류세 를 더한 단순 원가는 △휘발유: 제품가 1116.2원 + 유류세 634.5원 = 1750.7원/L △경유: 제품가 1444.0원 + 유류세 396.21... 8시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1208
+      },
+      {
+        "title": "“기름값 100달러 뚫자 주가도 출렁”…정유 뜨고 항공 울었다",
+        "press": "매일경제",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260910163000012",
+        "summary": "국제유가가 다시 배럴당 100달러(약 13만4050원)를 돌파하면서 국내 증시에서도 파장이 일고 있다",
+        "snippet": "3 “기름값 100달러 뚫자 주가도 출렁”…정유 뜨고 항공 울었다 마진의 고점보다는 높은 수준이 얼마나 오래 지속되는지가 중요하다”고 말했다. 고유가와 함께 나타나고 있는 금리 상승도 기존 정유사 에는 반드시 악재로만 볼 수 없다는 분석이 나온다. 통상 금리 상승은 경기 둔화와 석유제품 수요 감소 가능성을 높인다는 점... 45분 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 2877
+      },
+      {
+        "title": "檢, '석유화학 담합 의혹' 수사 경영진으로 확대…LG화학·OCI·PKC 줄줄이 소환",
+        "press": "아시아경제",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260910163728293",
+        "summary": "중동전쟁으로 원료 수급이 불안해진 틈을 타 석유화학제품 가격을 담합한 의혹을 수사하는 검찰이 LG화학과 OCI, PKC 등 주요 업체 경영진을 잇달아 소환했다",
+        "snippet": "檢, '석유화학 담합 의혹' 수사 경영진으로 확대…LG화학·OCI·PKC 줄줄이 소환 나선 만큼 향후 윗선 보고·관여 여부를 규명하는 데 수사력이 집중될 전망이다. 서울중앙지검 공정거래조사부는 올해 밀가루·설탕·전력과 전분당, 정유 업계 등 생활물가와 밀접한 주요 산업의 담합 사건을 잇달아 수사해온 바 있다. 염다연 기자 allsalt@asiae.co.kr 38분 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1086
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
