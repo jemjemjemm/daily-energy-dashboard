@@ -1,0 +1,518 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-11",
+  "slot": "evening",
+  "period_start": "2026-09-11T08:00:00+09:00",
+  "period_end": "2026-09-11T17:00:00+09:00",
+  "period_label": "2026-09-11 08:00 ~ 2026-09-11 17:00",
+  "generated_at": "2026-09-11T21:48:30.073427+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1571,
+  "total_deduped_count": 15,
+  "total_ok_count": 15,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 2,
+    "C": 13
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1181
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 1,
+    "석유 담합": 12,
+    "석유제품 담합": 8,
+    "유가 담합": 5,
+    "유가담합": 5,
+    "정유사 담합": 1,
+    "정유업계 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "포지션 가벼운데 살 사람이 없다…벌써 '북 클로징' 말 나오는 이유",
+      "url": "http://v.daum.net/v/20260911101004948",
+      "source": "연합인포맥스",
+      "published_at": "2026-09-11T10:47:40.957477+09:00",
+      "snippet": "고 덧붙였다. 일부 대형 증권사의 경우 국고채 전문딜러(PD) 담합 건에 대응하느라 적극적인 운용 전략을 짜기 어려운 상황이라는...수 있는 수익은 크지 않은 반면 중동 전쟁과 국제유가 등 예상하기 어려운 대외 변수는 남아 있어서다. C딜러는 \"연말까지 본다고... 11시간 전",
+      "collected_at": "2026-09-11T21:47:40.957503+09:00",
+      "normalized_title": "포지션 가벼운데 살 사람이 없다…벌써 '북 클로징' 말 나오는 이유",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::포지션 가벼운데 살 사람이 없다…벌써 '북 클로징' 말 나오는 이유",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260911101004948",
+      "id": "400f5ee15965e3fa",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합인포맥스",
+      "url": "https://v.daum.net/channel/552842/home",
+      "source": "연합인포맥스",
+      "published_at": "2026-09-11T10:47:38.731424+09:00",
+      "snippet": "고 덧붙였다. 일부 대형 증권사의 경우 국고채 전문딜러(PD) 담합 건에 대응하느라 적극적인 운용 전략을 짜기 어려운 상황이라는...수 있는 수익은 크지 않은 반면 중동 전쟁과 국제유가 등 예상하기 어려운 대외 변수는 남아 있어서다. C딜러는 \"연말까지 본다고... 11시간 전",
+      "collected_at": "2026-09-11T21:47:38.731451+09:00",
+      "normalized_title": "연합인포맥스",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::연합인포맥스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/552842/home",
+      "id": "9d160e25694da2e6",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, ‘석유제품 담합 의혹’ OCI 부회장 피의자 조사",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10bFVSd21ReTNHdDdfa0pucWdpWWgzM1RZdTlPMG12aWZOR3dzQjlHSjEwa1pZOEpORkVjR0J3QnJxaWh1NlUyXzlnRUJQS3VLM0NUNVZKc084RkE4OXpVdGgyNTlSVkN2Znpj0gFvQVVfeXFMTXNLT3c5UDhIcnNmM3V6d3NyOFhBVGZlZUx0dzc2NG8wRXhLMUVHSWtLVUZ0R0FnblhXVHA4dENnNllkejkxZi1sZWJkcmlQck1DZmJmR2FDZDdHUlhNVzd4WEMyckdLaGdhbi13U0dF?oc=5",
+      "source": "hankooki.com",
+      "published_at": "2026-09-11T09:42:44+09:00",
+      "snippet": "검찰, ‘석유제품 담합 의혹’ OCI 부회장 피의자 조사 hankooki.com",
+      "collected_at": "2026-09-11T21:48:00.494058+09:00",
+      "normalized_title": "검찰, ‘석유제품 담합 의혹’ OCI 부회장 피의자 조사",
+      "source_normalized": "hankooki.com",
+      "duplicate_key": "hankooki.com::검찰, ‘석유제품 담합 의혹’ oci 부회장 피의자 조사",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10bFVSd21ReTNHdDdfa0pucWdpWWgzM1RZdTlPMG12aWZOR3dzQjlHSjEwa1pZOEpORkVjR0J3QnJxaWh1NlUyXzlnRUJQS3VLM0NUNVZKc084RkE4OXpVdGgyNTlSVkN2Znpj0gFvQVVfeXFMTXNLT3c5UDhIcnNmM3V6d3NyOFhBVGZlZUx0dzc2NG8wRXhLMUVHSWtLVUZ0R0FnblhXVHA4dENnNllkejkxZi1sZWJkcmlQck1DZmJmR2FDZDdHUlhNVzd4WEMyckdLaGdhbi13U0dF?oc=5",
+      "id": "62ab996c26466d0d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "11년 담합 적발 20년 만에…석유화학업계 다시 '가격 담합' 수사",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hSmVHdGNpMGVacE5xcmFOcWZ6SXcybFExVnRhWmRiWWx0M2gwUnY4UER2cjMySWJfT01qaWt6WmxObHVFY2J3d1BUQlNQMnZMX3RKaDZfUGdkUWhiMTdlcG9NLWJLdHVY?oc=5",
+      "source": "녹색경제신문",
+      "published_at": "2026-09-11T11:04:19+09:00",
+      "snippet": "11년 담합 적발 20년 만에…석유화학업계 다시 '가격 담합' 수사 녹색경제신문",
+      "collected_at": "2026-09-11T21:48:00.493022+09:00",
+      "normalized_title": "11년 담합 적발 20년 만에…석유화학업계 다시 '가격 담합' 수사",
+      "source_normalized": "녹색경제신문",
+      "duplicate_key": "녹색경제신문::11년 담합 적발 20년 만에…석유화학업계 다시 '가격 담합' 수사",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hSmVHdGNpMGVacE5xcmFOcWZ6SXcybFExVnRhWmRiWWx0M2gwUnY4UER2cjMySWJfT01qaWt6WmxObHVFY2J3d1BUQlNQMnZMX3RKaDZfUGdkUWhiMTdlcG9NLWJLdHVY?oc=5",
+      "id": "5eeaa99e6964699e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 석유화학 7개사 가격 담합 수사…LG화학·OCI 등 경영진 줄소환",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uUmV4d2VETDJxaThGSFBEblBtbW84RC04eEVYMEpTNFBZUjdZZUhwMzczSGF4X05CenBMajFXRXlCMzIwY2NpTi1rZlY1MTRjWmo3cDdWRlZRRl8yX0w0U0NFN2RhMjNFRWpoSHhMRXfSAXRBVV95cUxOU0hLQWpQSy1ONVhNMVZsaHFHLVR2WVdvcl82NkJVT0V1NVA4UWxZdXRyTGgtYjBmd1ZTMVF4amZFZFhVTlpQTzdla0lfNDFvUmJfZEhnZDNaZTlwQ2dDWmJwWFFtVDk5Y0JpWWFQdzhUVmZxRg?oc=5",
+      "source": "뉴스워커",
+      "published_at": "2026-09-11T16:23:24+09:00",
+      "snippet": "검찰, 석유화학 7개사 가격 담합 수사…LG화학·OCI 등 경영진 줄소환 뉴스워커",
+      "collected_at": "2026-09-11T21:48:00.493292+09:00",
+      "normalized_title": "검찰, 석유화학 7개사 가격 담합 수사…LG화학·OCI 등 경영진 줄소환",
+      "source_normalized": "뉴스워커",
+      "duplicate_key": "뉴스워커::검찰, 석유화학 7개사 가격 담합 수사…lg화학·oci 등 경영진 줄소환",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uUmV4d2VETDJxaThGSFBEblBtbW84RC04eEVYMEpTNFBZUjdZZUhwMzczSGF4X05CenBMajFXRXlCMzIwY2NpTi1rZlY1MTRjWmo3cDdWRlZRRl8yX0w0U0NFN2RhMjNFRWpoSHhMRXfSAXRBVV95cUxOU0hLQWpQSy1ONVhNMVZsaHFHLVR2WVdvcl82NkJVT0V1NVA4UWxZdXRyTGgtYjBmd1ZTMVF4amZFZFhVTlpQTzdla0lfNDFvUmJfZEhnZDNaZTlwQ2dDWmJwWFFtVDk5Y0JpWWFQdzhUVmZxRg?oc=5",
+      "id": "9865b46280cfb189",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 석유화학 7개사 가격 담합 수사…LG화학·OCI 등 경영진 줄소환새 창 열림",
+      "url": "https://www.newsworker.co.kr/news/articleView.html?idxno=503999",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T16:47:54.629118+09:00",
+      "snippet": "중동전쟁으로 석유화학 원료 수급이 불안해진 시기에 제품 가격을 담합한 의혹을 수사하는 검찰이 LG화학과 OCI, PKC 등 주요 업체 경영진을 잇달아 소환했다. 지난달 7개 업체를 압수수색한 데 이어 가격 결정 과정에 경영진이 관여했는지를 확인하는 데 수사력을 집중하고 있다. 11일 관련 업계에 따르면... 새 창 열림",
+      "collected_at": "2026-09-11T21:47:54.629135+09:00",
+      "normalized_title": "검찰, 석유화학 7개사 가격 담합 수사…LG화학·OCI 등 경영진 줄소환새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, 석유화학 7개사 가격 담합 수사…lg화학·oci 등 경영진 줄소환새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsworker.co.kr/news/articleView.html?idxno=503999",
+      "id": "540e1caf35c8ed8b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 석유화학제품 가격 담합 의혹 수사 확대…업체 경영진 잇달아 소...새 창 열림",
+      "url": "https://www.e-science.co.kr/news/articleView.html?idxno=135296",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T14:47:54.630572+09:00",
+      "snippet": "| 이코노미사이언스 홍승환 기자 | 석유화학제품 가격 담합 의혹을 수사 중인 검찰이 관련 기업의 실무진과 경영진을 잇달아 조사하며 가격 결정 과정에 대한 수사를 확대하고 있다. 서울중앙지검 공정거래조사부는 최근 관련 업체 경영진을 피의자 신분으로 소환해 제품 가격이 결정된 과정과 업체 간 협의... 새 창 열림",
+      "collected_at": "2026-09-11T21:47:54.630589+09:00",
+      "normalized_title": "검찰, 석유화학제품 가격 담합 의혹 수사 확대…업체 경영진 잇달아 소...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, 석유화학제품 가격 담합 의혹 수사 확대…업체 경영진 잇달아 소...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.e-science.co.kr/news/articleView.html?idxno=135296",
+      "id": "1f778365762504d8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘수조원 담합’ 석유화학업체 경영진 줄소환새 창 열림",
+      "url": "https://www.naeil.com/news/read/601981?ref=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T13:47:54.633368+09:00",
+      "snippet": "이들 업체는 PVC와 가소제, 가성소다, 염산 등 8개 석유화학 제품 가격을 수년간 담합한 혐의를 받는다. PVC는 나프타 등을 원료로 만드는 합성 플라스틱으로 건축자재, 파이프, 전선 피복 등에 광범위하게 사용된다. 쓰임새가 다양한 만큼 물가에 미치는 영향도 크다. 그동안 이재명 대통령은 물가 교란행위에... 새 창 열림",
+      "collected_at": "2026-09-11T21:47:54.633383+09:00",
+      "normalized_title": "‘수조원 담합’ 석유화학업체 경영진 줄소환새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘수조원 담합’ 석유화학업체 경영진 줄소환새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.naeil.com/news/read/601981?ref=naver",
+      "id": "82d2cda790b5aa65",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "석유화학업계, 가격 책정 과정 검증… 사정 당국 조사 본격 착수새 창 열림",
+      "url": "https://www.polinews.co.kr/news/articleView.html?idxno=742808",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T13:47:54.632005+09:00",
+      "snippet": "경쟁사와 가격 정보를 공유했다는 사실만으로 담합이 성립하는 것은 아니기 때문에 경쟁을 제한하기 위한 구체적인 합의와 실행이 있었는지가 중요하다. 석유화학제품 가격은 원유와 나프타 등 원료비뿐 아니라 생산량과 가동률, 수출입 여건, 수요 변화 등 여러 요인의 영향을 받는다. 이에 따라 특정 시기에... 새 창 열림",
+      "collected_at": "2026-09-11T21:47:54.632025+09:00",
+      "normalized_title": "석유화학업계, 가격 책정 과정 검증… 사정 당국 조사 본격 착수새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::석유화학업계, 가격 책정 과정 검증… 사정 당국 조사 본격 착수새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.polinews.co.kr/news/articleView.html?idxno=742808",
+      "id": "75f8438825704b5f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "11년 담합 적발 20년 만에…석유화학업계 다시 '가격 담합' 수사새 창 열림",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=349830",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T11:47:37.073387+09:00",
+      "snippet": "20년 전 장기간 가격 담합으로 대규모 제재를 받았던 석유화학업계가 다시 담합 의혹에 휩싸였다. 11일 업계에 따르면 서울중앙지검 공정거래조사부는 LG화학과 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC, 유니드 등 7개 업체의 가격 담합 의혹을 수사하고 있다. 검찰은 지난달 이들 업체를 압수수색한... 새 창 열림",
+      "collected_at": "2026-09-11T21:47:37.073418+09:00",
+      "normalized_title": "11년 담합 적발 20년 만에…석유화학업계 다시 '가격 담합' 수사새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::11년 담합 적발 20년 만에…석유화학업계 다시 '가격 담합' 수사새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.greened.kr/news/articleView.html?idxno=349830",
+      "id": "6b7cb8cdcf70b990",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "김유신 OCI 부회장·장영수 前PKC 대표 피의자 소환새 창 열림",
+      "url": "https://wemakenews.co.kr/news/view.php?no=26286",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T10:47:54.636293+09:00",
+      "snippet": "기존 최대 사건은 지난 7월 기소된 약 14조원 규모의 정유업계 담합 사건이다. 그러나 석유화학 사건의 정확한 거래액과 담합 기간, 부당이익 산정 기준은 공개되지 않았다. 7개 업체가 8개 품목 전체의 가격을 함께 결정했는지, 제품별로 별도의 협의가 있었는지도 확인되지 않은 상태다. 공개된 4개 품목 외... 새 창 열림",
+      "collected_at": "2026-09-11T21:47:54.636309+09:00",
+      "normalized_title": "김유신 OCI 부회장·장영수 前PKC 대표 피의자 소환새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::김유신 oci 부회장·장영수 前pkc 대표 피의자 소환새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://wemakenews.co.kr/news/view.php?no=26286",
+      "id": "917bcd46d650fb9c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "포지션 가벼운데 살 사람이 없다…벌써 '북 클로징' 말 나오는 이유새 창 열림",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434422",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T10:47:37.074916+09:00",
+      "snippet": "이유가 없다\"며 \"은행도 예금으로 들어오는 자금을 운용하는 정도이지 액티브하게 가는 것은 아니다\"고 설명했다. 이어 \"은행들은 5년을 넘는 채권은 잘 담지 않고 시장 레벨을 변화시킬 정도도 아니다\"고 덧붙였다. 일부 대형 증권사의 경우 국고채 전문딜러(PD) 담합 건에 대응하느라 적극적인 운용 전략을 짜기... 새 창 열림",
+      "collected_at": "2026-09-11T21:47:37.074939+09:00",
+      "normalized_title": "포지션 가벼운데 살 사람이 없다…벌써 '북 클로징' 말 나오는 이유새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::포지션 가벼운데 살 사람이 없다…벌써 '북 클로징' 말 나오는 이유새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434422",
+      "id": "45da0d2f073aa069",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, 석화업계 담합 의혹 수사 경영진으로 확대…주요 업체 잇단 소환새 창 열림",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=486068",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T09:47:54.637726+09:00",
+      "snippet": "여수 국가산단 [사진=연합뉴스] 석유화학 제품 가격 담합 의혹을 수사 중인 검찰이 주요 석유화학업체 경영진을 잇달아 소환했다. 지난달 LG화학과 한화솔루션 등 7개 업체를 대상으로 대규모 압수수색을 벌인 데 이어 주요 경영진에 대한 조사를 진행하면서 수사가 한 단계 확대되는 모습이다. 11일 업계와... 새 창 열림",
+      "collected_at": "2026-09-11T21:47:54.637742+09:00",
+      "normalized_title": "檢, 석화업계 담합 의혹 수사 경영진으로 확대…주요 업체 잇단 소환새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::檢, 석화업계 담합 의혹 수사 경영진으로 확대…주요 업체 잇단 소환새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=486068",
+      "id": "72163b71a033d100",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, '석유제품 담합 의혹' OCI 부회장 피의자 조사새 창 열림",
+      "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7183647",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T09:47:37.076391+09:00",
+      "snippet": "전남 여수 석유화학단지. 사진=연합뉴스 국내 석유화학업체들의 가격 담합 의혹을 수사하는 검찰이 김유신 OCI 부회장을 피의자 신분으로 소환했다.... 8개 석유화학제품의 가격 인상을 사전에 협의했다고 의심한다. PVC는 건축자재·파이프·전선 피복 등에 쓰이는 합성 플라스틱이며, 가소제는 PVC를... 새 창 열림",
+      "collected_at": "2026-09-11T21:47:37.076407+09:00",
+      "normalized_title": "검찰, '석유제품 담합 의혹' OCI 부회장 피의자 조사새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, '석유제품 담합 의혹' oci 부회장 피의자 조사새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://weekly.hankooki.com/news/articleView.html?idxno=7183647",
+      "id": "ec41331b79388a03",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 석유화학제품 가격 담합 의혹 수사 확대…업체 경영진 잇달아 소환",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKZFo0SWJrazRDNl9HWlFQS3k1cnNjMm1uWWlHREtxZmtsMHVwS2lGeVRVNm9ldm5jdm1PSG1idTFTSlBNTjZySmk3SUFEMnJDOWJlVjJKQmdpelBNa0lQb3FfZGhPZFdKMmtEVWc5QQ?oc=5",
+      "source": "이코노미사이언스",
+      "published_at": "2026-09-11T14:19:36+09:00",
+      "snippet": "검찰, 석유화학제품 가격 담합 의혹 수사 확대…업체 경영진 잇달아 소환 이코노미사이언스",
+      "collected_at": "2026-09-11T21:48:00.493541+09:00",
+      "normalized_title": "검찰, 석유화학제품 가격 담합 의혹 수사 확대…업체 경영진 잇달아 소환",
+      "source_normalized": "이코노미사이언스",
+      "duplicate_key": "이코노미사이언스::검찰, 석유화학제품 가격 담합 의혹 수사 확대…업체 경영진 잇달아 소환",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKZFo0SWJrazRDNl9HWlFQS3k1cnNjMm1uWWlHREtxZmtsMHVwS2lGeVRVNm9ldm5jdm1PSG1idTFTSlBNTjZySmk3SUFEMnJDOWJlVjJKQmdpelBNa0lQb3FfZGhPZFdKMmtEVWc5QQ?oc=5",
+      "id": "8d53cc8d06fb0faa",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
