@@ -1,0 +1,109 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-11",
+  "slot": "night",
+  "period_start": "2026-09-11T17:00:00+09:00",
+  "period_end": "2026-09-12T00:00:00+09:00",
+  "period_label": "2026-09-11 17:00 ~ 2026-09-12 00:00",
+  "generated_at": "2026-09-12T10:05:00.666744+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1566,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1176
+  },
+  "query_counts": {
+    "석유 담합": 2,
+    "석유제품 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "1.2조 수혈 H&L어드밴스드…원가 절감 지운 공정위 '가격 족쇄'새 창 열림",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=212222",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T18:04:28.218843+09:00",
+      "snippet": "LDPE 시장은 2007년 호남석유화학(현 롯데케미칼) 등 7개사가 가격을 담합해 540억원대 과징금을 문 전력도 있다. 결국 공정위가 9개월간의 장고 끝에 내놓은 결론은 국내 판매가를 수출가격에 못 박는 족쇄였다. 직전 3개월 대비 수출가가 오르거나 그대로면 국내가 인상 폭은 그 이하로 묶이고, 수출가가... 새 창 열림",
+      "collected_at": "2026-09-12T10:04:28.218855+09:00",
+      "normalized_title": "1.2조 수혈 H&L어드밴스드…원가 절감 지운 공정위 '가격 족쇄'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::1.2조 수혈 h&l어드밴스드…원가 절감 지운 공정위 '가격 족쇄'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.srtimes.kr/news/articleView.html?idxno=212222",
+      "id": "170d45717d7e8526",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "검찰, 석유화학 7개사 가격 담합 수사…LG화학·OCI 등 경영진 줄소환새 창 열림",
+      "url": "https://www.newsworker.co.kr/news/articleView.html?idxno=503999",
+      "source": "새 창 열림",
+      "published_at": "2026-09-11T17:04:28.219829+09:00",
+      "snippet": "중동전쟁으로 석유화학 원료 수급이 불안해진 시기에 제품 가격을 담합한 의혹을 수사하는 검찰이 LG화학과 OCI, PKC 등 주요 업체 경영진을 잇달아 소환했다. 지난달 7개 업체를 압수수색한 데 이어 가격 결정 과정에 경영진이 관여했는지를 확인하는 데 수사력을 집중하고 있다. 11일 관련 업계에 따르면... 새 창 열림",
+      "collected_at": "2026-09-12T10:04:28.219841+09:00",
+      "normalized_title": "검찰, 석유화학 7개사 가격 담합 수사…LG화학·OCI 등 경영진 줄소환새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::검찰, 석유화학 7개사 가격 담합 수사…lg화학·oci 등 경영진 줄소환새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsworker.co.kr/news/articleView.html?idxno=503999",
+      "id": "540e1caf35c8ed8b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

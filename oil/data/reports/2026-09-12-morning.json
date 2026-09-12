@@ -1,0 +1,165 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-12",
+  "slot": "morning",
+  "period_start": "2026-09-12T00:00:00+09:00",
+  "period_end": "2026-09-12T08:00:00+09:00",
+  "period_label": "2026-09-12 00:00 ~ 2026-09-12 08:00",
+  "generated_at": "2026-09-12T10:05:00.742039+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1566,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 2,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1176
+  },
+  "query_counts": {
+    "경유 담합": 3,
+    "석유 담합": 3,
+    "석유제품 담합": 3,
+    "정유사 담합": 3,
+    "정유업계 담합": 3,
+    "주유소 담합": 2,
+    "휘발유 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "정부, '석유 최고가격' 정유사 손실정산 심사 돌입⋯고강도 회계 검증 예고",
+      "url": "http://v.daum.net/v/20260912050004429",
+      "source": "이투데이",
+      "published_at": "2026-09-12T05:04:23.723478+09:00",
+      "snippet": "비용)'을 원천 배제하고, 보상 범위를 '국내에 판매된 휘발유·경유·등유' 3개 유종으로 엄격히 한정했다. 정산위원회는 회계 장부상...변수로 떠올랐다. 검찰이 올해 7월 6일 일부 정유사의 가격 담합 사건 수사 브리핑을 통해 \"최고가격제 시행 이후에도 정유사들... 5시간 전 1",
+      "collected_at": "2026-09-12T10:04:23.723503+09:00",
+      "normalized_title": "정부, '석유 최고가격' 정유사 손실정산 심사 돌입⋯고강도 회계 검증 예고",
+      "source_normalized": "이투데이",
+      "duplicate_key": "이투데이::정부, '석유 최고가격' 정유사 손실정산 심사 돌입⋯고강도 회계 검증 예고",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://v.daum.net/v/20260912050004429",
+      "id": "cfa5cc4e0f20d110",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이투데이",
+      "url": "https://v.daum.net/channel/552786/home",
+      "source": "이투데이",
+      "published_at": "2026-09-12T05:04:22.470739+09:00",
+      "snippet": "비용)'을 원천 배제하고, 보상 범위를 '국내에 판매된 휘발유·경유·등유' 3개 유종으로 엄격히 한정했다. 정산위원회는 회계 장부상...변수로 떠올랐다. 검찰이 올해 7월 6일 일부 정유사의 가격 담합 사건 수사 브리핑을 통해 \"최고가격제 시행 이후에도 정유사들... 5시간 전 1",
+      "collected_at": "2026-09-12T10:04:22.470764+09:00",
+      "normalized_title": "이투데이",
+      "source_normalized": "이투데이",
+      "duplicate_key": "이투데이::이투데이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://v.daum.net/channel/552786/home",
+      "id": "cb49091ab34da669",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부, '석유 최고가격' 정유사 손실정산 심사 돌입⋯고강도 회계 검증 ...새 창 열림",
+      "url": "https://www.etoday.co.kr/news/view/2624399",
+      "source": "새 창 열림",
+      "published_at": "2026-09-12T05:04:21.510215+09:00",
+      "snippet": "이에 따라 정부는 정유업계가 요구해 온 '수출 기대수익(해외 수출 시 얻을 수 있었던 기회비용)'을 원천 배제하고, 보상 범위를 '국내에 판매된 휘발유... 검찰이 올해 7월 6일 일부 정유사의 가격 담합 사건 수사 브리핑을 통해 \"최고가격제 시행 이후에도 정유사들이 실질적인 손해를 보지 않았다\"고... 새 창 열림",
+      "collected_at": "2026-09-12T10:04:21.510241+09:00",
+      "normalized_title": "정부, '석유 최고가격' 정유사 손실정산 심사 돌입⋯고강도 회계 검증 ...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정부, '석유 최고가격' 정유사 손실정산 심사 돌입⋯고강도 회계 검증 ...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.etoday.co.kr/news/view/2624399",
+      "id": "7859189f71160bcc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "정유업계",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
