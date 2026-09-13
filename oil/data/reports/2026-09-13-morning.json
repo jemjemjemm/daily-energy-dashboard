@@ -1,0 +1,226 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-13",
+  "slot": "morning",
+  "period_start": "2026-09-13T00:00:00+09:00",
+  "period_end": "2026-09-13T08:00:00+09:00",
+  "period_label": "2026-09-13 00:00 ~ 2026-09-13 08:00",
+  "generated_at": "2026-09-13T09:57:13.608829+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1448,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 0,
+    "daum": 260,
+    "google": 1188
+  },
+  "query_counts": {
+    "석유 담합": 2,
+    "석유제품 담합": 2
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유가담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유가담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:55:30.898351+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유가 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:55:45.498159+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "정유사 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:55:58.032062+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "기름값 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '기름값 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B8%B0%EB%A6%84%EA%B0%92+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:56:09.885821+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "석유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '석유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:56:14.913757+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "휘발유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '휘발유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%9C%98%EB%B0%9C%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:56:19.895943+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "경유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '경유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B2%BD%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:56:31.946653+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "주유소 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '주유소 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A3%BC%EC%9C%A0%EC%86%8C+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:56:43.427061+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "정유업계 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '정유업계 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%97%85%EA%B3%84+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:56:55.360049+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "석유제품 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '석유제품 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0%EC%A0%9C%ED%92%88+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:57:03.284131+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유류가격 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유류가격 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EB%A5%98%EA%B0%80%EA%B2%A9+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:57:07.975829+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "공정위 유가 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '공정위 유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EC%9C%84+%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:57:09.847766+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "공정거래위원회 정유사 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '공정거래위원회 정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EA%B1%B0%EB%9E%98%EC%9C%84%EC%9B%90%ED%9A%8C+%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:57:11.855402+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "검찰, '홈플 사태' 10월2일 전 처분할 듯…MBK 경영진 신병확보 주목",
+      "url": "http://v.daum.net/v/20260913070148381",
+      "source": "뉴스1",
+      "published_at": "2026-09-13T07:56:16.712316+09:00",
+      "snippet": "검찰은 검찰청이 폐지되는 10월 2일 전까지 주요 사건 처분에 속도를 낼 것으로 보인다. 다만 서울중앙지검이 수사 중인 석유화학 제품 가격 담합, 노태우 전 대통령 비자금 사건 등은 수사에 착수한 지 얼마 되지 않아 90일의 유예기간 안에 수사가 이어질 가능성도... 2시간 전",
+      "collected_at": "2026-09-13T09:56:16.712329+09:00",
+      "normalized_title": "검찰, '홈플 사태' 10월2일 전 처분할 듯…MBK 경영진 신병확보 주목",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::검찰, '홈플 사태' 10월2일 전 처분할 듯…mbk 경영진 신병확보 주목",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260913070148381",
+      "id": "3c1c77a58eb220c6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스1",
+      "url": "https://v.daum.net/channel/396/home",
+      "source": "뉴스1",
+      "published_at": "2026-09-13T07:56:15.770874+09:00",
+      "snippet": "검찰은 검찰청이 폐지되는 10월 2일 전까지 주요 사건 처분에 속도를 낼 것으로 보인다. 다만 서울중앙지검이 수사 중인 석유화학 제품 가격 담합, 노태우 전 대통령 비자금 사건 등은 수사에 착수한 지 얼마 되지 않아 90일의 유예기간 안에 수사가 이어질 가능성도... 2시간 전",
+      "collected_at": "2026-09-13T09:56:15.770888+09:00",
+      "normalized_title": "뉴스1",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::뉴스1",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/396/home",
+      "id": "c8ccc99cbe11b78a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

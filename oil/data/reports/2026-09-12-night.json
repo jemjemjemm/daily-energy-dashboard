@@ -1,0 +1,1296 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-12",
+  "slot": "night",
+  "period_start": "2026-09-12T17:00:00+09:00",
+  "period_end": "2026-09-13T00:00:00+09:00",
+  "period_label": "2026-09-12 17:00 ~ 2026-09-13 00:00",
+  "generated_at": "2026-09-13T09:57:13.553429+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1448,
+  "total_deduped_count": 33,
+  "total_ok_count": 33,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 11,
+    "B": 4,
+    "C": 18
+  },
+  "portal_counts": {
+    "naver": 0,
+    "daum": 260,
+    "google": 1188
+  },
+  "query_counts": {
+    "경유 담합": 19,
+    "기름값 담합": 4,
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "유가 담합": 19,
+    "유가담합": 19,
+    "정유사 담합": 20,
+    "정유업계 담합": 6,
+    "주유소 담합": 19,
+    "휘발유 담합": 19
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유가담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유가담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:55:30.898351+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유가 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:55:45.498159+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "정유사 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:55:58.032062+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "기름값 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '기름값 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B8%B0%EB%A6%84%EA%B0%92+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:56:09.885821+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "석유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '석유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:56:14.913757+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "휘발유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '휘발유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%9C%98%EB%B0%9C%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:56:19.895943+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "경유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '경유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B2%BD%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:56:31.946653+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "주유소 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '주유소 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A3%BC%EC%9C%A0%EC%86%8C+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:56:43.427061+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "정유업계 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '정유업계 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%97%85%EA%B3%84+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:56:55.360049+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "석유제품 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '석유제품 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0%EC%A0%9C%ED%92%88+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:57:03.284131+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유류가격 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유류가격 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EB%A5%98%EA%B0%80%EA%B2%A9+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:57:07.975829+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "공정위 유가 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '공정위 유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EC%9C%84+%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:57:09.847766+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "공정거래위원회 정유사 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '공정거래위원회 정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EA%B1%B0%EB%9E%98%EC%9C%84%EC%9B%90%ED%9A%8C+%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-09-13T09:57:11.855402+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "李 “유가 전혀 걱정 안해도 돼…휘발유·경유 가격 계속 안정”",
+      "url": "http://v.daum.net/v/20260912190410684",
+      "source": "중앙일보",
+      "published_at": "2026-09-12T19:55:36.095070+09:00",
+      "snippet": "전망한 기사를 공유하며 이같이 말했다. 이 대통령은 “휘발유, 경유 등 정제유 가격은 계속 안정된다. 걱정말라”면서 “원유 특사...공급물량을 유지하고 있다”고 말했다. 또 “매점매석과 담합을 완전히 막고, ‘착하디 착한 주유소’ 선정 등 선의의 경쟁 체제... 14시간 전 2",
+      "collected_at": "2026-09-13T09:55:36.095084+09:00",
+      "normalized_title": "李 “유가 전혀 걱정 안해도 돼…휘발유·경유 가격 계속 안정”",
+      "source_normalized": "중앙일보",
+      "duplicate_key": "중앙일보::李 “유가 전혀 걱정 안해도 돼…휘발유·경유 가격 계속 안정”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260912190410684",
+      "id": "71438b18ccadd89b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중앙일보",
+      "url": "https://v.daum.net/channel/8/home",
+      "source": "중앙일보",
+      "published_at": "2026-09-12T19:55:34.892292+09:00",
+      "snippet": "전망한 기사를 공유하며 이같이 말했다. 이 대통령은 “휘발유, 경유 등 정제유 가격은 계속 안정된다. 걱정말라”면서 “원유 특사...공급물량을 유지하고 있다”고 말했다. 또 “매점매석과 담합을 완전히 막고, ‘착하디 착한 주유소’ 선정 등 선의의 경쟁 체제... 14시간 전 2",
+      "collected_at": "2026-09-13T09:55:34.892303+09:00",
+      "normalized_title": "중앙일보",
+      "source_normalized": "중앙일보",
+      "duplicate_key": "중앙일보::중앙일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/8/home",
+      "id": "eb7afd40bf8b1876",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李 “유가 걱정 마시라…휘발유 등 가격 계속 안정된다”",
+      "url": "http://v.daum.net/v/20260912175450777",
+      "source": "동아일보",
+      "published_at": "2026-09-12T17:56:30.435800+09:00",
+      "snippet": "대통령은 이날 자신의 X(엑스·옛 트위터)에 “걱정 마시라. 휘발유, 경유 등 정제유 가격은 계속 안정된다”며 이 같이 올렸다. 이...공급물량을 유지하고 있다”고 설명했다. 또 매점매석과 담합 등을 막는 등 시장교란도 철저히 봉쇄 중이라고도 했다. 이 대통령... 16시간 전",
+      "collected_at": "2026-09-13T09:56:30.435814+09:00",
+      "normalized_title": "李 “유가 걱정 마시라…휘발유 등 가격 계속 안정된다”",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::李 “유가 걱정 마시라…휘발유 등 가격 계속 안정된다”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260912175450777",
+      "id": "49e51c91d045c53f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "동아일보",
+      "url": "https://v.daum.net/channel/190/home",
+      "source": "동아일보",
+      "published_at": "2026-09-12T17:56:29.540379+09:00",
+      "snippet": "대통령은 이날 자신의 X(엑스·옛 트위터)에 “걱정 마시라. 휘발유, 경유 등 정제유 가격은 계속 안정된다”며 이 같이 올렸다. 이...공급물량을 유지하고 있다”고 설명했다. 또 매점매석과 담합 등을 막는 등 시장교란도 철저히 봉쇄 중이라고도 했다. 이 대통령... 16시간 전",
+      "collected_at": "2026-09-13T09:56:29.540387+09:00",
+      "normalized_title": "동아일보",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::동아일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/190/home",
+      "id": "4a0c6238fbb4fa64",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보] 李 대통령 “유가 급등 걱정 안해도 돼… 중동 의존도 낮춰”",
+      "url": "http://v.daum.net/v/20260912182807211",
+      "source": "서울신문",
+      "published_at": "2026-09-12T18:55:39.420844+09:00",
+      "snippet": "이날 엑스(X·옛 트위터)에 “국민 여러분, 걱정 말라. 휘발유, 경유 등 정제유 가격은 계속 안정된다”면서 이같이 적었다. 이...물량을 유지하고 있다”고 했다. 그러면서 “매점매석과 담합을 완전히 막고, ‘착하디착한 주유소’ 선정 등 선의의 경쟁 체제를... 15시간 전",
+      "collected_at": "2026-09-13T09:55:39.420858+09:00",
+      "normalized_title": "李 대통령 “유가 급등 걱정 안해도 돼… 중동 의존도 낮춰”",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::李 대통령 “유가 급등 걱정 안해도 돼… 중동 의존도 낮춰”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260912182807211",
+      "id": "3e9b5e911b48f399",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서울신문",
+      "url": "https://v.daum.net/channel/33/home",
+      "source": "서울신문",
+      "published_at": "2026-09-12T18:55:38.253932+09:00",
+      "snippet": "이날 엑스(X·옛 트위터)에 “국민 여러분, 걱정 말라. 휘발유, 경유 등 정제유 가격은 계속 안정된다”면서 이같이 적었다. 이...물량을 유지하고 있다”고 했다. 그러면서 “매점매석과 담합을 완전히 막고, ‘착하디착한 주유소’ 선정 등 선의의 경쟁 체제를... 15시간 전",
+      "collected_at": "2026-09-13T09:55:38.253940+09:00",
+      "normalized_title": "서울신문",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::서울신문",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/33/home",
+      "id": "80c4d7f4831c358c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 “유가 전혀 걱정하지 않으셔도 된다…정제유 가격 계속 안정”",
+      "url": "http://v.daum.net/v/20260912180408884",
+      "source": "세계일보",
+      "published_at": "2026-09-12T18:55:41.570913+09:00",
+      "snippet": "국민 여러분, 걱정 마십시오”라며 이같이 말했다. 국제유가가 배럴당 100달러를 돌파한 가운데 호르무즈 해협 봉쇄 이후 사우디...공급 물량을 유지하고 있다”고 덧붙였다. 또 “매점매석과 담합을 완전히 막고, ‘착하디착한 주유소’ 선정 등 선의의 경쟁체제를... 15시간 전",
+      "collected_at": "2026-09-13T09:55:41.570928+09:00",
+      "normalized_title": "李대통령 “유가 전혀 걱정하지 않으셔도 된다…정제유 가격 계속 안정”",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::李대통령 “유가 전혀 걱정하지 않으셔도 된다…정제유 가격 계속 안정”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260912180408884",
+      "id": "66b360342bd1e43b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "유가 폭등에 “걱정 마라”…이재명이 꺼낸 묘수는?",
+      "url": "http://v.daum.net/v/20260912183328273",
+      "source": "세계일보",
+      "published_at": "2026-09-12T18:55:38.253346+09:00",
+      "snippet": "통해 관련 기사를 공유하며 “국민 여러분, 걱정 말라. 휘발유, 경유 등 정제유 가격은 계속 안정된다”고 밝혔다. 이어 원유 수입처...물량을 유지하고 있다”고 강조했다. 또한 “매점매석과 담합을 완전히 막고, ‘착하디 착한 주유소’ 선정 등 선의의 경쟁 체제... 15시간 전 1",
+      "collected_at": "2026-09-13T09:55:38.253360+09:00",
+      "normalized_title": "유가 폭등에 “걱정 마라”…이재명이 꺼낸 묘수는?",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::유가 폭등에 “걱정 마라”…이재명이 꺼낸 묘수는?",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260912183328273",
+      "id": "fd4c1df86c9933da",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "세계일보",
+      "url": "https://v.daum.net/channel/38/home",
+      "source": "세계일보",
+      "published_at": "2026-09-12T18:55:37.188638+09:00",
+      "snippet": "통해 관련 기사를 공유하며 “국민 여러분, 걱정 말라. 휘발유, 경유 등 정제유 가격은 계속 안정된다”고 밝혔다. 이어 원유 수입처...물량을 유지하고 있다”고 강조했다. 또한 “매점매석과 담합을 완전히 막고, ‘착하디 착한 주유소’ 선정 등 선의의 경쟁 체제... 15시간 전 1",
+      "collected_at": "2026-09-13T09:55:37.188647+09:00",
+      "normalized_title": "세계일보",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::세계일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 10,
+      "canonical_url": "https://v.daum.net/channel/38/home",
+      "id": "84b9eb17cf27ffac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 “유가 전혀 걱정 안 해도 돼…국내는 계속 안정” [이런정치]",
+      "url": "http://v.daum.net/v/20260912173638514",
+      "source": "헤럴드경제",
+      "published_at": "2026-09-12T17:56:58.224309+09:00",
+      "snippet": "있다”며 “매점매석과 담합을 차단하고 착한 주유소 선정 등을 통해 선의의 경쟁을 유도하고 있다”고 강조했다. 아울러 국내 정유업계의 상황에 대해서도 언급했다. 이 대통령은 “정유사들은 국제 정제유가 폭등으로 이익이 큰 데다 국내 가격·수출 통제에 따른... 16시간 전",
+      "collected_at": "2026-09-13T09:56:58.224321+09:00",
+      "normalized_title": "李대통령 “유가 전혀 걱정 안 해도 돼…국내는 계속 안정” [이런정치]",
+      "source_normalized": "헤럴드경제",
+      "duplicate_key": "헤럴드경제::李대통령 “유가 전혀 걱정 안 해도 돼…국내는 계속 안정” [이런정치]",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260912173638514",
+      "id": "1f27ad132467353a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "헤럴드경제",
+      "url": "https://v.daum.net/channel/19/home",
+      "source": "헤럴드경제",
+      "published_at": "2026-09-12T17:56:57.329580+09:00",
+      "snippet": "있다”며 “매점매석과 담합을 차단하고 착한 주유소 선정 등을 통해 선의의 경쟁을 유도하고 있다”고 강조했다. 아울러 국내 정유업계의 상황에 대해서도 언급했다. 이 대통령은 “정유사들은 국제 정제유가 폭등으로 이익이 큰 데다 국내 가격·수출 통제에 따른... 16시간 전",
+      "collected_at": "2026-09-13T09:56:57.329588+09:00",
+      "normalized_title": "헤럴드경제",
+      "source_normalized": "헤럴드경제",
+      "duplicate_key": "헤럴드경제::헤럴드경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/19/home",
+      "id": "f3bb9ab269bdb9b7",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"유가 걱정 안해도 돼…휘발유·경윳값 계속 안정될 것\"",
+      "url": "http://v.daum.net/v/20260912182135132",
+      "source": "JTBC",
+      "published_at": "2026-09-12T18:55:40.492000+09:00",
+      "snippet": "휘발유·경유 등 정제유 가격이 계속 안정될 것이라며 \"유가에 관한 한 전혀 걱정하지 않아도 된다\"고 밝혔습니다. 이 대통령은 오늘...중이라고 했습니다. 또한 이 대통령은 \"매점매석과 담합을 완전히 막고, '착하디착한 주유소' 선정 등 선의의 경쟁 체제를 유지... 15시간 전 1",
+      "collected_at": "2026-09-13T09:55:40.492018+09:00",
+      "normalized_title": "이 대통령 \"유가 걱정 안해도 돼…휘발유·경윳값 계속 안정될 것\"",
+      "source_normalized": "JTBC",
+      "duplicate_key": "jtbc::이 대통령 \"유가 걱정 안해도 돼…휘발유·경윳값 계속 안정될 것\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260912182135132",
+      "id": "3f3e159682abc1f0",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "JTBC",
+      "url": "https://v.daum.net/channel/310/home",
+      "source": "JTBC",
+      "published_at": "2026-09-12T18:55:39.421466+09:00",
+      "snippet": "휘발유·경유 등 정제유 가격이 계속 안정될 것이라며 \"유가에 관한 한 전혀 걱정하지 않아도 된다\"고 밝혔습니다. 이 대통령은 오늘...중이라고 했습니다. 또한 이 대통령은 \"매점매석과 담합을 완전히 막고, '착하디착한 주유소' 선정 등 선의의 경쟁 체제를 유지... 15시간 전 1",
+      "collected_at": "2026-09-13T09:55:39.421474+09:00",
+      "normalized_title": "JTBC",
+      "source_normalized": "JTBC",
+      "duplicate_key": "jtbc::jtbc",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/310/home",
+      "id": "65594be9d317410e",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"유가 걱정 안 해도 돼…휘발유·경유 안정\"",
+      "url": "http://v.daum.net/v/20260912191731847",
+      "source": "연합뉴스TV",
+      "published_at": "2026-09-12T19:55:34.891724+09:00",
+      "snippet": "이재명 대통령이 국제 유가 폭등 우려와 관련해 \"국민 여러분께서는 유가에 관한 한 전혀 걱정하지 않으셔도 된다\"고 밝혔습니다. 이...가격도 안정적으로 관리하고 있다고 강조했습니다. 매점매석과 담합을 막는 등 시장 교란도 차단하고 있다며, 앞으로도 원유... 14시간 전",
+      "collected_at": "2026-09-13T09:55:34.891736+09:00",
+      "normalized_title": "이 대통령 \"유가 걱정 안 해도 돼…휘발유·경유 안정\"",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::이 대통령 \"유가 걱정 안 해도 돼…휘발유·경유 안정\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260912191731847",
+      "id": "75fd7b22da26656a",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스TV",
+      "url": "https://v.daum.net/channel/318/home",
+      "source": "연합뉴스TV",
+      "published_at": "2026-09-12T19:55:33.533618+09:00",
+      "snippet": "이재명 대통령이 국제 유가 폭등 우려와 관련해 \"국민 여러분께서는 유가에 관한 한 전혀 걱정하지 않으셔도 된다\"고 밝혔습니다. 이...가격도 안정적으로 관리하고 있다고 강조했습니다. 매점매석과 담합을 막는 등 시장 교란도 차단하고 있다며, 앞으로도 원유... 14시간 전",
+      "collected_at": "2026-09-13T09:55:33.533626+09:00",
+      "normalized_title": "연합뉴스TV",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::연합뉴스tv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/318/home",
+      "id": "3c5f8f96c9d1d1e1",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 \"기름값 걱정 안 해도 돼...위기를 기회로 바꿔낼 것\"",
+      "url": "http://v.daum.net/v/20260912172701369",
+      "source": "kbc광주방송",
+      "published_at": "2026-09-12T17:56:12.557356+09:00",
+      "snippet": "최고 가격제와 수출 물량 통제로 무리 없이 안정적 가격과 공급물량을 유지하고 있다\"고 강조했습니다. 그러면서 \"매점매석과 담합을 완전히 막고, '착하디 착한 주유소' 선정 등 선의의 경쟁 체제를 유지시켜 시장 교란도 철저히 봉쇄 중\"이라고 전했습니다. 또한... 16시간 전 1",
+      "collected_at": "2026-09-13T09:56:12.557369+09:00",
+      "normalized_title": "李대통령 \"기름값 걱정 안 해도 돼...위기를 기회로 바꿔낼 것\"",
+      "source_normalized": "kbc광주방송",
+      "duplicate_key": "kbc광주방송::李대통령 \"기름값 걱정 안 해도 돼...위기를 기회로 바꿔낼 것\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260912172701369",
+      "id": "070d979db1909580",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "kbc광주방송",
+      "url": "https://v.daum.net/channel/133710/home",
+      "source": "kbc광주방송",
+      "published_at": "2026-09-12T17:56:11.667465+09:00",
+      "snippet": "최고 가격제와 수출 물량 통제로 무리 없이 안정적 가격과 공급물량을 유지하고 있다\"고 강조했습니다. 그러면서 \"매점매석과 담합을 완전히 막고, '착하디 착한 주유소' 선정 등 선의의 경쟁 체제를 유지시켜 시장 교란도 철저히 봉쇄 중\"이라고 전했습니다. 또한... 16시간 전 1",
+      "collected_at": "2026-09-13T09:56:11.667473+09:00",
+      "normalized_title": "kbc광주방송",
+      "source_normalized": "kbc광주방송",
+      "duplicate_key": "kbc광주방송::kbc광주방송",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/133710/home",
+      "id": "15e2acd50ead8a74",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 “유가 걱정 안해도 돼…수급 안정성 유지”",
+      "url": "http://v.daum.net/v/20260912185909628",
+      "source": "강원도민일보",
+      "published_at": "2026-09-12T19:55:37.188002+09:00",
+      "snippet": "통해 “유가에 관한 한 전혀 걱정하지 않으셔도 된다”며 “휘발유, 경유 등 국내 정제유 가격은 계속 안정될 것”이라고 밝혔다. 이...물량을 유지하는 중”이라고 강조했다. 이어 “매점매석과 담합을 완전히 차단하고 ‘착한 주유소’ 선정 등을 통해 선의의 경쟁... 14시간 전 1",
+      "collected_at": "2026-09-13T09:55:37.188017+09:00",
+      "normalized_title": "이 대통령 “유가 걱정 안해도 돼…수급 안정성 유지”",
+      "source_normalized": "강원도민일보",
+      "duplicate_key": "강원도민일보::이 대통령 “유가 걱정 안해도 돼…수급 안정성 유지”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260912185909628",
+      "id": "768f3f0a6965f7aa",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "강원도민일보",
+      "url": "https://v.daum.net/channel/172504/home",
+      "source": "강원도민일보",
+      "published_at": "2026-09-12T19:55:36.095663+09:00",
+      "snippet": "통해 “유가에 관한 한 전혀 걱정하지 않으셔도 된다”며 “휘발유, 경유 등 국내 정제유 가격은 계속 안정될 것”이라고 밝혔다. 이...물량을 유지하는 중”이라고 강조했다. 이어 “매점매석과 담합을 완전히 차단하고 ‘착한 주유소’ 선정 등을 통해 선의의 경쟁... 14시간 전 1",
+      "collected_at": "2026-09-13T09:55:36.095671+09:00",
+      "normalized_title": "강원도민일보",
+      "source_normalized": "강원도민일보",
+      "duplicate_key": "강원도민일보::강원도민일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/172504/home",
+      "id": "149b20f33b42d73b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보]李대통령 \"유가 걱정 않으셔도 돼…가격 계속 안정\"",
+      "url": "http://v.daum.net/v/20260912174501640",
+      "source": "노컷뉴스",
+      "published_at": "2026-09-12T17:56:08.669177+09:00",
+      "snippet": "없이 안정적 가격과 공급 물량을 유지하고 있다\"며 \"매점매석과 담합을 완전히 막고, '착하디착한 주유소' 선정 등 선의의 경쟁 체제...교란도 철저히 봉쇄 중\"이라고 했다. 이 대통령은 \"국내 정유사들은 국제 정제유가 폭등에 따른 이익이 크고, 국내 가격과 수출... 16시간 전 4",
+      "collected_at": "2026-09-13T09:56:08.669190+09:00",
+      "normalized_title": "李대통령 \"유가 걱정 않으셔도 돼…가격 계속 안정\"",
+      "source_normalized": "노컷뉴스",
+      "duplicate_key": "노컷뉴스::李대통령 \"유가 걱정 않으셔도 돼…가격 계속 안정\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260912174501640",
+      "id": "77c48cdf9d933958",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "노컷뉴스",
+      "url": "https://v.daum.net/channel/35/home",
+      "source": "노컷뉴스",
+      "published_at": "2026-09-12T17:56:07.643524+09:00",
+      "snippet": "없이 안정적 가격과 공급 물량을 유지하고 있다\"며 \"매점매석과 담합을 완전히 막고, '착하디착한 주유소' 선정 등 선의의 경쟁 체제...교란도 철저히 봉쇄 중\"이라고 했다. 이 대통령은 \"국내 정유사들은 국제 정제유가 폭등에 따른 이익이 크고, 국내 가격과 수출... 16시간 전 4",
+      "collected_at": "2026-09-13T09:56:07.643532+09:00",
+      "normalized_title": "노컷뉴스",
+      "source_normalized": "노컷뉴스",
+      "duplicate_key": "노컷뉴스::노컷뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/35/home",
+      "id": "d278fa5159208a2e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이재명 대통령, \"국민 여러분들은 유가 걱정 전혀 않으셔도 된다\"",
+      "url": "http://v.daum.net/v/20260912174840693",
+      "source": "대전일보",
+      "published_at": "2026-09-12T17:56:07.642934+09:00",
+      "snippet": "원유 공급 안정성도 유지 중\"이라고 밝혔다. 또, \"매점매석과 담합을 완전히 막고, '착하디 착한 주유소' 선정 등 선의의 경쟁 체제를...교란도 철저히 봉쇄 중\"이라고 덧붙였다. 이 대통령은 \"국내 정유사들은 국제 정제유가 폭등에 따른 이익이 크고 국내 가격과... 16시간 전 39",
+      "collected_at": "2026-09-13T09:56:07.642947+09:00",
+      "normalized_title": "이재명 대통령, \"국민 여러분들은 유가 걱정 전혀 않으셔도 된다\"",
+      "source_normalized": "대전일보",
+      "duplicate_key": "대전일보::이재명 대통령, \"국민 여러분들은 유가 걱정 전혀 않으셔도 된다\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260912174840693",
+      "id": "4a2f3c01a1ac88c2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "대전일보",
+      "url": "https://v.daum.net/channel/98009/home",
+      "source": "대전일보",
+      "published_at": "2026-09-12T17:56:06.767582+09:00",
+      "snippet": "원유 공급 안정성도 유지 중\"이라고 밝혔다. 또, \"매점매석과 담합을 완전히 막고, '착하디 착한 주유소' 선정 등 선의의 경쟁 체제를...교란도 철저히 봉쇄 중\"이라고 덧붙였다. 이 대통령은 \"국내 정유사들은 국제 정제유가 폭등에 따른 이익이 크고 국내 가격과... 16시간 전 39",
+      "collected_at": "2026-09-13T09:56:06.767590+09:00",
+      "normalized_title": "대전일보",
+      "source_normalized": "대전일보",
+      "duplicate_key": "대전일보::대전일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/98009/home",
+      "id": "cb1e86727d0138fc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李 대통령 \"유가 걱정 안 해도 돼⋯국내는 계속 안정\"",
+      "url": "http://v.daum.net/v/20260912175510778",
+      "source": "아이뉴스24",
+      "published_at": "2026-09-12T17:55:44.136031+09:00",
+      "snippet": "원유 공급 안정성도 유지 중\"이라며 \"원유와 국제 정제 유가는 폭등 중이지만 국내 정제유는 최고 가격제와 수출 물량 통제로 무리...물량을 유지하고 있다\"고 강조했다. 그러면서 \"매점매석과 담합을 완전히 막고, '착하디 착한 주유소' 선정 등 선의의 경쟁 체제를... 16시간 전 2",
+      "collected_at": "2026-09-13T09:55:44.136044+09:00",
+      "normalized_title": "李 대통령 \"유가 걱정 안 해도 돼⋯국내는 계속 안정\"",
+      "source_normalized": "아이뉴스24",
+      "duplicate_key": "아이뉴스24::李 대통령 \"유가 걱정 안 해도 돼⋯국내는 계속 안정\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260912175510778",
+      "id": "a9cc705048e95628",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "아이뉴스24",
+      "url": "https://v.daum.net/channel/10/home",
+      "source": "아이뉴스24",
+      "published_at": "2026-09-12T17:55:42.965076+09:00",
+      "snippet": "원유 공급 안정성도 유지 중\"이라며 \"원유와 국제 정제 유가는 폭등 중이지만 국내 정제유는 최고 가격제와 수출 물량 통제로 무리...물량을 유지하고 있다\"고 강조했다. 그러면서 \"매점매석과 담합을 완전히 막고, '착하디 착한 주유소' 선정 등 선의의 경쟁 체제를... 16시간 전 2",
+      "collected_at": "2026-09-13T09:55:42.965084+09:00",
+      "normalized_title": "아이뉴스24",
+      "source_normalized": "아이뉴스24",
+      "duplicate_key": "아이뉴스24::아이뉴스24",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/10/home",
+      "id": "5b7cbd34c03800d3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이재명 대통령 \"유가 걱정하지 않으셔도 된다\"",
+      "url": "http://v.daum.net/v/20260912192236911",
+      "source": "오마이뉴스",
+      "published_at": "2026-09-12T19:55:33.533017+09:00",
+      "snippet": "이 대통령의 글 전문이다. 국민 여러분. 걱정 마십시오. 휘발유, 경유 등 정제유 가격은 계속 안정됩니다. 원유특사 파견 등 원유외교...안정적 가격과 공급물량을 유지하고 있습니다. 매점매석과 담합을 완전히 막고, 착하디착한 주유소' 선정 등 선의의 경쟁체제를... 14시간 전 86",
+      "collected_at": "2026-09-13T09:55:33.533030+09:00",
+      "normalized_title": "이재명 대통령 \"유가 걱정하지 않으셔도 된다\"",
+      "source_normalized": "오마이뉴스",
+      "duplicate_key": "오마이뉴스::이재명 대통령 \"유가 걱정하지 않으셔도 된다\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260912192236911",
+      "id": "07e83f157f84bc60",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "오마이뉴스",
+      "url": "https://v.daum.net/channel/4/home",
+      "source": "오마이뉴스",
+      "published_at": "2026-09-12T19:55:32.021973+09:00",
+      "snippet": "이 대통령의 글 전문이다. 국민 여러분. 걱정 마십시오. 휘발유, 경유 등 정제유 가격은 계속 안정됩니다. 원유특사 파견 등 원유외교...안정적 가격과 공급물량을 유지하고 있습니다. 매점매석과 담합을 완전히 막고, 착하디착한 주유소' 선정 등 선의의 경쟁체제를... 14시간 전 86",
+      "collected_at": "2026-09-13T09:55:32.021988+09:00",
+      "normalized_title": "오마이뉴스",
+      "source_normalized": "오마이뉴스",
+      "duplicate_key": "오마이뉴스::오마이뉴스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/4/home",
+      "id": "7777c909c6faa807",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이재명 대통령 “국제 유가 급등에도 안정”…기름값 잡은 비결은",
+      "url": "http://v.daum.net/v/20260912173351465",
+      "source": "지데일리",
+      "published_at": "2026-09-12T17:56:11.666881+09:00",
+      "snippet": "물량을 조절하면서 국내 공급량을 확보하고 있다. 매점매석과 담합 같은 시장 교란 행위에 대한 감시도 강화되고 있다. 정부는 가격...마진 상승에 힘입어 수익성이 크게 개선되고 있다. 국제 석유제품 가격이 오르면서 정유사 입장에서는 수출을 확대할 유인이 커질... 16시간 전 238",
+      "collected_at": "2026-09-13T09:56:11.666894+09:00",
+      "normalized_title": "이재명 대통령 “국제 유가 급등에도 안정”…기름값 잡은 비결은",
+      "source_normalized": "지데일리",
+      "duplicate_key": "지데일리::이재명 대통령 “국제 유가 급등에도 안정”…기름값 잡은 비결은",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260912173351465",
+      "id": "26d9cbb62fed1e70",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "기름값",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "지데일리",
+      "url": "https://v.daum.net/channel/552811/home",
+      "source": "지데일리",
+      "published_at": "2026-09-12T17:56:10.871773+09:00",
+      "snippet": "물량을 조절하면서 국내 공급량을 확보하고 있다. 매점매석과 담합 같은 시장 교란 행위에 대한 감시도 강화되고 있다. 정부는 가격...마진 상승에 힘입어 수익성이 크게 개선되고 있다. 국제 석유제품 가격이 오르면서 정유사 입장에서는 수출을 확대할 유인이 커질... 16시간 전 238",
+      "collected_at": "2026-09-13T09:56:10.871787+09:00",
+      "normalized_title": "지데일리",
+      "source_normalized": "지데일리",
+      "duplicate_key": "지데일리::지데일리",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://v.daum.net/channel/552811/home",
+      "id": "e1eef03bb4b06ba0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령 \"유가 걱정 않으셔도 돼\"",
+      "url": "http://v.daum.net/v/20260912180309859",
+      "source": "한경비즈니스",
+      "published_at": "2026-09-12T18:55:42.964470+09:00",
+      "snippet": "이재명 대통령이 \"유가에 관한 한 전혀 걱정하지 않으셔도 된다\"고 말했다. 국제유가가 중동 전쟁 장기화 여파로 배럴 당 100달러를...공급 물량을 유지하고 있다\"고도 했다. 그는 \"매점매석과 담합을 완전히 막고, '착하디착한 주유소' 선정 등 선의의 경쟁 체제를... 15시간 전 1",
+      "collected_at": "2026-09-13T09:55:42.964484+09:00",
+      "normalized_title": "李대통령 \"유가 걱정 않으셔도 돼\"",
+      "source_normalized": "한경비즈니스",
+      "duplicate_key": "한경비즈니스::李대통령 \"유가 걱정 않으셔도 돼\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260912180309859",
+      "id": "cb3da6f9a98c735a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한경비즈니스",
+      "url": "https://v.daum.net/channel/77/home",
+      "source": "한경비즈니스",
+      "published_at": "2026-09-12T18:55:41.571524+09:00",
+      "snippet": "이재명 대통령이 \"유가에 관한 한 전혀 걱정하지 않으셔도 된다\"고 말했다. 국제유가가 중동 전쟁 장기화 여파로 배럴 당 100달러를...공급 물량을 유지하고 있다\"고도 했다. 그는 \"매점매석과 담합을 완전히 막고, '착하디착한 주유소' 선정 등 선의의 경쟁 체제를... 15시간 전 1",
+      "collected_at": "2026-09-13T09:55:41.571533+09:00",
+      "normalized_title": "한경비즈니스",
+      "source_normalized": "한경비즈니스",
+      "duplicate_key": "한경비즈니스::한경비즈니스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/77/home",
+      "id": "96b71310c86c3a40",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령, 국제유가 급등에 \"전혀 걱정 안해도 돼…국내는 계속 안정\"",
+      "url": "http://v.daum.net/v/20260912173852555",
+      "source": "한국경제TV",
+      "published_at": "2026-09-12T17:56:57.329006+09:00",
+      "snippet": "교란 행위에 대한 대응 방침도 언급했다. 그는 \"매점매석과 담합을 완전히 막고, '착하디 착한 주유소' 선정 등 선의의 경쟁 체제를 유지시켜 시장 교란도 철저히 봉쇄 중\"이라고 말했다. 국내 정유업계 상황에 대해서는 \"국내 정유사들은 국제 정제유가 폭등에 따른... 16시간 전",
+      "collected_at": "2026-09-13T09:56:57.329019+09:00",
+      "normalized_title": "李대통령, 국제유가 급등에 \"전혀 걱정 안해도 돼…국내는 계속 안정\"",
+      "source_normalized": "한국경제TV",
+      "duplicate_key": "한국경제tv::李대통령, 국제유가 급등에 \"전혀 걱정 안해도 돼…국내는 계속 안정\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260912173852555",
+      "id": "0a90d2817fc1273f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국경제TV",
+      "url": "https://v.daum.net/channel/134/home",
+      "source": "한국경제TV",
+      "published_at": "2026-09-12T17:56:56.214387+09:00",
+      "snippet": "교란 행위에 대한 대응 방침도 언급했다. 그는 \"매점매석과 담합을 완전히 막고, '착하디 착한 주유소' 선정 등 선의의 경쟁 체제를 유지시켜 시장 교란도 철저히 봉쇄 중\"이라고 말했다. 국내 정유업계 상황에 대해서는 \"국내 정유사들은 국제 정제유가 폭등에 따른... 16시간 전",
+      "collected_at": "2026-09-13T09:56:56.214400+09:00",
+      "normalized_title": "한국경제TV",
+      "source_normalized": "한국경제TV",
+      "duplicate_key": "한국경제tv::한국경제tv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://v.daum.net/channel/134/home",
+      "id": "76c31790d983443a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
