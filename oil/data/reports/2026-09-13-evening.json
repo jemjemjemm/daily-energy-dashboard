@@ -1,0 +1,435 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-13",
+  "slot": "evening",
+  "period_start": "2026-09-13T08:00:00+09:00",
+  "period_end": "2026-09-13T17:00:00+09:00",
+  "period_label": "2026-09-13 08:00 ~ 2026-09-13 17:00",
+  "generated_at": "2026-09-13T22:17:48.992415+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1579,
+  "total_deduped_count": 10,
+  "total_ok_count": 10,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 10
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1189
+  },
+  "query_counts": {
+    "경유 담합": 9,
+    "기름값 담합": 3,
+    "석유 담합": 5,
+    "석유제품 담합": 5,
+    "유가 담합": 9,
+    "유가담합": 9,
+    "정유사 담합": 8,
+    "정유업계 담합": 2,
+    "주유소 담합": 10,
+    "휘발유 담합": 9
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "李대통령, 국제유가 급등에 “걱정 말라⋯ 휘발유·경유 등 정제유 가격은 계속 안정”",
+      "url": "http://v.daum.net/v/20260913133120432",
+      "source": "강원일보",
+      "published_at": "2026-09-13T14:16:56.690805+09:00",
+      "snippet": "여부를 전망한 기사를 링크한 후 “국민 여러분, 걱정말라. 휘발유, 경유 등 정제유 가격은 계속 안정된다”면서 이같이 적었다. 이어...유지하고 있다”고 강조했다. 그러면서 “매점매석과 담합을 완전히 막고, ‘착하디 착한 주유소’ 선정 등 선의의 경쟁 체제... 8시간 전 5",
+      "collected_at": "2026-09-13T22:16:56.690833+09:00",
+      "normalized_title": "李대통령, 국제유가 급등에 “걱정 말라⋯ 휘발유·경유 등 정제유 가격은 계속 안정”",
+      "source_normalized": "강원일보",
+      "duplicate_key": "강원일보::李대통령, 국제유가 급등에 “걱정 말라⋯ 휘발유·경유 등 정제유 가격은 계속 안정”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260913133120432",
+      "id": "4d71aca5911a8093",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "강원일보",
+      "url": "https://v.daum.net/channel/551736/home",
+      "source": "강원일보",
+      "published_at": "2026-09-13T14:16:55.648945+09:00",
+      "snippet": "여부를 전망한 기사를 링크한 후 “국민 여러분, 걱정말라. 휘발유, 경유 등 정제유 가격은 계속 안정된다”면서 이같이 적었다. 이어...유지하고 있다”고 강조했다. 그러면서 “매점매석과 담합을 완전히 막고, ‘착하디 착한 주유소’ 선정 등 선의의 경쟁 체제... 8시간 전 5",
+      "collected_at": "2026-09-13T22:16:55.648970+09:00",
+      "normalized_title": "강원일보",
+      "source_normalized": "강원일보",
+      "duplicate_key": "강원일보::강원일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://v.daum.net/channel/551736/home",
+      "id": "621eb79d9856331e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국제유가 계속 뛰는데 주유소 기름값은 언제까지?",
+      "url": "http://v.daum.net/v/20260913115701486",
+      "source": "매경이코노미",
+      "published_at": "2026-09-13T12:16:57.807371+09:00",
+      "snippet": "주유소 마진 등에 의해 높아진다. 9차 석유 최고가격은 리터당 휘발유 1784원, 경우 1773원, 등유 1380원이다. 현재 국내 휘발유 가격...원유 공급 안정성도 유지 중”이라며 “매점매석과 담합을 완전히 막고 ‘착하디 착한 주유소’ 선정 등 선의의 경쟁 체제를... 10시간 전",
+      "collected_at": "2026-09-13T22:16:57.807398+09:00",
+      "normalized_title": "국제유가 계속 뛰는데 주유소 기름값은 언제까지?",
+      "source_normalized": "매경이코노미",
+      "duplicate_key": "매경이코노미::국제유가 계속 뛰는데 주유소 기름값은 언제까지?",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://v.daum.net/v/20260913115701486",
+      "id": "abda116a241ced8c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "기름값",
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "매경이코노미",
+      "url": "https://v.daum.net/channel/59/home",
+      "source": "매경이코노미",
+      "published_at": "2026-09-13T12:16:56.692061+09:00",
+      "snippet": "주유소 마진 등에 의해 높아진다. 9차 석유 최고가격은 리터당 휘발유 1784원, 경우 1773원, 등유 1380원이다. 현재 국내 휘발유 가격...원유 공급 안정성도 유지 중”이라며 “매점매석과 담합을 완전히 막고 ‘착하디 착한 주유소’ 선정 등 선의의 경쟁 체제를... 10시간 전",
+      "collected_at": "2026-09-13T22:16:56.692079+09:00",
+      "normalized_title": "매경이코노미",
+      "source_normalized": "매경이코노미",
+      "duplicate_key": "매경이코노미::매경이코노미",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://v.daum.net/channel/59/home",
+      "id": "38640c198a6ff2b0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"알고리즘이 알아서 했다\"는 변명이 위험한 이유새 창 열림",
+      "url": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=53990",
+      "source": "새 창 열림",
+      "published_at": "2026-09-13T14:17:28.234364+09:00",
+      "snippet": "더 두려운 건 아무도 설계하지 않은 담합이다. 2017년 독일 주유소 시장에 자동 가격 설정 소프트웨어가 보급된 후의 변화를 다룬 2024년 <정치경제학저널(Journal of Political Economy)> 논문을 들여다보자. 경쟁 관계인 두 주유소가 모두 해당 알고리즘을 도입한 지역에서 마진이 38%나 폭증했다. 담합을... 새 창 열림",
+      "collected_at": "2026-09-13T22:17:28.234449+09:00",
+      "normalized_title": "\"알고리즘이 알아서 했다\"는 변명이 위험한 이유새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::\"알고리즘이 알아서 했다\"는 변명이 위험한 이유새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=53990",
+      "id": "8a4a164b3917b6c8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "李대통령, 국제유가 급등에 “걱정 말라⋯ 휘발유·경유 등 정제유 가격...새 창 열림",
+      "url": "https://www.kwnews.co.kr/article/20260913500703",
+      "source": "새 창 열림",
+      "published_at": "2026-09-13T14:16:51.695414+09:00",
+      "snippet": "휘발유, 경유 등 정제유 가격은 계속 안정된다”면서 이같이 적었다. 이어 “원유 특사 파견 등 원유 외교 강화로 원유 수입처를 다변화하고, 장거리 원유... 그러면서 “매점매석과 담합을 완전히 막고, ‘착하디 착한 주유소’ 선정 등 선의의 경쟁 체제를 유지시켜 시장 교란도 철저히 봉쇄 중”이라고 전했다.... 새 창 열림",
+      "collected_at": "2026-09-13T22:16:51.695436+09:00",
+      "normalized_title": "李대통령, 국제유가 급등에 “걱정 말라⋯ 휘발유·경유 등 정제유 가격...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::李대통령, 국제유가 급등에 “걱정 말라⋯ 휘발유·경유 등 정제유 가격...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.kwnews.co.kr/article/20260913500703",
+      "id": "f6c3e63fa6eacbb0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"유가 걱정 마시라...수급 안정 유지\"새 창 열림",
+      "url": "http://www.jeollailbo.com/news/articleView.html?idxno=810864",
+      "source": "새 창 열림",
+      "published_at": "2026-09-13T13:16:51.696765+09:00",
+      "snippet": "이 대통령은 12일 SNS에 \"유가에 관한 한 전혀 걱정하지 않으셔도 된다\"며 \"휘발유, 경유 등 국내 정제유 가격은 계속 안정될 것\"이라고 밝혔다. 이어 \"원유... 그러면서 \"매점매석과 담합을 완전히 막고, '착하디 착한 주유소' 선정 등 선의의 경쟁 체제를 유지시켜 시장 교란도 철저히 봉쇄 중\"이라고 덧붙였다. 다만... 새 창 열림",
+      "collected_at": "2026-09-13T22:16:51.696782+09:00",
+      "normalized_title": "이 대통령 \"유가 걱정 마시라...수급 안정 유지\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이 대통령 \"유가 걱정 마시라...수급 안정 유지\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://www.jeollailbo.com/news/articleView.html?idxno=810864",
+      "id": "6af6b164fd487865",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국제유가 계속 뛰는데 주유소 기름값은 언제까지?새 창 열림",
+      "url": "https://www.mk.co.kr/article/12151299",
+      "source": "새 창 열림",
+      "published_at": "2026-09-13T12:16:51.698319+09:00",
+      "snippet": "한국석유공사 유가정보시스템 오피넷에 따르면 9월 둘째 주인 지난 6일부터 10일까지 전국 주유소 휘발유 평균 판매가격은 리터당 1859.1원으로... 이어 “전략 비축유 스와프제 도입으로 원유 공급 안정성도 유지 중”이라며 “매점매석과 담합을 완전히 막고 ‘착하디 착한 주유소’ 선정 등 선의의 경쟁... 새 창 열림",
+      "collected_at": "2026-09-13T22:16:51.698339+09:00",
+      "normalized_title": "국제유가 계속 뛰는데 주유소 기름값은 언제까지?새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::국제유가 계속 뛰는데 주유소 기름값은 언제까지?새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://www.mk.co.kr/article/12151299",
+      "id": "9be428a4a55e2a3b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "기름값",
+        "휘발유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "이 대통령 \"유가 걱정 안 해도 된다...휘발유·경유 모두 안정\"새 창 열림",
+      "url": "https://www.wikitree.co.kr/articles/1159155",
+      "source": "새 창 열림",
+      "published_at": "2026-09-13T11:16:51.699738+09:00",
+      "snippet": "“매점매석과 담합을 차단하고 착한 주유소 선정 등을 통해 선의의 경쟁을 유도하고 있다”고 밝혔다. 국제유가 상승을 이유로 실제 원가 상승분보다 지나치게 높은 가격을 책정하거나 공급을 인위적으로 줄이는 행위를 막겠다는 의미다. 국내 정유업계의 상황에 대해서도 이 대통령은 언급했다. 그는 “정유사들... 새 창 열림",
+      "collected_at": "2026-09-13T22:16:51.699758+09:00",
+      "normalized_title": "이 대통령 \"유가 걱정 안 해도 된다...휘발유·경유 모두 안정\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::이 대통령 \"유가 걱정 안 해도 된다...휘발유·경유 모두 안정\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://www.wikitree.co.kr/articles/1159155",
+      "id": "7c93da2ae829dd4b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“유가, 걱정 안 해도 된다”…李대통령, 중동 원유 의존도 50%대로새 창 열림",
+      "url": "http://www.joseilbo.com/news/news_read.php?uid=575568&class=32&grp=",
+      "source": "새 창 열림",
+      "published_at": "2026-09-13T08:16:51.701304+09:00",
+      "snippet": "휘발유, 경유 등 정제유 (국내) 가격은 계속 안정된다\"고 밝혔다. 이 대통령은 \"원유특사 파견 등 원유외교를 강화하고 원유 수입처를 다변화했다\"며... 이 대통령은 \"매점매석과 담합을 완전히 막고 '착하디착한 주유소' 선정 등 선의의 경쟁 체제를 유지해 시장 교란도 철저히 봉쇄하고 있다\"고 했다. 정유업계에... 새 창 열림",
+      "collected_at": "2026-09-13T22:16:51.701320+09:00",
+      "normalized_title": "“유가, 걱정 안 해도 된다”…李대통령, 중동 원유 의존도 50%대로새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::“유가, 걱정 안 해도 된다”…李대통령, 중동 원유 의존도 50%대로새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://www.joseilbo.com/news/news_read.php?uid=575568&class=32&grp=",
+      "id": "843a1db72e8c6b34",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
