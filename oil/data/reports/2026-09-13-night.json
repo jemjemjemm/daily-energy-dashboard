@@ -1,0 +1,152 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-13",
+  "slot": "night",
+  "period_start": "2026-09-13T17:00:00+09:00",
+  "period_end": "2026-09-14T00:00:00+09:00",
+  "period_label": "2026-09-13 17:00 ~ 2026-09-14 00:00",
+  "generated_at": "2026-09-14T08:14:16.291640+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1579,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1189
+  },
+  "query_counts": {
+    "공정위 유가 담합": 3,
+    "유가 담합": 3,
+    "유가담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "'담합 과징금' 톱5 중 3건이 올해…공정위, 대기업 제재 더 세졌다",
+      "url": "http://v.daum.net/v/20260913181637655",
+      "source": "한국경제",
+      "published_at": "2026-09-13T19:13:05.384602+09:00",
+      "snippet": "공정거래위원회는 지난 5월 밀가루 가격을 담합한 사조동아원에 1831억원의 과징금을 부과했다. 자기자본(1270억원)과 시가총액(당시...주가는 8월 600원대로 급락했다. ‘동전주’로 전락해 유가증권시장 퇴출 위기를 맞은 사조동아원은 10 대 1 주식 액면병합을... 13시간 전",
+      "collected_at": "2026-09-14T08:13:05.384627+09:00",
+      "normalized_title": "'담합 과징금' 톱5 중 3건이 올해…공정위, 대기업 제재 더 세졌다",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::'담합 과징금' 톱5 중 3건이 올해…공정위, 대기업 제재 더 세졌다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260913181637655",
+      "id": "e1a272a8f7c5246b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국경제",
+      "url": "https://v.daum.net/channel/3/home",
+      "source": "한국경제",
+      "published_at": "2026-09-13T19:13:03.933551+09:00",
+      "snippet": "공정거래위원회는 지난 5월 밀가루 가격을 담합한 사조동아원에 1831억원의 과징금을 부과했다. 자기자본(1270억원)과 시가총액(당시...주가는 8월 600원대로 급락했다. ‘동전주’로 전락해 유가증권시장 퇴출 위기를 맞은 사조동아원은 10 대 1 주식 액면병합을... 13시간 전",
+      "collected_at": "2026-09-14T08:13:03.933568+09:00",
+      "normalized_title": "한국경제",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::한국경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/3/home",
+      "id": "6ea5739e4883b5ac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'담합 과징금' 톱5 중 3건이 올해…공정위, 대기업 제재 더 세졌다새 창 열림",
+      "url": "https://www.hankyung.com/article/2026091313601",
+      "source": "새 창 열림",
+      "published_at": "2026-09-13T19:13:00.710154+09:00",
+      "snippet": "공정거래위원회는 지난 5월 밀가루 가격을 담합한 사조동아원에 1831억원의 과징금을 부과했다. 자기자본(1270억원)과 시가총액(당시 1423억원)보다 큰 규모의 ‘과징금 폭탄’에 1000원대 초반이던 사조동아원 주가는 8월 600원대로 급락했다. ‘동전주’로 전락해 유가증권시장 퇴출 위기를 맞은 사조동아원은 10... 새 창 열림",
+      "collected_at": "2026-09-14T08:13:00.710170+09:00",
+      "normalized_title": "'담합 과징금' 톱5 중 3건이 올해…공정위, 대기업 제재 더 세졌다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'담합 과징금' 톱5 중 3건이 올해…공정위, 대기업 제재 더 세졌다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.hankyung.com/article/2026091313601",
+      "id": "6e6881388d37074a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

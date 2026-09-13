@@ -1,0 +1,169 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-14",
+  "slot": "morning",
+  "period_start": "2026-09-14T00:00:00+09:00",
+  "period_end": "2026-09-14T08:00:00+09:00",
+  "period_label": "2026-09-14 00:00 ~ 2026-09-14 08:00",
+  "generated_at": "2026-09-14T08:14:16.405176+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1579,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1189
+  },
+  "query_counts": {
+    "경유 담합": 3,
+    "기름값 담합": 3,
+    "석유 담합": 3,
+    "석유제품 담합": 3,
+    "유가 담합": 3,
+    "유가담합": 3,
+    "정유사 담합": 3,
+    "주유소 담합": 3,
+    "휘발유 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "전세계 디젤쇼크 속…이 대통령 \"기름값 걱정 마십시오\"",
+      "url": "http://v.daum.net/v/20260914051929532",
+      "source": "더스쿠프",
+      "published_at": "2026-09-14T06:13:03.932265+09:00",
+      "snippet": "안정적 가격과 공급물량을 유지하고 있다\"면서 \"매점매석과 담합을 완전히 막고...시장교란도 철저히 봉쇄 중\"이라고 설명했다. 이어...중동의존도를 몇 달 만에 50%로 낮췄다\"면서 \"국민 여러분께서는 유가에 관한 한 전혀 걱정하지 않으셔도 된다는 말씀을 드린다... 2시간 전 4",
+      "collected_at": "2026-09-14T08:13:03.932291+09:00",
+      "normalized_title": "전세계 디젤쇼크 속…이 대통령 \"기름값 걱정 마십시오\"",
+      "source_normalized": "더스쿠프",
+      "duplicate_key": "더스쿠프::전세계 디젤쇼크 속…이 대통령 \"기름값 걱정 마십시오\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://v.daum.net/v/20260914051929532",
+      "id": "b7886906db655b90",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "더스쿠프",
+      "url": "https://v.daum.net/channel/365842/home",
+      "source": "더스쿠프",
+      "published_at": "2026-09-14T06:13:02.009772+09:00",
+      "snippet": "안정적 가격과 공급물량을 유지하고 있다\"면서 \"매점매석과 담합을 완전히 막고...시장교란도 철저히 봉쇄 중\"이라고 설명했다. 이어...중동의존도를 몇 달 만에 50%로 낮췄다\"면서 \"국민 여러분께서는 유가에 관한 한 전혀 걱정하지 않으셔도 된다는 말씀을 드린다... 2시간 전 4",
+      "collected_at": "2026-09-14T08:13:02.009798+09:00",
+      "normalized_title": "더스쿠프",
+      "source_normalized": "더스쿠프",
+      "duplicate_key": "더스쿠프::더스쿠프",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://v.daum.net/channel/365842/home",
+      "id": "6920b9af99e91fdc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전세계 디젤쇼크 속…이 대통령 \"기름값 걱정 마십시오\"새 창 열림",
+      "url": "https://www.thescoop.co.kr/news/articleView.html?idxno=311587",
+      "source": "새 창 열림",
+      "published_at": "2026-09-14T06:13:00.708466+09:00",
+      "snippet": "이런 가운데 이재명 대통령은 \"휘발유, 경유 등 정제유 가격은 계속 안정된다\"며 \"걱정 말라\"고 말했다. 이 대통령은 지난 12일 자신의 엑스(X)에 미국에서... 있다\"면서 \"매점매석과 담합을 완전히 막고...시장교란도 철저히 봉쇄 중\"이라고 설명했다. 이어 \"70%에 이르던 원유 중동의존도를 몇 달 만에 50%로 낮췄다... 새 창 열림",
+      "collected_at": "2026-09-14T08:13:00.708482+09:00",
+      "normalized_title": "전세계 디젤쇼크 속…이 대통령 \"기름값 걱정 마십시오\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::전세계 디젤쇼크 속…이 대통령 \"기름값 걱정 마십시오\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://www.thescoop.co.kr/news/articleView.html?idxno=311587",
+      "id": "6d9c5041f14fece5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
