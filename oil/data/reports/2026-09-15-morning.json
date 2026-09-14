@@ -1,0 +1,653 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-15",
+  "slot": "morning",
+  "period_start": "2026-09-15T00:00:00+09:00",
+  "period_end": "2026-09-15T08:00:00+09:00",
+  "period_label": "2026-09-15 00:00 ~ 2026-09-15 08:00",
+  "generated_at": "2026-09-15T08:21:23.081306+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1578,
+  "total_deduped_count": 19,
+  "total_ok_count": 19,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 8,
+    "B": 0,
+    "C": 11
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1188
+  },
+  "query_counts": {
+    "석유 담합": 17,
+    "석유제품 담합": 14,
+    "유가 담합": 8,
+    "유가담합": 8,
+    "정유사 담합": 6
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "중동전쟁 불안 틈타 석화제품 부당이익… 15조 규모 가격 담합",
+      "url": "http://v.daum.net/v/20260915004809368",
+      "source": "조선일보",
+      "published_at": "2026-09-15T01:19:19.347326+09:00",
+      "snippet": "경제와 직결된 생활필수품 담합 사건을 잇따라 수사하고 있다. 서울중앙지검 공정거래조사부는 지난 7월 14조2000억원 규모의 유가 담합 혐의로 국내 4대 정유사 법인과 임직원을 기소했다. 이에 앞서 약 6조원 규모의 밀가루 담합과 3조2000억원 규모의 설탕 담합... 7시간 전",
+      "collected_at": "2026-09-15T08:19:19.347354+09:00",
+      "normalized_title": "중동전쟁 불안 틈타 석화제품 부당이익… 15조 규모 가격 담합",
+      "source_normalized": "조선일보",
+      "duplicate_key": "조선일보::중동전쟁 불안 틈타 석화제품 부당이익… 15조 규모 가격 담합",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260915004809368",
+      "id": "928f3958040cb5f2",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "조선일보",
+      "url": "https://v.daum.net/channel/200/home",
+      "source": "조선일보",
+      "published_at": "2026-09-15T01:19:17.473427+09:00",
+      "snippet": "경제와 직결된 생활필수품 담합 사건을 잇따라 수사하고 있다. 서울중앙지검 공정거래조사부는 지난 7월 14조2000억원 규모의 유가 담합 혐의로 국내 4대 정유사 법인과 임직원을 기소했다. 이에 앞서 약 6조원 규모의 밀가루 담합과 3조2000억원 규모의 설탕 담합... 7시간 전",
+      "collected_at": "2026-09-15T08:19:17.473445+09:00",
+      "normalized_title": "조선일보",
+      "source_normalized": "조선일보",
+      "duplicate_key": "조선일보::조선일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/200/home",
+      "id": "4a6dd87e3493016c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, 석유화학 수조원대 담합 의혹 8명 구속영장",
+      "url": "http://v.daum.net/v/20260915043353155",
+      "source": "동아일보",
+      "published_at": "2026-09-15T05:20:17.939789+09:00",
+      "snippet": "서울 서초구 서울중앙지검. 2026.6.17 ⓒ 뉴스1 검찰이 중동 전쟁을 틈타 수조 원 규모의 담합을 벌였다는 의혹을 받는 국내 주요 석유화학업체 전현직 경영진들에 대해 구속영장을 청구했다. 14일 서울중앙지검 공정거래조사부(부장검사 나희석)는 공정거래법 위반... 3시간 전",
+      "collected_at": "2026-09-15T08:20:17.939817+09:00",
+      "normalized_title": "檢, 석유화학 수조원대 담합 의혹 8명 구속영장",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::檢, 석유화학 수조원대 담합 의혹 8명 구속영장",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260915043353155",
+      "id": "973b9f1ba6290781",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "동아일보",
+      "url": "https://v.daum.net/channel/190/home",
+      "source": "동아일보",
+      "published_at": "2026-09-15T05:20:16.575045+09:00",
+      "snippet": "서울 서초구 서울중앙지검. 2026.6.17 ⓒ 뉴스1 검찰이 중동 전쟁을 틈타 수조 원 규모의 담합을 벌였다는 의혹을 받는 국내 주요 석유화학업체 전현직 경영진들에 대해 구속영장을 청구했다. 14일 서울중앙지검 공정거래조사부(부장검사 나희석)는 공정거래법 위반... 3시간 전",
+      "collected_at": "2026-09-15T08:20:16.575062+09:00",
+      "normalized_title": "동아일보",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::동아일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/190/home",
+      "id": "4a0c6238fbb4fa64",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢 ‘석화제품 가격 담합’ 경영진 8명 구속영장",
+      "url": "http://v.daum.net/v/20260915060542200",
+      "source": "세계일보",
+      "published_at": "2026-09-15T06:20:13.912615+09:00",
+      "snippet": "검찰이 수조원 규모의 담합 의혹을 받는 국내 석유화학업체 전·현직 경영진 8명에 대한 신병 확보에 나섰다. 연합뉴스 서울중앙지검...등 7개 업체는 수년간 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의했다는 의혹을 받는다... 2시간 전",
+      "collected_at": "2026-09-15T08:20:13.912652+09:00",
+      "normalized_title": "檢 ‘석화제품 가격 담합’ 경영진 8명 구속영장",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::檢 ‘석화제품 가격 담합’ 경영진 8명 구속영장",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260915060542200",
+      "id": "48a7ee01982ad23b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "세계일보",
+      "url": "https://v.daum.net/channel/38/home",
+      "source": "세계일보",
+      "published_at": "2026-09-15T06:20:11.960785+09:00",
+      "snippet": "검찰이 수조원 규모의 담합 의혹을 받는 국내 석유화학업체 전·현직 경영진 8명에 대한 신병 확보에 나섰다. 연합뉴스 서울중앙지검...등 7개 업체는 수년간 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 협의했다는 의혹을 받는다... 2시간 전",
+      "collected_at": "2026-09-15T08:20:11.960813+09:00",
+      "normalized_title": "세계일보",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::세계일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/38/home",
+      "id": "84b9eb17cf27ffac",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "고유가는 핑계고 15조짜리 담합이었다…석화사 7곳 경영진 구속영장",
+      "url": "http://v.daum.net/v/20260915055410780",
+      "source": "매일경제",
+      "published_at": "2026-09-15T06:19:15.963199+09:00",
+      "snippet": "검찰이 수사한 역대 담합 사건 가운데 가장 큰 규모다. 이전까지는 지난 7월 검찰이 적발한 14조2000억원 규모의 정유사 유가 담합 사건이다. 검찰은 석유화학업체들이 중동 전쟁으로 원료인 나프타 수급이 불안정해진 상황을 이용해 가격을 인상해 시장 질서를 교란... 2시간 전 1",
+      "collected_at": "2026-09-15T08:19:15.963227+09:00",
+      "normalized_title": "고유가는 핑계고 15조짜리 담합이었다…석화사 7곳 경영진 구속영장",
+      "source_normalized": "매일경제",
+      "duplicate_key": "매일경제::고유가는 핑계고 15조짜리 담합이었다…석화사 7곳 경영진 구속영장",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20260915055410780",
+      "id": "7d5437d4cde85f48",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "매일경제",
+      "url": "https://v.daum.net/channel/7/home",
+      "source": "매일경제",
+      "published_at": "2026-09-15T06:19:14.456116+09:00",
+      "snippet": "검찰이 수사한 역대 담합 사건 가운데 가장 큰 규모다. 이전까지는 지난 7월 검찰이 적발한 14조2000억원 규모의 정유사 유가 담합 사건이다. 검찰은 석유화학업체들이 중동 전쟁으로 원료인 나프타 수급이 불안정해진 상황을 이용해 가격을 인상해 시장 질서를 교란... 2시간 전 1",
+      "collected_at": "2026-09-15T08:19:14.456133+09:00",
+      "normalized_title": "매일경제",
+      "source_normalized": "매일경제",
+      "duplicate_key": "매일경제::매일경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/7/home",
+      "id": "edcd66409bb90406",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, 석유화학 수조원대 담합 의혹 8명 구속영장",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkVWZ0NDROdkdFS3liTkN4UVRLX3c3U251NGVRSm1LRUNXdU5pVk40OHY3eFh4bElVWHpsRTNCbS1JQy1XT0M3SUxfRDc0M0lWMXdFYTgteWpXbGVUTHVyVVVOV3Z3T2JndDVZ0gFmQVVfeXFMTzRoYlM4bm5HbzdYQTFqNUpTdGxMM0psM1RSVEpfdnJQN2YtUF9zd2dIeGFoRm05Z0Z0YjQyS25QX2NxeXhPZUNnQ0I1Y01JZ3BlWS1CWTVVYzdrZUZfMnVUcXZabjVB?oc=5",
+      "source": "donga.com",
+      "published_at": "2026-09-15T04:30:00+09:00",
+      "snippet": "檢, 석유화학 수조원대 담합 의혹 8명 구속영장 donga.com",
+      "collected_at": "2026-09-15T08:20:27.551082+09:00",
+      "normalized_title": "檢, 석유화학 수조원대 담합 의혹 8명 구속영장",
+      "source_normalized": "donga.com",
+      "duplicate_key": "donga.com::檢, 석유화학 수조원대 담합 의혹 8명 구속영장",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkVWZ0NDROdkdFS3liTkN4UVRLX3c3U251NGVRSm1LRUNXdU5pVk40OHY3eFh4bElVWHpsRTNCbS1JQy1XT0M3SUxfRDc0M0lWMXdFYTgteWpXbGVUTHVyVVVOV3Z3T2JndDVZ0gFmQVVfeXFMTzRoYlM4bm5HbzdYQTFqNUpTdGxMM0psM1RSVEpfdnJQN2YtUF9zd2dIeGFoRm05Z0Z0YjQyS25QX2NxeXhPZUNnQ0I1Y01JZ3BlWS1CWTVVYzdrZUZfMnVUcXZabjVB?oc=5",
+      "id": "2962557b3c6e1468",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "안전으로 포장하고, 안보로 집행한다 [이승현의 AI 네이티브]",
+      "url": "http://v.daum.net/v/20260915060013841",
+      "source": "IT조선",
+      "published_at": "2026-09-15T06:20:15.212423+09:00",
+      "snippet": "철도,석유 트러스트 시대부터 반복돼 온 이야기다. 담합의 표면 명분은 중국이다. 오픈AI가 늦추면 구글이 가고, 미국이 늦추면 중국이 간다는 논리다. 그런데 중국의 전략은 미국이 앞서가면 따라가는 증류가 상당 부분을 차지한다. 프론티어가 출시하면 몇 달 뒤 1... 2시간 전",
+      "collected_at": "2026-09-15T08:20:15.212451+09:00",
+      "normalized_title": "안전으로 포장하고, 안보로 집행한다 [이승현의 AI 네이티브]",
+      "source_normalized": "IT조선",
+      "duplicate_key": "it조선::안전으로 포장하고, 안보로 집행한다 [이승현의 ai 네이티브]",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260915060013841",
+      "id": "851ababdffb9b0eb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "IT조선",
+      "url": "https://v.daum.net/channel/552810/home",
+      "source": "IT조선",
+      "published_at": "2026-09-15T06:20:13.913927+09:00",
+      "snippet": "철도,석유 트러스트 시대부터 반복돼 온 이야기다. 담합의 표면 명분은 중국이다. 오픈AI가 늦추면 구글이 가고, 미국이 늦추면 중국이 간다는 논리다. 그런데 중국의 전략은 미국이 앞서가면 따라가는 증류가 상당 부분을 차지한다. 프론티어가 출시하면 몇 달 뒤 1... 2시간 전",
+      "collected_at": "2026-09-15T08:20:13.913945+09:00",
+      "normalized_title": "IT조선",
+      "source_normalized": "IT조선",
+      "duplicate_key": "it조선::it조선",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/552810/home",
+      "id": "f73ea577dbc25693",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "안전으로 포장하고, 안보로 집행한다 [이승현의 AI 네이티브]새 창 열림",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092170134",
+      "source": "새 창 열림",
+      "published_at": "2026-09-15T06:20:10.732605+09:00",
+      "snippet": "규제가 선발주자의 해자로 변하는 일은 미국 철도,석유 트러스트 시대부터 반복돼 온 이야기다. 담합의 표면 명분은 중국이다. 오픈AI가 늦추면 구글이 가고, 미국이 늦추면 중국이 간다는 논리다. 그런데 중국의 전략은 미국이 앞서가면 따라가는 증류가 상당 부분을 차지한다. 프론티어가 출시하면 몇 달 뒤... 새 창 열림",
+      "collected_at": "2026-09-15T08:20:10.732623+09:00",
+      "normalized_title": "안전으로 포장하고, 안보로 집행한다 [이승현의 AI 네이티브]새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::안전으로 포장하고, 안보로 집행한다 [이승현의 ai 네이티브]새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://it.chosun.com/news/articleView.html?idxno=2023092170134",
+      "id": "23a5d4c523105bce",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢 ‘석화제품 가격 담합’ 경영진 8명 구속영장새 창 열림",
+      "url": "https://www.segye.com/newsView/20260914519169?OutUrl=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-09-15T06:20:10.731210+09:00",
+      "snippet": "LG화학·한화솔루션 등 7개사 수조원대 부당이익 챙긴 의혹 검찰이 수조원 규모의 담합 의혹을 받는 국내 석유화학업체 전·현직 경영진 8명에 대한... LG화학, 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC, 유니드 등 7개 업체는 수년간 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품 품목의 가격... 새 창 열림",
+      "collected_at": "2026-09-15T08:20:10.731228+09:00",
+      "normalized_title": "檢 ‘석화제품 가격 담합’ 경영진 8명 구속영장새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::檢 ‘석화제품 가격 담합’ 경영진 8명 구속영장새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.segye.com/newsView/20260914519169?OutUrl=naver",
+      "id": "ad932c810b520907",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[데스크 칼럼] 서민 고통 사유화한 탐욕의 민낯… 위기를 '알리바이' 삼...새 창 열림",
+      "url": "https://www.nbntv.co.kr/news/articleView.html?idxno=4024895",
+      "source": "새 창 열림",
+      "published_at": "2026-09-15T06:20:10.729519+09:00",
+      "snippet": "■ 뼈대 산업 흔든 석유화학 카르텔의 거대한 짬짜미 서민 밥상이 유통·플랫폼 업계의 꼼수에 도륙당했다면, 한국 산업의 기초 체력은 거대 석유화학 카르텔의 담합에 갉아먹혔다. 검찰이 OCI와 PKC 등 전·현직 대표 8명에게 구속영장을 청구하고 LG화학, 롯데정밀화학, 한화케미칼 등 7개 대기업을 정조준한... 새 창 열림",
+      "collected_at": "2026-09-15T08:20:10.729547+09:00",
+      "normalized_title": "[데스크 칼럼] 서민 고통 사유화한 탐욕의 민낯… 위기를 '알리바이' 삼...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[데스크 칼럼] 서민 고통 사유화한 탐욕의 민낯… 위기를 '알리바이' 삼...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.nbntv.co.kr/news/articleView.html?idxno=4024895",
+      "id": "070fe961b1d48e3c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "고유가는 핑계고 15조짜리 담합이었다…석화사 7곳 경영진 구속영장새 창 열림",
+      "url": "https://www.mk.co.kr/article/12152700",
+      "source": "새 창 열림",
+      "published_at": "2026-09-15T06:19:09.977696+09:00",
+      "snippet": "OCI 대표·PKC 전 대표 등 8명 21년부터 8개 품목서 담합혐의 중동전쟁發 불안 틈타 부당이득 검찰이 15조원대 석유화학제품 가격을 담합한 혐의로 국내 주요 석유화학업체 전현직 경영진 8명에 대해 구속영장을 청구했다. 검찰이 특정한 담합 규모는 역대 최대다. 14일 법조계에 따르면 서울중앙지검... 새 창 열림",
+      "collected_at": "2026-09-15T08:19:09.977715+09:00",
+      "normalized_title": "고유가는 핑계고 15조짜리 담합이었다…석화사 7곳 경영진 구속영장새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::고유가는 핑계고 15조짜리 담합이었다…석화사 7곳 경영진 구속영장새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.mk.co.kr/article/12152700",
+      "id": "bf346f65dc536881",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "檢, 석유화학 수조원대 담합 의혹 8명 구속영장새 창 열림",
+      "url": "https://www.donga.com/news/Society/article/all/20260914/134668207/2",
+      "source": "새 창 열림",
+      "published_at": "2026-09-15T05:20:10.735886+09:00",
+      "snippet": "검찰은 LG화학과 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC, 유니드 등 7개 업체가 수년간 폴리염화비닐(PVC) 가소제, 가성소다, 염산 등 8개 석유화학제품의 가격 인상을 사전에 협의한 것으로 의심하고 있다. 특히 중동 전쟁으로 나프타 수급이 불안정해진 상황을 이용해 가격을 담합하고 수조 원의... 새 창 열림",
+      "collected_at": "2026-09-15T08:20:10.735902+09:00",
+      "normalized_title": "檢, 석유화학 수조원대 담합 의혹 8명 구속영장새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::檢, 석유화학 수조원대 담합 의혹 8명 구속영장새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.donga.com/news/Society/article/all/20260914/134668207/2",
+      "id": "cc34d0cf270bb27c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중동전쟁 불안 틈타 석화제품 부당이익… 15조 규모 가격 담합새 창 열림",
+      "url": "https://www.chosun.com/national/court_law/2026/09/15/DBFTD7HG6JBITMYTCOYJQ7KOMM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "source": "새 창 열림",
+      "published_at": "2026-09-15T01:19:09.979267+09:00",
+      "snippet": "5개 기업 임원 8명에 구속영장 검찰이 석유화학제품 가격을 담합해 수조원대 부당이익을 챙긴 혐의로 국내 석유화학업체 전·현직 경영진 8명에 대해 14일 구속영장을 청구했다. 지난달 5일 업체 7곳을 압수수색한 지 40일 만이다. 서울중앙지검 공정거래조사부(부장 나희석)는 이날 김유신 OCI 대표이사와... 새 창 열림",
+      "collected_at": "2026-09-15T08:19:09.979283+09:00",
+      "normalized_title": "중동전쟁 불안 틈타 석화제품 부당이익… 15조 규모 가격 담합새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::중동전쟁 불안 틈타 석화제품 부당이익… 15조 규모 가격 담합새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.chosun.com/national/court_law/2026/09/15/DBFTD7HG6JBITMYTCOYJQ7KOMM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "id": "a8eff34ca936845f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국세청, 추석 앞두고 배민·무신사·풀무원 등 41곳 세무조사 착수",
+      "url": "http://v.daum.net/v/20260915042505080",
+      "source": "전남일보",
+      "published_at": "2026-09-15T05:19:17.472243+09:00",
+      "snippet": "이번 조사에는 농축산물 유통업체 23곳, 가공식품·외식 프랜차이즈·배달 플랫폼 16곳, 패션 플랫폼 2곳이 포함됐다. 이 중 2곳은 유가증권시장 상장사다. 중견기업 8곳과 중소기업 33곳이 대상이며, 계란 농가 11곳과 곡물·과일·육류 수입·유통업체 12곳도 조사... 3시간 전",
+      "collected_at": "2026-09-15T08:19:17.472270+09:00",
+      "normalized_title": "국세청, 추석 앞두고 배민·무신사·풀무원 등 41곳 세무조사 착수",
+      "source_normalized": "전남일보",
+      "duplicate_key": "전남일보::국세청, 추석 앞두고 배민·무신사·풀무원 등 41곳 세무조사 착수",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260915042505080",
+      "id": "9a22845390ef0dd5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전남일보",
+      "url": "https://v.daum.net/channel/551725/home",
+      "source": "전남일보",
+      "published_at": "2026-09-15T05:19:15.964422+09:00",
+      "snippet": "이번 조사에는 농축산물 유통업체 23곳, 가공식품·외식 프랜차이즈·배달 플랫폼 16곳, 패션 플랫폼 2곳이 포함됐다. 이 중 2곳은 유가증권시장 상장사다. 중견기업 8곳과 중소기업 33곳이 대상이며, 계란 농가 11곳과 곡물·과일·육류 수입·유통업체 12곳도 조사... 3시간 전",
+      "collected_at": "2026-09-15T08:19:15.964438+09:00",
+      "normalized_title": "전남일보",
+      "source_normalized": "전남일보",
+      "duplicate_key": "전남일보::전남일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/551725/home",
+      "id": "bd5158bab3da4575",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
