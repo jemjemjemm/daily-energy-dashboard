@@ -1,0 +1,85 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-15",
+  "slot": "night",
+  "period_start": "2026-09-15T17:00:00+09:00",
+  "period_end": "2026-09-16T00:00:00+09:00",
+  "period_label": "2026-09-15 17:00 ~ 2026-09-16 00:00",
+  "generated_at": "2026-09-16T08:34:38.128315+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1566,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1176
+  },
+  "query_counts": {
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[사설] 경기 불안 틈탄 ‘탈세’ 담합… 일벌백계 응징해야새 창 열림",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202609151637582200199",
+      "source": "새 창 열림",
+      "published_at": "2026-09-15T18:33:18.668556+09:00",
+      "snippet": "지난 2월과 4월 밀가루·설탕·전력 및 전분당 각각 10조원, 7월에도 14조원이 넘는 정유사 유가 담합이 적발되어 재판에 넘겨진 것이다. 탈세와 가격 담합은 시장경제를 흐리는 대국민 중대범죄다. 그럼에도 이 같은 ‘짬짜미’가 뿌리뽑히지 않는 것은 적발에 따른 손해보다 반대급부가 더 크기 때문일 것이다.... 새 창 열림",
+      "collected_at": "2026-09-16T08:33:18.668566+09:00",
+      "normalized_title": "[사설] 경기 불안 틈탄 ‘탈세’ 담합… 일벌백계 응징해야새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[사설] 경기 불안 틈탄 ‘탈세’ 담합… 일벌백계 응징해야새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202609151637582200199",
+      "id": "c25801eb598d30a3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
