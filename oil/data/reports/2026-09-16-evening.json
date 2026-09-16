@@ -1,0 +1,374 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-16",
+  "slot": "evening",
+  "period_start": "2026-09-16T08:00:00+09:00",
+  "period_end": "2026-09-16T17:00:00+09:00",
+  "period_label": "2026-09-16 08:00 ~ 2026-09-16 17:00",
+  "generated_at": "2026-09-16T17:19:19.953935+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1566,
+  "total_deduped_count": 10,
+  "total_ok_count": 10,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 2,
+    "B": 2,
+    "C": 6
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1176
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "석유 담합": 10,
+    "석유제품 담합": 9,
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "\"법 위반 매출 580조인데 과징금 1.94%뿐\"…경실련, 집단소송제 도입 촉구",
+      "url": "http://v.daum.net/v/20260916131041892",
+      "source": "뉴스1",
+      "published_at": "2026-09-16T13:18:35.977951+09:00",
+      "snippet": "10개 기업의 관련 매출액 등은 총 126조 7499억 원, 과징금은 2조 7647억 원으로 부과율은 2.18%에 그쳤다. 대표적인 사례로는 석유제품 담합과 퀄컴의 시장지배적지위 남용 사건이 꼽혔다. 2011년 석유제품 공동행위 사건에서 GS칼텍스·SK이노베이션·현대오일뱅크... 4시간 전",
+      "collected_at": "2026-09-16T17:18:35.977972+09:00",
+      "normalized_title": "\"법 위반 매출 580조인데 과징금 1.94%뿐\"…경실련, 집단소송제 도입 촉구",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::\"법 위반 매출 580조인데 과징금 1.94%뿐\"…경실련, 집단소송제 도입 촉구",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260916131041892",
+      "id": "b2a7f1dd4ffd9229",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스1",
+      "url": "https://v.daum.net/channel/396/home",
+      "source": "뉴스1",
+      "published_at": "2026-09-16T13:18:34.385314+09:00",
+      "snippet": "10개 기업의 관련 매출액 등은 총 126조 7499억 원, 과징금은 2조 7647억 원으로 부과율은 2.18%에 그쳤다. 대표적인 사례로는 석유제품 담합과 퀄컴의 시장지배적지위 남용 사건이 꼽혔다. 2011년 석유제품 공동행위 사건에서 GS칼텍스·SK이노베이션·현대오일뱅크... 4시간 전",
+      "collected_at": "2026-09-16T17:18:34.385336+09:00",
+      "normalized_title": "뉴스1",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::뉴스1",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/396/home",
+      "id": "c8ccc99cbe11b78a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "580조 벌고 과징금 11조…공정위 과징금 부과율 2%도 안됐다",
+      "url": "http://v.daum.net/v/20260916140601873",
+      "source": "연합인포맥스",
+      "published_at": "2026-09-16T14:18:34.384147+09:00",
+      "snippet": "원 순이다. 부과율은 SK이노베이션이 0.32%로 가장 낮았고 퀄컴 두 법인이 2.70%로 가장 높았다. 경실련에 따르면 2011년 석유제품 담합 사건 한 건의 관련매출액은 79조9천304억원이었으나 과징금은 4천239억원으로 0.53%에 불과했다. 2017년 퀄컴 두 법인의 시장... 3시간 전",
+      "collected_at": "2026-09-16T17:18:34.384168+09:00",
+      "normalized_title": "580조 벌고 과징금 11조…공정위 과징금 부과율 2%도 안됐다",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::580조 벌고 과징금 11조…공정위 과징금 부과율 2%도 안됐다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260916140601873",
+      "id": "5c1dc6e39e786a4a",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합인포맥스",
+      "url": "https://v.daum.net/channel/552842/home",
+      "source": "연합인포맥스",
+      "published_at": "2026-09-16T14:18:32.472122+09:00",
+      "snippet": "원 순이다. 부과율은 SK이노베이션이 0.32%로 가장 낮았고 퀄컴 두 법인이 2.70%로 가장 높았다. 경실련에 따르면 2011년 석유제품 담합 사건 한 건의 관련매출액은 79조9천304억원이었으나 과징금은 4천239억원으로 0.53%에 불과했다. 2017년 퀄컴 두 법인의 시장... 3시간 전",
+      "collected_at": "2026-09-16T17:18:32.472143+09:00",
+      "normalized_title": "연합인포맥스",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::연합인포맥스",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/552842/home",
+      "id": "9d160e25694da2e6",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "국고로 간 과징금… 소비자·중소기업 배상은 '공백'새 창 열림",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3075635",
+      "source": "새 창 열림",
+      "published_at": "2026-09-16T16:18:31.291992+09:00",
+      "snippet": "석유제품 담합, 정보통신 분야 시장지배적지위 남용, 대형 공공공사 입찰담합, 철강·제지 공동행위 등이 상위권을 차지했다. 일부 대기업은 여러 사건에서 반복적으로 제재를 받았다. 경실련은 \"위법행위로 얻을 수 있는 이익이 제재에 따른 부담보다 크다는 잘못된 신호를 시장에 줄 경우, 과징금은... 새 창 열림",
+      "collected_at": "2026-09-16T17:18:31.292012+09:00",
+      "normalized_title": "국고로 간 과징금… 소비자·중소기업 배상은 '공백'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::국고로 간 과징금… 소비자·중소기업 배상은 '공백'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3075635",
+      "id": "0fd41fefded97273",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "580조 벌고 과징금 11조…공정위 과징금 부과율 2%도 안됐다새 창 열림",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435206",
+      "source": "새 창 열림",
+      "published_at": "2026-09-16T14:18:31.293384+09:00",
+      "snippet": "경실련에 따르면 2011년 석유제품 담합 사건 한 건의 관련매출액은 79조9천304억원이었으나 과징금은 4천239억원으로 0.53%에 불과했다. 2017년 퀄컴 두 법인의 시장지배적지위 남용 사건은 관련매출액 38조1천906억원에 과징금 1조311억원이 부과됐다. 과징금 액수 기준 상위 10개 기업의 과징금... 새 창 열림",
+      "collected_at": "2026-09-16T17:18:31.293399+09:00",
+      "normalized_title": "580조 벌고 과징금 11조…공정위 과징금 부과율 2%도 안됐다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::580조 벌고 과징금 11조…공정위 과징금 부과율 2%도 안됐다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435206",
+      "id": "4c52213438bb785f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"법 위반 매출 580조인데 과징금 1.94%뿐\"…경실련, 집단소송제 도입 촉...새 창 열림",
+      "url": "https://www.news1.kr/society/incident-accident/6292410",
+      "source": "새 창 열림",
+      "published_at": "2026-09-16T13:18:31.294941+09:00",
+      "snippet": "대표적인 사례로는 석유제품 담합과 퀄컴의 시장지배적지위 남용 사건이 꼽혔다. 2011년 석유제품 공동행위 사건에서 GS칼텍스·SK이노베이션·현대오일뱅크·에쓰오일·SK 등 5개 사의 관련 매출액 등은 79조 9304억 원이었지만 과징금은 4239억 원으로 부과율이 0.53%에 그쳤다. 2017년 시장지배적지위... 새 창 열림",
+      "collected_at": "2026-09-16T17:18:31.294956+09:00",
+      "normalized_title": "\"법 위반 매출 580조인데 과징금 1.94%뿐\"…경실련, 집단소송제 도입 촉...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::\"법 위반 매출 580조인데 과징금 1.94%뿐\"…경실련, 집단소송제 도입 촉...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.news1.kr/society/incident-accident/6292410",
+      "id": "a37cf0d842fd490a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "경실련 \"불법행위로 과징금 11조원 내고 매출은 580조원\"새 창 열림",
+      "url": "https://www.taxtimes.co.kr/news/article.html?no=276883",
+      "source": "새 창 열림",
+      "published_at": "2026-09-16T12:18:31.296189+09:00",
+      "snippet": "55 석유제품 공동행위(2011) 10 현대건설㈜ 17 104,890.18 2,632.06 LNG 저장탱크 건설공사 입찰담합(2016) 소계(A) 10 45 1,714,219.69 20,524.18 총계(B) 3103 4822 5,802,547.97 112,451.11 비중(A/B) 0.32% 0.93% 29.54% 18.25% <자료-경실련> 소수 대기업의 위반행위가 국민경제와 소비자에게 미치는 파급이 그만큼 크다는... 새 창 열림",
+      "collected_at": "2026-09-16T17:18:31.296261+09:00",
+      "normalized_title": "경실련 \"불법행위로 과징금 11조원 내고 매출은 580조원\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::경실련 \"불법행위로 과징금 11조원 내고 매출은 580조원\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.taxtimes.co.kr/news/article.html?no=276883",
+      "id": "0691beb27a28799c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공.소.취.소.포.기. 딱 이 여섯 마디다: 슬로우레터 9월16일.새 창 열림",
+      "url": "https://slownews.kr/166440",
+      "source": "새 창 열림",
+      "published_at": "2026-09-16T08:18:31.299133+09:00",
+      "snippet": "이승현(한양대 교수)은 “자칫 잘못하면 ‘사다리 걷어차기’가 되고, 격차를 좁히지 못하게 만들 수 있다”며 “미국과 중국이 담합해 스탠더드를... 지난해 한국이 수입한 석유가스 제품 중 북미산 비중은 23%, LPG는 90%가 넘는다. 김재영(동아일보 논설위원)은 “파나마에 비가 내리지 않는 기상 이변이 지구... 새 창 열림",
+      "collected_at": "2026-09-16T17:18:31.299149+09:00",
+      "normalized_title": "공.소.취.소.포.기. 딱 이 여섯 마디다: 슬로우레터 9월16일.새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공.소.취.소.포.기. 딱 이 여섯 마디다: 슬로우레터 9월16일.새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://slownews.kr/166440",
+      "id": "208798555e801699",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "LPG",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[전국 주요 신문 사설](16일 조간)새 창 열림",
+      "url": "https://www.yna.co.kr/view/AKR20260916013500011?input=1195m",
+      "source": "새 창 열림",
+      "published_at": "2026-09-16T08:18:05.365838+09:00",
+      "snippet": "고유가·고금리 '뉴 노멀 시대' 오나 기업 해외투자 늘고 U턴 회피 이유 ▲ 대한경제 = 경기 불안 틈탄 '탈세' 담합… 일벌백계 응징해야 철탑 절반 줄이는 송전망 지중화, 높은 사업비 해법이 관건 ▲ 디지털타임스 = 민간정비사업 완화 법 개정 미룬 국회… 부동산 민심 들리지 않나 'AI 감속론' 논쟁 확산… 안전... 새 창 열림",
+      "collected_at": "2026-09-16T17:18:05.365872+09:00",
+      "normalized_title": "[전국 주요 신문 사설](16일 조간)새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[전국 주요 신문 사설](16일 조간)새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.yna.co.kr/view/AKR20260916013500011?input=1195m",
+      "id": "815ba7765e2069c4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
