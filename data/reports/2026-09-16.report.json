@@ -5,7 +5,7 @@
     "display_date": "2026년 9월 16일 (수)",
     "previous_day_label": "9/15",
     "today_label": "9/16",
-    "generated_at": "2026-09-16 08:33 KST",
+    "generated_at": "2026-09-16 17:18 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △15일 정유업계에 따르면 최근 호르무즈해협을 둘러싼 미국과 이란 간 갈등이 재점화하면서 싱가포르 복합정제마진은 9월 첫째주 배럴당 33.6달러로 전주보다 0.3달러 하락함 △브렌트유 108달러·WTI 105달러 돌파 [헤럴드경제=도현정 기자] 사우디아라비아에 이어 리비아에서도 원유 공급 차질 우려가 확산하면서, 국제유가가 15일(현지시간) 약 4개월 만에 최고 △사우디아라비아에서 원유의 약 40%를 공급받는 폴란드 에너지기업 오를렌은 북해산 원유를 사들이고 미국과 카자흐스탄, 알제리 등으로 조달처를 넓히고 있음"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △산업부는 16일 보도참고자료를 내고 최고가격제가 시행된 지난 3월 둘째 주부터 8월까지 국민의 실제 석유제품 소비량인 주유소 총 소매판매량을 분석한 결과 이같이 집계됐다고 밝혔다는 내용 △16일 산업통상부에 따르면 최고가격제 시행 이후 3~8월 주유소 총 소매판매량은 전년 동기 대비 휘발유가 2.1%, 경유가 8.4% 각각 감소함 △정부가 석유제품 최고가격제 시행 이후 휘발유 소비가 급증하고 있다는 일각의 주장을 정면으로 반박함"
     }
   ],
   "prices": {
@@ -1611,7 +1615,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(7/15~9/15)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1727,6 +1732,87 @@
       "merged_at": "2026-09-16 08:33:45 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-09-16.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△산업부는 16일 보도참고자료를 내고 최고가격제가 시행된 지난 3월 둘째 주부터 8월까지 국민의 실제 석유제품 소비량인 주유소 총 소매판매량을 분석한 결과 이같이 집계됐다고 밝혔다는 내용 △16일 산업통상부에 따르면 최고가격제 시행 이후 3~8월 주유소 총 소매판매량은 전년 동기 대비 휘발유가 2.1%, 경유가 8.4% 각각 감소함 △정부가 석유제품 최고가격제 시행 이후 휘발유 소비가 급증하고 있다는 일각의 주장을 정면으로 반박함",
+    "trend_paragraphs": [
+      "뉴시스는 산업부는 16일 보도참고자료를 내고 최고가격제가 시행된 지난 3월 둘째 주부터 8월까지 국민의 실제 석유제품 소비량인 주유소 총 소매판매량을 분석한 결과 이같이 집계됐다고 밝혔다.",
+      "이데일리는 16일 산업통상부에 따르면 최고가격제 시행 이후 3~8월 주유소 총 소매판매량은 전년 동기 대비 휘발유가 2.1%, 경유가 8.4% 각각 감소했다.",
+      "이투데이는 정부가 석유제품 최고가격제 시행 이후 휘발유 소비가 급증하고 있다는 일각의 주장을 정면으로 반박했다."
+    ],
+    "articles": [
+      {
+        "title": "산업부 \"최고가격제 이후 휘발유 소비 늘지 않아…2.1% 감소\"",
+        "press": "뉴시스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260916165757583",
+        "summary": "산업부는 16일 보도참고자료를 내고 최고가격제가 시행된 지난 3월 둘째 주부터 8월까지 국민의 실제 석유제품 소비량인 주유소 총 소매판매량을 분석한 결과 이같이 집계됐다고 밝혔다",
+        "snippet": "2 산업부 \"최고가격제 이후 휘발유 소비 늘지 않아…2.1% 감소\" 최고가격제를 통해 지난 3~8월 소비자물가 상승률을 평균 0.6%포인트(p) 낮추는 효과가 있었다는 분석이다. 산업부는 \"9~10월 도입 원유 는 전년 대비 90% 이상 확보했다\"며 \"이후에도 중동상황을 계속 모니터링하면서 다양한 정책수단을 통해 원유 수급을 안정적으로... 20분 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 14,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1257
+      },
+      {
+        "title": "최고가격제 이후 휘발유 소비 2.1% 감소…정부 “소비 증가 근거 無”",
+        "press": "이데일리",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20260916164237746",
+        "summary": "16일 산업통상부에 따르면 최고가격제 시행 이후 3~8월 주유소 총 소매판매량은 전년 동기 대비 휘발유가 2.1%, 경유가 8.4% 각각 감소했다",
+        "snippet": "최고가격제 이후 휘발유 소비 2.1% 감소…정부 “소비 증가 근거 無” 기준으로 추정한 금액인 반면, 정부는 최고가격제 시행 초기부터 ‘원가 기반’의 손실보전 재정지원 원칙을 제시하고 있다. 원유 수급에는 현재까지 큰 문제가 없다는 입장이다. 정부는 9~10월 도입 예정 원유 물량의 90% 이상을 전년 수준으로 확보했으며, 11... 35분 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1737
+      },
+      {
+        "title": "정부 \"석유 최고가격제 이후 휘발유 2.1%·경유 8.4% 소비↓⋯ 물가 0.6%p 낮춰\"",
+        "press": "이투데이",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20260916165603494",
+        "summary": "정부가 석유제품 최고가격제 시행 이후 휘발유 소비가 급증하고 있다는 일각의 주장을 정면으로 반박했다",
+        "snippet": "정부 \"석유 최고가격제 이후 휘발유 2.1%·경유 8.4% 소비↓⋯ 물가 0.6%p 낮춰\" 급증하고 있다는 일각의 주장을 정면으로 반박했다. 오히려 전체 유류 소비량은 전년 대비 감소했으며 중동 전쟁으로 인한 국제 유가 변동성 속에서 최고가격제가 국내 소비자물가 상승을 억제하는 역할을 하고 있다고 강조했다. 산업통상부는 16일 보도참고자료를... 22분 전 1",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1233
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
