@@ -1,0 +1,299 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-17",
+  "slot": "evening",
+  "period_start": "2026-09-17T08:00:00+09:00",
+  "period_end": "2026-09-17T17:00:00+09:00",
+  "period_label": "2026-09-17 08:00 ~ 2026-09-17 17:00",
+  "generated_at": "2026-09-17T17:04:01.049607+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1576,
+  "total_deduped_count": 8,
+  "total_ok_count": 8,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 8
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1186
+  },
+  "query_counts": {
+    "석유 담합": 7,
+    "석유제품 담합": 7,
+    "정유업계 담합": 4,
+    "주유소 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "'15조 석화 담합' 들여다보니...PVC 40%·가성소다27%새 창 열림",
+      "url": "http://www.beyondpost.co.kr/view.php?ud=202609171634303596205868f676_30",
+      "source": "새 창 열림",
+      "published_at": "2026-09-17T16:40:28.077562+09:00",
+      "snippet": "검찰이 특정한 담합 규모는 약 15조원으로, 약 14조원 규모로 알려진 정유업계 담합 사건보다 크다. 2021년부터 2025년까지 각 업체의 사업보고서와 석유화학편람 등을 토대로 약 15조원의 품목별 비중을 추산한 결과, PVC가 40%로 가장 컸다. 가성소다가 27%로 뒤를 이었고 가소제 16%, 염산 3%, 기타 품목 14%로... 새 창 열림",
+      "collected_at": "2026-09-17T17:03:28.077597+09:00",
+      "normalized_title": "'15조 석화 담합' 들여다보니...PVC 40%·가성소다27%새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'15조 석화 담합' 들여다보니...pvc 40%·가성소다27%새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.beyondpost.co.kr/view.php?ud=202609171634303596205868f676_30",
+      "id": "889aee5356edd83d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'15조 석화제품 담합' PVC에 40% 몰렸다…18일, 5개사 영장심사새 창 열림",
+      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5063331",
+      "source": "새 창 열림",
+      "published_at": "2026-09-17T15:03:28.078927+09:00",
+      "snippet": "검찰이 특정한 전체 담합 규모는 약 15조원으로 올해 적발된 정유업계 담합 사건 약 14조원을 넘어서는 수준으로 알려졌다. 품목별로 보면 PVC가 전체의 약 40%로 가장 높은 비중을 차지했다. 이는 2021년부터 2025년까지 각사 사업보고서와 석유화학편람 등을 토대로 추산한 결과다. PVC에 이어 가성소다가 27... 새 창 열림",
+      "collected_at": "2026-09-17T17:03:28.078945+09:00",
+      "normalized_title": "'15조 석화제품 담합' PVC에 40% 몰렸다…18일, 5개사 영장심사새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'15조 석화제품 담합' pvc에 40% 몰렸다…18일, 5개사 영장심사새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5063331",
+      "id": "a8ff644e0c62cbd8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[이슈+] 담합 과징금 올해만 1.8조···국회, 사업부 매각 카드 꺼냈다새 창 열림",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=638211",
+      "source": "새 창 열림",
+      "published_at": "2026-09-17T12:03:39.333844+09:00",
+      "snippet": "2011년에는 SK·GS칼텍스·현대오일뱅크·S-Oil 등 정유 4사가 주유소 확보 경쟁을 제한하기로 합의한 이른바 '원적관리' 담합이 적발됐다. 당시 과징금은 4348억원에 달했고 적극 가담한 3개 회사는 검찰에 고발됐다. 산업 기초소재도 예외가 아니었다. 국내 철근시장의 약 99%를 차지했던 11개 제강사는 2012~2018년... 새 창 열림",
+      "collected_at": "2026-09-17T17:03:39.333875+09:00",
+      "normalized_title": "[이슈+] 담합 과징금 올해만 1.8조···국회, 사업부 매각 카드 꺼냈다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[이슈+] 담합 과징금 올해만 1.8조···국회, 사업부 매각 카드 꺼냈다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.seoulfn.com/news/articleView.html?idxno=638211",
+      "id": "8545a1f844ae7948",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "15조 석화 담합 뜯어보니…한화·LG 관련 품목이 70% 넘어새 창 열림",
+      "url": "https://www.peoplewatch.co.kr/article/view/ppw202609170006",
+      "source": "새 창 열림",
+      "published_at": "2026-09-17T11:03:28.081498+09:00",
+      "snippet": "15조원대 석유화학제품 가격 담합 의혹의 무게중심은 어디일까. 검찰이 LG화학·한화솔루션 등 7개 업체의 가격 담합 의혹을 수사하고 있는 가운데 전체 사건 규모를 품목별로 뜯어보면 PVC와 가성소다가 상당 부분을 차지하는 것으로 보인다. 두 품목만 합쳐도 전체의 약 67%에 이른다. 특히 PVC는 LG화학과... 새 창 열림",
+      "collected_at": "2026-09-17T17:03:28.081523+09:00",
+      "normalized_title": "15조 석화 담합 뜯어보니…한화·LG 관련 품목이 70% 넘어새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::15조 석화 담합 뜯어보니…한화·lg 관련 품목이 70% 넘어새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.peoplewatch.co.kr/article/view/ppw202609170006",
+      "id": "2fa92fb6f7b82e3e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'15조 석화 담합' 최대 품목은 PVC… LG·한화가 양분새 창 열림",
+      "url": "https://www.ilovepc.co.kr/news/articleView.html?idxno=60729",
+      "source": "새 창 열림",
+      "published_at": "2026-09-17T11:03:28.080215+09:00",
+      "snippet": "15조원대 석유화학제품 가격 담합 의혹에 대한 검찰 수사가 확대되는 가운데, 수사 대상 품목 가운데 폴리염화비닐(PVC)이 차지하는 시장 규모가 40%로 가장 큰 것으로 나타났다. 특히 국내 PVC 생산시장은 LG화학과 한화솔루션이 90% 이상을 차지하고 있다. 검찰이 LG화학·한화솔루션·애경케미칼... 새 창 열림",
+      "collected_at": "2026-09-17T17:03:28.080229+09:00",
+      "normalized_title": "'15조 석화 담합' 최대 품목은 PVC… LG·한화가 양분새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'15조 석화 담합' 최대 품목은 pvc… lg·한화가 양분새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ilovepc.co.kr/news/articleView.html?idxno=60729",
+      "id": "a84f26cd95a56c21",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'15조 석화 담합' 품목별 비중 살펴보니…40%가 PVC새 창 열림",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=487826",
+      "source": "새 창 열림",
+      "published_at": "2026-09-17T09:03:28.082803+09:00",
+      "snippet": "검찰이 수사 중인 15조원대 석유화학제품 가격 담합 의혹을 품목별로 분석한 결과 폴리염화비닐(PVC)이 전체 규모의 약 40%를 차지하는 것으로 추산됐다. 가성소다와 가소제까지 더하면 3개 품목의 비중이 80%를 넘는다. 이번 사건은 LG화학과 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC, 유니드 등 7개... 새 창 열림",
+      "collected_at": "2026-09-17T17:03:28.082819+09:00",
+      "normalized_title": "'15조 석화 담합' 품목별 비중 살펴보니…40%가 PVC새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'15조 석화 담합' 품목별 비중 살펴보니…40%가 pvc새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=487826",
+      "id": "e29c6a288ada473c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'15조 석화제품 담합' PVC에 40% 몰렸다…18일, 5개사 영장심사",
+      "url": "http://v.daum.net/v/20260917142941246",
+      "source": "신아일보",
+      "published_at": "2026-09-17T15:03:31.251928+09:00",
+      "snippet": "화학 플랜트 앞 PVC 수지 백색 분말 시료 이미지. [이미지=오픈AI 챗GPT] 국내 주요 석유화학 업체들의 15조원대 가격 담합 의혹에서 PVC(폴리염화비닐) 품목 담합이 전체 약 40%를 차지하는 것으로 나타났다. 17일 업계에 따르면, 서울중앙지검 공정거래조사부는 LG... 2시간 전",
+      "collected_at": "2026-09-17T17:03:31.251959+09:00",
+      "normalized_title": "'15조 석화제품 담합' PVC에 40% 몰렸다…18일, 5개사 영장심사",
+      "source_normalized": "신아일보",
+      "duplicate_key": "신아일보::'15조 석화제품 담합' pvc에 40% 몰렸다…18일, 5개사 영장심사",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260917142941246",
+      "id": "44b783f7f58b4044",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "신아일보",
+      "url": "https://v.daum.net/channel/552793/home",
+      "source": "신아일보",
+      "published_at": "2026-09-17T15:03:29.222880+09:00",
+      "snippet": "화학 플랜트 앞 PVC 수지 백색 분말 시료 이미지. [이미지=오픈AI 챗GPT] 국내 주요 석유화학 업체들의 15조원대 가격 담합 의혹에서 PVC(폴리염화비닐) 품목 담합이 전체 약 40%를 차지하는 것으로 나타났다. 17일 업계에 따르면, 서울중앙지검 공정거래조사부는 LG... 2시간 전",
+      "collected_at": "2026-09-17T17:03:29.222929+09:00",
+      "normalized_title": "신아일보",
+      "source_normalized": "신아일보",
+      "duplicate_key": "신아일보::신아일보",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://v.daum.net/channel/552793/home",
+      "id": "960c2f030f8fc349",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
