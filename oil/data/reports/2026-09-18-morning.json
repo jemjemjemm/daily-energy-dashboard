@@ -1,0 +1,425 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-18",
+  "slot": "morning",
+  "period_start": "2026-09-18T00:00:00+09:00",
+  "period_end": "2026-09-18T08:00:00+09:00",
+  "period_label": "2026-09-18 00:00 ~ 2026-09-18 08:00",
+  "generated_at": "2026-09-18T08:15:54.589936+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1585,
+  "total_deduped_count": 12,
+  "total_ok_count": 12,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 2,
+    "B": 5,
+    "C": 5
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1195
+  },
+  "query_counts": {
+    "석유 담합": 12,
+    "석유제품 담합": 10,
+    "유가 담합": 3,
+    "유가담합": 3,
+    "정유사 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "중동 위기 틈타 15조 '석화 담합' 혐의 경영진 8명, 오늘 구속 갈림길",
+      "url": "http://v.daum.net/v/20260918060139856",
+      "source": "뉴스1",
+      "published_at": "2026-09-18T06:15:05.624697+09:00",
+      "snippet": "규모는 15조 원 이상이다. 이는 검찰이 수사한 역대 담합 사건 중 가장 큰 규모로, 지난 7월 적발한 14조 2000억 원 규모의 정유사 유가 담합 사건을 웃도는 수준이다. 검찰은 석유화학업체들이 올해 중동전쟁 발발 이후 나프타 원료 수급이 불안정해진 상황을 틈타... 2시간 전",
+      "collected_at": "2026-09-18T08:15:05.624735+09:00",
+      "normalized_title": "중동 위기 틈타 15조 '석화 담합' 혐의 경영진 8명, 오늘 구속 갈림길",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::중동 위기 틈타 15조 '석화 담합' 혐의 경영진 8명, 오늘 구속 갈림길",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://v.daum.net/v/20260918060139856",
+      "id": "16a1ce635a708259",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "뉴스1",
+      "url": "https://v.daum.net/channel/396/home",
+      "source": "뉴스1",
+      "published_at": "2026-09-18T06:15:03.705071+09:00",
+      "snippet": "규모는 15조 원 이상이다. 이는 검찰이 수사한 역대 담합 사건 중 가장 큰 규모로, 지난 7월 적발한 14조 2000억 원 규모의 정유사 유가 담합 사건을 웃도는 수준이다. 검찰은 석유화학업체들이 올해 중동전쟁 발발 이후 나프타 원료 수급이 불안정해진 상황을 틈타... 2시간 전",
+      "collected_at": "2026-09-18T08:15:03.705105+09:00",
+      "normalized_title": "뉴스1",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::뉴스1",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/396/home",
+      "id": "c8ccc99cbe11b78a",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[YTN 실시간 뉴스] 대통령 오늘 기자회견...90분간 입장 표명",
+      "url": "http://v.daum.net/v/20260918065506696",
+      "source": "YTN",
+      "published_at": "2026-09-18T07:15:21.206317+09:00",
+      "snippet": "■김승원 청문보고서 단독 채택…국힘 반발 ■대통령 오늘 기자회견…90분간 입장 표명 ■'담합' 석유화학업체 임원 오늘 구속심사 ■\"북한 핵실험, 2천 년 잠자던 단층 깨웠다\" ■아시안게임 본진 나고야 도착…북한도 입국 YTN 이강문 (ikmoon@ytn.co.kr... 1시간 전",
+      "collected_at": "2026-09-18T08:15:21.206350+09:00",
+      "normalized_title": "[YTN 실시간 뉴스] 대통령 오늘 기자회견...90분간 입장 표명",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::[ytn 실시간 뉴스] 대통령 오늘 기자회견...90분간 입장 표명",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20260918065506696",
+      "id": "fd71c1adbfa96b8e",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "YTN",
+      "url": "https://v.daum.net/channel/23/home",
+      "source": "YTN",
+      "published_at": "2026-09-18T07:15:20.029178+09:00",
+      "snippet": "■김승원 청문보고서 단독 채택…국힘 반발 ■대통령 오늘 기자회견…90분간 입장 표명 ■'담합' 석유화학업체 임원 오늘 구속심사 ■\"북한 핵실험, 2천 년 잠자던 단층 깨웠다\" ■아시안게임 본진 나고야 도착…북한도 입국 YTN 이강문 (ikmoon@ytn.co.kr... 1시간 전",
+      "collected_at": "2026-09-18T08:15:20.029195+09:00",
+      "normalized_title": "YTN",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::ytn",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://v.daum.net/channel/23/home",
+      "id": "d2d24d5b6b97e3ae",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'수조 원대 담합' 석유화학업체 경영진 8명 오늘 구속심사",
+      "url": "http://v.daum.net/v/20260918000304899",
+      "source": "YTN",
+      "published_at": "2026-09-18T00:15:24.653806+09:00",
+      "snippet": "이란 전쟁 등의 중동발 위기를 틈타 수조 원 규모의 담합을 벌인 의혹을 받는 국내 석유화학업체 전·현직 경영진들이 구속 갈림길에 섭니다. 서울중앙지법은 오늘(18일) 오전부터 공정거래법 위반 혐의를 받는 김유신 OCI 대표이사, 장영수 전 PKC 대표이사 등 8명... 8시간 전",
+      "collected_at": "2026-09-18T08:15:24.653832+09:00",
+      "normalized_title": "'수조 원대 담합' 석유화학업체 경영진 8명 오늘 구속심사",
+      "source_normalized": "YTN",
+      "duplicate_key": "ytn::'수조 원대 담합' 석유화학업체 경영진 8명 오늘 구속심사",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260918000304899",
+      "id": "904b175a9a0ec733",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[AM-PM] 이 대통령, 오늘 오전 청와대서 기자회견 外",
+      "url": "http://v.daum.net/v/20260918065531698",
+      "source": "연합뉴스TV",
+      "published_at": "2026-09-18T07:15:20.027915+09:00",
+      "snippet": "돌파에 나설 것이란 관측이 나오는데요. 특히 공소취소 문제나 연임 개헌론 등에 어떤 입장을 내놓을지 주목됩니다. ▶ '석유화학제품 담합' 경영진 8명 구속 갈림길 (AM 9:20 서울중앙지법) 수조 원 규모의 석유화학제품 가격을 담합한 혐의를 받는 국내 석유... 1시간 전",
+      "collected_at": "2026-09-18T08:15:20.027941+09:00",
+      "normalized_title": "[AM-PM] 이 대통령, 오늘 오전 청와대서 기자회견 外",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::[am-pm] 이 대통령, 오늘 오전 청와대서 기자회견 外",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260918065531698",
+      "id": "92c7188082bbf913",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "연합뉴스TV",
+      "url": "https://v.daum.net/channel/318/home",
+      "source": "연합뉴스TV",
+      "published_at": "2026-09-18T07:15:18.582041+09:00",
+      "snippet": "돌파에 나설 것이란 관측이 나오는데요. 특히 공소취소 문제나 연임 개헌론 등에 어떤 입장을 내놓을지 주목됩니다. ▶ '석유화학제품 담합' 경영진 8명 구속 갈림길 (AM 9:20 서울중앙지법) 수조 원 규모의 석유화학제품 가격을 담합한 혐의를 받는 국내 석유... 1시간 전",
+      "collected_at": "2026-09-18T08:15:18.582072+09:00",
+      "normalized_title": "연합뉴스TV",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::연합뉴스tv",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://v.daum.net/channel/318/home",
+      "id": "3c5f8f96c9d1d1e1",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "미리 보는 오늘새 창 열림",
+      "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6852656_37012.html",
+      "source": "새 창 열림",
+      "published_at": "2026-09-18T07:15:17.646214+09:00",
+      "snippet": "◀ 앵커 ▶ 이란 전쟁을 틈타 석유화학 제품 가격을 담합한 의혹을 받는, 기업 대표이사 등 관계자 8명에 대한 구속영장 실질심사가, 오늘 서울중앙지법에서 진행됩니다. 앞서 중앙지검 공정거래 조사부는 공정거래법 위반 혐의로 김 모 OCI 대표이사, 장 전 PKC 대표이사, 배 모 PKC 영업본부장 등 8명에 대한... 새 창 열림",
+      "collected_at": "2026-09-18T08:15:17.646232+09:00",
+      "normalized_title": "미리 보는 오늘새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::미리 보는 오늘새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6852656_37012.html",
+      "id": "f86755fbeefd8015",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[YTN 실시간 뉴스] 대통령 오늘 기자회견...90분간 입장 표명새 창 열림",
+      "url": "https://www.ytn.co.kr/_ln/0101_202609180641598675",
+      "source": "새 창 열림",
+      "published_at": "2026-09-18T07:15:17.644661+09:00",
+      "snippet": "■김승원 청문보고서 단독 채택…국힘 반발 ■대통령 오늘 기자회견…90분간 입장 표명 ■'담합' 석유화학업체 임원 오늘 구속심사 ■\"북한 핵실험, 2천 년 잠자던 단층 깨웠다\" ■아시안게임 본진 나고야 도착…북한도 입국새 창 열림",
+      "collected_at": "2026-09-18T08:15:17.644676+09:00",
+      "normalized_title": "[YTN 실시간 뉴스] 대통령 오늘 기자회견...90분간 입장 표명새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[ytn 실시간 뉴스] 대통령 오늘 기자회견...90분간 입장 표명새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.ytn.co.kr/_ln/0101_202609180641598675",
+      "id": "b58707314aca7b6a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[AM-PM] 이 대통령, 오늘 오전 청와대서 기자회견 外새 창 열림",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH20260918065419YSq",
+      "source": "새 창 열림",
+      "published_at": "2026-09-18T07:15:17.642841+09:00",
+      "snippet": "▶ '석유화학제품 담합' 경영진 8명 구속 갈림길 (AM 9:20 서울중앙지법) 수조 원 규모의 석유화학제품 가격을 담합한 혐의를 받는 국내 석유화학업체 경영진 8명이 구속 갈림길에 섭니다. 서울중앙지법은 오늘 김유신 OCI 대표이사와 장영수 전 PKC 대표이사 등 8명에 대한 구속 전 피의자 심문을 진행합니다.... 새 창 열림",
+      "collected_at": "2026-09-18T08:15:17.642860+09:00",
+      "normalized_title": "[AM-PM] 이 대통령, 오늘 오전 청와대서 기자회견 外새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[am-pm] 이 대통령, 오늘 오전 청와대서 기자회견 外새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.yonhapnewstv.co.kr/news/MYH20260918065419YSq",
+      "id": "a834c09b291605b4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중동 위기 틈타 15조 '석화 담합' 혐의 경영진 8명, 오늘 구속 갈림길새 창 열림",
+      "url": "https://www.news1.kr/society/court-prosecution/6294331",
+      "source": "새 창 열림",
+      "published_at": "2026-09-18T06:15:02.545236+09:00",
+      "snippet": "미국·이란 전쟁 등 중동 위기를 틈타 15조 원 규모의 석유화학제품 가격을 담합한 의혹을 받는 김유신 OCI 대표이사 등 국내 석유화학업체 7개사의 전·현직 경영진 8명이 18일 구속 갈림길에 선다. 법조계에 따르면 서울중앙지법 이지영 영장전담 부장판사는 이날 오전 9시20분부터 김유신 OCI 대표와 장영수... 새 창 열림",
+      "collected_at": "2026-09-18T08:15:02.545292+09:00",
+      "normalized_title": "중동 위기 틈타 15조 '석화 담합' 혐의 경영진 8명, 오늘 구속 갈림길새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::중동 위기 틈타 15조 '석화 담합' 혐의 경영진 8명, 오늘 구속 갈림길새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.news1.kr/society/court-prosecution/6294331",
+      "id": "de6b1c47d2804f18",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'수조 원대 담합' 석유화학업체 경영진 8명 오늘 구속심사새 창 열림",
+      "url": "https://www.ytn.co.kr/_ln/0103_202609180000384582",
+      "source": "새 창 열림",
+      "published_at": "2026-09-18T00:15:17.650875+09:00",
+      "snippet": "이란 전쟁 등의 중동발 위기를 틈타 수조 원 규모의 담합을 벌인 의혹을 받는 국내 석유화학업체 전·현직 경영진들이 구속 갈림길에 섭니다. 서울중앙지법은 오늘(18일) 오전부터 공정거래법 위반 혐의를 받는 김유신 OCI 대표이사, 장영수 전 PKC 대표이사 등 8명에 대한 구속 전 피의자 심문을 진행합니다.... 새 창 열림",
+      "collected_at": "2026-09-18T08:15:17.650893+09:00",
+      "normalized_title": "'수조 원대 담합' 석유화학업체 경영진 8명 오늘 구속심사새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'수조 원대 담합' 석유화학업체 경영진 8명 오늘 구속심사새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ytn.co.kr/_ln/0103_202609180000384582",
+      "id": "8140b872b67a8fb5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

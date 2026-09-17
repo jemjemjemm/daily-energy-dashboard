@@ -1,0 +1,113 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-17",
+  "slot": "night",
+  "period_start": "2026-09-17T17:00:00+09:00",
+  "period_end": "2026-09-18T00:00:00+09:00",
+  "period_label": "2026-09-17 17:00 ~ 2026-09-18 00:00",
+  "generated_at": "2026-09-18T08:15:54.469797+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1585,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1195
+  },
+  "query_counts": {
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "정유업계 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "석화 담합 의혹 15조원 중 40%가 PVC…품목별 편차 뚜렷새 창 열림",
+      "url": "https://www.topdaily.kr/articles/112014",
+      "source": "새 창 열림",
+      "published_at": "2026-09-17T18:15:17.652373+09:00",
+      "snippet": "검찰은 LG화학, 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC, 유니드 등 7개 기업이 PVC, 가소제, 가성소다, 염산 등 8개 석유화학 제품 가격을 사전에 협의했다고 보고 수사를 진행 중이다. 검찰이 산정한 전체 담합 규모는 약 15조원으로, 올해 적발된 정유업계 담합 규모(약 14조원)를 넘어서는 수준이다.... 새 창 열림",
+      "collected_at": "2026-09-18T08:15:17.652391+09:00",
+      "normalized_title": "석화 담합 의혹 15조원 중 40%가 PVC…품목별 편차 뚜렷새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::석화 담합 의혹 15조원 중 40%가 pvc…품목별 편차 뚜렷새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.topdaily.kr/articles/112014",
+      "id": "0d3d82335d8cfb3c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'15조 석화 담합' 들여다보니...PVC 40%·가성소다27%새 창 열림",
+      "url": "http://www.beyondpost.co.kr/view.php?ud=202609171634303596205868f676_30",
+      "source": "새 창 열림",
+      "published_at": "2026-09-17T17:15:17.653815+09:00",
+      "snippet": "검찰이 특정한 담합 규모는 약 15조원으로, 약 14조원 규모로 알려진 정유업계 담합 사건보다 크다. 2021년부터 2025년까지 각 업체의 사업보고서와 석유화학편람 등을 토대로 약 15조원의 품목별 비중을 추산한 결과, PVC가 40%로 가장 컸다. 가성소다가 27%로 뒤를 이었고 가소제 16%, 염산 3%, 기타 품목 14%로... 새 창 열림",
+      "collected_at": "2026-09-18T08:15:17.653831+09:00",
+      "normalized_title": "'15조 석화 담합' 들여다보니...PVC 40%·가성소다27%새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'15조 석화 담합' 들여다보니...pvc 40%·가성소다27%새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.beyondpost.co.kr/view.php?ud=202609171634303596205868f676_30",
+      "id": "889aee5356edd83d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
