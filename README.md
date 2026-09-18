@@ -14,6 +14,10 @@
 
 배포 검증: `python -m tools.validate_site` (전체 날짜 분리, 섹션 순서 및 유가 파일의 바이트 단위 보존 확인). GitHub Pages workflow에서도 매번 실행됩니다.
 
+국감 보고서는 `1. 금일 주요 일정`, `2. 주요 이슈`(제목만), `3. Monitoring Report`로 구성합니다. Monitoring Report는 [26GookGam](https://jemjemjemm.github.io/26GookGam/)의 完 탭에서 월별 회의 목록·전체 리포트·조회/복사 기능을 가져옵니다. 기존 일정과 주요 이슈에 별도 데이터를 추가하지 않습니다.
+
+`python tools/sync_assembly_content.py`는 원본을 내려받아 모든 보기 버튼의 본문 존재 여부를 검증한 뒤 `docs/assembly-content/`를 갱신합니다. 원본 체크 시각·해시·회의/리포트 수는 `manifest.json`에 기록합니다. Pages 배포는 Daily 및 유가 morning/evening 생성 workflow 성공 후 실행되며, **매 배포마다** 이 동기화를 먼저 수행합니다. 원본 수집/구조 검증 실패 시 배포를 중단하여 직전 정상 온라인 화면을 보존합니다. 과거 일정 날짜를 선택해도 Monitoring Report는 마지막 배포 시 확인한 최신 完 탭을 표시합니다. 수동 검증: `python -m unittest discover -s tests -p test_sync_assembly_content.py`.
+
 ## 저장소 구조
 
 ```text

@@ -41,6 +41,16 @@ def split_report(text: str) -> tuple[str, str]:
         r'<header class="header">.*?(<div class="header-date">.*?</div>).*?</header>',
         r'<header class="header assembly-header">\1</header>', assembly, count=1, flags=re.S)
     assembly = assembly.replace('</head>', '<style>.assembly-header{padding:10px 16px}.assembly-header .header-date{margin:0}</style></head>', 1)
+    assembly = assembly.replace('</main>', '''
+    <section class="section" id="assembly-issues">
+      <div class="section-header"><div class="section-heading"><span class="section-num">2</span><span class="section-title">주요 이슈</span></div></div>
+    </section>
+    <section class="section" id="assembly-monitoring">
+      <div class="section-header"><div class="section-heading"><span class="section-num">3</span><span class="section-title">Monitoring Report</span></div></div>
+      <div style="padding:8px 12px;font-size:11px;color:#666">원본 完 탭 최신 내용 · <a href="https://jemjemjemm.github.io/26GookGam/" target="_blank" rel="noopener">원본 보기</a></div>
+      <iframe src="../../assembly-content/monitoring/index.html" title="Monitoring Report · 完 탭" style="display:block;width:100%;height:80svh;min-height:460px;max-height:720px;border:0" loading="lazy"></iframe>
+    </section>
+  </main>''', 1)
     return daily, assembly
 
 

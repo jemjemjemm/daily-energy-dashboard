@@ -14,6 +14,7 @@ on:
       - "shared/**"
       - "tools/**"
       - "tests/test_site_views.py"
+      - "tests/test_sync_assembly_content.py"
       - ".github/workflows/deploy-pages.yml"
   workflow_run:
     workflows:
@@ -51,6 +52,10 @@ jobs:
           assert docs["count"] == len(docs["availableDates"]) == len(docs["reports"]) == expected
           print(f"[OK] Daily index verified: {expected} reports")
           PY
+      - name: Refresh completed parliamentary monitoring reports
+        run: |
+          python -m unittest discover -s tests -p test_sync_assembly_content.py
+          python tools/sync_assembly_content.py
       - name: Assemble unified site
         run: python tools/assemble_site.py
       - name: Verify Daily and parliamentary views and preserved archives

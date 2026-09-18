@@ -25,7 +25,8 @@ def validate_site(site: Path) -> None:
         assert daily == expected_daily, source
         assert assembly == expected_assembly, source
         assert re.findall(r'class="section-num">(\d+)', daily) == list('123456'), source
-        assert re.findall(r'class="section-num">(\d+)', assembly) == ['1'], source
+        assert re.findall(r'class="section-num">(\d+)', assembly) == ['1', '2', '3'], source
+        assert '../../assembly-content/monitoring/index.html' in assembly, source
         assert 'class="section-title">금일 주요 일정' not in daily, source
         assert 'class="section-title">News Trend' not in assembly, source
         count += 1
@@ -37,6 +38,9 @@ def validate_site(site: Path) -> None:
                 oil_count += 1
     assert (ROOT / 'oil/data/report-index.json').read_bytes() == (site / 'oil/data/report-index.json').read_bytes()
     embed = (site / 'oil/embed.html').read_text(encoding='utf-8')
+    monitoring = (site / 'assembly-content/monitoring/index.html').read_text(encoding='utf-8')
+    assert 'id="panel-done"' in monitoring and 'id="modalOverlay"' in monitoring
+    assert 'id="panel-schedule"' not in monitoring
     for marker in ('id="report-root"', 'id="calendar-root"', 'id="refresh-button"'):
         assert marker in embed
     print(f'[OK] Daily/assembly dates: {count}; oil files preserved byte-for-byte: {oil_count}')
