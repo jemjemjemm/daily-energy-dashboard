@@ -23,15 +23,16 @@
       .daily-report-section{order:1}
       .dashboard-summary-section{order:2}
       #errorBox{order:3}
-      .stats{order:4;grid-template-columns:repeat(2,1fr);margin:0}
+      .stats{order:4;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:0}
       .report-calendar-section{order:5}
       .daily-dashboard #oil-report{order:2;margin-top:0}
       .daily-dashboard .dashboard-summary-section{order:3}
       .daily-dashboard #errorBox{order:4}
-      .daily-dashboard .stats{order:5;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
-      .daily-dashboard .stat{min-width:0;padding:10px 6px;text-align:center;border-radius:10px}
-      .daily-dashboard .stat-label{font-size:10px;white-space:nowrap}
-      .daily-dashboard .stat-value{font-size:clamp(13px,3.8vw,18px);min-height:24px;white-space:nowrap;font-variant-numeric:tabular-nums}
+      .daily-dashboard .stats{order:5}
+      .stat{min-width:0;padding:10px 6px;text-align:center;border-radius:10px}
+      .stat-label{font-size:10px;white-space:nowrap}
+      .stat-value{font-size:clamp(13px,3.8vw,18px);min-height:24px;white-space:nowrap;font-variant-numeric:tabular-nums}
+      .assembly-dashboard .dashboard-summary-section{display:none}
       .daily-dashboard .report-calendar-section{order:6}
       .viewer-wrap{height:auto;min-height:100vh;min-height:100svh;border:0;border-radius:0;box-shadow:none;background:transparent;overflow:visible}
       .viewer-toolbar{display:none}
@@ -151,7 +152,7 @@
   function setStatDate(id, value){
     const node=$(id);
     node.dataset.date=value;
-    node.textContent=document.body.classList.contains('daily-dashboard') && mobileLayout.matches
+    node.textContent=mobileLayout.matches
       ? String(value).replace(/^\d{2}(\d{2}-\d{2}-\d{2})$/, '$1') : value;
   }
 
