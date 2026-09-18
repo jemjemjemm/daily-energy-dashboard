@@ -36,6 +36,11 @@ def split_report(text: str) -> tuple[str, str]:
     assembly = text[:start] + schedule_text + text[end:]
     assembly = assembly.replace('Daily Issue Report', '국감')
     assembly = assembly.replace('../schedules/', '../../schedules/')
+    # Parliamentary reports use a compact date-only header.
+    assembly = re.sub(
+        r'<header class="header">.*?(<div class="header-date">.*?</div>).*?</header>',
+        r'<header class="header assembly-header">\1</header>', assembly, count=1, flags=re.S)
+    assembly = assembly.replace('</head>', '<style>.assembly-header{padding:10px 16px}.assembly-header .header-date{margin:0}</style></head>', 1)
     return daily, assembly
 
 
