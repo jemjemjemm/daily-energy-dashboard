@@ -12,7 +12,8 @@ on:
       - "oil/data/reports/**"
       - "oil/reports/**"
       - "shared/**"
-      - "tools/assemble_site.py"
+      - "tools/**"
+      - "tests/test_site_views.py"
       - ".github/workflows/deploy-pages.yml"
   workflow_run:
     workflows:
@@ -52,6 +53,10 @@ jobs:
           PY
       - name: Assemble unified site
         run: python tools/assemble_site.py
+      - name: Verify Daily and parliamentary views and preserved archives
+        run: |
+          python -m unittest discover -s tests -p test_site_views.py
+          python -m tools.validate_site
       - name: Verify unified site contents and oil relative paths
         run: |
           python - <<'PY'

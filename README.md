@@ -1,13 +1,18 @@
-# Daily / 유가 통합 리포트
+# Daily / 국감 통합 리포트
 
 통합 전환은 2026-09-07에 완료되었습니다. 앞으로 Daily와 유가 리포트의 데이터 생성, 화면 조립, GitHub Pages 배포는 모두 이 저장소에서 운영합니다.
 
 ## 운영 주소
 
 - Daily: <https://jemjemjemm.github.io/daily-energy-dashboard/>
-- 유가: <https://jemjemjemm.github.io/daily-energy-dashboard/oil/>
-- 두 화면 상단의 `Daily` / `유가` 탭으로 이동합니다.
-- 이전 F_Issue 주소는 위 유가 주소로 리다이렉트됩니다.
+- 국감: <https://jemjemjemm.github.io/daily-energy-dashboard/assembly/>
+- 두 화면 상단의 `Daily` / `국감` 탭으로 이동합니다.
+- 유가는 Daily 하단의 `7. Oil Price Issue Report`에서 Morning / Evening / Night 및 과거 기사 캘린더를 조회합니다.
+- 기존 `/oil/` 주소와 개별 리포트 링크는 Daily 유가 영역으로 연결됩니다.
+
+2026-09-18부터 배포 조립기가 모든 날짜의 원본 HTML을 Daily(1–6)와 국감(1. 금일 주요 일정)으로 분리합니다. 국감에는 기존 일정 상세, 본회의·상임위 및 월간 국회일정캘린더가 유지됩니다. 수집 파이프라인의 원본 `docs/reports/`는 기존 통합 형식을 유지하며, 실제 공개 화면은 반드시 `python tools/assemble_site.py`로 생성한 `_site/`로 확인합니다. 유가 JSON·색인·개별 진입 HTML은 원본 그대로 복사하며 CSS/JS 충돌을 막기 위해 Daily에 동일한 유가 화면을 iframe으로 포함합니다.
+
+배포 검증: `python -m tools.validate_site` (전체 날짜 분리, 섹션 순서 및 유가 파일의 바이트 단위 보존 확인). GitHub Pages workflow에서도 매번 실행됩니다.
 
 ## 저장소 구조
 

@@ -40,7 +40,7 @@
   <nav class="report-tabs" aria-label="리포트 구분">
     <div class="report-tabs-inner">
       <a class="report-tab" href="./" aria-current="page">Daily</a>
-      <a class="report-tab" href="oil/">유가</a>
+      <a class="report-tab" href="assembly/">국감</a>
     </div>
   </nav>
   <div class="app">
@@ -92,6 +92,13 @@
         <iframe id="viewer" class="viewer" title="Daily Issue Report 리포트"></iframe>
       </section>
     </main>
+    <!-- OIL START -->
+    <section id="oil-report" class="panel" style="margin-top:14px;order:6">
+      <div class="panel-head"><h2 class="panel-title" style="margin:0;font-size:18px">7. Oil Price Issue Report</h2></div>
+      <iframe id="oilViewer" src="oil/embed.html" title="Oil Price Issue Report · Morning, Evening, Night 및 과거 기사 조회" style="display:block;width:100%;height:800px;border:0" scrolling="no"></iframe>
+    </section>
+    <script src="shared/oil-frame.js?v=20260918"></script>
+    <!-- OIL END -->
   </div>
 
 <script>
@@ -241,7 +248,7 @@
     const url=r.url || `reports/${date}.html`;
     if(mobileLayout.matches) $('viewer').style.height='100svh';
     pendingMobileReportPath=options.scrollToReport && window.innerWidth <= 768
-      ? new URL(url,window.location.href).pathname
+      ? new URL(url,document.baseURI).pathname
       : null;
     $('viewer').src=cacheBust(url);
     $('openNew').href=url;
