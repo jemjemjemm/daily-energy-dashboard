@@ -47,6 +47,7 @@ def publish_views(output: Path) -> None:
 
     dashboard = (output / 'index.html').read_text(encoding='utf-8')
     assembly_dashboard = dashboard.replace('<head>', '<head>\n  <base href="../">', 1)
+    assembly_dashboard = assembly_dashboard.replace('class="daily-dashboard"', 'class="assembly-dashboard"', 1)
     assembly_dashboard = assembly_dashboard.replace('Daily Issue Dashboard', '국감')
     assembly_dashboard = assembly_dashboard.replace('Daily Issue Report', '국감')
     assembly_dashboard = assembly_dashboard.replace('정유 · 석유화학 · LNG AI 리포트', '본회의 · 상임위 일정 + 월간 국회일정캘린더')

@@ -16,6 +16,7 @@
     .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:14px 0}.stat{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:12px 14px}.stat-label{font-size:11px;color:#6b7280;margin-bottom:4px}.stat-value{font-size:18px;font-weight:800;color:#111827;min-height:27px}
     .grid{display:grid;grid-template-columns:360px minmax(0,1fr);gap:14px}.panel{background:#fff;border:1px solid #e5e7eb;border-radius:16px;overflow:hidden}.panel-head{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:13px 14px;border-bottom:1px solid #e5e7eb;background:#f8fafc}.panel-title{font-weight:800}.panel-sub{font-size:12px;color:#6b7280;margin-top:2px}.btn{border:1px solid #d1d5db;background:#fff;border-radius:10px;padding:7px 10px;font-size:12px;cursor:pointer}.btn:hover{background:#f3f4f6}.calendar{padding:12px}.month-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}.month-title{font-weight:800}.weekdays,.days{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}.weekday{text-align:center;font-size:11px;color:#6b7280;padding:4px 0}.day{height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:12px;color:#9ca3af;border:1px solid transparent}.day.in-month{color:#374151;background:#f9fafb}.day.has-report{background:#e8f1ff;color:#0A2444;border-color:#bfd7ff;font-weight:800;cursor:pointer}.day.has-report:hover{background:#dbeafe}.day.selected{background:#0A2444;color:#fff;border-color:#0A2444}.day.today{box-shadow:inset 0 0 0 2px #f59e0b}.legend{display:flex;gap:12px;margin:12px 2px 2px;color:#6b7280;font-size:11px}.legend span{display:inline-flex;align-items:center;gap:5px}.dot{width:9px;height:9px;border-radius:50%;display:inline-block}.dot.report{background:#1A6FD4}.dot.today{background:#f59e0b}.links{padding:0 12px 12px;max-height:350px;overflow:auto}.report-link{display:block;padding:10px 8px;border-bottom:1px solid #f0f0f0;color:#111827;text-decoration:none;border-radius:8px}.report-link:hover{background:#f8fafc}.report-link.active{background:#eff6ff;color:#0A2444}.report-date{font-weight:800}.report-title{font-size:12px;color:#6b7280;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.viewer-wrap{height:calc(100vh - 188px);min-height:680px;background:#fff;scroll-margin-top:12px}.viewer-toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid #e5e7eb;background:#fff}.viewer-title{font-weight:800}.viewer-meta{font-size:12px;color:#6b7280;margin-top:2px}.viewer-actions{display:flex;gap:8px}.viewer{width:100%;height:calc(100% - 62px);border:0;background:#f4f5f7}.empty{padding:30px;text-align:center;color:#6b7280}.error{margin:12px 0;padding:12px 14px;border-radius:12px;background:#fff1f2;border:1px solid #fecdd3;color:#9f1239;display:none;white-space:pre-wrap}.loading{padding:24px;text-align:center;color:#6b7280}.mobile-select{display:none;width:100%;border:1px solid #d1d5db;border-radius:10px;padding:9px 10px;background:#fff;margin-top:10px}
     .mobile-list-updated-at{display:none}
+    #oil-report{margin-top:14px}
     @media(max-width:860px){
       .app{display:flex;flex-direction:column;gap:10px;padding:10px}
       .grid{display:contents}
@@ -24,6 +25,14 @@
       #errorBox{order:3}
       .stats{order:4;grid-template-columns:repeat(2,1fr);margin:0}
       .report-calendar-section{order:5}
+      .daily-dashboard #oil-report{order:2;margin-top:0}
+      .daily-dashboard .dashboard-summary-section{order:3}
+      .daily-dashboard #errorBox{order:4}
+      .daily-dashboard .stats{order:5;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+      .daily-dashboard .stat{min-width:0;padding:10px 6px;text-align:center;border-radius:10px}
+      .daily-dashboard .stat-label{font-size:10px;white-space:nowrap}
+      .daily-dashboard .stat-value{font-size:clamp(13px,3.8vw,18px);min-height:24px;white-space:nowrap;font-variant-numeric:tabular-nums}
+      .daily-dashboard .report-calendar-section{order:6}
       .viewer-wrap{height:auto;min-height:100vh;min-height:100svh;border:0;border-radius:0;box-shadow:none;background:transparent;overflow:visible}
       .viewer-toolbar{display:none}
       .viewer-actions{display:none!important}
@@ -36,7 +45,7 @@
     }
   </style>
 </head>
-<body>
+<body class="daily-dashboard">
   <nav class="report-tabs" aria-label="리포트 구분">
     <div class="report-tabs-inner">
       <a class="report-tab" href="./" aria-current="page">Daily</a>
@@ -93,7 +102,7 @@
       </section>
     </main>
     <!-- OIL START -->
-    <section id="oil-report" class="panel" style="margin-top:14px;order:6">
+    <section id="oil-report" class="panel">
       <div class="panel-head"><h2 class="panel-title" style="margin:0;font-size:18px">7. Oil Price Issue Report</h2></div>
       <iframe id="oilViewer" src="oil/embed.html" title="Oil Price Issue Report · Morning, Evening, Night 및 과거 기사 조회" style="display:block;width:100%;height:800px;border:0" scrolling="no"></iframe>
     </section>
@@ -134,9 +143,21 @@
 
   function setStats(data){
     $('count').textContent = String(data.count ?? state.reports.length);
-    $('latestDate').textContent = data.latestDate || (state.reports[0] && state.reports[0].date) || '-';
+    setStatDate('latestDate', data.latestDate || (state.reports[0] && state.reports[0].date) || '-');
     $('generatedAt').textContent = data.generatedAt || '-';
     $('mobileGeneratedAt').textContent = formatUpdatedAt(data.generatedAt);
+  }
+
+  function setStatDate(id, value){
+    const node=$(id);
+    node.dataset.date=value;
+    node.textContent=document.body.classList.contains('daily-dashboard') && mobileLayout.matches
+      ? String(value).replace(/^\d{2}(\d{2}-\d{2}-\d{2})$/, '$1') : value;
+  }
+
+  function updateLayout(){
+    ['latestDate','selectedDate'].forEach(id=>setStatDate(id, $(id).dataset.date || '-'));
+    observeViewerDocument();
   }
 
   function formatUpdatedAt(value){
@@ -242,7 +263,7 @@
 
   function selectReport(date, options={}){
     const r=state.byDate.get(date); if(!r) return;
-    state.selected=date; $('selectedDate').textContent=date;
+    state.selected=date; setStatDate('selectedDate', date);
     $('viewerTitle').textContent=r.title || `Daily Issue Report — ${date}`;
     $('viewerMeta').textContent=r.displayDate || date;
     const url=r.url || `reports/${date}.html`;
@@ -280,8 +301,8 @@
   $('mobileSelect').addEventListener('change', e=>selectReport(e.target.value));
   $('reloadBtn').addEventListener('click',()=>{ if(state.selected) $('viewer').contentWindow.location.reload(); else init(); });
   $('viewer').addEventListener('load',handleViewerLoad);
-  if(mobileLayout.addEventListener) mobileLayout.addEventListener('change',observeViewerDocument);
-  else mobileLayout.addListener(observeViewerDocument);
+  if(mobileLayout.addEventListener) mobileLayout.addEventListener('change',updateLayout);
+  else mobileLayout.addListener(updateLayout);
   init();
 })();
 </script>
