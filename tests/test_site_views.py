@@ -14,6 +14,10 @@ class SiteViewsTest(unittest.TestCase):
         self.assertIn('section-num">5</span><span class="section-title">News Trend - Morning', daily)
         self.assertIn('section-num">6</span><span class="section-title">News Trend - Evening', daily)
         self.assertIn('section-num">1</span><span class="section-title">금일 주요 일정', assembly)
+        self.assertIn('data-slot="morning"', assembly)
+        self.assertIn('data-slot="evening"', assembly)
+        self.assertEqual(assembly.count('class="committee-news"'), 6)
+        self.assertNotIn('committee-slot', daily)
 
     def test_missing_schedule_fails_build_instead_of_losing_data(self):
         with self.assertRaises(ValueError):

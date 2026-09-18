@@ -7,11 +7,15 @@ import re
 import shutil
 from pathlib import Path
 
+try:
+    from tools.committee_news import render as render_committee_news
+except ModuleNotFoundError:  # Direct script execution in GitHub Actions.
+    from committee_news import render as render_committee_news
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def split_report(text: str) -> tuple[str, str]:
+def split_report(text: str, date: str | None = None) -> tuple[str, str]:
     """Publish the canonical pipeline report as Daily and parliamentary views.
 
     Keep the source report intact so historical content and pipeline quality
@@ -24,6 +28,11 @@ def split_report(text: str) -> tuple[str, str]:
         r'class="section-title">금일 주요 일정', m.group())]
     if len(schedule) != 1:
         raise ValueError("Expected exactly one schedule section in source report")
+    if date is None:
+        match = re.search(r'<title>[^<]*?(\d{4})[.-](\d{2})[.-](\d{2})', text)
+        if not match:
+            raise ValueError('Missing report date')
+        date = '-'.join(match.groups())
     schedule_text = schedule[0].group().replace(
         '<span class="section-num">5</span>', '<span class="section-num">1</span>', 1)
     daily = text[:schedule[0].start()] + text[schedule[0].end():]
@@ -44,6 +53,7 @@ def split_report(text: str) -> tuple[str, str]:
     assembly = assembly.replace('</main>', '''
     <section class="section" id="assembly-issues">
       <div class="section-header"><div class="section-heading"><span class="section-num">2</span><span class="section-title">주요 이슈</span></div></div>
+      <!-- COMMITTEE NEWS -->
     </section>
     <section class="section" id="assembly-monitoring">
       <div class="section-header"><div class="section-heading"><span class="section-num">3</span><span class="section-title">Monitoring Report</span></div></div>
@@ -51,6 +61,7 @@ def split_report(text: str) -> tuple[str, str]:
       <iframe src="../../assembly-content/monitoring/index.html" title="Monitoring Report · 完 탭" style="display:block;width:100%;height:80svh;min-height:460px;max-height:720px;border:0" loading="lazy"></iframe>
     </section>
   </main>''', 1)
+    assembly = assembly.replace('<!-- COMMITTEE NEWS -->', render_committee_news(date), 1)
     return daily, assembly
 
 
@@ -58,7 +69,7 @@ def publish_views(output: Path) -> None:
     assembly_dir = output / 'assembly/reports'
     assembly_dir.mkdir(parents=True, exist_ok=True)
     for path in sorted((output / 'reports').glob('*.html')):
-        daily, assembly = split_report(path.read_text(encoding='utf-8'))
+        daily, assembly = split_report(path.read_text(encoding='utf-8'), path.stem)
         path.write_text(daily, encoding='utf-8')
         (assembly_dir / path.name).write_text(assembly, encoding='utf-8')
 

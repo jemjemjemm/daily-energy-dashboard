@@ -14,7 +14,23 @@
 
 배포 검증: `python -m tools.validate_site` (전체 날짜 분리, 섹션 순서 및 유가 파일의 바이트 단위 보존 확인). GitHub Pages workflow에서도 매번 실행됩니다.
 
-국감 보고서는 `1. 금일 주요 일정`, `2. 주요 이슈`(제목만), `3. Monitoring Report`로 구성합니다. Monitoring Report는 [26GookGam](https://jemjemjemm.github.io/26GookGam/)의 完 탭에서 월별 회의 목록·전체 리포트·조회/복사 기능을 가져옵니다. 기존 일정과 주요 이슈에 별도 데이터를 추가하지 않습니다.
+국감 보고서는 `1. 금일 주요 일정`, `2. 주요 이슈`, `3. Monitoring Report`로 구성합니다. 주요 이슈는 선택 날짜별 Morning / Evening과 산자위·기재위·정무위 순서로 표시합니다. 각 상임위에는 우선산업 요약과 전체 뉴스 목록이 있으며 미발간과 수집 기사 없음은 구분합니다. Monitoring Report는 [26GookGam](https://jemjemjemm.github.io/26GookGam/)의 完 탭에서 월별 회의 목록·전체 리포트·조회/복사 기능을 가져옵니다. 기존 일정은 유지합니다.
+
+### 국회 상임위 주요 이슈 발간
+
+`morning` / `모닝 리포트 업데이트`, `evening` / `이브닝 리포트 업데이트` 요청은 [AGENTS.md](AGENTS.md)의 수집·검증·배포 절차를 따릅니다. 날짜 미지정 시 KST 현재 날짜를 사용합니다. Morning은 전일 17:00~당일 08:00, Evening은 당일 08:00~17:00이며 명시한 경계 시각을 포함합니다. 원문 최초 보도시각을 기준으로 선별합니다.
+
+원문 검토 기록은 `data/committee-news/YYYY-MM-DD-SLOT.review.json`, 발간 데이터는 `docs/assembly-content/issues/YYYY-MM-DD-SLOT.json`에 보존합니다. 웹 검색 및 본문 검토가 끝난 입력에만 아래 명령을 실행합니다. 이 도구는 뉴스 검색을 대신하지 않으며, 검증된 후보를 시간대·매체 우선순위·사안 중복·중요도로 선별합니다. 기사 부족 시 무관한 기사를 채우지 않고 확인한 건수만 표시합니다.
+
+```powershell
+python -m tools.committee_news --slot morning --date 2026-09-18 --input data/committee-news/2026-09-18-morning.review.json
+python tools/sync_assembly_content.py
+python tools/assemble_site.py
+python -m tools.validate_site
+python -m unittest discover -s tests -p test_committee_news.py
+```
+
+선택 날짜의 원본 Daily 보고서가 `docs/reports/`와 색인에 있어야 국감에서도 해당 날짜를 선택할 수 있습니다. 과거 날짜는 그 날짜의 주요 이슈를 표시하며 최신 이슈를 과거 날짜에 덮어씌우지 않습니다.
 
 `python tools/sync_assembly_content.py`는 원본을 내려받아 모든 보기 버튼의 본문 존재 여부를 검증한 뒤 `docs/assembly-content/`를 갱신합니다. 원본 체크 시각·해시·회의/리포트 수는 `manifest.json`에 기록합니다. Pages 배포는 Daily 및 유가 morning/evening 생성 workflow 성공 후 실행되며, **매 배포마다** 이 동기화를 먼저 수행합니다. 원본 수집/구조 검증 실패 시 배포를 중단하여 직전 정상 온라인 화면을 보존합니다. 과거 일정 날짜를 선택해도 Monitoring Report는 마지막 배포 시 확인한 최신 完 탭을 표시합니다. 수동 검증: `python -m unittest discover -s tests -p test_sync_assembly_content.py`.
 

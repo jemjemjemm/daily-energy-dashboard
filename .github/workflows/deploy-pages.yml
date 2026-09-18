@@ -15,6 +15,7 @@ on:
       - "tools/**"
       - "tests/test_site_views.py"
       - "tests/test_sync_assembly_content.py"
+      - "tests/test_committee_news.py"
       - ".github/workflows/deploy-pages.yml"
   workflow_run:
     workflows:
@@ -61,6 +62,7 @@ jobs:
       - name: Verify Daily and parliamentary views and preserved archives
         run: |
           python -m unittest discover -s tests -p test_site_views.py
+          python -m unittest discover -s tests -p test_committee_news.py
           python -m tools.validate_site
       - name: Verify unified site contents and oil relative paths
         run: |
