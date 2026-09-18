@@ -1150,7 +1150,6 @@ def render(data: Mapping[str, Any], date_text: str, assembly_month: Mapping[str,
     {section(5, f"금일 주요 일정 ({today_label})", render_schedules(data) + render_assembly_report(date_text, assembly_month or {}), action_html=schedule_detail_button(date_text))}
     {section(6, f"News Trend - Morning ({morning_news_label})", render_news(data))}
     {section(7, f"News Trend - Evening ({afternoon_news_label})", render_afternoon_news(data))}
-    <footer class="footer">SK Innovation Communication Division · {esc(date_text.replace('-', '.'))}</footer>
   </main>
   {schedule_detail_modal()}
   {assembly_report_modal() if assembly_month and assembly_month.get("items") else ""}

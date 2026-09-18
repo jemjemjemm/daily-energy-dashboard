@@ -17,6 +17,8 @@ def split_report(text: str) -> tuple[str, str]:
     Keep the source report intact so historical content and pipeline quality
     validation use exactly the same data. Every deployment splits all dates.
     """
+    # Remove the retired attribution from archived reports as well as new ones.
+    text = re.sub(r'\s*<footer class="footer">SK Innovation Communication Division[^<]*</footer>', '', text)
     sections = list(re.finditer(r'<section\b[^>]*>.*?</section>', text, re.S))
     schedule = [m for m in sections if re.search(
         r'class="section-title">금일 주요 일정', m.group())]
