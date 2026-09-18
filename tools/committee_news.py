@@ -155,6 +155,12 @@ STYLE = '''<style>
 def render(date: str, directory: Path = REPORT_DIR) -> str:
     esc = html.escape
     parts = [STYLE, '<div class="committee-reports">']
+    published = {}
+    for name in ('morning', 'evening'):
+        path = directory / f'{date}-{name}.json'
+        if path.exists():
+            published[name] = json.loads(path.read_text(encoding='utf-8'))
+    active_slot = max(published, key=lambda name: published[name].get('published_at', ''), default='morning')
     for slot in ('morning', 'evening'):
         path = directory / f'{date}-{slot}.json'
         report = json.loads(path.read_text(encoding='utf-8')) if path.exists() else None
@@ -163,7 +169,8 @@ def render(date: str, directory: Path = REPORT_DIR) -> str:
             if report['date'] != date or report['slot'] != slot:
                 raise ValueError(f'Report/file mismatch: {path}')
         span = '전일 17:00 - 당일 08:00' if slot == 'morning' else '당일 08:00 - 17:00'
-        parts.append(f'<details class="committee-slot" data-slot="{slot}" open><summary>{slot.title()} ({span})</summary>')
+        expanded = ' open' if slot == active_slot else ''
+        parts.append(f'<details class="committee-slot" data-slot="{slot}"{expanded}><summary>{slot.title()} ({span})</summary>')
         parts.append(f'<p class="committee-period">📋 {slot.title()} 국회 상임위 주요 이슈 리포트<br>{period_label(date, slot)}</p>')
         parts.append('<p class="committee-status">발간 완료 · 시간대·중복 조건을 충족한 확인 기사만 수록</p>' if report else '<p class="committee-status">미발간</p>')
         for i, (key, name, short) in enumerate(COMMITTEES, start=1 if slot == 'morning' else 4):

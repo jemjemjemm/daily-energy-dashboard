@@ -7,6 +7,7 @@
 - Daily/유가 업데이트가 함께 요청되면 그 기존 작업도 수행한다. 모든 morning/evening 발간 시 Monitoring Report의 원본 完 탭을 최신 동기화한다.
 - 별도 날짜가 없으면 실행 시점 KST 날짜. 명시 날짜가 있으면 그 날짜를 우선한다. Morning D-1 17:00~D 08:00, Evening D 08:00~17:00 (경계 포함). 마감 전에는 완결 리포트를 발간하지 않는다.
 - 사용자의 online push 지시가 있으면 검증, 커밋, push, Actions 배포 성공 및 온라인 확인까지 수행한다.
+- 발간한 시간대만 기본으로 펼친다. Morning 발간 시 Evening을 접고, Evening 발간 시 Morning을 접는다. Daily 생성에는 해당 `--report-slot`을 전달하고 국감은 최신 발간시각의 슬롯을 펼친다. 접힌 보고서도 제목을 눌러 다시 열 수 있어야 한다.
 
 ## 웹 수집과 편집
 

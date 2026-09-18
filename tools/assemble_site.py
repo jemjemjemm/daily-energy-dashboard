@@ -39,6 +39,21 @@ def split_report(text: str, date: str | None = None) -> tuple[str, str]:
     for old, new in ((6, 5), (7, 6)):
         daily = daily.replace(f'<span class="section-num">{old}</span>',
                               f'<span class="section-num">{new}</span>')
+    active = re.search(r'<meta name="report-slot" content="(morning|evening)">', text)
+    if active:
+        def fold_news(match):
+            section = match.group()
+            slot_match = re.search(r'News Trend - (Morning|Evening)', section)
+            if not slot_match:
+                return section
+            slot = slot_match[1].lower()
+            expanded = ' open' if slot == active[1] else ''
+            section = section.replace('<div class="section-header">', '<summary class="section-header">', 1)
+            section = section.replace('</div></div>', '</div></summary>', 1)
+            section = re.sub(r'(<section\b[^>]*>)', rf'\1<details class="daily-news-slot" data-slot="{slot}"{expanded}>', section, count=1)
+            return section.replace('</section>', '</details></section>')
+        daily = re.sub(r'<section\b[^>]*>.*?</section>', fold_news, daily, flags=re.S)
+        daily = daily.replace('</head>', '<style>.daily-news-slot>summary{cursor:pointer;list-style:none}.daily-news-slot>summary::after{content:"＋"}.daily-news-slot[open]>summary::after{content:"−"}</style></head>', 1)
     # Keep the original modal markup/scripts and embedded monthly data.
     start = sections[0].start()
     end = sections[-1].end()

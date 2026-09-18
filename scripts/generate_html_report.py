@@ -1120,18 +1120,20 @@ def atomic_write(path: Path, text: str) -> None:
     tmp_path.replace(path)
 
 
-def render(data: Mapping[str, Any], date_text: str, assembly_month: Mapping[str, Any] | None = None) -> str:
+def render(data: Mapping[str, Any], date_text: str, assembly_month: Mapping[str, Any] | None = None, report_slot: str | None = None) -> str:
     report = dict_of(data.get("report"))
     badge = clean_text(report.get("report_badge") or "정유 · 석유화학 · LNG")
     today_label = short_date(date_text)
     morning_news_label, afternoon_news_label = news_window_labels(date_text)
     crude_series = extract_series(data, "crude")
     product_series = extract_series(data, "product")
+    report_slot = report_slot or ('evening' if dict_of(data.get('news_trend_afternoon')).get('articles') else 'morning')
     html_text = f"""<!doctype html>
 <html lang="ko">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="report-slot" content="{esc(report_slot)}">
   <title>Daily Issue Report — {esc(date_text.replace('-', '.'))}</title>
   <style>{STYLE}\n{ASSEMBLY_REPORT_STYLE}</style>
 </head>
@@ -1173,7 +1175,7 @@ def main() -> int:
     if not args.output:
         output_path = Path(args.out_dir) / f"{date_text}.html"
     assembly_month = load_assembly_month(Path(args.assembly_dir), date_text)
-    html_text = render(data, date_text, assembly_month)
+    html_text = render(data, date_text, assembly_month, report_slot=args.report_slot)
     atomic_write(output_path, html_text)
     print(f"[OK] HTML 리포트 생성 완료: {output_path}")
     return 0
