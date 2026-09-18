@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import re
+from urllib.parse import urlsplit
 
 CONTEXT_KEYWORDS = [
     "유가", "석유", "정유사", "정유업계", "기름값", "휘발유", "경유", "주유소",
@@ -45,6 +46,9 @@ def assess_quality(item: dict) -> tuple[str, str, str, list[str]]:
     snippet = item.get("snippet") or ""
     text = f"{title} {snippet}".casefold()
     matches = matched_keywords(title, snippet)
+    link = urlsplit(item.get('canonical_url') or item.get('url') or '')
+    if link.hostname in {'v.daum.net', 'news.daum.net'} and link.path.startswith('/channel/'):
+        return 'excluded', '제외', '기사 아닌 언론사 채널 링크', matches
     for reason, words in EXCLUDED_PATTERNS.items():
         if any(word.casefold() in text for word in words):
             return "excluded", "제외", reason, matches

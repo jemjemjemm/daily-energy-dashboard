@@ -25,7 +25,7 @@
     },
     {
       "type": "news_trend_afternoon",
-      "text": "(Evening) △외교부는 18일 국제 에너지 수급 불확실성에 대비해 브라질, 아르헨티나, 멕시코, 베네수엘라, 에콰도르, 페루 지역의 재외공관과 중남미 원유·나프타 수급 동향, 대체 공급선 확보 가능성을 △외교부는 재외공관 및 관계 업계와 긴밀히 소통하고, 중남미지역의 원유·나프타 수급 동향을 지속 점검할 예정임 △정부는 추석 연휴인 오는 24~27일 한국도로공사가 관리하는 전국 재정 고속도로 주유소 226곳에서 휘발유와 경유 가격을 지난 17일보다 L당 100원 낮추기로 함"
+      "text": "(Evening) △정부는 추석 연휴 재정 고속도로 226개 주유소의 리터당 100원 할인과 유류세 인하 2개월 연장, 낮 시간 전기차 충전요금 할인을 발표했다. △석유화학제품 가격 담합 혐의를 받는 업체 경영진 8명의 구속 전 심문이 진행됐다. 구속 여부는 기사 시점에 결정되지 않았다. △외교부는 중남미 공관들과 원유·나프타 생산·수출, 대체 공급선과 국내 정유·석유화학 업계 수요를 점검했다."
     }
   ],
   "prices": {
@@ -1751,84 +1751,71 @@
     },
     "news_afternoon": {
       "source_file": "data/news/2026-09-18.evening.json",
-      "article_count": 3,
+      "article_count": 5,
       "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
       "status": "updated",
-      "needs_review": true,
-      "report_slot": "evening"
+      "needs_review": false,
+      "report_slot": "evening",
+      "review_source": "data/committee-news/2026-09-18-evening.review.json 및 뉴시스 외교부 원문"
     }
   },
   "news_trend_afternoon": {
-    "summary": "△외교부는 18일 국제 에너지 수급 불확실성에 대비해 브라질, 아르헨티나, 멕시코, 베네수엘라, 에콰도르, 페루 지역의 재외공관과 중남미 원유·나프타 수급 동향, 대체 공급선 확보 가능성을 △외교부는 재외공관 및 관계 업계와 긴밀히 소통하고, 중남미지역의 원유·나프타 수급 동향을 지속 점검할 예정임 △정부는 추석 연휴인 오는 24~27일 한국도로공사가 관리하는 전국 재정 고속도로 주유소 226곳에서 휘발유와 경유 가격을 지난 17일보다 L당 100원 낮추기로 함",
+    "summary": "△정부는 추석 연휴 재정 고속도로 226개 주유소의 리터당 100원 할인과 유류세 인하 2개월 연장, 낮 시간 전기차 충전요금 할인을 발표했다. △석유화학제품 가격 담합 혐의를 받는 업체 경영진 8명의 구속 전 심문이 진행됐다. 구속 여부는 기사 시점에 결정되지 않았다. △외교부는 중남미 공관들과 원유·나프타 생산·수출, 대체 공급선과 국내 정유·석유화학 업계 수요를 점검했다.",
     "trend_paragraphs": [
-      "뉴시스는 외교부는 18일 국제 에너지 수급 불확실성에 대비해 브라질, 아르헨티나, 멕시코, 베네수엘라, 에콰도르, 페루 지역의 재외공관과 중남미 원유·나프타 수급 동향, 대체 공급선 확보 가능성을 점검했다고 밝혔다.",
-      "뉴스1는 외교부는 재외공관 및 관계 업계와 긴밀히 소통하고, 중남미지역의 원유·나프타 수급 동향을 지속 점검할 예정이다.",
-      "중앙일보는 정부는 추석 연휴인 오는 24~27일 한국도로공사가 관리하는 전국 재정 고속도로 주유소 226곳에서 휘발유와 경유 가격을 지난 17일보다 L당 100원 낮추기로 했다."
+      "정부는 추석 연휴 재정 고속도로 226개 주유소의 리터당 100원 할인과 유류세 인하 2개월 연장, 낮 시간 전기차 충전요금 할인을 발표했다.",
+      "석유화학제품 가격 담합 혐의를 받는 업체 경영진 8명의 구속 전 심문이 진행됐다. 구속 여부는 기사 시점에 결정되지 않았다.",
+      "외교부는 중남미 공관들과 원유·나프타 생산·수출, 대체 공급선과 국내 정유·석유화학 업계 수요를 점검했다."
     ],
     "articles": [
+      {
+        "title": "구윤철 \"추석연휴 고속도로 기름값 리터당 100원 인하\"",
+        "press": "연합뉴스",
+        "press_grade": "A",
+        "url": "https://www.yna.co.kr/view/AKR20260918029900002",
+        "summary": "정부는 추석 연휴 재정 고속도로 226개 주유소의 리터당 100원 할인과 유류세 인하 2개월 연장, 낮 시간 전기차 충전요금 할인을 발표했다.",
+        "published_at_kst": "2026-09-18T09:12:54+09:00",
+        "summary_basis": "reviewed_original_article"
+      },
+      {
+        "title": "'중동전쟁 틈타 수조원대 담합' 석유화학업체 경영진 8명 구속심사",
+        "press": "연합뉴스",
+        "press_grade": "A",
+        "url": "https://www.yna.co.kr/view/AKR20260918047300004",
+        "summary": "석유화학제품 가격 담합 혐의를 받는 업체 경영진 8명의 구속 전 심문이 진행됐다. 구속 여부는 기사 시점에 결정되지 않았다.",
+        "published_at_kst": "2026-09-18T09:42:21+09:00",
+        "summary_basis": "reviewed_original_article"
+      },
       {
         "title": "외교부, 본부-중남미 공관 화상회의…원유·나프타 수급 동향 등 점검",
         "press": "뉴시스",
         "press_grade": "A",
-        "url": "https://v.daum.net/v/20260918154452104",
-        "summary": "외교부는 18일 국제 에너지 수급 불확실성에 대비해 브라질, 아르헨티나, 멕시코, 베네수엘라, 에콰도르, 페루 지역의 재외공관과 중남미 원유·나프타 수급 동향, 대체 공급선 확보 가능성을 점검했다고 밝혔다",
-        "snippet": "외교부, 본부-중남미 공관 화상회의…원유·나프타 수급 동향 등 점검 공관 화상회의에서는 중남미 주요 산유국의 원유·나프타 생산·수출 현황 및 정제 인프라 현황, 대체 수급선 활용 가능성, 우리 정유 ·석유화학 업계의 수요 및 현지 거래 여건 등을 점검하고, 국별 상황 평가를 공유했다. 김 심의관은 에너지 공급망 다변화 차원... 1시간 전",
-        "published_at_kst": "",
-        "industry_relevance": 5,
-        "score": 13,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 4,
-          "press": 3,
-          "originality": 1,
-          "duplicate_or_low_quality": 0
-        },
-        "summary_basis": "article_body_extract",
-        "article_content_chars": 547
+        "url": "https://mobile.newsis.com/view/NISX20260918_0003795951",
+        "summary": "외교부는 중남미 공관들과 원유·나프타 생산·수출, 대체 공급선과 국내 정유·석유화학 업계 수요를 점검했다.",
+        "published_at_kst": "2026-09-18T15:42:43+09:00",
+        "summary_basis": "reviewed_original_article"
       },
       {
-        "title": "외교부, 중남미 원유·나프타 수급 동향 및 공급선 확보 논의",
-        "press": "뉴스1",
+        "title": "산업부, EU와 신통상 규제 고위급 협의…\"불이익 없어야\"",
+        "press": "연합뉴스",
         "press_grade": "A",
-        "url": "https://v.daum.net/v/20260918150451582",
-        "summary": "외교부는 재외공관 및 관계 업계와 긴밀히 소통하고, 중남미지역의 원유·나프타 수급 동향을 지속 점검할 예정이다",
-        "snippet": "외교부, 중남미 원유·나프타 수급 동향 및 공급선 확보 논의 중남미 주요 산유국의 원유·나프타 생산·수출 현황 및 정제 인프라 현황과 대체 수급선 활용 가능성을 점검했다. 또한 우리 정유 ·석유화학 업계의 수요 및 현지 거래 여건을 점검하고 국가별 상황 평가를 공유했다. 김 심의관은 각 재외공관이 원유·나프타 생산... 2시간 전",
-        "published_at_kst": "",
-        "industry_relevance": 5,
-        "score": 13,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 4,
-          "press": 3,
-          "originality": 1,
-          "duplicate_or_low_quality": 0
-        },
-        "summary_basis": "article_body_extract",
-        "article_content_chars": 422
+        "url": "https://www.yna.co.kr/view/AKR20260918034100003",
+        "summary": "산업부는 EU에 산업가속화법·실사지침·탄소국경조정제도 적용 시 한국 기업의 부담 완화를 요청했다.",
+        "published_at_kst": "2026-09-18T09:16:53+09:00",
+        "summary_basis": "reviewed_original_article"
       },
       {
-        "title": "추석 고속도로 기름값 L당 100원 할인…국제유가 급등 속 물가잡기 총력",
-        "press": "중앙일보",
+        "title": "배준영 \"관세 폭탄으로 대미투자 협상 난항...국민 혈세 지켜야\"",
+        "press": "아시아타임즈",
         "press_grade": "A",
-        "url": "https://v.daum.net/v/20260918151607925",
-        "summary": "정부는 추석 연휴인 오는 24~27일 한국도로공사가 관리하는 전국 재정 고속도로 주유소 226곳에서 휘발유와 경유 가격을 지난 17일보다 L당 100원 낮추기로 했다",
-        "snippet": "2 추석 고속도로 기름값 L당 100원 할인…국제유가 급등 속 물가잡기 총력 석유 최고가격제가 영향을 미쳤다. 정부는 중동 사태 초기인 지난 3월 13일 기름값 안정을 위해 정유사가 주유소 등에 공급하는 석유 제품 가격에 상한을 두는 최고가격제를 도입했다. 종전 기대감으로 국제유가가 안정됐던 지난 6월 중순에는 제도 종료 가능성까지... 1시간 전",
-        "published_at_kst": "",
-        "industry_relevance": 4,
-        "score": 13,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 4,
-          "press": 3,
-          "originality": 1,
-          "duplicate_or_low_quality": 0
-        },
-        "summary_basis": "article_body_extract",
-        "article_content_chars": 1463
+        "url": "https://www.asiatime.co.kr/article/20260918500132",
+        "summary": "재경위 야당 간사 배준영 의원은 LNG·원전 등 대미투자 협상과 관련해 상업적 합리성과 국익을 지켜야 한다고 주장했다.",
+        "published_at_kst": "2026-09-18T11:09:00+09:00",
+        "summary_basis": "reviewed_original_article"
       }
     ],
-    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
-    "needs_review": true,
-    "report_slot": "evening"
+    "source": "언론사 원문 본문·최초 보도시각 수동 검토",
+    "needs_review": false,
+    "report_slot": "evening",
+    "period": "2026-09-18 08:00 ~ 2026-09-18 17:00 (KST)"
   }
 }
