@@ -1,0 +1,619 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-19",
+  "slot": "morning",
+  "period_start": "2026-09-19T00:00:00+09:00",
+  "period_end": "2026-09-19T08:00:00+09:00",
+  "period_label": "2026-09-19 00:00 ~ 2026-09-19 08:00",
+  "generated_at": "2026-09-19T10:10:09.854050+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1596,
+  "total_deduped_count": 19,
+  "total_ok_count": 19,
+  "total_review_count": 0,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 4,
+    "B": 3,
+    "C": 12
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1206
+  },
+  "query_counts": {
+    "석유 담합": 15,
+    "유가 담합": 4,
+    "유가담합": 4,
+    "정유사 담합": 4
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[속보]중동전쟁 틈타 석유화학 ‘15조원대 담합’…석화업체 경영진 2명 구속",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wc29wSWV3b1ljVGpLcUFpb05MLWFjbFd1VTFhdGVGZnIzTi1CN0psWUQzaGNLZnJPUDluRjdJaEd3RDdVQUk4MzE3WFJLb3VlRXg0SDZBX2xMQdIBX0FVX3lxTE1qbktEQjJmNVRCOGxabDFiaXNEdUtyYWhMMTNzZlR4d3d0RF9DMWdUUjlHNHVRTVU5TVRwazR5dnJLSjQ0R0EwVU5xa3VjTGt5UVpCdlRkZXBPN2ZkTlhF?oc=5",
+      "source": "경향신문",
+      "published_at": "2026-09-19T02:36:00+09:00",
+      "snippet": "[속보]중동전쟁 틈타 석유화학 ‘15조원대 담합’…석화업체 경영진 2명 구속 경향신문",
+      "collected_at": "2026-09-19T10:09:20.543660+09:00",
+      "normalized_title": "중동전쟁 틈타 석유화학 ‘15조원대 담합’…석화업체 경영진 2명 구속",
+      "source_normalized": "경향신문",
+      "duplicate_key": "경향신문::중동전쟁 틈타 석유화학 ‘15조원대 담합’…석화업체 경영진 2명 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wc29wSWV3b1ljVGpLcUFpb05MLWFjbFd1VTFhdGVGZnIzTi1CN0psWUQzaGNLZnJPUDluRjdJaEd3RDdVQUk4MzE3WFJLb3VlRXg0SDZBX2xMQdIBX0FVX3lxTE1qbktEQjJmNVRCOGxabDFiaXNEdUtyYWhMMTNzZlR4d3d0RF9DMWdUUjlHNHVRTVU5TVRwazR5dnJLSjQ0R0EwVU5xa3VjTGt5UVpCdlRkZXBPN2ZkTlhF?oc=5",
+      "id": "34f9c5399933b8ec",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'조 단위 담합' 석유화학업체 임원 2명 구속…6명은 영장 기각",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwOE94UkZxaGtTbVpBVXNfMGhLYThfSTlnV1NXcENoZkZFSWdFYkZXaWRpc295ZDFtdzdjVklhVF9KYXpSZW95RVNGbC1GejhwWWE4WUVucEhEQ0nSAWBBVV95cUxOV1BZODZ0aHV6dWdWR3dpbVk2UDBBTFNCaXJLS3lLWnQtYTQxX1VQQ1lhcVd6MUs1eHpMQjBJc1diYVZVakhYSk5RSWxyNzREOXBLV2VkcmFPNkZ6V1drWm0?oc=5",
+      "source": "연합뉴스",
+      "published_at": "2026-09-19T04:08:27+09:00",
+      "snippet": "'조 단위 담합' 석유화학업체 임원 2명 구속…6명은 영장 기각 연합뉴스",
+      "collected_at": "2026-09-19T10:09:20.543177+09:00",
+      "normalized_title": "'조 단위 담합' 석유화학업체 임원 2명 구속…6명은 영장 기각",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::'조 단위 담합' 석유화학업체 임원 2명 구속…6명은 영장 기각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwOE94UkZxaGtTbVpBVXNfMGhLYThfSTlnV1NXcENoZkZFSWdFYkZXaWRpc295ZDFtdzdjVklhVF9KYXpSZW95RVNGbC1GejhwWWE4WUVucEhEQ0nSAWBBVV95cUxOV1BZODZ0aHV6dWdWR3dpbVk2UDBBTFNCaXJLS3lLWnQtYTQxX1VQQ1lhcVd6MUs1eHpMQjBJc1diYVZVakhYSk5RSWxyNzREOXBLV2VkcmFPNkZ6V1drWm0?oc=5",
+      "id": "36fe7fd6f201f768",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보]'15조 석유화학제품 담합' 경영진 2명 구속…6명은 기각",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wakhEejJVQUgxZ3lhUjRqeEFWZ1JIYy1NOEkxVENBNmU0SGxYMXZxY0w3M0oxekRTa0c5bUd3b1R0ZHh4U1pKMWM2b1dEcjl3WlhVTndWXzRoZS1sYnZ1RDVB?oc=5",
+      "source": "뉴시스",
+      "published_at": "2026-09-19T02:20:52+09:00",
+      "snippet": "[속보]'15조 석유화학제품 담합' 경영진 2명 구속…6명은 기각 뉴시스",
+      "collected_at": "2026-09-19T10:09:20.548100+09:00",
+      "normalized_title": "'15조 석유화학제품 담합' 경영진 2명 구속…6명은 기각",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::'15조 석유화학제품 담합' 경영진 2명 구속…6명은 기각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wakhEejJVQUgxZ3lhUjRqeEFWZ1JIYy1NOEkxVENBNmU0SGxYMXZxY0w3M0oxekRTa0c5bUd3b1R0ZHh4U1pKMWM2b1dEcjl3WlhVTndWXzRoZS1sYnZ1RDVB?oc=5",
+      "id": "b0c6645a66a3f525",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'15조 규모 담합' 석유화학업체 전·현직 경영진 2명 구속(종합)",
+      "url": "http://v.daum.net/v/20260919023549125",
+      "source": "뉴스1",
+      "published_at": "2026-09-19T03:08:18.833441+09:00",
+      "snippet": "담합 규모는 15조 원 이상이다. 이는 검찰이 수사한 담합 사건 중 가장 큰 규모로, 7월 기소한 14조 2000억 원 규모의 정유사 유가 담합 사건을 웃도는 수준이다. 검찰은 이 업체들이 중동 전쟁으로 나프타 원료 수급이 불안정해진 상황을 틈타 국내 제품 가격을... 7시간 전",
+      "collected_at": "2026-09-19T10:08:18.833468+09:00",
+      "normalized_title": "'15조 규모 담합' 석유화학업체 전·현직 경영진 2명 구속",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::'15조 규모 담합' 석유화학업체 전·현직 경영진 2명 구속",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260919023549125",
+      "id": "29356e6993394f34",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려”",
+      "url": "http://v.daum.net/v/20260919062711644",
+      "source": "KBS",
+      "published_at": "2026-09-19T07:08:16.296189+09:00",
+      "snippet": "[앵커] 미국과 이란의 전쟁을 틈타 정유사들이 유가를 담합한 데 이어, 이번에는 석유를 원료로 하는 석유화학 기업들의 전현직 경영진들이 담합 혐의로 구속 영장 심사를 받았습니다. 법원은 이들 중 2명에 대해 증거 인멸의 염려가 있다며 구속영장을 발부했습니다... 3시간 전 1",
+      "collected_at": "2026-09-19T10:08:16.296214+09:00",
+      "normalized_title": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려”",
+      "source_normalized": "KBS",
+      "duplicate_key": "kbs::‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260919062711644",
+      "id": "36ae11970d53df10",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "15조원대 담합 의혹...석유화학업체 경영진 2명 구속",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0ycldiNk5HSUF5REh5cTZKRkdDSHB4cHBRalB2SUZGbVpHRXM3Y3lkSGFIVlZIbVlSajdEYlNWczRaQldwcjFiR2pkellTcGg1TnpFcw?oc=5",
+      "source": "JTBC",
+      "published_at": "2026-09-19T07:06:00+09:00",
+      "snippet": "15조원대 담합 의혹...석유화학업체 경영진 2명 구속 JTBC",
+      "collected_at": "2026-09-19T10:09:20.542718+09:00",
+      "normalized_title": "15조원대 담합 의혹...석유화학업체 경영진 2명 구속",
+      "source_normalized": "JTBC",
+      "duplicate_key": "jtbc::15조원대 담합 의혹...석유화학업체 경영진 2명 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0ycldiNk5HSUF5REh5cTZKRkdDSHB4cHBRalB2SUZGbVpHRXM3Y3lkSGFIVlZIbVlSajdEYlNWczRaQldwcjFiR2pkellTcGg1TnpFcw?oc=5",
+      "id": "0e3fec65ff4fd75e",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중동 전쟁 틈타 ’담합’ 석유화학업체 경영진 2명 구속",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CTmhGVG80Qk9mcGxibFM3UUl6RTI4dGxJLVFCWWJ0dF9leWRhdDNXd1F4MzVTeW1fR0xBLWthVzkyMTdkZUQ4UFFVbTAxTk1BN1g3bjBXcWRYRWd1WllVTkR3cTc2X2s?oc=5",
+      "source": "연합뉴스TV",
+      "published_at": "2026-09-19T03:22:00+09:00",
+      "snippet": "중동 전쟁 틈타 ’담합’ 석유화학업체 경영진 2명 구속 연합뉴스TV",
+      "collected_at": "2026-09-19T10:09:20.542488+09:00",
+      "normalized_title": "중동 전쟁 틈타 ’담합’ 석유화학업체 경영진 2명 구속",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::중동 전쟁 틈타 ’담합’ 석유화학업체 경영진 2명 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CTmhGVG80Qk9mcGxibFM3UUl6RTI4dGxJLVFCWWJ0dF9leWRhdDNXd1F4MzVTeW1fR0xBLWthVzkyMTdkZUQ4UFFVbTAxTk1BN1g3bjBXcWRYRWd1WllVTkR3cTc2X2s?oc=5",
+      "id": "f20747c3e4f17d78",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려”",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xQjZ6ZnJaaGpsZi1NWGkxWEVJdWxvUmpNcGtMbmZlbGJ3blJNZlZNb0dqVndWV0hZQjB0eXV5MXJCcDJyeFBLSElIanNLaFQxYlc1cWZVYjdGWlk?oc=5",
+      "source": "KBS 뉴스",
+      "published_at": "2026-09-19T06:18:00+09:00",
+      "snippet": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려” KBS 뉴스 [속보] '15조 규모 담합' 석유화학업체 전·현직 경영진 2명 구속 v.daum.net '전쟁 틈타 담합' 석유화학업체 경영진 8명 구속 갈림길 MBC 뉴스 전쟁 틈타 ‘석유화학제품 담합’ 의혹 경영진 2명 구속…6명은 기각 동아일보 중동전쟁 틈타 '15조 원' 석유화학 담합...2명 구속 YTN '15조 규모 담합' 석유화학업체 전·현직 경영진 2명 구속(종합) news1.kr [단독] “5년간 최소 31차례 담합”…석유화학 기업 8명 구속기로 KBS 뉴스 [단독] “5년간 최소 31차례 담합”…석유화학 기업 8명 구속기로 v.daum.net [속보] '15조 규모 담합' 석유화학업체 전·현직 경영진 2명 구속 news1.kr",
+      "collected_at": "2026-09-19T10:09:20.541965+09:00",
+      "normalized_title": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려”",
+      "source_normalized": "KBS 뉴스",
+      "duplicate_key": "kbs 뉴스::‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려”",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xQjZ6ZnJaaGpsZi1NWGkxWEVJdWxvUmpNcGtMbmZlbGJ3blJNZlZNb0dqVndWV0hZQjB0eXV5MXJCcDJyeFBLSElIanNLaFQxYlc1cWZVYjdGWlk?oc=5",
+      "id": "ba1154409a93583c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…6명은 기각",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lMzdONF9tS3JGeGVtV2d0OWdmUnN1Mjl6ZUt2SjkyRUppME1pdFRQSHhfYWxTMzdWSG5RUzVOcmMzam81UGN4SHl5VHFPbXBpNnJFVlFYZko2XzVxLV9YZXhpU1B5dw?oc=5",
+      "source": "KBS 뉴스",
+      "published_at": "2026-09-19T03:50:00+09:00",
+      "snippet": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…6명은 기각 KBS 뉴스",
+      "collected_at": "2026-09-19T10:09:20.543432+09:00",
+      "normalized_title": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…6명은 기각",
+      "source_normalized": "KBS 뉴스",
+      "duplicate_key": "kbs 뉴스::‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…6명은 기각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lMzdONF9tS3JGeGVtV2d0OWdmUnN1Mjl6ZUt2SjkyRUppME1pdFRQSHhfYWxTMzdWSG5RUzVOcmMzam81UGN4SHl5VHFPbXBpNnJFVlFYZko2XzVxLV9YZXhpU1B5dw?oc=5",
+      "id": "7ecfc68a73c0442a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'15조 원대 담합' 석유화학업체 경영진 2명 구속",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wRGR6azBmMmdDSXdwYU5KTmZhWFJQR2wwMWp5QzBUb2ZISDNSOXBnSGFkdjlmSEdjeVhyTlNPd3kzU044SGhkMk5WWlBBNmZDLU9LR1dTSldESnh4THhPZXZDZnZCUdIBZkFVX3lxTE4wRGR6azBmMmdDSXdwYU5KTmZhWFJQR2wwMWp5QzBUb2ZISDNSOXBnSGFkdjlmSEdjeVhyTlNPd3kzU044SGhkMk5WWlBBNmZDLU9LR1dTSldESnh4THhPZXZDZnZCUQ?oc=5",
+      "source": "news.sbs.co.kr",
+      "published_at": "2026-09-19T06:40:00+09:00",
+      "snippet": "'15조 원대 담합' 석유화학업체 경영진 2명 구속 news.sbs.co.kr",
+      "collected_at": "2026-09-19T10:09:20.546545+09:00",
+      "normalized_title": "'15조 원대 담합' 석유화학업체 경영진 2명 구속",
+      "source_normalized": "news.sbs.co.kr",
+      "duplicate_key": "news.sbs.co.kr::'15조 원대 담합' 석유화학업체 경영진 2명 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wRGR6azBmMmdDSXdwYU5KTmZhWFJQR2wwMWp5QzBUb2ZISDNSOXBnSGFkdjlmSEdjeVhyTlNPd3kzU044SGhkMk5WWlBBNmZDLU9LR1dTSldESnh4THhPZXZDZnZCUdIBZkFVX3lxTE4wRGR6azBmMmdDSXdwYU5KTmZhWFJQR2wwMWp5QzBUb2ZISDNSOXBnSGFkdjlmSEdjeVhyTlNPd3kzU044SGhkMk5WWlBBNmZDLU9LR1dTSldESnh4THhPZXZDZnZCUQ?oc=5",
+      "id": "7b0218077483a6ec",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중동 전쟁 틈타 '담합' 석유화학업체 경영진 2명 구속",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43ekstNUJPcXFYenFIaXhmTzE3WFdWeGFMTEZKcHJBLTdldGVvZUV0SXNGeE84NE9hRk9RcVFrZW1MdWh4R0FXMGw1cmRkNnN3cHlHcUJobjE3UUtocm0xTVZkTGw4QlBQTXc?oc=5",
+      "source": "news.sbs.co.kr",
+      "published_at": "2026-09-19T04:26:01+09:00",
+      "snippet": "중동 전쟁 틈타 '담합' 석유화학업체 경영진 2명 구속 news.sbs.co.kr",
+      "collected_at": "2026-09-19T10:09:20.549711+09:00",
+      "normalized_title": "중동 전쟁 틈타 '담합' 석유화학업체 경영진 2명 구속",
+      "source_normalized": "news.sbs.co.kr",
+      "duplicate_key": "news.sbs.co.kr::중동 전쟁 틈타 '담합' 석유화학업체 경영진 2명 구속",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43ekstNUJPcXFYenFIaXhmTzE3WFdWeGFMTEZKcHJBLTdldGVvZUV0SXNGeE84NE9hRk9RcVFrZW1MdWh4R0FXMGw1cmRkNnN3cHlHcUJobjE3UUtocm0xTVZkTGw4QlBQTXc?oc=5",
+      "id": "dbcdd801fe7540de",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "전쟁 틈타 '석유화학제품 담합' 의혹 경영진 2명 구속…6명은 기각",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04T0JfcXVaV2hJUkMxdW5NMEF5VWhwQ0ZyUUJHSDhrOWJsb0pib0tYWkpnT2ZONzY0OGxpN3VTaXlKY05mc0lvM3VBWWtSSlVEN1hoeEtRUF80RFVXRlBKeNIBeEFVX3lxTFBLTlM5UG0wcHpzREY5b1Q4c2NsaDhEWnNPRFUtcVpSaGZzY1AxV1o4cDlWa3BuUUR4LTk2S29FVkptQ251c0FXdnZCaVVUQ1psQlJaQjFXenhubk16ZWdjcHVzWFl5N25ELVZIQk9CeWI2M0NCcUlJNg?oc=5",
+      "source": "newsis.com",
+      "published_at": "2026-09-19T02:32:20+09:00",
+      "snippet": "전쟁 틈타 '석유화학제품 담합' 의혹 경영진 2명 구속…6명은 기각 newsis.com",
+      "collected_at": "2026-09-19T10:09:20.546051+09:00",
+      "normalized_title": "전쟁 틈타 '석유화학제품 담합' 의혹 경영진 2명 구속…6명은 기각",
+      "source_normalized": "newsis.com",
+      "duplicate_key": "newsis.com::전쟁 틈타 '석유화학제품 담합' 의혹 경영진 2명 구속…6명은 기각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04T0JfcXVaV2hJUkMxdW5NMEF5VWhwQ0ZyUUJHSDhrOWJsb0pib0tYWkpnT2ZONzY0OGxpN3VTaXlKY05mc0lvM3VBWWtSSlVEN1hoeEtRUF80RFVXRlBKeNIBeEFVX3lxTFBLTlM5UG0wcHpzREY5b1Q4c2NsaDhEWnNPRFUtcVpSaGZzY1AxV1o4cDlWa3BuUUR4LTk2S29FVkptQ251c0FXdnZCaVVUQ1psQlJaQjFXenhubk16ZWdjcHVzWFl5N25ELVZIQk9CeWI2M0NCcUlJNg?oc=5",
+      "id": "b9785c4d02dde740",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[속보]'15조 석유화학제품 담합' 경영진 2명 구속…6명은 기각",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Vc2VrU1R2VUhvXzZ5VXpOV055cEQwOGhoSnNFZUJWY2xnTld0SzNXTTlFTzlVLXE1cU1tNE9ETkhzeWFudVpKVWVxbkRjcmc0TTNUOEl1NHppNU0yeTNFY9IBeEFVX3lxTFA3bUhzNzFIZ2pmMnZpYnBSejVpaEFRWUI1SVZERTFuYnhBVkxqSDFOdGhJQUxDbDRiSDdqNURSNUN0WHhUTERSOHMzdXRpdm5KbXlDUjN5QzM5WU1VOUtiV2ViYmYtNEViZms4d3h4V2pIaTNIRy1ERQ?oc=5",
+      "source": "newsis.com",
+      "published_at": "2026-09-19T02:20:52+09:00",
+      "snippet": "[속보]'15조 석유화학제품 담합' 경영진 2명 구속…6명은 기각 newsis.com",
+      "collected_at": "2026-09-19T10:09:20.546992+09:00",
+      "normalized_title": "'15조 석유화학제품 담합' 경영진 2명 구속…6명은 기각",
+      "source_normalized": "newsis.com",
+      "duplicate_key": "newsis.com::'15조 석유화학제품 담합' 경영진 2명 구속…6명은 기각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Vc2VrU1R2VUhvXzZ5VXpOV055cEQwOGhoSnNFZUJWY2xnTld0SzNXTTlFTzlVLXE1cU1tNE9ETkhzeWFudVpKVWVxbkRjcmc0TTNUOEl1NHppNU0yeTNFY9IBeEFVX3lxTFA3bUhzNzFIZ2pmMnZpYnBSejVpaEFRWUI1SVZERTFuYnhBVkxqSDFOdGhJQUxDbDRiSDdqNURSNUN0WHhUTERSOHMzdXRpdm5KbXlDUjN5QzM5WU1VOUtiV2ViYmYtNEViZms4d3h4V2pIaTNIRy1ERQ?oc=5",
+      "id": "1609f2f097847d52",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려”",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82eVlkZmxZMzh2NHYwMXE0MnBsN0puSE5BSnJnalJKNWVuMXhhSmRCTG5aTWhzVVdnX3g3SmdnNE90QTlXN1BDZ1gtU3VVMjA?oc=5",
+      "source": "v.daum.net",
+      "published_at": "2026-09-19T06:27:11+09:00",
+      "snippet": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려” v.daum.net",
+      "collected_at": "2026-09-19T10:09:20.542946+09:00",
+      "normalized_title": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려”",
+      "source_normalized": "v.daum.net",
+      "duplicate_key": "v.daum.net::‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려”",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82eVlkZmxZMzh2NHYwMXE0MnBsN0puSE5BSnJnalJKNWVuMXhhSmRCTG5aTWhzVVdnX3g3SmdnNE90QTlXN1BDZ1gtU3VVMjA?oc=5",
+      "id": "67d2d2688bd4a4dc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…6명은 기각",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBqdVpGSHNxNGxwVm5obXZjOHUzMGtaLVVfc0lUYzFacm1nUHJWeUpRWUpYRjhhLXhEZlZDQkwzZ0J5WUxCU2c?oc=5",
+      "source": "v.daum.net",
+      "published_at": "2026-09-19T03:52:08+09:00",
+      "snippet": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…6명은 기각 v.daum.net",
+      "collected_at": "2026-09-19T10:09:20.544106+09:00",
+      "normalized_title": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…6명은 기각",
+      "source_normalized": "v.daum.net",
+      "duplicate_key": "v.daum.net::‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…6명은 기각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBqdVpGSHNxNGxwVm5obXZjOHUzMGtaLVVfc0lUYzFacm1nUHJWeUpRWUpYRjhhLXhEZlZDQkwzZ0J5WUxCU2c?oc=5",
+      "id": "697348c49003ccee",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'전쟁 틈타 석유화학 담합' 2명 구속…OCI 대표는 구속 면해",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxcHQ0b0YydWtDUWlrVGI5RjFPbUtoNW4tSk1WdzJhSzBRUWxoSkRUZ05ZRTlpTmpqOFhoT2dmUE03WW1oVkhDQ3pQcV9QR0FhNVE?oc=5",
+      "source": "노컷뉴스",
+      "published_at": "2026-09-19T02:48:56+09:00",
+      "snippet": "'전쟁 틈타 석유화학 담합' 2명 구속…OCI 대표는 구속 면해 노컷뉴스",
+      "collected_at": "2026-09-19T10:09:20.546773+09:00",
+      "normalized_title": "'전쟁 틈타 석유화학 담합' 2명 구속…OCI 대표는 구속 면해",
+      "source_normalized": "노컷뉴스",
+      "duplicate_key": "노컷뉴스::'전쟁 틈타 석유화학 담합' 2명 구속…oci 대표는 구속 면해",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxcHQ0b0YydWtDUWlrVGI5RjFPbUtoNW4tSk1WdzJhSzBRUWxoSkRUZ05ZRTlpTmpqOFhoT2dmUE03WW1oVkhDQ3pQcV9QR0FhNVE?oc=5",
+      "id": "8b03b455e4f9bca1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려”새 창 열림",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8667723&ref=A",
+      "source": "새 창 열림",
+      "published_at": "2026-09-19T07:08:05.348533+09:00",
+      "snippet": "미국과 이란의 전쟁을 틈타 정유사들이 유가를 담합한 데 이어, 이번에는 석유를 원료로 하는 석유화학 기업들의 전현직 경영진들이 담합 혐의로 구속 영장 심사를 받았습니다. 법원은 이들 중 2명에 대해 증거 인멸의 염려가 있다며 구속영장을 발부했습니다. 최은진 기자의 보도입니다. [리포트]... 새 창 열림",
+      "collected_at": "2026-09-19T10:08:05.348553+09:00",
+      "normalized_title": "‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려”새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘15조 원대 담합’ 석유화학업체 경영진 2명 구속…“증거 인멸 염려”새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8667723&ref=A",
+      "id": "647cd5f7fad87754",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'15조 규모 담합' 석유화학업체 전·현직 경영진 2명 구속(종합)새 창 열림",
+      "url": "https://www.news1.kr/society/court-prosecution/6295875",
+      "source": "새 창 열림",
+      "published_at": "2026-09-19T03:08:05.350080+09:00",
+      "snippet": "이는 검찰이 수사한 담합 사건 중 가장 큰 규모로, 7월 기소한 14조 2000억 원 규모의 정유사 유가 담합 사건을 웃도는 수준이다. 검찰은 이 업체들이 중동 전쟁으로 나프타 원료 수급이 불안정해진 상황을 틈타 국내 제품 가격을 인상해 시장 질서를 교란하고 막대한 부당 이득을 거뒀다고 보고 있다. PVC는... 새 창 열림",
+      "collected_at": "2026-09-19T10:08:05.350096+09:00",
+      "normalized_title": "'15조 규모 담합' 석유화학업체 전·현직 경영진 2명 구속(종합)새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'15조 규모 담합' 석유화학업체 전·현직 경영진 2명 구속(종합)새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.news1.kr/society/court-prosecution/6295875",
+      "id": "f78c721ef6feca12",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'10조원 담합' 석유화학, 핵심 CEO 풀려나고 임원 2명만 구속 '반전' : 사회",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9NVmtId0p1WHdidldxNFVuTTBUTkFkbEE1S2hHNlViNm1IajZUN2JrOGtSVHFjRlFXZFlKdTRRYjJEUzRqUFpObXFR?oc=5",
+      "source": "재경일보",
+      "published_at": "2026-09-19T04:29:00+09:00",
+      "snippet": "'10조원 담합' 석유화학, 핵심 CEO 풀려나고 임원 2명만 구속 '반전' : 사회 재경일보",
+      "collected_at": "2026-09-19T10:09:20.554733+09:00",
+      "normalized_title": "'10조원 담합' 석유화학, 핵심 CEO 풀려나고 임원 2명만 구속 '반전' : 사회",
+      "source_normalized": "재경일보",
+      "duplicate_key": "재경일보::'10조원 담합' 석유화학, 핵심 ceo 풀려나고 임원 2명만 구속 '반전' : 사회",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9NVmtId0p1WHdidldxNFVuTTBUTkFkbEE1S2hHNlViNm1IajZUN2JrOGtSVHFjRlFXZFlKdTRRYjJEUzRqUFpObXFR?oc=5",
+      "id": "8dc6511121b2d305",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
