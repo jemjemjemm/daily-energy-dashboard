@@ -279,11 +279,15 @@ def text_of(item: Any) -> str:
 
 
 def render_summary(data: Mapping[str, Any]) -> str:
+    try:
+        from scripts.summary_style import nominal_summary
+    except ImportError:
+        from summary_style import nominal_summary
     rows = []
     for item in list_of(data.get("summary")):
         if isinstance(item, Mapping) and item.get("type") == "stakeholder":
             continue
-        text = text_of(item)
+        text = nominal_summary(text_of(item))
         if text.startswith("전일 주요 이슈:") or text.startswith("주요 이해관계자 동향:"):
             continue
         if text.startswith("주요 이해관계자 동향:"):

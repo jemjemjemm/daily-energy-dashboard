@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-15",
+  "slot": "evening",
+  "roster_source": "data/committee-news/roster.json",
+  "articles": [
+    {
+      "published_at": "2026-09-15T11:13:00+09:00",
+      "committees": [
+        "industry"
+      ],
+      "event_id": "sme-nuclear-hearing",
+      "title": "이소영 “탈원전주의자 아냐…기후 대응 위해 원전 필요성 인정”",
+      "press": "뉴스1",
+      "url": "https://www.news1.kr/amp/industry/sb-founded/6290889",
+      "summary": "우재준 의원 원전 정책 질의에 이소영 중기부 후보자, 원전 필요성과 재생에너지 확대 방향 설명",
+      "committee_reason": "우재준은 첨부상 산자위. 이소영은 소속이 정무위이나 중기부 후보자 자격의 답변이므로 산자위",
+      "members": [
+        "우재준"
+      ],
+      "categories": [
+        "재생에너지·수소"
+      ],
+      "category_reason": "본문에서 재생에너지가 에너지정책의 큰 흐름이라고 설명. SMR 직접 언급 없어 SMR 태그 제외",
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 3
+      },
+      "verified": true,
+      "time_evidence": "원문 본문 및 최초 송고/입력 2026-09-15 11:13:00 KST 직접 확인. 수정시각·재전송 시각 제외."
+    },
+    {
+      "published_at": "2026-09-15T11:05:00+09:00",
+      "committees": [
+        "industry"
+      ],
+      "event_id": "sme-property-hearing",
+      "title": "이소영 후보자, 모친 전세금 증여세 논란에 “사전 인지 못해”",
+      "press": "조선비즈",
+      "url": "https://biz.chosun.com/industry/business-venture/2026/09/15/RV2RKU7UHVHVHOXSKELG6EDHQY/?outputType=amp",
+      "summary": "최수진 의원의 모친 전세금·증여세 질의에 이소영 후보자, 사전 미인지 및 신고·납부 답변",
+      "committee_reason": "세금 제도 일반이 아닌 산자위 중기부 장관 인사검증. 첨부 명단 최수진 산자위원 대조",
+      "members": [
+        "최수진"
+      ],
+      "categories": [],
+      "category_reason": "",
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 3
+      },
+      "verified": true,
+      "time_evidence": "원문 본문 및 최초 송고/입력 2026-09-15 11:05:00 KST 직접 확인. 수정시각·재전송 시각 제외."
+    },
+    {
+      "published_at": "2026-09-15T12:17:00+09:00",
+      "committees": [
+        "finance"
+      ],
+      "event_id": "finance-property-hearing",
+      "title": "여야, 이형일 비거주 1주택 공방…투기 세력·갭투자 아냐",
+      "press": "연합뉴스",
+      "url": "https://www.yna.co.kr/amp/view/AKR20260915096100001",
+      "summary": "이형일 부총리 후보자 청문회에서 비거주 주택과 증인 미채택을 둘러싼 여야 공방",
+      "committee_reason": "첨부 명단 기재위 간사 배준영·오기형의 증인 채택 관련 발언 원문 확인",
+      "members": [
+        "배준영",
+        "오기형"
+      ],
+      "categories": [],
+      "category_reason": "",
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 3
+      },
+      "verified": true,
+      "time_evidence": "원문 본문 및 최초 송고/입력 2026-09-15 12:17:00 KST 직접 확인. 수정시각·재전송 시각 제외."
+    },
+    {
+      "published_at": "2026-09-15T12:00:00+09:00",
+      "committees": [
+        "affairs"
+      ],
+      "event_id": "card-phishing-protection",
+      "title": "“300만원 긁었더니 보이스피싱”…70대 상품권 카드결제시 심층상담",
+      "press": "머니투데이",
+      "url": "https://www.mt.co.kr/amp/finance/2026/09/15/2026091510280815013",
+      "summary": "금감원, 보이스피싱 카드결제 피해 예방을 위한 이상거래 탐지와 피해구제 강화 방안 발표",
+      "committee_reason": "금감원 금융소비자 보호 및 카드사 감독 정책",
+      "members": [],
+      "categories": [],
+      "category_reason": "",
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 2
+      },
+      "verified": true,
+      "time_evidence": "원문 본문 및 최초 송고/입력 2026-09-15 12:00:00 KST 직접 확인. 수정시각·재전송 시각 제외."
+    }
+  ],
+  "search_log": [
+    {
+      "scope": "해당 날짜와 인접 전일을 포함한 공동 검색; 슬롯별 최초시각 필터 적용",
+      "queries": [
+        "\"2026.09.15\" \"정무위\"",
+        "\"2026.09.15\" \"산자위\" 연합뉴스",
+        "\"2026.09.15\" \"이소영\" \"11:\"",
+        "\"2026.09.15\" \"금융위\" \"생산적\"",
+        "\"2026.09.15\" \"보이스피싱\" \"카드\" 연합뉴스"
+      ],
+      "method": "위원회·기관·사안 검색 후 원 매체 기사 본문과 최초 입력 확인. 연합뉴스 우선 탐색, 확인 가능한 종합·경제지와 통신사·정책전문지 기사 채택. 후보자 자격과 의원 소속 구분. 검색량과 무관하게 검증된 기사만 수록."
+    }
+  ],
+  "exclusions": [
+    {
+      "url": "https://www.fnnews.com/news/202609151151381220",
+      "reason": "뉴스1 재전송 원문. 별도 원매체 확인 없이 채택하지 않음"
+    },
+    {
+      "url": "https://www.fnnews.com/news/202609151615216711",
+      "reason": "연합뉴스 재전송, 복수 상임위 종합. 원매체 기사 주소 검증 미완료로 제외"
+    }
+  ],
+  "editor_note": "확인 기사만 수록. 섹션별 5~10건 목표에 못 미치는 경우 수량을 맞추기 위한 중복·무관 기사 추가 없음."
+}

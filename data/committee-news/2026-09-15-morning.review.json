@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-15",
+  "slot": "morning",
+  "roster_source": "data/committee-news/roster.json",
+  "articles": [
+    {
+      "published_at": "2026-09-15T05:00:00+09:00",
+      "committees": [
+        "industry"
+      ],
+      "event_id": "sme-hearing-scheduled",
+      "title": "국회, 오늘 이형일·김승원·이소영 인사청문회…여야 대격돌",
+      "press": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260914169900001",
+      "summary": "산자위 이소영 중기부 장관 후보자 청문회 예정, 비거주 주택·용역 의혹과 중소기업 정책 전문성 검증 예고",
+      "committee_reason": "복수 청문회 기사 중 중기부 후보 검증을 산자위 대표 사안으로 채택. 같은 기사를 기재위에 중복 수록하지 않음",
+      "members": [],
+      "categories": [],
+      "category_reason": "",
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 3
+      },
+      "verified": true,
+      "time_evidence": "원문 본문 및 최초 송고/입력 2026-09-15 05:00:00 KST 직접 확인. 수정시각·재전송 시각 제외."
+    },
+    {
+      "published_at": "2026-09-14T17:23:00+09:00",
+      "committees": [
+        "finance"
+      ],
+      "event_id": "crypto-tax-petition",
+      "title": "코인 과세 유예 청원 또 5만명 돌파…정부는 내년 시행 고수",
+      "press": "뉴스1",
+      "url": "https://www.news1.kr/finance/blockchain-fintech/6290072",
+      "summary": "가상자산 과세 유예 청원 5만1269명 동의, 재경위 회부 전망과 정부 시행 입장 확인",
+      "committee_reason": "가상자산 자체보다 소득세 과세·유예 청원이 핵심이므로 기재위",
+      "members": [],
+      "categories": [],
+      "category_reason": "",
+      "importance": {
+        "legislation": 1,
+        "impact": 2,
+        "speaker": 2
+      },
+      "verified": true,
+      "time_evidence": "원문 본문 및 최초 송고/입력 2026-09-14 17:23:00 KST 직접 확인. 수정시각·재전송 시각 제외."
+    },
+    {
+      "published_at": "2026-09-15T06:00:00+09:00",
+      "committees": [
+        "affairs"
+      ],
+      "event_id": "productive-finance-review",
+      "title": "올 7월까지 벌써 272.3조 공급…금융권 생산적 금융 성과 점검",
+      "press": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609141543057698",
+      "summary": "금융위, 생산적 금융 공급 성과와 공시자료 작성·연차보고서 발간 방향 논의",
+      "committee_reason": "금융위 금융업권 자금공급 정책 및 성과관리",
+      "members": [],
+      "categories": [],
+      "category_reason": "",
+      "importance": {
+        "legislation": 0,
+        "impact": 3,
+        "speaker": 2
+      },
+      "verified": true,
+      "time_evidence": "원문 본문 및 최초 송고/입력 2026-09-15 06:00:00 KST 직접 확인. 수정시각·재전송 시각 제외."
+    }
+  ],
+  "search_log": [
+    {
+      "scope": "해당 날짜와 인접 전일을 포함한 공동 검색; 슬롯별 최초시각 필터 적용",
+      "queries": [
+        "\"2026.09.15\" \"정무위\"",
+        "\"2026.09.15\" \"산자위\" 연합뉴스",
+        "\"2026.09.15\" \"이소영\" \"11:\"",
+        "\"2026.09.15\" \"금융위\" \"생산적\"",
+        "\"2026.09.15\" \"보이스피싱\" \"카드\" 연합뉴스"
+      ],
+      "method": "위원회·기관·사안 검색 후 원 매체 기사 본문과 최초 입력 확인. 연합뉴스 우선 탐색, 확인 가능한 종합·경제지와 통신사·정책전문지 기사 채택. 후보자 자격과 의원 소속 구분. 검색량과 무관하게 검증된 기사만 수록."
+    }
+  ],
+  "exclusions": [
+    {
+      "url": "https://www.fnnews.com/news/202609151151381220",
+      "reason": "뉴스1 재전송 원문. 별도 원매체 확인 없이 채택하지 않음"
+    },
+    {
+      "url": "https://www.fnnews.com/news/202609151615216711",
+      "reason": "연합뉴스 재전송, 복수 상임위 종합. 원매체 기사 주소 검증 미완료로 제외"
+    }
+  ],
+  "editor_note": "확인 기사만 수록. 섹션별 5~10건 목표에 못 미치는 경우 수량을 맞추기 위한 중복·무관 기사 추가 없음."
+}

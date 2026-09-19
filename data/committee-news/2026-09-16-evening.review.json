@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-16",
+  "slot": "evening",
+  "roster_source": "data/committee-news/roster.json",
+  "articles": [
+    {
+      "published_at": "2026-09-16T16:11:00+09:00",
+      "committees": [
+        "industry"
+      ],
+      "event_id": "us-investment-report-delay",
+      "title": "대미투자 협상 난항?…국회보고 전 돌연 연기",
+      "press": "머니투데이",
+      "url": "https://www.mt.co.kr/index.php/economy/2026/09/16/2026091615594467409",
+      "summary": "산업부 통상교섭본부, 대미투자 국회 보고 연기 요청과 22일 보고 의사 전달",
+      "committee_reason": "산업부 통상 협상·국회 보고가 중심이므로 산자위 단독 배정. 기재위 일정 언급으로 중복 배정하지 않음",
+      "members": [],
+      "categories": [
+        "LNG·전력",
+        "SMR·신재생 원전(신사업)"
+      ],
+      "category_reason": "LNG복합발전·알래스카 사업과 원전 건설 투자 쟁점 직접 보도",
+      "importance": {
+        "legislation": 0,
+        "impact": 3,
+        "speaker": 2
+      },
+      "verified": true,
+      "time_evidence": "원문 본문 및 최초 송고/입력 2026-09-16 16:11:00 KST 직접 확인. 수정시각·재전송 시각 제외."
+    },
+    {
+      "published_at": "2026-09-16T12:00:00+09:00",
+      "committees": [
+        "finance"
+      ],
+      "event_id": "bok-fx-management",
+      "title": "한은, 외화운용 전면 대수술…글로벌 종합채권 전략 도입",
+      "press": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609161102059227",
+      "summary": "한국은행, 국내 운용사 외화자산 위탁에서 선진국 주식 패시브 축소·글로벌 종합채권 확대 방침",
+      "committee_reason": "한국은행 외환보유액 위탁운용 정책이므로 금융회사 감독 사안과 구분해 기재위",
+      "members": [],
+      "categories": [],
+      "category_reason": "",
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 2
+      },
+      "verified": true,
+      "time_evidence": "원문 본문 및 최초 송고/입력 2026-09-16 12:00:00 KST 직접 확인. 수정시각·재전송 시각 제외."
+    },
+    {
+      "published_at": "2026-09-16T12:00:00+09:00",
+      "committees": [
+        "affairs"
+      ],
+      "event_id": "youth-savings-round2",
+      "title": "청년미래적금, 내달 7일부터 2차 가입 신청…정부 기여금 내년 상향",
+      "press": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/09/16/2026091610145950194",
+      "summary": "금융위·서민금융진흥원, 10월 7~16일 청년미래적금 2차 가입 접수 계획 발표",
+      "committee_reason": "금융위·서민금융진흥원 청년 정책금융 상품 운영",
+      "members": [],
+      "categories": [],
+      "category_reason": "",
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 2
+      },
+      "verified": true,
+      "time_evidence": "원문 본문 및 최초 송고/입력 2026-09-16 12:00:00 KST 직접 확인. 수정시각·재전송 시각 제외."
+    }
+  ],
+  "search_log": [
+    {
+      "scope": "해당 날짜와 인접 전일을 포함한 공동 검색; 슬롯별 최초시각 필터 적용",
+      "queries": [
+        "\"2026.09.16\" \"재경위\"",
+        "\"2026.09.16\" \"산업부\" 연합뉴스",
+        "\"2026.09.16\" \"금융위\"",
+        "\"2026.09.16\" \"자금세탁\" 연합뉴스",
+        "\"2026.09.16\" \"한은\" \"12:00\"",
+        "\"2026.09.16\" \"청년미래적금\" 연합뉴스"
+      ],
+      "method": "위원회·기관·사안 검색 후 원 매체 기사 본문과 최초 입력 확인. 연합뉴스 우선 탐색, 확인 가능한 종합·경제지와 통신사·정책전문지 기사 채택. 후보자 자격과 의원 소속 구분. 검색량과 무관하게 검증된 기사만 수록."
+    }
+  ],
+  "exclusions": [
+    {
+      "url": "https://www.news1.kr/amp/politics/assembly/6292742",
+      "reason": "대미투자 국회보고 연기 동일 사건: 우선순위 높은 머니투데이 원문 채택"
+    },
+    {
+      "url": "https://www.newsis.com/view/NISX20260916_0003791648",
+      "reason": "한국은행 외화운용 재편 동일 사안: 파이낸셜뉴스 원문 채택"
+    },
+    {
+      "url": "https://www.fnnews.com/news/202609161201180180",
+      "reason": "청년미래적금 연합뉴스 재전송. 원매체 URL 검증 미완료로 확인된 머니투데이 원문 사용"
+    }
+  ],
+  "editor_note": "확인 기사만 수록. 섹션별 5~10건 목표에 못 미치는 경우 수량을 맞추기 위한 중복·무관 기사 추가 없음."
+}

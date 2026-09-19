@@ -56,7 +56,7 @@ class NewsTrendSelectionTest(unittest.TestCase):
             "홍해와 흑해가 전쟁 여파로 위태로운 상황에 처하면서다": "홍해와 흑해가 전쟁 여파로 위태로운 상황에 처함",
             "국내 정유사들이 수입선을 다변화해 수급불안은 피한 모습이다": "국내 정유사들이 수입선을 다변화해 수급불안은 피한 모습임",
             "바브엘만데브 통과 원유량은 호르무즈 해협의 1.8배다": "바브엘만데브 통과 원유량은 호르무즈 해협의 1.8배임",
-            "산업통상부는 사업재편계획서 최종안을 승인했다고": "산업통상부는 사업재편계획서 최종안을 승인함",
+            "산업통상부는 사업재편계획서 최종안을 승인했다고": "산업통상부는 사업재편계획서 최종안을 승인",
             "아시아 정유사들이 수에즈 운하 우회 운송을 모색하고 있다고": "아시아 정유사들이 수에즈 운하 우회 운송을 모색하고 있음",
             "아시아 정유사들이 아프리카 대륙을 우회해": "아시아 정유사들이 아프리카 대륙을 우회함",
         }
@@ -514,7 +514,7 @@ class NewsTrendSelectionTest(unittest.TestCase):
         self.assertIs(report["news_trend"], morning_news)
         self.assertEqual(
             report["summary"][2],
-            {"type": "news_trend_afternoon", "text": "(Evening) \uc624\ud6c4 \ub274\uc2a4 \uc694\uc57d."},
+            {"type": "news_trend_afternoon", "text": "(Evening) \uc624\ud6c4 \ub274\uc2a4 \uc694\uc57d"},
         )
 
     def test_summary_removes_previous_issue_row(self) -> None:
@@ -531,7 +531,7 @@ class NewsTrendSelectionTest(unittest.TestCase):
             report["summary"],
             [
                 {"type": "today", "text": "\uae08\uc77c \uc8fc\uc694 \uc77c\uc815: \uc694\uc57d"},
-                {"type": "news_trend", "text": "(Morning) \uc624\uc804 \ub274\uc2a4 \uc694\uc57d."},
+                {"type": "news_trend", "text": "(Morning) \uc624\uc804 \ub274\uc2a4 \uc694\uc57d"},
             ],
         )
 

@@ -247,10 +247,14 @@ def to_summary_clause(text: str) -> str:
     """Convert a declarative news sentence to a concise nominalized clause.
 
     Summary bullets must keep a subject/predicate relationship, but should not
-    read like full prose sentences.  Normalizing the final predicate to
-    ``-함/-됨/-임`` also makes LLM and extractive fallbacks render consistently.
+    read like full prose sentences. Prefer action/result nouns and retain
+    state predicates only when they are needed to preserve the meaning.
     """
-    clause = clean(text).strip(" .。!?")
+    try:
+        from scripts.summary_style import nominal_summary
+    except ImportError:
+        from summary_style import nominal_summary
+    clause = nominal_summary(clean(text))
     if not clause:
         return ""
 
@@ -301,13 +305,11 @@ def to_summary_clause(text: str) -> str:
         if clause.endswith(source):
             return clause[: -len(source)] + replacement
 
-    # Already nominalized/headline-style content is kept as-is.  Any other
-    # declarative ending is embedded as a content clause instead of being
-    # exposed as a standalone sentence.
+    # Keep unrecognized wording intact rather than inventing a content suffix.
     if clause.endswith(("함", "됨", "임", "음", "움", "기", "전망", "가능성", "상황", "흐름", "수준")):
         return clause
     if clause.endswith("다"):
-        return clause + "는 내용"
+        return clause
     return clause
 
 
@@ -1177,6 +1179,7 @@ def build_news_summary(news: Dict[str, Any], articles: List[Dict[str, Any]]) -> 
 
 
 def update_summary(report: Dict[str, Any], news_summary: str, report_slot: str = "morning") -> None:
+    news_summary = to_summary_clause(news_summary)
     existing = report.get("summary", []) if isinstance(report.get("summary"), list) else []
     if report_slot == "evening":
         # Evening updates must leave the morning report intact. Only replace a

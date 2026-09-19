@@ -16,10 +16,33 @@ def article(**changes):
                  importance={'legislation': 1, 'impact': 2, 'speaker': 1},
                  published_at='2026-09-17T18:00:00+09:00')
     value.update(changes)
+    if 'url' not in changes and 'event_id' in changes:
+        value['url'] += '/' + changes['event_id']
     return value
 
 
 class CommitteeNewsTest(unittest.TestCase):
+    def test_cross_committee_event_and_url_deduplication(self):
+        first = article()
+        second = article(committees=['finance'], press='뉴스1')
+        selected = select_articles([first, second], '2026-09-18', 'morning')
+        self.assertEqual(sum(len(g['all']) for g in selected), 1)
+        second['event_id'] = 'different-id-same-url'
+        self.assertEqual(sum(len(g['all']) for g in select_articles([first, second], '2026-09-18', 'morning')), 1)
+
+    def test_roster_mismatch_and_multiple_committees_rejected(self):
+        for change in ({'committees': ['industry', 'finance']}, {'members': ['배준영']}):
+            with self.assertRaises(ValueError):
+                select_articles([article(**change)], '2026-09-18', 'morning')
+        chosen = select_articles([article(committees=['finance'], members=['배준영'])], '2026-09-18', 'morning')
+        self.assertEqual(chosen[1]['all'][0]['members'], ['배준영'])
+
+    def test_roster_counts_and_roles(self):
+        from tools.committee_news import committee_roster
+        members = committee_roster()
+        self.assertEqual([sum(m['committee'] == c[0] for m in members) for c in COMMITTEES], [24, 22, 24])
+        self.assertEqual({m['name'] for m in members if m['role'] == '위원장'}, {'김성원', '조승래', '유동수'})
+
     def test_kst_month_boundary_and_both_slots(self):
         self.assertEqual(period_label('2026-01-01', 'morning'),
                          '수집 기간: 2025-12-31 17:00 ~ 2026-01-01 08:00 (KST)')
