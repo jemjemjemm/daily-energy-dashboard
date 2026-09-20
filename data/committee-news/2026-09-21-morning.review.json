@@ -1,0 +1,327 @@
+{
+  "date": "2026-09-21",
+  "slot": "morning",
+  "search_log": [
+    {
+      "scope": "공통",
+      "queries": [
+        "2026-09-21 산업통상 국회",
+        "2026-09-21 기획재정 정무위",
+        "2026.09.21 산자위 법안",
+        "2026.09.21 기재위 법안",
+        "2026.09.20 재경위",
+        "2026.09.20 기획재정위원회"
+      ],
+      "method": "연합뉴스 우선 검색 후 주요 종합·경제지, 뉴시스·뉴스1, 정책전문지 대조. 재경위·재정경제부 별칭 포함. 최초 보도시각 9/20 17:00~9/21 08:00 적용."
+    },
+    {
+      "scope": "우선산업",
+      "queries": [
+        "2026.09.21 산업부 전력 석유화학",
+        "2026.09.21 배터리 정책",
+        "2026.09.21 도시가스 수소",
+        "2026.09.21 SMR",
+        "2026.09.21 해외자원",
+        "2026.09.20 재생에너지 17:",
+        "2026.09.21 석유화학 담합",
+        "석유유통협회 공정경쟁 site.yna.co.kr"
+      ],
+      "method": "8개 산업 및 소관 정책 직접 관련성 검토. 시간대 밖·홍보성·무관 결과 제외. 기사 수를 맞추기 위한 추가 없음."
+    },
+    {
+      "scope": "원문 및 매체 우선순위",
+      "queries": [
+        "site.yna.co.kr 22일 대미투자 2026 09-20",
+        "site.yna.co.kr 민생 특사경 2026-09-21",
+        "급여 금감원 2026-09-21 site:yna.co.kr",
+        "경차 환급 2026-09-21 연합뉴스",
+        "한경협 41건 site:yna.co.kr",
+        "세전 보편복지 줄여야 site:donga.com/news"
+      ],
+      "method": "웹 도구 원문 열기 실패 시 requests로 발행사 원문 본문과 날짜 메타데이터 확인. 다음 재전송은 원문 추적용으로만 활용. 동아 원문 00:30과 다음 00:32 구분."
+    },
+    {
+      "scope": "의원명단",
+      "method": "roster.json 24/22/24명 검토. 채택 기사는 의원 직접 발언 중심 기사 없음. 의원 이름만으로 상임위 배정하지 않음. 익명 전직 의원과 명단 불일치 김현정 발언의 국감 의혹 기사는 제외."
+    }
+  ],
+  "articles": [
+    {
+      "event_id": "us-investment-negotiations",
+      "title": "대미투자협상 '상업적합리성' 막판진통…\"파기 가능성 배제못해\"",
+      "press": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260920054600001",
+      "published_at": "2026-09-20T22:22:00+09:00",
+      "committees": [
+        "industry"
+      ],
+      "categories": [
+        "LNG·전력",
+        "SMR·신재생 원전(신사업)"
+      ],
+      "summary": "대미투자 협상에서 투자 중단·이익배분 조정 등 안전장치 이견 지속, LNG 터미널·사용후핵연료 재활용 사업 제외 방향 보도",
+      "committee_reason": "산업부의 대미투자 협상 및 국회 보고가 주된 사안. 재경위에도 보고 예정이나 통상 협상 중심으로 산자위 단일 배정. 의원 직접 발언 없음.",
+      "category_reason": "LNG 수출터미널과 핵연료 재활용 투자사업을 직접 언급.",
+      "importance": {
+        "legislation": 0,
+        "impact": 3,
+        "speaker": 3
+      },
+      "time_evidence": "원문 본문과 최초 송고/등록 2026-09-20T22:22:00 확인. 수정시각과 구분.",
+      "verified": true,
+      "members": []
+    },
+    {
+      "event_id": "oil-ceiling-compensation",
+      "title": "‘최고가격제’에 기름값 18주째 하락세… 소송 검토하는 정유업계",
+      "press": "동아일보",
+      "url": "https://www.donga.com/news/Economy/article/all/20260920/134705337/1",
+      "published_at": "2026-09-21T00:30:00+09:00",
+      "committees": [
+        "industry"
+      ],
+      "categories": [
+        "정유·유가/담합"
+      ],
+      "summary": "석유 최고가격제 손실보상 산정방식을 둘러싼 정유업계 갈등 및 일부 업체의 행정소송 검토",
+      "committee_reason": "주된 사안은 석유제품 최고가격제 운영·정유사 손실보상으로 산업정책 소관 산자위 배정. 세수 언급만으로 기재위 중복 배정하지 않음.",
+      "category_reason": "정유사 공급가격 규제 및 손실보상 직접 보도.",
+      "importance": {
+        "legislation": 0,
+        "impact": 3,
+        "speaker": 1
+      },
+      "time_evidence": "동아일보 원문 본문 및 article:published_time=2026-09-21T00:30:00+09:00 확인. 수정 01:34:47, 다음 재전송 00:32와 구분.",
+      "verified": true,
+      "members": []
+    },
+    {
+      "event_id": "oil-naphtha-security",
+      "title": "사우디 수도까지 공습경보…정유·석화, 중동 전쟁 장기화에 긴장 '고조'",
+      "press": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20260920_0003797212",
+      "published_at": "2026-09-21T05:00:00+09:00",
+      "committees": [
+        "industry"
+      ],
+      "categories": [
+        "정유·유가/담합",
+        "석유화학"
+      ],
+      "summary": "산업부 집계상 9~10월 원유 확보량은 전년 평균의 90% 이상, 11월은 70% 수준으로 장기 공급차질 우려 제기",
+      "committee_reason": "단순 해외 분쟁이 아니라 산업부 원유·나프타 확보 현황과 국내 산업 공급망 대응을 직접 다뤄 산자위 배정.",
+      "category_reason": "정유·석화 원료 확보량과 수급 대응을 직접 보도.",
+      "importance": {
+        "legislation": 0,
+        "impact": 3,
+        "speaker": 2
+      },
+      "time_evidence": "원문 본문과 최초 송고/등록 2026-09-21T05:00:00 확인. 수정시각과 구분.",
+      "verified": true,
+      "members": []
+    },
+    {
+      "event_id": "advanced-industry-regulation",
+      "title": "\"공장 가동 코앞인데 도로·용수 아직\"…한경협, 규제개선 41건 건의",
+      "press": "뉴스1",
+      "url": "https://www.news1.kr/amp/industry/general-industry/6296429",
+      "published_at": "2026-09-21T06:00:00+09:00",
+      "committees": [
+        "industry"
+      ],
+      "categories": [
+        "배터리",
+        "LNG·전력"
+      ],
+      "summary": "한경협, 첨단산업 인프라·무탄소전력 조달·세제 개선 등 41건 건의와 국회 입법 21건 추진 요청",
+      "committee_reason": "반도체·배터리 등 국가첨단전략산업 경쟁력 제도 개선을 묶은 사안으로 산자위 단일 배정. 세제 개별 건의를 별도 기사로 복제하지 않음.",
+      "category_reason": "배터리 투자세액공제와 전력 직접구매 제도 개선 직접 제안.",
+      "importance": {
+        "legislation": 2,
+        "impact": 3,
+        "speaker": 1
+      },
+      "time_evidence": "뉴스1 원문 최초 06:00 및 수정 08:06 구분. 요약의 41건·입법 21건·전력 및 배터리 쟁점은 06:00:04 이데일리 원문에서도 교차 확인. 파이낸셜뉴스 후보는 원문 링크·시각 확보 실패로 채택하지 않음.",
+      "verified": true,
+      "members": []
+    },
+    {
+      "event_id": "trademark-enforcement",
+      "title": "장안동 지하창고서 위조명품 7천여점 적발…정품가 89억원어치",
+      "press": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260918160500004",
+      "published_at": "2026-09-21T06:00:00+09:00",
+      "committees": [
+        "industry"
+      ],
+      "categories": [],
+      "summary": "서울시, 위조상품 7,369점 압수 및 상표법 위반 혐의 송치·온라인 유통망 추적수사 추진",
+      "committee_reason": "상표법에 따른 산업재산권 보호·위조상품 유통 단속 현안으로 산자위 소관. 개별 기업 홍보 기사 아님.",
+      "category_reason": "우선산업 직접 관련 없음.",
+      "importance": {
+        "legislation": 0,
+        "impact": 1,
+        "speaker": 1
+      },
+      "time_evidence": "원문 본문과 최초 송고/등록 2026-09-21T06:00:00 확인. 수정시각과 구분.",
+      "verified": true,
+      "members": []
+    },
+    {
+      "event_id": "small-car-fuel-tax",
+      "title": "월 700만원 벌어도 경차 유류세 환급…\"소득·차량 기준 손봐야\"",
+      "press": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01272646645582416",
+      "published_at": "2026-09-21T04:10:03+09:00",
+      "committees": [
+        "finance"
+      ],
+      "categories": [
+        "정유·유가/담합"
+      ],
+      "summary": "KDI, 경차 유류세 환급제 유지와 소득·차량 보유 요건 개선 검토 제안",
+      "committee_reason": "재정경제부 의뢰 조세특례 평가와 유류세 환급·조세지출 제도 개선이므로 기재위 배정.",
+      "category_reason": "휘발유·경유·LPG 유류세 환급 직접 평가.",
+      "importance": {
+        "legislation": 1,
+        "impact": 2,
+        "speaker": 2
+      },
+      "time_evidence": "원문 본문과 최초 송고/등록 2026-09-21T04:10:03 확인. 수정시각과 구분.",
+      "verified": true,
+      "members": []
+    },
+    {
+      "event_id": "income-redistribution-policy",
+      "title": "[사설]세전 ‘소득 평등도’ 1위인데 세후는 22위… 보편복지 줄여야",
+      "press": "동아일보",
+      "url": "https://www.donga.com/news/Opinion/article/all/20260920/134706100/3",
+      "published_at": "2026-09-20T23:45:00+09:00",
+      "committees": [
+        "finance"
+      ],
+      "categories": [],
+      "summary": "동아일보 사설, OECD 소득재분배 지표를 근거로 취약계층 중심 복지·재정 재설계 주장",
+      "committee_reason": "조세 및 이전지출의 소득재분배 효과를 다루는 재정정책 논평으로 기재위 배정. 사설의 정책 주장을 정부 결정이나 확인된 인과관계로 단정하지 않음.",
+      "category_reason": "우선산업 직접 관련 없음.",
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 0
+      },
+      "time_evidence": "원문 전체 본문 및 article:published_time=2026-09-20T23:45:00+09:00 확인. 경향신문 동일 통계 기사는 직접 접근 403으로 검증 완료 처리하지 않음.",
+      "verified": true,
+      "members": []
+    },
+    {
+      "event_id": "financial-special-police",
+      "title": "민생 특사경, 수심위 없이도 수사 착수…\"불법사금융은 속도전\"",
+      "press": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260920030200002",
+      "published_at": "2026-09-21T05:53:00+09:00",
+      "committees": [
+        "affairs"
+      ],
+      "categories": [],
+      "summary": "금융당국, 불법사금융 피해 신고 즉시 수사 착수 방안 및 법안 통과 후 민생 특사경 출범 검토",
+      "committee_reason": "금감원 불법사금융 감독·피해구제 체계가 주된 현안으로 정무위 배정. 권칠승 발의 법안은 배경 설명이며 해당 의원 발언 기사로 분류하지 않음.",
+      "category_reason": "우선산업 직접 관련 없음.",
+      "importance": {
+        "legislation": 2,
+        "impact": 2,
+        "speaker": 2
+      },
+      "time_evidence": "원문 본문과 최초 송고/등록 2026-09-21T05:53:00 확인. 수정시각과 구분.",
+      "verified": true,
+      "members": []
+    },
+    {
+      "event_id": "highway-fuel-discount-competition",
+      "title": "석유유통협회 \"고속도로 주유소 100원 할인, 공정경쟁 흔들어\"",
+      "press": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260920037700003",
+      "published_at": "2026-09-21T00:00:00+09:00",
+      "committees": [
+        "affairs"
+      ],
+      "categories": [
+        "정유·유가/담합"
+      ],
+      "summary": "석유유통협회, 고속도로 주유소 한정 할인에 경쟁 왜곡 우려 제기 및 일반 주유소 지원 확대 요구",
+      "committee_reason": "특정 주유소 지원에 따른 공정경쟁 왜곡 주장과 시장질서가 주된 논점으로 정무위 배정. 유류세 확대는 부수 제안으로 기재위 중복 제외.",
+      "category_reason": "주유소 가격 할인과 석유 유통시장 경쟁 직접 관련.",
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 1
+      },
+      "time_evidence": "원문 본문과 최초 송고/등록 2026-09-21T00:00:00 확인. 수정시각과 구분.",
+      "verified": true,
+      "members": []
+    },
+    {
+      "event_id": "bank-consumer-guidance",
+      "title": "\"'급여' 표시 안 하면 금리감면 못 받아\"…금감원, 소비자 당부",
+      "press": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260920043800002",
+      "published_at": "2026-09-21T06:00:00+09:00",
+      "committees": [
+        "affairs"
+      ],
+      "categories": [],
+      "summary": "금감원, 급여이체 우대금리 요건·상환방식·연체 위험 등 은행 이용 소비자 유의사항 안내",
+      "committee_reason": "금감원 금융소비자 보호 및 은행 감독 소관으로 정무위 배정.",
+      "category_reason": "우선산업 직접 관련 없음.",
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 2
+      },
+      "time_evidence": "원문 본문과 최초 송고/등록 2026-09-21T06:00:00 확인. 수정시각과 구분.",
+      "verified": true,
+      "members": []
+    }
+  ],
+  "exclusions": [
+    {
+      "url": "https://www.khan.co.kr/article/202609202015001",
+      "reason": "직접 원문 접근 HTTP 403. 검색 본문은 있으나 원문 검증 완료 처리하지 않음."
+    },
+    {
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01685926645582416",
+      "reason": "본문·선공개 9/20 22:47 확인. 익명 전 의원 및 김현정 발언과 제공 명단 간 소속 대조가 불충분하여 제외."
+    },
+    {
+      "url": "https://www.hankyung.com/article/202609131573i",
+      "reason": "가스공사 LNG 수요 인터뷰 최초 입력 9/20 16:07로 범위 밖."
+    },
+    {
+      "url": "https://www.sidae.com/article/2026092015384527355",
+      "reason": "최고가격제 재정부담 기사 9/20 15:44로 범위 밖."
+    },
+    {
+      "url": "https://tv.edaily.co.kr/News/NewsRead?Kind=257&NewsId=02804406645582088",
+      "reason": "대미투자 협상 및 국회 보고 동일 사안. 시간대 안 연합뉴스 원문 우선 채택."
+    },
+    {
+      "url": "https://www.news1.kr/finance/financial-policy/6296504",
+      "reason": "급여이체 소비자 안내 동일 사안. 연합뉴스 원문 우선 채택."
+    },
+    {
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01607206645582416",
+      "reason": "첨단산업 규제개선 41건 동일 사안. 뉴스1 원문 우선 채택, 초기 보도 사실 교차 확인에 활용."
+    },
+    {
+      "url": "https://www.fnnews.com/section/002004001",
+      "reason": "첨단산업 건의 후보의 목록 내용 확인. 개별 원문 링크·최초시각 확보 실패로 검증 완료 제외."
+    },
+    {
+      "url": "https://www.domin.co.kr/news/articleView.html?idxno=1569425",
+      "reason": "소부장 특화단지 최초 9/20 16:54로 범위 밖."
+    },
+    {
+      "url": "https://www.newsis.com/view/NISX20260916_0003792495",
+      "reason": "지역화폐 국비지원 효과 검증 기사 최초 9/17 06:05로 범위 밖."
+    }
+  ]
+}
