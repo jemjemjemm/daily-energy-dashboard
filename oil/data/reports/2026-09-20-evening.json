@@ -1,0 +1,214 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-20",
+  "slot": "evening",
+  "period_start": "2026-09-20T08:00:00+09:00",
+  "period_end": "2026-09-20T17:00:00+09:00",
+  "period_label": "2026-09-20 08:00 ~ 2026-09-20 17:00",
+  "generated_at": "2026-09-20T22:02:20.255783+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1588,
+  "total_deduped_count": 5,
+  "total_ok_count": 5,
+  "total_review_count": 0,
+  "total_excluded_count": 6,
+  "grade_counts": {
+    "A": 0,
+    "B": 1,
+    "C": 4
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1198
+  },
+  "query_counts": {
+    "공정위 유가 담합": 1,
+    "석유 담합": 4,
+    "석유제품 담합": 2,
+    "유가 담합": 5,
+    "유가담합": 5,
+    "정유사 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[기업기상도] 순풍 불어 배 띄운 기업 vs 강풍 앞에 엎드린 기업",
+      "url": "http://v.daum.net/v/20260920110249437",
+      "source": "연합뉴스TV",
+      "published_at": "2026-09-20T12:01:27.221486+09:00",
+      "snippet": "특별조사도 착수했습니다. 이번엔 LG화학, 한화솔루션,OCI 등 대표 석유화학기업들입니다. 중동전으로 유가 급등해 제품값 올렸다더니 실제론 담합했다는 의혹으로 검찰의 공세가 거세졌습니다. 7개 유화기업 담합 수사 소식은 앞서 전해드렸는데요. 검찰이 OCI 대표... 10시간 전",
+      "collected_at": "2026-09-20T22:01:27.221508+09:00",
+      "normalized_title": "[기업기상도] 순풍 불어 배 띄운 기업 vs 강풍 앞에 엎드린 기업",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::[기업기상도] 순풍 불어 배 띄운 기업 vs 강풍 앞에 엎드린 기업",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260920110249437",
+      "id": "4b65f7b738607203",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "후티, 사우디 심장부 타격...시험대 오른 정상외교 '슈퍼 위크'새 창 열림",
+      "url": "https://www.ytn.co.kr/_ln/0104_202609201415110490",
+      "source": "새 창 열림",
+      "published_at": "2026-09-20T15:01:19.600069+09:00",
+      "snippet": "국제공항 인근에 있는 국영 석유기업 아람코 연료 탱크 등을 타격했는데, 항공편 결항 등 혼란 빚어졌습니다. 지난 7월 후티가 사우디를 상대로 해상... 물론 AI 속도 조절론을 둘러싸고 음모론이라든가 담합 논란도 나오고 있습니다마는 AI의 역작용과 폐해에 대한 우리의 우려, 두려움이 분명한 것이 우리의... 새 창 열림",
+      "collected_at": "2026-09-20T22:01:19.600104+09:00",
+      "normalized_title": "후티, 사우디 심장부 타격...시험대 오른 정상외교 '슈퍼 위크'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::후티, 사우디 심장부 타격...시험대 오른 정상외교 '슈퍼 위크'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.ytn.co.kr/_ln/0104_202609201415110490",
+      "id": "2ddb28a57fade4ef",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[주간 유통 나침반] 추석 대목인데 유통업계 '긴장'…홈플러스 매각·공...새 창 열림",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=549300",
+      "source": "새 창 열림",
+      "published_at": "2026-09-20T12:01:19.603548+09:00",
+      "snippet": "식품업계는 9월 가격 인상 직후 국제유가 급등이라는 변수까지 안았다. [그래픽=구글 제미나이(Google Gemini) 활용 이미지] 추석을 닷새 앞둔 유통업계가... 공정위 조사는 대형마트·백화점이 아닌 신채널로 옮겨갔다. 공정위는 지난 8일 서울 강남구 아성다이소 본사에, 10일에는 용산구 CJ올리브영 본사에... 새 창 열림",
+      "collected_at": "2026-09-20T22:01:19.603567+09:00",
+      "normalized_title": "[주간 유통 나침반] 추석 대목인데 유통업계 '긴장'…홈플러스 매각·공...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[주간 유통 나침반] 추석 대목인데 유통업계 '긴장'…홈플러스 매각·공...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.joongangenews.com/news/articleView.html?idxno=549300",
+      "id": "4bfcf0452296f886",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[기업기상도] 순풍 불어 배 띄운 기업 vs 강풍 앞에 엎드린 기업새 창 열림",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH20260919194856G1Y",
+      "source": "새 창 열림",
+      "published_at": "2026-09-20T11:01:19.605590+09:00",
+      "snippet": "중동전으로 유가 급등해 제품값 올렸다더니 실제론 담합했다는 의혹으로 검찰의 공세가 거세졌습니다. 7개 유화기업 담합 수사 소식은 앞서 전해드렸는데요. 검찰이 OCI 대표와 PKC 전 대표, 영업본부장 등 8명에 구속영장 청구했습니다. 앞서 LG화학 임원 등에 소환조사도 있었는데요. 검찰은 PVC와 가소제... 새 창 열림",
+      "collected_at": "2026-09-20T22:01:19.605619+09:00",
+      "normalized_title": "[기업기상도] 순풍 불어 배 띄운 기업 vs 강풍 앞에 엎드린 기업새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[기업기상도] 순풍 불어 배 띄운 기업 vs 강풍 앞에 엎드린 기업새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.yonhapnewstv.co.kr/news/MYH20260919194856G1Y",
+      "id": "397247a6b6db9922",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "15兆 석화제품 담합 경영진 8명 중 2명 구속새 창 열림",
+      "url": "https://www.todaykorea.co.kr/news/articleView.html?idxno=406308",
+      "source": "새 창 열림",
+      "published_at": "2026-09-20T10:01:19.607284+09:00",
+      "snippet": "투데이코리아=이기봉 기자 | 중동 위기를 틈타 15조원 규모의 석유화학제품 가격을 담합한 의혹을 받는 국내 석유화학업체 전·현직 경영진 2명이 구속됐다. 20일 법조계에 따르면, 서울중앙지법 이지영 영장전담 부장판사는 전날(19일) 배 모 PKC 영업본부장과 황모씨 등 석유화학업체 경영진 2명에 대한... 새 창 열림",
+      "collected_at": "2026-09-20T22:01:19.607310+09:00",
+      "normalized_title": "15兆 석화제품 담합 경영진 8명 중 2명 구속새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::15兆 석화제품 담합 경영진 8명 중 2명 구속새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.todaykorea.co.kr/news/articleView.html?idxno=406308",
+      "id": "39d67706d47d80f8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
