@@ -13,6 +13,11 @@ ROOT = Path(__file__).resolve().parents[1]
 REPORT_DIR = ROOT / 'docs/assembly-content/issues'
 KST = timezone(timedelta(hours=9))
 COMMITTEES = (
+    ('industry', '산업통상자원중소벤처기업위원회', '산중위'),
+    ('climate_labor', '기후에너지환경노동위원회', '기노위'),
+    ('finance', '재정경제기획위원회', '재경위'),
+)
+LEGACY_COMMITTEES = (
     ('industry', '산업통상자원중소벤처기업위원회', '산자위'),
     ('finance', '기획재정위원회', '기재위'),
     ('affairs', '정무위원회', '정무위'),
@@ -57,7 +62,7 @@ def press_rank(press: str) -> int:
     raise ValueError(f'Unreviewed publisher: {press}')
 
 
-def validate_article(article: dict) -> datetime:
+def validate_article(article: dict, *, committees=COMMITTEES) -> datetime:
     for key in ('title', 'url', 'press', 'summary', 'event_id', 'committee_reason', 'time_evidence'):
         if not isinstance(article.get(key), str) or not article[key].strip():
             raise ValueError(f'Missing {key}')
@@ -67,8 +72,9 @@ def validate_article(article: dict) -> datetime:
     if article.get('verified') is not True:
         raise ValueError('Article body and original publication time must be reviewed')
     press_rank(article['press'])
+    allowed = {c[0] for c in committees}
     committees = article.get('committees', [])
-    if len(committees) != 1 or not set(committees) <= {c[0] for c in COMMITTEES}:
+    if len(committees) != 1 or not set(committees) <= allowed:
         raise ValueError('Unknown/missing committee')
     roster = committee_roster()
     for member in article.get('members', []):
@@ -93,11 +99,11 @@ def importance_key(article: dict) -> tuple:
     return (-scores['legislation'], -scores['impact'], -scores['speaker'], press_rank(article['press']), article['url'])
 
 
-def select_articles(candidates: list[dict], date: str, slot: str) -> list[dict]:
+def select_articles(candidates: list[dict], date: str, slot: str, *, committees=COMMITTEES) -> list[dict]:
     start, end = window(date, slot)
     eligible = []
     for article in candidates:
-        published = validate_article(article)
+        published = validate_article(article, committees=committees)
         # Include the explicitly requested start and end timestamps.
         if start <= published <= end:
             eligible.append(article)
@@ -109,18 +115,26 @@ def select_articles(candidates: list[dict], date: str, slot: str) -> list[dict]:
             winners[article['event_id']] = article
             urls.add(article['url'])
     result = []
-    for committee, _, _ in COMMITTEES:
+    for committee, _, _ in committees:
         articles = sorted((a for a in winners.values() if a['committees'] == [committee]), key=importance_key)
         result.append({'id': committee, 'priority': [a for a in articles if a.get('categories')][:10], 'all': articles[:10]})
     return result
+
+
+def report_committees(report: dict) -> tuple:
+    # Preserve the original classification of reports issued before the scope change.
+    ids = [c['id'] for c in report['committees']]
+    for committees in (COMMITTEES, LEGACY_COMMITTEES):
+        if ids == [c[0] for c in committees]:
+            return committees
+    raise ValueError('Committee order changed')
 
 
 def validate_report(report: dict) -> None:
     start, end = window(report['date'], report['slot'])
     if report.get('period') != period_label(report['date'], report['slot']) or report.get('status') != 'published':
         raise ValueError('Invalid report metadata')
-    if [c['id'] for c in report['committees']] != [c[0] for c in COMMITTEES]:
-        raise ValueError('Committee order changed')
+    committees = report_committees(report)
     owners = {}
     for committee in report['committees']:
         for kind in ('priority', 'all'):
@@ -131,7 +145,7 @@ def validate_report(report: dict) -> None:
                 for identity in (('event', article['event_id']), ('url', article['url'])):
                     if owners.setdefault(identity, committee['id']) != committee['id']:
                         raise ValueError('Article/event repeated across committees')
-                if not start <= validate_article(article) <= end or committee['id'] not in article['committees']:
+                if not start <= validate_article(article, committees=committees) <= end or committee['id'] not in article['committees']:
                     raise ValueError('Wrong time window or committee')
                 if kind == 'priority' and not article.get('categories'):
                     raise ValueError('Priority article has no industry category')
@@ -189,7 +203,7 @@ def render(date: str, directory: Path = REPORT_DIR) -> str:
         parts.append(f'<details class="committee-slot" data-slot="{slot}"{expanded}><summary>{slot.title()} ({span})</summary>')
         parts.append(f'<p class="committee-period">📋 {slot.title()} 국회 상임위 주요 이슈 리포트<br>{period_label(date, slot)}</p>')
         parts.append('<p class="committee-status">발간 완료 · 시간대·중복 조건을 충족한 확인 기사만 수록</p>' if report else '<p class="committee-status">미발간</p>')
-        for i, (key, name, short) in enumerate(COMMITTEES, start=1 if slot == 'morning' else 4):
+        for i, (key, name, short) in enumerate(COMMITTEES, start=1):
             group = next((c for c in report['committees'] if c['id'] == key), None) if report else None
             parts.append(f'<div class="committee-news" data-committee="{key}"><h3>{i}. {name}({short})</h3>')
             for kind, label in (('priority', '우선산업 관련'), ('all', '전체 뉴스')):
@@ -197,6 +211,8 @@ def render(date: str, directory: Path = REPORT_DIR) -> str:
                 articles = group[kind] if group else []
                 if not articles:
                     message = '해당 시간대 수집된 뉴스 없음' if report else '아직 발간되지 않은 리포트입니다.'
+                    if report and group is None:
+                        message = '미수집 · 상임위 구성 변경 전 보고서로, 기노위는 당시 수집 대상에 포함되지 않았습니다.'
                     parts.append(f'<p class="committee-empty">{message}</p>')
                 elif kind == 'priority':
                     for a in articles:
@@ -212,6 +228,13 @@ def render(date: str, directory: Path = REPORT_DIR) -> str:
                         parts.append(f'<li>{esc(a["title"])} ({esc(a["press"])}, {clock}){member_line} — <a href="{esc(a["url"], quote=True)}" target="_blank" rel="noopener">링크</a></li>')
                     parts.append('</ul>')
             parts.append('</div>')
+        legacy = next((c for c in report['committees'] if c['id'] == 'affairs'), None) if report else None
+        if legacy:
+            parts.append('<details class="committee-legacy"><summary>기존 정무위 수록 기사 보존</summary><ul class="committee-all">')
+            for a in legacy['all']:
+                clock = datetime.fromisoformat(a['published_at']).strftime('%H:%M')
+                parts.append(f'<li>{esc(a["title"])} ({esc(a["press"])}, {clock}) → <a href="{esc(a["url"], quote=True)}" target="_blank" rel="noopener">원문</a></li>')
+            parts.append('</ul></details>')
         parts.append('</details>')
     parts.append('</div>')
     return ''.join(parts)

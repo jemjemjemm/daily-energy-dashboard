@@ -4,8 +4,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from tools.committee_news import (ROOT, REPORT_DIR, COMMITTEES, window, period_label,
-                                 select_articles, validate_report, publish, render)
+from tools.committee_news import (ROOT, REPORT_DIR, COMMITTEES, LEGACY_COMMITTEES, window, period_label,
+                                 select_articles, validate_report, publish, render, report_committees)
 
 
 def article(**changes):
@@ -35,12 +35,12 @@ class CommitteeNewsTest(unittest.TestCase):
             with self.assertRaises(ValueError):
                 select_articles([article(**change)], '2026-09-18', 'morning')
         chosen = select_articles([article(committees=['finance'], members=['배준영'])], '2026-09-18', 'morning')
-        self.assertEqual(chosen[1]['all'][0]['members'], ['배준영'])
+        self.assertEqual(chosen[2]['all'][0]['members'], ['배준영'])
 
     def test_roster_counts_and_roles(self):
         from tools.committee_news import committee_roster
         members = committee_roster()
-        self.assertEqual([sum(m['committee'] == c[0] for m in members) for c in COMMITTEES], [24, 22, 24])
+        self.assertEqual([sum(m['committee'] == c[0] for m in members) for c in LEGACY_COMMITTEES], [24, 22, 24])
         self.assertEqual({m['name'] for m in members if m['role'] == '위원장'}, {'김성원', '조승래', '유동수'})
 
     def test_kst_month_boundary_and_both_slots(self):
@@ -113,7 +113,7 @@ class CommitteeNewsTest(unittest.TestCase):
                 review_path = ROOT / 'data/committee-news' / f'{path.stem}.review.json'
                 review = json.loads(review_path.read_text(encoding='utf-8'))
                 self.assertTrue(review['search_log'])
-                self.assertEqual(report['committees'], select_articles(review['articles'], report['date'], report['slot']))
+                self.assertEqual(report['committees'], select_articles(review['articles'], report['date'], report['slot'], committees=report_committees(report)))
                 self.assertTrue((ROOT / 'docs/reports' / f'{report["date"]}.html').exists())
 
     def test_report_validation_rejects_wrong_committee_or_time(self):
@@ -125,6 +125,31 @@ class CommitteeNewsTest(unittest.TestCase):
             invalid['committees'][0]['priority'][0][key] = value
             with self.assertRaises(ValueError):
                 validate_report(invalid)
+
+    def test_both_slots_restart_numbering_and_legacy_is_not_relabelled(self):
+        import re
+        text = render('2026-09-18')
+        slots = text.split('<details class="committee-slot"')[1:]
+        self.assertEqual(len(slots), 2)
+        for slot in slots:
+            self.assertEqual(re.findall(r'<h3>(.*?)</h3>', slot), [
+                '1. 산업통상자원중소벤처기업위원회(산중위)',
+                '2. 기후에너지환경노동위원회(기노위)',
+                '3. 재정경제기획위원회(재경위)',
+            ])
+            climate = slot.split('data-committee="climate_labor"')[1].split('</div>')[0]
+            self.assertIn('미수집', climate)
+            self.assertNotIn('수집된 뉴스 없음', climate)
+            self.assertNotIn('<a ', climate)
+            self.assertIn('<a ', slot.split('class="committee-legacy"')[1])
+
+    def test_new_publication_rejects_old_scope_and_unconfirmed_climate_member(self):
+        for change in ({'committees': ['affairs']},
+                       {'committees': ['climate_labor'], 'members': ['배준영']}):
+            with self.assertRaises(ValueError):
+                select_articles([article(**change)], '2026-09-18', 'morning')
+        chosen = select_articles([article(committees=['climate_labor'])], '2026-09-18', 'morning')
+        self.assertEqual(chosen[1]['all'][0]['committees'], ['climate_labor'])
 
 
 if __name__ == '__main__':

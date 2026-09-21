@@ -22,6 +22,8 @@
 
 원문 검토 기록은 `data/committee-news/YYYY-MM-DD-SLOT.review.json`, 발간 데이터는 `docs/assembly-content/issues/YYYY-MM-DD-SLOT.json`에 보존합니다. 웹 검색 및 본문 검토가 끝난 입력에만 아래 명령을 실행합니다. 이 도구는 뉴스 검색을 대신하지 않으며, 검증된 후보를 시간대·매체 우선순위·사안 중복·중요도로 선별합니다. 기사 부족 시 무관한 기사를 채우지 않고 확인한 건수만 표시합니다.
 
+Morning과 Evening 모두 **1. 산중위 → 2. 기노위 → 3. 재경위** 순서이며 각 시간대에서 번호를 다시 시작합니다. 상임위별 관심사항은 [AGENTS.md](AGENTS.md#상임위별-관심사항-2026-09-21-사용자-지정)에 기록합니다. 구성 변경 전 보고서의 기노위는 `미수집`으로 표시하고, 정무위 기사는 원래 분류를 유지한 접힌 보존 영역에 남깁니다. 기존 명단에는 기노위가 없으므로 의원 발언 수록 전 소속 근거와 명단 보완이 필요합니다.
+
 ```powershell
 python -m tools.committee_news --slot morning --date 2026-09-18 --input data/committee-news/2026-09-18-morning.review.json
 python tools/sync_assembly_content.py
