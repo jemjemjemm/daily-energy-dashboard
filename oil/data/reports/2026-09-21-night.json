@@ -1,0 +1,667 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-21",
+  "slot": "night",
+  "period_start": "2026-09-21T17:00:00+09:00",
+  "period_end": "2026-09-22T00:00:00+09:00",
+  "period_label": "2026-09-21 17:00 ~ 2026-09-22 00:00",
+  "generated_at": "2026-09-22T00:05:35.798689+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1592,
+  "total_deduped_count": 18,
+  "total_ok_count": 18,
+  "total_review_count": 0,
+  "total_excluded_count": 13,
+  "grade_counts": {
+    "A": 1,
+    "B": 3,
+    "C": 14
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1202
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 11,
+    "공정위 유가 담합": 2,
+    "석유 담합": 15,
+    "석유제품 담합": 7,
+    "유가 담합": 3,
+    "유가담합": 3,
+    "정유사 담합": 15,
+    "정유업계 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "사법부에 날세운 주병기 \"공정위 조사 무력화\"",
+      "url": "http://v.daum.net/v/20260921180647759",
+      "source": "한국경제",
+      "published_at": "2026-09-21T19:04:12.724510+09:00",
+      "snippet": "만한 상황은 아니다”고 말했다. 공정위가 심사 중인 기업결합 사건 가운데 가장 규모가 큰 네이버파이낸셜과 두나무의 합병은 연내 심의를 마무리하겠다고 밝혔다. 정유사의 석유 가격 담합과 국고채 담합 사건도 속도를 낼 방침이다. 박종관 기자 pjk@hankyung.com 5시간 전 1",
+      "collected_at": "2026-09-22T00:04:12.724537+09:00",
+      "normalized_title": "사법부에 날세운 주병기 \"공정위 조사 무력화\"",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::사법부에 날세운 주병기 \"공정위 조사 무력화\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260921180647759",
+      "id": "cd7e33713f87e3c6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+      "url": "http://v.daum.net/v/20260921165401920",
+      "source": "SBS",
+      "published_at": "2026-09-21T17:04:17.153912+09:00",
+      "snippet": "덧붙였습니다. 그는 \"서민 생활과 물가에 직결된 정유사들의 석유류 가격담합도 10월까지 조사를 마치고 심의 절차 개시 여부를 결정...경제분석국도 37명 규모로 출범합니다. 주 위원장은 \"공정위 역사상 최초로 미국, 영국, 유럽연합(EU) 등 선진국 경쟁 당국 수준... 7시간 전",
+      "collected_at": "2026-09-22T00:04:17.153946+09:00",
+      "normalized_title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+      "source_normalized": "SBS",
+      "duplicate_key": "sbs::주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260921165401920",
+      "id": "f7f8ba791bdf79e4",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "가격담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기, 법원 효력정지에 유감…\"현장조사 무력화\"",
+      "url": "http://v.daum.net/v/20260921184131012",
+      "source": "연합뉴스TV",
+      "published_at": "2026-09-21T19:04:11.320698+09:00",
+      "snippet": "결합 심사와 관련해선 \"합병의 영향을 검증하는 고난이도 심사가 진행 중\"이라며 속도를 내겠다고 밝혔고, 물가에 직결된 정유사 석유류 가격 담합 사건도 다음달까지 조사를 마치겠다고 덧붙였습니다. 연합뉴스TV 구하림입니다. [영상취재 이덕훈] [영상편집 송아해... 5시간 전",
+      "collected_at": "2026-09-22T00:04:11.320722+09:00",
+      "normalized_title": "주병기, 법원 효력정지에 유감…\"현장조사 무력화\"",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::주병기, 법원 효력정지에 유감…\"현장조사 무력화\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260921184131012",
+      "id": "0b11ad5f9d04679f",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 \"현장조사 무력화 유감…쿠팡, 차별 없이 법 집행\"",
+      "url": "http://v.daum.net/v/20260921170953875",
+      "source": "연합뉴스TV",
+      "published_at": "2026-09-21T18:04:14.256800+09:00",
+      "snippet": "결합 심사와 관련해선 \"합병의 영향을 검증하는 고난이도 심사가 진행 중\"이라며 속도를 내겠다고 밝혔고, 물가에 직결된 정유사 석유류 가격 담합 사건도 다음 달까지 조사를 마치겠다고 덧붙였습니다. 연합뉴스TV 구하림입니다. [영상취재 이덕훈] [영상편집 송아... 6시간 전",
+      "collected_at": "2026-09-22T00:04:14.256827+09:00",
+      "normalized_title": "주병기 \"현장조사 무력화 유감…쿠팡, 차별 없이 법 집행\"",
+      "source_normalized": "연합뉴스TV",
+      "duplicate_key": "연합뉴스tv::주병기 \"현장조사 무력화 유감…쿠팡, 차별 없이 법 집행\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260921170953875",
+      "id": "97d54ab744b61aa8",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "15조원 담합에 또 리니언시…제도 운용 논란",
+      "url": "http://v.daum.net/v/20260921170306448",
+      "source": "MTN 머니투데이방송",
+      "published_at": "2026-09-21T17:03:55.420234+09:00",
+      "snippet": "틈을 타 수 조 원의 부당이익을 챙긴 것으로 의심하고 있다. 담합 규모 15조원은 지난 7월 검찰이 발표한 14조2000억원 규모의 정유사 유가 담합보다 크다. 업계에서는 리니언시가 대형 업체의 형사처벌 부담을 덜어주는 방향으로 운용되고 있다는 지적이 나온다... 7시간 전",
+      "collected_at": "2026-09-22T00:03:55.420260+09:00",
+      "normalized_title": "15조원 담합에 또 리니언시…제도 운용 논란",
+      "source_normalized": "MTN 머니투데이방송",
+      "duplicate_key": "mtn 머니투데이방송::15조원 담합에 또 리니언시…제도 운용 논란",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "http://v.daum.net/v/20260921170306448",
+      "id": "6938b7101400c145",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 방산 경쟁 촉진·반복담합 제재 강화새 창 열림",
+      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245921",
+      "source": "새 창 열림",
+      "published_at": "2026-09-21T21:04:08.787803+09:00",
+      "snippet": "공정거래위원회가 방위산업 시장의 신규 사업자 진입을 촉진하고, 반복 담합 사업자에는 등록·허가 취소와 영업정지 등 시장 참여를 제한하는 방안을... 공정위는 네이버-두나무 기업결합 심사를 연내 마무리하고, 정유사 석유류 가격 담합 의혹 조사도 10월까지 마친 뒤 심의 절차 개시 여부를 결정할 계획이다.... 새 창 열림",
+      "collected_at": "2026-09-22T00:04:08.787827+09:00",
+      "normalized_title": "공정위, 방산 경쟁 촉진·반복담합 제재 강화새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 방산 경쟁 촉진·반복담합 제재 강화새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245921",
+      "id": "9edfb46b6b39aa3a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "사법부에 날세운 주병기 \"공정위 조사 무력화\"새 창 열림",
+      "url": "https://www.hankyung.com/article/2026092190171",
+      "source": "새 창 열림",
+      "published_at": "2026-09-21T19:04:08.789783+09:00",
+      "snippet": "조사를 거부하고, 시정명령을 이행하지 않는 기업의 손을 들어줘 공정거래위원회의 집행 절차를 멈춰 세운 법원을 향해선 “법 집행이 보호하는 공공의... 가장 규모가 큰 네이버파이낸셜과 두나무의 합병은 연내 심의를 마무리하겠다고 밝혔다. 정유사의 석유 가격 담합과 국고채 담합 사건도 속도를 낼 방침이다.새 창 열림",
+      "collected_at": "2026-09-22T00:04:08.789792+09:00",
+      "normalized_title": "사법부에 날세운 주병기 \"공정위 조사 무력화\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::사법부에 날세운 주병기 \"공정위 조사 무력화\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.hankyung.com/article/2026092190171",
+      "id": "1976a81a402bd6fb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기, 법원 효력정지에 유감…\"현장조사 무력화\"새 창 열림",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH202609211840137G2",
+      "source": "새 창 열림",
+      "published_at": "2026-09-21T19:04:08.788786+09:00",
+      "snippet": "위원장은 네이버와 두나무 기업결합 심사와 관련해선 \"합병의 영향을 검증하는 고난이도 심사가 진행 중\"이라며 속도를 내겠다고 밝혔고, 물가에 직결된 정유사 석유류 가격 담합 사건도 다음달까지 조사를 마치겠다고 덧붙였습니다. 연합뉴스TV 구하림입니다. [영상취재 이덕훈] [영상편집 송아해] [그래픽 강성훈]새 창 열림",
+      "collected_at": "2026-09-22T00:04:08.788797+09:00",
+      "normalized_title": "주병기, 법원 효력정지에 유감…\"현장조사 무력화\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::주병기, 법원 효력정지에 유감…\"현장조사 무력화\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.yonhapnewstv.co.kr/news/MYH202609211840137G2",
+      "id": "64075307e3f7a22e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 \"방산시장 신규진입 촉진...중점조사단으로 민생쪽 집중점검\"새 창 열림",
+      "url": "http://www.newsfc.co.kr/news/articleView.html?idxno=81296",
+      "source": "새 창 열림",
+      "published_at": "2026-09-21T18:04:08.792444+09:00",
+      "snippet": "서민 생활과 물가에 직결된 정유사들의 석유류 가격담합도 10월까지 조사를 마치고 심의 절차 개시 여부를 결정하도록 속도를 내겠다고 덧붙였다. 주 위원장은 다음 달 1일부로 조직 개편에 따라 37명 규모로 출범하는 경제분석국과 관련해 \"미국, 영국, 유럽연합(EU) 등 선진국 경쟁 당국 수준\"이라며 \"계량... 새 창 열림",
+      "collected_at": "2026-09-22T00:04:08.792454+09:00",
+      "normalized_title": "주병기 \"방산시장 신규진입 촉진...중점조사단으로 민생쪽 집중점검\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::주병기 \"방산시장 신규진입 촉진...중점조사단으로 민생쪽 집중점검\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.newsfc.co.kr/news/articleView.html?idxno=81296",
+      "id": "f11ba0f71603b13f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "가격담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 \"현장조사 무력화 유감…쿠팡, 차별 없이 법 집행\"새 창 열림",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH20260921170805kvw",
+      "source": "새 창 열림",
+      "published_at": "2026-09-21T18:04:08.791609+09:00",
+      "snippet": "위원장은 네이버와 두나무 기업결합 심사와 관련해선 \"합병의 영향을 검증하는 고난이도 심사가 진행 중\"이라며 속도를 내겠다고 밝혔고, 물가에 직결된 정유사 석유류 가격 담합 사건도 다음 달까지 조사를 마치겠다고 덧붙였습니다. 연합뉴스TV 구하림입니다. [영상취재 이덕훈] [영상편집 송아해] [그래픽 강성훈]새 창 열림",
+      "collected_at": "2026-09-22T00:04:08.791620+09:00",
+      "normalized_title": "주병기 \"현장조사 무력화 유감…쿠팡, 차별 없이 법 집행\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::주병기 \"현장조사 무력화 유감…쿠팡, 차별 없이 법 집행\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.yonhapnewstv.co.kr/news/MYH20260921170805kvw",
+      "id": "b4ee4ef648c58a4d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "15조원 담합에 또 리니언시…제도 운용 논란새 창 열림",
+      "url": "https://news.mtn.co.kr/news-detail/2026092114445221921",
+      "source": "새 창 열림",
+      "published_at": "2026-09-21T18:03:51.898620+09:00",
+      "snippet": "담합 규모 15조원은 지난 7월 검찰이 발표한 14조2000억원 규모의 정유사 유가 담합보다 크다.업계에서는 리니언시가 대형 업체의 형사처벌 부담을... 공정위가 과징금 등 행정제재를 감면하는 제도와 별도로 운영된다. 문제는 다음 달부터 검찰개혁에 따라 담합 사건의 행정조사와 형사수사, 기소 기능이 각각... 새 창 열림",
+      "collected_at": "2026-09-22T00:03:51.898650+09:00",
+      "normalized_title": "15조원 담합에 또 리니언시…제도 운용 논란새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::15조원 담합에 또 리니언시…제도 운용 논란새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://news.mtn.co.kr/news-detail/2026092114445221921",
+      "id": "df647a5b682b6ce3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "LG화학 사업부장 출신 구속…15조 석화 담합, LG '윗선 보고'가 관건(1부...새 창 열림",
+      "url": "https://www.the-today.com/news/articleView.html?idxno=90524",
+      "source": "새 창 열림",
+      "published_at": "2026-09-21T17:05:02.007941+09:00",
+      "snippet": "LG화학에서 사업부장과 해외법인장을 지낸 고위 임원이 석유화학제품 가격 담합 혐의로 구속되면서 회사의 가격 결정체계가 시험대에 올랐다. 경쟁사와 가격 인상을 협의했다면 그 내용이 누구에게 보고됐고, 실제 가격 변경은 어떤 승인 절차를 거쳤는지가 경영진의 책임 범위를 가를 핵심 쟁점이다. 지난... 새 창 열림",
+      "collected_at": "2026-09-22T00:05:02.007952+09:00",
+      "normalized_title": "LG화학 사업부장 출신 구속…15조 석화 담합, LG '윗선 보고'가 관건(1부...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::lg화학 사업부장 출신 구속…15조 석화 담합, lg '윗선 보고'가 관건(1부...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.the-today.com/news/articleView.html?idxno=90524",
+      "id": "ff980d56d6352c68",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[집중취재] 반도체로 버틴 한국 수출…정상외교 슈퍼위크도 촉각새 창 열림",
+      "url": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005925275",
+      "source": "새 창 열림",
+      "published_at": "2026-09-21T17:04:31.077502+09:00",
+      "snippet": "석유제품과 선박 등의 수출도 늘었지만 자동차 부품과 정밀기기, 가전제품은 감소했습니다. 산업 전반이 고르게 회복됐다기보다 반도체가 전체 실적을... 미국에서는 경쟁 기업들이 함께 개발 속도를 늦추는 행위가 담합이라는 소송까지 제기됐습니다. 안전을 위한 협력인지, 시장경쟁을 제한하는... 새 창 열림",
+      "collected_at": "2026-09-22T00:04:31.077510+09:00",
+      "normalized_title": "[집중취재] 반도체로 버틴 한국 수출…정상외교 슈퍼위크도 촉각새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[집중취재] 반도체로 버틴 한국 수출…정상외교 슈퍼위크도 촉각새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005925275",
+      "id": "311a2125c793bffd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 공정위원장 \"방산업체 독점 남용 감시\"...중점조사기획단 내달 ...새 창 열림",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=549743",
+      "source": "새 창 열림",
+      "published_at": "2026-09-21T17:04:08.795915+09:00",
+      "snippet": "정유사들의 석유류 가격 담합 의혹에 대해서는 다음 달까지 조사를 마치고 심의 절차 개시 여부를 결정할 방침이다. 조직 개편과 함께 경제분석 기능도 강화한다. 공정위는 다음 달 1일 37명 규모의 경제분석국을 새로 출범시킨다. 주 위원장은 \"공정위 역사상 최초로 미국과 영국, 유럽연합(EU) 등 선진국 경쟁... 새 창 열림",
+      "collected_at": "2026-09-22T00:04:08.795925+09:00",
+      "normalized_title": "주병기 공정위원장 \"방산업체 독점 남용 감시\"...중점조사기획단 내달 ...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::주병기 공정위원장 \"방산업체 독점 남용 감시\"...중점조사기획단 내달 ...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.joongangenews.com/news/articleView.html?idxno=549743",
+      "id": "811c23a2dfd2c74f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무...새 창 열림",
+      "url": "https://www.ekn.kr/web/view.php?key=20260921026417410",
+      "source": "새 창 열림",
+      "published_at": "2026-09-21T17:04:08.795078+09:00",
+      "snippet": "주 위원장은 “서민 생활과 물가에 직결된 정유사들의 석유류 가격담합 사건은 10월까지 조사를 마치고 심의 절차 개시 여부를 결정하겠다\"고 말했다. 현재 공정위는 정유사들이 석유제품 가격을 담합했다는 의혹을 조사 중이다. 10월 조사를 완료한 뒤 결과를 담은 심사보고서를 위원회에 상정 여부를 결정한다.... 새 창 열림",
+      "collected_at": "2026-09-22T00:04:08.795087+09:00",
+      "normalized_title": "주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.ekn.kr/web/view.php?key=20260921026417410",
+      "id": "5173236b864e1b9d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "석유제품",
+        "공정위",
+        "담합",
+        "가격담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"새 창 열림",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008764232&plink=ORI&cooper=NAVER",
+      "source": "새 창 열림",
+      "published_at": "2026-09-21T17:04:08.794235+09:00",
+      "snippet": "그는 \"서민 생활과 물가에 직결된 정유사들의 석유류 가격담합도 10월까지 조사를 마치고 심의 절차 개시 여부를 결정하도록 속도를 내겠다\"고 밝혔습니다. 다음 달 1일부로 조직 개편에 따라 경제분석국도 37명 규모로 출범합니다. 주 위원장은 \"공정위 역사상 최초로 미국, 영국, 유럽연합(EU) 등 선진국 경쟁 당국... 새 창 열림",
+      "collected_at": "2026-09-22T00:04:08.794245+09:00",
+      "normalized_title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008764232&plink=ORI&cooper=NAVER",
+      "id": "157a5e7e37ee254a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "가격담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘AI 속도조절론’에도 삼성전자 5% 강세…코스피 ‘7000선’ 재탈환새 창 열림",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03860566645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "source": "새 창 열림",
+      "published_at": "2026-09-21T17:03:51.899676+09:00",
+      "snippet": "특히 인공지능(AI) 기업들이 내세운 속도조절론이 담합에 해당한다는 집단소송이 미국에서 제기되면서, ‘속도조절론’을 둘러싼 논리가 반발에... 업계에서는 오는 24일 열리는 미·중 정상회담을 비롯해 미국 국채금리·국제유가 흐름이 이번 주 증시 향방을 좌우할 핵심 변수로 꼽고 있다.... 새 창 열림",
+      "collected_at": "2026-09-22T00:03:51.899687+09:00",
+      "normalized_title": "‘AI 속도조절론’에도 삼성전자 5% 강세…코스피 ‘7000선’ 재탈환새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘ai 속도조절론’에도 삼성전자 5% 강세…코스피 ‘7000선’ 재탈환새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.edaily.co.kr/News/Read?newsId=03860566645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "id": "2de27427376b6218",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화”",
+      "url": "http://v.daum.net/v/20260921164038169",
+      "source": "에너지경제",
+      "published_at": "2026-09-21T17:04:18.680365+09:00",
+      "snippet": "방안을 협의 중이라고 했다. 그는 올 하반기 먹거리와 생필품, 교육, 에너지 등 민생 분야 담합 조사와 제재도 지속한다고 밝혔다. 정유사들의 석유류 가격 담합도 10월까지 조사를 완료, 심의 절차에 돌입하는 등 속도를 낼 방침이다. 주 위원장은 이날 정부세종... 7시간 전",
+      "collected_at": "2026-09-22T00:04:18.680390+09:00",
+      "normalized_title": "주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화”",
+      "source_normalized": "에너지경제",
+      "duplicate_key": "에너지경제::주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://v.daum.net/v/20260921164038169",
+      "id": "a5afbeae477373dc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
