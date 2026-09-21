@@ -1,0 +1,78 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-20",
+  "slot": "night",
+  "period_start": "2026-09-20T17:00:00+09:00",
+  "period_end": "2026-09-21T00:00:00+09:00",
+  "period_label": "2026-09-20 17:00 ~ 2026-09-21 00:00",
+  "generated_at": "2026-09-21T10:03:14.805601+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1593,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1203
+  },
+  "query_counts": {
+    "석유 담합": 1,
+    "석유제품 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "구조조정도 바쁜데 ‘15조 담합’ 수사까지…석화업계 긴장새 창 열림",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260920010007460",
+      "source": "새 창 열림",
+      "published_at": "2026-09-20T18:02:33.304180+09:00",
+      "snippet": "20일 업계에 따르면 검찰은 LG화학·한화솔루션·애경케미칼·OCI·롯데정밀화학·PKC·유니드 등 7개 업체가 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품의 가격을 사전에 협의한 혐의를 수사하고 있다. 검찰이 특정한 담합 관련 규모는 약 15조원으로 알려졌다. 다만 이는 담합 대상으로 지목된 거래 규모로... 새 창 열림",
+      "collected_at": "2026-09-21T10:02:33.304205+09:00",
+      "normalized_title": "구조조정도 바쁜데 ‘15조 담합’ 수사까지…석화업계 긴장새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::구조조정도 바쁜데 ‘15조 담합’ 수사까지…석화업계 긴장새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.asiatoday.co.kr/kn/view.php?key=20260920010007460",
+      "id": "53e2c8d4e03b7c91",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
