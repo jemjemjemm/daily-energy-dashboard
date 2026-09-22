@@ -1,0 +1,412 @@
+{
+  "date": "2026-09-21",
+  "slot": "evening",
+  "search_log": [
+    {
+      "scope": "공통·비우선산업·법안",
+      "queries": [
+        "2026-09-21 산업부 연합뉴스 최고가격제",
+        "2026-09-22 기후에너지환경노동 국회",
+        "2026-09-21 재경위 국회",
+        "2026-09-21 산자위 법안",
+        "2026-09-21 환노위 법안",
+        "2026-09-21 기재위 법안",
+        "2026-09-21 재정경제부 연합뉴스"
+      ],
+      "result": "국감 증인 신청·산업위기·AI·통상·환경·노동·물가 정책 원문 확인. 연합뉴스→주요 종합·경제지→뉴시스·뉴스1→정책전문지 순 우선 검토. 동일 시간대 동일 사안 대표 1건. 목표 수량을 채우기 위한 무관 기사 추가 없음."
+    },
+    {
+      "scope": "우선산업",
+      "queries": [
+        "2026-09-22 정유",
+        "2026-09-22 수소 정책",
+        "2026-09-21 도시가스",
+        "2026-09-21 배터리 국회",
+        "2026-09-22 SMR 정책",
+        "2026-09-21 정유 탄소"
+      ],
+      "result": "정유 수급·보상, 전기요금, 태양광, 충전 할인, 수소 제언 채택 검토. 신규 원전 공론화 9/22 09:44, 배터리 세미나 09:00은 Morning 마감 이후 제외."
+    },
+    {
+      "scope": "산중위 관심사항",
+      "queries": [
+        "2026-09-21 최고가격 손실",
+        "2026-09-21 정산 보상",
+        "2026-09-21 대왕고래",
+        "2026-09-21 주유소 경정"
+      ],
+      "result": "최고가격제 보상 산식 원문 17:03 확인으로 9/22 Morning 배정. 대왕고래 지분투자 정부 권유·카드 할인 부가세 경정청구 회신은 해당 시간대 공개 원문 확인 불가. 회신 내용 추정 금지."
+    },
+    {
+      "scope": "기노위 관심사항",
+      "queries": [
+        "2026-09-21 정유 증인",
+        "2026 9월 정유 증인 기노위",
+        "2026 9월 화관법 국감",
+        "2026 E&S CISO 사망",
+        "2026-09-22 탄소 정유"
+      ],
+      "result": "공정위 정유사 담합 조사 보도는 Daily 채택하되 기노위 증인 신청·채택 근거로 사용하지 않음. 화학물질관리 개선 투자비·정유 탄소대책 신규 원문은 해당 시간대 확인 불가. CISO 검색 결과는 과거 7~8월 등 시간대 밖 자료. 사건 부존재를 뜻하지 않음."
+    },
+    {
+      "scope": "재경위 관심사항",
+      "queries": [
+        "2026-09-21 정유사 공문",
+        "2026-09-21 최고가격 손실"
+      ],
+      "result": "보상 방식 기사는 산중위 단일 배정. 정유 4사 피해 추정과 정부 인정액 구분. 정부 확정 피해액 및 산업부·정유사 공문 수발신 원문은 공개 검색으로 확인 불가."
+    },
+    {
+      "scope": "명단·원문 검증",
+      "result": "roster.json의 산중위24·재경위22·정무위24 기준 검토. 기노위 명단 미포함 상태에서 소속 미확인 의원 발언 채택 없음. 장관은 소관 정책 기준, 사진 참석자는 발언자로 처리하지 않음. 웹 원문 열람과 발행사 HTTP 본문·메타데이터로 교차 확인. 검색 결과 날짜나 포털 재전송 시각은 증거로 사용하지 않음."
+    }
+  ],
+  "articles": [
+    {
+      "event_id": "witness-20260921",
+      "title": "[단독]국회 산자위, MBK 김병주 국감 증인 신청",
+      "press": "한국경제",
+      "url": "https://www.hankyung.com/article/202609217511i",
+      "published_at": "2026-09-21T10:47:03+09:00",
+      "committees": [
+        "industry"
+      ],
+      "categories": [],
+      "members": [],
+      "member_review": "의원 발언 중심 기사가 아님. 장관·정부 관계자 발언은 해당 직책의 소관 정책으로 분류. 사진 속 참석 의원은 발언자로 취급하지 않음.",
+      "summary": "산중위, 홈플러스 회생 관련 김병주 등 증·참고인 신청 잠정 합의 및 차기 전체회의 명단 확정 예정",
+      "committee_reason": "본문이 산자위 국정감사 증인 신청 협의. 최종 채택으로 단정하지 않음.",
+      "category_reason": "비우선산업 소관 정책·현안",
+      "time_evidence": "발행사 원문 본문과 입력/송고 표기 및 게시 메타데이터 확인: 2026-09-21 10:47:03 KST. 수정시각·포털 재전송시각 제외.",
+      "verified": true,
+      "importance": {
+        "legislation": 2,
+        "impact": 3,
+        "speaker": 2
+      }
+    },
+    {
+      "event_id": "ai-20260921",
+      "title": "\"무엇부터 AI로 바꿀까\"…산업부, 산단 CEO들과 현장해법 모색",
+      "press": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260921085300003",
+      "published_at": "2026-09-21T16:00:44+09:00",
+      "committees": [
+        "industry"
+      ],
+      "categories": [],
+      "members": [],
+      "member_review": "의원 발언 중심 기사가 아님. 장관·정부 관계자 발언은 해당 직책의 소관 정책으로 분류. 사진 속 참석 의원은 발언자로 취급하지 않음.",
+      "summary": "산업부, 산업단지 기업의 AI 전환 과제 발굴을 위한 CEO 해커톤 개최",
+      "committee_reason": "산업부 제조업 AI 전환 정책 및 산업단지 지원",
+      "category_reason": "비우선산업 소관 정책·현안",
+      "time_evidence": "발행사 원문 본문과 입력/송고 표기 및 게시 메타데이터 확인: 2026-09-21 16:00:44 KST. 수정시각·포털 재전송시각 제외.",
+      "verified": true,
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 3
+      }
+    },
+    {
+      "event_id": "incheon-20260921",
+      "title": "인천시, 제물포구 '산업위기 선제대응지역' 지정 신청",
+      "press": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260921057100065",
+      "published_at": "2026-09-21T10:10:18+09:00",
+      "committees": [
+        "industry"
+      ],
+      "categories": [],
+      "members": [],
+      "member_review": "의원 발언 중심 기사가 아님. 장관·정부 관계자 발언은 해당 직책의 소관 정책으로 분류. 사진 속 참석 의원은 발언자로 취급하지 않음.",
+      "summary": "인천시, 철강업 위기 대응을 위한 제물포구 산업위기 선제대응지역 지정 신청",
+      "committee_reason": "산업위기 지역 지정·지원 정책. 신청 단계이며 지정 완료 아님.",
+      "category_reason": "비우선산업 소관 정책·현안",
+      "time_evidence": "발행사 원문 본문과 입력/송고 표기 및 게시 메타데이터 확인: 2026-09-21 10:10:18 KST. 수정시각·포털 재전송시각 제외.",
+      "verified": true,
+      "importance": {
+        "legislation": 1,
+        "impact": 2,
+        "speaker": 1
+      }
+    },
+    {
+      "event_id": "jet-20260921",
+      "title": "유럽 항공유 비상에 한국이 뜬다…수출 4년 만에 최대",
+      "press": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02902806645582416",
+      "published_at": "2026-09-21T12:27:07+09:00",
+      "committees": [
+        "industry"
+      ],
+      "categories": [
+        "정유·유가/담합"
+      ],
+      "members": [],
+      "member_review": "의원 발언 중심 기사가 아님. 장관·정부 관계자 발언은 해당 직책의 소관 정책으로 분류. 사진 속 참석 의원은 발언자로 취급하지 않음.",
+      "summary": "중동 공급 차질 속 한국산 항공유의 9월 유럽행 수출 확대",
+      "committee_reason": "정유제품 수출·공급망 재편의 산업 파급력",
+      "category_reason": "본문의 정유·유가/담합 산업 수급·정책 직접 관련성 확인",
+      "time_evidence": "발행사 원문 본문과 입력/송고 표기 및 게시 메타데이터 확인: 2026-09-21 12:27:07 KST. 수정시각·포털 재전송시각 제외.",
+      "verified": true,
+      "importance": {
+        "legislation": 0,
+        "impact": 3,
+        "speaker": 1
+      }
+    },
+    {
+      "event_id": "freight-20260921",
+      "title": "배에서 배로 원유 옮긴다…호르무즈 수출 살렸지만 운임 10배",
+      "press": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03673606645582416",
+      "published_at": "2026-09-21T16:10:13+09:00",
+      "committees": [
+        "industry"
+      ],
+      "categories": [
+        "정유·유가/담합"
+      ],
+      "members": [],
+      "member_review": "의원 발언 중심 기사가 아님. 장관·정부 관계자 발언은 해당 직책의 소관 정책으로 분류. 사진 속 참석 의원은 발언자로 취급하지 않음.",
+      "summary": "호르무즈 원유 수출의 해상 환적 확대와 중국행 초대형 유조선 운임 급등",
+      "committee_reason": "원유 조달·운송 공급망과 정유산업 원가 영향",
+      "category_reason": "본문의 정유·유가/담합 산업 수급·정책 직접 관련성 확인",
+      "time_evidence": "발행사 원문 본문과 입력/송고 표기 및 게시 메타데이터 확인: 2026-09-21 16:10:13 KST. 수정시각·포털 재전송시각 제외.",
+      "verified": true,
+      "importance": {
+        "legislation": 0,
+        "impact": 3,
+        "speaker": 1
+      }
+    },
+    {
+      "event_id": "advisory-20260921",
+      "title": "[게시판] 재경부 전략경제자문단, 딥엑스 방문해 반도체 정책 논의",
+      "press": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260921069600002",
+      "published_at": "2026-09-21T12:00:07+09:00",
+      "committees": [
+        "industry"
+      ],
+      "categories": [],
+      "members": [],
+      "member_review": "의원 발언 중심 기사가 아님. 장관·정부 관계자 발언은 해당 직책의 소관 정책으로 분류. 사진 속 참석 의원은 발언자로 취급하지 않음.",
+      "summary": "전략경제자문단, 국산 반도체 활용 인센티브와 소부장 실증 지원 방안 논의",
+      "committee_reason": "주관 부처 명칭만으로 분류하지 않고 실제 논의인 반도체 산업 육성·소부장 지원 정책으로 산중위 단일 배정",
+      "category_reason": "비우선산업 소관 정책·현안",
+      "time_evidence": "발행사 원문 본문과 입력/송고 표기 및 게시 메타데이터 확인: 2026-09-21 12:00:07 KST. 수정시각·포털 재전송시각 제외.",
+      "verified": true,
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 1
+      }
+    },
+    {
+      "event_id": "power-20260921",
+      "title": "4분기 전기요금 동결…연료비조정단가 '＋5원' 유지(종합)",
+      "press": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260921019151003",
+      "published_at": "2026-09-21T08:44:57+09:00",
+      "committees": [
+        "climate_labor"
+      ],
+      "categories": [
+        "LNG·전력"
+      ],
+      "members": [],
+      "member_review": "의원 발언 중심 기사가 아님. 장관·정부 관계자 발언은 해당 직책의 소관 정책으로 분류. 사진 속 참석 의원은 발언자로 취급하지 않음.",
+      "summary": "4분기 전기요금 동결 및 연료비조정단가 kWh당 +5원 유지",
+      "committee_reason": "기후에너지환경부 소관 전력요금·연료비 조정 정책",
+      "category_reason": "본문의 LNG·전력 산업 수급·정책 직접 관련성 확인",
+      "time_evidence": "발행사 원문 본문과 입력/송고 표기 및 게시 메타데이터 확인: 2026-09-21 08:44:57 KST. 수정시각·포털 재전송시각 제외.",
+      "verified": true,
+      "importance": {
+        "legislation": 0,
+        "impact": 3,
+        "speaker": 2
+      }
+    },
+    {
+      "event_id": "solar-20260921",
+      "title": "기후장관, 차세대 탠덤 태양전지 기술개발 현장 점검",
+      "press": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20260921_0003797666",
+      "published_at": "2026-09-21T10:30:00+09:00",
+      "committees": [
+        "climate_labor"
+      ],
+      "categories": [
+        "재생에너지·수소"
+      ],
+      "members": [],
+      "member_review": "의원 발언 중심 기사가 아님. 장관·정부 관계자 발언은 해당 직책의 소관 정책으로 분류. 사진 속 참석 의원은 발언자로 취급하지 않음.",
+      "summary": "기후부 장관, 탠덤 태양전지 개발·실증 현장 점검 및 산학연 의견 청취",
+      "committee_reason": "기후부 장관 자격의 태양광 보급·기술 정책 현장 점검. 의원 소속으로 분류하지 않음.",
+      "category_reason": "본문의 재생에너지·수소 산업 수급·정책 직접 관련성 확인",
+      "time_evidence": "발행사 원문 본문과 입력/송고 표기 및 게시 메타데이터 확인: 2026-09-21 10:30:00 KST. 수정시각·포털 재전송시각 제외.",
+      "verified": true,
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 3
+      }
+    },
+    {
+      "event_id": "ev-20260921",
+      "title": "추석 연휴 낮 시간 공공 충전요금 '반값'⋯자가소비용은 '전액 면제'",
+      "press": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2628092",
+      "published_at": "2026-09-21T15:31:00+09:00",
+      "committees": [
+        "climate_labor"
+      ],
+      "categories": [
+        "LNG·전력",
+        "재생에너지·수소"
+      ],
+      "members": [],
+      "member_review": "의원 발언 중심 기사가 아님. 장관·정부 관계자 발언은 해당 직책의 소관 정책으로 분류. 사진 속 참석 의원은 발언자로 취급하지 않음.",
+      "summary": "추석 연휴 낮 시간 전기차 공공 충전요금 50% 할인 등 재생에너지 잉여전력 활용 대책 발표",
+      "committee_reason": "기후부 전력 수급·재생에너지 활용 정책",
+      "category_reason": "본문의 LNG·전력, 재생에너지·수소 산업 수급·정책 직접 관련성 확인",
+      "time_evidence": "발행사 원문 본문과 입력/송고 표기 및 게시 메타데이터 확인: 2026-09-21 15:31:00 KST. 수정시각·포털 재전송시각 제외.",
+      "verified": true,
+      "importance": {
+        "legislation": 0,
+        "impact": 3,
+        "speaker": 2
+      }
+    },
+    {
+      "event_id": "carton-20260921",
+      "title": "내년부터 아파트서 종이팩 따로 버린다…10월부터 선제 시행",
+      "press": "아주경제",
+      "url": "https://www.ajunews.com/view/20260921083759658",
+      "published_at": "2026-09-21T09:15:00+09:00",
+      "committees": [
+        "climate_labor"
+      ],
+      "categories": [],
+      "members": [],
+      "member_review": "의원 발언 중심 기사가 아님. 장관·정부 관계자 발언은 해당 직책의 소관 정책으로 분류. 사진 속 참석 의원은 발언자로 취급하지 않음.",
+      "summary": "기후부, 10월 공동주택 종이팩 분리배출 선제 시행 및 내년 의무화 추진",
+      "committee_reason": "자원순환·폐기물 분리배출 제도. 장관 소관 기준.",
+      "category_reason": "비우선산업 소관 정책·현안",
+      "time_evidence": "발행사 원문 웹 본문과 입력 2026-09-21 09:15 확인. 로컬 HTTP 403은 웹 원문 열람으로 보완.",
+      "verified": true,
+      "importance": {
+        "legislation": 2,
+        "impact": 2,
+        "speaker": 3
+      }
+    },
+    {
+      "event_id": "green-20260921",
+      "title": "교통비 환급·친환경 소비 혜택…모두의카드·그린카드 연계",
+      "press": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260921054700003",
+      "published_at": "2026-09-21T14:07:12+09:00",
+      "committees": [
+        "climate_labor"
+      ],
+      "categories": [],
+      "members": [],
+      "member_review": "의원 발언 중심 기사가 아님. 장관·정부 관계자 발언은 해당 직책의 소관 정책으로 분류. 사진 속 참석 의원은 발언자로 취급하지 않음.",
+      "summary": "기후부, 대중교통 환급과 친환경 소비 혜택을 결합한 모두의 그린카드 10월 출시 추진",
+      "committee_reason": "친환경 소비·대중교통 이용 촉진 환경정책. 일반 금융감독 기사가 아님.",
+      "category_reason": "비우선산업 소관 정책·현안",
+      "time_evidence": "발행사 원문 본문과 입력/송고 표기 및 게시 메타데이터 확인: 2026-09-21 14:07:12 KST. 수정시각·포털 재전송시각 제외.",
+      "verified": true,
+      "importance": {
+        "legislation": 0,
+        "impact": 2,
+        "speaker": 2
+      }
+    },
+    {
+      "event_id": "prices_e-20260921",
+      "title": "“올해 추석 차례상 비용, 전년보다 1.5~2.3%↓”… 9년 만에 내림세",
+      "press": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03867126645582416",
+      "published_at": "2026-09-21T16:49:02+09:00",
+      "committees": [
+        "finance"
+      ],
+      "categories": [],
+      "members": [],
+      "member_review": "의원 발언 중심 기사가 아님. 장관·정부 관계자 발언은 해당 직책의 소관 정책으로 분류. 사진 속 참석 의원은 발언자로 취급하지 않음.",
+      "summary": "재경부, 추석 차례상 비용 하락 조사 결과 공개 및 명절 물가안정 대책 지속 추진",
+      "committee_reason": "재정경제부 민생물가·할인지원 재정 정책",
+      "category_reason": "비우선산업 소관 정책·현안",
+      "time_evidence": "발행사 원문 본문과 입력/송고 표기 및 게시 메타데이터 확인: 2026-09-21 16:49:02 KST. 수정시각·포털 재전송시각 제외.",
+      "verified": true,
+      "importance": {
+        "legislation": 0,
+        "impact": 3,
+        "speaker": 2
+      }
+    },
+    {
+      "event_id": "support-20260921",
+      "title": "중동발 에너지 위기에 국민 연료비 지원국 90곳 넘어서",
+      "press": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260921136000009",
+      "published_at": "2026-09-21T16:29:48+09:00",
+      "committees": [
+        "finance"
+      ],
+      "categories": [
+        "정유·유가/담합"
+      ],
+      "members": [],
+      "member_review": "의원 발언 중심 기사가 아님. 장관·정부 관계자 발언은 해당 직책의 소관 정책으로 분류. 사진 속 참석 의원은 발언자로 취급하지 않음.",
+      "summary": "중동 에너지 위기로 연료비 지원국 확대 및 감세·보조금의 재정 부담 우려 제기",
+      "committee_reason": "한국 유류세 인하를 포함한 국제 연료 보조금·감세의 재정 부담이 중심. 산중위 공급망 기사와 별개 사안.",
+      "category_reason": "본문의 정유·유가/담합 산업 수급·정책 직접 관련성 확인",
+      "time_evidence": "발행사 원문 본문과 입력/송고 표기 및 게시 메타데이터 확인: 2026-09-21 16:29:48 KST. 수정시각·포털 재전송시각 제외.",
+      "verified": true,
+      "importance": {
+        "legislation": 0,
+        "impact": 3,
+        "speaker": 1
+      }
+    }
+  ],
+  "exclusions": [
+    {
+      "url": "https://www.ajunews.com/view/20260921135239852",
+      "reason": "정유 담합 조사·공정위 일반 법집행 소관. Daily에는 수록하되 세 상임위에 억지 배정하지 않음. 정유4사 기노위 증인 신청·채택 근거 아님."
+    },
+    {
+      "url": "https://www.hani.co.kr/arti/society/environment/1278986.html",
+      "reason": "원문 최초 article:published_time 2026-09-22 09:44, 두 요청 시간대 밖."
+    },
+    {
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02781446645582744",
+      "reason": "9/22 09:00 보도, Morning 마감 이후. 의원 소속도 추가 확인 필요."
+    },
+    {
+      "url": "https://www.newspim.com/news/view/20260921000890",
+      "reason": "전기차 충전요금 할인 동일 사안, 주요 경제지 이투데이 대표 선정."
+    },
+    {
+      "url": "https://www.mk.co.kr/news/editorial/12158457",
+      "reason": "노란봉투법 집행정지 관련 사설. 의견성 보도보다 해당 시간대 직접 확인한 노동부 사회적 대화·고용사업 사실 보도 우선."
+    },
+    {
+      "topic": "대왕고래·주유소 카드회신·화관법 투자비·CISO·정유사 공문",
+      "reason": "해당 시간대 공개 원문·최초시각 또는 요청한 주장 확인 불가. 과거 자료·검색결과만으로 verified 부여하지 않음."
+    },
+    {
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03903206645582416",
+      "reason": "9/21 17:03:11 보도: 9/21 Evening 제외, 9/22 Morning 채택."
+    },
+    {
+      "url": "https://www.yna.co.kr/view/AKR20260921151900002",
+      "reason": "9/21 17:02:25 보도: Evening 동일 사안은 16:49 이데일리, Morning은 연합뉴스 선정."
+    }
+  ]
+}
