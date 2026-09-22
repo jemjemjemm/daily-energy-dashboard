@@ -1,0 +1,667 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-22",
+  "slot": "evening",
+  "period_start": "2026-09-22T08:00:00+09:00",
+  "period_end": "2026-09-22T17:00:00+09:00",
+  "period_label": "2026-09-22 08:00 ~ 2026-09-22 17:00",
+  "generated_at": "2026-09-22T22:23:30.966384+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1599,
+  "total_deduped_count": 19,
+  "total_ok_count": 19,
+  "total_review_count": 0,
+  "total_excluded_count": 6,
+  "grade_counts": {
+    "A": 3,
+    "B": 2,
+    "C": 14
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1209
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 4,
+    "공정위 유가 담합": 3,
+    "기름값 담합": 3,
+    "석유 담합": 9,
+    "석유제품 담합": 11,
+    "유가 담합": 9,
+    "유가담합": 9,
+    "정유사 담합": 7,
+    "주유소 담합": 7
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "'26조원 유가담합' 재판 본격화...자진신고 임직원 증언대 선다",
+      "url": "http://v.daum.net/v/20260922142244436",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-09-22T15:21:57.928986+09:00",
+      "snippet": "정량검사를 하고 있다. 뉴스1 [파이낸셜뉴스] 중동발 위기 상황 당시 고유가 흐름에 올라타 26조원대 유가 담합을 주도한 혐의로 기소된 국내 4대 정유사(HD현대오일뱅크·SK에너지·GS칼텍스·S-OIL)의 재판 쟁점이 윤곽을 드러냈다. 담합 사실을 자진신고(리니언시... 7시간 전",
+      "collected_at": "2026-09-22T22:21:57.929012+09:00",
+      "normalized_title": "'26조원 유가담합' 재판 본격화...자진신고 임직원 증언대 선다",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::'26조원 유가담합' 재판 본격화...자진신고 임직원 증언대 선다",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "http://v.daum.net/v/20260922142244436",
+      "id": "47d4fdcc5ecf76a8",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "LG화학, 3분기 영업익 76% 급감 전망…과징금 최대 1.4조 우려까지",
+      "url": "http://v.daum.net/v/20260922084532061",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-09-22T09:22:36.337096+09:00",
+      "snippet": "를 유지하고, 목표주가를 23만5000원으로 하향 조정했다. 2·4분기 실적을 끌어올렸던 일회성 효과가 사라지는 데다 석유화학 제품 가격 담합 관련 과징금도 부담 요인으로 꼽혔다. 정경희 LS증권 연구원은 22일 \"2·4분기에는 중동 전쟁 영향에 따른 저가 원료 투입... 13시간 전",
+      "collected_at": "2026-09-22T22:22:36.337123+09:00",
+      "normalized_title": "LG화학, 3분기 영업익 76% 급감 전망…과징금 최대 1.4조 우려까지",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::lg화학, 3분기 영업익 76% 급감 전망…과징금 최대 1.4조 우려까지",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260922084532061",
+      "id": "a9dac7f8190c4118",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합' 재판, 리니언시 임직원 11월 증인신문",
+      "url": "http://v.daum.net/v/20260922115128363",
+      "source": "아시아경제",
+      "published_at": "2026-09-22T12:21:59.530126+09:00",
+      "snippet": "직후 유가를 담합해 올린 혐의로 기소된 HD현대오일뱅크 재판에서 리니언시(자진신고자 감면제도)를 통해 같은 혐의로 기소를 면한 SK에너지 임직원들이 오는 11월 증인으로 법정에 선다. 참고 이미지. 연합뉴스 서울중앙지법 형사5단독 류지미 판사는 22일 HD현대... 10시간 전",
+      "collected_at": "2026-09-22T22:21:59.530152+09:00",
+      "normalized_title": "'유가 담합' 재판, 리니언시 임직원 11월 증인신문",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::'유가 담합' 재판, 리니언시 임직원 11월 증인신문",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://v.daum.net/v/20260922115128363",
+      "id": "b9bd1e9b38182b1f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조 유가담합' 재판 본격화…정유 4사 11월부터 핵심 증인신문 시작",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wLVZVQmJDcFlxOE5vazhmSXRnQS13Q2kwYnJRdC1CUTZnMEpYQlFQWm4xREZTZ25WQWJ1c2F5dUJlVGtvT0Vrdlp3enNMUWE5QVFRS1R6NHQ5OHdq?oc=5",
+      "source": "뉴스핌",
+      "published_at": "2026-09-22T11:47:00+09:00",
+      "snippet": "'26조 유가담합' 재판 본격화…정유 4사 11월부터 핵심 증인신문 시작 뉴스핌",
+      "collected_at": "2026-09-22T22:22:12.640542+09:00",
+      "normalized_title": "'26조 유가담합' 재판 본격화…정유 4사 11월부터 핵심 증인신문 시작",
+      "source_normalized": "뉴스핌",
+      "duplicate_key": "뉴스핌::'26조 유가담합' 재판 본격화…정유 4사 11월부터 핵심 증인신문 시작",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wLVZVQmJDcFlxOE5vazhmSXRnQS13Q2kwYnJRdC1CUTZnMEpYQlFQWm4xREZTZ25WQWJ1c2F5dUJlVGtvT0Vrdlp3enNMUWE5QVFRS1R6NHQ5OHdq?oc=5",
+      "id": "dd0cae2ecf81cc24",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "LS證 \"LG화학, 실적 둔화·과징금 리스크…목표가 23만5000원↓\"",
+      "url": "http://v.daum.net/v/20260922081605144",
+      "source": "이투데이",
+      "published_at": "2026-09-22T08:22:38.000675+09:00",
+      "snippet": "달하는 LG에너지솔루션(LGES)의 수익성 감소와 비중 37%인 석유화학 부문의 적자전환으로 수익 정체가 예상된다\"고 설명했다. 정...가성소다(CA), 가소제 등 비닐 체인 8개 품목에 대한 가격 담합 혐의로 검찰 수사와 공정거래위원회 조사가 진행 중\"이라며 \"상향된... 14시간 전",
+      "collected_at": "2026-09-22T22:22:38.000702+09:00",
+      "normalized_title": "LS證 \"LG화학, 실적 둔화·과징금 리스크…목표가 23만5000원↓\"",
+      "source_normalized": "이투데이",
+      "duplicate_key": "이투데이::ls證 \"lg화학, 실적 둔화·과징금 리스크…목표가 23만5000원↓\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260922081605144",
+      "id": "59c8605ff39baae7",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조 유가 담합 의혹' 정유 4사 재판, 11월 증인신문 돌입",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01UUxDM3BwYVRtNlpUNWZrNmlPYy1ETVYwRmdLMExzUDd5X05NR05ySlpsd3p2MHkxRUVVLVNQVkh1ZWdmWWp2MXVZZFBYN1JVd1NDcmlUVThfY2NPSG5NY2ViczlhLWYwcGNPMNIBbEFVX3lxTE01UUxDM3BwYVRtNlpUNWZrNmlPYy1ETVYwRmdLMExzUDd5X05NR05ySlpsd3p2MHkxRUVVLVNQVkh1ZWdmWWp2MXVZZFBYN1JVd1NDcmlUVThfY2NPSG5NY2ViczlhLWYwcGNPMA?oc=5",
+      "source": "bloter.net",
+      "published_at": "2026-09-22T15:49:09+09:00",
+      "snippet": "'14조 유가 담합 의혹' 정유 4사 재판, 11월 증인신문 돌입 bloter.net",
+      "collected_at": "2026-09-22T22:22:01.820702+09:00",
+      "normalized_title": "'14조 유가 담합 의혹' 정유 4사 재판, 11월 증인신문 돌입",
+      "source_normalized": "bloter.net",
+      "duplicate_key": "bloter.net::'14조 유가 담합 의혹' 정유 4사 재판, 11월 증인신문 돌입",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01UUxDM3BwYVRtNlpUNWZrNmlPYy1ETVYwRmdLMExzUDd5X05NR05ySlpsd3p2MHkxRUVVLVNQVkh1ZWdmWWp2MXVZZFBYN1JVd1NDcmlUVThfY2NPSG5NY2ViczlhLWYwcGNPMNIBbEFVX3lxTE01UUxDM3BwYVRtNlpUNWZrNmlPYy1ETVYwRmdLMExzUDd5X05NR05ySlpsd3p2MHkxRUVVLVNQVkh1ZWdmWWp2MXVZZFBYN1JVd1NDcmlUVThfY2NPSG5NY2ViczlhLWYwcGNPMA?oc=5",
+      "id": "f2d2c219e3817e9b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합 혐의' SK에너지 5천만달러 문다",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZkgwc0hCY01mRXhxR205VkpYS3VCRWk2cVk5X1g2TTVLWUlQWkVyS2x4TEc5YlJkQm5jOUlXUGI0cDlWMkhYNzVHZjlvUVNCekxWZ0Z0T0NwU0FVZmY1RDRPNms3VnFyQk1CdV8xRWY1bWMxVjc2UkdKZzB6TTU4Uk5aNDFYUDloOTYyNk9jN0IzNkpvWklTU2xNZ3J5U1p6aHl2eU92WE9NWjFkMHZsbUR3QWw2bFBsay0wSkI1aWQ0VV8zd2xySGk4NXY4TDJCbktF?oc=5",
+      "source": "chosundaily.com",
+      "published_at": "2026-09-22T10:14:08+09:00",
+      "snippet": "'기름값 담합 혐의' SK에너지 5천만달러 문다 chosundaily.com",
+      "collected_at": "2026-09-22T22:22:29.347008+09:00",
+      "normalized_title": "'기름값 담합 혐의' SK에너지 5천만달러 문다",
+      "source_normalized": "chosundaily.com",
+      "duplicate_key": "chosundaily.com::'기름값 담합 혐의' sk에너지 5천만달러 문다",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZkgwc0hCY01mRXhxR205VkpYS3VCRWk2cVk5X1g2TTVLWUlQWkVyS2x4TEc5YlJkQm5jOUlXUGI0cDlWMkhYNzVHZjlvUVNCekxWZ0Z0T0NwU0FVZmY1RDRPNms3VnFyQk1CdV8xRWY1bWMxVjc2UkdKZzB6TTU4Uk5aNDFYUDloOTYyNk9jN0IzNkpvWklTU2xNZ3J5U1p6aHl2eU92WE9NWjFkMHZsbUR3QWw2bFBsay0wSkI1aWQ0VV8zd2xySGk4NXY4TDJCbktF?oc=5",
+      "id": "2506b3cec0e2747a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조 유가담합' 재판 본격화…정유 4사 11월부터 핵심 증인신문 시작",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wLVZVQmJDcFlxOE5vazhmSXRnQS13Q2kwYnJRdC1CUTZnMEpYQlFQWm4xREZTZ25WQWJ1c2F5dUJlVGtvT0Vrdlp3enNMUWE5QVFRS1R6NHQ5OHdq?oc=5",
+      "source": "newspim.com",
+      "published_at": "2026-09-22T11:47:00+09:00",
+      "snippet": "'26조 유가담합' 재판 본격화…정유 4사 11월부터 핵심 증인신문 시작 newspim.com",
+      "collected_at": "2026-09-22T22:22:01.821049+09:00",
+      "normalized_title": "'26조 유가담합' 재판 본격화…정유 4사 11월부터 핵심 증인신문 시작",
+      "source_normalized": "newspim.com",
+      "duplicate_key": "newspim.com::'26조 유가담합' 재판 본격화…정유 4사 11월부터 핵심 증인신문 시작",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wLVZVQmJDcFlxOE5vazhmSXRnQS13Q2kwYnJRdC1CUTZnMEpYQlFQWm4xREZTZ25WQWJ1c2F5dUJlVGtvT0Vrdlp3enNMUWE5QVFRS1R6NHQ5OHdq?oc=5",
+      "id": "e541e60bcfcf9f53",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "석화 구조조정에 담합 수사까지…시장 안정책 시험대",
+      "url": "http://v.daum.net/v/20260922152006611",
+      "source": "뉴스웨이",
+      "published_at": "2026-09-22T15:22:33.357136+09:00",
+      "snippet": "연간 1억1000만~1억3000만톤에 이르는 만큼 공급과잉 해소 효과가 제한적일 수 있다고 분석했다. 이런 가운데 국내 석유화학업계에서는 대형 가격 담합 수사까지 진행되고 있다. 서울중앙지검은 LG화학·한화솔루션·OCI·PKC·애경케미칼·롯데정밀화학·유니드 등... 7시간 전",
+      "collected_at": "2026-09-22T22:22:33.357161+09:00",
+      "normalized_title": "석화 구조조정에 담합 수사까지…시장 안정책 시험대",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::석화 구조조정에 담합 수사까지…시장 안정책 시험대",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260922152006611",
+      "id": "04ce131ee2338179",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'14조 유가 담합 의혹' 정유 4사 재판, 11월 증인신문 돌입새 창 열림",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=674233",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T16:21:52.263083+09:00",
+      "snippet": "검찰에 따르면 피고인들의 혐의는 유가 담합과 주유소 대상 불공정 행위, 증거 인멸 등이다. HD현대오일뱅크는 SK에너지와 2024년 7월부터 올해 2월까지 가격 정보를 교환한 혐의를 받는다. 미국·이란 전쟁 발발 직후에는 SK에너지가 HD현대오일뱅크보다 먼저 리터당 30~40원 높게 가격을 올리는 등의 합의를... 새 창 열림",
+      "collected_at": "2026-09-22T22:21:52.263099+09:00",
+      "normalized_title": "'14조 유가 담합 의혹' 정유 4사 재판, 11월 증인신문 돌입새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'14조 유가 담합 의혹' 정유 4사 재판, 11월 증인신문 돌입새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.bloter.net/news/articleView.html?idxno=674233",
+      "id": "743ee38f81f8cd41",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'경영 불관여' 감형됐는데…PKC 김성훈 최대주주 '경영권 영향' 공시, 핵...새 창 열림",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=311864",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T15:22:30.824760+09:00",
+      "snippet": "이런 가운데 PKC는 최근 대규모 석유화학제품 가격 담합 의혹으로 검찰 수사를 받고 있다. 서울중앙지법은 2026년 9월 19일 공정거래법 위반 혐의를 받는 PKC 영업본부장 출신 배모씨에 대해 구속영장을 발부했다. LG화학에서 사업부장과 해외 법인장 등을 지낸 황모씨도 같은 혐의로 구속됐다. 검찰은 PKC와... 새 창 열림",
+      "collected_at": "2026-09-22T22:22:30.824777+09:00",
+      "normalized_title": "'경영 불관여' 감형됐는데…PKC 김성훈 최대주주 '경영권 영향' 공시, 핵...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'경영 불관여' 감형됐는데…pkc 김성훈 최대주주 '경영권 영향' 공시, 핵...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ppss.kr/news/articleView.html?idxno=311864",
+      "id": "1c4366661275154c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "석화 구조조정에 담합 수사까지…시장 안정책 시험대새 창 열림",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026092214333564257",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T15:22:30.821918+09:00",
+      "snippet": "이런 가운데 국내 석유화학업계에서는 대형 가격 담합 수사까지 진행되고 있다. 서울중앙지검은 LG화학·한화솔루션·OCI·PKC·애경케미칼·롯데정밀화학·유니드 등 7개 업체가 PVC와 가소제, 가성소다, 염산 등 8개 제품의 가격 인상 시기와 폭을 사전에 협의한 혐의를 수사하고 있다. 검찰이 특정한 담합 관련... 새 창 열림",
+      "collected_at": "2026-09-22T22:22:30.821934+09:00",
+      "normalized_title": "석화 구조조정에 담합 수사까지…시장 안정책 시험대새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::석화 구조조정에 담합 수사까지…시장 안정책 시험대새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsway.co.kr/news/view?ud=2026092214333564257",
+      "id": "59b65fda63b5de08",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조원 유가담합' 재판 본격화...자진신고 임직원 증언대 선다새 창 열림",
+      "url": "https://www.fnnews.com/news/202609221105517430",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T15:21:52.264663+09:00",
+      "snippet": "중동발 위기 상황 당시 고유가 흐름에 올라타 26조원대 유가 담합을 주도한 혐의로 기소된 국내 4대 정유사(HD현대오일뱅크·SK에너지·GS칼텍스·S-OIL)의... 반면 피고인 측 변호인은 \"증인은 공정위 자진신고를 한 상태로, 수사나 재판 과정에서 전부 또는 일부 진술을 번복할 수 없는 구조\"라며 \"공동행위 관련... 새 창 열림",
+      "collected_at": "2026-09-22T22:21:52.264679+09:00",
+      "normalized_title": "'26조원 유가담합' 재판 본격화...자진신고 임직원 증언대 선다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'26조원 유가담합' 재판 본격화...자진신고 임직원 증언대 선다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.fnnews.com/news/202609221105517430",
+      "id": "0c84129f3ba0482a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘자영주유소 불공정거래’ 정유4사 재판...11월 SK 관계자 증인신문 시...새 창 열림",
+      "url": "https://www.etoday.co.kr/news/view/2628507",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T14:21:52.266057+09:00",
+      "snippet": "이투데이=박진희 기자 | 법원 “가격담합 부분을 우선 심리” 11월 SK에너지 관계자 2명 증인신문 예정 자영주유소가 자사 석유제품만 구매하도록 하고 이를 어길 경우 불이익을 주는 등의 혐의로 기소된 정유 4사 사건에서 11월부터 유가담합 혐의에 대한 핵심 증인신문이 시작된다. 서울중앙지법 형사5단독... 새 창 열림",
+      "collected_at": "2026-09-22T22:21:52.266074+09:00",
+      "normalized_title": "‘자영주유소 불공정거래’ 정유4사 재판...11월 SK 관계자 증인신문 시...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘자영주유소 불공정거래’ 정유4사 재판...11월 sk 관계자 증인신문 시...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.etoday.co.kr/news/view/2628507",
+      "id": "33014731c4cdf5d6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "주유소",
+        "석유제품",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'26조 유가담합' 재판 본격화…정유 4사 11월부터 핵심 증인신문 시작새 창 열림",
+      "url": "https://www.newspim.com/news/view/20260922000616",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T12:21:52.269057+09:00",
+      "snippet": "26조원대 유가 담합과 주유소를 상대로 한 거래상 지위 남용 혐의로 기소된 국내 정유 4사와 임직원들의 재판이 본격적인 심리 준비에 들어갔다. 서울중앙지법 형사5단독 류지미 판사는 22일 독점규제 및 공정거래에 관한 법률 위반 등 혐의로 기소된 HD현대오일뱅크·SK에너지·에쓰오일·GS칼텍스 등 4개... 새 창 열림",
+      "collected_at": "2026-09-22T22:21:52.269072+09:00",
+      "normalized_title": "'26조 유가담합' 재판 본격화…정유 4사 11월부터 핵심 증인신문 시작새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'26조 유가담합' 재판 본격화…정유 4사 11월부터 핵심 증인신문 시작새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://www.newspim.com/news/view/20260922000616",
+      "id": "82994fa305efc4df",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'유가 담합' 재판, 리니언시 임직원 11월 증인신문새 창 열림",
+      "url": "https://view.asiae.co.kr/article/2026092211494892516",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T12:21:52.267636+09:00",
+      "snippet": "미국·이란 전쟁 직후 유가를 담합해 올린 혐의로 기소된 HD현대오일뱅크 재판에서 리니언시(자진신고자 감면제도)를 통해 같은 혐의로 기소를 면한 SK에너지 임직원들이 오는 11월 증인으로 법정에 선다. 서울중앙지법 형사5단독 류지미 판사는 22일 HD현대오일뱅크·SK에너지·GS칼텍스·에쓰오일 등 정유... 새 창 열림",
+      "collected_at": "2026-09-22T22:21:52.267651+09:00",
+      "normalized_title": "'유가 담합' 재판, 리니언시 임직원 11월 증인신문새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'유가 담합' 재판, 리니언시 임직원 11월 증인신문새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://view.asiae.co.kr/article/2026092211494892516",
+      "id": "f193deffc2996bd7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "LG화학, 3분기 영업익 76% 급감 전망…과징금 최대 1.4조 우려까지새 창 열림",
+      "url": "https://www.fnnews.com/news/202609220833104998",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T09:23:04.673262+09:00",
+      "snippet": "2·4분기 실적을 끌어올렸던 일회성 효과가 사라지는 데다 석유화학 제품 가격 담합 관련 과징금도 부담 요인으로 꼽혔다. 정경희 LS증권 연구원은 22일 \"2·4분기에는 중동 전쟁 영향에 따른 저가 원료 투입 효과와 제품 가격 상승, 생명과학 라이선스아웃 등에 힘입어 영업이익이 시장 기대치를... 새 창 열림",
+      "collected_at": "2026-09-22T22:23:04.673279+09:00",
+      "normalized_title": "LG화학, 3분기 영업익 76% 급감 전망…과징금 최대 1.4조 우려까지새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::lg화학, 3분기 영업익 76% 급감 전망…과징금 최대 1.4조 우려까지새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.fnnews.com/news/202609220833104998",
+      "id": "a1fdab91b3ea23c0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[모닝 리포트] LG화학, 3분기 '래깅 효과' 소멸에 수익성 급랭…담합 과...새 창 열림",
+      "url": "https://www.newspim.com/news/view/20260922000145",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T09:22:30.829029+09:00",
+      "snippet": "LG에너지솔루션(LGES) 지분가치의 비중이 높은 현 밸류에이션 구조와 석유화학 업황 부진, 담합 과징금 리스크 등을 감안한 판단이다. LG화학 로고. [사진=LG화학] LS증권은 LG화학의 3분기 연결 기준 매출액을 13조5920억원, 영업이익을 1420억원으로 추정했다. 매출은 전년 동기 대비 32.6% 증가하지만 전... 새 창 열림",
+      "collected_at": "2026-09-22T22:22:30.829046+09:00",
+      "normalized_title": "[모닝 리포트] LG화학, 3분기 '래깅 효과' 소멸에 수익성 급랭…담합 과...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[모닝 리포트] lg화학, 3분기 '래깅 효과' 소멸에 수익성 급랭…담합 과...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newspim.com/news/view/20260922000145",
+      "id": "59cf0f53b4683d05",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "LS證 \"LG화학, 실적 둔화·과징금 리스크…목표가 23만5000원↓\"새 창 열림",
+      "url": "https://www.etoday.co.kr/news/view/2628275",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T08:23:04.674682+09:00",
+      "snippet": "이투데이=서청석 기자 | LS증권은 LG화학에 대해 2분기 일회성 요인 소멸과 높은 원재료가 반영에 따른 3분기 실적 둔화, 비닐 체인 담합 과징금... 2%)의 호실적을 기록했다\"며 \"그러나 석유화학 부문 제품 대다수에서 중동발 영향이 일회성으로 소멸되고 2분기의 높은 원재료가가 반영되면서 3분기... 새 창 열림",
+      "collected_at": "2026-09-22T22:23:04.674699+09:00",
+      "normalized_title": "LS證 \"LG화학, 실적 둔화·과징금 리스크…목표가 23만5000원↓\"새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::ls證 \"lg화학, 실적 둔화·과징금 리스크…목표가 23만5000원↓\"새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.etoday.co.kr/news/view/2628275",
+      "id": "d4db653f98d6957b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
