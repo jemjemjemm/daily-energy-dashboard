@@ -1,0 +1,333 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-22",
+  "slot": "night",
+  "period_start": "2026-09-22T17:00:00+09:00",
+  "period_end": "2026-09-23T00:00:00+09:00",
+  "period_label": "2026-09-22 17:00 ~ 2026-09-23 00:00",
+  "generated_at": "2026-09-23T10:28:17.280265+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1599,
+  "total_deduped_count": 8,
+  "total_ok_count": 8,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 1,
+    "C": 7
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1209
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 1,
+    "기름값 담합": 3,
+    "석유 담합": 4,
+    "석유제품 담합": 1,
+    "유가 담합": 6,
+    "유가담합": 6,
+    "유류가격 담합": 1,
+    "정유사 담합": 6,
+    "정유업계 담합": 2,
+    "주유소 담합": 4,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "‘26조 유가 담합 혐의’ 정유4사 재판...11월 SK에너지 관계자 증인신문",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oZlVnVkFOS1lFd1pGSnVYSER5WnBNa1JBYlRZWS1lcjZxbUF6b2JPcUR3X09zYWJBVHhXTjZsMEVLWUI4b2IzMHVaakVKOXVneXVpWDRoVXhDeUtqbXZqMWlkNmRoc1pwWkk0N2t3?oc=5",
+      "source": "아시아투데이",
+      "published_at": "2026-09-22T17:58:39+09:00",
+      "snippet": "‘26조 유가 담합 혐의’ 정유4사 재판...11월 SK에너지 관계자 증인신문 아시아투데이",
+      "collected_at": "2026-09-23T10:27:15.883369+09:00",
+      "normalized_title": "‘26조 유가 담합 혐의’ 정유4사 재판...11월 SK에너지 관계자 증인신문",
+      "source_normalized": "아시아투데이",
+      "duplicate_key": "아시아투데이::‘26조 유가 담합 혐의’ 정유4사 재판...11월 sk에너지 관계자 증인신문",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oZlVnVkFOS1lFd1pGSnVYSER5WnBNa1JBYlRZWS1lcjZxbUF6b2JPcUR3X09zYWJBVHhXTjZsMEVLWUI4b2IzMHVaakVKOXVneXVpWDRoVXhDeUtqbXZqMWlkNmRoc1pwWkk0N2t3?oc=5",
+      "id": "2ef7e28c3a8eca3d",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "기름값 묶은 반년…'손실 보전' 행정소송 가나",
+      "url": "http://v.daum.net/v/20260922175348151",
+      "source": "MTN 머니투데이방송",
+      "published_at": "2026-09-22T18:27:12.802335+09:00",
+      "snippet": "가까운 수준입니다. 반면 국내 휘발유 값은 18주 연속 내려, 오늘(22일) 전국 평균 가격은 리터당 1858원대를 기록했습니다. 정부가...당국은 원가 기준 정산 원칙을 고수하고 있습니다. 정부 올해 예산은 5조6000억원에 그칩니다. 담합 혐의로 정유사들을 기소한... 16시간 전",
+      "collected_at": "2026-09-23T10:27:12.802360+09:00",
+      "normalized_title": "기름값 묶은 반년…'손실 보전' 행정소송 가나",
+      "source_normalized": "MTN 머니투데이방송",
+      "duplicate_key": "mtn 머니투데이방송::기름값 묶은 반년…'손실 보전' 행정소송 가나",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://v.daum.net/v/20260922175348151",
+      "id": "0f4555624118c10c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 10월 출범 '중점조사기획단' 민생 침해 불공정 집중 점검새 창 열림",
+      "url": "http://www.intn.co.kr/news/articleView.html?idxno=2053604",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T19:27:23.714857+09:00",
+      "snippet": "주병기 공정거래위원장이 취임 1주년을 맞아 진행한 출입기자간담회에서 네이버·두나무 기업결합 관련 연내 심의가 이루어질 수 있도록 신속히 심사를 마무리하고, 석유류 가격담합 관련 10월까지 조사를 마치고 심의절차 개시 여부를 결정하도록 서두르겠다고 밝혔다. 이날 주 위원장은 취임 1년의 소회와 성과... 새 창 열림",
+      "collected_at": "2026-09-23T10:27:23.714885+09:00",
+      "normalized_title": "공정위, 10월 출범 '중점조사기획단' 민생 침해 불공정 집중 점검새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::공정위, 10월 출범 '중점조사기획단' 민생 침해 불공정 집중 점검새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.intn.co.kr/news/articleView.html?idxno=2053604",
+      "id": "dffe1d3a75718888",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "가격담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "LG화학, 3분기 영업이익 76% 감소 전망… 석화 수익성 부담 - LS증권새 창 열림",
+      "url": "http://www.biztribune.co.kr/news/articleView.html?idxno=359477",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T18:27:34.218756+09:00",
+      "snippet": "비닐체인 가격 담합 관련 검찰 수사와 공정거래위원회 조사도 향후 변수로 지목됐다. 조사 대상에는 폴리염화비닐(PVC), 가성소다(CA), 가소제, 염산 등 8개 품목이 포함됐으며, PVC는 LG화학 석유화학 주요 제품군 가운데 생산 비중이 두 번째로 높다. LS증권은 5년간 추정 매출액과 상향된 과징금 기준을... 새 창 열림",
+      "collected_at": "2026-09-23T10:27:34.218772+09:00",
+      "normalized_title": "LG화학, 3분기 영업이익 76% 감소 전망… 석화 수익성 부담 - LS증권새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::lg화학, 3분기 영업이익 76% 감소 전망… 석화 수익성 부담 - ls증권새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.biztribune.co.kr/news/articleView.html?idxno=359477",
+      "id": "5b976b280b9712cb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "기름값 묶은 반년…'손실 보전' 행정소송 가나새 창 열림",
+      "url": "https://news.mtn.co.kr/news-detail/2026092216435954353",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T18:27:09.897091+09:00",
+      "snippet": "반면 국내 휘발유 값은 18주 연속 내려, 오늘(22일) 전국 평균 가격은 리터당 1858원대를 기록했습니다. 정부가 이달 19일 10차까지 네 번 연속 가격을... 정부 올해 예산은 5조6000억원에 그칩니다.담합 혐의로 정유사들을 기소한 검찰은 최고가격제 기간 손실 자체가 없다고 주장했고, 정산위 일각에서 조 단위... 새 창 열림",
+      "collected_at": "2026-09-23T10:27:09.897121+09:00",
+      "normalized_title": "기름값 묶은 반년…'손실 보전' 행정소송 가나새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::기름값 묶은 반년…'손실 보전' 행정소송 가나새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://news.mtn.co.kr/news-detail/2026092216435954353",
+      "id": "e3a769490597b056",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[이슈] 석화업계 담합 수사, 2명 구속·6명은 기각새 창 열림",
+      "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=814016",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T17:27:09.901467+09:00",
+      "snippet": "혐의 기간인 2021년 이후는 건설업계가 자재비 급등을 겪은 시기다. 다만 검찰이 특정 산업의 피해나 가격 전가 규모를 적시한 것은 아니다. 서울중앙지검은 올해 7월에도 4대 정유사와 임직원을 14조2000억원 규모 유가 담합 혐의로 기소한 바 있어, 이번 사건은 두 번째 조 단위 담합 수사다. 오늘경제새 창 열림",
+      "collected_at": "2026-09-23T10:27:09.901483+09:00",
+      "normalized_title": "[이슈] 석화업계 담합 수사, 2명 구속·6명은 기각새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[이슈] 석화업계 담합 수사, 2명 구속·6명은 기각새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=814016",
+      "id": "74c6e4604d954785",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[법적공방] '14조 유가 담합' 재판 본격화…리니언시 핵심증인 11월 증언...새 창 열림",
+      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065596666280722",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T17:27:09.900063+09:00",
+      "snippet": "이번 사건에서는 SK에너지 담당 직원들이 리니언시를 적용받아 재판에 넘겨지지 않았으며 SK에너지 법인도 담합 혐의 기소 대상에서 제외됐다. 재판부는 증인신문에 앞서 오는 11월19일 변호인 측 프레젠테이션도 진행하기로 했다. 정유사들이 주유소에 제시하는 입금가의 의미와 가격 결정 구조 등 사건의... 새 창 열림",
+      "collected_at": "2026-09-23T10:27:09.900078+09:00",
+      "normalized_title": "[법적공방] '14조 유가 담합' 재판 본격화…리니언시 핵심증인 11월 증언...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[법적공방] '14조 유가 담합' 재판 본격화…리니언시 핵심증인 11월 증언...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065596666280722",
+      "id": "5f5c3153263f766d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[허프 생각] 정부는 짓누르고 정유사는 담합하고 : 주유소는 그 사이에...새 창 열림",
+      "url": "https://www.huffingtonpost.kr/article/260741",
+      "source": "새 창 열림",
+      "published_at": "2026-09-22T17:27:09.898603+09:00",
+      "snippet": "여기 정유사들은 주유소에 불합리한 방식으로 석유를 공급하고 담합까지 했다는 의혹을 받고 있다. 정부와 정유사 사이에 낀 주유소만 고통받는 형국이다. 정부는 18일 민생 안정 등을 목적으로 추석 연휴 기간(24~27일) 전국 고속도로 주유소 유류가격을 리터당 100원 인하하기로 했다. 인하 적용 대상은... 새 창 열림",
+      "collected_at": "2026-09-23T10:27:09.898621+09:00",
+      "normalized_title": "[허프 생각] 정부는 짓누르고 정유사는 담합하고 : 주유소는 그 사이에...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[허프 생각] 정부는 짓누르고 정유사는 담합하고 : 주유소는 그 사이에...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://www.huffingtonpost.kr/article/260741",
+      "id": "67d43893d9f1edbe",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "주유소",
+        "유류가격",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
