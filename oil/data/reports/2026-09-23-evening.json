@@ -1,0 +1,365 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-23",
+  "slot": "evening",
+  "period_start": "2026-09-23T08:00:00+09:00",
+  "period_end": "2026-09-23T17:00:00+09:00",
+  "period_label": "2026-09-23 08:00 ~ 2026-09-23 17:00",
+  "generated_at": "2026-09-23T22:36:11.977115+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1596,
+  "total_deduped_count": 10,
+  "total_ok_count": 10,
+  "total_review_count": 0,
+  "total_excluded_count": 6,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 9
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1206
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 1,
+    "석유 담합": 10,
+    "석유제품 담합": 9,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "주유소 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "정부 지원금 받으면서도 담합…석유화학 7개사 16조 넘었다",
+      "url": "http://v.daum.net/v/20260923140245485",
+      "source": "서울경제",
+      "published_at": "2026-09-23T14:35:45.024129+09:00",
+      "snippet": "거래조사부(부장검사 나희석)는 LG화학·한화솔루션·애경케미칼·OCI·롯데정밀화학·PKC·유니드 등 석유화학제품 7개사의 담합 사건을 수사하며 파악한 담합 규모만 16조 원 이상인 것으로 드러났다. 검찰 직수사건 기준으로 보면 사상 최고치다. 법원도 지난... 8시간 전 1",
+      "collected_at": "2026-09-23T22:35:45.024152+09:00",
+      "normalized_title": "정부 지원금 받으면서도 담합…석유화학 7개사 16조 넘었다",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::정부 지원금 받으면서도 담합…석유화학 7개사 16조 넘었다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260923140245485",
+      "id": "c54e6465ccb74a5c",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[2026 국감 레이더④] SK에너지·GS칼텍스·S-OIL·HD현대오일뱅크 '긴장...새 창 열림",
+      "url": "https://www.newsworker.co.kr/news/articleView.html?idxno=505894",
+      "source": "새 창 열림",
+      "published_at": "2026-09-23T15:35:30.303349+09:00",
+      "snippet": "증인 신청 배경은 다른 정유사 CEO들과 마찬가지로 석유제품 가격 담합 의혹과 주유소 전속거래 문제다. 국감에서는 국제유가 변동이 국내 석유제품 가격에 반영되는 과정과 정유사의 가격 결정 구조, 주유소와의 거래 관계 등이 주요 쟁점으로 거론될 가능성이 있다. 송 대표가 최종 증인으로 채택될 경우... 새 창 열림",
+      "collected_at": "2026-09-23T22:35:30.303373+09:00",
+      "normalized_title": "[2026 국감 레이더④] SK에너지·GS칼텍스·S-OIL·HD현대오일뱅크 '긴장...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[2026 국감 레이더④] sk에너지·gs칼텍스·s-oil·hd현대오일뱅크 '긴장...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.newsworker.co.kr/news/articleView.html?idxno=505894",
+      "id": "afeb8a8fdff94247",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "주유소",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부 지원금 받으면서도 담합…석유화학 7개사 16조 넘었다새 창 열림",
+      "url": "https://www.sedaily.com/article/20094492?ref=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-09-23T14:35:41.431632+09:00",
+      "snippet": "법원도 지난 19일 석유화학제품 담합에 관여한 혐의를 받는 석유화학업체 전현직 임직원 8명에 대한 구속 전 피의자 심문에서 이 같은 담합 규모 등 범죄의 중대성과 증거 인멸 우려를 바탕으로 LG화학·PKC 임직원 2명에 대한 구속영장을 발부했다. 검찰은 주요 석유화학업체 전현직 임직원 8명에 대한... 새 창 열림",
+      "collected_at": "2026-09-23T22:35:41.431640+09:00",
+      "normalized_title": "정부 지원금 받으면서도 담합…석유화학 7개사 16조 넘었다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정부 지원금 받으면서도 담합…석유화학 7개사 16조 넘었다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.sedaily.com/article/20094492?ref=naver",
+      "id": "02d8dbd500b5ffb0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'15조 석화 담합' 절반이 PVC·ECH…생산사 각각 2곳새 창 열림",
+      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5065554",
+      "source": "새 창 열림",
+      "published_at": "2026-09-23T14:35:41.430846+09:00",
+      "snippet": "국내 주요 석유화학 업체들의 15조원대 가격 담합 의혹 가운데 생산기업이 각각 2곳인 PVC(폴리염화비닐)와 ECH(에피클로로히드린) 가 전체의 약 48%를 차지하는 것으로 나타났다. 23일 업계에 따르면, 서울중앙지검 공정거래조사부는 LG화학, 한화솔루션, 애경케미칼, OCI, 롯데정밀화학, PKC, 유니드 등 7개... 새 창 열림",
+      "collected_at": "2026-09-23T22:35:41.430855+09:00",
+      "normalized_title": "'15조 석화 담합' 절반이 PVC·ECH…생산사 각각 2곳새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'15조 석화 담합' 절반이 pvc·ech…생산사 각각 2곳새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5065554",
+      "id": "5bd39a0d44d5d0f7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "위기의 석화업계, 생존을 위해 '신뢰'가 최우선이다 [기자수첩]새 창 열림",
+      "url": "https://www.sisaon.co.kr/news/articleView.html?idxno=204695",
+      "source": "새 창 열림",
+      "published_at": "2026-09-23T13:35:41.432311+09:00",
+      "snippet": "석유화학업계에 요즘 가장 많이 등장하는 단어는 '생존'이다. 중국발 공급과잉과 수요 부진이 겹치면서 국내 석유화학업계는 생산설비를 줄이고 사업을... 가격 담합 의혹이다. 검찰은 LG화학·한화솔루션·애경케미칼·OCI·롯데정밀화학·PKC·유니드 등 7개 업체가 수년간 PVC와 가소제, 가성소다, 염산 등 8개 제품의... 새 창 열림",
+      "collected_at": "2026-09-23T22:35:41.432318+09:00",
+      "normalized_title": "위기의 석화업계, 생존을 위해 '신뢰'가 최우선이다 [기자수첩]새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::위기의 석화업계, 생존을 위해 '신뢰'가 최우선이다 [기자수첩]새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.sisaon.co.kr/news/articleView.html?idxno=204695",
+      "id": "74c6d90381a15527",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "15조 담합이라지만…PVC 2곳·가성소다 5곳, 책임도 같을까?새 창 열림",
+      "url": "https://www.peoplewatch.co.kr/article/view/ppw202609230008",
+      "source": "새 창 열림",
+      "published_at": "2026-09-23T11:35:41.432987+09:00",
+      "snippet": "국내 주요 석유화학업체 7곳이 최대 15조원 규모의 가격 담합 의혹으로 검찰 수사를 받고 있지만, 이들을 하나의 잣대로 평가하기는 어렵다는 지적이... 검찰은 LG화학·한화솔루션·애경케미칼·OCI·롯데정밀화학·PKC·유니드 등 7개 업체가 PVC와 가소제, 가성소다, 염산 등 8개 석유화학제품의 가격을 사전에... 새 창 열림",
+      "collected_at": "2026-09-23T22:35:41.432994+09:00",
+      "normalized_title": "15조 담합이라지만…PVC 2곳·가성소다 5곳, 책임도 같을까?새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::15조 담합이라지만…pvc 2곳·가성소다 5곳, 책임도 같을까?새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.peoplewatch.co.kr/article/view/ppw202609230008",
+      "id": "56b1beecf32548ad",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'15조 석화 담합' 7개사 똑같이 묶였지만…품목·사업비중 천차만별새 창 열림",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=489854",
+      "source": "새 창 열림",
+      "published_at": "2026-09-23T09:35:41.433667+09:00",
+      "snippet": "약 15조원 규모의 가격 담합 의혹으로 국내 석유화학 업체 7곳이 한데 묶여 검찰 수사를 받고 있지만, 실제 수사 대상 품목과 생산 규모는 기업마다 큰... 8개 석유화학 제품의 가격을 사전에 협의한 것으로 보고 수사를 진행하고 있다. 검찰이 특정한 전체 규모는 약 15조원으로 알려졌다. 그러나 7개... 새 창 열림",
+      "collected_at": "2026-09-23T22:35:41.433675+09:00",
+      "normalized_title": "'15조 석화 담합' 7개사 똑같이 묶였지만…품목·사업비중 천차만별새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'15조 석화 담합' 7개사 똑같이 묶였지만…품목·사업비중 천차만별새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=489854",
+      "id": "4fd0d0a9033b8b0a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "형사사법체계 개편 앞두고 속도 내는 검찰…MBK·홈플러스 사건 이달 결...새 창 열림",
+      "url": "https://www.pressian.com/pages/articles/2026092308113520115?utm_source=naver&utm_medium=search",
+      "source": "새 창 열림",
+      "published_at": "2026-09-23T08:35:41.434394+09:00",
+      "snippet": "이와 함께 검찰이 신병 확보에 나선 석유화학 제품 담합 사건을 비롯해 국회의원 전직 보좌관의 뇌물수수 사건, 한국토지신탁 계열사 자금담당 임원의 횡령·배임 사건 처리도 중수청 개청 전 검찰단계에서 마무리 될 수 있을지도 관심이다. 법조계 관계자는 \"검찰 입장에서는 중수청 이관 후 검찰 수사의... 새 창 열림",
+      "collected_at": "2026-09-23T22:35:41.434404+09:00",
+      "normalized_title": "형사사법체계 개편 앞두고 속도 내는 검찰…MBK·홈플러스 사건 이달 결...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::형사사법체계 개편 앞두고 속도 내는 검찰…mbk·홈플러스 사건 이달 결...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.pressian.com/pages/articles/2026092308113520115?utm_source=naver&utm_medium=search",
+      "id": "49ad58e7e2c21e6a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'15조 석화 담합' 절반이 PVC·ECH…생산사 각각 2곳",
+      "url": "http://v.daum.net/v/20260923141309864",
+      "source": "신아일보",
+      "published_at": "2026-09-23T14:35:43.814587+09:00",
+      "snippet": "화학 플랜트 앞 PVC 수지 백색 분말 시료 이미지. [이미지=오픈AI 챗GPT] 국내 주요 석유화학 업체들의 15조원대 가격 담합 의혹 가운데 생산기업이 각각 2곳인 PVC(폴리염화비닐)와 ECH(에피클로로히드린) 가 전체의 약 48%를 차지하는 것으로 나타났다. 23일 업계... 8시간 전",
+      "collected_at": "2026-09-23T22:35:43.814610+09:00",
+      "normalized_title": "'15조 석화 담합' 절반이 PVC·ECH…생산사 각각 2곳",
+      "source_normalized": "신아일보",
+      "duplicate_key": "신아일보::'15조 석화 담합' 절반이 pvc·ech…생산사 각각 2곳",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260923141309864",
+      "id": "96edb80476e2089e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "형사사법체계 개편 앞두고 속도 내는 검찰…MBK·홈플러스 사건 이달 결론 나나",
+      "url": "http://v.daum.net/v/20260923081451765",
+      "source": "프레시안",
+      "published_at": "2026-09-23T08:35:46.306375+09:00",
+      "snippet": "많고 검찰이 수사력을 집중한 사건이어서 그 결론에 대한 관심이 높아지고 있다. 이와 함께 검찰이 신병 확보에 나선 석유화학 제품 담합 사건을 비롯해 국회의원 전직 보좌관의 뇌물수수 사건, 한국토지신탁 계열사 자금담당 임원의 횡령·배임 사건 처리도 중수청... 14시간 전",
+      "collected_at": "2026-09-23T22:35:46.306400+09:00",
+      "normalized_title": "형사사법체계 개편 앞두고 속도 내는 검찰…MBK·홈플러스 사건 이달 결론 나나",
+      "source_normalized": "프레시안",
+      "duplicate_key": "프레시안::형사사법체계 개편 앞두고 속도 내는 검찰…mbk·홈플러스 사건 이달 결론 나나",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260923081451765",
+      "id": "f09c59ba434a9510",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
