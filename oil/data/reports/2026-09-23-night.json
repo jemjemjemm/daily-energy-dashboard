@@ -1,0 +1,117 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-23",
+  "slot": "night",
+  "period_start": "2026-09-23T17:00:00+09:00",
+  "period_end": "2026-09-24T00:00:00+09:00",
+  "period_label": "2026-09-23 17:00 ~ 2026-09-24 00:00",
+  "generated_at": "2026-09-24T10:20:31.940672+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1594,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1204
+  },
+  "query_counts": {
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "주유소 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "LG화학, 3분기 영업익 1420억 전망…석화 부진에 '최대 1.4조' 과징금 변...새 창 열림",
+      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065618584416696",
+      "source": "새 창 열림",
+      "published_at": "2026-09-23T22:19:53.114628+09:00",
+      "snippet": "LS증권은 최근 언론 보도를 토대로 PVC와 가성소다, 가소제, 염산 등 8개 품목을 둘러싼 약 15조원 규모 가격 담합 의혹에 대해 검찰 수사와 공정위 조사가 진행되고 있다고 설명했다. 주요 제품인 PVC는 회사의 석유화학 제품군에서 비중이 높은 품목이다. LS증권 자료상 주요 제품 가운데 PVC 비중은 19.... 새 창 열림",
+      "collected_at": "2026-09-24T10:19:53.114644+09:00",
+      "normalized_title": "LG화학, 3분기 영업익 1420억 전망…석화 부진에 '최대 1.4조' 과징금 변...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::lg화학, 3분기 영업익 1420억 전망…석화 부진에 '최대 1.4조' 과징금 변...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065618584416696",
+      "id": "a75addfa2a1283e7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[2026 국감-上] 국감장 세울 기업은 누구…산업계 ‘증인 리스트’ 벌써...새 창 열림",
+      "url": "https://theviewers.co.kr/View.aspx?No=4237552",
+      "source": "새 창 열림",
+      "published_at": "2026-09-23T17:19:47.282497+09:00",
+      "snippet": "정유업계에서는 4대 정유사 최고경영자가 한꺼번에 증인으로 신청됐다. 김종화 SK에너지 대표이사 사장, 허세홍 GS칼텍스 대표이사 사장, 안종범 S-OIL... 정유사의 가격 결정 과정과 자영주유소 전속거래 문제 등을 확인하기 위해 증인 명단에 올랐다. 검찰은 앞서 4대 정유사 법인과 임직원들을 가격 담합 및... 새 창 열림",
+      "collected_at": "2026-09-24T10:19:47.282527+09:00",
+      "normalized_title": "[2026 국감-上] 국감장 세울 기업은 누구…산업계 ‘증인 리스트’ 벌써...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[2026 국감-上] 국감장 세울 기업은 누구…산업계 ‘증인 리스트’ 벌써...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://theviewers.co.kr/View.aspx?No=4237552",
+      "id": "07066389f4c9f804",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "정유업계",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
