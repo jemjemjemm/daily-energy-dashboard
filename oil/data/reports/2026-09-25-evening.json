@@ -1,0 +1,148 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-25",
+  "slot": "evening",
+  "period_start": "2026-09-25T08:00:00+09:00",
+  "period_end": "2026-09-25T17:00:00+09:00",
+  "period_label": "2026-09-25 08:00 ~ 2026-09-25 17:00",
+  "generated_at": "2026-09-25T22:40:55.346536+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1576,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1186
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 2,
+    "석유 담합": 3,
+    "석유제품 담합": 1,
+    "정유사 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "'네이버·두나무' 결합부터 국고채 담합까지…공정위, 4분기 中 굵직한 사건 줄줄이 마침표 예고",
+      "url": "http://v.daum.net/v/20260925110149962",
+      "source": "아시아경제",
+      "published_at": "2026-09-25T11:40:19.562344+09:00",
+      "snippet": "관계부처인 재정경제부의 촉각이 곤두서 있다. 이와 더불어 고물가 시대 서민 생활과 직접적으로 맞닿아 있는 정유사들의 석유류 가격 담합 사건 역시 심의 절차에 속도를 낸다. 공정위는 해당 사건에 대한 촘촘한 조사를 오는 10월까지 모두 마치고 심의 절차 개시... 11시간 전",
+      "collected_at": "2026-09-25T22:40:19.562372+09:00",
+      "normalized_title": "'네이버·두나무' 결합부터 국고채 담합까지…공정위, 4분기 中 굵직한 사건 줄줄이 마침표 예고",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::'네이버·두나무' 결합부터 국고채 담합까지…공정위, 4분기 中 굵직한 사건 줄줄이 마침표 예고",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://v.daum.net/v/20260925110149962",
+      "id": "550076e3d52c371f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'네이버·두나무' 결합부터 국고채 담합까지…공정위, 4분기 中 굵직한...새 창 열림",
+      "url": "https://view.asiae.co.kr/article/2026092314541241845",
+      "source": "새 창 열림",
+      "published_at": "2026-09-25T11:40:16.124623+09:00",
+      "snippet": "이와 더불어 고물가 시대 서민 생활과 직접적으로 맞닿아 있는 정유사들의 석유류 가격 담합 사건 역시 심의 절차에 속도를 낸다. 공정위는 해당 사건에 대한 촘촘한 조사를 오는 10월까지 모두 마치고 심의 절차 개시 여부를 최종 결정지을 예정이다. 반칙을 저지르고 얻는 부당 이익보다 법 위반에 따른 경제적... 새 창 열림",
+      "collected_at": "2026-09-25T22:40:16.124654+09:00",
+      "normalized_title": "'네이버·두나무' 결합부터 국고채 담합까지…공정위, 4분기 中 굵직한...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'네이버·두나무' 결합부터 국고채 담합까지…공정위, 4분기 中 굵직한...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://view.asiae.co.kr/article/2026092314541241845",
+      "id": "7d8721992f8ea066",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘16조’ 석화 담합 수사, 구속 국면으로…가격 결정 구조 겨눈다새 창 열림",
+      "url": "https://www.sentv.co.kr/article/view/sentv202609230140",
+      "source": "새 창 열림",
+      "published_at": "2026-09-25T08:40:24.647119+09:00",
+      "snippet": "석유화학 제품 가격 담합 의혹 수사가 기업 임원 구속 단계로 넘어가면서 사건이 의혹 규명을 넘어 사법 처리 국면으로 진입했다. 25일 법조계에 따르면 최근 서울중앙지검은 증거인멸 우려를 사유로 LG화학 전직 사업부장 등 임원 2명을 구속했고, 현직 폴리염화비닐(PVC)·가소제 사업부장도 피의자 신분으로... 새 창 열림",
+      "collected_at": "2026-09-25T22:40:24.647136+09:00",
+      "normalized_title": "‘16조’ 석화 담합 수사, 구속 국면으로…가격 결정 구조 겨눈다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘16조’ 석화 담합 수사, 구속 국면으로…가격 결정 구조 겨눈다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.sentv.co.kr/article/view/sentv202609230140",
+      "id": "02ef669f51d411aa",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
