@@ -1,0 +1,78 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-24",
+  "slot": "night",
+  "period_start": "2026-09-24T17:00:00+09:00",
+  "period_end": "2026-09-25T00:00:00+09:00",
+  "period_label": "2026-09-24 17:00 ~ 2026-09-25 00:00",
+  "generated_at": "2026-09-25T10:26:30.059021+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1590,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1200
+  },
+  "query_counts": {
+    "석유 담합": 1,
+    "석유제품 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "'78년 수사' 막 내리는 검찰, 추석 연휴 반납한 '라스트댄스'",
+      "url": "http://v.daum.net/v/20260924050326956",
+      "source": "2026.09.24",
+      "published_at": "2026-09-24T22:00:00+09:00",
+      "snippet": "연합뉴스 다음달 2일부터 공소청으로 전환되며 직접수사권을 잃게되는 검찰이 윤석열 전 대통령 부부 관련 사건, 15조원대 석유화학제품 담합 사건 등 그간 수사해온 주요 사건들의 처분을 서두르고 있다. 78년 만에 수사기관으로서 막을 내리는 검찰의 '라스트 댄스... 2026.09.24 22",
+      "collected_at": "2026-09-25T10:26:06.415137+09:00",
+      "normalized_title": "'78년 수사' 막 내리는 검찰, 추석 연휴 반납한 '라스트댄스'",
+      "source_normalized": "2026.09.24",
+      "duplicate_key": "2026.09.24::'78년 수사' 막 내리는 검찰, 추석 연휴 반납한 '라스트댄스'",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20260924050326956",
+      "id": "fe48b9fb76f29685",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
