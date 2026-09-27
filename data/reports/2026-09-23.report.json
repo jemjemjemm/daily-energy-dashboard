@@ -1,31 +1,31 @@
 {
   "template_version": "2.0",
   "report": {
-    "report_date": "2026-09-22",
-    "display_date": "2026년 9월 22일 (화)",
-    "previous_day_label": "9/21",
-    "today_label": "9/22",
-    "generated_at": "2026-09-22 12:28 KST",
+    "report_date": "2026-09-23",
+    "display_date": "2026년 9월 23일 (수)",
+    "previous_day_label": "9/22",
+    "today_label": "9/23",
+    "generated_at": "2026-09-28 08:43 KST",
     "review_status": "검토 완료",
     "report_version": "reviewed-original-sources-v2.0",
     "header_title": "Daily Issue Report",
     "report_title": "Daily Issue Report",
     "report_badge": "정유 · 석유화학 · LNG",
     "meta_description": "정유·석유화학·LNG 관련 일일 유가 동향 및 주요 이슈 리포트",
-    "previous_source_date": "2026-09-21"
+    "previous_source_date": "2026-09-22"
   },
   "summary": [
     {
       "type": "today",
-      "text": "금일 주요 일정: AI와 기업의 미래 연구회 발족식, 제41회 국무회의, 원전 공론화 추진 계획 브리핑, 재정성과관리 심포지엄"
+      "text": "금일 주요 일정: 자원안보 협의회, 포항 지진안전종합센터 구축 및 운영을 위한 업무협약식, 한미일 AI·첨단기술 협력 세미나"
     },
     {
       "type": "news_trend",
-      "text": "(Morning) △최고가격제 손실보상 산정 기준을 둘러싼 정부·정유업계 이견 및 업계 출구전략 요구 △7월 원유 도입 회복 속 정유업계 수급 관리·공정 효율화 등 수익성 방어 추진 △대미 원전·알래스카 LNG 투자 협상에서 지분율·수익성 등 상업적 합리성 쟁점 부각"
+      "text": "(Morning) △정부, 웨스팅하우스 공동 경영권 인수 무산 이후 의결권 있는 지분 5~10% 확보 협상 추진 △석유공사, 대왕고래 시추 전후 어업 생산량 변화와 영향 검증을 위한 연구용역 추진 △도로공사, 추석 유류 할인에 따른 주유 수요 증가 대비 및 고속도로 주유소 공급·혼잡 관리 추진"
     },
     {
       "type": "news_trend_afternoon",
-      "text": "(Evening) △산업부, 텍사스 가스발전 1호 투자 추진과 원전·알래스카 후속 협상 계획 국회 보고 △정부, 원전 역할에 대한 3개월 공론화 추진 및 12차 전력수급기본계획 반영 방침 발표 △국회 세미나, 전기차 구매 부담 완화를 위한 배터리 별도 등록·구독 제도 개선 논의"
+      "text": "(Evening) △정부, 2035년 원유 특정지역 의존도 50% 이하 목표와 비축시설 확충·핵심광물 확대 계획 확정 △정부, 전력시장 운영·감독 분리를 위한 전기사업법 연내 개정과 전력감독원 내년 출범 추진 △최고가격제 보전 예산 5조7000억원 편성 보도 및 최종 재정부담 불확실성 제기"
     }
   ],
   "prices": {
@@ -56,19 +56,14 @@
           "unit": "$/Bbl"
         }
       ],
-      "chart_period_label": "7/21~9/21",
+      "chart_period_label": "7/22~9/21",
       "chart_window": {
-        "start": "2026-07-21",
-        "end": "2026-09-21",
+        "start": "2026-07-22",
+        "end": "2026-09-22",
         "rule": "report_date - 1 day, then minus 2 calendar months"
       },
       "chart_series": {
         "Brent": [
-          {
-            "date": "2026-07-21",
-            "label": "7/21",
-            "value": 91.01
-          },
           {
             "date": "2026-07-22",
             "label": "7/22",
@@ -292,11 +287,6 @@
         ],
         "WTI": [
           {
-            "date": "2026-07-21",
-            "label": "7/21",
-            "value": 84.91
-          },
-          {
             "date": "2026-07-22",
             "label": "7/22",
             "value": 86.83
@@ -513,11 +503,6 @@
           }
         ],
         "Dubai": [
-          {
-            "date": "2026-07-21",
-            "label": "7/21",
-            "value": 82.49
-          },
           {
             "date": "2026-07-22",
             "label": "7/22",
@@ -761,19 +746,14 @@
           "unit": "$/Bbl"
         }
       ],
-      "chart_period_label": "7/21~9/21",
+      "chart_period_label": "7/22~9/21",
       "chart_window": {
-        "start": "2026-07-21",
-        "end": "2026-09-21",
+        "start": "2026-07-22",
+        "end": "2026-09-22",
         "rule": "report_date - 1 day, then minus 2 calendar months"
       },
       "chart_series": {
         "Gasoline": [
-          {
-            "date": "2026-07-21",
-            "label": "7/21",
-            "value": 114.14
-          },
           {
             "date": "2026-07-22",
             "label": "7/22",
@@ -992,11 +972,6 @@
         ],
         "Diesel": [
           {
-            "date": "2026-07-21",
-            "label": "7/21",
-            "value": 153.96
-          },
-          {
             "date": "2026-07-22",
             "label": "7/22",
             "value": 163.58
@@ -1213,11 +1188,6 @@
           }
         ],
         "Naphtha": [
-          {
-            "date": "2026-07-21",
-            "label": "7/21",
-            "value": 95.29
-          },
           {
             "date": "2026-07-22",
             "label": "7/22",
@@ -1439,28 +1409,11 @@
   },
   "issues": [
     {
-      "category": "에너지",
-      "category_class": "",
-      "title": "종이팩 재활용체계 개선 업무협약",
-      "description": "09:15 · 김성환 기후에너지환경부 장관",
-      "time": "09:15",
-      "org": "김성환 기후에너지환경부 장관",
-      "location": "",
-      "links": [
-        {
-          "label": "관련 기사 없음",
-          "url": ""
-        }
-      ],
-      "grade": "",
-      "grade_class": ""
-    },
-    {
       "category": "정책",
       "category_class": "",
-      "title": "M.AX CEO 해커톤 대회",
-      "description": "10:00 · 김정관 산업통상부 장관",
-      "time": "10:00",
+      "title": "AI와 기업의 미래 연구회 발족식",
+      "description": "08:00 · 김정관 산업통상부 장관",
+      "time": "08:00",
       "org": "김정관 산업통상부 장관",
       "location": "",
       "links": [
@@ -1475,10 +1428,10 @@
     {
       "category": "에너지",
       "category_class": "",
-      "title": "태양광기업 공동활용연구센터 방문",
-      "description": "10:30 · 김성환 기후에너지환경부 장관",
-      "time": "10:30",
-      "org": "김성환 기후에너지환경부 장관",
+      "title": "제41회 국무회의",
+      "description": "10:00 · 한성숙 국무총리, 허장 재경부 2차관, 박홍근 기획예산처 장관, 김진아 외교부 2차관, 이두희 국방부 차관, 구혁채 과기정통부 1차관, 주병기 공정위원장, 송미령 농식품부 장관, 오유경 식약처장, 정은경 복지부 장관, 김영훈 노동부 장관, 원민경 성평등가족부 장관, 이병권 중기부 2차관, 고민수 방미통부위원장, 김대현 문체부 2차관, 최교진 교육부 장관, 정동영 통일부 장관, 윤호중 행안부 장관, 김광용 재난안전관리본부장, 권오을 보훈부 장관, 김정관 산업통상부 장관, 박정성 통상교섭본부장, 김성환 기후에너지환경부 장관, 홍지선 국토부 2차관, 이억원 금융위원회 위원장",
+      "time": "10:00",
+      "org": "한성숙 국무총리, 허장 재경부 2차관, 박홍근 기획예산처 장관, 김진아 외교부 2차관, 이두희 국방부 차관, 구혁채 과기정통부 1차관, 주병기 공정위원장, 송미령 농식품부 장관, 오유경 식약처장, 정은경 복지부 장관, 김영훈 노동부 장관, 원민경 성평등가족부 장관, 이병권 중기부 2차관, 고민수 방미통부위원장, 김대현 문체부 2차관, 최교진 교육부 장관, 정동영 통일부 장관, 윤호중 행안부 장관, 김광용 재난안전관리본부장, 권오을 보훈부 장관, 김정관 산업통상부 장관, 박정성 통상교섭본부장, 김성환 기후에너지환경부 장관, 홍지선 국토부 2차관, 이억원 금융위원회 위원장",
       "location": "",
       "links": [
         {
@@ -1492,7 +1445,7 @@
     {
       "category": "에너지",
       "category_class": "",
-      "title": "제4회 지구하다 페스티벌",
+      "title": "원전 공론화 추진 계획 브리핑",
       "description": "13:00 · 김성환 기후에너지환경부 장관",
       "time": "13:00",
       "org": "김성환 기후에너지환경부 장관",
@@ -1507,12 +1460,12 @@
       "grade_class": ""
     },
     {
-      "category": "에너지",
+      "category": "정책",
       "category_class": "",
-      "title": "추석 맞이 청사 방호원?환경실무원 격려",
-      "description": "13:30 · 금한승 기후에너지환경부 1차관",
+      "title": "재정성과관리 심포지엄",
+      "description": "13:30 · 박홍근 기획예산처 장관",
       "time": "13:30",
-      "org": "금한승 기후에너지환경부 1차관",
+      "org": "박홍근 기획예산처 장관",
       "location": "",
       "links": [
         {
@@ -1526,10 +1479,27 @@
     {
       "category": "에너지",
       "category_class": "",
-      "title": "모두의 그린카드 업무협약",
+      "title": "2026년 추석 연휴 특수경부하기 점검 회의",
       "description": "14:00 · 이호현 기후에너지환경부 2차관",
       "time": "14:00",
       "org": "이호현 기후에너지환경부 2차관",
+      "location": "",
+      "links": [
+        {
+          "label": "관련 기사 없음",
+          "url": ""
+        }
+      ],
+      "grade": "",
+      "grade_class": ""
+    },
+    {
+      "category": "에너지",
+      "category_class": "",
+      "title": "폐자동차 내 희토 영구자석 순환이용 업무협약",
+      "description": "14:00 · 금한승 기후에너지환경부 1차관",
+      "time": "14:00",
+      "org": "금한승 기후에너지환경부 1차관",
       "location": "",
       "links": [
         {
@@ -1543,108 +1513,59 @@
   ],
   "schedules": [
     {
-      "time": "08:00",
+      "time": "09:30",
       "org": "김정관 산업통상부 장관",
       "attendees": "김정관 산업통상부 장관",
-      "title": "AI와 기업의 미래 연구회 발족식",
+      "title": "자원안보 협의회",
       "relevance": ""
     },
     {
       "time": "10:00",
-      "org": "한성숙 국무총리, 허장 재경부 2차관, 박홍근 기획예산처 장관, 김진아 외교부 2차관, 이두희 국방부 차관, 구혁채 과기정통부 1차관, 주병기 공정위원장, 송미령 농식품부 장관, 오유경 식약처장, 정은경 복지부 장관, 김영훈 노동부 장관, 원민경 성평등가족부 장관, 이병권 중기부 2차관, 고민수 방미통부위원장, 김대현 문체부 2차관, 최교진 교육부 장관, 정동영 통일부 장관, 윤호중 행안부 장관, 김광용 재난안전관리본부장, 권오을 보훈부 장관, 김정관 산업통상부 장관, 박정성 통상교섭본부장, 김성환 기후에너지환경부 장관, 홍지선 국토부 2차관, 이억원 금융위원회 위원장",
-      "attendees": "한성숙 국무총리, 허장 재경부 2차관, 박홍근 기획예산처 장관, 김진아 외교부 2차관, 이두희 국방부 차관, 구혁채 과기정통부 1차관, 주병기 공정위원장, 송미령 농식품부 장관, 오유경 식약처장, 정은경 복지부 장관, 김영훈 노동부 장관, 원민경 성평등가족부 장관, 이병권 중기부 2차관, 고민수 방미통부위원장, 김대현 문체부 2차관, 최교진 교육부 장관, 정동영 통일부 장관, 윤호중 행안부 장관, 김광용 재난안전관리본부장, 권오을 보훈부 장관, 김정관 산업통상부 장관, 박정성 통상교섭본부장, 김성환 기후에너지환경부 장관, 홍지선 국토부 2차관, 이억원 금융위원회 위원장",
-      "title": "제41회 국무회의",
-      "relevance": ""
-    },
-    {
-      "time": "13:00",
-      "org": "김성환 기후에너지환경부 장관",
-      "attendees": "김성환 기후에너지환경부 장관",
-      "title": "원전 공론화 추진 계획 브리핑",
-      "relevance": ""
-    },
-    {
-      "time": "13:30",
-      "org": "박홍근 기획예산처 장관",
-      "attendees": "박홍근 기획예산처 장관",
-      "title": "재정성과관리 심포지엄",
-      "relevance": ""
-    },
-    {
-      "time": "14:00",
       "org": "이호현 기후에너지환경부 2차관",
       "attendees": "이호현 기후에너지환경부 2차관",
-      "title": "2026년 추석 연휴 특수경부하기 점검 회의",
+      "title": "포항 지진안전종합센터 구축 및 운영을 위한 업무협약식",
       "relevance": ""
     },
     {
-      "time": "14:00",
-      "org": "금한승 기후에너지환경부 1차관",
-      "attendees": "금한승 기후에너지환경부 1차관",
-      "title": "폐자동차 내 희토 영구자석 순환이용 업무협약",
-      "relevance": ""
-    },
-    {
-      "time": "14:30",
-      "org": "김성환 기후에너지환경부 장관",
-      "attendees": "김성환 기후에너지환경부 장관",
-      "title": "탄소중립 선도도시 간담회",
-      "relevance": ""
-    },
-    {
-      "time": "16:00",
-      "org": "금한승 기후에너지환경부 1차관",
-      "attendees": "금한승 기후에너지환경부 1차관",
-      "title": "주한EU대사 면담",
-      "relevance": ""
-    },
-    {
-      "time": "16:00",
-      "org": "김성환 기후에너지환경부 장관",
-      "attendees": "김성환 기후에너지환경부 장관",
-      "title": "폐배터리 납 2차 제련 관련 면담",
-      "relevance": ""
-    },
-    {
-      "time": "시간 미정",
-      "org": "한미의회교류센터",
-      "attendees": "한미의회교류센터",
-      "title": "한미 방산협력 및 방위산업 공급망 강화 세미나",
+      "time": "10:00 현지시간",
+      "org": "한미경제연구소(KEI)",
+      "attendees": "한미경제연구소(KEI)",
+      "title": "한미일 AI·첨단기술 협력 세미나",
       "relevance": ""
     }
   ],
   "news_trend": {
-    "summary": "△최고가격제 손실보상 산정 기준을 둘러싼 정부·정유업계 이견 및 업계 출구전략 요구 △7월 원유 도입 회복 속 정유업계 수급 관리·공정 효율화 등 수익성 방어 추진 △대미 원전·알래스카 LNG 투자 협상에서 지분율·수익성 등 상업적 합리성 쟁점 부각",
+    "summary": "△정부, 웨스팅하우스 공동 경영권 인수 무산 이후 의결권 있는 지분 5~10% 확보 협상 추진 △석유공사, 대왕고래 시추 전후 어업 생산량 변화와 영향 검증을 위한 연구용역 추진 △도로공사, 추석 유류 할인에 따른 주유 수요 증가 대비 및 고속도로 주유소 공급·혼잡 관리 추진",
     "trend_paragraphs": [
-      "최고가격제 손실보상 산정 기준을 둘러싼 정부·정유업계 이견 및 업계 출구전략 요구",
-      "7월 원유 도입 회복 속 정유업계 수급 관리·공정 효율화 등 수익성 방어 추진",
-      "대미 원전·알래스카 LNG 투자 협상에서 지분율·수익성 등 상업적 합리성 쟁점 부각"
+      "정부, 웨스팅하우스 공동 경영권 인수 무산 이후 의결권 있는 지분 5~10% 확보 협상 추진",
+      "석유공사, 대왕고래 시추 전후 어업 생산량 변화와 영향 검증을 위한 연구용역 추진",
+      "도로공사, 추석 유류 할인에 따른 주유 수요 증가 대비 및 고속도로 주유소 공급·혼잡 관리 추진"
     ],
     "articles": [
       {
-        "title": "최고가격제 장기화에 정유업계 반발…“출구전략 검토할 때”",
-        "press": "이데일리",
-        "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03903206645582416",
-        "summary": "최고가격제 손실보상 산정 기준을 둘러싼 정부·정유업계 이견 및 업계 출구전략 요구",
-        "published_at_kst": "2026-09-21T17:03:11+09:00",
+        "title": "WEC 공동인수 무산에…의결권 노려 플랜B 가동",
+        "press": "서울경제",
+        "url": "https://www.sedaily.com/article/20094174",
+        "summary": "정부, 웨스팅하우스 공동 경영권 인수 무산 이후 의결권 있는 지분 5~10% 확보 협상 추진",
+        "published_at_kst": "2026-09-22T18:06:39+09:00",
         "summary_basis": "original_article_body_manual_review",
         "verified": true
       },
       {
-        "title": "원유 도입 9.8% 늘었지만 고유가·최고가격제 부담…정유4사 수익성 방어 주력",
+        "title": "구룡포 홍게 줄어든 진짜 이유, 석유공사가 규명 나선다",
         "press": "파이낸셜뉴스",
-        "url": "https://www.fnnews.com/news/202609201233599276",
-        "summary": "7월 원유 도입 회복 속 정유업계 수급 관리·공정 효율화 등 수익성 방어 추진",
-        "published_at_kst": "2026-09-22T06:59:00+09:00",
+        "url": "https://www.fnnews.com/news/202609221828042000",
+        "summary": "석유공사, 대왕고래 시추 전후 어업 생산량 변화와 영향 검증을 위한 연구용역 추진",
+        "published_at_kst": "2026-09-22T18:28:06+09:00",
         "summary_basis": "original_article_body_manual_review",
         "verified": true
       },
       {
-        "title": "웨스팅하우스 지분율 등 상업적 합리성 암초…대미투자 '위태'(종합)",
+        "title": "\"유류비 100원 인하로 추석 고속도로 주유소 판매 1.5배 전망\"",
         "press": "연합뉴스",
-        "url": "https://www.yna.co.kr/view/AKR20260921126051003",
-        "summary": "대미 원전·알래스카 LNG 투자 협상에서 지분율·수익성 등 상업적 합리성 쟁점 부각",
-        "published_at_kst": "2026-09-21T19:20:53+09:00",
+        "url": "https://www.yna.co.kr/view/AKR20260922168200003",
+        "summary": "도로공사, 추석 유류 할인에 따른 주유 수요 증가 대비 및 고속도로 주유소 공급·혼잡 관리 추진",
+        "published_at_kst": "2026-09-22T17:07:15+09:00",
         "summary_basis": "original_article_body_manual_review",
         "verified": true
       }
@@ -1660,8 +1581,7 @@
       "가격 데이터에서 0값은 카드·그래프 산출에서 제외합니다.",
       "정책 방향, 정부 의도, 업계 손익 영향은 원문 근거가 없는 경우 단정하지 않습니다.",
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
-      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
-      "가격 추이 그래프는 기준일 전일 기준 과거 2개월(7/21~9/21)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
+      "가격 추이 그래프는 기준일 전일 기준 과거 2개월(7/22~9/22)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
       "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
     ],
@@ -1669,7 +1589,7 @@
       {
         "name": "오늘의 주요일정",
         "type": "schedule",
-        "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245917"
+        "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245954"
       },
       {
         "name": "국제 원유가격 원천 데이터",
@@ -1689,12 +1609,12 @@
       {
         "name": "오피넷 국제유가 > 원유",
         "type": "price",
-        "url": "https://www.opinet.co.kr/gloptotSelect.do"
+        "url": ""
       },
       {
         "name": "오피넷 국제유가 > 석유제품",
         "type": "price",
-        "url": "https://www.opinet.co.kr/glopopdSelect.do"
+        "url": ""
       },
       {
         "name": "장기 가격 이력 history.json",
@@ -1739,80 +1659,72 @@
       "previous_schedule_status": "ok"
     },
     "safetimes": {
-      "today_source_file_date": "2026-09-22",
-      "today_source_title": "[오늘의 주요일정·22일] 정부, 대미투자 관련 국회 보고",
-      "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245917",
-      "today_source_published_at": "2026-09-22",
-      "today_source_schedule_candidate_count": 118,
-      "today_parsed_schedule_count": 10,
-      "previous_source_file_date": "2026-09-21",
-      "previous_source_title": "[오늘의 주요일정·21일] 행안부, 추석 대비 산불 임시조립주택 현장점검",
-      "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245870",
-      "previous_source_schedule_candidate_count": 110,
-      "previous_parsed_schedule_count": 7,
-      "parser_version": "build_report_draft_from_schedule.py v2.4-schedule-repair",
+      "today_source_file_date": "2026-09-23",
+      "today_source_title": "[오늘의 주요일정·23일] 복지부, 추석 연휴 응급의료체계 점검",
+      "today_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245954",
+      "today_source_published_at": "2026-09-23",
+      "today_source_schedule_candidate_count": 70,
+      "today_parsed_schedule_count": 3,
+      "previous_source_file_date": "2026-09-22",
+      "previous_source_title": "[오늘의 주요일정·22일] 정부, 대미투자 관련 국회 보고",
+      "previous_source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245917",
+      "previous_source_schedule_candidate_count": 118,
+      "previous_parsed_schedule_count": 10,
+      "parser_version": "build_report_draft_from_schedule.py v2.3-merged-schedule-attendees",
       "needs_review": true
     },
-    "news": {
-      "source_file": "data/news/2026-09-22.json",
-      "article_count": 3,
-      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
-      "status": "updated",
-      "needs_review": true,
-      "report_slot": "morning"
-    },
     "opinet_prices": {
-      "price_json_used": true,
-      "source_date": "2026-09-22",
+      "price_json_used": false,
+      "source_date": "",
       "history_schema_version": "1.3",
       "history_period": {
         "start": "2026-01-01",
         "end": "2026-05-20"
       },
       "chart_window": {
-        "start": "2026-07-21",
-        "end": "2026-09-21",
+        "start": "2026-07-22",
+        "end": "2026-09-22",
         "rule": "report_date - 1 day, then minus 2 calendar months"
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-09-22 12:28:51 KST",
+      "merged_at": "2026-09-28 08:43:33 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
   },
   "news_trend_afternoon": {
-    "summary": "△산업부, 텍사스 가스발전 1호 투자 추진과 원전·알래스카 후속 협상 계획 국회 보고 △정부, 원전 역할에 대한 3개월 공론화 추진 및 12차 전력수급기본계획 반영 방침 발표 △국회 세미나, 전기차 구매 부담 완화를 위한 배터리 별도 등록·구독 제도 개선 논의",
+    "summary": "△정부, 2035년 원유 특정지역 의존도 50% 이하 목표와 비축시설 확충·핵심광물 확대 계획 확정 △정부, 전력시장 운영·감독 분리를 위한 전기사업법 연내 개정과 전력감독원 내년 출범 추진 △최고가격제 보전 예산 5조7000억원 편성 보도 및 최종 재정부담 불확실성 제기",
     "trend_paragraphs": [
-      "산업부, 텍사스 가스발전 1호 투자 추진과 원전·알래스카 후속 협상 계획 국회 보고",
-      "정부, 원전 역할에 대한 3개월 공론화 추진 및 12차 전력수급기본계획 반영 방침 발표",
-      "국회 세미나, 전기차 구매 부담 완화를 위한 배터리 별도 등록·구독 제도 개선 논의"
+      "정부, 2035년 원유 특정지역 의존도 50% 이하 목표와 비축시설 확충·핵심광물 확대 계획 확정",
+      "정부, 전력시장 운영·감독 분리를 위한 전기사업법 연내 개정과 전력감독원 내년 출범 추진",
+      "최고가격제 보전 예산 5조7000억원 편성 보도 및 최종 재정부담 불확실성 제기"
     ],
     "articles": [
       {
-        "title": "대미투자 1호 텍사스 가스발전…원전·알래스카는 추가 논의(종합)",
+        "title": "중동 원유 의존도 70%→50% 이하로…비축 2천만배럴 확충(종합)",
         "press": "연합뉴스",
-        "url": "https://www.yna.co.kr/view/AKR20260922068851001",
-        "summary": "산업부, 텍사스 가스발전 1호 투자 추진과 원전·알래스카 후속 협상 계획 국회 보고",
-        "published_at_kst": "2026-09-22T11:26:13+09:00",
+        "url": "https://www.yna.co.kr/view/AKR20260923044551003",
+        "summary": "정부, 2035년 원유 특정지역 의존도 50% 이하 목표와 비축시설 확충·핵심광물 확대 계획 확정",
+        "published_at_kst": "2026-09-23T10:16:58+09:00",
         "summary_basis": "original_article_body_manual_review",
         "verified": true
       },
       {
-        "title": "전력수요 급증 전망에 '원전 역할' 묻는다…3개월 공론 진행(종합)",
-        "press": "연합뉴스",
-        "url": "https://www.yna.co.kr/view/AKR20260921182751530",
-        "summary": "정부, 원전 역할에 대한 3개월 공론화 추진 및 12차 전력수급기본계획 반영 방침 발표",
-        "published_at_kst": "2026-09-22T13:36:00+09:00",
+        "title": "'전력판 금감원' 설립법 연내 처리…내년 출범 속도",
+        "press": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202609231046529178",
+        "summary": "정부, 전력시장 운영·감독 분리를 위한 전기사업법 연내 개정과 전력감독원 내년 출범 추진",
+        "published_at_kst": "2026-09-23T10:54:04+09:00",
         "summary_basis": "original_article_body_manual_review",
         "verified": true
       },
       {
-        "title": "\"차체·배터리 소유권 분리 필요\"…전기차 보급 촉진에 신사업까지",
-        "press": "뉴스1",
-        "url": "https://www.news1.kr/industry/auto-industry/6298347",
-        "summary": "국회 세미나, 전기차 구매 부담 완화를 위한 배터리 별도 등록·구독 제도 개선 논의",
-        "published_at_kst": "2026-09-22T10:00:00+09:00",
+        "title": "“추석 기름값 싼건 좋은데”…외신이 경고한 ‘5.7조 청구서’ [이슈+]",
+        "press": "에너지경제",
+        "url": "https://www.ekn.kr/web/view.php?key=20260923029008494",
+        "summary": "최고가격제 보전 예산 5조7000억원 편성 보도 및 최종 재정부담 불확실성 제기",
+        "published_at_kst": "2026-09-23T14:17:09+09:00",
         "summary_basis": "original_article_body_manual_review",
         "verified": true
       }
