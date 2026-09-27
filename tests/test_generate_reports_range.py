@@ -15,6 +15,17 @@ from scripts.generate_reports_range import (
 
 
 class SchedulePublicationValidationTests(unittest.TestCase):
+    def test_monday_after_chuseok_is_a_report_workday(self):
+        from datetime import date
+        from scripts.generate_reports_range import KOREAN_HOLIDAYS_2026, previous_report_workday
+        from scripts.validate_report_html import is_holiday
+
+        # KASI 2026 calendar: Chuseok holidays Sep 24-26, followed by Sunday.
+        self.assertIn("2026-09-26", KOREAN_HOLIDAYS_2026)
+        self.assertNotIn("2026-09-28", KOREAN_HOLIDAYS_2026)
+        self.assertFalse(is_holiday("2026-09-28"))
+        self.assertEqual(previous_report_workday(date(2026, 9, 29), True, True), date(2026, 9, 28))
+
     def test_normalizes_form_encoded_date_separator(self):
         self.assertEqual(normalize_date_text("2026+07-13", "--start"), "2026-07-13")
         self.assertEqual(normalize_date_text(" 2026.07.15 ", "--end"), "2026-07-15")
