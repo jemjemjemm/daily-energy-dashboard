@@ -1,0 +1,243 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-27",
+  "slot": "evening",
+  "period_start": "2026-09-27T08:00:00+09:00",
+  "period_end": "2026-09-27T17:00:00+09:00",
+  "period_label": "2026-09-27 08:00 ~ 2026-09-27 17:00",
+  "generated_at": "2026-09-27T22:54:20.154967+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1563,
+  "total_deduped_count": 5,
+  "total_ok_count": 5,
+  "total_review_count": 0,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 4
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1173
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 2,
+    "공정위 유가 담합": 1,
+    "기름값 담합": 3,
+    "석유 담합": 4,
+    "석유제품 담합": 4,
+    "유가 담합": 4,
+    "유가담합": 4,
+    "유류가격 담합": 1,
+    "정유사 담합": 2,
+    "정유업계 담합": 3,
+    "주유소 담합": 2,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "유가 담합·최고가격제 이중고…정유업계 “시장가 왜곡하는 강제 정책”",
+      "url": "http://v.daum.net/v/20260927143251103",
+      "source": "이데일리",
+      "published_at": "2026-09-27T14:53:08.815613+09:00",
+      "snippet": "결정 주체가 만나 가격 수준과 인상 시기를 합의하는 전형적인 담합과도 차이가 있다는 주장이다. 업계 관계자는 “각 사에서 가격...고 말했다. 정유업계가 민감한 영역은 또 있다. 정부가 기름값 안정을 위해 올 3월 도입해, 이달 19일에 10차까지 제도를 연장한... 8시간 전",
+      "collected_at": "2026-09-27T22:53:08.815642+09:00",
+      "normalized_title": "유가 담합·최고가격제 이중고…정유업계 “시장가 왜곡하는 강제 정책”",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::유가 담합·최고가격제 이중고…정유업계 “시장가 왜곡하는 강제 정책”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "http://v.daum.net/v/20260927143251103",
+      "id": "455876686bec7ccf",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "유가 담합·최고가격제 이중고…정유업계 “시장가 왜곡하는 강제 정책”",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWVJUeGNhTzFjb3FjVGY1UEZSU3lyLWt2N1BJUng4ZUl1MF9sME9EbkRPcUdiMFFSYzJOZVBhakNtQVM5a3NqajV4OExtQTliR1BYanhTZ1pySWlWTFJHVGl4ZDB2UE5vZER1TFI5NUtNTE56R0lTaVJueWl6RVZ3Nw?oc=5",
+      "source": "edaily.co.kr",
+      "published_at": "2026-09-27T14:30:09+09:00",
+      "snippet": "유가 담합·최고가격제 이중고…정유업계 “시장가 왜곡하는 강제 정책” edaily.co.kr",
+      "collected_at": "2026-09-27T22:53:09.461916+09:00",
+      "normalized_title": "유가 담합·최고가격제 이중고…정유업계 “시장가 왜곡하는 강제 정책”",
+      "source_normalized": "edaily.co.kr",
+      "duplicate_key": "edaily.co.kr::유가 담합·최고가격제 이중고…정유업계 “시장가 왜곡하는 강제 정책”",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWVJUeGNhTzFjb3FjVGY1UEZSU3lyLWt2N1BJUng4ZUl1MF9sME9EbkRPcUdiMFFSYzJOZVBhakNtQVM5a3NqajV4OExtQTliR1BYanhTZ1pySWlWTFJHVGl4ZDB2UE5vZER1TFI5NUtNTE56R0lTaVJueWl6RVZ3Nw?oc=5",
+      "id": "9a3ac120a96d9a55",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "화학제품, 페인트, 석유제품 담합 감사합니다",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNklJd1RyNFJaQ2JEWTF4SU1JYzhxdDJ2TVAtSk5IWWZCdy00MXlIaENKNlBGZmRwSHB2V0U3LVA1ejI4ZmlQVTR6UUJKdGNEYVVGSE5rV2VBT1RYY054dERrWVVUdmFQWXpaLUd6NkxkVEhDcS1OYTNWWWd2ZUx5S2NqdGdyZGh0aHdxRGRudmVyMDlVNVQwdkhmMTlfaU1iUmEzY09XQXYtLTRNcDJoM2lHWDhyWUNFQkNIYUJlSFgxNU95Vkwyc0M5RWJsMmtIZmJ5bGtxa1JxXzNjRHc?oc=5",
+      "source": "korea.kr",
+      "published_at": "2026-09-27T12:51:38+09:00",
+      "snippet": "화학제품, 페인트, 석유제품 담합 감사합니다 korea.kr",
+      "collected_at": "2026-09-27T22:54:03.565656+09:00",
+      "normalized_title": "화학제품, 페인트, 석유제품 담합 감사합니다",
+      "source_normalized": "korea.kr",
+      "duplicate_key": "korea.kr::화학제품, 페인트, 석유제품 담합 감사합니다",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNklJd1RyNFJaQ2JEWTF4SU1JYzhxdDJ2TVAtSk5IWWZCdy00MXlIaENKNlBGZmRwSHB2V0U3LVA1ejI4ZmlQVTR6UUJKdGNEYVVGSE5rV2VBT1RYY054dERrWVVUdmFQWXpaLUd6NkxkVEhDcS1OYTNWWWd2ZUx5S2NqdGdyZGh0aHdxRGRudmVyMDlVNVQwdkhmMTlfaU1iUmEzY09XQXYtLTRNcDJoM2lHWDhyWUNFQkNIYUJlSFgxNU95Vkwyc0M5RWJsMmtIZmJ5bGtxa1JxXzNjRHc?oc=5",
+      "id": "f4f43fc22b9e8517",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "유가·환율에 엇갈린 3분기 실적 … 정유·항공 ↑ 석화·전기 ↓새 창 열림",
+      "url": "https://www.mk.co.kr/article/12161962",
+      "source": "새 창 열림",
+      "published_at": "2026-09-27T16:53:03.423332+09:00",
+      "snippet": "한국석유공사에 따르면 아시아·태평양 지역 벤치마크인 싱가포르 시장에서 휘발유 가격은 6월 2주 차 배럴당 78.14달러에서 9월 2주 차 131.16달러로 70... 여기에 LG화학의 비닐체인 가격 담합과 관련해 공정거래위원회 과징금 리스크 등 개별 악재가 겹치며 화학 부문 전반의 실적 전망이 악화됐다. 한편... 새 창 열림",
+      "collected_at": "2026-09-27T22:53:03.423351+09:00",
+      "normalized_title": "유가·환율에 엇갈린 3분기 실적 … 정유·항공 ↑ 석화·전기 ↓새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::유가·환율에 엇갈린 3분기 실적 … 정유·항공 ↑ 석화·전기 ↓새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.mk.co.kr/article/12161962",
+      "id": "9c2e8e8e2ffbcd57",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "휘발유",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "유가 담합·최고가격제 이중고…정유업계 “시장가 왜곡하는 강제 정책...새 창 열림",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01630166645584384&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "source": "새 창 열림",
+      "published_at": "2026-09-27T14:53:03.424442+09:00",
+      "snippet": "올해 사건은 석유제품 가격담합 관련한 케이스라는 점에서 2007년 이후 약 19년 만에 다시 동일한 사안이 문제로 불거졌다. 검찰은 HD현대오일뱅크와 SK에너지의 가격결정 부서 책임자들이 2024년 7월부터 가격 정보를 공유했고, 올해 미국·이란 전쟁 직후 가격 인상 시기와 폭을 합의했다고 판단했다. 직접 담합... 새 창 열림",
+      "collected_at": "2026-09-27T22:53:03.424459+09:00",
+      "normalized_title": "유가 담합·최고가격제 이중고…정유업계 “시장가 왜곡하는 강제 정책...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::유가 담합·최고가격제 이중고…정유업계 “시장가 왜곡하는 강제 정책...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "https://www.edaily.co.kr/News/Read?newsId=01630166645584384&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "id": "8f129df46ac75d77",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유업계",
+        "석유제품",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
