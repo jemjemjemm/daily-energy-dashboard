@@ -6,39 +6,102 @@
   "period_start": "2026-09-22T00:00:00+09:00",
   "period_end": "2026-09-22T08:00:00+09:00",
   "period_label": "2026-09-22 00:00 ~ 2026-09-22 08:00",
-  "generated_at": "2026-09-22T10:35:00.810009+09:00",
+  "generated_at": "2026-09-28T09:33:26.808016+09:00",
   "keywords": [
-    "유가담합",
-    "유가 담합",
-    "정유사 담합",
-    "기름값 담합",
-    "석유 담합",
-    "휘발유 담합",
-    "경유 담합",
-    "주유소 담합",
-    "정유업계 담합",
-    "석유제품 담합",
-    "유류가격 담합",
-    "공정위 유가 담합",
-    "공정거래위원회 정유사 담합"
+    "정유 담합",
+    "석유화학 담합"
   ],
-  "total_raw_count": 1592,
-  "total_deduped_count": 0,
-  "total_ok_count": 0,
+  "total_raw_count": 52,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
   "total_review_count": 0,
   "total_excluded_count": 0,
   "grade_counts": {
-    "A": 0,
-    "B": 0,
+    "A": 1,
+    "B": 1,
     "C": 0
   },
   "portal_counts": {
-    "naver": 130,
-    "daum": 260,
-    "google": 1202
+    "naver": 0,
+    "daum": 0,
+    "google": 0
   },
-  "query_counts": {},
+  "query_counts": {
+    "석유화학 담합": 2,
+    "정유 담합": 2
+  },
   "collection_warnings": [],
   "telegram_alert_log": [],
-  "articles": []
+  "articles": [
+    {
+      "title": "“쿠팡 현장조사 중단 매우 중대”… 주병기, 사법부에 유감 표시",
+      "source": "국민일보",
+      "published_at": "2026-09-22T00:17:00+09:00",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000014224",
+      "canonical_url": "https://www.kmib.co.kr/article/view.asp?arcid=9000014224",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T00:17:00+09:00",
+      "verified": true,
+      "normalized_title": "“쿠팡 현장조사 중단 매우 중대”… 주병기, 사법부에 유감 표시",
+      "source_normalized": "국민일보",
+      "duplicate_key": "국민일보::“쿠팡 현장조사 중단 매우 중대”… 주병기, 사법부에 유감 표시",
+      "duplicate_count": 0,
+      "id": "5cae50ce9086f177",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가'",
+      "source": "아주경제",
+      "published_at": "2026-09-22T05:00:00+09:00",
+      "url": "https://www.ajunews.com/view/20260921135635879",
+      "canonical_url": "https://www.ajunews.com/view/20260921135635879",
+      "snippet": "석유화학업계의 실적 악화와 담합 의혹 수사에 따른 사업재편·고부가 제품 전환 부담 점검",
+      "summary": "△석유화학업계의 실적 악화와 담합 의혹 수사에 따른 사업재편·고부가 제품 전환 부담 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T05:00:00+09:00",
+      "verified": true,
+      "normalized_title": "실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가'",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::실적 악화에 담합 의혹, 스페셜티 스톱까지...k-석화 '사면초가'",
+      "duplicate_count": 0,
+      "id": "8695344a2c7f2397",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "editorial_audit": "data/reviews/2026-09-21-23.audit.json",
+  "raw_count_basis": "원문 재검토 후보 수; 기존 검색 수집 원본 별도 보존"
 }

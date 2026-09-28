@@ -1,0 +1,634 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-21",
+  "slot": "evening",
+  "period_start": "2026-09-21T08:00:00+09:00",
+  "period_end": "2026-09-21T17:00:00+09:00",
+  "period_label": "2026-09-21 08:00 ~ 2026-09-21 17:00",
+  "generated_at": "2026-09-28T09:33:26.787159+09:00",
+  "keywords": [
+    "정유 담합",
+    "석유화학 담합"
+  ],
+  "total_raw_count": 52,
+  "total_deduped_count": 17,
+  "total_ok_count": 17,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 3,
+    "B": 5,
+    "C": 9
+  },
+  "portal_counts": {
+    "naver": 0,
+    "daum": 0,
+    "google": 0
+  },
+  "query_counts": {
+    "석유화학 담합": 17,
+    "정유 담합": 17
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "주병기 \"공정위 조사 문제 없어…조사 피할 수 없도록 규정 손볼 것\"",
+      "source": "아시아경제",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://view.asiae.co.kr/article/2026092114103047642",
+      "canonical_url": "https://view.asiae.co.kr/article/2026092114103047642",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:00:00+0900",
+      "verified": true,
+      "normalized_title": "주병기 \"공정위 조사 문제 없어…조사 피할 수 없도록 규정 손볼 것\"",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::주병기 \"공정위 조사 문제 없어…조사 피할 수 없도록 규정 손볼 것\"",
+      "duplicate_count": 0,
+      "id": "b2299165b77569c0",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+      "source": "연합뉴스",
+      "published_at": "2026-09-21T16:00:02+09:00",
+      "url": "https://www.yna.co.kr/view/AKR20260921128000002",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20260921128000002",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:00:02+09:00",
+      "verified": true,
+      "normalized_title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+      "duplicate_count": 0,
+      "id": "a78fa1b2860cc780",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 \"정유사 가격담합 10월 조사 마무리…국고채 조만간 결론\"",
+      "source": "뉴시스",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://www.newsis.com/view/NISX20260921_0003798656",
+      "canonical_url": "https://www.newsis.com/view/NISX20260921_0003798656",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 등록 2026.09.21 16:00:00 확인; meta 17:10:24는 수정시각이므로 사용하지 않음",
+      "verified": true,
+      "normalized_title": "주병기 \"정유사 가격담합 10월 조사 마무리…국고채 조만간 결론\"",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::주병기 \"정유사 가격담합 10월 조사 마무리…국고채 조만간 결론\"",
+      "duplicate_count": 0,
+      "id": "1df70780b7d425d1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "가격담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "20년 만에 또 석화 담합 의혹…가격 결정 관행 도마",
+      "source": "뉴스핌",
+      "published_at": "2026-09-21T13:18:00+09:00",
+      "url": "https://www.newspim.com/news/view/20260921000453",
+      "canonical_url": "https://www.newspim.com/news/view/20260921000453",
+      "snippet": "석유화학업계의 과거 담합 제재와 현재 7개사 가격 협의 의혹 수사를 통해 가격 결정 관행 점검",
+      "summary": "△석유화학업계의 과거 담합 제재와 현재 7개사 가격 협의 의혹 수사를 통해 가격 결정 관행 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T13:18:00+09:00",
+      "verified": true,
+      "normalized_title": "20년 만에 또 석화 담합 의혹…가격 결정 관행 도마",
+      "source_normalized": "뉴스핌",
+      "duplicate_key": "뉴스핌::20년 만에 또 석화 담합 의혹…가격 결정 관행 도마",
+      "duplicate_count": 0,
+      "id": "a54ed795833ea821",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 공정위원장 \"조사 무력화 유감\"…정유사 담합 조사 내달 마무리",
+      "source": "아주경제",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://www.ajunews.com/view/20260921135239852",
+      "canonical_url": "https://www.ajunews.com/view/20260921135239852",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:00:00+09:00",
+      "verified": true,
+      "normalized_title": "주병기 공정위원장 \"조사 무력화 유감\"…정유사 담합 조사 내달 마무리",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::주병기 공정위원장 \"조사 무력화 유감\"…정유사 담합 조사 내달 마무리",
+      "duplicate_count": 0,
+      "id": "75bbf75a1ab6de00",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 공정거래위원장 “생활 밀접 분야 불공정행위 뿌리뽑을 것…담합 반복시 시장 참여 제한”",
+      "source": "KBS",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8668701",
+      "canonical_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8668701",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 입력 2026.09.21 (16:00) 확인; 수정16:08과 구분",
+      "verified": true,
+      "normalized_title": "주병기 공정거래위원장 “생활 밀접 분야 불공정행위 뿌리뽑을 것…담합 반복시 시장 참여 제한”",
+      "source_normalized": "KBS",
+      "duplicate_key": "kbs::주병기 공정거래위원장 “생활 밀접 분야 불공정행위 뿌리뽑을 것…담합 반복시 시장 참여 제한”",
+      "duplicate_count": 0,
+      "id": "e44173effa56aa3b",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 \"국고채 담합 조만간 결과 도출…복잡한 구조에 신중한 심의\"",
+      "source": "연합인포맥스",
+      "published_at": "2026-09-21T16:01:00+09:00",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435942",
+      "canonical_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435942",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:01:00+09:00",
+      "verified": true,
+      "normalized_title": "주병기 \"국고채 담합 조만간 결과 도출…복잡한 구조에 신중한 심의\"",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::주병기 \"국고채 담합 조만간 결과 도출…복잡한 구조에 신중한 심의\"",
+      "duplicate_count": 0,
+      "id": "fc6c4d5384786506",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위원장 \"편법·탈법으로 돈 벌 수 없어야…반칙 걷어낼 것\"",
+      "source": "데일리안",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://www.dailian.co.kr/news/view/1692929/?sc=Naver",
+      "canonical_url": "https://www.dailian.co.kr/news/view/1692929/?sc=Naver",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:00:00+09:00",
+      "verified": true,
+      "normalized_title": "공정위원장 \"편법·탈법으로 돈 벌 수 없어야…반칙 걷어낼 것\"",
+      "source_normalized": "데일리안",
+      "duplicate_key": "데일리안::공정위원장 \"편법·탈법으로 돈 벌 수 없어야…반칙 걷어낼 것\"",
+      "duplicate_count": 0,
+      "id": "bce757a576751e15",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "나프타 위기 틈타 10조원대 담합 의혹… LG화학·OCI 등 주요 석유화학사 정조준",
+      "source": "ㅍㅍㅅㅅ",
+      "published_at": "2026-09-21T10:04:47+09:00",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=311750",
+      "canonical_url": "https://www.ppss.kr/news/articleView.html?idxno=311750",
+      "snippet": "나프타 수급 위기 속 석유화학 7개사의 가격 담합 의혹과 임원 구속 관련 수사 동향 점검",
+      "summary": "△나프타 수급 위기 속 석유화학 7개사의 가격 담합 의혹과 임원 구속 관련 수사 동향 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T10:04:47+09:00",
+      "verified": true,
+      "normalized_title": "나프타 위기 틈타 10조원대 담합 의혹… LG화학·OCI 등 주요 석유화학사 정조준",
+      "source_normalized": "ㅍㅍㅅㅅ",
+      "duplicate_key": "ㅍㅍㅅㅅ::나프타 위기 틈타 10조원대 담합 의혹… lg화학·oci 등 주요 석유화학사 정조준",
+      "duplicate_count": 0,
+      "id": "94a95fe2bfb85906",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "나프타",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "LG화학 사업부장 출신 구속…15조 석화 담합, LG ‘윗선 보고’가 관건(1부)",
+      "source": "더투데이",
+      "published_at": "2026-09-21T16:08:33+09:00",
+      "url": "https://www.the-today.com/news/articleView.html?idxno=90524",
+      "canonical_url": "https://www.the-today.com/news/articleView.html?idxno=90524",
+      "snippet": "석유화학 담합 혐의로 구속된 LG화학 출신 임원의 내부 보고·승인 체계 수사 쟁점 점검",
+      "summary": "△석유화학 담합 혐의로 구속된 LG화학 출신 임원의 내부 보고·승인 체계 수사 쟁점 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:08:33+09:00",
+      "verified": true,
+      "normalized_title": "LG화학 사업부장 출신 구속…15조 석화 담합, LG ‘윗선 보고’가 관건(1부)",
+      "source_normalized": "더투데이",
+      "duplicate_key": "더투데이::lg화학 사업부장 출신 구속…15조 석화 담합, lg ‘윗선 보고’가 관건(1부)",
+      "duplicate_count": 0,
+      "id": "efece8e30fc174bc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "취임 1년, 주병기 공정위원장 “경제분석·인프라 강화는 필수불가결한 시대 사명”",
+      "source": "미디어펜",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://www.mediapen.com/news/view/1125082",
+      "canonical_url": "https://www.mediapen.com/news/view/1125082",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 본문 최초 입력/승인 시각 확인",
+      "verified": true,
+      "normalized_title": "취임 1년, 주병기 공정위원장 “경제분석·인프라 강화는 필수불가결한 시대 사명”",
+      "source_normalized": "미디어펜",
+      "duplicate_key": "미디어펜::취임 1년, 주병기 공정위원장 “경제분석·인프라 강화는 필수불가결한 시대 사명”",
+      "duplicate_count": 0,
+      "id": "a5b071ff3353c6af",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[에쓰오일 is]② 담합은 피했지만…‘전량구매’ 불공정거래 법정으로",
+      "source": "블로터",
+      "published_at": "2026-09-21T13:34:10+09:00",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=673956",
+      "canonical_url": "https://www.bloter.net/news/articleView.html?idxno=673956",
+      "snippet": "정유사 에쓰오일 전량구매 관련 불공정거래 혐의 재판과 무죄 주장 점검; 직접 가격 담합 혐의와 구분",
+      "summary": "△정유사 에쓰오일 전량구매 관련 불공정거래 혐의 재판과 무죄 주장 점검; 직접 가격 담합 혐의와 구분",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T13:34:10+09:00",
+      "verified": true,
+      "normalized_title": "[에쓰오일 is]② 담합은 피했지만…‘전량구매’ 불공정거래 법정으로",
+      "source_normalized": "블로터",
+      "duplicate_key": "블로터::[에쓰오일 is]② 담합은 피했지만…‘전량구매’ 불공정거래 법정으로",
+      "duplicate_count": 0,
+      "id": "732e4d51de70f9f0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화”",
+      "source": "에너지경제신문",
+      "published_at": "2026-09-21T16:40:32+09:00",
+      "url": "https://www.ekn.kr/web/view.php?key=20260921026417410",
+      "canonical_url": "https://www.ekn.kr/web/view.php?key=20260921026417410",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:40:32+09:00",
+      "verified": true,
+      "normalized_title": "주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화”",
+      "source_normalized": "에너지경제신문",
+      "duplicate_key": "에너지경제신문::주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화”",
+      "duplicate_count": 0,
+      "id": "345f27c1f04382d7",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"쿠팡 거부로 현장조사 무력화… 소상공인 최후의 보루 무너뜨려\"",
+      "source": "오마이뉴스",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003269182",
+      "canonical_url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003269182",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:00:00+09:00",
+      "verified": true,
+      "normalized_title": "\"쿠팡 거부로 현장조사 무력화… 소상공인 최후의 보루 무너뜨려\"",
+      "source_normalized": "오마이뉴스",
+      "duplicate_key": "오마이뉴스::\"쿠팡 거부로 현장조사 무력화… 소상공인 최후의 보루 무너뜨려\"",
+      "duplicate_count": 0,
+      "id": "88aa5b32f88e9040",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 공정위원장 “방산업체 독점 남용 감시”...중점조사기획단 내달 출범",
+      "source": "중앙이코노미뉴스",
+      "published_at": "2026-09-21T16:17:04+09:00",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=549743",
+      "canonical_url": "https://www.joongangenews.com/news/articleView.html?idxno=549743",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:17:04+09:00",
+      "verified": true,
+      "normalized_title": "주병기 공정위원장 “방산업체 독점 남용 감시”...중점조사기획단 내달 출범",
+      "source_normalized": "중앙이코노미뉴스",
+      "duplicate_key": "중앙이코노미뉴스::주병기 공정위원장 “방산업체 독점 남용 감시”...중점조사기획단 내달 출범",
+      "duplicate_count": 0,
+      "id": "c54bdcc3accb27d6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 네이버-두나무 기업결합 연내 심의 속도…“고난도 심사 진행”",
+      "source": "쿠키뉴스",
+      "published_at": "2026-09-21T16:00:04+09:00",
+      "url": "https://www.kukinews.com/article/view/kuk202609210132",
+      "canonical_url": "https://www.kukinews.com/article/view/kuk202609210132",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 본문 최초 입력/승인 시각 확인",
+      "verified": true,
+      "normalized_title": "공정위, 네이버-두나무 기업결합 연내 심의 속도…“고난도 심사 진행”",
+      "source_normalized": "쿠키뉴스",
+      "duplicate_key": "쿠키뉴스::공정위, 네이버-두나무 기업결합 연내 심의 속도…“고난도 심사 진행”",
+      "duplicate_count": 0,
+      "id": "260135700951eb01",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "LG화학 출신 부장 구속…15조 석화 담합 수사, 대형사로 향하나",
+      "source": "피플워치",
+      "published_at": "2026-09-21T08:02:00+09:00",
+      "url": "https://www.peoplewatch.co.kr/article/view/ppw202609210001",
+      "canonical_url": "https://www.peoplewatch.co.kr/article/view/ppw202609210001",
+      "snippet": "석유화학 담합 혐의 임원 구속과 회사 내부 보고·승인 여부에 관한 수사 쟁점 점검",
+      "summary": "△석유화학 담합 혐의 임원 구속과 회사 내부 보고·승인 여부에 관한 수사 쟁점 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 제목 아래 기자명 옆 최초시각 2026-09-21 08:02:00 확인",
+      "verified": true,
+      "normalized_title": "LG화학 출신 부장 구속…15조 석화 담합 수사, 대형사로 향하나",
+      "source_normalized": "피플워치",
+      "duplicate_key": "피플워치::lg화학 출신 부장 구속…15조 석화 담합 수사, 대형사로 향하나",
+      "duplicate_count": 0,
+      "id": "6edb8b65e6c9808e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "editorial_audit": "data/reviews/2026-09-21-23.audit.json",
+  "raw_count_basis": "원문 재검토 후보 수; 기존 검색 수집 원본 별도 보존"
+}

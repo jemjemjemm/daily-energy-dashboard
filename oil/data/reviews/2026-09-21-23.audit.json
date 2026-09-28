@@ -1,0 +1,3460 @@
+{
+  "audited_at": "2026-09-28T09:33:26.740131+09:00",
+  "dates": [
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23"
+  ],
+  "scope": "Daily 본문·국감 Morning/Evening 및 하단 유가담합 리포트 누락 점검",
+  "findings": [
+    "9/21 유가 Evening 파일 누락",
+    "9/21 Morning 딜사이트 기사 상대시각 오분류",
+    "9/22 Morning 아주경제 기사 누락",
+    "매체명 새 창 열림 및 포털 중복",
+    "상대시각에 따른 Evening/Night 오분류"
+  ],
+  "slot_policy": "Morning 당일00~08, Evening08~17, Night17~24 (끝 경계 제외); 국감 슬롯 정책과 별개",
+  "articles": [
+    {
+      "title": "구조조정도 바쁜데 ‘15조 담합’ 수사까지…석화업계 긴장",
+      "source": "아시아투데이",
+      "published_at": "2026-09-20T17:09:41+09:00",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260920010007460",
+      "canonical_url": "https://www.asiatoday.co.kr/kn/view.php?key=20260920010007460",
+      "snippet": "석유화학업계 구조조정과 15조원대 가격 담합 의혹 수사에 따른 부담 점검",
+      "summary": "△석유화학업계 구조조정과 15조원대 가격 담합 의혹 수사에 따른 부담 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-20T17:09:41+09:00",
+      "verified": true
+    },
+    {
+      "title": "공정위, 방산 경쟁 촉진·반복담합 제재 강화",
+      "source": "세이프타임즈",
+      "published_at": "2026-09-21T20:30:17+09:00",
+      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245921",
+      "canonical_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245921",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T20:30:17+09:00",
+      "verified": true
+    },
+    {
+      "title": "사법부에 날세운 주병기 \"공정위 조사 무력화\"",
+      "source": "한국경제",
+      "published_at": "2026-09-21T18:04:52+09:00",
+      "url": "https://www.hankyung.com/article/2026092190171",
+      "canonical_url": "https://www.hankyung.com/article/2026092190171",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T18:04:52+09:00",
+      "verified": true
+    },
+    {
+      "title": "주병기 \"방산시장 신규진입 촉진...중점조사단으로 민생쪽 집중점검\"",
+      "source": "금융소비자뉴스",
+      "published_at": "2026-09-21T17:01:00+09:00",
+      "url": "https://www.newsfc.co.kr/news/articleView.html?idxno=81296",
+      "canonical_url": "https://www.newsfc.co.kr/news/articleView.html?idxno=81296",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T17:01:00+09:00",
+      "verified": true
+    },
+    {
+      "title": "주병기 “현장조사 무력화 유감…쿠팡, 차별 없이 법 집행“",
+      "source": "연합뉴스TV",
+      "published_at": "2026-09-21T17:08:05+09:00",
+      "url": "https://www.yonhapnewstv.co.kr/news/MYH20260921170805kvw",
+      "canonical_url": "https://www.yonhapnewstv.co.kr/news/MYH20260921170805kvw",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T08:08:05Z",
+      "verified": true
+    },
+    {
+      "title": "주병기 공정위원장 “방산업체 독점 남용 감시”...중점조사기획단 내달 출범",
+      "source": "중앙이코노미뉴스",
+      "published_at": "2026-09-21T16:17:04+09:00",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=549743",
+      "canonical_url": "https://www.joongangenews.com/news/articleView.html?idxno=549743",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:17:04+09:00",
+      "verified": true
+    },
+    {
+      "title": "주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화”",
+      "source": "에너지경제신문",
+      "published_at": "2026-09-21T16:40:32+09:00",
+      "url": "https://www.ekn.kr/web/view.php?key=20260921026417410",
+      "canonical_url": "https://www.ekn.kr/web/view.php?key=20260921026417410",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:40:32+09:00",
+      "verified": true
+    },
+    {
+      "title": "공정위, 10월 출범 ‘중점조사기획단’ 민생 침해 불공정 집중 점검",
+      "source": "국세신문",
+      "published_at": "2026-09-22T18:54:49+09:00",
+      "url": "https://www.intn.co.kr/news/articleView.html?idxno=2053604",
+      "canonical_url": "https://www.intn.co.kr/news/articleView.html?idxno=2053604",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T18:54:49+09:00",
+      "verified": true
+    },
+    {
+      "title": "15조원 담합에 또 리니언시…제도 운용 논란",
+      "source": "MTN",
+      "published_at": "2026-09-21T17:02:50+09:00",
+      "url": "https://news.mtn.co.kr/news-detail/2026092114445221921",
+      "canonical_url": "https://news.mtn.co.kr/news-detail/2026092114445221921",
+      "snippet": "석유화학 담합 수사에서 자진신고 감면제도 적용과 제도 운용 논란 점검",
+      "summary": "△석유화학 담합 수사에서 자진신고 감면제도 적용과 제도 운용 논란 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T17:02:50+09:00",
+      "verified": true
+    },
+    {
+      "title": "LG화학 사업부장 출신 구속…15조 석화 담합, LG ‘윗선 보고’가 관건(1부)",
+      "source": "더투데이",
+      "published_at": "2026-09-21T16:08:33+09:00",
+      "url": "https://www.the-today.com/news/articleView.html?idxno=90524",
+      "canonical_url": "https://www.the-today.com/news/articleView.html?idxno=90524",
+      "snippet": "석유화학 담합 혐의로 구속된 LG화학 출신 임원의 내부 보고·승인 체계 수사 쟁점 점검",
+      "summary": "△석유화학 담합 혐의로 구속된 LG화학 출신 임원의 내부 보고·승인 체계 수사 쟁점 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:08:33+09:00",
+      "verified": true
+    },
+    {
+      "title": "'14조 유가 담합 의혹' 정유 4사 재판, 11월 증인신문 돌입",
+      "source": "블로터",
+      "published_at": "2026-09-22T15:41:10+09:00",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=674233",
+      "canonical_url": "https://www.bloter.net/news/articleView.html?idxno=674233",
+      "snippet": "정유사 가격 담합·불공정거래 등 혐의 재판에서 11월 SK에너지 관계자 증인신문 예정",
+      "summary": "△정유사 가격 담합·불공정거래 등 혐의 재판에서 11월 SK에너지 관계자 증인신문 예정",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T15:41:10+09:00",
+      "verified": true
+    },
+    {
+      "title": "'26조원 유가담합' 재판 본격화...자진신고 임직원 증언대 선다",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-09-22T14:21:11+09:00",
+      "url": "https://www.fnnews.com/news/202609221105517430",
+      "canonical_url": "https://www.fnnews.com/news/202609221105517430",
+      "snippet": "정유사 가격 담합·불공정거래 등 혐의 재판에서 11월 SK에너지 관계자 증인신문 예정",
+      "summary": "△정유사 가격 담합·불공정거래 등 혐의 재판에서 11월 SK에너지 관계자 증인신문 예정",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T14:21:11+09:00",
+      "verified": true
+    },
+    {
+      "title": "‘자영주유소 불공정거래’ 정유4사 재판...11월 SK 관계자 증인신문 시작",
+      "source": "이투데이",
+      "published_at": "2026-09-22T13:25:00+09:00",
+      "url": "https://www.etoday.co.kr/news/view/2628507",
+      "canonical_url": "https://www.etoday.co.kr/news/view/2628507",
+      "snippet": "정유사 가격 담합·불공정거래 등 혐의 재판에서 11월 SK에너지 관계자 증인신문 예정",
+      "summary": "△정유사 가격 담합·불공정거래 등 혐의 재판에서 11월 SK에너지 관계자 증인신문 예정",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T13:25:00+09:00",
+      "verified": true
+    },
+    {
+      "title": "'26조 유가담합' 재판 본격화…정유 4사 11월부터 핵심 증인신문 시작",
+      "source": "뉴스핌",
+      "published_at": "2026-09-22T11:47:00+09:00",
+      "url": "https://www.newspim.com/news/view/20260922000616",
+      "canonical_url": "https://www.newspim.com/news/view/20260922000616",
+      "snippet": "정유사 가격 담합·불공정거래 등 혐의 재판에서 11월 SK에너지 관계자 증인신문 예정",
+      "summary": "△정유사 가격 담합·불공정거래 등 혐의 재판에서 11월 SK에너지 관계자 증인신문 예정",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T11:47:00+09:00",
+      "verified": true
+    },
+    {
+      "title": "'유가 담합' 재판, 리니언시 임직원 11월 증인신문",
+      "source": "아시아경제",
+      "published_at": "2026-09-22T11:49:48+09:00",
+      "url": "https://view.asiae.co.kr/article/2026092211494892516",
+      "canonical_url": "https://view.asiae.co.kr/article/2026092211494892516",
+      "snippet": "정유사 가격 담합·불공정거래 등 혐의 재판에서 11월 SK에너지 관계자 증인신문 예정",
+      "summary": "△정유사 가격 담합·불공정거래 등 혐의 재판에서 11월 SK에너지 관계자 증인신문 예정",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T11:49:48+0900",
+      "verified": true
+    },
+    {
+      "title": "[법적공방] ′14조 유가 담합′ 재판 본격화…리니언시 핵심증인 11월 증언대",
+      "source": "메가경제",
+      "published_at": "2026-09-22T16:46:30+09:00",
+      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065596666280722",
+      "canonical_url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065596666280722",
+      "snippet": "정유사 가격 담합·불공정거래 등 혐의 재판에서 11월 SK에너지 관계자 증인신문 예정",
+      "summary": "△정유사 가격 담합·불공정거래 등 혐의 재판에서 11월 SK에너지 관계자 증인신문 예정",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T16:46:30+09:00",
+      "verified": true
+    },
+    {
+      "title": "‘경영 불관여’ 감형됐는데…PKC 김성훈 최대주주 ‘경영권 영향’ 공시, 핵심 임원은 담합 혐의 구속",
+      "source": "ㅍㅍㅅㅅ",
+      "published_at": "2026-09-22T15:14:08+09:00",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=311864",
+      "canonical_url": "https://www.ppss.kr/news/articleView.html?idxno=311864",
+      "snippet": "PKC 최대주주의 경영권 영향 공시와 석유화학 담합 혐의 임원 구속 관련 쟁점 점검",
+      "summary": "△PKC 최대주주의 경영권 영향 공시와 석유화학 담합 혐의 임원 구속 관련 쟁점 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T15:14:08+09:00",
+      "verified": true
+    },
+    {
+      "title": "석화 구조조정에 담합 수사까지···시장 안정책 시험대",
+      "source": "뉴스웨이",
+      "published_at": "2026-09-22T15:19:08+09:00",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026092214333564257",
+      "canonical_url": "https://www.newsway.co.kr/news/view?ud=2026092214333564257",
+      "snippet": "석유화학 사업재편 과정에서 가격 담합 수사와 과징금·손해배상 위험에 따른 부담 점검",
+      "summary": "△석유화학 사업재편 과정에서 가격 담합 수사와 과징금·손해배상 위험에 따른 부담 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T15:19:08+09:00",
+      "verified": true
+    },
+    {
+      "title": "LG화학, 3분기 영업익 76% 급감 전망…과징금 최대 1.4조 우려까지",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-09-22T08:44:16+09:00",
+      "url": "https://www.fnnews.com/news/202609220833104998",
+      "canonical_url": "https://www.fnnews.com/news/202609220833104998",
+      "snippet": "LG화학 3분기 실적 둔화 전망과 석유화학 가격 담합 조사에 따른 과징금 위험 분석",
+      "summary": "△LG화학 3분기 실적 둔화 전망과 석유화학 가격 담합 조사에 따른 과징금 위험 분석",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T08:44:16+09:00",
+      "verified": true
+    },
+    {
+      "title": "[모닝 리포트] LG화학, 3분기 '래깅 효과' 소멸에 수익성 급랭…담합 과징금 변수",
+      "source": "뉴스핌",
+      "published_at": "2026-09-22T09:06:00+09:00",
+      "url": "https://www.newspim.com/news/view/20260922000145",
+      "canonical_url": "https://www.newspim.com/news/view/20260922000145",
+      "snippet": "LG화학 3분기 실적 둔화 전망과 석유화학 가격 담합 조사에 따른 과징금 위험 분석",
+      "summary": "△LG화학 3분기 실적 둔화 전망과 석유화학 가격 담합 조사에 따른 과징금 위험 분석",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T09:06:00+09:00",
+      "verified": true
+    },
+    {
+      "title": "LS證 \"LG화학, 실적 둔화·과징금 리스크…목표가 23만5000원↓\"",
+      "source": "이투데이",
+      "published_at": "2026-09-22T08:15:00+09:00",
+      "url": "https://www.etoday.co.kr/news/view/2628275",
+      "canonical_url": "https://www.etoday.co.kr/news/view/2628275",
+      "snippet": "LG화학 3분기 실적 둔화 전망과 석유화학 가격 담합 조사에 따른 과징금 위험 분석",
+      "summary": "△LG화학 3분기 실적 둔화 전망과 석유화학 가격 담합 조사에 따른 과징금 위험 분석",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T08:15:00+09:00",
+      "verified": true
+    },
+    {
+      "title": "LG화학, 3분기 영업이익 76% 감소 전망… 석화 수익성 부담 - LS증권",
+      "source": "비즈트리뷴",
+      "published_at": "2026-09-22T17:54:14+09:00",
+      "url": "https://www.biztribune.co.kr/news/articleView.html?idxno=359477",
+      "canonical_url": "https://www.biztribune.co.kr/news/articleView.html?idxno=359477",
+      "snippet": "LG화학 3분기 실적 둔화 전망과 석유화학 가격 담합 조사에 따른 과징금 위험 분석",
+      "summary": "△LG화학 3분기 실적 둔화 전망과 석유화학 가격 담합 조사에 따른 과징금 위험 분석",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T17:54:14+09:00",
+      "verified": true
+    },
+    {
+      "title": "LG화학, 3분기 영업익 1420억 전망…석화 부진에 ′최대 1.4조′ 과징금 변수",
+      "source": "메가경제",
+      "published_at": "2026-09-23T17:17:34+09:00",
+      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065618584416696",
+      "canonical_url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065618584416696",
+      "snippet": "LG화학 3분기 실적 둔화 전망과 석유화학 가격 담합 조사에 따른 과징금 위험 분석",
+      "summary": "△LG화학 3분기 실적 둔화 전망과 석유화학 가격 담합 조사에 따른 과징금 위험 분석",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-23T17:17:34+09:00",
+      "verified": true
+    },
+    {
+      "title": "기름값 묶은 반년…'손실 보전' 행정소송 가나",
+      "source": "MTN",
+      "published_at": "2026-09-22T17:52:02+09:00",
+      "url": "https://news.mtn.co.kr/news-detail/2026092216435954353",
+      "canonical_url": "https://news.mtn.co.kr/news-detail/2026092216435954353",
+      "snippet": "최고가격제 손실보전 정산을 둘러싼 정유업계와 당국의 이견 및 담합 수사 관련 주장 점검",
+      "summary": "△최고가격제 손실보전 정산을 둘러싼 정유업계와 당국의 이견 및 담합 수사 관련 주장 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T17:52:02+09:00",
+      "verified": true
+    },
+    {
+      "title": "[이슈] 석화업계 담합 수사, 2명 구속·6명은 기각",
+      "source": "오늘경제",
+      "published_at": "2026-09-22T16:28:18+09:00",
+      "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=814016",
+      "canonical_url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=814016",
+      "snippet": "석유화학 가격 담합 의혹으로 영장이 청구된 전·현직 경영진 8명 중 2명 구속·6명 기각",
+      "summary": "△석유화학 가격 담합 의혹으로 영장이 청구된 전·현직 경영진 8명 중 2명 구속·6명 기각",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T16:28:18+09:00",
+      "verified": true
+    },
+    {
+      "title": "[허프 생각] 정부는 짓누르고 정유사는 담합하고 : 주유소는 그 사이에서 버틸 재간 없다",
+      "source": "허프포스트코리아",
+      "published_at": "2026-09-22T16:50:52+09:00",
+      "url": "https://www.huffingtonpost.kr/article/260741",
+      "canonical_url": "https://www.huffingtonpost.kr/article/260741",
+      "snippet": "최고가격제와 정유사 담합·전량구매 관행 사이 주유소 부담에 관한 필자 견해 제시",
+      "summary": "△최고가격제와 정유사 담합·전량구매 관행 사이 주유소 부담에 관한 필자 견해 제시",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T16:50:52+09:00",
+      "verified": true
+    },
+    {
+      "title": "[2026 국감 레이더④] SK에너지·GS칼텍스·S-OIL·HD현대오일뱅크 ‘긴장’…4대 정유사 CEO 증인 신청",
+      "source": "뉴스워커",
+      "published_at": "2026-09-23T14:36:37+09:00",
+      "url": "https://www.newsworker.co.kr/news/articleView.html?idxno=505894",
+      "canonical_url": "https://www.newsworker.co.kr/news/articleView.html?idxno=505894",
+      "snippet": "정유 4사 최고경영자 국감 증인 신청과 가격 담합·전속거래 관련 쟁점 보도; 최종 채택 전 단계",
+      "summary": "△정유 4사 최고경영자 국감 증인 신청과 가격 담합·전속거래 관련 쟁점 보도; 최종 채택 전 단계",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-23T14:36:37+09:00",
+      "verified": true
+    },
+    {
+      "title": "정부 지원금 받으면서도 담합…석유화학 7개사 16조 넘었다",
+      "source": "서울경제",
+      "published_at": "2026-09-23T14:00:22+09:00",
+      "url": "https://www.sedaily.com/article/20094492",
+      "canonical_url": "https://www.sedaily.com/article/20094492",
+      "snippet": "석유화학 7개사의 담합 규모를 16조원 이상으로 파악하고 지원금 수혜 기간까지 수사 중이라는 검찰 판단 보도",
+      "summary": "△석유화학 7개사의 담합 규모를 16조원 이상으로 파악하고 지원금 수혜 기간까지 수사 중이라는 검찰 판단 보도",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-23T14:00:22+09:00",
+      "verified": true
+    },
+    {
+      "title": "'15조 석화 담합' 절반이 PVC·ECH…생산사 각각 2곳",
+      "source": "신아일보",
+      "published_at": "2026-09-23T14:13:03+09:00",
+      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5065554",
+      "canonical_url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5065554",
+      "snippet": "석유화학 가격 담합 의혹에서 PVC·ECH 품목과 업체별 생산 구조 점검",
+      "summary": "△석유화학 가격 담합 의혹에서 PVC·ECH 품목과 업체별 생산 구조 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-23T14:13:03+09:00",
+      "verified": true
+    },
+    {
+      "title": "위기의 석화업계, 생존을 위해 ‘신뢰’가 최우선이다 [기자수첩]",
+      "source": "시사오늘",
+      "published_at": "2026-09-23T13:03:47+09:00",
+      "url": "https://www.sisaon.co.kr/news/articleView.html?idxno=204695",
+      "canonical_url": "https://www.sisaon.co.kr/news/articleView.html?idxno=204695",
+      "snippet": "석유화학 구조조정과 담합 의혹 수사 속 공정경쟁·신뢰 회복 필요성에 관한 필자 견해 제시",
+      "summary": "△석유화학 구조조정과 담합 의혹 수사 속 공정경쟁·신뢰 회복 필요성에 관한 필자 견해 제시",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-23T13:03:47+09:00",
+      "verified": true
+    },
+    {
+      "title": "15조 담합이라지만…PVC 2곳·가성소다 5곳, 책임도 같을까?",
+      "source": "피플워치",
+      "published_at": "2026-09-23T11:12:01+09:00",
+      "url": "https://www.peoplewatch.co.kr/article/view/ppw202609230008",
+      "canonical_url": "https://www.peoplewatch.co.kr/article/view/ppw202609230008",
+      "snippet": "석유화학 담합 수사 대상 품목별 시장구조와 기업별 관여 정도 구분 필요성 점검",
+      "summary": "△석유화학 담합 수사 대상 품목별 시장구조와 기업별 관여 정도 구분 필요성 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 제목 아래 기자명 옆 최초시각 2026-09-23 11:12:01 확인",
+      "verified": true
+    },
+    {
+      "title": "‘15조 석화 담합’ 7개사 똑같이 묶였지만…품목·사업비중 천차만별",
+      "source": "핀포인트뉴스",
+      "published_at": "2026-09-23T09:24:01+09:00",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=489854",
+      "canonical_url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=489854",
+      "snippet": "석유화학 7개사 담합 의혹의 품목별 생산능력·사업비중 차이 점검",
+      "summary": "△석유화학 7개사 담합 의혹의 품목별 생산능력·사업비중 차이 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-23T09:24:01+09:00",
+      "verified": true
+    },
+    {
+      "title": "형사사법체계 개편 앞두고 속도 내는 검찰…MBK·홈플러스 사건 이달 결론 나나",
+      "source": "프레시안",
+      "published_at": "2026-09-23T08:13:07+09:00",
+      "url": "https://www.pressian.com/pages/articles/2026092308113520115",
+      "canonical_url": "https://www.pressian.com/pages/articles/2026092308113520115",
+      "snippet": "형사사법체계 개편을 앞둔 석유화학제품 가격 담합 등 중대 사건 처리 동향 점검",
+      "summary": "△형사사법체계 개편을 앞둔 석유화학제품 가격 담합 등 중대 사건 처리 동향 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-23T08:13:07",
+      "verified": true
+    },
+    {
+      "title": "[2026국감] 산업계 ‘증인 리스트’ 벌써부터 촉각",
+      "source": "뷰어스",
+      "published_at": "2026-09-23T16:45:51+09:00",
+      "url": "https://theviewers.co.kr/View.aspx?No=4237552",
+      "canonical_url": "https://theviewers.co.kr/View.aspx?No=4237552",
+      "snippet": "국감 정유사 4곳 경영진 증인 신청과 가격 담합·전속거래 쟁점 보도; 채택·출석은 미확정",
+      "summary": "△국감 정유사 4곳 경영진 증인 신청과 가격 담합·전속거래 쟁점 보도; 채택·출석은 미확정",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 승인 표기 2026.09.23 16:45 확인; meta의 GMT 표기는 현지시각과 충돌하여 본문 KST 우선",
+      "verified": true
+    },
+    {
+      "title": "\"쿠팡 거부로 현장조사 무력화… 소상공인 최후의 보루 무너뜨려\"",
+      "source": "오마이뉴스",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003269182",
+      "canonical_url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003269182",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:00:00+09:00",
+      "verified": true
+    },
+    {
+      "title": "공정위, 네이버-두나무 기업결합 연내 심의 속도…“고난도 심사 진행”",
+      "source": "쿠키뉴스",
+      "published_at": "2026-09-21T16:00:04+09:00",
+      "url": "https://www.kukinews.com/article/view/kuk202609210132",
+      "canonical_url": "https://www.kukinews.com/article/view/kuk202609210132",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 본문 최초 입력/승인 시각 확인",
+      "verified": true
+    },
+    {
+      "title": "주병기 \"국고채 담합 조만간 결과 도출…복잡한 구조에 신중한 심의\"",
+      "source": "연합인포맥스",
+      "published_at": "2026-09-21T16:01:00+09:00",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435942",
+      "canonical_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435942",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:01:00+09:00",
+      "verified": true
+    },
+    {
+      "title": "취임 1년, 주병기 공정위원장 “경제분석·인프라 강화는 필수불가결한 시대 사명”",
+      "source": "미디어펜",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://www.mediapen.com/news/view/1125082",
+      "canonical_url": "https://www.mediapen.com/news/view/1125082",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 본문 최초 입력/승인 시각 확인",
+      "verified": true
+    },
+    {
+      "title": "20년 만에 또 석화 담합 의혹…가격 결정 관행 도마",
+      "source": "뉴스핌",
+      "published_at": "2026-09-21T13:18:00+09:00",
+      "url": "https://www.newspim.com/news/view/20260921000453",
+      "canonical_url": "https://www.newspim.com/news/view/20260921000453",
+      "snippet": "석유화학업계의 과거 담합 제재와 현재 7개사 가격 협의 의혹 수사를 통해 가격 결정 관행 점검",
+      "summary": "△석유화학업계의 과거 담합 제재와 현재 7개사 가격 협의 의혹 수사를 통해 가격 결정 관행 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T13:18:00+09:00",
+      "verified": true
+    },
+    {
+      "title": "[에쓰오일 is]② 담합은 피했지만…‘전량구매’ 불공정거래 법정으로",
+      "source": "블로터",
+      "published_at": "2026-09-21T13:34:10+09:00",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=673956",
+      "canonical_url": "https://www.bloter.net/news/articleView.html?idxno=673956",
+      "snippet": "정유사 에쓰오일 전량구매 관련 불공정거래 혐의 재판과 무죄 주장 점검; 직접 가격 담합 혐의와 구분",
+      "summary": "△정유사 에쓰오일 전량구매 관련 불공정거래 혐의 재판과 무죄 주장 점검; 직접 가격 담합 혐의와 구분",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T13:34:10+09:00",
+      "verified": true
+    },
+    {
+      "title": "\"밀가루·설탕부터 정유까지\"…공정위, 하반기 서민물가 담합 집중 단속",
+      "source": "뉴시안",
+      "published_at": "2026-09-21T17:27:26+09:00",
+      "url": "https://www.newsian.co.kr/news/articleView.html?idxno=95776",
+      "canonical_url": "https://www.newsian.co.kr/news/articleView.html?idxno=95776",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T17:27:26+09:00",
+      "verified": true
+    },
+    {
+      "title": "15조 석화 담합 뜯어보니 PVC가 40%…한화·LG 양분",
+      "source": "딜사이트",
+      "published_at": "2026-09-21T07:36:06+09:00",
+      "url": "https://dealsite.co.kr/articles/169287",
+      "canonical_url": "https://dealsite.co.kr/articles/169287",
+      "snippet": "석유화학 담합 수사 대상 8개 품목 중 PVC 비중과 한화솔루션·LG화학 생산구조 점검",
+      "summary": "△석유화학 담합 수사 대상 8개 품목 중 PVC 비중과 한화솔루션·LG화학 생산구조 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T07:36:06+09:00",
+      "verified": true
+    },
+    {
+      "title": "LG화학 출신 부장 구속…15조 석화 담합 수사, 대형사로 향하나",
+      "source": "피플워치",
+      "published_at": "2026-09-21T08:02:00+09:00",
+      "url": "https://www.peoplewatch.co.kr/article/view/ppw202609210001",
+      "canonical_url": "https://www.peoplewatch.co.kr/article/view/ppw202609210001",
+      "snippet": "석유화학 담합 혐의 임원 구속과 회사 내부 보고·승인 여부에 관한 수사 쟁점 점검",
+      "summary": "△석유화학 담합 혐의 임원 구속과 회사 내부 보고·승인 여부에 관한 수사 쟁점 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 제목 아래 기자명 옆 최초시각 2026-09-21 08:02:00 확인",
+      "verified": true
+    },
+    {
+      "title": "실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가'",
+      "source": "아주경제",
+      "published_at": "2026-09-22T05:00:00+09:00",
+      "url": "https://www.ajunews.com/view/20260921135635879",
+      "canonical_url": "https://www.ajunews.com/view/20260921135635879",
+      "snippet": "석유화학업계의 실적 악화와 담합 의혹 수사에 따른 사업재편·고부가 제품 전환 부담 점검",
+      "summary": "△석유화학업계의 실적 악화와 담합 의혹 수사에 따른 사업재편·고부가 제품 전환 부담 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T05:00:00+09:00",
+      "verified": true
+    },
+    {
+      "title": "주병기 공정위원장 \"조사 무력화 유감\"…정유사 담합 조사 내달 마무리",
+      "source": "아주경제",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://www.ajunews.com/view/20260921135239852",
+      "canonical_url": "https://www.ajunews.com/view/20260921135239852",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:00:00+09:00",
+      "verified": true
+    },
+    {
+      "title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+      "source": "연합뉴스",
+      "published_at": "2026-09-21T16:00:02+09:00",
+      "url": "https://www.yna.co.kr/view/AKR20260921128000002",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20260921128000002",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:00:02+09:00",
+      "verified": true
+    },
+    {
+      "title": "나프타 위기 틈타 10조원대 담합 의혹… LG화학·OCI 등 주요 석유화학사 정조준",
+      "source": "ㅍㅍㅅㅅ",
+      "published_at": "2026-09-21T10:04:47+09:00",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=311750",
+      "canonical_url": "https://www.ppss.kr/news/articleView.html?idxno=311750",
+      "snippet": "나프타 수급 위기 속 석유화학 7개사의 가격 담합 의혹과 임원 구속 관련 수사 동향 점검",
+      "summary": "△나프타 수급 위기 속 석유화학 7개사의 가격 담합 의혹과 임원 구속 관련 수사 동향 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T10:04:47+09:00",
+      "verified": true
+    },
+    {
+      "title": "“쿠팡 현장조사 중단 매우 중대”… 주병기, 사법부에 유감 표시",
+      "source": "국민일보",
+      "published_at": "2026-09-22T00:17:00+09:00",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000014224",
+      "canonical_url": "https://www.kmib.co.kr/article/view.asp?arcid=9000014224",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-22T00:17:00+09:00",
+      "verified": true
+    },
+    {
+      "title": "주병기 \"정유사 가격담합 10월 조사 마무리…국고채 조만간 결론\"",
+      "source": "뉴시스",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://www.newsis.com/view/NISX20260921_0003798656",
+      "canonical_url": "https://www.newsis.com/view/NISX20260921_0003798656",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 등록 2026.09.21 16:00:00 확인; meta 17:10:24는 수정시각이므로 사용하지 않음",
+      "verified": true
+    },
+    {
+      "title": "주병기 공정거래위원장 “생활 밀접 분야 불공정행위 뿌리뽑을 것…담합 반복시 시장 참여 제한”",
+      "source": "KBS",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8668701",
+      "canonical_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8668701",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 입력 2026.09.21 (16:00) 확인; 수정16:08과 구분",
+      "verified": true
+    },
+    {
+      "title": "공정위원장 \"편법·탈법으로 돈 벌 수 없어야…반칙 걷어낼 것\"",
+      "source": "데일리안",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://www.dailian.co.kr/news/view/1692929/?sc=Naver",
+      "canonical_url": "https://www.dailian.co.kr/news/view/1692929/?sc=Naver",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:00:00+09:00",
+      "verified": true
+    },
+    {
+      "title": "주병기 \"공정위 조사 문제 없어…조사 피할 수 없도록 규정 손볼 것\"",
+      "source": "아시아경제",
+      "published_at": "2026-09-21T16:00:00+09:00",
+      "url": "https://view.asiae.co.kr/article/2026092114103047642",
+      "canonical_url": "https://view.asiae.co.kr/article/2026092114103047642",
+      "snippet": "정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "summary": "△정유사 석유류 가격 담합 의혹 조사를 10월까지 마무리하고 심의 절차 개시 여부를 결정할 계획",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "정유 담합",
+        "석유화학 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T16:00:00+0900",
+      "verified": true
+    }
+  ],
+  "exclusions": [
+    {
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH202609211840137G2",
+      "title": "주병기, 법원 효력정지에 유감…“현장조사 무력화“",
+      "reason": "동일 매체의 17:08 보도와 본문 동일한 후속 영상 재보도 제외"
+    },
+    {
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008764232&plink=ORI&cooper=NAVER",
+      "title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+      "reason": "연합뉴스 원문과 동일한 전재 기사; 원문 우선"
+    },
+    {
+      "url": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005925275",
+      "title": "[집중취재] 반도체로 버틴 한국 수출…정상외교 슈퍼위크도 촉각",
+      "reason": "반도체 수출·정상외교 중심으로 유가 담합과 직접 관련 없음"
+    },
+    {
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03860566645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "title": "‘AI 속도조절론’에도 삼성전자 5% 강세…코스피 ‘7000선’ 재탈환",
+      "reason": "AI 기업 담합 소송과 증시 기사로 정유 담합과 무관"
+    },
+    {
+      "url": "https://kpenews.com/View.aspx?No=4235469",
+      "title": "하나증권 “은행주, 단기 모멘텀 크지 않지만 실적 시즌 겨냥 매수 전략 유효” - 한국정경신문",
+      "reason": "은행주·국고채 관련 담합 기사로 유가 담합과 무관"
+    },
+    {
+      "url": "https://www.sidae.com/article/2026092119332857810",
+      "title": "[시대데스크/홍정표]선의의 정책도 만기가 필요하다",
+      "reason": "최고가격제 정책 칼럼으로 담합·조사 관련성 없음"
+    },
+    {
+      "url": "https://www.news1.kr/society/court-prosecution/6297571",
+      "title": "검찰 미제 16만 건 어디로…공소청 출범 열흘 앞 이송 사건 '안갯속'",
+      "reason": "원문 응답에서 본문 확인 불가; 검증 완료로 처리하지 않음"
+    }
+  ],
+  "search_log": [
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "정유 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "석유화학 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "유가 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "공정위 정유",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "LG화학 과징금",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "정유 불공정",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "정유 담합",
+      "articles": [
+        {
+          "title": "동영상 첨부된 문서",
+          "press": "YTN",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921091019174",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "YTN 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 \"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다 24일 워싱턴 美·中 정상회담 앞두고 초긴장 - 후티, 아람코 정유 시설 공격에 확전 우려…트럼프 급거 귀국 - 오픈AI 5년간 2,800억...사금융까지\" - 트럼프 'AI 군대 만들겠다'..속도 조절론은 \" 담합 \"이라 일축 - 외국인 삼전 4,620억 순매도 vs 하이닉스 1조... 2026.09.21 3",
+          "score": 5,
+          "score_breakdown": {
+            "keyword": 3,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 1,
+          "source_query": "정유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "\"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다",
+          "press": "YTN",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921091019174",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "YTN 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 \"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다 24일 워싱턴 美·中 정상회담 앞두고 초긴장 - 후티, 아람코 정유 시설 공격에 확전 우려…트럼프 급거 귀국 - 오픈AI 5년간 2,800억...사금융까지\" - 트럼프 'AI 군대 만들겠다'..속도 조절론은 \" 담합 \"이라 일축 - 외국인 삼전 4,620억 순매도 vs 하이닉스 1조... 2026.09.21 3",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 3,
+            "title_importance": 1,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 1,
+          "source_query": "정유 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "석유화학 담합",
+      "articles": [
+        {
+          "title": "검찰 미제 16만 건 어디로…공소청 출범 열흘 앞 이송 사건 '안갯속'",
+          "press": "뉴스1",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921155053194",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "뉴스1 개별문서메뉴 톡으로 바로 공유 공유하기 2 검찰 미제 16만 건 어디로…공소청 출범 열흘 앞 이송 사건 '안갯속' 법조계에 따르면 검찰의 전체 미제사건 16만5000여 건 중 인지수사 비율은 1% 미만 수준이다. 검찰은 '홈플러스 사태', ' 석유 화학 제품 가격 담합 ' 등 사안이 중대한 인지 사건들은 이달 내 종결한다는 방침이다. 서울중앙지검은 '홈플러스 전자단기사채(전단채) 사기... 2026.09.21 3",
+          "score": 5,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "석유화학 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "유가 담합",
+      "articles": [
+        {
+          "title": "‘AI 속도조절론’에도 삼성전자 5% 강세…코스피 ‘7000선’ 재탈환",
+          "press": "이데일리",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921165047758",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "이데일리 개별문서메뉴 톡으로 바로 공유 공유하기 ‘AI 속도조절론’에도 삼성전자 5% 강세…코스피 ‘7000선’ 재탈환 조절론이 담합 에 해당한다는 집단소송이 미국에서 제기되면서, ‘속도조절론’을 둘러싼 논리가 반발에 부딪히며 하방 압력도 한풀 꺾였다는 분석이다. 나정환 NH투자증권 연구원은 “다리오 아모데이 앤트로픽 최고경영자(CEO) 등의 속도 조절 발언은 윤리적 문제와... 2026.09.21",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 0,
+            "title_importance": 2,
+            "press": 3,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "유가 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "동영상 첨부된 문서",
+          "press": "YTN",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921091019174",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "YTN 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 \"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다 말도 담합 이라고 일축하고 있습니다. 정부 주도권을 잡고 있는 사람이 AI를 더 키우고 더 하자, 또 중국과의 경제 경쟁, 이런 얘기도 하고 있는 상황이기 때문에 'AI 그만, 스톱' 이건 아닌 것 같아요. 다만 아까 말씀하신 것처럼 아직까지 구체적으로 얼마나 돈이... 2026.09.21 3",
+          "score": 4,
+          "score_breakdown": {
+            "keyword": 1,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "유가 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "\"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다",
+          "press": "YTN",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921091019174",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "YTN 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 \"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다 말도 담합 이라고 일축하고 있습니다. 정부 주도권을 잡고 있는 사람이 AI를 더 키우고 더 하자, 또 중국과의 경제 경쟁, 이런 얘기도 하고 있는 상황이기 때문에 'AI 그만, 스톱' 이건 아닌 것 같아요. 다만 아까 말씀하신 것처럼 아직까지 구체적으로 얼마나 돈이... 2026.09.21 3",
+          "score": 5,
+          "score_breakdown": {
+            "keyword": 1,
+            "title_importance": 1,
+            "press": 2,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "유가 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "공정위 정유",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "LG화학 과징금",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "정유 불공정",
+      "articles": []
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "정유 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "석유화학 담합",
+      "articles": [
+        {
+          "title": "실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가'",
+          "press": "아주경제",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260922050038033",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "아주경제 개별문서메뉴 톡으로 바로 공유 공유하기 실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가' 여수 석유 화학 단지 [사진=연합뉴스] 국제 유가 상승으로 석유 화학 의 핵심 원재료인 나프타 가격이 다시 상승세를 그리는 가운데 국내 석화 업계가 담합 의혹에 따른 검찰 수사라는 암초에 부딪쳤다. 대내외적 악재가 지속되면서 국내 주요 석화 기업들이 스페셜티... 2026.09.22",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 1,
+          "source_query": "석유화학 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "유가 담합",
+      "articles": [
+        {
+          "title": "실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가'",
+          "press": "아주경제",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260922050038033",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "아주경제 개별문서메뉴 톡으로 바로 공유 공유하기 실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가' 여수 석유화학단지 [사진=연합뉴스] 국제 유가 상승으로 석유화학의 핵심 원재료인 나프타 가격이 다시 상승세를 그리는 가운데 국내 석화 업계가 담합 의혹에 따른 검찰 수사라는 암초에 부딪쳤다. 대내외적 악재가 지속되면서 국내 주요 석화 기업들이 스페셜티... 2026.09.22",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "유가 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "공정위 정유",
+      "articles": []
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "LG화학 과징금",
+      "articles": [
+        {
+          "title": "실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가'",
+          "press": "아주경제",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260922050038033",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "아주경제 개별문서메뉴 톡으로 바로 공유 공유하기 실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가' 공정거래법은 담합이 인정될 경우 관련 매출액의 최대 20%까지 과징금 으로 부과할 수 있다. 석화 업체들이 중국·중동발 공급과잉에...받아 업계 전반의 대응이 아직 미흡하다고 평가했다. LG화학 만이 유일하게 스페셜티 매출 비중이 50%에 근접하며 양호한 수준을... 2026.09.22",
+          "score": 3,
+          "score_breakdown": {
+            "keyword": 1,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "LG화학 과징금",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "정유 불공정",
+      "articles": [
+        {
+          "title": "뉴욕 간 룰라 \"트럼프는 황제…다른 나라 통치할 권리 없어\"",
+          "press": "연합뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260922075153612",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "연합뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 4 뉴욕 간 룰라 \"트럼프는 황제…다른 나라 통치할 권리 없어\" 베네수엘라의) 상전인 셈이다\"고 덧붙였다. 베네수엘라의 한 정유 시설 [AFP=연합뉴스 자료사진. 재판매 및 DB 금지] 이와 함께 난항을...이를 적용할 수밖에 없다\"고 경고했다. 앞서 미국은 불공정 무역 관행과 노동 환경 문제를 이유로 브라질산 제품에 최대 37.5%... 2026.09.22",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 3,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 1,
+          "source_query": "정유 불공정",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "evening",
+      "query": "정유 담합",
+      "articles": [
+        {
+          "title": "파이낸셜뉴스",
+          "press": "파이낸셜뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/channel/139/home",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "파이낸셜뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 '26조원 유가 담합 ' 재판 본격화...자진신고 임직원 증언대 선다 검찰이 파악한 직접 담합 규모는 14조2000억원, 시장 파급 효과를 포함한 경쟁제한 규모는 26조원에 달한다. 반면 정유 4사는 첫 공판에서 \"구조적 담합 은 없었으며 시장 원리와 적법 계약에 따른 것\"이라며 혐의를 전면 부인한 상태다. chlee1@fnnews.com 이창훈 기자 2026.09.22",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": -2
+          },
+          "industry_relevance": 1,
+          "source_query": "정유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "'26조원 유가 담합 ' 재판 본격화...자진신고 임직원 증언대 선다",
+          "press": "파이낸셜뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260922142244436",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "파이낸셜뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 '26조원 유가 담합 ' 재판 본격화...자진신고 임직원 증언대 선다 검찰이 파악한 직접 담합 규모는 14조2000억원, 시장 파급 효과를 포함한 경쟁제한 규모는 26조원에 달한다. 반면 정유 4사는 첫 공판에서 \"구조적 담합 은 없었으며 시장 원리와 적법 계약에 따른 것\"이라며 혐의를 전면 부인한 상태다. chlee1@fnnews.com 이창훈 기자 2026.09.22",
+          "score": 10,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 2,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 1,
+          "source_query": "정유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "'유가 담합 ' 재판, 리니언시 임직원 11월 증인신문",
+          "press": "아시아경제",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260922115128363",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "아시아경제 개별문서메뉴 톡으로 바로 공유 공유하기 '유가 담합 ' 재판, 리니언시 임직원 11월 증인신문 혐의로는 기소되지 않았다. SK에너지 담당 직원들은 리니언시에 따라 재판에 넘겨지지 않았고, SK에너지 법인도 담합 혐의에서는 빠졌다. 또한 정유 4사는 자영주유소와 전량구매계약을 맺고 사후정산제를 적용해 거래상 지위를 남용한 혐의로도 함께 재판을 받고... 2026.09.22",
+          "score": 10,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 2,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "evening",
+      "query": "석유화학 담합",
+      "articles": [
+        {
+          "title": "석화 구조조정에 담합 수사까지…시장 안정책 시험대",
+          "press": "뉴스웨이",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260922152006611",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "뉴스웨이 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 석화 구조조정에 담합 수사까지…시장 안정책 시험대 연간 1억1000만~1억3000만톤에 이르는 만큼 공급과잉 해소 효과가 제한적일 수 있다고 분석했다. 이런 가운데 국내 석유 화학 업계에서는 대형 가격 담합 수사까지 진행되고 있다. 서울중앙지검은 LG 화학 ·한화솔루션·OCI·PKC·애경케미칼·롯데정밀 화학 ·유니드 등... 2026.09.22",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 1,
+            "press": 1,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "석유화학 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "파이낸셜뉴스",
+          "press": "파이낸셜뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/channel/139/home",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "파이낸셜뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 LG 화학 , 3분기 영업익 76% 급감 전망…과징금 최대 1.4조 우려까지 를 유지하고, 목표주가를 23만5000원으로 하향 조정했다. 2·4분기 실적을 끌어올렸던 일회성 효과가 사라지는 데다 석유 화학 제품 가격 담합 관련 과징금도 부담 요인으로 꼽혔다. 정경희 LS증권 연구원은 22일 \"2·4분기에는 중동 전쟁 영향에 따른 저가 원료 투입... 2026.09.22",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 3,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 2,
+            "duplicate_or_low_quality": -2
+          },
+          "industry_relevance": -1,
+          "source_query": "석유화학 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "LG 화학 , 3분기 영업익 76% 급감 전망…과징금 최대 1.4조 우려까지",
+          "press": "파이낸셜뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260922084532061",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "파이낸셜뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 LG 화학 , 3분기 영업익 76% 급감 전망…과징금 최대 1.4조 우려까지 를 유지하고, 목표주가를 23만5000원으로 하향 조정했다. 2·4분기 실적을 끌어올렸던 일회성 효과가 사라지는 데다 석유 화학 제품 가격 담합 관련 과징금도 부담 요인으로 꼽혔다. 정경희 LS증권 연구원은 22일 \"2·4분기에는 중동 전쟁 영향에 따른 저가 원료 투입... 2026.09.22",
+          "score": 9,
+          "score_breakdown": {
+            "keyword": 3,
+            "title_importance": 1,
+            "press": 3,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "석유화학 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "LS證 \"LG 화학 , 실적 둔화·과징금 리스크…목표가 23만5000원↓\"",
+          "press": "이투데이",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260922081605144",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "이투데이 개별문서메뉴 톡으로 바로 공유 공유하기 LS證 \"LG 화학 , 실적 둔화·과징금 리스크…목표가 23만5000원↓\" 달하는 LG에너지솔루션(LGES)의 수익성 감소와 비중 37%인 석유 화학 부문의 적자전환으로 수익 정체가 예상된다\"고 설명했다. 정...가성소다(CA), 가소제 등 비닐 체인 8개 품목에 대한 가격 담합 혐의로 검찰 수사와 공정거래위원회 조사가 진행 중\"이라며 \"상향된... 2026.09.22",
+          "score": 5,
+          "score_breakdown": {
+            "keyword": 3,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 0,
+          "source_query": "석유화학 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "evening",
+      "query": "유가 담합",
+      "articles": [
+        {
+          "title": "파이낸셜뉴스",
+          "press": "파이낸셜뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/channel/139/home",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "파이낸셜뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 '26조원 유가 담합 ' 재판 본격화...자진신고 임직원 증언대 선다 관계자들이 가격표지판과 정량검사를 하고 있다. 뉴스1 [파이낸셜뉴스] 중동발 위기 상황 당시 고유가 흐름에 올라타 26조원대 유가 담합 을 주도한 혐의로 기소된 국내 4대 정유사(HD현대오일뱅크·SK에너지·GS칼텍스·S-OIL)의 재판 쟁점이 윤곽을 드러냈다. 담합 ... 2026.09.22",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": -2
+          },
+          "industry_relevance": 2,
+          "source_query": "유가 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "'26조원 유가 담합 ' 재판 본격화...자진신고 임직원 증언대 선다",
+          "press": "파이낸셜뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260922142244436",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "파이낸셜뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 '26조원 유가 담합 ' 재판 본격화...자진신고 임직원 증언대 선다 관계자들이 가격표지판과 정량검사를 하고 있다. 뉴스1 [파이낸셜뉴스] 중동발 위기 상황 당시 고유가 흐름에 올라타 26조원대 유가 담합 을 주도한 혐의로 기소된 국내 4대 정유사(HD현대오일뱅크·SK에너지·GS칼텍스·S-OIL)의 재판 쟁점이 윤곽을 드러냈다. 담합 ... 2026.09.22",
+          "score": 10,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 2,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "유가 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "' 유가 담합 ' 재판, 리니언시 임직원 11월 증인신문",
+          "press": "아시아경제",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260922115128363",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "아시아경제 개별문서메뉴 톡으로 바로 공유 공유하기 ' 유가 담합 ' 재판, 리니언시 임직원 11월 증인신문 미국·이란 전쟁 직후 유가 를 담합 해 올린 혐의로 기소된 HD현대오일뱅크 재판에서 리니언시(자진신고자 감면제도)를 통해 같은 혐의로 기소를 면한 SK에너지 임직원들이 오는 11월 증인으로 법정에 선다. 참고 이미지. 연합뉴스 서울중앙지법 형사5단독 류지미 판사... 2026.09.22",
+          "score": 11,
+          "score_breakdown": {
+            "keyword": 3,
+            "title_importance": 2,
+            "press": 3,
+            "originality": 3,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 0,
+          "source_query": "유가 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "evening",
+      "query": "공정위 정유",
+      "articles": [
+        {
+          "title": "파이낸셜뉴스",
+          "press": "파이낸셜뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/channel/139/home",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "파이낸셜뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 '26조원 유가담합' 재판 본격화...자진신고 임직원 증언대 선다 규제 및 공정거래에 관한 법률 위반 등의 혐의로 기소된 4개 정유 법인 및 임직원 4명에 대한 첫 공판준비기일을 열고 검찰과 피고인...입장을 견지했다. 반면 피고인 측 변호인은 \"증인은 공정위 자진신고를 한 상태로, 수사나 재판 과정에서 전부 또는 일부... 2026.09.22",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": -2
+          },
+          "industry_relevance": 1,
+          "source_query": "공정위 정유",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "'26조원 유가담합' 재판 본격화...자진신고 임직원 증언대 선다",
+          "press": "파이낸셜뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260922142244436",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "파이낸셜뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 '26조원 유가담합' 재판 본격화...자진신고 임직원 증언대 선다 규제 및 공정거래에 관한 법률 위반 등의 혐의로 기소된 4개 정유 법인 및 임직원 4명에 대한 첫 공판준비기일을 열고 검찰과 피고인...입장을 견지했다. 반면 피고인 측 변호인은 \"증인은 공정위 자진신고를 한 상태로, 수사나 재판 과정에서 전부 또는 일부... 2026.09.22",
+          "score": 10,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 2,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 1,
+          "source_query": "공정위 정유",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "'유가 담합' 재판, 리니언시 임직원 11월 증인신문",
+          "press": "아시아경제",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260922115128363",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "아시아경제 개별문서메뉴 톡으로 바로 공유 공유하기 '유가 담합' 재판, 리니언시 임직원 11월 증인신문 등 정유 4사와 임직원의 공정거래법 위반 등 혐의 사건 공판준비기일을 열고 이같이 정했다. 재판부는 오는 11월24일 SK에너지 임직원 A씨를, 26일 B씨를 증인으로 부르기로 했다. 검찰은 두 사람 주신문에 각각 2시간가량 걸릴 것으로 내다봤다. 재판부는 두 사람... 2026.09.22",
+          "score": 10,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 2,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 1,
+          "source_query": "공정위 정유",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "evening",
+      "query": "LG화학 과징금",
+      "articles": [
+        {
+          "title": "석화 구조조정에 담합 수사까지…시장 안정책 시험대",
+          "press": "뉴스웨이",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260922152006611",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "뉴스웨이 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 석화 구조조정에 담합 수사까지…시장 안정책 시험대 롯데케미칼 여수공장(왼쪽)과 LG화학 대산공장. 그래픽=이찬희 기자 중국발 공급과잉에 맞서 생산능력 250만톤 감축을 추진 중인 국내 석유 화학 업계가 15조원대 가격 담합 의혹 수사까지 받고 있다. 대규모 사업재편으로 설비를 줄이는 동시에 가격 경쟁과 내부통제... 2026.09.22",
+          "score": 5,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 1,
+            "press": 1,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "LG화학 과징금",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "파이낸셜뉴스",
+          "press": "파이낸셜뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/channel/139/home",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "파이낸셜뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 LG화학 , 3분기 영업익 76% 급감 전망… 과징금 최대 1.4조 우려까지 거래위원회 조사가 진행 중이다. 정 연구원은 지난 3월 상향된 과징금 기준과 5년간 관련 제품 매출 추정치를 적용할 경우 LG화학 의 과징금 규모가 최소 6996억원에서 최대 1조3992억원에 이를 수 있다고 추산했다. 다만 실제 과징금 은 공법과 가동률, 적용 기간 등... 2026.09.22",
+          "score": 3,
+          "score_breakdown": {
+            "keyword": 0,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 2,
+            "duplicate_or_low_quality": -2
+          },
+          "industry_relevance": -1,
+          "source_query": "LG화학 과징금",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "LG화학 , 3분기 영업익 76% 급감 전망… 과징금 최대 1.4조 우려까지",
+          "press": "파이낸셜뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260922084532061",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "파이낸셜뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 LG화학 , 3분기 영업익 76% 급감 전망… 과징금 최대 1.4조 우려까지 거래위원회 조사가 진행 중이다. 정 연구원은 지난 3월 상향된 과징금 기준과 5년간 관련 제품 매출 추정치를 적용할 경우 LG화학 의 과징금 규모가 최소 6996억원에서 최대 1조3992억원에 이를 수 있다고 추산했다. 다만 실제 과징금 은 공법과 가동률, 적용 기간 등... 2026.09.22",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 0,
+            "title_importance": 1,
+            "press": 3,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "LG화학 과징금",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "LS證 \" LG화학 , 실적 둔화· 과징금 리스크…목표가 23만5000원↓\"",
+          "press": "이투데이",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260922081605144",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "이투데이 개별문서메뉴 톡으로 바로 공유 공유하기 LS證 \" LG화학 , 실적 둔화· 과징금 리스크…목표가 23만5000원↓\" LG화학 매출액 및 전망치.(출처=LS증권) LS증권은 LG화학 에 대해 2분기 일회성 요인 소멸과 높은 원재료가 반영에 따른 3분기 실적 둔화, 비닐 체인 담합 과징금 리스크 등을 반영해 투자의견 '보유(Hold)'를 유지하고 목표주가를 기존 24만9000원에서 23만5000원... 2026.09.22",
+          "score": 4,
+          "score_breakdown": {
+            "keyword": 0,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "LG화학 과징금",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "evening",
+      "query": "정유 불공정",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "정유 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "석유화학 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "유가 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "공정위 정유",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "LG화학 과징금",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "정유 불공정",
+      "articles": [
+        {
+          "title": "동행미디어 시대",
+          "press": "동행미디어 시대",
+          "press_grade": "C",
+          "url": "https://v.daum.net/channel/157/home",
+          "published_date": "2026-09-23",
+          "published_at_kst": "",
+          "snippet": "동행미디어 시대 개별문서메뉴 톡으로 바로 공유 공유하기 [시대데스크/홍정표]선의의 정책도 만기가 필요하다 뿐이다. 정유 업계는 팔수록 손해 보는 구조가 돼 공급과 수요가 왜곡되고 국내외 가격 차로 손실이 쌓인다고 호소한다. 정부가 최고액을 지정해 정유사가 손실을 보면 재정으로 보전하기로 했지만 손실 산정 방식은 불투명하다. 가격이 오르면 소비가 줄어야 정상... 2026.09.23",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유 불공정",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "[시대데스크/홍정표]선의의 정책도 만기가 필요하다",
+          "press": "동행미디어 시대",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260923060250573",
+          "published_date": "2026-09-23",
+          "published_at_kst": "",
+          "snippet": "동행미디어 시대 개별문서메뉴 톡으로 바로 공유 공유하기 [시대데스크/홍정표]선의의 정책도 만기가 필요하다 뿐이다. 정유 업계는 팔수록 손해 보는 구조가 돼 공급과 수요가 왜곡되고 국내외 가격 차로 손실이 쌓인다고 호소한다. 정부가 최고액을 지정해 정유사가 손실을 보면 재정으로 보전하기로 했지만 손실 산정 방식은 불투명하다. 가격이 오르면 소비가 줄어야 정상... 2026.09.23",
+          "score": 8,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 1,
+            "press": 1,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유 불공정",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "evening",
+      "query": "정유 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "evening",
+      "query": "석유화학 담합",
+      "articles": [
+        {
+          "title": "'15조 석화 담합 ' 절반이 PVC·ECH…생산사 각각 2곳",
+          "press": "신아일보",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260923141309864",
+          "published_date": "2026-09-23",
+          "published_at_kst": "",
+          "snippet": "신아일보 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 '15조 석화 담합 ' 절반이 PVC·ECH…생산사 각각 2곳 화학 플랜트 앞 PVC 수지 백색 분말 시료 이미지. [이미지=오픈AI 챗GPT] 국내 주요 석유 화학 업체들의 15조원대 가격 담합 의혹 가운데 생산기업이 각각 2곳인 PVC(폴리염화비닐)와 ECH(에피클로로히드린) 가 전체의 약 48%를 차지하는 것으로 나타났다. 23일 업계... 2026.09.23",
+          "score": 5,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "석유화학 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "정부 지원금 받으면서도 담합 … 석유 화학 7개사 16조 넘었다",
+          "press": "서울경제",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260923140245485",
+          "published_date": "2026-09-23",
+          "published_at_kst": "",
+          "snippet": "서울경제 개별문서메뉴 톡으로 바로 공유 공유하기 정부 지원금 받으면서도 담합 … 석유 화학 7개사 16조 넘었다 규모만 16조 원 이상인 것으로 드러났다. 검찰 직수사건 기준으로 보면 사상 최고치다. 법원도 지난 19일 석유 화학 제품 담합 에 관여한 혐의를 받는 석유 화학업체 전현직 임직원 8명에 대한 구속 전 피의자 심문에서 이 같은 담합 규모 등 범죄의 중대성과 증거 인멸... 2026.09.23 1",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 3,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "석유화학 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "형사사법체계 개편 앞두고 속도 내는 검찰…MBK·홈플러스 사건 이달 결론 나나",
+          "press": "프레시안",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260923081451765",
+          "published_date": "2026-09-23",
+          "published_at_kst": "",
+          "snippet": "프레시안 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 형사사법체계 개편 앞두고 속도 내는 검찰…MBK·홈플러스 사건 이달 결론 나나 많고 검찰이 수사력을 집중한 사건이어서 그 결론에 대한 관심이 높아지고 있다. 이와 함께 검찰이 신병 확보에 나선 석유 화학 제품 담합 사건을 비롯해 국회의원 전직 보좌관의 뇌물수수 사건, 한국토지신탁 계열사 자금담당 임원의 횡령·배임 사건 처리도 중수청... 2026.09.23",
+          "score": 4,
+          "score_breakdown": {
+            "keyword": 3,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "석유화학 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "evening",
+      "query": "유가 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "evening",
+      "query": "공정위 정유",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "evening",
+      "query": "LG화학 과징금",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "evening",
+      "query": "정유 불공정",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "유가담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "유가 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "정유사 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "기름값 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "석유 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "휘발유 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "경유 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "주유소 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "정유업계 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "석유제품 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "유류가격 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "공정위 유가 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "morning",
+      "query": "공정거래위원회 정유사 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "유가담합",
+      "articles": [
+        {
+          "title": "‘AI 속도조절론’에도 삼성전자 5% 강세…코스피 ‘7000선’ 재탈환",
+          "press": "이데일리",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921165047758",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "이데일리 개별문서메뉴 톡으로 바로 공유 공유하기 ‘AI 속도조절론’에도 삼성전자 5% 강세…코스피 ‘7000선’ 재탈환 조절론이 담합 에 해당한다는 집단소송이 미국에서 제기되면서, ‘속도조절론’을 둘러싼 논리가 반발에 부딪히며 하방 압력도 한풀 꺾였다는 분석이다. 나정환 NH투자증권 연구원은 “다리오 아모데이 앤트로픽 최고경영자(CEO) 등의 속도 조절 발언은 윤리적 문제와... 2026.09.21",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 0,
+            "title_importance": 2,
+            "press": 3,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "유가담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "동영상 첨부된 문서",
+          "press": "YTN",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921091019174",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "YTN 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 \"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다 말도 담합 이라고 일축하고 있습니다. 정부 주도권을 잡고 있는 사람이 AI를 더 키우고 더 하자, 또 중국과의 경제 경쟁, 이런 얘기도 하고 있는 상황이기 때문에 'AI 그만, 스톱' 이건 아닌 것 같아요. 다만 아까 말씀하신 것처럼 아직까지 구체적으로 얼마나 돈이... 2026.09.21 3",
+          "score": 4,
+          "score_breakdown": {
+            "keyword": 1,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "유가담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "\"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다",
+          "press": "YTN",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921091019174",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "YTN 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 \"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다 말도 담합 이라고 일축하고 있습니다. 정부 주도권을 잡고 있는 사람이 AI를 더 키우고 더 하자, 또 중국과의 경제 경쟁, 이런 얘기도 하고 있는 상황이기 때문에 'AI 그만, 스톱' 이건 아닌 것 같아요. 다만 아까 말씀하신 것처럼 아직까지 구체적으로 얼마나 돈이... 2026.09.21 3",
+          "score": 5,
+          "score_breakdown": {
+            "keyword": 1,
+            "title_importance": 1,
+            "press": 2,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "유가담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "유가 담합",
+      "articles": [
+        {
+          "title": "‘AI 속도조절론’에도 삼성전자 5% 강세…코스피 ‘7000선’ 재탈환",
+          "press": "이데일리",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921165047758",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "이데일리 개별문서메뉴 톡으로 바로 공유 공유하기 ‘AI 속도조절론’에도 삼성전자 5% 강세…코스피 ‘7000선’ 재탈환 조절론이 담합 에 해당한다는 집단소송이 미국에서 제기되면서, ‘속도조절론’을 둘러싼 논리가 반발에 부딪히며 하방 압력도 한풀 꺾였다는 분석이다. 나정환 NH투자증권 연구원은 “다리오 아모데이 앤트로픽 최고경영자(CEO) 등의 속도 조절 발언은 윤리적 문제와... 2026.09.21",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 0,
+            "title_importance": 2,
+            "press": 3,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "유가 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "동영상 첨부된 문서",
+          "press": "YTN",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921091019174",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "YTN 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 \"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다 말도 담합 이라고 일축하고 있습니다. 정부 주도권을 잡고 있는 사람이 AI를 더 키우고 더 하자, 또 중국과의 경제 경쟁, 이런 얘기도 하고 있는 상황이기 때문에 'AI 그만, 스톱' 이건 아닌 것 같아요. 다만 아까 말씀하신 것처럼 아직까지 구체적으로 얼마나 돈이... 2026.09.21 3",
+          "score": 4,
+          "score_breakdown": {
+            "keyword": 1,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "유가 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "\"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다",
+          "press": "YTN",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921091019174",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "YTN 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 \"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다 말도 담합 이라고 일축하고 있습니다. 정부 주도권을 잡고 있는 사람이 AI를 더 키우고 더 하자, 또 중국과의 경제 경쟁, 이런 얘기도 하고 있는 상황이기 때문에 'AI 그만, 스톱' 이건 아닌 것 같아요. 다만 아까 말씀하신 것처럼 아직까지 구체적으로 얼마나 돈이... 2026.09.21 3",
+          "score": 5,
+          "score_breakdown": {
+            "keyword": 1,
+            "title_importance": 1,
+            "press": 2,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "유가 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "정유사 담합",
+      "articles": [
+        {
+          "title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+          "press": "SBS",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921165401920",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "SBS 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\" 있다며 연내 심의가 이뤄질 수 있도록 신속히 심사를 마무리하겠다고 덧붙였습니다. 그는 \"서민 생활과 물가에 직결된 정유사 들의 석유류 가격 담합 도 10월까지 조사를 마치고 심의 절차 개시 여부를 결정하도록 속도를 내겠다\"고 밝혔습니다. 다음 달 1일부로 조직... 2026.09.21",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화”",
+          "press": "에너지경제",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921164038169",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "에너지경제 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화” 방안을 협의 중이라고 했다. 그는 올 하반기 먹거리와 생필품, 교육, 에너지 등 민생 분야 담합 조사와 제재도 지속한다고 밝혔다. 정유사 들의 석유류 가격 담합 도 10월까지 조사를 완료, 심의 절차에 돌입하는 등 속도를 낼 방침이다. 주 위원장은 이날 정부세종... 2026.09.21",
+          "score": 8,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "\"쿠팡 거부로 현장조사 무력화… 소상공인 최후의 보루 무너뜨려\"",
+          "press": "오마이뉴스",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921160255019",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "오마이뉴스 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 3 \"쿠팡 거부로 현장조사 무력화… 소상공인 최후의 보루 무너뜨려\" 데이터와 시장 영향에 대한 경제 분석 자료가 방대해 10차례 이상 자료 제출을 요구할 수밖에 없었다\"고 설명했다. 정유사 들의 석유류 가격 담합 의혹은 10월까지 조사를 마치고 심의 절차에 들어갈지를 결정한다. 한화그룹의 한국항공우주산업(KAI) 지분 인수에... 2026.09.21 1",
+          "score": 8,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "공정위, 네이버-두나무 기업결합 연내 심의 속도…“고난도 심사 진행”",
+          "press": "쿠키뉴스",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921160254016",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "쿠키뉴스 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 2 공정위, 네이버-두나무 기업결합 연내 심의 속도…“고난도 심사 진행” 고난이도의 심사가 진행되고 있다”며 “연내 심의가 이루어질 수 있도록 신속히 심사를 마무리하겠다”고 밝혔다. 정유사 들의 석유류 가격 담합 의혹에 대한 조사도 마무리 단계에 들어간다. 주 위원장은 “서민 생활과 물가에 직결된 정유사 들의 석유류 가격 담합 도... 2026.09.21",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "연합인포맥스",
+          "press": "연합인포맥스",
+          "press_grade": "C",
+          "url": "https://v.daum.net/channel/552842/home",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "연합인포맥스 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 \"국고채 담합 조만간 결과 도출…복잡한 구조에 신중한 심의\" 제한 우려가 제기되고 있다\"면서 \"연내 심의가 이뤄질 수 있도록 신속히 심사를 마무리하겠다\"고 주 위원장은 밝혔다. 정유사 들의 석유류 가격 담합 역시 다음 달까지 조사를 마치고 심의절차 개시 여부를 결정할 예정이다. ◇반복 담합 사업자 시장참여 제한 제도... 2026.09.21",
+          "score": 4,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": -2
+          },
+          "industry_relevance": 2,
+          "source_query": "정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 \"국고채 담합 조만간 결과 도출…복잡한 구조에 신중한 심의\"",
+          "press": "연합인포맥스",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921160212944",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "연합인포맥스 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 \"국고채 담합 조만간 결과 도출…복잡한 구조에 신중한 심의\" 제한 우려가 제기되고 있다\"면서 \"연내 심의가 이뤄질 수 있도록 신속히 심사를 마무리하겠다\"고 주 위원장은 밝혔다. 정유사 들의 석유류 가격 담합 역시 다음 달까지 조사를 마치고 심의절차 개시 여부를 결정할 예정이다. ◇반복 담합 사업자 시장참여 제한 제도... 2026.09.21",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 \" 정유사 가격 담합 10월 조사 마무리…국고채 조만간 결론\"",
+          "press": "뉴시스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921160211942",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "뉴시스 개별문서메뉴 톡으로 바로 공유 공유하기 3 주병기 \" 정유사 가격 담합 10월 조사 마무리…국고채 조만간 결론\" dahora83@newsis.com [세종=뉴시스]임하은 기자 = 주병기 공정거래위원장은 21일 \"서민 생활과 물가에 직결된 정유사 들의 석유류 가격 담합 사건은 10월까지 조사를 마치고 심의 절차 개시 여부를 결정하겠다\"고 밝혔다. 주병기 위원장은 이날 정부세종청사 공정위... 2026.09.21",
+          "score": 12,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 3,
+            "press": 3,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 5,
+          "source_query": "정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 공정거래위원장 “생활 밀접 분야 불공정행위 뿌리뽑을 것… 담합 반복시 시장 참여 제한”",
+          "press": "KBS",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921160207922",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "KBS 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 공정거래위원장 “생활 밀접 분야 불공정행위 뿌리뽑을 것… 담합 반복시 시장 참여 제한” 만큼 조속한 시일 안에 결론을 내리고, 네이버와 두나무의 기업결합은 연내 심의를 목표로 심사를 진행할 방침입니다. 정유사 들의 석유류 가격 담합 의혹에 대해서도 다음 달까지 조사를 마친 뒤 심의 절차 개시 여부를 결정할 계획입니다. 주 위원장은 “반칙을... 2026.09.21",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+          "press": "연합뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921160150893",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "연합뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 2 주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\" 심사를 마무리하겠다고 덧붙였다. 네이버 - 두나무 (PG) [김선영 제작] 일러스트 그는 \"서민 생활과 물가에 직결된 정유사 들의 석유류 가격 담합 도 10월까지 조사를 마치고 심의 절차 개시 여부를 결정하도록 속도를 내겠다\"고 밝혔다. 다음 달 1일부로 조직 개편에... 2026.09.21",
+          "score": 8,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "공정위원장 \"편법·탈법으로 돈 벌 수 없어야…반칙 걷어낼 것\"",
+          "press": "데일리안",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921160149891",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "데일리안 개별문서메뉴 톡으로 바로 공유 공유하기 공정위원장 \"편법·탈법으로 돈 벌 수 없어야…반칙 걷어낼 것\" 3차례 전원회의 심의를 마치고 합의를 앞두고 있다. 네이버-두나무 기업결합은 연내 심의를 목표로 심사를 마무리한다. 정유사 석유류 가격 담합 은 10월까지 조사를 마치고 심의절차 개시 여부를 결정할 예정이다. 주 위원장은 \" 담합 등 불공정행위로 얻는 부당이득... 2026.09.21",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 \"공정위 조사 문제 없어…조사 피할 수 없도록 규정 손볼 것\"",
+          "press": "아시아경제",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921160133852",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "아시아경제 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 2 주병기 \"공정위 조사 문제 없어…조사 피할 수 없도록 규정 손볼 것\" 기업결합 건 역시 방대한 데이터 검증을 거쳐 연내 심사가 완료될 수 있도록 속도를 내겠다고 약속했다. 또한 물가와 직결된 정유사 들의 석유류 가격 담합 조사는 오는 10월까지 완료하고 심의 절차 개시 여부를 결정지을 방침이다. 세종=오유교 기자 5625@asiae.co.kr 2026.09.21",
+          "score": 8,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유사 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "기름값 담합",
+      "articles": [
+        {
+          "title": "동영상 첨부된 문서",
+          "press": "YTN",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921091019174",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "YTN 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 \"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다 말도 담합 이라고 일축하고 있습니다. 정부 주도권을 잡고 있는 사람이 AI를 더 키우고 더 하자, 또 중국과의 경제 경쟁, 이런 얘기도...사람들은 자동차를 만드는 사람들이다' 이렇게 비유해보자면 '석유 값 너무 비싸' 이런 속도 조절 얘기가 나올 수도 있습니다... 2026.09.21 3",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 3,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "기름값 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "\"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다",
+          "press": "YTN",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921091019174",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "YTN 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 \"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다 말도 담합 이라고 일축하고 있습니다. 정부 주도권을 잡고 있는 사람이 AI를 더 키우고 더 하자, 또 중국과의 경제 경쟁, 이런 얘기도...사람들은 자동차를 만드는 사람들이다' 이렇게 비유해보자면 '석유 값 너무 비싸' 이런 속도 조절 얘기가 나올 수도 있습니다... 2026.09.21 3",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 3,
+            "title_importance": 1,
+            "press": 2,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "기름값 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "석유 담합",
+      "articles": [
+        {
+          "title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+          "press": "SBS",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921165401920",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "SBS 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\" 연내 심의가 이뤄질 수 있도록 신속히 심사를 마무리하겠다고 덧붙였습니다. 그는 \"서민 생활과 물가에 직결된 정유사들의 석유 류 가격 담합 도 10월까지 조사를 마치고 심의 절차 개시 여부를 결정하도록 속도를 내겠다\"고 밝혔습니다. 다음 달 1일부로 조직 개편에... 2026.09.21",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화”",
+          "press": "에너지경제",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921164038169",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "에너지경제 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화” 방안을 협의 중이라고 했다. 그는 올 하반기 먹거리와 생필품, 교육, 에너지 등 민생 분야 담합 조사와 제재도 지속한다고 밝혔다. 정유사들의 석유 류 가격 담합 도 10월까지 조사를 완료, 심의 절차에 돌입하는 등 속도를 낼 방침이다. 주 위원장은 이날 정부세종... 2026.09.21",
+          "score": 8,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "매일경제TV",
+          "press": "매일경제TV",
+          "press_grade": "C",
+          "url": "https://v.daum.net/channel/552794/home",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "매일경제TV 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 [집중취재] 반도체로 버틴 한국 수출…정상외교 슈퍼위크도 촉각 셈입니다. 석유 제품과 선박 등의 수출도 늘었지만 자동차 부품과 정밀기기, 가전제품은 감소했습니다. 산업 전반이 고르게 회복됐다기보다 반도체가 전체 실적을 끌어올린 구조인 겁니다. 전문가들은 반도체 호황이 꺾이면 수출과 경기가 동시에 타격을 받을 수... 2026.09.21",
+          "score": 1,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": -2
+          },
+          "industry_relevance": -1,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "동영상 첨부된 문서",
+          "press": "매일경제TV",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921162702434",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "매일경제TV 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 [집중취재] 반도체로 버틴 한국 수출…정상외교 슈퍼위크도 촉각 셈입니다. 석유 제품과 선박 등의 수출도 늘었지만 자동차 부품과 정밀기기, 가전제품은 감소했습니다. 산업 전반이 고르게 회복됐다기보다 반도체가 전체 실적을 끌어올린 구조인 겁니다. 전문가들은 반도체 호황이 꺾이면 수출과 경기가 동시에 타격을 받을 수... 2026.09.21",
+          "score": 3,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "[집중취재] 반도체로 버틴 한국 수출…정상외교 슈퍼위크도 촉각",
+          "press": "매일경제TV",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921162702434",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "매일경제TV 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 [집중취재] 반도체로 버틴 한국 수출…정상외교 슈퍼위크도 촉각 셈입니다. 석유 제품과 선박 등의 수출도 늘었지만 자동차 부품과 정밀기기, 가전제품은 감소했습니다. 산업 전반이 고르게 회복됐다기보다 반도체가 전체 실적을 끌어올린 구조인 겁니다. 전문가들은 반도체 호황이 꺾이면 수출과 경기가 동시에 타격을 받을 수... 2026.09.21",
+          "score": 3,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "\"쿠팡 거부로 현장조사 무력화… 소상공인 최후의 보루 무너뜨려\"",
+          "press": "오마이뉴스",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921160255019",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "오마이뉴스 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 3 \"쿠팡 거부로 현장조사 무력화… 소상공인 최후의 보루 무너뜨려\" 시장 영향에 대한 경제 분석 자료가 방대해 10차례 이상 자료 제출을 요구할 수밖에 없었다\"고 설명했다. 정유사들의 석유 류 가격 담합 의혹은 10월까지 조사를 마치고 심의 절차에 들어갈지를 결정한다. 한화그룹의 한국항공우주산업(KAI) 지분 인수에 대해서는... 2026.09.21 1",
+          "score": 8,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "공정위, 네이버-두나무 기업결합 연내 심의 속도…“고난도 심사 진행”",
+          "press": "쿠키뉴스",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921160254016",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "쿠키뉴스 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 2 공정위, 네이버-두나무 기업결합 연내 심의 속도…“고난도 심사 진행” 심사가 진행되고 있다”며 “연내 심의가 이루어질 수 있도록 신속히 심사를 마무리하겠다”고 밝혔다. 정유사들의 석유 류 가격 담합 의혹에 대한 조사도 마무리 단계에 들어간다. 주 위원장은 “서민 생활과 물가에 직결된 정유사들의 석유 류 가격 담합 도 10... 2026.09.21",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "연합인포맥스",
+          "press": "연합인포맥스",
+          "press_grade": "C",
+          "url": "https://v.daum.net/channel/552842/home",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "연합인포맥스 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 \"국고채 담합 조만간 결과 도출…복잡한 구조에 신중한 심의\" \"연내 네이버·두나무 기업결합 심사…내달 석유 류 담합 조사도 마무리\" 주병기 공정거래위원장[출처: 연합뉴스 자료사진] (서울=연합인포맥스) 정수인 기자 = 주병기 공정거래위원장은 국고채 담합 과 관련해 조속한 시일 내에 위원회의 합의를 도출하겠다고 말했다... 2026.09.21",
+          "score": 2,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 1,
+            "duplicate_or_low_quality": -2
+          },
+          "industry_relevance": -1,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 \"국고채 담합 조만간 결과 도출…복잡한 구조에 신중한 심의\"",
+          "press": "연합인포맥스",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921160212944",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "연합인포맥스 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 \"국고채 담합 조만간 결과 도출…복잡한 구조에 신중한 심의\" \"연내 네이버·두나무 기업결합 심사…내달 석유 류 담합 조사도 마무리\" 주병기 공정거래위원장[출처: 연합뉴스 자료사진] (서울=연합인포맥스) 정수인 기자 = 주병기 공정거래위원장은 국고채 담합 과 관련해 조속한 시일 내에 위원회의 합의를 도출하겠다고 말했다... 2026.09.21",
+          "score": 4,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 \"정유사 가격 담합 10월 조사 마무리…국고채 조만간 결론\"",
+          "press": "뉴시스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921160211942",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "뉴시스 개별문서메뉴 톡으로 바로 공유 공유하기 3 주병기 \"정유사 가격 담합 10월 조사 마무리…국고채 조만간 결론\" dahora83@newsis.com [세종=뉴시스]임하은 기자 = 주병기 공정거래위원장은 21일 \"서민 생활과 물가에 직결된 정유사들의 석유 류 가격 담합 사건은 10월까지 조사를 마치고 심의 절차 개시 여부를 결정하겠다\"고 밝혔다. 주병기 위원장은 이날 정부세종청사 공정위... 2026.09.21",
+          "score": 12,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 3,
+            "press": 3,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 5,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 공정거래위원장 “생활 밀접 분야 불공정행위 뿌리뽑을 것… 담합 반복시 시장 참여 제한”",
+          "press": "KBS",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921160207922",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "KBS 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 공정거래위원장 “생활 밀접 분야 불공정행위 뿌리뽑을 것… 담합 반복시 시장 참여 제한” 조속한 시일 안에 결론을 내리고, 네이버와 두나무의 기업결합은 연내 심의를 목표로 심사를 진행할 방침입니다. 정유사들의 석유 류 가격 담합 의혹에 대해서도 다음 달까지 조사를 마친 뒤 심의 절차 개시 여부를 결정할 계획입니다. 주 위원장은 “반칙을 걷어내야... 2026.09.21",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+          "press": "연합뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921160150893",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "연합뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 2 주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\" 마무리하겠다고 덧붙였다. 네이버 - 두나무 (PG) [김선영 제작] 일러스트 그는 \"서민 생활과 물가에 직결된 정유사들의 석유 류 가격 담합 도 10월까지 조사를 마치고 심의 절차 개시 여부를 결정하도록 속도를 내겠다\"고 밝혔다. 다음 달 1일부로 조직 개편에 따라... 2026.09.21",
+          "score": 8,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "공정위원장 \"편법·탈법으로 돈 벌 수 없어야…반칙 걷어낼 것\"",
+          "press": "데일리안",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921160149891",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "데일리안 개별문서메뉴 톡으로 바로 공유 공유하기 공정위원장 \"편법·탈법으로 돈 벌 수 없어야…반칙 걷어낼 것\" 전원회의 심의를 마치고 합의를 앞두고 있다. 네이버-두나무 기업결합은 연내 심의를 목표로 심사를 마무리한다. 정유사 석유 류 가격 담합 은 10월까지 조사를 마치고 심의절차 개시 여부를 결정할 예정이다. 주 위원장은 \" 담합 등 불공정행위로 얻는 부당이득보다 법... 2026.09.21",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "휘발유 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "경유 담합",
+      "articles": [
+        {
+          "title": "동영상 첨부된 문서",
+          "press": "YTN",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921091019174",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "YTN 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 \"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다 말도 담합 이라고 일축하고 있습니다. 정부 주도권을 잡고 있는 사람이 AI를 더 키우고 더 하자, 또 중국과의 경제 경쟁, 이런 얘기도 하고 있는 상황이기 때문에 'AI 그만, 스톱' 이건 아닌 것 같아요. 다만 아까 말씀하신 것처럼 아직까지 구체적으로 얼마나 돈이... 2026.09.21 3",
+          "score": 4,
+          "score_breakdown": {
+            "keyword": 1,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "경유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "\"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다",
+          "press": "YTN",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921091019174",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "YTN 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 \"시진핑 건강 이상설·트럼프 급거 귀국\" 미중, 빅 이벤트 직전 수상한 '썰' 돈다 말도 담합 이라고 일축하고 있습니다. 정부 주도권을 잡고 있는 사람이 AI를 더 키우고 더 하자, 또 중국과의 경제 경쟁, 이런 얘기도 하고 있는 상황이기 때문에 'AI 그만, 스톱' 이건 아닌 것 같아요. 다만 아까 말씀하신 것처럼 아직까지 구체적으로 얼마나 돈이... 2026.09.21 3",
+          "score": 5,
+          "score_breakdown": {
+            "keyword": 1,
+            "title_importance": 1,
+            "press": 2,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "경유 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "주유소 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "정유업계 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "석유제품 담합",
+      "articles": [
+        {
+          "title": "주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화”",
+          "press": "에너지경제",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921164038169",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "에너지경제 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 공정위원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화” 석유 류 가격 담합 사건은 10월까지 조사를 마치고 심의 절차 개시 여부를 결정하겠다\"고 말했다. 현재 공정위는 정유사들이 석유 제품 가격을 담합 했다는 의혹을 조사 중이다. 10월 조사를 완료한 뒤 결과를 담은 심사보고서를 위원회에 상정 여부를 결정한다. 그는... 2026.09.21",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "석유제품 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "매일경제TV",
+          "press": "매일경제TV",
+          "press_grade": "C",
+          "url": "https://v.daum.net/channel/552794/home",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "매일경제TV 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 [집중취재] 반도체로 버틴 한국 수출…정상외교 슈퍼위크도 촉각 셈입니다. 석유 제품 과 선박 등의 수출도 늘었지만 자동차 부품과 정밀기기, 가전 제품 은 감소했습니다. 산업 전반이 고르게 회복됐다기보다 반도체가 전체 실적을 끌어올린 구조인 겁니다. 전문가들은 반도체 호황이 꺾이면 수출과 경기가 동시에 타격을 받을 수... 2026.09.21",
+          "score": 1,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": -2
+          },
+          "industry_relevance": -1,
+          "source_query": "석유제품 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "동영상 첨부된 문서",
+          "press": "매일경제TV",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921162702434",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "매일경제TV 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 [집중취재] 반도체로 버틴 한국 수출…정상외교 슈퍼위크도 촉각 셈입니다. 석유 제품 과 선박 등의 수출도 늘었지만 자동차 부품과 정밀기기, 가전 제품 은 감소했습니다. 산업 전반이 고르게 회복됐다기보다 반도체가 전체 실적을 끌어올린 구조인 겁니다. 전문가들은 반도체 호황이 꺾이면 수출과 경기가 동시에 타격을 받을 수... 2026.09.21",
+          "score": 3,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "석유제품 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "[집중취재] 반도체로 버틴 한국 수출…정상외교 슈퍼위크도 촉각",
+          "press": "매일경제TV",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921162702434",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "매일경제TV 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 동영상 첨부된 문서 [집중취재] 반도체로 버틴 한국 수출…정상외교 슈퍼위크도 촉각 셈입니다. 석유 제품 과 선박 등의 수출도 늘었지만 자동차 부품과 정밀기기, 가전 제품 은 감소했습니다. 산업 전반이 고르게 회복됐다기보다 반도체가 전체 실적을 끌어올린 구조인 겁니다. 전문가들은 반도체 호황이 꺾이면 수출과 경기가 동시에 타격을 받을 수... 2026.09.21",
+          "score": 3,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "석유제품 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 \"정유사 가격 담합 10월 조사 마무리…국고채 조만간 결론\"",
+          "press": "뉴시스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921160211942",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "뉴시스 개별문서메뉴 톡으로 바로 공유 공유하기 3 주병기 \"정유사 가격 담합 10월 조사 마무리…국고채 조만간 결론\" 위원장은 이날 정부세종청사 공정위 기자실에서 열린 취임 1주년 기자간담회에서 이같이 말했다. 공정위는 정유사들이 석유 제품 가격을 담합 했다는 의혹을 조사하고 있다. 다음 달까지 조사를 마친 뒤 조사 결과를 담은 심사보고서를 위원회에 상정할지 결정할 방침... 2026.09.21",
+          "score": 12,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 3,
+            "press": 3,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 5,
+          "source_query": "석유제품 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "취임 1년, 주병기 공정위원장 “경제분석·인프라 강화는 필수불가결한 시대 사명”",
+          "press": "미디어펜",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921160013765",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "미디어펜 개별문서메뉴 톡으로 바로 공유 공유하기 취임 1년, 주병기 공정위원장 “경제분석·인프라 강화는 필수불가결한 시대 사명” 지고 있다. 데이터에 기반한 복잡한 경쟁제한 여부를 판단해야 하는 만큼 올해 안에 심의를 마친다는 목표다. 정유사들의 석유 제품 가격 담합 사건 역시 10월까지 조사를 마무리하고 심의 절차에 들어갈지 여부를 결정할 예정이다. 최근 기업들의 집행정지 신청과 이... 2026.09.21",
+          "score": 8,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "석유제품 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "검찰 미제 16만 건 어디로…공소청 출범 열흘 앞 이송 사건 '안갯속'",
+          "press": "뉴스1",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921155053194",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "뉴스1 개별문서메뉴 톡으로 바로 공유 공유하기 2 검찰 미제 16만 건 어디로…공소청 출범 열흘 앞 이송 사건 '안갯속' 법조계에 따르면 검찰의 전체 미제사건 16만5000여 건 중 인지수사 비율은 1% 미만 수준이다. 검찰은 '홈플러스 사태', ' 석유 화학 제품 가격 담합 ' 등 사안이 중대한 인지 사건들은 이달 내 종결한다는 방침이다. 서울중앙지검은 '홈플러스 전자단기사채(전단채) 사기... 2026.09.21 3",
+          "score": 5,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "석유제품 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "유류가격 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "공정위 유가 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-21",
+      "slot": "evening",
+      "query": "공정거래위원회 정유사 담합",
+      "articles": [
+        {
+          "title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+          "press": "SBS",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921165401920",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "SBS 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\" 덧붙였습니다. 그는 \"서민 생활과 물가에 직결된 정유사 들의 석유류 가격 담합 도 10월까지 조사를 마치고 심의 절차 개시 여부를 결정...경제분석국도 37명 규모로 출범합니다. 주 위원장은 \" 공정위 역사상 최초로 미국, 영국, 유럽연합(EU) 등 선진국 경쟁 당국 수준... 2026.09.21",
+          "score": 9,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "공정거래위원회 정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 공정위 원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화”",
+          "press": "에너지경제",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921164038169",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "에너지경제 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 공정위 원장, 쿠팡 소송 대응에 “굉장히 유감”…“현장조사 무력화” 석유류 가격 담합 사건은 10월까지 조사를 마치고 심의 절차 개시 여부를 결정하겠다\"고 말했다. 현재 공정위 는 정유사 들이 석유제품 가격을 담합 했다는 의혹을 조사 중이다. 10월 조사를 완료한 뒤 결과를 담은 심사보고서를 위원회 에 상정 여부를 결정한다. 그는... 2026.09.21",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 3,
+          "source_query": "공정거래위원회 정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "\"쿠팡 거부로 현장조사 무력화… 소상공인 최후의 보루 무너뜨려\"",
+          "press": "오마이뉴스",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921160255019",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "오마이뉴스 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 3 \"쿠팡 거부로 현장조사 무력화… 소상공인 최후의 보루 무너뜨려\" 경쟁 제한 가능성을 살펴봐야 하는 고난도 심사라는 게 공정위 판단이다. 주 위원장은 심사 지연 지적에 \"해외 경쟁 당국과 비교해...제출을 요구할 수밖에 없었다\"고 설명했다. 정유사 들의 석유류 가격 담합 의혹은 10월까지 조사를 마치고 심의 절차에 들어갈지를... 2026.09.21 1",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "공정거래위원회 정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "공정위 , 네이버-두나무 기업결합 연내 심의 속도…“고난도 심사 진행”",
+          "press": "쿠키뉴스",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921160254016",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "쿠키뉴스 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 2 공정위 , 네이버-두나무 기업결합 연내 심의 속도…“고난도 심사 진행” 질 수 있도록 신속히 심사를 마무리하겠다”고 밝혔다. 정유사 들의 석유류 가격 담합 의혹에 대한 조사도 마무리 단계에 들어간다. 주...걸친 전원회의 심의를 모두 마친 상태로 조속한 시일 내 위원회 합의를 도출할 계획이다. 주 위원장은 “국고채 입찰 관련 제도... 2026.09.21",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "공정거래위원회 정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "연합인포맥스",
+          "press": "연합인포맥스",
+          "press_grade": "C",
+          "url": "https://v.daum.net/channel/552842/home",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "연합인포맥스 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 \"국고채 담합 조만간 결과 도출…복잡한 구조에 신중한 심의\" 심사를 마무리하겠다\"고 주 위원장은 밝혔다. 정유사 들의 석유류 가격 담합 역시 다음 달까지 조사를 마치고 심의절차 개시 여부를...시장참여 제한 제도 마련…관계부처와 막바지 협의 중 공정위 는 반복 담합 사업자에 대한 등록·허가 취소, 영업정지 등 시장 참여... 2026.09.21",
+          "score": 4,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": -2
+          },
+          "industry_relevance": 2,
+          "source_query": "공정거래위원회 정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 \"국고채 담합 조만간 결과 도출…복잡한 구조에 신중한 심의\"",
+          "press": "연합인포맥스",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260921160212944",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "연합인포맥스 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 \"국고채 담합 조만간 결과 도출…복잡한 구조에 신중한 심의\" 심사를 마무리하겠다\"고 주 위원장은 밝혔다. 정유사 들의 석유류 가격 담합 역시 다음 달까지 조사를 마치고 심의절차 개시 여부를...시장참여 제한 제도 마련…관계부처와 막바지 협의 중 공정위 는 반복 담합 사업자에 대한 등록·허가 취소, 영업정지 등 시장 참여... 2026.09.21",
+          "score": 6,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "공정거래위원회 정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 \" 정유사 가격 담합 10월 조사 마무리…국고채 조만간 결론\"",
+          "press": "뉴시스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921160211942",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "뉴시스 개별문서메뉴 톡으로 바로 공유 공유하기 3 주병기 \" 정유사 가격 담합 10월 조사 마무리…국고채 조만간 결론\" dahora83@newsis.com [세종=뉴시스]임하은 기자 = 주병기 공정 거래 위원장은 21일 \"서민 생활과 물가에 직결된 정유사 들의 석유류 가격...취임 1주년 기자간담회에서 이같이 말했다. 공정위 는 정유사 들이 석유제품 가격을 담합 했다는 의혹을 조사하고 있다. 다음 달... 2026.09.21",
+          "score": 11,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 3,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 5,
+          "source_query": "공정거래위원회 정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 공정 거래 위원장 “생활 밀접 분야 불공정행위 뿌리뽑을 것… 담합 반복시 시장 참여 제한”",
+          "press": "KBS",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921160207922",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "KBS 개별문서메뉴 톡으로 바로 공유 공유하기 주병기 공정 거래 위원장 “생활 밀접 분야 불공정행위 뿌리뽑을 것… 담합 반복시 시장 참여 제한” 방안을 발표하고 입법을 추진할 계획입니다. 다음 달에는 공정위 최초의 국 단위 경제분석 조직인 ‘경제분석국’이 출범합니다. 37명...심의를 목표로 심사를 진행할 방침입니다. 정유사 들의 석유류 가격 담합 의혹에 대해서도 다음 달까지 조사를 마친 뒤 심의... 2026.09.21",
+          "score": 9,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "공정거래위원회 정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\"",
+          "press": "연합뉴스",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921160150893",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "연합뉴스 개별문서메뉴 톡으로 바로 공유 공유하기 2 주병기 \"소수업체 방산 독점 개선해야…신규진입 촉진안 논의\" 제작] 일러스트 그는 \"서민 생활과 물가에 직결된 정유사 들의 석유류 가격 담합 도 10월까지 조사를 마치고 심의 절차 개시 여부를 결정...경제분석국도 37명 규모로 출범한다. 주 위원장은 \" 공정위 역사상 최초로 미국, 영국, 유럽연합(EU) 등 선진국 경쟁 당국 수준... 2026.09.21",
+          "score": 10,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "공정거래위원회 정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "공정위 원장 \"편법·탈법으로 돈 벌 수 없어야…반칙 걷어낼 것\"",
+          "press": "데일리안",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260921160149891",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "데일리안 개별문서메뉴 톡으로 바로 공유 공유하기 공정위 원장 \"편법·탈법으로 돈 벌 수 없어야…반칙 걷어낼 것\" 반칙을 뿌리 뽑고 왜곡된 시장 가격을 제자리로 돌려놓는 일이 공정위 가 국민께 드릴 수 있는 가장 확실한 민생대책\"이라고 말했다...기업결합은 연내 심의를 목표로 심사를 마무리한다. 정유사 석유류 가격 담합 은 10월까지 조사를 마치고 심의절차 개시 여부를 결정... 2026.09.21",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "공정거래위원회 정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "주병기 \" 공정위 조사 문제 없어…조사 피할 수 없도록 규정 손볼 것\"",
+          "press": "아시아경제",
+          "press_grade": "A",
+          "url": "https://v.daum.net/v/20260921160133852",
+          "published_date": "2026-09-21",
+          "published_at_kst": "",
+          "snippet": "아시아경제 언론사 픽 개별문서메뉴 톡으로 바로 공유 공유하기 2 주병기 \" 공정위 조사 문제 없어…조사 피할 수 없도록 규정 손볼 것\" 있다. 공정거래위원회 . 독과점 해소와 약자 보호를 위한 구조적 제도 개선에도 속도를 낸다. 주 위원장은 방위산업 분야와 관련해...있다\"고 설명했다. 이와 더불어 제재를 비웃는 상습 담합 을 근절하기 위해 \"안전, 환경, 운송 등 20여 개 업종을 중심으로 등록... 2026.09.21",
+          "score": 4,
+          "score_breakdown": {
+            "keyword": 1,
+            "title_importance": 0,
+            "press": 3,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "공정거래위원회 정유사 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "유가담합",
+      "articles": [
+        {
+          "title": "실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가'",
+          "press": "아주경제",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260922050038033",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "아주경제 개별문서메뉴 톡으로 바로 공유 공유하기 실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가' 여수 석유화학단지 [사진=연합뉴스] 국제 유가 상승으로 석유화학의 핵심 원재료인 나프타 가격이 다시 상승세를 그리는 가운데 국내 석화 업계가 담합 의혹에 따른 검찰 수사라는 암초에 부딪쳤다. 대내외적 악재가 지속되면서 국내 주요 석화 기업들이 스페셜티... 2026.09.22",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "유가담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "유가 담합",
+      "articles": [
+        {
+          "title": "실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가'",
+          "press": "아주경제",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260922050038033",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "아주경제 개별문서메뉴 톡으로 바로 공유 공유하기 실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가' 여수 석유화학단지 [사진=연합뉴스] 국제 유가 상승으로 석유화학의 핵심 원재료인 나프타 가격이 다시 상승세를 그리는 가운데 국내 석화 업계가 담합 의혹에 따른 검찰 수사라는 암초에 부딪쳤다. 대내외적 악재가 지속되면서 국내 주요 석화 기업들이 스페셜티... 2026.09.22",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "유가 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "정유사 담합",
+      "articles": [
+        {
+          "title": "실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가'",
+          "press": "아주경제",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260922050038033",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "아주경제 개별문서메뉴 톡으로 바로 공유 공유하기 실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가' 데 상당한 어려움이 따를 것이란 분석이다. 현행 공정거래법은 담합 이 인정될 경우 관련 매출액의 최대 20%까지 과징금으로 부과할 수...있다. 유럽 석화 업체를 잇달아 인수한 중국과 중동 정유사 ·석화 업체들이 한국 석화 업체 인수에도 나설 수 있다는 분석... 2026.09.22",
+          "score": 8,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 2,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유사 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "“쿠팡 현장조사 중단 매우 중대”… 주병기, 사법부에 유감 표시",
+          "press": "국민일보",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260922001851612",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "국민일보 개별문서메뉴 톡으로 바로 공유 공유하기 “쿠팡 현장조사 중단 매우 중대”… 주병기, 사법부에 유감 표시 통해 의견을 전달하는 게 가장 바람직할 것 같다”며 즉답을 피했다. 민생 현안 처리는 속도전을 강조했다. 공정위는 정유사 들의 석유류 가격 담합 사건에 대한 조사를 다음 달 중으로 마쳐 심의 절차 개시 여부를 결정할 예정이다. 네이버·두나무 기업결합 건도... 2026.09.22",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "정유사 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "기름값 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "석유 담합",
+      "articles": [
+        {
+          "title": "실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가'",
+          "press": "아주경제",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260922050038033",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "아주경제 개별문서메뉴 톡으로 바로 공유 공유하기 실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가' 여수 석유 화학단지 [사진=연합뉴스] 국제 유가 상승으로 석유 화학의 핵심 원재료인 나프타 가격이 다시 상승세를 그리는 가운데 국내 석화 업계가 담합 의혹에 따른 검찰 수사라는 암초에 부딪쳤다. 대내외적 악재가 지속되면서 국내 주요 석화 기업들이 스페셜티... 2026.09.22",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 1,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 1,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        },
+        {
+          "title": "“쿠팡 현장조사 중단 매우 중대”… 주병기, 사법부에 유감 표시",
+          "press": "국민일보",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260922001851612",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "국민일보 개별문서메뉴 톡으로 바로 공유 공유하기 “쿠팡 현장조사 중단 매우 중대”… 주병기, 사법부에 유감 표시 의견을 전달하는 게 가장 바람직할 것 같다”며 즉답을 피했다. 민생 현안 처리는 속도전을 강조했다. 공정위는 정유사들의 석유 류 가격 담합 사건에 대한 조사를 다음 달 중으로 마쳐 심의 절차 개시 여부를 결정할 예정이다. 네이버·두나무 기업결합 건도 연내... 2026.09.22",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "석유 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "휘발유 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "경유 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "주유소 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "정유업계 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "석유제품 담합",
+      "articles": [
+        {
+          "title": "실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가'",
+          "press": "아주경제",
+          "press_grade": "C",
+          "url": "https://v.daum.net/v/20260922050038033",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "아주경제 개별문서메뉴 톡으로 바로 공유 공유하기 실적 악화에 담합 의혹, 스페셜티 스톱까지...K-석화 '사면초가' 폴리염화비닐(PVC)과 가소제, 가성소다, 염산 등 8개 석유 화학 제품 의 가격 인상 시기와 폭을 사전에 협의한 것으로 보고 수사를 진행...검찰이 15조원 규모로 추산한 이번 담합 사건에서 가장 주목하는 제품 은 PVC와 가성소다다. 국내 PVC 시장은 한화솔루션과... 2026.09.22",
+          "score": 3,
+          "score_breakdown": {
+            "keyword": 2,
+            "title_importance": 0,
+            "press": 1,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": -1,
+          "source_query": "석유제품 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "유류가격 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "공정위 유가 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-22",
+      "slot": "morning",
+      "query": "공정거래위원회 정유사 담합",
+      "articles": [
+        {
+          "title": "“쿠팡 현장조사 중단 매우 중대”… 주병기, 사법부에 유감 표시",
+          "press": "국민일보",
+          "press_grade": "B",
+          "url": "https://v.daum.net/v/20260922001851612",
+          "published_date": "2026-09-22",
+          "published_at_kst": "",
+          "snippet": "국민일보 개별문서메뉴 톡으로 바로 공유 공유하기 “쿠팡 현장조사 중단 매우 중대”… 주병기, 사법부에 유감 표시 통해 의견을 전달하는 게 가장 바람직할 것 같다”며 즉답을 피했다. 민생 현안 처리는 속도전을 강조했다. 공정위 는 정유사 들의 석유류 가격 담합 사건에 대한 조사를 다음 달 중으로 마쳐 심의 절차 개시 여부를 결정할 예정이다. 네이버·두나무 기업결합 건도... 2026.09.22",
+          "score": 7,
+          "score_breakdown": {
+            "keyword": 5,
+            "title_importance": 0,
+            "press": 2,
+            "originality": 0,
+            "duplicate_or_low_quality": 0
+          },
+          "industry_relevance": 2,
+          "source_query": "공정거래위원회 정유사 담합",
+          "collector": "daum_news_search"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "유가담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "유가 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "정유사 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "기름값 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "석유 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "휘발유 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "경유 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "주유소 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "정유업계 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "석유제품 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "유류가격 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "공정위 유가 담합",
+      "articles": []
+    },
+    {
+      "date": "2026-09-23",
+      "slot": "morning",
+      "query": "공정거래위원회 정유사 담합",
+      "articles": []
+    }
+  ],
+  "daily_committee_status": "각 날짜 Daily 본문과 국감 Morning/Evening 발간 존재 확인; 브라우저 회귀 검증 별도 실행",
+  "original_raw_policy": "기존 검색 수집 원본은 보존; 아래 원문 검토 article 목록으로 발간 재구성",
+  "validation": {
+    "unit_tests": 48,
+    "site_dates": 144,
+    "oil_artifact_files": 632,
+    "daily_committee_viewports": [
+      320,
+      390,
+      768,
+      1280
+    ],
+    "oil_viewports": [
+      390,
+      1280
+    ],
+    "results": "Daily 본문 두 슬롯·국감 여섯 상임위·Monitoring·유가 세 슬롯·과거 날짜 이동·최신9/28 보존 확인; JavaScript 오류 및 가로 넘침 없음"
+  }
+}

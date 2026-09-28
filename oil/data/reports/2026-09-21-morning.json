@@ -6,39 +6,67 @@
   "period_start": "2026-09-21T00:00:00+09:00",
   "period_end": "2026-09-21T08:00:00+09:00",
   "period_label": "2026-09-21 00:00 ~ 2026-09-21 08:00",
-  "generated_at": "2026-09-21T10:03:14.898078+09:00",
+  "generated_at": "2026-09-28T09:33:26.776645+09:00",
   "keywords": [
-    "유가담합",
-    "유가 담합",
-    "정유사 담합",
-    "기름값 담합",
-    "석유 담합",
-    "휘발유 담합",
-    "경유 담합",
-    "주유소 담합",
-    "정유업계 담합",
-    "석유제품 담합",
-    "유류가격 담합",
-    "공정위 유가 담합",
-    "공정거래위원회 정유사 담합"
+    "정유 담합",
+    "석유화학 담합"
   ],
-  "total_raw_count": 1593,
-  "total_deduped_count": 0,
-  "total_ok_count": 0,
+  "total_raw_count": 52,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
   "total_review_count": 0,
   "total_excluded_count": 0,
   "grade_counts": {
     "A": 0,
     "B": 0,
-    "C": 0
+    "C": 1
   },
   "portal_counts": {
-    "naver": 130,
-    "daum": 260,
-    "google": 1203
+    "naver": 0,
+    "daum": 0,
+    "google": 0
   },
-  "query_counts": {},
+  "query_counts": {
+    "석유화학 담합": 1,
+    "정유 담합": 1
+  },
   "collection_warnings": [],
   "telegram_alert_log": [],
-  "articles": []
+  "articles": [
+    {
+      "title": "15조 석화 담합 뜯어보니 PVC가 40%…한화·LG 양분",
+      "source": "딜사이트",
+      "published_at": "2026-09-21T07:36:06+09:00",
+      "url": "https://dealsite.co.kr/articles/169287",
+      "canonical_url": "https://dealsite.co.kr/articles/169287",
+      "snippet": "석유화학 담합 수사 대상 8개 품목 중 PVC 비중과 한화솔루션·LG화학 생산구조 점검",
+      "summary": "△석유화학 담합 수사 대상 8개 품목 중 PVC 비중과 한화솔루션·LG화학 생산구조 점검",
+      "collected_at": "2026-09-28T09:33:26.740131+09:00",
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "time_evidence": "원문 article:published_time 및 본문 확인: 2026-09-21T07:36:06+09:00",
+      "verified": true,
+      "normalized_title": "15조 석화 담합 뜯어보니 PVC가 40%…한화·LG 양분",
+      "source_normalized": "딜사이트",
+      "duplicate_key": "딜사이트::15조 석화 담합 뜯어보니 pvc가 40%…한화·lg 양분",
+      "duplicate_count": 0,
+      "id": "b8149fe73d04c6d2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "editorial_audit": "data/reviews/2026-09-21-23.audit.json",
+  "raw_count_basis": "원문 재검토 후보 수; 기존 검색 수집 원본 별도 보존"
 }
