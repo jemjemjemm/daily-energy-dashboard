@@ -5,7 +5,7 @@
     "display_date": "2026년 9월 28일 (월)",
     "previous_day_label": "9/23",
     "today_label": "9/28",
-    "generated_at": "2026-09-28 08:18 KST",
+    "generated_at": "2026-09-28 17:26 KST",
     "review_status": "검토 완료",
     "report_version": "reviewed-original-sources-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △트럼프 미국 대통령, 경유 수출 금지 방안의 진지한 검토 언급 △알래스카 LNG 사업 경제성 확보를 위한 연관 산업 동반 진출·미국 보조금·세액공제 필요성 제시 △10월 기업경기전망 98.6으로 부정 전환, 석유정제·화학 업종 전망 85.2 기록"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △당정, 석유사업 등 17개 업종의 반복 담합 사업자 영업정지·등록취소 및 가격재결정 근거 입법 추진 △호르무즈 통과 원유량의 충돌 이전 대비 약 60% 회복 및 유조선 위치신호 중단 영향 분석 △최고가격제 손실보전의 원가·국제제품가격 기준 이견과 정유업계 정산 불확실성 점검"
     }
   ],
   "prices": {
@@ -1621,5 +1625,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△당정, 석유사업 등 17개 업종의 반복 담합 사업자 영업정지·등록취소 및 가격재결정 근거 입법 추진 △호르무즈 통과 원유량의 충돌 이전 대비 약 60% 회복 및 유조선 위치신호 중단 영향 분석 △최고가격제 손실보전의 원가·국제제품가격 기준 이견과 정유업계 정산 불확실성 점검",
+    "trend_paragraphs": [
+      "당정, 석유사업 등 17개 업종의 반복 담합 사업자 영업정지·등록취소 및 가격재결정 근거 입법 추진",
+      "호르무즈 통과 원유량의 충돌 이전 대비 약 60% 회복 및 유조선 위치신호 중단 영향 분석",
+      "최고가격제 손실보전의 원가·국제제품가격 기준 이견과 정유업계 정산 불확실성 점검"
+    ],
+    "articles": [
+      {
+        "title": "당정 \"반복 담합하면 '등록취소·영업정지' 가능하게 법 개정\"(종합)",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20260928025651001",
+        "summary": "당정, 석유사업 등 17개 업종의 반복 담합 사업자 영업정지·등록취소 및 가격재결정 근거 입법 추진",
+        "published_at_kst": "2026-09-28T10:03:05+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 본문·article:published_time 직접 확인"
+      },
+      {
+        "title": "\"호르무즈 통과 원유량 60% 수준 회복…유조선 잠행 증가 영향\"",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20260928079500073",
+        "summary": "호르무즈 통과 원유량의 충돌 이전 대비 약 60% 회복 및 유조선 위치신호 중단 영향 분석",
+        "published_at_kst": "2026-09-28T12:22:53+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 본문·article:published_time 직접 확인"
+      },
+      {
+        "title": "10차 간 최고가격제···담합 수사 겹친 정유업계 '가격결정권' 시험대",
+        "press": "뉴스웨이",
+        "url": "https://www.newsway.co.kr/news/view?ud=2026092814553265855",
+        "summary": "최고가격제 손실보전의 원가·국제제품가격 기준 이견과 정유업계 정산 불확실성 점검",
+        "published_at_kst": "2026-09-28T15:05:29+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 본문·article:published_time 직접 확인"
+      }
+    ],
+    "source": "발행사 원문 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }

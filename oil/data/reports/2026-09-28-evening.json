@@ -1,0 +1,154 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-28",
+  "slot": "evening",
+  "period_start": "2026-09-28T08:00:00+09:00",
+  "period_end": "2026-09-28T17:00:00+09:00",
+  "period_label": "2026-09-28 08:00 ~ 2026-09-28 17:00",
+  "generated_at": "2026-09-28T17:26:48.361380+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 3,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 0,
+    "daum": 0,
+    "google": 0
+  },
+  "query_counts": {
+    "석유화학 담합": 3,
+    "정유 담합": 3
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "당정 \"반복 담합하면 '등록취소·영업정지' 가능하게 법 개정\"(종합)",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260928025651001",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20260928025651001",
+      "published_at": "2026-09-28T10:03:05+09:00",
+      "snippet": "당정, 석유사업 등 17개 업종의 반복 담합 사업자 영업정지·등록취소 및 가격재결정 근거 입법 추진",
+      "summary": "△당정, 석유사업 등 17개 업종의 반복 담합 사업자 영업정지·등록취소 및 가격재결정 근거 입법 추진",
+      "collected_at": "2026-09-28T17:26:47+09:00",
+      "portals": [
+        "editorial-original-review"
+      ],
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "verified": true,
+      "time_evidence": "원문 본문 및 최초 article:published_time 2026-09-28T10:03:05+09:00 직접 확인",
+      "normalized_title": "당정 \"반복 담합하면 '등록취소·영업정지' 가능하게 법 개정\"",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::당정 \"반복 담합하면 '등록취소·영업정지' 가능하게 법 개정\"",
+      "duplicate_count": 0,
+      "id": "5e6ff25454cb4a93",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "10차 간 최고가격제···담합 수사 겹친 정유업계 '가격결정권' 시험대",
+      "source": "뉴스웨이",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026092814553265855",
+      "canonical_url": "https://www.newsway.co.kr/news/view?ud=2026092814553265855",
+      "published_at": "2026-09-28T15:05:29+09:00",
+      "snippet": "최고가격제 손실보전의 원가·국제제품가격 기준 이견과 정유업계 정산 불확실성 점검",
+      "summary": "△최고가격제 손실보전의 원가·국제제품가격 기준 이견과 정유업계 정산 불확실성 점검",
+      "collected_at": "2026-09-28T17:26:47+09:00",
+      "portals": [
+        "editorial-original-review"
+      ],
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "verified": true,
+      "time_evidence": "원문 본문 및 최초 article:published_time 2026-09-28T15:05:29+09:00 직접 확인",
+      "normalized_title": "10차 간 최고가격제···담합 수사 겹친 정유업계 '가격결정권' 시험대",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::10차 간 최고가격제···담합 수사 겹친 정유업계 '가격결정권' 시험대",
+      "duplicate_count": 0,
+      "id": "2c4174f8b7d19441",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'15조 석화 담합' 2라운드... 법원은 40% PVC '먼저'",
+      "source": "디지털포스트(PC사랑)",
+      "url": "https://www.ilovepc.co.kr/news/articleView.html?idxno=60783",
+      "canonical_url": "https://www.ilovepc.co.kr/news/articleView.html?idxno=60783",
+      "published_at": "2026-09-28T12:31:23+09:00",
+      "snippet": "석유화학 가격 담합 의혹 수사의 품목별 시장구조와 사업·영업 책임자 구속 경과 점검; 유죄 확정과 구분",
+      "summary": "△석유화학 가격 담합 의혹 수사의 품목별 시장구조와 사업·영업 책임자 구속 경과 점검; 유죄 확정과 구분",
+      "collected_at": "2026-09-28T17:26:47+09:00",
+      "portals": [
+        "editorial-original-review"
+      ],
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "verified": true,
+      "time_evidence": "원문 본문 및 최초 article:published_time 2026-09-28T12:31:23+09:00 직접 확인",
+      "normalized_title": "'15조 석화 담합' 2라운드... 법원은 40% PVC '먼저'",
+      "source_normalized": "디지털포스트(PC사랑)",
+      "duplicate_key": "디지털포스트(pc사랑)::'15조 석화 담합' 2라운드... 법원은 40% pvc '먼저'",
+      "duplicate_count": 0,
+      "id": "ad21d5602bcf45cd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "editorial_audit": "data/reviews/2026-09-28-evening.audit.json",
+  "summary": [
+    "당정, 석유사업 등 17개 업종의 반복 담합 사업자 영업정지·등록취소 및 가격재결정 근거 입법 추진",
+    "최고가격제 손실보전의 원가·국제제품가격 기준 이견과 정유업계 정산 불확실성 점검",
+    "석유화학 가격 담합 의혹 수사의 품목별 시장구조와 사업·영업 책임자 구속 경과 점검; 유죄 확정과 구분"
+  ],
+  "raw_count_basis": "원문 재검토 후보 수; 검색 수집 1591건은 raw 파일 보존"
+}
