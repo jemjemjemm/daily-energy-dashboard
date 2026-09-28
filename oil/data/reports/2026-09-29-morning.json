@@ -6,96 +6,56 @@
   "period_start": "2026-09-29T00:00:00+09:00",
   "period_end": "2026-09-29T08:00:00+09:00",
   "period_label": "2026-09-29 00:00 ~ 2026-09-29 08:00",
-  "generated_at": "2026-09-29T08:45:41.849842+09:00",
+  "generated_at": "2026-09-29T08:50:06.748991+09:00",
   "keywords": [
-    "유가담합",
-    "유가 담합",
-    "정유사 담합",
-    "기름값 담합",
-    "석유 담합",
-    "휘발유 담합",
-    "경유 담합",
-    "주유소 담합",
-    "정유업계 담합",
-    "석유제품 담합",
-    "유류가격 담합",
-    "공정위 유가 담합",
-    "공정거래위원회 정유사 담합"
+    "정유 담합",
+    "석유화학 담합"
   ],
-  "total_raw_count": 1586,
-  "total_deduped_count": 17,
-  "total_ok_count": 17,
+  "total_raw_count": 8,
+  "total_deduped_count": 6,
+  "total_ok_count": 6,
   "total_review_count": 0,
-  "total_excluded_count": 9,
+  "total_excluded_count": 0,
   "grade_counts": {
-    "A": 7,
-    "B": 1,
-    "C": 9
+    "A": 5,
+    "B": 0,
+    "C": 1
   },
   "portal_counts": {
-    "naver": 130,
-    "daum": 260,
-    "google": 1196
+    "naver": 0,
+    "daum": 0,
+    "google": 0
   },
   "query_counts": {
-    "석유 담합": 16,
-    "유가 담합": 1,
-    "유가담합": 1,
-    "정유업계 담합": 1,
-    "휘발유 담합": 1
+    "석유 담합": 6,
+    "정유 담합": 6
   },
   "collection_warnings": [],
   "telegram_alert_log": [],
   "articles": [
     {
-      "title": "담합하다 5년 내 두 차례 걸리면 영업 정지",
-      "url": "http://v.daum.net/v/20260929003403211",
-      "source": "조선일보",
-      "published_at": "2026-09-29T00:44:47.514852+09:00",
-      "snippet": "3조2000억원 규모 가격 담합이 적발됐다는 것이다. 또 2004년, 2014년, 2016년에 이어 올해도 제지업계의 가격 담합이 적발되는 등...담합 사업자에 대한 등록 취소와 영업 정지 규정을 도입하고, 석유사업법·약사법·하수도법 등 13개 법률에는 영업 정지 조항을... 8시간 전",
-      "collected_at": "2026-09-29T08:44:47.514879+09:00",
-      "normalized_title": "담합하다 5년 내 두 차례 걸리면 영업 정지",
-      "source_normalized": "조선일보",
-      "duplicate_key": "조선일보::담합하다 5년 내 두 차례 걸리면 영업 정지",
-      "portals": [
-        "daum"
-      ],
+      "title": "담합 2회 이상 반복하면 시장서 퇴출… 당정, 법 개정 추진",
+      "source": "국민일보",
+      "published_at": "2026-09-29T00:05:00+09:00",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000017958",
+      "canonical_url": "https://www.kmib.co.kr/article/view.asp?arcid=9000017958",
+      "snippet": "석유정제·판매업 등 반복 담합 사업자에 대한 영업정지 근거 마련 및 관련 법 개정 추진",
+      "summary": "△석유정제·판매업 등 반복 담합 사업자에 대한 영업정지 근거 마련 및 관련 법 개정 추진",
+      "collected_at": "2026-09-29T08:50:06.710330+09:00",
       "queries": [
         "석유 담합",
-        "정유업계 담합"
+        "정유 담합"
       ],
-      "duplicate_count": 1,
-      "canonical_url": "http://v.daum.net/v/20260929003403211",
-      "id": "467c4b22bd4fc64d",
-      "grade": "A",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합"
+      "portals": [
+        "editorial-original-review"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "담합 2회 이상 반복하면 시장서 퇴출… 당정, 법 개정 추진",
-      "url": "http://v.daum.net/v/20260929000611764",
-      "source": "국민일보",
-      "published_at": "2026-09-29T00:44:48.558119+09:00",
-      "snippet": "개정을 추진하기로 했다. 이병주 기자 앞으로 5년 내 2회 이상 담합할 경우 해당 기업을 시장에서 퇴출하는 방안이 추진된다. 더불어...제조업, 전기공사업, 설계·감리업, 계량기 제조·수리업, 석유정제·수출입·판매업, 승강기 제조·수입·유지관리업, 옥외... 8시간 전",
-      "collected_at": "2026-09-29T08:44:48.558146+09:00",
+      "verified": true,
+      "time_evidence": "발행사 본문·입력시각 및 article:published_time 2026-09-29T00:05:00+09:00 직접 확인. 포털 재전송시각 제외. 노컷뉴스 offset 없는 원문 시각은 KST 기준.",
       "normalized_title": "담합 2회 이상 반복하면 시장서 퇴출… 당정, 법 개정 추진",
       "source_normalized": "국민일보",
       "duplicate_key": "국민일보::담합 2회 이상 반복하면 시장서 퇴출… 당정, 법 개정 추진",
-      "portals": [
-        "daum"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
       "duplicate_count": 0,
-      "canonical_url": "http://v.daum.net/v/20260929000611764",
-      "id": "00a6bef694b47314",
+      "id": "ad0bcb2e016ec5a1",
       "grade": "A",
       "published_at_status": "known",
       "matched_keywords": [
@@ -108,23 +68,27 @@
     },
     {
       "title": "당정, 5년 내 2회 이상 담합하면 영업정지·등록 취소 추진",
-      "url": "http://v.daum.net/v/20260929050305960",
       "source": "서울신문",
-      "published_at": "2026-09-29T05:44:44.324526+09:00",
-      "snippet": "17개 업종을 대상으로 ‘5년 이내 2회 이상’ 반복적으로 담합한 사업자에게 영업정지·등록 취소 처분을 내릴 수 있도록 공정거래법...영업정지가 가능한 업종은 폐기물처리업 등 환경 분야, 석유정제·판매업 등 에너지 분야, 여객·화물운송업 등 운송 분야... 3시간 전",
-      "collected_at": "2026-09-29T08:44:44.324554+09:00",
+      "published_at": "2026-09-29T00:07:12+09:00",
+      "url": "https://www.seoul.co.kr/news/politics/2026/09/29/20260929008003",
+      "canonical_url": "https://www.seoul.co.kr/news/politics/2026/09/29/20260929008003",
+      "snippet": "석유정제·판매업 등 반복 담합 사업자에 대한 영업정지 근거 마련 및 관련 법 개정 추진",
+      "summary": "△석유정제·판매업 등 반복 담합 사업자에 대한 영업정지 근거 마련 및 관련 법 개정 추진",
+      "collected_at": "2026-09-29T08:50:06.710330+09:00",
+      "queries": [
+        "석유 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 본문·입력시각 및 article:published_time 2026-09-29T00:07:12+09:00 직접 확인. 포털 재전송시각 제외. 노컷뉴스 offset 없는 원문 시각은 KST 기준.",
       "normalized_title": "당정, 5년 내 2회 이상 담합하면 영업정지·등록 취소 추진",
       "source_normalized": "서울신문",
       "duplicate_key": "서울신문::당정, 5년 내 2회 이상 담합하면 영업정지·등록 취소 추진",
-      "portals": [
-        "daum"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
       "duplicate_count": 0,
-      "canonical_url": "http://v.daum.net/v/20260929050305960",
-      "id": "4c47e7533a242fe9",
+      "id": "708ca574b7f0a471",
       "grade": "A",
       "published_at_status": "known",
       "matched_keywords": [
@@ -136,61 +100,33 @@
       "status_reason": "유가담합 관련 맥락 확인"
     },
     {
-      "title": "[사설] “5년 내 두 번 담합 땐 퇴출”…과도한 제재보다 경쟁 촉진을",
-      "url": "http://v.daum.net/v/20260929055545687",
+      "title": "과징금으론 안 끝난다…석유업체 5년 내 두 번 담합땐 ‘영업정지’",
       "source": "서울경제",
-      "published_at": "2026-09-29T06:44:42.185515+09:00",
-      "snippet": "수 있도록 관련 법들을 개정하겠다는 것이다. 당정은 가격을 담합 이전의 ‘경쟁을 회복하는 수준’으로 되돌리도록 하는 시정 조치인...제고보다 더 큰 부작용을 불러올 수도 있다. 예를 들어 석유정제·판매 사업처럼 시설 투자 및 기술 문턱이 높은 산업에서 일부... 2시간 전",
-      "collected_at": "2026-09-29T08:44:42.185543+09:00",
-      "normalized_title": "[사설] “5년 내 두 번 담합 땐 퇴출”…과도한 제재보다 경쟁 촉진을",
-      "source_normalized": "서울경제",
-      "duplicate_key": "서울경제::[사설] “5년 내 두 번 담합 땐 퇴출”…과도한 제재보다 경쟁 촉진을",
-      "portals": [
-        "daum"
-      ],
+      "published_at": "2026-09-29T06:20:00+09:00",
+      "url": "https://www.sedaily.com/article/20095824",
+      "canonical_url": "https://www.sedaily.com/article/20095824",
+      "snippet": "석유정제·판매업 등 반복 담합 사업자에 대한 영업정지 근거 마련 및 관련 법 개정 추진",
+      "summary": "△석유정제·판매업 등 반복 담합 사업자에 대한 영업정지 근거 마련 및 관련 법 개정 추진",
+      "collected_at": "2026-09-29T08:50:06.710330+09:00",
       "queries": [
-        "석유 담합"
+        "석유 담합",
+        "정유 담합"
       ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 본문·입력시각 및 article:published_time 2026-09-29T06:20:00+09:00 직접 확인. 포털 재전송시각 제외. 노컷뉴스 offset 없는 원문 시각은 KST 기준.",
+      "normalized_title": "과징금으론 안 끝난다…석유업체 5년 내 두 번 담합땐 ‘영업정지’",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::과징금으론 안 끝난다…석유업체 5년 내 두 번 담합땐 ‘영업정지’",
       "duplicate_count": 0,
-      "canonical_url": "http://v.daum.net/v/20260929055545687",
-      "id": "6e97fefb3a63d6f2",
+      "id": "9a78f2b641b16267",
       "grade": "A",
       "published_at_status": "known",
       "matched_keywords": [
         "석유",
         "담합",
-        "제재"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "과징금으론 안 끝난다…석유업체 5년 내 두 번 담합땐 ‘영업정지’[Pick코노미]",
-      "url": "http://v.daum.net/v/20260929062159355",
-      "source": "서울경제",
-      "published_at": "2026-09-29T06:44:41.172230+09:00",
-      "snippet": "Chat GPT 생성 이미지 당정이 석유·운송 등 민생 밀접 업종에서 상습적으로 담합한 기업에 영업정지나 등록취소까지 가능하도록 제재를 강화한다. 과징금에 이어 사업권과 기업 구조로까지 제재 범위를 넓히는 방안이 잇따라 추진되면서 담합 억지력은 높아질 수... 2시간 전",
-      "collected_at": "2026-09-29T08:44:41.172257+09:00",
-      "normalized_title": "과징금으론 안 끝난다…석유업체 5년 내 두 번 담합땐 ‘영업정지’[Pick코노미]",
-      "source_normalized": "서울경제",
-      "duplicate_key": "서울경제::과징금으론 안 끝난다…석유업체 5년 내 두 번 담합땐 ‘영업정지’[pick코노미]",
-      "portals": [
-        "daum",
-        "google"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "http://v.daum.net/v/20260929062159355",
-      "id": "c652b93234b9564f",
-      "grade": "A",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합",
-        "제재",
         "과징금"
       ],
       "quality_status": "ok",
@@ -199,57 +135,32 @@
     },
     {
       "title": "[사설]기업 생사여탈권까지 쥐겠다는 공정위",
-      "url": "http://v.daum.net/v/20260929040207138",
       "source": "머니투데이",
-      "published_at": "2026-09-29T04:44:46.511824+09:00",
-      "snippet": "퇴출까지 가능하도록 법 개정을 추진한다. 5년 이내에 2차례만 담합이 적발돼도 영업정지나 등록취소를 할 수 있게 하겠다는 것이다...파괴 우려를 지울 수 없다. 시장 퇴출 조항이 적용되는 운송, 석유 등 17개 업종은 원자재 가격 변동에 민감하다. 원가 변화에... 4시간 전",
-      "collected_at": "2026-09-29T08:44:46.511851+09:00",
+      "published_at": "2026-09-29T04:00:00+09:00",
+      "url": "https://www.mt.co.kr/opinion/2026/09/29/2026092814455647677",
+      "canonical_url": "https://www.mt.co.kr/opinion/2026/09/29/2026092814455647677",
+      "snippet": "석유 등 반복 담합 업종의 퇴출 제재와 시장 경쟁 위축 우려에 관한 사설 의견 제시",
+      "summary": "△석유 등 반복 담합 업종의 퇴출 제재와 시장 경쟁 위축 우려에 관한 사설 의견 제시",
+      "collected_at": "2026-09-29T08:50:06.710330+09:00",
+      "queries": [
+        "석유 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 본문·입력시각 및 article:published_time 2026-09-29T04:00:00+09:00 직접 확인. 포털 재전송시각 제외. 노컷뉴스 offset 없는 원문 시각은 KST 기준.",
       "normalized_title": "[사설]기업 생사여탈권까지 쥐겠다는 공정위",
       "source_normalized": "머니투데이",
       "duplicate_key": "머니투데이::[사설]기업 생사여탈권까지 쥐겠다는 공정위",
-      "portals": [
-        "daum"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
       "duplicate_count": 0,
-      "canonical_url": "http://v.daum.net/v/20260929040207138",
-      "id": "fccc2215726e1908",
+      "id": "7fd749a5f4dd578a",
       "grade": "A",
       "published_at_status": "known",
       "matched_keywords": [
         "석유",
         "공정위",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "민생 밀접 17개 업종 5년 내 재담합땐 퇴출",
-      "url": "http://v.daum.net/v/20260929040246154",
-      "source": "이데일리",
-      "published_at": "2026-09-29T04:44:45.366769+09:00",
-      "snippet": "처분을 내릴 수 있도록 할 방침이다. 개정법 시행 전에 한 차례 담합으로 제재를 받았더라도, 법 시행 이후 5년 이내 다시 담합해...되는 것은 아니다. 우선 적용 대상은 소방시설업과 전기공사업, 석유정제·수출입·판매업, 의약품 제조·수입업, 여객·화물운송업... 4시간 전",
-      "collected_at": "2026-09-29T08:44:45.366796+09:00",
-      "normalized_title": "민생 밀접 17개 업종 5년 내 재담합땐 퇴출",
-      "source_normalized": "이데일리",
-      "duplicate_key": "이데일리::민생 밀접 17개 업종 5년 내 재담합땐 퇴출",
-      "portals": [
-        "daum"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "http://v.daum.net/v/20260929040246154",
-      "id": "3ca54b9d8a53af43",
-      "grade": "A",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
         "담합",
         "제재"
       ],
@@ -258,30 +169,32 @@
       "status_reason": "유가담합 관련 맥락 확인"
     },
     {
-      "title": "[전문가 기고] 생각보다 심각한 물가상승",
-      "url": "http://v.daum.net/v/20260929060111806",
-      "source": "아주경제",
-      "published_at": "2026-09-29T06:44:07.095873+09:00",
-      "snippet": "높다. 휘발유 등 가격도 환율을 감안한 원화와 비교하면 거의 다르지 않다. 예를 들어 배럴당 5달러이면 원화로 환산하면 7000원 정도...세제 변화 등 다른 정책을 정부가 내놓았다. 경제성장을 하고 있을 때 물가 상승이 일어나고 있기 때문에 정부는 가격 담합... 2시간 전",
-      "collected_at": "2026-09-29T08:44:07.095903+09:00",
-      "normalized_title": "[전문가 기고] 생각보다 심각한 물가상승",
-      "source_normalized": "아주경제",
-      "duplicate_key": "아주경제::[전문가 기고] 생각보다 심각한 물가상승",
-      "portals": [
-        "daum"
-      ],
+      "title": "민생 밀접 17개 업종 5년 내 재담합땐 퇴출",
+      "source": "이데일리",
+      "published_at": "2026-09-29T04:00:04+09:00",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01515366645585040&mediaCodeNo=257",
+      "canonical_url": "https://www.edaily.co.kr/News/Read?newsId=01515366645585040&mediaCodeNo=257",
+      "snippet": "석유정제·판매업 등 반복 담합 사업자에 대한 영업정지 근거 마련 및 관련 법 개정 추진",
+      "summary": "△석유정제·판매업 등 반복 담합 사업자에 대한 영업정지 근거 마련 및 관련 법 개정 추진",
+      "collected_at": "2026-09-29T08:50:06.710330+09:00",
       "queries": [
-        "유가 담합",
-        "유가담합",
-        "휘발유 담합"
+        "석유 담합",
+        "정유 담합"
       ],
-      "duplicate_count": 2,
-      "canonical_url": "http://v.daum.net/v/20260929060111806",
-      "id": "8c5973d6f5d90926",
-      "grade": "B",
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 본문·입력시각 및 article:published_time 2026-09-29T04:00:04+09:00 직접 확인. 포털 재전송시각 제외. 노컷뉴스 offset 없는 원문 시각은 KST 기준.",
+      "normalized_title": "민생 밀접 17개 업종 5년 내 재담합땐 퇴출",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::민생 밀접 17개 업종 5년 내 재담합땐 퇴출",
+      "duplicate_count": 0,
+      "id": "ad6c219f4246e533",
+      "grade": "A",
       "published_at_status": "known",
       "matched_keywords": [
-        "휘발유",
+        "석유",
         "담합"
       ],
       "quality_status": "ok",
@@ -290,266 +203,31 @@
     },
     {
       "title": "\"담합 2번이면 영업정지\"…설탕·밀가루는 왜 빠졌나",
-      "url": "http://v.daum.net/v/20260929050310965",
       "source": "노컷뉴스",
-      "published_at": "2026-09-29T05:44:43.265253+09:00",
-      "snippet": "17개 업종별 개별법을 함께 개정할 계획이다. 대상은 5년 이내 담합으로 2차례 이상 시정조치를 받은 사업자다. 과징금이 함께 부과된...국민 생활과 밀접한 분야에 걸쳐 있다. 의약품 제조·수입업과 석유정제·판매업, 여객·화물운송업, 폐기물처리업 등도 포함... 3시간 전",
-      "collected_at": "2026-09-29T08:44:43.265289+09:00",
+      "published_at": "2026-09-29T05:00:00+09:00",
+      "url": "https://www.nocutnews.co.kr/news/6584065",
+      "canonical_url": "https://www.nocutnews.co.kr/news/6584065",
+      "snippet": "석유 등 인허가 업종 중심 반복 담합 제재 추진 및 식품업종 추가 검토 방침 보도",
+      "summary": "△석유 등 인허가 업종 중심 반복 담합 제재 추진 및 식품업종 추가 검토 방침 보도",
+      "collected_at": "2026-09-29T08:50:06.710330+09:00",
+      "queries": [
+        "석유 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 본문·입력시각 및 article:published_time 2026-09-29T05:00:00.0000000 직접 확인. 포털 재전송시각 제외. 노컷뉴스 offset 없는 원문 시각은 KST 기준.",
       "normalized_title": "\"담합 2번이면 영업정지\"…설탕·밀가루는 왜 빠졌나",
       "source_normalized": "노컷뉴스",
       "duplicate_key": "노컷뉴스::\"담합 2번이면 영업정지\"…설탕·밀가루는 왜 빠졌나",
-      "portals": [
-        "daum"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
       "duplicate_count": 0,
-      "canonical_url": "http://v.daum.net/v/20260929050310965",
-      "id": "551a786215035ff7",
+      "id": "8fb82a78ddb9eb3b",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
         "석유",
-        "담합",
-        "과징금"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[사설] “5년 내 두 번 담합 땐 퇴출”…과도한 제재보다 경쟁 촉진을새 창 열림",
-      "url": "https://www.sedaily.com/article/20095721?ref=naver",
-      "source": "새 창 열림",
-      "published_at": "2026-09-29T06:44:38.971523+09:00",
-      "snippet": "하지만 담합 규모와 피해액, 고의성 등이 다른데도 획일적인 시장 퇴출 잣대를 들이댈 경우 실제 담합 이득에 비해 제재 수위가 과도할 위험을 초래하게 된다. 특히 시장 퇴출과 같은 극단적 조치는 국민 편익 제고보다 더 큰 부작용을 불러올 수도 있다. 예를 들어 석유정제·판매 사업처럼 시설 투자 및 기술... 새 창 열림",
-      "collected_at": "2026-09-29T08:44:38.971540+09:00",
-      "normalized_title": "[사설] “5년 내 두 번 담합 땐 퇴출”…과도한 제재보다 경쟁 촉진을새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::[사설] “5년 내 두 번 담합 땐 퇴출”…과도한 제재보다 경쟁 촉진을새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.sedaily.com/article/20095721?ref=naver",
-      "id": "e6b3eec2041e036d",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합",
-        "제재"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "과징금으론 안 끝난다…석유업체 5년 내 두 번 담합땐 ‘영업정지’[Pi...새 창 열림",
-      "url": "https://www.sedaily.com/article/20095824?ref=naver",
-      "source": "새 창 열림",
-      "published_at": "2026-09-29T06:44:38.970399+09:00",
-      "snippet": "당정이 석유·운송 등 민생 밀접 업종에서 상습적으로 담합한 기업에 영업정지나 등록취소까지 가능하도록 제재를 강화한다. 과징금에 이어 사업권과 기업 구조로까지 제재 범위를 넓히는 방안이 잇따라 추진되면서 담합 억지력은 높아질 수 있지만, 시장 참여자를 줄여 오히려 경쟁을 위축시킬 수 있다는... 새 창 열림",
-      "collected_at": "2026-09-29T08:44:38.970416+09:00",
-      "normalized_title": "과징금으론 안 끝난다…석유업체 5년 내 두 번 담합땐 ‘영업정지’[Pi...새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::과징금으론 안 끝난다…석유업체 5년 내 두 번 담합땐 ‘영업정지’[pi...새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.sedaily.com/article/20095824?ref=naver",
-      "id": "80b82e70e9d4dde9",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합",
-        "제재",
-        "과징금"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "\"담합 2번이면 영업정지\"…설탕·밀가루는 왜 빠졌나새 창 열림",
-      "url": "https://www.nocutnews.co.kr/news/6584065?utm_source=naver&utm_medium=article&utm_campaign=20260929083845",
-      "source": "새 창 열림",
-      "published_at": "2026-09-29T05:44:38.973708+09:00",
-      "snippet": "의약품 제조·수입업과 석유정제·판매업, 여객·화물운송업, 폐기물처리업 등도 포함됐다. 당정은 개별법에 등록·허가 등 사업 자격을 관리하는 체계가 있는 업종부터 반복 담합에 따른 영업정지나 등록취소를 연계하기로 했다. 반면 최근 대형 담합 사건이 잇따른 설탕·밀가루 등 식품 제조업은 1차 대상에서... 새 창 열림",
-      "collected_at": "2026-09-29T08:44:38.973724+09:00",
-      "normalized_title": "\"담합 2번이면 영업정지\"…설탕·밀가루는 왜 빠졌나새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::\"담합 2번이면 영업정지\"…설탕·밀가루는 왜 빠졌나새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.nocutnews.co.kr/news/6584065?utm_source=naver&utm_medium=article&utm_campaign=20260929083845",
-      "id": "819129c934b8c486",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "당정, 5년 내 2회 이상 담합하면 영업정지·등록 취소 추진새 창 열림",
-      "url": "https://www.seoul.co.kr/news/politics/2026/09/29/20260929008003?wlog_tag3=naver",
-      "source": "새 창 열림",
-      "published_at": "2026-09-29T05:44:38.972641+09:00",
-      "snippet": "영업정지가 가능한 업종은 폐기물처리업 등 환경 분야, 석유정제·판매업 등 에너지 분야, 여객·화물운송업 등 운송 분야, 의약품 판매업 등 생명 분야 위주로 정해졌다. 다만 설탕·밀가루 등 식품업은 면허를 받아야 하는 업종이 아닌 점을 고려해 포함하지 않았다. 당정은 담합 적발률을 높이기 위해 담합 처분... 새 창 열림",
-      "collected_at": "2026-09-29T08:44:38.972657+09:00",
-      "normalized_title": "당정, 5년 내 2회 이상 담합하면 영업정지·등록 취소 추진새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::당정, 5년 내 2회 이상 담합하면 영업정지·등록 취소 추진새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.seoul.co.kr/news/politics/2026/09/29/20260929008003?wlog_tag3=naver",
-      "id": "5e2e4643697808d0",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[사설]기업 생사여탈권까지 쥐겠다는 공정위새 창 열림",
-      "url": "https://www.mt.co.kr/opinion/2026/09/29/2026092814455647677",
-      "source": "새 창 열림",
-      "published_at": "2026-09-29T04:44:38.975895+09:00",
-      "snippet": "시장 퇴출 조항이 적용되는 운송, 석유 등 17개 업종은 원자재 가격 변동에 민감하다. 원가 변화에 따른 가격 변동이 빈번해 정당한 가격 결정과 담합을 구분하기 쉽지 않을 때도 있다. 업종의 특성을 고려하지 않은 획일적인 퇴출 기준은 기업활동을 위축시킬 수 있다. 당정 발표는 담합 전 수준을 회복하도록... 새 창 열림",
-      "collected_at": "2026-09-29T08:44:38.975912+09:00",
-      "normalized_title": "[사설]기업 생사여탈권까지 쥐겠다는 공정위새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::[사설]기업 생사여탈권까지 쥐겠다는 공정위새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.mt.co.kr/opinion/2026/09/29/2026092814455647677",
-      "id": "63cf207c04b09355",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "공정위",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "민생 밀접 17개 업종 5년 내 재담합땐 퇴출새 창 열림",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=01515366645585040&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "source": "새 창 열림",
-      "published_at": "2026-09-29T04:44:38.974808+09:00",
-      "snippet": "다만 법 시행 전에 이미 두 차례 담합했다는 이유만으로 개정법 시행과 동시에 곧바로 제재 대상이 되는 것은 아니다. 우선 적용 대상은 소방시설업과 전기공사업, 석유정제·수출입·판매업, 의약품 제조·수입업, 여객·화물운송업, 폐기물처리업 등 안전·생명, 에너지·산업, 환경, 운송 분야 17개 업종이다. 최근... 새 창 열림",
-      "collected_at": "2026-09-29T08:44:38.974823+09:00",
-      "normalized_title": "민생 밀접 17개 업종 5년 내 재담합땐 퇴출새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::민생 밀접 17개 업종 5년 내 재담합땐 퇴출새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.edaily.co.kr/News/Read?newsId=01515366645585040&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "id": "b2323ea4d5e59879",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합",
-        "제재"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "담합 2회 이상 반복하면 시장서 퇴출… 당정, 법 개정 추진새 창 열림",
-      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000017958&cp=nv",
-      "source": "새 창 열림",
-      "published_at": "2026-09-29T00:44:38.978021+09:00",
-      "snippet": "민병덕 민주당 정책위원회 수석부의장은 “안전·에너지·운송·환경 분야 17개 업종의 반복 담합 사업자에 대한 등록취소·영업정지 제도를 도입하겠다”고 밝혔다. 소방시설업과 의약품 제조·수입업, 고압가스제조업, 전기공사업, 설계·감리업, 계량기 제조·수리업, 석유정제·수출입·판매업, 승강기 제조... 새 창 열림",
-      "collected_at": "2026-09-29T08:44:38.978035+09:00",
-      "normalized_title": "담합 2회 이상 반복하면 시장서 퇴출… 당정, 법 개정 추진새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::담합 2회 이상 반복하면 시장서 퇴출… 당정, 법 개정 추진새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.kmib.co.kr/article/view.asp?arcid=9000017958&cp=nv",
-      "id": "01acdc9565254cc1",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "담합하다 5년 내 두 차례 걸리면 영업 정지새 창 열림",
-      "url": "https://www.chosun.com/economy/economy_general/2026/09/29/NDBWSWEO6VGPTNNT6R4KGJTOQM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-      "source": "새 창 열림",
-      "published_at": "2026-09-29T00:44:38.976928+09:00",
-      "snippet": "소방시설사업법·전기공사업법 등 4개 법률에는 반복 담합 사업자에 대한 등록 취소와 영업 정지 규정을 도입하고, 석유사업법·약사법·하수도법 등 13개 법률에는 영업 정지 조항을 신설하기로 했다. 공정위가 반복 담합 사업자를 적발해 소관 부처에 제재를 요청하면 이후 처분을 내리는 구조다. 권칠승... 새 창 열림",
-      "collected_at": "2026-09-29T08:44:38.976943+09:00",
-      "normalized_title": "담합하다 5년 내 두 차례 걸리면 영업 정지새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::담합하다 5년 내 두 차례 걸리면 영업 정지새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.chosun.com/economy/economy_general/2026/09/29/NDBWSWEO6VGPTNNT6R4KGJTOQM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-      "id": "106dae2bf72491fa",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "공정위",
         "담합",
         "제재"
       ],
@@ -557,5 +235,7 @@
       "status_label": "정상",
       "status_reason": "유가담합 관련 맥락 확인"
     }
-  ]
+  ],
+  "editorial_audit": "data/reviews/2026-09-29-morning.audit.json",
+  "raw_count_basis": "원문 재검토 후보 수; 전체 검색 원본은 raw 파일에 보존"
 }

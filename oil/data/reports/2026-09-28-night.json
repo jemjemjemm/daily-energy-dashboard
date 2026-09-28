@@ -6,181 +6,62 @@
   "period_start": "2026-09-28T17:00:00+09:00",
   "period_end": "2026-09-29T00:00:00+09:00",
   "period_label": "2026-09-28 17:00 ~ 2026-09-29 00:00",
-  "generated_at": "2026-09-29T08:45:41.717643+09:00",
+  "generated_at": "2026-09-29T08:50:06.735010+09:00",
   "keywords": [
-    "유가담합",
-    "유가 담합",
-    "정유사 담합",
-    "기름값 담합",
-    "석유 담합",
-    "휘발유 담합",
-    "경유 담합",
-    "주유소 담합",
-    "정유업계 담합",
-    "석유제품 담합",
-    "유류가격 담합",
-    "공정위 유가 담합",
-    "공정거래위원회 정유사 담합"
+    "정유 담합",
+    "석유화학 담합"
   ],
-  "total_raw_count": 1586,
-  "total_deduped_count": 12,
-  "total_ok_count": 12,
+  "total_raw_count": 8,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
   "total_review_count": 0,
-  "total_excluded_count": 7,
+  "total_excluded_count": 0,
   "grade_counts": {
-    "A": 3,
-    "B": 1,
-    "C": 8
+    "A": 1,
+    "B": 0,
+    "C": 1
   },
   "portal_counts": {
-    "naver": 130,
-    "daum": 260,
-    "google": 1196
+    "naver": 0,
+    "daum": 0,
+    "google": 0
   },
   "query_counts": {
-    "공정거래위원회 정유사 담합": 3,
-    "공정위 유가 담합": 1,
-    "기름값 담합": 4,
-    "석유 담합": 5,
-    "석유제품 담합": 4,
-    "유가 담합": 4,
-    "유가담합": 4,
-    "유류가격 담합": 2,
-    "정유사 담합": 3,
-    "정유업계 담합": 3,
-    "주유소 담합": 2
+    "석유 담합": 2,
+    "정유 담합": 2
   },
   "collection_warnings": [],
   "telegram_alert_log": [],
   "articles": [
     {
-      "title": "석유·의약품·폐기물처리 등 17개 업종 제재 강화 “반복 담합땐 영업정지”",
-      "url": "http://v.daum.net/v/20260928175226128",
-      "source": "한겨레",
-      "published_at": "2026-09-28T18:44:28.946882+09:00",
-      "snippet": "주병기 공정거래위원장(왼쪽 둘째)이 28일 국회 의원회관에서 열린 반복 담합 근절을 위한 입법 추진 당정협의회에서 발언하고 있다. 연합뉴스 앞으로 주유소·정유사와 제약사 등 17개 민생 관련 업종에서 반복적으로 담합한 사업자는 시장에서 퇴출되는 등록취소나... 14시간 전",
-      "collected_at": "2026-09-29T08:44:28.946908+09:00",
-      "normalized_title": "석유·의약품·폐기물처리 등 17개 업종 제재 강화 “반복 담합땐 영업정지”",
-      "source_normalized": "한겨레",
-      "duplicate_key": "한겨레::석유·의약품·폐기물처리 등 17개 업종 제재 강화 “반복 담합땐 영업정지”",
-      "portals": [
-        "daum",
-        "google"
-      ],
+      "title": "[사설] “5년 내 두 번 담합 땐 퇴출”…과도한 제재보다 경쟁 촉진을",
+      "source": "서울경제",
+      "published_at": "2026-09-28T17:51:02+09:00",
+      "url": "https://www.sedaily.com/article/20095721",
+      "canonical_url": "https://www.sedaily.com/article/20095721",
+      "snippet": "반복 담합 퇴출 제재가 석유정제·판매시장 경쟁을 약화할 수 있다는 사설 의견 제시",
+      "summary": "△반복 담합 퇴출 제재가 석유정제·판매시장 경쟁을 약화할 수 있다는 사설 의견 제시",
+      "collected_at": "2026-09-29T08:50:06.710330+09:00",
       "queries": [
-        "공정거래위원회 정유사 담합",
         "석유 담합",
-        "정유사 담합",
-        "주유소 담합"
+        "정유 담합"
       ],
-      "duplicate_count": 3,
-      "canonical_url": "http://v.daum.net/v/20260928175226128",
-      "id": "0d03bc649495ed9f",
-      "grade": "A",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "정유사",
-        "주유소",
-        "담합",
-        "제재"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "담합 두 번 걸리면 영업정지·등록취소",
-      "url": "http://v.daum.net/v/20260928223145087",
-      "source": "경향신문",
-      "published_at": "2026-09-28T22:44:50.669745+09:00",
-      "snippet": "당정은 소방시설업과 석유판매업 등 17개 업종에서 5년 이내 두 차례 이상 담합하면 영업정지 처분을 받도록 법 개정을 추진키로 했다. 일부 업종은 등록이 취소될 수 있다. 정부와 더불어민주당은 28일 국회에서 당정협의회를 열고 ‘반복 담합 근절 입법 추진방안... 10시간 전",
-      "collected_at": "2026-09-29T08:44:50.669772+09:00",
-      "normalized_title": "담합 두 번 걸리면 영업정지·등록취소",
-      "source_normalized": "경향신문",
-      "duplicate_key": "경향신문::담합 두 번 걸리면 영업정지·등록취소",
       "portals": [
-        "daum"
+        "editorial-original-review"
       ],
-      "queries": [
-        "석유 담합"
-      ],
+      "verified": true,
+      "time_evidence": "발행사 본문·입력시각 및 article:published_time 2026-09-28T17:51:02+09:00 직접 확인. 포털 재전송시각 제외. 노컷뉴스 offset 없는 원문 시각은 KST 기준.",
+      "normalized_title": "[사설] “5년 내 두 번 담합 땐 퇴출”…과도한 제재보다 경쟁 촉진을",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::[사설] “5년 내 두 번 담합 땐 퇴출”…과도한 제재보다 경쟁 촉진을",
       "duplicate_count": 0,
-      "canonical_url": "http://v.daum.net/v/20260928223145087",
-      "id": "54630c3eb801927f",
+      "id": "8aabf5556d94c1de",
       "grade": "A",
       "published_at_status": "known",
       "matched_keywords": [
         "석유",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "\"과자 몇 개 집었을 뿐인데\"…마트 영수증 보고 놀란 이유 [박상경의 영수증 리뷰]",
-      "url": "http://v.daum.net/v/20260928180214614",
-      "source": "한국경제",
-      "published_at": "2026-09-28T18:44:08.417775+09:00",
-      "snippet": "18% 급등하는 등 포장재 비용 부담도 누적됐다. 담합 제재 여파로 가격을 내렸던 업계가 불과 몇 달 만에 다시 인상으로 돌아선 배경...59종의 출고가를 평균 9.4% 인상했다. 제과업계 관계자는 \"국제 유가와 원자재 가격 상승 등으로 제조원가와 물류비 부담이 상승... 14시간 전",
-      "collected_at": "2026-09-29T08:44:08.417803+09:00",
-      "normalized_title": "\"과자 몇 개 집었을 뿐인데\"…마트 영수증 보고 놀란 이유 [박상경의 영수증 리뷰]",
-      "source_normalized": "한국경제",
-      "duplicate_key": "한국경제::\"과자 몇 개 집었을 뿐인데\"…마트 영수증 보고 놀란 이유 [박상경의 영수증 리뷰]",
-      "portals": [
-        "daum"
-      ],
-      "queries": [
-        "공정위 유가 담합",
-        "기름값 담합",
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 3,
-      "canonical_url": "http://v.daum.net/v/20260928180214614",
-      "id": "cdf19f9fe8df97fc",
-      "grade": "A",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
         "담합",
         "제재"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[미리 보는 국감] K-방산 수장들 국감 소환 기로…조선·정유업계도 긴장",
-      "url": "http://v.daum.net/v/20260928170020750",
-      "source": "아주경제",
-      "published_at": "2026-09-28T17:44:09.442128+09:00",
-      "snippet": "전·현직 경영진으로 확대된 만큼 국감에서도 담합 의혹과 경영진의 관리 책임 등이 도마에 오를 가능성을 배제하기 어렵다. 정유업계도 가격 담합 문제로 국감 사정권에 들었다. 김종화 SK에너지 대표와 허세홍 GS칼텍스 대표, 안종범 에쓰오일 대표, 송명준 HD현대... 15시간 전",
-      "collected_at": "2026-09-29T08:44:09.442157+09:00",
-      "normalized_title": "[미리 보는 국감] K-방산 수장들 국감 소환 기로…조선·정유업계도 긴장",
-      "source_normalized": "아주경제",
-      "duplicate_key": "아주경제::[미리 보는 국감] k-방산 수장들 국감 소환 기로…조선·정유업계도 긴장",
-      "portals": [
-        "daum",
-        "google"
-      ],
-      "queries": [
-        "기름값 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합",
-        "유류가격 담합",
-        "정유업계 담합"
-      ],
-      "duplicate_count": 6,
-      "canonical_url": "http://v.daum.net/v/20260928170020750",
-      "id": "952c1730d7019dd1",
-      "grade": "B",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "정유업계",
-        "담합"
       ],
       "quality_status": "ok",
       "status_label": "정상",
@@ -188,247 +69,27 @@
     },
     {
       "title": "담합하면 시장 퇴출…처분 시효, 15년으로 확대",
-      "url": "http://v.daum.net/v/20260928223706209",
       "source": "OBS",
-      "published_at": "2026-09-28T22:44:49.664889+09:00",
-      "snippet": "2명은 수조원 규모의 담합 의혹을 받고 있습니다. 수년 간 PVC와 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 담합한 혐의입니다. 정부가 앞으로 담합 행위에 대한 처벌을 강화하기로 했습니다. 당정 회의 결과, 반복적으로 담합을 벌인 사업자에... 10시간 전",
-      "collected_at": "2026-09-29T08:44:49.664918+09:00",
+      "published_at": "2026-09-28T20:09:27+09:00",
+      "url": "https://www.obsnews.co.kr/news/articleView.html?idxno=1538837",
+      "canonical_url": "https://www.obsnews.co.kr/news/articleView.html?idxno=1538837",
+      "snippet": "석유정제·판매업 등 반복 담합 사업자에 대한 영업정지 근거 마련 및 관련 법 개정 추진",
+      "summary": "△석유정제·판매업 등 반복 담합 사업자에 대한 영업정지 근거 마련 및 관련 법 개정 추진",
+      "collected_at": "2026-09-29T08:50:06.710330+09:00",
+      "queries": [
+        "석유 담합",
+        "정유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 본문·입력시각 및 article:published_time 2026-09-28T20:09:27+09:00 직접 확인. 포털 재전송시각 제외. 노컷뉴스 offset 없는 원문 시각은 KST 기준.",
       "normalized_title": "담합하면 시장 퇴출…처분 시효, 15년으로 확대",
       "source_normalized": "OBS",
       "duplicate_key": "obs::담합하면 시장 퇴출…처분 시효, 15년으로 확대",
-      "portals": [
-        "daum"
-      ],
-      "queries": [
-        "석유 담합",
-        "석유제품 담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "http://v.daum.net/v/20260928223706209",
-      "id": "b04ce4a32dfc6379",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "국감 기업인 줄소환 본격화…MBK 김병주·배민·강남언니 등 증인석 선다새 창 열림",
-      "url": "https://wemakenews.co.kr/news/view.php?no=26418",
-      "source": "새 창 열림",
-      "published_at": "2026-09-28T23:44:38.978966+09:00",
-      "snippet": "개인정보 유출과 해킹, 홈플러스 사태와 식품업계 담합에 이어 해외 모회사 자금 이전과 법인세 문제까지 국감 테이블에 오르면서 기업 최고경영자(CEO)... SK에너지 김종화 대표에게는 석유 최고가격제 시행에 따른 정유업계 손실 규모 등이 다뤄질 예정이다. 대방그룹 구교운 회장은 공공택지 계열사 전매와... 새 창 열림",
-      "collected_at": "2026-09-29T08:44:38.978982+09:00",
-      "normalized_title": "국감 기업인 줄소환 본격화…MBK 김병주·배민·강남언니 등 증인석 선다새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::국감 기업인 줄소환 본격화…mbk 김병주·배민·강남언니 등 증인석 선다새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합",
-        "정유업계 담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "https://wemakenews.co.kr/news/view.php?no=26418",
-      "id": "5e55d59ec80c0907",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "정유업계",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "담합하면 시장 퇴출…처분 시효, 15년으로 확대새 창 열림",
-      "url": "https://www.obsnews.co.kr/news/articleView.html?idxno=1538837",
-      "source": "새 창 열림",
-      "published_at": "2026-09-28T20:45:16.988851+09:00",
-      "snippet": "수년 간 PVC와 가성소다, 염산 등 8개 석유화학제품 품목의 가격 인상을 사전에 담합한 혐의입니다. 정부가 앞으로 담합 행위에 대한 처벌을 강화하기로 했습니다. 당정 회의 결과, 반복적으로 담합을 벌인 사업자에 대해 영업정지나 등록취소를 할 수 있도록 법 개정을 추진하기로 한 것입니다. 담합행위를 늦게... 새 창 열림",
-      "collected_at": "2026-09-29T08:45:16.988880+09:00",
-      "normalized_title": "담합하면 시장 퇴출…처분 시효, 15년으로 확대새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::담합하면 시장 퇴출…처분 시효, 15년으로 확대새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유제품 담합"
-      ],
       "duplicate_count": 0,
-      "canonical_url": "https://www.obsnews.co.kr/news/articleView.html?idxno=1538837",
-      "id": "ca919ee0a38786e3",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "담합 '투스트라이크 아웃', 공정위의 과속 위험하다 [사설]새 창 열림",
-      "url": "https://www.mk.co.kr/article/12162947",
-      "source": "새 창 열림",
-      "published_at": "2026-09-28T18:44:26.812700+09:00",
-      "snippet": "제약사나 정유사, 운송업체가 영업정지를 당하면 그 피해는 환자와 소비자, 화주에게 돌아간다. 이런 식으로 경쟁사가 시장에서 빠지면, 남은 소수... 담합 전 경쟁을 회복하는 수준으로 가격을 다시 정하도록 명령할 법적 근거를 만들겠다고 한다. 이렇게 되면 공정거래위원회가 그 수준을 판단하게 되고, 이행... 새 창 열림",
-      "collected_at": "2026-09-29T08:44:26.812717+09:00",
-      "normalized_title": "담합 '투스트라이크 아웃', 공정위의 과속 위험하다 [사설]새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::담합 '투스트라이크 아웃', 공정위의 과속 위험하다 [사설]새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "공정거래위원회 정유사 담합",
-        "정유사 담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "https://www.mk.co.kr/article/12162947",
-      "id": "f0fb4a4807952dc2",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "정유사",
-        "공정위",
-        "공정거래위원회",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "석유·의약품·폐기물처리 등 17개 업종 제재 강화 “반복 담합땐 영업...새 창 열림",
-      "url": "https://www.hani.co.kr/arti/economy/economy_general/1279830.html",
-      "source": "새 창 열림",
-      "published_at": "2026-09-28T18:44:26.811599+09:00",
-      "snippet": "앞으로 주유소·정유사와 제약사 등 17개 민생 관련 업종에서 반복적으로 담합한 사업자는 시장에서 퇴출되는 등록취소나 영업정지 처분을 받을 수 있다. 정부와 더불어민주당은 28일 국회에서 당정협의회를 열고 담합 행위에 대한 고강도 대책을 담은 ‘반복 담합 근절 입법 추진방안’을 발표했다. 당정은... 새 창 열림",
-      "collected_at": "2026-09-29T08:44:26.811635+09:00",
-      "normalized_title": "석유·의약품·폐기물처리 등 17개 업종 제재 강화 “반복 담합땐 영업...새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::석유·의약품·폐기물처리 등 17개 업종 제재 강화 “반복 담합땐 영업...새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "공정거래위원회 정유사 담합",
-        "정유사 담합",
-        "주유소 담합"
-      ],
-      "duplicate_count": 2,
-      "canonical_url": "https://www.hani.co.kr/arti/economy/economy_general/1279830.html",
-      "id": "6e80fb197cc954a9",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "정유사",
-        "주유소",
-        "담합",
-        "제재"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "\"과자 몇 개 집었을 뿐인데\"…마트 영수증 보고 놀란 이유 [박상경의 영...새 창 열림",
-      "url": "https://www.hankyung.com/article/202609289254g",
-      "source": "새 창 열림",
-      "published_at": "2026-09-28T18:44:04.131581+09:00",
-      "snippet": "담합 제재 여파로 가격을 내렸던 업계가 불과 몇 달 만에 다시 인상으로 돌아선 배경에도 이런 원가 급등이 있다. 지난 3월 공정거래위원회가... 제과업계 관계자는 \"국제 유가와 원자재 가격 상승 등으로 제조원가와 물류비 부담이 상승해 원가 압박이 커졌다\"며 \"경영 효율화, 원가 절감 등을 통해... 새 창 열림",
-      "collected_at": "2026-09-29T08:44:04.131600+09:00",
-      "normalized_title": "\"과자 몇 개 집었을 뿐인데\"…마트 영수증 보고 놀란 이유 [박상경의 영...새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::\"과자 몇 개 집었을 뿐인데\"…마트 영수증 보고 놀란 이유 [박상경의 영...새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "기름값 담합",
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 2,
-      "canonical_url": "https://www.hankyung.com/article/202609289254g",
-      "id": "59e769361eb38c19",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "공정거래위원회",
-        "담합",
-        "제재"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[미리 보는 국감] K-방산 수장들 국감 소환 기로…조선·정유업계도 긴...새 창 열림",
-      "url": "https://www.ajunews.com/view/20260928134541793",
-      "source": "새 창 열림",
-      "published_at": "2026-09-28T17:44:04.132575+09:00",
-      "snippet": "석유화학업계는 최근 불거진 대규모 가격 담합 의혹이 최대 변수다. 검찰은 LG화학과 한화솔루션, OCI 등 7개 업체가 PVC와 가소제, 가성소다 등 8개 석유화학제품의 가격을 사전에 협의한 혐의를 들여다보고 있다. 수사가 실무진을 넘어 전·현직 경영진으로 확대된 만큼 국감에서도 담합 의혹과 경영진의 관리... 새 창 열림",
-      "collected_at": "2026-09-29T08:44:04.132591+09:00",
-      "normalized_title": "[미리 보는 국감] K-방산 수장들 국감 소환 기로…조선·정유업계도 긴...새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::[미리 보는 국감] k-방산 수장들 국감 소환 기로…조선·정유업계도 긴...새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "기름값 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합",
-        "유류가격 담합",
-        "정유업계 담합"
-      ],
-      "duplicate_count": 5,
-      "canonical_url": "https://www.ajunews.com/view/20260928134541793",
-      "id": "30c5bdce96469309",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "정유업계",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "석유 정제·판매 등 국민 생활 직결 산업 담합 처벌 강화",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZeE5aSlo0bmtQVHp6bzFBc0thdlRKRElGUjZESUNyd2hBUFZCWFVyS2pxUzdVTlFMV2Vud0FTc0NJTFhwNlhEZUJSOUYtVGhTUy1mSHZFNEJkOE1PbjVnUWQ0SWNRRXhtS19mUNIBcEFVX3lxTFA5Z091RVUyaEkyaTd2d3p4Q01LSlV5UWNsRnRyQTNpSWJUc3ZTVE5nd2lkcjJIZzM2bjIzMU96bWkxdWU3NEVIS2JnbHBsMjlrdDVUQ0czeTY0eUtHZnFCQzZCM0dJLXBDeXVIRVh6RHQ?oc=5",
-      "source": "에너지플랫폼뉴스",
-      "published_at": "2026-09-28T20:16:31+09:00",
-      "snippet": "석유 정제·판매 등 국민 생활 직결 산업 담합 처벌 강화 에너지플랫폼뉴스",
-      "collected_at": "2026-09-29T08:44:51.325902+09:00",
-      "normalized_title": "석유 정제·판매 등 국민 생활 직결 산업 담합 처벌 강화",
-      "source_normalized": "에너지플랫폼뉴스",
-      "duplicate_key": "에너지플랫폼뉴스::석유 정제·판매 등 국민 생활 직결 산업 담합 처벌 강화",
-      "portals": [
-        "google"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZeE5aSlo0bmtQVHp6bzFBc0thdlRKRElGUjZESUNyd2hBUFZCWFVyS2pxUzdVTlFMV2Vud0FTc0NJTFhwNlhEZUJSOUYtVGhTUy1mSHZFNEJkOE1PbjVnUWQ0SWNRRXhtS19mUNIBcEFVX3lxTFA5Z091RVUyaEkyaTd2d3p4Q01LSlV5UWNsRnRyQTNpSWJUc3ZTVE5nd2lkcjJIZzM2bjIzMU96bWkxdWU3NEVIS2JnbHBsMjlrdDVUQ0czeTY0eUtHZnFCQzZCM0dJLXBDeXVIRVh6RHQ?oc=5",
-      "id": "20d57f377858f584",
+      "id": "fdae8cbf3fea066f",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
@@ -439,5 +100,7 @@
       "status_label": "정상",
       "status_reason": "유가담합 관련 맥락 확인"
     }
-  ]
+  ],
+  "editorial_audit": "data/reviews/2026-09-29-morning.audit.json",
+  "raw_count_basis": "원문 재검토 후보 수; 전체 검색 원본은 raw 파일에 보존"
 }
