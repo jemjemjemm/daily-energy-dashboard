@@ -6,12 +6,10 @@ import argparse, json, sys
 from datetime import date, timedelta
 from pathlib import Path
 
-HOLIDAYS_2026 = {
-    "2026-01-01", "2026-02-16", "2026-02-17", "2026-02-18",
-    "2026-03-02", "2026-05-01", "2026-05-05", "2026-05-25",
-    "2026-06-03", "2026-08-17", "2026-09-24", "2026-09-25", "2026-09-28",
-    "2026-10-05", "2026-10-09", "2026-12-25",
-}
+try:
+    from scripts.kr_holidays import KOREAN_HOLIDAYS_2026 as HOLIDAYS_2026
+except ImportError:
+    from kr_holidays import KOREAN_HOLIDAYS_2026 as HOLIDAYS_2026  # type: ignore
 
 def is_workday(d: date) -> bool:
     return d.weekday() < 5 and d.isoformat() not in HOLIDAYS_2026

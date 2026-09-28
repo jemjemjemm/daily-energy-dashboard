@@ -31,6 +31,28 @@ def resolve_slot(value: str | None = None, now: datetime | None = None) -> str:
     return "morning" if current.hour < 17 else "evening"
 
 
+# GitHub cron expressions (UTC) in .github/workflows/oil-report.yml -> slot.
+SCHEDULE_SLOTS = {"10 23 * * *": "morning", "10 8 * * *": "evening"}
+SLOT_END_HOUR = {"morning": 8, "evening": 17}
+
+
+def resolve_scheduled_target(cron: str, now: datetime | None = None) -> tuple[date, str]:
+    """Resolve the report a scheduled run was meant for, however late it starts.
+
+    GitHub regularly starts scheduled runs hours late (e.g. the 17:10 evening
+    run started at 00:03 the next day on 2026-09-22). Deciding by wall-clock
+    time then produced a premature next-day morning report and skipped the
+    evening report. The cron that fired tells us the slot; the report date is
+    the most recent day whose slot window has already closed.
+    """
+    slot = SCHEDULE_SLOTS[cron.strip()]
+    current = (now or now_kst()).astimezone(KST)
+    day = current.date()
+    if current.hour < SLOT_END_HOUR[slot]:
+        day -= timedelta(days=1)
+    return day, slot
+
+
 def get_period(base_date: date | str, slot: str) -> tuple[datetime, datetime]:
     day = date.fromisoformat(base_date) if isinstance(base_date, str) else base_date
     slot = resolve_slot(slot)

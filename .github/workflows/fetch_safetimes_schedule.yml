@@ -38,6 +38,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: daily-energy-dashboard-${{ github.ref }}
@@ -167,15 +168,11 @@ jobs:
           python - <<'PY' >> "$GITHUB_ENV"
           import datetime as dt
           import os
+          import sys
+          sys.path.insert(0, "scripts")
+          from kr_holidays import is_business_day
           target = dt.date.fromisoformat(os.environ["TARGET_DATE"].strip())
-          holidays = {
-              "2026-01-01", "2026-02-16", "2026-02-17", "2026-02-18",
-              "2026-03-02", "2026-05-01", "2026-05-05", "2026-05-25",
-              "2026-06-03", "2026-08-17", "2026-09-24", "2026-09-25", "2026-09-26",
-              "2026-10-05", "2026-10-09", "2026-12-25",
-          }
-          is_business_day = target.weekday() < 5 and target.isoformat() not in holidays
-          print(f"IS_BUSINESS_DAY={'true' if is_business_day else 'false'}")
+          print(f"IS_BUSINESS_DAY={'true' if is_business_day(target) else 'false'}")
           PY
           echo "IS_BUSINESS_DAY=$IS_BUSINESS_DAY"
 
@@ -223,19 +220,11 @@ jobs:
           python - <<'PY' >> "$GITHUB_ENV"
           import datetime as dt
           import os
+          import sys
+          sys.path.insert(0, "scripts")
+          from kr_holidays import previous_business_day
           target = dt.date.fromisoformat(os.environ["TARGET_DATE"].strip())
-          holidays = {
-              "2026-01-01", "2026-02-16", "2026-02-17", "2026-02-18",
-              "2026-03-02", "2026-05-01", "2026-05-05", "2026-05-25",
-              "2026-06-03", "2026-08-17", "2026-09-24", "2026-09-25", "2026-09-26",
-              "2026-10-05", "2026-10-09", "2026-12-25",
-          }
-          cur = target - dt.timedelta(days=1)
-          for _ in range(14):
-              if cur.weekday() < 5 and cur.isoformat() not in holidays:
-                  break
-              cur -= dt.timedelta(days=1)
-          print(f"PREVIOUS_DATE={cur.isoformat()}")
+          print(f"PREVIOUS_DATE={previous_business_day(target).isoformat()}")
           PY
           echo "PREVIOUS_DATE=$PREVIOUS_DATE"
 
@@ -496,3 +485,35 @@ jobs:
           echo "[WARN] Initial push failed; rebasing onto the latest origin/main before retrying."
           git pull --rebase origin main
           git push
+
+      - name: Request matching oil issue report
+        # 유가 예약 실행은 GitHub 사정으로 수 시간 늦게 시작되므로, Daily 발행 시
+        # 같은 날짜·슬롯의 유가 리포트를 함께 요청합니다. 이미 발행된 리포트는
+        # 유가 workflow가 건너뛰므로 수동 검토본을 덮어쓰지 않습니다.
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          OIL_DISPATCH="$(python - <<'PY'
+          import datetime as dt
+          import os
+          from zoneinfo import ZoneInfo
+
+          now = dt.datetime.now(ZoneInfo("Asia/Seoul"))
+          target = dt.date.fromisoformat(os.environ["TARGET_DATE"].strip())
+          # 기존 유가 예약 시각(08:10/17:10)과 같게 마감 10분 뒤부터 요청합니다.
+          end_hour = {"morning": 8, "evening": 17}[os.environ["REPORT_SLOT"]]
+          window_closed = now >= dt.datetime.combine(target, dt.time(end_hour, 10), now.tzinfo)
+          print("true" if target == now.date() and window_closed else "false")
+          PY
+          )"
+          if [ "$OIL_DISPATCH" != "true" ]; then
+            echo "[INFO] 오늘 날짜의 마감된 슬롯이 아니므로 유가 리포트를 요청하지 않습니다."
+            exit 0
+          fi
+          gh workflow run oil-report.yml --ref main \
+            -f report_slot="$REPORT_SLOT" \
+            -f base_date="$TARGET_DATE" \
+            -f skip_if_published=true
+          echo "[OK] 유가 리포트 요청: $TARGET_DATE $REPORT_SLOT"

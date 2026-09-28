@@ -18,17 +18,10 @@ SECTION_RE = re.compile(
 )
 NEWS_WINDOW_CUTOFF_DATE = "2026-06-01"
 NEWS_QUALITY_CUTOFF_DATE = "2026-06-17"
-KOREAN_HOLIDAYS_2026 = {
-    "2026-01-01",
-    "2026-02-16", "2026-02-17", "2026-02-18",
-    "2026-03-02",
-    "2026-05-01", "2026-05-05", "2026-05-25",
-    "2026-06-03",
-    "2026-08-17",
-    "2026-09-24", "2026-09-25", "2026-09-26",
-    "2026-10-05", "2026-10-09",
-    "2026-12-25",
-}
+try:
+    from scripts.kr_holidays import KOREAN_HOLIDAYS_2026
+except ImportError:
+    from kr_holidays import KOREAN_HOLIDAYS_2026  # type: ignore
 BAD_REPORT_PHRASES = (
     "금일 주요 일정 데이터 확인 필요",
     "금일 주요 일정 수집 지연",

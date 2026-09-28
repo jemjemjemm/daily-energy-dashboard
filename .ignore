@@ -1,0 +1,4 @@
+# 검색 도구(rg, Codex) 전용 제외 목록. Git 추적·배포에는 영향 없음.
+# oil/data/raw 는 약 1.2GB(파일당 약 4MB)의 포털 검색 원본이라 검색 결과를 오염시킨다.
+oil/data/raw/
+_site/

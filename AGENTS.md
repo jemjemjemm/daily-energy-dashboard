@@ -37,3 +37,11 @@
 4. `python tools/sync_assembly_content.py`로 https://jemjemjemm.github.io/26GookGam/ 完 탭 동기화. `python tools/assemble_site.py --output .cache/새로운검증경로` 후 `python -m tools.validate_site --site 해당경로`, 관련 unittest 실행.
 5. 브라우저에서 국감 1/2/3 순서, Morning/Evening 및 여섯 상임위, 시각/링크, 모바일 줄바꿈과 가로 넘침, 날짜 변경 시 과거 보존, Daily 회귀 오류를 확인한다.
 6. 작업 파일만 커밋한다. `.cache` 임시 파일은 추가하지 않는다. push 후 Pages Actions 성공 및 온라인 실제 내용 확인. 검색·개별 기사 미확인 등 제한이 있으면 완료 범위를 정확히 알린다.
+
+## 발간 체크리스트 (2026-09-28 추가)
+
+- Morning/Evening 발간 시 유가 리포트도 같은 슬롯으로 확인한다. `oil/data/reports/YYYY-MM-DD-SLOT.json`이 없으면 `oil` 폴더에서 `python scripts/collect_news.py --slot SLOT --base-date YYYY-MM-DD --include-previous-night true`, `python scripts/build_report.py --slot SLOT --base-date YYYY-MM-DD --include-previous-night true`, `python scripts/validate_reports.py`를 실행한다. 유가 예약 실행은 GitHub 사정으로 2~5시간 늦게 시작되므로 예약 실행을 기다리지 않는다.
+- `summary`·`editorial_audit`·기사별 `verified`/`time_evidence`가 있는 유가 리포트는 검토본이다. `build_report.py`는 검토본을 덮어쓰지 않으며, 원문 재검토 후 다시 만들 때만 `--overwrite-reviewed true`를 사용한다.
+- 공휴일은 `scripts/kr_holidays.py` 한 곳에서만 관리한다. 다른 스크립트나 workflow에 날짜 목록을 복사하지 않는다. 2027년 공휴일은 2026년 12월 전에 추가한다.
+- Daily 원본(`docs/reports/YYYY-MM-DD.html`)이 없을 때만 Daily를 생성한다. Actions의 Daily workflow를 먼저 실행해 두면(유가 리포트도 함께 요청됨) 상임위 뉴스 작업과 병행할 수 있다.
+- 검증은 `.cache/` 경로 하나에 조립한 뒤 한 번만 실행하고, 커밋·push는 모든 산출물을 확인한 뒤 한 번에 한다. push할 때마다 Pages 배포가 순서대로 한 번씩 실행된다.

@@ -129,7 +129,30 @@ location.replace('../index.html?report=' + encodeURIComponent('data/reports/' + 
 <body><p><a href=\"../index.html\">F-Issue Report에서 이 리포트 열기</a></p></body></html>""", encoding="utf-8")
 
 
-def build_previous_night(morning_date: str) -> None:
+REVIEWED_REPORT_KEYS = ("summary", "editorial_audit")
+REVIEWED_ARTICLE_KEYS = ("summary", "verified", "time_evidence")
+
+
+def is_reviewed_report(path: Path) -> bool:
+    """True when a person/agent has curated this report after it was built.
+
+    Rebuilding from raw search results would silently drop the reviewed
+    summary, audit trail and per-article verification, so such reports are
+    never overwritten unless --overwrite-reviewed true is passed explicitly.
+    """
+    try:
+        existing = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return False
+    if any(existing.get(key) for key in REVIEWED_REPORT_KEYS):
+        return True
+    return any(
+        isinstance(article, dict) and any(key in article for key in REVIEWED_ARTICLE_KEYS)
+        for article in existing.get("articles") or []
+    )
+
+
+def build_previous_night(morning_date: str, overwrite_reviewed: bool = False) -> None:
     night_date = (datetime.strptime(morning_date, "%Y-%m-%d").date() - timedelta(days=1)).isoformat()
     raw_path = ROOT / "data" / "raw" / f"{night_date}-night-raw.json"
     if not raw_path.exists():
@@ -138,9 +161,12 @@ def build_previous_night(morning_date: str) -> None:
         raw_path = ROOT / "data" / "raw" / f"{morning_date}-morning-raw.json"
     if not raw_path.exists():
         raise FileNotFoundError(f"Raw data not found for {night_date} night")
+    out = ROOT / "data" / "reports" / f"{night_date}-night.json"
+    if not overwrite_reviewed and is_reviewed_report(out):
+        print(f"Kept reviewed report: {out.relative_to(ROOT)}")
+        return
     raw = json.loads(raw_path.read_text(encoding="utf-8"))
     report = build_report(raw, night_date, "night")
-    out = ROOT / "data" / "reports" / f"{night_date}-night.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     update_index(report)
@@ -153,17 +179,22 @@ def main() -> int:
     parser.add_argument("--slot", default="")
     parser.add_argument("--base-date", default="")
     parser.add_argument("--include-previous-night", default="false")
+    parser.add_argument("--overwrite-reviewed", default="false")
     args = parser.parse_args()
     slot = resolve_slot(args.slot)
     base_date = resolve_base_date(args.base_date).isoformat()
+    overwrite_reviewed = args.overwrite_reviewed.lower() == "true"
     if slot == "morning" and args.include_previous_night.lower() == "true":
-        build_previous_night(base_date)
+        build_previous_night(base_date, overwrite_reviewed)
+    out = ROOT / "data" / "reports" / f"{base_date}-{slot}.json"
+    if not overwrite_reviewed and is_reviewed_report(out):
+        print(f"Kept reviewed report: {out.relative_to(ROOT)}")
+        return 0
     raw_path = ROOT / "data" / "raw" / f"{base_date}-{slot}-raw.json"
     if not raw_path.exists():
         raise FileNotFoundError(f"Raw data not found: {raw_path}")
     raw = json.loads(raw_path.read_text(encoding="utf-8"))
     report = build_report(raw, base_date, slot)
-    out = ROOT / "data" / "reports" / f"{base_date}-{slot}.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     update_index(report)

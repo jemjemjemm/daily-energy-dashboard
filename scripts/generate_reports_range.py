@@ -26,17 +26,10 @@ from pathlib import Path
 
 # 2026년 한국 공휴일/휴무일 중 대시보드 평일 백필에서 제외할 날짜
 # 근로자의 날은 법정 공휴일은 아니지만 국내 업무일정 리포트 운영상 휴무일로 취급합니다.
-KOREAN_HOLIDAYS_2026 = {
-    "2026-01-01",
-    "2026-02-16", "2026-02-17", "2026-02-18",
-    "2026-03-02",
-    "2026-05-01", "2026-05-05", "2026-05-25",
-    "2026-06-03",
-    "2026-08-17",
-    "2026-09-24", "2026-09-25", "2026-09-26",
-    "2026-10-05", "2026-10-09",
-    "2026-12-25",
-}
+try:
+    from scripts.kr_holidays import KOREAN_HOLIDAYS_2026
+except ImportError:
+    from kr_holidays import KOREAN_HOLIDAYS_2026  # type: ignore
 
 
 def parse_args():

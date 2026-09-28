@@ -21,6 +21,11 @@ on:
         required: false
         default: false
         type: boolean
+      skip_if_published:
+        description: "이미 발행된 리포트가 있으면 건너뜀 (예약 실행은 항상 적용)"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -56,18 +61,33 @@ jobs:
           cache-dependency-path: oil/requirements.txt
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Resolve report slot and date
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE_CRON: ${{ github.event.schedule }}
+          INPUT_SLOT: ${{ inputs.report_slot || '' }}
+          INPUT_BASE_DATE: ${{ inputs.base_date || '' }}
+          INPUT_SKIP_IF_PUBLISHED: ${{ inputs.skip_if_published || 'false' }}
+        run: |
+          python scripts/resolve_run_target.py >> "$GITHUB_ENV"
+          python scripts/resolve_run_target.py
+      - name: Skip already published report
+        if: env.ALREADY_PUBLISHED == 'true'
+        run: echo "[INFO] $BASE_DATE $REPORT_SLOT 리포트가 이미 발행되어 다시 생성하지 않습니다."
       - name: Collect news
+        if: env.ALREADY_PUBLISHED != 'true'
         run: >-
           python scripts/collect_news.py
-          --slot "${{ inputs.report_slot || '' }}"
-          --base-date "${{ inputs.base_date || '' }}"
+          --slot "$REPORT_SLOT"
+          --base-date "$BASE_DATE"
           --force-refresh "${{ inputs.force_refresh || 'false' }}"
           --include-previous-night "true"
       - name: Build report
+        if: env.ALREADY_PUBLISHED != 'true'
         run: >-
           python scripts/build_report.py
-          --slot "${{ inputs.report_slot || '' }}"
-          --base-date "${{ inputs.base_date || '' }}"
+          --slot "$REPORT_SLOT"
+          --base-date "$BASE_DATE"
           --include-previous-night "true"
       - name: Run tests
         run: |
