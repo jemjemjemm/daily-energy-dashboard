@@ -1,0 +1,74 @@
+{
+  "audited_at": "2026-09-30T08:12:46.872133+09:00",
+  "scope": "2026-09-30 Morning 및 9/29 Night 원문 검토",
+  "articles": [
+    {
+      "title": "대검, 경찰·중수청과 '인지사건' 이관 규모 협의…\"공백 없이 협력\"",
+      "source": "뉴스1",
+      "published_at": "2026-09-29T17:55:20+09:00",
+      "url": "https://www.news1.kr/society/court-prosecution/6305070",
+      "canonical_url": "https://www.news1.kr/society/court-prosecution/6305070",
+      "snippet": "검찰, 석유화학제품 가격 담합 등 주요 인지사건의 이달 내 종결 방침 및 수사기관 이관 협의",
+      "summary": "△검찰, 석유화학제품 가격 담합 등 주요 인지사건의 이달 내 종결 방침 및 수사기관 이관 협의",
+      "collected_at": "2026-09-30T08:12:46.872133+09:00",
+      "queries": [
+        "석유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "Chromium에서 발행사 원문 본문 및 article:published_time 2026-09-29T17:55:20+09:00 확인. 검색 상대시각을 최초 보도시각으로 쓰지 않음."
+    },
+    {
+      "title": "[데스크 칼럼] 담합이 남는 장사라면 시장경제 아니다",
+      "source": "세이프타임즈",
+      "published_at": "2026-09-30T07:30:00+09:00",
+      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=246095",
+      "canonical_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=246095",
+      "snippet": "석유 등 생활밀접 업종 반복 담합에 대한 내부통제 강화·경쟁 촉진·정교한 제재 필요성 제언",
+      "summary": "△석유 등 생활밀접 업종 반복 담합에 대한 내부통제 강화·경쟁 촉진·정교한 제재 필요성 제언",
+      "collected_at": "2026-09-30T08:12:46.872133+09:00",
+      "queries": [
+        "석유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "Chromium에서 발행사 원문 본문 및 article:published_time 2026-09-30T07:30:00+09:00 확인. 검색 상대시각을 최초 보도시각으로 쓰지 않음."
+    }
+  ],
+  "exclusions": [
+    {
+      "url": "https://www.edaily.co.kr/News/Read?newsId=05828566645585040&mediaCodeNo=257",
+      "reason": "신문 지면 예고의 서로 다른 유가·담합 제목을 합친 오탐. 담합 본문 기사 아님."
+    },
+    {
+      "url": "https://www.ftoday.co.kr/news/articleView.html?idxno=366286",
+      "reason": "식품업계 담합 제재와 원재료 유가 상승을 함께 언급한 검색 결과. 석유 담합 직접 기사 아님."
+    },
+    {
+      "url": "https://www.newsinside.kr/news/articleView.html?idxno=5012310",
+      "reason": "식품가격·설탕 밀가루 담합과 유가 물류비 맥락으로 유가 담합 직접 기사 아님."
+    },
+    {
+      "url": "https://v.daum.net/v/20260929175637113",
+      "reason": "뉴스1 발행사 원문과 중복"
+    }
+  ],
+  "search_log": [
+    {
+      "source": "collect_news.py",
+      "raw": "data/raw/2026-09-30-morning-raw.json",
+      "raw_count": 1578,
+      "warnings": 0
+    }
+  ],
+  "findings": [
+    "매체명 새 창 열림 정정",
+    "검색 상대시각 대신 원문 최초시각 적용",
+    "기사·포털 중복 및 식품 담합 오탐 제외",
+    "칼럼 의견과 수사 종결 방침을 확정 처분으로 표현하지 않음"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-29",
+  "slot": "night",
+  "period_start": "2026-09-29T17:00:00+09:00",
+  "period_end": "2026-09-30T00:00:00+09:00",
+  "period_label": "2026-09-29 17:00 ~ 2026-09-30 00:00",
+  "generated_at": "2026-09-30T08:12:46.910009+09:00",
+  "keywords": [
+    "석유 담합",
+    "석유화학 담합"
+  ],
+  "total_raw_count": 2,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 0,
+    "daum": 0,
+    "google": 0
+  },
+  "query_counts": {
+    "석유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "대검, 경찰·중수청과 '인지사건' 이관 규모 협의…\"공백 없이 협력\"",
+      "source": "뉴스1",
+      "published_at": "2026-09-29T17:55:20+09:00",
+      "url": "https://www.news1.kr/society/court-prosecution/6305070",
+      "canonical_url": "https://www.news1.kr/society/court-prosecution/6305070",
+      "snippet": "검찰, 석유화학제품 가격 담합 등 주요 인지사건의 이달 내 종결 방침 및 수사기관 이관 협의",
+      "summary": "△검찰, 석유화학제품 가격 담합 등 주요 인지사건의 이달 내 종결 방침 및 수사기관 이관 협의",
+      "collected_at": "2026-09-30T08:12:46.872133+09:00",
+      "queries": [
+        "석유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "Chromium에서 발행사 원문 본문 및 article:published_time 2026-09-29T17:55:20+09:00 확인. 검색 상대시각을 최초 보도시각으로 쓰지 않음.",
+      "normalized_title": "대검, 경찰·중수청과 '인지사건' 이관 규모 협의…\"공백 없이 협력\"",
+      "source_normalized": "뉴스1",
+      "duplicate_key": "뉴스1::대검, 경찰·중수청과 '인지사건' 이관 규모 협의…\"공백 없이 협력\"",
+      "duplicate_count": 0,
+      "id": "55bb6374c75efb46",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "editorial_audit": "data/reviews/2026-09-30-morning.audit.json",
+  "raw_count_basis": "원문 검토 후보 수. 전체 검색 1578건은 raw 파일 보존."
+}

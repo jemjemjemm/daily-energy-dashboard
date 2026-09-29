@@ -1,0 +1,71 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-30",
+  "slot": "morning",
+  "period_start": "2026-09-30T00:00:00+09:00",
+  "period_end": "2026-09-30T08:00:00+09:00",
+  "period_label": "2026-09-30 00:00 ~ 2026-09-30 08:00",
+  "generated_at": "2026-09-30T08:12:46.927081+09:00",
+  "keywords": [
+    "석유 담합",
+    "석유화학 담합"
+  ],
+  "total_raw_count": 2,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 0,
+    "daum": 0,
+    "google": 0
+  },
+  "query_counts": {
+    "석유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[데스크 칼럼] 담합이 남는 장사라면 시장경제 아니다",
+      "source": "세이프타임즈",
+      "published_at": "2026-09-30T07:30:00+09:00",
+      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=246095",
+      "canonical_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=246095",
+      "snippet": "석유 등 생활밀접 업종 반복 담합에 대한 내부통제 강화·경쟁 촉진·정교한 제재 필요성 제언",
+      "summary": "△석유 등 생활밀접 업종 반복 담합에 대한 내부통제 강화·경쟁 촉진·정교한 제재 필요성 제언",
+      "collected_at": "2026-09-30T08:12:46.872133+09:00",
+      "queries": [
+        "석유 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "Chromium에서 발행사 원문 본문 및 article:published_time 2026-09-30T07:30:00+09:00 확인. 검색 상대시각을 최초 보도시각으로 쓰지 않음.",
+      "normalized_title": "[데스크 칼럼] 담합이 남는 장사라면 시장경제 아니다",
+      "source_normalized": "세이프타임즈",
+      "duplicate_key": "세이프타임즈::[데스크 칼럼] 담합이 남는 장사라면 시장경제 아니다",
+      "duplicate_count": 0,
+      "id": "58e7cf1ec3b54d66",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "editorial_audit": "data/reviews/2026-09-30-morning.audit.json",
+  "raw_count_basis": "원문 검토 후보 수. 전체 검색 1578건은 raw 파일 보존."
+}
