@@ -5,7 +5,7 @@
     "display_date": "2026년 9월 29일 (화)",
     "previous_day_label": "9/28",
     "today_label": "9/29",
-    "generated_at": "2026-09-29 08:43 KST",
+    "generated_at": "2026-09-29 17:22 KST",
     "review_status": "검토 완료",
     "report_version": "reviewed-original-sources-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △카타르 LNG 공급 불가항력 선언 추가 연장 보도, 아시아·유럽 겨울철 수급 우려 확대 △9월 제조업 기업심리지수 99.5로 하락, 비제조업 98.9로 3년 만에 최고 기록 △재경위, SK에너지 대표 등 국감 증인 채택 및 최고가격제 손실 규모 질의 예정"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △산중위 정유 4사 CEO 국감 증인 신청 및 전량구매·사후정산 거래관행 개선 쟁점 부각 △산업부, 철강·석유화학·정유 등 5대 업종 공정전환 GX 로드맵 연말 공개 추진 △기후부, 호남 재생에너지 계통접속 확대와 반도체 전력공급 기반 개선 추진"
     }
   ],
   "prices": {
@@ -1648,5 +1652,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△산중위 정유 4사 CEO 국감 증인 신청 및 전량구매·사후정산 거래관행 개선 쟁점 부각 △산업부, 철강·석유화학·정유 등 5대 업종 공정전환 GX 로드맵 연말 공개 추진 △기후부, 호남 재생에너지 계통접속 확대와 반도체 전력공급 기반 개선 추진",
+    "trend_paragraphs": [
+      "산중위 정유 4사 CEO 국감 증인 신청 및 전량구매·사후정산 거래관행 개선 쟁점 부각",
+      "산업부, 철강·석유화학·정유 등 5대 업종 공정전환 GX 로드맵 연말 공개 추진",
+      "기후부, 호남 재생에너지 계통접속 확대와 반도체 전력공급 기반 개선 추진"
+    ],
+    "articles": [
+      {
+        "title": "정유 4사, 국감 소환 기로...거래관행 개선 압박",
+        "press": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20260929000736",
+        "summary": "산중위 정유 4사 CEO 국감 증인 신청 및 전량구매·사후정산 거래관행 개선 쟁점 부각",
+        "published_at_kst": "2026-09-29T14:47:00+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 본문·입력/송고시각 및 article:published_time 2026-09-29T14:47:00+09:00 직접 확인. 수정·포털 전송시각과 구분."
+      },
+      {
+        "title": "[단독] 철강·석화 ‘탄소공장’ 뜯어고친다… 연말 5대 업종 GX 로드맵 공개",
+        "press": "이투데이",
+        "url": "https://www.etoday.co.kr/news/view/2630365",
+        "summary": "산업부, 철강·석유화학·정유 등 5대 업종 공정전환 GX 로드맵 연말 공개 추진",
+        "published_at_kst": "2026-09-29T14:30:00+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 본문·입력/송고시각 및 article:published_time 2026-09-29T14:30:00+09:00 직접 확인. 수정·포털 전송시각과 구분."
+      },
+      {
+        "title": "호남 반도체 전력 공급원 재생에너지 계통 숨통(종합)",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20260929063551054",
+        "summary": "기후부, 호남 재생에너지 계통접속 확대와 반도체 전력공급 기반 개선 추진",
+        "published_at_kst": "2026-09-29T14:18:03+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 본문·입력/송고시각 및 article:published_time 2026-09-29T14:18:03+09:00 직접 확인. 수정·포털 전송시각과 구분."
+      }
+    ],
+    "source": "발행사 원문 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }

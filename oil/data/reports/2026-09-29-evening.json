@@ -1,0 +1,179 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-29",
+  "slot": "evening",
+  "period_start": "2026-09-29T08:00:00+09:00",
+  "period_end": "2026-09-29T17:00:00+09:00",
+  "period_label": "2026-09-29 08:00 ~ 2026-09-29 17:00",
+  "generated_at": "2026-09-29T17:22:40.576431+09:00",
+  "keywords": [
+    "정유 담합",
+    "석유화학 담합"
+  ],
+  "total_raw_count": 4,
+  "total_deduped_count": 4,
+  "total_ok_count": 4,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 1,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 0,
+    "daum": 0,
+    "google": 0
+  },
+  "query_counts": {
+    "석유화학 담합": 4,
+    "정유 담합": 4
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "정유 4사, 국감 소환 기로...거래관행 개선 압박",
+      "source": "뉴스핌",
+      "url": "https://www.newspim.com/news/view/20260929000736",
+      "canonical_url": "https://www.newspim.com/news/view/20260929000736",
+      "published_at": "2026-09-29T14:47:00+09:00",
+      "snippet": "정유업계 가격담합 의혹 관련 산중위 정유 4사 CEO 국감 증인 신청 및 전량구매·사후정산 거래관행 개선 쟁점 부각",
+      "summary": "△정유업계 가격담합 의혹 관련 산중위 정유 4사 CEO 국감 증인 신청 및 전량구매·사후정산 거래관행 개선 쟁점 부각",
+      "collected_at": "2026-09-29T17:22:40.198722+09:00",
+      "portals": [
+        "editorial-original-review"
+      ],
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 본문·최초 article:published_time 2026-09-29T14:47:00+09:00 직접 확인. 신청·의혹·법개정 계획을 확정으로 쓰지 않음.",
+      "normalized_title": "정유 4사, 국감 소환 기로...거래관행 개선 압박",
+      "source_normalized": "뉴스핌",
+      "duplicate_key": "뉴스핌::정유 4사, 국감 소환 기로...거래관행 개선 압박",
+      "duplicate_count": 0,
+      "id": "e2b3caec02d0f5b3",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[2026 국감 레이더⑨] LG화학 김동춘·한화솔루션 남정운·OCI 김유신 '긴장'…'16조 담합 의혹' 국감 변수 - 뉴스워커",
+      "source": "뉴스워커",
+      "url": "https://www.newsworker.co.kr/news/articleView.html?idxno=506313",
+      "canonical_url": "https://www.newsworker.co.kr/news/articleView.html?idxno=506313",
+      "published_at": "2026-09-29T13:33:47+09:00",
+      "snippet": "석유화학 담합 의혹 관련 국감 증인 거론 및 사업부별 책임 범위 쟁점 점검",
+      "summary": "△석유화학 담합 의혹 관련 국감 증인 거론 및 사업부별 책임 범위 쟁점 점검",
+      "collected_at": "2026-09-29T17:22:40.198722+09:00",
+      "portals": [
+        "editorial-original-review"
+      ],
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 본문·최초 article:published_time 2026-09-29T13:33:47+09:00 직접 확인. 신청·의혹·법개정 계획을 확정으로 쓰지 않음.",
+      "normalized_title": "[2026 국감 레이더⑨] LG화학 김동춘·한화솔루션 남정운·OCI 김유신 '긴장'…'16조 담합 의혹' 국감 변수 - 뉴스워커",
+      "source_normalized": "뉴스워커",
+      "duplicate_key": "뉴스워커::[2026 국감 레이더⑨] lg화학 김동춘·한화솔루션 남정운·oci 김유신 '긴장'…'16조 담합 의혹' 국감 변수 - 뉴스워커",
+      "duplicate_count": 0,
+      "id": "38c2822912889768",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "5년 동안 2번 이상 담합 걸리면 '회사 문' 닫는다… 17개 업종부터 적용",
+      "source": "더퍼블릭",
+      "url": "https://www.thepublic.kr/news/articleView.html?idxno=320450",
+      "canonical_url": "https://www.thepublic.kr/news/articleView.html?idxno=320450",
+      "published_at": "2026-09-29T15:22:52+09:00",
+      "snippet": "정부, 석유정제·판매업 등 17개 업종의 반복담합 사업자 제재를 위한 법 개정 추진",
+      "summary": "△정부, 석유정제·판매업 등 17개 업종의 반복담합 사업자 제재를 위한 법 개정 추진",
+      "collected_at": "2026-09-29T17:22:40.198722+09:00",
+      "portals": [
+        "editorial-original-review"
+      ],
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 본문·최초 article:published_time 2026-09-29T15:22:52+09:00 직접 확인. 신청·의혹·법개정 계획을 확정으로 쓰지 않음.",
+      "normalized_title": "5년 동안 2번 이상 담합 걸리면 '회사 문' 닫는다… 17개 업종부터 적용",
+      "source_normalized": "더퍼블릭",
+      "duplicate_key": "더퍼블릭::5년 동안 2번 이상 담합 걸리면 '회사 문' 닫는다… 17개 업종부터 적용",
+      "duplicate_count": 0,
+      "id": "1710ecab640da40c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "바이오연료, 섞는다고 온실가스 줄어드나",
+      "source": "투데이에너지",
+      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=303568",
+      "canonical_url": "https://www.todayenergy.kr/news/articleView.html?idxno=303568",
+      "published_at": "2026-09-29T10:36:37+09:00",
+      "snippet": "경유용 기후솔루션, 바이오디젤 혼합의무제의 전과정 온실가스 평가·원료별 인정기준 개편 제언 및 바이오연료 입찰담합 심의 현황 지적",
+      "summary": "△경유용 기후솔루션, 바이오디젤 혼합의무제의 전과정 온실가스 평가·원료별 인정기준 개편 제언 및 바이오연료 입찰담합 심의 현황 지적",
+      "collected_at": "2026-09-29T17:22:40.198722+09:00",
+      "portals": [
+        "editorial-original-review"
+      ],
+      "queries": [
+        "석유화학 담합",
+        "정유 담합"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 본문·최초 article:published_time 2026-09-29T10:36:37+09:00 직접 확인. 신청·의혹·법개정 계획을 확정으로 쓰지 않음.",
+      "normalized_title": "바이오연료, 섞는다고 온실가스 줄어드나",
+      "source_normalized": "투데이에너지",
+      "duplicate_key": "투데이에너지::바이오연료, 섞는다고 온실가스 줄어드나",
+      "duplicate_count": 0,
+      "id": "c2a4b7bc80020b7d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "editorial_audit": "data/reviews/2026-09-29-evening.audit.json",
+  "summary": [
+    "정부, 석유정제·판매업 등 17개 업종의 반복담합 사업자 제재를 위한 법 개정 추진",
+    "정유업계 가격담합 의혹 관련 산중위 정유 4사 CEO 국감 증인 신청 및 전량구매·사후정산 거래관행 개선 쟁점 부각",
+    "석유화학 담합 의혹 관련 국감 증인 거론 및 사업부별 책임 범위 쟁점 점검",
+    "경유용 기후솔루션, 바이오디젤 혼합의무제의 전과정 온실가스 평가·원료별 인정기준 개편 제언 및 바이오연료 입찰담합 심의 현황 지적"
+  ],
+  "raw_count_basis": "검토 원문 후보 수. 전체 수집 1589건은 raw 파일 별도 보존"
+}
