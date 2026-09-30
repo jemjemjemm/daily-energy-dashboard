@@ -1,0 +1,93 @@
+{
+  "audited_at": "2026-10-01T08:21:29.702184+09:00",
+  "scope": "2026-10-01 Morning 및 9/30 Night",
+  "articles": [
+    {
+      "title": "K-정유 4사 CEO 국감 증언대 서나… “‘기름값 담합’ 추산액 26조, 판도라 상자 열리나”",
+      "source": "CEO스코어데일리",
+      "published_at": "2026-10-01T07:00:00+09:00",
+      "url": "https://www.ceoscoredaily.com/page/view/2026093014322747048",
+      "canonical_url": "https://www.ceoscoredaily.com/page/view/2026093014322747048",
+      "snippet": "산중위의 정유4사 CEO 증인 신청·채택 조율 및 최고가격제 손실 산정방식 이견 보도",
+      "summary": "△산중위의 정유4사 CEO 증인 신청·채택 조율 및 최고가격제 손실 산정방식 이견 보도",
+      "collected_at": "2026-10-01T08:21:29.702184+09:00",
+      "queries": [
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "Chromium에서 발행사 본문·최초 등록/송고 2026-10-01T07:00:00+09:00 확인. 수정시각과 검색 상대시각 제외."
+    },
+    {
+      "title": "[조세금융신문] 국회 산자위, '유가 담합' 국내 정유 4사 대표 국감 증인 채택 조율",
+      "source": "조세금융신문",
+      "published_at": "2026-09-30T18:34:33+09:00",
+      "url": "https://www.tfmedia.co.kr/news/article.html?no=207607",
+      "canonical_url": "https://www.tfmedia.co.kr/news/article.html?no=207607",
+      "snippet": "산중위, 유가 담합 의혹 관련 정유4사 대표 증인 신청 및 여야 간 최종 채택 협의",
+      "summary": "△산중위, 유가 담합 의혹 관련 정유4사 대표 증인 신청 및 여야 간 최종 채택 협의",
+      "collected_at": "2026-10-01T08:21:29.702184+09:00",
+      "queries": [
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "Chromium에서 발행사 본문·최초 등록/송고 2026-09-30T18:34:33+09:00 확인. 수정시각과 검색 상대시각 제외."
+    },
+    {
+      "title": "과잉 제재에 속타는 기업",
+      "source": "매일경제",
+      "published_at": "2026-09-30T17:37:26+09:00",
+      "url": "https://www.mk.co.kr/article/12165171",
+      "canonical_url": "https://www.mk.co.kr/article/12165171",
+      "snippet": "석유화학 등 공정위 조사·반복 담합 제재 확대에 대한 재계의 처분 정확성·비례성 개선 요구",
+      "summary": "△석유화학 등 공정위 조사·반복 담합 제재 확대에 대한 재계의 처분 정확성·비례성 개선 요구",
+      "collected_at": "2026-10-01T08:21:29.702184+09:00",
+      "queries": [
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "Chromium에서 발행사 본문·최초 등록/송고 2026-09-30T17:37:26+09:00 확인. 수정시각과 검색 상대시각 제외."
+    }
+  ],
+  "search_log": [
+    {
+      "raw": "data/raw/2026-10-01-morning-raw.json",
+      "raw_count": 1576,
+      "warnings": 0
+    }
+  ],
+  "exclusions": [
+    {
+      "url": "https://www.newsway.co.kr/news/view?ud=2026093015063779370",
+      "reason": "9/30 최초 16:26:53로 Night 시간대 밖. 상대시각 17시대 오인 제외"
+    },
+    {
+      "url": "https://www.pointe.co.kr/news/articleView.html?idxno=85397",
+      "reason": "조세금융신문과 동일 증인 신청 사건 중복"
+    },
+    {
+      "url": "https://v.daum.net/v/20261001050237154",
+      "reason": "이태원·수사기관 개편 일반기사이며 사진설명에 유가 담합 언급. 직접 유가 담합 주제 아님"
+    },
+    {
+      "reason": "같은 기사의 Google·Naver·Daum 중복과 새 창 열림 매체명 오류 제거"
+    }
+  ],
+  "findings": [
+    "증인 신청과 최종 채택 구분",
+    "경쟁제한 효과 추산액을 확정 피해액으로 쓰지 않음",
+    "최고가격제 기회손실 추정과 정부 인정액 구분",
+    "기노위가 아닌 원문 산중위 심사 맥락 확인"
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "date": "2026-10-01",
+  "slot": "morning",
+  "status": "published",
+  "period": "수집 기간: 2026-09-30 17:00 ~ 2026-10-01 08:00 (KST)",
+  "published_at": "2026-10-01T08:21:29+09:00",
+  "committees": [
+    {
+      "id": "industry",
+      "priority": [
+        {
+          "title": "K-정유 4사 CEO 국감 증언대 서나… “‘기름값 담합’ 추산액 26조, 판도라 상자 열리나”",
+          "url": "https://www.ceoscoredaily.com/page/view/2026093014322747048",
+          "press": "CEO스코어데일리",
+          "summary": "산중위, 정유 4사 CEO 국감 증인 신청 후 채택 조율·유가 담합 의혹과 거래관행 점검 예고",
+          "event_id": "1001-ceo",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "원문이 산자위의 4사 증인 신청·조율을 명시해 기노위 관심주제여도 산중위 단일 배정. 재경위 김종화 별도 채택은 원문 보조 맥락으로 중복 배정하지 않음. 유죄 확정·4사 최종 채택으로 쓰지 않음.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "정유4사 가격 담합 의혹 및 최고가격제 보상·정산 방식 직접 관련",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-01T07:00:00+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T07:00:00+09:00 직접 확인. 검색·포털 전송시각 제외. Chromium 렌더링 본문·메타 교차 확인.",
+          "verified": true
+        },
+        {
+          "title": "웨스팅하우스 빗장 풀렸다…미국에 한국형 원전 진출 길 열려",
+          "url": "https://www.yna.co.kr/view/AKR20260922194300003",
+          "press": "연합뉴스",
+          "summary": "한미, APR1400 2기를 포함한 미국 원전 8기 건설 검토 및 웨스팅하우스 협정 개정 추진",
+          "event_id": "1001-20261001060553461",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "산업부 장관의 원전 수출 협정·대미투자 설명 중심. 실제 착공·최종 투자 확정으로 표현하지 않음.",
+          "categories": [
+            "SMR·신재생 원전(신사업)"
+          ],
+          "category_reason": "한국형 원전의 미국 신규 사업 진출 직접 관련. 대형 원전을 SMR로 표현하지 않음.",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-01T06:04:30+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T06:04:30+09:00 직접 확인. 검색·포털 전송시각 제외.",
+          "verified": true
+        },
+        {
+          "title": "트럼프, '알래스카 LNG에 한국 500억불 투자' 일방 발표(종합2보)",
+          "url": "https://www.yna.co.kr/view/AKR20261001006952071",
+          "press": "연합뉴스",
+          "summary": "트럼프, 알래스카 LNG 한국 투자 일방 발표·한국 정부는 상업적 합리성 충족 조건의 검토 입장 제시",
+          "event_id": "1001-20261001075002373",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "산업부 소관 LNG 개발·대미 통상 투자. 원전 협정 기사와 별개로 알래스카 투자 확정 여부 쟁점만 요약. 한국 투자 확정 또는 집행액으로 쓰지 않음.",
+          "categories": [
+            "LNG·전력",
+            "E&P·해외자원개발"
+          ],
+          "category_reason": "알래스카 가스 개발·LNG 파이프라인 직접 관련",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-01T07:48:41+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T07:48:41+09:00 직접 확인. 검색·포털 전송시각 제외.",
+          "verified": true
+        },
+        {
+          "title": "\"주유소 휘발유 가격, SK에너지가 가장 비싸고 EX알뜰이 가장 저렴\"",
+          "url": "https://www.yna.co.kr/view/AKR20260930149700001",
+          "press": "연합뉴스",
+          "summary": "최수진 의원, 정유사·알뜰주유소 가격 격차 자료 공개 및 수도권 인센티브·경쟁 촉진 요구",
+          "event_id": "1001-gasyna",
+          "committees": [
+            "industry"
+          ],
+          "members": [
+            "최수진"
+          ],
+          "committee_reason": "원문 산중위 소속 명시와 roster 일치. 본문 자료수령일 31일 표기는 날짜 불일치가 있어 요약에서 인용하지 않음. 발표된 가격자료의 조사기간을 현재 실시간 가격으로 추정하지 않음.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "주유소 가격 경쟁·알뜰주유소 정책 직접 관련",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-10-01T07:10:00+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T07:10:00+09:00 직접 확인. 검색·포털 전송시각 제외.",
+          "verified": true
+        }
+      ],
+      "all": [
+        {
+          "title": "K-정유 4사 CEO 국감 증언대 서나… “‘기름값 담합’ 추산액 26조, 판도라 상자 열리나”",
+          "url": "https://www.ceoscoredaily.com/page/view/2026093014322747048",
+          "press": "CEO스코어데일리",
+          "summary": "산중위, 정유 4사 CEO 국감 증인 신청 후 채택 조율·유가 담합 의혹과 거래관행 점검 예고",
+          "event_id": "1001-ceo",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "원문이 산자위의 4사 증인 신청·조율을 명시해 기노위 관심주제여도 산중위 단일 배정. 재경위 김종화 별도 채택은 원문 보조 맥락으로 중복 배정하지 않음. 유죄 확정·4사 최종 채택으로 쓰지 않음.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "정유4사 가격 담합 의혹 및 최고가격제 보상·정산 방식 직접 관련",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-01T07:00:00+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T07:00:00+09:00 직접 확인. 검색·포털 전송시각 제외. Chromium 렌더링 본문·메타 교차 확인.",
+          "verified": true
+        },
+        {
+          "title": "웨스팅하우스 빗장 풀렸다…미국에 한국형 원전 진출 길 열려",
+          "url": "https://www.yna.co.kr/view/AKR20260922194300003",
+          "press": "연합뉴스",
+          "summary": "한미, APR1400 2기를 포함한 미국 원전 8기 건설 검토 및 웨스팅하우스 협정 개정 추진",
+          "event_id": "1001-20261001060553461",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "산업부 장관의 원전 수출 협정·대미투자 설명 중심. 실제 착공·최종 투자 확정으로 표현하지 않음.",
+          "categories": [
+            "SMR·신재생 원전(신사업)"
+          ],
+          "category_reason": "한국형 원전의 미국 신규 사업 진출 직접 관련. 대형 원전을 SMR로 표현하지 않음.",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-01T06:04:30+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T06:04:30+09:00 직접 확인. 검색·포털 전송시각 제외.",
+          "verified": true
+        },
+        {
+          "title": "트럼프, '알래스카 LNG에 한국 500억불 투자' 일방 발표(종합2보)",
+          "url": "https://www.yna.co.kr/view/AKR20261001006952071",
+          "press": "연합뉴스",
+          "summary": "트럼프, 알래스카 LNG 한국 투자 일방 발표·한국 정부는 상업적 합리성 충족 조건의 검토 입장 제시",
+          "event_id": "1001-20261001075002373",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "산업부 소관 LNG 개발·대미 통상 투자. 원전 협정 기사와 별개로 알래스카 투자 확정 여부 쟁점만 요약. 한국 투자 확정 또는 집행액으로 쓰지 않음.",
+          "categories": [
+            "LNG·전력",
+            "E&P·해외자원개발"
+          ],
+          "category_reason": "알래스카 가스 개발·LNG 파이프라인 직접 관련",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-01T07:48:41+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T07:48:41+09:00 직접 확인. 검색·포털 전송시각 제외.",
+          "verified": true
+        },
+        {
+          "title": "기술 탈취당했는데…\"피해 인정액은 5분의 1·조정성립은 14％\"",
+          "url": "https://www.yna.co.kr/view/AKR20260930149600001",
+          "press": "연합뉴스",
+          "summary": "조지연 의원, 기술탈취 분쟁조정 성립률 14.7% 지적 및 중소기업 구제제도 실효성 강화 촉구",
+          "event_id": "1001-20261001061209613",
+          "committees": [
+            "industry"
+          ],
+          "members": [
+            "조지연"
+          ],
+          "committee_reason": "원문 산중위 소속 명시와 roster 일치. 중기부 제출자료 기반 기술보호 감독.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-10-01T06:10:01+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T06:10:01+09:00 직접 확인. 검색·포털 전송시각 제외.",
+          "verified": true
+        },
+        {
+          "title": "\"주유소 휘발유 가격, SK에너지가 가장 비싸고 EX알뜰이 가장 저렴\"",
+          "url": "https://www.yna.co.kr/view/AKR20260930149700001",
+          "press": "연합뉴스",
+          "summary": "최수진 의원, 정유사·알뜰주유소 가격 격차 자료 공개 및 수도권 인센티브·경쟁 촉진 요구",
+          "event_id": "1001-gasyna",
+          "committees": [
+            "industry"
+          ],
+          "members": [
+            "최수진"
+          ],
+          "committee_reason": "원문 산중위 소속 명시와 roster 일치. 본문 자료수령일 31일 표기는 날짜 불일치가 있어 요약에서 인용하지 않음. 발표된 가격자료의 조사기간을 현재 실시간 가격으로 추정하지 않음.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "주유소 가격 경쟁·알뜰주유소 정책 직접 관련",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-10-01T07:10:00+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T07:10:00+09:00 직접 확인. 검색·포털 전송시각 제외.",
+          "verified": true
+        },
+        {
+          "title": "\"청창사 없애면 민간 보육 약화\"…AC업계, 기능 승계 촉구",
+          "url": "https://www.news1.kr/industry/sb-founded/6306472",
+          "press": "뉴스1",
+          "summary": "액셀러레이터업계, 청년창업사관학교 개편 시 초기창업 보육·투자 연계 기능 승계 촉구",
+          "event_id": "1001-ac",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "중기부 창업지원사업 개편·예산 및 민간 보육 기능. 기관 폐지 확정으로 표현하지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-10-01T06:15:00+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T06:15:00+09:00 직접 확인. 검색·포털 전송시각 제외. Chromium 렌더링 본문·메타 교차 확인.",
+          "verified": true
+        },
+        {
+          "title": "\"양자컴퓨터만 천억인데…랩허브 사업비 부족 우려\"",
+          "url": "https://www.newsis.com/view/NISX20260930_0003809613",
+          "press": "뉴시스",
+          "summary": "이소영 중기부 장관, K-바이오랩허브 사업비 부족 우려 및 스타트업 단계별 성장 지원 필요성 제기",
+          "event_id": "1001-lab",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "장관 자격 발언으로 중기부 바이오 창업 인프라 소관 산중위 배정. 보건의료 규제 기사로 분류하지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-10-01T07:01:00+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T07:01:00+09:00 직접 확인. 검색·포털 전송시각 제외. 본문 등록시각을 우선 적용하고 수정시각이 들어간 published_time 메타와 구분.",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "climate_labor",
+      "priority": [],
+      "all": [
+        {
+          "title": "검찰 지휘 사라지는 노동감독관…5천명 중 전문자격 보유 17명뿐",
+          "url": "https://www.yna.co.kr/view/AKR20260930169700530",
+          "press": "연합뉴스",
+          "summary": "김위상 의원, 노동감독관 전문자격 인력 부족 지적 및 검찰 수사지휘 복원 법안 발의 예정",
+          "event_id": "1001-20261001060904538",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "김위상"
+          ],
+          "committee_reason": "원문 기노위 소속 명시로 roster 보완. 노동감독 수사체계 감독 중심이며 형사소송법 발의는 기사 당시 예정.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-01T06:07:02+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T06:07:02+09:00 직접 확인. 검색·포털 전송시각 제외.",
+          "verified": true
+        },
+        {
+          "title": "\"장애인 노동자중 정신적 장애인, 민간 24.6%인데 공무원 1.7%\"",
+          "url": "https://www.yna.co.kr/view/AKR20260930166200530",
+          "press": "연합뉴스",
+          "summary": "박해철 의원, 정신적 장애인 공무원 비중 1.7% 지적 및 필기면제 채용 확대 촉구",
+          "event_id": "1001-20261001060515441",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "박해철"
+          ],
+          "committee_reason": "원문 기노위 소속·한국장애인고용공단 및 노동부 제출자료, roster 일치.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-10-01T06:03:01+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T06:03:01+09:00 직접 확인. 검색·포털 전송시각 제외.",
+          "verified": true
+        },
+        {
+          "title": "[단독] 기초정부들 탄소중립계획, 첫해부터 목표 미달… 건물 부문 66.5% 그쳐",
+          "url": "https://www.hani.co.kr/arti/society/environment/1280318.html",
+          "press": "한겨레",
+          "summary": "기초지방정부 탄소감축 예상 실적의 목표 대비 87.2% 집계 및 외부 검증·예산 집행체계 개선 제언",
+          "event_id": "1001-20261001070701649",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "기후부 탄소중립 기본계획 이행점검 자료. 예상 감축량·자체 평가의 한계를 확정 실측치로 바꾸지 않음. 일반 탄소정책으로 특정 정유·석화 태그 부여 제외.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-10-01T07:00:00+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T07:00:00+09:00 직접 확인. 검색·포털 전송시각 제외. 본문 등록시각을 우선 적용하고 수정시각이 들어간 published_time 메타와 구분.",
+          "verified": true
+        },
+        {
+          "title": "[단독]직장 내 성희롱 신고 처리 73일 소요…4년새 32.2% 늘어",
+          "url": "https://www.newsis.com/view/NISX20260929_0003806743",
+          "press": "뉴시스",
+          "summary": "박수민 의원, 성희롱 신고 평균 처리 73.1일 지적 및 근로감독 체계·제도 정비 촉구",
+          "event_id": "1001-20261001070303555",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "박수민"
+          ],
+          "committee_reason": "원문 기노위 소속 명시로 roster 보완. 노동부 사건 처리자료 감독.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-10-01T07:01:00+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T07:01:00+09:00 직접 확인. 검색·포털 전송시각 제외.",
+          "verified": true
+        },
+        {
+          "title": "[단독]체불임금 대신 줬는데 4.2조 못 받아…상위 50곳은 90% 미회수",
+          "url": "https://www.newsis.com/view/NISX20260930_0003809460",
+          "press": "뉴시스",
+          "summary": "김소희 의원, 대지급금 미회수 4조2873억원 자료 공개 및 은닉재산 환수·강제징수 강화 촉구",
+          "event_id": "1001-20261001070147458",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "김소희"
+          ],
+          "committee_reason": "원문 기노위 소속 명시와 roster 일치. 임금체불 구제제도 감독으로 재경위 중복 배정 제외. 결손처분액 포함 누적 미회수와 현재 미회수 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-10-01T07:00:00+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T07:00:00+09:00 직접 확인. 검색·포털 전송시각 제외. 본문 등록시각을 우선 적용하고 수정시각이 들어간 published_time 메타와 구분.",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "priority": [],
+      "all": [
+        {
+          "title": "국힘 재경위원 \"88조원 빗나간 엉터리 세수추계 사과해야\"",
+          "url": "https://www.yna.co.kr/view/AKR20260930175500001",
+          "press": "연합뉴스",
+          "summary": "국민의힘 재경위원, 세수 추계 근거 공개·국가채무 상환 요구 및 국감 검증 예고",
+          "event_id": "1001-20260930175600271",
+          "committees": [
+            "finance"
+          ],
+          "members": [
+            "배준영"
+          ],
+          "committee_reason": "원문 재경위 야당 간사 배준영 발언·위원회 명시와 roster 일치. 정부 추계오차에 대한 야당 주장으로 요약.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-09-30T17:54:09+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-09-30T17:54:09+09:00 직접 확인. 검색·포털 전송시각 제외.",
+          "verified": true
+        },
+        {
+          "title": "‘예산 줄여라’ 평가받은 일자리사업 18개 중 9개, 내년 증액·동결",
+          "url": "https://biz.heraldcorp.com/article/10889765",
+          "press": "헤럴드경제",
+          "summary": "이종욱 의원, 감액 평가 일자리사업 18개 중 9개 예산 증액·동결 지적 및 편성 근거 공개 요구",
+          "event_id": "1001-budget",
+          "committees": [
+            "finance"
+          ],
+          "members": [
+            "이종욱"
+          ],
+          "committee_reason": "주된 발언자 이종욱의 재경위 소속은 roster 및 9/30 연합뉴스 소속 명시 원문 https://www.yna.co.kr/view/AKR20260929176700002로 교차 확인. 노동부 자료지만 예산 성과평가·편성 감독 중심으로 재경위 단일 배정.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-10-01T07:57:59+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T07:57:59+09:00 직접 확인. 검색·포털 전송시각 제외. Chromium 렌더링 본문·메타 교차 확인.",
+          "verified": true
+        },
+        {
+          "title": "세수펑크 끝낸 63조 초과세수…국채 덜 찍고 민생에 더 풀겠단 정부",
+          "url": "https://www.mk.co.kr/article/12165531",
+          "press": "매일경제",
+          "summary": "정부, 초과세수 일부를 활용한 국채 발행 축소·바이백 및 민생 지원 방침 제시",
+          "event_id": "1001-tax",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "committee_reason": "재경부·기획예산처의 국채·재정 운용정책. 기사 가정 계산 5조원을 확정 투입액으로 인용하지 않음. 야당 세수 검증 요구와 구분한 정부 국채대응 정책.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-01T06:56:18+09:00",
+          "time_evidence": "발행사 원문 본문 및 최초 입력·송고 2026-10-01T06:56:18+09:00 직접 확인. 검색·포털 전송시각 제외. Chromium 렌더링 본문·메타 교차 확인.",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}
