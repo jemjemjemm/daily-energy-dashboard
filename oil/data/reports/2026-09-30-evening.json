@@ -1,0 +1,419 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-09-30",
+  "slot": "evening",
+  "period_start": "2026-09-30T08:00:00+09:00",
+  "period_end": "2026-09-30T17:00:00+09:00",
+  "period_label": "2026-09-30 08:00 ~ 2026-09-30 17:00",
+  "generated_at": "2026-09-30T23:53:57.147748+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1580,
+  "total_deduped_count": 10,
+  "total_ok_count": 10,
+  "total_review_count": 0,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 10
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1190
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 4,
+    "공정위 유가 담합": 3,
+    "기름값 담합": 3,
+    "석유 담합": 10,
+    "석유제품 담합": 5,
+    "유가 담합": 6,
+    "유가담합": 6,
+    "유류가격 담합": 6,
+    "정유사 담합": 7,
+    "정유업계 담합": 7,
+    "주유소 담합": 7
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "올해 국감 정유4사 등 CEO '줄소환' 예고…이재용, 최태원은 '보류'",
+      "url": "http://v.daum.net/v/20260930155001527",
+      "source": "MTN 머니투데이방송",
+      "published_at": "2026-09-30T15:53:00.663231+09:00",
+      "snippet": "드러나고 있다. 야당이 요구한 이재용 삼성전자 회장과 최태원 SK그룹 회장의 증인 채택은 여당 반대로 일단 보류됐다. 반면 유가 담합, 채용 논란 등 개별 현안을 이유로 한 계열사 최고경영자(CEO) 소환은 이어질 분위기다. 30일 국회와 재계에 따르면 국회 산업... 8시간 전",
+      "collected_at": "2026-09-30T23:53:00.663261+09:00",
+      "normalized_title": "올해 국감 정유4사 등 CEO '줄소환' 예고…이재용, 최태원은 '보류'",
+      "source_normalized": "MTN 머니투데이방송",
+      "duplicate_key": "mtn 머니투데이방송::올해 국감 정유4사 등 ceo '줄소환' 예고…이재용, 최태원은 '보류'",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "http://v.daum.net/v/20260930155001527",
+      "id": "2ec9ca833342b435",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 4사 CEO 국감 소환 기로…담합 이어 거래관행까지 정조준",
+      "url": "http://v.daum.net/v/20260930162806584",
+      "source": "뉴스웨이",
+      "published_at": "2026-09-30T16:52:59.500029+09:00",
+      "snippet": "사고 발생 때 책임 소재 문제를, 주유소 업계는 시설 지원 회수와 공급 조건 변경 부담을 각각 제기하고 있다. 이번 국감은 정유사 가격담합 의혹을 넘어 가격 결정 구조와 정부 개입, 유통 거래의 공정성을 함께 점검하는 자리가 될 전망이다. 업계 관계자는 \"이번... 7시간 전",
+      "collected_at": "2026-09-30T23:52:59.500059+09:00",
+      "normalized_title": "정유 4사 CEO 국감 소환 기로…담합 이어 거래관행까지 정조준",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::정유 4사 ceo 국감 소환 기로…담합 이어 거래관행까지 정조준",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 10,
+      "canonical_url": "http://v.daum.net/v/20260930162806584",
+      "id": "4479b077ca8c2b02",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "손실 보전에 담합 배상까지…정유업계 비용 부담 촉각",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pZVJOR1J0WHVfd2NwenRxa20xaTRfR3V3cjlRR1IzQ1BQa0QyNjMtaTNDUGYxYUttckZXTVlDWlhFVXIwNXVNY2E2REl3WkRhUEVaOHhULVlWTThSU3BPZkxlMFo?oc=5",
+      "source": "매일일보",
+      "published_at": "2026-09-30T14:51:01+09:00",
+      "snippet": "손실 보전에 담합 배상까지…정유업계 비용 부담 촉각 매일일보",
+      "collected_at": "2026-09-30T23:53:22.643109+09:00",
+      "normalized_title": "손실 보전에 담합 배상까지…정유업계 비용 부담 촉각",
+      "source_normalized": "매일일보",
+      "duplicate_key": "매일일보::손실 보전에 담합 배상까지…정유업계 비용 부담 촉각",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pZVJOR1J0WHVfd2NwenRxa20xaTRfR3V3cjlRR1IzQ1BQa0QyNjMtaTNDUGYxYUttckZXTVlDWlhFVXIwNXVNY2E2REl3WkRhUEVaOHhULVlWTThSU3BPZkxlMFo?oc=5",
+      "id": "d6b1e73cfce255f5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유 4사 CEO 국감 소환 기로…담합 이어 거래관행까지 정조준새 창 열림",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026093015063779370",
+      "source": "새 창 열림",
+      "published_at": "2026-09-30T16:52:56.018820+09:00",
+      "snippet": "최대 쟁점은 검찰 수사가 진행 중인 유류 가격담합 사건이다. 검찰은 미·이란 전쟁 발발 직후 SK에너지와 HD현대오일뱅크가 석유제품 공급가격의 인상 시기와 폭을 논의해 가격을 올린 것으로 보고 공정거래법 위반 혐의로 기소했다. 검찰은 두 회사 간 직접 담합 규모를 14조2000억원으로, GS칼텍스와 S-OIL의 가격... 새 창 열림",
+      "collected_at": "2026-09-30T23:52:56.018834+09:00",
+      "normalized_title": "정유 4사 CEO 국감 소환 기로…담합 이어 거래관행까지 정조준새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정유 4사 ceo 국감 소환 기로…담합 이어 거래관행까지 정조준새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://www.newsway.co.kr/news/view?ud=2026093015063779370",
+      "id": "30464bdb9ae71809",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "올해 국감 정유4사 등 CEO '줄소환' 예고…이재용, 최태원은 '보류'새 창 열림",
+      "url": "https://news.mtn.co.kr/news-detail/2026093015303753470",
+      "source": "새 창 열림",
+      "published_at": "2026-09-30T15:52:56.019630+09:00",
+      "snippet": "공정거래위원회도 주유소의 타사 제품 취급 비율을 최대 40%까지 허용하고 사후정산 기간을 7일 이내로 줄이는 제도 개선에 착수했다. 석유화학업계도 15조 원대 가격 담합 의혹으로 국감 사정권에 들어왔다. 검찰은 LG화학, 한화솔루션, OCI, 롯데정밀화학 등 7개사가 범용 화학제품 가격을 사전 협의한 혐의로... 새 창 열림",
+      "collected_at": "2026-09-30T23:52:56.019645+09:00",
+      "normalized_title": "올해 국감 정유4사 등 CEO '줄소환' 예고…이재용, 최태원은 '보류'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::올해 국감 정유4사 등 ceo '줄소환' 예고…이재용, 최태원은 '보류'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://news.mtn.co.kr/news-detail/2026093015303753470",
+      "id": "198f13b795020844",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "주유소",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[2026 국감] 올해 국감도 기업인들 줄소환…쟁점 살펴보니새 창 열림",
+      "url": "http://www.popcornnews.net/news/articleView.html?idxno=134485",
+      "source": "새 창 열림",
+      "published_at": "2026-09-30T14:52:56.021296+09:00",
+      "snippet": "국제유가가 급변하는 과정에서 소비자가 체감하는 국내 기름값이 어떻게 결정됐는지와 정유사 간 가격 정보 교환이 시장 경쟁을 제한했는지가 사건의 핵심이다. 앞서 검찰은 SK에너지와 HD현대오일뱅크의 직접적인 담합 규모를 약 14조2000억 원으로 판단한 바 있다. GS칼텍스와 에쓰오일의 가격 추종 효과까지... 새 창 열림",
+      "collected_at": "2026-09-30T23:52:56.021309+09:00",
+      "normalized_title": "[2026 국감] 올해 국감도 기업인들 줄소환…쟁점 살펴보니새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[2026 국감] 올해 국감도 기업인들 줄소환…쟁점 살펴보니새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://www.popcornnews.net/news/articleView.html?idxno=134485",
+      "id": "314ea595ce8d2e66",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "손실 보전에 담합 배상까지…정유업계 비용 부담 촉각새 창 열림",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2001237",
+      "source": "새 창 열림",
+      "published_at": "2026-09-30T14:52:56.020473+09:00",
+      "snippet": "검찰은 두 회사가 2024년 7월부터 가격 정보를 교환했고, 중동 전쟁이 발발한 뒤에는 석유제품 가격을 언제 얼마나 올릴지 조율했다고 보고 있다. 검찰이 산정한 두 회사의 담합 규모는 14조2000억원이다. GS칼텍스와 에쓰오일에 대한 판단은 다르다. 두 회사가 인상된 가격을 따라간 것으로 조사됐지만 직접... 새 창 열림",
+      "collected_at": "2026-09-30T23:52:56.020487+09:00",
+      "normalized_title": "손실 보전에 담합 배상까지…정유업계 비용 부담 촉각새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::손실 보전에 담합 배상까지…정유업계 비용 부담 촉각새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://www.m-i.kr/news/articleView.html?idxno=2001237",
+      "id": "939f87ee510ab1e0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "석유제품",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'담합과의 전쟁' 공정위, 21년 만에 조사국 부활 … 기업 압박 수위 높인...새 창 열림",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/09/30/2026093000128.html",
+      "source": "새 창 열림",
+      "published_at": "2026-09-30T11:53:17.336676+09:00",
+      "snippet": "소방시설·전기공사·전력기술·공간정보 등 4개 분야에는 등록취소와 영업정지 근거를 새로 만들고, 석유정제·의약품·여객·화물운송·폐기물처리·고압가스 등 13개 분야에는 영업정지 규정을 추가한다. 과징금 부과 중심의 담합 제재를 시장퇴출 수준까지 끌어올린 것이다. 20년 만에 부활한 가격재결정... 새 창 열림",
+      "collected_at": "2026-09-30T23:53:17.336688+09:00",
+      "normalized_title": "'담합과의 전쟁' 공정위, 21년 만에 조사국 부활 … 기업 압박 수위 높인...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'담합과의 전쟁' 공정위, 21년 만에 조사국 부활 … 기업 압박 수위 높인...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://biz.newdaily.co.kr/site/data/html/2026/09/30/2026093000128.html",
+      "id": "ad3e087d96b24cf0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "조사",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "반복 담합 업체 퇴출 추진…5년 내 2회 적발 땐 영업 제한새 창 열림",
+      "url": "http://www.dailypop.kr/news/articleView.html?idxno=102955",
+      "source": "새 창 열림",
+      "published_at": "2026-09-30T11:53:17.335838+09:00",
+      "snippet": "소방시설업과 전기공사업, 전력기술 설계·감리업, 측량업 등 4개 업종에는 등록취소와 영업정지 근거를 함께 마련하고, 석유·의약품·운송·폐기물 등 나머지 13개 업종에는 영업정지 규정을 신설한다. 담합 종료 후 조사에 착수할 수 있는 기간도 현행 7년에서 10년으로 늘린다. 조사 개시 뒤 처분까지의 5년은... 새 창 열림",
+      "collected_at": "2026-09-30T23:53:17.335852+09:00",
+      "normalized_title": "반복 담합 업체 퇴출 추진…5년 내 2회 적발 땐 영업 제한새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::반복 담합 업체 퇴출 추진…5년 내 2회 적발 땐 영업 제한새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.dailypop.kr/news/articleView.html?idxno=102955",
+      "id": "d3e506efa91963ff",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[2026국감] 정유·석화 덮친 '담합·유통관행' 후폭풍..국감 증인대로새 창 열림",
+      "url": "https://kpenews.com/View.aspx?No=4246232",
+      "source": "새 창 열림",
+      "published_at": "2026-09-30T10:53:08.038044+09:00",
+      "snippet": "한국정경신문 정아람 기­자 ottokaeee@gmail.com [한국정경신문=정아람 기자] 올해 국정감사에서 정유와 석유화학 업계를 겨냥한 가격 담합 및 불공정 거래... 정유사 간 가격 조율 의혹뿐만 아니라 주유소 유통 관행이 집중 타깃이 될 전망이다. 검찰은 정유 4사가 특정 상표 주유소에 자사 기름만 취급하도록... 새 창 열림",
+      "collected_at": "2026-09-30T23:53:08.038059+09:00",
+      "normalized_title": "[2026국감] 정유·석화 덮친 '담합·유통관행' 후폭풍..국감 증인대로새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[2026국감] 정유·석화 덮친 '담합·유통관행' 후폭풍..국감 증인대로새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://kpenews.com/View.aspx?No=4246232",
+      "id": "770638bd8b623632",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
