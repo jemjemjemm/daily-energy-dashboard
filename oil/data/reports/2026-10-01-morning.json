@@ -1,0 +1,156 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-01",
+  "slot": "morning",
+  "period_start": "2026-10-01T00:00:00+09:00",
+  "period_end": "2026-10-01T08:00:00+09:00",
+  "period_label": "2026-10-01 00:00 ~ 2026-10-01 08:00",
+  "generated_at": "2026-10-01T08:13:03.197266+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1574,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1184
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 1,
+    "기름값 담합": 2,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "유류가격 담합": 2,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "주유소 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "檢도 쩔쩔맨 이태원 수사…이런 고난도 사건, 사각지대 된다",
+      "url": "http://v.daum.net/v/20261001050237154",
+      "source": "중앙일보",
+      "published_at": "2026-10-01T05:11:59.865474+09:00",
+      "snippet": "대형참사 범죄가 제외됐다. 공정거래 사건에도 구멍이 뚫렸다. 담합에 가담한 업체가 증거를 제출하는 자진 신고를 했을 때 형벌을...6일 서울 서초구 서울고검 기자실에서 미·이란 전쟁 관련 유가 교란 사건 수사 결과를 브리핑하고 있다. 연합뉴스 대검이 접수... 3시간 전 4",
+      "collected_at": "2026-10-01T08:11:59.865502+09:00",
+      "normalized_title": "檢도 쩔쩔맨 이태원 수사…이런 고난도 사건, 사각지대 된다",
+      "source_normalized": "중앙일보",
+      "duplicate_key": "중앙일보::檢도 쩔쩔맨 이태원 수사…이런 고난도 사건, 사각지대 된다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20261001050237154",
+      "id": "59351b6e2a4e74a4",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "K-정유 4사 CEO 국감 증언대 서나… “‘기름값 담합’ 추산액 26조, 판도라 상자 열리나”",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UZW5uaHRiX3JHclUtYjNCZEtkTVFFUEtVZGZjaldoM0htbDNYQWVlRFZwTEt4Mm1pT19SZHh2VUtJOVJQSHQ0OWNaeGVpX0pLcm81MFoyU3ZoSmRIS3VpWEFlS3FCQmJ4?oc=5",
+      "source": "CEO스코어데일리",
+      "published_at": "2026-10-01T07:00:00+09:00",
+      "snippet": "K-정유 4사 CEO 국감 증언대 서나… “‘기름값 담합’ 추산액 26조, 판도라 상자 열리나” CEO스코어데일리",
+      "collected_at": "2026-10-01T08:12:18.719999+09:00",
+      "normalized_title": "K-정유 4사 CEO 국감 증언대 서나… “‘기름값 담합’ 추산액 26조, 판도라 상자 열리나”",
+      "source_normalized": "CEO스코어데일리",
+      "duplicate_key": "ceo스코어데일리::k-정유 4사 ceo 국감 증언대 서나… “‘기름값 담합’ 추산액 26조, 판도라 상자 열리나”",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "유류가격 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UZW5uaHRiX3JHclUtYjNCZEtkTVFFUEtVZGZjaldoM0htbDNYQWVlRFZwTEt4Mm1pT19SZHh2VUtJOVJQSHQ0OWNaeGVpX0pLcm81MFoyU3ZoSmRIS3VpWEFlS3FCQmJ4?oc=5",
+      "id": "1e449c503f87100e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "K-정유 4사 CEO 국감 증언대 서나… “‘기름값 담합’ 추산액 26조, 판도...새 창 열림",
+      "url": "https://www.ceoscoredaily.com/page/view/2026093014322747048",
+      "source": "새 창 열림",
+      "published_at": "2026-10-01T07:11:56.489779+09:00",
+      "snippet": "검찰은 HD현대오일뱅크와 SK에너지가 2024년 7월부터 올해 2월까지 가격 정보를 교환한 데 이어, 올해 3월 중동 전쟁이 본격화한 이후 석유제품 공급가격 인상에 합의한 것으로 보고 있다. 검찰이 산정한 두 회사의 직접 담합 관련 거래 규모는 14조2000억원에 달한다. 아울러 검찰은 GS칼텍스와 에쓰오일이... 새 창 열림",
+      "collected_at": "2026-10-01T08:11:56.489798+09:00",
+      "normalized_title": "K-정유 4사 CEO 국감 증언대 서나… “‘기름값 담합’ 추산액 26조, 판도...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::k-정유 4사 ceo 국감 증언대 서나… “‘기름값 담합’ 추산액 26조, 판도...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://www.ceoscoredaily.com/page/view/2026093014322747048",
+      "id": "ecf71aaea8feb191",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "기름값",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
