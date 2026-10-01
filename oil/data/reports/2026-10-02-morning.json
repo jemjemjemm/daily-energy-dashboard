@@ -1,0 +1,302 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-02",
+  "slot": "morning",
+  "period_start": "2026-10-02T00:00:00+09:00",
+  "period_end": "2026-10-02T08:00:00+09:00",
+  "period_label": "2026-10-02 00:00 ~ 2026-10-02 08:00",
+  "generated_at": "2026-10-02T08:21:51.336442+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1574,
+  "total_deduped_count": 8,
+  "total_ok_count": 8,
+  "total_review_count": 0,
+  "total_excluded_count": 5,
+  "grade_counts": {
+    "A": 2,
+    "B": 1,
+    "C": 5
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1184
+  },
+  "query_counts": {
+    "공정위 유가 담합": 1,
+    "석유 담합": 8,
+    "석유제품 담합": 6,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "중동위기 속 ‘16조 담합’… 檢 마지막 수사는 석유화학사 6곳",
+      "url": "http://v.daum.net/v/20261002050226696",
+      "source": "서울신문",
+      "published_at": "2026-10-02T05:21:06.915776+09:00",
+      "snippet": "OCI 부회장 대표이사와 장영수 전 PKC 대표이사를 포함해 담합에 가담한 6개 업체와 전·현직 대표이사 및 임직원 37명도 함께 재판에...2021년부터 올 4월까지 폴리염화비닐(PVC)과 가성소다 등 8개 석유화학 제품의 판매 가격과 입찰 가격 등을 담합한 혐의를... 3시간 전",
+      "collected_at": "2026-10-02T08:21:06.915790+09:00",
+      "normalized_title": "중동위기 속 ‘16조 담합’… 檢 마지막 수사는 석유화학사 6곳",
+      "source_normalized": "서울신문",
+      "duplicate_key": "서울신문::중동위기 속 ‘16조 담합’… 檢 마지막 수사는 석유화학사 6곳",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20261002050226696",
+      "id": "b3d7f2d58f9bdf2d",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘담합 과징금 30%’ 시대 성큼…재계선 “법적 예측 가능성 높여야”",
+      "url": "http://v.daum.net/v/20261002060348495",
+      "source": "이데일리",
+      "published_at": "2026-10-02T06:21:05.837918+09:00",
+      "snippet": "이를 가중 처벌할 규정이 미비하다는 문제의식에서 나왔다. 이를테면, 전쟁으로 원유 공급이 차질을 빚는 상황을 악용해 석유화학 업체들이 제품 가격을 공동으로 올리거나 공급량을 줄이기로 합의하는 경우다. 이러한 담합을 명시적으로 금지하고 과징금과 형사처벌... 2시간 전",
+      "collected_at": "2026-10-02T08:21:05.837930+09:00",
+      "normalized_title": "‘담합 과징금 30%’ 시대 성큼…재계선 “법적 예측 가능성 높여야”",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::‘담합 과징금 30%’ 시대 성큼…재계선 “법적 예측 가능성 높여야”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20261002060348495",
+      "id": "555d8642170ffaaa",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "오늘 공소청·중수청 출범‥간판 내린 '검찰청'",
+      "url": "http://v.daum.net/v/20261002061009594",
+      "source": "MBC",
+      "published_at": "2026-10-02T06:21:04.828279+09:00",
+      "snippet": "법령과 규칙들도 여전히 정비되지 않은 상태입니다. 중수청과 공소청 출범을 하루 앞둔 어제 서울중앙지검은 16조 원대의 석유·화학제품 담합 사건 수사 결과를 발표했습니다. 검찰청 폐지 전 마지막 브리핑이었습니다. [나희석/서울중앙지검 공정거래조사부장... 2시간 전 3",
+      "collected_at": "2026-10-02T08:21:04.828291+09:00",
+      "normalized_title": "오늘 공소청·중수청 출범‥간판 내린 '검찰청'",
+      "source_normalized": "MBC",
+      "duplicate_key": "mbc::오늘 공소청·중수청 출범‥간판 내린 '검찰청'",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20261002061009594",
+      "id": "d816cab32a7b2eb3",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "【오늘의 법조】 2026년 10월 2일",
+      "url": "http://v.daum.net/v/20261002073003954",
+      "source": "법률신문",
+      "published_at": "2026-10-02T07:31:03.477355+09:00",
+      "snippet": "지평 오디토리움 [오늘의 PICK] ▷검찰, '16조 원 담합' 석화업체 임직원 37명 기소 중동 전쟁을 틈타 16조 원 규모 담합을 벌인 혐의를 받는 6개 석유화학업체 전·현직 임직원 30여 명이 재판에 넘겨졌다. 검찰이 추산한 범죄수익 규모는 16조3,961억 원이다. 검찰... 50분 전",
+      "collected_at": "2026-10-02T08:21:03.477368+09:00",
+      "normalized_title": "【오늘의 법조】 2026년 10월 2일",
+      "source_normalized": "법률신문",
+      "duplicate_key": "법률신문::【오늘의 법조】 2026년 10월 2일",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20261002073003954",
+      "id": "cf4fb225260c91bf",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.10.02 — 오늘 꼭 알아야 할 국내외 경제뉴스새 창 열림",
+      "url": "https://www.fntimes.com/html/view.php?ud=202610020713125603141825007d_18",
+      "source": "새 창 열림",
+      "published_at": "2026-10-02T07:22:31.070873+09:00",
+      "snippet": "② [기업·M&A] 국내 역대 최대 '16조원대' 석유화학 담합 기소…LG화학 등 6개사, 임원 2명 구속 서울중앙지검 공정거래조사부는 1일 LG화학·OCI·PKC·애경케미칼·롯데정밀화학·유니드 등 6곳과 전·현직 임직원 37명을 공정거래법 위반 혐의로 기소했다. 이들은 2021년 1월~2026년 4월 PVC·가소제... 새 창 열림",
+      "collected_at": "2026-10-02T08:20:31.070881+09:00",
+      "normalized_title": "[KFT 모닝 브리프] 2026.10.02 — 오늘 꼭 알아야 할 국내외 경제뉴스새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[kft 모닝 브리프] 2026.10.02 — 오늘 꼭 알아야 할 국내외 경제뉴스새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://www.fntimes.com/html/view.php?ud=202610020713125603141825007d_18",
+      "id": "7fdea743033791cd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘담합 과징금 30%’ 시대 성큼…재계선 “법적 예측 가능성 높여야”새 창 열림",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02099206645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "source": "새 창 열림",
+      "published_at": "2026-10-02T06:21:01.362807+09:00",
+      "snippet": "이를테면, 전쟁으로 원유 공급이 차질을 빚는 상황을 악용해 석유화학 업체들이 제품 가격을 공동으로 올리거나 공급량을 줄이기로 합의하는 경우다. 이러한 담합을 명시적으로 금지하고 과징금과 형사처벌을 강화해 공정한 시장질서를 확립하겠다는 취지다. 공정거래위원회가 담합 전반의 과징금 상한을... 새 창 열림",
+      "collected_at": "2026-10-02T08:21:01.362814+09:00",
+      "normalized_title": "‘담합 과징금 30%’ 시대 성큼…재계선 “법적 예측 가능성 높여야”새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘담합 과징금 30%’ 시대 성큼…재계선 “법적 예측 가능성 높여야”새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.edaily.co.kr/News/Read?newsId=02099206645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "id": "d974c349cc356d8e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "오늘 공소청·중수청 출범‥간판 내린 '검찰청'새 창 열림",
+      "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6855306_37012.html",
+      "source": "새 창 열림",
+      "published_at": "2026-10-02T06:21:01.362320+09:00",
+      "snippet": "중수청과 공소청 출범을 하루 앞둔 어제 서울중앙지검은 16조 원대의 석유·화학제품 담합 사건 수사 결과를 발표했습니다. 검찰청 폐지 전 마지막 브리핑이었습니다. [나희석/서울중앙지검 공정거래조사부장] \"형사사법 제도 개편 과정에서 담합에 대한 국가적 대응 역량에 공백이 없도록 중대범죄수사청 등... 새 창 열림",
+      "collected_at": "2026-10-02T08:21:01.362327+09:00",
+      "normalized_title": "오늘 공소청·중수청 출범‥간판 내린 '검찰청'새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::오늘 공소청·중수청 출범‥간판 내린 '검찰청'새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6855306_37012.html",
+      "id": "364fe5122f17ef5b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "중동위기 속 ‘16조 담합’… 檢 마지막 수사는 석유화학사 6곳새 창 열림",
+      "url": "https://www.seoul.co.kr/news/society/law/2026/10/02/20261002004006?wlog_tag3=naver",
+      "source": "새 창 열림",
+      "published_at": "2026-10-02T05:21:01.363336+09:00",
+      "snippet": "이들은 지난 2021년부터 올 4월까지 폴리염화비닐(PVC)과 가성소다 등 8개 석유화학 제품의 판매 가격과 입찰 가격 등을 담합한 혐의를 받는다. 가격 인상 폭과 시기를 사전에 맞추는 것은 물론 대형 거래처 입찰에 대해선 낙찰업체와 입찰 가격까지 미리 조율한 것으로 파악됐다. 검찰이 파악한 담합 관련... 새 창 열림",
+      "collected_at": "2026-10-02T08:21:01.363344+09:00",
+      "normalized_title": "중동위기 속 ‘16조 담합’… 檢 마지막 수사는 석유화학사 6곳새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::중동위기 속 ‘16조 담합’… 檢 마지막 수사는 석유화학사 6곳새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.seoul.co.kr/news/society/law/2026/10/02/20261002004006?wlog_tag3=naver",
+      "id": "9464e060b0f718b8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
