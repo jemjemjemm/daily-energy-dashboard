@@ -1,0 +1,87 @@
+{
+  "audited_at": "2026-10-02T08:29:40.228154+09:00",
+  "scope": "2026-10-02 Morning 및 10/1 Night",
+  "articles": [
+    {
+      "title": "檢 시대 마지막 기소 '16조 석화 담합'",
+      "source": "한국경제",
+      "published_at": "2026-10-01T18:56:39+09:00",
+      "url": "https://www.hankyung.com/article/2026100185651",
+      "canonical_url": "https://www.hankyung.com/article/2026100185651",
+      "snippet": "검찰, 16조원대 석유화학제품 담합 혐의로 6개 업체·임직원 37명 기소",
+      "summary": "△검찰, 16조원대 석유화학제품 담합 혐의로 6개 업체·임직원 37명 기소",
+      "collected_at": "2026-10-02T08:29:40.228154+09:00",
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 원문 본문·최초 입력 2026-10-01T18:56:39+09:00 직접 확인. 검색 상대시각과 수정시각 제외."
+    },
+    {
+      "title": "중동위기 속 ‘16조 담합’… 檢 마지막 수사는 석유화학사 6곳",
+      "source": "서울신문",
+      "published_at": "2026-10-02T00:04:44+09:00",
+      "url": "https://www.seoul.co.kr/news/society/law/2026/10/02/20261002004006",
+      "canonical_url": "https://www.seoul.co.kr/news/society/law/2026/10/02/20261002004006",
+      "snippet": "검찰, PVC·가성소다 등 8개 제품 담합 혐의의 석유화학업체 6곳 기소·관련 매출 16조3961억원 파악",
+      "summary": "△검찰, PVC·가성소다 등 8개 제품 담합 혐의의 석유화학업체 6곳 기소·관련 매출 16조3961억원 파악",
+      "collected_at": "2026-10-02T08:29:40.228154+09:00",
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 원문 본문·최초 입력 2026-10-02T00:04:44+09:00 직접 확인. 검색 상대시각과 수정시각 제외."
+    },
+    {
+      "title": "‘담합 과징금 30%’ 시대 성큼…재계선 “법적 예측 가능성 높여야”",
+      "source": "이데일리",
+      "published_at": "2026-10-02T06:00:06+09:00",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02099206645608984&mediaCodeNo=257",
+      "canonical_url": "https://www.edaily.co.kr/News/Read?newsId=02099206645608984&mediaCodeNo=257",
+      "snippet": "석유화학 등 국가적 위기 악용 담합의 과징금 상한 30% 인상 법안 발의 및 재계의 산정기준 명확화 요구",
+      "summary": "△석유화학 등 국가적 위기 악용 담합의 과징금 상한 30% 인상 법안 발의 및 재계의 산정기준 명확화 요구",
+      "collected_at": "2026-10-02T08:29:40.228154+09:00",
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 원문 본문·최초 입력 2026-10-02T06:00:06+09:00 직접 확인. 검색 상대시각과 수정시각 제외."
+    }
+  ],
+  "search_log": [
+    {
+      "raw": "data/raw/2026-10-02-morning-raw.json",
+      "raw_count": 1574,
+      "warnings": 0
+    }
+  ],
+  "exclusions": [
+    {
+      "reason": "동일 사안·동일 원문의 포털/발행사 중복 제거. 매체명 새 창 열림 오류 수정. Night와 Morning은 독립 기간으로 보존."
+    },
+    {
+      "url": "https://www.edaily.co.kr/News/Read?newsId=05172566645608656&mediaCodeNo=257",
+      "reason": "포털 전송 16:35 기사로 Night 17:00 이전. 검색 상대시각으로 Night 유입돼 제외."
+    },
+    {
+      "reason": "수사기관 출범 일반 기사·법조 일정·종합 브리핑은 동일 담합 보도의 부수적 언급 또는 중복으로 제외."
+    }
+  ],
+  "findings": [
+    "기소 혐의와 유죄 확정 구분",
+    "16조3961억원은 관련 매출로 피해액·확정 범죄수익 추정 금지",
+    "30% 과징금 상한은 발의·추진 단계로 시행과 구분"
+  ]
+}
