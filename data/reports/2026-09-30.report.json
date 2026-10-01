@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △정유업계, 국내 수급에 지장 없는 범위의 수출 물량 탄력 운용 필요성 제기 △사우디 홍해 원유 수출 재개 보도에 WTI 3.48% 하락·배럴당 89.38달러 마감 △로이터, 트럼프의 한국 알래스카 LNG 540억달러 투자 발표 가능성 보도"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △산중위, 정유 4사 대표 국감 증인 신청 및 가격 담합 의혹·최고가격제 손실보전·거래관행 점검 예고 △알래스카 LNG 한국 투자 발표 전망 속 정부의 상업적 합리성 추가 검토 입장 확인 △기후부, 발전공기업 통합준비위원회 발족 및 한국발전 출범 특별법·조직 논의 착수"
     }
   ],
   "prices": {
@@ -1679,5 +1683,45 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△산중위, 정유 4사 대표 국감 증인 신청 및 가격 담합 의혹·최고가격제 손실보전·거래관행 점검 예고 △알래스카 LNG 한국 투자 발표 전망 속 정부의 상업적 합리성 추가 검토 입장 확인 △기후부, 발전공기업 통합준비위원회 발족 및 한국발전 출범 특별법·조직 논의 착수",
+    "trend_paragraphs": [
+      "△산중위, 정유 4사 대표 국감 증인 신청 및 가격 담합 의혹·최고가격제 손실보전·거래관행 점검 예고",
+      "△알래스카 LNG 한국 투자 발표 전망 속 정부의 상업적 합리성 추가 검토 입장 확인",
+      "△기후부, 발전공기업 통합준비위원회 발족 및 한국발전 출범 특별법·조직 논의 착수"
+    ],
+    "articles": [
+      {
+        "title": "정유 4사 CEO 국감 소환 기로···담합 이어 거래관행까지 정조준",
+        "press": "뉴스웨이",
+        "url": "https://www.newsway.co.kr/news/view?ud=2026093015063779370",
+        "summary": "산중위, 정유 4사 대표 국감 증인 신청 및 가격 담합 의혹·최고가격제 손실보전·거래관행 점검 예고",
+        "published_at_kst": "2026-09-30T16:26:53+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true
+      },
+      {
+        "title": "'추가 검토' 분류된 알래스카 LNG…트럼프 발표로 흔들리나",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20260930135300003",
+        "summary": "알래스카 LNG 한국 투자 발표 전망 속 정부의 상업적 합리성 추가 검토 입장 확인",
+        "published_at_kst": "2026-09-30T15:29:10+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true
+      },
+      {
+        "title": "발전 5사 통합 '한국발전' 본격화… 통합준비위 발족",
+        "press": "한국일보",
+        "url": "https://www.hankookilbo.com/news/article/A2026093014180000590",
+        "summary": "기후부, 발전공기업 통합준비위원회 발족 및 한국발전 출범 특별법·조직 논의 착수",
+        "published_at_kst": "2026-09-30T16:09:00+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true
+      }
+    ],
+    "source": "발행사 원문·최초시각 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
