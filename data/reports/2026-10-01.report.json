@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △미국 연료 재고 감소·이란 협상 교착 속 브렌트유 103.53달러·WTI 90.42달러 상승 마감 △최수진 의원, 정유사·알뜰주유소 가격 격차 자료 공개 및 수도권 인센티브·경쟁 촉진 요구 △트럼프, 알래스카 LNG 한국 투자 일방 발표·한국 정부는 상업적 합리성 충족 조건의 검토 입장 제시"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △미국의 알래스카 LNG 500억달러 투자 발표에 산업부의 참여 미확정·상업적 합리성 검토 원칙 확인 △원전수출기획위원회, 대미투자 합의 후속 논의 및 한국형 원전 미국 진출·공급망 참여 준비 △기후부 장관, 온실가스 감축 목표 미달 사과 및 태양광 확대·데이터센터 별도 전기요금 설계 방향 제시 △산중위, 정유 4사 CEO 국감 증인 신청 후 최종 조율…유류 가격 담합 의혹·주유소 거래관행 점검 예고"
     }
   ],
   "prices": {
@@ -1693,5 +1697,55 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△미국의 알래스카 LNG 500억달러 투자 발표에 산업부의 참여 미확정·상업적 합리성 검토 원칙 확인 △원전수출기획위원회, 대미투자 합의 후속 논의 및 한국형 원전 미국 진출·공급망 참여 준비 △기후부 장관, 온실가스 감축 목표 미달 사과 및 태양광 확대·데이터센터 별도 전기요금 설계 방향 제시 △산중위, 정유 4사 CEO 국감 증인 신청 후 최종 조율…유류 가격 담합 의혹·주유소 거래관행 점검 예고",
+    "trend_paragraphs": [
+      "△미국의 알래스카 LNG 500억달러 투자 발표에 산업부의 참여 미확정·상업적 합리성 검토 원칙 확인",
+      "△원전수출기획위원회, 대미투자 합의 후속 논의 및 한국형 원전 미국 진출·공급망 참여 준비",
+      "△기후부 장관, 온실가스 감축 목표 미달 사과 및 태양광 확대·데이터센터 별도 전기요금 설계 방향 제시",
+      "△산중위, 정유 4사 CEO 국감 증인 신청 후 최종 조율…유류 가격 담합 의혹·주유소 거래관행 점검 예고"
+    ],
+    "articles": [
+      {
+        "title": "500억불 투자 VS 미정…알래스카 LNG 대미투자 새 '뇌관'(종합2보)",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261001016452003",
+        "summary": "미국의 알래스카 LNG 500억달러 투자 발표에 산업부의 참여 미확정·상업적 합리성 검토 원칙 확인",
+        "published_at_kst": "2026-10-01T16:20:19+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true
+      },
+      {
+        "title": "'K-원전' 미국 진출 시동…원전수출기획위, 대미투자 후속 논의",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261001158000003",
+        "summary": "원전수출기획위원회, 대미투자 합의 후속 논의 및 한국형 원전 미국 진출·공급망 참여 준비",
+        "published_at_kst": "2026-10-01T16:21:36+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true
+      },
+      {
+        "title": "작년 온실가스 배출량 증가에 기후장관 \"죄송하게 생각\"",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261001153100530",
+        "summary": "기후부 장관, 온실가스 감축 목표 미달 사과 및 태양광 확대·데이터센터 별도 전기요금 설계 방향 제시",
+        "published_at_kst": "2026-10-01T16:18:08+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true
+      },
+      {
+        "title": "[그래픽] 정유4사 CEO 국정감사 증인 신청 현황",
+        "press": "CEO스코어데일리",
+        "url": "https://www.ceoscoredaily.com/page/view/2026100110294054796",
+        "summary": "산중위, 정유 4사 CEO 국감 증인 신청 후 최종 조율…유류 가격 담합 의혹·주유소 거래관행 점검 예고",
+        "published_at_kst": "2026-10-01T10:52:35+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true
+      }
+    ],
+    "source": "발행사 원문·최초시각 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }

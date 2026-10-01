@@ -1,0 +1,105 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-01",
+  "slot": "evening",
+  "period_start": "2026-10-01T08:00:00+09:00",
+  "period_end": "2026-10-01T17:00:00+09:00",
+  "period_label": "2026-10-01 08:00 ~ 2026-10-01 17:00",
+  "generated_at": "2026-10-01T17:51:23.806293+09:00",
+  "keywords": [
+    "정유사 담합",
+    "석유 담합"
+  ],
+  "total_raw_count": 2,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 0,
+    "daum": 0,
+    "google": 0
+  },
+  "query_counts": {
+    "석유 담합": 2,
+    "정유사 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "\"전쟁을 기회로\"…5년간 16조원대 담합 석화업체 6곳 재판행",
+      "source": "연합뉴스",
+      "published_at": "2026-10-01T10:43:45+09:00",
+      "url": "https://www.yna.co.kr/view/AKR20261001075700004",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261001075700004",
+      "snippet": "검찰, 16조원대 가격 담합 혐의로 석유화학업체 6개 법인·임직원 37명 기소",
+      "summary": "△검찰, 16조원대 가격 담합 혐의로 석유화학업체 6개 법인·임직원 37명 기소",
+      "collected_at": "2026-10-01T17:51:23.750771+09:00",
+      "queries": [
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 원문 본문 및 최초 송고 2026-10-01T10:43:45+09:00 확인. 기소는 유죄 확정과 구분, 증인 신청은 채택과 구분.",
+      "normalized_title": "\"전쟁을 기회로\"…5년간 16조원대 담합 석화업체 6곳 재판행",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::\"전쟁을 기회로\"…5년간 16조원대 담합 석화업체 6곳 재판행",
+      "duplicate_count": 0,
+      "id": "b1e4d5766127c54f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[그래픽] 정유4사 CEO 국정감사 증인 신청 현황",
+      "source": "CEO스코어데일리",
+      "published_at": "2026-10-01T10:52:35+09:00",
+      "url": "https://www.ceoscoredaily.com/page/view/2026100110294054796",
+      "canonical_url": "https://www.ceoscoredaily.com/page/view/2026100110294054796",
+      "snippet": "산중위 정유4사 CEO 국감 증인 신청·최종 조율 및 유류 가격 담합 의혹·주유소 거래관행 점검 예고",
+      "summary": "△산중위 정유4사 CEO 국감 증인 신청·최종 조율 및 유류 가격 담합 의혹·주유소 거래관행 점검 예고",
+      "collected_at": "2026-10-01T17:51:23.750771+09:00",
+      "queries": [
+        "석유 담합",
+        "정유사 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 원문 본문 및 최초 송고 2026-10-01T10:52:35+09:00 확인. 기소는 유죄 확정과 구분, 증인 신청은 채택과 구분.",
+      "normalized_title": "정유4사 CEO 국정감사 증인 신청 현황",
+      "source_normalized": "CEO스코어데일리",
+      "duplicate_key": "ceo스코어데일리::정유4사 ceo 국정감사 증인 신청 현황",
+      "duplicate_count": 0,
+      "id": "acefdb082a91274d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "editorial_audit": "data/reviews/2026-10-01-evening.audit.json",
+  "raw_count_basis": "원문 검토 대표 후보 수. 자동수집 raw 원본 보존."
+}
