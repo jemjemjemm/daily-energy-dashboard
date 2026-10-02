@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △중국 석유제품 수출 중단·미국 중동 추가파병 보도 속 브렌트유 102.31달러·WTI 92.87달러 상승 마감 △산업부, 알래스카 LNG 투자 확정에 선 긋기·사업성 검토와 현지 실사 방침 제시 △재경부, 최고가격제의 9월 물가상승률 0.6%p 억제 효과 추정 및 물가관리 강화 방침 제시"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △영국, 한국의 사할린Ⅱ LNG 장기계약 물량에 2028년 3월 말까지 제재 면제 △관세청장, 중동산 원유 우회운송 운임·보험료 증가분 비과세 특례 검토 및 파나마 경유 원유 FTA 협의 추진 △기후부, 제12차 전기본 원전 공론화위원회 출범 및 시민 숙의·정부 권고 절차 추진 △산업부, CPTPP 가입 검토 관련 전기·전자 제조업계 간담회 개최 및 영향·우려 점검 △9월 소비자물가 2.9%·석유류 14.8% 상승 및 정부의 최고가격제 물가상승률 0.6%p 완화 분석"
     }
   ],
   "prices": {
@@ -1628,5 +1632,65 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△영국, 한국의 사할린Ⅱ LNG 장기계약 물량에 2028년 3월 말까지 제재 면제 △관세청장, 중동산 원유 우회운송 운임·보험료 증가분 비과세 특례 검토 및 파나마 경유 원유 FTA 협의 추진 △기후부, 제12차 전기본 원전 공론화위원회 출범 및 시민 숙의·정부 권고 절차 추진 △산업부, CPTPP 가입 검토 관련 전기·전자 제조업계 간담회 개최 및 영향·우려 점검 △9월 소비자물가 2.9%·석유류 14.8% 상승 및 정부의 최고가격제 물가상승률 0.6%p 완화 분석",
+    "trend_paragraphs": [
+      "△영국, 한국의 사할린Ⅱ LNG 장기계약 물량에 2028년 3월 말까지 제재 면제",
+      "△관세청장, 중동산 원유 우회운송 운임·보험료 증가분 비과세 특례 검토 및 파나마 경유 원유 FTA 협의 추진",
+      "△기후부, 제12차 전기본 원전 공론화위원회 출범 및 시민 숙의·정부 권고 절차 추진",
+      "△산업부, CPTPP 가입 검토 관련 전기·전자 제조업계 간담회 개최 및 영향·우려 점검",
+      "△9월 소비자물가 2.9%·석유류 14.8% 상승 및 정부의 최고가격제 물가상승률 0.6%p 완화 분석"
+    ],
+    "articles": [
+      {
+        "title": "EU 이어 영국도 한국의 러시아산 LNG 수입 제재 면제(종합)",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261001199151082",
+        "summary": "영국, 한국의 사할린Ⅱ LNG 장기계약 물량에 2028년 3월 말까지 제재 면제",
+        "published_at_kst": "2026-10-02T16:08:51+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true
+      },
+      {
+        "title": "관세청장 \"중동산 원유 우회운송 비용 증가분 비과세 특례 검토\"",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261002104100002",
+        "summary": "관세청장, 중동산 원유 우회운송 운임·보험료 증가분 비과세 특례 검토 및 파나마 경유 원유 FTA 협의 추진",
+        "published_at_kst": "2026-10-02T14:11:06+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true
+      },
+      {
+        "title": "12차 전기본 '원전 공론화위원회' 출범…국민 숙의 돌입",
+        "press": "전자신문",
+        "url": "https://www.etnews.com/20261002000102",
+        "summary": "기후부, 제12차 전기본 원전 공론화위원회 출범 및 시민 숙의·정부 권고 절차 추진",
+        "published_at_kst": "2026-10-02T11:35:16+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true
+      },
+      {
+        "title": "산업부, 제조업계와 CPTPP 간담회…전기·전자분야 영향 점검",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261002030700003",
+        "summary": "산업부, CPTPP 가입 검토 관련 전기·전자 제조업계 간담회 개최 및 영향·우려 점검",
+        "published_at_kst": "2026-10-02T11:00:01+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true
+      },
+      {
+        "title": "9월 소비자물가 2.9%↑…석유류·가공식품·IT기기 올라(종합2보)",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261002019752002",
+        "summary": "9월 소비자물가 2.9%·석유류 14.8% 상승 및 정부의 최고가격제 물가상승률 0.6%p 완화 분석",
+        "published_at_kst": "2026-10-02T11:04:10+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true
+      }
+    ],
+    "source": "발행사 원문·최초시각 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }

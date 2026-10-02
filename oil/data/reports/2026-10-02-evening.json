@@ -1,0 +1,73 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-02",
+  "slot": "evening",
+  "period_start": "2026-10-02T08:00:00+09:00",
+  "period_end": "2026-10-02T17:00:00+09:00",
+  "period_label": "2026-10-02 08:00 ~ 2026-10-02 17:00",
+  "generated_at": "2026-10-02T17:36:16.509775+09:00",
+  "keywords": [
+    "정유",
+    "최고가격제"
+  ],
+  "total_raw_count": 1,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 1,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 0,
+    "daum": 0,
+    "google": 0
+  },
+  "query_counts": {
+    "정유": 1,
+    "최고가격제": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[2026 국감] 산업부, 대미투자·호남 반도체 '정조준'…정유사 담합도 도마위",
+      "source": "뉴스핌",
+      "published_at": "2026-10-02T12:00:00+09:00",
+      "url": "https://www.newspim.com/news/view/20261002000563",
+      "canonical_url": "https://www.newspim.com/news/view/20261002000563",
+      "snippet": "산업부 국감 정유4사 CEO 증인 신청 및 가격 결정·주유소 거래관행·최고가격제 손실 보전 점검 예고",
+      "summary": "△산업부 국감 정유4사 CEO 증인 신청 및 가격 결정·주유소 거래관행·최고가격제 손실 보전 점검 예고",
+      "collected_at": "2026-10-02T17:36:16.488076+09:00",
+      "queries": [
+        "정유",
+        "최고가격제"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 원문 본문 및 최초 송고·입력 2026-10-02T12:00:00+09:00 직접 확인. 수정시각·포털 상대시각 제외.",
+      "normalized_title": "[2026 국감] 산업부, 대미투자·호남 반도체 '정조준'…정유사 담합도 도마위",
+      "source_normalized": "뉴스핌",
+      "duplicate_key": "뉴스핌::[2026 국감] 산업부, 대미투자·호남 반도체 '정조준'…정유사 담합도 도마위",
+      "duplicate_count": 0,
+      "id": "279f97bf10063b9a",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "editorial_audit": "data/reviews/2026-10-02-evening.audit.json",
+  "raw_count_basis": "원문 검토 대표 후보 수. 자동수집 raw 원본 보존."
+}
