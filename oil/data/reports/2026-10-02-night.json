@@ -1,0 +1,142 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-02",
+  "slot": "night",
+  "period_start": "2026-10-02T17:00:00+09:00",
+  "period_end": "2026-10-03T00:00:00+09:00",
+  "period_label": "2026-10-02 17:00 ~ 2026-10-03 00:00",
+  "generated_at": "2026-10-03T10:53:47.704073+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1568,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1178
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 1,
+    "석유 담합": 2,
+    "석유제품 담합": 1,
+    "정유사 담합": 1,
+    "정유업계 담합": 1
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[여의도 향한 시선, 기업 향한 칼날 집중 점검②] 검찰청, 역사의 뒤안길...새 창 열림",
+      "url": "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=523293",
+      "source": "새 창 열림",
+      "published_at": "2026-10-02T18:53:21.542926+09:00",
+      "snippet": "이에 따라 이번 석유화학 담합 사건은 서울중앙지검 공정거래조사부가 검찰청 체제에서 처리한 사실상 마지막 대형 공정거래 사건이 됐다. 앞으로 유사한 대형 담합이나 중대 경제범죄 사건은 중수청을 중심으로 처리될 전망이다. 중수청 충원율 불과 66.1%… 전산·수사 인프라도 과제 중대범죄수사청(중수청)... 새 창 열림",
+      "collected_at": "2026-10-03T10:53:21.542956+09:00",
+      "normalized_title": "[여의도 향한 시선, 기업 향한 칼날 집중 점검②] 검찰청, 역사의 뒤안길...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[여의도 향한 시선, 기업 향한 칼날 집중 점검②] 검찰청, 역사의 뒤안길...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=523293",
+      "id": "7788a71cd34ec01e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[2026국감] 이재용·최태원 빠진 국감…재계 총수보다 '현안 책임자' 불...새 창 열림",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=312448",
+      "source": "새 창 열림",
+      "published_at": "2026-10-02T18:53:15.793570+09:00",
+      "snippet": "식품업계에서는 조영식 CJ제일제당 부사장, 이운익 삼양사 대표, 박윤기 롯데칠성음료 대표가 설탕 가격 담합 문제와 관련해... 포스코·MBK 등 그룹 회장부터 네이버·쿠팡·통신3사·배달의민족·KAI·한화에어로스페이스·건설사·정유사 등의 임원까지 포함됐다. 다만 일부 상임위에서는 추가 증인 협의가 남아... 새 창 열림",
+      "collected_at": "2026-10-03T10:53:15.793598+09:00",
+      "normalized_title": "[2026국감] 이재용·최태원 빠진 국감…재계 총수보다 '현안 책임자' 불...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[2026국감] 이재용·최태원 빠진 국감…재계 총수보다 '현안 책임자' 불...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.straightnews.co.kr/news/articleView.html?idxno=312448",
+      "id": "ade276138a0f6911",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[애경케미칼도 16조 담합 재판행]애경케미칼, 16조원대 석유화학제품 담합 사건 기소…5년간 가격·입찰 조율 혐의",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00eXpGRVZ4c3VnYlVkODJtajFFeTlMLU1NUmFJdTVRM0dmd3VoMjVjdk1TTXNObGRVR0FMeURpOTM4Qm93eDJVNHJ3MUdCR3d1dGZIM1ZKNzAyT2ZCdzRfVEFpdkVuYkRra0ZvWXVaUjQ?oc=5",
+      "source": "전국뉴스",
+      "published_at": "2026-10-02T18:00:49+09:00",
+      "snippet": "[애경케미칼도 16조 담합 재판행]애경케미칼, 16조원대 석유화학제품 담합 사건 기소…5년간 가격·입찰 조율 혐의 전국뉴스",
+      "collected_at": "2026-10-03T10:53:23.161134+09:00",
+      "normalized_title": "[애경케미칼도 16조 담합 재판행]애경케미칼, 16조원대 석유화학제품 담합 사건 기소…5년간 가격·입찰 조율 혐의",
+      "source_normalized": "전국뉴스",
+      "duplicate_key": "전국뉴스::[애경케미칼도 16조 담합 재판행]애경케미칼, 16조원대 석유화학제품 담합 사건 기소…5년간 가격·입찰 조율 혐의",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00eXpGRVZ4c3VnYlVkODJtajFFeTlMLU1NUmFJdTVRM0dmd3VoMjVjdk1TTXNObGRVR0FMeURpOTM4Qm93eDJVNHJ3MUdCR3d1dGZIM1ZKNzAyT2ZCdzRfVEFpdkVuYkRra0ZvWXVaUjQ?oc=5",
+      "id": "5c9ae5869356d592",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
