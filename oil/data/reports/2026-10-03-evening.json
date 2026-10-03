@@ -1,0 +1,109 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-03",
+  "slot": "evening",
+  "period_start": "2026-10-03T08:00:00+09:00",
+  "period_end": "2026-10-03T17:00:00+09:00",
+  "period_label": "2026-10-03 08:00 ~ 2026-10-03 17:00",
+  "generated_at": "2026-10-03T22:19:59.376661+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1566,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1176
+  },
+  "query_counts": {
+    "석유 담합": 2,
+    "석유제품 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "석유화학 6곳 '16조 담합' 기소…정부 지원금 논의 중에도 가격 맞췄다새 창 열림",
+      "url": "http://www.rightknow.co.kr/news/articleView.html?idxno=34885",
+      "source": "새 창 열림",
+      "published_at": "2026-10-03T13:19:30.699649+09:00",
+      "snippet": "나희석 공정거래조사부 부장검사가 1일 서울 서초구 서울고등검찰청 브리핑룸에서 석유화학제품 담합 사건 수사 결과를 발표하고 있다. 서울중앙지검 공정거래조사부는 미국·이란 전쟁 등 중동 위기를 틈타 16조 원 규모의 석유화학제품 가격을 담합한 혐의로 석유화학사 6곳과 각 사의 전·현직... 새 창 열림",
+      "collected_at": "2026-10-03T22:19:30.699677+09:00",
+      "normalized_title": "석유화학 6곳 '16조 담합' 기소…정부 지원금 논의 중에도 가격 맞췄다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::석유화학 6곳 '16조 담합' 기소…정부 지원금 논의 중에도 가격 맞췄다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.rightknow.co.kr/news/articleView.html?idxno=34885",
+      "id": "06895d00ee5dc6e3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "석유화학 6곳 '16조 담합' 기소…정부 지원금 논의 중에도 가격 맞췄다",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HaU50OEhiXzZjZXlwa3VIVUFSc3cyN3lyY2lPZDc5a0pCeFhBcUp6RTBBNlpueVRYZjlrdzBDZDEtWE8zLVowUldhakpheE5UWExGc0EyQTZMb2d0WDYzYU5fLVNYb0hhZG9SSTVn?oc=5",
+      "source": "알티케이뉴스",
+      "published_at": "2026-10-03T12:49:39+09:00",
+      "snippet": "석유화학 6곳 '16조 담합' 기소…정부 지원금 논의 중에도 가격 맞췄다 알티케이뉴스",
+      "collected_at": "2026-10-03T22:19:32.485937+09:00",
+      "normalized_title": "석유화학 6곳 '16조 담합' 기소…정부 지원금 논의 중에도 가격 맞췄다",
+      "source_normalized": "알티케이뉴스",
+      "duplicate_key": "알티케이뉴스::석유화학 6곳 '16조 담합' 기소…정부 지원금 논의 중에도 가격 맞췄다",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HaU50OEhiXzZjZXlwa3VIVUFSc3cyN3lyY2lPZDc5a0pCeFhBcUp6RTBBNlpueVRYZjlrdzBDZDEtWE8zLVowUldhakpheE5UWExGc0EyQTZMb2d0WDYzYU5fLVNYb0hhZG9SSTVn?oc=5",
+      "id": "3630e5c7c1844791",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
