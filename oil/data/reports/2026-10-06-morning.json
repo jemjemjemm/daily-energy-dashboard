@@ -1,0 +1,274 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-06",
+  "slot": "morning",
+  "period_start": "2026-10-06T00:00:00+09:00",
+  "period_end": "2026-10-06T08:00:00+09:00",
+  "period_label": "2026-10-06 00:00 ~ 2026-10-06 08:00",
+  "generated_at": "2026-10-06T08:21:35.071568+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1542,
+  "total_deduped_count": 6,
+  "total_ok_count": 6,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 6
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1152
+  },
+  "query_counts": {
+    "경유 담합": 3,
+    "기름값 담합": 4,
+    "석유 담합": 5,
+    "석유제품 담합": 5,
+    "유가 담합": 5,
+    "유가담합": 5,
+    "정유사 담합": 5,
+    "정유업계 담합": 4,
+    "주유소 담합": 5,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "정유ㆍ석화업계 ‘사면초가’…담합 기소에 국감까지 뭇매",
+      "url": "http://v.daum.net/v/20261006054007092",
+      "source": "대한경제",
+      "published_at": "2026-10-06T06:20:36.686209+09:00",
+      "snippet": "4사 CEO 국감 줄소환에다 최고가격제 손실 ‘혈세 보전’ 논란도 부담 [대한경제=이근우 기자]정유업계에 이어 석유화학업계까지 조(兆) 단위 담합 혐의로 줄줄이 재판에 넘겨졌다. 특히 올해 국정감사에서 최고경영자(CEO)의 증인 출석이 잇따라 거론되는데다, 석유... 2시간 전",
+      "collected_at": "2026-10-06T08:20:36.686236+09:00",
+      "normalized_title": "정유ㆍ석화업계 ‘사면초가’…담합 기소에 국감까지 뭇매",
+      "source_normalized": "대한경제",
+      "duplicate_key": "대한경제::정유ㆍ석화업계 ‘사면초가’…담합 기소에 국감까지 뭇매",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 10,
+      "canonical_url": "http://v.daum.net/v/20261006054007092",
+      "id": "3b434dca5455db5b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'실적은 호황, 경영은 가시밭길'…정유 4사, 재판·국감까지",
+      "url": "http://v.daum.net/v/20261006065146206",
+      "source": "비즈워치",
+      "published_at": "2026-10-06T07:20:35.436136+09:00",
+      "snippet": "데다 담합 의혹을 둘러싼 재판과 국정감사까지 앞두고 있다. 고유가에 따른 수익성 개선에도 정부의 가격 통제와 사법적 불확실성이 경영 부담을 키우고 있다. 손실 추산 7조~8조…실제 지급액은 안갯속 6일 업계에 따르면, SK에너지·GS칼텍스·에쓰오일·HD현대... 1시간 전",
+      "collected_at": "2026-10-06T08:20:35.436159+09:00",
+      "normalized_title": "'실적은 호황, 경영은 가시밭길'…정유 4사, 재판·국감까지",
+      "source_normalized": "비즈워치",
+      "duplicate_key": "비즈워치::'실적은 호황, 경영은 가시밭길'…정유 4사, 재판·국감까지",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "http://v.daum.net/v/20261006065146206",
+      "id": "3fe6c9f7c5ad070d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'실적은 호황, 경영은 가시밭길'…정유 4사, 재판·국감까지새 창 열림",
+      "url": "https://news.bizwatch.co.kr/article/industry/2026/10/02/0037",
+      "source": "새 창 열림",
+      "published_at": "2026-10-06T07:20:32.549161+09:00",
+      "snippet": "담합 의혹에 주유소 거래 관행까지…정유 4사 전방위 검증 가격 통제와 수출 제한에 이어 담합 의혹을 둘러싼 사법적 판단도 정유업계의 부담을 키우고 있다. 검찰은 지난 7월 SK에너지와 HD현대오일뱅크를 공정거래법 위반 혐의로 기소했다. 두 회사가 2024년 7월부터 가격 정보를 교환하고 올해 미국·이란 전쟁... 새 창 열림",
+      "collected_at": "2026-10-06T08:20:32.549175+09:00",
+      "normalized_title": "'실적은 호황, 경영은 가시밭길'…정유 4사, 재판·국감까지새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::'실적은 호황, 경영은 가시밭길'…정유 4사, 재판·국감까지새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://news.bizwatch.co.kr/article/industry/2026/10/02/0037",
+      "id": "1047fe284a90d827",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "하나증권 \"은행권, 3분기 순익 7.4조원 전망..비경상 요인 빼면 전분기비...새 창 열림",
+      "url": "https://kpenews.com/View.aspx?No=4252490",
+      "source": "새 창 열림",
+      "published_at": "2026-10-06T07:20:32.548356+09:00",
+      "snippet": "반면 iM금융과 BNK금융 등 중소형 은행지주는 유가증권 관련 이익 감소 등의 영향으로 시장 기대치를 다소 밑돌 것으로 전망됐다. 자본건전성은... 홍콩 ELS 과징금과 국고채 금리 관련 담합 의혹에 대한 과징금 부과 여부는 10월 말 전후로 결론이 날 가능성이 있는 것으로 분석됐다. 이에 따라 은행권의... 새 창 열림",
+      "collected_at": "2026-10-06T08:20:32.548392+09:00",
+      "normalized_title": "하나증권 \"은행권, 3분기 순익 7.4조원 전망..비경상 요인 빼면 전분기비...새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::하나증권 \"은행권, 3분기 순익 7.4조원 전망..비경상 요인 빼면 전분기비...새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://kpenews.com/View.aspx?No=4252490",
+      "id": "9dfcdbeb725a5d19",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유ㆍ석화업계 ‘사면초가’…담합 기소에 국감까지 뭇매새 창 열림",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610021358257830319",
+      "source": "새 창 열림",
+      "published_at": "2026-10-06T06:20:32.549866+09:00",
+      "snippet": "석화 6개사ㆍ임직원 37명 16조원대 담합 기소…정유 4사 CEO 국감 줄소환에다 최고가격제 손실 ‘혈세 보전’ 논란도 부담 정유업계에 이어... 정부는 지난 3월 미-이란 전쟁으로 유가가 치솟자 최고가격제를 시행했고, 정유사가 이로 인해 본 손실을 보전해주기로 했다. 최고액정산위원회는 3월13일~6월30일분... 새 창 열림",
+      "collected_at": "2026-10-06T08:20:32.549878+09:00",
+      "normalized_title": "정유ㆍ석화업계 ‘사면초가’…담합 기소에 국감까지 뭇매새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::정유ㆍ석화업계 ‘사면초가’…담합 기소에 국감까지 뭇매새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610021358257830319",
+      "id": "3fe2f325fa58ccd6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[진단] SK에너지 등 일부 주유소, 정부 시책 역행 · 배척새 창 열림",
+      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=303839",
+      "source": "새 창 열림",
+      "published_at": "2026-10-06T04:20:44.100547+09:00",
+      "snippet": "당시 검찰이 파악한 SK에너지와 HD현대오일뱅크 간 직접 담합 규모는 14조 2000억원인 것으로 드러났다. 검찰은 \"이번 중동 전쟁 발발 직후 담합은... 지난 2020년 충남 공주와 논산 지역에서는 주유소 2개소에서 가짜 경유를 판매해 배기가스 저감장치 고장, 시동 꺼짐 발생 등 피해 신고가 100건 이상... 새 창 열림",
+      "collected_at": "2026-10-06T08:20:44.100558+09:00",
+      "normalized_title": "[진단] SK에너지 등 일부 주유소, 정부 시책 역행 · 배척새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::[진단] sk에너지 등 일부 주유소, 정부 시책 역행 · 배척새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.todayenergy.kr/news/articleView.html?idxno=303839",
+      "id": "f2fa9891bc54b38b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
