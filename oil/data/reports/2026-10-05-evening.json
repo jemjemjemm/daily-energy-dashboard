@@ -1,0 +1,173 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-05",
+  "slot": "evening",
+  "period_start": "2026-10-05T08:00:00+09:00",
+  "period_end": "2026-10-05T17:00:00+09:00",
+  "period_label": "2026-10-05 08:00 ~ 2026-10-05 17:00",
+  "generated_at": "2026-10-06T02:06:07.495796+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 1548,
+  "total_deduped_count": 4,
+  "total_ok_count": 4,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 4
+  },
+  "portal_counts": {
+    "naver": 130,
+    "daum": 260,
+    "google": 1158
+  },
+  "query_counts": {
+    "기름값 담합": 1,
+    "석유 담합": 3,
+    "석유제품 담합": 2
+  },
+  "collection_warnings": [],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "16조원대 석유화학 담합 혐의…6개사·임직원 37명 재판행",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Qb2t3cnZUcDJfd1FSSktackJYY1dtLUFhQlNmbmkxVzJQSF9wTENwRVhvVTdOU3dnbG1ZRTU2cUhodXA5aUNCU2RBZWVmQ3JKNlk5bnhQamUxVFhrRFlfa0FySWhkSlQ3T2p2ZjN3?oc=5",
+      "source": "seoulilbo.co.kr",
+      "published_at": "2026-10-05T11:22:00+09:00",
+      "snippet": "16조원대 석유화학 담합 혐의…6개사·임직원 37명 재판행 seoulilbo.co.kr",
+      "collected_at": "2026-10-06T02:05:45.217005+09:00",
+      "normalized_title": "16조원대 석유화학 담합 혐의…6개사·임직원 37명 재판행",
+      "source_normalized": "seoulilbo.co.kr",
+      "duplicate_key": "seoulilbo.co.kr::16조원대 석유화학 담합 혐의…6개사·임직원 37명 재판행",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Qb2t3cnZUcDJfd1FSSktackJYY1dtLUFhQlNmbmkxVzJQSF9wTENwRVhvVTdOU3dnbG1ZRTU2cUhodXA5aUNCU2RBZWVmQ3JKNlk5bnhQamUxVFhrRFlfa0FySWhkSlQ3T2p2ZjN3?oc=5",
+      "id": "1f1d4da5e553ce5e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합 혐의' SK에너지 5천만달러 문다",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZ3JMYTRVU2t4S0VsU3lWZ3FGQkRTTlFWY0o4SkxyblpMVUU1cE50S1VzUHlYUzJ1UGhuWDVKYk1aYk5LMElhby16WDBnc3Q4UVJZMXJzMkN1YlE4NUZLalFsRFU5Mm9HNmtTNlYzeTZFd2V2MzRNdVVzTWVHQ3hyNWxBY0ctNU1vc1RGdGVVRl8yeU5FY0JDU283N1lJQUkxOUVicDA4TVExbjh0SEFMUTRlamZ2TEpOMVlJN2NiTF9hVEZsQ3RScVRnajlCb09EWWc?oc=5",
+      "source": "미주조선일보",
+      "published_at": "2026-10-05T08:22:11+09:00",
+      "snippet": "'기름값 담합 혐의' SK에너지 5천만달러 문다 미주조선일보",
+      "collected_at": "2026-10-06T02:05:40.971737+09:00",
+      "normalized_title": "'기름값 담합 혐의' SK에너지 5천만달러 문다",
+      "source_normalized": "미주조선일보",
+      "duplicate_key": "미주조선일보::'기름값 담합 혐의' sk에너지 5천만달러 문다",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZ3JMYTRVU2t4S0VsU3lWZ3FGQkRTTlFWY0o4SkxyblpMVUU1cE50S1VzUHlYUzJ1UGhuWDVKYk1aYk5LMElhby16WDBnc3Q4UVJZMXJzMkN1YlE4NUZLalFsRFU5Mm9HNmtTNlYzeTZFd2V2MzRNdVVzTWVHQ3hyNWxBY0ctNU1vc1RGdGVVRl8yeU5FY0JDU283N1lJQUkxOUVicDA4TVExbjh0SEFMUTRlamZ2TEpOMVlJN2NiTF9hVEZsQ3RScVRnajlCb09EWWc?oc=5",
+      "id": "76be5c593b99e731",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘16조 담합’ 법정 간 석화 6사⋯ 과징금·손배 청구서 온다",
+      "url": "http://v.daum.net/v/20261005153240598",
+      "source": "브릿지경제",
+      "published_at": "2026-10-05T16:05:44.536751+09:00",
+      "snippet": "석유화학 산업단지 전경. 자료사진=여수시. 국내 주요 석유화학 기업들이 검찰 직접수사 담합 사건 중 역대 최대 규모인 16조원대 가격 담합 혐의로 무더기 기소되면서 후폭풍이 거세다. 공정위 제재가 현실화되면 회사별 관련 매출과 담합 가담기간에 따라 과징금이... 10시간 전",
+      "collected_at": "2026-10-06T02:05:44.536777+09:00",
+      "normalized_title": "‘16조 담합’ 법정 간 석화 6사⋯ 과징금·손배 청구서 온다",
+      "source_normalized": "브릿지경제",
+      "duplicate_key": "브릿지경제::‘16조 담합’ 법정 간 석화 6사⋯ 과징금·손배 청구서 온다",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20261005153240598",
+      "id": "db7631a38feb6d05",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "‘16조 담합’ 법정 간 석화 6사⋯ 과징금·손배 청구서 온다새 창 열림",
+      "url": "https://www.viva100.com/article/20261005500415",
+      "source": "새 창 열림",
+      "published_at": "2026-10-05T16:05:41.932508+09:00",
+      "snippet": "국내 주요 석유화학 기업들이 검찰 직접수사 담합 사건 중 역대 최대 규모인 16조원대 가격 담합 혐의로 무더기 기소되면서 후폭풍이 거세다. 공정위 제재가 현실화되면 회사별 관련 매출과 담합 가담기간에 따라 과징금이 부과된다. 게다가 지난 5년간 PVC·가성소다 등 원료 구매 건설·제조업체들이 부당... 새 창 열림",
+      "collected_at": "2026-10-06T02:05:41.932536+09:00",
+      "normalized_title": "‘16조 담합’ 법정 간 석화 6사⋯ 과징금·손배 청구서 온다새 창 열림",
+      "source_normalized": "새 창 열림",
+      "duplicate_key": "새 창 열림::‘16조 담합’ 법정 간 석화 6사⋯ 과징금·손배 청구서 온다새 창 열림",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.viva100.com/article/20261005500415",
+      "id": "7370fbfedf526ac6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
