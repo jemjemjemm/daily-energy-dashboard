@@ -1,0 +1,74 @@
+{
+  "audited_at": "2026-10-06T08:26:55.592503+09:00",
+  "scope": "2026-10-06 Morning 및 10/5 Night",
+  "articles": [
+    {
+      "title": "'실적은 호황, 경영은 가시밭길'…정유 4사, 재판·국감까지",
+      "source": "비즈워치",
+      "published_at": "2026-10-06T06:50:03+09:00",
+      "url": "https://news.bizwatch.co.kr/article/industry/2026/10/02/0037",
+      "canonical_url": "https://news.bizwatch.co.kr/article/industry/2026/10/02/0037",
+      "snippet": "정유업계는 최고가격제 손실보전 산정방식 이견과 지급 지연에 직면. 검찰은 정유사 SK에너지와 HD현대오일뱅크의 가격 담합 혐의를 기소했고, 정무위원회는 정유 4사 대표를 증인으로 채택.",
+      "summary": "△최고가격제 손실 산정방식 이견·정산 지연 및 정유4사 담합 재판·정무위 증인 채택 쟁점 보도",
+      "collected_at": "2026-10-06T08:26:55.592503+09:00",
+      "queries": [
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 원문 전체 본문·최초 입력 2026-10-06T06:50:03+09:00 확인. 검색 상대시각·수정시각 제외."
+    },
+    {
+      "title": "[진단] SK에너지 등 일부 주유소, 정부 시책 역행 · 배척",
+      "source": "투데이에너지",
+      "published_at": "2026-10-06T03:22:52+09:00",
+      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=303839",
+      "canonical_url": "https://www.todayenergy.kr/news/articleView.html?idxno=303839",
+      "snippet": "김원이 의원실 자료, 최근 5년 석유 불법유통 적발 주유소 1270곳·반복 적발 100곳. 본문은 정유사 담합 기소 혐의도 배경으로 설명.",
+      "summary": "△김원이 의원실 자료, 최근 5년 석유 불법유통 적발 주유소 1270곳·반복 적발 100곳 확인",
+      "collected_at": "2026-10-06T08:26:55.592503+09:00",
+      "queries": [
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 원문 전체 본문·최초 입력 2026-10-06T03:22:52+09:00 확인. 검색 상대시각·수정시각 제외."
+    }
+  ],
+  "search_log": [
+    {
+      "raw": "data/raw/2026-10-06-morning-raw.json",
+      "raw_count": 1548,
+      "warnings": 0
+    }
+  ],
+  "exclusions": [
+    {
+      "reason": "포털과 발행사 동일 원문 중복 제거·새 창 열림 매체명 수정·상대시각 제거"
+    },
+    {
+      "url": "https://kpenews.com/View.aspx?No=4252490",
+      "reason": "은행 실적·ELS·국고채 금리 담합으로 석유 담합 맥락 아님"
+    },
+    {
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610021358257830319",
+      "reason": "정유 손실·담합 재판 동일 사건의 비즈워치 상세 원문 대표 채택. 발행사 최초시각 메타 없음으로 검증완료 추가 금지"
+    },
+    {
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03227526645609968&mediaCodeNo=257",
+      "reason": "신문 미리보기 종합기사로 Night 석유 담합 독립 원문에 해당하지 않아 제외"
+    }
+  ],
+  "findings": [
+    "정유4사 증인 채택은 정무위이며 기노위 증인 신청·채택으로 표현하지 않음",
+    "7~8조원은 개략 추산으로 인정손실액 아님",
+    "기소 혐의와 유죄 확정 구분",
+    "Night 기간 10/5 17:00~23:59에 해당하는 독립 관련 원문 확인 건수 0"
+  ]
+}

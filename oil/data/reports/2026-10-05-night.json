@@ -6,76 +6,30 @@
   "period_start": "2026-10-05T17:00:00+09:00",
   "period_end": "2026-10-06T00:00:00+09:00",
   "period_label": "2026-10-05 17:00 ~ 2026-10-06 00:00",
-  "generated_at": "2026-10-06T08:21:34.990111+09:00",
+  "generated_at": "2026-10-06T08:26:55.597609+09:00",
   "keywords": [
-    "유가담합",
-    "유가 담합",
     "정유사 담합",
-    "기름값 담합",
-    "석유 담합",
-    "휘발유 담합",
-    "경유 담합",
-    "주유소 담합",
-    "정유업계 담합",
-    "석유제품 담합",
-    "유류가격 담합",
-    "공정위 유가 담합",
-    "공정거래위원회 정유사 담합"
+    "주유소 담합"
   ],
-  "total_raw_count": 1542,
-  "total_deduped_count": 1,
-  "total_ok_count": 1,
+  "total_raw_count": 0,
+  "total_deduped_count": 0,
+  "total_ok_count": 0,
   "total_review_count": 0,
   "total_excluded_count": 0,
   "grade_counts": {
     "A": 0,
     "B": 0,
-    "C": 1
+    "C": 0
   },
   "portal_counts": {
-    "naver": 130,
-    "daum": 260,
-    "google": 1152
+    "naver": 0,
+    "daum": 0,
+    "google": 0
   },
-  "query_counts": {
-    "공정위 유가 담합": 1,
-    "유가 담합": 1,
-    "유가담합": 1
-  },
+  "query_counts": {},
   "collection_warnings": [],
   "telegram_alert_log": [],
-  "articles": [
-    {
-      "title": "[미리보는 이데일리 신문]“쪽문 노리는 AI…금융사 방어 범위 넓혀야”새 창 열림",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=03227526645609968&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "source": "새 창 열림",
-      "published_at": "2026-10-05T21:20:32.550519+09:00",
-      "snippet": "넘었다 -담합 자진신고 위축될라…공정위, 공정거래법 보완책 검토 -빛으로 뇌 신경세포 조종…‘광유전학’ 개척3人, 노벨생리의학상 수상... 안정세…고유가 부담은 여전 △금융 -바늘구멍 채용에 AI 면접까지…한숨 커진 은준생 -하나금융 청라시대…“새 100년 열자” -금감원 임원 27년 만에 늘린다... 새 창 열림",
-      "collected_at": "2026-10-06T08:20:32.550530+09:00",
-      "normalized_title": "[미리보는 이데일리 신문]“쪽문 노리는 AI…금융사 방어 범위 넓혀야”새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::[미리보는 이데일리 신문]“쪽문 노리는 ai…금융사 방어 범위 넓혀야”새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "공정위 유가 담합",
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 2,
-      "canonical_url": "https://www.edaily.co.kr/News/Read?newsId=03227526645609968&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "id": "bd8efe46ee2558d8",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "공정위",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    }
-  ]
+  "articles": [],
+  "editorial_audit": "data/reviews/2026-10-06-morning.audit.json",
+  "raw_count_basis": "원문 검토 후보 수. 전체 검색 1548건은 raw 파일 보존."
 }
