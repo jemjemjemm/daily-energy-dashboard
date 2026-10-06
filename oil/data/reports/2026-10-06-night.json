@@ -6,7 +6,7 @@
   "period_start": "2026-10-06T17:00:00+09:00",
   "period_end": "2026-10-07T00:00:00+09:00",
   "period_label": "2026-10-06 17:00 ~ 2026-10-07 00:00",
-  "generated_at": "2026-10-07T08:16:01.316291+09:00",
+  "generated_at": "2026-10-07T08:21:28.963539+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -22,125 +22,36 @@
     "공정위 유가 담합",
     "공정거래위원회 정유사 담합"
   ],
-  "total_raw_count": 1548,
-  "total_deduped_count": 3,
-  "total_ok_count": 3,
+  "total_raw_count": 0,
+  "total_deduped_count": 0,
+  "total_ok_count": 0,
   "total_review_count": 0,
-  "total_excluded_count": 2,
+  "total_excluded_count": 0,
   "grade_counts": {
     "A": 0,
     "B": 0,
-    "C": 3
+    "C": 0
   },
   "portal_counts": {
-    "naver": 130,
-    "daum": 260,
-    "google": 1158
+    "naver": 0,
+    "daum": 0,
+    "google": 0
   },
-  "query_counts": {
-    "공정위 유가 담합": 1,
-    "석유 담합": 1,
-    "석유제품 담합": 1,
-    "유가 담합": 2,
-    "유가담합": 2
-  },
-  "collection_warnings": [],
-  "telegram_alert_log": [],
-  "articles": [
+  "query_counts": {},
+  "collection_warnings": [
     {
-      "title": "(크레딧시그널)국민은행, 순익·자본비율 하락…배당 확대 부담",
-      "url": "http://v.daum.net/v/20261006161830638",
-      "source": "IB토마토",
-      "published_at": "2026-10-06T17:14:54.966541+09:00",
-      "snippet": "6개월 만에 18.8%로 높아졌다. 순이자마진(NIM) 상승과 이자수익자산 증가로 이자순이익은 늘었지만, 시장금리 상승에 따른 유가증권 관련 순손실로 비이자 부문에서 순손실을 기록했다. 여기에 홍콩 H지수 주가연계증권(ELS)과 주택담보대출비율(LTV) 담합 관련... 15시간 전",
-      "collected_at": "2026-10-07T08:14:54.966568+09:00",
-      "normalized_title": "(크레딧시그널)국민은행, 순익·자본비율 하락…배당 확대 부담",
-      "source_normalized": "IB토마토",
-      "duplicate_key": "ib토마토::(크레딧시그널)국민은행, 순익·자본비율 하락…배당 확대 부담",
-      "portals": [
-        "daum"
-      ],
-      "queries": [
-        "공정위 유가 담합",
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 2,
-      "canonical_url": "http://v.daum.net/v/20261006161830638",
-      "id": "895702e06917cfc5",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "LG화학, 석화 둔화에 담합 기소까지…하반기 시험대새 창 열림",
-      "url": "https://www.sentv.co.kr/article/view/sentv202610060129",
-      "source": "새 창 열림",
-      "published_at": "2026-10-06T19:15:15.454829+09:00",
-      "snippet": "여기에 석유화학 제품 가격 담합 혐의로 재판에 넘겨지면서 과징금도 실적 변수로 떠올랐습니다. 이수빈 기자입니다. LG화학은 올해 2분기 매출 14조1759억원, 영업이익 5996억원을 기록하며 전 분기 대비 흑자 전환했습니다. 특히 석유화학 부문이 4265억원의 영업이익을 내며 전체 영업이익의 71.1%를... 새 창 열림",
-      "collected_at": "2026-10-07T08:15:15.454848+09:00",
-      "normalized_title": "LG화학, 석화 둔화에 담합 기소까지…하반기 시험대새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::lg화학, 석화 둔화에 담합 기소까지…하반기 시험대새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합",
-        "석유제품 담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "https://www.sentv.co.kr/article/view/sentv202610060129",
-      "id": "b109107ebaf1cc02",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합",
-        "과징금"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "\"유가 하락·환율 직격탄 맞은 LG화학, 하반기 영업적자 전환 불가피\"새 창 열림",
-      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=302142",
-      "source": "새 창 열림",
-      "published_at": "2026-10-06T19:14:51.054298+09:00",
-      "snippet": "상반기에는 지정학 리스크로 인한 국제유가 급등의 영향으로 제품 재고평가이익과 판매단가 상승 효과가 더해져 분기 영업실적이 크게 개선된... 공정거래위원회의 PVC 및 가소제 가격 담합 조사와 과징금 부과 결과로 연내 해당 금액이 충당금 비용으로 반영될 가능성도 지적됐다. 과징금 규모의... 새 창 열림",
-      "collected_at": "2026-10-07T08:14:51.054315+09:00",
-      "normalized_title": "\"유가 하락·환율 직격탄 맞은 LG화학, 하반기 영업적자 전환 불가피\"새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::\"유가 하락·환율 직격탄 맞은 lg화학, 하반기 영업적자 전환 불가피\"새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "https://www.newsquest.co.kr/news/articleView.html?idxno=302142",
-      "id": "4c46706c81bd1138",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "공정거래위원회",
-        "담합",
-        "조사",
-        "과징금"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "level": "warning",
+      "portal": "naver",
+      "query": "공정거래위원회 정유사 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '공정거래위원회 정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EA%B1%B0%EB%9E%98%EC%9C%84%EC%9B%90%ED%9A%8C+%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-10-07T08:14:52.595496+09:00"
     }
-  ]
+  ],
+  "telegram_alert_log": [],
+  "articles": [],
+  "editorial_audit": "data/reviews/2026-10-07-morning.audit.json",
+  "raw_count_basis": "원문 검토 후보 수. 전체 검색 1538건은 raw 파일 보존.",
+  "editorial_note": "검증 완료 원문 0건. 일부 검색·발행사 원문 확인 제한으로 관련 뉴스 부존재를 의미하지 않음."
 }
