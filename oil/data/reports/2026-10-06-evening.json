@@ -6,7 +6,7 @@
   "period_start": "2026-10-06T08:00:00+09:00",
   "period_end": "2026-10-06T17:00:00+09:00",
   "period_label": "2026-10-06 08:00 ~ 2026-10-06 17:00",
-  "generated_at": "2026-10-07T00:05:08.853406+09:00",
+  "generated_at": "2026-10-07T08:30:33.122560+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -22,100 +22,57 @@
     "공정위 유가 담합",
     "공정거래위원회 정유사 담합"
   ],
-  "total_raw_count": 1547,
-  "total_deduped_count": 13,
-  "total_ok_count": 13,
+  "total_raw_count": 2,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
   "total_review_count": 0,
-  "total_excluded_count": 8,
+  "total_excluded_count": 0,
   "grade_counts": {
     "A": 0,
     "B": 1,
-    "C": 12
+    "C": 1
   },
   "portal_counts": {
-    "naver": 130,
-    "daum": 260,
-    "google": 1157
+    "naver": 0,
+    "daum": 0,
+    "google": 0
   },
   "query_counts": {
-    "경유 담합": 1,
-    "공정거래위원회 정유사 담합": 3,
-    "공정위 유가 담합": 2,
-    "기름값 담합": 2,
-    "석유 담합": 12,
-    "석유제품 담합": 8,
-    "유가 담합": 6,
-    "유가담합": 6,
-    "유류가격 담합": 1,
-    "정유사 담합": 4,
-    "정유업계 담합": 6,
-    "주유소 담합": 3,
-    "휘발유 담합": 1
+    "담합": 2,
+    "정유사": 2,
+    "최고가격제": 2
   },
   "collection_warnings": [],
   "telegram_alert_log": [],
   "articles": [
     {
       "title": "‘담합’ 정유·석화, 국감서 뭇매 예고…손실보전도 도마",
-      "url": "http://v.daum.net/v/20261006140651387",
       "source": "뉴스토마토",
-      "published_at": "2026-10-06T15:03:50.059270+09:00",
-      "snippet": "검찰이 산정한 직접 담합 관련 거래 규모는 14조2000억원이며, GS칼텍스와 S-OIL의 가격 추종까지 포함한 경쟁제한 규모는 26조원으로...도 국정감사 뇌관으로 꼽힙니다. 정부는 지난 3월 국제유가 급등에 대응해 최고가격제를 도입한 뒤 정유사 손실을 보전해 주기... 9시간 전",
-      "collected_at": "2026-10-07T00:03:50.059297+09:00",
+      "published_at": "2026-10-06T14:05:20+09:00",
+      "url": "https://www.newstomato.com/readnews.aspx?no=1315735",
+      "canonical_url": "https://www.newstomato.com/readnews.aspx?no=1315735",
+      "snippet": "정무위, 정유사 4사 CEO의 12일 국감 증인 채택 및 정유·석화 담합 혐의·최고가격제 손실보전 쟁점 점검 예고",
+      "summary": "△정무위, 정유사 4사 CEO의 12일 국감 증인 채택 및 정유·석화 담합 혐의·최고가격제 손실보전 쟁점 점검 예고",
+      "collected_at": "2026-10-07T08:30:33.050614+09:00",
+      "queries": [
+        "담합",
+        "정유사",
+        "최고가격제"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 원문 최초 등록 2026-10-06T14:05:20+09:00 및 본문 직접 확인. 수정·포털시각 제외.",
       "normalized_title": "‘담합’ 정유·석화, 국감서 뭇매 예고…손실보전도 도마",
       "source_normalized": "뉴스토마토",
       "duplicate_key": "뉴스토마토::‘담합’ 정유·석화, 국감서 뭇매 예고…손실보전도 도마",
-      "portals": [
-        "daum",
-        "google"
-      ],
-      "queries": [
-        "공정거래위원회 정유사 담합",
-        "공정위 유가 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합",
-        "정유사 담합",
-        "정유업계 담합"
-      ],
-      "duplicate_count": 9,
-      "canonical_url": "http://v.daum.net/v/20261006140651387",
-      "id": "2ba2426aceb2e7e5",
+      "duplicate_count": 0,
+      "id": "5e39ab663402090d",
       "grade": "B",
       "published_at_status": "known",
       "matched_keywords": [
-        "유가",
         "정유사",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "이형일 부총리 \"민생경제 안정화·양극화 완화, 속도감 있게 추진\"",
-      "url": "http://v.daum.net/v/20261006104900101",
-      "source": "MTN 머니투데이방송",
-      "published_at": "2026-10-06T11:04:21.745469+09:00",
-      "snippet": "등 대외 불확실성도 높은 상황\"이라고 평가했다. 이 부총리는 민생경제 안정화와 양극화 완화를 정책 과제의 우선 순위로 꼽았다. 석유류·먹거리 등 민생 밀접 품목의 물가 안정을 도모하고, 담합 등 불공정 행위에는 엄정히 대응, 취약계층의 생활비 부담을... 13시간 전",
-      "collected_at": "2026-10-07T00:04:21.745497+09:00",
-      "normalized_title": "이형일 부총리 \"민생경제 안정화·양극화 완화, 속도감 있게 추진\"",
-      "source_normalized": "MTN 머니투데이방송",
-      "duplicate_key": "mtn 머니투데이방송::이형일 부총리 \"민생경제 안정화·양극화 완화, 속도감 있게 추진\"",
-      "portals": [
-        "daum"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "http://v.daum.net/v/20261006104900101",
-      "id": "31c4b0143bf1c11f",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
         "담합"
       ],
       "quality_status": "ok",
@@ -124,372 +81,40 @@
     },
     {
       "title": "[정유 담합의 덫 ③] 7개월 끈 ‘석유 최고가’…‘기름 과소비·혈세 5.6兆’ 역설",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aTHlzQnJ5V3FIRUxtQWRxOXIzd3FzYk9YYWdnUC1CcVFzbVdUSWpHbVhKeHZSYlVQWUw0dnhqelRTbkRDMklCZEVYNW52S0tCeXQyVFRmdnQ1dElpSFpGekFPTDdlNTVPajNJ0gFuQVVfeXFMTTZtYjNkY3NhMXhFVU5zUWZpOE53NDByYlF1aEdGWlNiSy1PX052M0NzWVZZRjJGU0NoLVRQX0htNTlrUk9zVGxab2g3aWVsbGJwbDR0ZDdBRGxvYWM4VzhTWFFIR3BCM3llMFU5NkE?oc=5",
       "source": "뉴시안",
       "published_at": "2026-10-06T13:28:58+09:00",
-      "snippet": "[정유 담합의 덫 ③] 7개월 끈 ‘석유 최고가’…‘기름 과소비·혈세 5.6兆’ 역설 뉴시안",
-      "collected_at": "2026-10-07T00:04:16.646304+09:00",
+      "url": "https://www.newsian.co.kr/news/articleView.html?idxno=96574",
+      "canonical_url": "https://www.newsian.co.kr/news/articleView.html?idxno=96574",
+      "snippet": "뉴시안, 정유사 최고가격제 장기화·손실정산 방식에 대한 업계 비판 소개 및 재정 부담 문제 제기",
+      "summary": "△뉴시안, 정유사 최고가격제 장기화·손실정산 방식에 대한 업계 비판 소개 및 재정 부담 문제 제기",
+      "collected_at": "2026-10-07T08:30:33.050614+09:00",
+      "queries": [
+        "담합",
+        "정유사",
+        "최고가격제"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 원문 최초 등록 2026-10-06T13:28:58+09:00 및 본문 직접 확인. 수정·포털시각 제외.",
       "normalized_title": "[정유 담합의 덫 ③] 7개월 끈 ‘석유 최고가’…‘기름 과소비·혈세 5.6兆’ 역설",
       "source_normalized": "뉴시안",
       "duplicate_key": "뉴시안::[정유 담합의 덫 ③] 7개월 끈 ‘석유 최고가’…‘기름 과소비·혈세 5.6兆’ 역설",
-      "portals": [
-        "google"
-      ],
-      "queries": [
-        "기름값 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "정유업계 담합"
-      ],
-      "duplicate_count": 3,
-      "canonical_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aTHlzQnJ5V3FIRUxtQWRxOXIzd3FzYk9YYWdnUC1CcVFzbVdUSWpHbVhKeHZSYlVQWUw0dnhqelRTbkRDMklCZEVYNW52S0tCeXQyVFRmdnQ1dElpSFpGekFPTDdlNTVPajNJ0gFuQVVfeXFMTTZtYjNkY3NhMXhFVU5zUWZpOE53NDByYlF1aEdGWlNiSy1PX052M0NzWVZZRjJGU0NoLVRQX0htNTlrUk9zVGxab2g3aWVsbGJwbDR0ZDdBRGxvYWM4VzhTWFFIR3BCM3llMFU5NkE?oc=5",
-      "id": "42626c42b7371cc7",
+      "duplicate_count": 0,
+      "id": "9d81948a967366ce",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
-        "석유",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "‘담합’ 정유·석화, 국감서 뭇매 예고…손실보전도 도마새 창 열림",
-      "url": "http://www.newstomato.com/ReadNews.aspx?no=1315735&inflow=N",
-      "source": "새 창 열림",
-      "published_at": "2026-10-06T15:03:45.237045+09:00",
-      "snippet": "검찰은 지난 7월 SK에너지와 HD현대오일뱅크가 가격 정보를 교환하고 석유제품 공급가격의 인상 시기와 폭을 조율했다고 보고 재판에 넘겼습니다. 검찰이 산정한 직접 담합 관련 거래 규모는 14조2000억원이며, GS칼텍스와 S-OIL의 가격 추종까지 포함한 경쟁제한 규모는 26조원으로 추산됩니다. 한 정유업계... 새 창 열림",
-      "collected_at": "2026-10-07T00:03:45.237064+09:00",
-      "normalized_title": "‘담합’ 정유·석화, 국감서 뭇매 예고…손실보전도 도마새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::‘담합’ 정유·석화, 국감서 뭇매 예고…손실보전도 도마새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "공정거래위원회 정유사 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합",
-        "정유사 담합",
-        "정유업계 담합"
-      ],
-      "duplicate_count": 6,
-      "canonical_url": "http://www.newstomato.com/ReadNews.aspx?no=1315735&inflow=N",
-      "id": "3448d93cfd329eec",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "정유업계",
-        "석유제품",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[정유 담합의 덫 ③] 7개월 끈 '석유 최고가'…'기름 과소비·혈세 5.6兆...새 창 열림",
-      "url": "http://www.newsian.co.kr/news/articleView.html?idxno=96574",
-      "source": "새 창 열림",
-      "published_at": "2026-10-06T14:03:45.239162+09:00",
-      "snippet": "미국·이란 전쟁 발발 이후 검찰이 국내 정유사들을 상대로 14~26조 원대 담합 혐의를 적용해 재판에 넘겼다. 한편 정부가 유가 급등에 대응해 꺼내든 '석유 최고가격제'는 한시 운영 계획을 넘어 7개월째 이어지며 5조 6000억 원이 넘는 재정 투입과 시장 왜곡 논란을 낳고 있다. 뉴시안은 오랜 기간 석유제품 가격... 새 창 열림",
-      "collected_at": "2026-10-07T00:03:45.239180+09:00",
-      "normalized_title": "[정유 담합의 덫 ③] 7개월 끈 '석유 최고가'…'기름 과소비·혈세 5.6兆...새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::[정유 담합의 덫 ③] 7개월 끈 '석유 최고가'…'기름 과소비·혈세 5.6兆...새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합",
-        "유류가격 담합",
-        "정유사 담합",
-        "정유업계 담합",
-        "주유소 담합"
-      ],
-      "duplicate_count": 7,
-      "canonical_url": "http://www.newsian.co.kr/news/articleView.html?idxno=96574",
-      "id": "d74a90825274177e",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
         "석유",
         "정유사",
-        "석유제품",
         "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "정유 4사 겨누는 국감…14조 담합부터 거래관행까지 ‘도마’새 창 열림",
-      "url": "https://www.mydaily.co.kr/page/view/2026100610333140885",
-      "source": "새 창 열림",
-      "published_at": "2026-10-06T14:03:45.238131+09:00",
-      "snippet": "국제 유가 하락기에도 국내 주유소 기름값이 더디게 내려갔던 원인이 정유사 간 밀실 담합 때문이었다는 지적이 제기된다. 앞서 검찰은 HD현대오일뱅크와 SK에너지가 2024년 7월부터 올해 2월까지 가격 정보를 교환했고, 올해 3월 중동전쟁이 본격화한 뒤에는 석유제품 공급가격 인상에 합의한 것으로 보고 있다.... 새 창 열림",
-      "collected_at": "2026-10-07T00:03:45.238147+09:00",
-      "normalized_title": "정유 4사 겨누는 국감…14조 담합부터 거래관행까지 ‘도마’새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::정유 4사 겨누는 국감…14조 담합부터 거래관행까지 ‘도마’새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "경유 담합",
-        "공정거래위원회 정유사 담합",
-        "공정위 유가 담합",
-        "기름값 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합",
-        "정유사 담합",
-        "정유업계 담합",
-        "주유소 담합",
-        "휘발유 담합"
-      ],
-      "duplicate_count": 11,
-      "canonical_url": "https://www.mydaily.co.kr/page/view/2026100610333140885",
-      "id": "5669e19b3416e42e",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "석유",
-        "정유사",
-        "기름값",
-        "주유소",
-        "석유제품",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "정유 14조2000억원, 석화 16조3961억원…담합 기소 잇따라 국감 쟁점 부...새 창 열림",
-      "url": "http://www.dailypop.kr/news/articleView.html?idxno=103104",
-      "source": "새 창 열림",
-      "published_at": "2026-10-06T12:04:17.929304+09:00",
-      "snippet": "검찰이 특정한 석유화학 담합 규모는 16조3961억원이다. 공정거래조사부가 앞서 처리한 전분당(10조1520억원대), 밀가루(5조9913억원), 설탕(3조2715억원) 사건과 비교해 가장 크다. 기소된 법인은 LG화학·OCI·PKC·애경케미칼·롯데정밀화학·유니드다. 개인 37명에는 김유신 OCI 대표이사 부회장과 장영수 전 PKC... 새 창 열림",
-      "collected_at": "2026-10-07T00:04:17.929320+09:00",
-      "normalized_title": "정유 14조2000억원, 석화 16조3961억원…담합 기소 잇따라 국감 쟁점 부...새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::정유 14조2000억원, 석화 16조3961억원…담합 기소 잇따라 국감 쟁점 부...새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합",
-        "석유제품 담합",
-        "정유업계 담합",
-        "주유소 담합"
-      ],
-      "duplicate_count": 3,
-      "canonical_url": "http://www.dailypop.kr/news/articleView.html?idxno=103104",
-      "id": "3fc7445853f22a93",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합",
-        "조사"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[단독] [2026 국감] ‘상습 위반’ 대기업 지원하는 정부…산업부 산하...새 창 열림",
-      "url": "https://www.ekn.kr/web/view.php?key=20261006023442530",
-      "source": "새 창 열림",
-      "published_at": "2026-10-06T11:04:17.931220+09:00",
-      "snippet": "지원금의 절반 이상은 KCC글라스 한 곳에 몰렸고, 담합으로 거액의 과징금을 부과받은 해에 오히려 지원액이 늘어난 기업도 있었다. 반복 위반... 기관별로는 한국산업기술기획평가원(KEIT)이 153억3400만원(57건)으로 대부분을 집행했고, 한국석유관리원 38억5000만원, 한국산업기술진흥원... 새 창 열림",
-      "collected_at": "2026-10-07T00:04:17.931235+09:00",
-      "normalized_title": "[2026 국감] ‘상습 위반’ 대기업 지원하는 정부…산업부 산하...새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::[2026 국감] ‘상습 위반’ 대기업 지원하는 정부…산업부 산하...새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.ekn.kr/web/view.php?key=20261006023442530",
-      "id": "b7087a0fa05072a4",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합",
-        "과징금"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "이형일 부총리 \"민생경제 안정화·양극화 완화, 속도감 있게 추진\"새 창 열림",
-      "url": "https://news.mtn.co.kr/news-detail/2026100610083025989",
-      "source": "새 창 열림",
-      "published_at": "2026-10-06T11:03:45.240140+09:00",
-      "snippet": "고유가 장기화로 민생 부담 지속과 부문별 양극화, 잠재성장률 둔화 등 구조적 문제가 상존하고 있다. 중동전쟁 등 대외 불확실성도 높은 상황\"이라고 평가했다.이 부총리는 민생경제 안정화와 양극화 완화를 정책 과제의 우선 순위로 꼽았다. 석유류·먹거리 등 민생 밀접 품목의 물가 안정을 도모하고, 담합 등... 새 창 열림",
-      "collected_at": "2026-10-07T00:03:45.240159+09:00",
-      "normalized_title": "이형일 부총리 \"민생경제 안정화·양극화 완화, 속도감 있게 추진\"새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::이형일 부총리 \"민생경제 안정화·양극화 완화, 속도감 있게 추진\"새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합",
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 2,
-      "canonical_url": "https://news.mtn.co.kr/news-detail/2026100610083025989",
-      "id": "0e7c6bbe5e683c27",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "석유",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "美 대법원, ‘기후소송’ 허용 여부 심리 [ESG 뉴스 5]새 창 열림",
-      "url": "https://magazine.hankyung.com/business/article/202610064629b",
-      "source": "새 창 열림",
-      "published_at": "2026-10-06T10:04:17.932229+09:00",
-      "snippet": "美 대법원, ‘기후소송’ 허용 여부 심리 미국 연방대법원이 지방정부가 기후변화 피해를 이유로 석유기업을 상대로 제기한 소송을 주법에 따라... 원고 측은 맥도날드가 비공개 데이터를 학습한 알고리즘을 활용해 독립 사업자인 가맹점들과 가격을 사실상 담합해 미국 반독점법을 위반했다고... 새 창 열림",
-      "collected_at": "2026-10-07T00:04:17.932245+09:00",
-      "normalized_title": "美 대법원, ‘기후소송’ 허용 여부 심리 [ESG 뉴스 5]새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::美 대법원, ‘기후소송’ 허용 여부 심리 [esg 뉴스 5]새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://magazine.hankyung.com/business/article/202610064629b",
-      "id": "8ade886ec31228e6",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "'사법 변수' 만난 LG화학 사업 재편···'엔솔 지분' 활용 앞당기나새 창 열림",
-      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=712352",
-      "source": "새 창 열림",
-      "published_at": "2026-10-06T09:04:17.934135+09:00",
-      "snippet": "최근 검찰이 16조 원대 규모의 석유화학 제품 가격 담합 사건과 관련해 주요 기업들을 무더기로 재판에 넘기면서, LG화학이 추진해 온 석유화학 부문 구조조정과 체질 개선 작업이 거대한 사법 리스크에 직면했다. 국회 국정감사가 본격적인 막을 올린 가운데 대국회 리스크 관리와 역대 최고 수준의 법정 공방에... 새 창 열림",
-      "collected_at": "2026-10-07T00:04:17.934152+09:00",
-      "normalized_title": "'사법 변수' 만난 LG화학 사업 재편···'엔솔 지분' 활용 앞당기나새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::'사법 변수' 만난 lg화학 사업 재편···'엔솔 지분' 활용 앞당기나새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합",
-        "석유제품 담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=712352",
-      "id": "ed50ba633b1c4984",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "LG화학, '효자' 석화 3분기엔 '역풍'…과징금은 '변수'새 창 열림",
-      "url": "https://dealsite.co.kr/articles/170103",
-      "source": "새 창 열림",
-      "published_at": "2026-10-06T09:04:17.933198+09:00",
-      "snippet": "올해 2분기 호실적을 견인했던 석유화학 부문의 수익성 둔화가 예상되는 데다 첨단소재 부문은 제자리를 걷고 있고, 석유화학 제품 가격 담합 의혹까지 겹치면서다. 과징금 규모나 담합 여부가 아직 나오지 않았지만 하반기 실적에 반영된다면 재무적 부담이 커질 것이라는 분석이다. 업계에 따르면... 새 창 열림",
-      "collected_at": "2026-10-07T00:04:17.933214+09:00",
-      "normalized_title": "LG화학, '효자' 석화 3분기엔 '역풍'…과징금은 '변수'새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::lg화학, '효자' 석화 3분기엔 '역풍'…과징금은 '변수'새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합",
-        "석유제품 담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "https://dealsite.co.kr/articles/170103",
-      "id": "394509c67102b09f",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합",
-        "과징금"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "하나증권 \"은행권, 3분기 순익 7.4조원 전망..비경상 요인 빼면 전분기비...새 창 열림",
-      "url": "https://kpenews.com/View.aspx?No=4252490",
-      "source": "새 창 열림",
-      "published_at": "2026-10-06T08:03:45.241110+09:00",
-      "snippet": "반면 iM금융과 BNK금융 등 중소형 은행지주는 유가증권 관련 이익 감소 등의 영향으로 시장 기대치를 다소 밑돌 것으로 전망됐다. 자본건전성은... 홍콩 ELS 과징금과 국고채 금리 관련 담합 의혹에 대한 과징금 부과 여부는 10월 말 전후로 결론이 날 가능성이 있는 것으로 분석됐다. 이에 따라 은행권의... 새 창 열림",
-      "collected_at": "2026-10-07T00:03:45.241128+09:00",
-      "normalized_title": "하나증권 \"은행권, 3분기 순익 7.4조원 전망..비경상 요인 빼면 전분기비...새 창 열림",
-      "source_normalized": "새 창 열림",
-      "duplicate_key": "새 창 열림::하나증권 \"은행권, 3분기 순익 7.4조원 전망..비경상 요인 빼면 전분기비...새 창 열림",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "https://kpenews.com/View.aspx?No=4252490",
-      "id": "9dfcdbeb725a5d19",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "담합",
-        "과징금"
       ],
       "quality_status": "ok",
       "status_label": "정상",
       "status_reason": "유가담합 관련 맥락 확인"
     }
-  ]
+  ],
+  "editorial_audit": "data/reviews/2026-10-06-evening.audit.json",
+  "raw_count_basis": "원문 검토 대표 후보 수. 자동수집 raw 원본 보존."
 }
