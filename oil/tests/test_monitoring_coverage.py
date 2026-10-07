@@ -13,6 +13,22 @@ import requests
 
 
 class MonitoringCoverageTests(unittest.TestCase):
+    def test_company_named_collusion_story_is_not_dropped(self):
+        item = dict(title='사후 정보라는 HD현대오일뱅크, 공정위는 가격 합의 판단',
+                    snippet='회사는 합의를 부인했다.', source='인사이트',
+                    published_at='2026-10-08T07:30:00+09:00',
+                    url='https://press.test/company', verified=True)
+        report = build_report(dict(items=[item]), '2026-10-08', 'morning')
+        self.assertEqual(report['total_deduped_count'], 1)
+
+    def test_ebn_portal_and_original_names_merge(self):
+        item = dict(title='SK에너지 가격 담합 심의', snippet='공정위 심사보고서',
+                    published_at='2026-10-08T06:54:00+09:00', url='https://press.test/ebn')
+        report = build_report(dict(items=[dict(item, source='EBN'),
+                                         dict(item, source='EBN산업경제')]),
+                              '2026-10-08', 'morning')
+        self.assertEqual(report['total_deduped_count'], 1)
+
     def test_same_story_keeps_each_publisher_and_real_raw_count(self):
         base = dict(title='SK에너지 정유사 유가 담합 심의', snippet='공정위 심사보고서',
                     published_at='2026-10-07T12:00:00+09:00', url='https://press.test/a', verified=False)

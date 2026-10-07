@@ -6,7 +6,7 @@
   "period_start": "2026-10-07T17:00:00+09:00",
   "period_end": "2026-10-08T00:00:00+09:00",
   "period_label": "2026-10-07 17:00 ~ 2026-10-08 00:00",
-  "generated_at": "2026-10-08T08:27:35.691209+09:00",
+  "generated_at": "2026-10-08T08:36:27.475314+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -22,44 +22,65 @@
     "공정위 유가 담합",
     "공정거래위원회 정유사 담합"
   ],
-  "total_raw_count": 776,
-  "total_enriched_input_count": 776,
-  "total_in_period_unique_count": 50,
+  "total_raw_count": 1779,
+  "total_enriched_input_count": 237,
+  "total_in_period_unique_count": 56,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 91,
-  "total_deduped_count": 40,
-  "total_ok_count": 40,
-  "total_review_count": 0,
-  "total_excluded_count": 12,
+  "total_outside_period_count": 76,
+  "total_deduped_count": 37,
+  "total_ok_count": 10,
+  "total_review_count": 27,
+  "total_excluded_count": 19,
   "grade_counts": {
-    "A": 10,
-    "B": 9,
-    "C": 21
+    "A": 6,
+    "B": 7,
+    "C": 24
   },
   "portal_counts": {
-    "naver": 170,
-    "daum": 276,
-    "google": 330
+    "naver": 377,
+    "daum": 618,
+    "google": 784
   },
   "query_counts": {
-    "SK에너지 담합": 26,
-    "경유 담합": 19,
+    "44조 담합": 26,
+    "SK에너지 담합": 29,
+    "SK에너지 현대오일뱅크": 30,
+    "경유 담합": 18,
     "공정거래위원회 정유사 담합": 16,
-    "공정위 유가 담합": 21,
+    "공정위 유가 담합": 20,
     "기름값 담합": 9,
-    "석유 담합": 17,
+    "석유 담합": 22,
     "석유제품 담합": 6,
-    "유가 담합": 22,
-    "유가 짬짜미": 6,
-    "유가담합": 21,
-    "정유 44조": 6,
-    "정유사 담합": 19,
-    "정유업계 담합": 8,
-    "주유소 담합": 9,
-    "현대오일뱅크 담합": 29,
-    "휘발유 담합": 18
+    "유가 담합": 19,
+    "유가 짬짜미": 3,
+    "유가담합": 19,
+    "정유 44조": 4,
+    "정유 가격정보": 13,
+    "정유사 담합": 17,
+    "정유업계 담합": 5,
+    "주유소 담합": 6,
+    "현대오일뱅크 담합": 31,
+    "휘발유 담합": 17
   },
   "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-08T08:24:45.995355+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-08T08:28:38.546479+09:00"
+    },
     {
       "level": "warning",
       "portal": "naver",
@@ -73,27 +94,51 @@
   "telegram_alert_log": [],
   "articles": [
     {
-      "title": "공정위 “SK·현대오일 44조 담합 ”… 정유 사 “이미 공개된 정보” 반발",
+      "title": "공정위 “SK·현대오일 44조 담합”…정유사 “이미 공개된 정보” 반발",
       "url": "https://www.joongang.co.kr/article/25467922",
       "source": "중앙일보",
-      "published_at": "2026-10-07T17:27:03.818761+09:00",
+      "published_at": "2026-10-07T17:16:30+09:00",
       "snippet": "다른 정유업계 관계자도 “ 담합 이 성립하려면 공동으로 가격을 결정하는 행위가 있어야 하는데, 이미 결정된 가격을 공유한 것일 뿐 사전에 가격을 함께 정한 것은 아니다”라고 말했다. 또 2020년 SK 측은 자산 유동화를 추진하며 SK네트웍스의 200여개 직영주유소 등 영업자산과 관련 인력을 HD현대오일뱅크에...",
-      "collected_at": "2026-10-08T08:27:03.818777+09:00",
-      "normalized_title": "공정위 “SK·현대오일 44조 담합 ”… 정유 사 “이미 공개된 정보” 반발",
+      "collected_at": "2026-10-08T08:25:05.746023+09:00",
+      "normalized_title": "공정위 “SK·현대오일 44조 담합”…정유사 “이미 공개된 정보” 반발",
       "source_normalized": "중앙일보",
-      "duplicate_key": "중앙일보::공정위 “sk·현대오일 44조 담합 ”… 정유 사 “이미 공개된 정보” 반발",
+      "duplicate_key": "중앙일보::공정위 “sk·현대오일 44조 담합”…정유사 “이미 공개된 정보” 반발",
       "portals": [
-        "naver"
+        "naver",
+        "daum",
+        "google"
       ],
       "queries": [
-        "정유업계 담합"
+        "44조 담합",
+        "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유 44조",
+        "정유 가격정보",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
       ],
-      "duplicate_count": 0,
+      "duplicate_count": 4,
       "canonical_url": "https://www.joongang.co.kr/article/25467922",
-      "id": "857601b3648fe2af",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-07T17:16:30+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "369f7fe595bbba8c",
       "grade": "A",
       "published_at_status": "known",
       "matched_keywords": [
+        "정유사",
         "정유업계",
         "주유소",
         "공정위",
@@ -104,101 +149,24 @@
       "status_reason": "유가담합 관련 맥락 확인"
     },
     {
-      "title": "공정위 “SK·현대오일 44조 담합”…정유사 “이미 공개된 정보” 반발",
-      "url": "http://v.daum.net/v/20261007171843365",
-      "source": "중앙일보",
-      "published_at": "2026-10-07T17:26:33.510439+09:00",
-      "snippet": "매출액은 약 44조1000억원, 하루 평균 약 300억원 규모다. 공정위는 이번 행위가 공정거래법상 가격담합 및 정보교환 금지 규정을...공정위 카르텔조사국장은 “전쟁 상황에서는 국제유가가 급변하기 때문에 이 부분이 정보교환을 시작하게 된 하나의 계기로 작용... 15시간 전",
-      "collected_at": "2026-10-08T08:26:33.510455+09:00",
-      "normalized_title": "공정위 “SK·현대오일 44조 담합”…정유사 “이미 공개된 정보” 반발",
-      "source_normalized": "중앙일보",
-      "duplicate_key": "중앙일보::공정위 “sk·현대오일 44조 담합”…정유사 “이미 공개된 정보” 반발",
-      "portals": [
-        "daum",
-        "google"
-      ],
-      "queries": [
-        "SK에너지 담합",
-        "경유 담합",
-        "공정거래위원회 정유사 담합",
-        "공정위 유가 담합",
-        "기름값 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합",
-        "정유 44조",
-        "정유사 담합",
-        "정유업계 담합",
-        "주유소 담합",
-        "현대오일뱅크 담합",
-        "휘발유 담합"
-      ],
-      "duplicate_count": 23,
-      "canonical_url": "http://v.daum.net/v/20261007171843365",
-      "id": "328f45b0eec867a3",
-      "grade": "A",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "정유사",
-        "공정위",
-        "담합",
-        "가격담합",
-        "조사"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "과거엔 증거 부족으로 패소…공정위, 정유 사 44조 담합 이번엔 입증할까",
+      "title": "과거엔 증거 부족으로 패소…공정위, 정유사 44조 담합 이번엔 입증할까",
       "url": "https://www.donga.com/news/Economy/article/all/20261007/134803105/2",
       "source": "동아일보",
-      "published_at": "2026-10-07T17:27:03.819829+09:00",
-      "snippet": "약 44조 1000억원이다. 다만 이 가운데 대부분은 정보교환 행위와 관련된 매출이며, 직접적인 가격합의는 올해 3월 두 차례에 그쳤다. ● 점유율 49% 두 회사…입금가·확정가 정보까지 공유했나 국내 휘발유·경유·등유 시장은 SK에너지와 HD현대오일뱅크, GS칼텍스, 에쓰오일 등 4개 정유 사가 약 98%를 차지하는...",
-      "collected_at": "2026-10-08T08:27:03.819844+09:00",
-      "normalized_title": "과거엔 증거 부족으로 패소…공정위, 정유 사 44조 담합 이번엔 입증할까",
-      "source_normalized": "동아일보",
-      "duplicate_key": "동아일보::과거엔 증거 부족으로 패소…공정위, 정유 사 44조 담합 이번엔 입증할까",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "정유 44조",
-        "정유업계 담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "https://www.donga.com/news/Economy/article/all/20261007/134803105/2",
-      "id": "b6f53c77894981fe",
-      "grade": "A",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "휘발유",
-        "경유",
-        "공정위",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "과거엔 증거 부족으로 패소…공정위, 정유사 44조 담합 이번엔 입증할까",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tRzlHWi1rWXY0cXBVdXlmbktEZTJ5S2l1ampOSDJWZmxJRXNWdjRBcWZMTHdyQjE1bzFqWGtkbmVfS0c3Q1ViWm1WVUtVYmdISW1CY3hrTVVOVWZrZlNkY29NQU1TQdIBZkFVX3lxTE8tRzlHWi1rWXY0cXBVdXlmbktEZTJ5S2l1ampOSDJWZmxJRXNWdjRBcWZMTHdyQjE1bzFqWGtkbmVfS0c3Q1ViWm1WVUtVYmdISW1CY3hrTVVOVWZrZlNkY29NQU1TQQ?oc=5",
-      "source": "동아일보",
       "published_at": "2026-10-07T17:03:55+09:00",
-      "snippet": "약 44조1000억원이다. 다만 이 가운데 대부분은 정보교환 행위와 관련된 매출이며, 직접적인 가격합의는 올해 3월 두 차례에 그쳤다. ● 점유율 49% 두 회사…입금가·확정가 정보까지 공유했나 국내 휘발유·경유·등유 시장은 SK에너지와 HD현대오일뱅크, GS칼텍스... 15시간 전",
-      "collected_at": "2026-10-08T08:26:34.221920+09:00",
+      "snippet": "약 44조 1000억원이다. 다만 이 가운데 대부분은 정보교환 행위와 관련된 매출이며, 직접적인 가격합의는 올해 3월 두 차례에 그쳤다. ● 점유율 49% 두 회사…입금가·확정가 정보까지 공유했나 국내 휘발유·경유·등유 시장은 SK에너지와 HD현대오일뱅크, GS칼텍스, 에쓰오일 등 4개 정유 사가 약 98%를 차지하는...",
+      "collected_at": "2026-10-08T08:25:05.746890+09:00",
       "normalized_title": "과거엔 증거 부족으로 패소…공정위, 정유사 44조 담합 이번엔 입증할까",
       "source_normalized": "동아일보",
       "duplicate_key": "동아일보::과거엔 증거 부족으로 패소…공정위, 정유사 44조 담합 이번엔 입증할까",
       "portals": [
+        "naver",
         "daum",
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "경유 담합",
         "공정거래위원회 정유사 담합",
         "공정위 유가 담합",
@@ -207,15 +175,20 @@
         "유가 담합",
         "유가담합",
         "정유 44조",
+        "정유 가격정보",
         "정유사 담합",
         "정유업계 담합",
         "주유소 담합",
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 18,
-      "canonical_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tRzlHWi1rWXY0cXBVdXlmbktEZTJ5S2l1ampOSDJWZmxJRXNWdjRBcWZMTHdyQjE1bzFqWGtkbmVfS0c3Q1ViWm1WVUtVYmdISW1CY3hrTVVOVWZrZlNkY29NQU1TQdIBZkFVX3lxTE8tRzlHWi1rWXY0cXBVdXlmbktEZTJ5S2l1ampOSDJWZmxJRXNWdjRBcWZMTHdyQjE1bzFqWGtkbmVfS0c3Q1ViWm1WVUtVYmdISW1CY3hrTVVOVWZrZlNkY29NQU1TQQ?oc=5",
-      "id": "2995cf3b4fe4e990",
+      "duplicate_count": 2,
+      "canonical_url": "https://www.donga.com/news/Economy/article/all/20261007/134803105/2",
+      "verified": false,
+      "published_at_basis": "original_article",
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "time_evidence": "원문 published_time 2026-10-07T17:03:55+09:00",
+      "id": "ef1a5c2024cc3b44",
       "grade": "A",
       "published_at_status": "known",
       "matched_keywords": [
@@ -225,9 +198,9 @@
         "공정위",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
     },
     {
       "title": "44조 규모 유가 담합 혐의…SK에너지·현대오일뱅크 공정위 심의 착수",
@@ -235,7 +208,7 @@
       "source": "한겨레",
       "published_at": "2026-10-07T17:57:00+09:00",
       "snippet": "44조 규모 유가 담합 혐의…SK에너지·현대오일뱅크 공정위 심의 착수 한겨레",
-      "collected_at": "2026-10-08T08:26:34.218408+09:00",
+      "collected_at": "2026-10-08T08:24:48.631094+09:00",
       "normalized_title": "44조 규모 유가 담합 혐의…SK에너지·현대오일뱅크 공정위 심의 착수",
       "source_normalized": "한겨레",
       "duplicate_key": "한겨레::44조 규모 유가 담합 혐의…sk에너지·현대오일뱅크 공정위 심의 착수",
@@ -243,15 +216,21 @@
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "공정위 유가 담합",
         "석유 담합",
         "유가 담합",
         "유가담합",
+        "정유 가격정보",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 5,
+      "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE40aTBSXzMteTB3Yy1xMWdveXJXOTlxMXhfVW1lMWxjcVZxQmI0VGNreDVCXzhGQVZmUl9oSFc1V0w3SzluTElUdE5ZVVdjbGxVSDNrdkU0X3lzZ2d1eTROZzk0Mk5oYmpQY3BIdURBM2tfUQ?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "bbef7cdf8a44accc",
       "grade": "A",
       "published_at_status": "known",
@@ -260,48 +239,17 @@
         "공정위",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "SK에너지·현대오일뱅크 44조 유가담합 의혹 조사 [경제 레이더]",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FZEJsRkJmYmhzT21MTWM0c21VS3plV2p6NWRIRXZFSlVISHRJaHI2aTF3NjZxOEo3czFGY1FVV250VVh4M0RTVGRyZzB6cHlyUnA4QdIBVEFVX3lxTE9FZEJsRkJmYmhzT21MTWM0c21VS3plV2p6NWRIRXZFSlVISHRJaHI2aTF3NjZxOEo3czFGY1FVV250VVh4M0RTVGRyZzB6cHlyUnA4QQ?oc=5",
-      "source": "세계일보",
-      "published_at": "2026-10-07T19:53:46+09:00",
-      "snippet": "SK에너지·현대오일뱅크 44조 유가담합 의혹 조사 [경제 레이더] 세계일보",
-      "collected_at": "2026-10-08T08:26:34.220009+09:00",
-      "normalized_title": "SK에너지·현대오일뱅크 44조 유가담합 의혹 조사 [경제 레이더]",
-      "source_normalized": "세계일보",
-      "duplicate_key": "세계일보::sk에너지·현대오일뱅크 44조 유가담합 의혹 조사 [경제 레이더]",
-      "portals": [
-        "google"
-      ],
-      "queries": [
-        "유가담합",
-        "현대오일뱅크 담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FZEJsRkJmYmhzT21MTWM0c21VS3plV2p6NWRIRXZFSlVISHRJaHI2aTF3NjZxOEo3czFGY1FVV250VVh4M0RTVGRyZzB6cHlyUnA4QdIBVEFVX3lxTE9FZEJsRkJmYmhzT21MTWM0c21VS3plV2p6NWRIRXZFSlVISHRJaHI2aTF3NjZxOEo3czFGY1FVV250VVh4M0RTVGRyZzB6cHlyUnA4QQ?oc=5",
-      "id": "c3b99994b8f5504d",
-      "grade": "A",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "담합",
-        "조사"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
       "title": "SK에너지·HD현대오일뱅크 … 공정위 '44조 담합' 심의 시작",
       "url": "http://v.daum.net/v/20261007192400485",
       "source": "매일경제",
-      "published_at": "2026-10-07T19:26:48.414476+09:00",
+      "published_at": "2026-10-07T19:24:00+09:00",
       "snippet": "공정거래위원회가 SK에너지와 HD현대오일뱅크의 석유류 담합 혐의에 제재 의견을 담은 심사보고서를 송부했다고 7일 밝혔다. 약 4년간 휘발유·경유·등유 등 판매가격에 대한 정보를 교환하며 중동 전쟁 발발 이후 판매가격을 담합한 혐의다. 심사보고서가 송부되고... 13시간 전",
-      "collected_at": "2026-10-08T08:26:48.414491+09:00",
+      "collected_at": "2026-10-08T08:24:56.343548+09:00",
       "normalized_title": "SK에너지·HD현대오일뱅크 … 공정위 '44조 담합' 심의 시작",
       "source_normalized": "매일경제",
       "duplicate_key": "매일경제::sk에너지·hd현대오일뱅크 … 공정위 '44조 담합' 심의 시작",
@@ -309,14 +257,20 @@
         "daum"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "경유 담합",
         "석유 담합",
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 4,
+      "duplicate_count": 0,
       "canonical_url": "http://v.daum.net/v/20261007192400485",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 7. 19:24",
+      "verified": false,
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인",
       "id": "08bd4a3b62e00adc",
       "grade": "A",
       "published_at_status": "known",
@@ -329,17 +283,17 @@
         "담합",
         "제재"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
     },
     {
       "title": "공정위, 44조 '유가 담합' 정유사 제재 착수",
-      "url": "http://v.daum.net/v/20261007175114168",
+      "url": "https://www.hankyung.com/article/2026100791551",
       "source": "한국경제",
-      "published_at": "2026-10-07T18:26:33.509406+09:00",
+      "published_at": "2026-10-07T17:49:00+09:00",
       "snippet": "최소 1조3230억원에서 최대 4조6305억원에 이를 전망이다. 담합 관련 역대 최대 과징금 부과 사건은 전분·전분당 담합이다. 당시...사건을 수사해 SK에너지와 HD현대오일뱅크를 비롯해 4대 정유사를 공정거래법 위반 혐의로 모두 기소했다. 가격 담합을 주도한 혐의... 14시간 전",
-      "collected_at": "2026-10-08T08:26:33.509421+09:00",
+      "collected_at": "2026-10-08T08:24:47.714401+09:00",
       "normalized_title": "공정위, 44조 '유가 담합' 정유사 제재 착수",
       "source_normalized": "한국경제",
       "duplicate_key": "한국경제::공정위, 44조 '유가 담합' 정유사 제재 착수",
@@ -347,7 +301,9 @@
         "daum"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "경유 담합",
         "공정거래위원회 정유사 담합",
         "공정위 유가 담합",
@@ -357,9 +313,13 @@
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 8,
-      "canonical_url": "http://v.daum.net/v/20261007175114168",
-      "id": "ea8cce7779e5da09",
+      "duplicate_count": 0,
+      "canonical_url": "https://www.hankyung.com/article/2026100791551",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.10.07 17:49",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "2591d95eecd1c133",
       "grade": "A",
       "published_at_status": "known",
       "matched_keywords": [
@@ -380,7 +340,7 @@
       "source": "서울경제",
       "published_at": "2026-10-07T17:40:51+09:00",
       "snippet": "44조 기름값 담합 의혹… SK에너지·현대오일뱅크에 칼 뺀 공정위 서울경제",
-      "collected_at": "2026-10-08T08:26:38.098624+09:00",
+      "collected_at": "2026-10-08T08:24:55.076676+09:00",
       "normalized_title": "44조 기름값 담합 의혹… SK에너지·현대오일뱅크에 칼 뺀 공정위",
       "source_normalized": "서울경제",
       "duplicate_key": "서울경제::44조 기름값 담합 의혹… sk에너지·현대오일뱅크에 칼 뺀 공정위",
@@ -388,16 +348,21 @@
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "경유 담합",
         "공정위 유가 담합",
         "기름값 담합",
         "석유 담합",
-        "유가 담합",
+        "정유 가격정보",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 6,
+      "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xb0lySnV6VXRiTXVYU0l5RUhfRGhiblVrVkJPQlN1S0tYNXpic19SRW41OUlLSXdxZE1DWEhaMnROM2xpeExJdWlKMFRsNExnU3fSAVNBVV95cUxONW5aVFhsZXN3MWgyNTU2SUdXNWdod0VLbUFTUTJfb2pxa0Nkd3d4VFZlazhFcE9XeHJOYVllR2g5V2VKbUtUNFM2UGtxNjJ2WFN0VQ?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "0a10570c7d913034",
       "grade": "A",
       "published_at_status": "known",
@@ -406,144 +371,17 @@
         "공정위",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "SK에너지·현대오일뱅크 '44조 담합'… 4조대 과징금 맞나",
-      "url": "http://v.daum.net/v/20261007181432276",
-      "source": "파이낸셜뉴스",
-      "published_at": "2026-10-07T18:26:33.507426+09:00",
-      "snippet": "정책 등이다. 이후 중동 전쟁 직후에는 판매가격인 입금가까지 담합한 것으로 조사됐다. 공정위가 판단한 관련 매출액은 44조1000억원...원 규모다. 오행록 공정위 카르텔조사국장은 \"전쟁시 국제유가가 급변하기 때문에 그 부분이 정보 교환을 하게 된 계기로 작용... 14시간 전",
-      "collected_at": "2026-10-08T08:26:33.507442+09:00",
-      "normalized_title": "SK에너지·현대오일뱅크 '44조 담합'… 4조대 과징금 맞나",
-      "source_normalized": "파이낸셜뉴스",
-      "duplicate_key": "파이낸셜뉴스::sk에너지·현대오일뱅크 '44조 담합'… 4조대 과징금 맞나",
-      "portals": [
-        "daum"
-      ],
-      "queries": [
-        "SK에너지 담합",
-        "경유 담합",
-        "공정거래위원회 정유사 담합",
-        "공정위 유가 담합",
-        "유가 담합",
-        "유가담합",
-        "정유사 담합",
-        "주유소 담합",
-        "현대오일뱅크 담합",
-        "휘발유 담합"
-      ],
-      "duplicate_count": 9,
-      "canonical_url": "http://v.daum.net/v/20261007181432276",
-      "id": "e0568606601789e7",
-      "grade": "A",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "공정위",
-        "담합",
-        "조사",
-        "과징금"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "정유 4사 대표 국감 총출동...주유 방식 넘어 거래관행까지 살핀다",
-      "url": "https://www.ajunews.com/view/20261007101924976",
-      "source": "아주경제",
-      "published_at": "2026-10-07T20:26:33.502308+09:00",
-      "snippet": "국감을 앞두고 정유업계 담합 사건에 대한 공정위 심의도 시작되면서 관련 업체 대표들의 고심이 한층 깊어질 전망이다.​​​​​ 공정위 사무처는 이날 SK에너지와 HD현대오일뱅크가 약 4년간 가격 정보를 교환하고 올해 3월 두 차례 입금가를 합의했다고 판단해 심의 절차를 개시했다. 관련 매출액은 약...",
-      "collected_at": "2026-10-08T08:26:33.502355+09:00",
-      "normalized_title": "정유 4사 대표 국감 총출동...주유 방식 넘어 거래관행까지 살핀다",
-      "source_normalized": "아주경제",
-      "duplicate_key": "아주경제::정유 4사 대표 국감 총출동...주유 방식 넘어 거래관행까지 살핀다",
-      "portals": [
-        "naver",
-        "daum",
-        "google"
-      ],
-      "queries": [
-        "SK에너지 담합",
-        "공정거래위원회 정유사 담합",
-        "공정위 유가 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합",
-        "정유 44조",
-        "정유사 담합",
-        "정유업계 담합",
-        "주유소 담합",
-        "현대오일뱅크 담합"
-      ],
-      "duplicate_count": 18,
-      "canonical_url": "https://www.ajunews.com/view/20261007101924976",
-      "id": "5af00ddd7a243c44",
-      "grade": "B",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "정유업계",
-        "공정위",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "치솟은 기름값 뒤 담합 있었나…“4년간 44조 원 규모”",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8680187&ref=A",
-      "source": "KBS",
-      "published_at": "2026-10-07T21:26:32.609196+09:00",
-      "snippet": "이 시기 기름값 을 담합 한 혐의 등으로 SK에너지와 현대오일뱅크가 공정위 심판대에 서게 됐습니다. 신지수 기자가 보도합니다. [리포트] 중동 전쟁이 시작된 2월 말 리터당 천6백 원대였던 전국 주유소 평균 휘발윳값은 날마다 가파르게 올랐습니다. 일주일 만에 전국 평균가가 약 11% 올랐고, 리터당 2천 원...",
-      "collected_at": "2026-10-08T08:26:32.609211+09:00",
-      "normalized_title": "치솟은 기름값 뒤 담합 있었나…“4년간 44조 원 규모”",
-      "source_normalized": "KBS",
-      "duplicate_key": "kbs::치솟은 기름값 뒤 담합 있었나…“4년간 44조 원 규모”",
-      "portals": [
-        "naver",
-        "daum",
-        "google"
-      ],
-      "queries": [
-        "SK에너지 담합",
-        "경유 담합",
-        "공정거래위원회 정유사 담합",
-        "공정위 유가 담합",
-        "기름값 담합",
-        "유가 담합",
-        "유가담합",
-        "정유사 담합",
-        "주유소 담합",
-        "현대오일뱅크 담합",
-        "휘발유 담합"
-      ],
-      "duplicate_count": 12,
-      "canonical_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8680187&ref=A",
-      "id": "abd77a391c80a4a7",
-      "grade": "B",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "기름값",
-        "주유소",
-        "공정위",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
       "title": "전쟁나자 ‘가격 담합’ SK에너지·현대오일뱅크 공정위 심사",
       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8679991&ref=A",
       "source": "KBS",
-      "published_at": "2026-10-07T19:26:41.250654+09:00",
+      "published_at": "2026-10-07T19:14:19+09:00",
       "snippet": "[오행록/공정거래위원회 카르텔조사국장 : \"이 사건 담합의 대상이 된 휘발유·경유·등유 등 경질유는 국민의 일상생활과 경제활동 전반에 필수적으로 사용되는 핵심 에너지원입니다.\"] 이들 2개 정유 사의 관련 시장 점유율은 약 50% 정도. 담합 행위에 영향을 받은 매출액이 44조 원에 이르는 것으로 공정위는...",
-      "collected_at": "2026-10-08T08:26:41.250670+09:00",
+      "collected_at": "2026-10-08T08:24:52.337180+09:00",
       "normalized_title": "전쟁나자 ‘가격 담합’ SK에너지·현대오일뱅크 공정위 심사",
       "source_normalized": "KBS",
       "duplicate_key": "kbs::전쟁나자 ‘가격 담합’ sk에너지·현대오일뱅크 공정위 심사",
@@ -553,17 +391,24 @@
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "경유 담합",
         "공정거래위원회 정유사 담합",
         "기름값 담합",
         "정유 44조",
+        "정유 가격정보",
         "정유사 담합",
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 24,
+      "duplicate_count": 1,
       "canonical_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8679991&ref=A",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-10-07 19:14:19",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
       "id": "6a0c1f41da337dd5",
       "grade": "B",
       "published_at_status": "known",
@@ -580,87 +425,46 @@
       "status_reason": "유가담합 관련 맥락 확인"
     },
     {
-      "title": "[사사건건] AI에 해킹당한 은행…내 돈은? 내 개인정보는?",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8679845&ref=A",
+      "title": "[단독] 셀프주유 ‘정액·정량’ 선택 안 해도 된다고?…“연 천억 원 줄줄”",
+      "url": "http://v.daum.net/v/20261007185412617",
       "source": "KBS",
-      "published_at": "2026-10-07T17:26:45.860749+09:00",
-      "snippet": "우리가 얼마 전에 정유 화학 업계 에서도 카르텔 담합 조사를 들어가지 않았었습니까? 기름값에서, 그래서 누구는 막... 또 뭐 형사 사건까지도 가고 그랬었는데, 아마도 이번에도 카르텔 쪽으로 갈 것 같습니다. ◎김용준: 그래요? ▼정철진: 왜 치킨 가격은 BBQ든, 교촌이든, BHC든, 왜 비슷비슷해? 여기에 담합 이...",
-      "collected_at": "2026-10-08T08:26:45.860781+09:00",
-      "normalized_title": "[사사건건] AI에 해킹당한 은행…내 돈은? 내 개인정보는?",
+      "published_at": "2026-10-07T18:54:00+09:00",
+      "snippet": "라는 지적입니다. ■ 4대 정유사 \"화면에 '즉시 종료' 추가\"…박준태 \"공정위에서 철저히 조사해야\" 4대 정유사 'SK에너지·GS칼텍스·HD현대오일뱅크·S-OIL'은 조만간 셀프 주유 화면에 '즉시 종료' 혹은 '현재 금액에서 멈춤' 등의 메뉴를 추가하겠다고... 13시간 전 208",
+      "collected_at": "2026-10-08T08:28:39.480595+09:00",
+      "normalized_title": "셀프주유 ‘정액·정량’ 선택 안 해도 된다고?…“연 천억 원 줄줄”",
       "source_normalized": "KBS",
-      "duplicate_key": "kbs::[사사건건] ai에 해킹당한 은행…내 돈은? 내 개인정보는?",
+      "duplicate_key": "kbs::셀프주유 ‘정액·정량’ 선택 안 해도 된다고?…“연 천억 원 줄줄”",
       "portals": [
-        "naver",
         "daum"
       ],
       "queries": [
-        "기름값 담합",
-        "정유업계 담합"
+        "SK에너지 현대오일뱅크"
       ],
-      "duplicate_count": 2,
-      "canonical_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8679845&ref=A",
-      "id": "85500ad2ef65ce3c",
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20261007185412617",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 7. 18:54",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "24e28dc11aae954d",
       "grade": "B",
       "published_at_status": "known",
       "matched_keywords": [
-        "기름값",
-        "담합",
+        "정유사",
+        "공정위",
         "조사"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "SK에너지-HD현대오일뱅크 44조 규모 유가 담합 혐의…공정위, 제재 착수",
-      "url": "http://v.daum.net/v/20261007183957216",
-      "source": "MBN",
-      "published_at": "2026-10-07T19:26:33.506400+09:00",
-      "snippet": "국내 4대 정유사 중 SK에너지와 HD현대오일뱅크가 휘발유와 경유 등의 가격 정보를 공유하고 판매 가격을 담합한 혐의로 공정거래위원회 심판대에 올랐습니다. 공정위는 러시아-우크라이나 전쟁 직전부터 중동 전쟁 직후인 지난 3월까지 약 4년 간 담합을 통해... 13시간 전",
-      "collected_at": "2026-10-08T08:26:33.506416+09:00",
-      "normalized_title": "SK에너지-HD현대오일뱅크 44조 규모 유가 담합 혐의…공정위, 제재 착수",
-      "source_normalized": "MBN",
-      "duplicate_key": "mbn::sk에너지-hd현대오일뱅크 44조 규모 유가 담합 혐의…공정위, 제재 착수",
-      "portals": [
-        "daum"
-      ],
-      "queries": [
-        "SK에너지 담합",
-        "경유 담합",
-        "공정거래위원회 정유사 담합",
-        "공정위 유가 담합",
-        "유가 담합",
-        "유가담합",
-        "정유사 담합",
-        "현대오일뱅크 담합",
-        "휘발유 담합"
-      ],
-      "duplicate_count": 8,
-      "canonical_url": "http://v.daum.net/v/20261007183957216",
-      "id": "1187c6a676749598",
-      "grade": "B",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "정유사",
-        "휘발유",
-        "경유",
-        "공정위",
-        "공정거래위원회",
-        "담합",
-        "제재"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
     },
     {
       "title": "SK에너지-현대오일뱅크 담합 혐의로 공정위 심판대에",
       "url": "http://v.daum.net/v/20261007190230880",
       "source": "MBN",
-      "published_at": "2026-10-07T19:26:33.505474+09:00",
+      "published_at": "2026-10-07T19:02:00+09:00",
       "snippet": "SK에너지와 현대오일뱅크가 휘발유와 경유 등의 가격 정보를 공유하고 판매 가격을 담합한 혐의로 공정거래위원회 심판대에 올랐습니다. 공정위는 관련 매출액은 44조 원으로 보고 있는데, 러시아-우크라이나 전쟁 직전부터 미국-이란 전쟁 직후까지 국제유가가 급변... 13시간 전",
-      "collected_at": "2026-10-08T08:26:33.505489+09:00",
+      "collected_at": "2026-10-08T08:24:47.710413+09:00",
       "normalized_title": "SK에너지-현대오일뱅크 담합 혐의로 공정위 심판대에",
       "source_normalized": "MBN",
       "duplicate_key": "mbn::sk에너지-현대오일뱅크 담합 혐의로 공정위 심판대에",
@@ -668,7 +472,9 @@
         "daum"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "경유 담합",
         "공정위 유가 담합",
         "유가 담합",
@@ -676,8 +482,12 @@
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 6,
+      "duplicate_count": 0,
       "canonical_url": "http://v.daum.net/v/20261007190230880",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 7. 19:02",
+      "verified": false,
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인",
       "id": "f0efc9c4d8d40258",
       "grade": "B",
       "published_at_status": "known",
@@ -689,6 +499,51 @@
         "공정거래위원회",
         "담합"
       ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "SK에너지-HD현대오일뱅크 44조 규모 유가 담합 혐의…공정위, 제재 착수",
+      "url": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5223593",
+      "source": "MBN",
+      "published_at": "2026-10-07T18:38:00+09:00",
+      "snippet": "심판대에 올랐습니다. 공정위는 러시아-우크라이나 전쟁 직전부터 중동 전쟁 직후인 지난 3월까지 약 4년 간 담합을 통해 벌어들인 매출액이 44조 원이 넘는 것으로 추산하고 있습니다. [장동건 기자 notactor@mk.co.kr] < Copyright ⓒ MBN(www.mbn.co.kr)무단전재... 13시간 전",
+      "collected_at": "2026-10-08T08:24:47.711297+09:00",
+      "normalized_title": "SK에너지-HD현대오일뱅크 44조 규모 유가 담합 혐의…공정위, 제재 착수",
+      "source_normalized": "MBN",
+      "duplicate_key": "mbn::sk에너지-hd현대오일뱅크 44조 규모 유가 담합 혐의…공정위, 제재 착수",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "44조 담합",
+        "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5223593",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-10-07 18:38",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "bbe4349865a947ba",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "제재"
+      ],
       "quality_status": "ok",
       "status_label": "정상",
       "status_reason": "유가담합 관련 맥락 확인"
@@ -697,9 +552,9 @@
       "title": "SK에너지·현대오일뱅크, 44조 규모 기름값 담합 혐의 공정위 심판대에",
       "url": "http://v.daum.net/v/20261007204014525",
       "source": "YTN",
-      "published_at": "2026-10-07T21:26:45.127946+09:00",
+      "published_at": "2026-10-07T20:40:00+09:00",
       "snippet": "기름은 4개사 과점체제로, SK에너지와 HD현대오일뱅크 점유율은 49.1%에 이릅니다. 공정위에 앞서 검찰도 SK에너지와 HD현대오일뱅크의 가격 담합 혐의를 수사해 재판에 넘겼습니다. YTN 이승은 (selee@ytn.co.kr) ※ '당신의 제보가 뉴스가 됩니다' [카카오톡] YTN... 11시간 전",
-      "collected_at": "2026-10-08T08:26:45.127964+09:00",
+      "collected_at": "2026-10-08T08:24:54.236718+09:00",
       "normalized_title": "SK에너지·현대오일뱅크, 44조 규모 기름값 담합 혐의 공정위 심판대에",
       "source_normalized": "YTN",
       "duplicate_key": "ytn::sk에너지·현대오일뱅크, 44조 규모 기름값 담합 혐의 공정위 심판대에",
@@ -707,15 +562,21 @@
         "daum"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "경유 담합",
         "기름값 담합",
         "주유소 담합",
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 5,
+      "duplicate_count": 0,
       "canonical_url": "http://v.daum.net/v/20261007204014525",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 7. 20:40",
+      "verified": false,
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인",
       "id": "ffdd441fa4ef5b98",
       "grade": "B",
       "published_at_status": "known",
@@ -724,17 +585,17 @@
         "공정위",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
     },
     {
       "title": "[이슈5] 나주 부부 살해…무안서 50대 남성 붙잡혀 外",
-      "url": "http://v.daum.net/v/20261007194201958",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH20261007194018opX",
       "source": "연합뉴스TV",
-      "published_at": "2026-10-07T20:26:33.503403+09:00",
+      "published_at": "2026-10-07T19:40:00+09:00",
       "snippet": "조사하고 있습니다. 김단비 기자입니다. <2> 전쟁으로 국제유가가 요동치는 동안 가격 정보를 주고받고, 판매 가격을 담합한 혐의를 받는 정유사 2곳이 공정거래위원회의 심판대에 올랐습니다. 담합 혐의와 관련된 매출액은 44조 원대로 추산됐는데, 두 회사는 심의... 12시간 전",
-      "collected_at": "2026-10-08T08:26:33.503494+09:00",
+      "collected_at": "2026-10-08T08:24:47.708801+09:00",
       "normalized_title": "[이슈5] 나주 부부 살해…무안서 50대 남성 붙잡혀 外",
       "source_normalized": "연합뉴스TV",
       "duplicate_key": "연합뉴스tv::[이슈5] 나주 부부 살해…무안서 50대 남성 붙잡혀 外",
@@ -742,15 +603,20 @@
         "daum"
       ],
       "queries": [
+        "44조 담합",
         "공정거래위원회 정유사 담합",
         "공정위 유가 담합",
         "유가 담합",
         "유가담합",
         "정유사 담합"
       ],
-      "duplicate_count": 4,
-      "canonical_url": "http://v.daum.net/v/20261007194201958",
-      "id": "d4bca92543311635",
+      "duplicate_count": 0,
+      "canonical_url": "http://www.yonhapnewstv.co.kr/news/MYH20261007194018opX",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-10-07 19:40",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "11526dff14613166",
       "grade": "B",
       "published_at_status": "known",
       "matched_keywords": [
@@ -760,17 +626,17 @@
         "담합",
         "조사"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
     },
     {
       "title": "전쟁 틈타 44조대 담합 의혹…SK에너지·HD현대오일뱅크 심판대에",
-      "url": "http://v.daum.net/v/20261007190835077",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH20261007190658paG",
       "source": "연합뉴스TV",
-      "published_at": "2026-10-07T19:26:33.504574+09:00",
+      "published_at": "2026-10-07T19:07:00+09:00",
       "snippet": "전쟁으로 국제유가가 요동치는 동안 가격 정보를 주고받고, 판매 가격을 담합한 혐의를 받는 정유사 2곳이 공정거래위원회의 심판대에...직전인 2022년 2월부터 올해 3월까지 약 4년간 휘발유·경유·등유 판매 가격과 관련한 입금가, 확정가, 판매 정책 정보를 교환... 13시간 전 1",
-      "collected_at": "2026-10-08T08:26:33.504589+09:00",
+      "collected_at": "2026-10-08T08:24:47.709632+09:00",
       "normalized_title": "전쟁 틈타 44조대 담합 의혹…SK에너지·HD현대오일뱅크 심판대에",
       "source_normalized": "연합뉴스TV",
       "duplicate_key": "연합뉴스tv::전쟁 틈타 44조대 담합 의혹…sk에너지·hd현대오일뱅크 심판대에",
@@ -779,7 +645,9 @@
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "경유 담합",
         "공정거래위원회 정유사 담합",
         "공정위 유가 담합",
@@ -790,9 +658,13 @@
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 11,
-      "canonical_url": "http://v.daum.net/v/20261007190835077",
-      "id": "be5c4613c3eda716",
+      "duplicate_count": 0,
+      "canonical_url": "http://www.yonhapnewstv.co.kr/news/MYH20261007190658paG",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-10-07 19:07",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "ec4fa75bb1bfbdc0",
       "grade": "B",
       "published_at_status": "known",
       "matched_keywords": [
@@ -813,7 +685,7 @@
       "source": "4차산업행정뉴스",
       "published_at": "2026-10-07T17:25:00+09:00",
       "snippet": "정유사 ‘기름값 담합 혐의’ 공정위 심판대…관련 매출 44조원 4차산업행정뉴스",
-      "collected_at": "2026-10-08T08:26:42.815387+09:00",
+      "collected_at": "2026-10-08T08:24:53.251708+09:00",
       "normalized_title": "정유사 ‘기름값 담합 혐의’ 공정위 심판대…관련 매출 44조원",
       "source_normalized": "4차산업행정뉴스",
       "duplicate_key": "4차산업행정뉴스::정유사 ‘기름값 담합 혐의’ 공정위 심판대…관련 매출 44조원",
@@ -821,13 +693,17 @@
         "google"
       ],
       "queries": [
+        "SK에너지 현대오일뱅크",
         "공정거래위원회 정유사 담합",
         "기름값 담합",
         "정유사 담합",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 3,
+      "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fN1hxaVF6VFdrMjdQR2I2QW0wS0pfWUlIMGtFb1lUdGMwRDVOQ2RELVp5N0JYVV8wcTdsZVF1eEl2aENmeFlhVlBqblhtai1lNEE?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "a6867df8eb1f8bfd",
       "grade": "C",
       "published_at_status": "known",
@@ -837,9 +713,9 @@
         "공정위",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
       "title": "SK에너지 및 현대오일뱅크의 휘발유·경유·등유 담합 사건 심의 절차 개시",
@@ -847,7 +723,7 @@
       "source": "4차산업행정뉴스",
       "published_at": "2026-10-07T17:18:00+09:00",
       "snippet": "SK에너지 및 현대오일뱅크의 휘발유·경유·등유 담합 사건 심의 절차 개시 4차산업행정뉴스",
-      "collected_at": "2026-10-08T08:26:54.510215+09:00",
+      "collected_at": "2026-10-08T08:25:00.166284+09:00",
       "normalized_title": "SK에너지 및 현대오일뱅크의 휘발유·경유·등유 담합 사건 심의 절차 개시",
       "source_normalized": "4차산업행정뉴스",
       "duplicate_key": "4차산업행정뉴스::sk에너지 및 현대오일뱅크의 휘발유·경유·등유 담합 사건 심의 절차 개시",
@@ -858,8 +734,11 @@
         "경유 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 1,
+      "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TVi00M0FJZW5kem9Fdmtjd3hrcEZ1d3ZUaUhPV0ltVm9jUEU2Y0hOMVBnVWdpMHQtWXhJWG10RE5xUklUaU90cXVFOHhETlZwZnc?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "66aefe556f9c83d6",
       "grade": "C",
       "published_at_status": "known",
@@ -868,17 +747,17 @@
         "경유",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
       "title": "SK에너지·현대오일뱅크 석유 담합 의혹···심의 개시",
       "url": "http://v.daum.net/v/20261007181314233",
       "source": "KTV",
-      "published_at": "2026-10-07T18:26:41.255838+09:00",
+      "published_at": "2026-10-07T18:13:00+09:00",
       "snippet": "판매가격을 담합 했다는 의혹에 대해 공정거래위원회가 심의에 들어갔습니다. 공정위는 약 4년간 이어진 담합 행위와 관련된 매출액이...SK에너지와 현대오일뱅크, GS칼텍스와 S-OIL 등 4개 정유사가 약 98%를 차지하는 과점 시장으로 지난해 기준 매출액만 약 30조... 14시간 전",
-      "collected_at": "2026-10-08T08:26:41.255857+09:00",
+      "collected_at": "2026-10-08T08:24:52.341097+09:00",
       "normalized_title": "SK에너지·현대오일뱅크 석유 담합 의혹···심의 개시",
       "source_normalized": "KTV",
       "duplicate_key": "ktv::sk에너지·현대오일뱅크 석유 담합 의혹···심의 개시",
@@ -886,7 +765,9 @@
         "daum"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "경유 담합",
         "공정거래위원회 정유사 담합",
         "석유 담합",
@@ -894,8 +775,12 @@
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 6,
+      "duplicate_count": 0,
       "canonical_url": "http://v.daum.net/v/20261007181314233",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 7. 18:13",
+      "verified": false,
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인",
       "id": "d13275e4259a6529",
       "grade": "C",
       "published_at_status": "known",
@@ -906,29 +791,33 @@
         "공정거래위원회",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
     },
     {
-      "title": "전쟁 틈타 44조대 유가 담합…SK에너지·HD현대오일뱅크 심판대에 오른다",
+      "title": "전쟁 틈타 44조대 유가담합…SK에너지·HD현대오일뱅크 심판대에 오른다",
       "url": "https://www.kbsm.net/news/view.php?idx=536827",
       "source": "경북신문",
-      "published_at": "2026-10-07T17:27:33.431405+09:00",
+      "published_at": "2026-10-07T22:26:38+09:00",
       "snippet": "러시아-우크라이나 전쟁과 미국-이란 전쟁으로 국제 유가 가 불안정한 틈을 타 2개 정유사가 휘발유·경유·등유 가격 정보를 공유하고, 판매 가격을 짬짜미 한 의혹이 제기돼 공정거래위원회가 심의에 나선다.공정위 사무처는 SK에너지㈜와 HD현대오일뱅크㈜의 휘발유·경유·등유 담합 혐의와 관련해 심사관이...",
-      "collected_at": "2026-10-08T08:27:33.431419+09:00",
-      "normalized_title": "전쟁 틈타 44조대 유가 담합…SK에너지·HD현대오일뱅크 심판대에 오른다",
+      "collected_at": "2026-10-08T08:25:22.293796+09:00",
+      "normalized_title": "전쟁 틈타 44조대 유가담합…SK에너지·HD현대오일뱅크 심판대에 오른다",
       "source_normalized": "경북신문",
-      "duplicate_key": "경북신문::전쟁 틈타 44조대 유가 담합…sk에너지·hd현대오일뱅크 심판대에 오른다",
+      "duplicate_key": "경북신문::전쟁 틈타 44조대 유가담합…sk에너지·hd현대오일뱅크 심판대에 오른다",
       "portals": [
         "naver"
       ],
       "queries": [
         "유가 짬짜미"
       ],
-      "duplicate_count": 0,
+      "duplicate_count": 1,
       "canonical_url": "https://www.kbsm.net/news/view.php?idx=536827",
-      "id": "ae049523cda53d43",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-07T13:26:38+00:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "05e1ea0ba8813820",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
@@ -940,9 +829,9 @@
         "공정거래위원회",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
     },
     {
       "title": "[사설] 전 국민이 피해자인 정유사 가격담합 발본색원해야",
@@ -950,7 +839,7 @@
       "source": "경인일보",
       "published_at": "2026-10-07T20:22:32+09:00",
       "snippet": "[사설] 전 국민이 피해자인 정유사 가격담합 발본색원해야 경인일보",
-      "collected_at": "2026-10-08T08:26:38.096827+09:00",
+      "collected_at": "2026-10-08T08:24:53.251303+09:00",
       "normalized_title": "[사설] 전 국민이 피해자인 정유사 가격담합 발본색원해야",
       "source_normalized": "경인일보",
       "duplicate_key": "경인일보::[사설] 전 국민이 피해자인 정유사 가격담합 발본색원해야",
@@ -958,11 +847,14 @@
         "google"
       ],
       "queries": [
-        "유가 담합",
+        "정유 가격정보",
         "정유사 담합"
       ],
-      "duplicate_count": 1,
+      "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBvVnhuNEhwQ2N0MThOUjE2NVQ5VktlNlV3dkNxbkdQTjVZdG90U1NUVU1COHpTZzJRVXJsalVZTWxhZDlGV2hQU0RkWTA3VE1NUkE?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "7546310d8312d598",
       "grade": "C",
       "published_at_status": "known",
@@ -971,9 +863,9 @@
         "담합",
         "가격담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
       "title": "\"휘발유값 왜 이렇게 올랐나 했더니\" 정유사 2곳 '가격 담합' 의혹…공정위 칼 빼들어",
@@ -981,7 +873,7 @@
       "source": "나남뉴스",
       "published_at": "2026-10-07T22:15:44+09:00",
       "snippet": "\"휘발유값 왜 이렇게 올랐나 했더니\" 정유사 2곳 '가격 담합' 의혹…공정위 칼 빼들어 나남뉴스",
-      "collected_at": "2026-10-08T08:26:42.817502+09:00",
+      "collected_at": "2026-10-08T08:24:53.253054+09:00",
       "normalized_title": "\"휘발유값 왜 이렇게 올랐나 했더니\" 정유사 2곳 '가격 담합' 의혹…공정위 칼 빼들어",
       "source_normalized": "나남뉴스",
       "duplicate_key": "나남뉴스::\"휘발유값 왜 이렇게 올랐나 했더니\" 정유사 2곳 '가격 담합' 의혹…공정위 칼 빼들어",
@@ -990,13 +882,18 @@
       ],
       "queries": [
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "공정거래위원회 정유사 담합",
+        "정유 가격정보",
         "정유사 담합",
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 4,
+      "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02OGwxOHNIdVdJVHJIVzU1M3ZaVEFMRF9VUmZReGExck5nVFU4Y2lGN2tDVHZzZnUzRV9YeWFBRkxRU0lqRXdxTzczbWN4M2hYSDJncWpiRWZwT3daTklaUE5xcURNOUlBUXlKUQ?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "e4a1cfcb9001c54e",
       "grade": "C",
       "published_at_status": "known",
@@ -1006,17 +903,17 @@
         "공정위",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
       "title": "SK에너지·HD현대오일뱅크 '44조원대 유가 담합' 혐의... 공정위 심의 개시",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBubTZhUnBTY1R3ZjhoMDdzbGVrMTlfRjBHTmlhb25BM0NCTnllaHJGTEdhS2loOElDMVhPc0xXUDNaUV81UUtrcUdFOWpVbVE1bjJ4ekJ2cUhXTy1HeDU0Y21nWFlMU0tVRTQxcg?oc=5",
+      "url": "http://www.newslock.co.kr/news/articleView.html?idxno=137603",
       "source": "뉴스락",
       "published_at": "2026-10-07T22:12:10+09:00",
       "snippet": "SK에너지·HD현대오일뱅크 '44조원대 유가 담합' 혐의... 공정위 심의 개시 뉴스락",
-      "collected_at": "2026-10-08T08:26:34.218692+09:00",
+      "collected_at": "2026-10-08T08:24:48.631252+09:00",
       "normalized_title": "SK에너지·HD현대오일뱅크 '44조원대 유가 담합' 혐의... 공정위 심의 개시",
       "source_normalized": "뉴스락",
       "duplicate_key": "뉴스락::sk에너지·hd현대오일뱅크 '44조원대 유가 담합' 혐의... 공정위 심의 개시",
@@ -1024,17 +921,24 @@
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "공정위 유가 담합",
         "석유 담합",
         "유가 담합",
         "유가담합",
+        "정유 가격정보",
         "정유업계 담합",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 6,
-      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBubTZhUnBTY1R3ZjhoMDdzbGVrMTlfRjBHTmlhb25BM0NCTnllaHJGTEdhS2loOElDMVhPc0xXUDNaUV81UUtrcUdFOWpVbVE1bjJ4ekJ2cUhXTy1HeDU0Y21nWFlMU0tVRTQxcg?oc=5",
-      "id": "e2c91b72ea017e64",
+      "duplicate_count": 0,
+      "canonical_url": "http://www.newslock.co.kr/news/articleView.html?idxno=137603",
+      "verified": true,
+      "published_at_basis": "original_article",
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "time_evidence": "원문 published_time 2026-10-07T22:12:10+09:00",
+      "id": "8d6ed4f36b0eff11",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
@@ -1052,7 +956,7 @@
       "source": "뉴스에듀신문",
       "published_at": "2026-10-07T19:14:05+09:00",
       "snippet": "러시아·우크라 전쟁 틈타, SK에너지·현대오일뱅크 ‘44조원대’ 유가담합 의혹 뉴스에듀신문",
-      "collected_at": "2026-10-08T08:26:34.221697+09:00",
+      "collected_at": "2026-10-08T08:24:48.632853+09:00",
       "normalized_title": "러시아·우크라 전쟁 틈타, SK에너지·현대오일뱅크 ‘44조원대’ 유가담합 의혹",
       "source_normalized": "뉴스에듀신문",
       "duplicate_key": "뉴스에듀신문::러시아·우크라 전쟁 틈타, sk에너지·현대오일뱅크 ‘44조원대’ 유가담합 의혹",
@@ -1060,7 +964,9 @@
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "공정위 유가 담합",
         "석유 담합",
         "석유제품 담합",
@@ -1068,8 +974,11 @@
         "유가담합",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 6,
+      "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YNElDbkkwTUpSRkNNZzB0QnFCTEx4b29Dam1jMjZBYkU3bjRRNnctc0piSFBaT2F5UWxpdTcxSFREeGhtWEdqN1c0ZzlMU3AxT0VBYVJSQ3hWYjNSNTdxV2Q5NXlwaWNmRjlMUNIBcEFVX3lxTE1ybHdDS3QwRG5mQnNjbjF4emlWQk5pMWpveU9sbnNWV3V1U21ybWpaeEJmYWM1THVzSGp4SkFkYXpCSlQ1QlBMaUhJN29RRV9iRmQzRGI1TVgyNFlCQkhnUUNRVnJrZ0Z6OUJ4NXduWUs?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "1443d31aa67ee714",
       "grade": "C",
       "published_at_status": "known",
@@ -1077,9 +986,9 @@
         "유가",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
       "title": "전쟁 틈타 기름값 손댔나… '44조 담합 혐의'에 공정위 칼 빼들었다",
@@ -1087,7 +996,7 @@
       "source": "리포테라",
       "published_at": "2026-10-07T19:58:25+09:00",
       "snippet": "전쟁 틈타 기름값 손댔나… '44조 담합 혐의'에 공정위 칼 빼들었다 리포테라",
-      "collected_at": "2026-10-08T08:26:34.226815+09:00",
+      "collected_at": "2026-10-08T08:24:48.635595+09:00",
       "normalized_title": "전쟁 틈타 기름값 손댔나… '44조 담합 혐의'에 공정위 칼 빼들었다",
       "source_normalized": "리포테라",
       "duplicate_key": "리포테라::전쟁 틈타 기름값 손댔나… '44조 담합 혐의'에 공정위 칼 빼들었다",
@@ -1095,7 +1004,9 @@
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "공정거래위원회 정유사 담합",
         "공정위 유가 담합",
         "기름값 담합",
@@ -1104,12 +1015,16 @@
         "유가 담합",
         "유가담합",
         "정유 44조",
+        "정유 가격정보",
         "정유사 담합",
         "정유업계 담합",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 11,
+      "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYmNWVFFJaDBLam5ZVUpPdTNya3YxZUFISHpBNzlqbEI3U280RWoxNlh0VFd0OW0zcUdMWkp5eEY0YlVjSm5VQnFmdlk3REtmUmRuRVBOci1ISEoxWHFjcUdHX3hlU3YwUGcxTzh6bUVVT2ZzTlVVMldZT0otTnY2azhoUkE3MjhlajhOQ2d5cXM0dkhpTDNB0gGfAUFVX3lxTE5EVVFFTzgxeGtNZmlrbWtJY1ZoUnVaZ3Z1dTYtQzc4b183eS1tU08zY3VpY2l1SGxiT3pScndUMV9McVpyZFRwQ2FqVWRsT3hWbUU0LTExVXhsWmt5dEpxQjRLV1FIUm92TUNSUTNNVXRIcDV6Q2tla1hBOVVzOFl2LXNhbkd3SDhieG9ydHZCRHpROTVRNU9LVEZ6U2lrRQ?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "a66312157b4c8529",
       "grade": "C",
       "published_at_status": "known",
@@ -1118,29 +1033,48 @@
         "공정위",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
-      "title": "44조대 유가 담합…SK에너지·HD현대오일뱅크 심판대",
+      "title": "44조대 유가담합…SK에너지·HD현대오일뱅크 심판대",
       "url": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005934243",
       "source": "매일경제TV",
-      "published_at": "2026-10-07T18:27:33.430398+09:00",
+      "published_at": "2026-10-07T18:10:00+09:00",
       "snippet": "우크라이나 전쟁과 미국-이란 전쟁으로 국제 유가 가 불안정한 틈을 타 2개 정유사가 휘발유·경유·등유 가격 정보를 공유하고, 판매 가격을 짬짜미 한 의혹이 제기돼 공정거래위원회의 심판대에 올랐습니다. 공정위 사무처는 SK에너지㈜와 HD현대오일뱅크㈜의 휘발유·경유·등유 담합 혐의와 관련해 심사관이...",
-      "collected_at": "2026-10-08T08:27:33.430413+09:00",
-      "normalized_title": "44조대 유가 담합…SK에너지·HD현대오일뱅크 심판대",
+      "collected_at": "2026-10-08T08:25:22.292858+09:00",
+      "normalized_title": "44조대 유가담합…SK에너지·HD현대오일뱅크 심판대",
       "source_normalized": "매일경제TV",
-      "duplicate_key": "매일경제tv::44조대 유가 담합…sk에너지·hd현대오일뱅크 심판대",
+      "duplicate_key": "매일경제tv::44조대 유가담합…sk에너지·hd현대오일뱅크 심판대",
       "portals": [
-        "naver"
+        "naver",
+        "daum",
+        "google"
       ],
       "queries": [
-        "유가 짬짜미"
+        "44조 담합",
+        "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가 짬짜미",
+        "유가담합",
+        "정유사 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
       ],
-      "duplicate_count": 0,
+      "duplicate_count": 2,
       "canonical_url": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005934243",
-      "id": "e225062c89a88214",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-10-07 18:10",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "d50f33098f300667",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
@@ -1157,51 +1091,76 @@
       "status_reason": "유가담합 관련 맥락 확인"
     },
     {
-      "title": "44조대 유가담합…SK에너지·HD현대오일뱅크 심판대",
-      "url": "http://v.daum.net/v/20261007181201166",
-      "source": "매일경제TV",
-      "published_at": "2026-10-07T18:26:33.508466+09:00",
-      "snippet": "사무처는 SK에너지㈜와 HD현대오일뱅크㈜의 휘발유·경유·등유 담합 혐의와 관련해 심사관이 조사한 위법 사실과 제재 의견 등을...전쟁 직전인 2022년 2월부터 올해 3월까지 약 4년간 석유제품의 입금가와 확정가, 판매 정책 등의 정보를 교환한 것으로 의심... 14시간 전",
-      "collected_at": "2026-10-08T08:26:33.508484+09:00",
-      "normalized_title": "44조대 유가담합…SK에너지·HD현대오일뱅크 심판대",
-      "source_normalized": "매일경제TV",
-      "duplicate_key": "매일경제tv::44조대 유가담합…sk에너지·hd현대오일뱅크 심판대",
+      "title": "SK에너지·HD현대오일뱅크, '44조' 담합 의혹…공정위 심의 진행",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LOExvLW0wZFRwOGpwZTAxdmVrREdRODU1cUZhbFdjSy14TW84OGRpbThYRWwtc0hGTmFxQ292T0QzMk1qOVpzYUc5VTlGMTNGRWFRNGw0SHdwbU94VV8xOW5UQWg?oc=5",
+      "source": "매일일보",
+      "published_at": "2026-10-07T22:30:31+09:00",
+      "snippet": "SK에너지·HD현대오일뱅크, '44조' 담합 의혹…공정위 심의 진행 매일일보",
+      "collected_at": "2026-10-08T08:24:57.457095+09:00",
+      "normalized_title": "SK에너지·HD현대오일뱅크, '44조' 담합 의혹…공정위 심의 진행",
+      "source_normalized": "매일일보",
+      "duplicate_key": "매일일보::sk에너지·hd현대오일뱅크, '44조' 담합 의혹…공정위 심의 진행",
       "portals": [
-        "daum",
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
-        "경유 담합",
-        "공정거래위원회 정유사 담합",
-        "공정위 유가 담합",
+        "SK에너지 현대오일뱅크",
         "석유 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가 짬짜미",
-        "유가담합",
-        "정유사 담합",
-        "현대오일뱅크 담합",
-        "휘발유 담합"
+        "현대오일뱅크 담합"
       ],
-      "duplicate_count": 19,
-      "canonical_url": "http://v.daum.net/v/20261007181201166",
-      "id": "8d6bed2e879df3e0",
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LOExvLW0wZFRwOGpwZTAxdmVrREdRODU1cUZhbFdjSy14TW84OGRpbThYRWwtc0hGTmFxQ292T0QzMk1qOVpzYUc5VTlGMTNGRWFRNGw0SHdwbU94VV8xOW5UQWg?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
+      "id": "34a3a20ceee2ec51",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
-        "유가",
-        "석유",
-        "휘발유",
-        "경유",
-        "석유제품",
-        "담합",
-        "조사",
-        "제재"
+        "공정위",
+        "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "SK에너지·현대오일뱅크, 담합 혐의 심의…과징금 최대 4.6조",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WaG9iZ0JneUVUeUtBU3l2bTY3clRRdW85cEFuaERMU2FJb2o1M3ZnZGMteklXZUprNEx6WldRbnB2NjFEYVpQd0VERUhGcy1MN24zZlBpMkZhVFRYX1hXZ2hNak9Jdl92OUpTWA?oc=5",
+      "source": "메디컬투데이",
+      "published_at": "2026-10-07T18:36:31+09:00",
+      "snippet": "SK에너지·현대오일뱅크, 담합 혐의 심의…과징금 최대 4.6조 메디컬투데이",
+      "collected_at": "2026-10-08T08:24:57.458674+09:00",
+      "normalized_title": "SK에너지·현대오일뱅크, 담합 혐의 심의…과징금 최대 4.6조",
+      "source_normalized": "메디컬투데이",
+      "duplicate_key": "메디컬투데이::sk에너지·현대오일뱅크, 담합 혐의 심의…과징금 최대 4.6조",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "44조 담합",
+        "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
+        "석유 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WaG9iZ0JneUVUeUtBU3l2bTY3clRRdW85cEFuaERMU2FJb2o1M3ZnZGMteklXZUprNEx6WldRbnB2NjFEYVpQd0VERUhGcy1MN24zZlBpMkZhVFRYX1hXZ2hNak9Jdl92OUpTWA?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
+      "id": "4cef10bdfcb78ed3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
       "title": "공정위 “SK·현대오일 44조 담합”…정유사 “이미 공개된 정보” 반발",
@@ -1209,7 +1168,7 @@
       "source": "미주중앙일보",
       "published_at": "2026-10-07T17:16:00+09:00",
       "snippet": "공정위 “SK·현대오일 44조 담합”…정유사 “이미 공개된 정보” 반발 미주중앙일보",
-      "collected_at": "2026-10-08T08:26:58.971069+09:00",
+      "collected_at": "2026-10-08T08:25:02.530332+09:00",
       "normalized_title": "공정위 “SK·현대오일 44조 담합”…정유사 “이미 공개된 정보” 반발",
       "source_normalized": "미주중앙일보",
       "duplicate_key": "미주중앙일보::공정위 “sk·현대오일 44조 담합”…정유사 “이미 공개된 정보” 반발",
@@ -1221,6 +1180,9 @@
       ],
       "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IcFdtRnUzeUhjODlaM2t3alZvekZBcmk5bWxWRU1LNjhqYV8zdEhEN2tuV2FPemw2S2dzTnV2R3lTdjc2RnZ0bkJxcDdNTGVoX1h2VS1YMzZveWhKOTB1ajBn?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "a814fca022fac12f",
       "grade": "C",
       "published_at_status": "known",
@@ -1229,9 +1191,55 @@
         "공정위",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "전쟁 틈타 기름값 담합했나…SK에너지·HD현대오일뱅크 공정위 심판대",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14WWZQUkF4UFFGWnd0bzdfYzA5akJPbDlBNkpNUVYzbnVOSFIzZGJ6bVNrcGlUd1NoU0x6Wm5hVWM5QVplVWxtVmZJUHlRU0dtNkloSDd2c0ZZU2ZVc1RFMmJndUjSAWhBVV95cUxQVTd2ZzFRQjNhdnlqaHpPOHlDMnFPcS1TNXN0b0FlbWNvckg2MmFGQUI4UUZhWjFsLVNEYnB6TVB5REZBbmpCTEpMcnVDdWRzVXF5Z09hUEt3U01pY3RkSXFzY0Ezb1pSUQ?oc=5",
+      "source": "법치뉴스",
+      "published_at": "2026-10-07T19:38:27+09:00",
+      "snippet": "전쟁 틈타 기름값 담합했나…SK에너지·HD현대오일뱅크 공정위 심판대 법치뉴스",
+      "collected_at": "2026-10-08T08:24:48.633495+09:00",
+      "normalized_title": "전쟁 틈타 기름값 담합했나…SK에너지·HD현대오일뱅크 공정위 심판대",
+      "source_normalized": "법치뉴스",
+      "duplicate_key": "법치뉴스::전쟁 틈타 기름값 담합했나…sk에너지·hd현대오일뱅크 공정위 심판대",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "44조 담합",
+        "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유 가격정보",
+        "정유사 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14WWZQUkF4UFFGWnd0bzdfYzA5akJPbDlBNkpNUVYzbnVOSFIzZGJ6bVNrcGlUd1NoU0x6Wm5hVWM5QVplVWxtVmZJUHlRU0dtNkloSDd2c0ZZU2ZVc1RFMmJndUjSAWhBVV95cUxQVTd2ZzFRQjNhdnlqaHpPOHlDMnFPcS1TNXN0b0FlbWNvckg2MmFGQUI4UUZhWjFsLVNEYnB6TVB5REZBbmpCTEpMcnVDdWRzVXF5Z09hUEt3U01pY3RkSXFzY0Ezb1pSUQ?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
+      "id": "9d00c83b5d47f414",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
       "title": "SK에너지·현대오일뱅크 기름값 4년간 44조 담합…공정위, 제재 착수",
@@ -1239,7 +1247,7 @@
       "source": "산업일보",
       "published_at": "2026-10-07T17:53:01+09:00",
       "snippet": "SK에너지·현대오일뱅크 기름값 4년간 44조 담합…공정위, 제재 착수 산업일보",
-      "collected_at": "2026-10-08T08:26:46.313074+09:00",
+      "collected_at": "2026-10-08T08:24:55.075989+09:00",
       "normalized_title": "SK에너지·현대오일뱅크 기름값 4년간 44조 담합…공정위, 제재 착수",
       "source_normalized": "산업일보",
       "duplicate_key": "산업일보::sk에너지·현대오일뱅크 기름값 4년간 44조 담합…공정위, 제재 착수",
@@ -1247,13 +1255,18 @@
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "기름값 담합",
         "석유 담합",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 3,
+      "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1yX0ZJU0JVOUFOT1pPMDhkS09rYjQ2Q0ptal9DVEMzRFBHQlhBVTJwTy1NWldmXzU3YkFnZnJ1cTVwNDFq?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "9985faeeeba3d4a4",
       "grade": "C",
       "published_at_status": "known",
@@ -1263,59 +1276,68 @@
         "담합",
         "제재"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
-      "title": "SK에너지·HD현대오일뱅크, 전쟁 틈타 44조대 유가 담합...심판대에",
-      "url": "https://www.slist.kr/news/articleView.html?idxno=771752",
-      "source": "싱글리스트",
-      "published_at": "2026-10-07T19:27:33.429393+09:00",
-      "snippet": "러시아-우크라이나 전쟁과 미국-이란 전쟁으로 국제 유가 가 불안정한 틈을 타 2개 정유사가 휘발유·경유·등유 가격 정보를 공유하고, 판매 가격을 짬짜미 한 의혹이 제기돼 공정거래위원회의 심판대에 올랐다. 공정위 사무처는 SK에너지㈜와 HD현대오일뱅크㈜의 휘발유·경유·등유 담합 혐의와 관련해...",
-      "collected_at": "2026-10-08T08:27:33.429407+09:00",
-      "normalized_title": "SK에너지·HD현대오일뱅크, 전쟁 틈타 44조대 유가 담합...심판대에",
-      "source_normalized": "싱글리스트",
-      "duplicate_key": "싱글리스트::sk에너지·hd현대오일뱅크, 전쟁 틈타 44조대 유가 담합...심판대에",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "유가 짬짜미"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.slist.kr/news/articleView.html?idxno=771752",
-      "id": "11eebf64f7124731",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "정유사",
-        "휘발유",
-        "경유",
-        "공정위",
-        "공정거래위원회",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "SK에너지·HD현대오일뱅크, 전쟁 틈타 44조대 유가담합...심판대에",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DZ05ULVFOUG12WTd6Z0NzbnVXQ2l5Q0lNSllnUjV5dWpGdERlYnVJU1J3ckFPT0dGd0tmOEVKbGlpMjF5b2dtaHJBc0gxdHZGRWFCTmd6bXMxRUFTYjBmalpwV3JpZw?oc=5",
-      "source": "싱글리스트",
-      "published_at": "2026-10-07T19:23:50+09:00",
-      "snippet": "SK에너지·HD현대오일뱅크, 전쟁 틈타 44조대 유가담합...심판대에 싱글리스트",
-      "collected_at": "2026-10-08T08:26:34.221460+09:00",
-      "normalized_title": "SK에너지·HD현대오일뱅크, 전쟁 틈타 44조대 유가담합...심판대에",
-      "source_normalized": "싱글리스트",
-      "duplicate_key": "싱글리스트::sk에너지·hd현대오일뱅크, 전쟁 틈타 44조대 유가담합...심판대에",
+      "title": "공정위, SK에너지·HD현대오일뱅크 담합 심의…관련 매출 44.1조",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rS19YMDBBRV9qdlpqbjdjNTdBRDRNNHAtZkhzbFFaX1NRZU1IZjJuVVlnZzhjeTJ4QzZNYWFUZjhRVXlqT0dEVW5KRkRudEdadHMwX3p3Tzl4SlE3dERNTmtJX2U4ejFKN3UwNWZidw?oc=5",
+      "source": "시사포커스",
+      "published_at": "2026-10-07T18:28:28+09:00",
+      "snippet": "공정위, SK에너지·HD현대오일뱅크 담합 심의…관련 매출 44.1조 시사포커스",
+      "collected_at": "2026-10-08T08:24:55.076539+09:00",
+      "normalized_title": "공정위, SK에너지·HD현대오일뱅크 담합 심의…관련 매출 44.1조",
+      "source_normalized": "시사포커스",
+      "duplicate_key": "시사포커스::공정위, sk에너지·hd현대오일뱅크 담합 심의…관련 매출 44.1조",
       "portals": [
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유 가격정보",
+        "정유업계 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rS19YMDBBRV9qdlpqbjdjNTdBRDRNNHAtZkhzbFFaX1NRZU1IZjJuVVlnZzhjeTJ4QzZNYWFUZjhRVXlqT0dEVW5KRkRudEdadHMwX3p3Tzl4SlE3dERNTmtJX2U4ejFKN3UwNWZidw?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
+      "id": "7f2b842e484fc536",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "SK에너지·HD현대오일뱅크, 전쟁 틈타 44조대 유가담합...심판대에",
+      "url": "https://www.slist.kr/news/articleView.html?idxno=771752",
+      "source": "싱글리스트",
+      "published_at": "2026-10-07T19:23:50+09:00",
+      "snippet": "러시아-우크라이나 전쟁과 미국-이란 전쟁으로 국제 유가 가 불안정한 틈을 타 2개 정유사가 휘발유·경유·등유 가격 정보를 공유하고, 판매 가격을 짬짜미 한 의혹이 제기돼 공정거래위원회의 심판대에 올랐다. 공정위 사무처는 SK에너지㈜와 HD현대오일뱅크㈜의 휘발유·경유·등유 담합 혐의와 관련해...",
+      "collected_at": "2026-10-08T08:25:22.291983+09:00",
+      "normalized_title": "SK에너지·HD현대오일뱅크, 전쟁 틈타 44조대 유가담합...심판대에",
+      "source_normalized": "싱글리스트",
+      "duplicate_key": "싱글리스트::sk에너지·hd현대오일뱅크, 전쟁 틈타 44조대 유가담합...심판대에",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "경유 담합",
         "공정위 유가 담합",
         "석유 담합",
@@ -1327,13 +1349,22 @@
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 10,
-      "canonical_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DZ05ULVFOUG12WTd6Z0NzbnVXQ2l5Q0lNSllnUjV5dWpGdERlYnVJU1J3ckFPT0dGd0tmOEVKbGlpMjF5b2dtaHJBc0gxdHZGRWFCTmd6bXMxRUFTYjBmalpwV3JpZw?oc=5",
-      "id": "dc8445d5ab94ab17",
+      "duplicate_count": 2,
+      "canonical_url": "https://www.slist.kr/news/articleView.html?idxno=771752",
+      "verified": true,
+      "published_at_basis": "original_article",
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "time_evidence": "원문 published_time 2026-10-07T19:23:50+09:00",
+      "id": "0fa6983d6bc7e4a4",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
         "유가",
+        "정유사",
+        "휘발유",
+        "경유",
+        "공정위",
+        "공정거래위원회",
         "담합"
       ],
       "quality_status": "ok",
@@ -1346,7 +1377,7 @@
       "source": "여성신문",
       "published_at": "2026-10-07T17:33:29+09:00",
       "snippet": "SK에너지·HD현대오일뱅크, 44조대 유가 담합 혐의…공정위 심의 착수 여성신문",
-      "collected_at": "2026-10-08T08:26:34.219480+09:00",
+      "collected_at": "2026-10-08T08:24:48.631681+09:00",
       "normalized_title": "SK에너지·HD현대오일뱅크, 44조대 유가 담합 혐의…공정위 심의 착수",
       "source_normalized": "여성신문",
       "duplicate_key": "여성신문::sk에너지·hd현대오일뱅크, 44조대 유가 담합 혐의…공정위 심의 착수",
@@ -1354,7 +1385,9 @@
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "경유 담합",
         "공정위 유가 담합",
         "석유 담합",
@@ -1365,8 +1398,11 @@
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 9,
+      "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FQk12dkZMOGxQRmlEMURFZVNoYm1DYzdGZk5BTmxYXzZTb0lfVTEzbUZRVlQxWlNPMzZfR0xlS2ZoWllUSTFlbmtPU05lcE5GaklQVkVleXlFZ2VfcnEyWVRKQ0E4Y2hDaXZiVWNkbV9kUjDSAXNBVV95cUxPRUJNdnZGTDhsUEZpRDFERWVTaGJtQ2M3RmZOQU5sWF82U29JX1UxM21GUVZUMVpTTzM2X0dMZUtmaFpZVEkxZW5rT1NOZXBORmpJUFZFZXl5RWdlX3JxMllUSkNBOGNoQ2l2YlVjZG1fZFIw?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "321f7a6078f7a40d",
       "grade": "C",
       "published_at_status": "known",
@@ -1375,46 +1411,9 @@
         "공정위",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "국제 유가 불안 틈타 44조 원대 기름값 담합 의혹…공정위, SK·HD현대오일...",
-      "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=87173",
-      "source": "인더스트리뉴스",
-      "published_at": "2026-10-07T17:27:33.432418+09:00",
-      "snippet": "인더스트리뉴스 문기수 기자 국제 유가 급변기를 틈타 4년여간 석유제품 가격 정보를 교환하고 판매 가격을 짬짜미 한 혐의로 국내 정유업계 '빅2'인 SK에너지와 HD현대오일뱅크가 공정거래위원회의 제재 심판대에 올랐다. 담합 의혹이 제기된 관련 매출액만 44조원을 웃돌아 향후 수천억 원대 과징금 부과 등...",
-      "collected_at": "2026-10-08T08:27:33.432433+09:00",
-      "normalized_title": "국제 유가 불안 틈타 44조 원대 기름값 담합 의혹…공정위, SK·HD현대오일...",
-      "source_normalized": "인더스트리뉴스",
-      "duplicate_key": "인더스트리뉴스::국제 유가 불안 틈타 44조 원대 기름값 담합 의혹…공정위, sk·hd현대오일...",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "유가 짬짜미"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.industrynews.co.kr/news/articleView.html?idxno=87173",
-      "id": "a8a2211cb2a57fc6",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "석유",
-        "정유업계",
-        "기름값",
-        "석유제품",
-        "공정위",
-        "공정거래위원회",
-        "담합",
-        "제재",
-        "과징금"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
       "title": "SK에너지 및 현대오일뱅크의 휘발유˙등유 ˙경유 담합 사건 심의 절차 개시",
@@ -1434,6 +1433,9 @@
       ],
       "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96aFBDb09POHM4UTgtcEk4UzR5b2s3ZndZLVJ1WGJlaG5POUQ2QkRXM0ZoU1FiZHJSazZIVkRycmhfWkdOVmIxRl9vOFYyajNBQUVzX1otcGJvQnNkM0tjZjI1YmduZ0FB?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "32ec7f641f26d4d8",
       "grade": "C",
       "published_at_status": "known",
@@ -1441,6 +1443,48 @@
         "휘발유",
         "경유",
         "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[조세금융신문] 공정위, SK에너지·현대오일뱅크 '유가 담합' 제재 위한 심의 착수",
+      "url": "https://www.tfmedia.co.kr/news/article.html?no=207797",
+      "source": "조세금융신문",
+      "published_at": "2026-10-07T18:12:34+09:00",
+      "snippet": "공정위, SK에너지·현대오일뱅크 '유가 담합' 제재 위한 심의 착수 조세금융신문",
+      "collected_at": "2026-10-08T08:24:48.631401+09:00",
+      "normalized_title": "[조세금융신문] 공정위, SK에너지·현대오일뱅크 '유가 담합' 제재 위한 심의 착수",
+      "source_normalized": "조세금융신문",
+      "duplicate_key": "조세금융신문::[조세금융신문] 공정위, sk에너지·현대오일뱅크 '유가 담합' 제재 위한 심의 착수",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유 가격정보",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.tfmedia.co.kr/news/article.html?no=207797",
+      "verified": true,
+      "published_at_basis": "original_article",
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "time_evidence": "원문 최초 등록·입력 2026.10.07 18:12:34",
+      "id": "7fa88394b9a46638",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "제재"
       ],
       "quality_status": "ok",
       "status_label": "정상",
@@ -1467,8 +1511,11 @@
         "유가담합",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 5,
+      "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96QVJzbVRtZ1ZJVUFZVWdpNTJ3YW5kc1ZlTXhrSjZtbWRFY3VKZVBuSFdZTkpVVzB2RjJhWUlLUHV3bVBPQnRaOUF0TXI0X2ZSbDU1ZFVMNi1RMkdBSnVkTHNyVQ?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "11c38c0dca20bf52",
       "grade": "C",
       "published_at_status": "known",
@@ -1478,17 +1525,55 @@
         "담합",
         "제재"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "SK에너지·현대오일뱅크 가격 담합 혐의, 공정위 심판받는다",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NLWpNT3plZW9sc3RjeU1tNVJ2emgwUDI3UGh2ZDAwUzdxb2dnRXNEaW9vczRTS21YeEdMS2ZuVHd6OWp1OElteDNDVFppeTNRNkE2bG1JeWNweVdTelFpbUcxV2JtV3hsREdqYUdB0gFuQVVfeXFMTU0tak1PemVlb2xzdGN5TW01UnZ6aDBQMjdQaHZkMDBTN3FvZ2dFc0Rpb29zNFNLbVh4R0xLZm5Ud3o5anU4SW14M0NUWml5M1E2QTZsbUl5Y3B5V1N6UWltRzFXYm1XeGxER2phR0E?oc=5",
+      "source": "충청신문",
+      "published_at": "2026-10-07T18:17:35+09:00",
+      "snippet": "SK에너지·현대오일뱅크 가격 담합 혐의, 공정위 심판받는다 충청신문",
+      "collected_at": "2026-10-08T08:24:57.460446+09:00",
+      "normalized_title": "SK에너지·현대오일뱅크 가격 담합 혐의, 공정위 심판받는다",
+      "source_normalized": "충청신문",
+      "duplicate_key": "충청신문::sk에너지·현대오일뱅크 가격 담합 혐의, 공정위 심판받는다",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "44조 담합",
+        "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "정유 가격정보",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NLWpNT3plZW9sc3RjeU1tNVJ2emgwUDI3UGh2ZDAwUzdxb2dnRXNEaW9vczRTS21YeEdMS2ZuVHd6OWp1OElteDNDVFppeTNRNkE2bG1JeWNweVdTelFpbUcxV2JtV3hsREdqYUdB0gFuQVVfeXFMTU0tak1PemVlb2xzdGN5TW01UnZ6aDBQMjdQaHZkMDBTN3FvZ2dFc0Rpb29zNFNLbVh4R0xLZm5Ud3o5anU4SW14M0NUWml5M1E2QTZsbUl5Y3B5V1N6UWltRzFXYm1XeGxER2phR0E?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
+      "id": "d82217f8eb671bbd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
       "title": "SK에너지·HD현대오일뱅크, 44조원대 유가 담합 의혹…공정위 제재 착수",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KVEFMbXdwV0RRbTIzNlhZc19aVXFkZ1p4b3RveXVJOHcwOUpLNVdMZGRzeGVIWUJGN3hMNm9XX3BfMl9vUmlSaV9valVBdmFsZ1FVQzFLMy1MSnlQSVROOG5oLXA0VXRlaHQxWTFReWnSAXRBVV95cUxQYVAyT1RrTDlTMUVVZkJQQjI4OWpEdW9XMUstVW1zdXVsOGJXTnpJOUV2Zy1JODFMa01NelNaS3lKVUdfeVVzNUNnY0c5WUpPODZwbmlrS2IxSFhTaV9NOW5XSk5URzg1dVEzaGJfbkYwVTJVNA?oc=5",
+      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321608",
       "source": "포인트데일리",
       "published_at": "2026-10-07T17:10:46+09:00",
       "snippet": "SK에너지·HD현대오일뱅크, 44조원대 유가 담합 의혹…공정위 제재 착수 포인트데일리",
-      "collected_at": "2026-10-08T08:26:34.220745+09:00",
+      "collected_at": "2026-10-08T08:24:48.632347+09:00",
       "normalized_title": "SK에너지·HD현대오일뱅크, 44조원대 유가 담합 의혹…공정위 제재 착수",
       "source_normalized": "포인트데일리",
       "duplicate_key": "포인트데일리::sk에너지·hd현대오일뱅크, 44조원대 유가 담합 의혹…공정위 제재 착수",
@@ -1496,7 +1581,9 @@
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "공정거래위원회 정유사 담합",
         "공정위 유가 담합",
         "석유 담합",
@@ -1506,9 +1593,13 @@
         "주유소 담합",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 8,
-      "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KVEFMbXdwV0RRbTIzNlhZc19aVXFkZ1p4b3RveXVJOHcwOUpLNVdMZGRzeGVIWUJGN3hMNm9XX3BfMl9vUmlSaV9valVBdmFsZ1FVQzFLMy1MSnlQSVROOG5oLXA0VXRlaHQxWTFReWnSAXRBVV95cUxQYVAyT1RrTDlTMUVVZkJQQjI4OWpEdW9XMUstVW1zdXVsOGJXTnpJOUV2Zy1JODFMa01NelNaS3lKVUdfeVVzNUNnY0c5WUpPODZwbmlrS2IxSFhTaV9NOW5XSk5URzg1dVEzaGJfbkYwVTJVNA?oc=5",
-      "id": "87046e088145ee83",
+      "duplicate_count": 0,
+      "canonical_url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321608",
+      "verified": true,
+      "published_at_basis": "original_article",
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "time_evidence": "원문 published_time 2026-10-07T17:10:46+09:00",
+      "id": "57bdb9ce99a2e95c",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
@@ -1527,7 +1618,7 @@
       "source": "화이트페이퍼",
       "published_at": "2026-10-07T17:15:37+09:00",
       "snippet": "공정위, 국제유가 불안정 이용한 '44조원 유가 담합' 의혹 심의 착수 화이트페이퍼",
-      "collected_at": "2026-10-08T08:26:34.221210+09:00",
+      "collected_at": "2026-10-08T08:24:48.632598+09:00",
       "normalized_title": "공정위, 국제유가 불안정 이용한 '44조원 유가 담합' 의혹 심의 착수",
       "source_normalized": "화이트페이퍼",
       "duplicate_key": "화이트페이퍼::공정위, 국제유가 불안정 이용한 '44조원 유가 담합' 의혹 심의 착수",
@@ -1535,7 +1626,9 @@
         "google"
       ],
       "queries": [
+        "44조 담합",
         "SK에너지 담합",
+        "SK에너지 현대오일뱅크",
         "경유 담합",
         "공정위 유가 담합",
         "유가 담합",
@@ -1543,8 +1636,11 @@
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 6,
+      "duplicate_count": 0,
       "canonical_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jVHZyeDdyTHo1ZnVOYmRwZHdyNHNsdjI5VDhGSTBhMjJGNUpTSXRNdjYwZGp3SFV2cTlYVG8zbTdoM1NYcDFFRnVIclFzeTRjYk45UXlmdnlOa0hnQ2hUZm93N1lfVllOZEo5SXBXSjlSRG_SAXNBVV95cUxOY1R2cng3ckx6NWZ1TmJkcGR3cjRzbHYyOVQ4RkkwYTIyRjVKU0l0TXY2MGRqd0hVdnE5WFRvM203aDNTWHAxRUZ1SHJRc3k0Y2JOOVF5ZnZ5TmtIZ0NoVGZvdzdZX1ZZTmRKOUlwV0o5UkRv?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
       "id": "1690dae5e253dfff",
       "grade": "C",
       "published_at_status": "known",
@@ -1553,9 +1649,12 @@
         "공정위",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     }
-  ]
+  ],
+  "editorial_audit": "data/reviews/2026-10-08-morning.audit.json",
+  "raw_count_basis": "최초777건+보완226건+Actions776건 실제 검색 결과 합계. 검색어·포털 중복 포함.",
+  "coverage_note": "동일 매체·동일 정규화 제목만 병합. 다른 매체 동일 사건 모두 보존. 원문 미확인은 별도 상태로 유지. 네이버 공개검색 페이지 한계로 완전성 보장 불가."
 }

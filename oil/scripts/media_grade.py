@@ -66,6 +66,8 @@ ALIASES = {
     "ChosunBiz": "조선Biz",
 
     "이비엔": "EBN",
+    "EBN산업경제": "EBN",
+    "www.ebn.co.kr": "EBN",
     "ebn": "EBN",
     "EBN": "EBN",
 
