@@ -40,6 +40,8 @@
 
 ## 발간 체크리스트 (2026-09-28 추가)
 
+- **유가 전수 모니터링 기준(2026-10-07 정정)**: 동일 사안 대표기사 1건 선정은 국감에만 적용한다. Oil Price Issue Report는 같은 매체·같은 정규화 제목만 병합하고, 다른 매체의 동일 사건 보도는 모두 보존한다. 원수집 검색 결과 수를 소수의 검토 후보 수로 대체하지 않는다. 전체 목록, 원문 확인/미확인 상태, 시간대 밖 제외 및 수집 제한을 구분해 기록한다.
+
 - Morning/Evening 발간 시 유가 리포트도 같은 슬롯으로 확인한다. `oil/data/reports/YYYY-MM-DD-SLOT.json`이 없으면 `oil` 폴더에서 `python scripts/collect_news.py --slot SLOT --base-date YYYY-MM-DD --include-previous-night true`, `python scripts/build_report.py --slot SLOT --base-date YYYY-MM-DD --include-previous-night true`, `python scripts/validate_reports.py`를 실행한다. 유가 예약 실행은 GitHub 사정으로 2~5시간 늦게 시작되므로 예약 실행을 기다리지 않는다.
 - `summary`·`editorial_audit`·기사별 `verified`/`time_evidence`가 있는 유가 리포트는 검토본이다. `build_report.py`는 검토본을 덮어쓰지 않으며, 원문 재검토 후 다시 만들 때만 `--overwrite-reviewed true`를 사용한다.
 - 공휴일은 `scripts/kr_holidays.py` 한 곳에서만 관리한다. 다른 스크립트나 workflow에 날짜 목록을 복사하지 않는다. 2027년 공휴일은 2026년 12월 전에 추가한다.

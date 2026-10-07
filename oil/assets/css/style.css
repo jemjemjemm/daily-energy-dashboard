@@ -149,6 +149,9 @@ details.snippet summary { cursor: pointer; color: var(--navy-2); }
 .report-select-button { min-height: 42px; padding: 8px 13px; color: var(--navy); background: white; border: 1px solid #aebdc8; border-radius: 8px; cursor: pointer; font-weight: 700; }
 .report-select-button.active { color: white; background: var(--navy); border-color: var(--navy); }
 footer { padding: 23px 20px calc(23px + env(safe-area-inset-bottom)); color: var(--muted); text-align: center; font-size: .75rem; }
+.article-meta { margin-top: 7px; color: var(--muted); font-size: .73rem; overflow-wrap: anywhere; }
+.report-summary-mini p { margin: 4px 0; overflow-wrap: anywhere; }
+.collection-warning { color: #825b16; font-size: .75rem; }
 @media (max-width: 600px) {
   .header-inner, .page-shell { width: min(100% - 24px, 1160px); }
   .header-inner { padding: 25px 0 23px; align-items: center; }

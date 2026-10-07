@@ -30,6 +30,13 @@ HEADERS = {
 }
 TIMEOUT = 20
 RELATIVE_TIME_SOURCE = re.compile(r"^\d+\s*(?:분|시간|일)\s*전$")
+EVENT_KEYWORDS = ["SK에너지 담합", "현대오일뱅크 담합", "정유 44조", "유가 짬짜미"]
+
+
+class PartialCollectionError(Exception):
+    def __init__(self, items: list[dict], detail: str):
+        super().__init__(detail)
+        self.items = items
 
 
 def clean_text(value: str) -> str:
@@ -37,6 +44,11 @@ def clean_text(value: str) -> str:
     if "<" in value and ">" in value:
         value = BeautifulSoup(value, "html.parser").get_text(" ")
     return re.sub(r"\s+", " ", value).strip()
+
+
+def visible_text(node) -> str:
+    """Ignore accessibility-only labels such as Naver's '새 창 열림'."""
+    return clean_text(node.get_text(" ", strip=True)).replace("새 창 열림", "").strip() if node else ""
 
 
 def iso_time(value: str | None) -> str:
@@ -98,19 +110,28 @@ def resolve_article_source(url: str) -> str:
     return ""
 
 
-def collect_naver_api(query: str) -> list[dict]:
-    response = requests.get(
-        "https://openapi.naver.com/v1/search/news.json",
-        params={"query": query, "display": 100, "sort": "date"},
-        headers={**HEADERS, "X-Naver-Client-Id": os.environ["NAVER_CLIENT_ID"], "X-Naver-Client-Secret": os.environ["NAVER_CLIENT_SECRET"]},
-        timeout=TIMEOUT,
-    )
-    response.raise_for_status()
-    return [raw_item("naver", query, row.get("title", ""), row.get("originallink") or row.get("link", ""), published_at=row.get("pubDate", ""), snippet=row.get("description", ""), raw=row) for row in response.json().get("items", [])]
+def collect_naver_api(query: str, start=None, end=None) -> list[dict]:
+    results = []
+    for offset in range(1, 1001, 100):
+        response = requests.get(
+            "https://openapi.naver.com/v1/search/news.json",
+            params={"query": query, "display": 100, "start": offset, "sort": "date"},
+            headers={**HEADERS, "X-Naver-Client-Id": os.environ["NAVER_CLIENT_ID"], "X-Naver-Client-Secret": os.environ["NAVER_CLIENT_SECRET"]},
+            timeout=TIMEOUT,
+        )
+        response.raise_for_status()
+        rows = response.json().get("items", [])
+        results.extend(raw_item("naver", query, row.get("title", ""), row.get("originallink") or row.get("link", ""), published_at=row.get("pubDate", ""), snippet=row.get("description", ""), raw=row) for row in rows)
+        if len(rows) < 100 or (start and rows and iso_time(rows[-1].get("pubDate", "")) < start.isoformat()):
+            break
+    return results
 
 
-def collect_naver_public(query: str) -> list[dict]:
-    response = requests.get("https://search.naver.com/search.naver", params={"where": "news", "query": query, "sort": "1"}, headers=HEADERS, timeout=TIMEOUT)
+def collect_naver_public(query: str, start=None, end=None) -> list[dict]:
+    params = {"where": "news", "query": query, "sort": "1"}
+    if start and end:
+        params.update(pd="3", ds=start.strftime("%Y.%m.%d"), de=end.strftime("%Y.%m.%d"))
+    response = requests.get("https://search.naver.com/search.naver", params=params, headers=HEADERS, timeout=TIMEOUT)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
     results = []
@@ -128,31 +149,30 @@ def collect_naver_public(query: str) -> list[dict]:
         node = node or link.parent
         if not link or not clean_text(link.get("title") or link.get_text()):
             continue
-        source_nodes = node.select("a[data-heatmap-target='.prof'], .info.press, .sds-comps-profile-info-title-text")
-        source_text = next((candidate.get_text(" ", strip=True) for candidate in source_nodes if candidate.get_text(" ", strip=True)), "")
+        source_nodes = node.select(".sds-comps-profile-info-title-text, .info.press, a[data-heatmap-target='.prof']")
+        source_text = next((visible_text(candidate) for candidate in source_nodes if visible_text(candidate)), "")
         snippet_node = node.select_one("a[data-heatmap-target='.body'], .news_dsc, .api_txt_lines")
         node_text = node.get_text(" ", strip=True)
         date_match = re.search(r"(?:\d+\s*(?:분|시간|일)\s*전|\d{4}\.\d{1,2}\.\d{1,2}\.?)", node_text)
-        results.append(raw_item("naver", query, link.get("title") or link.get_text(), link.get("href", ""), source_text, date_match.group(0) if date_match else "", snippet_node.get_text() if snippet_node else ""))
+        results.append(raw_item("naver", query, link.get("title") or visible_text(link), link.get("href", ""), source_text, date_match.group(0) if date_match else "", visible_text(snippet_node)))
     if not results and not any(marker in soup.get_text(" ", strip=True) for marker in ("검색결과가 없습니다", "검색 결과가 없습니다")):
         raise ValueError("Naver news result selector returned 0 nodes")
     return results
 
 
-def collect_daum_public(query: str) -> list[dict]:
-    response = requests.get("https://search.daum.net/search", params={"w": "news", "q": query, "sort": "recency"}, headers=HEADERS, timeout=TIMEOUT)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
+def parse_daum_results(soup, query: str) -> list[dict]:
     results = []
-    selectors = ".c-list-basic > li, .item-bundle-mid, .wrap_cont, .coll_cont li"
+    selectors = ".c-list-basic > li"
+    if not soup.select(selectors):
+        selectors = ".wrap_cont, .coll_cont li"
     for node in soup.select(selectors):
-        link = node.select_one("a.f_link_b, a.tit-g, a[href].tit_main, a[href*='v.daum.net'], a[href*='news.daum.net']")
+        link = node.select_one(".item-title a, a.f_link_b, a.tit-g, a[href].tit_main")
         if not link:
             continue
         title = clean_text(link.get_text())
         if not title:
             continue
-        source_node = node.select_one(".f_nb, .txt_info, .item-source, .cont_info")
+        source_node = node.select_one(".item-writer .tit_item, .item-source, .cont_info, .f_nb")
         date_node = node.select_one(".f_nb.date, .gem-subinfo, .txt_date")
         snippet_node = node.select_one(".f_eb, .desc, .item-contents")
         article_url = urljoin("https://search.daum.net", link.get("href", ""))
@@ -165,8 +185,37 @@ def collect_daum_public(query: str) -> list[dict]:
     return results
 
 
-def collect_google_rss(query: str) -> list[dict]:
-    url = f"https://news.google.com/rss/search?q={quote_plus(query)}&hl=ko&gl=KR&ceid=KR:ko"
+def collect_daum_public(query: str, start=None, end=None) -> list[dict]:
+    results, seen = [], set()
+    for page in range(1, 21):
+        params = {"w": "news", "q": query, "sort": "recency", "p": page}
+        if start and end:
+            params.update(period="u", sd=start.strftime("%Y%m%d%H%M%S"), ed=end.strftime("%Y%m%d%H%M%S"))
+        try:
+            response = requests.get("https://search.daum.net/search", params=params, headers=HEADERS, timeout=TIMEOUT)
+            response.raise_for_status()
+            found = parse_daum_results(BeautifulSoup(response.content, "html.parser"), query)
+        except (requests.RequestException, ValueError) as exc:
+            if results:
+                raise PartialCollectionError(results, f"{page}페이지 수집 실패; 이전 페이지 결과 보존: {exc}") from exc
+            raise
+        fresh = [item for item in found if item["url"] not in seen]
+        if not fresh:
+            break
+        results.extend(fresh)
+        seen.update(item["url"] for item in fresh)
+        if len(found) < 10:
+            break
+    else:
+        raise PartialCollectionError(results, "다음 최대20페이지 수집 한도 도달. 이후 결과 누락 가능.")
+    return results
+
+
+def collect_google_rss(query: str, start=None, end=None) -> list[dict]:
+    search_query = query
+    if start and end:
+        search_query += f" after:{start:%Y-%m-%d} before:{(end + timedelta(days=1)):%Y-%m-%d}"
+    url = f"https://news.google.com/rss/search?q={quote_plus(search_query)}&hl=ko&gl=KR&ceid=KR:ko"
     response = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
     response.raise_for_status()
     feed = feedparser.parse(response.content)
@@ -228,7 +277,7 @@ def warning(portal: str, query: str, message: str, detail: str) -> dict:
     }
 
 
-def collect_all(delay: float = 0.15) -> tuple[list[dict], list[dict], dict]:
+def collect_all(delay: float = 0.15, start=None, end=None) -> tuple[list[dict], list[dict], dict]:
     items, warnings = [], []
     counts = {"naver": 0, "daum": 0, "google": 0}
     naver_api = bool(os.getenv("NAVER_CLIENT_ID") and os.getenv("NAVER_CLIENT_SECRET"))
@@ -243,13 +292,22 @@ def collect_all(delay: float = 0.15) -> tuple[list[dict], list[dict], dict]:
         "daum": collect_daum_public,
         "google": google_collector,
     }
-    for query in KEYWORDS:
+    if not naver_api:
+        warnings.append(warning("naver", "전체 검색", "public search coverage limit", "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다."))
+        warnings[-1]["user_message"] = "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다."
+    for query in KEYWORDS + EVENT_KEYWORDS:
         for portal, collector in collectors.items():
             try:
-                found = collector(query)
+                if collector in (collect_naver_api, collect_naver_public, collect_daum_public, collect_google_rss):
+                    found = collector(query, start, end)
+                else:
+                    found = collector(query)
                 items.extend(found)
                 counts[portal] += len(found)
             except Exception as exc:  # continue other queries/portals; expose every failure
+                partial = getattr(exc, "items", [])
+                items.extend(partial)
+                counts[portal] += len(partial)
                 warnings.append(warning(portal, query, f"{portal} collection failed", f"{type(exc).__name__}: {exc}"))
             if delay:
                 time.sleep(delay)
@@ -283,7 +341,8 @@ def main() -> int:
             portal_counts = existing.get("portal_counts", {})
             collected_at = existing.get("collected_at") or now_kst().isoformat()
         else:
-            items, warnings, portal_counts = collect_all(args.delay)
+            periods = [get_period(day, target_slot) for day, target_slot in targets]
+            items, warnings, portal_counts = collect_all(args.delay, min(p[0] for p in periods), max(p[1] for p in periods))
             collected_at = now_kst().isoformat()
         for (target_date, target_slot), path in zip(targets, paths):
             if path.exists() and not force_refresh:

@@ -67,4 +67,6 @@ def assess_quality(item: dict) -> tuple[str, str, str, list[str]]:
         missing.append("기사 링크 확인 불가")
     if missing:
         return "review", "검토필요", " · ".join(dict.fromkeys(missing)), matches
+    if item.get("verified") is False:
+        return "review", "원문 미확인", item.get("verification_reason") or "검색 결과 기반, 발행사 원문 확인 필요", matches
     return "ok", "정상", "유가담합 관련 맥락 확인", matches

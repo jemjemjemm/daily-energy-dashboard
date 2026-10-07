@@ -117,7 +117,11 @@ function renderArticle(article) {
     ? `<a class="article-link" href="${escapeHTML(link)}" target="_blank" rel="noopener noreferrer">${title}</a>`
     : `<span class="article-link">${title}</span>`;
   const snippet = article.snippet ? `<details class="snippet"><summary>검색 결과 문맥 보기</summary><p>${escapeHTML(article.snippet)}</p></details>` : "";
-  return `<li class="article-item"><div class="article-main">${titleMarkup}${snippet}</div></li>`;
+  const review = article.verified === false;
+  const verification = typeof article.verified === "boolean"
+    ? `<span class="badge ${review ? "status-review" : "status-ok"}">${review ? "원문 미확인" : "원문 확인"}</span>` : "";
+  const time = article.published_at ? `${article.published_at_basis === "search_result" ? "검색 표시시각 " : "입력 "}${formatShortDateTime(article.published_at)}` : "시각 미확인";
+  return `<li class="article-item"><div class="article-main">${titleMarkup}<div class="article-meta">${escapeHTML(time)} ${verification}</div>${snippet}</div></li>`;
 }
 
 function renderArticlesBySource(articles) {
@@ -153,7 +157,9 @@ function renderGradeSection(grade, title, articles) {
 function renderSingleReportBody(reportData) {
   const articles = reportData.articles || [];
   const grouped = groupArticlesByGradeAndSource(articles);
-  return `${renderReportSummary(reportData)}${renderGradeSection("A", gradeTitles.A, grouped.A)}
+  const coverage = reportData.total_enriched_input_count !== undefined
+    ? `<div class="report-summary-mini"><p>검색 결과 ${formatNumber(reportData.total_raw_count)}건 <small>(검색어·포털 중복 및 시간대 밖 포함)</small> → 해당 시간대 전체 기사 ${formatNumber(getTotalCount(reportData))}건</p><p>같은 매체·같은 제목만 병합하며, 다른 매체의 동일 사건 보도는 모두 표시합니다.</p>${reportData.articles?.some(a => typeof a.verified === "boolean") ? `<p>원문 확인 ${formatNumber(reportData.total_ok_count)}건 · 원문 미확인 ${formatNumber(reportData.total_review_count)}건 <small>(검색 결과·포털 확인 기준)</small></p>` : ""}${(reportData.collection_warnings || []).map(w => `<p class="collection-warning">${escapeHTML(w.user_message || w.message)}</p>`).join("")}</div>` : "";
+  return `${renderReportSummary(reportData)}${coverage}${renderGradeSection("A", gradeTitles.A, grouped.A)}
     ${renderGradeSection("B", gradeTitles.B, grouped.B)}
     ${renderGradeSection("C", gradeTitles.C, grouped.C)}`;
 }

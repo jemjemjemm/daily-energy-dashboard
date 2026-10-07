@@ -67,7 +67,9 @@ def process_articles(raw_items: list[dict], start: datetime, end: datetime) -> l
 
 def build_report(raw: dict, base_date: str, slot: str) -> dict:
     start, end = get_period(base_date, slot)
-    articles, excluded_count = _process_articles(raw.get("items", []), start, end)
+    items = raw.get("items", [])
+    articles, excluded_count = _process_articles(items, start, end)
+    unique = deduplicate(items)
     status_counts = Counter(item["quality_status"] for item in articles)
     grade_counts = Counter(item["grade"] for item in articles)
     query_counts = Counter(query for item in articles for query in item.get("queries", []))
@@ -76,7 +78,11 @@ def build_report(raw: dict, base_date: str, slot: str) -> dict:
         "base_date": base_date, "slot": slot,
         "period_start": start.isoformat(), "period_end": end.isoformat(),
         "period_label": period_label(start, end), "generated_at": now_kst().isoformat(),
-        "keywords": raw.get("keywords", []), "total_raw_count": len(raw.get("items", [])),
+        "keywords": raw.get("keywords", []), "total_raw_count": raw.get("collection_total_raw_count", len(items)),
+        "total_enriched_input_count": len(items),
+        "total_in_period_unique_count": sum(is_in_period(x.get("published_at"), start, end) for x in unique),
+        "total_unknown_time_count": sum(not parse_datetime(x.get("published_at")) for x in unique),
+        "total_outside_period_count": sum(bool(parse_datetime(x.get("published_at"))) and not is_in_period(x.get("published_at"), start, end) for x in unique),
         "total_deduped_count": len(articles), "total_ok_count": status_counts["ok"],
         "total_review_count": status_counts["review"], "total_excluded_count": excluded_count,
         "grade_counts": {grade: grade_counts[grade] for grade in "ABC"},
@@ -194,6 +200,14 @@ def main() -> int:
     if not raw_path.exists():
         raise FileNotFoundError(f"Raw data not found: {raw_path}")
     raw = json.loads(raw_path.read_text(encoding="utf-8"))
+    # Monitoring keeps every publisher's coverage. Enrich complete candidates,
+    # never replace the corpus with one representative article per event.
+    from concurrent.futures import ThreadPoolExecutor
+    from enrich_news import enrich_article
+    unique = deduplicate(raw.get("items", []))
+    raw["collection_total_raw_count"] = len(raw.get("items", []))
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        raw["items"] = list(pool.map(enrich_article, unique))
     report = build_report(raw, base_date, slot)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
