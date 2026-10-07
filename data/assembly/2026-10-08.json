@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0",
+  "source": "열린국회정보",
+  "api": "ALLSCHEDULE",
+  "date": "2026-10-08",
+  "monthCache": "months/2026-10.json",
+  "collectedAt": "2026-10-08T08:25:40+09:00",
+  "count": 4,
+  "apiTotalCount": 4,
+  "fields": [
+    "SCH_KIND",
+    "SCH_CN",
+    "SCH_DT",
+    "SCH_TM",
+    "CONF_DIV",
+    "CMIT_NM",
+    "CONF_SESS",
+    "CONF_DGR",
+    "EV_INST_NM",
+    "EV_PLC"
+  ],
+  "items": [
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "한국경제와 부동산 정책 어디로 가나?",
+      "SCH_DT": "2026-10-08",
+      "SCH_TM": "13:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김재섭·이종욱 의원실, 한국경제평론가협회, 공감신문",
+      "EV_PLC": "의원회관 제2소회의실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "전남 서남권의 의료 소외 극복과 국가균형발전을 위한 국회 포럼",
+      "SCH_DT": "2026-10-08",
+      "SCH_TM": "14:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김원이·박지원·이개호·서삼석·신정훈·문금주·서미화 의원실",
+      "EV_PLC": "의원회관 제1소회의실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "2026 중도장애인 지원 방안 모색 토론회",
+      "SCH_DT": "2026-10-08",
+      "SCH_TM": "14:00~17:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김대식·서미화 의원실",
+      "EV_PLC": "의원회관 신관 제3세미나실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "서·논술형 평가 확대 방안 모색을 위한 국회 토론회",
+      "SCH_DT": "2026-10-08",
+      "SCH_TM": "14:00~17:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "강득구·김문수 의원실, 교육정책디자인연구소·사교육걱정없는세상, 좋은교사운동, 교육의봄, 참교육을위한전국학부모회",
+      "EV_PLC": "의원회관 제7간담회의실(210호)"
+    }
+  ]
+}
