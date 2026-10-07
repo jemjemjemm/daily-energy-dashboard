@@ -1,0 +1,96 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-07",
+  "slot": "evening",
+  "period_start": "2026-10-07T08:00:00+09:00",
+  "period_end": "2026-10-07T17:00:00+09:00",
+  "period_label": "2026-10-07 08:00 ~ 2026-10-07 17:00",
+  "generated_at": "2026-10-07T17:13:38.818903+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 3,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 0,
+    "daum": 0,
+    "google": 0
+  },
+  "query_counts": {
+    "담합": 1,
+    "석유화학": 1,
+    "정유사": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "공정위 유가 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '공정위 유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EC%9C%84+%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1",
+      "created_at": "2026-10-07T17:07:58.778034+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "전쟁 틈타 44조대 유가담합…SK에너지·HD현대오일뱅크 심판대에(종합)",
+      "source": "연합뉴스",
+      "published_at": "2026-10-07T12:12:24+09:00",
+      "url": "https://www.yna.co.kr/view/AKR20261007079801002",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261007079801002",
+      "snippet": "공정위, SK에너지·HD현대오일뱅크 가격정보 교환·담합 혐의 심의 개시 및 두 회사의 소명·담합 부인 입장 제시",
+      "summary": "△공정위, SK에너지·HD현대오일뱅크 가격정보 교환·담합 혐의 심의 개시 및 두 회사의 소명·담합 부인 입장 제시",
+      "collected_at": "2026-10-07T17:13:38.763334+09:00",
+      "queries": [
+        "담합",
+        "석유화학",
+        "정유사"
+      ],
+      "portals": [
+        "editorial-original-review"
+      ],
+      "verified": true,
+      "time_evidence": "발행사 원문 본문과 최초 송고·등록 2026-10-07T12:12:24+09:00 직접 확인. 수정·포털·URL 생성시각 제외.",
+      "normalized_title": "전쟁 틈타 44조대 유가담합…SK에너지·HD현대오일뱅크 심판대에",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::전쟁 틈타 44조대 유가담합…sk에너지·hd현대오일뱅크 심판대에",
+      "duplicate_count": 0,
+      "id": "0acd0d5aeb2d76d5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "editorial_audit": "data/reviews/2026-10-07-evening.audit.json",
+  "raw_count_basis": "원문 검토 대표 후보 수. 자동 수집 raw 원본 보존."
+}
