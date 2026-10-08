@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △IEA 기존 비축유 방출 가속 방침 속 WTI 88.28달러·브렌트유 100.20달러 하락 마감 △한국 등 15개국, 전기차·배터리·화학·반도체·태양광 과잉생산 공동 대응 성명 및 분야별 협의체 추진 △정부, 녹색전환에 10년간 재정·정책금융 1000조원 계획 및 석유화학 NCC 전기화·SAF 확대 추진"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △한·이집트, 청정에너지·전력 인프라 협력 MOU 2건 체결 및 태양광·풍력·HVDC·ESS 기술 교류 추진 △원전 공론화위, 시민 약 300명 숙의 토론 조사계획 의결 및 특정 결론을 전제하지 않는 운영원칙 논의 △가습기살균제 국가주도 배상 신청 개시 및 기후부·15개 사업자 배상 이행 협약 체결 △정무위, 12일 공정위 국감 정유 4사 대표 증인 채택 및 주유소 가격·담합 의혹·최고가격제 쟁점 예고 △SK에너지, 석유시장 가격구조 개편·거래관행 점검·공정거래 교육·내부통제 강화 계획 발표"
     }
   ],
   "prices": {
@@ -1549,5 +1553,70 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△한·이집트, 청정에너지·전력 인프라 협력 MOU 2건 체결 및 태양광·풍력·HVDC·ESS 기술 교류 추진 △원전 공론화위, 시민 약 300명 숙의 토론 조사계획 의결 및 특정 결론을 전제하지 않는 운영원칙 논의 △가습기살균제 국가주도 배상 신청 개시 및 기후부·15개 사업자 배상 이행 협약 체결 △정무위, 12일 공정위 국감 정유 4사 대표 증인 채택 및 주유소 가격·담합 의혹·최고가격제 쟁점 예고 △SK에너지, 석유시장 가격구조 개편·거래관행 점검·공정거래 교육·내부통제 강화 계획 발표",
+    "trend_paragraphs": [
+      "△한·이집트, 청정에너지·전력 인프라 협력 MOU 2건 체결 및 태양광·풍력·HVDC·ESS 기술 교류 추진",
+      "△원전 공론화위, 시민 약 300명 숙의 토론 조사계획 의결 및 특정 결론을 전제하지 않는 운영원칙 논의",
+      "△가습기살균제 국가주도 배상 신청 개시 및 기후부·15개 사업자 배상 이행 협약 체결",
+      "△정무위, 12일 공정위 국감 정유 4사 대표 증인 채택 및 주유소 가격·담합 의혹·최고가격제 쟁점 예고",
+      "△SK에너지, 석유시장 가격구조 개편·거래관행 점검·공정거래 교육·내부통제 강화 계획 발표"
+    ],
+    "articles": [
+      {
+        "title": "韓-이집트, 청정에너지·전력기반시설 협력 양해각서 체결",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261008078000530",
+        "summary": "한·이집트, 청정에너지·전력 인프라 협력 MOU 2건 체결 및 태양광·풍력·HVDC·ESS 기술 교류 추진",
+        "published_at_kst": "2026-10-08T13:55:37+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 본문 및 최초 송고·등록 2026-10-08T13:55:37+09:00 직접 확인. 수정·포털 시각 제외."
+      },
+      {
+        "title": "원전 공론화위 \"다수결 대신 숙의\"…시민 300명 2박3일 토론",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261008072100530",
+        "summary": "원전 공론화위, 시민 약 300명 숙의 토론 조사계획 의결 및 특정 결론을 전제하지 않는 운영원칙 논의",
+        "published_at_kst": "2026-10-08T10:52:57+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 본문 및 최초 송고·등록 2026-10-08T10:52:57+09:00 직접 확인. 수정·포털 시각 제외."
+      },
+      {
+        "title": "가습기살균제 피해 국가주도배상 신청 시작…소송 없이 심의",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261008011900530",
+        "summary": "가습기살균제 국가주도 배상 신청 개시 및 기후부·15개 사업자 배상 이행 협약 체결",
+        "published_at_kst": "2026-10-08T09:45:00+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 본문 및 최초 송고·등록 2026-10-08T09:45:00+09:00 직접 확인. 수정·포털 시각 제외."
+      },
+      {
+        "title": "내주 정유 4사 대표 국감 총출동… 주유소 가격·담합 의혹 '정조준'",
+        "press": "이데일리",
+        "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04952806645610952",
+        "summary": "정무위, 12일 공정위 국감 정유 4사 대표 증인 채택 및 주유소 가격·담합 의혹·최고가격제 쟁점 예고",
+        "published_at_kst": "2026-10-08T16:47:23+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 본문 및 최초 송고·등록 2026-10-08T16:47:23+09:00 직접 확인. 수정·포털 시각 제외."
+      },
+      {
+        "title": "‘유가 담합 의혹’ SK에너지, 가격체계 대대적 개편…“담합 의혹 죄송, 신뢰회복·내부통제 강화”",
+        "press": "CEO스코어데일리",
+        "url": "https://m.ceoscoredaily.com/page/view/2026100812402426615",
+        "summary": "SK에너지, 석유시장 가격구조 개편·거래관행 점검·공정거래 교육·내부통제 강화 계획 발표",
+        "published_at_kst": "2026-10-08T13:49:10+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 본문 및 최초 송고·등록 2026-10-08T13:49:10+09:00 직접 확인. 수정·포털 시각 제외."
+      }
+    ],
+    "source": "발행사 원문·최초시각 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
