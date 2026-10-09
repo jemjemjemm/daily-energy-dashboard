@@ -1,5 +1,45 @@
 [
   {
+    "base_date": "2026-10-09",
+    "slot": "morning",
+    "label": "'26.10.9. Morning Report",
+    "period": "2026-10-09 00:00 ~ 2026-10-09 08:00",
+    "html_path": "reports/2026-10-09-morning.html",
+    "json_path": "data/reports/2026-10-09-morning.json",
+    "period_start": "2026-10-09T00:00:00+09:00",
+    "period_end": "2026-10-09T08:00:00+09:00",
+    "total_deduped_count": 5,
+    "total_ok_count": 0,
+    "total_review_count": 5,
+    "total_excluded_count": 3,
+    "grade_counts": {
+      "A": 2,
+      "B": 0,
+      "C": 3
+    },
+    "generated_at": "2026-10-09T11:56:25.468357+09:00"
+  },
+  {
+    "base_date": "2026-10-08",
+    "slot": "night",
+    "label": "'26.10.8. Night Report",
+    "period": "2026-10-08 17:00 ~ 2026-10-09 00:00",
+    "html_path": "reports/2026-10-08-night.html",
+    "json_path": "data/reports/2026-10-08-night.json",
+    "period_start": "2026-10-08T17:00:00+09:00",
+    "period_end": "2026-10-09T00:00:00+09:00",
+    "total_deduped_count": 29,
+    "total_ok_count": 29,
+    "total_review_count": 0,
+    "total_excluded_count": 7,
+    "grade_counts": {
+      "A": 4,
+      "B": 0,
+      "C": 25
+    },
+    "generated_at": "2026-10-09T11:56:00.561047+09:00"
+  },
+  {
     "base_date": "2026-10-08",
     "slot": "evening",
     "label": "'26.10.8. Evening Report",

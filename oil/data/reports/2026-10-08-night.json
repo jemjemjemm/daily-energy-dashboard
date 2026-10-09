@@ -1,0 +1,1110 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-08",
+  "slot": "night",
+  "period_start": "2026-10-08T17:00:00+09:00",
+  "period_end": "2026-10-09T00:00:00+09:00",
+  "period_label": "2026-10-08 17:00 ~ 2026-10-09 00:00",
+  "generated_at": "2026-10-09T11:56:00.561047+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 349,
+  "total_enriched_input_count": 349,
+  "total_in_period_unique_count": 36,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 62,
+  "total_deduped_count": 29,
+  "total_ok_count": 29,
+  "total_review_count": 0,
+  "total_excluded_count": 7,
+  "grade_counts": {
+    "A": 4,
+    "B": 0,
+    "C": 25
+  },
+  "portal_counts": {
+    "naver": 159,
+    "daum": 39,
+    "google": 151
+  },
+  "query_counts": {
+    "SK에너지 담합": 17,
+    "경유 담합": 10,
+    "공정거래위원회 정유사 담합": 9,
+    "공정위 유가 담합": 7,
+    "기름값 담합": 4,
+    "석유 담합": 12,
+    "석유제품 담합": 11,
+    "유가 담합": 9,
+    "유가 짬짜미": 1,
+    "유가담합": 9,
+    "정유 44조": 6,
+    "정유사 담합": 9,
+    "정유업계 담합": 7,
+    "주유소 담합": 10,
+    "현대오일뱅크 담합": 9,
+    "휘발유 담합": 9
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-09T11:55:09.988858+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "최고가격· 담합 심의에 부담 커지는 정유업계 …“산업 경쟁력 약화 우려...",
+      "url": "https://www.munhwa.com/article/11622322?ref=naver",
+      "source": "문화일보",
+      "published_at": "2026-10-08T18:55:35.871702+09:00",
+      "snippet": "석유제품 최고가격제와 수출 물량 제한으로 경영 자율성이 제약받는 상황에서 공정거래위원회의 담합 제재 절차까지 시작되자 전문가들은 정유 산업의 경쟁력 약화를 우려하고 있다. 8일 업계 에 따르면 국내 정유 사들은 국제유가와 운임·보험료 상승에도 원유 도입선 다변화와 우회수송 등을 통해 국내 공급...",
+      "collected_at": "2026-10-09T11:55:35.871719+09:00",
+      "normalized_title": "최고가격· 담합 심의에 부담 커지는 정유업계 …“산업 경쟁력 약화 우려...",
+      "source_normalized": "문화일보",
+      "duplicate_key": "문화일보::최고가격· 담합 심의에 부담 커지는 정유업계 …“산업 경쟁력 약화 우려...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.munhwa.com/article/11622322?ref=naver",
+      "id": "b26c980de71a44f4",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유업계",
+        "석유제품",
+        "공정거래위원회",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "최고가격·담합 심의에 부담 커지는 정유업계…“산업 경쟁력 약화 우려”",
+      "url": "http://v.daum.net/v/20261008184941098",
+      "source": "문화일보",
+      "published_at": "2026-10-08T18:55:13.365353+09:00",
+      "snippet": "제한으로 경영 자율성이 제약받는 상황에서 공정거래위원회의 담합 제재 절차까지 시작되자 전문가들은 정유산업의 경쟁력 약화를...있다. 이런 가운데 공정위는 지난 7일 SK에너지와 HD현대오일뱅크가 약 4년 간 석유제품 가격정보를 교환하고, 올해 3월 두 차례... 17시간 전",
+      "collected_at": "2026-10-09T11:55:13.365368+09:00",
+      "normalized_title": "최고가격·담합 심의에 부담 커지는 정유업계…“산업 경쟁력 약화 우려”",
+      "source_normalized": "문화일보",
+      "duplicate_key": "문화일보::최고가격·담합 심의에 부담 커지는 정유업계…“산업 경쟁력 약화 우려”",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 13,
+      "canonical_url": "http://v.daum.net/v/20261008184941098",
+      "id": "095f91da6f3628c6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "석유제품",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "최고가격· 담합 심의에 부담 커지는 정유업계…“산업 경쟁력 약화 우려...",
+      "url": "https://www.munhwa.com/article/11622322?ref=naver",
+      "source": "문화일보",
+      "published_at": "2026-10-08T18:55:11.828278+09:00",
+      "snippet": "공정거래위원회의 담합 제재 절차까지 시작되자 전문가들은 정유산업의 경쟁력 약화를 우려하고 있다. 8일 업계에 따르면 국내 정유사들은 국제 유가 와... 이런 가운데 공정위 는 지난 7일 SK에너지와 HD현대오일뱅크가 약 4년 간 석유제품 가격정보를 교환하고, 올해 3월 두 차례 공급가격을 합의한 혐의에 대해...",
+      "collected_at": "2026-10-09T11:55:11.828294+09:00",
+      "normalized_title": "최고가격· 담합 심의에 부담 커지는 정유업계…“산업 경쟁력 약화 우려...",
+      "source_normalized": "문화일보",
+      "duplicate_key": "문화일보::최고가격· 담합 심의에 부담 커지는 정유업계…“산업 경쟁력 약화 우려...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 10,
+      "canonical_url": "https://www.munhwa.com/article/11622322?ref=naver",
+      "id": "f15fa247afa83f3d",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "정유업계",
+        "석유제품",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위 담합 심의 착수에 SK에너지, 가격구조·내부통제 개편",
+      "url": "https://www.fnnews.com/news/202610081711130106",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-10-08T17:55:25.493739+09:00",
+      "snippet": "SK에너지가 공정거래위원회의 석유제품 가격 담합 사건 심의 절차 개시에 맞춰 가격체계와 거래관행을 개선하고 공정거래 관련 내부통제를 강화한다. 주... 공정위에 따르면 정유업계 는 그동안 거래처에 석유제품을 공급할 때 우선 '입금가'를 정해 대금을 받은 뒤 익월 초 최종 '확정가'를 결정하고 차액을...",
+      "collected_at": "2026-10-09T11:55:25.493753+09:00",
+      "normalized_title": "공정위 담합 심의 착수에 SK에너지, 가격구조·내부통제 개편",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::공정위 담합 심의 착수에 sk에너지, 가격구조·내부통제 개편",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유 44조",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 15,
+      "canonical_url": "https://www.fnnews.com/news/202610081711130106",
+      "id": "8b6cc3dab81a961e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "석유제품",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SK에너지, 가격담합 의혹에 사과…4대 쇄신안 발표",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RR3VYQi1oMzlFRzJYcjc5MTlPNkRKWWRCUzVzR0JEdHBGMEJKODhlckx6b3RHZHFMY25zb2xkU3NzNHN1SWx0ak5OMVNudTZPeDdkWVMwOWdMNE1sSHpyMVZObE92QnJSeU02MA?oc=5",
+      "source": "ER 이코노믹리뷰",
+      "published_at": "2026-10-08T17:22:56+09:00",
+      "snippet": "SK에너지, 가격담합 의혹에 사과…4대 쇄신안 발표 ER 이코노믹리뷰",
+      "collected_at": "2026-10-09T11:55:25.886584+09:00",
+      "normalized_title": "SK에너지, 가격담합 의혹에 사과…4대 쇄신안 발표",
+      "source_normalized": "ER 이코노믹리뷰",
+      "duplicate_key": "er 이코노믹리뷰::sk에너지, 가격담합 의혹에 사과…4대 쇄신안 발표",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RR3VYQi1oMzlFRzJYcjc5MTlPNkRKWWRCUzVzR0JEdHBGMEJKODhlckx6b3RHZHFMY25zb2xkU3NzNHN1SWx0ak5OMVNudTZPeDdkWVMwOWdMNE1sSHpyMVZObE92QnJSeU02MA?oc=5",
+      "id": "ebee9f98db656137",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"경쟁사 접촉 사전승인·사후정산 폐지\"… SK에너지 , ' 담합 고리' 끊는다",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=214362",
+      "source": "SR타임스",
+      "published_at": "2026-10-08T18:55:50.274900+09:00",
+      "snippet": "공정거래위원회로부터 44조원대 유가 담합 혐의로 최대 수조원대 과징금 제재 절차를 통보받은 SK에너지 가 하루 만에 공식 사과문을 내고 가격 투명성과 내부통제를 강화하는 고강도 쇄신책을 내놨다. 담합 의 온상으로 지목된 불투명한 '사후정산제'를 전면 폐지하고 경쟁사 접촉 통제를 강화해 시장의 신뢰를...",
+      "collected_at": "2026-10-09T11:55:50.274915+09:00",
+      "normalized_title": "\"경쟁사 접촉 사전승인·사후정산 폐지\"… SK에너지 , ' 담합 고리' 끊는다",
+      "source_normalized": "SR타임스",
+      "duplicate_key": "sr타임스::\"경쟁사 접촉 사전승인·사후정산 폐지\"… sk에너지 , ' 담합 고리' 끊는다",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.srtimes.kr/news/articleView.html?idxno=214362",
+      "id": "a60ec22d6cb74e19",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"경쟁사 접촉 사전승인·사후정산 폐지\"…SK에너지, ' 담합 고리' 끊는다",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=214362",
+      "source": "SR타임스",
+      "published_at": "2026-10-08T18:55:11.829202+09:00",
+      "snippet": "공정거래위원회 로부터 44조원대 유가 담합 혐의로 최대 수조원대 과징금 제재 절차를 통보받은 SK에너지가 하루 만에 공식 사과문을 내고 가격 투명성과... 주유소를 옭아맨다는 비판을 받아온 '전량구매계약( 정유사 가 주유소에 자사 기름만 전량 구매하도록 강제하는 계약)'을 비롯해 기존 유통 거래 관행 전반도...",
+      "collected_at": "2026-10-09T11:55:11.829217+09:00",
+      "normalized_title": "\"경쟁사 접촉 사전승인·사후정산 폐지\"…SK에너지, ' 담합 고리' 끊는다",
+      "source_normalized": "SR타임스",
+      "duplicate_key": "sr타임스::\"경쟁사 접촉 사전승인·사후정산 폐지\"…sk에너지, ' 담합 고리' 끊는다",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 10,
+      "canonical_url": "http://www.srtimes.kr/news/articleView.html?idxno=214362",
+      "id": "9ba34615591739c1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "주유소",
+        "공정거래위원회",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"경쟁사 접촉 사전승인·사후정산 폐지\"…SK에너지, '담합 고리' 끊는다",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=214362",
+      "source": "SR타임스",
+      "published_at": "2026-10-08T18:26:24+09:00",
+      "snippet": "공정거래위원회로부터 44조 원대 유가 담합 혐의로 최대 수조원대 과징금 제재 절차를 통보받은 SK에너지가 하루 만에 공식 사과문을 내고 가격 투명성과... 그동안 정유 업계의 관행이었던 사후정산제는 잠정 가격인 입금가로 기름을 먼저 넘긴 뒤 다음 달 초 확정가를 일방 통보하는 방식이어서 가격 불투명성과...",
+      "collected_at": "2026-10-09T11:55:13.902368+09:00",
+      "normalized_title": "\"경쟁사 접촉 사전승인·사후정산 폐지\"…SK에너지, '담합 고리' 끊는다",
+      "source_normalized": "SR타임스",
+      "duplicate_key": "sr타임스::\"경쟁사 접촉 사전승인·사후정산 폐지\"…sk에너지, '담합 고리' 끊는다",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가 짬짜미",
+        "유가담합",
+        "정유 44조",
+        "주유소 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "http://www.srtimes.kr/news/articleView.html?idxno=214362",
+      "id": "6198ce3e2552d057",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "김종화 SK에너지 SK지오센트릭 대표 겸직 시험대, 유가 담합 대응과 석...",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=448953",
+      "source": "비즈니스포스트",
+      "published_at": "2026-10-08T17:55:11.831250+09:00",
+      "snippet": "정치권에서도 김 사장을 비롯한 정유업계 를 향한 압박을 가하고 있다. 국회 정무위원회는 오는 12일 열리는 공정위 국정감사에 김 사장을 포함한 4대 정유 사 대표를 증인으로 채택했다. 이번 국감에서는 담합 의혹과 함께 정유 사의 주유소 대상 거래 관행의 공정성 이슈가 쟁점이 될 것으로 보인다. 공정위...",
+      "collected_at": "2026-10-09T11:55:11.831267+09:00",
+      "normalized_title": "김종화 SK에너지 SK지오센트릭 대표 겸직 시험대, 유가 담합 대응과 석...",
+      "source_normalized": "비즈니스포스트",
+      "duplicate_key": "비즈니스포스트::김종화 sk에너지 sk지오센트릭 대표 겸직 시험대, 유가 담합 대응과 석...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.businesspost.co.kr/BP?command=article_view&num=448953",
+      "id": "9833151e81f7cd1f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "주유소",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SK에너지, 가격담합 의혹에 거래구조 손질… 경쟁사 접촉 통제 강화",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAzcUxnU2xsdzdhUG05Nlh1NHRJN1h3ZDFXUUVCVFJIazhJTnVzN2R3YWNOcnF1LVhrU1hiWHNSckRKbkY3a3dVRGdBbmcySG42Vjl0MFRWQ3NzQ2tOV3VGM0ZYQmNhN3JKUGE2TV9aUQ?oc=5",
+      "source": "비즈트리뷴",
+      "published_at": "2026-10-08T17:08:00+09:00",
+      "snippet": "SK에너지, 가격담합 의혹에 거래구조 손질… 경쟁사 접촉 통제 강화 비즈트리뷴",
+      "collected_at": "2026-10-09T11:55:25.887724+09:00",
+      "normalized_title": "SK에너지, 가격담합 의혹에 거래구조 손질… 경쟁사 접촉 통제 강화",
+      "source_normalized": "비즈트리뷴",
+      "duplicate_key": "비즈트리뷴::sk에너지, 가격담합 의혹에 거래구조 손질… 경쟁사 접촉 통제 강화",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAzcUxnU2xsdzdhUG05Nlh1NHRJN1h3ZDFXUUVCVFJIazhJTnVzN2R3YWNOcnF1LVhrU1hiWHNSckRKbkY3a3dVRGdBbmcySG42Vjl0MFRWQ3NzQ2tOV3VGM0ZYQmNhN3JKUGE2TV9aUQ?oc=5",
+      "id": "68d80bbb61513e26",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'44조 담합 ' SK에너지 \"진심으로 송구…가격 체계 뜯어고친다\"",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=389610",
+      "source": "시사저널",
+      "published_at": "2026-10-08T17:55:11.832356+09:00",
+      "snippet": "앞서 지난 7일 공정위 는 러시아·우크라이나 및 미국·이란 전쟁 등으로 국제 유가 가 불안정한 틈을 타 SK에너지와 HD현대오일뱅크가 가격 정보를 교환하고 담합 을 벌인 혐의로 심사보고서를 발송했다. 담합 관련 매출액만 약 44조원에 달해 역대 최대 규모의 과징금이 부과될 수 있다는 관측이 나오는 상황이다.",
+      "collected_at": "2026-10-09T11:55:11.832372+09:00",
+      "normalized_title": "'44조 담합 ' SK에너지 \"진심으로 송구…가격 체계 뜯어고친다\"",
+      "source_normalized": "시사저널",
+      "duplicate_key": "시사저널::'44조 담합 ' sk에너지 \"진심으로 송구…가격 체계 뜯어고친다\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.sisajournal.com/news/articleView.html?idxno=389610",
+      "id": "47777c3627428f22",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위 '44조 담합' 판단에 SK에너지 사과…\"사실관계 성실히 소명할 것\"",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwVDYtOXlmUEVRUUVuMF9MQ09SSW9RS2VVb0JIZUlBZkdGRXpya2ZJNzljTDh0Wl93OWlYY2lUMUxET3o5ZVBsRUJkX25vQmlobktkM2VZWHprcTExYi11QUxReEVLMWFMM2Y0NHJ3?oc=5",
+      "source": "알파경제",
+      "published_at": "2026-10-08T18:04:50+09:00",
+      "snippet": "공정위 '44조 담합' 판단에 SK에너지 사과…\"사실관계 성실히 소명할 것\" 알파경제",
+      "collected_at": "2026-10-09T11:55:25.887269+09:00",
+      "normalized_title": "공정위 '44조 담합' 판단에 SK에너지 사과…\"사실관계 성실히 소명할 것\"",
+      "source_normalized": "알파경제",
+      "duplicate_key": "알파경제::공정위 '44조 담합' 판단에 sk에너지 사과…\"사실관계 성실히 소명할 것\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "석유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwVDYtOXlmUEVRUUVuMF9MQ09SSW9RS2VVb0JIZUlBZkdGRXpya2ZJNzljTDh0Wl93OWlYY2lUMUxET3o5ZVBsRUJkX25vQmlobktkM2VZWHprcTExYi11QUxReEVLMWFMM2Y0NHJ3?oc=5",
+      "id": "add4040a28fd8549",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SK에너지, ' 기름값 담합 의혹' 대국민 사과⋯공급가 사전고지 추진",
+      "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=601030",
+      "source": "엠투데이",
+      "published_at": "2026-10-08T17:55:21.201318+09:00",
+      "snippet": "SK에너지가 기름값 담합 의혹과 관련해 대국민 사과문을 내고 가격 결정 구조와 내부통제 체계를 전면 손질하기로 했다. 김종화 SK에너지 대표는 8일 입장문을 통해 \"최근 공정거래위원회 조사 결과 발표와 관련해 국민 여러분께 심려를 끼쳐드린 데 대해 진심으로 송구하다\"며 \"해당 사안을 매우 무겁고...",
+      "collected_at": "2026-10-09T11:55:21.201334+09:00",
+      "normalized_title": "SK에너지, ' 기름값 담합 의혹' 대국민 사과⋯공급가 사전고지 추진",
+      "source_normalized": "엠투데이",
+      "duplicate_key": "엠투데이::sk에너지, ' 기름값 담합 의혹' 대국민 사과⋯공급가 사전고지 추진",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.autodaily.co.kr/news/articleView.html?idxno=601030",
+      "id": "4ff28eeed679b750",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SK에너지, ‘기름값 담합 의혹’ 대국민 사과⋯공급가 사전고지 추진",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6VG1XVHg1T185ZmpSempkU3ZCS0dCTzYwVDlWX0toQjhrRkhuT0QzUHo1QldpbGcwbU1sZzU5WGhMbnNnMzhOUG9pS0l5YnJNSzNCTVp4bGdTdUJuRXNGZEVnOHZYb1ZWQjVxb3ZpZw?oc=5",
+      "source": "엠투데이",
+      "published_at": "2026-10-08T17:17:46+09:00",
+      "snippet": "SK에너지, ‘기름값 담합 의혹’ 대국민 사과⋯공급가 사전고지 추진 엠투데이",
+      "collected_at": "2026-10-09T11:55:22.735882+09:00",
+      "normalized_title": "SK에너지, ‘기름값 담합 의혹’ 대국민 사과⋯공급가 사전고지 추진",
+      "source_normalized": "엠투데이",
+      "duplicate_key": "엠투데이::sk에너지, ‘기름값 담합 의혹’ 대국민 사과⋯공급가 사전고지 추진",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "기름값 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6VG1XVHg1T185ZmpSempkU3ZCS0dCTzYwVDlWX0toQjhrRkhuT0QzUHo1QldpbGcwbU1sZzU5WGhMbnNnMzhOUG9pS0l5YnJNSzNCTVp4bGdTdUJuRXNGZEVnOHZYb1ZWQjVxb3ZpZw?oc=5",
+      "id": "92fbec621d33dcc9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SK에너지, 가격 담합 의혹에 사과…4대 쇄신안 발표",
+      "url": "https://www.econovill.com/news/articleView.html?idxno=753106",
+      "source": "이코노믹리뷰",
+      "published_at": "2026-10-08T17:55:18.266254+09:00",
+      "snippet": "SK에너지가 공정거래위원회 의 석유제품 가격 담합 의혹 조사 결과와 관련해 공식 사과하고, 가격체계 투명성 제고와 내부통제 강화를 골자로 한 4대 개선... 기존 사후정산 방식은 정유사 가 주유소 등에 제품을 공급한 이후 최종 공급가격을 정산하는 구조다. SK에너지는 공급가격을 사전에 확정하고 고지하는...",
+      "collected_at": "2026-10-09T11:55:18.266269+09:00",
+      "normalized_title": "SK에너지, 가격 담합 의혹에 사과…4대 쇄신안 발표",
+      "source_normalized": "이코노믹리뷰",
+      "duplicate_key": "이코노믹리뷰::sk에너지, 가격 담합 의혹에 사과…4대 쇄신안 발표",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.econovill.com/news/articleView.html?idxno=753106",
+      "id": "cd05c9ece452b3d3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "주유소",
+        "석유제품",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'44조 담합' SK에너지, 하루 만에 고개 숙였다 : 기업",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfMldnUDQyeENVOFMyRkZaNlYtUU80dWxoZGtVRk1QUzgwc2U1alg4UElITk1qdkQ1N1FqZkkxU09SWGxnZVljSC1sRQ?oc=5",
+      "source": "재경일보",
+      "published_at": "2026-10-08T17:09:00+09:00",
+      "snippet": "'44조 담합' SK에너지, 하루 만에 고개 숙였다 : 기업 재경일보",
+      "collected_at": "2026-10-09T11:55:51.868366+09:00",
+      "normalized_title": "'44조 담합' SK에너지, 하루 만에 고개 숙였다 : 기업",
+      "source_normalized": "재경일보",
+      "duplicate_key": "재경일보::'44조 담합' sk에너지, 하루 만에 고개 숙였다 : 기업",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfMldnUDQyeENVOFMyRkZaNlYtUU80dWxoZGtVRk1QUzgwc2U1alg4UElITk1qdkQ1N1FqZkkxU09SWGxnZVljSC1sRQ?oc=5",
+      "id": "57612ef393679a38",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SK에너지 , 담합 의혹 하루 만에 쇄신안 발표",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=364419",
+      "source": "중소기업신문",
+      "published_at": "2026-10-08T18:55:50.276001+09:00",
+      "snippet": "SK에너지 가 공정거래위원회의 가격 담합 제재 절차 착수 하루 만에 거래 관행 개선과 내부통제 강화 방안을 내놨다. 담합 관련 매출이 44조원대에 달해 역대 최대 규모의 과징금이 부과될 수 있다는 관측이 나오는 가운데, 시장 신뢰 회복에 나선 것으로 풀이된다. SK 주유소 / 출처 : SK 이노베이션 뉴스룸...",
+      "collected_at": "2026-10-09T11:55:50.276017+09:00",
+      "normalized_title": "SK에너지 , 담합 의혹 하루 만에 쇄신안 발표",
+      "source_normalized": "중소기업신문",
+      "duplicate_key": "중소기업신문::sk에너지 , 담합 의혹 하루 만에 쇄신안 발표",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.smedaily.co.kr/news/articleView.html?idxno=364419",
+      "id": "5567d5e68ceb0631",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정거래위원회",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SK에너지, 담합 의혹 하루 만에 쇄신안 발표",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=364419",
+      "source": "중소기업신문",
+      "published_at": "2026-10-08T18:55:18.263235+09:00",
+      "snippet": "담합 관련 매출이 44조원대에 달해 역대 최대 규모의 과징금이 부과될 수 있다는 관측이 나오는 가운데, 시장 신뢰 회복에 나선 것으로 풀이된다. SK 주유소 / 출처 : SK이노베이션 뉴스룸 SK에너지는 8일 김종화 대표이사 사장 명의의 입장문을 내고 \"최근 공정위 조사 결과 발표와 관련해 국민 여러분께 심려를...",
+      "collected_at": "2026-10-09T11:55:18.263250+09:00",
+      "normalized_title": "SK에너지, 담합 의혹 하루 만에 쇄신안 발표",
+      "source_normalized": "중소기업신문",
+      "duplicate_key": "중소기업신문::sk에너지, 담합 의혹 하루 만에 쇄신안 발표",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유 44조",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 13,
+      "canonical_url": "http://www.smedaily.co.kr/news/articleView.html?idxno=364419",
+      "id": "5292a7e6bdc4ac35",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합 ' SK에너지 , 가격체계 손보고 내부통제 강화 나선다",
+      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321789",
+      "source": "포인트데일리",
+      "published_at": "2026-10-08T17:55:50.277090+09:00",
+      "snippet": "SK에너지 주유소. 사진= SK에너지 SK에너지 가 최근 공정거래위원회 조사 결과 발표와 관련해 사과하고 석유제품 가격 결정과 거래관행, 내부통제 체계를 전면적으로 점검한다. 공급가격의 투명성을 높이고 경쟁사 간 정보 교환 가능성을 차단하기 위한 내부 관리도 강화한다. SK에너지 는 8일 석유제품 거래의...",
+      "collected_at": "2026-10-09T11:55:50.277105+09:00",
+      "normalized_title": "'기름값 담합 ' SK에너지 , 가격체계 손보고 내부통제 강화 나선다",
+      "source_normalized": "포인트데일리",
+      "duplicate_key": "포인트데일리::'기름값 담합 ' sk에너지 , 가격체계 손보고 내부통제 강화 나선다",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321789",
+      "id": "273a186e442167eb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "기름값",
+        "주유소",
+        "석유제품",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "' 기름값 담합 ' SK에너지, 가격체계 손보고 내부통제 강화 나선다",
+      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321789",
+      "source": "포인트데일리",
+      "published_at": "2026-10-08T17:55:21.200303+09:00",
+      "snippet": "SK에너지 주유소. 사진=SK에너지 SK에너지가 최근 공정거래위원회 조사 결과 발표와 관련해 사과하고 석유제품 가격 결정과 거래관행, 내부통제 체계를 전면적으로 점검한다. 공급가격의 투명성을 높이고 경쟁사 간 정보 교환 가능성을 차단하기 위한 내부 관리도 강화한다. SK에너지는 8일 석유제품 거래의...",
+      "collected_at": "2026-10-09T11:55:21.200318+09:00",
+      "normalized_title": "' 기름값 담합 ' SK에너지, 가격체계 손보고 내부통제 강화 나선다",
+      "source_normalized": "포인트데일리",
+      "duplicate_key": "포인트데일리::' 기름값 담합 ' sk에너지, 가격체계 손보고 내부통제 강화 나선다",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321789",
+      "id": "1ea164fe0b53c685",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "기름값",
+        "주유소",
+        "석유제품",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합 ' SK에너지, 가격체계 손보고 내부통제 강화 나선다",
+      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321789",
+      "source": "포인트데일리",
+      "published_at": "2026-10-08T17:55:18.264234+09:00",
+      "snippet": "김종화 SK에너지 대표이사 사장은 \"국내 대표 정유사 로서 주요 석유제품을 국내에 안정적으로 공급하는 역할은 물론 가격과 거래의 투명성, 공정경쟁 및 준법경영에 대한 사회적 기대에 맞추는 것이 무엇보다 중요하다\"고 말했다. 이어 \"이번에 마련한 석유시장 가격구조 개편 및 내부통제 강화를 계기로 시장과...",
+      "collected_at": "2026-10-09T11:55:18.264252+09:00",
+      "normalized_title": "'기름값 담합 ' SK에너지, 가격체계 손보고 내부통제 강화 나선다",
+      "source_normalized": "포인트데일리",
+      "duplicate_key": "포인트데일리::'기름값 담합 ' sk에너지, 가격체계 손보고 내부통제 강화 나선다",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321789",
+      "id": "a137930aea586553",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "기름값",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'기름값 담합' SK에너지, 가격체계 손보고 내부통제 강화 나선다",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yVjA3MTN1UjgzdmM4aXpvVjhjajlBVU9CekJnYUJ1RzVGcm40b3lWc2w0WFpaLWdhYnBRTWFidlp0LVlfMGNsOTRib3BGdmZmb2hVTVNOcHBzZG43Wlo0cE1LN2JuSE1vUzMyWGpjTWLSAXRBVV95cUxPejczN2paRUQybGhkRV9seGVlSU05a3NoZ0tiUmJwb3hmUERCWGdhV2Z3V0xaWXhXS29nX3UtNXoySDVZbXdKRXk0WXB4RWlaRmJFblBCc3BSekIydG5BRHcyUjg0LU1iMFQ3WTkyQlRpOGRqbA?oc=5",
+      "source": "포인트데일리",
+      "published_at": "2026-10-08T17:48:22+09:00",
+      "snippet": "'기름값 담합' SK에너지, 가격체계 손보고 내부통제 강화 나선다 포인트데일리",
+      "collected_at": "2026-10-09T11:55:13.902627+09:00",
+      "normalized_title": "'기름값 담합' SK에너지, 가격체계 손보고 내부통제 강화 나선다",
+      "source_normalized": "포인트데일리",
+      "duplicate_key": "포인트데일리::'기름값 담합' sk에너지, 가격체계 손보고 내부통제 강화 나선다",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yVjA3MTN1UjgzdmM4aXpvVjhjajlBVU9CekJnYUJ1RzVGcm40b3lWc2w0WFpaLWdhYnBRTWFidlp0LVlfMGNsOTRib3BGdmZmb2hVTVNOcHBzZG43Wlo0cE1LN2JuSE1vUzMyWGpjTWLSAXRBVV95cUxPejczN2paRUQybGhkRV9seGVlSU05a3NoZ0tiUmJwb3hmUERCWGdhV2Z3V0xaWXhXS29nX3UtNXoySDVZbXdKRXk0WXB4RWlaRmJFblBCc3BSekIydG5BRHcyUjg0LU1iMFQ3WTkyQlRpOGRqbA?oc=5",
+      "id": "d11624171dcff2c2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SK에너지, 거래 관행 개선책 내놨다…“국민께 심려 끼쳐 송구”",
+      "url": "http://v.daum.net/v/20261008183301748",
+      "source": "한경MONEY",
+      "published_at": "2026-10-08T18:55:19.422428+09:00",
+      "snippet": "국내 정유사들의 휘발유·경유 가격 담합 혐의 심의에 착수했다고 발표한 가운데, 혐의 업체 중 하나인 SK에너지가 제도 개선책을...6월 발표한 주 단위 공급가격 사전 확정·고지와 사후정산 폐지 제도부터 이행할 예정이다. 이를 통해 주유소 등이 합리적으로 구매... 17시간 전",
+      "collected_at": "2026-10-09T11:55:19.422443+09:00",
+      "normalized_title": "SK에너지, 거래 관행 개선책 내놨다…“국민께 심려 끼쳐 송구”",
+      "source_normalized": "한경MONEY",
+      "duplicate_key": "한경money::sk에너지, 거래 관행 개선책 내놨다…“국민께 심려 끼쳐 송구”",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 7,
+      "canonical_url": "http://v.daum.net/v/20261008183301748",
+      "id": "188116e575555d1c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SK에너지 , 거래 관행 개선책 내놨다…“국민께 심려 끼쳐 송구”",
+      "url": "https://magazine.hankyung.com/money/article/202610081999c",
+      "source": "한경머니",
+      "published_at": "2026-10-08T18:55:50.273913+09:00",
+      "snippet": "공정거래위원회가 국내 정유사들의 휘발유·경유 가격 담합 혐의 심의에 착수했다고 발표한 가운데, 혐의 업체 중 하나인 SK에너지 가 제도 개선책을 내놨다. SK에너지 는 8일 김종화 대표이사 명의의 입장문을 통해 시장의 신뢰도를 높이기 위한 제도 개선과 내부통제 강화 조치를 시행하겠다고 밝혔다. SK에너지 는...",
+      "collected_at": "2026-10-09T11:55:50.273929+09:00",
+      "normalized_title": "SK에너지 , 거래 관행 개선책 내놨다…“국민께 심려 끼쳐 송구”",
+      "source_normalized": "한경머니",
+      "duplicate_key": "한경머니::sk에너지 , 거래 관행 개선책 내놨다…“국민께 심려 끼쳐 송구”",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://magazine.hankyung.com/money/article/202610081999c",
+      "id": "b09c48ed35862ddc",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "경유",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "SK에너지, 거래 관행 개선책 내놨다…“국민께 심려 끼쳐 송구”",
+      "url": "https://magazine.hankyung.com/money/article/202610081999c",
+      "source": "한경머니",
+      "published_at": "2026-10-08T18:55:18.261270+09:00",
+      "snippet": "공정거래위원회 가 국내 정유사 들의 휘발유·경유 가격 담합 혐의 심의에 착수했다고 발표한 가운데, 혐의 업체 중 하나인 SK에너지가 제도 개선책을 내놨다. SK에너지는 8일 김종화 대표이사 명의의 입장문을 통해 시장의 신뢰도를 높이기 위한 제도 개선과 내부통제 강화 조치를 시행하겠다고 밝혔다. SK에너지는...",
+      "collected_at": "2026-10-09T11:55:18.261284+09:00",
+      "normalized_title": "SK에너지, 거래 관행 개선책 내놨다…“국민께 심려 끼쳐 송구”",
+      "source_normalized": "한경머니",
+      "duplicate_key": "한경머니::sk에너지, 거래 관행 개선책 내놨다…“국민께 심려 끼쳐 송구”",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://magazine.hankyung.com/money/article/202610081999c",
+      "id": "dda235c58199cda0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "경유",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "44조 규모 유가 담합 의혹, SK에너지 대표 고개 숙였다 : 김종화 내부 개...",
+      "url": "https://www.huffingtonpost.kr/article/261101",
+      "source": "허프포스트코리아",
+      "published_at": "2026-10-08T17:55:11.830212+09:00",
+      "snippet": "공정거래위원회가 SK에너지 등 정유 기업들의 44조 원대 유가 담합 의혹을 제기한 지 하루 만이다. SK에너지는 '석유시장 가격구조 개편 및 내부통제 강화' 조치를 마련했다고 8일 밝혔다. 조치의 골자는 △석유시장 가격체계 투명성 및 거래관행 개선 △공정거래 및 내부통제 체계 강화 △석유 유통고객과의...",
+      "collected_at": "2026-10-09T11:55:11.830228+09:00",
+      "normalized_title": "44조 규모 유가 담합 의혹, SK에너지 대표 고개 숙였다 : 김종화 내부 개...",
+      "source_normalized": "허프포스트코리아",
+      "duplicate_key": "허프포스트코리아::44조 규모 유가 담합 의혹, sk에너지 대표 고개 숙였다 : 김종화 내부 개...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유 44조",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.huffingtonpost.kr/article/261101",
+      "id": "c140f35c72000c28",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "44조 규모 유가 담합 의혹, SK에너지 대표 고개 숙였다 : 김종화 내부 개선책 내고 \"체감할 수 있는 변화와 개선 이룰 것\"",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9UVE1lYjBjU1pKMFRXQ2pUdDg4TnhoVzRDSDhHb05xbnBQSlFGeThXbTQwWDZtd3pzQWNuRy1yc2hwVDNDUmxPVElNYmlqdHdNLXI1NExCVQ?oc=5",
+      "source": "허프포스트코리아",
+      "published_at": "2026-10-08T17:28:16+09:00",
+      "snippet": "44조 규모 유가 담합 의혹, SK에너지 대표 고개 숙였다 : 김종화 내부 개선책 내고 \"체감할 수 있는 변화와 개선 이룰 것\" 허프포스트코리아",
+      "collected_at": "2026-10-09T11:55:13.902127+09:00",
+      "normalized_title": "44조 규모 유가 담합 의혹, SK에너지 대표 고개 숙였다 : 김종화 내부 개선책 내고 \"체감할 수 있는 변화와 개선 이룰 것\"",
+      "source_normalized": "허프포스트코리아",
+      "duplicate_key": "허프포스트코리아::44조 규모 유가 담합 의혹, sk에너지 대표 고개 숙였다 : 김종화 내부 개선책 내고 \"체감할 수 있는 변화와 개선 이룰 것\"",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유 44조",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 6,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9UVE1lYjBjU1pKMFRXQ2pUdDg4TnhoVzRDSDhHb05xbnBQSlFGeThXbTQwWDZtd3pzQWNuRy1yc2hwVDNDUmxPVElNYmlqdHdNLXI1NExCVQ?oc=5",
+      "id": "432777831d8a5cb4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[2026국감] 정유 4사 대표 소환···상생협약 이행 따진다",
+      "url": "http://www.finomy.com/news/articleView.html?idxno=263230",
+      "source": "현대경제신문",
+      "published_at": "2026-10-08T17:55:35.874780+09:00",
+      "snippet": "정유 사와 주유소 간 거래관행 개선이 진행되는 가운데 SK에너지와 HD현대오일뱅크의 가격 담합 혐의에 대한 공정거래위원회 심의도 시작돼, 공급가격 결정 과정에 대한 관심이 뜨겁다. 8일 국회와 업계 에 따르면 오는 12일 국회 정무위원회의 공정위 국감에는 김종화 SK에너지 대표, 송명준 HD현대오일뱅크 대표...",
+      "collected_at": "2026-10-09T11:55:35.874799+09:00",
+      "normalized_title": "[2026국감] 정유 4사 대표 소환···상생협약 이행 따진다",
+      "source_normalized": "현대경제신문",
+      "duplicate_key": "현대경제신문::[2026국감] 정유 4사 대표 소환···상생협약 이행 따진다",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.finomy.com/news/articleView.html?idxno=263230",
+      "id": "9140b05c87f4b511",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[2026국감]정유 4사 대표 소환···상생협약 이행 따진다",
+      "url": "http://www.finomy.com/news/articleView.html?idxno=263230",
+      "source": "현대경제신문",
+      "published_at": "2026-10-08T17:55:18.265239+09:00",
+      "snippet": "정유사 와 주유소 간 거래 관행 개선이 진행되는 가운데 SK에너지와 HD현대오일뱅크의 가격 담합 혐의에 대한 공정거래위원회 심의도 시작돼, 공급가격 결정 과정에 대한 관심이 뜨겁다. 8일 국회와 업계에 따르면 오는 12일 국회 정무 위원회 의 공정 위 국감에는 김종화 SK에너지 대표, 송명준 HD현대오일뱅크 대표...",
+      "collected_at": "2026-10-09T11:55:18.265254+09:00",
+      "normalized_title": "[2026국감]정유 4사 대표 소환···상생협약 이행 따진다",
+      "source_normalized": "현대경제신문",
+      "duplicate_key": "현대경제신문::[2026국감]정유 4사 대표 소환···상생협약 이행 따진다",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유 44조",
+        "정유사 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 8,
+      "canonical_url": "http://www.finomy.com/news/articleView.html?idxno=263230",
+      "id": "55a9777b9a5f4208",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
