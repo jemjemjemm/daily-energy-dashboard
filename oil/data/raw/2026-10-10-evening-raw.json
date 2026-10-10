@@ -1,0 +1,402 @@
+{
+  "base_date": "2026-10-10",
+  "slot": "evening",
+  "period_start": "2026-10-10T08:00:00+09:00",
+  "period_end": "2026-10-10T17:00:00+09:00",
+  "collected_at": "2026-10-10T23:28:57.677440+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "portal_counts": {
+    "naver": 19,
+    "daum": 0,
+    "google": 0
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-10T23:26:10.178425+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "유가담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '유가담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:26:21.978673+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "유가 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:26:30.293502+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "정유사 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:26:40.722838+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "기름값 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '기름값 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EA%B8%B0%EB%A6%84%EA%B0%92+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:26:50.680723+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "석유 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '석유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%84%9D%EC%9C%A0+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:27:01.181570+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "휘발유 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '휘발유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%ED%9C%98%EB%B0%9C%EC%9C%A0+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:27:11.983999+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "경유 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '경유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EA%B2%BD%EC%9C%A0+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:27:24.044342+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "주유소 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '주유소 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%A3%BC%EC%9C%A0%EC%86%8C+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:27:31.513108+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "정유업계 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '정유업계 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%A0%95%EC%9C%A0%EC%97%85%EA%B3%84+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:27:42.653742+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "석유제품 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '석유제품 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%84%9D%EC%9C%A0%EC%A0%9C%ED%92%88+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:27:50.188272+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "유류가격 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '유류가격 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%9C%A0%EB%A5%98%EA%B0%80%EA%B2%A9+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:01.220740+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "공정위 유가 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '공정위 유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EA%B3%B5%EC%A0%95%EC%9C%84+%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:09.452613+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "공정거래위원회 정유사 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '공정거래위원회 정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EA%B3%B5%EC%A0%95%EA%B1%B0%EB%9E%98%EC%9C%84%EC%9B%90%ED%9A%8C+%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:19.829084+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "SK에너지 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 'SK에너지 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=SK%EC%97%90%EB%84%88%EC%A7%80+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:28.376281+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "현대오일뱅크 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:37.729407+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "정유 44조",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '정유 44조' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%A0%95%EC%9C%A0+44%EC%A1%B0+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:46.140095+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "유가 짬짜미",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '유가 짬짜미' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%9C%A0%EA%B0%80+%EC%A7%AC%EC%A7%9C%EB%AF%B8+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:57.527164+09:00"
+    }
+  ],
+  "items": [
+    {
+      "portal": "naver",
+      "query": "유가담합",
+      "title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "source": "에너지경제",
+      "published_at": "2026-10-10T06:26:11.598545+09:00",
+      "snippet": "국내 정유업계가 고 유가 환경 속 가파른 실적 개선세에도 불구하고 좀처럼 웃지 못하고 있다. 장기화된 국제 정세 불확실성과 석유제품 최고가격제 등 여파로 경영 피로도가 누적된 가운데, 수십조원대 담합 의혹을 둘러 싼 공정거래위원회의 압박까지 본격화하면서다. 10일 금융정보업체 에프앤가이드에...",
+      "collected_at": "2026-10-10T23:26:11.598568+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "유가 담합",
+      "title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "source": "에너지경제",
+      "published_at": "2026-10-10T06:26:22.886397+09:00",
+      "snippet": "국내 정유업계가 고 유가 환경 속 가파른 실적 개선세에도 불구하고 좀처럼 웃지 못하고 있다. 장기화된 국제 정세 불확실성과 석유제품 최고가격제 등 여파로 경영 피로도가 누적된 가운데, 수십조원대 담합 의혹을 둘러 싼 공정거래위원회의 압박까지 본격화하면서다. 10일 금융정보업체 에프앤가이드에...",
+      "collected_at": "2026-10-10T23:26:22.886420+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "정유사 담합",
+      "title": "사후 정산 방식 폐지한 SK에너지, 투명성 높인다",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=209451",
+      "source": "라이센스뉴스",
+      "published_at": "2026-10-10T06:26:31.304526+09:00",
+      "snippet": "이번 제도 개편은 공정거래위원회가 정유 업계 담합 혐의로 제재 절차에 착수를 시작한 직후 나온 조치다. SK에너지는 지난 6월 주 단위 공급가격을 사전에... 일본은 에네오스 등 대형 정유사 들이 도매가를 사전에 발표하고 이를 기준으로 거래한다. SK에너지는 기존 유통 거래 관행을 점검하고 주유소 등 유통...",
+      "collected_at": "2026-10-10T23:26:31.304551+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "기름값 담합",
+      "title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "source": "에너지경제",
+      "published_at": "2026-10-10T06:26:41.588371+09:00",
+      "snippet": "정유업계 한 관계자는 “ 담합 의혹 압박이 거세지면서 이른바 ' 기름값 짬짜미'라는 꼬리표가 붙어 업계에 대한 국민적 신뢰도가 곤두박질 치고 있다\"며 “지난 상반기에 이어 상승세를 유지할 것으로 전망되는 이번 분기 실적 발표가 우려스러울 정도\"라고 하소연했다. 아울러 정유 4사 대표에 대한 국회...",
+      "collected_at": "2026-10-10T23:26:41.588395+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "석유 담합",
+      "title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "source": "에너지경제",
+      "published_at": "2026-10-10T06:26:51.705848+09:00",
+      "snippet": "이에 업계 안팎에선 최고가격제의 단계적 완화 및 수출제한 탄력화 등의 방안이 거론되고 있으나, 최근 석유 제품 가격 담합 의혹을 둘러싼 공정위 압박까지 거세지면서 이 같은 방안을 요구할 동력도 상실되는 모양새다. 실제 공정거래위원회는 지난 7일 SK에너지와 HD현대오일뱅크의 44조1000억원 규모(매출)...",
+      "collected_at": "2026-10-10T23:26:51.705872+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "석유 담합",
+      "title": "사후 정산 방식 폐지한 SK에너지, 투명성 높인다",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=209451",
+      "source": "라이센스뉴스",
+      "published_at": "2026-10-10T06:26:51.706527+09:00",
+      "snippet": "이런 가운데 SK에너지도 지난 8일 비상시 석유 제품의 안정적 수급 체계를 유지하는 한편, 유통 투명성을 높이기 위한 내부 거래 제도를 개편한다고 밝혔다. 이번 제도 개편은 공정거래위원회가 정유 업계 담합 혐의로 제재 절차에 착수를 시작한 직후 나온 조치다. SK에너지는 지난 6월 주 단위 공급가격을 사전에...",
+      "collected_at": "2026-10-10T23:26:51.706539+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "휘발유 담합",
+      "title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "source": "에너지경제",
+      "published_at": "2026-10-10T06:27:02.213804+09:00",
+      "snippet": "국내 정유업계는 지난 3월께 정부가 시행한 수출제한 조치에 따라 전년 동월의 100% 밑으로만 휘발유 ·등유·경유 등 석유제품을 수출할 수 있다. 이에 업계 안팎에선 최고가격제의 단계적 완화 및 수출제한 탄력화 등의 방안이 거론되고 있으나, 최근 석유제품 가격 담합 의혹을 둘러싼 공정위 압박까지...",
+      "collected_at": "2026-10-10T23:27:02.213828+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "경유 담합",
+      "title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "source": "에너지경제",
+      "published_at": "2026-10-10T06:27:13.375493+09:00",
+      "snippet": "국내 정유업계는 지난 3월께 정부가 시행한 수출제한 조치에 따라 전년 동월의 100% 밑으로만 휘발유·등유· 경유 등 석유제품을 수출할 수 있다. 이에 업계 안팎에선 최고가격제의 단계적 완화 및 수출제한 탄력화 등의 방안이 거론되고 있으나, 최근 석유제품 가격 담합 의혹을 둘러싼 공정위 압박까지...",
+      "collected_at": "2026-10-10T23:27:13.375518+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "주유소 담합",
+      "title": "사후 정산 방식 폐지한 SK에너지, 투명성 높인다",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=209451",
+      "source": "라이센스뉴스",
+      "published_at": "2026-10-10T06:27:25.065417+09:00",
+      "snippet": "이번 제도 개편은 공정거래위원회가 정유 업계 담합 혐의로 제재 절차에 착수를 시작한 직후 나온 조치다. SK에너지는 지난 6월 주 단위 공급가격을 사전에... 이 방식은 주유소 의 매입 원가가 불투명해 주유소 의 마진을 예측하기 힘들다는 문제점이 있다. 미국이나 일본 등 해외에서는 사전 확정 가격 제도를...",
+      "collected_at": "2026-10-10T23:27:25.065442+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "정유업계 담합",
+      "title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K- 정유",
+      "url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "source": "에너지경제",
+      "published_at": "2026-10-10T06:27:32.400629+09:00",
+      "snippet": "정유업계 한 관계자는 “ 담합 의혹 압박이 거세지면서 이른바 '기름값 짬짜미'라는 꼬리표가 붙어 업계 에 대한 국민적 신뢰도가 곤두박질 치고 있다\"며 “지난 상반기에 이어 상승세를 유지할 것으로 전망되는 이번 분기 실적 발표가 우려스러울 정도\"라고 하소연했다. 아울러 정유 4사 대표에 대한 국회...",
+      "collected_at": "2026-10-10T23:27:32.400652+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "정유업계 담합",
+      "title": "사후 정산 방식 폐지한 SK에너지, 투명성 높인다",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=209451",
+      "source": "라이센스뉴스",
+      "published_at": "2026-10-10T06:27:32.401295+09:00",
+      "snippet": "이번 제도 개편은 공정거래위원회가 정유 업계 담합 혐의로 제재 절차에 착수를 시작한 직후 나온 조치다. SK에너지는 지난 6월 주 단위 공급가격을 사전에 고지하고 사후 정산 방식을 전면 폐지하는 방침을 발표한 바 있다. 현재 관련 시스템 구축을 진행 중이며, 향후 석유제품 유통구조 및 거래 방식 전반에...",
+      "collected_at": "2026-10-10T23:27:32.401307+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "석유제품 담합",
+      "title": "사후 정산 방식 폐지한 SK에너지, 투명성 높인다",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=209451",
+      "source": "라이센스뉴스",
+      "published_at": "2026-10-10T06:27:43.694135+09:00",
+      "snippet": "이런 가운데 SK에너지도 지난 8일 비상시 석유제품 의 안정적 수급 체계를 유지하는 한편, 유통 투명성을 높이기 위한 내부 거래 제도를 개편한다고 밝혔다. 이번 제도 개편은 공정거래위원회가 정유 업계 담합 혐의로 제재 절차에 착수를 시작한 직후 나온 조치다. SK에너지는 지난 6월 주 단위 공급가격을 사전에...",
+      "collected_at": "2026-10-10T23:27:43.694158+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "석유제품 담합",
+      "title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "source": "에너지경제",
+      "published_at": "2026-10-10T06:27:43.694835+09:00",
+      "snippet": "이에 업계 안팎에선 최고가격제의 단계적 완화 및 수출제한 탄력화 등의 방안이 거론되고 있으나, 최근 석유제품 가격 담합 의혹을 둘러싼 공정위 압박까지 거세지면서 이 같은 방안을 요구할 동력도 상실되는 모양새다. 실제 공정거래위원회는 지난 7일 SK에너지와 HD현대오일뱅크의 44조1000억원 규모(매출)...",
+      "collected_at": "2026-10-10T23:27:43.694844+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "공정위 유가 담합",
+      "title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "source": "에너지경제",
+      "published_at": "2026-10-10T06:28:02.125132+09:00",
+      "snippet": "국내 정유업계가 고 유가 환경 속 가파른 실적 개선세에도 불구하고 좀처럼 웃지 못하고 있다. 장기화된 국제 정세 불확실성과 석유제품 최고가격제 등... 이에 업계 안팎에선 최고가격제의 단계적 완화 및 수출제한 탄력화 등의 방안이 거론되고 있으나, 최근 석유제품 가격 담합 의혹을 둘러싼 공정위 ...",
+      "collected_at": "2026-10-10T23:28:02.125156+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "공정거래위원회 정유사 담합",
+      "title": "사후 정산 방식 폐지한 SK에너지, 투명성 높인다",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=209451",
+      "source": "라이센스뉴스",
+      "published_at": "2026-10-10T06:28:10.496644+09:00",
+      "snippet": "이번 제도 개편은 공정거래위원회 가 정유 업계 담합 혐의로 제재 절차에 착수를 시작한 직후 나온 조치다. SK에너지는 지난 6월 주 단위 공급가격을 사전에... 미국은 출하장(랙)에서 출고되는 시점의 가격인 '랙 가격 기반 사전고지 거래 제도'를 운영 중이다. 일본은 에네오스 등 대형 정유사 들이 도매가를 사전에...",
+      "collected_at": "2026-10-10T23:28:10.496668+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "SK에너지 담합",
+      "title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "source": "에너지경제",
+      "published_at": "2026-10-10T06:28:21.163291+09:00",
+      "snippet": "실제 공정거래위원회는 지난 7일 SK에너지 와 HD현대오일뱅크의 44조1000억원 규모(매출) 석유제품 가격 담합 혐의에 대한 심사보고서를 위원회에 제출하고 본격적인 심의 절차에 착수했다. 이에 따른 과징금 규모는 부과기준율(3.0%~10.4%)에 따라 최대 4조6000억원 규모로 거론된다. 앞서 지난 7월에는 검찰이 국내...",
+      "collected_at": "2026-10-10T23:28:21.163314+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "SK에너지 담합",
+      "title": "사후 정산 방식 폐지한 SK에너지 , 투명성 높인다",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=209451",
+      "source": "라이센스뉴스",
+      "published_at": "2026-10-10T06:28:21.163964+09:00",
+      "snippet": "이번 제도 개편은 공정거래위원회가 정유 업계 담합 혐의로 제재 절차에 착수를 시작한 직후 나온 조치다. SK에너지 는 지난 6월 주 단위 공급가격을 사전에 고지하고 사후 정산 방식을 전면 폐지하는 방침을 발표한 바 있다. 현재 관련 시스템 구축을 진행 중이며, 향후 석유제품 유통구조 및 거래 방식 전반에...",
+      "collected_at": "2026-10-10T23:28:21.163975+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "현대오일뱅크 담합",
+      "title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "source": "에너지경제",
+      "published_at": "2026-10-10T06:28:29.258879+09:00",
+      "snippet": "실제 공정거래위원회는 지난 7일 SK에너지와 HD 현대오일뱅크 의 44조1000억원 규모(매출) 석유제품 가격 담합 혐의에 대한 심사보고서를 위원회에 제출하고 본격적인 심의 절차에 착수했다. 이에 따른 과징금 규모는 부과기준율(3.0%~10.4%)에 따라 최대 4조6000억원 규모로 거론된다. 앞서 지난 7월에는 검찰이 국내...",
+      "collected_at": "2026-10-10T23:28:29.258916+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "유가 짬짜미",
+      "title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "source": "에너지경제",
+      "published_at": "2026-10-10T06:28:47.159019+09:00",
+      "snippet": "국내 정유업계가 고 유가 환경 속 가파른 실적 개선세에도 불구하고 좀처럼 웃지 못하고 있다. 장기화된 국제 정세 불확실성과 석유제품 최고가격제 등... 정유업계 한 관계자는 “담합 의혹 압박이 거세지면서 이른바 '기름값 짬짜미 '라는 꼬리표가 붙어 업계에 대한 국민적 신뢰도가 곤두박질 치고 있다\"며...",
+      "collected_at": "2026-10-10T23:28:47.159043+09:00",
+      "raw": {}
+    }
+  ]
+}

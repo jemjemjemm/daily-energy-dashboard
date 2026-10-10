@@ -1,0 +1,211 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-10",
+  "slot": "evening",
+  "period_start": "2026-10-10T08:00:00+09:00",
+  "period_end": "2026-10-10T17:00:00+09:00",
+  "period_label": "2026-10-10 08:00 ~ 2026-10-10 17:00",
+  "generated_at": "2026-10-10T23:28:59.373516+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 19,
+  "total_enriched_input_count": 4,
+  "total_in_period_unique_count": 0,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 2,
+  "total_deduped_count": 0,
+  "total_ok_count": 0,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 19,
+    "daum": 0,
+    "google": 0
+  },
+  "query_counts": {},
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-10T23:26:10.178425+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "유가담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '유가담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:26:21.978673+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "유가 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:26:30.293502+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "정유사 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:26:40.722838+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "기름값 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '기름값 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EA%B8%B0%EB%A6%84%EA%B0%92+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:26:50.680723+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "석유 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '석유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%84%9D%EC%9C%A0+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:27:01.181570+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "휘발유 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '휘발유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%ED%9C%98%EB%B0%9C%EC%9C%A0+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:27:11.983999+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "경유 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '경유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EA%B2%BD%EC%9C%A0+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:27:24.044342+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "주유소 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '주유소 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%A3%BC%EC%9C%A0%EC%86%8C+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:27:31.513108+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "정유업계 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '정유업계 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%A0%95%EC%9C%A0%EC%97%85%EA%B3%84+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:27:42.653742+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "석유제품 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '석유제품 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%84%9D%EC%9C%A0%EC%A0%9C%ED%92%88+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:27:50.188272+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "유류가격 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '유류가격 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%9C%A0%EB%A5%98%EA%B0%80%EA%B2%A9+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:01.220740+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "공정위 유가 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '공정위 유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EA%B3%B5%EC%A0%95%EC%9C%84+%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:09.452613+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "공정거래위원회 정유사 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '공정거래위원회 정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EA%B3%B5%EC%A0%95%EA%B1%B0%EB%9E%98%EC%9C%84%EC%9B%90%ED%9A%8C+%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:19.829084+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "SK에너지 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 'SK에너지 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=SK%EC%97%90%EB%84%88%EC%A7%80+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:28.376281+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "현대오일뱅크 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:37.729407+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "정유 44조",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '정유 44조' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%A0%95%EC%9C%A0+44%EC%A1%B0+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:46.140095+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "유가 짬짜미",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '유가 짬짜미' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%9C%A0%EA%B0%80+%EC%A7%AC%EC%A7%9C%EB%AF%B8+after%3A2026-10-10+before%3A2026-10-11&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-10-10T23:28:57.527164+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": []
+}
