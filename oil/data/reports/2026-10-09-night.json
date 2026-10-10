@@ -1,0 +1,93 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-09",
+  "slot": "night",
+  "period_start": "2026-10-09T17:00:00+09:00",
+  "period_end": "2026-10-10T00:00:00+09:00",
+  "period_label": "2026-10-09 17:00 ~ 2026-10-10 00:00",
+  "generated_at": "2026-10-10T11:17:29.573703+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 138,
+  "total_enriched_input_count": 138,
+  "total_in_period_unique_count": 5,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 29,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 90,
+    "daum": 10,
+    "google": 38
+  },
+  "query_counts": {
+    "석유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-10T11:16:37.988669+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "담합 적발돼도…中企 피해보상은 '먼 길'",
+      "url": "https://www.hankyung.com/article/2026100928561",
+      "source": "한국경제",
+      "published_at": "2026-10-09T18:16:51.943000+09:00",
+      "snippet": "지난 1일 검찰이 기소한 16조3961억원 규모 석유 화학 담합 에서도 같은 문제가 반복될 가능성이 있다. PVC 등 원재료 구매기업들이 배상받으려면 별도 민사소송을 통해 피해 규모를 입증해야 한다. 이황 고려대 법학전문대학원 교수는 “ 담합 과징금은 국가가 가져가는데 정작 피해 기업은 별도로 소송을...",
+      "collected_at": "2026-10-10T11:16:51.943015+09:00",
+      "normalized_title": "담합 적발돼도…中企 피해보상은 '먼 길'",
+      "source_normalized": "한국경제",
+      "duplicate_key": "한국경제::담합 적발돼도…中企 피해보상은 '먼 길'",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.hankyung.com/article/2026100928561",
+      "id": "b3bde175edd32442",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

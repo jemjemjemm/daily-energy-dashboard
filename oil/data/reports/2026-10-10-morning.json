@@ -1,0 +1,167 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-10",
+  "slot": "morning",
+  "period_start": "2026-10-10T00:00:00+09:00",
+  "period_end": "2026-10-10T08:00:00+09:00",
+  "period_label": "2026-10-10 00:00 ~ 2026-10-10 08:00",
+  "generated_at": "2026-10-10T11:17:40.561808+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 138,
+  "total_enriched_input_count": 34,
+  "total_in_period_unique_count": 4,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 18,
+  "total_deduped_count": 2,
+  "total_ok_count": 0,
+  "total_review_count": 2,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 90,
+    "daum": 10,
+    "google": 38
+  },
+  "query_counts": {
+    "SK에너지 담합": 2,
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 1,
+    "공정위 유가 담합": 1,
+    "기름값 담합": 1,
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "유가 담합": 1,
+    "유가 짬짜미": 1,
+    "유가담합": 1,
+    "정유 44조": 1,
+    "정유사 담합": 1,
+    "정유업계 담합": 2,
+    "주유소 담합": 1,
+    "현대오일뱅크 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-10T11:16:37.988669+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "사후 정산 방식 폐지한 SK에너지, 투명성 높인다 - 라이센스뉴스",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=209451",
+      "source": "라이센스뉴스",
+      "published_at": "2026-10-10T06:00:00+09:00",
+      "snippet": "이번 제도 개편은 공정거래위원회 가 정유 업계 담합 혐의로 제재 절차에 착수를 시작한 직후 나온 조치다. SK에너지는 지난 6월 주 단위 공급가격을 사전에... 미국은 출하장(랙)에서 출고되는 시점의 가격인 '랙 가격 기반 사전고지 거래 제도'를 운영 중이다. 일본은 에네오스 등 대형 정유사 들이 도매가를 사전에...",
+      "collected_at": "2026-10-10T11:16:46.005859+09:00",
+      "normalized_title": "사후 정산 방식 폐지한 SK에너지, 투명성 높인다 - 라이센스뉴스",
+      "source_normalized": "라이센스뉴스",
+      "duplicate_key": "라이센스뉴스::사후 정산 방식 폐지한 sk에너지, 투명성 높인다 - 라이센스뉴스",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.lcnews.co.kr/news/articleView.html?idxno=209451",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-10T06:00:00+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "ae2f134cd1e4d09c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정거래위원회",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "source": "에너지경제",
+      "published_at": "2026-10-10T06:00:00+09:00",
+      "snippet": "실제 공정거래위원회는 지난 7일 SK에너지와 HD 현대오일뱅크 의 44조1000억원 규모(매출) 석유제품 가격 담합 혐의에 대한 심사보고서를 위원회에 제출하고 본격적인 심의 절차에 착수했다. 이에 따른 과징금 규모는 부과기준율(3.0%~10.4%)에 따라 최대 4조6000억원 규모로 거론된다. 앞서 지난 7월에는 검찰이 국내...",
+      "collected_at": "2026-10-10T11:16:39.577873+09:00",
+      "normalized_title": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "source_normalized": "에너지경제",
+      "duplicate_key": "에너지경제::내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 k-정유",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가 짬짜미",
+        "유가담합",
+        "정유 44조",
+        "정유업계 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.10.10 06:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "e5b5fba7c80409b6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ]
+}
