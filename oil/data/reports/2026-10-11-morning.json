@@ -1,0 +1,153 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-11",
+  "slot": "morning",
+  "period_start": "2026-10-11T00:00:00+09:00",
+  "period_end": "2026-10-11T08:00:00+09:00",
+  "period_label": "2026-10-11 00:00 ~ 2026-10-11 08:00",
+  "generated_at": "2026-10-11T10:49:57.953641+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 80,
+  "total_enriched_input_count": 17,
+  "total_in_period_unique_count": 4,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 6,
+  "total_deduped_count": 2,
+  "total_ok_count": 1,
+  "total_review_count": 1,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 42,
+    "daum": 0,
+    "google": 38
+  },
+  "query_counts": {
+    "SK에너지 담합": 2,
+    "경유 담합": 2,
+    "공정거래위원회 정유사 담합": 1,
+    "기름값 담합": 1,
+    "석유 담합": 2,
+    "석유제품 담합": 1,
+    "정유 44조": 1,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "주유소 담합": 1,
+    "현대오일뱅크 담합": 2,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-11T10:49:02.024090+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "'44조 기름값 담합' 파장에…SK에너지, 공정위 발표 하루 만에 고개 숙였다",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XbXNFWkF3dlZMTC1fekstamYyRjV4aE1oaUtkZlZzQlNDd0hrLTlMZzJ6TDVQaHpLNTNCcFMxckZFRlFwMjNEZGJ5MjFpbTVOZk5YTEdJYnFFYlVydVZpVTRIajVMbG9Z?oc=5",
+      "source": "CBC뉴스",
+      "published_at": "2026-10-11T03:13:30+09:00",
+      "snippet": "'44조 기름값 담합' 파장에…SK에너지, 공정위 발표 하루 만에 고개 숙였다 CBC뉴스",
+      "collected_at": "2026-10-11T10:49:14.611953+09:00",
+      "normalized_title": "'44조 기름값 담합' 파장에…SK에너지, 공정위 발표 하루 만에 고개 숙였다",
+      "source_normalized": "CBC뉴스",
+      "duplicate_key": "cbc뉴스::'44조 기름값 담합' 파장에…sk에너지, 공정위 발표 하루 만에 고개 숙였다",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XbXNFWkF3dlZMTC1fekstamYyRjV4aE1oaUtkZlZzQlNDd0hrLTlMZzJ6TDVQaHpLNTNCcFMxckZFRlFwMjNEZGJ5MjFpbTVOZk5YTEdJYnFFYlVydVZpVTRIajVMbG9Z?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
+      "id": "efe880569890e0b6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "“수십조원 담합해놓고 세금 지원?”…정유 4사 CEO, 국감 십자포화 예고",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092171590",
+      "source": "IT조선",
+      "published_at": "2026-10-11T07:00:00+09:00",
+      "snippet": "업계 한 관계자는 \"국회에서 가격 담합 에 직접 가담한 SK에너지·HD 현대오일뱅크 외에도 나머지 2곳의 CEO를 모두 증인으로 채택하면서 담합 에 대한 질타와 함께 손실 보전에 대한 질의를 피하긴 힘들 것으로 보인다\"며 \"CEO들에 대한 증인 채택이 실제 국감 출석으로 이어질지 지켜봐야 한다\"고 말했다. 이성은...",
+      "collected_at": "2026-10-11T10:49:10.145685+09:00",
+      "normalized_title": "“수십조원 담합해놓고 세금 지원?”…정유 4사 CEO, 국감 십자포화 예고",
+      "source_normalized": "IT조선",
+      "duplicate_key": "it조선::“수십조원 담합해놓고 세금 지원?”…정유 4사 ceo, 국감 십자포화 예고",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유 44조",
+        "정유사 담합",
+        "정유업계 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://it.chosun.com/news/articleView.html?idxno=2023092171590",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-11T07:00:00+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "6f9030f1d0199db8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
