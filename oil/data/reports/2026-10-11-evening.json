@@ -1,0 +1,408 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-11",
+  "slot": "evening",
+  "period_start": "2026-10-11T08:00:00+09:00",
+  "period_end": "2026-10-11T17:00:00+09:00",
+  "period_label": "2026-10-11 08:00 ~ 2026-10-11 17:00",
+  "generated_at": "2026-10-11T23:53:36.705439+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 140,
+  "total_enriched_input_count": 25,
+  "total_in_period_unique_count": 9,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 9,
+  "total_deduped_count": 8,
+  "total_ok_count": 3,
+  "total_review_count": 5,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 2,
+    "B": 3,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 69,
+    "daum": 33,
+    "google": 38
+  },
+  "query_counts": {
+    "SK에너지 담합": 7,
+    "경유 담합": 2,
+    "공정거래위원회 정유사 담합": 5,
+    "공정위 유가 담합": 4,
+    "기름값 담합": 1,
+    "석유 담합": 5,
+    "석유제품 담합": 4,
+    "유가 담합": 4,
+    "유가담합": 4,
+    "정유 44조": 1,
+    "정유사 담합": 5,
+    "정유업계 담합": 4,
+    "주유소 담합": 3,
+    "현대오일뱅크 담합": 7,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-11T23:52:47.866452+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "위법조사 논란부터 과징금 폭탄까지…국감서 공정위 ‘권한남용’ 쟁점되나",
+      "url": "https://view.asiae.co.kr/article/2026101110351455214",
+      "source": "아시아경제",
+      "published_at": "2026-10-11T11:00:00+09:00",
+      "snippet": "오는 12일 열리는 국회 정무 위원회 의 공정거래위원회 국정감사에서는 공정 위의 현장조사와 과도한 과징금 부과 등 이른바 '권한 남용' 논란이 쟁점으로... 아울러 제과 및 제빵 등 식품업계 전반에 걸쳐 수천억 원대 과징금이 무더기로 부과된 대규모 담합 사건의 제재 적정성과 함께, 정유사 의 석유 제품...",
+      "collected_at": "2026-10-11T23:52:54.448637+09:00",
+      "normalized_title": "위법조사 논란부터 과징금 폭탄까지…국감서 공정위 ‘권한남용’ 쟁점되나",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::위법조사 논란부터 과징금 폭탄까지…국감서 공정위 ‘권한남용’ 쟁점되나",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://view.asiae.co.kr/article/2026101110351455214",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.10.11 11:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "f6f7cb603053c5ca",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "‘담함 의혹’ 정유 4사 CEO, 국감 나온다",
+      "url": "https://www.dt.co.kr/article/12088371?ref=naver",
+      "source": "디지털타임스",
+      "published_at": "2026-10-11T15:56:01+09:00",
+      "snippet": "아울러 공정위가 심의 중인 SK에너지와 HD 현대오일뱅크 의 가격 담합 혐의에 대해서도 고강도 질의가 이어질 것으로 예상된다. 공정위는 SK에너지와 HD 현대오일뱅크 가 2022년 2월부터 중동 분쟁이 시작된 올해 3월까지 휘발유·경유 등의 가격 정보를 공유한 것으로 보고 있다. 이재명 정부가 중동전 이후 시행...",
+      "collected_at": "2026-10-11T23:52:49.108042+09:00",
+      "normalized_title": "‘담함 의혹’ 정유 4사 CEO, 국감 나온다",
+      "source_normalized": "디지털타임스",
+      "duplicate_key": "디지털타임스::‘담함 의혹’ 정유 4사 ceo, 국감 나온다",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.dt.co.kr/article/12088371?ref=naver",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-11T15:56:01+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "c57071b4687c04ce",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[2026 국정감사] 미래기금·전월세대란 질타한 국회…유가 담합·북극항로 정조준",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96R1JHYVZXajI2TlV0bFFCWDhrbUNSckxpT1VZREp4ak9IYTVZcHJtNjlYeFc0VlJjQ28xdmswdlIyRTI3bkJnemtjQmRxX1VjX3g0QlA5YmfSAVhBVV95cUxPekdSR2FWV2oyNk5VdGxRQlg4a21DUnJMaU9VWURKeGpPSGE1WXBybTY5WHhXNFZSY0NvMXZrMHZSMkUyN25CZ3prY0JkcV9VY194NEJQOWJn?oc=5",
+      "source": "아주경제",
+      "published_at": "2026-10-11T16:58:55+09:00",
+      "snippet": "[2026 국정감사] 미래기금·전월세대란 질타한 국회…유가 담합·북극항로 정조준 아주경제",
+      "collected_at": "2026-10-11T23:52:50.922389+09:00",
+      "normalized_title": "[2026 국정감사] 미래기금·전월세대란 질타한 국회…유가 담합·북극항로 정조준",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::[2026 국정감사] 미래기금·전월세대란 질타한 국회…유가 담합·북극항로 정조준",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96R1JHYVZXajI2TlV0bFFCWDhrbUNSckxpT1VZREp4ak9IYTVZcHJtNjlYeFc0VlJjQ28xdmswdlIyRTI3bkJnemtjQmRxX1VjX3g0QlA5YmfSAVhBVV95cUxPekdSR2FWV2oyNk5VdGxRQlg4a21DUnJMaU9VWURKeGpPSGE1WXBybTY5WHhXNFZSY0NvMXZrMHZSMkUyN25CZ3prY0JkcV9VY194NEJQOWJn?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
+      "id": "2d01e5656c4cdf49",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[2026 국정감사] 미래기금·전월세대란 질타한 국회…유가 담합·북극항로 '정조준' | 아주경제",
+      "url": "https://www.ajunews.com/view/20261011154756765",
+      "source": "아주경제",
+      "published_at": "2026-10-11T16:58:00+09:00",
+      "snippet": "정무위 국감에서는 정유사 유가 담합 문제가 도마에 오를 것으로 보인다. 정무위는 이 문제를 따져 묻기 위해 SK에너지·HD 현대오일뱅크 ·GS칼텍스·에쓰 오일 등 국내 주요 정유사 대표를 증인으로 채택했다. 이들의 실제 출석 여부는 불확실성이 크지만 앞서 공정위가 일부 정유사들의 대규모 담합 을 적발한...",
+      "collected_at": "2026-10-11T23:52:49.106915+09:00",
+      "normalized_title": "[2026 국정감사] 미래기금·전월세대란 질타한 국회…유가 담합·북극항로 '정조준' | 아주경제",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::[2026 국정감사] 미래기금·전월세대란 질타한 국회…유가 담합·북극항로 '정조준' | 아주경제",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ajunews.com/view/20261011154756765",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-10-11 16:58",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "e60a6f7ec99d847d",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "홈플러스·쿠팡·정유 4사 줄소환...12일 공정위 국감 '유통 심판대'[국감]",
+      "url": "https://www.etoday.co.kr/news/view/2634316",
+      "source": "이투데이",
+      "published_at": "2026-10-11T14:29:00+09:00",
+      "snippet": "김종화 SK에너지 대표와 송명준 HD 현대오일뱅크 대표, 허세홍 GS칼텍스 대표, 안와르 알히즈아지 에쓰 오일 대표가 증인 명단에 올랐다. 정유 4사는 미국·이란 전쟁 직후 유가 폭등 사건과 관련해 공정거래법 위반 혐의로 지난 7월 재판에 넘겨진 상태다. 검찰은 담합 등으로 26조원 상당의 경쟁제한 효과가...",
+      "collected_at": "2026-10-11T23:52:49.109154+09:00",
+      "normalized_title": "홈플러스·쿠팡·정유 4사 줄소환...12일 공정위 국감 '유통 심판대'[국감]",
+      "source_normalized": "이투데이",
+      "duplicate_key": "이투데이::홈플러스·쿠팡·정유 4사 줄소환...12일 공정위 국감 '유통 심판대'[국감]",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.etoday.co.kr/news/view/2634316",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-10-11 14:29",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "741c5bdfa0dadf4e",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[DD 주간브리핑] 국감, 정유 4사 대표부터 애플·텔레그램까지…KES·SEDEX서 K-반도체·AI 총집결",
+      "url": "https://www.ddaily.co.kr/page/view/2026100910143199140",
+      "source": "디지털데일리",
+      "published_at": "2026-10-11T10:52:54.449645+09:00",
+      "snippet": "공정위는 지난 7일 SK에너지와 HD현대오일뱅크에 휘발유· 경유 ·등유 판매가격 담합 혐의에 대한 심사보고서를 발송했다. 양사가 2022년 2월부터 2026년 3월까지 판매가격 정보를 교환하고 가격 결정에 공조했다고 판단한 것으로 관련 매출액은 약 44조1000억원으로 산정됐다. 또 검찰은 정유사와 주유소 간...",
+      "collected_at": "2026-10-11T23:52:54.449660+09:00",
+      "normalized_title": "[DD 주간브리핑] 국감, 정유 4사 대표부터 애플·텔레그램까지…KES·SEDEX서 K-반도체·AI 총집결",
+      "source_normalized": "디지털데일리",
+      "duplicate_key": "디지털데일리::[dd 주간브리핑] 국감, 정유 4사 대표부터 애플·텔레그램까지…kes·sedex서 k-반도체·ai 총집결",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "정유 44조",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ddaily.co.kr/page/view/2026100910143199140",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "a76672b6f59e3bdb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "경유",
+        "주유소",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[국감2026] 방산 ‘채용 논란’·정유 ‘담합’·통신 ‘보안’ 도마에",
+      "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7187924",
+      "source": "주간한국",
+      "published_at": "2026-10-11T09:00:00+09:00",
+      "snippet": "가격 담합 의혹이 최대 변수다. 검찰은 LG화학과 한화솔루션, OCI 등 7개 업체가 8개 석유화학 제품의 가격을 사전에 협의한 혐의를 들여다보고 있다. 정유업계는 이미 재판 절차가 진행 중이다. 검찰은 지난 7월 6일 HD 현대오일뱅크 ·SK에너지·GS칼텍스·에쓰 오일 (S-OIL) 등 법인 4곳을 기소했다. 정무위원회는...",
+      "collected_at": "2026-10-11T23:52:59.593696+09:00",
+      "normalized_title": "[국감2026] 방산 ‘채용 논란’·정유 ‘담합’·통신 ‘보안’ 도마에",
+      "source_normalized": "주간한국",
+      "duplicate_key": "주간한국::[국감2026] 방산 ‘채용 논란’·정유 ‘담합’·통신 ‘보안’ 도마에",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://weekly.hankooki.com/news/articleView.html?idxno=7187924",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-11T09:00:00+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "0699cafbad6871fd",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[ZD브리핑] 칼날 선 국감 공세 속… AI·전동화 미래 향해 달리는 산업계",
+      "url": "https://zdnet.co.kr/view/?no=20261011111122",
+      "source": "지디넷코리아",
+      "published_at": "2026-10-11T11:24:00+09:00",
+      "snippet": "허세홍 GS칼텍스 부회장, 김종화 SK에너지 사장, 안와르 알히즈아지 에쓰 오일 대표, 송명준 HD 현대오일뱅크 사장 등이 증인으로 채택됐으며, 석유제품 가격 담합 의혹과 주유소 거래 관행 등이 주요 질의 대상이 될 전망입니다. 지난 8일까지 4사 대표 모두 불출석 사유서를 제출하지 않은 것으로 알려진...",
+      "collected_at": "2026-10-11T23:52:59.591664+09:00",
+      "normalized_title": "[ZD브리핑] 칼날 선 국감 공세 속… AI·전동화 미래 향해 달리는 산업계",
+      "source_normalized": "지디넷코리아",
+      "duplicate_key": "지디넷코리아::[zd브리핑] 칼날 선 국감 공세 속… ai·전동화 미래 향해 달리는 산업계",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://zdnet.co.kr/view/?no=20261011111122",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026/10/11 11:24",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "e8c1e29d3a8e9e2d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "주유소",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ]
+}
