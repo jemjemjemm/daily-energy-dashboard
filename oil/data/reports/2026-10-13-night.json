@@ -6,7 +6,7 @@
   "period_start": "2026-10-13T17:00:00+09:00",
   "period_end": "2026-10-14T00:00:00+09:00",
   "period_label": "2026-10-13 17:00 ~ 2026-10-14 00:00",
-  "generated_at": "2026-10-14T08:24:22.702367+09:00",
+  "generated_at": "2026-10-14T08:22:50.995041+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -22,24 +22,24 @@
     "공정위 유가 담합",
     "공정거래위원회 정유사 담합"
   ],
-  "total_raw_count": 207,
-  "total_enriched_input_count": 207,
-  "total_in_period_unique_count": 18,
+  "total_raw_count": 413,
+  "total_enriched_input_count": 206,
+  "total_in_period_unique_count": 21,
   "total_unknown_time_count": 0,
   "total_outside_period_count": 35,
-  "total_deduped_count": 11,
-  "total_ok_count": 11,
-  "total_review_count": 0,
-  "total_excluded_count": 7,
+  "total_deduped_count": 5,
+  "total_ok_count": 4,
+  "total_review_count": 1,
+  "total_excluded_count": 9,
   "grade_counts": {
     "A": 0,
     "B": 0,
-    "C": 11
+    "C": 5
   },
   "portal_counts": {
     "naver": 139,
     "daum": 0,
-    "google": 68
+    "google": 67
   },
   "query_counts": {
     "SK에너지 담합": 6,
@@ -65,21 +65,21 @@
       "message": "public search coverage limit",
       "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
       "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-      "created_at": "2026-10-14T08:23:33.725137+09:00"
+      "created_at": "2026-10-14T08:22:12.071481+09:00"
     }
   ],
   "telegram_alert_log": [],
   "articles": [
     {
-      "title": "정유 4사, 국감서 고개 숙였다… 담합 의혹에 거래 관행까지 도마",
-      "url": "https://www.thepublic.kr/news/articleView.html?idxno=322075",
-      "source": "더퍼블릭",
-      "published_at": "2026-10-13T17:23:35.340072+09:00",
-      "snippet": "특히 SK에너지와 HD 현대오일뱅크 의 가격 담합 의혹이 주요 쟁점으로 떠올랐다. 검찰이 파악한 두 회사의 직접 담합 관련 거래 규모는 14조2000억원으로 알려졌다. 공정거래위원회도 가격정보 교환 및 담합 혐의와 관련해 매출액을 44조1000억원으로 산정하고 지난 7일 심사보고서를 송부했다. 다만 담합 여부가 최종...",
-      "collected_at": "2026-10-14T08:23:35.340087+09:00",
-      "normalized_title": "정유 4사, 국감서 고개 숙였다… 담합 의혹에 거래 관행까지 도마",
-      "source_normalized": "더퍼블릭",
-      "duplicate_key": "더퍼블릭::정유 4사, 국감서 고개 숙였다… 담합 의혹에 거래 관행까지 도마",
+      "title": "국감서 질타받은 정유 4사…가격 담합 심의 대응·거래 관행 개선 속도 내나",
+      "url": "https://www.ddaily.co.kr/page/view/2026101315544766848",
+      "source": "디지털데일리",
+      "published_at": "2026-10-13T17:05:35+09:00",
+      "snippet": "13일 업계에 따르면 SK에너지와 HD 현대오일뱅크 는 공정위가 진행 중인 가격 담합 의혹 관련 심의에 성실히 대응하겠다는 계획이다. 공정위는 지난 7일 두 회사에 심사보고서를 보냈으며 전원회의 심의를 거쳐 법 위반 여부와 제재 수위를 결정할 예정이다. 공정위는 국내 정유 4사 중 SK에너지와 HD 현대오일뱅크 가...",
+      "collected_at": "2026-10-14T08:22:30.585685+09:00",
+      "normalized_title": "국감서 질타받은 정유 4사…가격 담합 심의 대응·거래 관행 개선 속도 내나",
+      "source_normalized": "디지털데일리",
+      "duplicate_key": "디지털데일리::국감서 질타받은 정유 4사…가격 담합 심의 대응·거래 관행 개선 속도 내나",
       "portals": [
         "naver"
       ],
@@ -92,40 +92,10 @@
         "유가 담합",
         "유가담합",
         "정유사 담합",
-        "정유업계 담합",
         "주유소 담합",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 10,
-      "canonical_url": "https://www.thepublic.kr/news/articleView.html?idxno=322075",
-      "id": "5fa7ec1f41057204",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "공정거래위원회",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "국감서 질타받은 정유 4사…가격 담합 심의 대응· 거래 관행 개선 속도...",
-      "url": "https://www.ddaily.co.kr/page/view/2026101315544766848",
-      "source": "디지털데일리",
-      "published_at": "2026-10-13T17:24:09.900440+09:00",
-      "snippet": "지난 12일 국회 정무 위원회 국정감사에서 가격 담합 의혹과 주유소 거래 관행 등을 둘러싼 질타를 받은 국내 정유 4사가 공정거래위원회 심의 대응과 제도... 것이며 공정 하고 객관적인 판단이 이뤄질 수 있도록 최선을 다하겠다\"고 말했다. 가격 담합 뿐 아니라 기존 정유사 와 주유소 간 거래 관행 개선도 후속...",
-      "collected_at": "2026-10-14T08:24:09.900458+09:00",
-      "normalized_title": "국감서 질타받은 정유 4사…가격 담합 심의 대응· 거래 관행 개선 속도...",
-      "source_normalized": "디지털데일리",
-      "duplicate_key": "디지털데일리::국감서 질타받은 정유 4사…가격 담합 심의 대응· 거래 관행 개선 속도...",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "공정거래위원회 정유사 담합"
-      ],
-      "duplicate_count": 0,
+      "duplicate_count": 1,
       "canonical_url": "https://www.ddaily.co.kr/page/view/2026101315544766848",
       "id": "b46b1a034f594236",
       "grade": "C",
@@ -138,64 +108,36 @@
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가담합 관련 맥락 확인",
+      "verified": true,
+      "time_evidence": "발행사 전체 본문·최초 입력 2026-10-13T17:05:35+09:00 직접 확인",
+      "verification_reason": "본문·최초시각 확인 완료",
+      "published_at_basis": "original_article",
+      "summary": "정유4사, 정무위 국감 후 담합 심의 대응·주유소 거래 관행 개선 계획 제시"
     },
     {
-      "title": "국감서 질타받은 정유 4사…가격 담합 심의 대응·거래 관행 개선 속도...",
-      "url": "https://www.ddaily.co.kr/page/view/2026101315544766848",
-      "source": "디지털데일리",
-      "published_at": "2026-10-13T17:23:35.339084+09:00",
-      "snippet": "13일 업계에 따르면 SK에너지와 HD 현대오일뱅크 는 공정위가 진행 중인 가격 담합 의혹 관련 심의에 성실히 대응하겠다는 계획이다. 공정위는 지난 7일 두 회사에 심사보고서를 보냈으며 전원회의 심의를 거쳐 법 위반 여부와 제재 수위를 결정할 예정이다. 공정위는 국내 정유 4사 중 SK에너지와 HD 현대오일뱅크 가...",
-      "collected_at": "2026-10-14T08:23:35.339099+09:00",
-      "normalized_title": "국감서 질타받은 정유 4사…가격 담합 심의 대응·거래 관행 개선 속도...",
-      "source_normalized": "디지털데일리",
-      "duplicate_key": "디지털데일리::국감서 질타받은 정유 4사…가격 담합 심의 대응·거래 관행 개선 속도...",
+      "title": "[2026 국감] 김창수 GS칼텍스 부사장 \"주유소 거래 관행 개선…표준계약서 맞춰 수정 중\"",
+      "url": "https://www.wikileaks-kr.org/news/articleView.html?idxno=193197",
+      "source": "위키리크스한국",
+      "published_at": "2026-10-13T18:33:12+09:00",
+      "snippet": "이에 김 부사장은 \"공정위 조사와 검찰 수사를 통해 GS칼텍스는 가격 담합 이 없었음이 확인됐다\"며 \" 주유소 와의 거래에서 제도 개선이 필요한 부분은 공정위 표준대리점계약서에 맞춰 수정 중이며 조속히 개선해 실행하겠다\"고 밝혔다. 셀프 주유소 운영 방식에 대한 지적도 나왔다. 박준태 국민의힘 의원은...",
+      "collected_at": "2026-10-14T08:22:23.096057+09:00",
+      "normalized_title": "[2026 국감] 김창수 GS칼텍스 부사장 \"주유소 거래 관행 개선…표준계약서 맞춰 수정 중\"",
+      "source_normalized": "위키리크스한국",
+      "duplicate_key": "위키리크스한국::[2026 국감] 김창수 gs칼텍스 부사장 \"주유소 거래 관행 개선…표준계약서 맞춰 수정 중\"",
       "portals": [
         "naver"
       ],
       "queries": [
-        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
         "공정위 유가 담합",
-        "석유 담합",
-        "석유제품 담합",
         "유가 담합",
         "유가담합",
         "정유사 담합",
-        "주유소 담합",
-        "현대오일뱅크 담합"
-      ],
-      "duplicate_count": 8,
-      "canonical_url": "https://www.ddaily.co.kr/page/view/2026101315544766848",
-      "id": "f6d9eb09f8db84b1",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "공정위",
-        "담합",
-        "제재"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[2026 국감] 김창수 GS칼텍스 부사장 \" 주유소 거래 관행 개선…표준계약...",
-      "url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=193197",
-      "source": "위키리크스한국",
-      "published_at": "2026-10-13T19:23:55.848394+09:00",
-      "snippet": "이에 김 부사장은 \"공정위 조사와 검찰 수사를 통해 GS칼텍스는 가격 담합 이 없었음이 확인됐다\"며 \" 주유소 와의 거래에서 제도 개선이 필요한 부분은 공정위 표준대리점계약서에 맞춰 수정 중이며 조속히 개선해 실행하겠다\"고 밝혔다. 셀프 주유소 운영 방식에 대한 지적도 나왔다. 박준태 국민의힘 의원은...",
-      "collected_at": "2026-10-14T08:23:55.848409+09:00",
-      "normalized_title": "[2026 국감] 김창수 GS칼텍스 부사장 \" 주유소 거래 관행 개선…표준계약...",
-      "source_normalized": "위키리크스한국",
-      "duplicate_key": "위키리크스한국::[2026 국감] 김창수 gs칼텍스 부사장 \" 주유소 거래 관행 개선…표준계약...",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
         "주유소 담합"
       ],
-      "duplicate_count": 0,
-      "canonical_url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=193197",
+      "duplicate_count": 1,
+      "canonical_url": "https://www.wikileaks-kr.org/news/articleView.html?idxno=193197",
       "id": "3c1b42a16616c21e",
       "grade": "C",
       "published_at_status": "known",
@@ -207,94 +149,25 @@
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[2026 국감] 김창수 GS칼텍스 부사장 \"주유소 거래 관행 개선…표준계약...",
-      "url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=193197",
-      "source": "위키리크스한국",
-      "published_at": "2026-10-13T19:23:35.336965+09:00",
-      "snippet": "민병덕 더불어민주당 의원은 고 유가 상황에서 정유사와 주유소 간 거래 관행이 소비자 부담을 키우고 있다고 지적했다. 특히 전량구매계약으로 주유소가... 이에 김 부사장은 \" 공정위 조사와 검찰 수사를 통해 GS칼텍스는 가격 담합 이 없었음이 확인됐다\"며 \"주유소와의 거래에서 제도 개선이 필요한 부분은...",
-      "collected_at": "2026-10-14T08:23:35.336980+09:00",
-      "normalized_title": "[2026 국감] 김창수 GS칼텍스 부사장 \"주유소 거래 관행 개선…표준계약...",
-      "source_normalized": "위키리크스한국",
-      "duplicate_key": "위키리크스한국::[2026 국감] 김창수 gs칼텍스 부사장 \"주유소 거래 관행 개선…표준계약...",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "공정거래위원회 정유사 담합",
-        "공정위 유가 담합",
-        "유가 담합",
-        "유가담합",
-        "정유사 담합"
-      ],
-      "duplicate_count": 4,
-      "canonical_url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=193197",
-      "id": "a8c36e76f0116454",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "정유사",
-        "주유소",
-        "공정위",
-        "담합",
-        "조사"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[2026 국감] 김종화 SK에너지 대표, 담합 의혹·손실보전액 검증 요구에...",
-      "url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=193191",
-      "source": "위키리크스한국",
-      "published_at": "2026-10-13T18:23:41.882904+09:00",
-      "snippet": "담합 으로 형성된 가격이 손실보전액 산정에 반영될 경우 국민 세금으로 정유사 의 부당이익을 보전할 수 있다는 우려가 제기됐다. 국회 정무 위원회 는 지난 12일 공정거래위원회 를 대상으로 국정감사를 열고 정유업계의 가격 담합 의혹과 거래 관행 등을 점검했다. 이날 김종화 SK에너지 대표를 비롯한 정유 4사...",
-      "collected_at": "2026-10-14T08:23:41.882923+09:00",
-      "normalized_title": "[2026 국감] 김종화 SK에너지 대표, 담합 의혹·손실보전액 검증 요구에...",
-      "source_normalized": "위키리크스한국",
-      "duplicate_key": "위키리크스한국::[2026 국감] 김종화 sk에너지 대표, 담합 의혹·손실보전액 검증 요구에...",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "SK에너지 담합",
-        "공정거래위원회 정유사 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "정유사 담합",
-        "정유업계 담합",
-        "주유소 담합",
-        "현대오일뱅크 담합"
-      ],
-      "duplicate_count": 7,
-      "canonical_url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=193191",
-      "id": "b0c31c9d7bded89b",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "정유사",
-        "정유업계",
-        "공정거래위원회",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가담합 관련 맥락 확인",
+      "verified": true,
+      "time_evidence": "발행사 전체 본문·최초 입력 2026-10-13T18:33:12+09:00 직접 확인",
+      "verification_reason": "본문·최초시각 확인 완료",
+      "published_at_basis": "original_article",
+      "summary": "GS칼텍스 부사장, 표준계약서 수정·직영 셀프주유소 개선 및 자영점 확대 계획 설명"
     },
     {
       "title": "[2026 국감] 김종화 SK에너지 대표, 담합 의혹·손실보전액 검증 요구에 \"엄중히 받아들여…충분히 소명할 것\"",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVQ1A4MjBlQldBZzNjM3kxd1puRm9OQVAtLWhZaTRxaDlYWVBUbkdMbV8yeFhpS1dmX2oyd2k0MTcwUS1wQnZ1NGtIY0lHOUhZRUJBNlRIZjNCRlBJZnMxTngyX1dDN2JtTWJ2alNhRG8?oc=5",
+      "url": "https://www.wikileaks-kr.org/news/articleView.html?idxno=193191",
       "source": "위키리크스한국",
       "published_at": "2026-10-13T17:59:00+09:00",
-      "snippet": "[2026 국감] 김종화 SK에너지 대표, 담합 의혹·손실보전액 검증 요구에 \"엄중히 받아들여…충분히 소명할 것\" 위키리크스한국",
-      "collected_at": "2026-10-14T08:23:43.672871+09:00",
+      "snippet": "담합 으로 형성된 가격이 손실보전액 산정에 반영될 경우 국민 세금으로 정유사 의 부당이익을 보전할 수 있다는 우려가 제기됐다. 국회 정무 위원회 는 지난 12일 공정거래위원회 를 대상으로 국정감사를 열고 정유업계의 가격 담합 의혹과 거래 관행 등을 점검했다. 이날 김종화 SK에너지 대표를 비롯한 정유 4사...",
+      "collected_at": "2026-10-14T08:22:15.424636+09:00",
       "normalized_title": "[2026 국감] 김종화 SK에너지 대표, 담합 의혹·손실보전액 검증 요구에 \"엄중히 받아들여…충분히 소명할 것\"",
       "source_normalized": "위키리크스한국",
       "duplicate_key": "위키리크스한국::[2026 국감] 김종화 sk에너지 대표, 담합 의혹·손실보전액 검증 요구에 \"엄중히 받아들여…충분히 소명할 것\"",
       "portals": [
+        "naver",
         "google"
       ],
       "queries": [
@@ -307,36 +180,56 @@
         "주유소 담합",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 7,
-      "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVQ1A4MjBlQldBZzNjM3kxd1puRm9OQVAtLWhZaTRxaDlYWVBUbkdMbV8yeFhpS1dmX2oyd2k0MTcwUS1wQnZ1NGtIY0lHOUhZRUJBNlRIZjNCRlBJZnMxTngyX1dDN2JtTWJ2alNhRG8?oc=5",
-      "id": "b06f146b92069900",
+      "duplicate_count": 2,
+      "canonical_url": "https://www.wikileaks-kr.org/news/articleView.html?idxno=193191",
+      "id": "b0c31c9d7bded89b",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
+        "정유사",
+        "정유업계",
+        "공정거래위원회",
         "담합"
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가담합 관련 맥락 확인",
+      "verified": true,
+      "time_evidence": "발행사 전체 본문·최초 입력 2026-10-13T17:59:00+09:00 직접 확인",
+      "verification_reason": "본문·최초시각 확인 완료",
+      "published_at_basis": "original_article",
+      "summary": "SK에너지 대표, 담합 의혹 소명 및 최고가격제 정산자료 제출 설명"
     },
     {
-      "title": "[2026 국감] 송명준 HD 현대오일뱅크 대표, 가격 담합 의혹에 \"심의 성실...",
-      "url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=193155",
+      "title": "[2026 국감] 송명준 HD현대오일뱅크 대표, 가격 담합 의혹에 \"심의 성실히 임할 것\"",
+      "url": "https://www.wikileaks-kr.org/news/articleView.html?idxno=193155",
       "source": "위키리크스한국",
-      "published_at": "2026-10-13T17:24:15.233750+09:00",
-      "snippet": "HD 현대오일뱅크 가 석유제품 가격 담합 의혹과 주유소와의 불공정 거래 관행을 놓고 국회 국정감사 도마에 올랐다. 송명준 대표는 담합 의혹과 관련해 진행 중인 재판과 공정거래위원회 심의에 성실히 임하겠다는 입장을 밝혔다. 국회 정무위원회는 지난 12일 공정거래위원회를 대상으로 국정감사를 열고 정유...",
-      "collected_at": "2026-10-14T08:24:15.233765+09:00",
-      "normalized_title": "[2026 국감] 송명준 HD 현대오일뱅크 대표, 가격 담합 의혹에 \"심의 성실...",
+      "published_at": "2026-10-13T17:21:50+09:00",
+      "snippet": "공정위 가 파악한 담합 관련 거래 규모는 약 44조원이다. 주 위원장은 지난 7일 심사보고서를 송부했으며 조만간 심의를 진행할 예정이라고 설명했다.... 이어 민 의원은 중동 전쟁과 유가 상승을 수익 확대의 기회로 여기는 듯한 정유사 내부 발언을 언급하며 업계의 대응 태도를 비판했다. 송 대표는 \" 유가 가...",
+      "collected_at": "2026-10-14T08:22:33.570229+09:00",
+      "normalized_title": "[2026 국감] 송명준 HD현대오일뱅크 대표, 가격 담합 의혹에 \"심의 성실히 임할 것\"",
       "source_normalized": "위키리크스한국",
-      "duplicate_key": "위키리크스한국::[2026 국감] 송명준 hd 현대오일뱅크 대표, 가격 담합 의혹에 \"심의 성실...",
+      "duplicate_key": "위키리크스한국::[2026 국감] 송명준 hd현대오일뱅크 대표, 가격 담합 의혹에 \"심의 성실히 임할 것\"",
       "portals": [
-        "naver"
+        "naver",
+        "google"
       ],
       "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유 44조",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 0,
-      "canonical_url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=193155",
+      "duplicate_count": 2,
+      "canonical_url": "https://www.wikileaks-kr.org/news/articleView.html?idxno=193155",
       "id": "3d3fcf5cd4407c20",
       "grade": "C",
       "published_at_status": "known",
@@ -349,92 +242,23 @@
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가담합 관련 맥락 확인",
+      "verified": true,
+      "time_evidence": "발행사 전체 본문·최초 입력 2026-10-13T17:21:50+09:00 직접 확인",
+      "verification_reason": "본문·최초시각 확인 완료",
+      "published_at_basis": "original_article",
+      "summary": "HD현대오일뱅크 대표, 담합 재판·공정위 심의 성실 대응 입장"
     },
     {
-      "title": "[2026 국감] 송명준 HD현대오일뱅크 대표, 가격 담합 의혹에 \"심의 성실...",
-      "url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=193155",
-      "source": "위키리크스한국",
-      "published_at": "2026-10-13T17:23:35.338019+09:00",
-      "snippet": "공정위 가 파악한 담합 관련 거래 규모는 약 44조원이다. 주 위원장은 지난 7일 심사보고서를 송부했으며 조만간 심의를 진행할 예정이라고 설명했다.... 이어 민 의원은 중동 전쟁과 유가 상승을 수익 확대의 기회로 여기는 듯한 정유사 내부 발언을 언급하며 업계의 대응 태도를 비판했다. 송 대표는 \" 유가 가...",
-      "collected_at": "2026-10-14T08:23:35.338036+09:00",
-      "normalized_title": "[2026 국감] 송명준 HD현대오일뱅크 대표, 가격 담합 의혹에 \"심의 성실...",
-      "source_normalized": "위키리크스한국",
-      "duplicate_key": "위키리크스한국::[2026 국감] 송명준 hd현대오일뱅크 대표, 가격 담합 의혹에 \"심의 성실...",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "SK에너지 담합",
-        "공정거래위원회 정유사 담합",
-        "공정위 유가 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합",
-        "정유 44조",
-        "정유사 담합",
-        "주유소 담합"
-      ],
-      "duplicate_count": 9,
-      "canonical_url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=193155",
-      "id": "e0ee26ef8475e450",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "정유사",
-        "공정위",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[2026 국감] 송명준 HD현대오일뱅크 대표, 가격 담합 의혹에 \"심의 성실히 임할 것\"",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KWnpWWXRmMWdMUU92MUFnWmJGRkhTajZ2cHR3WFNvWlh5aDFnN0Ruc0U1Z01WNkVLOS1fVmZMRDhrU3RVSVUzRkVHaWNwV3RuM0V3eUl5cHZReUJpbmtIVmYyVC1tYUN4NTZ0NFEzaWQ?oc=5",
-      "source": "위키리크스한국",
-      "published_at": "2026-10-13T17:21:50+09:00",
-      "snippet": "[2026 국감] 송명준 HD현대오일뱅크 대표, 가격 담합 의혹에 \"심의 성실히 임할 것\" 위키리크스한국",
-      "collected_at": "2026-10-14T08:23:49.189762+09:00",
-      "normalized_title": "[2026 국감] 송명준 HD현대오일뱅크 대표, 가격 담합 의혹에 \"심의 성실히 임할 것\"",
-      "source_normalized": "위키리크스한국",
-      "duplicate_key": "위키리크스한국::[2026 국감] 송명준 hd현대오일뱅크 대표, 가격 담합 의혹에 \"심의 성실히 임할 것\"",
-      "portals": [
-        "google"
-      ],
-      "queries": [
-        "SK에너지 담합",
-        "공정거래위원회 정유사 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "정유업계 담합",
-        "주유소 담합",
-        "현대오일뱅크 담합"
-      ],
-      "duplicate_count": 6,
-      "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KWnpWWXRmMWdMUU92MUFnWmJGRkhTajZ2cHR3WFNvWlh5aDFnN0Ruc0U1Z01WNkVLOS1fVmZMRDhrU3RVSVUzRkVHaWNwV3RuM0V3eUl5cHZReUJpbmtIVmYyVC1tYUN4NTZ0NFEzaWQ?oc=5",
-      "id": "175a820f8e168849",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "10월 2주 주요 제조업 전망",
+      "title": "10월 2주 주요 제조업 전망 - 참여와혁신",
       "url": "https://www.laborplus.co.kr/news/articleView.html?idxno=41633",
       "source": "참여와혁신",
-      "published_at": "2026-10-13T22:23:35.335973+09:00",
+      "published_at": "2026-10-13T22:07:09+09:00",
       "snippet": "05$/bbl) □ 주간 제품별 주유소 판매가격(10월 1주, 출처 페트로넷) - 보통휘발유 1,857.5원/ℓ (전주 대비 -0.1원/ℓ) - 자동차용 경유 1843.3원/ℓ (전주... 6%p 낮추는 효과가 있다고 밝힘 □ 석유화학 6개사, 16조 원대 규모 가격 담합 혐의로 무더기 기소 - 서울중앙지검 공정거래조사부가 1일 공정거래법 위반...",
-      "collected_at": "2026-10-14T08:23:35.335991+09:00",
-      "normalized_title": "10월 2주 주요 제조업 전망",
+      "collected_at": "2026-10-14T08:22:12.461856+09:00",
+      "normalized_title": "10월 2주 주요 제조업 전망 - 참여와혁신",
       "source_normalized": "참여와혁신",
-      "duplicate_key": "참여와혁신::10월 2주 주요 제조업 전망",
+      "duplicate_key": "참여와혁신::10월 2주 주요 제조업 전망 - 참여와혁신",
       "portals": [
         "naver"
       ],
@@ -448,7 +272,7 @@
         "주유소 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 7,
+      "duplicate_count": 0,
       "canonical_url": "https://www.laborplus.co.kr/news/articleView.html?idxno=41633",
       "id": "6f5eda6755d78ecd",
       "grade": "C",
@@ -461,9 +285,18 @@
         "담합",
         "조사"
       ],
-      "quality_status": "ok",
+      "quality_status": "review",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가담합 관련 맥락 확인",
+      "verified": false,
+      "time_evidence": "발행사 접근은 가능하나 유료 로그인 또는 본문 비노출로 전체 본문 확인 불가",
+      "verification_reason": "전체 본문 확인 불가",
+      "published_at_basis": "original_article",
+      "summary": "주요 제조업 전망 보도 — 유료 본문 미확인"
     }
-  ]
+  ],
+  "summary": "정무위 정유4사 국감 후속 보도 전수 목록. 담합 혐의·심의 대응과 거래 관행 개선 계획 구분.",
+  "editorial_audit": "data/reviews/2026-10-14-morning.audit.json",
+  "coverage_note": "다른 매체의 동일 사건 모두 보존. 동일 매체·원문에서 확인한 같은 정규화 제목만 병합. 네이버 공개검색 페이지 한계 및 유료 원문 제한 존재.",
+  "raw_count_basis": "수동 수집206건+동시 예약 수집207건=413건 검색 결과. 반복 수집·검색어 중복 포함, 서로 다른 기사413건 의미 아님. 각 수집본을 Morning/Night로 나눴으므로 두 슬롯 수 합산 금지."
 }
