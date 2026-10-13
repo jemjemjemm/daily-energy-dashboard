@@ -1,0 +1,293 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-13",
+  "slot": "morning",
+  "period_start": "2026-10-13T00:00:00+09:00",
+  "period_end": "2026-10-13T08:00:00+09:00",
+  "period_label": "2026-10-13 00:00 ~ 2026-10-13 08:00",
+  "generated_at": "2026-10-13T12:32:17.744181+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 900,
+  "total_enriched_input_count": 133,
+  "total_in_period_unique_count": 8,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 99,
+  "total_deduped_count": 5,
+  "total_ok_count": 4,
+  "total_review_count": 1,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 3,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 156,
+    "daum": 379,
+    "google": 365
+  },
+  "query_counts": {
+    "SK에너지 담합": 4,
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 3,
+    "공정위 유가 담합": 3,
+    "기름값 담합": 2,
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "유가 담합": 3,
+    "유가담합": 3,
+    "유류가격 담합": 1,
+    "정유 44조": 4,
+    "정유사 담합": 3,
+    "정유업계 담합": 3,
+    "주유소 담합": 1,
+    "현대오일뱅크 담합": 4,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-13T12:30:22.955030+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "윤건영 “한동훈 딸 봐주기 수사” vs 김종철 “새 사실 나오면 전면 재수사 배제 안 해” [오늘의 국감 한 컷, 한마디]",
+      "url": "https://www.segye.com/newsView/20261012525722?OutUrl=naver",
+      "source": "세계일보",
+      "published_at": "2026-10-13T06:00:00+09:00",
+      "snippet": "공정거래위원회가 문제 삼은 담합 관련 매출은 44조원에 달한다. HD 현대오일뱅크 와 에쓰 오일 측은 국민이 느낀 유가 부담에 송구하다고 밝혔고 SK에너지는 전량구매계약 등 거래구조를 개선하겠다고 했다. ○ 이강일 더불어민주당 의원 “쿠팡의 조사 불응, 대한민국 공권력에 대한 정면 도전 아닙니까” -쿠팡이...",
+      "collected_at": "2026-10-13T12:30:24.576661+09:00",
+      "normalized_title": "윤건영 “한동훈 딸 봐주기 수사” vs 김종철 “새 사실 나오면 전면 재수사 배제 안 해” [오늘의 국감 한 컷, 한마디]",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::윤건영 “한동훈 딸 봐주기 수사” vs 김종철 “새 사실 나오면 전면 재수사 배제 안 해” [오늘의 국감 한 컷, 한마디]",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유 44조",
+        "정유업계 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.segye.com/newsView/20261012525722?OutUrl=naver",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-10-13 06:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "c38a4a6268403009",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[사설]국감에 정유사 경영진 꼭 불러야 했나",
+      "url": "https://www.mt.co.kr/opinion/2026/10/13/2026101216230344401",
+      "source": "머니투데이",
+      "published_at": "2026-10-13T04:01:00+09:00",
+      "snippet": "공정거래위원회 는 지난 7일 정유사 중 SK에너지와 HD현대오일뱅크가 올해 3월까지 4년간 휘발유·경유·등유 제품가격, 판매정보 등을 교환했다는 조사결과를 내놓았다. 시장점유율 50%에 육박하는 두 업체의 담합 으로 영향받는 매출액은 약 44조원에 달한다는게 공정 위 설명이다. 업체들이 공정 위 조사에 대한...",
+      "collected_at": "2026-10-13T12:30:24.577385+09:00",
+      "normalized_title": "[사설]국감에 정유사 경영진 꼭 불러야 했나",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::[사설]국감에 정유사 경영진 꼭 불러야 했나",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "유류가격 담합",
+        "정유 44조",
+        "정유사 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.mt.co.kr/opinion/2026/10/13/2026101216230344401",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-13T04:01:00+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "639f0cf71097f62f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "경유",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "주병기 \"재벌 착취 지금도 같은 생각\" 발언에 여야 집중 질타",
+      "url": "https://www.mt.co.kr/politics/2026/10/13/2026101219543132230",
+      "source": "머니투데이",
+      "published_at": "2026-10-13T03:56:00+09:00",
+      "snippet": "여야는 정유4사의 담합 의혹과 쿠팡의 공정위 현장조사 거부, 홈플러스의 회생 가능성 등 주요 기업 현안도 집중적으로 추궁했다. 주 위원장은 12일 서울... 민병덕 민주당 의원은 정유4사 경영진을 상대로 국제정세 불안에 따른 유가 상승 국면에서 정유업계가 이익을 추구한 문제를 질타했다. 그는 \"국민은 생활비...",
+      "collected_at": "2026-10-13T12:30:24.578086+09:00",
+      "normalized_title": "주병기 \"재벌 착취 지금도 같은 생각\" 발언에 여야 집중 질타",
+      "source_normalized": "머니투데이",
+      "duplicate_key": "머니투데이::주병기 \"재벌 착취 지금도 같은 생각\" 발언에 여야 집중 질타",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.mt.co.kr/politics/2026/10/13/2026101219543132230",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-13T03:56:00+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "6c993f7e051ecf8e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "셀프주유소 '즉시종료' 버튼 생긴다…정유 4사, 2~3개월 내 추진",
+      "url": "https://www.apnews.kr/news/articleView.html?idxno=3051990",
+      "source": "AP신문",
+      "published_at": "2026-10-13T02:58:34+09:00",
+      "snippet": "12일 국회 정무 위원회 소속 박준태 국민의힘 의원에 따르면, SK에너지와 HD현대오일뱅크, GS칼텍스, 에쓰오일(S-OIL)은 이날 공정거래위원회 국정감사에서... 다시는 정유사 들이 담합 을 엄두조차 내지 못하도록 엄중히 제재해야 한다\"고 촉구했다. 주 위원장은 담합 사건의 조사와 관련해 \"심의 절차가 개시된 만큼...",
+      "collected_at": "2026-10-13T12:30:34.868075+09:00",
+      "normalized_title": "셀프주유소 '즉시종료' 버튼 생긴다…정유 4사, 2~3개월 내 추진",
+      "source_normalized": "AP신문",
+      "duplicate_key": "ap신문::셀프주유소 '즉시종료' 버튼 생긴다…정유 4사, 2~3개월 내 추진",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유 44조",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.apnews.kr/news/articleView.html?idxno=3051990",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-13T02:58:34+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "1bca243af2c86895",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정거래위원회",
+        "담합",
+        "조사",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[출근길 브리핑-10월 13일] 李대통령 '주사 의혹' DN오토모티브 엄중 대응 지시·민주당 지지율 역전한 국힘·'정유 빅4' 유통 관행 수술대·10월 1~10일 수출 전년比 102%↑·최태원 \"호남 반도체 최대한 빨리\"",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=856230",
+      "source": "뉴스웍스",
+      "published_at": "2026-10-13T06:00:00+09:00",
+      "snippet": "◆ 44조 대 규제 폭풍… 정유 '빅4' 유통 관행 수술대 국내 정유 빅4(SK에너지·GS칼텍스·에쓰오일·HD현대오일뱅크)의 사후정산제와 전속계약 등 독과점 유통 관행을 겨눈 사법당국 제재와 여의도 국정감사 검증이 10월 한 달간 집중되고 있습니다. 공정거래위원회는 SK에너지와 HD현대오일뱅크가 2022년...",
+      "collected_at": "2026-10-13T12:31:35.543661+09:00",
+      "normalized_title": "[출근길 브리핑-10월 13일] 李대통령 '주사 의혹' DN오토모티브 엄중 대응 지시·민주당 지지율 역전한 국힘·'정유 빅4' 유통 관행 수술대·10월 1~10일 수출 전년比 102%↑·최태원 \"호남 반도체 최대한 빨리\"",
+      "source_normalized": "뉴스웍스",
+      "duplicate_key": "뉴스웍스::[출근길 브리핑-10월 13일] 李대통령 '주사 의혹' dn오토모티브 엄중 대응 지시·민주당 지지율 역전한 국힘·'정유 빅4' 유통 관행 수술대·10월 1~10일 수출 전년比 102%↑·최태원 \"호남 반도체 최대한 빨리\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유 44조"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.newsworks.co.kr/news/articleView.html?idxno=856230",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.10.13 06:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "00d144cd469626fb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "공정거래위원회",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ]
+}
