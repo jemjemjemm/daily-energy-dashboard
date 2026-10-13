@@ -1,0 +1,159 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-14",
+  "slot": "morning",
+  "period_start": "2026-10-14T00:00:00+09:00",
+  "period_end": "2026-10-14T08:00:00+09:00",
+  "period_label": "2026-10-14 00:00 ~ 2026-10-14 08:00",
+  "generated_at": "2026-10-14T08:24:37.632732+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 207,
+  "total_enriched_input_count": 53,
+  "total_in_period_unique_count": 5,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 28,
+  "total_deduped_count": 2,
+  "total_ok_count": 1,
+  "total_review_count": 1,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 0,
+    "B": 1,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 139,
+    "daum": 0,
+    "google": 68
+  },
+  "query_counts": {
+    "SK에너지 담합": 2,
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 2,
+    "공정위 유가 담합": 1,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 2,
+    "정유업계 담합": 2,
+    "주유소 담합": 2,
+    "현대오일뱅크 담합": 2,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-14T08:23:33.725137+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[더벨][Policy Radar] 정유 4사 가격 담합 , 경영진 관여했나",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610121734542440107334",
+      "source": "더벨",
+      "published_at": "2026-10-14T07:23:41.880974+09:00",
+      "snippet": "당초 이들은 셀프주유소의 정량·정액 주유 방식과 관련한 소비자 불편 문제로 증인에 채택됐으나 최근 SK에너지와 HD 현대오일뱅크 의 가격 담합 의혹이 불거져 국감의 무게중심은 정유업계의 가격 결정 과정으로 옮겨갔다. 공정위는 지난 7일 SK에너지와 HD 현대오일뱅크 에 가격 담합 혐의에 관한 심사보고서를...",
+      "collected_at": "2026-10-14T08:23:41.880991+09:00",
+      "normalized_title": "[더벨][Policy Radar] 정유 4사 가격 담합 , 경영진 관여했나",
+      "source_normalized": "더벨",
+      "duplicate_key": "더벨::[더벨][policy radar] 정유 4사 가격 담합 , 경영진 관여했나",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610121734542440107334",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "881acbdae203a925",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "주유소",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[기획] 정유사 담합 의혹에 유통구조까지 도마",
+      "url": "https://www.kfenews.co.kr/news/articleView.html?idxno=666225",
+      "source": "한국금융경제신문",
+      "published_at": "2026-10-14T07:36:00+09:00",
+      "snippet": "공정위는 SK에너지와 HD현대오일뱅크가 2022년 2월부터 2026년 3월까지 휘발유· 경유 ·등유의 가격과 판매정책 등에 관한 정보를 교환하며 담합 한 혐의가 있다고 보고 있다. 박준태 국민의힘 의원은 두 회사의 담합 관련 매출 규모를 거론하며 경영진이 가격 결정과 관련한 의사결정에 관여했을 가능성을 제기했다....",
+      "collected_at": "2026-10-14T08:23:35.334947+09:00",
+      "normalized_title": "[기획] 정유사 담합 의혹에 유통구조까지 도마",
+      "source_normalized": "한국금융경제신문",
+      "duplicate_key": "한국금융경제신문::[기획] 정유사 담합 의혹에 유통구조까지 도마",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.kfenews.co.kr/news/articleView.html?idxno=666225",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.10.14 07:36",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "d8f06746925361ef",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "휘발유",
+        "경유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
