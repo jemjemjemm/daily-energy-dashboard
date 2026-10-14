@@ -1,0 +1,280 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-14",
+  "slot": "night",
+  "period_start": "2026-10-14T17:00:00+09:00",
+  "period_end": "2026-10-15T00:00:00+09:00",
+  "period_label": "2026-10-14 17:00 ~ 2026-10-15 00:00",
+  "generated_at": "2026-10-15T08:22:53.257442+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 184,
+  "total_enriched_input_count": 184,
+  "total_in_period_unique_count": 12,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 28,
+  "total_deduped_count": 6,
+  "total_ok_count": 6,
+  "total_review_count": 0,
+  "total_excluded_count": 6,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 6
+  },
+  "portal_counts": {
+    "naver": 114,
+    "daum": 9,
+    "google": 61
+  },
+  "query_counts": {
+    "SK에너지 담합": 2,
+    "공정거래위원회 정유사 담합": 3,
+    "공정위 유가 담합": 2,
+    "석유 담합": 2,
+    "석유제품 담합": 1,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유 44조": 1,
+    "정유사 담합": 3,
+    "정유업계 담합": 2,
+    "주유소 담합": 2,
+    "현대오일뱅크 담합": 2
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-15T08:22:08.546153+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "HD 현대오일뱅크 , 44조 유가 담합 에도 '침묵'…고도의 법리적 전략인가",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=214707",
+      "source": "SR타임스",
+      "published_at": "2026-10-14T17:22:46.260923+09:00",
+      "snippet": "법정에서 승부…\" 담합 없었고 법리로 시시비비 따질 것\" 공정거래위원회가 44조원대 유가 담합 혐의로 SK에너지와 HD 현대오일뱅크 에 대한 고강도 제재 절차에 착수한 가운데 위기 국면을 마주한 양사의 대응 전략이 엇갈리고 있다. SK에너지는 제재 착수 발표 하루 만에 대표이사 명의의 공식 사과문을 내고...",
+      "collected_at": "2026-10-15T08:22:46.260930+09:00",
+      "normalized_title": "HD 현대오일뱅크 , 44조 유가 담합 에도 '침묵'…고도의 법리적 전략인가",
+      "source_normalized": "SR타임스",
+      "duplicate_key": "sr타임스::hd 현대오일뱅크 , 44조 유가 담합 에도 '침묵'…고도의 법리적 전략인가",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.srtimes.kr/news/articleView.html?idxno=214707",
+      "id": "a746dede1bce1e20",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크, 44조 유가 담합 에도 '침묵'…고도의 법리적 전략인가",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=214707",
+      "source": "SR타임스",
+      "published_at": "2026-10-14T17:22:16.534124+09:00",
+      "snippet": "법정에서 승부…\" 담합 없었고 법리로 시시비비 따질 것\" 공정거래위원회가 44조원대 유가 담합 혐의로 SK에너지와 HD현대오일뱅크에 대한 고강도 제재... 반면 현대오일뱅크를 비롯한 타 정유사들은 여전히 사후정산 방식과 주유소 별 맞춤형 할인·장려금 정책을 내세워 치열한 시장 점유율 경쟁을 벌이고 있다....",
+      "collected_at": "2026-10-15T08:22:16.534131+09:00",
+      "normalized_title": "HD현대오일뱅크, 44조 유가 담합 에도 '침묵'…고도의 법리적 전략인가",
+      "source_normalized": "SR타임스",
+      "duplicate_key": "sr타임스::hd현대오일뱅크, 44조 유가 담합 에도 '침묵'…고도의 법리적 전략인가",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "http://www.srtimes.kr/news/articleView.html?idxno=214707",
+      "id": "74fd2fbf9cd35b97",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "주유소",
+        "공정거래위원회",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크, 44조 유가담합 에도 '침묵'…고도의 법리적 전략인가",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=214707",
+      "source": "SR타임스",
+      "published_at": "2026-10-14T17:22:10.160068+09:00",
+      "snippet": "법정에서 승부…\"담합 없었고 법리로 시시비비 따질 것\" 공정거래위원회가 44조원대 유가 담합 혐의로 SK에너지와 HD현대오일뱅크에 대한 고강도 제재 절차에 착수한 가운데 위기 국면을 마주한 양사의 대응 전략이 엇갈리고 있다. SK에너지는 제재 착수 발표 하루 만에 대표이사 명의의 공식 사과문을 내고...",
+      "collected_at": "2026-10-15T08:22:10.160075+09:00",
+      "normalized_title": "HD현대오일뱅크, 44조 유가담합 에도 '침묵'…고도의 법리적 전략인가",
+      "source_normalized": "SR타임스",
+      "duplicate_key": "sr타임스::hd현대오일뱅크, 44조 유가담합 에도 '침묵'…고도의 법리적 전략인가",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "http://www.srtimes.kr/news/articleView.html?idxno=214707",
+      "id": "8085ff6555333679",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "HD현대오일뱅크, 44조 유가담합에도 '침묵'…고도의 법리적 전략인가",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=214707",
+      "source": "SR타임스",
+      "published_at": "2026-10-14T17:20:28+09:00",
+      "snippet": "법정에서 승부…\"담합 없었고 법리로 시시비비 따질 것\" 공정거래위원회가 44조 원대 유가 담합 혐의로 SK에너지와 HD현대오일뱅크에 대한 고강도 제재... 같은 처지에 놓인 두 정유 사가 정반대의 행보를 보이는 속사정에 대해 업계의 이목이 쏠린다. HD현대오일뱅크의 침묵 이면에는 단순한 위기관리 부재가...",
+      "collected_at": "2026-10-15T08:22:12.325093+09:00",
+      "normalized_title": "HD현대오일뱅크, 44조 유가담합에도 '침묵'…고도의 법리적 전략인가",
+      "source_normalized": "SR타임스",
+      "duplicate_key": "sr타임스::hd현대오일뱅크, 44조 유가담합에도 '침묵'…고도의 법리적 전략인가",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유 44조",
+        "정유사 담합",
+        "정유업계 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 10,
+      "canonical_url": "http://www.srtimes.kr/news/articleView.html?idxno=214707",
+      "id": "674ce1f193beb4e6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정 위 중점조사기획단, 1호 사건 '대상·오뚜기·CJ제일제당'…먹거리...",
+      "url": "https://www.tfmedia.co.kr/news/article.html?no=208021",
+      "source": "조세금융신문",
+      "published_at": "2026-10-14T17:22:40.960431+09:00",
+      "snippet": "출범한 공정거래위원회 중점조사기획단이 서민 민생 물가에 큰 영향을 미치는 식품업체 담합 이슈를 제1호 사건으로 지정하고 조사에 나섰다. 이와함께... 이어 3~4월 열린 중동전쟁 관련 비상경제회의에서는 “ 정유사 ·주유소의 담합 , 매점매석, 사재기를 철저히 단속하고 위반 시 얻을 이익의 몇 배에...",
+      "collected_at": "2026-10-15T08:22:40.960438+09:00",
+      "normalized_title": "공정 위 중점조사기획단, 1호 사건 '대상·오뚜기·CJ제일제당'…먹거리...",
+      "source_normalized": "조세금융신문",
+      "duplicate_key": "조세금융신문::공정 위 중점조사기획단, 1호 사건 '대상·오뚜기·cj제일제당'…먹거리...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.tfmedia.co.kr/news/article.html?no=208021",
+      "id": "391fd57642a82e71",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "주유소",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위 중점조사기획단, 1호 사건 '대상·오뚜기·CJ제일제당'…먹거리...",
+      "url": "https://www.tfmedia.co.kr/news/article.html?no=208021",
+      "source": "조세금융신문",
+      "published_at": "2026-10-14T17:22:16.534539+09:00",
+      "snippet": "인상된 석유 제품에는 최고가격제를 신속히 도입·시행해야 한다”고 강조했다. 7월 경제부처 업무보고 당시에는 “ 담합 이나 물가 농단이 아주 일상이 돼 있다”고 지적한 뒤 공정위 등 관계부처가 인력을 한시적으로 충원해서라도 적극대응하라고 지시했다. 또 이재명 대통령은 가장 최근인 지난 9월말 자신의...",
+      "collected_at": "2026-10-15T08:22:16.534545+09:00",
+      "normalized_title": "공정위 중점조사기획단, 1호 사건 '대상·오뚜기·CJ제일제당'…먹거리...",
+      "source_normalized": "조세금융신문",
+      "duplicate_key": "조세금융신문::공정위 중점조사기획단, 1호 사건 '대상·오뚜기·cj제일제당'…먹거리...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.tfmedia.co.kr/news/article.html?no=208021",
+      "id": "63421fbeed343b58",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
