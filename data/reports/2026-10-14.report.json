@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △러시아 경유 수출 재개 영향과 중동 충돌 속 브렌트유 0.9% 하락·WTI 0.4% 상승 마감 △백악관, 한국의 알래스카 LNG 540억달러 투자 언급 및 한국 정부 추가 사업성 검토 입장 △이종배 의원, 그린수소 계획 생산량 목표 대비 13%·생산원가 목표 대비 5.2배 및 기본계획 정기 점검 필요성 지적"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △호르무즈 선박 피격·아람코 사무용 건물 공격에 따른 원유 수송 위축·운임 상승 압력 점검 △트럼프, 한국 알래스카 LNG 500억달러 약속 재주장·대만 44억달러 투자 언급 및 한국 정부 미확정 입장 △제주도, 국비 98억원 확보 및 전기차 V2G·마을 태양광·ESS 분산에너지 실증 확대 추진"
     }
   ],
   "prices": {
@@ -1588,5 +1592,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△호르무즈 선박 피격·아람코 사무용 건물 공격에 따른 원유 수송 위축·운임 상승 압력 점검 △트럼프, 한국 알래스카 LNG 500억달러 약속 재주장·대만 44억달러 투자 언급 및 한국 정부 미확정 입장 △제주도, 국비 98억원 확보 및 전기차 V2G·마을 태양광·ESS 분산에너지 실증 확대 추진",
+    "trend_paragraphs": [
+      "호르무즈 선박 피격·아람코 사무용 건물 공격에 따른 원유 수송 위축·운임 상승 압력 점검",
+      "트럼프, 한국 알래스카 LNG 500억달러 약속 재주장·대만 44억달러 투자 언급 및 한국 정부 미확정 입장",
+      "제주도, 국비 98억원 확보 및 전기차 V2G·마을 태양광·ESS 분산에너지 실증 확대 추진"
+    ],
+    "articles": [
+      {
+        "title": "호르무즈 이어 아람코까지…중동 ‘석유 동맥’ 다시 흔들",
+        "press": "이투데이",
+        "url": "https://www.etoday.co.kr/news/view/2635811",
+        "summary": "호르무즈 선박 피격·아람코 사무용 건물 공격에 따른 원유 수송 위축·운임 상승 압력 점검",
+        "published_at_kst": "2026-10-14T16:23:00+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 본문·최초 송고/입력 메타 2026-10-14T16:23:00+09:00 직접 확인. 수정시각 및 포털 전송시각 제외."
+      },
+      {
+        "title": "트럼프 \"韓 약속한 500억불에 더해 대만도 알래스카 가스 투자\"",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261014060600071",
+        "summary": "트럼프, 한국 알래스카 LNG 500억달러 약속 재주장·대만 44억달러 투자 언급 및 한국 정부 미확정 입장",
+        "published_at_kst": "2026-10-14T10:22:11+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 본문·최초 송고/입력 메타 2026-10-14T10:22:11+09:00 직접 확인. 수정시각 및 포털 전송시각 제외."
+      },
+      {
+        "title": "전기차·마을이 전력 공급원으로… 제주, 실증 국비 98억 확보",
+        "press": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202610141511338132",
+        "summary": "제주도, 국비 98억원 확보 및 전기차 V2G·마을 태양광·ESS 분산에너지 실증 확대 추진",
+        "published_at_kst": "2026-10-14T15:27:34+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 본문·최초 송고/입력 메타 2026-10-14T15:27:34+09:00 직접 확인. 수정시각 및 포털 전송시각 제외."
+      }
+    ],
+    "source": "발행사 원문·최초 보도시각 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
