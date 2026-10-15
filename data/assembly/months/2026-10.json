@@ -3,9 +3,9 @@
   "source": "열린국회정보",
   "api": "ALLSCHEDULE",
   "month": "2026-10",
-  "collectedAt": "2026-10-15T08:21:12+09:00",
-  "count": 251,
-  "apiTotalCount": 251,
+  "collectedAt": "2026-10-16T08:14:43+09:00",
+  "count": 268,
+  "apiTotalCount": 268,
   "fields": [
     "SCH_KIND",
     "SCH_CN",
@@ -201,6 +201,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "소아응급센터 압수수색 관련 대한의사협회장 긴급 기자회견",
+      "SCH_DT": "2026-10-15",
+      "SCH_TM": "09:01",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "서명옥 의원(국민의힘), 한지아 의원(국민의힘) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "양부남 의원 기자회견",
       "SCH_DT": "2026-10-06",
       "SCH_TM": "09:15",
@@ -305,6 +317,18 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "이훈기 의원(더불어민주당), 이강일 의원(더불어민주당) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "부처 이전 관련 기자회견",
+      "SCH_DT": "2026-10-15",
+      "SCH_TM": "09:29",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "주호영 의원(국민의힘)",
       "EV_PLC": null
     },
     {
@@ -584,6 +608,18 @@
       "EV_PLC": "의원회관 제9간담회의실(212호)"
     },
     {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "충남권 국립호국원 설립, 왜 부여인가?",
+      "SCH_DT": "2026-10-20",
+      "SCH_TM": "10:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "윤용근 의원실, 부여군",
+      "EV_PLC": "의원회관 제1소회의실"
+    },
+    {
       "SCH_KIND": "기자회견",
       "SCH_CN": "김태규 국회의원 사과 촉구 기자회견",
       "SCH_DT": "2026-10-09",
@@ -685,7 +721,7 @@
       "SCH_DT": "2026-10-14",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "농림축산식품해양수산위원회",
+      "CMIT_NM": "교육위원회",
       "CONF_SESS": "제439회국회(정기회)",
       "CONF_DGR": "제4차",
       "EV_INST_NM": null,
@@ -697,19 +733,7 @@
       "SCH_DT": "2026-10-14",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "교육위원회",
-      "CONF_SESS": "제439회국회(정기회)",
-      "CONF_DGR": "제4차",
-      "EV_INST_NM": null,
-      "EV_PLC": null
-    },
-    {
-      "SCH_KIND": "위원회",
-      "SCH_CN": "제439회국회(정기회) 제4차 전체회의",
-      "SCH_DT": "2026-10-07",
-      "SCH_TM": "10:00",
-      "CONF_DIV": "전체회의",
-      "CMIT_NM": "산업통상자원중소벤처기업위원회",
+      "CMIT_NM": "농림축산식품해양수산위원회",
       "CONF_SESS": "제439회국회(정기회)",
       "CONF_DGR": "제4차",
       "EV_INST_NM": null,
@@ -734,6 +758,18 @@
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
       "CMIT_NM": "보건복지위원회",
+      "CONF_SESS": "제439회국회(정기회)",
+      "CONF_DGR": "제4차",
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제439회국회(정기회) 제4차 전체회의",
+      "SCH_DT": "2026-10-07",
+      "SCH_TM": "10:00",
+      "CONF_DIV": "전체회의",
+      "CMIT_NM": "산업통상자원중소벤처기업위원회",
       "CONF_SESS": "제439회국회(정기회)",
       "CONF_DGR": "제4차",
       "EV_INST_NM": null,
@@ -778,6 +814,18 @@
     {
       "SCH_KIND": "위원회",
       "SCH_CN": "제439회국회(정기회) 제5차 전체회의",
+      "SCH_DT": "2026-10-16",
+      "SCH_TM": "10:00",
+      "CONF_DIV": "전체회의",
+      "CMIT_NM": "교육위원회",
+      "CONF_SESS": "제439회국회(정기회)",
+      "CONF_DGR": "제5차",
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제439회국회(정기회) 제5차 전체회의",
       "SCH_DT": "2026-10-14",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
@@ -793,7 +841,7 @@
       "SCH_DT": "2026-10-07",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "행정안전위원회",
+      "CMIT_NM": "국방위원회",
       "CONF_SESS": "제439회국회(정기회)",
       "CONF_DGR": "제5차",
       "EV_INST_NM": null,
@@ -805,7 +853,7 @@
       "SCH_DT": "2026-10-07",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "국방위원회",
+      "CMIT_NM": "행정안전위원회",
       "CONF_SESS": "제439회국회(정기회)",
       "CONF_DGR": "제5차",
       "EV_INST_NM": null,
@@ -896,18 +944,6 @@
       "EV_PLC": null
     },
     {
-      "SCH_KIND": "위원회",
-      "SCH_CN": "제439회국회(정기회) 제8차 전체회의",
-      "SCH_DT": "2026-10-14",
-      "SCH_TM": "10:00",
-      "CONF_DIV": "전체회의",
-      "CMIT_NM": "행정안전위원회",
-      "CONF_SESS": "제439회국회(정기회)",
-      "CONF_DGR": "제8차",
-      "EV_INST_NM": null,
-      "EV_PLC": null
-    },
-    {
       "SCH_KIND": "의장단(부의장)",
       "SCH_CN": " 제4358주년 개천절 경축식 / 세종문화회관 대극장",
       "SCH_DT": "2026-10-03",
@@ -969,15 +1005,15 @@
     },
     {
       "SCH_KIND": "국회행사",
-      "SCH_CN": "자살 유가족 지원체계 구축을 위한 정책토론회",
-      "SCH_DT": "2026-10-16",
+      "SCH_CN": "왜! 경인 지역 대학은 늘 소외되는가?",
+      "SCH_DT": "2026-10-19",
       "SCH_TM": "10:00~12:00",
       "CONF_DIV": null,
       "CMIT_NM": null,
       "CONF_SESS": null,
       "CONF_DGR": null,
-      "EV_INST_NM": "장종태·이성권·서왕진 의원실, 생명존중시민회의, 한국생명운동연대, 자살유가족와 따뜻한 친구들",
-      "EV_PLC": "의원회관 제5간담회의실(208호)"
+      "EV_INST_NM": "김준혁 의원실",
+      "EV_PLC": "의원회관 제2소회의실"
     },
     {
       "SCH_KIND": "국회행사",
@@ -1014,6 +1050,18 @@
       "CONF_DGR": null,
       "EV_INST_NM": "한창민·이수진·이주희·김준형·서왕진·정혜경·용혜인 의원실, 한국노총 공공운수노조, 콜센터사업장 연석회의",
       "EV_PLC": "의원회관 신관 제1세미나실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "혁명가 박정희",
+      "SCH_DT": "2026-10-22",
+      "SCH_TM": "10:00~12:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "임이자 의원실",
+      "EV_PLC": "의원회관 대회의실"
     },
     {
       "SCH_KIND": "기자회견",
@@ -1209,6 +1257,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "이승훈 더불어민주당 전국소상공인위원장 출마선언 기자회견",
+      "SCH_DT": "2026-10-15",
+      "SCH_TM": "10:43",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김문수 의원(더불어민주당) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "현안 관련 기자회견",
       "SCH_DT": "2026-10-14",
       "SCH_TM": "10:43",
@@ -1301,6 +1361,18 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "김선민 의원(조국혁신당), 차규근 의원(조국혁신당) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "한동훈 국회의원 자녀 논문표절, 허위 봉사활동 등 입시비리 중수청 고발 기자회견",
+      "SCH_DT": "2026-10-15",
+      "SCH_TM": "10:59",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김문수 의원(더불어민주당)",
       "EV_PLC": null
     },
     {
@@ -1497,6 +1569,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "국민의힘 최보윤 의원(수석대변인) 브리핑",
+      "SCH_DT": "2026-10-15",
+      "SCH_TM": "11:26",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "최보윤 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "국민의힘 최수진 의원(원내수석대변인) 브리핑",
       "SCH_DT": "2026-10-07",
       "SCH_TM": "11:26",
@@ -1638,6 +1722,18 @@
       "CONF_DGR": null,
       "EV_INST_NM": "우원식 의원실, 홍범도장군기념사업회, 대한고려인협회",
       "EV_PLC": "의원회관 신관 제2세미나실"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "대한민국 목재산업 미래비전",
+      "SCH_DT": "2026-10-30",
+      "SCH_TM": "13:00~15:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "문금주·김용태 의원실, 임업단체총연합회",
+      "EV_PLC": "의원회관 제5간담회의실(208호)"
     },
     {
       "SCH_KIND": "국회행사",
@@ -1953,6 +2049,18 @@
     },
     {
       "SCH_KIND": "기자회견",
+      "SCH_CN": "국민의힘 최수진 의원(원내수석대변인) 브리핑",
+      "SCH_DT": "2026-10-15",
+      "SCH_TM": "13:52",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "최수진 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
       "SCH_CN": "주진우 의원 기자회견",
       "SCH_DT": "2026-10-04",
       "SCH_TM": "13:56",
@@ -2109,6 +2217,18 @@
     },
     {
       "SCH_KIND": "국회행사",
+      "SCH_CN": "중앙차세대여성위원회 임명장 수여식 및 전체회의",
+      "SCH_DT": "2026-10-19",
+      "SCH_TM": "14:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "서명옥 의원실, 국민의힘 중앙여성위원회",
+      "EV_PLC": "국회박물관 국회체험관"
+    },
+    {
+      "SCH_KIND": "국회행사",
       "SCH_CN": "퇴직연금 제도개선을 위한 국회 토론회",
       "SCH_DT": "2026-10-01",
       "SCH_TM": "14:00",
@@ -2130,6 +2250,18 @@
       "CONF_DGR": null,
       "EV_INST_NM": "박주민 의원실, 생명안전동행, 국회 생명안전포럼, 재난피해자권리센터 우리함께",
       "EV_PLC": "의원회관 제5간담회의실(208호)"
+    },
+    {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "호르무즈·홍해 위기 속 청해부대 파병의 쟁점",
+      "SCH_DT": "2026-10-21",
+      "SCH_TM": "14:00",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김준형·이용선·윤종오·용혜인 의원실, 미국침략전쟁중단 한국군파병반대 긴급행동",
+      "EV_PLC": "의원회관 제3간담회의실(203호)"
     },
     {
       "SCH_KIND": "기자회견",
@@ -2420,6 +2552,18 @@
       "EV_PLC": null
     },
     {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제439회국회(정기회) 제8차 전체회의",
+      "SCH_DT": "2026-10-15",
+      "SCH_TM": "14:06",
+      "CONF_DIV": "전체회의",
+      "CMIT_NM": "행정안전위원회",
+      "CONF_SESS": "제439회국회(정기회)",
+      "CONF_DGR": "제8차",
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
       "SCH_KIND": "기자회견",
       "SCH_CN": "개정노조법에 의한 원청교섭 정상화 촉구 기자회견",
       "SCH_DT": "2026-10-12",
@@ -2429,6 +2573,18 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "이용우 의원(더불어민주당) 외",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "정치 현안 관련 기자회견",
+      "SCH_DT": "2026-10-15",
+      "SCH_TM": "14:15",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "강득구 의원(더불어민주당)",
       "EV_PLC": null
     },
     {
@@ -2489,6 +2645,18 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "최보윤 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "의장단(국회의장)",
+      "SCH_CN": "미국 前 하원의원 방한단 접견 / 국회 접견실",
+      "SCH_DT": "2026-10-16",
+      "SCH_TM": "14:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
       "EV_PLC": null
     },
     {
@@ -2600,6 +2768,18 @@
       "EV_PLC": null
     },
     {
+      "SCH_KIND": "국회행사",
+      "SCH_CN": "\"대한민국, 글로벌 5대 수출 강국 도약을 위한 FTA·통상 자원의 AI플랫폼 전환(AX)과 EU통상 규제 대응 전략\"",
+      "SCH_DT": "2026-10-21",
+      "SCH_TM": "15:00~16:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "장철민·박희승 의원실, 산업통상부, 산업통상자원중소벤처기업위원회",
+      "EV_PLC": "의원회관 제2소회의실"
+    },
+    {
       "SCH_KIND": "기자회견",
       "SCH_CN": "2027년 노인 일자리 예산 국회 증액 촉구 기자회견",
       "SCH_DT": "2026-10-12",
@@ -2669,6 +2849,18 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "백종헌 의원(국민의힘), 이달희 의원(국민의힘), 이만희 의원(국민의힘), 조배숙 의원(국민의힘), 한지아 의원(국민의힘), 최보윤 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "기자회견",
+      "SCH_CN": "국감 질의시간 볼모로 KBS 외압 의혹 사과 요구하는 한준호 간사 규탄 기자회견",
+      "SCH_DT": "2026-10-15",
+      "SCH_TM": "15:25",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": "김장겸 의원(국민의힘)",
       "EV_PLC": null
     },
     {
@@ -2933,6 +3125,18 @@
       "CONF_SESS": null,
       "CONF_DGR": null,
       "EV_INST_NM": "최형두 의원(국민의힘), 서천호 의원(국민의힘), 김장겸 의원(국민의힘), 이진숙 의원(국민의힘)",
+      "EV_PLC": null
+    },
+    {
+      "SCH_KIND": "위원회",
+      "SCH_CN": "제439회국회(정기회) 제5차 전체회의",
+      "SCH_DT": "2026-10-15",
+      "SCH_TM": "17:30",
+      "CONF_DIV": "전체회의",
+      "CMIT_NM": "국토교통위원회",
+      "CONF_SESS": "제439회국회(정기회)",
+      "CONF_DGR": "제5차",
+      "EV_INST_NM": null,
       "EV_PLC": null
     },
     {
