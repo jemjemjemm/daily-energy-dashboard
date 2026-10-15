@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △사우디 아람코 피격·IEA 공급 경고 속 브렌트유 106.06달러·WTI 95.09달러 상승 마감 △트럼프, 한국의 알래스카 LNG 500억달러 투자 약속 주장 및 한미 무역·투자 합의 일부로 재차 언급 △SK그룹, 국내 원전기업 공동 컨소시엄을 통한 미국 웨스팅하우스 지분투자 검토"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △석유 최고가격제 장기화에 따른 손실보전 기준·지급시점 불확실성 및 추가 재원 쟁점 점검 △중동 공격에 브렌트유 106.06달러·WTI 95.09달러 마감 및 IEA 경유 공급 부족 지속 전망 △코트라, 2030년 대일 수출 350억달러 목표 및 조선기자재·ESS 등 공급망 협력 확대 추진"
     }
   ],
   "prices": {
@@ -1584,5 +1588,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△석유 최고가격제 장기화에 따른 손실보전 기준·지급시점 불확실성 및 추가 재원 쟁점 점검 △중동 공격에 브렌트유 106.06달러·WTI 95.09달러 마감 및 IEA 경유 공급 부족 지속 전망 △코트라, 2030년 대일 수출 350억달러 목표 및 조선기자재·ESS 등 공급망 협력 확대 추진",
+    "trend_paragraphs": [
+      "석유 최고가격제 장기화에 따른 손실보전 기준·지급시점 불확실성 및 추가 재원 쟁점 점검",
+      "중동 공격에 브렌트유 106.06달러·WTI 95.09달러 마감 및 IEA 경유 공급 부족 지속 전망",
+      "코트라, 2030년 대일 수출 350억달러 목표 및 조선기자재·ESS 등 공급망 협력 확대 추진"
+    ],
+    "articles": [
+      {
+        "title": "기름값 묶은 지 7개월⋯정부는 예산 부담, 정유사는 보전 불안",
+        "press": "이투데이",
+        "url": "https://www.etoday.co.kr/news/view/2636221",
+        "summary": "석유 최고가격제 장기화에 따른 손실보전 기준·지급시점 불확실성 및 추가 재원 쟁점 점검",
+        "published_at_kst": "2026-10-15T16:20:00+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 본문·최초 입력 2026-10-15T16:20:00+09:00 확인"
+      },
+      {
+        "title": "“러시아산 경유 풀려도 역부족”…후티 공격에 국제유가 다시 상승세",
+        "press": "동아일보",
+        "url": "https://www.donga.com/news/Economy/article/all/20261015/134848453/1",
+        "summary": "중동 공격에 브렌트유 106.06달러·WTI 95.09달러 마감 및 IEA 경유 공급 부족 지속 전망",
+        "published_at_kst": "2026-10-15T16:35:00+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 전체 본문 및 최초 입력·송고 2026-10-15T16:35:00+09:00 직접 확인. 수정시각·포털 전송시각 제외."
+      },
+      {
+        "title": "코트라, 대일 수출 2030년 350억달러로…한일 공급망 협력 확대",
+        "press": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202610151534118600",
+        "summary": "코트라, 2030년 대일 수출 350억달러 목표 및 조선기자재·ESS 등 공급망 협력 확대 추진",
+        "published_at_kst": "2026-10-15T15:38:23+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "발행사 원문 전체 본문 및 최초 입력·송고 2026-10-15T15:38:23+09:00 직접 확인. 수정시각·포털 전송시각 제외."
+      }
+    ],
+    "source": "발행사 원문·최초 보도시각 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
