@@ -6,7 +6,7 @@
   "period_start": "2026-10-16T00:00:00+09:00",
   "period_end": "2026-10-16T08:00:00+09:00",
   "period_label": "2026-10-16 00:00 ~ 2026-10-16 08:00",
-  "generated_at": "2026-10-16T08:16:31.242714+09:00",
+  "generated_at": "2026-10-16T08:25:47.649862+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -23,10 +23,10 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 155,
-  "total_enriched_input_count": 32,
+  "total_enriched_input_count": 12,
   "total_in_period_unique_count": 1,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 17,
+  "total_outside_period_count": 11,
   "total_deduped_count": 1,
   "total_ok_count": 1,
   "total_review_count": 0,
@@ -99,7 +99,7 @@
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 1,
+      "duplicate_count": 0,
       "canonical_url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610151255461380719",
       "published_at_basis": "original_article",
       "time_evidence": "원문 최초 등록·입력 2026-10-16 05:20:18",
@@ -119,7 +119,12 @@
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가담합 관련 맥락 확인",
+      "summary": "정유·석화업계, 정제마진 개선 속 담합 혐의 심의·최고가격제 손실보전 정산 부담 점검. 피해액은 업계 추산, 과징금은 전망으로 구분"
     }
-  ]
+  ],
+  "summary": "정유사 가격담합 심의 및 석유화학 담합 혐의 기소 후속, 손실보전 정산 부담 모니터링",
+  "editorial_audit": "data/reviews/2026-10-16-morning.audit.json",
+  "coverage_note": "다른 매체 동일 사안 모두 보존. 같은 매체·원문 제목만 병합. 네이버 공개검색 페이지 범위 제한 존재.",
+  "raw_count_basis": "원수집 검색155건 전체 보존. 32개 중복축소 입력을 원수집 수로 대체하지 않음."
 }

@@ -6,7 +6,7 @@
   "period_start": "2026-10-15T17:00:00+09:00",
   "period_end": "2026-10-16T00:00:00+09:00",
   "period_label": "2026-10-15 17:00 ~ 2026-10-16 00:00",
-  "generated_at": "2026-10-16T08:16:24.717871+09:00",
+  "generated_at": "2026-10-16T08:25:47.635019+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -23,18 +23,18 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 155,
-  "total_enriched_input_count": 155,
-  "total_in_period_unique_count": 6,
+  "total_enriched_input_count": 12,
+  "total_in_period_unique_count": 2,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 26,
-  "total_deduped_count": 4,
-  "total_ok_count": 4,
+  "total_outside_period_count": 10,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
   "total_review_count": 0,
-  "total_excluded_count": 2,
+  "total_excluded_count": 0,
   "grade_counts": {
     "A": 0,
     "B": 0,
-    "C": 4
+    "C": 2
   },
   "portal_counts": {
     "naver": 106,
@@ -42,20 +42,15 @@
     "google": 36
   },
   "query_counts": {
-    "SK에너지 담합": 2,
-    "경유 담합": 2,
-    "공정거래위원회 정유사 담합": 2,
-    "공정위 유가 담합": 1,
-    "기름값 담합": 1,
+    "SK에너지 담합": 1,
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 1,
     "석유 담합": 2,
     "석유제품 담합": 2,
-    "유가 담합": 1,
-    "유가담합": 1,
-    "정유 44조": 2,
-    "정유사 담합": 2,
-    "주유소 담합": 1,
-    "현대오일뱅크 담합": 2,
-    "휘발유 담합": 2
+    "정유 44조": 1,
+    "정유사 담합": 1,
+    "현대오일뱅크 담합": 1,
+    "휘발유 담합": 1
   },
   "collection_warnings": [
     {
@@ -71,23 +66,22 @@
   "telegram_alert_log": [],
   "articles": [
     {
-      "title": "SK에너지 등, 석유제품 가격담합 관련 '매출만 44조'…공정위 심의개시 과징금 규모는?",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9aMXU2QWxfaGxveVJuWjE2bjhzSV85RE44WDdmTzVKeWtJUVRUVzA2OFZCSE5zMTBSOW1pZWQ1UDVGV3hrOWNRbzZJZlFTRlNmQjAzV0UwLTVwWWk2QXd1Y2Q5S3hsaHZQOERicGVibnYzZ9IBckFVX3lxTE9aMXU2QWxfaGxveVJuWjE2bjhzSV85RE44WDdmTzVKeWtJUVRUVzA2OFZCSE5zMTBSOW1pZWQ1UDVGV3hrOWNRbzZJZlFTRlNmQjAzV0UwLTVwWWk2QXd1Y2Q5S3hsaHZQOERicGVibnYzZw?oc=5",
+      "title": "SK에너지 등, 석유제품 가격담합 관련 '매출만 44조'…공정위 심의개시 과징금 규모는? - 잡포스트(JOBPOST)",
+      "url": "https://www.job-post.co.kr/news/articleView.html?idxno=232652",
       "source": "잡포스트",
       "published_at": "2026-10-15T23:18:00+09:00",
-      "snippet": "SK에너지 등, 석유제품 가격담합 관련 '매출만 44조'…공정위 심의개시 과징금 규모는? 잡포스트",
-      "collected_at": "2026-10-16T08:15:51.379207+09:00",
-      "normalized_title": "SK에너지 등, 석유제품 가격담합 관련 '매출만 44조'…공정위 심의개시 과징금 규모는?",
+      "snippet": "러·우 전쟁부터 미·이란 전쟁까지, 4년간 44조 원대 담합 공정위 조사 결과, 이들 정유사 는 러시아·우크라이나 전쟁 직전인 2022년 2월부터 올해 3월까지 약 4년간 휘발유·경유·등유 등 주요 석유제품의 판매가격 관련 정보를 실시간으로 교환해 온 것으로 나타났다. 특히 미국·이란 전쟁 이후에는 직접적인...",
+      "collected_at": "2026-10-16T08:15:50.018767+09:00",
+      "normalized_title": "SK에너지 등, 석유제품 가격담합 관련 '매출만 44조'…공정위 심의개시 과징금 규모는? - 잡포스트(JOBPOST)",
       "source_normalized": "잡포스트",
-      "duplicate_key": "잡포스트::sk에너지 등, 석유제품 가격담합 관련 '매출만 44조'…공정위 심의개시 과징금 규모는?",
+      "duplicate_key": "잡포스트::sk에너지 등, 석유제품 가격담합 관련 '매출만 44조'…공정위 심의개시 과징금 규모는? - 잡포스트(jobpost)",
       "portals": [
-        "google"
+        "naver"
       ],
       "queries": [
         "SK에너지 담합",
         "경유 담합",
         "공정거래위원회 정유사 담합",
-        "공정위 유가 담합",
         "석유 담합",
         "석유제품 담합",
         "정유 44조",
@@ -95,125 +89,71 @@
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 9,
-      "canonical_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9aMXU2QWxfaGxveVJuWjE2bjhzSV85RE44WDdmTzVKeWtJUVRUVzA2OFZCSE5zMTBSOW1pZWQ1UDVGV3hrOWNRbzZJZlFTRlNmQjAzV0UwLTVwWWk2QXd1Y2Q5S3hsaHZQOERicGVibnYzZ9IBckFVX3lxTE9aMXU2QWxfaGxveVJuWjE2bjhzSV85RE44WDdmTzVKeWtJUVRUVzA2OFZCSE5zMTBSOW1pZWQ1UDVGV3hrOWNRbzZJZlFTRlNmQjAzV0UwLTVwWWk2QXd1Y2Q5S3hsaHZQOERicGVibnYzZw?oc=5",
-      "id": "9055fa365d117540",
+      "duplicate_count": 0,
+      "canonical_url": "https://www.job-post.co.kr/news/articleView.html?idxno=232652",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-15T23:18:00+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "92f05a0b2d647ef2",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
         "석유",
+        "정유사",
+        "휘발유",
+        "경유",
         "석유제품",
         "공정위",
         "담합",
         "가격담합",
+        "조사",
         "과징금"
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가담합 관련 맥락 확인",
+      "summary": "공정위, SK에너지·HD현대오일뱅크 가격정보 교환·담합 혐의 심의 개시 및 방어권 절차 진행 보도"
     },
     {
-      "title": "[허프 생각] 누군가 당신 돈을 훔쳐도 가만히 있을 건가요? : 정유 사들 ...",
-      "url": "https://www.huffingtonpost.kr/article/261254",
-      "source": "허프포스트코리아",
-      "published_at": "2026-10-15T17:16:20.933096+09:00",
-      "snippet": "공정거래위원회는 담합으로 영향을 받은 관련 매출액이 44조 1천억 원에 달하는 것으로 추산했다. 올해 경기도 본예산(당초예산) 40조577억 원을 넘어서는 규모다. 또 2개 정유 사가 2022년 2월부터 2026년 3월까지 4년여 동안 휘발유·경유·등유 판매 가격과 관련한 입금가, 확정가, 판매 정책 정보를 교환한 것으로...",
-      "collected_at": "2026-10-16T08:16:20.933109+09:00",
-      "normalized_title": "[허프 생각] 누군가 당신 돈을 훔쳐도 가만히 있을 건가요? : 정유 사들 ...",
-      "source_normalized": "허프포스트코리아",
-      "duplicate_key": "허프포스트코리아::[허프 생각] 누군가 당신 돈을 훔쳐도 가만히 있을 건가요? : 정유 사들 ...",
+      "title": "LG화학 등, 중동전쟁 틈타 ‘16조원대 가격 짬짜미’…담합사건 중 역대 최대 37명 기소 - 잡포스트(JOBPOST)",
+      "url": "https://www.job-post.co.kr/news/articleView.html?idxno=232651",
+      "source": "잡포스트",
+      "published_at": "2026-10-15T23:17:45+09:00",
+      "snippet": "중동전쟁 여파로 인한 석유 화학 제품 가격 급등과 국가적 경제 위기 상황을 틈타 16조 원 규모의 제품 가격을 담합 한 국내 대형 석유 화학 업체들과 전·현직 임직원들이 대거 재판에 넘겨졌다. 이는 검찰이 수사한 담합 사건 중 역대 최대 규모다. 서울중앙지검 공정거래조사부(나희석 부장검사)는 1일...",
+      "collected_at": "2026-10-16T08:15:54.748734+09:00",
+      "normalized_title": "LG화학 등, 중동전쟁 틈타 ‘16조원대 가격 짬짜미’…담합사건 중 역대 최대 37명 기소 - 잡포스트(JOBPOST)",
+      "source_normalized": "잡포스트",
+      "duplicate_key": "잡포스트::lg화학 등, 중동전쟁 틈타 ‘16조원대 가격 짬짜미’…담합사건 중 역대 최대 37명 기소 - 잡포스트(jobpost)",
       "portals": [
         "naver"
       ],
       "queries": [
-        "정유 44조"
+        "석유 담합",
+        "석유제품 담합"
       ],
       "duplicate_count": 0,
-      "canonical_url": "https://www.huffingtonpost.kr/article/261254",
-      "id": "9b107030f7d17073",
+      "canonical_url": "https://www.job-post.co.kr/news/articleView.html?idxno=232651",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-15T23:17:45+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "25d84c84f224391b",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
-        "휘발유",
-        "경유",
-        "공정거래위원회",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[허프 생각] 누군가 당신 돈을 훔쳐도 가만히 있을 건가요? : 정유사 들 ...",
-      "url": "https://www.huffingtonpost.kr/article/261254",
-      "source": "허프포스트코리아",
-      "published_at": "2026-10-15T17:15:50.019607+09:00",
-      "snippet": "정유사 가 담합 의혹을 받고 있지만 혐의가 확정돼도 납부할 과징금은 국가로 귀속된다. 담합 이 사실이라면 이들이 털어간 소비자의 돈을 온전히 소비자에게 돌려줄 수 있는 방안을 생각해 볼 필요가 있다. \"역시 전쟁으로 먹고사는 회사. 트럼프 만세\", \"오늘 가격 100원 더 올린다. 우리 올해 2조 벌듯.\" 미국...",
-      "collected_at": "2026-10-16T08:15:50.019628+09:00",
-      "normalized_title": "[허프 생각] 누군가 당신 돈을 훔쳐도 가만히 있을 건가요? : 정유사 들 ...",
-      "source_normalized": "허프포스트코리아",
-      "duplicate_key": "허프포스트코리아::[허프 생각] 누군가 당신 돈을 훔쳐도 가만히 있을 건가요? : 정유사 들 ...",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "공정거래위원회 정유사 담합",
-        "정유사 담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "https://www.huffingtonpost.kr/article/261254",
-      "id": "35d95f84bdd0131c",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "정유사",
+        "석유",
         "담합",
-        "과징금"
+        "조사"
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[허프 생각] 누군가 당신 돈을 훔쳐도 가만히 있을 건가요? : 정유사들 ...",
-      "url": "https://www.huffingtonpost.kr/article/261254",
-      "source": "허프포스트코리아",
-      "published_at": "2026-10-15T17:15:44.590866+09:00",
-      "snippet": "공정거래위원회는 담합 으로 영향을 받은 관련 매출액이 44조1천억 원에 달하는 것으로 추산했다. 올해 경기도 본예산(당초예산) 40조577억 원을 넘어서는 규모다. 또 2개 정유사가 2022년 2월부터 2026년 3월까지 4년여 동안 휘발유· 경유 ·등유 판매 가격과 관련한 입금가, 확정가, 판매 정책 정보를 교환한 것으로...",
-      "collected_at": "2026-10-16T08:15:44.590881+09:00",
-      "normalized_title": "[허프 생각] 누군가 당신 돈을 훔쳐도 가만히 있을 건가요? : 정유사들 ...",
-      "source_normalized": "허프포스트코리아",
-      "duplicate_key": "허프포스트코리아::[허프 생각] 누군가 당신 돈을 훔쳐도 가만히 있을 건가요? : 정유사들 ...",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "SK에너지 담합",
-        "경유 담합",
-        "기름값 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합",
-        "주유소 담합",
-        "현대오일뱅크 담합",
-        "휘발유 담합"
-      ],
-      "duplicate_count": 9,
-      "canonical_url": "https://www.huffingtonpost.kr/article/261254",
-      "id": "18873f7bf8a504c6",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "정유사",
-        "휘발유",
-        "경유",
-        "공정거래위원회",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가담합 관련 맥락 확인",
+      "summary": "검찰의 석유화학 6개사·임직원 37명 담합 혐의 기소 후속 보도. 혐의와 유죄 확정 구분"
     }
-  ]
+  ],
+  "summary": "정유사 가격담합 심의 및 석유화학 담합 혐의 기소 후속, 손실보전 정산 부담 모니터링",
+  "editorial_audit": "data/reviews/2026-10-16-morning.audit.json",
+  "coverage_note": "다른 매체 동일 사안 모두 보존. 같은 매체·원문 제목만 병합. 네이버 공개검색 페이지 범위 제한 존재.",
+  "raw_count_basis": "원수집 검색155건 전체 보존. 32개 중복축소 입력을 원수집 수로 대체하지 않음."
 }

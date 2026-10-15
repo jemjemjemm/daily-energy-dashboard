@@ -47,3 +47,9 @@
 - 공휴일은 `scripts/kr_holidays.py` 한 곳에서만 관리한다. 다른 스크립트나 workflow에 날짜 목록을 복사하지 않는다. 2027년 공휴일은 2026년 12월 전에 추가한다.
 - Daily 원본(`docs/reports/YYYY-MM-DD.html`)이 없을 때만 Daily를 생성한다. Actions의 Daily workflow를 먼저 실행해 두면(유가 리포트도 함께 요청됨) 상임위 뉴스 작업과 병행할 수 있다.
 - 검증은 `.cache/` 경로 하나에 조립한 뒤 한 번만 실행하고, 커밋·push는 모든 산출물을 확인한 뒤 한 번에 한다. push할 때마다 Pages 배포가 순서대로 한 번씩 실행된다.
+
+## 발간 완료 판정 게이트 (2026-10-16 사용자 재강조)
+
+- Daily/국감 Morning 또는 Evening 발간 요청은 **Daily 보고서, Oil Price Issue Report(동일 슬롯 및 Morning 전일 Night), 국감 주요 이슈의 해당 슬롯 3개 상임위, Monitoring Report 完 탭**을 하나의 필수 체크리스트로 관리한다. 단 하나라도 누락된 상태를 발간 완료로 보고하지 않는다.
+- 자동 Daily workflow 성공은 전체 발간 완료가 아니다. 국감 주요 이슈 JSON과 해당 날짜 화면의 Morning/Evening 본문, 유가 검토본 및 원문 확인·제외 기록을 각각 확인한다.
+- Online push 요청은 커밋·push·Pages Actions 성공 이후 실제 온라인 Daily/국감/유가의 날짜·슬롯·본문 대조까지 완료해야 한다. 미발간 Evening은 정상적으로 구분하되 Morning 누락을 미발간으로 방치하지 않는다.
