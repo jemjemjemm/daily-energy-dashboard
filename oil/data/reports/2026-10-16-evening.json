@@ -1,0 +1,400 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-16",
+  "slot": "evening",
+  "period_start": "2026-10-16T08:00:00+09:00",
+  "period_end": "2026-10-16T17:00:00+09:00",
+  "period_label": "2026-10-16 08:00 ~ 2026-10-16 17:00",
+  "generated_at": "2026-10-16T22:12:39.955297+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 119,
+  "total_enriched_input_count": 22,
+  "total_in_period_unique_count": 11,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 7,
+  "total_deduped_count": 8,
+  "total_ok_count": 3,
+  "total_review_count": 5,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 7
+  },
+  "portal_counts": {
+    "naver": 63,
+    "daum": 30,
+    "google": 26
+  },
+  "query_counts": {
+    "SK에너지 담합": 3,
+    "경유 담합": 4,
+    "공정거래위원회 정유사 담합": 3,
+    "공정위 유가 담합": 4,
+    "기름값 담합": 1,
+    "석유 담합": 6,
+    "석유제품 담합": 5,
+    "유가 담합": 6,
+    "유가담합": 6,
+    "정유사 담합": 3,
+    "정유업계 담합": 3,
+    "주유소 담합": 3,
+    "현대오일뱅크 담합": 3,
+    "휘발유 담합": 3
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-16T22:11:55.580806+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[The View]정부가 정한 가격, 담합의 신호가 된다면",
+      "url": "https://view.asiae.co.kr/article/2026101312210522801",
+      "source": "아시아경제",
+      "published_at": "2026-10-16T11:00:00+09:00",
+      "snippet": "공정거래위원회가 SK에너지와 HD현대오일뱅크의 휘발유· 경유 ·등유 담합 혐의로 심의를 시작했다. 공정위는 두 회사가 2022년 2월부터 올해 3월까지 약 4년간 판매가격 정보를 주고받았고, 올 3월 중동 전쟁 직후에는 공급가격까지 담합 했다고 본다. 관련 매출액은 44조1000억원이고, 단순 계산으로는 과징금이...",
+      "collected_at": "2026-10-16T22:11:56.789530+09:00",
+      "normalized_title": "[The View]정부가 정한 가격, 담합의 신호가 된다면",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::[the view]정부가 정한 가격, 담합의 신호가 된다면",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://view.asiae.co.kr/article/2026101312210522801",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.10.16 11:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "01e2aaf7f96f5c3f",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "고통분담 7개월, 보전은 아직…정유업계 최고가격제 속앓이",
+      "url": "http://v.daum.net/v/20261016122800072",
+      "source": "MTN 머니투데이방송",
+      "published_at": "2026-10-16T12:28:00+09:00",
+      "snippet": "채우고 남는 물량은 내보낼 수 있게 해 달라는 입장이다. 한국석유공사도 13일 보고서에서 공급난이 길어질수록 정제 여력이 큰 한국...거래위원회는 지난 7일 SK에너지와 HD현대오일뱅크에 가격 담합 혐의로 심사보고서를 보냈다. 앞서 검찰은 7월 담합 수사 결과를... 9시간 전",
+      "collected_at": "2026-10-16T22:11:57.928026+09:00",
+      "normalized_title": "고통분담 7개월, 보전은 아직…정유업계 최고가격제 속앓이",
+      "source_normalized": "MTN 머니투데이방송",
+      "duplicate_key": "mtn 머니투데이방송::고통분담 7개월, 보전은 아직…정유업계 최고가격제 속앓이",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20261016122800072",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 16. 12:28",
+      "verified": false,
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인",
+      "id": "c3a17419208c7252",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "[핀포인트] [LG화학] 순손실 늪, 담합 과징금…'1조 적자' 경고등",
+      "url": "https://news.dealsitetv.com/articles/176917",
+      "source": "딜사이트경제TV",
+      "published_at": "2026-10-16T08:12:06.373514+09:00",
+      "snippet": "검찰에 따르면 이들 업체는 2021년 1월부터 올해 4월까지 PVC와 가소제, 가성소다, 염산 등 8개 석유 화학 제품 의 가격 등을 담합 한 혐의를 받고 있다. 검찰이 파악한 담합 관련 거래 규모는 16조3961억원에 달한다. 특히 PVC와 가소제, 가성소다 등 LG화학의 주요 제품 군이 조사 대상에 포함되면서 과징금 부담에...",
+      "collected_at": "2026-10-16T22:12:06.373532+09:00",
+      "normalized_title": "[핀포인트] [LG화학] 순손실 늪, 담합 과징금…'1조 적자' 경고등",
+      "source_normalized": "딜사이트경제TV",
+      "duplicate_key": "딜사이트경제tv::[핀포인트] [lg화학] 순손실 늪, 담합 과징금…'1조 적자' 경고등",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.dealsitetv.com/articles/176917",
+      "verified": false,
+      "verification_reason": "원문 확인 실패: HTTPError",
+      "id": "9999603668e950c0",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 확인 실패: HTTPError"
+    },
+    {
+      "title": "고통분담 7개월, 보전은 아직…정유업계 최고가격제 속앓이",
+      "url": "https://news.mtn.co.kr/article/2026101612255919037",
+      "source": "머니투데이방송",
+      "published_at": "2026-10-16T12:27:54+09:00",
+      "snippet": "업계는 싱가포르 국제 석유제품 가격(MOPS)을 기준으로 삼아야 한다고 요구해 왔다. 국내 석유제품 가격이 그동안 MOPS에 연동돼 온 만큼 국제가격과... 정제마진 강세로 3분기 실적 전망치가 크게 높아진 데다, 공정거래위원회는 지난 7일 SK에너지와 HD현대오일뱅크에 가격 담합 혐의로 심사보고서를 보냈다....",
+      "collected_at": "2026-10-16T22:11:56.788390+09:00",
+      "normalized_title": "고통분담 7개월, 보전은 아직…정유업계 최고가격제 속앓이",
+      "source_normalized": "머니투데이방송",
+      "duplicate_key": "머니투데이방송::고통분담 7개월, 보전은 아직…정유업계 최고가격제 속앓이",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.mtn.co.kr/article/2026101612255919037",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-16T12:27:54+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "d30a6603856ee80b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "석유제품",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "담합 기소 석화 6사, 과징금에 이익 줄어드나",
+      "url": "http://v.daum.net/v/20261016154711007",
+      "source": "시사저널e",
+      "published_at": "2026-10-16T15:47:00+09:00",
+      "snippet": "부과일은 12월 15일부터 내년 1월 16일까지다. 다만 사건마다 공정위 조사 진행 단계가 달라 이번 사건의 과징금 부과 시점을 단정...수 있다. 이어 노 연구원은 상반기 LG화학 실적을 끌어올린 유가 상승과 재고평가 효과가 하반기에는 반대 방향으로 작용할 수... 6시간 전",
+      "collected_at": "2026-10-16T22:11:57.926988+09:00",
+      "normalized_title": "담합 기소 석화 6사, 과징금에 이익 줄어드나",
+      "source_normalized": "시사저널e",
+      "duplicate_key": "시사저널e::담합 기소 석화 6사, 과징금에 이익 줄어드나",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20261016154711007",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 16. 15:47",
+      "verified": false,
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인",
+      "id": "80e93255fb726a0a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "담합 기소 석화 6사, 과징금에 이익 줄어드나 - 시사저널e",
+      "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=424378",
+      "source": "시사저널이코노미",
+      "published_at": "2026-10-16T15:47:06+09:00",
+      "snippet": "◇ 기소 후 75~107일 걸린 과징금···연내 비용 반영 가능성 설탕 가격 담합 사건은 지난해 11월 26일 초기 기소 발표 후 올해 2월 12일 공정위 과징금... 이어 노 연구원은 상반기 LG화학 실적을 끌어올린 유가 상승과 재고평가 효과가 하반기에는 반대 방향으로 작용할 수 있다고 분석했다. 본업 실적의...",
+      "collected_at": "2026-10-16T22:11:56.787418+09:00",
+      "normalized_title": "담합 기소 석화 6사, 과징금에 이익 줄어드나 - 시사저널e",
+      "source_normalized": "시사저널이코노미",
+      "duplicate_key": "시사저널이코노미::담합 기소 석화 6사, 과징금에 이익 줄어드나 - 시사저널e",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.sisajournal-e.com/news/articleView.html?idxno=424378",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-16T15:47:06+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "cde71aba4880b57b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[오늘의 신문] 현대차, 인도 푸네 스마트공장 준공...아시아 증시 급락·미국 물가 충격·한미 재계 투자 협력 - 아시아엔 THE AsiaN",
+      "url": "http://kor.theasian.asia/archives/418598",
+      "source": "아시아엔",
+      "published_at": "2026-10-16T08:19:41+09:00",
+      "snippet": "국제 유가 강세와 물가 압력으로 미국 연방준비제도의 추가 금리 인상 가능성이 거론됐다.원·달러 환율 1350원대 급등미국 물가 상승과 글로벌... 그러나 수출제한과 최고가격제, 담합 의혹에 대한 공정거래위원회 및 검찰 조사 등이 경영 부담으로 작용하고 있다.HD현대 정기선 취임 1년, 사업통합과 신사업...",
+      "collected_at": "2026-10-16T22:11:56.790472+09:00",
+      "normalized_title": "[오늘의 신문] 현대차, 인도 푸네 스마트공장 준공...아시아 증시 급락·미국 물가 충격·한미 재계 투자 협력 - 아시아엔 THE AsiaN",
+      "source_normalized": "아시아엔",
+      "duplicate_key": "아시아엔::[오늘의 신문] 현대차, 인도 푸네 스마트공장 준공...아시아 증시 급락·미국 물가 충격·한미 재계 투자 협력 - 아시아엔 the asian",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://kor.theasian.asia/archives/418598",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-15T23:19:41+00:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "0e443ffda08786a3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[고승우 칼럼] 전작권과 한미동맹 그리고 두 개의 국익 - 폴리뉴스 Polinews",
+      "url": "https://www.polinews.co.kr/news/articleView.html?idxno=745952",
+      "source": "폴리뉴스",
+      "published_at": "2026-10-16T15:37:24+09:00",
+      "snippet": "그 속에 한국은 의도치 않은 전쟁의 경유 지가 되면서 주한미군의 적대세력에 의해 공격을 당하게 된다. 한미가 주한미군의 전략적 유연성에 합의했으니... '하면서 발밑의 입신출세, 당리당략을 쫓아 적대적 협업과 담합 을 일삼고 있다. 어쩌다 대통령 한 사람만 군사주권을 언급할 뿐 국회와 함께 언론, 학계도...",
+      "collected_at": "2026-10-16T22:12:10.533994+09:00",
+      "normalized_title": "[고승우 칼럼] 전작권과 한미동맹 그리고 두 개의 국익 - 폴리뉴스 Polinews",
+      "source_normalized": "폴리뉴스",
+      "duplicate_key": "폴리뉴스::[고승우 칼럼] 전작권과 한미동맹 그리고 두 개의 국익 - 폴리뉴스 polinews",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.polinews.co.kr/news/articleView.html?idxno=745952",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-16T15:37:24+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "24dfb0b7a781e225",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ]
+}
