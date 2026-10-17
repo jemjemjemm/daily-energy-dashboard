@@ -1,0 +1,190 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-16",
+  "slot": "night",
+  "period_start": "2026-10-16T17:00:00+09:00",
+  "period_end": "2026-10-17T00:00:00+09:00",
+  "period_label": "2026-10-16 17:00 ~ 2026-10-17 00:00",
+  "generated_at": "2026-10-17T10:16:37.145469+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 106,
+  "total_enriched_input_count": 106,
+  "total_in_period_unique_count": 7,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 15,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 63,
+    "daum": 14,
+    "google": 29
+  },
+  "query_counts": {
+    "SK에너지 담합": 1,
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 1,
+    "공정위 유가 담합": 2,
+    "기름값 담합": 2,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "주유소 담합": 1,
+    "현대오일뱅크 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-17T10:15:46.045266+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "또 묶인 기름값 …'7조 손실' 정유업계 냉가슴",
+      "url": "https://www.mk.co.kr/article/12178126",
+      "source": "매일경제",
+      "published_at": "2026-10-16T18:15:57.148446+09:00",
+      "snippet": "석유 최고가격 4회 연속 동결 정부선 손실 보전해준다지만 편성된 예비비 4.2조원 그쳐 최근 업계 담합 의혹 불거지자 정당한 보상 요구마저 '눈치' 휘발유... 국내 정유사들의 담합 의혹도 정당한 손실 보상에 걸림돌이 될 수 있다는 분위기다. 공정거래위원회는 이달 SK에너지와 HD현대오일뱅크의 석유 제품...",
+      "collected_at": "2026-10-17T10:15:57.148473+09:00",
+      "normalized_title": "또 묶인 기름값 …'7조 손실' 정유업계 냉가슴",
+      "source_normalized": "매일경제",
+      "duplicate_key": "매일경제::또 묶인 기름값 …'7조 손실' 정유업계 냉가슴",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.mk.co.kr/article/12178126",
+      "id": "0231dbffc95082c7",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "정유업계",
+        "기름값",
+        "휘발유",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "또 묶인 기름값…'7조 손실' 정유업계 냉가슴",
+      "url": "https://www.mk.co.kr/article/12178126",
+      "source": "매일경제",
+      "published_at": "2026-10-16T18:15:47.767653+09:00",
+      "snippet": "석유 최고가격 4회 연속 동결 정부선 손실 보전해준다지만 편성된 예비비 4.2조원 그쳐 최근 업계 담합 의혹 불거지자 정당한 보상 요구마저 '눈치' 휘발유... 16일 산업통상부는 11차 석유 최고가격을 ℓ당 휘발유 1784원, 경유 1773원, 등유 1380원으로 동결했다고 밝혔다. 지난 6월 말 7차 최고가격을 유종별로...",
+      "collected_at": "2026-10-17T10:15:47.767681+09:00",
+      "normalized_title": "또 묶인 기름값…'7조 손실' 정유업계 냉가슴",
+      "source_normalized": "매일경제",
+      "duplicate_key": "매일경제::또 묶인 기름값…'7조 손실' 정유업계 냉가슴",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 38,
+      "canonical_url": "https://www.mk.co.kr/article/12178126",
+      "id": "8e1834ae02ae1d05",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "기름값",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[A 주간 서머리] 경제·산업계 \"국내 증시 7%대 폭락에 금융당국 긴급회...",
+      "url": "https://www.asiaa.co.kr/news/articleView.html?idxno=266542",
+      "source": "아시아에이",
+      "published_at": "2026-10-16T17:15:47.768703+09:00",
+      "snippet": "참석자들은 미국 금리 인상 전망과 인공지능(AI) 반도체 산업의 불확실성, 국제 유가 상승 등이 증시 변동성을 키웠다고 진단했다. 다만 하락 속도와... △ 공정위 중점조사기획단, 식품업계 담합 첫 타깃...대상·오뚜기·CJ제일제당 등 현장조사=공정거래위원회가 밥상 물가와 직결되는 주요 가공식품의 가격...",
+      "collected_at": "2026-10-17T10:15:47.768722+09:00",
+      "normalized_title": "[A 주간 서머리] 경제·산업계 \"국내 증시 7%대 폭락에 금융당국 긴급회...",
+      "source_normalized": "아시아에이",
+      "duplicate_key": "아시아에이::[a 주간 서머리] 경제·산업계 \"국내 증시 7%대 폭락에 금융당국 긴급회...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.asiaa.co.kr/news/articleView.html?idxno=266542",
+      "id": "b36c4e127eb5afaa",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
