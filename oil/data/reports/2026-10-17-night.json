@@ -1,0 +1,183 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-17",
+  "slot": "night",
+  "period_start": "2026-10-17T17:00:00+09:00",
+  "period_end": "2026-10-18T00:00:00+09:00",
+  "period_label": "2026-10-17 17:00 ~ 2026-10-18 00:00",
+  "generated_at": "2026-10-18T09:57:27.668035+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 157,
+  "total_enriched_input_count": 157,
+  "total_in_period_unique_count": 4,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 14,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 59,
+    "daum": 41,
+    "google": 57
+  },
+  "query_counts": {
+    "SK에너지 담합": 1,
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 1,
+    "공정위 유가 담합": 1,
+    "기름값 담합": 1,
+    "석유 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유 44조": 2,
+    "정유사 담합": 1,
+    "정유업계 담합": 2,
+    "주유소 담합": 1,
+    "현대오일뱅크 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-18T09:56:48.840564+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "44조 원대 정유 사 담합 의혹, 법원의 저울은 어디로 기울까",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=390382",
+      "source": "시사저널",
+      "published_at": "2026-10-17T17:57:24.002089+09:00",
+      "snippet": "공정위가 산정한 관련 매출액은 44조 1000억원에 이른다. 향후 담합이 인정되면 관련 매출액 등을 토대로 과징금이 산정될 수 있어 제재 규모도 주목된다. 국내 휘발유·경유·등유 시장에서 정유 4사의 점유율은 약 98%다. SK에너지와 HD현대오일뱅크의 점유율만 합쳐도 49.1%에 이른다. 이처럼 소수 업체가 시장을...",
+      "collected_at": "2026-10-18T09:57:24.002115+09:00",
+      "normalized_title": "44조 원대 정유 사 담합 의혹, 법원의 저울은 어디로 기울까",
+      "source_normalized": "시사저널",
+      "duplicate_key": "시사저널::44조 원대 정유 사 담합 의혹, 법원의 저울은 어디로 기울까",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유 44조"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.sisajournal.com/news/articleView.html?idxno=390382",
+      "id": "77eca6c801987eae",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "공정위",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "44조원대 정유 사 담합 의혹, 법원의 저울은 어디로 기울까",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=390382",
+      "source": "시사저널",
+      "published_at": "2026-10-17T17:57:08.476756+09:00",
+      "snippet": "민 의원은 중동전쟁으로 기름값이 급등한 상황에서 정유 업계 가 국민 부담보다 수익을 앞세우는 게 아니냐고 질타했다. 송명준 HD현대오일뱅크 대표는 \"유가가 급등하던 시기에 국민 여러분들께서 느꼈을 부담에 대해서 송구하게 생각하고 있다\"고 답했다. 박준태 국민의힘 의원은 담합 이 팀장급 실무진의...",
+      "collected_at": "2026-10-18T09:57:08.476771+09:00",
+      "normalized_title": "44조원대 정유 사 담합 의혹, 법원의 저울은 어디로 기울까",
+      "source_normalized": "시사저널",
+      "duplicate_key": "시사저널::44조원대 정유 사 담합 의혹, 법원의 저울은 어디로 기울까",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.sisajournal.com/news/articleView.html?idxno=390382",
+      "id": "a3c446fdc1e7738e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "44조원대 정유사 담합 의혹, 법원의 저울은 어디로 기울까",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=390382",
+      "source": "시사저널",
+      "published_at": "2026-10-17T17:56:49.845953+09:00",
+      "snippet": "가격 담합 의혹은 HD 현대오일뱅크 에 대한 형사재판과 두 회사의 공정위 심의로 이어졌다. 검찰은 2024년 7월부터의 가격 정보 교환과 올해 3월 가격 합의를 문제 삼았고 공정거래위원회는 정보 교환 기간을 2022년 2월까지 확대해 따지고 있다. 98% 과점 시장 흔든 '밀실 메신저' 검찰은 지난 7월 HD 현대오일뱅크 ...",
+      "collected_at": "2026-10-18T09:56:49.845968+09:00",
+      "normalized_title": "44조원대 정유사 담합 의혹, 법원의 저울은 어디로 기울까",
+      "source_normalized": "시사저널",
+      "duplicate_key": "시사저널::44조원대 정유사 담합 의혹, 법원의 저울은 어디로 기울까",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유 44조",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 37,
+      "canonical_url": "https://www.sisajournal.com/news/articleView.html?idxno=390382",
+      "id": "98dc2f3f08b42ec3",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
