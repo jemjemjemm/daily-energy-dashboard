@@ -6,7 +6,7 @@
   "period_start": "2026-10-18T17:00:00+09:00",
   "period_end": "2026-10-19T00:00:00+09:00",
   "period_label": "2026-10-18 17:00 ~ 2026-10-19 00:00",
-  "generated_at": "2026-10-19T08:21:57.304708+09:00",
+  "generated_at": "2026-10-19T08:24:28.021355+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -22,30 +22,27 @@
     "공정위 유가 담합",
     "공정거래위원회 정유사 담합"
   ],
-  "total_raw_count": 141,
-  "total_enriched_input_count": 141,
-  "total_in_period_unique_count": 5,
+  "total_raw_count": 142,
+  "total_enriched_input_count": 9,
+  "total_in_period_unique_count": 1,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 29,
-  "total_deduped_count": 2,
-  "total_ok_count": 2,
+  "total_outside_period_count": 8,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
   "total_review_count": 0,
-  "total_excluded_count": 3,
+  "total_excluded_count": 0,
   "grade_counts": {
-    "A": 2,
+    "A": 1,
     "B": 0,
     "C": 0
   },
   "portal_counts": {
     "naver": 108,
     "daum": 22,
-    "google": 11
+    "google": 12
   },
   "query_counts": {
-    "기름값 담합": 1,
-    "석유 담합": 1,
-    "유가 담합": 1,
-    "유가담합": 1
+    "석유 담합": 1
   },
   "collection_warnings": [
     {
@@ -55,7 +52,7 @@
       "message": "public search coverage limit",
       "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
       "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-      "created_at": "2026-10-19T08:21:09.842564+09:00"
+      "created_at": "2026-10-19T08:20:02.424746+09:00"
     }
   ],
   "telegram_alert_log": [],
@@ -64,9 +61,9 @@
       "title": "중수청 시대, 공정거래·금융수사 늘어난다",
       "url": "https://www.hankyung.com/article/2026101888871",
       "source": "한국경제",
-      "published_at": "2026-10-18T18:21:23.934822+09:00",
+      "published_at": "2026-10-18T17:49:00+09:00",
       "snippet": "최근 1년 새 ‘조단위’의 대형 담합 수사가 잇따랐다. 검찰(현 공소청)은 석유 화학(16조3961억원), 전분당(10조1520억원), 밀가루(5조9913억원), 설탕(3조2715억원) 등에 대한 수사를 진행했다. 지난 2일부터는 공정위가 고발 요청을 하는 기관이 검찰(현 공소청)에서 중수청으로 바뀌었다. 신설 조직인 중수청이...",
-      "collected_at": "2026-10-19T08:21:23.934831+09:00",
+      "collected_at": "2026-10-19T08:20:11.685467+09:00",
       "normalized_title": "중수청 시대, 공정거래·금융수사 늘어난다",
       "source_normalized": "한국경제",
       "duplicate_key": "한국경제::중수청 시대, 공정거래·금융수사 늘어난다",
@@ -78,8 +75,12 @@
       "queries": [
         "석유 담합"
       ],
-      "duplicate_count": 2,
+      "duplicate_count": 0,
       "canonical_url": "https://www.hankyung.com/article/2026101888871",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.10.18 17:49",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
       "id": "7d15b24b8551b5d5",
       "grade": "A",
       "published_at_status": "known",
@@ -90,39 +91,12 @@
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[미리보는 이데일리 신문] 전기차 막자 하이브리드…中수출 15배 폭증",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02860166645614232&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "source": "이데일리",
-      "published_at": "2026-10-18T21:21:11.420141+09:00",
-      "snippet": "회의론·고 유가 가 변수 △금융 -은행, 금융사기 의심돼도12%만 조치 -환율 낮을 때 들자달러보험 한달새 1311억 불티 -잇단 해킹 사고에…5대 은행장... 건강검진… 담합 조기발견해 끊어야” -세금 걸으러 갔다가 위기 포착 체납관리단이 복지 발굴창구로 -“비 오면 수업 못해요”…체육관 없는 학교 439곳",
-      "collected_at": "2026-10-19T08:21:11.420152+09:00",
-      "normalized_title": "[미리보는 이데일리 신문] 전기차 막자 하이브리드…中수출 15배 폭증",
-      "source_normalized": "이데일리",
-      "duplicate_key": "이데일리::[미리보는 이데일리 신문] 전기차 막자 하이브리드…中수출 15배 폭증",
-      "portals": [
-        "naver",
-        "daum"
-      ],
-      "queries": [
-        "기름값 담합",
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 3,
-      "canonical_url": "https://www.edaily.co.kr/News/Read?newsId=02860166645614232&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "id": "3eb3313da360527f",
-      "grade": "A",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가담합 관련 맥락 확인",
+      "summary": "중수청 반독점 수사인력 확대와 석유화학 담합 수사 후속·리니언시 권한 쟁점 보도"
     }
-  ]
+  ],
+  "summary": "정유사 가격담합 혐의 심의와 업계 반론, 정보교환 규제 및 석유화학 담합 수사체계 변화 점검",
+  "editorial_audit": "data/reviews/2026-10-19-morning.audit.json",
+  "coverage_note": "다른 매체 동일사안 보존. 동일 매체·정규화 제목만 병합. 원문 미확인·기간 밖 결과는 검토기록에 보존.",
+  "raw_count_basis": "원수집142건 전체 보존. 중복축소 후보33건을 원수집 건수로 대체하지 않음."
 }

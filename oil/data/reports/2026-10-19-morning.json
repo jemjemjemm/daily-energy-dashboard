@@ -6,7 +6,7 @@
   "period_start": "2026-10-19T00:00:00+09:00",
   "period_end": "2026-10-19T08:00:00+09:00",
   "period_label": "2026-10-19 00:00 ~ 2026-10-19 08:00",
-  "generated_at": "2026-10-19T08:22:07.708139+09:00",
+  "generated_at": "2026-10-19T08:24:28.044490+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -22,36 +22,36 @@
     "공정위 유가 담합",
     "공정거래위원회 정유사 담합"
   ],
-  "total_raw_count": 141,
-  "total_enriched_input_count": 34,
-  "total_in_period_unique_count": 5,
+  "total_raw_count": 142,
+  "total_enriched_input_count": 9,
+  "total_in_period_unique_count": 2,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 18,
-  "total_deduped_count": 4,
+  "total_outside_period_count": 7,
+  "total_deduped_count": 2,
   "total_ok_count": 2,
-  "total_review_count": 2,
-  "total_excluded_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
   "grade_counts": {
     "A": 1,
-    "B": 1,
-    "C": 2
+    "B": 0,
+    "C": 1
   },
   "portal_counts": {
     "naver": 108,
     "daum": 22,
-    "google": 11
+    "google": 12
   },
   "query_counts": {
     "SK에너지 담합": 2,
     "경유 담합": 2,
-    "공정거래위원회 정유사 담합": 2,
+    "공정거래위원회 정유사 담합": 1,
     "공정위 유가 담합": 1,
-    "석유 담합": 2,
+    "석유 담합": 1,
     "석유제품 담합": 1,
     "유가 담합": 1,
     "유가담합": 1,
     "정유 44조": 1,
-    "정유사 담합": 2,
+    "정유사 담합": 1,
     "정유업계 담합": 1,
     "주유소 담합": 1,
     "현대오일뱅크 담합": 2,
@@ -65,7 +65,7 @@
       "message": "public search coverage limit",
       "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
       "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-      "created_at": "2026-10-19T08:21:09.842564+09:00"
+      "created_at": "2026-10-19T08:20:02.424746+09:00"
     }
   ],
   "telegram_alert_log": [],
@@ -76,13 +76,12 @@
       "source": "세계일보",
       "published_at": "2026-10-19T06:00:00+09:00",
       "snippet": "공정위는 이달 초 SK에너지와 현대오일뱅크 간의 휘발유· 경유 ·등유 가격 담합 사건에서도 약 4년간 판매가격 관련 정보를 교환하고, 일부 가격을 합의했다고 판단해 제재 절차에 착수했다. 식품업계엔 비상이 걸렸다. 한 대기업은 최근 대형 로펌 주관으로 팀장급 이상 직원을 소집해 정보교환 담합 에 대한...",
-      "collected_at": "2026-10-19T08:21:26.602546+09:00",
+      "collected_at": "2026-10-19T08:20:13.609503+09:00",
       "normalized_title": "공정위, 식품업계 정조준… ‘정보교환 담합’ 꺼내나",
       "source_normalized": "세계일보",
       "duplicate_key": "세계일보::공정위, 식품업계 정조준… ‘정보교환 담합’ 꺼내나",
       "portals": [
-        "naver",
-        "daum"
+        "naver"
       ],
       "queries": [
         "SK에너지 담합",
@@ -90,7 +89,7 @@
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 1,
+      "duplicate_count": 0,
       "canonical_url": "https://www.segye.com/newsView/20261018513159?OutUrl=naver",
       "published_at_basis": "original_article",
       "time_evidence": "원문 최초 등록·입력 2026-10-19 06:00",
@@ -108,80 +107,8 @@
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[더벨][석화업계 공정위 제재 대응] '16조 담합 ' 강도 높은 수사, 제재금...",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610151425538800101331",
-      "source": "더벨",
-      "published_at": "2026-10-19T07:21:23.934063+09:00",
-      "snippet": "이번 담합 에 관여한 주요 석유 화학사들은 실적 부진에 더해 사법리스크와 재무리스크까지 전방위 위협에 직면했다. ◇사법리스크 직면한 석화업계 서울중앙지검 공정거래조사부(부장검사 나희석)는 지난 1일 석유 화학업체 6곳과 전·현직 임직원 37명을 공정거래법 위반 혐의로 기소했다. LG화학, OCI...",
-      "collected_at": "2026-10-19T08:21:23.934074+09:00",
-      "normalized_title": "[더벨][석화업계 공정위 제재 대응] '16조 담합 ' 강도 높은 수사, 제재금...",
-      "source_normalized": "더벨",
-      "duplicate_key": "더벨::[더벨][석화업계 공정위 제재 대응] '16조 담합 ' 강도 높은 수사, 제재금...",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610151425538800101331",
-      "verified": false,
-      "verification_reason": "원문 본문 또는 최초시각 미확인",
-      "id": "3edb61d01da9ce7a",
-      "grade": "B",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "공정위",
-        "담합",
-        "조사",
-        "제재"
-      ],
-      "quality_status": "review",
-      "status_label": "원문 미확인",
-      "status_reason": "원문 본문 또는 최초시각 미확인"
-    },
-    {
-      "title": "집값 뛰고 주가 출렁…국감 후반 '민생 난타전'",
-      "url": "https://www.sidae.com/article/2026101813272225286",
-      "source": "동행미디어 시대",
-      "published_at": "2026-10-19T05:52:00+09:00",
-      "snippet": "지난 12일 공정거래위원회 국감에서는 쿠팡의 현장조사 거부 논란과 정유사 가격 담합 의혹, 배달앱 불 공정거래 , 홈플러스 기업회생에 따른 납품업체 피해 등이 다뤄졌다. 21일 종합감사에서는 가맹·유통업계 갑질을 두고 공정 위의 제재·감독 실효성을 따지는 질의가 이어질 수 있다. 편의점 본사와 점주...",
-      "collected_at": "2026-10-19T08:21:18.251941+09:00",
-      "normalized_title": "집값 뛰고 주가 출렁…국감 후반 '민생 난타전'",
-      "source_normalized": "동행미디어 시대",
-      "duplicate_key": "동행미디어 시대::집값 뛰고 주가 출렁…국감 후반 '민생 난타전'",
-      "portals": [
-        "naver",
-        "daum",
-        "google"
-      ],
-      "queries": [
-        "공정거래위원회 정유사 담합",
-        "정유사 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.sidae.com/article/2026101813272225286",
-      "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-10-19T05:52:00+09:00",
-      "verified": false,
-      "verification_reason": "원문 본문 또는 최초시각 미확인",
-      "id": "7c1906dd165d3f16",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "정유사",
-        "공정거래위원회",
-        "담합",
-        "조사",
-        "제재"
-      ],
-      "quality_status": "review",
-      "status_label": "원문 미확인",
-      "status_reason": "원문 본문 또는 최초시각 미확인"
+      "status_reason": "유가담합 관련 맥락 확인",
+      "summary": "공정위 식품업계 정보교환 담합 조사 및 정유2사 가격정보 교환 혐의 제재절차 사례 보도"
     },
     {
       "title": "44조원 담합 혐의에…억울하다는 정유사 '법정공방' 예고",
@@ -189,7 +116,7 @@
       "source": "한경비즈니스",
       "published_at": "2026-10-19T07:49:00+09:00",
       "snippet": "SK에너지와 HD 현대오일뱅크 가 담합 혐의를 받고 있는 배경도 눈길을 끈다. HD 현대오일뱅크 는 2020년 SK네트웍스 석유제품 소매사업을 인수했다. 직영주유소 300여 곳과 영업자산, 관련 인력이 HD 현대오일뱅크 로 넘어왔다. 당시 HD 현대오일뱅크 로 옷을 갈아 입은 SK 출신 직원이 전 직장 관계자들과 단톡방 등에서...",
-      "collected_at": "2026-10-19T08:21:11.419467+09:00",
+      "collected_at": "2026-10-19T08:20:03.269849+09:00",
       "normalized_title": "44조원 담합 혐의에…억울하다는 정유사 '법정공방' 예고",
       "source_normalized": "한경비즈니스",
       "duplicate_key": "한경비즈니스::44조원 담합 혐의에…억울하다는 정유사 '법정공방' 예고",
@@ -213,7 +140,7 @@
         "현대오일뱅크 담합",
         "휘발유 담합"
       ],
-      "duplicate_count": 2,
+      "duplicate_count": 0,
       "canonical_url": "https://magazine.hankyung.com/business/article/202610141099b",
       "published_at_basis": "original_article",
       "time_evidence": "원문 최초 등록·입력 2026.10.19 07:49",
@@ -231,7 +158,12 @@
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가담합 관련 맥락 확인",
+      "summary": "정유2사 정보교환·가격담합 혐의 심의 및 업계 반론·손실보전 쟁점 보도. 혐의와 최종 제재 확정 구분"
     }
-  ]
+  ],
+  "summary": "정유사 가격담합 혐의 심의와 업계 반론, 정보교환 규제 및 석유화학 담합 수사체계 변화 점검",
+  "editorial_audit": "data/reviews/2026-10-19-morning.audit.json",
+  "coverage_note": "다른 매체 동일사안 보존. 동일 매체·정규화 제목만 병합. 원문 미확인·기간 밖 결과는 검토기록에 보존.",
+  "raw_count_basis": "원수집142건 전체 보존. 중복축소 후보33건을 원수집 건수로 대체하지 않음."
 }
