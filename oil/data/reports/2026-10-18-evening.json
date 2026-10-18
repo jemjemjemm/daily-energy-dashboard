@@ -1,0 +1,246 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-18",
+  "slot": "evening",
+  "period_start": "2026-10-18T08:00:00+09:00",
+  "period_end": "2026-10-18T17:00:00+09:00",
+  "period_label": "2026-10-18 08:00 ~ 2026-10-18 17:00",
+  "generated_at": "2026-10-18T21:35:35.015896+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 97,
+  "total_enriched_input_count": 23,
+  "total_in_period_unique_count": 5,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 8,
+  "total_deduped_count": 4,
+  "total_ok_count": 2,
+  "total_review_count": 2,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 82,
+    "daum": 10,
+    "google": 5
+  },
+  "query_counts": {
+    "SK에너지 담합": 4,
+    "경유 담합": 3,
+    "공정거래위원회 정유사 담합": 2,
+    "기름값 담합": 2,
+    "석유 담합": 3,
+    "석유제품 담합": 3,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유 44조": 1,
+    "정유사 담합": 2,
+    "정유업계 담합": 2,
+    "주유소 담합": 1,
+    "현대오일뱅크 담합": 4,
+    "휘발유 담합": 3
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-18T21:34:41.960989+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "공정위 중점조사단, 식품업계 담합 정조준…경쟁제한적 ‘정보교환 담합’ 카드 꺼내나",
+      "url": "https://www.segye.com/newsView/20261018509320?OutUrl=naver",
+      "source": "세계일보",
+      "published_at": "2026-10-18T13:45:00+09:00",
+      "snippet": "공정위는 이달 초 SK에너지와 현대오일뱅크 간의 휘발유· 경유 ·등유 가격 담합 사건에서도 약 4년간 판매가격 관련 정보를 교환하고, 일부 가격을 합의했다고 판단해 제재 절차에 착수했다. 공정위가 이처럼 정보교환 담합 을 적극 활용하면서 식품업계엔 비상이 걸렸다. 한 대기업은 최근 대형 로펌 주관으로...",
+      "collected_at": "2026-10-18T21:34:57.182786+09:00",
+      "normalized_title": "공정위 중점조사단, 식품업계 담합 정조준…경쟁제한적 ‘정보교환 담합’ 카드 꺼내나",
+      "source_normalized": "세계일보",
+      "duplicate_key": "세계일보::공정위 중점조사단, 식품업계 담합 정조준…경쟁제한적 ‘정보교환 담합’ 카드 꺼내나",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.segye.com/newsView/20261018509320?OutUrl=naver",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-10-18 13:45",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "b17f8d42e077df21",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "공정위",
+        "담합",
+        "조사",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[DD 주간브리핑] 배민 1.4조 해외 유출·정유 44조 담합 재검증... 이번 주 국감 종합감사 '정조준'",
+      "url": "https://www.ddaily.co.kr/page/view/2026101616200637409",
+      "source": "디지털데일리",
+      "published_at": "2026-10-18T10:34:54.539979+09:00",
+      "snippet": "이번 주는 국회 국정감사가 막바지 종합감사로 치달으며 플랫폼 해외 자금 이전 의혹과 정유업계 가격 담합 을 둘러싼 집중 추궁이 이어지는 가운데, 대구에서 로봇·자율주행 기술이 총집결하는 ‘FIX 2026’ 개막과 글로벌 소재 공룡 머크의 신임 CEO 방한, AI 인프라 유망주 래블업의 IPO 출사표가 한데...",
+      "collected_at": "2026-10-18T21:34:54.539988+09:00",
+      "normalized_title": "[DD 주간브리핑] 배민 1.4조 해외 유출·정유 44조 담합 재검증... 이번 주 국감 종합감사 '정조준'",
+      "source_normalized": "디지털데일리",
+      "duplicate_key": "디지털데일리::[dd 주간브리핑] 배민 1.4조 해외 유출·정유 44조 담합 재검증... 이번 주 국감 종합감사 '정조준'",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유 44조",
+        "정유업계 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.ddaily.co.kr/page/view/2026101616200637409",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "ce757535f8683c3b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "기름값 통제 7개월…정유업계 부담 가중 - 매일일보",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2007133",
+      "source": "매일일보",
+      "published_at": "2026-10-18T14:08:56+09:00",
+      "snippet": "검찰은 지난 7월 국내 정유 4사와 일부 임직원을 공정거래법 위반 등 혐의로 기소했고, 공정거래위원회도 이달 SK에너지와 HD 현대오일뱅크 의 가격 담합 혐의에 대한 심의에 착수했다. 업계 관계자는 \"국제 석유제품 가격과의 차이를 단계적으로 줄여야 한다\"며 \"어렵다면 국내 수급에 지장이 없는 범위에서라도...",
+      "collected_at": "2026-10-18T21:34:43.430768+09:00",
+      "normalized_title": "기름값 통제 7개월…정유업계 부담 가중 - 매일일보",
+      "source_normalized": "매일일보",
+      "duplicate_key": "매일일보::기름값 통제 7개월…정유업계 부담 가중 - 매일일보",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.m-i.kr/news/articleView.html?idxno=2007133",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-18T14:08:56+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "1b18c93ab7400ed6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "기름값",
+        "석유제품",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[2026 국감] 기름값 담합 윗선 규명 요구…정유사 대표들 경영진 인지 즉답 피해",
+      "url": "http://www.rightknow.co.kr/news/articleView.html?idxno=35147",
+      "source": "알티케이뉴스",
+      "published_at": "2026-10-18T14:15:38+09:00",
+      "snippet": "가격 담합 의혹의 경위를 물었다. 공정위 사무처는 지난 7일 두 회사에 심사보고서를 보내 심의 절차에 들어갔다. 심사관은 양사가 2022년 2월부터 올해 3월경까지 약 4년간 휘발유· 경유 ·등유 가격정보를 교환하고, 올해 3월에는 두 차례 공급가격을 합의한 혐의가 있다고 판단했다. 박 의원은 검찰 공소장을...",
+      "collected_at": "2026-10-18T21:34:49.172851+09:00",
+      "normalized_title": "[2026 국감] 기름값 담합 윗선 규명 요구…정유사 대표들 경영진 인지 즉답 피해",
+      "source_normalized": "알티케이뉴스",
+      "duplicate_key": "알티케이뉴스::[2026 국감] 기름값 담합 윗선 규명 요구…정유사 대표들 경영진 인지 즉답 피해",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.rightknow.co.kr/news/articleView.html?idxno=35147",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-18T14:15:38+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "7c9cf63ddcfbc6a1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "기름값",
+        "휘발유",
+        "경유",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
