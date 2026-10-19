@@ -1,0 +1,124 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-19",
+  "slot": "night",
+  "period_start": "2026-10-19T17:00:00+09:00",
+  "period_end": "2026-10-20T00:00:00+09:00",
+  "period_label": "2026-10-19 17:00 ~ 2026-10-20 00:00",
+  "generated_at": "2026-10-20T08:21:18.569050+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 120,
+  "total_enriched_input_count": 120,
+  "total_in_period_unique_count": 4,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 32,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 75,
+    "daum": 14,
+    "google": 31
+  },
+  "query_counts": {
+    "석유 담합": 1,
+    "주유소 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-20T08:20:31.830500+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "공정위 ‘일잘러’ 포상…3250억 승소직원에 300만원",
+      "url": "https://www.mk.co.kr/article/12179750",
+      "source": "매일경제",
+      "published_at": "2026-10-19T17:20:52.869899+09:00",
+      "snippet": "전분·전분당 시장에서 장기간 이어진 가격 담합 을 적발한 공로다. 공정위 조사 과정에서 업체 4곳이 주요 제품 가격을 내려 식료품 가격 안정에도 기여했다는 평가다. 대한항공과 아시아나항공의 마일리지 통합방안을 마련한 직원 4명도 500만원을 받았다. 제주지역 주유소 의 가격경쟁 제한행위를 적발한...",
+      "collected_at": "2026-10-20T08:20:52.869908+09:00",
+      "normalized_title": "공정위 ‘일잘러’ 포상…3250억 승소직원에 300만원",
+      "source_normalized": "매일경제",
+      "duplicate_key": "매일경제::공정위 ‘일잘러’ 포상…3250억 승소직원에 300만원",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.mk.co.kr/article/12179750",
+      "id": "48e0813a9390ae66",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\" 담합 악재 털어내고 LG에너지솔루션 효과 얹는 LG화학, 'Trading Buy' 기회...",
+      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=302973",
+      "source": "뉴스퀘스트",
+      "published_at": "2026-10-19T20:20:44.837272+09:00",
+      "snippet": "가격 담합 과 관련해 검찰 수사 및 공정거래위원회 조사가 진행되고 있다. 주요 품목은 PVC(전체 약 40% 비중), 가성소다(27%), 가소제(16%), 염산(3%) 등으로, 총 8개 품목이 주로 PVC 관련 비닐체인에 포함된다. LG화학 석유 화학 주요 제품군 중 PVC는 두 번째로 비중이 높은 것으로 추정된다. 지난 3월...",
+      "collected_at": "2026-10-20T08:20:44.837283+09:00",
+      "normalized_title": "\" 담합 악재 털어내고 LG에너지솔루션 효과 얹는 LG화학, 'Trading Buy' 기회...",
+      "source_normalized": "뉴스퀘스트",
+      "duplicate_key": "뉴스퀘스트::\" 담합 악재 털어내고 lg에너지솔루션 효과 얹는 lg화학, 'trading buy' 기회...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.newsquest.co.kr/news/articleView.html?idxno=302973",
+      "id": "5721a531b4d9b969",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

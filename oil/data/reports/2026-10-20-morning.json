@@ -1,0 +1,162 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-20",
+  "slot": "morning",
+  "period_start": "2026-10-20T00:00:00+09:00",
+  "period_end": "2026-10-20T08:00:00+09:00",
+  "period_label": "2026-10-20 00:00 ~ 2026-10-20 08:00",
+  "generated_at": "2026-10-20T08:21:29.631846+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 120,
+  "total_enriched_input_count": 36,
+  "total_in_period_unique_count": 5,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 27,
+  "total_deduped_count": 2,
+  "total_ok_count": 1,
+  "total_review_count": 1,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 75,
+    "daum": 14,
+    "google": 31
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 2,
+    "기름값 담합": 1,
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 2,
+    "정유업계 담합": 1,
+    "주유소 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-20T08:20:31.830500+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[기자수첩] 기름값 담합 의혹, 국민 세금까지 새선 안 된다",
+      "url": "https://www.viva100.com/article/20261019500696",
+      "source": "브릿지경제",
+      "published_at": "2026-10-20T07:20:33.265366+09:00",
+      "snippet": "담합 이 사실로 확인된다면 고 유가 에 따른 국민 부담을 부당하게 키운 책임을 피하기 어렵다. 여기에 정부의 손실보전금 문제까지 얽혀 있다. 정부는 지난 3월 석유제품 최고가격제를 도입하면서 정유사의 공급가격에 상한을 두는 대신 발생한 손실을 사후 보전하기로 했다. 국제 유가 급등에 따른 소비자 부담을...",
+      "collected_at": "2026-10-20T08:20:33.265376+09:00",
+      "normalized_title": "[기자수첩] 기름값 담합 의혹, 국민 세금까지 새선 안 된다",
+      "source_normalized": "브릿지경제",
+      "duplicate_key": "브릿지경제::[기자수첩] 기름값 담합 의혹, 국민 세금까지 새선 안 된다",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.viva100.com/article/20261019500696",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "386595596f4c66a1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "기름값",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "나랏돈 받고도…GS 4세 허세홍 또 ‘국감패싱’[더시그널]",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=873162",
+      "source": "한스경제",
+      "published_at": "2026-10-20T06:00:00+09:00",
+      "snippet": "이번 국감에서는 GS칼텍스를 포함한 정유업계의 담합 문제와 석유제품 최고가격제 손실 보전액 산정 기준, 정부 재정지원의 적정성 등이 핵심... GS칼텍스가 공시한 휘발유 평균 판매가격은 지난해 ℓ(리터)당 758원에서 올 상반기 973원으로 28.4% 올랐다. 경유는 803원에서 1231원으로 53.3% 급증했다. 대규모...",
+      "collected_at": "2026-10-20T08:20:33.266067+09:00",
+      "normalized_title": "나랏돈 받고도…GS 4세 허세홍 또 ‘국감패싱’[더시그널]",
+      "source_normalized": "한스경제",
+      "duplicate_key": "한스경제::나랏돈 받고도…gs 4세 허세홍 또 ‘국감패싱’[더시그널]",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=873162",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-20T06:00:00+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "814a72fda188ea91",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
