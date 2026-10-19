@@ -1,0 +1,447 @@
+{
+  "date": "2026-10-20",
+  "slot": "morning",
+  "status": "published",
+  "period": "수집 기간: 2026-10-19 17:00 ~ 2026-10-20 08:00 (KST)",
+  "published_at": "2026-10-20T08:24:05+09:00",
+  "committees": [
+    {
+      "id": "industry",
+      "priority": [
+        {
+          "title": "또 묶인 기름값…정유사 손실 보전 ‘진통’",
+          "url": "https://www.khan.co.kr/article/202610192037015",
+          "press": "경향신문",
+          "summary": "최고가격제 정산위, 정유사 원가자료 제출 접수 및 원가 산정 이견에 따른 첫 정산 지연 가능성 제기",
+          "event_id": "1020-oil",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "보상·정산 방식과 원가계산 쟁점 중심으로 산중위 단일 배정. 피해 인정액·공문 원문을 확인한 것으로 해석하지 않음. 의원 발언 없음.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "석유 최고가격제 정유사 손실보전 방식 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-19T20:37:00+09:00",
+          "time_evidence": "발행사 원문을 웹 검색 도구로 직접 확인: 입력 2026.10.19 20:37 및 원가자료 제출·정산 지연 본문 대조. requests 경로403은 별도 기록, Daum20:39 재전송 시각 제외.",
+          "verified": true
+        },
+        {
+          "title": "허성무 \"한국석유공사, 유휴부지 활용한 태양광 사업으로 지역 상생 해야\"",
+          "url": "https://www.newsis.com/view/NISX20261020_0003832492",
+          "press": "뉴시스",
+          "summary": "허성무 의원, 거제 석유비축기지 유휴부지의 주민참여형 태양광 활용·지역 상생 촉구",
+          "event_id": "1020-solar",
+          "committees": [
+            "industry"
+          ],
+          "members": [
+            "허성무"
+          ],
+          "committee_reason": "본문 산중위 허성무 소속 및 자원 공기업 국감 맥락 명시, roster 일치. 재생에너지 일반정책보다 실제 산중위 심사 우선. 사업 확정 아님.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소 정책·산업 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-20T07:00:03+09:00",
+          "time_evidence": "원문 최초 등록·입력 2026.10.20 07:00:03; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        },
+        {
+          "title": "유조선 운임 10배 폭등…휘발유 또 오르나, 정유업계 비상",
+          "url": "https://www.hankyung.com/article/202610201964i",
+          "press": "한국경제",
+          "summary": "중동 불안에 유조선 운임 급등·유럽과 아시아 정제마진 악화 및 석유제품 공급 부담 우려",
+          "event_id": "1020-freight",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "중동전쟁·고유가와 정유산업 공급·시장 파급력 직접 관련. 단순 기업 실적 기사 아님. 의원 발언 없음.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합 정책·산업 직접 관련",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-20T06:57:00+09:00",
+          "time_evidence": "원문 최초 등록·입력 2026.10.20 06:57; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        }
+      ],
+      "all": [
+        {
+          "title": "\"8년째 방치된 상가임대차법 환산보증금…소상공인 보호 못해\"",
+          "url": "https://www.yna.co.kr/view/AKR20261019151500001",
+          "press": "연합뉴스",
+          "summary": "우재준 의원, 상가 환산보증금 기준 장기 미개정 및 서울 주요상권 보호 공백 지적·기준 현실화 요구",
+          "event_id": "1020-rent",
+          "committees": [
+            "industry"
+          ],
+          "members": [
+            "우재준"
+          ],
+          "committee_reason": "본문 산중위 우재준 소속 명시, 사용자 roster 일치. 중기부 소상공인 보호 정책 감독.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-20T07:00:03+09:00",
+          "time_evidence": "원문 published_time 2026-10-20T07:00:03+09:00; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        },
+        {
+          "title": "또 묶인 기름값…정유사 손실 보전 ‘진통’",
+          "url": "https://www.khan.co.kr/article/202610192037015",
+          "press": "경향신문",
+          "summary": "최고가격제 정산위, 정유사 원가자료 제출 접수 및 원가 산정 이견에 따른 첫 정산 지연 가능성 제기",
+          "event_id": "1020-oil",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "보상·정산 방식과 원가계산 쟁점 중심으로 산중위 단일 배정. 피해 인정액·공문 원문을 확인한 것으로 해석하지 않음. 의원 발언 없음.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "석유 최고가격제 정유사 손실보전 방식 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-19T20:37:00+09:00",
+          "time_evidence": "발행사 원문을 웹 검색 도구로 직접 확인: 입력 2026.10.19 20:37 및 원가자료 제출·정산 지연 본문 대조. requests 경로403은 별도 기록, Daum20:39 재전송 시각 제외.",
+          "verified": true
+        },
+        {
+          "title": "허성무 \"한국석유공사, 유휴부지 활용한 태양광 사업으로 지역 상생 해야\"",
+          "url": "https://www.newsis.com/view/NISX20261020_0003832492",
+          "press": "뉴시스",
+          "summary": "허성무 의원, 거제 석유비축기지 유휴부지의 주민참여형 태양광 활용·지역 상생 촉구",
+          "event_id": "1020-solar",
+          "committees": [
+            "industry"
+          ],
+          "members": [
+            "허성무"
+          ],
+          "committee_reason": "본문 산중위 허성무 소속 및 자원 공기업 국감 맥락 명시, roster 일치. 재생에너지 일반정책보다 실제 산중위 심사 우선. 사업 확정 아님.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소 정책·산업 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-20T07:00:03+09:00",
+          "time_evidence": "원문 최초 등록·입력 2026.10.20 07:00:03; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        },
+        {
+          "title": "유조선 운임 10배 폭등…휘발유 또 오르나, 정유업계 비상",
+          "url": "https://www.hankyung.com/article/202610201964i",
+          "press": "한국경제",
+          "summary": "중동 불안에 유조선 운임 급등·유럽과 아시아 정제마진 악화 및 석유제품 공급 부담 우려",
+          "event_id": "1020-freight",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "중동전쟁·고유가와 정유산업 공급·시장 파급력 직접 관련. 단순 기업 실적 기사 아님. 의원 발언 없음.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합 정책·산업 직접 관련",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-20T06:57:00+09:00",
+          "time_evidence": "원문 최초 등록·입력 2026.10.20 06:57; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        },
+        {
+          "title": "중소→중견→대기업 '성장 절벽' 낮춘다…정부, 매출별 맞춤 육성 속도",
+          "url": "https://www.news1.kr/industry/sb-founded/6324962",
+          "press": "뉴스1",
+          "summary": "중기부·산업부, 매출·성장 단계별 지원체계 정비 및 중견기업 도약 지원 추진",
+          "event_id": "1020-growth",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "중소·중견기업 성장단계별 산업정책. 뉴스1 원문 웹 도구에서 본문·05:05 최초시각 직접 확인. 요청·계획과 집행 구분. 의원 발언 없음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-20T05:05:00+09:00",
+          "time_evidence": "원문 published_time 2026-10-20T05:05:00+09:00; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "climate_labor",
+      "priority": [
+        {
+          "title": "지역난방공사 사장 인선 공방…\"낙하산 인사\"·\"망신주기 그만\"",
+          "url": "https://www.yna.co.kr/view/AKR20261019172400001",
+          "press": "연합뉴스",
+          "summary": "기노위, 지역난방공사 사장 인선 공방 및 종합감사 증인 협의·불출석 증인 동행명령 발부",
+          "event_id": "1020-heat",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "나경원",
+            "김기현",
+            "박지혜",
+            "김태선",
+            "김정호"
+          ],
+          "committee_reason": "원문 기노위 국감, 나경원·김기현·박지혜·김태선·김정호 발언과 roster 일치. 인사 의혹과 확정 사실, 추가증인 요구와 채택 구분.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력 정책·산업 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-19T19:38:00+09:00",
+          "time_evidence": "원문 published_time 2026-10-19T19:38:00+09:00; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        },
+        {
+          "title": "배출권 총량 16% 축소에 탄소배출권 가격 급등…정유·석화업계 '비상' - 이비엔(EBN)뉴스센터",
+          "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1728325",
+          "press": "EBN산업경제",
+          "summary": "배출권 공급 축소·가격 상승에 정유·석화업계 탄소비용 부담 및 저탄소 공정전환 필요성 제기",
+          "event_id": "1020-carbon",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "배출권거래제와 정유·석유화학 탄소감축 정책 직접 관련. 구체 투자 집행액이 확인된 것으로 해석하지 않음. 의원 발언 없음.",
+          "categories": [
+            "정유·유가/담합",
+            "석유화학"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합, 석유화학 정책·산업 직접 관련",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-20T06:00:00+09:00",
+          "time_evidence": "원문 published_time 2026-10-20T06:00:00+09:00; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        }
+      ],
+      "all": [
+        {
+          "title": "지역난방공사 사장 인선 공방…\"낙하산 인사\"·\"망신주기 그만\"",
+          "url": "https://www.yna.co.kr/view/AKR20261019172400001",
+          "press": "연합뉴스",
+          "summary": "기노위, 지역난방공사 사장 인선 공방 및 종합감사 증인 협의·불출석 증인 동행명령 발부",
+          "event_id": "1020-heat",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "나경원",
+            "김기현",
+            "박지혜",
+            "김태선",
+            "김정호"
+          ],
+          "committee_reason": "원문 기노위 국감, 나경원·김기현·박지혜·김태선·김정호 발언과 roster 일치. 인사 의혹과 확정 사실, 추가증인 요구와 채택 구분.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력 정책·산업 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-19T19:38:00+09:00",
+          "time_evidence": "원문 published_time 2026-10-19T19:38:00+09:00; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        },
+        {
+          "title": "[단독] 정부보다 시공사 산재 늦게 안 한전KDN",
+          "url": "https://www.labortoday.co.kr/news/articleView.html?idxno=237276",
+          "press": "매일노동뉴스",
+          "summary": "이용우 의원 자료, 한전KDN 발주공사 산재 보고 누락·안전관리 부실 및 자체감사 결과 확인",
+          "event_id": "1020-kdn",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "이용우"
+          ],
+          "committee_reason": "본문 기노위 이용우 소속·roster 일치. 핵심은 건설 발주사 산재보고·산업안전 감독으로 기노위 배정. 단순 전력사업 기사와 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-20T06:30:03+09:00",
+          "time_evidence": "원문 published_time 2026-10-20T06:30:03+09:00; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        },
+        {
+          "title": "노동청 \"에어부산 조종사 야간수당, 비행 외 운항 업무도 반영\"",
+          "url": "https://www.yna.co.kr/view/AKR20261019153100051",
+          "press": "연합뉴스",
+          "summary": "노동청, 에어부산 조종사 비행 외 운항업무의 야간근로시간 포함 판단 및 미지급수당 시정지시",
+          "event_id": "1020-wage",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "근로시간·임금체불 노동감독 소관. 사측 법률관계 확인 입장 병기 원문 대조. 지급 완료와 시정지시 구분. 의원 발언 없음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-19T17:43:03+09:00",
+          "time_evidence": "원문 published_time 2026-10-19T17:43:03+09:00; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        },
+        {
+          "title": "정부 DMZ 환경·유산 조사, 유엔사 거부로 2년5개월 동안 중단",
+          "url": "https://www.yna.co.kr/view/AKR20261019179400504",
+          "press": "연합뉴스",
+          "summary": "정부 DMZ 생태계·유산 조사, 유엔사 출입 불허로 장기 중단 및 올해 재개 시도 불발 확인",
+          "event_id": "1020-dmz",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "기후부 생태계 조사·자연보전 정책 직접 관련. 외교·군사 논쟁 자체보다 소관 환경조사 중단 사실을 요약. 의원 발언 없음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-20T06:00:07+09:00",
+          "time_evidence": "원문 published_time 2026-10-20T06:00:07+09:00; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        },
+        {
+          "title": "배출권 총량 16% 축소에 탄소배출권 가격 급등…정유·석화업계 '비상' - 이비엔(EBN)뉴스센터",
+          "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1728325",
+          "press": "EBN산업경제",
+          "summary": "배출권 공급 축소·가격 상승에 정유·석화업계 탄소비용 부담 및 저탄소 공정전환 필요성 제기",
+          "event_id": "1020-carbon",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "배출권거래제와 정유·석유화학 탄소감축 정책 직접 관련. 구체 투자 집행액이 확인된 것으로 해석하지 않음. 의원 발언 없음.",
+          "categories": [
+            "정유·유가/담합",
+            "석유화학"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합, 석유화학 정책·산업 직접 관련",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-20T06:00:00+09:00",
+          "time_evidence": "원문 published_time 2026-10-20T06:00:00+09:00; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "priority": [],
+      "all": [
+        {
+          "title": "국회, 법사위 등 12개 국감…대미투자·국군사관학교 등 쟁점",
+          "url": "https://www.yna.co.kr/view/AKR20261019167000001",
+          "press": "연합뉴스",
+          "summary": "재경위, 한미전략투자공사 첫 국감에서 대미투자 집행체계 검증 예정",
+          "event_id": "1020-agenda",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "committee_reason": "연합뉴스 원문 재경위 심사 맥락. 같은 사안 뉴스1보다 우선해 대표1건 선정. 전체12개 상임위 예고 중 재경위 소관 내용만 요약. 국감 개최 전 결과 단정 금지. 의원 발언 없음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-20T05:00:02+09:00",
+          "time_evidence": "원문 published_time 2026-10-20T05:00:02+09:00; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        },
+        {
+          "title": "\"유튜버 법인 상위 10%가 신고 수입 76% 차지…집중 더 심화\"",
+          "url": "https://www.yna.co.kr/view/AKR20261019161100002",
+          "press": "연합뉴스",
+          "summary": "정태호 의원, 1인 미디어 고수입 법인에 신고수입 집중 확인 및 해외 플랫폼 과세정보·신고검증 강화 요구",
+          "event_id": "1020-tax",
+          "committees": [
+            "finance"
+          ],
+          "members": [
+            "정태호"
+          ],
+          "committee_reason": "본문 재경위 정태호 소속 및 roster 일치. 국세청 세원관리·법인세 과세자료 검토. 신고수입과 이익 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-20T05:51:00+09:00",
+          "time_evidence": "원문 published_time 2026-10-20T05:51:00+09:00; 원문 본문 직접 대조. 자동 추출 body_available=false는 본문 선택자 미지원으로 수동 확인 보완. 수정·재전송 시각 제외",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}
