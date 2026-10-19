@@ -1,0 +1,384 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-19",
+  "slot": "evening",
+  "period_start": "2026-10-19T08:00:00+09:00",
+  "period_end": "2026-10-19T17:00:00+09:00",
+  "period_label": "2026-10-19 08:00 ~ 2026-10-19 17:00",
+  "generated_at": "2026-10-19T17:32:22.357502+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 84,
+  "total_enriched_input_count": 8,
+  "total_in_period_unique_count": 8,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 0,
+  "total_deduped_count": 8,
+  "total_ok_count": 8,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 3,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 51,
+    "daum": 28,
+    "google": 5
+  },
+  "query_counts": {
+    "유류가격 담합": 2,
+    "정유업계 담합": 3,
+    "주유소 담합": 4
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-19T17:18:09.596011+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "SK에너지 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 'SK에너지 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=SK%EC%97%90%EB%84%88%EC%A7%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.10.19&de=2026.10.19",
+      "created_at": "2026-10-19T17:19:09.325694+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "현대오일뱅크 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.10.19&de=2026.10.19",
+      "created_at": "2026-10-19T17:19:11.710163+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "공정위 제3회 특별성과 포상금 수여식 개최…28명에 3400만원 포상",
+      "url": "https://view.asiae.co.kr/article/2026101910234202821",
+      "source": "아시아경제",
+      "published_at": "2026-10-19T10:23:00+09:00",
+      "snippet": "공정위, 제주 주유소 가격경쟁 제한행위 적발·제재 실무진 포상. 신규 정유4사 담합 제재로 확대 해석 금지",
+      "collected_at": "2026-10-19T17:18:34.474977+09:00",
+      "normalized_title": "공정위 제3회 특별성과 포상금 수여식 개최…28명에 3400만원 포상",
+      "source_normalized": "아시아경제",
+      "duplicate_key": "아시아경제::공정위 제3회 특별성과 포상금 수여식 개최…28명에 3400만원 포상",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "유류가격 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://view.asiae.co.kr/article/2026101910234202821",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.10.19 10:23",
+      "verified": true,
+      "verification_reason": "발행사 전체 본문과 최초 등록·입력·승인 시각 수동 대조",
+      "automated_verified": false,
+      "summary": "공정위, 제주 주유소 가격경쟁 제한행위 적발·제재 실무진 포상. 신규 정유4사 담합 제재로 확대 해석 금지",
+      "id": "da08c7bf444ec3f0",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "박철우 서울공소청장 \"검찰 명칭·보완수사 폐지 매우 착잡\"",
+      "url": "https://www.yna.co.kr/view/AKR20261019077500004",
+      "source": "연합뉴스",
+      "published_at": "2026-10-19T11:39:15+09:00",
+      "snippet": "서울중앙공소청장, 국감 업무보고에서 정유업계 등 담합 사건 수사를 주요 업무로 소개. 새 유죄판결·제재 확정 발표와 구분",
+      "collected_at": "2026-10-19T17:18:37.293929+09:00",
+      "normalized_title": "박철우 서울공소청장 \"검찰 명칭·보완수사 폐지 매우 착잡\"",
+      "source_normalized": "연합뉴스",
+      "duplicate_key": "연합뉴스::박철우 서울공소청장 \"검찰 명칭·보완수사 폐지 매우 착잡\"",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261019077500004",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-19T11:39:15+09:00",
+      "verified": true,
+      "verification_reason": "발행사 전체 본문과 최초 등록·입력·승인 시각 수동 대조",
+      "automated_verified": false,
+      "summary": "서울중앙공소청장, 국감 업무보고에서 정유업계 등 담합 사건 수사를 주요 업무로 소개. 새 유죄판결·제재 확정 발표와 구분",
+      "id": "63c5c7b5ee0003f1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "담합 잡고 소비자 지킨 '일 잘한 공무원'에 현금 보상…공정위, 3400만원 쐈다",
+      "url": "https://www.etoday.co.kr/news/view/2637145",
+      "source": "이투데이",
+      "published_at": "2026-10-19T10:00:00+09:00",
+      "snippet": "공정위, 제주 주유소 가격경쟁 제한행위 적발·제재 실무진 포상. 신규 정유4사 담합 제재로 확대 해석 금지",
+      "collected_at": "2026-10-19T17:18:34.477690+09:00",
+      "normalized_title": "담합 잡고 소비자 지킨 '일 잘한 공무원'에 현금 보상…공정위, 3400만원 쐈다",
+      "source_normalized": "이투데이",
+      "duplicate_key": "이투데이::담합 잡고 소비자 지킨 '일 잘한 공무원'에 현금 보상…공정위, 3400만원 쐈다",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.etoday.co.kr/news/view/2637145",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-10-19 10:00",
+      "verified": true,
+      "verification_reason": "발행사 전체 본문과 최초 등록·입력·승인 시각 수동 대조",
+      "automated_verified": true,
+      "summary": "공정위, 제주 주유소 가격경쟁 제한행위 적발·제재 실무진 포상. 신규 정유4사 담합 제재로 확대 해석 금지",
+      "id": "ecd52f539c1c7c88",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "박철우 \"검찰 '직접 거악 척결' 기능 없어져…매우 착잡\"",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439921",
+      "source": "연합인포맥스",
+      "published_at": "2026-10-19T12:47:58+09:00",
+      "snippet": "서울중앙공소청장, 국감 업무보고에서 정유업계 등 담합 사건 수사를 주요 업무로 소개. 새 유죄판결·제재 확정 발표와 구분",
+      "collected_at": "2026-10-19T17:18:37.290946+09:00",
+      "normalized_title": "박철우 \"검찰 '직접 거악 척결' 기능 없어져…매우 착잡\"",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::박철우 \"검찰 '직접 거악 척결' 기능 없어져…매우 착잡\"",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439921",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-19T12:47:58+09:00",
+      "verified": true,
+      "verification_reason": "발행사 전체 본문과 최초 등록·입력·승인 시각 수동 대조",
+      "automated_verified": false,
+      "summary": "서울중앙공소청장, 국감 업무보고에서 정유업계 등 담합 사건 수사를 주요 업무로 소개. 새 유죄판결·제재 확정 발표와 구분",
+      "id": "a2f767e5889ecd74",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[2026 국감] 박철우 중앙공소청장 \"검찰→공소청 전환 매우 착잡…본연의 기능 다할 것\"",
+      "url": "https://www.dailian.co.kr/news/view/1703085/",
+      "source": "데일리안",
+      "published_at": "2026-10-19T12:28:00+09:00",
+      "snippet": "서울중앙공소청장, 국감 업무보고에서 정유업계 등 담합 사건 수사를 주요 업무로 소개. 새 유죄판결·제재 확정 발표와 구분",
+      "collected_at": "2026-10-19T17:18:37.292634+09:00",
+      "normalized_title": "[2026 국감] 박철우 중앙공소청장 \"검찰→공소청 전환 매우 착잡…본연의 기능 다할 것\"",
+      "source_normalized": "데일리안",
+      "duplicate_key": "데일리안::[2026 국감] 박철우 중앙공소청장 \"검찰→공소청 전환 매우 착잡…본연의 기능 다할 것\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.dailian.co.kr/news/view/1703085/",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.10.19 12:28",
+      "verified": true,
+      "verification_reason": "발행사 전체 본문과 최초 등록·입력·승인 시각 수동 대조",
+      "automated_verified": false,
+      "summary": "서울중앙공소청장, 국감 업무보고에서 정유업계 등 담합 사건 수사를 주요 업무로 소개. 새 유죄판결·제재 확정 발표와 구분",
+      "id": "d0bcb31eabc81167",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, 상조·유통 법 개정 및 전분당 담합 제재 직원에 포상금 지급",
+      "url": "https://www.kyeonggi.com/article/20261019580231",
+      "source": "경기일보",
+      "published_at": "2026-10-19T14:26:00+09:00",
+      "snippet": "공정위, 제주 주유소 가격경쟁 제한행위 적발·제재 실무진 포상. 신규 정유4사 담합 제재로 확대 해석 금지",
+      "collected_at": "2026-10-19T17:18:34.468300+09:00",
+      "normalized_title": "공정위, 상조·유통 법 개정 및 전분당 담합 제재 직원에 포상금 지급",
+      "source_normalized": "경기일보",
+      "duplicate_key": "경기일보::공정위, 상조·유통 법 개정 및 전분당 담합 제재 직원에 포상금 지급",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.kyeonggi.com/article/20261019580231",
+      "verified": true,
+      "verification_reason": "발행사 전체 본문과 최초 등록·입력·승인 시각 수동 대조",
+      "automated_verified": false,
+      "time_evidence": "원문 본문 승인 2026-10-19 14:26 직접 확인. 검색 상대시각15:18 제외.",
+      "published_at_basis": "original_article",
+      "summary": "공정위, 제주 주유소 가격경쟁 제한행위 적발·제재 실무진 포상. 신규 정유4사 담합 제재로 확대 해석 금지",
+      "id": "a5ecdf69ac665509",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위 특별성과 포상금 3회째…설탕 담합 단서 하나로 세 번 포상",
+      "url": "https://www.inews24.com/view/2016379",
+      "source": "아이뉴스24",
+      "published_at": "2026-10-19T11:15:07+09:00",
+      "snippet": "공정위, 제주 주유소 가격경쟁 제한행위 적발·제재 실무진 포상. 신규 정유4사 담합 제재로 확대 해석 금지",
+      "collected_at": "2026-10-19T17:18:34.469721+09:00",
+      "normalized_title": "공정위 특별성과 포상금 3회째…설탕 담합 단서 하나로 세 번 포상",
+      "source_normalized": "아이뉴스24",
+      "duplicate_key": "아이뉴스24::공정위 특별성과 포상금 3회째…설탕 담합 단서 하나로 세 번 포상",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.inews24.com/view/2016379",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-19T11:15:07+09:00",
+      "verified": true,
+      "verification_reason": "발행사 전체 본문과 최초 등록·입력·승인 시각 수동 대조",
+      "automated_verified": true,
+      "summary": "공정위, 제주 주유소 가격경쟁 제한행위 적발·제재 실무진 포상. 신규 정유4사 담합 제재로 확대 해석 금지",
+      "id": "7e44ebf71abdeced",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "공정위, ‘민생 안정·담합 적발’ 8개 과제 28명 직원 포상",
+      "url": "https://www.intn.co.kr/news/articleView.html?idxno=2054130",
+      "source": "일간NTN",
+      "published_at": "2026-10-19T10:00:00+09:00",
+      "snippet": "공정위, 제주 주유소 가격경쟁 제한행위 적발·제재 실무진 포상. 신규 정유4사 담합 제재로 확대 해석 금지",
+      "collected_at": "2026-10-19T17:18:49.897999+09:00",
+      "normalized_title": "공정위, ‘민생 안정·담합 적발’ 8개 과제 28명 직원 포상",
+      "source_normalized": "일간NTN",
+      "duplicate_key": "일간ntn::공정위, ‘민생 안정·담합 적발’ 8개 과제 28명 직원 포상",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유류가격 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.intn.co.kr/news/articleView.html?idxno=2054130",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-19T10:00:00+09:00",
+      "verified": true,
+      "verification_reason": "발행사 전체 본문과 최초 등록·입력·승인 시각 수동 대조",
+      "automated_verified": true,
+      "summary": "공정위, 제주 주유소 가격경쟁 제한행위 적발·제재 실무진 포상. 신규 정유4사 담합 제재로 확대 해석 금지",
+      "id": "eeb516ce943e100a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "주유소",
+        "공정위",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "summary": "제주 주유소 가격경쟁 제한행위 제재 실무진 포상과 국감 정유업계 담합 수사 업무보고 모니터링",
+  "editorial_audit": "data/reviews/2026-10-19-evening.audit.json",
+  "coverage_note": "동일 매체·같은 정규화 제목만 병합. 다른 매체의 같은 사건 보도 보존. 원문 미확인·주제 무관·기간 밖 결과는 전체 검토기록에 분리 보존.",
+  "raw_count_basis": "원수집 84건 전체 보존. 중복축소 후보 30건으로 원수집 건수를 대체하지 않음."
+}

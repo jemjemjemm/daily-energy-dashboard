@@ -5,7 +5,7 @@
     "display_date": "2026년 10월 19일 (월)",
     "previous_day_label": "10/18",
     "today_label": "10/19",
-    "generated_at": "2026-10-19 08:20 KST",
+    "generated_at": "2026-10-19 17:28 KST",
     "review_status": "검토 완료",
     "report_version": "reviewed-original-sources-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △국민연금, 위탁펀드 통한 델핀 LNG 간접투자 확인 및 알래스카 투자 제안·요청 수령 부인 △어기구 의원, 송변전사업 104건 중 68건 목표 초과 및 중복 제외 31개 사업 누적 지연 121년2개월 지적 △IMF, 에너지 가격통제·생산자 보조금 대비 취약계층 선별 현금지원의 재정 효율성 제시"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △정유사 손실보전 원가 산정 이견 지속·정산위 회계법인 자문 및 첫 정산 지연 가능성 제기 △산중위 국감, 가스·석유공사 통합 사전 협의 부족·시너지 검증 및 기존 주주 권익 보호 쟁점 점검 △한전 사장, 삼성·SK 25조원 전기요금 선납 요청을 재원 조달 다각화 차원으로 설명"
     }
   ],
   "prices": {
@@ -1589,6 +1593,58 @@
       "merged_at": "2026-10-19 08:20:46 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data\\news\\2026-10-19.evening.json",
+      "article_count": 3,
+      "source": "original_article_body_manual_review",
+      "status": "reviewed",
+      "needs_review": false,
+      "report_slot": "evening",
+      "review_file": "data/committee-news/2026-10-19-evening.review.json"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△정유사 손실보전 원가 산정 이견 지속·정산위 회계법인 자문 및 첫 정산 지연 가능성 제기 △산중위 국감, 가스·석유공사 통합 사전 협의 부족·시너지 검증 및 기존 주주 권익 보호 쟁점 점검 △한전 사장, 삼성·SK 25조원 전기요금 선납 요청을 재원 조달 다각화 차원으로 설명",
+    "trend_paragraphs": [
+      "정유사 손실보전 원가 산정 이견 지속·정산위 회계법인 자문 및 첫 정산 지연 가능성 제기",
+      "산중위 국감, 가스·석유공사 통합 사전 협의 부족·시너지 검증 및 기존 주주 권익 보호 쟁점 점검",
+      "한전 사장, 삼성·SK 25조원 전기요금 선납 요청을 재원 조달 다각화 차원으로 설명"
+    ],
+    "articles": [
+      {
+        "title": "최고가격 또 동결에 더 꼬여버린 정유사 손실 ‘원가 계산’…“연말 돼야 정산 가능”",
+        "press": "경향신문",
+        "url": "https://www.khan.co.kr/article/202610191556001",
+        "summary": "정유사 손실보전 원가 산정 이견 지속·정산위 회계법인 자문 및 첫 정산 지연 가능성 제기",
+        "published_at_kst": "2026-10-19T15:56:00+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "웹 도구의 발행사 원문 전문 추출에 표시된 입력 2026.10.19 15:56. 검색결과 날짜가 아닌 기사 본문 입력표시; 발행사 전체 본문 직접 대조. 수정·포털 재전송시각 제외."
+      },
+      {
+        "title": "\"가스·석유공사 통합, 사전 협의도 없었다\"…국감서 졸속 논란(종합)",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261019096351053",
+        "summary": "산중위 국감, 가스·석유공사 통합 사전 협의 부족·시너지 검증 및 기존 주주 권익 보호 쟁점 점검",
+        "published_at_kst": "2026-10-19T15:49:49+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-19T15:49:49+09:00; 발행사 전체 본문 직접 대조. 수정·포털 재전송시각 제외."
+      },
+      {
+        "title": "한전 사장 \"삼성·SK 전기요금 선납 요청, 재원 조달 다각화 차원\"",
+        "press": "뉴시스",
+        "url": "https://www.newsis.com/view/NISX20261019_0003831849",
+        "summary": "한전 사장, 삼성·SK 25조원 전기요금 선납 요청을 재원 조달 다각화 차원으로 설명",
+        "published_at_kst": "2026-10-19T15:12:17+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 최초 등록·입력 2026.10.19 15:12:17; 발행사 전체 본문 직접 대조. 수정·포털 재전송시각 제외."
+      }
+    ],
+    "source": "발행사 원문 본문·최초입력 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
