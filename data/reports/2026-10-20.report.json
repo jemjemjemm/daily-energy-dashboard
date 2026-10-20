@@ -5,7 +5,7 @@
     "display_date": "2026년 10월 20일 (화)",
     "previous_day_label": "10/19",
     "today_label": "10/20",
-    "generated_at": "2026-10-20 08:19 KST",
+    "generated_at": "2026-10-20 17:21 KST",
     "review_status": "검토 완료",
     "report_version": "reviewed-original-sources-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △최고가격제 정산위, 정유사 원가자료 제출 접수 및 원가 산정 이견에 따른 첫 정산 지연 가능성 제기 △중동 불안에 유조선 운임 급등·유럽과 아시아 정제마진 악화 및 석유제품 공급 부담 우려 △배출권 공급 축소·가격 상승에 정유·석화업계 탄소비용 부담 및 저탄소 공정전환 필요성 제기"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △대산 석화 통합법인, 첫 신규 채용 착수 및 정부 승인 사업재편 계획에 따른 설비 효율화 추진 △기노위, 제주 북촌 전력저장발전소 운영 점검 및 재생에너지 확대에 따른 계통 안정화 방안 논의 △재경위, 한미전략투자공사 텍사스 발전소 손익분담·알래스카 LNG 사업성 및 인력 충원 점검"
     }
   ],
   "prices": {
@@ -1536,5 +1540,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△대산 석화 통합법인, 첫 신규 채용 착수 및 정부 승인 사업재편 계획에 따른 설비 효율화 추진 △기노위, 제주 북촌 전력저장발전소 운영 점검 및 재생에너지 확대에 따른 계통 안정화 방안 논의 △재경위, 한미전략투자공사 텍사스 발전소 손익분담·알래스카 LNG 사업성 및 인력 충원 점검",
+    "trend_paragraphs": [
+      "대산 석화 통합법인, 첫 신규 채용 착수 및 정부 승인 사업재편 계획에 따른 설비 효율화 추진",
+      "기노위, 제주 북촌 전력저장발전소 운영 점검 및 재생에너지 확대에 따른 계통 안정화 방안 논의",
+      "재경위, 한미전략투자공사 텍사스 발전소 손익분담·알래스카 LNG 사업성 및 인력 충원 점검"
+    ],
+    "articles": [
+      {
+        "title": "[단독]'석화 구조개편 1호' 대산 통합법인, 첫 신입사원 채용 나선다",
+        "press": "이데일리",
+        "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04211526645614888",
+        "summary": "대산 석화 통합법인, 첫 신규 채용 착수 및 정부 승인 사업재편 계획에 따른 설비 효율화 추진",
+        "published_at_kst": "2026-10-20T15:43:47+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 본문 등록·article:published_time 2026-10-20T15:43:47+09:00; 발행사 전체 본문 직접 대조. 검색·수정시각 제외."
+      },
+      {
+        "title": "동서발전, 기후위원회 소속 의원 제주 전력저장발전소 현장점검",
+        "press": "뉴시스",
+        "url": "https://www.newsis.com/view/NISX20261020_0003833562",
+        "summary": "기노위, 제주 북촌 전력저장발전소 운영 점검 및 재생에너지 확대에 따른 계통 안정화 방안 논의",
+        "published_at_kst": "2026-10-20T15:17:24+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 최초 등록·입력 2026.10.20 15:17:24; 발행사 전체 본문 직접 대조. 검색·수정시각 제외."
+      },
+      {
+        "title": "한미전략투자공사 첫 국감…텍사스·알래스카 사업 집중 점검",
+        "press": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026102010303079130",
+        "summary": "재경위, 한미전략투자공사 텍사스 발전소 손익분담·알래스카 LNG 사업성 및 인력 충원 점검",
+        "published_at_kst": "2026-10-20T11:15:00+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 최초 등록·입력 2026.10.20 11:15; 발행사 전체 본문 직접 대조. 검색·수정시각 제외."
+      }
+    ],
+    "source": "발행사 원문 본문·최초입력 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
