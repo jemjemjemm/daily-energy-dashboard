@@ -6,8 +6,8 @@
     "previous_day_label": "10/21",
     "today_label": "10/22",
     "generated_at": "2026-10-22 08:11 KST",
-    "review_status": "초안",
-    "report_version": "draft-from-safetimes-v2.0",
+    "review_status": "검토 완료",
+    "report_version": "reviewed-original-sources-v2.0",
     "header_title": "Daily Issue Report",
     "report_title": "Daily Issue Report",
     "report_badge": "정유 · 석유화학 · LNG",
@@ -21,7 +21,7 @@
     },
     {
       "type": "news_trend",
-      "text": "(Morning) △국제 정세 불안과 선박 수급난으로 국내 정유업계가 미국산 원유 확보에 나섰다 △이날 뉴욕상업거래소에서 12월물 미국 서부 텍사스산 원유(WTI)는 전 거래일 대비 0.67달러(0.68%) 하락한 배럴당 97.15달러에 거래를 마쳤다 △국제유가가 호르무즈 해협 인근 유조선 피격과 사우디아라비아 석유시설 공격 등 중동 지역의 공급 차질 우려 속에 혼조세로 마감"
+      "text": "(Morning) △정부, 국내 공급 여유를 전제로 경유 수출 제한 완화 검토 △경제계, 피지컬 AI 지원법과 석유화학 설비 철거·환경복구 비용 지원 등 119개 정책과제 건의 △중동 공급위험과 종전협상 기대가 교차하며 WTI 97.15달러·브렌트유 108.82달러 마감"
     }
   ],
   "prices": {
@@ -1384,76 +1384,46 @@
     }
   ],
   "news_trend": {
-    "summary": "△국제 정세 불안과 선박 수급난으로 국내 정유업계가 미국산 원유 확보에 나섰다 △이날 뉴욕상업거래소에서 12월물 미국 서부 텍사스산 원유(WTI)는 전 거래일 대비 0.67달러(0.68%) 하락한 배럴당 97.15달러에 거래를 마쳤다 △국제유가가 호르무즈 해협 인근 유조선 피격과 사우디아라비아 석유시설 공격 등 중동 지역의 공급 차질 우려 속에 혼조세로 마감",
+    "summary": "△정부, 국내 공급 여유를 전제로 경유 수출 제한 완화 검토 △경제계, 피지컬 AI 지원법과 석유화학 설비 철거·환경복구 비용 지원 등 119개 정책과제 건의 △중동 공급위험과 종전협상 기대가 교차하며 WTI 97.15달러·브렌트유 108.82달러 마감",
     "trend_paragraphs": [
-      "뉴시스는 국제 정세 불안과 선박 수급난으로 국내 정유업계가 미국산 원유 확보에 나섰다.",
-      "이투데이는 이날 뉴욕상업거래소에서 12월물 미국 서부 텍사스산 원유(WTI)는 전 거래일 대비 0.67달러(0.68%) 하락한 배럴당 97.15달러에 거래를 마쳤다.",
-      "뉴스1는 국제유가가 호르무즈 해협 인근 유조선 피격과 사우디아라비아 석유시설 공격 등 중동 지역의 공급 차질 우려 속에 혼조세로 마감했다."
+      "정부, 국내 공급 여유를 전제로 경유 수출 제한 완화 검토",
+      "경제계, 피지컬 AI 지원법과 석유화학 설비 철거·환경복구 비용 지원 등 119개 정책과제 건의",
+      "중동 공급위험과 종전협상 기대가 교차하며 WTI 97.15달러·브렌트유 108.82달러 마감"
     ],
     "articles": [
       {
-        "title": "미국산 원유로 눈 돌린 정유업계…\"운임 급등에 소형선·장기 용선 대응\"",
-        "press": "뉴시스",
-        "press_grade": "A",
-        "url": "https://v.daum.net/v/20261021181325326",
-        "summary": "국제 정세 불안과 선박 수급난으로 국내 정유업계가 미국산 원유 확보에 나섰다",
-        "snippet": "2 미국산 원유로 눈 돌린 정유업계…\"운임 급등에 소형선·장기 용선 대응\" 긴급 용선한 것으로 알려졌다. 초대형 유조선보다 적재량이 적은 선박을 활용해 급등한 운임에 대응하는 전략이다. 대만 국영 정유사 CPC도 통상 월 2~3척 수준으로 구매하던 초대형 유조선 대신 60만 배럴급 아프라막스급 화물 6척을 일주일 동안 집중적으로 확보한... 13시간 전",
-        "published_at_kst": "",
-        "industry_relevance": 5,
-        "score": 13,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 4,
-          "press": 3,
-          "originality": 1,
-          "duplicate_or_low_quality": 0
-        },
-        "summary_basis": "article_body_extract",
-        "article_content_chars": 1386
+        "title": "국내는 남아도는데 국제價 급등…정부, 경유 수출통제 완화 검토",
+        "press": "한국경제",
+        "url": "https://www.hankyung.com/article/2026102167271",
+        "summary": "정부, 국내 공급 여유를 전제로 경유 수출 제한 완화 검토",
+        "published_at_kst": "2026-10-21T17:33:00+09:00",
+        "verified": true,
+        "time_evidence": "원문 최초 등록·입력 2026.10.21 17:33; 발행사 원문 전체 본문 수동 대조 완료. 자동 body_available=false는 담합 전용 키워드 조건의 미충족으로 수동 보완. 수정시각·검색시각 제외.",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "경제계, '피지컬 AI 지원법' 등 내년 정책과제 119건 건의",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261021120200003",
+        "summary": "경제계, 피지컬 AI 지원법과 석유화학 설비 철거·환경복구 비용 지원 등 119개 정책과제 건의",
+        "published_at_kst": "2026-10-22T06:00:12+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-22T06:00:12+09:00; 발행사 원문 전체 본문 수동 대조 완료. 자동 body_available=false는 담합 전용 키워드 조건의 미충족으로 수동 보완. 수정시각·검색시각 제외.",
+        "summary_basis": "original_article_body_manual_review"
       },
       {
         "title": "국제유가, 중동 긴장·러우 협상 기대에 혼조⋯WTI 0.68%↓ [상보]",
         "press": "이투데이",
-        "press_grade": "B",
-        "url": "https://v.daum.net/v/20261022064603291",
-        "summary": "이날 뉴욕상업거래소에서 12월물 미국 서부 텍사스산 원유(WTI)는 전 거래일 대비 0.67달러(0.68%) 하락한 배럴당 97.15달러에 거래를 마쳤다",
-        "snippet": "국제유가, 중동 긴장·러우 협상 기대에 혼조⋯WTI 0.68%↓ [상보] 이르면 다음 달 미국의 중재로 우크라이나와 평화협상을 재개하는 데 동의했다고 밝혔다. 전쟁 종식이 현실화하면 러시아산 석유 제품 공급이 늘어나 글로벌 경유 공급난도 완화될 수 있다는 기대가 반영됐다. 중동의 지정학적 긴장은 여전히 유가 하락을 제한했다... 1시간 전",
-        "published_at_kst": "",
-        "industry_relevance": 5,
-        "score": 10,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 3,
-          "press": 2,
-          "originality": 0,
-          "duplicate_or_low_quality": 0
-        },
-        "summary_basis": "article_body_extract",
-        "article_content_chars": 955
-      },
-      {
-        "title": "호르무즈 유조선 피격·사우디 석유시설 공격…국제유가 혼조",
-        "press": "뉴스1",
-        "press_grade": "A",
-        "url": "https://v.daum.net/v/20261022043908506",
-        "summary": "국제유가가 호르무즈 해협 인근 유조선 피격과 사우디아라비아 석유시설 공격 등 중동 지역의 공급 차질 우려 속에 혼조세로 마감했다",
-        "snippet": "호르무즈 유조선 피격·사우디 석유시설 공격…국제유가 혼조 등 중동 지역의 공급 차질 우려 속에 혼조세로 마감했다. 전쟁 위험에 따른 원유 해상운송 비용이 1년 새 약 7배로 치솟으면서 정유 업체 수익성과 석유제품 가격에도 부담이 커지고 있다. 21일(현지시간) CNBC에 따르면 국제유가 기준물인 브렌트유 선물은 전장보다... 3시간 전",
-        "published_at_kst": "",
-        "industry_relevance": 5,
-        "score": 10,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 2,
-          "press": 3,
-          "originality": 0,
-          "duplicate_or_low_quality": 0
-        },
-        "summary_basis": "article_body_extract",
-        "article_content_chars": 1064
+        "url": "https://www.etoday.co.kr/news/view/2638608",
+        "summary": "중동 공급위험과 종전협상 기대가 교차하며 WTI 97.15달러·브렌트유 108.82달러 마감",
+        "published_at_kst": "2026-10-22T06:45:00+09:00",
+        "verified": true,
+        "time_evidence": "원문 최초 등록·입력 2026-10-22 06:45; 발행사 원문 전체 본문 수동 대조 완료. 자동 body_available=false는 담합 전용 키워드 조건의 미충족으로 수동 보완. 수정시각·검색시각 제외.",
+        "summary_basis": "original_article_body_manual_review"
       }
     ],
-    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
-    "needs_review": true,
+    "source": "발행사 원문·최초시각 수동 검토",
+    "needs_review": false,
     "report_slot": "morning"
   },
   "quality_control": {

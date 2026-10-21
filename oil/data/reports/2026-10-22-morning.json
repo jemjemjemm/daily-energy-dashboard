@@ -6,7 +6,7 @@
   "period_start": "2026-10-22T00:00:00+09:00",
   "period_end": "2026-10-22T08:00:00+09:00",
   "period_label": "2026-10-22 00:00 ~ 2026-10-22 08:00",
-  "generated_at": "2026-10-22T08:12:47.104103+09:00",
+  "generated_at": "2026-10-22T08:15:58.545104+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -23,18 +23,18 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 73,
-  "total_enriched_input_count": 22,
-  "total_in_period_unique_count": 0,
+  "total_enriched_input_count": 3,
+  "total_in_period_unique_count": 1,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 15,
-  "total_deduped_count": 0,
-  "total_ok_count": 0,
+  "total_outside_period_count": 2,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
   "total_review_count": 0,
-  "total_excluded_count": 0,
+  "total_excluded_count": 1,
   "grade_counts": {
     "A": 0,
     "B": 0,
-    "C": 0
+    "C": 1
   },
   "portal_counts": {
     "naver": 47,
@@ -50,9 +50,41 @@
       "message": "public search coverage limit",
       "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
       "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-      "created_at": "2026-10-22T08:12:05.506219+09:00"
+      "created_at": "2026-10-22T08:10:51.662014+09:00"
     }
   ],
   "telegram_alert_log": [],
-  "articles": []
+  "articles": [
+    {
+      "title": "국제유가, 중동 긴장·러우 협상 기대에 혼조⋯WTI 0.68%↓ [상보]",
+      "source": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2638608",
+      "canonical_url": "https://www.etoday.co.kr/news/view/2638608",
+      "published_at": "2026-10-22T06:45:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-22 06:45; 발행사 원문 전체 본문 수동 대조, 최초시각과 수정·검색시각 구분",
+      "summary": "중동 공급위험·종전협상 기대가 교차하며 WTI 97.15달러·브렌트유 108.82달러 마감",
+      "snippet": "중동 공급위험·종전협상 기대가 교차하며 WTI 97.15달러·브렌트유 108.82달러 마감",
+      "queries": [
+        "원수집 전체 검토 및 발행사 최신목록 보완"
+      ],
+      "collected_at": "2026-10-22T08:11:17.971278+09:00",
+      "id": "17f5181684840326",
+      "source_normalized": "이투데이",
+      "grade": "C",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "수급·수출정책 관련성 편집 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
+    }
+  ],
+  "summary": "중동 공급위험·종전협상 기대 속 국제유가 혼조",
+  "editorial_audit": "data/reviews/2026-10-22-morning.audit.json",
+  "coverage_note": "검색 원수집 전체 73건과 원문 확인/미확인·시간대 밖 제외를 검토기록에 보존. 다른 매체의 같은 사건 보도는 병합하지 않음. 공개검색·원문 미해결 제한.",
+  "raw_count_basis": "검색 원수집 전체 73건. 정규화 검토 후보 수와 별도."
 }

@@ -6,7 +6,7 @@
   "period_start": "2026-10-21T17:00:00+09:00",
   "period_end": "2026-10-22T00:00:00+09:00",
   "period_label": "2026-10-21 17:00 ~ 2026-10-22 00:00",
-  "generated_at": "2026-10-22T08:12:43.187781+09:00",
+  "generated_at": "2026-10-22T08:15:58.530579+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -23,18 +23,18 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 73,
-  "total_enriched_input_count": 73,
-  "total_in_period_unique_count": 10,
+  "total_enriched_input_count": 3,
+  "total_in_period_unique_count": 2,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 12,
-  "total_deduped_count": 6,
-  "total_ok_count": 6,
+  "total_outside_period_count": 1,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
   "total_review_count": 0,
-  "total_excluded_count": 4,
+  "total_excluded_count": 1,
   "grade_counts": {
     "A": 0,
-    "B": 0,
-    "C": 6
+    "B": 1,
+    "C": 1
   },
   "portal_counts": {
     "naver": 47,
@@ -42,18 +42,7 @@
     "google": 26
   },
   "query_counts": {
-    "SK에너지 담합": 2,
-    "공정거래위원회 정유사 담합": 1,
-    "공정위 유가 담합": 2,
-    "기름값 담합": 2,
-    "석유 담합": 1,
-    "석유제품 담합": 1,
-    "유가 담합": 2,
-    "유가담합": 2,
-    "정유사 담합": 2,
-    "정유업계 담합": 1,
-    "주유소 담합": 1,
-    "현대오일뱅크 담합": 2
+    "원수집 전체 검토 및 발행사 최신목록 보완": 1
   },
   "collection_warnings": [
     {
@@ -63,102 +52,39 @@
       "message": "public search coverage limit",
       "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
       "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-      "created_at": "2026-10-22T08:12:05.506219+09:00"
+      "created_at": "2026-10-22T08:10:51.662014+09:00"
     }
   ],
   "telegram_alert_log": [],
   "articles": [
     {
-      "title": "코스피 폭락에도 버틴 은행주…반등 신호일까, 일시적 피난처일까",
-      "url": "https://www.s-journal.co.kr/news/articleView.html?idxno=44698",
-      "source": "S-저널",
-      "published_at": "2026-10-21T21:12:06.553896+09:00",
-      "snippet": "다만 국제 유가 와 물가 불확실성, 부동산 시장 상황 등을 고려하면 향후 추가 인상 가능성을 열어둔 매파적 동결이 될 가능성이 있다고 분석했다.... 단기적으로는 홍콩 ELS 과징금 추가 경감 여부와 공정위 의 국고채 PD 담합 의혹 과징금 관련 이슈가 주요 변수로 작용할 것으로 봤다. 하나증권은 주간 선호...",
-      "collected_at": "2026-10-22T08:12:06.553947+09:00",
-      "normalized_title": "코스피 폭락에도 버틴 은행주…반등 신호일까, 일시적 피난처일까",
-      "source_normalized": "S-저널",
-      "duplicate_key": "s-저널::코스피 폭락에도 버틴 은행주…반등 신호일까, 일시적 피난처일까",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "공정위 유가 담합",
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 2,
-      "canonical_url": "https://www.s-journal.co.kr/news/articleView.html?idxno=44698",
-      "id": "a9dededa079cb2e7",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "공정위",
-        "담합",
-        "과징금"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[기자수첩] 정유 사에 남은 숙제…'소명'보다 먼저 내놓을 건 가격 신뢰",
-      "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241057",
+      "title": "[기자수첩] 정유사에 남은 숙제…’소명'보다 먼저 내놓을 건 가격 신뢰",
       "source": "이지경제",
-      "published_at": "2026-10-21T17:12:24.659070+09:00",
-      "snippet": "정유업계 의 담합 논란은 이번이 처음이 아니다. 공정위는 2007년에도 정유 4사의 가격 담합 에 526억 원의 과징금을 부과한 바 있다. 같은 업종에서 같은 의혹이 되풀이될 때 소비자가 느끼는 감정은 분노보다 체념에 가깝다. 이번에 필요한 것은 절차를 성실히 따르겠다는 말보다, 가격이 어떻게 정해지는지를...",
-      "collected_at": "2026-10-22T08:12:24.659097+09:00",
-      "normalized_title": "[기자수첩] 정유 사에 남은 숙제…'소명'보다 먼저 내놓을 건 가격 신뢰",
-      "source_normalized": "이지경제",
-      "duplicate_key": "이지경제::[기자수첩] 정유 사에 남은 숙제…'소명'보다 먼저 내놓을 건 가격 신뢰",
-      "portals": [
-        "naver"
-      ],
+      "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241057",
+      "canonical_url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241057",
+      "published_at": "2026-10-21T17:10:35+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-21T17:10:35+09:00; 발행사 원문 전체 본문 수동 대조, 최초시각과 수정·검색시각 구분",
+      "summary": "정유 담합 심의·재판과 손실보전 검증·주유소 거래관행 개선에 대한 논평",
+      "snippet": "정유 담합 심의·재판과 손실보전 검증·주유소 거래관행 개선에 대한 논평",
       "queries": [
-        "정유업계 담합"
+        "원수집 전체 검토 및 발행사 최신목록 보완"
+      ],
+      "collected_at": "2026-10-22T08:11:17.971278+09:00",
+      "normalized_title": "[기자수첩] 정유사에 남은 숙제…’소명'보다 먼저 내놓을 건 가격 신뢰",
+      "source_normalized": "이지경제",
+      "duplicate_key": "이지경제::[기자수첩] 정유사에 남은 숙제…’소명'보다 먼저 내놓을 건 가격 신뢰",
+      "portals": [
+        null
       ],
       "duplicate_count": 0,
-      "canonical_url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241057",
-      "id": "0edd386c44d09aac",
+      "id": "0af214a4cbd51ca9",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
-        "정유업계",
-        "공정위",
-        "담합",
-        "과징금"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "[기자수첩] 정유사 에 남은 숙제…'소명'보다 먼저 내놓을 건 가격 신뢰",
-      "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241057",
-      "source": "이지경제",
-      "published_at": "2026-10-21T17:12:11.542431+09:00",
-      "snippet": "지난 12일 국회 정무 위원회 의 공정거래위원회 국정감사에서 정유 4사 경영진은 나란히 고개를 숙였다. 고유가로 국민 부담이 커진 데 대해 송구하다고 했고, 주유소 거래 관행은 개선하겠다고 약속했다. 그러나 가장 무거운 질문인 '가격 담합 이 있었느냐'에는 어느 곳도 직접 답하지 않았다. 사과는 했지만...",
-      "collected_at": "2026-10-22T08:12:11.542463+09:00",
-      "normalized_title": "[기자수첩] 정유사 에 남은 숙제…'소명'보다 먼저 내놓을 건 가격 신뢰",
-      "source_normalized": "이지경제",
-      "duplicate_key": "이지경제::[기자수첩] 정유사 에 남은 숙제…'소명'보다 먼저 내놓을 건 가격 신뢰",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "공정거래위원회 정유사 담합",
-        "정유사 담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241057",
-      "id": "c3e21fb5a14cfddd",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
         "정유사",
         "주유소",
-        "공정거래위원회",
         "담합"
       ],
       "quality_status": "ok",
@@ -166,105 +92,35 @@
       "status_reason": "유가담합 관련 맥락 확인"
     },
     {
-      "title": "[기자수첩] 정유사에 남은 숙제…'소명'보다 먼저 내놓을 건 가격 신뢰",
-      "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241057",
-      "source": "이지경제",
-      "published_at": "2026-10-21T17:12:06.554982+09:00",
-      "snippet": "SK에너지와 HD 현대오일뱅크 대표는 두 사람 모두 구체적인 답을 내놓지 않았다. 담합 혐의가 심의와 재판을 거쳐 인정된다면 책임론은 실무진을 넘어 경영진으로 번질 수 있다. 4사를 한데 묶어 '기름값 담합 '으로 부르는 시선과 실제 심사 대상이 두 곳이라는 사실 사이의 간극도 업계가 풀어야 할 몫이다. 두...",
-      "collected_at": "2026-10-22T08:12:06.554999+09:00",
-      "normalized_title": "[기자수첩] 정유사에 남은 숙제…'소명'보다 먼저 내놓을 건 가격 신뢰",
-      "source_normalized": "이지경제",
-      "duplicate_key": "이지경제::[기자수첩] 정유사에 남은 숙제…'소명'보다 먼저 내놓을 건 가격 신뢰",
-      "portals": [
-        "naver"
-      ],
+      "title": "국내는 남아도는데 국제價 급등…정부, 경유 수출통제 완화 검토",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026102167271",
+      "canonical_url": "https://www.hankyung.com/article/2026102167271",
+      "published_at": "2026-10-21T17:33:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.10.21 17:33; 발행사 원문 전체 본문 수동 대조, 최초시각과 수정·검색시각 구분",
+      "summary": "정부, 국내 공급 여유를 전제로 경유 수출 제한 완화 검토",
+      "snippet": "정부, 국내 공급 여유를 전제로 경유 수출 제한 완화 검토",
       "queries": [
-        "SK에너지 담합",
-        "공정위 유가 담합",
-        "기름값 담합",
-        "유가 담합",
-        "유가담합",
-        "주유소 담합",
-        "현대오일뱅크 담합"
+        "원수집 전체 검토 및 발행사 최신목록 보완"
       ],
-      "duplicate_count": 6,
-      "canonical_url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241057",
-      "id": "73600f9d0379d4fe",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "정유사",
-        "기름값",
-        "담합"
-      ],
+      "collected_at": "2026-10-22T08:11:17.971278+09:00",
+      "id": "f34347759ec31dd9",
+      "source_normalized": "한국경제",
+      "grade": "B",
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "의료기기 유통·정유사 담합 의혹…국감서 민생 밀착형 불공정거래 도마...",
-      "url": "https://www.kukinews.com/article/view/kuk202610210171",
-      "source": "쿠키뉴스",
-      "published_at": "2026-10-21T17:12:13.585256+09:00",
-      "snippet": "박준태 국민의힘 의원은 “물가, 관세, 세금이 오른 상황에서 기름값 까지 담합 해서 올렸다는 사실에 많은 이들이 분노했다”며 “ 담합 의 정도나 과징금 규모 이런 것도 중요하지만 담합 을 결정하고 시행한 사람에게 확실한 책임은 물어야 된다”고 강조했다. 박 의원은 정유사들이 담합 을 실무자들의 독자적인...",
-      "collected_at": "2026-10-22T08:12:13.585272+09:00",
-      "normalized_title": "의료기기 유통·정유사 담합 의혹…국감서 민생 밀착형 불공정거래 도마...",
-      "source_normalized": "쿠키뉴스",
-      "duplicate_key": "쿠키뉴스::의료기기 유통·정유사 담합 의혹…국감서 민생 밀착형 불공정거래 도마...",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "SK에너지 담합",
-        "기름값 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "현대오일뱅크 담합"
-      ],
-      "duplicate_count": 4,
-      "canonical_url": "https://www.kukinews.com/article/view/kuk202610210171",
-      "id": "5de06ff15bd5ab6b",
-      "grade": "C",
-      "published_at_status": "known",
+      "status_reason": "수급·수출정책 관련성 편집 검토",
       "matched_keywords": [
-        "정유사",
-        "기름값",
-        "담합",
-        "과징금"
+        "유가",
+        "정유"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "의료기기 유통· 정유사 담합 의혹…국감서 민생 밀착형 불공정거래 도마...",
-      "url": "https://www.kukinews.com/article/view/kuk202610210171",
-      "source": "쿠키뉴스",
-      "published_at": "2026-10-21T17:12:11.543421+09:00",
-      "snippet": "쿠키뉴스=김지현 기자 | 의료기기 유통 과정의 불공정거래 의혹부터 정유사 담합 에 따른 기름값 문제까지 국민 생활과 밀접한 시장의 불공정거래가 국회 정무위원회 종합국정감사에서 도마에 올랐다. 의료기기 간접납품회사(이하 간납사)의 불공정거래 의혹이 건강보험 재정에 미칠 영향이 국정감사에서...",
-      "collected_at": "2026-10-22T08:12:11.543435+09:00",
-      "normalized_title": "의료기기 유통· 정유사 담합 의혹…국감서 민생 밀착형 불공정거래 도마...",
-      "source_normalized": "쿠키뉴스",
-      "duplicate_key": "쿠키뉴스::의료기기 유통· 정유사 담합 의혹…국감서 민생 밀착형 불공정거래 도마...",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "정유사 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.kukinews.com/article/view/kuk202610210171",
-      "id": "97d5680e99d327f7",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "정유사",
-        "기름값",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "published_at_status": "known"
     }
-  ]
+  ],
+  "summary": "경유 수출 제한 완화 검토 및 정유 가격 신뢰 관련 논평",
+  "editorial_audit": "data/reviews/2026-10-22-morning.audit.json",
+  "coverage_note": "검색 원수집 전체 73건과 원문 확인/미확인·시간대 밖 제외를 검토기록에 보존. 다른 매체의 같은 사건 보도는 병합하지 않음. 공개검색·원문 미해결 제한.",
+  "raw_count_basis": "검색 원수집 전체 73건. 정규화 검토 후보 수와 별도."
 }
