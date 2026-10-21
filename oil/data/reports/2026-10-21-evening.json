@@ -1,0 +1,173 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-21",
+  "slot": "evening",
+  "period_start": "2026-10-21T08:00:00+09:00",
+  "period_end": "2026-10-21T17:00:00+09:00",
+  "period_label": "2026-10-21 08:00 ~ 2026-10-21 17:00",
+  "generated_at": "2026-10-21T17:21:43.764520+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 56,
+  "total_enriched_input_count": 3,
+  "total_in_period_unique_count": 3,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 0,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 44,
+    "daum": 10,
+    "google": 2
+  },
+  "query_counts": {
+    "SK에너지 담합": 2,
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 1,
+    "공정위 유가 담합": 2,
+    "기름값 담합": 1,
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유 44조": 1,
+    "정유사 담합": 2,
+    "정유업계 담합": 1,
+    "주유소 담합": 2,
+    "현대오일뱅크 담합": 2,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-21T17:15:14.836014+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "정유 4사 ‘14조 유가담합’ 재판, 내달 본격 심리",
+      "url": "https://www.naeil.com/news/read/605890?ref=naver",
+      "source": "내일신문",
+      "published_at": "2026-10-21T13:00:09+09:00",
+      "snippet": "정유4사 공판, 11월 가격담합 관련 심리·증인신문 예정 및 공판절차 분리. 혐의와 확정 판결 구분",
+      "collected_at": "2026-10-21T17:15:15.193843+09:00",
+      "normalized_title": "정유 4사 ‘14조 유가담합’ 재판, 내달 본격 심리",
+      "source_normalized": "내일신문",
+      "duplicate_key": "내일신문::정유 4사 ‘14조 유가담합’ 재판, 내달 본격 심리",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.naeil.com/news/read/605890?ref=naver",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-21T13:00:09+09:00",
+      "verified": true,
+      "verification_reason": "발행사 전체 본문·최초 입력 수동 대조",
+      "automated_verified": true,
+      "summary": "정유4사 공판, 11월 가격담합 관련 심리·증인신문 예정 및 공판절차 분리. 혐의와 확정 판결 구분",
+      "id": "cbd26ed40091dfdc",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "가격담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[국감] 고물가 속 44조원 담합 의혹...SK에너지·HD현대오일뱅크 대표, 국감 재소환 - 중앙이코노미뉴스",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=557071",
+      "source": "중앙이코노미뉴스",
+      "published_at": "2026-10-21T15:29:17+09:00",
+      "snippet": "산중위, 정유2사 대표 22일 종합국감 증인 채택 보도 및 최고가격제 손실보전 적정성 쟁점 점검. 담합 혐의·공정위 심의와 확정 제재 구분",
+      "collected_at": "2026-10-21T17:15:15.192947+09:00",
+      "normalized_title": "[국감] 고물가 속 44조원 담합 의혹...SK에너지·HD현대오일뱅크 대표, 국감 재소환 - 중앙이코노미뉴스",
+      "source_normalized": "중앙이코노미뉴스",
+      "duplicate_key": "중앙이코노미뉴스::[국감] 고물가 속 44조원 담합 의혹...sk에너지·hd현대오일뱅크 대표, 국감 재소환 - 중앙이코노미뉴스",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유 44조",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.joongangenews.com/news/articleView.html?idxno=557071",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-21T15:29:17+09:00",
+      "verified": true,
+      "verification_reason": "발행사 전체 본문·최초 입력 수동 대조",
+      "automated_verified": true,
+      "summary": "산중위, 정유2사 대표 22일 종합국감 증인 채택 보도 및 최고가격제 손실보전 적정성 쟁점 점검. 담합 혐의·공정위 심의와 확정 제재 구분",
+      "id": "367d030c3b0f1b87",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "공정위",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "summary": "정유 담합 재판의 11월 심리 계획 및 산중위 정유2사 대표 증인 채택 점검",
+  "editorial_audit": "data/reviews/2026-10-21-evening.audit.json",
+  "coverage_note": "같은 매체·같은 정규화 제목만 병합. 다른 매체 동일사건 보도 보존. 전체 원수집·미확인·주제 무관·시간대 밖은 검토기록 구분.",
+  "raw_count_basis": "원수집 56건 전체 보존. 중복 정규화 후 18개 후보·수동 보완 1건은 원수집 수와 별도 관리."
+}

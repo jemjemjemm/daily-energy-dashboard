@@ -5,7 +5,7 @@
     "display_date": "2026년 10월 21일 (수)",
     "previous_day_label": "10/20",
     "today_label": "10/21",
-    "generated_at": "2026-10-21 08:17 KST",
+    "generated_at": "2026-10-21 17:20 KST",
     "review_status": "검토 완료",
     "report_version": "reviewed-original-sources-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △정유업계, 경유 수출제한 완화 요구 및 산업부의 국내 공급 안정 우선 입장 확인 △알래스카 LNG 초기 사업비 추정의 불확실성 및 투자비 최대 두 배 확대 가능성 제기 △김소희 의원 자료, 발전 4사 배출권 구매비용의 계획단가·현시세 차이에 따른 약 2600억원 추가 부담 추산"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △최고가격제 첫 손실보전 정산, 실제 원가·적정 이윤과 국제가격 차액 반영을 둘러싼 정부·정유업계 이견 점검 △김종민, 하베스트 9649억원 매각 계획의 회수 불확실성 및 통합공사 부담 전가 우려 제기 △한·EU, NDC·배출권거래제 및 재생에너지·해상풍력·유해화학물질 관리 협력 논의"
     }
   ],
   "prices": {
@@ -1533,5 +1537,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△최고가격제 첫 손실보전 정산, 실제 원가·적정 이윤과 국제가격 차액 반영을 둘러싼 정부·정유업계 이견 점검 △김종민, 하베스트 9649억원 매각 계획의 회수 불확실성 및 통합공사 부담 전가 우려 제기 △한·EU, NDC·배출권거래제 및 재생에너지·해상풍력·유해화학물질 관리 협력 논의",
+    "trend_paragraphs": [
+      "최고가격제 첫 손실보전 정산, 실제 원가·적정 이윤과 국제가격 차액 반영을 둘러싼 정부·정유업계 이견 점검",
+      "김종민, 하베스트 9649억원 매각 계획의 회수 불확실성 및 통합공사 부담 전가 우려 제기",
+      "한·EU, NDC·배출권거래제 및 재생에너지·해상풍력·유해화학물질 관리 협력 논의"
+    ],
+    "articles": [
+      {
+        "title": "\"원가냐 국제가냐\"…정유사 손실보전 첫 정산 난항",
+        "press": "머니투데이",
+        "url": "https://www.mt.co.kr/index.php/economy/2026/10/21/2026102114485929869",
+        "summary": "최고가격제 첫 손실보전 정산, 실제 원가·적정 이윤과 국제가격 차액 반영을 둘러싼 정부·정유업계 이견 점검",
+        "published_at_kst": "2026-10-21T16:30:00+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-21T16:30:00+09:00; 원문 전체 본문·최초시각 직접 대조. 자동 body_available=False는 추출기 한계로 수동 검토 보완. 수정·검색시각 제외."
+      },
+      {
+        "title": "\"석유공사, 7.7조원 투입 캐나다 하베스트사 9천억원에 판다\"",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261021122300063",
+        "summary": "김종민, 하베스트 9649억원 매각 계획의 회수 불확실성 및 통합공사 부담 전가 우려 제기",
+        "published_at_kst": "2026-10-21T15:21:53+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-21T15:21:53+09:00; 원문 전체 본문·최초시각 직접 대조. 자동 body_available=False는 추출기 한계로 수동 검토 보완. 수정·검색시각 제외."
+      },
+      {
+        "title": "외교부, EU와 에너지·환경·기후변화 협력 강화 논의",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261021121800504",
+        "summary": "한·EU, NDC·배출권거래제 및 재생에너지·해상풍력·유해화학물질 관리 협력 논의",
+        "published_at_kst": "2026-10-21T15:13:16+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-21T15:13:16+09:00; 원문 전체 본문·최초시각 직접 대조. 자동 body_available=False는 추출기 한계로 수동 검토 보완. 수정·검색시각 제외."
+      }
+    ],
+    "source": "발행사 원문 본문·최초입력 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
