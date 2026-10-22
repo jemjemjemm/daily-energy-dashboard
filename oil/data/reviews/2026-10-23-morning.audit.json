@@ -4535,7 +4535,7 @@
         "verified": true,
         "verification_reason": "발행사 본문·최초시각 확인"
       },
-      "reason": "해당 슬롯 전체 기사목록 보존; verified와 time_evidence로 원문 확인 상태 구분"
+      "reason": "발행사 본문 직접 재검토: 삼양사 경영인 소개의 담합은 설탕·밀가루·전분당 사건. 원유·정유 담합 기사 아님. 검색 원수집 및 검토기록에 보존."
     },
     {
       "article": {
@@ -4899,41 +4899,6 @@
       "date": "2026-10-23",
       "slot": "morning",
       "articles": [
-        {
-          "title": "[Who is ?] 이운익 삼양사 대표이사",
-          "url": "https://www.businesspost.co.kr/BP?command=article_view&num=449928",
-          "source": "비즈니스포스트",
-          "published_at": "2026-10-23T07:00:00+09:00",
-          "snippet": "이어 삼양사·대상·사조CPK·CJ제일제당 등 전분 제조사 4곳에도 옥수수전분 가격 담합 에 따른 손해배상 소송을 제기했다. ◆ 경력 이운익 삼남 석유 화학 대표이사가 2023년 8월21일 환경부 주관 '일회용품 ZERO챌린지'에 참여하고 있다. <삼양그룹> 1992년 삼양사에 입사했다. 이후 삼양사 도쿄지점 부지점장과...",
-          "collected_at": "2026-10-23T08:15:32.379450+09:00",
-          "normalized_title": "[Who is ?] 이운익 삼양사 대표이사",
-          "source_normalized": "비즈니스포스트",
-          "duplicate_key": "비즈니스포스트::[who is ?] 이운익 삼양사 대표이사",
-          "portals": [
-            "naver",
-            "google"
-          ],
-          "queries": [
-            "석유 담합"
-          ],
-          "duplicate_count": 0,
-          "canonical_url": "https://www.businesspost.co.kr/BP?command=article_view&num=449928",
-          "published_at_basis": "original_article",
-          "time_evidence": "원문 published_time 2026-10-23T07:00:00+09:00",
-          "verified": true,
-          "verification_reason": "발행사 본문·최초시각 확인",
-          "id": "310b07df7a7bb79b",
-          "grade": "C",
-          "published_at_status": "known",
-          "matched_keywords": [
-            "석유",
-            "담합",
-            "조사"
-          ],
-          "quality_status": "ok",
-          "status_label": "정상",
-          "status_reason": "유가담합 관련 맥락 확인"
-        },
         {
           "title": "[2026 국감] 정유사 대표 증인 철회...농협 378억 손실·원유 수급 도마",
           "source": "뉴스투데이",
