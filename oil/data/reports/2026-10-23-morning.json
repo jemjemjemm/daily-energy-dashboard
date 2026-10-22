@@ -6,7 +6,7 @@
   "period_start": "2026-10-23T00:00:00+09:00",
   "period_end": "2026-10-23T08:00:00+09:00",
   "period_label": "2026-10-23 00:00 ~ 2026-10-23 08:00",
-  "generated_at": "2026-10-23T08:17:24.251707+09:00",
+  "generated_at": "2026-10-23T08:20:58.286925+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -22,35 +22,27 @@
     "공정위 유가 담합",
     "공정거래위원회 정유사 담합"
   ],
-  "total_raw_count": 117,
-  "total_enriched_input_count": 21,
-  "total_in_period_unique_count": 2,
+  "total_raw_count": 118,
+  "total_enriched_input_count": 14,
+  "total_in_period_unique_count": 5,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 11,
-  "total_deduped_count": 2,
-  "total_ok_count": 0,
-  "total_review_count": 2,
-  "total_excluded_count": 0,
+  "total_outside_period_count": 9,
+  "total_deduped_count": 5,
+  "total_ok_count": 5,
+  "total_review_count": 0,
+  "total_excluded_count": 4,
   "grade_counts": {
-    "A": 0,
-    "B": 0,
+    "A": 1,
+    "B": 2,
     "C": 2
   },
   "portal_counts": {
     "naver": 54,
     "daum": 20,
-    "google": 43
+    "google": 44
   },
   "query_counts": {
-    "SK에너지 담합": 1,
-    "공정거래위원회 정유사 담합": 1,
-    "석유 담합": 2,
-    "석유제품 담합": 1,
-    "유류가격 담합": 1,
-    "정유사 담합": 1,
-    "정유업계 담합": 1,
-    "주유소 담합": 1,
-    "현대오일뱅크 담합": 1
+    "석유 담합": 1
   },
   "collection_warnings": [
     {
@@ -60,77 +52,34 @@
       "message": "public search coverage limit",
       "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
       "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-      "created_at": "2026-10-23T08:16:31.838197+09:00"
+      "created_at": "2026-10-23T08:15:23.635616+09:00"
     }
   ],
   "telegram_alert_log": [],
   "articles": [
     {
-      "title": "[2026 국감] 정유사 대표 증인 철회...농협 378억 손실·원유 수급 도마",
-      "url": "https://www.news2day.co.kr/article/20261022500322",
-      "source": "뉴스투데이",
-      "published_at": "2026-10-23T07:59:00+09:00",
-      "snippet": "SK에너지 ·HD현대오일뱅크 대표 출석 요구 철회...추가 증인신문 무산 김원이 \"농협, 유류대금 정산으로 378억원 손실 주장\"...정부 \"협의 중\" 백혜련, 원유... 두 대표는 앞서 12일 국회 정무위원회의 공정거래위원회 국정감사에 출석해 석유제품 가격 담합 혐의와 주유소 거래 관행 등에 관한 질의를 받은 바 있다....",
-      "collected_at": "2026-10-23T08:16:38.863715+09:00",
-      "normalized_title": "[2026 국감] 정유사 대표 증인 철회...농협 378억 손실·원유 수급 도마",
-      "source_normalized": "뉴스투데이",
-      "duplicate_key": "뉴스투데이::[2026 국감] 정유사 대표 증인 철회...농협 378억 손실·원유 수급 도마",
-      "portals": [
-        "naver",
-        "google"
-      ],
-      "queries": [
-        "SK에너지 담합",
-        "공정거래위원회 정유사 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "유류가격 담합",
-        "정유사 담합",
-        "정유업계 담합",
-        "주유소 담합",
-        "현대오일뱅크 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.news2day.co.kr/article/20261022500322",
-      "published_at_basis": "original_article",
-      "time_evidence": "원문 최초 등록·입력 2026.10.23 07:59",
-      "verified": false,
-      "verification_reason": "원문 본문 또는 최초시각 미확인",
-      "id": "ffde900d728a581e",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "정유사",
-        "주유소",
-        "석유제품",
-        "공정거래위원회",
-        "담합"
-      ],
-      "quality_status": "review",
-      "status_label": "원문 미확인",
-      "status_reason": "원문 본문 또는 최초시각 미확인"
-    },
-    {
       "title": "[Who is ?] 이운익 삼양사 대표이사",
       "url": "https://www.businesspost.co.kr/BP?command=article_view&num=449928",
       "source": "비즈니스포스트",
-      "published_at": "2026-10-23T07:16:44.067374+09:00",
+      "published_at": "2026-10-23T07:00:00+09:00",
       "snippet": "이어 삼양사·대상·사조CPK·CJ제일제당 등 전분 제조사 4곳에도 옥수수전분 가격 담합 에 따른 손해배상 소송을 제기했다. ◆ 경력 이운익 삼남 석유 화학 대표이사가 2023년 8월21일 환경부 주관 '일회용품 ZERO챌린지'에 참여하고 있다. <삼양그룹> 1992년 삼양사에 입사했다. 이후 삼양사 도쿄지점 부지점장과...",
-      "collected_at": "2026-10-23T08:16:44.067433+09:00",
+      "collected_at": "2026-10-23T08:15:32.379450+09:00",
       "normalized_title": "[Who is ?] 이운익 삼양사 대표이사",
       "source_normalized": "비즈니스포스트",
       "duplicate_key": "비즈니스포스트::[who is ?] 이운익 삼양사 대표이사",
       "portals": [
-        "naver"
+        "naver",
+        "google"
       ],
       "queries": [
         "석유 담합"
       ],
       "duplicate_count": 0,
       "canonical_url": "https://www.businesspost.co.kr/BP?command=article_view&num=449928",
-      "verified": false,
-      "verification_reason": "원문 확인 실패: HTTPError",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-23T07:00:00+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
       "id": "310b07df7a7bb79b",
       "grade": "C",
       "published_at_status": "known",
@@ -139,9 +88,121 @@
         "담합",
         "조사"
       ],
-      "quality_status": "review",
-      "status_label": "원문 미확인",
-      "status_reason": "원문 확인 실패: HTTPError"
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[2026 국감] 정유사 대표 증인 철회...농협 378억 손실·원유 수급 도마",
+      "source": "뉴스투데이",
+      "url": "https://www.news2day.co.kr/article/20261022500322",
+      "canonical_url": "https://www.news2day.co.kr/article/20261022500322",
+      "published_at": "2026-10-23T07:59:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.10.23 07:59; 발행사 전체 기사 본문 수동 대조 및 최초시각 확인. 담합 전용 자동 body 조건과 별도 검토.",
+      "summary": "산중위, 정유사 증인 철회와 농협 유류대금 정산 갈등·원유 도입선 다변화 논의; 농협 주장 손실은 최고가격제 정부 보전과 구분",
+      "snippet": "산중위, 정유사 증인 철회와 농협 유류대금 정산 갈등·원유 도입선 다변화 논의; 농협 주장 손실은 최고가격제 정부 보전과 구분",
+      "queries": [
+        "원수집 전체 검토 및 발행사 목록 보완"
+      ],
+      "collected_at": "2026-10-23T08:15:56.216414+09:00",
+      "id": "4560bccc31a7625b",
+      "source_normalized": "뉴스투데이",
+      "grade": "C",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유공급 및 정유 국감 직접 관련성 편집 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "국제유가, 후티의 사우디 공격에 껑충⋯브렌트유 4% [상보]",
+      "source": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2639158",
+      "canonical_url": "https://www.etoday.co.kr/news/view/2639158",
+      "published_at": "2026-10-23T06:54:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-23 06:54; 발행사 전체 기사 본문 수동 대조 및 최초시각 확인. 담합 전용 자동 body 조건과 별도 검토.",
+      "summary": "후티의 사우디 공격에 공급 차질 우려 확대 및 WTI 99.47달러·브렌트유 113.17달러 마감",
+      "snippet": "후티의 사우디 공격에 공급 차질 우려 확대 및 WTI 99.47달러·브렌트유 113.17달러 마감",
+      "queries": [
+        "원수집 전체 검토 및 발행사 목록 보완"
+      ],
+      "collected_at": "2026-10-23T08:15:56.216414+09:00",
+      "id": "70a50ee187ebd1ba",
+      "source_normalized": "이투데이",
+      "grade": "B",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유공급 및 정유 국감 직접 관련성 편집 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "S&P글로벌 \"이란 전쟁과 에너지 위기⋯식량 위기 닥칠 것\"",
+      "source": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2639169",
+      "canonical_url": "https://www.etoday.co.kr/news/view/2639169",
+      "published_at": "2026-10-23T07:55:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-23 07:55; 발행사 전체 기사 본문 수동 대조 및 최초시각 확인. 담합 전용 자동 body 조건과 별도 검토.",
+      "summary": "S&P글로벌, 경유·비료 공급 차질과 이상기후에 따른 2027년 식량가격 상승 위험 경고",
+      "snippet": "S&P글로벌, 경유·비료 공급 차질과 이상기후에 따른 2027년 식량가격 상승 위험 경고",
+      "queries": [
+        "원수집 전체 검토 및 발행사 목록 보완"
+      ],
+      "collected_at": "2026-10-23T08:15:56.216414+09:00",
+      "id": "cc80963a9f1dd72e",
+      "source_normalized": "이투데이",
+      "grade": "B",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유공급 및 정유 국감 직접 관련성 편집 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "트럼프 \"이란, 중간선거 앞 유가 올리려 모든 것 꾸며내\"",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261023005000071",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261023005000071",
+      "published_at": "2026-10-23T03:34:45+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-23T03:34:45+09:00; 발행사 전체 기사 본문 수동 대조 및 최초시각 확인. 담합 전용 자동 body 조건과 별도 검토.",
+      "summary": "트럼프, 이란의 선박 공격 주장 등이 유가를 올리려는 선동이라고 주장; 독립 확인 사실과 구분",
+      "snippet": "트럼프, 이란의 선박 공격 주장 등이 유가를 올리려는 선동이라고 주장; 독립 확인 사실과 구분",
+      "queries": [
+        "원수집 전체 검토 및 발행사 목록 보완"
+      ],
+      "collected_at": "2026-10-23T08:15:56.216414+09:00",
+      "id": "89dfc1ed2e4e8b8e",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유공급 및 정유 국감 직접 관련성 편집 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
     }
-  ]
+  ],
+  "summary": "중동 공급위험에 국제유가 상승 및 경유·비료 가격의 파급 위험",
+  "editorial_audit": "data/reviews/2026-10-23-morning.audit.json",
+  "coverage_note": "검색 원수집 118건 전체와 원문 확인/미확인·시간대 밖·관련성 제외를 검토기록에 보존. 다른 매체의 같은 사건 보도 모두 보존. 공개검색 페이지 제한 및 일부 원문 미확인.",
+  "raw_count_basis": "검색 원수집 전체 118건. 정규화 후보 및 발행사 보완 수와 별도."
 }
