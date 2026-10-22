@@ -1,0 +1,177 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-22",
+  "slot": "evening",
+  "period_start": "2026-10-22T08:00:00+09:00",
+  "period_end": "2026-10-22T17:00:00+09:00",
+  "period_label": "2026-10-22 08:00 ~ 2026-10-22 17:00",
+  "generated_at": "2026-10-22T17:20:30.010773+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 36,
+  "total_enriched_input_count": 9,
+  "total_in_period_unique_count": 5,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 1,
+  "total_deduped_count": 3,
+  "total_ok_count": 2,
+  "total_review_count": 1,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 1,
+    "B": 1,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 21,
+    "daum": 5,
+    "google": 10
+  },
+  "query_counts": {
+    "기름값 담합": 1,
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-22T17:19:43.490390+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "달라진 형사사법체계…중수청, 비정치 경제사건 집중하나",
+      "url": "https://biz.heraldcorp.com/article/10911170?ref=naver",
+      "source": "헤럴드경제",
+      "published_at": "2026-10-22T11:11:36+09:00",
+      "snippet": "구 서울중앙지검 공정거래조사부(현 서울중앙지방공소청 중대범죄기소4부)를 중심으로 전분당, 유가 담합 등 수사가 진행됐고, 검찰청 폐지 직전 석유 화학 제품 담합 사건 규모를 총 16조3961억원으로 특정해 주요 기업 임직원이 재판에 넘겨지기도 했다. 규모로 봐도 기존 서울중앙지검 공정거래조사부 검사와...",
+      "collected_at": "2026-10-22T17:19:43.911586+09:00",
+      "normalized_title": "달라진 형사사법체계…중수청, 비정치 경제사건 집중하나",
+      "source_normalized": "헤럴드경제",
+      "duplicate_key": "헤럴드경제::달라진 형사사법체계…중수청, 비정치 경제사건 집중하나",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://biz.heraldcorp.com/article/10911170?ref=naver",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-10-22 11:11:36",
+      "verified": false,
+      "verification_reason": "자동 검증 표시는 재확인403에 따라 취소",
+      "id": "e57312f243ae834b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "재확인 시 발행사403으로 본문 검증 미완료"
+    },
+    {
+      "title": "[기자수첩] 정유사 틀어쥐고 생색낸 정부, IT값 폭등 부른 반도체엔 ‘쉿’",
+      "url": "https://www.newsian.co.kr/news/articleView.html?idxno=97491",
+      "source": "뉴시안",
+      "published_at": "2026-10-22T09:47:00+09:00",
+      "snippet": "최고가격제 손실보전 지연·산정 기준과 정유·반도체 정책 형평성에 대한 기자수첩. 필자 비판이며 정부 확정 판단과 구분",
+      "collected_at": "2026-10-22T17:19:43.912442+09:00",
+      "normalized_title": "[기자수첩] 정유사 틀어쥐고 생색낸 정부, IT값 폭등 부른 반도체엔 ‘쉿’",
+      "source_normalized": "뉴시안",
+      "duplicate_key": "뉴시안::[기자수첩] 정유사 틀어쥐고 생색낸 정부, it값 폭등 부른 반도체엔 ‘쉿’",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsian.co.kr/news/articleView.html?idxno=97491",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-22T09:47:00+09:00; 원문 전체본문 직접 확인, 기자수첩 의견과 사실 구분",
+      "verified": true,
+      "verification_reason": "발행사 전체본문·최초시각 직접 대조",
+      "id": "65efe29ff6f963d2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "기자수첩 원문 전체본문·최초시각 수동 확인",
+      "summary": "최고가격제 손실보전 지연·산정 기준과 정유·반도체 정책 형평성에 대한 기자수첩. 필자 비판이며 정부 확정 판단과 구분"
+    },
+    {
+      "title": "경유 수출 제한 완화 준비…산업부 \"규정 개정 없이 예외 허용 가능\"",
+      "source": "머니투데이",
+      "source_normalized": "머니투데이",
+      "url": "https://www.mt.co.kr/economy/2026/10/22/2026102215222550751",
+      "canonical_url": "https://www.mt.co.kr/economy/2026/10/22/2026102215222550751",
+      "published_at": "2026-10-22T16:24:39+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-22T16:24:39+09:00; 발행사 전체본문 수동 대조",
+      "summary": "산업부, 국내 재고·수급을 전제로 경유 수출 제한 예외 허용 준비. 시행시점 미정",
+      "grade": "B",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "정유 공급·수출 정책 직접 관련성 편집 확인",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유",
+        "경유",
+        "최고가격제"
+      ],
+      "id": "c427a2fc468695b8",
+      "snippet": "산업부, 국내 재고·수급을 전제로 경유 수출 제한 예외 허용 준비. 시행시점 미정"
+    }
+  ],
+  "summary": "경유 수출 제한 예외 허용 준비 및 최고가격제 보상기준 관련 기자수첩",
+  "editorial_audit": "data/reviews/2026-10-22-evening.audit.json",
+  "coverage_note": "원수집 36건·정규화 전처리 후보 9건과 별도 수동보완 1건 검토. 본문 확인 2건·미확인 1건 표시. 같은 매체 같은 정규화 제목만 병합, 다른 매체 동일 사건 보존. 17:05 증인 철회는 시간대 밖 제외.",
+  "raw_count_basis": "검색 원수집 전체 36건 보존. 전처리 후보 9건 및 수동 보완은 원수집 수와 별도."
+}

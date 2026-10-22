@@ -5,7 +5,7 @@
     "display_date": "2026년 10월 22일 (목)",
     "previous_day_label": "10/21",
     "today_label": "10/22",
-    "generated_at": "2026-10-22 08:11 KST",
+    "generated_at": "2026-10-22 17:25 KST",
     "review_status": "검토 완료",
     "report_version": "reviewed-original-sources-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △정부, 국내 공급 여유를 전제로 경유 수출 제한 완화 검토 △경제계, 피지컬 AI 지원법과 석유화학 설비 철거·환경복구 비용 지원 등 119개 정책과제 건의 △중동 공급위험과 종전협상 기대가 교차하며 WTI 97.15달러·브렌트유 108.82달러 마감"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △산업부, 최고가격제 유지 속 국내 재고·수급을 고려한 경유 수출 제한 예외 허용 준비 △산중위 종합감사, 암바토비 투자 회수율·공단 경영 및 산업부·기후부 에너지 업무 분리 공방 △기후부·노동부, 풍력 유지보수 안전수칙 안내서 제작 및 상업운전 풍력단지 141곳 배포"
     }
   ],
   "prices": {
@@ -1553,5 +1557,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△산업부, 최고가격제 유지 속 국내 재고·수급을 고려한 경유 수출 제한 예외 허용 준비 △산중위 종합감사, 암바토비 투자 회수율·공단 경영 및 산업부·기후부 에너지 업무 분리 공방 △기후부·노동부, 풍력 유지보수 안전수칙 안내서 제작 및 상업운전 풍력단지 141곳 배포",
+    "trend_paragraphs": [
+      "산업부, 최고가격제 유지 속 국내 재고·수급을 고려한 경유 수출 제한 예외 허용 준비",
+      "산중위 종합감사, 암바토비 투자 회수율·공단 경영 및 산업부·기후부 에너지 업무 분리 공방",
+      "기후부·노동부, 풍력 유지보수 안전수칙 안내서 제작 및 상업운전 풍력단지 141곳 배포"
+    ],
+    "articles": [
+      {
+        "title": "경유 수출 제한 완화 준비…산업부 \"규정 개정 없이 예외 허용 가능\"",
+        "press": "머니투데이",
+        "url": "https://www.mt.co.kr/economy/2026/10/22/2026102215222550751",
+        "summary": "산업부, 최고가격제 유지 속 국내 재고·수급을 고려한 경유 수출 제한 예외 허용 준비",
+        "published_at_kst": "2026-10-22T16:24:39+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-22T16:24:39+09:00; 발행사 원문 전체본문·표시 송고/입력시각 수동 대조. 자동 body_available=False는 추출기 선택자 한계이며 본문 직접 확인으로 보완. 수정·검색시각 제외."
+      },
+      {
+        "title": "여야, 산자위서 '자원외교 실패'·'에너지 부처 개편' 두고 공방",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261022090400001",
+        "summary": "산중위 종합감사, 암바토비 투자 회수율·공단 경영 및 산업부·기후부 에너지 업무 분리 공방",
+        "published_at_kst": "2026-10-22T11:52:42+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-22T11:52:42+09:00; 발행사 원문 전체본문·표시 송고/입력시각 수동 대조. 자동 body_available=False는 추출기 선택자 한계이며 본문 직접 확인으로 보완. 수정·검색시각 제외."
+      },
+      {
+        "title": "풍력발전기 작업 사고 없게 '한눈에 보는 안전수칙 안내서' 마련",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261022051500530",
+        "summary": "기후부·노동부, 풍력 유지보수 안전수칙 안내서 제작 및 상업운전 풍력단지 141곳 배포",
+        "published_at_kst": "2026-10-22T12:00:07+09:00",
+        "summary_basis": "original_article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-22T12:00:07+09:00; 발행사 원문 전체본문·표시 송고/입력시각 수동 대조. 자동 body_available=False는 추출기 선택자 한계이며 본문 직접 확인으로 보완. 수정·검색시각 제외."
+      }
+    ],
+    "source": "발행사 원문 본문·최초입력 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
