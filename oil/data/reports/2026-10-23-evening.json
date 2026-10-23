@@ -1,0 +1,98 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-23",
+  "slot": "evening",
+  "period_start": "2026-10-23T08:00:00+09:00",
+  "period_end": "2026-10-23T17:00:00+09:00",
+  "period_label": "2026-10-23 08:00 ~ 2026-10-23 17:00",
+  "generated_at": "2026-10-23T22:21:18.850202+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 45,
+  "total_enriched_input_count": 11,
+  "total_in_period_unique_count": 4,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 4,
+  "total_deduped_count": 1,
+  "total_ok_count": 0,
+  "total_review_count": 1,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 25,
+    "daum": 2,
+    "google": 18
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "기름값 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-23T22:20:27.538818+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "머스크에 전화한 트럼프 \"스타링크 풀었다\" 젤렌스키 \"여전히 먹통\"-국제ㅣ한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026102312230003569?did=NA",
+      "source": "한국일보",
+      "published_at": "2026-10-23T14:31:00+09:00",
+      "snippet": "중간선거를 앞두고 국내 기름값 안정과 조기 종전이라는 정치적 치적에 쫓긴 트럼프 행정부가 우크라이나를 배제한 채 러시아와 타협에 속도를 내고... 전선의 당사자인 우크라이나를 건너뛴 채 강대국 담합 으로 영토 양보를 압박하겠다는 계산이다. 젤렌스키 대통령은 이날 CNN 인터뷰에서 \"미국이 제재를...",
+      "collected_at": "2026-10-23T22:20:37.997456+09:00",
+      "normalized_title": "머스크에 전화한 트럼프 \"스타링크 풀었다\" 젤렌스키 \"여전히 먹통\"-국제ㅣ한국일보",
+      "source_normalized": "한국일보",
+      "duplicate_key": "한국일보::머스크에 전화한 트럼프 \"스타링크 풀었다\" 젤렌스키 \"여전히 먹통\"-국제ㅣ한국일보",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.hankookilbo.com/news/article/A2026102312230003569?did=NA",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.10.23 14:31",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "760e0d3306bf8f97",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ]
+}
