@@ -1,0 +1,130 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-23",
+  "slot": "night",
+  "period_start": "2026-10-23T17:00:00+09:00",
+  "period_end": "2026-10-24T00:00:00+09:00",
+  "period_label": "2026-10-23 17:00 ~ 2026-10-24 00:00",
+  "generated_at": "2026-10-24T10:32:28.189925+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 51,
+  "total_enriched_input_count": 51,
+  "total_in_period_unique_count": 4,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 10,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 27,
+    "daum": 7,
+    "google": 17
+  },
+  "query_counts": {
+    "SK에너지 담합": 1,
+    "공정위 유가 담합": 1,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "현대오일뱅크 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-24T10:31:43.701362+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[CEO 성과 점검] [HD 현대오일뱅크 ] 송명준·정임주 공동대표, 임기 만료...",
+      "url": "https://www.topdaily.kr/articles/112478",
+      "source": "톱데일리",
+      "published_at": "2026-10-23T17:32:21.616543+09:00",
+      "snippet": "HD 현대오일뱅크 는 가격 담합 혐의를 부인하며 형사재판과 공정위 심의 절차에서 적극 소명하겠다는 입장이다. 구체적인 위법 여부는 향후 법적 판단을 지켜봐야 하겠지만, 사법 리스크가 불거진 것 자체로 그간의 가격 결정 과정과 정보 관리 체계가 안고 있던 내부통제 공백의 책임을 피하기는 어려워...",
+      "collected_at": "2026-10-24T10:32:21.616571+09:00",
+      "normalized_title": "[CEO 성과 점검] [HD 현대오일뱅크 ] 송명준·정임주 공동대표, 임기 만료...",
+      "source_normalized": "톱데일리",
+      "duplicate_key": "톱데일리::[ceo 성과 점검] [hd 현대오일뱅크 ] 송명준·정임주 공동대표, 임기 만료...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.topdaily.kr/articles/112478",
+      "id": "09e7934d8e5d9b2b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[CEO 성과 점검] [HD현대오일뱅크] 송명준·정임주 공동대표, 임기 만료...",
+      "url": "https://www.topdaily.kr/articles/112478",
+      "source": "톱데일리",
+      "published_at": "2026-10-23T17:31:45.156002+09:00",
+      "snippet": "검찰은 HD현대오일뱅크와 SK에너지 가 2024년 7월부터 가격 정보를 교환하고 2026년 3월 가격 인상 폭을 조율했다며 직접 담합 관련 거래 규모를 14조2000억원으로 산정했다. 공정거래위원회 역시 2022년 2월부터 가격정보 교환과 두 차례의 가격 합의가 있었다며 약 44조1000억원을 관련 매출액으로 잡은...",
+      "collected_at": "2026-10-24T10:31:45.156020+09:00",
+      "normalized_title": "[CEO 성과 점검] [HD현대오일뱅크] 송명준·정임주 공동대표, 임기 만료...",
+      "source_normalized": "톱데일리",
+      "duplicate_key": "톱데일리::[ceo 성과 점검] [hd현대오일뱅크] 송명준·정임주 공동대표, 임기 만료...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "https://www.topdaily.kr/articles/112478",
+      "id": "f7b5d2e2d748fa60",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
