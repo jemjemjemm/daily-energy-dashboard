@@ -1,0 +1,221 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-25",
+  "slot": "night",
+  "period_start": "2026-10-25T17:00:00+09:00",
+  "period_end": "2026-10-26T00:00:00+09:00",
+  "period_label": "2026-10-25 17:00 ~ 2026-10-26 00:00",
+  "generated_at": "2026-10-26T08:17:16.223592+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 39,
+  "total_enriched_input_count": 39,
+  "total_in_period_unique_count": 4,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 3,
+  "total_deduped_count": 4,
+  "total_ok_count": 4,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 24,
+    "daum": 1,
+    "google": 14
+  },
+  "query_counts": {
+    "SK에너지 담합": 2,
+    "경유 담합": 2,
+    "공정거래위원회 정유사 담합": 2,
+    "기름값 담합": 1,
+    "석유 담합": 3,
+    "석유제품 담합": 2,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 2,
+    "정유업계 담합": 2,
+    "주유소 담합": 1,
+    "현대오일뱅크 담합": 2,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-26T08:16:38.199531+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "담합 자진신고 기업에 형벌 감면 혜택 늘린다",
+      "url": "https://www.sedaily.com/article/20105830?ref=naver",
+      "source": "서울경제",
+      "published_at": "2026-10-25T18:16:48.759125+09:00",
+      "snippet": "공소청이 지난해부터 정유· 석유 화학·식품 등 주요 산업에서 대규모 담합 수사를 이어가면서 기업들의 자진 신고 움직임도 활발해지고 있지만 어느 기관에 신청해야 형벌 감면을 보장받을 수 있는지 불확실한 상황이다. 법조계에서도 의견이 엇갈린다. 공소청은 형사 리니언시가 검사의 기소 면제와 구형량...",
+      "collected_at": "2026-10-26T08:16:48.759150+09:00",
+      "normalized_title": "담합 자진신고 기업에 형벌 감면 혜택 늘린다",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::담합 자진신고 기업에 형벌 감면 혜택 늘린다",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.sedaily.com/article/20105830?ref=naver",
+      "id": "c1c58790891e365e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유업계 , 3분기 실적 '껑충'…가격 규제· 담합 의혹은 부담",
+      "url": "https://www.ddaily.co.kr/page/view/2026102215562711138",
+      "source": "디지털데일리",
+      "published_at": "2026-10-25T18:16:57.715632+09:00",
+      "snippet": "정유업계 로서는 국제유가와 정제마진이 상승하더라도 국내 판매가격에 이를 온전히 반영하기 어려운 상황이다. 가격 담합 의혹에 따른 법적 부담도 남아 있다. 공정거래위원회는 SK에너지와 HD현대오일뱅크의 석유제품 가격 담합 혐의에 대한 심의 절차에 착수했으며 관련 재판도 진행 중이다. 최근 국회...",
+      "collected_at": "2026-10-26T08:16:57.715659+09:00",
+      "normalized_title": "정유업계 , 3분기 실적 '껑충'…가격 규제· 담합 의혹은 부담",
+      "source_normalized": "디지털데일리",
+      "duplicate_key": "디지털데일리::정유업계 , 3분기 실적 '껑충'…가격 규제· 담합 의혹은 부담",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.ddaily.co.kr/page/view/2026102215562711138",
+      "id": "ffa6efc9863bb3ca",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유업계",
+        "석유제품",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유업계, 3분기 실적 '껑충'…가격 규제· 담합 의혹은 부담",
+      "url": "https://www.ddaily.co.kr/page/view/2026102215562711138",
+      "source": "디지털데일리",
+      "published_at": "2026-10-25T18:16:39.654926+09:00",
+      "snippet": "이에 따라 17일부터 4주간 정유사 공급가격 상한은 휘발유 L당 1784원· 경유 1773원·등유 1380원으로 유지된다. 정유업계로서는 국제유가와 정제마진이 상승하더라도 국내 판매가격에 이를 온전히 반영하기 어려운 상황이다. 가격 담합 의혹에 따른 법적 부담도 남아 있다. 공정거래위원회는 SK에너지와...",
+      "collected_at": "2026-10-26T08:16:39.654952+09:00",
+      "normalized_title": "정유업계, 3분기 실적 '껑충'…가격 규제· 담합 의혹은 부담",
+      "source_normalized": "디지털데일리",
+      "duplicate_key": "디지털데일리::정유업계, 3분기 실적 '껑충'…가격 규제· 담합 의혹은 부담",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://www.ddaily.co.kr/page/view/2026102215562711138",
+      "id": "3380f23647046215",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "정유업계",
+        "휘발유",
+        "경유",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정유업계, 3분기 실적 `껑충`…가격 규제·담합 의혹은 부담",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EanBQSUdRYU9aekNCQVVBdnRJLWNacUlRZGZFTU9rdGF3YktORHVWTUpOT1pLOUQ5aU5iWlFObW81cDM3YzdLMzNQRHRpTjViMmhDMHEzS1RmM0czWWcwdE5rLVc?oc=5",
+      "source": "디지털데일리",
+      "published_at": "2026-10-25T17:52:20+09:00",
+      "snippet": "정유업계, 3분기 실적 `껑충`…가격 규제·담합 의혹은 부담 디지털데일리",
+      "collected_at": "2026-10-26T08:16:41.350712+09:00",
+      "normalized_title": "정유업계, 3분기 실적 `껑충`…가격 규제·담합 의혹은 부담",
+      "source_normalized": "디지털데일리",
+      "duplicate_key": "디지털데일리::정유업계, 3분기 실적 `껑충`…가격 규제·담합 의혹은 부담",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 12,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EanBQSUdRYU9aekNCQVVBdnRJLWNacUlRZGZFTU9rdGF3YktORHVWTUpOT1pLOUQ5aU5iWlFObW81cDM3YzdLMzNQRHRpTjViMmhDMHEzS1RmM0czWWcwdE5rLVc?oc=5",
+      "id": "fc44c2308233af47",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
