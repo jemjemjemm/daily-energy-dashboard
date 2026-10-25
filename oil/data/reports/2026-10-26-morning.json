@@ -6,7 +6,7 @@
   "period_start": "2026-10-26T00:00:00+09:00",
   "period_end": "2026-10-26T08:00:00+09:00",
   "period_label": "2026-10-26 00:00 ~ 2026-10-26 08:00",
-  "generated_at": "2026-10-26T08:17:19.971329+09:00",
+  "generated_at": "2026-10-26T08:23:49.233145+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -23,18 +23,18 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 39,
-  "total_enriched_input_count": 7,
-  "total_in_period_unique_count": 0,
+  "total_enriched_input_count": 13,
+  "total_in_period_unique_count": 9,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 5,
-  "total_deduped_count": 0,
-  "total_ok_count": 0,
+  "total_outside_period_count": 4,
+  "total_deduped_count": 9,
+  "total_ok_count": 9,
   "total_review_count": 0,
   "total_excluded_count": 0,
   "grade_counts": {
-    "A": 0,
-    "B": 0,
-    "C": 0
+    "A": 3,
+    "B": 1,
+    "C": 5
   },
   "portal_counts": {
     "naver": 24,
@@ -54,5 +54,254 @@
     }
   ],
   "telegram_alert_log": [],
-  "articles": []
+  "articles": [
+    {
+      "title": "7개월 넘은 석유 최고가격제… 정부, 출구전략 고민",
+      "source": "서울신문",
+      "url": "https://www.seoul.co.kr/news/economy/2026/10/26/20261026031006",
+      "canonical_url": "https://www.seoul.co.kr/news/economy/2026/10/26/20261026031006",
+      "published_at": "2026-10-26T00:14:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-26 00:14; 발행사 전체 본문 수동 대조. 최초시각과 수정·검색/RSS 노출시각을 구분.",
+      "summary": "최고가격제의 물가 완충 효과와 손실보전 예산 확대·종료 시 부담 논의; 5조6497억원은 예산이며 실제 지급·피해 인정액과 구분",
+      "snippet": "최고가격제의 물가 완충 효과와 손실보전 예산 확대·종료 시 부담 논의; 5조6497억원은 예산이며 실제 지급·피해 인정액과 구분",
+      "queries": [
+        "원수집 전수검토 및 유가·최고가격제·비축유 원문 보완"
+      ],
+      "collected_at": "2026-10-26T08:17:16.006241+09:00",
+      "id": "c104c9e488aea13c",
+      "source_normalized": "서울신문",
+      "grade": "A",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유 공급·정유 정책 직접 관련성 수동 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "‘석유 최고가격제’ 재정 부담·시장 왜곡 우려 고조⋯ 출구전략 과제로",
+      "source": "국민일보",
+      "url": "https://www.kmib.co.kr/article/20261025501706",
+      "canonical_url": "https://www.kmib.co.kr/article/20261025501706",
+      "published_at": "2026-10-26T00:17:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-26 00:17; 발행사 전체 본문 수동 대조. 최초시각과 수정·검색/RSS 노출시각을 구분.",
+      "summary": "최고가격제 재정·형평성 부담 및 단계적 조정·취약계층 선별지원 필요성 제기",
+      "snippet": "최고가격제 재정·형평성 부담 및 단계적 조정·취약계층 선별지원 필요성 제기",
+      "queries": [
+        "원수집 전수검토 및 유가·최고가격제·비축유 원문 보완"
+      ],
+      "collected_at": "2026-10-26T08:17:16.006241+09:00",
+      "id": "506820c4520422d1",
+      "source_normalized": "국민일보",
+      "grade": "A",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유 공급·정유 정책 직접 관련성 수동 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "트럼프 “유가 예상보단 덜 올랐다…이란핵 저지 위한 작은 대가”",
+      "source": "국민일보",
+      "url": "https://www.kmib.co.kr/article/20261026500032",
+      "canonical_url": "https://www.kmib.co.kr/article/20261026500032",
+      "published_at": "2026-10-26T07:10:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-26 07:10; 발행사 전체 본문 수동 대조. 최초시각과 수정·검색/RSS 노출시각을 구분.",
+      "summary": "트럼프, 고유가를 이란 핵 저지의 대가로 평가; 대통령의 주장과 실제 시장가격을 구분",
+      "snippet": "트럼프, 고유가를 이란 핵 저지의 대가로 평가; 대통령의 주장과 실제 시장가격을 구분",
+      "queries": [
+        "원수집 전수검토 및 유가·최고가격제·비축유 원문 보완"
+      ],
+      "collected_at": "2026-10-26T08:17:16.006241+09:00",
+      "id": "7b22f4c8451dac52",
+      "source_normalized": "국민일보",
+      "grade": "A",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유 공급·정유 정책 직접 관련성 수동 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "트럼프 “고유가 신경 안 써⋯수천억 달러 벌어들이는 중”",
+      "source": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2639805",
+      "canonical_url": "https://www.etoday.co.kr/news/view/2639805",
+      "published_at": "2026-10-26T07:32:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-26 07:32; 발행사 전체 본문 수동 대조. 최초시각과 수정·검색/RSS 노출시각을 구분.",
+      "summary": "트럼프, 유가 상승과 미국 석유수입을 평가하는 발언; 휘발유·경유 소비자 부담 지속",
+      "snippet": "트럼프, 유가 상승과 미국 석유수입을 평가하는 발언; 휘발유·경유 소비자 부담 지속",
+      "queries": [
+        "원수집 전수검토 및 유가·최고가격제·비축유 원문 보완"
+      ],
+      "collected_at": "2026-10-26T08:17:16.006241+09:00",
+      "id": "5557eea402264d51",
+      "source_normalized": "이투데이",
+      "grade": "B",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유 공급·정유 정책 직접 관련성 수동 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "[중동戰 8개월…글로벌 석유 비상] ④ 韓 보유량, IEA 권고기준 '두 배'…장기전 안심 못해",
+      "source": "대한경제",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610231429080390894",
+      "canonical_url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610231429080390894",
+      "published_at": "2026-10-26T06:00:53+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-26 06:00:53; 발행사 전체 본문 수동 대조. 최초시각과 수정·검색/RSS 노출시각을 구분.",
+      "summary": "국내 비축유·도입선 다변화·스와프를 통한 장기 공급위험 대응 점검",
+      "snippet": "국내 비축유·도입선 다변화·스와프를 통한 장기 공급위험 대응 점검",
+      "queries": [
+        "원수집 전수검토 및 유가·최고가격제·비축유 원문 보완"
+      ],
+      "collected_at": "2026-10-26T08:17:16.006241+09:00",
+      "id": "0926e80e083662c8",
+      "source_normalized": "대한경제",
+      "grade": "C",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유 공급·정유 정책 직접 관련성 수동 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "[중동戰 8개월…글로벌 석유 비상] ① 비축油 고갈…세계경제 '에너지 리스크'",
+      "source": "대한경제",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610231357119300885",
+      "canonical_url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610231357119300885",
+      "published_at": "2026-10-26T06:00:44+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-26 06:00:44; 발행사 전체 본문 수동 대조. 최초시각과 수정·검색/RSS 노출시각을 구분.",
+      "summary": "중동전쟁과 재고 감소에 따른 세계 석유 공급 안전판 약화 점검",
+      "snippet": "중동전쟁과 재고 감소에 따른 세계 석유 공급 안전판 약화 점검",
+      "queries": [
+        "원수집 전수검토 및 유가·최고가격제·비축유 원문 보완"
+      ],
+      "collected_at": "2026-10-26T08:17:16.006241+09:00",
+      "id": "dc4a90c73637dcce",
+      "source_normalized": "대한경제",
+      "grade": "C",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유 공급·정유 정책 직접 관련성 수동 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "[중동戰 8개월…글로벌 석유 비상] ② 설비 타격에 재건도 시차…내년에도 비축유 감소ㆍ高유가 불가피",
+      "source": "대한경제",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610231408490440887",
+      "canonical_url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610231408490440887",
+      "published_at": "2026-10-26T06:00:47+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-26 06:00:47; 발행사 전체 본문 수동 대조. 최초시각과 수정·검색/RSS 노출시각을 구분.",
+      "summary": "파괴된 석유 공급·정제 설비의 복구 지연과 비축유 감소 장기화 위험 점검",
+      "snippet": "파괴된 석유 공급·정제 설비의 복구 지연과 비축유 감소 장기화 위험 점검",
+      "queries": [
+        "원수집 전수검토 및 유가·최고가격제·비축유 원문 보완"
+      ],
+      "collected_at": "2026-10-26T08:17:16.006241+09:00",
+      "id": "623799068fae0006",
+      "source_normalized": "대한경제",
+      "grade": "C",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유 공급·정유 정책 직접 관련성 수동 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "[중동戰 8개월…글로벌 석유 비상] ③ “기름값 잡겠다” 장담하더니…중간선거 앞두고 키운 화(禍)",
+      "source": "대한경제",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610231418089780889",
+      "canonical_url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610231418089780889",
+      "published_at": "2026-10-26T06:00:50+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-26 06:00:50; 발행사 전체 본문 수동 대조. 최초시각과 수정·검색/RSS 노출시각을 구분.",
+      "summary": "미국 난방유 가격 급등과 북동부 난방비축유 방출 대응 보도",
+      "snippet": "미국 난방유 가격 급등과 북동부 난방비축유 방출 대응 보도",
+      "queries": [
+        "원수집 전수검토 및 유가·최고가격제·비축유 원문 보완"
+      ],
+      "collected_at": "2026-10-26T08:17:16.006241+09:00",
+      "id": "508536b72ddf803f",
+      "source_normalized": "대한경제",
+      "grade": "C",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유 공급·정유 정책 직접 관련성 수동 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "농협중앙회, 지역농협 400곳에 유류비 21억 지원",
+      "source": "농민신문",
+      "url": "https://www.nongmin.com/article/20261023500661",
+      "canonical_url": "https://www.nongmin.com/article/20261023500661",
+      "published_at": "2026-10-26T00:00:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-26 00:00; 발행사 전체 본문 수동 대조. 최초시각과 수정·검색/RSS 노출시각을 구분.",
+      "summary": "농협, 농작업대행 지역농협 400여곳에 11월 유류비 지원 계획; 농협주유소 손실 주장과 정유사 정부 손실보전 구분",
+      "snippet": "농협, 농작업대행 지역농협 400여곳에 11월 유류비 지원 계획; 농협주유소 손실 주장과 정유사 정부 손실보전 구분",
+      "queries": [
+        "원수집 전수검토 및 유가·최고가격제·비축유 원문 보완"
+      ],
+      "collected_at": "2026-10-26T08:17:16.006241+09:00",
+      "id": "bcee014caa1deed7",
+      "source_normalized": "농민신문",
+      "grade": "C",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유 공급·정유 정책 직접 관련성 수동 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
+    }
+  ],
+  "summary": "최고가격제 장기화의 재정·형평성 부담과 중동 공급위험 대응",
+  "editorial_audit": "data/reviews/2026-10-26-morning.audit.json",
+  "coverage_note": "담합 검색 원수집 39건 전체와 원문 확인·미확인·시간대 밖 제외를 검토기록에 보존. 유가·최고가격제·비축유 원문 추가 검토. 다른 매체 동일 사건 모두 보존. 공개검색 노출·원문 접근 제한 존재.",
+  "raw_count_basis": "설정된 담합 검색 원수집 39건 전체. 정규화 후보 수·추가 원문 수와 별도.",
+  "supplemental_review_count": 12
 }

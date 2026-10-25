@@ -6,7 +6,7 @@
   "period_start": "2026-10-25T17:00:00+09:00",
   "period_end": "2026-10-26T00:00:00+09:00",
   "period_label": "2026-10-25 17:00 ~ 2026-10-26 00:00",
-  "generated_at": "2026-10-26T08:17:16.223592+09:00",
+  "generated_at": "2026-10-26T08:23:49.219592+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -23,18 +23,18 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 39,
-  "total_enriched_input_count": 39,
-  "total_in_period_unique_count": 4,
+  "total_enriched_input_count": 13,
+  "total_in_period_unique_count": 3,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 3,
-  "total_deduped_count": 4,
-  "total_ok_count": 4,
+  "total_outside_period_count": 10,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
   "total_review_count": 0,
   "total_excluded_count": 0,
   "grade_counts": {
-    "A": 1,
+    "A": 2,
     "B": 0,
-    "C": 3
+    "C": 1
   },
   "portal_counts": {
     "naver": 24,
@@ -42,19 +42,7 @@
     "google": 14
   },
   "query_counts": {
-    "SK에너지 담합": 2,
-    "경유 담합": 2,
-    "공정거래위원회 정유사 담합": 2,
-    "기름값 담합": 1,
-    "석유 담합": 3,
-    "석유제품 담합": 2,
-    "유가 담합": 2,
-    "유가담합": 2,
-    "정유사 담합": 2,
-    "정유업계 담합": 2,
-    "주유소 담합": 1,
-    "현대오일뱅크 담합": 2,
-    "휘발유 담합": 2
+    "원수집 전수검토 및 유가·최고가격제·비축유 원문 보완": 1
   },
   "collection_warnings": [
     {
@@ -70,63 +58,34 @@
   "telegram_alert_log": [],
   "articles": [
     {
-      "title": "담합 자진신고 기업에 형벌 감면 혜택 늘린다",
-      "url": "https://www.sedaily.com/article/20105830?ref=naver",
-      "source": "서울경제",
-      "published_at": "2026-10-25T18:16:48.759125+09:00",
-      "snippet": "공소청이 지난해부터 정유· 석유 화학·식품 등 주요 산업에서 대규모 담합 수사를 이어가면서 기업들의 자진 신고 움직임도 활발해지고 있지만 어느 기관에 신청해야 형벌 감면을 보장받을 수 있는지 불확실한 상황이다. 법조계에서도 의견이 엇갈린다. 공소청은 형사 리니언시가 검사의 기소 면제와 구형량...",
-      "collected_at": "2026-10-26T08:16:48.759150+09:00",
-      "normalized_title": "담합 자진신고 기업에 형벌 감면 혜택 늘린다",
-      "source_normalized": "서울경제",
-      "duplicate_key": "서울경제::담합 자진신고 기업에 형벌 감면 혜택 늘린다",
+      "title": "정유업계, 3분기 실적 '껑충'…가격 규제·담합 의혹은 부담",
+      "source": "디지털데일리",
+      "url": "https://www.ddaily.co.kr/page/view/2026102215562711138",
+      "canonical_url": "https://www.ddaily.co.kr/page/view/2026102215562711138",
+      "published_at": "2026-10-25T17:52:20+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "발행사 본문 상단 발행일 2026-10-25 17:52:20 직접 확인; URL의 10/22 및 검색 상대시각과 구분; 발행사 전체 본문 수동 대조. 최초시각과 수정·검색/RSS 노출시각을 구분.",
+      "summary": "정유업계 3분기 실적 개선 전망과 최고가격제·수출제한·담합 심의에 따른 경영 부담 점검",
+      "snippet": "정유업계 3분기 실적 개선 전망과 최고가격제·수출제한·담합 심의에 따른 경영 부담 점검",
+      "queries": [
+        "원수집 전수검토 및 유가·최고가격제·비축유 원문 보완"
+      ],
+      "collected_at": "2026-10-26T08:17:16.006241+09:00",
+      "normalized_title": "정유업계, 3분기 실적 '껑충'…가격 규제·담합 의혹은 부담",
+      "source_normalized": "디지털데일리",
+      "duplicate_key": "디지털데일리::정유업계, 3분기 실적 '껑충'…가격 규제·담합 의혹은 부담",
       "portals": [
         "naver",
-        "daum",
-        "google"
-      ],
-      "queries": [
-        "석유 담합"
-      ],
-      "duplicate_count": 2,
-      "canonical_url": "https://www.sedaily.com/article/20105830?ref=naver",
-      "id": "c1c58790891e365e",
-      "grade": "A",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "정유업계 , 3분기 실적 '껑충'…가격 규제· 담합 의혹은 부담",
-      "url": "https://www.ddaily.co.kr/page/view/2026102215562711138",
-      "source": "디지털데일리",
-      "published_at": "2026-10-25T18:16:57.715632+09:00",
-      "snippet": "정유업계 로서는 국제유가와 정제마진이 상승하더라도 국내 판매가격에 이를 온전히 반영하기 어려운 상황이다. 가격 담합 의혹에 따른 법적 부담도 남아 있다. 공정거래위원회는 SK에너지와 HD현대오일뱅크의 석유제품 가격 담합 혐의에 대한 심의 절차에 착수했으며 관련 재판도 진행 중이다. 최근 국회...",
-      "collected_at": "2026-10-26T08:16:57.715659+09:00",
-      "normalized_title": "정유업계 , 3분기 실적 '껑충'…가격 규제· 담합 의혹은 부담",
-      "source_normalized": "디지털데일리",
-      "duplicate_key": "디지털데일리::정유업계 , 3분기 실적 '껑충'…가격 규제· 담합 의혹은 부담",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "정유업계 담합"
+        "google",
+        null
       ],
       "duplicate_count": 0,
-      "canonical_url": "https://www.ddaily.co.kr/page/view/2026102215562711138",
-      "id": "ffa6efc9863bb3ca",
+      "id": "a3710d3a4dd734c5",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
-        "유가",
-        "석유",
         "정유업계",
-        "석유제품",
-        "공정거래위원회",
         "담합"
       ],
       "quality_status": "ok",
@@ -134,88 +93,63 @@
       "status_reason": "유가담합 관련 맥락 확인"
     },
     {
-      "title": "정유업계, 3분기 실적 '껑충'…가격 규제· 담합 의혹은 부담",
-      "url": "https://www.ddaily.co.kr/page/view/2026102215562711138",
-      "source": "디지털데일리",
-      "published_at": "2026-10-25T18:16:39.654926+09:00",
-      "snippet": "이에 따라 17일부터 4주간 정유사 공급가격 상한은 휘발유 L당 1784원· 경유 1773원·등유 1380원으로 유지된다. 정유업계로서는 국제유가와 정제마진이 상승하더라도 국내 판매가격에 이를 온전히 반영하기 어려운 상황이다. 가격 담합 의혹에 따른 법적 부담도 남아 있다. 공정거래위원회는 SK에너지와...",
-      "collected_at": "2026-10-26T08:16:39.654952+09:00",
-      "normalized_title": "정유업계, 3분기 실적 '껑충'…가격 규제· 담합 의혹은 부담",
-      "source_normalized": "디지털데일리",
-      "duplicate_key": "디지털데일리::정유업계, 3분기 실적 '껑충'…가격 규제· 담합 의혹은 부담",
-      "portals": [
-        "naver"
-      ],
+      "title": "담합 자진신고 기업에 형벌 감면 혜택 늘린다",
+      "source": "서울경제",
+      "url": "https://www.sedaily.com/article/20105830",
+      "canonical_url": "https://www.sedaily.com/article/20105830",
+      "published_at": "2026-10-25T17:55:17+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-25T17:55:17+09:00; 발행사 전체 본문 수동 대조. 최초시각과 수정·검색/RSS 노출시각을 구분.",
+      "summary": "공소청, 담합 자진신고 기업의 조건부 기소유예·형벌 감면 확대 및 중수청과의 신청창구 혼선 우려",
+      "snippet": "공소청, 담합 자진신고 기업의 조건부 기소유예·형벌 감면 확대 및 중수청과의 신청창구 혼선 우려",
       "queries": [
-        "SK에너지 담합",
-        "경유 담합",
-        "공정거래위원회 정유사 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합",
-        "정유사 담합",
-        "현대오일뱅크 담합",
-        "휘발유 담합"
+        "원수집 전수검토 및 유가·최고가격제·비축유 원문 보완"
       ],
-      "duplicate_count": 9,
-      "canonical_url": "https://www.ddaily.co.kr/page/view/2026102215562711138",
-      "id": "3380f23647046215",
-      "grade": "C",
-      "published_at_status": "known",
+      "collected_at": "2026-10-26T08:17:16.006241+09:00",
+      "id": "96161a2a6ad99934",
+      "source_normalized": "서울경제",
+      "grade": "A",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·원유 공급·정유 정책 직접 관련성 수동 검토",
       "matched_keywords": [
         "유가",
-        "정유사",
-        "정유업계",
-        "휘발유",
-        "경유",
-        "공정거래위원회",
-        "담합"
+        "정유"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "published_at_status": "known"
     },
     {
-      "title": "정유업계, 3분기 실적 `껑충`…가격 규제·담합 의혹은 부담",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EanBQSUdRYU9aekNCQVVBdnRJLWNacUlRZGZFTU9rdGF3YktORHVWTUpOT1pLOUQ5aU5iWlFObW81cDM3YzdLMzNQRHRpTjViMmhDMHEzS1RmM0czWWcwdE5rLVc?oc=5",
-      "source": "디지털데일리",
-      "published_at": "2026-10-25T17:52:20+09:00",
-      "snippet": "정유업계, 3분기 실적 `껑충`…가격 규제·담합 의혹은 부담 디지털데일리",
-      "collected_at": "2026-10-26T08:16:41.350712+09:00",
-      "normalized_title": "정유업계, 3분기 실적 `껑충`…가격 규제·담합 의혹은 부담",
-      "source_normalized": "디지털데일리",
-      "duplicate_key": "디지털데일리::정유업계, 3분기 실적 `껑충`…가격 규제·담합 의혹은 부담",
-      "portals": [
-        "google"
-      ],
+      "title": "“진퇴양난” 7개월 넘은 석유 최고가격제 ‘출구 딜레마’",
+      "source": "서울신문",
+      "url": "https://www.seoul.co.kr/news/economy/2026/10/25/20261025500088",
+      "canonical_url": "https://www.seoul.co.kr/news/economy/2026/10/25/20261025500088",
+      "published_at": "2026-10-25T18:53:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-25 18:53; 발행사 전체 본문 수동 대조. 최초시각과 수정·검색/RSS 노출시각을 구분.",
+      "summary": "석유 최고가격제 장기화에 손실보전 예산·재정 부담 확대 및 단계적 출구전략 검토",
+      "snippet": "석유 최고가격제 장기화에 손실보전 예산·재정 부담 확대 및 단계적 출구전략 검토",
       "queries": [
-        "SK에너지 담합",
-        "경유 담합",
-        "공정거래위원회 정유사 담합",
-        "기름값 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합",
-        "정유사 담합",
-        "정유업계 담합",
-        "주유소 담합",
-        "현대오일뱅크 담합",
-        "휘발유 담합"
+        "원수집 전수검토 및 유가·최고가격제·비축유 원문 보완"
       ],
-      "duplicate_count": 12,
-      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EanBQSUdRYU9aekNCQVVBdnRJLWNacUlRZGZFTU9rdGF3YktORHVWTUpOT1pLOUQ5aU5iWlFObW81cDM3YzdLMzNQRHRpTjViMmhDMHEzS1RmM0czWWcwdE5rLVc?oc=5",
-      "id": "fc44c2308233af47",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "정유업계",
-        "담합"
-      ],
+      "collected_at": "2026-10-26T08:17:16.006241+09:00",
+      "id": "b8970f6bb63b23ed",
+      "source_normalized": "서울신문",
+      "grade": "A",
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가·원유 공급·정유 정책 직접 관련성 수동 검토",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "published_at_status": "known"
     }
-  ]
+  ],
+  "summary": "정유 실적 전망·가격규제 부담과 담합 자진신고 절차 변화",
+  "editorial_audit": "data/reviews/2026-10-26-morning.audit.json",
+  "coverage_note": "담합 검색 원수집 39건 전체와 원문 확인·미확인·시간대 밖 제외를 검토기록에 보존. 유가·최고가격제·비축유 원문 추가 검토. 다른 매체 동일 사건 모두 보존. 공개검색 노출·원문 접근 제한 존재.",
+  "raw_count_basis": "설정된 담합 검색 원수집 39건 전체. 정규화 후보 수·추가 원문 수와 별도.",
+  "supplemental_review_count": 12
 }
