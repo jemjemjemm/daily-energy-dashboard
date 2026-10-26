@@ -6,7 +6,7 @@
   "period_start": "2026-10-26T08:00:00+09:00",
   "period_end": "2026-10-26T17:00:00+09:00",
   "period_label": "2026-10-26 08:00 ~ 2026-10-26 17:00",
-  "generated_at": "2026-10-26T17:25:40.435180+09:00",
+  "generated_at": "2026-10-26T17:27:18.745061+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -27,14 +27,14 @@
   "total_in_period_unique_count": 2,
   "total_unknown_time_count": 0,
   "total_outside_period_count": 0,
-  "total_deduped_count": 2,
-  "total_ok_count": 2,
-  "total_review_count": 0,
+  "total_deduped_count": 6,
+  "total_ok_count": 4,
+  "total_review_count": 2,
   "total_excluded_count": 0,
   "grade_counts": {
-    "A": 1,
+    "A": 2,
     "B": 0,
-    "C": 1
+    "C": 4
   },
   "portal_counts": {
     "naver": 5,
@@ -55,7 +55,7 @@
       "message": "public search coverage limit",
       "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
       "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-      "created_at": "2026-10-26T17:24:49.909269+09:00"
+      "created_at": "2026-10-26T17:23:48.726259+09:00"
     }
   ],
   "telegram_alert_log": [],
@@ -66,7 +66,7 @@
       "source": "한국경제",
       "published_at": "2026-10-26T16:06:00+09:00",
       "snippet": "647명이었던 공정거래위원회 (이하 ' 공정 위') 정원은 이재명 정부 출범 1년 만에 1052명이 되었다. 기존 정원 대비 약 63%가 늘어난 것이다. 특히 최근에는 40명... 전분당ㆍ설탕ㆍ밀가루 담합 , 석유화학 제품 담합 , 정유사 담합 사건 등에서 공정 위 심의ㆍ고발이 있기 전에 검찰이 선제적으로 수사를 진행하여 공정 위에...",
-      "collected_at": "2026-10-26T17:24:58.275126+09:00",
+      "collected_at": "2026-10-26T17:23:52.070431+09:00",
       "normalized_title": "대조사의 시대 [지평의 노동 Insight]",
       "source_normalized": "한국경제",
       "duplicate_key": "한국경제::대조사의 시대 [지평의 노동 insight]",
@@ -84,7 +84,7 @@
       "duplicate_count": 0,
       "canonical_url": "https://www.hankyung.com/article/202610264445i",
       "published_at_basis": "original_article",
-      "time_evidence": "원문 최초 등록·입력 2026.10.26 16:06",
+      "time_evidence": "발행사 입력 2026.10.26 16:06 및 원문 전체본문 직접 확인; 수정16:15·검색시각 제외",
       "verified": true,
       "verification_reason": "발행사 본문·최초시각 확인",
       "id": "814ff24bef3dea63",
@@ -99,7 +99,8 @@
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가담합 관련 맥락 확인",
+      "summary": "정유·석유화학 담합 사례를 포함한 공정위·중수청 조사 확대 및 형사 리니언시 운영 공백 관련 변호사 기고; 신규 정유담합 처분 발표와 구분"
     },
     {
       "title": "[재계핫이슈] 이재명 정부의 ‘반기업 본성’과 주병기 공정거래위원장",
@@ -107,7 +108,7 @@
       "source": "펜앤마이크",
       "published_at": "2026-10-26T15:23:50+09:00",
       "snippet": "라면값 인상을 막기위해 담합 혐의로 밀가루 회사들의 가격인상 행보를 막고, 원가의 20% 정도를 차지하는 포장비닐 원료사인 석유 화학 회사들까지 단속한 것이다. 담합 사건은 재판이 오래 걸리고 몇 년 뒤에는 대부분 무죄를 받거나, 과징금 또한 취소 축소되는 경우가 많다. 공정위의 이같은 전방위 활약에...",
-      "collected_at": "2026-10-26T17:25:04.148940+09:00",
+      "collected_at": "2026-10-26T17:23:54.990494+09:00",
       "normalized_title": "[재계핫이슈] 이재명 정부의 ‘반기업 본성’과 주병기 공정거래위원장",
       "source_normalized": "펜앤마이크",
       "duplicate_key": "펜앤마이크::[재계핫이슈] 이재명 정부의 ‘반기업 본성’과 주병기 공정거래위원장",
@@ -120,8 +121,8 @@
       "duplicate_count": 0,
       "canonical_url": "https://www.pennmike.com/news/articleView.html?idxno=130280",
       "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-10-26T15:23:50+09:00",
-      "verified": true,
+      "time_evidence": "초기 자동추출 시각은 15:23:50이나 재확인 본문 추출이 메뉴에 그침. 원문·최초시각 수동 확인 미완료",
+      "verified": false,
       "verification_reason": "발행사 본문·최초시각 확인",
       "id": "c684b1b0faee28e1",
       "grade": "C",
@@ -132,9 +133,106 @@
         "담합",
         "과징금"
       ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "본문 재확인 미완료",
+      "summary": "공정거래 정책 관련 논평 후보; 발행사 본문·최초시각 재확인 미완료"
+    },
+    {
+      "title": "최고가격제 6개월, 휘발유 소비자 1.4조 덜 냈다",
+      "source": "MTN 머니투데이방송",
+      "url": "https://news.mtn.co.kr/article/2026102615153472489",
+      "canonical_url": "https://news.mtn.co.kr/article/2026102615153472489",
+      "published_at": "2026-10-26T15:16:09+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-26T15:16:09+09:00; 발행사 전체본문·표시 최초입력 직접 대조",
+      "summary": "최고가격제 6개월 휘발유 소비자 절감액 약 1.42조원 매체 추산; 업계 손실 주장·정부 보전 예산·실제 지급액 구분",
+      "snippet": "최고가격제 6개월 휘발유 소비자 절감액 약 1.42조원 매체 추산; 업계 손실 주장·정부 보전 예산·실제 지급액 구분",
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가·수급·가격규제 직접 관련성 확인",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "id": "5595fa47a2b80b70",
+      "source_normalized": "MTN 머니투데이방송",
+      "grade": "C"
+    },
+    {
+      "title": "예측 불허 중동전쟁에 유가 전망도 속수무책…고유가 시나리오마저 흔들",
+      "source": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610251550354071",
+      "canonical_url": "https://www.fnnews.com/news/202610251550354071",
+      "published_at": "2026-10-26T16:37:05+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-26T16:37:05+09:00; 발행사 전체본문·표시 최초입력 직접 대조",
+      "summary": "중동전쟁 장기화로 에너지경제연구원 4분기 유가 전망과 실제 가격 괴리 확대; 공식 전망 수정 미완료",
+      "snippet": "중동전쟁 장기화로 에너지경제연구원 4분기 유가 전망과 실제 가격 괴리 확대; 공식 전망 수정 미완료",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·수급·가격규제 직접 관련성 확인",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "id": "1d3a9b7c4be0885d",
+      "source_normalized": "파이낸셜뉴스",
+      "grade": "A"
+    },
+    {
+      "title": "후티 공세에도 원유 수급 차질 제한적⋯연료·운송비 부담은 지속",
+      "source": "아이뉴스24",
+      "url": "https://www.inews24.com/view/2019020",
+      "canonical_url": "https://www.inews24.com/view/2019020",
+      "published_at": "2026-10-26T16:00:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-26T16:00:00+09:00; 발행사 전체본문·표시 최초입력 직접 대조",
+      "summary": "국내 정유·석유화학업계 추가 원료 조달 차질 제한적이나 원유·연료·운송비 부담 지속",
+      "snippet": "국내 정유·석유화학업계 추가 원료 조달 차질 제한적이나 원유·연료·운송비 부담 지속",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·수급·가격규제 직접 관련성 확인",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유"
+      ],
+      "id": "3c7ed29e5128dad0",
+      "source_normalized": "아이뉴스24",
+      "grade": "C"
+    },
+    {
+      "title": "정유업계, 호실적에 손실보전 '안갯속'…\"정부 최고가격제, 최대 8조원 손실\"",
+      "source": "미디어펜",
+      "source_normalized": "미디어펜",
+      "url": "https://v.daum.net/v/20261026153817336",
+      "canonical_url": "https://v.daum.net/v/20261026153817336",
+      "published_at": "2026-10-26T15:38:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 26. 15:38; 포털 본문 확인, 발행사 원문·최초시각 미확인",
+      "summary": "최고가격제 손실보전 불확실성과 업계 최대 8조원 손실 주장 보도 후보; 발행사 원문·최초시각 미확인",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "포털 본문만 확인",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유",
+        "최고가격제"
+      ],
+      "grade": "C",
+      "id": "e459af6349abcaa9",
+      "snippet": "최고가격제 손실보전 불확실성과 업계 최대 8조원 손실 주장 보도 후보; 발행사 원문·최초시각 미확인"
     }
-  ]
+  ],
+  "summary": "최고가격제 소비자 절감 추산·손실보전 부담 및 중동전쟁 장기화에 따른 유가 전망·수급 점검",
+  "editorial_audit": "data/reviews/2026-10-26-evening.audit.json",
+  "coverage_note": "담합 검색 원수집 13건 전체 보존·정규화 후보 2건 및 보완 4건 검토. 본문·최초시각 확인 4건, 재확인 미완료 2건 구분. 다른 매체 동일 사건 모두 보존. 공개검색 노출·원문 접근 한계 존재.",
+  "raw_count_basis": "설정 검색어의 원수집 13건 전체. 정규화 후보 2건·보완검색 결과 및 수동보완 4건과 별도."
 }
