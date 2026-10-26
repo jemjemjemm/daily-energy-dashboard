@@ -1,0 +1,215 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-26",
+  "slot": "night",
+  "period_start": "2026-10-26T17:00:00+09:00",
+  "period_end": "2026-10-27T00:00:00+09:00",
+  "period_label": "2026-10-26 17:00 ~ 2026-10-27 00:00",
+  "generated_at": "2026-10-27T08:22:44.852862+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 52,
+  "total_enriched_input_count": 52,
+  "total_in_period_unique_count": 7,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 4,
+  "total_deduped_count": 4,
+  "total_ok_count": 4,
+  "total_review_count": 0,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 19,
+    "daum": 3,
+    "google": 30
+  },
+  "query_counts": {
+    "SK에너지 담합": 3,
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 1,
+    "석유 담합": 3,
+    "석유제품 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "현대오일뱅크 담합": 3,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-27T08:21:56.590787+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "“담합 막을 리니언시 필요하지만…경쟁기업 죽이기에 악용될 수도”",
+      "url": "http://v.daum.net/v/20261026181825656",
+      "source": "서울경제",
+      "published_at": "2026-10-26T18:22:11.030380+09:00",
+      "snippet": "받은 반면 후발 사업자는 담합 혐의로 법적 다툼을 벌이다 무죄 판단을 받은 사례도 있다. 2008년 공정거래위원회가 액화석유가스(LPG) 담합 사건을 조사하는 과정에서 SK에너지는 행정 리니언시를 통해 약 1600억 원의 과징금을 면제받았다. 반면 경쟁 사업자인 HD... 14시간 전",
+      "collected_at": "2026-10-27T08:22:11.030410+09:00",
+      "normalized_title": "“담합 막을 리니언시 필요하지만…경쟁기업 죽이기에 악용될 수도”",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::“담합 막을 리니언시 필요하지만…경쟁기업 죽이기에 악용될 수도”",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "석유 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 5,
+      "canonical_url": "http://v.daum.net/v/20261026181825656",
+      "id": "873498bd73be5892",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "LPG",
+        "공정거래위원회",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "“ 담합 막을 리니언시 필요하지만…경쟁기업 죽이기에 악용될 수도”",
+      "url": "https://www.sedaily.com/article/20106324?ref=naver",
+      "source": "서울경제",
+      "published_at": "2026-10-26T18:22:10.082235+09:00",
+      "snippet": "2008년 공정거래위원회가 액화 석유 가스(LPG) 담합 사건을 조사하는 과정에서 SK에너지는 행정 리니언시를 통해 약 1600억 원의 과징금을 면제받았다. 반면 경쟁 사업자인 HD현대오일뱅크는 담합 에 가담했다는 이유로 제재를 받았지만 2014년 대법원에서 부당한 공동행위에 가담했다고 볼 수 없다는 판단을 받았다....",
+      "collected_at": "2026-10-27T08:22:10.082263+09:00",
+      "normalized_title": "“ 담합 막을 리니언시 필요하지만…경쟁기업 죽이기에 악용될 수도”",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::“ 담합 막을 리니언시 필요하지만…경쟁기업 죽이기에 악용될 수도”",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "석유 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.sedaily.com/article/20106324?ref=naver",
+      "id": "44d2fec60016ac6e",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "LPG",
+        "공정거래위원회",
+        "담합",
+        "조사",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "K- 정유 , 중동발 특수에 3분기 ‘실적잔치’…“ 담합 의혹, 어떻게 털어...",
+      "url": "https://www.ceoscoredaily.com/page/view/2026102616273211314",
+      "source": "CEO스코어데일리",
+      "published_at": "2026-10-26T18:22:21.316853+09:00",
+      "snippet": "일각에서는 국내 정유업계 를 둘러싼 가격 담합 의혹이 불거지고 있는 가운데, 호실적을 마냥 반기기 어렵다는 목소리도 나온다. 공정거래위원회는 지난 7일 SK에너지와 HD현대오일뱅크의 석유제품 가격 담합 혐의에 대한 심사보고서를 송부하고 심의 절차에 착수했다. 지난 12일 국회 국정감사에서도 가격...",
+      "collected_at": "2026-10-27T08:22:21.316877+09:00",
+      "normalized_title": "K- 정유 , 중동발 특수에 3분기 ‘실적잔치’…“ 담합 의혹, 어떻게 털어...",
+      "source_normalized": "CEO스코어데일리",
+      "duplicate_key": "ceo스코어데일리::k- 정유 , 중동발 특수에 3분기 ‘실적잔치’…“ 담합 의혹, 어떻게 털어...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유업계 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.ceoscoredaily.com/page/view/2026102616273211314",
+      "id": "dd24997a90b71310",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유업계",
+        "석유제품",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "K- 정유, 중동발 특수에 3분기 ‘실적잔치’…“ 담합 의혹, 어떻게 털어...",
+      "url": "https://www.ceoscoredaily.com/page/view/2026102616273211314",
+      "source": "CEO스코어데일리",
+      "published_at": "2026-10-26T18:21:58.196315+09:00",
+      "snippet": "다만 석유최고가격제에 따른 손실보전 규모가 아직 확정되지 않은 데다 정유사 를 둘러싼 가격 담합 의혹까지 겹치면서 경영 불확실성은 여전히 지속되고 있다. 26일 금융정보업체 에프앤가이드에 따르면, 오는 29일 실적 발표를 앞둔 SK이노베이션의 3분기 연결기준 매출액은 27조3548억원, 영업이익은...",
+      "collected_at": "2026-10-27T08:21:58.196341+09:00",
+      "normalized_title": "K- 정유, 중동발 특수에 3분기 ‘실적잔치’…“ 담합 의혹, 어떻게 털어...",
+      "source_normalized": "CEO스코어데일리",
+      "duplicate_key": "ceo스코어데일리::k- 정유, 중동발 특수에 3분기 ‘실적잔치’…“ 담합 의혹, 어떻게 털어...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 9,
+      "canonical_url": "https://www.ceoscoredaily.com/page/view/2026102616273211314",
+      "id": "d9fe43396a638fec",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
