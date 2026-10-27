@@ -7,7 +7,7 @@
     "today_label": "10/27",
     "generated_at": "2026-10-27 08:21 KST",
     "review_status": "검토 완료",
-    "report_version": "reviewed-original-sources-v2.0",
+    "report_version": "reviewed-evening-original-sources-v2.0",
     "header_title": "Daily Issue Report",
     "report_title": "Daily Issue Report",
     "report_badge": "정유 · 석유화학 · LNG",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △기후장관, 12차 전기본 국회 보고 시점 연말~내년 초 제시 및 미확정 AIDC 전력수요 재검토 △정유업계 3분기 실적 개선 전망 속 최고가격제 손실보전 산정·수출제한·담합 심의 부담 점검 △고유가 대응 확산 속 최고가격제 손실보전 예산 부담 및 단계적 출구전략 검토 필요성 제기"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △산업연, 최고가격제 가격충격 완충 평가 및 밴드형 상한·손실정산 투명성 개선 제안 △경남 SMR 기업 5개사에 성장펀드 330억원 투자 및 사업 확대 지원방안 논의 △원안위, 고리 3·4호기 계속운전 허가 및 설계수명 만료일 기준 10년 연장"
     }
   ],
   "prices": {
@@ -1547,5 +1551,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△산업연, 최고가격제 가격충격 완충 평가 및 밴드형 상한·손실정산 투명성 개선 제안 △경남 SMR 기업 5개사에 성장펀드 330억원 투자 및 사업 확대 지원방안 논의 △원안위, 고리 3·4호기 계속운전 허가 및 설계수명 만료일 기준 10년 연장",
+    "trend_paragraphs": [
+      "산업연, 최고가격제 가격충격 완충 평가 및 밴드형 상한·손실정산 투명성 개선 제안",
+      "경남 SMR 기업 5개사에 성장펀드 330억원 투자 및 사업 확대 지원방안 논의",
+      "원안위, 고리 3·4호기 계속운전 허가 및 설계수명 만료일 기준 10년 연장"
+    ],
+    "articles": [
+      {
+        "title": "석유 최고가격제 시행, 에너지가격 상승률 9.9%p 낮았다…출구전략은 숙제",
+        "press": "이데일리",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=03194726645617184&mediaCodeNo=257",
+        "summary": "산업연, 최고가격제 가격충격 완충 평가 및 밴드형 상한·손실정산 투명성 개선 제안",
+        "published_at_kst": "2026-10-27T10:00:06+09:00",
+        "verified": true,
+        "time_evidence": "발행사 본문 등록 2026-10-27 오전 10:00:06; 수정시각과 별도 표기 직접 확인; 발행사 전체 본문·최초시각 직접 대조. 자동 body_available는 담합 전용 조건이므로 일반 기사 직접 검토로 보완.",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "경남 SMR 기업 5곳에 원전 성장펀드 330억 투자…사업 확대 지원",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261027132900052",
+        "summary": "경남 SMR 기업 5개사에 성장펀드 330억원 투자 및 사업 확대 지원방안 논의",
+        "published_at_kst": "2026-10-27T15:21:28+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-27T15:21:28+09:00; 발행사 전체 본문·최초시각 직접 대조. 자동 body_available는 담합 전용 조건이므로 일반 기사 직접 검토로 보완.",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "[2보] 고리 원전 3·4호기 계속운전 허가…설계수명 10년 연장",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261027152251017",
+        "summary": "원안위, 고리 3·4호기 계속운전 허가 및 설계수명 만료일 기준 10년 연장",
+        "published_at_kst": "2026-10-27T16:28:31+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-27T16:28:31+09:00; 발행사 전체 본문·최초시각 직접 대조. 자동 body_available는 담합 전용 조건이므로 일반 기사 직접 검토로 보완.",
+        "summary_basis": "original_article_body_manual_review"
+      }
+    ],
+    "source": "발행사 원문·최초시각 수동 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
