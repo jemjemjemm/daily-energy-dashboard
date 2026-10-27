@@ -6,7 +6,7 @@
   "period_start": "2026-10-28T00:00:00+09:00",
   "period_end": "2026-10-28T08:00:00+09:00",
   "period_label": "2026-10-28 00:00 ~ 2026-10-28 08:00",
-  "generated_at": "2026-10-28T08:52:15.402094+09:00",
+  "generated_at": "2026-10-28T08:55:29.804628+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -23,18 +23,18 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 47,
-  "total_enriched_input_count": 13,
-  "total_in_period_unique_count": 3,
+  "total_enriched_input_count": 21,
+  "total_in_period_unique_count": 12,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 6,
-  "total_deduped_count": 1,
-  "total_ok_count": 0,
-  "total_review_count": 1,
-  "total_excluded_count": 2,
+  "total_outside_period_count": 9,
+  "total_deduped_count": 11,
+  "total_ok_count": 3,
+  "total_review_count": 8,
+  "total_excluded_count": 11,
   "grade_counts": {
-    "A": 0,
-    "B": 0,
-    "C": 1
+    "A": 2,
+    "B": 6,
+    "C": 3
   },
   "portal_counts": {
     "naver": 27,
@@ -52,7 +52,7 @@
       "message": "public search coverage limit",
       "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
       "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-      "created_at": "2026-10-28T08:51:26.262875+09:00"
+      "created_at": "2026-10-28T08:50:11.087995+09:00"
     }
   ],
   "telegram_alert_log": [],
@@ -63,7 +63,7 @@
       "source": "슬로우뉴스",
       "published_at": "2026-10-28T07:46:19+09:00",
       "snippet": "1935년 휘발유 가격을 현재 가치로 환산하면 1갤런에 4.92달러다. 같은 기간 물가를 반영한 평균 소득은 거의 두 배가 됐다. 매슈 헤네시는 “좌우... 이철희(서울대 교수)는 “현금이 풀리면 수요가 커져 민간시장에선 담합 없이도 가격이 오를 수밖에 없다”면서 “필수적인 서비스는 공공 인프라를 확충해...",
-      "collected_at": "2026-10-28T08:51:42.216493+09:00",
+      "collected_at": "2026-10-28T08:50:18.148373+09:00",
       "normalized_title": "앤트로픽이 돈을 벌기 시작했다는 신호, ‘안도 랠리’ 시작됐나: 슬로우레터 10월28일. - 슬로우뉴스.",
       "source_normalized": "슬로우뉴스",
       "duplicate_key": "슬로우뉴스::앤트로픽이 돈을 벌기 시작했다는 신호, ‘안도 랠리’ 시작됐나: 슬로우레터 10월28일. - 슬로우뉴스.",
@@ -76,7 +76,7 @@
       "duplicate_count": 0,
       "canonical_url": "https://slownews.kr/168655",
       "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-10-28T07:46:19+09:00",
+      "time_evidence": "원문 published_time 2026-10-28T07:46:19+09:00; 자동 키워드 일치만으로 검증 완료 처리하지 않음",
       "verified": false,
       "verification_reason": "원문 본문 또는 최초시각 미확인",
       "id": "4758d6ae9d7efa17",
@@ -87,8 +87,268 @@
         "담합"
       ],
       "quality_status": "review",
-      "status_label": "원문 미확인",
-      "status_reason": "원문 본문 또는 최초시각 미확인"
+      "status_label": "검토 필요",
+      "status_reason": "발행사 전체 본문 또는 최초시각 확인 미완료; 기사별 time_evidence 참조"
+    },
+    {
+      "title": "국제유가, 중동 대화 재개에 하락...WTI 1.8%↓ [상보]",
+      "source": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2640832",
+      "canonical_url": "https://www.etoday.co.kr/news/view/2640832",
+      "published_at": "2026-10-28T07:12:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-28 07:12; 발행사 전체 본문 직접 확인",
+      "summary": "중동 평화회담 기대에 WTI 99.90달러·브렌트유 113.88달러 마감 및 공급위험 지속",
+      "snippet": "중동 평화회담 기대에 WTI 99.90달러·브렌트유 113.88달러 마감 및 공급위험 지속",
+      "queries": [
+        "유가 추가 전수 검색·원문 확인"
+      ],
+      "collected_at": "2026-10-28T08:50:33.029386+09:00",
+      "id": "1fb48f27329d3242",
+      "source_normalized": "이투데이",
+      "grade": "B",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유 관련성 검토; 발행사 원문 확인 상태 별도 표시",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "[속보] 국제유가, 중동 평화 기대에 하락⋯WTI 1.8%↓",
+      "source": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2640822",
+      "canonical_url": "https://www.etoday.co.kr/news/view/2640822",
+      "published_at": "2026-10-28T06:07:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-28 06:07; 발행사 전체 본문 직접 확인",
+      "summary": "WTI 1.83%·브렌트유 1.67% 하락 마감",
+      "snippet": "WTI 1.83%·브렌트유 1.67% 하락 마감",
+      "queries": [
+        "유가 추가 전수 검색·원문 확인"
+      ],
+      "collected_at": "2026-10-28T08:50:33.029386+09:00",
+      "id": "60f83d5764238e39",
+      "source_normalized": "이투데이",
+      "grade": "B",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유 관련성 검토; 발행사 원문 확인 상태 별도 표시",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "“석유 최고가격제 7개월, 재정부담 늘고 에너지 절약 안돼”",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/Economy/article/all/20261028/134921070/2",
+      "canonical_url": "https://www.donga.com/news/Economy/article/all/20261028/134921070/2",
+      "published_at": "2026-10-28T04:30:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-28T04:30:00+09:00; 발행사 전체 본문 직접 확인",
+      "summary": "최고가격제 장기화에 따른 재정부담·에너지 절약 유인 약화와 단계적 출구전략 검토",
+      "snippet": "최고가격제 장기화에 따른 재정부담·에너지 절약 유인 약화와 단계적 출구전략 검토",
+      "queries": [
+        "유가 추가 전수 검색·원문 확인"
+      ],
+      "collected_at": "2026-10-28T08:50:33.029386+09:00",
+      "id": "92a9984e0bc206d7",
+      "source_normalized": "동아일보",
+      "grade": "A",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유 관련성 검토; 발행사 원문 확인 상태 별도 표시",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "중동 긴장 완화 기대에 국제유가 하락…WTI 1.83%↓",
+      "source": "EBN",
+      "url": "https://v.daum.net/v/20261028065707041",
+      "canonical_url": "https://v.daum.net/v/20261028065707041",
+      "published_at": "2026-10-28T06:57:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 06:57; 포털 확인 상태. 발행사 원문 URL·본문·최초시각 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "정유"
+      ],
+      "collected_at": "2026-10-28T08:50:33.029386+09:00",
+      "id": "d7021d20e10033d1",
+      "source_normalized": "EBN",
+      "grade": "B",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "발행사 전체 본문 또는 최초시각 확인 미완료; 기사별 time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "[SK 윤활기유 3.0 시대 ①] 중동발 공급 쇼크 뚫었다…'실적 효자' 등극한 울산CLX",
+      "source": "EBN",
+      "url": "https://v.daum.net/v/20261028064722924",
+      "canonical_url": "https://v.daum.net/v/20261028064722924",
+      "published_at": "2026-10-28T06:47:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 06:47; 포털 확인 상태. 발행사 원문 URL·본문·최초시각 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "정유"
+      ],
+      "collected_at": "2026-10-28T08:50:33.029386+09:00",
+      "id": "ff474b7dc826c595",
+      "source_normalized": "EBN",
+      "grade": "B",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "발행사 전체 본문 또는 최초시각 확인 미완료; 기사별 time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "“중동 전쟁 끝나나”…평화 회담 기대감에 국제유가 하락, WTI 100달러 밑으로",
+      "source": "헤럴드경제",
+      "url": "https://v.daum.net/v/20261028063719814",
+      "canonical_url": "https://v.daum.net/v/20261028063719814",
+      "published_at": "2026-10-28T06:37:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 06:37; 포털 확인 상태. 발행사 원문 URL·본문·최초시각 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "정유"
+      ],
+      "collected_at": "2026-10-28T08:50:33.029386+09:00",
+      "id": "910ca4520154b127",
+      "source_normalized": "헤럴드경제",
+      "grade": "A",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "발행사 전체 본문 또는 최초시각 확인 미완료; 기사별 time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "중동 문제 회담 다음 날 후티, 또 사우디 공격…호르무즈선 유조선 기뢰 충돌",
+      "source": "KBS",
+      "url": "https://v.daum.net/v/20261028063641811",
+      "canonical_url": "https://v.daum.net/v/20261028063641811",
+      "published_at": "2026-10-28T06:36:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 06:36; 포털 확인 상태. 발행사 원문 URL·본문·최초시각 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "정유"
+      ],
+      "collected_at": "2026-10-28T08:50:33.029386+09:00",
+      "id": "85bf8037c599988e",
+      "source_normalized": "KBS",
+      "grade": "B",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "발행사 전체 본문 또는 최초시각 확인 미완료; 기사별 time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "중동 평화협상 기대에 국제유가 1%대 하락⋯브렌트유 113달러",
+      "source": "아이뉴스24",
+      "url": "https://v.daum.net/v/20261028061439517",
+      "canonical_url": "https://v.daum.net/v/20261028061439517",
+      "published_at": "2026-10-28T06:14:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 06:14; 포털 확인 상태. 발행사 원문 URL·본문·최초시각 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "정유"
+      ],
+      "collected_at": "2026-10-28T08:50:33.029386+09:00",
+      "id": "71ad039fde2398ab",
+      "source_normalized": "아이뉴스24",
+      "grade": "C",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "발행사 전체 본문 또는 최초시각 확인 미완료; 기사별 time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "국제 금값, 유가 하락에 힘입어 상승…금 선물 0.90%↑",
+      "source": "이투데이",
+      "url": "https://v.daum.net/v/20261028075105083",
+      "canonical_url": "https://v.daum.net/v/20261028075105083",
+      "published_at": "2026-10-28T07:51:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 07:51; 포털 확인 상태. 발행사 원문 URL·본문·최초시각 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "유가",
+        "국제유가"
+      ],
+      "collected_at": "2026-10-28T08:50:33.029386+09:00",
+      "id": "def572ec7943af93",
+      "source_normalized": "이투데이",
+      "grade": "B",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "발행사 전체 본문 또는 최초시각 확인 미완료; 기사별 time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "'종전 의지' 보인 이란 최고지도자…美·이란은 호르무즈 공방",
+      "source": "SBS Biz",
+      "url": "https://v.daum.net/v/20261028062223603",
+      "canonical_url": "https://v.daum.net/v/20261028062223603",
+      "published_at": "2026-10-28T06:22:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 06:22; 포털 확인 상태. 발행사 원문 URL·본문·최초시각 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "정유"
+      ],
+      "collected_at": "2026-10-28T08:50:33.029386+09:00",
+      "id": "bf8502179427d765",
+      "source_normalized": "SBS Biz",
+      "grade": "C",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "발행사 전체 본문 또는 최초시각 확인 미완료; 기사별 time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
     }
-  ]
+  ],
+  "summary": "중동 대화 기대 속 WTI 100달러 하회·공급위험 지속 및 최고가격제 재정부담 검토",
+  "editorial_audit": "data/reviews/2026-10-28-morning.audit.json",
+  "coverage_note": "담합 원수집 47건 및 유가 추가검색 전체 노출 결과 별도 보존. 다른 매체의 동일 사건 보도 모두 유지. 기사별 verified/time_evidence로 원문 확인·포털 확인·미확인 구분. 공개검색 노출·발행사 403·원문 URL 해결 한계 존재.",
+  "raw_count_basis": "설정된 담합 검색의 실제 원수집 결과 47건. 추가검색 결과 수와 중복 제거 후 후보 수는 별도 기록.",
+  "supplemental_raw_search_result_count": 88,
+  "supplemental_unique_candidate_count": 13
 }

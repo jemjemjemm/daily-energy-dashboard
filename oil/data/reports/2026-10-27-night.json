@@ -6,7 +6,7 @@
   "period_start": "2026-10-27T17:00:00+09:00",
   "period_end": "2026-10-28T00:00:00+09:00",
   "period_label": "2026-10-27 17:00 ~ 2026-10-28 00:00",
-  "generated_at": "2026-10-28T08:52:13.032071+09:00",
+  "generated_at": "2026-10-28T08:55:29.788896+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -23,16 +23,16 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 47,
-  "total_enriched_input_count": 47,
-  "total_in_period_unique_count": 3,
+  "total_enriched_input_count": 21,
+  "total_in_period_unique_count": 5,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 10,
-  "total_deduped_count": 1,
+  "total_outside_period_count": 16,
+  "total_deduped_count": 3,
   "total_ok_count": 1,
-  "total_review_count": 0,
-  "total_excluded_count": 2,
+  "total_review_count": 2,
+  "total_excluded_count": 5,
   "grade_counts": {
-    "A": 0,
+    "A": 2,
     "B": 0,
     "C": 1
   },
@@ -41,12 +41,7 @@
     "daum": 0,
     "google": 20
   },
-  "query_counts": {
-    "석유 담합": 1,
-    "석유제품 담합": 1,
-    "유가 담합": 1,
-    "유가담합": 1
-  },
+  "query_counts": {},
   "collection_warnings": [
     {
       "level": "warning",
@@ -55,44 +50,92 @@
       "message": "public search coverage limit",
       "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
       "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-      "created_at": "2026-10-28T08:51:26.262875+09:00"
+      "created_at": "2026-10-28T08:50:11.087995+09:00"
     }
   ],
   "telegram_alert_log": [],
   "articles": [
     {
-      "title": "김동춘 LG화학 4년 후 두 자릿수 영업이익률 꿈은 멀다, 올해 3분기 3%대...",
-      "url": "https://www.huffingtonpost.kr/article/261578",
-      "source": "허프포스트코리아",
-      "published_at": "2026-10-27T17:51:27.955148+09:00",
-      "snippet": "석유 화학 제품 가격 담합 혐의에 따른 과징금 문제다. 서울중앙지검 공정거래조사부는 1일 LG화학, OCI, PKC, 애경케미칼, 롯데정밀화학, 유니드 등 석유 화학 업체 6곳을 공정거래법 위반 혐의로 기소했다고 밝혔다. 검찰에 따르면 이들은 2021년 1월부터 2026년 4월까지 폴리염화비닐(PVC), 가소제 등 8개...",
-      "collected_at": "2026-10-28T08:51:27.955161+09:00",
-      "normalized_title": "김동춘 LG화학 4년 후 두 자릿수 영업이익률 꿈은 멀다, 올해 3분기 3%대...",
-      "source_normalized": "허프포스트코리아",
-      "duplicate_key": "허프포스트코리아::김동춘 lg화학 4년 후 두 자릿수 영업이익률 꿈은 멀다, 올해 3분기 3%대...",
-      "portals": [
-        "naver"
-      ],
+      "title": "\"석유 최고가격제, 기름값 충격 완화... 이젠 선별지원·단계적 정상화 필요\"",
+      "source": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610271818431645",
+      "canonical_url": "https://www.fnnews.com/news/202610271818431645",
+      "published_at": "2026-10-27T18:18:47+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-27T18:18:47+09:00; 발행사 전체 본문 직접 확인",
+      "summary": "최고가격제의 가격충격 완충 평가와 재정부담 누적 우려 및 선별지원·단계적 정상화 제언",
+      "snippet": "최고가격제의 가격충격 완충 평가와 재정부담 누적 우려 및 선별지원·단계적 정상화 제언",
       "queries": [
-        "석유 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합"
+        "유가 추가 전수 검색·원문 확인"
       ],
-      "duplicate_count": 3,
-      "canonical_url": "https://www.huffingtonpost.kr/article/261578",
-      "id": "38d45bb37b6ec594",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합",
-        "조사",
-        "과징금"
-      ],
+      "collected_at": "2026-10-28T08:50:33.029386+09:00",
+      "id": "c2854227b16af88c",
+      "source_normalized": "파이낸셜뉴스",
+      "grade": "A",
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가·정유 관련성 검토; 발행사 원문 확인 상태 별도 표시",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "다시 뛰는 국제유가…‘기름값 2천원 방파제’ 최고가격제 둘러싼 속내는?",
+      "source": "한겨레",
+      "url": "https://v.daum.net/v/20261027194159904",
+      "canonical_url": "https://v.daum.net/v/20261027194159904",
+      "published_at": "2026-10-27T19:41:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 27. 19:41; 포털 확인 상태. 발행사 원문 URL·본문·최초시각 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "석유 최고가격제"
+      ],
+      "collected_at": "2026-10-28T08:50:33.029386+09:00",
+      "id": "33f625687e307939",
+      "source_normalized": "한겨레",
+      "grade": "A",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "발행사 전체 본문 또는 최초시각 확인 미완료; 기사별 time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "울산세관, 중동 전쟁 이후 공급망 위기 대응 696건 지원",
+      "source": "울산MBC",
+      "url": "https://v.daum.net/v/20261027173255578",
+      "canonical_url": "https://v.daum.net/v/20261027173255578",
+      "published_at": "2026-10-27T17:32:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 27. 17:32; 포털 확인 상태. 발행사 원문 URL·본문·최초시각 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "비축유"
+      ],
+      "collected_at": "2026-10-28T08:50:33.029386+09:00",
+      "id": "d8b0d78aa8fc1aec",
+      "source_normalized": "울산MBC",
+      "grade": "C",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "발행사 전체 본문 또는 최초시각 확인 미완료; 기사별 time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
     }
-  ]
+  ],
+  "summary": "최고가격제의 가격 충격 완충과 선별지원·재정부담 논의",
+  "editorial_audit": "data/reviews/2026-10-28-morning.audit.json",
+  "coverage_note": "담합 원수집 47건 및 유가 추가검색 전체 노출 결과 별도 보존. 다른 매체의 동일 사건 보도 모두 유지. 기사별 verified/time_evidence로 원문 확인·포털 확인·미확인 구분. 공개검색 노출·발행사 403·원문 URL 해결 한계 존재.",
+  "raw_count_basis": "설정된 담합 검색의 실제 원수집 결과 47건. 추가검색 결과 수와 중복 제거 후 후보 수는 별도 기록.",
+  "supplemental_raw_search_result_count": 88,
+  "supplemental_unique_candidate_count": 13
 }
