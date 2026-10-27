@@ -1,0 +1,94 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-28",
+  "slot": "morning",
+  "period_start": "2026-10-28T00:00:00+09:00",
+  "period_end": "2026-10-28T08:00:00+09:00",
+  "period_label": "2026-10-28 00:00 ~ 2026-10-28 08:00",
+  "generated_at": "2026-10-28T08:52:15.402094+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 47,
+  "total_enriched_input_count": 13,
+  "total_in_period_unique_count": 3,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 6,
+  "total_deduped_count": 1,
+  "total_ok_count": 0,
+  "total_review_count": 1,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 27,
+    "daum": 0,
+    "google": 20
+  },
+  "query_counts": {
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-28T08:51:26.262875+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "앤트로픽이 돈을 벌기 시작했다는 신호, ‘안도 랠리’ 시작됐나: 슬로우레터 10월28일. - 슬로우뉴스.",
+      "url": "https://slownews.kr/168655",
+      "source": "슬로우뉴스",
+      "published_at": "2026-10-28T07:46:19+09:00",
+      "snippet": "1935년 휘발유 가격을 현재 가치로 환산하면 1갤런에 4.92달러다. 같은 기간 물가를 반영한 평균 소득은 거의 두 배가 됐다. 매슈 헤네시는 “좌우... 이철희(서울대 교수)는 “현금이 풀리면 수요가 커져 민간시장에선 담합 없이도 가격이 오를 수밖에 없다”면서 “필수적인 서비스는 공공 인프라를 확충해...",
+      "collected_at": "2026-10-28T08:51:42.216493+09:00",
+      "normalized_title": "앤트로픽이 돈을 벌기 시작했다는 신호, ‘안도 랠리’ 시작됐나: 슬로우레터 10월28일. - 슬로우뉴스.",
+      "source_normalized": "슬로우뉴스",
+      "duplicate_key": "슬로우뉴스::앤트로픽이 돈을 벌기 시작했다는 신호, ‘안도 랠리’ 시작됐나: 슬로우레터 10월28일. - 슬로우뉴스.",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://slownews.kr/168655",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-28T07:46:19+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "4758d6ae9d7efa17",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ]
+}
