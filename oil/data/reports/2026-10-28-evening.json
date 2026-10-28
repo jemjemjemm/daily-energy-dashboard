@@ -6,7 +6,7 @@
   "period_start": "2026-10-28T08:00:00+09:00",
   "period_end": "2026-10-28T17:00:00+09:00",
   "period_label": "2026-10-28 08:00 ~ 2026-10-28 17:00",
-  "generated_at": "2026-10-29T00:04:09.334577+09:00",
+  "generated_at": "2026-10-29T08:33:00.479118+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -23,18 +23,18 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 36,
-  "total_enriched_input_count": 22,
-  "total_in_period_unique_count": 6,
+  "total_enriched_input_count": 34,
+  "total_in_period_unique_count": 19,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 13,
-  "total_deduped_count": 4,
-  "total_ok_count": 3,
-  "total_review_count": 1,
-  "total_excluded_count": 2,
+  "total_outside_period_count": 15,
+  "total_deduped_count": 17,
+  "total_ok_count": 2,
+  "total_review_count": 15,
+  "total_excluded_count": 15,
   "grade_counts": {
-    "A": 0,
-    "B": 2,
-    "C": 2
+    "A": 4,
+    "B": 6,
+    "C": 7
   },
   "portal_counts": {
     "naver": 24,
@@ -84,8 +84,8 @@
       "duplicate_count": 0,
       "canonical_url": "https://www.newspim.com/news/view/20261028001213",
       "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-10-28T15:33:00+09:00",
-      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-28T15:33:00+09:00; 자동 키워드 통과를 전체 본문 검증 완료로 간주하지 않음",
+      "verified": false,
       "verification_reason": "발행사 본문·최초시각 확인",
       "id": "c655b0fe356238d7",
       "grade": "B",
@@ -94,9 +94,9 @@
         "정유사",
         "담합"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조"
     },
     {
       "title": "[더벨][석화업계 공정위 제재 대응] 유니드, 과징금 최대 200억 '재무·사...",
@@ -118,6 +118,7 @@
       "canonical_url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610261607508920106689",
       "verified": false,
       "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "time_evidence": "최초시각 미확인; 자동 키워드 통과를 전체 본문 검증 완료로 간주하지 않음",
       "id": "a07e6446296f3c9d",
       "grade": "B",
       "published_at_status": "known",
@@ -130,7 +131,7 @@
       ],
       "quality_status": "review",
       "status_label": "원문 미확인",
-      "status_reason": "원문 본문 또는 최초시각 미확인"
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조"
     },
     {
       "title": "[컨콜] OCI \"석화 담합 과징금 규모 미확정…당국에 적극 소명\" - 글로벌이코노믹",
@@ -153,8 +154,8 @@
       "duplicate_count": 0,
       "canonical_url": "https://www.g-enews.com/view.php?ud=202610281635001907ea14faf6f5_1",
       "published_at_basis": "original_article",
-      "time_evidence": "원문 최초 등록·입력 2026-10-28 16:37",
-      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-10-28 16:37; 자동 키워드 통과를 전체 본문 검증 완료로 간주하지 않음",
+      "verified": false,
       "verification_reason": "발행사 본문·최초시각 확인",
       "id": "62402a31997ae736",
       "grade": "C",
@@ -165,9 +166,9 @@
         "조사",
         "과징금"
       ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조"
     },
     {
       "title": "가스·석유·폐기물 등 반복 담합 사업자 영업정지 추진…권칠승 의원, 7개 업종법 개정안 발의 - 에너지데일리",
@@ -189,8 +190,8 @@
       "duplicate_count": 0,
       "canonical_url": "https://www.energydaily.co.kr/news/articleView.html?idxno=204458",
       "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-10-28T14:08:44+09:00",
-      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-28T14:08:44+09:00; 자동 키워드 통과를 전체 본문 검증 완료로 간주하지 않음",
+      "verified": false,
       "verification_reason": "발행사 본문·최초시각 확인",
       "id": "cf8760e6d99ec014",
       "grade": "C",
@@ -200,9 +201,349 @@
         "공정거래위원회",
         "담합"
       ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조"
+    },
+    {
+      "title": "미국 \"내달 이란에 짧고 강력한 군사 작전\"… 걸프국에 사전 경고",
+      "source": "한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026102813590003932",
+      "canonical_url": "https://www.hankookilbo.com/news/article/A2026102813590003932",
+      "published_at": "2026-10-28T15:52:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.10.28 15:52; 발행사 전체 본문 직접 대조",
+      "summary": "미 중간선거 후 대이란 군사작전 가능성 보도와 중동 공급망 위험 지속",
+      "snippet": "미 중간선거 후 대이란 군사작전 가능성 보도와 중동 공급망 위험 지속",
+      "queries": [
+        "유가 추가 전수검색·발행사 원문 검토"
+      ],
+      "source_body_sha256": "4d50da41aa5eaeec395640f60ff02306bf77e87610406792c58ec4dba7920a19",
+      "id": "68f630bddbd3e4e4",
+      "source_normalized": "한국일보",
+      "grade": "A",
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가·석유 직접 관련성 검토; 원문 확인 상태 별도 표시",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "HD현대 3Q 영업익, 71% 늘어 2.9조..조선 끌고, 건설기계 밀고",
+      "source": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610281528476286",
+      "canonical_url": "https://www.fnnews.com/news/202610281528476286",
+      "published_at": "2026-10-28T15:35:22+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-28T15:35:22+09:00; 발행사 전체 본문 직접 대조",
+      "summary": "HD현대오일뱅크 3분기 영업익 9009억원 및 정제마진 축소·석유화학 수익성 부담 확인",
+      "snippet": "HD현대오일뱅크 3분기 영업익 9009억원 및 정제마진 축소·석유화학 수익성 부담 확인",
+      "queries": [
+        "유가 추가 전수검색·발행사 원문 검토"
+      ],
+      "source_body_sha256": "82fe1113ecb821fb05cfcd09dd37a92c20f4f9a299c18ee45e06bff0b734f7bb",
+      "id": "2a7987717a35a792",
+      "source_normalized": "파이낸셜뉴스",
+      "grade": "A",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·석유 직접 관련성 검토; 원문 확인 상태 별도 표시",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "경유 수출제한 완화 추진… 업계, 해외수요 대응 기대감",
+      "source": "문화일보",
+      "url": "https://v.daum.net/v/20261028115149106",
+      "canonical_url": "https://v.daum.net/v/20261028115149106",
+      "published_at": "2026-10-28T11:51:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 11:51; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "최고가격제"
+      ],
+      "collected_at": "2026-10-29T00:04:01.811029+09:00",
+      "id": "13869ef5401203c3",
+      "source_normalized": "문화일보",
+      "grade": "A",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "실적 개선세 지속한 HD현대…정유·조선 '속도조절'",
+      "source": "비즈워치",
+      "url": "https://v.daum.net/v/20261028162943885",
+      "canonical_url": "https://v.daum.net/v/20261028162943885",
+      "published_at": "2026-10-28T16:29:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 16:29; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "국제유가",
+        "유가 정유",
+        "석유 가격"
+      ],
+      "collected_at": "2026-10-29T00:04:01.811029+09:00",
+      "id": "56d52750788420be",
+      "source_normalized": "비즈워치",
+      "grade": "C",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "원유 묶인 이란…'배럴당 130달러' 예산 도박에 초인플레 우려",
+      "source": "연합인포맥스",
+      "url": "https://v.daum.net/v/20261028163901367",
+      "canonical_url": "https://v.daum.net/v/20261028163901367",
+      "published_at": "2026-10-28T16:39:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 16:39; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "국제유가"
+      ],
+      "collected_at": "2026-10-29T00:04:01.811029+09:00",
+      "id": "79172db9931af5e4",
+      "source_normalized": "연합인포맥스",
+      "grade": "B",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "울산항 석유제품 수출액 71.9% 급증…국제가격 상승 영향",
+      "source": "울산매일UTV",
+      "url": "https://v.daum.net/v/20261028164009439",
+      "canonical_url": "https://v.daum.net/v/20261028164009439",
+      "published_at": "2026-10-28T16:40:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 16:40; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "중동 원유",
+        "경유 수출",
+        "석유 가격"
+      ],
+      "collected_at": "2026-10-29T00:04:01.811029+09:00",
+      "id": "8e162705612e8c19",
+      "source_normalized": "울산매일UTV",
+      "grade": "C",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "[컨콜] HD현대오일뱅크 \"원유 도입 중동산·비중동산 각각 50%…경유 수출 완화 검토 중\"",
+      "source": "데일리안",
+      "url": "https://v.daum.net/v/20261028163420143",
+      "canonical_url": "https://v.daum.net/v/20261028163420143",
+      "published_at": "2026-10-28T16:34:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 16:34; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "중동 원유",
+        "경유 수출"
+      ],
+      "collected_at": "2026-10-29T00:04:01.811029+09:00",
+      "id": "af89e7fe6a869ba9",
+      "source_normalized": "데일리안",
+      "grade": "B",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "HD현대, 3Q 영업익 2.9조·71.5%↑…조선·정유 실적 호조",
+      "source": "메트로경제",
+      "url": "https://v.daum.net/v/20261028160345483",
+      "canonical_url": "https://v.daum.net/v/20261028160345483",
+      "published_at": "2026-10-28T16:03:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 16:03; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "중동 원유",
+        "유가 정유"
+      ],
+      "collected_at": "2026-10-29T00:04:01.811029+09:00",
+      "id": "f9a0f318af52fdd6",
+      "source_normalized": "메트로경제",
+      "grade": "C",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "이란은 왜 협상 서두르지 않나…美 불신·중간선거·호르무즈 카드",
+      "source": "뉴시스",
+      "url": "https://v.daum.net/v/20261028155626001",
+      "canonical_url": "https://v.daum.net/v/20261028155626001",
+      "published_at": "2026-10-28T15:56:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 15:56; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "중동 원유",
+        "호르무즈"
+      ],
+      "collected_at": "2026-10-29T00:04:01.811029+09:00",
+      "id": "48d5802e5ddb46a3",
+      "source_normalized": "뉴시스",
+      "grade": "A",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "오슬로 협정부터 이란 핵합의까지, 중재외교의 힘",
+      "source": "오마이뉴스",
+      "url": "https://v.daum.net/v/20261028164240590",
+      "canonical_url": "https://v.daum.net/v/20261028164240590",
+      "published_at": "2026-10-28T16:42:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 16:42; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "호르무즈"
+      ],
+      "collected_at": "2026-10-29T00:04:01.811029+09:00",
+      "id": "c8a6a6a361efd4be",
+      "source_normalized": "오마이뉴스",
+      "grade": "C",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "이란전쟁 7개월⋯美 전쟁비용 63조원 썼다",
+      "source": "이투데이",
+      "url": "https://v.daum.net/v/20261028162204542",
+      "canonical_url": "https://v.daum.net/v/20261028162204542",
+      "published_at": "2026-10-28T16:22:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 16:22; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "호르무즈"
+      ],
+      "collected_at": "2026-10-29T00:04:01.811029+09:00",
+      "id": "41b1d1c39849099f",
+      "source_normalized": "이투데이",
+      "grade": "B",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "해운협회 “이란 법적조치 경고 선박, 장금상선 소유 아냐”",
+      "source": "브릿지경제",
+      "url": "https://v.daum.net/v/20261028155945212",
+      "canonical_url": "https://v.daum.net/v/20261028155945212",
+      "published_at": "2026-10-28T15:59:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 15:59; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "호르무즈"
+      ],
+      "collected_at": "2026-10-29T00:04:01.811029+09:00",
+      "id": "28a9adb7ea923fd8",
+      "source_normalized": "브릿지경제",
+      "grade": "C",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "중동 문제 회담 다음 날 후티, 또 사우디 공격…호르무즈선 유조선 기뢰 충돌",
+      "source": "KBS",
+      "url": "https://v.daum.net/v/20261028152743292",
+      "canonical_url": "https://v.daum.net/v/20261028152743292",
+      "published_at": "2026-10-28T15:27:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 28. 15:27; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "호르무즈"
+      ],
+      "collected_at": "2026-10-29T00:04:01.811029+09:00",
+      "id": "3381e5f21ebe0c20",
+      "source_normalized": "KBS",
+      "grade": "B",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
     }
-  ]
+  ],
+  "summary": "중동 군사위험·정유 수익성·석유제품 수출제한 논의 모니터링",
+  "editorial_audit": "data/reviews/2026-10-28-evening.audit.json",
+  "coverage_note": "설정 검색의 실제 원수집 전체와 추가 유가검색 전체 노출 결과를 별도 보존. 다른 매체의 동일 사건 보도 모두 유지, 동일 매체·정규화 제목만 병합. 기사별 verified/time_evidence로 원문 확인·포털 확인·미확인 구분. 일부 원문 403·404·시각 충돌 및 검색 노출 한계 존재.",
+  "raw_count_basis": "설정된 원수집 검색 결과 36건. 추가검색 노출 결과 수·중복 제거 후보 수는 별도 기록.",
+  "supplemental_raw_search_result_count": 89,
+  "supplemental_unique_candidate_count": 17
 }

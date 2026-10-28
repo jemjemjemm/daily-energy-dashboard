@@ -6,7 +6,7 @@
   "period_start": "2026-10-29T00:00:00+09:00",
   "period_end": "2026-10-29T08:00:00+09:00",
   "period_label": "2026-10-29 00:00 ~ 2026-10-29 08:00",
-  "generated_at": "2026-10-29T08:21:09.712474+09:00",
+  "generated_at": "2026-10-29T08:33:00.555765+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -23,17 +23,17 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 51,
-  "total_enriched_input_count": 28,
-  "total_in_period_unique_count": 2,
+  "total_enriched_input_count": 39,
+  "total_in_period_unique_count": 17,
   "total_unknown_time_count": 0,
-  "total_outside_period_count": 20,
-  "total_deduped_count": 2,
-  "total_ok_count": 1,
-  "total_review_count": 1,
-  "total_excluded_count": 0,
+  "total_outside_period_count": 22,
+  "total_deduped_count": 17,
+  "total_ok_count": 3,
+  "total_review_count": 14,
+  "total_excluded_count": 15,
   "grade_counts": {
-    "A": 0,
-    "B": 0,
+    "A": 10,
+    "B": 5,
     "C": 2
   },
   "portal_counts": {
@@ -83,10 +83,10 @@
         "정유업계 담합",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 1,
+      "duplicate_count": 0,
       "canonical_url": "https://www.labortoday.co.kr/news/articleView.html?idxno=237449",
       "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-10-29T06:30:03+09:00",
+      "time_evidence": "원문 published_time 2026-10-29T06:30:03+09:00; 자동 키워드 통과를 전체 본문 검증 완료로 간주하지 않음",
       "verified": false,
       "verification_reason": "원문 본문 또는 최초시각 미확인",
       "id": "d8d471270b10fd12",
@@ -100,7 +100,7 @@
       ],
       "quality_status": "review",
       "status_label": "원문 미확인",
-      "status_reason": "원문 본문 또는 최초시각 미확인"
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조"
     },
     {
       "title": "[오늘의 국회 에너지 입법 : 공정위 제재에도 반복적인 담합 존재]",
@@ -121,8 +121,8 @@
       "duplicate_count": 0,
       "canonical_url": "http://www.e-platform.net/news/articleView.html?idxno=106504",
       "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-10-29T07:31:06+09:00",
-      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-29T07:31:06+09:00; 자동 키워드 통과를 전체 본문 검증 완료로 간주하지 않음",
+      "verified": false,
       "verification_reason": "발행사 본문·최초시각 확인",
       "id": "6fc9db9e25f4c33f",
       "grade": "C",
@@ -133,9 +133,402 @@
         "담합",
         "제재"
       ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조"
+    },
+    {
+      "title": "[국제유가] 하루 만에 반등…브렌트유, 115달러 돌파",
+      "source": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610290459147005",
+      "canonical_url": "https://www.fnnews.com/news/202610290459147005",
+      "published_at": "2026-10-29T05:41:32+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-29T05:41:32+09:00; 발행사 전체 본문 직접 대조",
+      "summary": "WTI 102.78달러·브렌트유 115.32달러 상승 마감 및 중동 군사위험 경계",
+      "snippet": "WTI 102.78달러·브렌트유 115.32달러 상승 마감 및 중동 군사위험 경계",
+      "queries": [
+        "유가 추가 전수검색·발행사 원문 검토"
+      ],
+      "source_body_sha256": "98185d62fc00d276a98565e1c18eadb0b0d86cf6da1b45260c42352eefee7fc3",
+      "id": "01e5d5578e86bb1e",
+      "source_normalized": "파이낸셜뉴스",
+      "grade": "A",
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가·석유 직접 관련성 검토; 원문 확인 상태 별도 표시",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "\"美, 중간선거 후 이란 재공격 준비 통보\"…국제유가 3% 가까이 급등",
+      "source": "뉴스1",
+      "url": "https://www.news1.kr/world/international-economy/6335587",
+      "canonical_url": "https://www.news1.kr/world/international-economy/6335587",
+      "published_at": "2026-10-29T04:51:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-29T04:51:00+09:00; 발행사 전체 본문 직접 대조; 발행사 HTML contentArrange 전체 본문 확인",
+      "summary": "미 중간선거 후 이란 공격 가능성 보도에 국제유가 상승 및 실제 시설피해 미확인",
+      "snippet": "미 중간선거 후 이란 공격 가능성 보도에 국제유가 상승 및 실제 시설피해 미확인",
+      "queries": [
+        "유가 추가 전수검색·발행사 원문 검토"
+      ],
+      "source_body_sha256": "e4b67c8c1aad6aad93803f2df98df1dfd2816b77c9b7c5577f868bc15e8d9fed",
+      "id": "684f51ce28bd002c",
+      "source_normalized": "뉴스1",
+      "grade": "A",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·석유 직접 관련성 검토; 원문 확인 상태 별도 표시",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "최고가격제서 빠진 LPG, 1년 새 15%↑…겨울 물가 부담 가중",
+      "source": "뉴스1",
+      "url": "https://www.news1.kr/economy/trend/6335251",
+      "canonical_url": "https://www.news1.kr/economy/trend/6335251",
+      "published_at": "2026-10-29T06:00:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-29T06:00:00+09:00; 발행사 전체 본문 직접 대조; 발행사 HTML contentArrange 전체 본문 확인",
+      "summary": "자동차용 LPG 평균가 전년 대비 14.5% 상승 및 동절기 추가 가격압력 우려",
+      "snippet": "자동차용 LPG 평균가 전년 대비 14.5% 상승 및 동절기 추가 가격압력 우려",
+      "queries": [
+        "유가 추가 전수검색·발행사 원문 검토"
+      ],
+      "source_body_sha256": "aa9f275a52502774053cc254dfeaa4a5cfedcf58b97b2153c41663269511802a",
+      "id": "352d1f43c6d9fa7a",
+      "source_normalized": "뉴스1",
+      "grade": "A",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·석유 직접 관련성 검토; 원문 확인 상태 별도 표시",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "이스라엘 총선·트럼프의 이란 공격 가능성에 국제 유가 상승",
+      "source": "YTN",
+      "url": "https://v.daum.net/v/20261029071004352",
+      "canonical_url": "https://v.daum.net/v/20261029071004352",
+      "published_at": "2026-10-29T07:10:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 29. 07:10; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "국제유가",
+        "중동 원유"
+      ],
+      "collected_at": "2026-10-29T08:21:01.404476+09:00",
+      "id": "55366ce77048c328",
+      "source_normalized": "YTN",
+      "grade": "B",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "국제유가 상승⋯미 중간선거 후 대이란 공격 가능성에 촉각 [상보]",
+      "source": "이투데이",
+      "url": "https://v.daum.net/v/20261029071003350",
+      "canonical_url": "https://v.daum.net/v/20261029071003350",
+      "published_at": "2026-10-29T07:10:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 29. 07:10; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "국제유가",
+        "중동 원유",
+        "유가 정유"
+      ],
+      "collected_at": "2026-10-29T08:21:01.404476+09:00",
+      "id": "635c1138361657d4",
+      "source_normalized": "이투데이",
+      "grade": "B",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "국제유가 상승…이스라엘 총선·미국의 이란 공격 가능성 주시",
+      "source": "KBS",
+      "url": "https://v.daum.net/v/20261029065321048",
+      "canonical_url": "https://v.daum.net/v/20261029065321048",
+      "published_at": "2026-10-29T06:53:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 29. 06:53; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "중동 원유"
+      ],
+      "collected_at": "2026-10-29T08:21:01.404476+09:00",
+      "id": "ce488047a11f3279",
+      "source_normalized": "KBS",
+      "grade": "B",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "[뉴욕유가] 중동 불안 속 네타냐후 집권 연장 가능성…WTI 2.9% 급등",
+      "source": "연합인포맥스",
+      "url": "https://v.daum.net/v/20261029063604741",
+      "canonical_url": "https://v.daum.net/v/20261029063604741",
+      "published_at": "2026-10-29T06:36:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 29. 06:36; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "중동 원유"
+      ],
+      "collected_at": "2026-10-29T08:21:01.404476+09:00",
+      "id": "78e14eab325822d3",
+      "source_normalized": "연합인포맥스",
+      "grade": "B",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "알뜰주유소-오피넷… 기름값 걱정 줄인다",
+      "source": "동아일보",
+      "url": "https://v.daum.net/v/20261029043507595",
+      "canonical_url": "https://v.daum.net/v/20261029043507595",
+      "published_at": "2026-10-29T04:35:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 29. 04:35; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "유가 정유",
+        "최고가격제"
+      ],
+      "collected_at": "2026-10-29T08:21:01.404476+09:00",
+      "id": "d7e7bee8e7cbc956",
+      "source_normalized": "동아일보",
+      "grade": "A",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "호주·캐나다 원유 공급이 특히 중요한 이유 [아침을 열며]",
+      "source": "한국일보",
+      "url": "https://v.daum.net/v/20261029000146892",
+      "canonical_url": "https://v.daum.net/v/20261029000146892",
+      "published_at": "2026-10-29T00:01:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 29. 00:01; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "유가 정유",
+        "최고가격제",
+        "경유 수출"
+      ],
+      "collected_at": "2026-10-29T08:21:01.404476+09:00",
+      "id": "d06e39787d077eec",
+      "source_normalized": "한국일보",
+      "grade": "A",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "석유 ‘가격’ 방어가 아니라 석유에 치이는 ‘사람’을 방어해야··길어지는 최고가격제, 커지는 ‘출구전략론’",
+      "source": "경향신문",
+      "url": "https://v.daum.net/v/20261029060239121",
+      "canonical_url": "https://v.daum.net/v/20261029060239121",
+      "published_at": "2026-10-29T06:02:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 29. 06:02; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "최고가격제",
+        "석유 가격",
+        "유류세"
+      ],
+      "collected_at": "2026-10-29T08:21:01.404476+09:00",
+      "id": "38768a3e2ea789ca",
+      "source_normalized": "경향신문",
+      "grade": "A",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "[사설]다시 뛰는 국제유가, 최고가격제 출구전략 대비해야",
+      "source": "이데일리",
+      "url": "https://v.daum.net/v/20261029050317971",
+      "canonical_url": "https://v.daum.net/v/20261029050317971",
+      "published_at": "2026-10-29T05:03:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 29. 05:03; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "최고가격제",
+        "석유 가격"
+      ],
+      "collected_at": "2026-10-29T08:21:01.404476+09:00",
+      "id": "4bc9972ecafd7b25",
+      "source_normalized": "이데일리",
+      "grade": "A",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "밴스, 평화회담 재개 위해 이란 강경파와 물밑 접촉",
+      "source": "이데일리",
+      "url": "https://v.daum.net/v/20261029071631439",
+      "canonical_url": "https://v.daum.net/v/20261029071631439",
+      "published_at": "2026-10-29T07:16:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 29. 07:16; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "호르무즈"
+      ],
+      "collected_at": "2026-10-29T08:21:01.404476+09:00",
+      "id": "5350418a725e41c2",
+      "source_normalized": "이데일리",
+      "grade": "A",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "美 중간선거 후 이란 공격 가능성에 국제유가 상승…WTI 2.88%↑",
+      "source": "헤럴드경제",
+      "url": "https://v.daum.net/v/20261029060342197",
+      "canonical_url": "https://v.daum.net/v/20261029060342197",
+      "published_at": "2026-10-29T06:03:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 29. 06:03; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "호르무즈"
+      ],
+      "collected_at": "2026-10-29T08:21:01.404476+09:00",
+      "id": "a33b9ec7fb95ac5e",
+      "source_normalized": "헤럴드경제",
+      "grade": "A",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "[국민의 기업] 석유 위기 대응 총력전 … 비축유 풀고 해외 원유 확보나서",
+      "source": "중앙일보",
+      "url": "https://v.daum.net/v/20261029053153399",
+      "canonical_url": "https://v.daum.net/v/20261029053153399",
+      "published_at": "2026-10-29T05:31:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 29. 05:31; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "호르무즈"
+      ],
+      "collected_at": "2026-10-29T08:21:01.404476+09:00",
+      "id": "437dcb014f404125",
+      "source_normalized": "중앙일보",
+      "grade": "A",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "이란 외무 \"외교에 계속 기회 주고 있어…'7일 계획' 조기 이행 논의\"",
+      "source": "연합인포맥스",
+      "url": "https://v.daum.net/v/20261029041402366",
+      "canonical_url": "https://v.daum.net/v/20261029041402366",
+      "published_at": "2026-10-29T04:14:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 29. 04:14; 포털 시각 확인 상태. 발행사 전체 원문·최초시각 직접 검증 미완료",
+      "snippet": "",
+      "queries": [
+        "호르무즈"
+      ],
+      "collected_at": "2026-10-29T08:21:01.404476+09:00",
+      "id": "462270617d6c4b67",
+      "source_normalized": "연합인포맥스",
+      "grade": "B",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
     }
-  ]
+  ],
+  "summary": "WTI·브렌트유 반등 및 LPG 가격·최고가격제 손실보상 쟁점 모니터링",
+  "editorial_audit": "data/reviews/2026-10-29-morning.audit.json",
+  "coverage_note": "설정 검색의 실제 원수집 전체와 추가 유가검색 전체 노출 결과를 별도 보존. 다른 매체의 동일 사건 보도 모두 유지, 동일 매체·정규화 제목만 병합. 기사별 verified/time_evidence로 원문 확인·포털 확인·미확인 구분. 일부 원문 403·404·시각 충돌 및 검색 노출 한계 존재.",
+  "raw_count_basis": "설정된 원수집 검색 결과 51건. 추가검색 노출 결과 수·중복 제거 후보 수는 별도 기록.",
+  "supplemental_raw_search_result_count": 90,
+  "supplemental_unique_candidate_count": 19
 }

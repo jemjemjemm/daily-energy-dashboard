@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △중동 평화회담 기대에 WTI 99.90달러·브렌트유 113.88달러 마감 및 공급위험 지속 △산업연, 최고가격제 충격 완충 평가와 재정부담 누적 우려 및 선별지원·단계적 정상화 제언 △산업부, EU 산업가속화법 민관 TF 공동대응 강화 및 통상본부장 11월 브뤼셀 방문 추진"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △산업장관, 구미 배터리 재사용 실증센터 준공식 참석 및 제조 AI 전환·기업투자 지원 △기후부·전남광주시·9개 군, RE100 산업생태계 규제혁신 협약 및 재생에너지 인허가 개선 추진 △미 중간선거 이후 대이란 공습 가능성 보도 및 호르무즈 공급망 불확실성 지속"
     }
   ],
   "prices": {
@@ -1635,5 +1639,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△산업장관, 구미 배터리 재사용 실증센터 준공식 참석 및 제조 AI 전환·기업투자 지원 △기후부·전남광주시·9개 군, RE100 산업생태계 규제혁신 협약 및 재생에너지 인허가 개선 추진 △미 중간선거 이후 대이란 공습 가능성 보도 및 호르무즈 공급망 불확실성 지속",
+    "trend_paragraphs": [
+      "산업장관, 구미 배터리 재사용 실증센터 준공식 참석 및 제조 AI 전환·기업투자 지원",
+      "기후부·전남광주시·9개 군, RE100 산업생태계 규제혁신 협약 및 재생에너지 인허가 개선 추진",
+      "미 중간선거 이후 대이란 공습 가능성 보도 및 호르무즈 공급망 불확실성 지속"
+    ],
+    "articles": [
+      {
+        "title": "산업장관, 구미서 5극3특 현장행보…성장엔진·AI 전환 지원",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261028081300003",
+        "summary": "산업장관, 구미 배터리 재사용 실증센터 준공식 참석 및 제조 AI 전환·기업투자 지원",
+        "published_at_kst": "2026-10-28T12:00:04+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-28T12:00:04+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "전남광주시·기후부·9개 지자체, RE100 규제혁신 나선다",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261028138300054",
+        "summary": "기후부·전남광주시·9개 군, RE100 산업생태계 규제혁신 협약 및 재생에너지 인허가 개선 추진",
+        "published_at_kst": "2026-10-28T15:28:20+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-28T15:28:20+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "미국 \"내달 이란에 짧고 강력한 군사 작전\"… 걸프국에 사전 경고",
+        "press": "한국일보",
+        "url": "https://www.hankookilbo.com/news/article/A2026102813590003932",
+        "summary": "미 중간선거 이후 대이란 공습 가능성 보도 및 호르무즈 공급망 불확실성 지속",
+        "published_at_kst": "2026-10-28T15:52:00+09:00",
+        "verified": true,
+        "time_evidence": "원문 최초 등록·입력 2026.10.28 15:52; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+        "summary_basis": "original_article_body_manual_review"
+      }
+    ],
+    "source": "발행사 전체 원문·최초시각 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }

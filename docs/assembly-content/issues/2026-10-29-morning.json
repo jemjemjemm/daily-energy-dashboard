@@ -1,0 +1,412 @@
+{
+  "date": "2026-10-29",
+  "slot": "morning",
+  "status": "published",
+  "period": "수집 기간: 2026-10-28 17:00 ~ 2026-10-29 08:00 (KST)",
+  "published_at": "2026-10-29T08:32:01+09:00",
+  "committees": [
+    {
+      "id": "industry",
+      "priority": [
+        {
+          "title": "李대통령, 오늘 독일 총리와 정상회담…미래산업 협력 논의",
+          "url": "https://www.yna.co.kr/view/AKR20261028188900001",
+          "press": "연합뉴스",
+          "summary": "한독 정상회담에서 배터리·반도체·AI 등 미래산업 및 교역·투자 협력 논의 예정",
+          "event_id": "1029-AKR20261028188900001",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "산업·통상 협력이 주 의제인 정상회담 예고. 회담 및 계약 완료로 표현하지 않음.",
+          "categories": [
+            "배터리"
+          ],
+          "category_reason": "원문 직접 관련: 배터리",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-29T05:00:00+09:00",
+          "time_evidence": "원문 published_time 2026-10-29T05:00:00+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "ca5fcd1488af22e02fccef4da8538414027c8c6beb9da34406753912d60b8e79"
+        },
+        {
+          "title": "최고가격제서 빠진 LPG, 1년 새 15%↑…겨울 물가 부담 가중",
+          "url": "https://www.news1.kr/economy/trend/6335251",
+          "press": "뉴스1",
+          "summary": "최고가격제 제외 LPG 자동차용 평균가 전년 대비 14.5% 상승 및 겨울 연료비 부담 확대 우려",
+          "event_id": "1029-lpg",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "석유제품 수급·가격정책 맥락으로 산중위 단일 배정. LPG를 도시가스와 혼동하지 않음. 인상 전망과 확정 구분.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문 직접 관련: 정유·유가/담합",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-29T06:00:00+09:00",
+          "time_evidence": "원문 published_time 2026-10-29T06:00:00+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "aa9f275a52502774053cc254dfeaa4a5cfedcf58b97b2153c41663269511802a"
+        },
+        {
+          "title": "[국제유가] 하루 만에 반등…브렌트유, 115달러 돌파",
+          "url": "https://www.fnnews.com/news/202610290459147005",
+          "press": "파이낸셜뉴스",
+          "summary": "중동 군사위험 보도에 WTI 102.78달러·브렌트유 115.32달러 상승 마감",
+          "event_id": "1029-oilfn",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "중동전쟁·고유가 직접 관련. 확인된 주요 경제지 원문 우선. 뉴스1 동일 종가는 국감 중복 제외하되 유가 모두 보존.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문 직접 관련: 정유·유가/담합",
+          "importance": {
+            "legislation": 0,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-29T05:41:32+09:00",
+          "time_evidence": "원문 published_time 2026-10-29T05:41:32+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "98185d62fc00d276a98565e1c18eadb0b0d86cf6da1b45260c42352eefee7fc3"
+        }
+      ],
+      "all": [
+        {
+          "title": "\"개방 이익, 농어민과 나눠야\"…CPTPP 가입 해법은",
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01479286645617840",
+          "press": "이데일리",
+          "summary": "CPTPP 가입 신청 연기 이후 이해관계자 의견 수렴 및 농어업 피해지원·이익공유 과제 검토",
+          "event_id": "1029-cptpp",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "통상협정 가입 및 산업계 이익공유가 핵심. 생산파급효과는 추정치, 가입·부담금 확정으로 바꾸지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-29T04:00:04+09:00",
+          "time_evidence": "발행사 본문 등록 2026-10-29 오전 4:00:04 직접 확인; 수정시각 별도 표기; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "0333d3f46176b96cadc01162a20b8a7e0f9cbc43089566d2fea4c983a596d0a9"
+        },
+        {
+          "title": "李대통령, 오늘 독일 총리와 정상회담…미래산업 협력 논의",
+          "url": "https://www.yna.co.kr/view/AKR20261028188900001",
+          "press": "연합뉴스",
+          "summary": "한독 정상회담에서 배터리·반도체·AI 등 미래산업 및 교역·투자 협력 논의 예정",
+          "event_id": "1029-AKR20261028188900001",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "산업·통상 협력이 주 의제인 정상회담 예고. 회담 및 계약 완료로 표현하지 않음.",
+          "categories": [
+            "배터리"
+          ],
+          "category_reason": "원문 직접 관련: 배터리",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-29T05:00:00+09:00",
+          "time_evidence": "원문 published_time 2026-10-29T05:00:00+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "ca5fcd1488af22e02fccef4da8538414027c8c6beb9da34406753912d60b8e79"
+        },
+        {
+          "title": "최고가격제서 빠진 LPG, 1년 새 15%↑…겨울 물가 부담 가중",
+          "url": "https://www.news1.kr/economy/trend/6335251",
+          "press": "뉴스1",
+          "summary": "최고가격제 제외 LPG 자동차용 평균가 전년 대비 14.5% 상승 및 겨울 연료비 부담 확대 우려",
+          "event_id": "1029-lpg",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "석유제품 수급·가격정책 맥락으로 산중위 단일 배정. LPG를 도시가스와 혼동하지 않음. 인상 전망과 확정 구분.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문 직접 관련: 정유·유가/담합",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-29T06:00:00+09:00",
+          "time_evidence": "원문 published_time 2026-10-29T06:00:00+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "aa9f275a52502774053cc254dfeaa4a5cfedcf58b97b2153c41663269511802a"
+        },
+        {
+          "title": "\"1227억원 투자 유치\"…'로컬 소상공인' 성과보니",
+          "url": "https://www.newsis.com/view/NISX20261028_0003845172",
+          "press": "뉴시스",
+          "summary": "중기부 립스 지원 소상공인 765개사, 민간투자 1227억원 유치 및 성장 성과 공개",
+          "event_id": "1029-lips",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "소상공인 성장·민간투자 연계 지원 정책. 원문 확인 가능한 뉴시스 선정, 주요 경제지 동일보도는 URL·본문 미확보로 제외.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-29T06:00:00+09:00",
+          "time_evidence": "원문 최초 등록·입력 2026.10.29 06:00:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "5fa56983a8326914cdffaeb05d56c68eb3d63bcc9b74488e2eed1bd450af5169"
+        },
+        {
+          "title": "[국제유가] 하루 만에 반등…브렌트유, 115달러 돌파",
+          "url": "https://www.fnnews.com/news/202610290459147005",
+          "press": "파이낸셜뉴스",
+          "summary": "중동 군사위험 보도에 WTI 102.78달러·브렌트유 115.32달러 상승 마감",
+          "event_id": "1029-oilfn",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "중동전쟁·고유가 직접 관련. 확인된 주요 경제지 원문 우선. 뉴스1 동일 종가는 국감 중복 제외하되 유가 모두 보존.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문 직접 관련: 정유·유가/담합",
+          "importance": {
+            "legislation": 0,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-29T05:41:32+09:00",
+          "time_evidence": "원문 published_time 2026-10-29T05:41:32+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "98185d62fc00d276a98565e1c18eadb0b0d86cf6da1b45260c42352eefee7fc3"
+        }
+      ]
+    },
+    {
+      "id": "climate_labor",
+      "priority": [],
+      "all": [
+        {
+          "title": "2028년부터 퇴직급여 사외적립 의무화",
+          "url": "https://www.fnnews.com/news/202610281815482964",
+          "press": "파이낸셜뉴스",
+          "summary": "정부, 2028년 100인 이상 사업장부터 퇴직급여 사외적립 단계적 의무화 및 기금형 연금 추진",
+          "event_id": "1029-retirefn",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "퇴직급여 수급권·노동부 소관 제도개선. 기노위 당정협의 예정과 입법 완료 구분. 같은 사안의 시간대 밖 28일 오전 기사 제외.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-28T18:16:27+09:00",
+          "time_evidence": "원문 published_time 2026-10-28T18:16:27+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "8a78d93b4244ba3f1ec6ceab3344f06e08c3a4f5318b5913f5a748875feb6e38"
+        },
+        {
+          "title": "초광역특구법 '주52시간 예외' 진통에… 김민석, 한국노총 만난다",
+          "url": "https://www.hankookilbo.com/news/article/A2026102814400002159",
+          "press": "한국일보",
+          "summary": "민주당 대표, 한국노총 지도부와 정년연장·초광역특구 노동특례 논의할 회동 예정",
+          "event_id": "1029-talk",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "노동시간 예외·정년연장 정책 갈등의 조정 맥락. 정무위 발의자가 포함된 법안을 이유로 소속을 기노위로 치환하지 않음. 특정 소속 의원 발언이 아닌 노동정책·당대표 행보로 분류.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-29T04:30:00+09:00",
+          "time_evidence": "원문 최초 등록·입력 2026.10.29 04:30; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "f90430da559b0ac8718320d144236f987fc3620bc70029e422d49d7c252be4c8"
+        },
+        {
+          "title": "민주노총 \"李대통령, 이주노동자 '송금 기계'로 폄훼…사과하라\"",
+          "url": "https://www.yna.co.kr/view/AKR20261028189600530",
+          "press": "연합뉴스",
+          "summary": "민주노총, 대통령 이주노동자 발언 사과 및 임금체불·산재사망·주거권 대책 촉구",
+          "event_id": "1029-AKR20261028189600530",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "이주노동자 노동권 정책 요구. 노조 주장과 사실 확정을 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-28T20:12:54+09:00",
+          "time_evidence": "원문 published_time 2026-10-28T20:12:54+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "968fb52b27c91f0be6439c38b826c39cee8b9437d366b2ddc0b0b144b4221a30"
+        },
+        {
+          "title": "주 4.5일제 찬성 69%지만…5인 미만 사업장 57% \"우리 직장선 어려워\"",
+          "url": "https://www.news1.kr/economy/employment-labor/6335415",
+          "press": "뉴스1",
+          "summary": "주4.5일제 찬성 69.4%와 영세사업장 도입 격차 확인 및 정부 지원대상 확대 과제 제기",
+          "event_id": "1029-days",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "김위상"
+          ],
+          "committee_reason": "실노동시간 단축·고용부 시범지원 정책. 설문을 전 국민 확정 의견으로 확대하지 않음. 김위상 의원 의뢰 조사·국감 질의, roster climate_labor 소속 확인. 뉴스1 HTML contentArrange 전체 본문 직접 대조.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-29T06:00:00+09:00",
+          "time_evidence": "원문 published_time 2026-10-29T06:00:00+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "fc7e1d4ee466ee3773e15ae2427d447aa992fc85e3a75fedb6103f011445fc97"
+        },
+        {
+          "title": "도심 멧돼지·너구리 출몰에…야생동물 관리·공존 해법 모색",
+          "url": "https://www.news1.kr/economy/env-policy/6335539",
+          "press": "뉴스1",
+          "summary": "국립생물자원관, 도심 야생동물 과학적 관리·공존 정책 활용 학술토론회 개최 예고",
+          "event_id": "1029-wild",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "기후부 환경·생물다양성 관리정책. 행사 예고와 결과 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-10-29T06:00:00+09:00",
+          "time_evidence": "원문 published_time 2026-10-29T06:00:00+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "e367371b38c41b9aa6fb51c3aac2186f7b23c20d6d7b5496379007d947bfba3d"
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "priority": [],
+      "all": [
+        {
+          "title": "'가상자산 과세' 또 미뤄질까… 결론 못낸 당정, 유예론 무게",
+          "url": "https://www.mt.co.kr/politics/2026/10/29/2026102820004660688",
+          "press": "머니투데이",
+          "summary": "가상자산 과세 인프라·손실이월공제 쟁점 점검 및 유예 시 소득세법 개정 필요성 제기",
+          "event_id": "1029-crypto",
+          "committees": [
+            "finance"
+          ],
+          "members": [
+            "오기형"
+          ],
+          "committee_reason": "재경위 조세소위 심사·과세정책. 오기형 의원 roster finance 확인. 유예론과 법률 확정 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-29T04:03:00+09:00",
+          "time_evidence": "원문 published_time 2026-10-29T04:03:00+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "7fed2c5d9cd70ccc11209eb033afa3a68eb6dcfa055b41c1804eb1f27f14bdda"
+        },
+        {
+          "title": "자금이탈 우려 있는데…'선진국 간판'만 집착하는 재경부 [김익환의 부처 핸즈업]",
+          "url": "https://www.hankyung.com/article/202610280932i",
+          "press": "한국경제",
+          "summary": "블룸버그 한국 국채 선진국 재분류 추진에 순유입 효과·신흥국 추종자금 이탈 위험 검토",
+          "event_id": "1029-bloom",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "committee_reason": "국채 조달·분류정책 분석. 전일 17:00 경계 포함. 당일 Evening에도 포함되는 경계기사이나 동일 슬롯에서 중복 없음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-10-28T17:00:00+09:00",
+          "time_evidence": "원문 최초 등록·입력 2026.10.28 17:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "f6c37125ee01da215c103dc98ff911cb305106facfec008910569673538c0e3d"
+        },
+        {
+          "title": "기업 체감경기 4년 2개월 만에 최고…\"반도체 등 온기 확산\"",
+          "url": "https://www.yna.co.kr/view/AKR20261028163500002",
+          "press": "연합뉴스",
+          "summary": "한은 10월 전산업 기업심리지수 104.2로 5.1포인트 상승 및 중소·내수기업 심리 개선",
+          "event_id": "1029-cbsy",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "committee_reason": "한국은행 거시경기 지표. 중소기업 별도 정책사업 기사와 구분. 동일보도 머니투데이는 연합뉴스 우선으로 제외.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 0,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-10-29T06:00:09+09:00",
+          "time_evidence": "원문 published_time 2026-10-29T06:00:09+09:00; 발행사 전체 본문·최초시각 직접 검토. 담합 전용 자동 본문판정과 별도 검토.",
+          "verified": true,
+          "source_body_sha256": "ab2a244072ed821535fdc8eee54be4beac019521b2d61b23ceda4e0ba3d9dce5"
+        }
+      ]
+    }
+  ]
+}
