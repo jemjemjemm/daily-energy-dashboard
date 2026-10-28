@@ -1,0 +1,141 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-29",
+  "slot": "morning",
+  "period_start": "2026-10-29T00:00:00+09:00",
+  "period_end": "2026-10-29T08:00:00+09:00",
+  "period_label": "2026-10-29 00:00 ~ 2026-10-29 08:00",
+  "generated_at": "2026-10-29T08:21:09.712474+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 51,
+  "total_enriched_input_count": 28,
+  "total_in_period_unique_count": 2,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 20,
+  "total_deduped_count": 2,
+  "total_ok_count": 1,
+  "total_review_count": 1,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 30,
+    "daum": 9,
+    "google": 12
+  },
+  "query_counts": {
+    "SK에너지 담합": 1,
+    "공정거래위원회 정유사 담합": 1,
+    "석유 담합": 1,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "현대오일뱅크 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-29T08:20:13.355376+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "을지로위 “택배노동자 적정 노동시간 보장법 통과” 약속",
+      "url": "https://www.labortoday.co.kr/news/articleView.html?idxno=237449",
+      "source": "매일노동뉴스",
+      "published_at": "2026-10-29T06:30:03+09:00",
+      "snippet": "국정감사 성과로는 정유업계의 가격 담합 의혹에 관해 정유사 들의 사과를 받아낸 점 등을 꼽았다. 지난 12일 국회 정무 위원회 의 공정거래위원회 국정감사에 증인으로 출석한 김종화 SK에너지 사장과 송명준 HD현대오일뱅크 사장, 이건명 에쓰오일 부사장 등에게서 이끌어낸 답변이다. 또 이억원 금융 위원회 장이...",
+      "collected_at": "2026-10-29T08:20:20.782150+09:00",
+      "normalized_title": "을지로위 “택배노동자 적정 노동시간 보장법 통과” 약속",
+      "source_normalized": "매일노동뉴스",
+      "duplicate_key": "매일노동뉴스::을지로위 “택배노동자 적정 노동시간 보장법 통과” 약속",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.labortoday.co.kr/news/articleView.html?idxno=237449",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-29T06:30:03+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "d8d471270b10fd12",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "정유업계",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[오늘의 국회 에너지 입법 : 공정위 제재에도 반복적인 담합 존재]",
+      "url": "http://www.e-platform.net/news/articleView.html?idxno=106504",
+      "source": "에너지플랫폼뉴스",
+      "published_at": "2026-10-29T07:31:06+09:00",
+      "snippet": "국회 권칠승 의원(더불어민주당, 경기 화성시 병)은 석유 및 석유 대체연료 사업법, 고압가스 안전관리법, 폐기물관리법 개정안 등을 대표 발의하고 반복적인 담합 행위 적발 시 영업 정지를 명령할 수 있는 근거 마련을 주문했다. 권칠승 의원은 최근 민생과 밀접한 분야에서 부당한 담합 행위가 끊이지 않고...",
+      "collected_at": "2026-10-29T08:20:26.804075+09:00",
+      "normalized_title": "[오늘의 국회 에너지 입법 : 공정위 제재에도 반복적인 담합 존재]",
+      "source_normalized": "에너지플랫폼뉴스",
+      "duplicate_key": "에너지플랫폼뉴스::[오늘의 국회 에너지 입법 : 공정위 제재에도 반복적인 담합 존재]",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.e-platform.net/news/articleView.html?idxno=106504",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-29T07:31:06+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "6fc9db9e25f4c33f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
