@@ -1,0 +1,208 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-28",
+  "slot": "evening",
+  "period_start": "2026-10-28T08:00:00+09:00",
+  "period_end": "2026-10-28T17:00:00+09:00",
+  "period_label": "2026-10-28 08:00 ~ 2026-10-28 17:00",
+  "generated_at": "2026-10-29T00:04:09.334577+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 36,
+  "total_enriched_input_count": 22,
+  "total_in_period_unique_count": 6,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 13,
+  "total_deduped_count": 4,
+  "total_ok_count": 3,
+  "total_review_count": 1,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 2,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 24,
+    "daum": 0,
+    "google": 12
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 1,
+    "석유 담합": 3,
+    "석유제품 담합": 2,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "주유소 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-29T00:03:15.682982+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "與 을지로위 \"국감서 드러난 홈플러스 책임·먹튀·담합·기술탈취 바로잡을 것\"",
+      "url": "https://www.newspim.com/news/view/20261028001213",
+      "source": "뉴스핌",
+      "published_at": "2026-10-28T15:33:00+09:00",
+      "snippet": "대형 프랜차이즈의 불 공정 거래 와 제지업계 담합 문제도 점검했다. 을지로 위원회 는 수출 호황에도 소상공인과 중소기업의 어려움이 커지고 있다며 성장... 정무 위원회 의 공정 위 등에 대한 국정감사에 출석하고 있다. [사진 = 뉴스핌DB] ◆홈플러스 정상화 촉구… 정유사 담합 ·기술탈취 문제도 지적 을지로위는...",
+      "collected_at": "2026-10-29T00:03:24.311254+09:00",
+      "normalized_title": "與 을지로위 \"국감서 드러난 홈플러스 책임·먹튀·담합·기술탈취 바로잡을 것\"",
+      "source_normalized": "뉴스핌",
+      "duplicate_key": "뉴스핌::與 을지로위 \"국감서 드러난 홈플러스 책임·먹튀·담합·기술탈취 바로잡을 것\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.newspim.com/news/view/20261028001213",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-28T15:33:00+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "c655b0fe356238d7",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[더벨][석화업계 공정위 제재 대응] 유니드, 과징금 최대 200억 '재무·사...",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610261607508920106689",
+      "source": "더벨",
+      "published_at": "2026-10-28T11:03:29.991466+09:00",
+      "snippet": "유니드는 석유 화학 담합 사건으로 기소된 6개사 가운데 부담이 가장 가벼운 곳이다. 기소 인원은 1명이고 검찰은 가담 정도가 상대적으로 작다며 구속영장 청구 대상에서도 제외했다. 담합 품목 가운데 본업인 가성칼륨 공정의 부산물인 염산·염소만 해당한다. 추정 과징금은 최대 200억원 안팎으로 별도...",
+      "collected_at": "2026-10-29T00:03:29.991480+09:00",
+      "normalized_title": "[더벨][석화업계 공정위 제재 대응] 유니드, 과징금 최대 200억 '재무·사...",
+      "source_normalized": "더벨",
+      "duplicate_key": "더벨::[더벨][석화업계 공정위 제재 대응] 유니드, 과징금 최대 200억 '재무·사...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610261607508920106689",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "a07e6446296f3c9d",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[컨콜] OCI \"석화 담합 과징금 규모 미확정…당국에 적극 소명\" - 글로벌이코노믹",
+      "url": "https://www.g-enews.com/view.php?ud=202610281635001907ea14faf6f5_1",
+      "source": "글로벌이코노믹",
+      "published_at": "2026-10-28T16:37:00+09:00",
+      "snippet": "OCI는 28일 올해 3분기 경영실적 발표 컨퍼런스콜에서 석유 화학 제품 담합 관련 과징금에 대해 \"과징금 산정 기준이 되는 매출액을 놓고 회사와 당국의 판단에 차이가 있을 수 있다\"며 \"현재 조사가 진행 중인 만큼 구체적인 규모를 제시하기는 어렵다\"고 밝혔다. 이어 \"향후 조사 과정에서 회사의 입장을 최대한...",
+      "collected_at": "2026-10-29T00:03:29.990134+09:00",
+      "normalized_title": "[컨콜] OCI \"석화 담합 과징금 규모 미확정…당국에 적극 소명\" - 글로벌이코노믹",
+      "source_normalized": "글로벌이코노믹",
+      "duplicate_key": "글로벌이코노믹::[컨콜] oci \"석화 담합 과징금 규모 미확정…당국에 적극 소명\" - 글로벌이코노믹",
+      "portals": [
+        "naver",
+        "google"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.g-enews.com/view.php?ud=202610281635001907ea14faf6f5_1",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-10-28 16:37",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "62402a31997ae736",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "가스·석유·폐기물 등 반복 담합 사업자 영업정지 추진…권칠승 의원, 7개 업종법 개정안 발의 - 에너지데일리",
+      "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=204458",
+      "source": "에너지데일리",
+      "published_at": "2026-10-28T14:08:44+09:00",
+      "snippet": "' 석유 및 석유 대체연료 사업법 일부개정법률안'(의안번호 2222195) 역시 반복 담합 사업자에 대해 공정거래위원회의 요청을 받은 관계 행정기관이 영업정지 처분을 할 수 있도록 제13조 등 관련 조항을 정비하는 내용이다. 석유 제품은 운송과 제조업, 가계 소비 등 경제 전반에 영향을 미치는 필수 에너지원이다....",
+      "collected_at": "2026-10-29T00:03:29.990867+09:00",
+      "normalized_title": "가스·석유·폐기물 등 반복 담합 사업자 영업정지 추진…권칠승 의원, 7개 업종법 개정안 발의 - 에너지데일리",
+      "source_normalized": "에너지데일리",
+      "duplicate_key": "에너지데일리::가스·석유·폐기물 등 반복 담합 사업자 영업정지 추진…권칠승 의원, 7개 업종법 개정안 발의 - 에너지데일리",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.energydaily.co.kr/news/articleView.html?idxno=204458",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-28T14:08:44+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "cf8760e6d99ec014",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
