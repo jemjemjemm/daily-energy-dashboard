@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △중동 군사위험 보도에 WTI 102.78달러·브렌트유 115.32달러 상승 마감 △최고가격제 제외 LPG 자동차용 평균가 전년 대비 14.5% 상승 및 겨울 연료비 부담 확대 우려 △CPTPP 가입 신청 연기 이후 이해관계자 의견 수렴 및 농어업 피해지원·이익공유 과제 검토"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △산업부, 내수 공급·적정 재고 확보 조건으로 11월 경유 수출한도 전년 동월 110%로 완화 △당정, 2030년까지 퇴직급여 사외적립 의무화·기금형 도입 및 연내 법 개정 추진 △국세청, 글로벌최저한세 신고 애로 청취 및 전산 개선·전문가 협력망 구성 추진"
     }
   ],
   "prices": {
@@ -1626,5 +1630,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△산업부, 내수 공급·적정 재고 확보 조건으로 11월 경유 수출한도 전년 동월 110%로 완화 △당정, 2030년까지 퇴직급여 사외적립 의무화·기금형 도입 및 연내 법 개정 추진 △국세청, 글로벌최저한세 신고 애로 청취 및 전산 개선·전문가 협력망 구성 추진",
+    "trend_paragraphs": [
+      "산업부, 내수 공급·적정 재고 확보 조건으로 11월 경유 수출한도 전년 동월 110%로 완화",
+      "당정, 2030년까지 퇴직급여 사외적립 의무화·기금형 도입 및 연내 법 개정 추진",
+      "국세청, 글로벌최저한세 신고 애로 청취 및 전산 개선·전문가 협력망 구성 추진"
+    ],
+    "articles": [
+      {
+        "title": "경유 수출제한 조건부 완화…11월부터 전년 물량 대비 110%까지",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261029039600003",
+        "summary": "산업부, 내수 공급·적정 재고 확보 조건으로 11월 경유 수출한도 전년 동월 110%로 완화",
+        "published_at_kst": "2026-10-29T10:00:05+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-29T10:00:05+09:00; 발행사 전체 본문·최초시각 직접 대조. 담합 전용 자동필터 판정과 별도로 본문 검토.",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "퇴직급여 사외적립, 2030년까지 모든 사업장에 의무화",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261028184500530",
+        "summary": "당정, 2030년까지 퇴직급여 사외적립 의무화·기금형 도입 및 연내 법 개정 추진",
+        "published_at_kst": "2026-10-29T09:00:03+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-29T09:00:03+09:00; 발행사 전체 본문·최초시각 직접 대조. 담합 전용 자동필터 판정과 별도로 본문 검토.",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "국세청, 글로벌최저한세 내년 신고 앞두고 세무대리인 간담회",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261029082500002",
+        "summary": "국세청, 글로벌최저한세 신고 애로 청취 및 전산 개선·전문가 협력망 구성 추진",
+        "published_at_kst": "2026-10-29T12:00:07+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-29T12:00:07+09:00; 발행사 전체 본문·최초시각 직접 대조. 담합 전용 자동필터 판정과 별도로 본문 검토.",
+        "summary_basis": "original_article_body_manual_review"
+      }
+    ],
+    "source": "발행사 전체 원문·최초시각 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }

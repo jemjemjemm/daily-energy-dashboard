@@ -6,7 +6,7 @@
   "period_start": "2026-10-30T00:00:00+09:00",
   "period_end": "2026-10-30T08:00:00+09:00",
   "period_label": "2026-10-30 00:00 ~ 2026-10-30 08:00",
-  "generated_at": "2026-10-30T08:18:51.109256+09:00",
+  "generated_at": "2026-10-30T08:26:05.412304+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -22,24 +22,24 @@
     "공정위 유가 담합",
     "공정거래위원회 정유사 담합"
   ],
-  "total_raw_count": 53,
-  "total_enriched_input_count": 22,
-  "total_in_period_unique_count": 2,
-  "total_unknown_time_count": 0,
-  "total_outside_period_count": 14,
-  "total_deduped_count": 0,
-  "total_ok_count": 0,
-  "total_review_count": 0,
-  "total_excluded_count": 2,
+  "total_raw_count": 34,
+  "total_enriched_input_count": 34,
+  "total_in_period_unique_count": 5,
+  "total_unknown_time_count": 12,
+  "total_outside_period_count": 17,
+  "total_deduped_count": 3,
+  "total_ok_count": 2,
+  "total_review_count": 1,
+  "total_excluded_count": 5,
   "grade_counts": {
-    "A": 0,
+    "A": 2,
     "B": 0,
-    "C": 0
+    "C": 1
   },
   "portal_counts": {
     "naver": 38,
     "daum": 2,
-    "google": 13
+    "google": 14
   },
   "query_counts": {},
   "collection_warnings": [
@@ -50,9 +50,93 @@
       "message": "public search coverage limit",
       "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
       "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-      "created_at": "2026-10-30T08:17:38.823264+09:00"
+      "created_at": "2026-10-30T08:16:20.681606+09:00"
     }
   ],
   "telegram_alert_log": [],
-  "articles": []
+  "articles": [
+    {
+      "title": "국제유가, 중동 외교 해결 기대감에 하락…WTI 102달러",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261030006200072",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261030006200072",
+      "published_at": "2026-10-30T04:45:07+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-10-30T04:45:07+09:00; 전체 원문 직접 검토",
+      "summary": "미·이란 외교 재개 기대에 WTI 102달러·브렌트유 114.88달러 하락 마감",
+      "snippet": "미·이란 외교 재개 기대에 WTI 102달러·브렌트유 114.88달러 하락 마감",
+      "queries": [
+        "추가 유가 전수검색·발행사 원문 검토"
+      ],
+      "source_body_sha256": "08939160d8ba6f9bae62b305745f34eca86811d48b508169a7604ee0d923c365",
+      "id": "ed7f7d5320146270",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·석유 직접 관련성 검토; 원문 확인 상태 별도 표시",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "국제유가, 美-이란 외교협상 기대에 하락... WTI 102달러",
+      "source": "글로벌경제신문",
+      "url": "https://www.getnews.co.kr/news/articleView.html?idxno=885369",
+      "canonical_url": "https://www.getnews.co.kr/news/articleView.html?idxno=885369",
+      "published_at": "2026-10-30T07:02:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.10.30 07:02; 전체 원문 직접 검토",
+      "summary": "미·이란 외교협상 기대에 국제유가 하락 및 후티 공격에 낙폭 제한",
+      "snippet": "미·이란 외교협상 기대에 국제유가 하락 및 후티 공격에 낙폭 제한",
+      "queries": [
+        "추가 유가 전수검색·발행사 원문 검토"
+      ],
+      "source_body_sha256": "df3eec23e2f7967aa92b8c4fca7f49e645324086e217c138e6f51e8079223e3e",
+      "id": "49bf752a7e531c50",
+      "source_normalized": "글로벌경제신문",
+      "grade": "C",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·석유 직접 관련성 검토; 원문 확인 상태 별도 표시",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    },
+    {
+      "title": "美, 이란 공격 임박 뚜렷한 징후…\"오늘 트럼프에 공격옵션 보고\"",
+      "source": "한국경제",
+      "url": "https://v.daum.net/v/20261030075433296",
+      "canonical_url": "https://v.daum.net/v/20261030075433296",
+      "published_at": "2026-10-30T07:54:00+09:00",
+      "published_at_basis": "portal_article",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 10. 30. 07:54; 포털 본문 또는 검색결과 확인 상태, 발행사 원문 미검증",
+      "queries": [
+        "유가"
+      ],
+      "snippet": "",
+      "verification_error": "",
+      "id": "f475fc2b86df69c6",
+      "source_normalized": "한국경제",
+      "grade": "A",
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 전체 본문 또는 최초시각 검증 미완료; time_evidence 참조",
+      "matched_keywords": [
+        "유가"
+      ],
+      "published_at_status": "known"
+    }
+  ],
+  "summary": "미·이란 외교 재개 기대에 국제유가 하락 및 공급위험 지속 모니터링",
+  "editorial_audit": "data/reviews/2026-10-30-morning.audit.json",
+  "coverage_note": "설정 검색의 실제 원수집 전체와 추가검색 전체 노출 결과 보존. 다른 매체 동일 사건 모두 보존, 같은 매체·정규화 제목만 병합. 일부 발행사 403·연결종료·시각 충돌로 원문 미확인 상태 명시.",
+  "raw_count_basis": "설정 원수집 검색 결과 54건. 추가 검색 노출 수는 별도 기록.",
+  "supplemental_raw_search_result_count": 228,
+  "supplemental_unique_candidate_count": 13
 }
