@@ -1,0 +1,418 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-29",
+  "slot": "evening",
+  "period_start": "2026-10-29T08:00:00+09:00",
+  "period_end": "2026-10-29T17:00:00+09:00",
+  "period_label": "2026-10-29 08:00 ~ 2026-10-29 17:00",
+  "generated_at": "2026-10-30T00:11:55.436104+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 49,
+  "total_enriched_input_count": 20,
+  "total_in_period_unique_count": 11,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 3,
+  "total_deduped_count": 10,
+  "total_ok_count": 1,
+  "total_review_count": 9,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 1,
+    "C": 9
+  },
+  "portal_counts": {
+    "naver": 37,
+    "daum": 1,
+    "google": 11
+  },
+  "query_counts": {
+    "SK에너지 담합": 1,
+    "공정거래위원회 정유사 담합": 1,
+    "공정위 유가 담합": 2,
+    "석유 담합": 1,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 9,
+    "현대오일뱅크 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-30T00:10:48.472655+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[더벨][thebell desk] 유가 스프레드와 담합 사이 줄타기",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610261642490160103828",
+      "source": "더벨",
+      "published_at": "2026-10-29T09:10:49.932289+09:00",
+      "snippet": "공정위는 곧이어 관련 매출 44조1000억원 규모의 SK에너지·HD현대오일뱅크 석유 류 담합 심의에 들어갔다. 석유 화학 다른 품목으로도 조사가 번졌다. 올해 대형 담합 5건에 매긴 과징금만 2조4000억원을 넘는다. 업계가 억울해하는 지점은 잣대다. 2021년 말 시행된 개정 공정거래법은 경쟁사 간 가격 정보 교환도...",
+      "collected_at": "2026-10-30T00:10:49.932296+09:00",
+      "normalized_title": "[더벨][thebell desk] 유가 스프레드와 담합 사이 줄타기",
+      "source_normalized": "더벨",
+      "duplicate_key": "더벨::[더벨][thebell desk] 유가 스프레드와 담합 사이 줄타기",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610261642490160103828",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "a044fc04b49f3201",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "공정위",
+        "담합",
+        "조사",
+        "과징금"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "민병덕 \"MBK 검찰 수사 답보 상태…30만 민생 문제인 홈플러스 정상화 끝까지 함께할 것\" - 굿모닝경제",
+      "url": "https://www.goodkyung.com/news/articleView.html?idxno=292887",
+      "source": "굿모닝경제",
+      "published_at": "2026-10-29T11:26:26+09:00",
+      "snippet": "민 의원은 올해 국감 주요 성과로 '홈플러스 사태' MBK 중징계안에 대한 금융위원장의 엄정 처리 약속과 정유사 담합 에 대한 경영진의 대국민 사과, 중소기업 기술 탈취 문제 등을 꼽았다. 특히 홈플러스 사태와 관련해 \"MBK에 대한 제재 지연은 MBK의 '먹튀'를 돕는 것\"이라고 날을 세우며 금융당국의 후속 조치를...",
+      "collected_at": "2026-10-30T00:10:55.589583+09:00",
+      "normalized_title": "민병덕 \"MBK 검찰 수사 답보 상태…30만 민생 문제인 홈플러스 정상화 끝까지 함께할 것\" - 굿모닝경제",
+      "source_normalized": "굿모닝경제",
+      "duplicate_key": "굿모닝경제::민병덕 \"mbk 검찰 수사 답보 상태…30만 민생 문제인 홈플러스 정상화 끝까지 함께할 것\" - 굿모닝경제",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.goodkyung.com/news/articleView.html?idxno=292887",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-29T11:26:26+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "4613e28492ff1ba5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "민병덕 “MBK 제재 지연은 ‘먹튀’ 돕는 것”…금융당국에 후속 조치 촉구",
+      "url": "http://www.newslock.co.kr/news/articleView.html?idxno=138861",
+      "source": "뉴스락",
+      "published_at": "2026-10-29T10:55:01+09:00",
+      "snippet": "주요 성과로는 MBK 중징계안에 대한 금융위원장의 엄정 처리 약속, 정유사 담합 에 대한 경영진의 대국민 사과, 중소기업 기술 탈취 문제 공론화 등을 들었다. 특히 MBK 제재 절차가 지연되는 동안 홈플러스의 영업 기반과 고용이 축소됐다고 지적했다. 민 의원은 \"금감원 제재심이 7월 2일 MBK 중징계안 심의를...",
+      "collected_at": "2026-10-30T00:10:55.590978+09:00",
+      "normalized_title": "민병덕 “MBK 제재 지연은 ‘먹튀’ 돕는 것”…금융당국에 후속 조치 촉구",
+      "source_normalized": "뉴스락",
+      "duplicate_key": "뉴스락::민병덕 “mbk 제재 지연은 ‘먹튀’ 돕는 것”…금융당국에 후속 조치 촉구",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.newslock.co.kr/news/articleView.html?idxno=138861",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-29T10:55:01+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "50979ee5f7a6e325",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "민병덕, MBK 제재 지연 비판…\"홈플러스 정상화 끝까지 챙길 것\"",
+      "url": "http://www.iminju.net/news/articleView.html?idxno=171604",
+      "source": "민주신문",
+      "published_at": "2026-10-29T10:36:20+09:00",
+      "snippet": "한편 을지로위원회는 올해 국정감사에서 홈플러스 사태와 관련한 사모펀드 규제·감독 문제를 비롯해 정유사 담합 , 중소기업 기술 탈취, 대형 프랜차이즈의 불공정 거래 등을 주요 의제로 다뤘다고 밝혔다. 민 의원은 \"국감에서 제기한 문제가 실질적인 피해회복과 입법, 제도 개선으로 이어지도록 끝까지...",
+      "collected_at": "2026-10-30T00:10:55.591439+09:00",
+      "normalized_title": "민병덕, MBK 제재 지연 비판…\"홈플러스 정상화 끝까지 챙길 것\"",
+      "source_normalized": "민주신문",
+      "duplicate_key": "민주신문::민병덕, mbk 제재 지연 비판…\"홈플러스 정상화 끝까지 챙길 것\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.iminju.net/news/articleView.html?idxno=171604",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-29T10:36:20+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "b28f3c84fd248a1b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "민병덕 의원 \"MBK 수사 답보… 민생 문제 홈플러스 정상화 끝까지 함께할 것\"",
+      "url": "http://www.beyondpost.co.kr/view.php?ud=20261029101929553618ef25b590_30",
+      "source": "비욘드포스트",
+      "published_at": "2026-10-29T10:20:00+09:00",
+      "snippet": "민 의원은 올해 국감 주요 성과로 '홈플러스 사태' MBK 중징계안에 대한 금융위원장의 엄정 처리 약속과 정유사 담합 에 대한 경영진의 대국민 사과, 중소기업 기술 탈취 문제 등을 꼽았다. 홈플러스 사태와 관련해 \"MBK에 대한 제재 지연은 MBK의 '먹튀'를 돕는 것\"이라고 날을 세우며 금융당국의 후속 조치를 재차...",
+      "collected_at": "2026-10-30T00:10:55.591904+09:00",
+      "normalized_title": "민병덕 의원 \"MBK 수사 답보… 민생 문제 홈플러스 정상화 끝까지 함께할 것\"",
+      "source_normalized": "비욘드포스트",
+      "duplicate_key": "비욘드포스트::민병덕 의원 \"mbk 수사 답보… 민생 문제 홈플러스 정상화 끝까지 함께할 것\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.beyondpost.co.kr/view.php?ud=20261029101929553618ef25b590_30",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-10-29 10:20",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "adceff2777d07e94",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "민병덕 민주당 의원, \"MBK 검찰 수사 답보 상태…'30만' 민생 문제인 홈플러스 정상화 끝까지 함께할 것\"",
+      "url": "http://www.bizwnews.com/news/articleView.html?idxno=150296",
+      "source": "비즈월드",
+      "published_at": "2026-10-29T11:11:00+09:00",
+      "snippet": "특히 민 의원은 올해 국감 주요 성과로 홈플러스 사태와 관련한 MBK 중징계안에 대한 금융위원장의 엄정 처리 약속과 정유사 담합 에 대한 경영진의 대국민 사과, 중소기업 기술 탈취 문제 등을 꼽았다. 그는 MBK에 대한 제재 지연은 MBK의 먹튀를 돕는 것이라고 날을 세우며 금융당국의 후속 조치를 재차...",
+      "collected_at": "2026-10-30T00:10:55.590048+09:00",
+      "normalized_title": "민병덕 민주당 의원, \"MBK 검찰 수사 답보 상태…'30만' 민생 문제인 홈플러스 정상화 끝까지 함께할 것\"",
+      "source_normalized": "비즈월드",
+      "duplicate_key": "비즈월드::민병덕 민주당 의원, \"mbk 검찰 수사 답보 상태…'30만' 민생 문제인 홈플러스 정상화 끝까지 함께할 것\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.bizwnews.com/news/articleView.html?idxno=150296",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-29T11:11:00+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "46eb4d982dec4d12",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "민병덕 의원, “MBK 제재 지연은 ‘먹튀’ 돕는 것”...을지로위, 국감 성과로 MBK-홈플러스 공론화 꼽아",
+      "url": "http://www.consumernews.co.kr/news/articleView.html?idxno=767094",
+      "source": "소비자가 만드는 신문",
+      "published_at": "2026-10-29T11:01:20+09:00",
+      "snippet": "정유사 담합 에 대한 경영진의 대국민 사과, 중소기업 기술 탈취 문제 등도 성과로 언급됐다. 실제 민 의원은 홈플러스 사태와 관련해 \"MBK에 대한 제재 지연은 MBK의 '먹튀'를 돕는 것\"이라며 금융당국의 후속 조치를 재차 당부했다.사진-민병덕 의원 페이스북 캡처금감원 제재심이 7월2일 MBK 중징계안 심의를...",
+      "collected_at": "2026-10-30T00:10:55.590514+09:00",
+      "normalized_title": "민병덕 의원, “MBK 제재 지연은 ‘먹튀’ 돕는 것”...을지로위, 국감 성과로 MBK-홈플러스 공론화 꼽아",
+      "source_normalized": "소비자가 만드는 신문",
+      "duplicate_key": "소비자가 만드는 신문::민병덕 의원, “mbk 제재 지연은 ‘먹튀’ 돕는 것”...을지로위, 국감 성과로 mbk-홈플러스 공론화 꼽아",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.consumernews.co.kr/news/articleView.html?idxno=767094",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-29T11:01:20+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "c15ba1b6c105f5a1",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "MBK 검찰 수사 답보 상태…민병덕 \"홈플러스 정상화 끝까지 함께할 것\"",
+      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610290060&t=NN",
+      "source": "한국경제TV",
+      "published_at": "2026-10-29T12:10:55.589114+09:00",
+      "snippet": "민 의원은 올해 국감 주요 성과로 '홈플러스 사태' MBK 중징계안에 대한 금융위원장의 엄정 처리 약속과 정유사 담합 에 대한 경영진의 대국민 사과, 중소기업 기술 탈취 문제 등을 꼽았다. 특히 홈플러스 사태와 관련해 민 의원은 \"MBK에 대한 제재 지연은 MBK의 '먹튀'를 돕는 것\"이라고 날을 세우며 금융당국의...",
+      "collected_at": "2026-10-30T00:10:55.589125+09:00",
+      "normalized_title": "MBK 검찰 수사 답보 상태…민병덕 \"홈플러스 정상화 끝까지 함께할 것\"",
+      "source_normalized": "한국경제TV",
+      "duplicate_key": "한국경제tv::mbk 검찰 수사 답보 상태…민병덕 \"홈플러스 정상화 끝까지 함께할 것\"",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610290060&t=NN",
+      "verified": false,
+      "verification_reason": "원문 확인 실패: ConnectTimeout",
+      "id": "b8cc9ae24947a95c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 확인 실패: ConnectTimeout"
+    },
+    {
+      "title": "공정위, 라면 담합 현장조사 확인…4사 가격 인상∙인하 이력 재조명",
+      "url": "http://www.kdfnews.com/news/articleView.html?idxno=190100",
+      "source": "한국면세뉴스",
+      "published_at": "2026-10-29T11:25:24+09:00",
+      "snippet": "농심 관계자는 \" 공정위 에서 라면 가격 담합 여부에 관한 조사가 나왔다\"며 \"조사에 성실히 응대할 예정\"이라고 말했다. 오뚜기 역시 라면 관련 조사가... 농심은 고환율과 고 유가 에 따른 포장재 가격 상승, 협력사 납품가 인상 등을 이유로 제시했다. 다만 신라면을 비롯한 봉지라면 전 품목은 인상 대상에서...",
+      "collected_at": "2026-10-30T00:10:49.931832+09:00",
+      "normalized_title": "공정위, 라면 담합 현장조사 확인…4사 가격 인상∙인하 이력 재조명",
+      "source_normalized": "한국면세뉴스",
+      "duplicate_key": "한국면세뉴스::공정위, 라면 담합 현장조사 확인…4사 가격 인상∙인하 이력 재조명",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.kdfnews.com/news/articleView.html?idxno=190100",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-29T11:25:24+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "3995833568ef819f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "홈플러스 점포·고용 축소…MBK 제재 후속 조치 촉구",
+      "url": "http://www.knpnews.com/news/articleView.html?idxno=34753",
+      "source": "한국원자력신문",
+      "published_at": "2026-10-29T12:03:51+09:00",
+      "snippet": "홈플러스 노동자와 납품업체의 피해에 대한 대주주의 설명과 책임 있는 대응을 요구했다. 을지로위원회는 올해 국감에서 사모펀드 규제·감독을 비롯해 정유사 담합 , 중소기업 기술 탈취, 대형 프랜차이즈 불공정 거래 등을 다뤘다고 설명했다. 향후 관련 사안의 피해 회복과 제도 개선 여부를 점검할 방침이다.",
+      "collected_at": "2026-10-30T00:10:55.588613+09:00",
+      "normalized_title": "홈플러스 점포·고용 축소…MBK 제재 후속 조치 촉구",
+      "source_normalized": "한국원자력신문",
+      "duplicate_key": "한국원자력신문::홈플러스 점포·고용 축소…mbk 제재 후속 조치 촉구",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "정유사 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.knpnews.com/news/articleView.html?idxno=34753",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-29T12:03:51+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "5a485b67f089ad90",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ]
+}
