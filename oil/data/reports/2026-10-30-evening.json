@@ -1,0 +1,186 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-10-30",
+  "slot": "evening",
+  "period_start": "2026-10-30T08:00:00+09:00",
+  "period_end": "2026-10-30T17:00:00+09:00",
+  "period_label": "2026-10-30 08:00 ~ 2026-10-30 17:00",
+  "generated_at": "2026-10-31T00:00:46.369295+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 31,
+  "total_enriched_input_count": 13,
+  "total_in_period_unique_count": 3,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 8,
+  "total_deduped_count": 3,
+  "total_ok_count": 0,
+  "total_review_count": 3,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 1,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 14,
+    "daum": 7,
+    "google": 10
+  },
+  "query_counts": {
+    "SK에너지 담합": 1,
+    "경유 담합": 1,
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "주유소 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-30T23:59:49.646768+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "SK이노베이션, '전력 전문가' 정승일 총괄사장으로",
+      "url": "https://www.newspim.com/news/view/20261030000262",
+      "source": "뉴스핌",
+      "published_at": "2026-10-30T10:12:00+09:00",
+      "snippet": "여기에 석유 제품 가격 담합 의혹에 따른 과징금 부과 가능성도 부담이다. 이에 따라 안정적인 수익구조를 확보하는 동시에 리스크를 관리하는 것이 과제가 될 전망이다. ◆SK지오센트릭·SK어스온·SKTI 수장 교체…사업 경쟁력 강화 SK이노베이션은 주요 계열사 경영진도 재편했다. 석유 화학 계열사인...",
+      "collected_at": "2026-10-30T23:59:51.476339+09:00",
+      "normalized_title": "SK이노베이션, '전력 전문가' 정승일 총괄사장으로",
+      "source_normalized": "뉴스핌",
+      "duplicate_key": "뉴스핌::sk이노베이션, '전력 전문가' 정승일 총괄사장으로",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newspim.com/news/view/20261030000262",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-30T10:12:00+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "120f6256027930d2",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목 - 경제 | 기사 - 더팩트",
+      "url": "https://news.tf.co.kr/read/economy/2382977.htm",
+      "source": "더팩트",
+      "published_at": "2026-10-30T14:56:00+09:00",
+      "snippet": "다만 정유사 별 추가 수출 물량과 다음 달 말로 예정된 최고가격제 1차 정산 결과를 주시하고 있다. 산업통상부는 정유사 가 내수 공급 의무를 지키고... 검찰은 지난 7월 담합 사건을 기소하면서 정유 4사가 최고가격제 시행 뒤에도 원가 기준으로 휘발유·경유·등유에서 이익을 냈다고 봤다. SK이노베이션은...",
+      "collected_at": "2026-10-30T23:59:57.984806+09:00",
+      "normalized_title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목 - 경제 | 기사 - 더팩트",
+      "source_normalized": "더팩트",
+      "duplicate_key": "더팩트::정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목 - 경제 | 기사 - 더팩트",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://news.tf.co.kr/read/economy/2382977.htm",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.10.30 14:56",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "f10419d261306a80",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "정유업계",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "LPG가격 11월 60원/㎏↑…12월 가격조정도 고심 불가피",
+      "url": "http://www.e2news.com/news/articleView.html?idxno=335656",
+      "source": "이투뉴스",
+      "published_at": "2026-10-30T14:54:24+09:00",
+      "snippet": "가격 담합 이라는 시선을 의식한 '짜고 치는 고스톱 식' 해프닝이 아니냐는 시각도 없지 않다. 이번 LPG공급가격 인상은 또 하나의 조정요인인 환율이 하향안정세를 띠고 있지만 그동안 누적된 미반영분이 여전한 가운데 난방 등 수요가 늘어나는 계절적 요인에 국제 유가 여파로 이달 CP가 톤당...",
+      "collected_at": "2026-10-30T23:59:51.475349+09:00",
+      "normalized_title": "LPG가격 11월 60원/㎏↑…12월 가격조정도 고심 불가피",
+      "source_normalized": "이투뉴스",
+      "duplicate_key": "이투뉴스::lpg가격 11월 60원/㎏↑…12월 가격조정도 고심 불가피",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.e2news.com/news/articleView.html?idxno=335656",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-10-30T14:54:24+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "d5b17cc7a44c429c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "LPG",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ]
+}

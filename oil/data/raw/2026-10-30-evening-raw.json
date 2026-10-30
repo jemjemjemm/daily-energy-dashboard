@@ -1,0 +1,791 @@
+{
+  "base_date": "2026-10-30",
+  "slot": "evening",
+  "period_start": "2026-10-30T08:00:00+09:00",
+  "period_end": "2026-10-30T17:00:00+09:00",
+  "collected_at": "2026-10-31T00:00:42.707522+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "portal_counts": {
+    "naver": 14,
+    "daum": 7,
+    "google": 10
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-10-30T23:59:49.646768+09:00"
+    }
+  ],
+  "items": [
+    {
+      "portal": "naver",
+      "query": "유가담합",
+      "title": "LPG가격 11월 60원/㎏↑…12월 가격조정도 고심 불가피",
+      "url": "http://www.e2news.com/news/articleView.html?idxno=335656",
+      "source": "이투뉴스",
+      "published_at": "2026-10-30T14:59:51.475327+09:00",
+      "snippet": "가격 담합 이라는 시선을 의식한 '짜고 치는 고스톱 식' 해프닝이 아니냐는 시각도 없지 않다. 이번 LPG공급가격 인상은 또 하나의 조정요인인 환율이 하향안정세를 띠고 있지만 그동안 누적된 미반영분이 여전한 가운데 난방 등 수요가 늘어나는 계절적 요인에 국제 유가 여파로 이달 CP가 톤당...",
+      "collected_at": "2026-10-30T23:59:51.475349+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "유가담합",
+      "title": "SK이노베이션, '전력 전문가' 정승일 총괄사장으로",
+      "url": "https://www.newspim.com/news/view/20261030000262",
+      "source": "뉴스핌",
+      "published_at": "2026-10-30T10:59:51.476324+09:00",
+      "snippet": "SK에너지는 최근 정제마진 강세에 힘입어 호실적을 이어가고 있지만 유가 와 정제마진 변동에 따른 대응 필요성이 커지고 있다. 여기에 석유제품 가격 담합 의혹에 따른 과징금 부과 가능성도 부담이다. 이에 따라 안정적인 수익구조를 확보하는 동시에 리스크를 관리하는 것이 과제가 될 전망이다....",
+      "collected_at": "2026-10-30T23:59:51.476339+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "유가 담합",
+      "title": "LPG가격 11월 60원/㎏↑…12월 가격조정도 고심 불가피",
+      "url": "http://www.e2news.com/news/articleView.html?idxno=335656",
+      "source": "이투뉴스",
+      "published_at": "2026-10-30T14:59:54.773469+09:00",
+      "snippet": "가격 담합 이라는 시선을 의식한 '짜고 치는 고스톱 식' 해프닝이 아니냐는 시각도 없지 않다. 이번 LPG공급가격 인상은 또 하나의 조정요인인 환율이 하향안정세를 띠고 있지만 그동안 누적된 미반영분이 여전한 가운데 난방 등 수요가 늘어나는 계절적 요인에 국제 유가 여파로 이달 CP가 톤당...",
+      "collected_at": "2026-10-30T23:59:54.773492+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "유가 담합",
+      "title": "SK이노베이션, '전력 전문가' 정승일 총괄사장으로",
+      "url": "https://www.newspim.com/news/view/20261030000262",
+      "source": "뉴스핌",
+      "published_at": "2026-10-30T10:59:54.774427+09:00",
+      "snippet": "SK에너지는 최근 정제마진 강세에 힘입어 호실적을 이어가고 있지만 유가 와 정제마진 변동에 따른 대응 필요성이 커지고 있다. 여기에 석유제품 가격 담합 의혹에 따른 과징금 부과 가능성도 부담이다. 이에 따라 안정적인 수익구조를 확보하는 동시에 리스크를 관리하는 것이 과제가 될 전망이다....",
+      "collected_at": "2026-10-30T23:59:54.774442+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "정유사 담합",
+      "title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목",
+      "url": "https://news.tf.co.kr/read/economy/2382977.htm",
+      "source": "더팩트",
+      "published_at": "2026-10-30T14:59:57.984786+09:00",
+      "snippet": "다만 정유사 별 추가 수출 물량과 다음 달 말로 예정된 최고가격제 1차 정산 결과를 주시하고 있다. 산업통상부는 정유사 가 내수 공급 의무를 지키고... 검찰은 지난 7월 담합 사건을 기소하면서 정유 4사가 최고가격제 시행 뒤에도 원가 기준으로 휘발유·경유·등유에서 이익을 냈다고 봤다. SK이노베이션은...",
+      "collected_at": "2026-10-30T23:59:57.984806+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "정유사 담합",
+      "title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목",
+      "url": "http://v.daum.net/v/20261030145821792",
+      "source": "더팩트",
+      "published_at": "2026-10-30T14:59:59.125128+09:00",
+      "snippet": "밝혔다. 정유사별 추가 수출 신청은 이번 주부터 받는다. 정부는 3월 13일 석유 최고가격제를 시행하며 휘발유·경유·등유 월별 수출량을 전년 같은 달의 100% 이내로 묶고 국내 반출량은 전년 같은 달의 90% 이상으로 유지하게 했다. 산업부는 10~11월 원유 도입량... 9시간 전",
+      "collected_at": "2026-10-30T23:59:59.125148+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "정유사 담합",
+      "title": "[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jMEpKcmJBdF9ncnFCT1ExVGE1NmZrNG1sei1iN0l3STVVeEJYMDNJOFExUUNTdEtmcVRuc05pZTNFaGkzemwxblY5WmtoVHc?oc=5",
+      "source": "로톡",
+      "published_at": "2026-10-30T20:41:55+09:00",
+      "snippet": "[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시 로톡",
+      "collected_at": "2026-10-30T23:59:59.503162+09:00",
+      "raw": {
+        "title": "[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시 - 로톡",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시 - 로톡"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jMEpKcmJBdF9ncnFCT1ExVGE1NmZrNG1sei1iN0l3STVVeEJYMDNJOFExUUNTdEtmcVRuc05pZTNFaGkzemwxblY5WmtoVHc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jMEpKcmJBdF9ncnFCT1ExVGE1NmZrNG1sei1iN0l3STVVeEJYMDNJOFExUUNTdEtmcVRuc05pZTNFaGkzemwxblY5WmtoVHc?oc=5",
+        "id": "CBMiT0FVX3lxTE9jMEpKcmJBdF9ncnFCT1ExVGE1NmZrNG1sei1iN0l3STVVeEJYMDNJOFExUUNTdEtmcVRuc05pZTNFaGkzemwxblY5WmtoVHc",
+        "guidislink": false,
+        "published": "Fri, 30 Oct 2026 11:41:55 GMT",
+        "published_parsed": [
+          2026,
+          10,
+          30,
+          11,
+          41,
+          55,
+          4,
+          303,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jMEpKcmJBdF9ncnFCT1ExVGE1NmZrNG1sei1iN0l3STVVeEJYMDNJOFExUUNTdEtmcVRuc05pZTNFaGkzemwxblY5WmtoVHc?oc=5\" target=\"_blank\">[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">로톡</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jMEpKcmJBdF9ncnFCT1ExVGE1NmZrNG1sei1iN0l3STVVeEJYMDNJOFExUUNTdEtmcVRuc05pZTNFaGkzemwxblY5WmtoVHc?oc=5\" target=\"_blank\">[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">로톡</font>"
+        },
+        "source": {
+          "href": "https://www.lawtalk.co.kr",
+          "title": "로톡"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "정유사 담합",
+      "title": "[표시광고#15] 표시광고법, 이사서비스업체 거짓·과장광고 제재 받아",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YZlhXNXdxalNPVnlEZm40dUxhaEhIUmhwTWpOY3p2QkNxRllpakVRU2pyOF9sWVB5a1JoLU5MS3NSYV84QTk2cWVNdmFkR1E?oc=5",
+      "source": "로톡",
+      "published_at": "2026-10-30T20:52:01+09:00",
+      "snippet": "[표시광고#15] 표시광고법, 이사서비스업체 거짓·과장광고 제재 받아 로톡",
+      "collected_at": "2026-10-30T23:59:59.503453+09:00",
+      "raw": {
+        "title": "[표시광고#15] 표시광고법, 이사서비스업체 거짓·과장광고 제재 받아 - 로톡",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "[표시광고#15] 표시광고법, 이사서비스업체 거짓·과장광고 제재 받아 - 로톡"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YZlhXNXdxalNPVnlEZm40dUxhaEhIUmhwTWpOY3p2QkNxRllpakVRU2pyOF9sWVB5a1JoLU5MS3NSYV84QTk2cWVNdmFkR1E?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YZlhXNXdxalNPVnlEZm40dUxhaEhIUmhwTWpOY3p2QkNxRllpakVRU2pyOF9sWVB5a1JoLU5MS3NSYV84QTk2cWVNdmFkR1E?oc=5",
+        "id": "CBMiT0FVX3lxTE1YZlhXNXdxalNPVnlEZm40dUxhaEhIUmhwTWpOY3p2QkNxRllpakVRU2pyOF9sWVB5a1JoLU5MS3NSYV84QTk2cWVNdmFkR1E",
+        "guidislink": false,
+        "published": "Fri, 30 Oct 2026 11:52:01 GMT",
+        "published_parsed": [
+          2026,
+          10,
+          30,
+          11,
+          52,
+          1,
+          4,
+          303,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YZlhXNXdxalNPVnlEZm40dUxhaEhIUmhwTWpOY3p2QkNxRllpakVRU2pyOF9sWVB5a1JoLU5MS3NSYV84QTk2cWVNdmFkR1E?oc=5\" target=\"_blank\">[표시광고#15] 표시광고법, 이사서비스업체 거짓·과장광고 제재 받아</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">로톡</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YZlhXNXdxalNPVnlEZm40dUxhaEhIUmhwTWpOY3p2QkNxRllpakVRU2pyOF9sWVB5a1JoLU5MS3NSYV84QTk2cWVNdmFkR1E?oc=5\" target=\"_blank\">[표시광고#15] 표시광고법, 이사서비스업체 거짓·과장광고 제재 받아</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">로톡</font>"
+        },
+        "source": {
+          "href": "https://www.lawtalk.co.kr",
+          "title": "로톡"
+        }
+      }
+    },
+    {
+      "portal": "naver",
+      "query": "석유 담합",
+      "title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목",
+      "url": "https://news.tf.co.kr/read/economy/2382977.htm",
+      "source": "더팩트",
+      "published_at": "2026-10-30T15:00:03.520174+09:00",
+      "snippet": "다만 7조~8조원은 국제 석유 제품 가격과 최고가격의 차이를 손실로 잡은 업계 계산이다. 정부는 투입 원가를 기준으로 적정 마진을 고려해 보전 규모를 정한다. 검찰은 지난 7월 담합 사건을 기소하면서 정유 4사가 최고가격제 시행 뒤에도 원가 기준으로 휘발유·경유·등유에서 이익을 냈다고 봤다....",
+      "collected_at": "2026-10-31T00:00:03.520194+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "석유 담합",
+      "title": "SK이노베이션, '전력 전문가' 정승일 총괄사장으로",
+      "url": "https://www.newspim.com/news/view/20261030000262",
+      "source": "뉴스핌",
+      "published_at": "2026-10-30T11:00:03.521128+09:00",
+      "snippet": "여기에 석유 제품 가격 담합 의혹에 따른 과징금 부과 가능성도 부담이다. 이에 따라 안정적인 수익구조를 확보하는 동시에 리스크를 관리하는 것이 과제가 될 전망이다. ◆SK지오센트릭·SK어스온·SKTI 수장 교체…사업 경쟁력 강화 SK이노베이션은 주요 계열사 경영진도 재편했다. 석유 화학 계열사인...",
+      "collected_at": "2026-10-31T00:00:03.521144+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "석유 담합",
+      "title": "[단독] 한화보다 빨랐던 LG 밀렸다…리니언시 딜레마",
+      "url": "https://www.joongang.co.kr/article/25474254",
+      "source": "중앙일보",
+      "published_at": "2026-10-30T05:00:03.522132+09:00",
+      "snippet": "신청 순서에 수사 협조 정도도 따져 29일 법조계에 따르면 서울중앙지검 공정거래조사부(현 서울중앙지방공소청 중대범죄기소4부)는 지난 1일 석유 화학 업체 담합 사건을 수사해 LG화학·PKC·OCI·애경케미칼·롯데정밀화학·유니드 등 법인 6곳을 기소했다. 담합 업체 중 하나였던 한화솔루션 법인과 임직원은...",
+      "collected_at": "2026-10-31T00:00:03.522146+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "석유 담합",
+      "title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목",
+      "url": "http://v.daum.net/v/20261030145821792",
+      "source": "더팩트",
+      "published_at": "2026-10-30T15:00:04.670550+09:00",
+      "snippet": "즉시 기존 100% 기준으로 되돌린다는 조건을 달았다. 대한석유협회 집계 지난해 경유 수출량 2억237만배럴을 월평균으로 환산하면 약...마진을 고려해 보전 규모를 정한다. 검찰은 지난 7월 담합 사건을 기소하면서 정유 4사가 최고가격제 시행 뒤에도 원가 기준으로... 9시간 전",
+      "collected_at": "2026-10-31T00:00:04.670569+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "휘발유 담합",
+      "title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목",
+      "url": "https://news.tf.co.kr/read/economy/2382977.htm",
+      "source": "더팩트",
+      "published_at": "2026-10-30T15:00:06.378988+09:00",
+      "snippet": "검찰은 지난 7월 담합 사건을 기소하면서 정유 4사가 최고가격제 시행 뒤에도 원가 기준으로 휘발유 ·경유·등유에서 이익을 냈다고 봤다. SK이노베이션은 수출 마진 강세와 윤활유 호조로 3분기 영업이익 3조7043억원을 거둬 분기 기준 역대 최대 영업이익을 냈다. 정유업계는 이익은 수출과 윤활기유에서...",
+      "collected_at": "2026-10-31T00:00:06.379007+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "휘발유 담합",
+      "title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목",
+      "url": "http://v.daum.net/v/20261030145821792",
+      "source": "더팩트",
+      "published_at": "2026-10-30T15:00:07.348274+09:00",
+      "snippet": "차이를 손실로 잡은 업계 계산이다. 정부는 투입 원가를 기준으로 적정 마진을 고려해 보전 규모를 정한다. 검찰은 지난 7월 담합 사건을 기소하면서 정유 4사가 최고가격제 시행 뒤에도 원가 기준으로 휘발유·경유·등유에서 이익을 냈다고 봤다. SK이노베이션은... 9시간 전",
+      "collected_at": "2026-10-31T00:00:07.348293+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "경유 담합",
+      "title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목",
+      "url": "https://news.tf.co.kr/read/economy/2382977.htm",
+      "source": "더팩트",
+      "published_at": "2026-10-30T15:00:09.147882+09:00",
+      "snippet": "검찰은 지난 7월 담합 사건을 기소하면서 정유 4사가 최고가격제 시행 뒤에도 원가 기준으로 휘발유· 경유 ·등유에서 이익을 냈다고 봤다. SK이노베이션은 수출 마진 강세와 윤활유 호조로 3분기 영업이익 3조7043억원을 거둬 분기 기준 역대 최대 영업이익을 냈다. 정유업계는 이익은 수출과 윤활기유에서...",
+      "collected_at": "2026-10-31T00:00:09.147904+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "경유 담합",
+      "title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목",
+      "url": "http://v.daum.net/v/20261030145821792",
+      "source": "더팩트",
+      "published_at": "2026-10-30T15:00:10.276605+09:00",
+      "snippet": "차이를 손실로 잡은 업계 계산이다. 정부는 투입 원가를 기준으로 적정 마진을 고려해 보전 규모를 정한다. 검찰은 지난 7월 담합 사건을 기소하면서 정유 4사가 최고가격제 시행 뒤에도 원가 기준으로 휘발유·경유·등유에서 이익을 냈다고 봤다. SK이노베이션은... 9시간 전",
+      "collected_at": "2026-10-31T00:00:10.276625+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "주유소 담합",
+      "title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목",
+      "url": "http://v.daum.net/v/20261030145821792",
+      "source": "더팩트",
+      "published_at": "2026-10-30T15:00:13.084626+09:00",
+      "snippet": "광장 주유소에 차량 행렬이 이어지고 있다. /박헌우 기자 [더팩트｜우지수 기자] 정부가 경유 수출 한도를 전년 같은 달의 110%로 늘리면서 정유업계가 4분기 수익 개선을 기대하고 있다. 업계는 이어 내달 말 정해질 최고가격제 손실보전 규모를 주목하고 있다... 9시간 전",
+      "collected_at": "2026-10-31T00:00:13.084646+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "정유업계 담합",
+      "title": "정유업계 , 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목",
+      "url": "https://news.tf.co.kr/read/economy/2382977.htm",
+      "source": "더팩트",
+      "published_at": "2026-10-30T15:00:14.784829+09:00",
+      "snippet": "다만 7조~8조원은 국제 석유제품 가격과 최고가격의 차이를 손실로 잡은 업계 계산이다. 정부는 투입 원가를 기준으로 적정 마진을 고려해 보전 규모를 정한다. 검찰은 지난 7월 담합 사건을 기소하면서 정유 4사가 최고가격제 시행 뒤에도 원가 기준으로 휘발유·경유·등유에서 이익을 냈다고 봤다....",
+      "collected_at": "2026-10-31T00:00:14.784848+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "정유업계 담합",
+      "title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목",
+      "url": "http://v.daum.net/v/20261030145821792",
+      "source": "더팩트",
+      "published_at": "2026-10-30T15:00:15.779565+09:00",
+      "snippet": "고려해 보전 규모를 정한다. 검찰은 지난 7월 담합 사건을 기소하면서 정유 4사가 최고가격제 시행 뒤에도 원가 기준으로 휘발유...3조7043억원을 거둬 분기 기준 역대 최대 영업이익을 냈다. 정유업계는 이익은 수출과 윤활기유에서 나왔고 보전 대상은 가격이 묶인... 9시간 전",
+      "collected_at": "2026-10-31T00:00:15.779584+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "석유제품 담합",
+      "title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목",
+      "url": "https://news.tf.co.kr/read/economy/2382977.htm",
+      "source": "더팩트",
+      "published_at": "2026-10-30T15:00:17.771151+09:00",
+      "snippet": "다만 7조~8조원은 국제 석유제품 가격과 최고가격의 차이를 손실로 잡은 업계 계산이다. 정부는 투입 원가를 기준으로 적정 마진을 고려해 보전 규모를 정한다. 검찰은 지난 7월 담합 사건을 기소하면서 정유 4사가 최고가격제 시행 뒤에도 원가 기준으로 휘발유·경유·등유에서 이익을 냈다고 봤다....",
+      "collected_at": "2026-10-31T00:00:17.771172+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "석유제품 담합",
+      "title": "SK이노베이션, '전력 전문가' 정승일 총괄사장으로",
+      "url": "https://www.newspim.com/news/view/20261030000262",
+      "source": "뉴스핌",
+      "published_at": "2026-10-30T11:00:17.772120+09:00",
+      "snippet": "여기에 석유제품 가격 담합 의혹에 따른 과징금 부과 가능성도 부담이다. 이에 따라 안정적인 수익구조를 확보하는 동시에 리스크를 관리하는 것이 과제가 될 전망이다. ◆SK지오센트릭·SK어스온·SKTI 수장 교체…사업 경쟁력 강화 SK이노베이션은 주요 계열사 경영진도 재편했다. 석유 화학 계열사인...",
+      "collected_at": "2026-10-31T00:00:17.772136+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "석유제품 담합",
+      "title": "정유업계, 경유 수출 10% 확대 '기대'…최고가격제 손실 보전 결과 주목",
+      "url": "http://v.daum.net/v/20261030145821792",
+      "source": "더팩트",
+      "published_at": "2026-10-30T15:00:18.908635+09:00",
+      "snippet": "원대에서 최근 7조~8조원으로 늘었다. 다만 7조~8조원은 국제 석유제품 가격과 최고가격의 차이를 손실로 잡은 업계 계산이다. 정부는...마진을 고려해 보전 규모를 정한다. 검찰은 지난 7월 담합 사건을 기소하면서 정유 4사가 최고가격제 시행 뒤에도 원가 기준... 9시간 전",
+      "collected_at": "2026-10-31T00:00:18.908653+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "석유제품 담합",
+      "title": "마포구의회 보건복지委, 복지사업 현장 점검…주민 의견 청취",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sR1Q4Z0s0NDF3NmxzM0VlMVAtSTBPX1dpTDZRSWo0UmJOaUNhVlppTV9vY254UUN0cmFMcmNnZ0V2WU4zZVhaYXNrY2JIQnl3d1NRa1AtMDBZYThac05aWHpCUFhlSHo1dmpHb2VB?oc=5",
+      "source": "전국매일신문",
+      "published_at": "2026-10-30T18:22:31+09:00",
+      "snippet": "마포구의회 보건복지委, 복지사업 현장 점검…주민 의견 청취 전국매일신문",
+      "collected_at": "2026-10-31T00:00:19.309890+09:00",
+      "raw": {
+        "title": "마포구의회 보건복지委, 복지사업 현장 점검…주민 의견 청취 - 전국매일신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "마포구의회 보건복지委, 복지사업 현장 점검…주민 의견 청취 - 전국매일신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sR1Q4Z0s0NDF3NmxzM0VlMVAtSTBPX1dpTDZRSWo0UmJOaUNhVlppTV9vY254UUN0cmFMcmNnZ0V2WU4zZVhaYXNrY2JIQnl3d1NRa1AtMDBZYThac05aWHpCUFhlSHo1dmpHb2VB?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sR1Q4Z0s0NDF3NmxzM0VlMVAtSTBPX1dpTDZRSWo0UmJOaUNhVlppTV9vY254UUN0cmFMcmNnZ0V2WU4zZVhaYXNrY2JIQnl3d1NRa1AtMDBZYThac05aWHpCUFhlSHo1dmpHb2VB?oc=5",
+        "id": "CBMibkFVX3lxTE9sR1Q4Z0s0NDF3NmxzM0VlMVAtSTBPX1dpTDZRSWo0UmJOaUNhVlppTV9vY254UUN0cmFMcmNnZ0V2WU4zZVhaYXNrY2JIQnl3d1NRa1AtMDBZYThac05aWHpCUFhlSHo1dmpHb2VB",
+        "guidislink": false,
+        "published": "Fri, 30 Oct 2026 09:22:31 GMT",
+        "published_parsed": [
+          2026,
+          10,
+          30,
+          9,
+          22,
+          31,
+          4,
+          303,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9sR1Q4Z0s0NDF3NmxzM0VlMVAtSTBPX1dpTDZRSWo0UmJOaUNhVlppTV9vY254UUN0cmFMcmNnZ0V2WU4zZVhaYXNrY2JIQnl3d1NRa1AtMDBZYThac05aWHpCUFhlSHo1dmpHb2VB?oc=5\" target=\"_blank\">마포구의회 보건복지委, 복지사업 현장 점검…주민 의견 청취</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전국매일신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9sR1Q4Z0s0NDF3NmxzM0VlMVAtSTBPX1dpTDZRSWo0UmJOaUNhVlppTV9vY254UUN0cmFMcmNnZ0V2WU4zZVhaYXNrY2JIQnl3d1NRa1AtMDBZYThac05aWHpCUFhlSHo1dmpHb2VB?oc=5\" target=\"_blank\">마포구의회 보건복지委, 복지사업 현장 점검…주민 의견 청취</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전국매일신문</font>"
+        },
+        "source": {
+          "href": "https://www.jeonmae.co.kr",
+          "title": "전국매일신문"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "공정거래위원회 정유사 담합",
+      "title": "[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jMEpKcmJBdF9ncnFCT1ExVGE1NmZrNG1sei1iN0l3STVVeEJYMDNJOFExUUNTdEtmcVRuc05pZTNFaGkzemwxblY5WmtoVHc?oc=5",
+      "source": "로톡",
+      "published_at": "2026-10-30T20:41:55+09:00",
+      "snippet": "[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시 로톡",
+      "collected_at": "2026-10-31T00:00:28.476190+09:00",
+      "raw": {
+        "title": "[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시 - 로톡",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시 - 로톡"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jMEpKcmJBdF9ncnFCT1ExVGE1NmZrNG1sei1iN0l3STVVeEJYMDNJOFExUUNTdEtmcVRuc05pZTNFaGkzemwxblY5WmtoVHc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jMEpKcmJBdF9ncnFCT1ExVGE1NmZrNG1sei1iN0l3STVVeEJYMDNJOFExUUNTdEtmcVRuc05pZTNFaGkzemwxblY5WmtoVHc?oc=5",
+        "id": "CBMiT0FVX3lxTE9jMEpKcmJBdF9ncnFCT1ExVGE1NmZrNG1sei1iN0l3STVVeEJYMDNJOFExUUNTdEtmcVRuc05pZTNFaGkzemwxblY5WmtoVHc",
+        "guidislink": false,
+        "published": "Fri, 30 Oct 2026 11:41:55 GMT",
+        "published_parsed": [
+          2026,
+          10,
+          30,
+          11,
+          41,
+          55,
+          4,
+          303,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jMEpKcmJBdF9ncnFCT1ExVGE1NmZrNG1sei1iN0l3STVVeEJYMDNJOFExUUNTdEtmcVRuc05pZTNFaGkzemwxblY5WmtoVHc?oc=5\" target=\"_blank\">[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">로톡</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jMEpKcmJBdF9ncnFCT1ExVGE1NmZrNG1sei1iN0l3STVVeEJYMDNJOFExUUNTdEtmcVRuc05pZTNFaGkzemwxblY5WmtoVHc?oc=5\" target=\"_blank\">[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">로톡</font>"
+        },
+        "source": {
+          "href": "https://www.lawtalk.co.kr",
+          "title": "로톡"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "공정거래위원회 정유사 담합",
+      "title": "마포구의회 보건복지委, 복지사업 현장 점검…주민 의견 청취",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sR1Q4Z0s0NDF3NmxzM0VlMVAtSTBPX1dpTDZRSWo0UmJOaUNhVlppTV9vY254UUN0cmFMcmNnZ0V2WU4zZVhaYXNrY2JIQnl3d1NRa1AtMDBZYThac05aWHpCUFhlSHo1dmpHb2VB?oc=5",
+      "source": "전국매일신문",
+      "published_at": "2026-10-30T18:22:31+09:00",
+      "snippet": "마포구의회 보건복지委, 복지사업 현장 점검…주민 의견 청취 전국매일신문",
+      "collected_at": "2026-10-31T00:00:28.476455+09:00",
+      "raw": {
+        "title": "마포구의회 보건복지委, 복지사업 현장 점검…주민 의견 청취 - 전국매일신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "마포구의회 보건복지委, 복지사업 현장 점검…주민 의견 청취 - 전국매일신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sR1Q4Z0s0NDF3NmxzM0VlMVAtSTBPX1dpTDZRSWo0UmJOaUNhVlppTV9vY254UUN0cmFMcmNnZ0V2WU4zZVhaYXNrY2JIQnl3d1NRa1AtMDBZYThac05aWHpCUFhlSHo1dmpHb2VB?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sR1Q4Z0s0NDF3NmxzM0VlMVAtSTBPX1dpTDZRSWo0UmJOaUNhVlppTV9vY254UUN0cmFMcmNnZ0V2WU4zZVhaYXNrY2JIQnl3d1NRa1AtMDBZYThac05aWHpCUFhlSHo1dmpHb2VB?oc=5",
+        "id": "CBMibkFVX3lxTE9sR1Q4Z0s0NDF3NmxzM0VlMVAtSTBPX1dpTDZRSWo0UmJOaUNhVlppTV9vY254UUN0cmFMcmNnZ0V2WU4zZVhaYXNrY2JIQnl3d1NRa1AtMDBZYThac05aWHpCUFhlSHo1dmpHb2VB",
+        "guidislink": false,
+        "published": "Fri, 30 Oct 2026 09:22:31 GMT",
+        "published_parsed": [
+          2026,
+          10,
+          30,
+          9,
+          22,
+          31,
+          4,
+          303,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9sR1Q4Z0s0NDF3NmxzM0VlMVAtSTBPX1dpTDZRSWo0UmJOaUNhVlppTV9vY254UUN0cmFMcmNnZ0V2WU4zZVhaYXNrY2JIQnl3d1NRa1AtMDBZYThac05aWHpCUFhlSHo1dmpHb2VB?oc=5\" target=\"_blank\">마포구의회 보건복지委, 복지사업 현장 점검…주민 의견 청취</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전국매일신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9sR1Q4Z0s0NDF3NmxzM0VlMVAtSTBPX1dpTDZRSWo0UmJOaUNhVlppTV9vY254UUN0cmFMcmNnZ0V2WU4zZVhaYXNrY2JIQnl3d1NRa1AtMDBZYThac05aWHpCUFhlSHo1dmpHb2VB?oc=5\" target=\"_blank\">마포구의회 보건복지委, 복지사업 현장 점검…주민 의견 청취</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전국매일신문</font>"
+        },
+        "source": {
+          "href": "https://www.jeonmae.co.kr",
+          "title": "전국매일신문"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "공정거래위원회 정유사 담합",
+      "title": "[표시광고#15] 표시광고법, 이사서비스업체 거짓·과장광고 제재 받아",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YZlhXNXdxalNPVnlEZm40dUxhaEhIUmhwTWpOY3p2QkNxRllpakVRU2pyOF9sWVB5a1JoLU5MS3NSYV84QTk2cWVNdmFkR1E?oc=5",
+      "source": "로톡",
+      "published_at": "2026-10-30T20:52:01+09:00",
+      "snippet": "[표시광고#15] 표시광고법, 이사서비스업체 거짓·과장광고 제재 받아 로톡",
+      "collected_at": "2026-10-31T00:00:28.476702+09:00",
+      "raw": {
+        "title": "[표시광고#15] 표시광고법, 이사서비스업체 거짓·과장광고 제재 받아 - 로톡",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "[표시광고#15] 표시광고법, 이사서비스업체 거짓·과장광고 제재 받아 - 로톡"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YZlhXNXdxalNPVnlEZm40dUxhaEhIUmhwTWpOY3p2QkNxRllpakVRU2pyOF9sWVB5a1JoLU5MS3NSYV84QTk2cWVNdmFkR1E?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YZlhXNXdxalNPVnlEZm40dUxhaEhIUmhwTWpOY3p2QkNxRllpakVRU2pyOF9sWVB5a1JoLU5MS3NSYV84QTk2cWVNdmFkR1E?oc=5",
+        "id": "CBMiT0FVX3lxTE1YZlhXNXdxalNPVnlEZm40dUxhaEhIUmhwTWpOY3p2QkNxRllpakVRU2pyOF9sWVB5a1JoLU5MS3NSYV84QTk2cWVNdmFkR1E",
+        "guidislink": false,
+        "published": "Fri, 30 Oct 2026 11:52:01 GMT",
+        "published_parsed": [
+          2026,
+          10,
+          30,
+          11,
+          52,
+          1,
+          4,
+          303,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YZlhXNXdxalNPVnlEZm40dUxhaEhIUmhwTWpOY3p2QkNxRllpakVRU2pyOF9sWVB5a1JoLU5MS3NSYV84QTk2cWVNdmFkR1E?oc=5\" target=\"_blank\">[표시광고#15] 표시광고법, 이사서비스업체 거짓·과장광고 제재 받아</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">로톡</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YZlhXNXdxalNPVnlEZm40dUxhaEhIUmhwTWpOY3p2QkNxRllpakVRU2pyOF9sWVB5a1JoLU5MS3NSYV84QTk2cWVNdmFkR1E?oc=5\" target=\"_blank\">[표시광고#15] 표시광고법, 이사서비스업체 거짓·과장광고 제재 받아</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">로톡</font>"
+        },
+        "source": {
+          "href": "https://www.lawtalk.co.kr",
+          "title": "로톡"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "공정거래위원회 정유사 담합",
+      "title": "경상원·한국에너지공단, 소상공인 ESG 실천 확산 맞손",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwcTVCektnNDZiR0tsU3BsZTUzb0FkUzVNbEFaejR6MVpGOHI3TS1QSzNHWGR6LXBqLURycUNHbWtkVnJra1hQNDJSOVJoT2VvbzE1TzdtbUNGRkNtREF3TURVUnI0NnVWRW9MTGFB?oc=5",
+      "source": "전국매일신문",
+      "published_at": "2026-10-30T18:37:35+09:00",
+      "snippet": "경상원·한국에너지공단, 소상공인 ESG 실천 확산 맞손 전국매일신문",
+      "collected_at": "2026-10-31T00:00:28.476943+09:00",
+      "raw": {
+        "title": "경상원·한국에너지공단, 소상공인 ESG 실천 확산 맞손 - 전국매일신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "경상원·한국에너지공단, 소상공인 ESG 실천 확산 맞손 - 전국매일신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwcTVCektnNDZiR0tsU3BsZTUzb0FkUzVNbEFaejR6MVpGOHI3TS1QSzNHWGR6LXBqLURycUNHbWtkVnJra1hQNDJSOVJoT2VvbzE1TzdtbUNGRkNtREF3TURVUnI0NnVWRW9MTGFB?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwcTVCektnNDZiR0tsU3BsZTUzb0FkUzVNbEFaejR6MVpGOHI3TS1QSzNHWGR6LXBqLURycUNHbWtkVnJra1hQNDJSOVJoT2VvbzE1TzdtbUNGRkNtREF3TURVUnI0NnVWRW9MTGFB?oc=5",
+        "id": "CBMibkFVX3lxTFAwcTVCektnNDZiR0tsU3BsZTUzb0FkUzVNbEFaejR6MVpGOHI3TS1QSzNHWGR6LXBqLURycUNHbWtkVnJra1hQNDJSOVJoT2VvbzE1TzdtbUNGRkNtREF3TURVUnI0NnVWRW9MTGFB",
+        "guidislink": false,
+        "published": "Fri, 30 Oct 2026 09:37:35 GMT",
+        "published_parsed": [
+          2026,
+          10,
+          30,
+          9,
+          37,
+          35,
+          4,
+          303,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFAwcTVCektnNDZiR0tsU3BsZTUzb0FkUzVNbEFaejR6MVpGOHI3TS1QSzNHWGR6LXBqLURycUNHbWtkVnJra1hQNDJSOVJoT2VvbzE1TzdtbUNGRkNtREF3TURVUnI0NnVWRW9MTGFB?oc=5\" target=\"_blank\">경상원·한국에너지공단, 소상공인 ESG 실천 확산 맞손</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전국매일신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFAwcTVCektnNDZiR0tsU3BsZTUzb0FkUzVNbEFaejR6MVpGOHI3TS1QSzNHWGR6LXBqLURycUNHbWtkVnJra1hQNDJSOVJoT2VvbzE1TzdtbUNGRkNtREF3TURVUnI0NnVWRW9MTGFB?oc=5\" target=\"_blank\">경상원·한국에너지공단, 소상공인 ESG 실천 확산 맞손</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전국매일신문</font>"
+        },
+        "source": {
+          "href": "https://www.jeonmae.co.kr",
+          "title": "전국매일신문"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "공정거래위원회 정유사 담합",
+      "title": "추미애 경기지사, 지방세제 개편 촉구…“재정 기반 확충 시급”",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLV0RRdXhKMGVNVHpqemFWbVR1V2VUNnMtTEhab0c2Q0lxdmFQeDE1TnU5YTdvNjV6d2dYVGFsVzVZbzlXMm5zaGRSaEo0dVNBTGtTOFlpS0FLaWVwdTZFQ2ZBaDU3VVBueXA0b0hn?oc=5",
+      "source": "전국매일신문",
+      "published_at": "2026-10-30T18:33:18+09:00",
+      "snippet": "추미애 경기지사, 지방세제 개편 촉구…“재정 기반 확충 시급” 전국매일신문",
+      "collected_at": "2026-10-31T00:00:28.477234+09:00",
+      "raw": {
+        "title": "추미애 경기지사, 지방세제 개편 촉구…“재정 기반 확충 시급” - 전국매일신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "추미애 경기지사, 지방세제 개편 촉구…“재정 기반 확충 시급” - 전국매일신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLV0RRdXhKMGVNVHpqemFWbVR1V2VUNnMtTEhab0c2Q0lxdmFQeDE1TnU5YTdvNjV6d2dYVGFsVzVZbzlXMm5zaGRSaEo0dVNBTGtTOFlpS0FLaWVwdTZFQ2ZBaDU3VVBueXA0b0hn?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLV0RRdXhKMGVNVHpqemFWbVR1V2VUNnMtTEhab0c2Q0lxdmFQeDE1TnU5YTdvNjV6d2dYVGFsVzVZbzlXMm5zaGRSaEo0dVNBTGtTOFlpS0FLaWVwdTZFQ2ZBaDU3VVBueXA0b0hn?oc=5",
+        "id": "CBMibkFVX3lxTFBLV0RRdXhKMGVNVHpqemFWbVR1V2VUNnMtTEhab0c2Q0lxdmFQeDE1TnU5YTdvNjV6d2dYVGFsVzVZbzlXMm5zaGRSaEo0dVNBTGtTOFlpS0FLaWVwdTZFQ2ZBaDU3VVBueXA0b0hn",
+        "guidislink": false,
+        "published": "Fri, 30 Oct 2026 09:33:18 GMT",
+        "published_parsed": [
+          2026,
+          10,
+          30,
+          9,
+          33,
+          18,
+          4,
+          303,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFBLV0RRdXhKMGVNVHpqemFWbVR1V2VUNnMtTEhab0c2Q0lxdmFQeDE1TnU5YTdvNjV6d2dYVGFsVzVZbzlXMm5zaGRSaEo0dVNBTGtTOFlpS0FLaWVwdTZFQ2ZBaDU3VVBueXA0b0hn?oc=5\" target=\"_blank\">추미애 경기지사, 지방세제 개편 촉구…“재정 기반 확충 시급”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전국매일신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFBLV0RRdXhKMGVNVHpqemFWbVR1V2VUNnMtTEhab0c2Q0lxdmFQeDE1TnU5YTdvNjV6d2dYVGFsVzVZbzlXMm5zaGRSaEo0dVNBTGtTOFlpS0FLaWVwdTZFQ2ZBaDU3VVBueXA0b0hn?oc=5\" target=\"_blank\">추미애 경기지사, 지방세제 개편 촉구…“재정 기반 확충 시급”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전국매일신문</font>"
+        },
+        "source": {
+          "href": "https://www.jeonmae.co.kr",
+          "title": "전국매일신문"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "공정거래위원회 정유사 담합",
+      "title": "[전매포토] 유동균 마포구청장·윤호중 행안부 장관, 홍대 핼러윈 안전점검",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QQWZZZThwTWxmbldYZUgzdW1QUVVmWjh1M1NBa3ZaY2NHV3hFekpZNFlQLWdBZngzZHFrT1MtSTlkVzBDNnQ0NzJ2U05mcG9hUkpvdEpMaHVqT2tSSTg5NkVibXJqM2htN1BXY0xB?oc=5",
+      "source": "전국매일신문",
+      "published_at": "2026-10-30T18:16:36+09:00",
+      "snippet": "[전매포토] 유동균 마포구청장·윤호중 행안부 장관, 홍대 핼러윈 안전점검 전국매일신문",
+      "collected_at": "2026-10-31T00:00:28.477467+09:00",
+      "raw": {
+        "title": "[전매포토] 유동균 마포구청장·윤호중 행안부 장관, 홍대 핼러윈 안전점검 - 전국매일신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "[전매포토] 유동균 마포구청장·윤호중 행안부 장관, 홍대 핼러윈 안전점검 - 전국매일신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QQWZZZThwTWxmbldYZUgzdW1QUVVmWjh1M1NBa3ZaY2NHV3hFekpZNFlQLWdBZngzZHFrT1MtSTlkVzBDNnQ0NzJ2U05mcG9hUkpvdEpMaHVqT2tSSTg5NkVibXJqM2htN1BXY0xB?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QQWZZZThwTWxmbldYZUgzdW1QUVVmWjh1M1NBa3ZaY2NHV3hFekpZNFlQLWdBZngzZHFrT1MtSTlkVzBDNnQ0NzJ2U05mcG9hUkpvdEpMaHVqT2tSSTg5NkVibXJqM2htN1BXY0xB?oc=5",
+        "id": "CBMibkFVX3lxTE5QQWZZZThwTWxmbldYZUgzdW1QUVVmWjh1M1NBa3ZaY2NHV3hFekpZNFlQLWdBZngzZHFrT1MtSTlkVzBDNnQ0NzJ2U05mcG9hUkpvdEpMaHVqT2tSSTg5NkVibXJqM2htN1BXY0xB",
+        "guidislink": false,
+        "published": "Fri, 30 Oct 2026 09:16:36 GMT",
+        "published_parsed": [
+          2026,
+          10,
+          30,
+          9,
+          16,
+          36,
+          4,
+          303,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE5QQWZZZThwTWxmbldYZUgzdW1QUVVmWjh1M1NBa3ZaY2NHV3hFekpZNFlQLWdBZngzZHFrT1MtSTlkVzBDNnQ0NzJ2U05mcG9hUkpvdEpMaHVqT2tSSTg5NkVibXJqM2htN1BXY0xB?oc=5\" target=\"_blank\">[전매포토] 유동균 마포구청장·윤호중 행안부 장관, 홍대 핼러윈 안전점검</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전국매일신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE5QQWZZZThwTWxmbldYZUgzdW1QUVVmWjh1M1NBa3ZaY2NHV3hFekpZNFlQLWdBZngzZHFrT1MtSTlkVzBDNnQ0NzJ2U05mcG9hUkpvdEpMaHVqT2tSSTg5NkVibXJqM2htN1BXY0xB?oc=5\" target=\"_blank\">[전매포토] 유동균 마포구청장·윤호중 행안부 장관, 홍대 핼러윈 안전점검</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전국매일신문</font>"
+        },
+        "source": {
+          "href": "https://www.jeonmae.co.kr",
+          "title": "전국매일신문"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "공정거래위원회 정유사 담합",
+      "title": "정연화 성남시의회 부의장, 야탑동 주차환경 개선 촉구",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BbjZSWm5wNGMxN0tISWdmaUJ0ZndQeXJRcjd4VzNGV0pwVEtLN19zMmVzb2hlUlJ6cmt6VmdsV0ZXQlprZzNETmJiaEdHb19DdEx6aF9wQU81SU9EWVZLX0hTSDVQellZV1lWSw?oc=5",
+      "source": "전국매일신문",
+      "published_at": "2026-10-30T17:02:07+09:00",
+      "snippet": "정연화 성남시의회 부의장, 야탑동 주차환경 개선 촉구 전국매일신문",
+      "collected_at": "2026-10-31T00:00:28.477700+09:00",
+      "raw": {
+        "title": "정연화 성남시의회 부의장, 야탑동 주차환경 개선 촉구 - 전국매일신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "정연화 성남시의회 부의장, 야탑동 주차환경 개선 촉구 - 전국매일신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BbjZSWm5wNGMxN0tISWdmaUJ0ZndQeXJRcjd4VzNGV0pwVEtLN19zMmVzb2hlUlJ6cmt6VmdsV0ZXQlprZzNETmJiaEdHb19DdEx6aF9wQU81SU9EWVZLX0hTSDVQellZV1lWSw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BbjZSWm5wNGMxN0tISWdmaUJ0ZndQeXJRcjd4VzNGV0pwVEtLN19zMmVzb2hlUlJ6cmt6VmdsV0ZXQlprZzNETmJiaEdHb19DdEx6aF9wQU81SU9EWVZLX0hTSDVQellZV1lWSw?oc=5",
+        "id": "CBMibEFVX3lxTE1BbjZSWm5wNGMxN0tISWdmaUJ0ZndQeXJRcjd4VzNGV0pwVEtLN19zMmVzb2hlUlJ6cmt6VmdsV0ZXQlprZzNETmJiaEdHb19DdEx6aF9wQU81SU9EWVZLX0hTSDVQellZV1lWSw",
+        "guidislink": false,
+        "published": "Fri, 30 Oct 2026 08:02:07 GMT",
+        "published_parsed": [
+          2026,
+          10,
+          30,
+          8,
+          2,
+          7,
+          4,
+          303,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1BbjZSWm5wNGMxN0tISWdmaUJ0ZndQeXJRcjd4VzNGV0pwVEtLN19zMmVzb2hlUlJ6cmt6VmdsV0ZXQlprZzNETmJiaEdHb19DdEx6aF9wQU81SU9EWVZLX0hTSDVQellZV1lWSw?oc=5\" target=\"_blank\">정연화 성남시의회 부의장, 야탑동 주차환경 개선 촉구</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전국매일신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1BbjZSWm5wNGMxN0tISWdmaUJ0ZndQeXJRcjd4VzNGV0pwVEtLN19zMmVzb2hlUlJ6cmt6VmdsV0ZXQlprZzNETmJiaEdHb19DdEx6aF9wQU81SU9EWVZLX0hTSDVQellZV1lWSw?oc=5\" target=\"_blank\">정연화 성남시의회 부의장, 야탑동 주차환경 개선 촉구</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전국매일신문</font>"
+        },
+        "source": {
+          "href": "http://www.jeonmae.co.kr",
+          "title": "전국매일신문"
+        }
+      }
+    },
+    {
+      "portal": "naver",
+      "query": "SK에너지 담합",
+      "title": "SK 이노베이션, '전력 전문가' 정승일 총괄사장으로",
+      "url": "https://www.newspim.com/news/view/20261030000262",
+      "source": "뉴스핌",
+      "published_at": "2026-10-30T11:00:29.612866+09:00",
+      "snippet": "SK에너지 는 최근 정제마진 강세에 힘입어 호실적을 이어가고 있지만 유가와 정제마진 변동에 따른 대응 필요성이 커지고 있다. 여기에 석유제품 가격 담합 의혹에 따른 과징금 부과 가능성도 부담이다. 이에 따라 안정적인 수익구조를 확보하는 동시에 리스크를 관리하는 것이 과제가 될 전망이다....",
+      "collected_at": "2026-10-31T00:00:29.612888+09:00",
+      "raw": {}
+    }
+  ]
+}
