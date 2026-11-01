@@ -1,0 +1,135 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-01",
+  "slot": "evening",
+  "period_start": "2026-11-01T08:00:00+09:00",
+  "period_end": "2026-11-01T17:00:00+09:00",
+  "period_label": "2026-11-01 08:00 ~ 2026-11-01 17:00",
+  "generated_at": "2026-11-02T00:00:35.515752+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 34,
+  "total_enriched_input_count": 14,
+  "total_in_period_unique_count": 6,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 8,
+  "total_deduped_count": 2,
+  "total_ok_count": 0,
+  "total_review_count": 2,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 11,
+    "daum": 3,
+    "google": 20
+  },
+  "query_counts": {
+    "공정위 유가 담합": 1,
+    "유가 담합": 2,
+    "유가담합": 2
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-01T23:59:35.990714+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "해외서 잘나가는데…식품업계, 글로벌 환경·규제 변수에 수익성 시험대",
+      "url": "http://v.daum.net/v/20261101141740540",
+      "source": "메트로경제",
+      "published_at": "2026-11-01T14:17:00+09:00",
+      "snippet": "공정거래위원회가 가공식품에 이어 라면업체들의 가격 담합 의혹에 대한 현장조사에 착수하면서 식품업계의 긴장감이 높아지고 있다...조치였다는 입장이다. 특히 중동 전쟁 여파에 따른 국제유가와 나프타 가격 상승은 포장재 생산 비용까지 끌어올리는 요인으로... 9시간 전",
+      "collected_at": "2026-11-01T23:59:38.421331+09:00",
+      "normalized_title": "해외서 잘나가는데…식품업계, 글로벌 환경·규제 변수에 수익성 시험대",
+      "source_normalized": "메트로경제",
+      "duplicate_key": "메트로경제::해외서 잘나가는데…식품업계, 글로벌 환경·규제 변수에 수익성 시험대",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20261101141740540",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 1. 14:17",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "344c4b391e2dfb5d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "나프타",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "해외서 잘나가는데…식품업계, 글로벌 환경·규제 변수에 수익성 시험대",
+      "url": "http://www.metroseoul.co.kr/article/20261101500191",
+      "source": "메트로신문",
+      "published_at": "2026-11-01T14:59:37.291320+09:00",
+      "snippet": "특히 중동 전쟁 여파에 따른 국제 유가 와 나프타 가격 상승은 포장재 생산 비용까지 끌어올리는 요인으로 작용했다. 원가 부담을 가격에 제대로 반영하기 어려운 상황에서 담합 의혹 조사까지 겹치면서 기업들의 가격 전략에도 제약이 커지고 있다는 분석이다. 해외 시장에서도 규제 불확실성이 상존한다....",
+      "collected_at": "2026-11-01T23:59:37.291337+09:00",
+      "normalized_title": "해외서 잘나가는데…식품업계, 글로벌 환경·규제 변수에 수익성 시험대",
+      "source_normalized": "메트로신문",
+      "duplicate_key": "메트로신문::해외서 잘나가는데…식품업계, 글로벌 환경·규제 변수에 수익성 시험대",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.metroseoul.co.kr/article/20261101500191",
+      "verified": false,
+      "verification_reason": "원문 확인 실패: ConnectTimeout",
+      "id": "fdd9e0019f5f1b75",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "나프타",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 확인 실패: ConnectTimeout"
+    }
+  ]
+}
