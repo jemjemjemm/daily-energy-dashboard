@@ -1,0 +1,98 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-01",
+  "slot": "night",
+  "period_start": "2026-11-01T17:00:00+09:00",
+  "period_end": "2026-11-02T00:00:00+09:00",
+  "period_label": "2026-11-01 17:00 ~ 2026-11-02 00:00",
+  "generated_at": "2026-11-02T11:24:46.774337+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 46,
+  "total_enriched_input_count": 46,
+  "total_in_period_unique_count": 7,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 13,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 6,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 21,
+    "daum": 1,
+    "google": 24
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정위 유가 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-02T11:24:01.893139+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[미리보는 이데일리 신문] '해킹 암시장' 다크웹, 랜섬웨어도 판다",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03175046645641456&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "source": "이데일리",
+      "published_at": "2026-11-01T21:24:03.492834+09:00",
+      "snippet": "8%로 주춤…고 유가 ·칩플레이션이 변수” -농장서 검증한 자체 온실기술 신뢰 쌓아 日에 20년 장기공급 -중간소득층 40% 소득 줄었다…13%는 절반 이상 뚝... 것 - 담합 엄단하되 가격은 시장에… 공정위 의 역할 △오피니언 -건강의 선행학습 -AI시대,공간정보 가치를 다시 보다 -백화점 맞수의 첫 거래,성패는...",
+      "collected_at": "2026-11-02T11:24:03.492840+09:00",
+      "normalized_title": "[미리보는 이데일리 신문] '해킹 암시장' 다크웹, 랜섬웨어도 판다",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::[미리보는 이데일리 신문] '해킹 암시장' 다크웹, 랜섬웨어도 판다",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 4,
+      "canonical_url": "https://www.edaily.co.kr/News/Read?newsId=03175046645641456&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "id": "191af9c7d86b77b2",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
