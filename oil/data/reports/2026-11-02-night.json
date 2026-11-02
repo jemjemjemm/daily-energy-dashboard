@@ -1,0 +1,103 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-02",
+  "slot": "night",
+  "period_start": "2026-11-02T17:00:00+09:00",
+  "period_end": "2026-11-03T00:00:00+09:00",
+  "period_label": "2026-11-02 17:00 ~ 2026-11-03 00:00",
+  "generated_at": "2026-11-03T08:43:19.605300+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 60,
+  "total_enriched_input_count": 60,
+  "total_in_period_unique_count": 5,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 18,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 43,
+    "daum": 9,
+    "google": 8
+  },
+  "query_counts": {
+    "기름값 담합": 1,
+    "석유 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-03T08:42:42.982963+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "[오늘과 내일/이상훈]석유 최고가격제, 올해 안엔 끝내자",
+      "url": "https://www.donga.com/news/Opinion/article/all/20261102/134953877/2",
+      "source": "동아일보",
+      "published_at": "2026-11-02T23:42:44.377130+09:00",
+      "snippet": "전쟁 발발 직전인 2월 셋째 주 L당 1688원이던 전국 평균 휘발유 가격이 3월 둘째 주 1901원으로 올랐던 때다. 정부는 3월 13일 석유 최고가격제를 전격... 소수 정유사가 시장을 지배하는 과점 구조였고, 담합 의혹이 끊이지 않았던 게 사실이다. 오를 때는 빠르고 내릴 때는 더디다는 비판도 컸다. 하지만 시장에...",
+      "collected_at": "2026-11-03T08:42:44.377146+09:00",
+      "normalized_title": "[오늘과 내일/이상훈]석유 최고가격제, 올해 안엔 끝내자",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::[오늘과 내일/이상훈]석유 최고가격제, 올해 안엔 끝내자",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 10,
+      "canonical_url": "https://www.donga.com/news/Opinion/article/all/20261102/134953877/2",
+      "id": "f08b6966135e0671",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "휘발유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
