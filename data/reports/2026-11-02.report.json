@@ -6,8 +6,8 @@
     "previous_day_label": "11/1",
     "today_label": "11/2",
     "generated_at": "2026-11-03 08:42 KST",
-    "review_status": "초안",
-    "report_version": "draft-from-safetimes-v2.0",
+    "review_status": "검토 완료",
+    "report_version": "reviewed-original-sources-v2.0",
     "header_title": "Daily Issue Report",
     "report_title": "Daily Issue Report",
     "report_badge": "정유 · 석유화학 · LNG",
@@ -21,7 +21,11 @@
     },
     {
       "type": "news_trend",
-      "text": "(Morning) △회사는 “물과 흙더미에 덮인 면적이 31.28㎢로 여의도(2.9㎢)의 10배가 넘고, 침수되거나 묻힌 건물 면적도 5만2180㎡에 달했다”며 “복구 인력과 물자를 비두르시 특정 지역에 먼저 △국제유가 상승에도 10월 소비자물가 상승률은 2%대 후반으로 소폭 둔화할 전망임 △1일 SK그룹에 따르면, 지난달 30일 임시 수펙스추구협의회를 열고, 각 계열사 이사회에서 결정된 사장단 인사 사항을 공유"
+      "text": "(Morning) △산업부, 체코 원전사업 장·차관 직접 관리 및 비상관리체계 가동 △초광역특구법 노동시간·고용 특례 둘러싼 당정청 이견 및 노사정 논의 쟁점 점검 △예정처, 미래대응기금 추가세수 지속가능성 및 반복지출 재원 위험 지적"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △에쓰오일, 9월 말 최고가격제 손실보전 신청자료 제출 및 보상액 통지 시 이익 반영 방침 설명 △노동부, 초광역특구법 첫 차관급 사회적 대화에서 노동시간·고용형태 등 논의 순서 확정 △대통령, 예산 시정연설에서 미래선점·성장확산 및 재정지출·지방우대 원칙 제시"
     }
   ],
   "prices": {
@@ -1494,76 +1498,46 @@
     }
   ],
   "news_trend": {
-    "summary": "△회사는 “물과 흙더미에 덮인 면적이 31.28㎢로 여의도(2.9㎢)의 10배가 넘고, 침수되거나 묻힌 건물 면적도 5만2180㎡에 달했다”며 “복구 인력과 물자를 비두르시 특정 지역에 먼저 △국제유가 상승에도 10월 소비자물가 상승률은 2%대 후반으로 소폭 둔화할 전망임 △1일 SK그룹에 따르면, 지난달 30일 임시 수펙스추구협의회를 열고, 각 계열사 이사회에서 결정된 사장단 인사 사항을 공유",
+    "summary": "△산업부, 체코 원전사업 장·차관 직접 관리 및 비상관리체계 가동 △초광역특구법 노동시간·고용 특례 둘러싼 당정청 이견 및 노사정 논의 쟁점 점검 △예정처, 미래대응기금 추가세수 지속가능성 및 반복지출 재원 위험 지적",
     "trend_paragraphs": [
-      "조선일보는 회사는 “물과 흙더미에 덮인 면적이 31.28㎢로 여의도(2.9㎢)의 10배가 넘고, 침수되거나 묻힌 건물 면적도 5만2180㎡에 달했다”며 “복구 인력과 물자를 비두르시 특정 지역에 먼저 투입하라는 분석 결과를.",
-      "이데일리는 국제유가 상승에도 10월 소비자물가 상승률은 2%대 후반으로 소폭 둔화할 전망이다.",
-      "세계일보는 1일 SK그룹에 따르면, 지난달 30일 임시 수펙스추구협의회를 열고, 각 계열사 이사회에서 결정된 사장단 인사 사항을 공유했다."
+      "산업부, 체코 원전사업 장·차관 직접 관리 및 비상관리체계 가동",
+      "초광역특구법 노동시간·고용 특례 둘러싼 당정청 이견 및 노사정 논의 쟁점 점검",
+      "예정처, 미래대응기금 추가세수 지속가능성 및 반복지출 재원 위험 지적"
     ],
     "articles": [
       {
-        "title": "장갑차 이동부터 원유 재고까지 분석하는 ‘우주의 눈’… 돈 되는 ‘위성 인텔리전스’",
+        "title": "체코 원전 사업 산업부 장·차관 직접 관리체계 가동",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261101027200003",
+        "summary": "산업부, 체코 원전사업 장·차관 직접 관리 및 비상관리체계 가동",
+        "published_at_kst": "2026-11-02T06:00:06+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-02T06:00:06+09:00; 발행사 전체 본문·최초시각 직접 대조. 자동 담합필터 결과와 별도로 수동 검토.",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "메가특구법 ‘노동 특례’ 갈피 못 잡는 당·정·청",
         "press": "조선일보",
-        "press_grade": "A",
-        "url": "https://v.daum.net/v/20261102060143265",
-        "summary": "회사는 “물과 흙더미에 덮인 면적이 31.28㎢로 여의도(2.9㎢)의 10배가 넘고, 침수되거나 묻힌 건물 면적도 5만2180㎡에 달했다”며 “복구 인력과 물자를 비두르시 특정 지역에 먼저 투입하라는 분석 결과를",
-        "snippet": "3 장갑차 이동부터 원유 재고까지 분석하는 ‘우주의 눈’… 돈 되는 ‘위성 인텔리전스’ 고화질 사진을 찍어 보내는 데 그쳤다. 이제는 AI 분석을 더해 “어디를 먼저 복구해야 하는지”, “적이 어디에 숨었는지”, “ 원유 재고가 얼마나 남았는지”처럼 고객이 원하는 답을 내놓는다. 우주 데이터를 맞춤형 분석 서비스로 파는 이른바 ‘서비스형 우주... 2026.11.02 10",
-        "published_at_kst": "",
-        "industry_relevance": 4,
-        "score": 10,
-        "score_breakdown": {
-          "keyword": 3,
-          "title_importance": 2,
-          "press": 3,
-          "originality": 2,
-          "duplicate_or_low_quality": 0
-        },
-        "summary_basis": "article_body_extract",
-        "article_content_chars": 2338
+        "url": "https://www.chosun.com/national/labor/2026/11/02/OC3JADIQFJCETKKBAESQLCR5MM/?outputType=amp",
+        "summary": "초광역특구법 노동시간·고용 특례 둘러싼 당정청 이견 및 노사정 논의 쟁점 점검",
+        "published_at_kst": "2026-11-02T00:45:00+09:00",
+        "verified": true,
+        "time_evidence": "원문 최초 등록·입력 2026.11.02. 00:45; 발행사 전체 본문·최초시각 직접 대조. 자동 담합필터 결과와 별도로 수동 검토.",
+        "summary_basis": "original_article_body_manual_review"
       },
       {
-        "title": "“물가 2.8%로 둔화 전망”…스마트폰·식품값은 부담[물가폴]",
-        "press": "이데일리",
-        "press_grade": "A",
-        "url": "https://v.daum.net/v/20261102045235403",
-        "summary": "국제유가 상승에도 10월 소비자물가 상승률은 2%대 후반으로 소폭 둔화할 전망이다",
-        "snippet": "“물가 2.8%로 둔화 전망”…스마트폰·식품값은 부담[물가폴] 최고가격제로 국내 기름값 상승이 억제되고 있지만, 향후 제도 변화에 따라 물가 상승 압력이 커질 수 있다. 조준우 연구원은 “ 유류세 인하 조치가 11월 말 종료되고 연장되지 않을 경우 12월 소비자물가 상승률을 약 0.1%포인트 높일 수 있다”고 분석했다. 내년... 2026.11.02 1",
-        "published_at_kst": "",
-        "industry_relevance": 2,
-        "score": 11,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 1,
-          "press": 3,
-          "originality": 2,
-          "duplicate_or_low_quality": 0
-        },
-        "summary_basis": "article_body_extract",
-        "article_content_chars": 2307
-      },
-      {
-        "title": "SK 사장단 인사… ‘안정 속 에너지 쇄신’ 방점",
-        "press": "세계일보",
-        "press_grade": "B",
-        "url": "https://v.daum.net/v/20261102060457456",
-        "summary": "1일 SK그룹에 따르면, 지난달 30일 임시 수펙스추구협의회를 열고, 각 계열사 이사회에서 결정된 사장단 인사 사항을 공유했다",
-        "snippet": "SK 사장단 인사… ‘안정 속 에너지 쇄신’ 방점 정 사장을 도와 SK이노베이션의 사업 구조 최적화와 운영 효율 개선에 집중할 것으로 보인다. 이번 인사를 계기로 SK이노베이션은 정유 ·화학사를 넘어 AI 전력 인프라 사업 담당 기업으로의 변화에 속도를 낼 전망이다. 반도체 사업을 맡는 그룹의 핵심 회사인 SK... 2026.11.02",
-        "published_at_kst": "",
-        "industry_relevance": 1,
-        "score": 6,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 0,
-          "press": 2,
-          "originality": 2,
-          "duplicate_or_low_quality": -3
-        },
-        "summary_basis": "article_body_extract",
-        "article_content_chars": 1317
+        "title": "“2029년부터 추가 세수 끊겨”…예정처, 미래기금 재원 경고",
+        "press": "서울신문",
+        "url": "https://www.seoul.co.kr/news/economy/2026/11/02/20261102032004",
+        "summary": "예정처, 미래대응기금 추가세수 지속가능성 및 반복지출 재원 위험 지적",
+        "published_at_kst": "2026-11-01T21:51:00+09:00",
+        "verified": true,
+        "time_evidence": "원문 최초 등록·입력 2026-11-01 21:51; 발행사 전체 본문·최초시각 직접 대조. 자동 담합필터 결과와 별도로 수동 검토.",
+        "summary_basis": "original_article_body_manual_review"
       }
     ],
-    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
-    "needs_review": true,
+    "source": "발행사 전체 원문·최초시각 검토",
+    "needs_review": false,
     "report_slot": "morning"
   },
   "quality_control": {
@@ -1693,5 +1667,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△에쓰오일, 9월 말 최고가격제 손실보전 신청자료 제출 및 보상액 통지 시 이익 반영 방침 설명 △노동부, 초광역특구법 첫 차관급 사회적 대화에서 노동시간·고용형태 등 논의 순서 확정 △대통령, 예산 시정연설에서 미래선점·성장확산 및 재정지출·지방우대 원칙 제시",
+    "trend_paragraphs": [
+      "에쓰오일, 9월 말 최고가격제 손실보전 신청자료 제출 및 보상액 통지 시 이익 반영 방침 설명",
+      "노동부, 초광역특구법 첫 차관급 사회적 대화에서 노동시간·고용형태 등 논의 순서 확정",
+      "대통령, 예산 시정연설에서 미래선점·성장확산 및 재정지출·지방우대 원칙 제시"
+    ],
+    "articles": [
+      {
+        "title": "[컨콜] 에쓰오일 \"최고가격제 손실보전 신청…정부 보상액 통지 때 이익 반영\"",
+        "press": "데일리안",
+        "url": "https://www.dailian.co.kr/news/view/1709609",
+        "summary": "에쓰오일, 9월 말 최고가격제 손실보전 신청자료 제출 및 보상액 통지 시 이익 반영 방침 설명",
+        "published_at_kst": "2026-11-02T14:53:00+09:00",
+        "verified": true,
+        "time_evidence": "원문 최초 등록·입력 2026.11.02 14:53; 발행사 전체 본문·최초시각 직접 대조. 자동 담합필터 결과와 별도로 수동 검토.",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "초광역특구 '주 52시간 예외' 노사정 논의 본격화…첫 차관급 회의",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261102052600530",
+        "summary": "노동부, 초광역특구법 첫 차관급 사회적 대화에서 노동시간·고용형태 등 논의 순서 확정",
+        "published_at_kst": "2026-11-02T10:14:56+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-02T10:14:56+09:00; 발행사 전체 본문·최초시각 직접 대조. 자동 담합필터 결과와 별도로 수동 검토.",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "[전문] 李대통령 시정연설 \"관건은 실행과 속도…與野 힘 모을 때\"",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261102086800001",
+        "summary": "대통령, 예산 시정연설에서 미래선점·성장확산 및 재정지출·지방우대 원칙 제시",
+        "published_at_kst": "2026-11-02T12:04:55+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-02T12:04:55+09:00; 발행사 전체 본문·최초시각 직접 대조. 자동 담합필터 결과와 별도로 수동 검토.",
+        "summary_basis": "original_article_body_manual_review"
+      }
+    ],
+    "source": "발행사 전체 원문·최초시각 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }

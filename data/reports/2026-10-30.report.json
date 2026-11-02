@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △미·이란 외교 재개 기대에 WTI 102달러·브렌트유 114.88달러 하락 마감 △한수원, 체코 원전 새 시공사 내년 7월 선정 계획 및 적기 준공 대응 방침 설명 △재경부, 시장조성물량 활용해 11월 국고채 발행 5조원 축소 및 12조원 경쟁입찰 계획 발표"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △기후부, 하반기 해상풍력 고정가격 경쟁입찰 2.2GW 공고 △산업부, 화학산업 유공자 52명 포상 및 석유화학 구조개편 지속 추진 당부 △재경부, 9월 국세수입 55조2000억원 및 1~9월 누계 385조원 집계 발표"
     }
   ],
   "prices": {
@@ -1591,5 +1595,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△기후부, 하반기 해상풍력 고정가격 경쟁입찰 2.2GW 공고 △산업부, 화학산업 유공자 52명 포상 및 석유화학 구조개편 지속 추진 당부 △재경부, 9월 국세수입 55조2000억원 및 1~9월 누계 385조원 집계 발표",
+    "trend_paragraphs": [
+      "기후부, 하반기 해상풍력 고정가격 경쟁입찰 2.2GW 공고",
+      "산업부, 화학산업 유공자 52명 포상 및 석유화학 구조개편 지속 추진 당부",
+      "재경부, 9월 국세수입 55조2000억원 및 1~9월 누계 385조원 집계 발표"
+    ],
+    "articles": [
+      {
+        "title": "하반기 해상 풍력 고정가 입찰 공고…2.2GW 규모",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261030042300530",
+        "summary": "기후부, 하반기 해상풍력 고정가격 경쟁입찰 2.2GW 공고",
+        "published_at_kst": "2026-10-30T09:26:46+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-30T09:26:46+09:00; 발행사 전체 본문·최초시각 직접 대조. 자동 담합필터 결과와 별도로 수동 검토.",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "화학산업의 날 기념식…롯데케미칼 이영준 사장 은탑산업훈장",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261030037900003",
+        "summary": "산업부, 화학산업 유공자 52명 포상 및 석유화학 구조개편 지속 추진 당부",
+        "published_at_kst": "2026-10-30T11:00:02+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-30T11:00:02+09:00; 발행사 전체 본문·최초시각 직접 대조. 자동 담합필터 결과와 별도로 수동 검토.",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "9월에도 법인세 작년보다 23조 넘게 걷혀…세수 진도율 80.5%",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261030065600002",
+        "summary": "재경부, 9월 국세수입 55조2000억원 및 1~9월 누계 385조원 집계 발표",
+        "published_at_kst": "2026-10-30T11:00:01+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-10-30T11:00:01+09:00; 발행사 전체 본문·최초시각 직접 대조. 자동 담합필터 결과와 별도로 수동 검토.",
+        "summary_basis": "original_article_body_manual_review"
+      }
+    ],
+    "source": "발행사 전체 원문·최초시각 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
