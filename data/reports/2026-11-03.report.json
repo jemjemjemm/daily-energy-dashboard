@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △미·이란 협상 기대에 WTI 96.46달러·브렌트유 104.77달러 하락 마감 △고용노동교육원, 노동교육 필요성·경험 격차 실태조사 공개 및 생애주기별 교육 개선 추진 △경제부총리, 전기차 업계와 생산세액공제 확대·경쟁력 강화방안 논의"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △산업부, 공정별 제조 AI 성과를 산업 전반으로 확산하는 4단계 전략 발표 △노동부, 국감 지적 성수동 공짜 야근 등 전국 100개 사업장 장시간 노동 기획감독 착수 △재경위 미래대응기금 공청회, 세수결손 안전장치 필요성과 지방재정·국회 통제 우려 공방"
     }
   ],
   "prices": {
@@ -1619,5 +1623,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△산업부, 공정별 제조 AI 성과를 산업 전반으로 확산하는 4단계 전략 발표 △노동부, 국감 지적 성수동 공짜 야근 등 전국 100개 사업장 장시간 노동 기획감독 착수 △재경위 미래대응기금 공청회, 세수결손 안전장치 필요성과 지방재정·국회 통제 우려 공방",
+    "trend_paragraphs": [
+      "산업부, 공정별 제조 AI 성과를 산업 전반으로 확산하는 4단계 전략 발표",
+      "노동부, 국감 지적 성수동 공짜 야근 등 전국 100개 사업장 장시간 노동 기획감독 착수",
+      "재경위 미래대응기금 공청회, 세수결손 안전장치 필요성과 지방재정·국회 통제 우려 공방"
+    ],
+    "articles": [
+      {
+        "title": "공정별 AI 성과, 산업 전반 확산…산업부, 4단계 전략 가동",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261103075800003",
+        "summary": "산업부, 공정별 제조 AI 성과를 산업 전반으로 확산하는 4단계 전략 발표",
+        "published_at_kst": "2026-11-03T14:30:01+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-03T14:30:01+09:00; 발행사 본문 및 하단 송고시각 직접 대조",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "노동부, 성수동 '공짜 야근' 정조준…전국 100곳 기획감독",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261102144700530",
+        "summary": "노동부, 국감 지적 성수동 공짜 야근 등 전국 100개 사업장 장시간 노동 기획감독 착수",
+        "published_at_kst": "2026-11-03T09:00:04+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-03T09:00:04+09:00; 발행사 본문 및 하단 송고시각 직접 대조",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "與 \"세수결손 대비\"·野 \"지방재정 자율성 침해\"…미래기금 공방",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261103096500001",
+        "summary": "재경위 미래대응기금 공청회, 세수결손 안전장치 필요성과 지방재정·국회 통제 우려 공방",
+        "published_at_kst": "2026-11-03T12:07:35+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-03T12:07:35+09:00; 발행사 본문 및 하단 송고시각 직접 대조",
+        "summary_basis": "original_article_body_manual_review"
+      }
+    ],
+    "source": "발행사 전체 원문·최초시각 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
