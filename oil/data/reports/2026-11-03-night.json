@@ -1,0 +1,178 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-03",
+  "slot": "night",
+  "period_start": "2026-11-03T17:00:00+09:00",
+  "period_end": "2026-11-04T00:00:00+09:00",
+  "period_label": "2026-11-03 17:00 ~ 2026-11-04 00:00",
+  "generated_at": "2026-11-04T11:59:42.699525+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 85,
+  "total_enriched_input_count": 85,
+  "total_in_period_unique_count": 4,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 22,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 63,
+    "daum": 7,
+    "google": 15
+  },
+  "query_counts": {
+    "SK에너지 담합": 1,
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 1,
+    "공정위 유가 담합": 1,
+    "기름값 담합": 1,
+    "석유 담합": 3,
+    "석유제품 담합": 1,
+    "유가 담합": 2,
+    "유가담합": 1,
+    "정유 44조": 1,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "현대오일뱅크 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-04T11:58:56.367516+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "정부, 김장 물가 안정 640억 투입 ‘역대 최대’",
+      "url": "http://www.kjdaily.com/article.php?aid=1793703657691152004",
+      "source": "광주매일신문",
+      "published_at": "2026-11-03T20:58:57.932194+09:00",
+      "snippet": "구체적으로 농·축·수산물, 석유 류 등 국민 생활 밀접 품목을 상시 점검하고, 이상징후가 보이면 신속히 대응할 계획이며, 유통 구조 효율화와 담합 등 불공정 행위에 엄정 대응하는 등 구조적인 물가 안정 기반을 강화하는 노력도 이어갈 방침이다. 또한 정부의 할당 관세·할인 지원 등 세제·재정 지원이 실제...",
+      "collected_at": "2026-11-04T11:58:57.932211+09:00",
+      "normalized_title": "정부, 김장 물가 안정 640억 투입 ‘역대 최대’",
+      "source_normalized": "광주매일신문",
+      "duplicate_key": "광주매일신문::정부, 김장 물가 안정 640억 투입 ‘역대 최대’",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "http://www.kjdaily.com/article.php?aid=1793703657691152004",
+      "id": "30cbfa1a9b044472",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1WdW9xTWR2VWJaSHJVOTFLYmh3VC1xVWZjTFlwTVF1UmFnVlpmRjZVSkVjYVdqNU9kdXEwOWI0SlM4VGNKZThET1FBQmE3eXc?oc=5",
+      "source": "로톡",
+      "published_at": "2026-11-03T17:10:53+09:00",
+      "snippet": "[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차 로톡",
+      "collected_at": "2026-11-04T11:59:03.094724+09:00",
+      "normalized_title": "[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차",
+      "source_normalized": "로톡",
+      "duplicate_key": "로톡::[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "정유 44조",
+        "정유사 담합",
+        "정유업계 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 11,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1WdW9xTWR2VWJaSHJVOTFLYmh3VC1xVWZjTFlwTVF1UmFnVlpmRjZVSkVjYVdqNU9kdXEwOWI0SlM4VGNKZThET1FBQmE3eXc?oc=5",
+      "id": "f3a5a8e7361201ce",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "물가 상승률 두 달째 2%대 후반… 가공식품·기름값에 장바구니 부담",
+      "url": "http://v.daum.net/v/20261103171329579",
+      "source": "중도일보",
+      "published_at": "2026-11-03T17:59:07.959918+09:00",
+      "snippet": "석유류 등 생활 밀접 품목의 가격 동향을 상시 점검하고, 유통 과정에서 발생하는 불필요한 비용을 줄이는 방안도 추진한다. 담합 등 불공정 거래에 대한 감시를 강화하는 한편, 할당관세와 할인 지원이 실제 소비자가격 인하로 이어지는지도 살필 예정이다. 김지윤... 18시간 전",
+      "collected_at": "2026-11-04T11:59:07.959944+09:00",
+      "normalized_title": "물가 상승률 두 달째 2%대 후반… 가공식품·기름값에 장바구니 부담",
+      "source_normalized": "중도일보",
+      "duplicate_key": "중도일보::물가 상승률 두 달째 2%대 후반… 가공식품·기름값에 장바구니 부담",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "기름값 담합",
+        "석유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://v.daum.net/v/20261103171329579",
+      "id": "d15116aabc8f6d7b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "기름값",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-04",
+  "slot": "morning",
+  "period_start": "2026-11-04T00:00:00+09:00",
+  "period_end": "2026-11-04T08:00:00+09:00",
+  "period_label": "2026-11-04 00:00 ~ 2026-11-04 08:00",
+  "generated_at": "2026-11-04T12:00:03.344415+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 85,
+  "total_enriched_input_count": 26,
+  "total_in_period_unique_count": 2,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 21,
+  "total_deduped_count": 2,
+  "total_ok_count": 0,
+  "total_review_count": 2,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 63,
+    "daum": 7,
+    "google": 15
+  },
+  "query_counts": {
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 1,
+    "주유소 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-04T11:58:56.367516+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "채솟값 급락, 최고가격제로 2%대 지켰지만…점점 커지는 물가 부담",
+      "url": "https://www.newsis.com/view/NISX20261103_0003853470",
+      "source": "뉴시스",
+      "published_at": "2026-11-04T06:00:00+09:00",
+      "snippet": "석유제품 최고가격제도 물가를 안정시키는데 크게 기여했다. 10월 두바이유 평균 가격은 배럴당 110.7달러로 지난해 같은 달(65.0달러)보다 70% 이상... 농축수산물· 석유 류 등 국민생활 밀접 품목을 상시 점검하고 이상 징후가 보이면 신속히 대응하겠다\"며 \"유통구조 효율화를 일관되게 추진하고 담합 ...",
+      "collected_at": "2026-11-04T11:59:04.285079+09:00",
+      "normalized_title": "채솟값 급락, 최고가격제로 2%대 지켰지만…점점 커지는 물가 부담",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::채솟값 급락, 최고가격제로 2%대 지켰지만…점점 커지는 물가 부담",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "주유소 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.newsis.com/view/NISX20261103_0003853470",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.11.04 06:00:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "d18a0637bd3173b1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "10월 소비자물가 2.8%↑, 상승폭 둔화…\"물가 관리에 역량 집중\"",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974877&call_from=naver_news",
+      "source": "대한민국 정책브리핑",
+      "published_at": "2026-11-04T00:36:00+09:00",
+      "snippet": "8% 상승했다\"라며 \"중동전쟁 불확실성과 고 유가 속에서도 석유 최고가격제 등 정책 노력에 힘입어 주요국 대비 비교적 안정적인 흐름을 이어가고 있다... 또한 유통구조 효율화를 일관되게 추진하고 담합 등 불공정행위에 엄정 대응하는 등 구조적인 물가안정 기반 강화 노력도 이어간다. 아울러 정부의...",
+      "collected_at": "2026-11-04T11:58:57.934143+09:00",
+      "normalized_title": "10월 소비자물가 2.8%↑, 상승폭 둔화…\"물가 관리에 역량 집중\"",
+      "source_normalized": "대한민국 정책브리핑",
+      "duplicate_key": "대한민국 정책브리핑::10월 소비자물가 2.8%↑, 상승폭 둔화…\"물가 관리에 역량 집중\"",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974877&call_from=naver_news",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-03T15:36:00Z",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "01cc0ed310861324",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ]
+}
