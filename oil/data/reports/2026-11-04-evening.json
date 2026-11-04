@@ -1,0 +1,172 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-04",
+  "slot": "evening",
+  "period_start": "2026-11-04T08:00:00+09:00",
+  "period_end": "2026-11-04T17:00:00+09:00",
+  "period_label": "2026-11-04 08:00 ~ 2026-11-04 17:00",
+  "generated_at": "2026-11-05T01:13:15.452421+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 33,
+  "total_enriched_input_count": 10,
+  "total_in_period_unique_count": 5,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 3,
+  "total_deduped_count": 3,
+  "total_ok_count": 1,
+  "total_review_count": 2,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 26,
+    "daum": 7,
+    "google": 0
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "석유 담합": 3,
+    "석유제품 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-05T01:12:16.154721+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "'16조 석화 담합' 1심 첫 공판…法, 공소사실 특정 요구",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=05031526645642440&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "source": "이데일리",
+      "published_at": "2026-11-04T16:12:29.517511+09:00",
+      "snippet": "나희석 서울중앙지검(현 서울중앙지방공소청) 공정거래조사부 부장검사가 지난 10월 1일 서울 서초구 서울고등검찰청 브리핑실에서 석유 화학 제품 담합 사건 수사 결과에 대해 브리핑을 하고 있다. (제공= 서울중앙지방공소청) 서울중앙지법 형사합의36부(재판장 이정엽)는 4일 독점규제 및 공정거래에 관한...",
+      "collected_at": "2026-11-05T01:12:29.517535+09:00",
+      "normalized_title": "'16조 석화 담합' 1심 첫 공판…法, 공소사실 특정 요구",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::'16조 석화 담합' 1심 첫 공판…法, 공소사실 특정 요구",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.edaily.co.kr/News/Read?newsId=05031526645642440&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "4e8de8eef6fe4af5",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "권칠승 의원 “민생 관련 담합 시 영업정지 등 철퇴”",
+      "url": "http://www.aptn.co.kr/news/articleView.html?idxno=113191",
+      "source": "아파트관리신문",
+      "published_at": "2026-11-04T10:14:26+09:00",
+      "snippet": "이 가운데 공동주택과 관련 있는 법률은 ▲ 석유 및 대체연료 사업법 ▲폐기물관리법 ▲하수도법 ▲전기공사업법 ▲승강기 안전관리법 ▲소방시설공사업법 등이다. 이 개정안들의 주요 내용은 5년간 2회 이상 공동행위( 담합 )를 한 사업자에 대해서는 관계 행정기관장에게 사업 등록·인허가·면허 취소·영업정지...",
+      "collected_at": "2026-11-05T01:12:29.520439+09:00",
+      "normalized_title": "권칠승 의원 “민생 관련 담합 시 영업정지 등 철퇴”",
+      "source_normalized": "아파트관리신문",
+      "duplicate_key": "아파트관리신문::권칠승 의원 “민생 관련 담합 시 영업정지 등 철퇴”",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.aptn.co.kr/news/articleView.html?idxno=113191",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-04T10:14:26+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "c01cdbd8bbdfd360",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정부, 김장철 물가 잡는다…640억원 투입해 최대 50% 할인 - 한국금융신문",
+      "url": "https://www.fntimes.com/html/view.php?ud=202611031540523102dd55077bc2_18",
+      "source": "한국금융신문",
+      "published_at": "2026-11-04T11:35:00+09:00",
+      "snippet": "석유류 가격도 휘발유 는 리터당 1850원대, 경유는 1840원대를 유지하고 있다. 정부는 석유 최고가격제가 10월 물가 상승률을 약 0.8%포인트 완화한 것으로... 유통구조 효율화를 지속 추진하고 담합 등 불공정행위에 대해서는 엄정 대응해 물가 안정의 구조적 기반을 강화한다. 정부의 세제·재정 지원이 실제...",
+      "collected_at": "2026-11-05T01:12:17.618831+09:00",
+      "normalized_title": "정부, 김장철 물가 잡는다…640억원 투입해 최대 50% 할인 - 한국금융신문",
+      "source_normalized": "한국금융신문",
+      "duplicate_key": "한국금융신문::정부, 김장철 물가 잡는다…640억원 투입해 최대 50% 할인 - 한국금융신문",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.fntimes.com/html/view.php?ud=202611031540523102dd55077bc2_18",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-11-04 11:35",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "df81f6cd39f8fd2b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ]
+}
