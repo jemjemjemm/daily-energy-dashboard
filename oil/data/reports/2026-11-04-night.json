@@ -1,0 +1,150 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-04",
+  "slot": "night",
+  "period_start": "2026-11-04T17:00:00+09:00",
+  "period_end": "2026-11-05T00:00:00+09:00",
+  "period_label": "2026-11-04 17:00 ~ 2026-11-05 00:00",
+  "generated_at": "2026-11-05T08:24:05.540046+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 55,
+  "total_enriched_input_count": 109,
+  "total_in_period_unique_count": 34,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 75,
+  "total_deduped_count": 3,
+  "total_ok_count": 1,
+  "total_review_count": 2,
+  "total_excluded_count": 33,
+  "grade_counts": {
+    "A": 2,
+    "B": 1,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 45,
+    "daum": 3,
+    "google": 7
+  },
+  "query_counts": {
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-05T08:16:43.149000+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "유가안정 기대감 커졌지만 … 美 고물가 정상화까진 '하세월'",
+      "source": "매일경제",
+      "url": "https://v.daum.net/v/20261104174511595",
+      "published_at": "2026-11-04T17:45:00+09:00",
+      "snippet": "매일경제 개별문서메뉴 톡으로 바로 공유 공유하기 유가안정 기대감 커졌지만 … 美 고물가 정상화까진 '하세월' AFP 연합뉴스 3일(현지시간) 치러진 미국 중간선거로 도널드 트럼프 정권은 들어선 지 2년도 안 돼 의회 권력을 빼앗기게 됐다. 이로써 도널드 트럼프 대통령의 집권 후반기 경제 정책이 상당 부분 동력을 상실할 전망이다. 트럼프 대통령은 취임 후 관세 폭탄과 이란... 14시간 전 1",
+      "queries": [
+        "연합뉴스 노동부"
+      ],
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 4. 17:45",
+      "published_at_basis": "portal_article",
+      "verification_error": "",
+      "id": "a708e0a585dd2d31",
+      "canonical_url": "https://v.daum.net/v/20261104174511595",
+      "source_normalized": "매일경제",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "검색/포털 표기시각; 발행사 원문·최초시각 검증 미완료",
+      "summary": "유가안정 기대감 커졌지만 … 美 고물가 정상화까진 '하세월'"
+    },
+    {
+      "title": "에너지 가격 급등에 유로존 10월 소비자물가 4％↑…3년 만에 최고 상승률",
+      "source": "KBS",
+      "url": "https://v.daum.net/v/20261104203741129",
+      "published_at": "2026-11-04T20:37:00+09:00",
+      "snippet": "KBS 개별문서메뉴 톡으로 바로 공유 공유하기 에너지 가격 급등에 유로존 10월 소비자물가 4％↑…3년 만에 최고 상승률 9월과 같았습니다. 이탈리아(5.6％)와 스페인(4.9％)의 물가 상승률이 평균을 넘었고, 프랑스는 3.8％, 독일은 지난달 도입한 유류세 인하 조치 덕분에 2.8％에 그쳤습니다. 유로존 소비자물가 상승률은 중동 전쟁 발발 직전인 올해 2월만 해도 전년 대비 1.9％로... 11시간 전",
+      "queries": [
+        "유류세"
+      ],
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 4. 20:37",
+      "published_at_basis": "portal_article",
+      "verification_error": "",
+      "id": "679f312fc218a38d",
+      "canonical_url": "https://v.daum.net/v/20261104203741129",
+      "source_normalized": "KBS",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "검색/포털 표기시각; 발행사 원문·최초시각 검증 미완료",
+      "summary": "에너지 가격 급등에 유로존 10월 소비자물가 4％↑…3년 만에 최고 상승률"
+    },
+    {
+      "title": "유로존 10월 소비자물가 4％↑…에너지 20％ 급등",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261104176800082",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261104176800082",
+      "published_at": "2026-11-04T19:55:05+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-04T19:55:05+09:00; 발행사 본문·하단 송고시각 대조",
+      "summary": "유로존 10월 소비자물가 4％↑…에너지 20％ 급등",
+      "snippet": "유로존 10월 소비자물가 4％↑…에너지 20％ 급등",
+      "queries": [
+        "유가 발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "49c9afe9ff7fd33c7445bddd7aad807a78e749c79d7a85ae91d82eaa3317187b",
+      "id": "646d12dec119d64d",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    }
+  ],
+  "summary": "중동 원유공급·국제유가 및 정유업계 관련 보도 모니터링",
+  "editorial_audit": "data/reviews/2026-11-05-morning.audit.json",
+  "coverage_note": "원수집 전체와 추가검색 전체·원문 확인/미확인·시간대 밖 제외 기록 보존. 다른 매체의 동일 사건 보도 유지. 공개 검색 한계와 발행사 연결실패로 인터넷 전체 보도량 보장 불가.",
+  "raw_count_basis": "실제 원수집 55건. 추가검색 결과는 별도 집계.",
+  "supplemental_raw_search_result_count": 107,
+  "editorial_decisions": [
+    "같은 매체·정규화 제목만 병합",
+    "원문 미확인은 verified false로 보존",
+    "Morning과 전일 Night 독립 보존"
+  ]
+}
