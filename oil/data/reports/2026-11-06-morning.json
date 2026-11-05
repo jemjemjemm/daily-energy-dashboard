@@ -1,0 +1,95 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-06",
+  "slot": "morning",
+  "period_start": "2026-11-06T00:00:00+09:00",
+  "period_end": "2026-11-06T08:00:00+09:00",
+  "period_label": "2026-11-06 00:00 ~ 2026-11-06 08:00",
+  "generated_at": "2026-11-06T08:25:55.137815+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 52,
+  "total_enriched_input_count": 115,
+  "total_in_period_unique_count": 3,
+  "total_unknown_time_count": 90,
+  "total_outside_period_count": 22,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 42,
+    "daum": 3,
+    "google": 7
+  },
+  "query_counts": {},
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-06T08:22:05.138999+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "국제유가, 전날 8%대 폭락 후 반등…WTI 2.7%·브렌트 3.9%↑",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261106008700072",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261106008700072",
+      "published_at": "2026-11-06T06:07:09+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-06T06:07:09+09:00; 발행사 본문·하단 송고시각 대조",
+      "summary": "국제유가, 전날 8%대 폭락 후 반등…WTI 2.7%·브렌트 3.9%↑",
+      "snippet": "국제유가, 전날 8%대 폭락 후 반등…WTI 2.7%·브렌트 3.9%↑",
+      "queries": [
+        "유가 발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "16cdd000e6e01225c27158ea3007178f02efe73da71b5eecd6b4f8c43dd621d1",
+      "id": "9dc6207102896bf8",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    }
+  ],
+  "summary": "중동 원유공급·국제유가 및 정유업계 관련 보도 모니터링",
+  "editorial_audit": "data/reviews/2026-11-06-morning.audit.json",
+  "coverage_note": "원수집 전체와 추가검색 전체·원문 확인/미확인·시간대 밖 제외 기록 보존. 다른 매체의 동일 사건 보도 유지. 공개 검색 한계와 발행사 연결실패로 인터넷 전체 보도량 보장 불가.",
+  "raw_count_basis": "실제 원수집 52건. 추가검색 결과는 별도 집계.",
+  "supplemental_raw_search_result_count": 150,
+  "editorial_decisions": [
+    "같은 매체·정규화 제목만 병합",
+    "원문 미확인은 verified false로 보존",
+    "Morning과 전일 Night 독립 보존"
+  ]
+}

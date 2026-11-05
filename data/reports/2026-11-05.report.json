@@ -22,37 +22,41 @@
     {
       "type": "news_trend",
       "text": "(Morning) △한중 상무장관회의, FTA 서비스·투자 후속협상 조속 타결 및 지방 경제협력 활성화 논의 △동서울변환소 협의체, 다음 주 당국·주민 합의문 작성 논의 예정 △예정처, 건강보험 국고지원 법정기준 미달 및 내년 예산안 추가 편성 필요 지적"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △중기부, 정책자금 동일 IP 중복신청 9117건 적발 및 부당개입 의심 760건 차단 △민주노총, 초광역특구법 노동 특례 폐기 및 사회적 대화 보장 촉구 △정부, 가상자산 과세 2029년 시행 및 3년 손실 이월공제 국회 협의 추진"
     }
   ],
   "prices": {
     "unit": "$/Bbl",
     "price_data_note": "※ 오피넷 기준. 과거 2개월만 표시, 값이 0인 가격은 제외.",
     "crude": {
-      "base_label": "10/30",
+      "base_label": "11/4",
       "cards": [
         {
           "label": "Brent",
-          "value": 117.64,
-          "change": 2.76,
-          "direction": "up",
+          "value": 94.62,
+          "change": -8.98,
+          "direction": "down",
           "unit": "$/Bbl"
         },
         {
           "label": "WTI",
-          "value": 104.12,
-          "change": 2.12,
-          "direction": "up",
+          "value": 88.12,
+          "change": -7.97,
+          "direction": "down",
           "unit": "$/Bbl"
         },
         {
           "label": "Dubai",
-          "value": 118.7,
-          "change": 4.5,
-          "direction": "up",
+          "value": 100.89,
+          "change": -1.27,
+          "direction": "down",
           "unit": "$/Bbl"
         }
       ],
-      "chart_period_label": "9/4~10/30",
+      "chart_period_label": "9/4~11/4",
       "chart_window": {
         "start": "2026-09-04",
         "end": "2026-11-04",
@@ -244,6 +248,16 @@
             "date": "2026-10-30",
             "label": "10/30",
             "value": 117.64
+          },
+          {
+            "date": "2026-11-03",
+            "label": "11/3",
+            "value": 103.6
+          },
+          {
+            "date": "2026-11-04",
+            "label": "11/4",
+            "value": 94.62
           }
         ],
         "WTI": [
@@ -426,6 +440,16 @@
             "date": "2026-10-30",
             "label": "10/30",
             "value": 104.12
+          },
+          {
+            "date": "2026-11-03",
+            "label": "11/3",
+            "value": 96.09
+          },
+          {
+            "date": "2026-11-04",
+            "label": "11/4",
+            "value": 88.12
           }
         ],
         "Dubai": [
@@ -613,36 +637,46 @@
             "date": "2026-10-30",
             "label": "10/30",
             "value": 118.7
+          },
+          {
+            "date": "2026-11-03",
+            "label": "11/3",
+            "value": 102.16
+          },
+          {
+            "date": "2026-11-04",
+            "label": "11/4",
+            "value": 100.89
           }
         ]
       }
     },
     "products": {
-      "base_label": "10/30",
+      "base_label": "11/4",
       "cards": [
         {
           "label": "휘발유",
-          "value": 127.64,
-          "change": -7.44,
+          "value": 110.94,
+          "change": -3.33,
           "direction": "down",
           "unit": "$/Bbl"
         },
         {
           "label": "경유",
-          "value": 170.02,
-          "change": 2.76,
-          "direction": "up",
+          "value": 165.83,
+          "change": -0.97,
+          "direction": "down",
           "unit": "$/Bbl"
         },
         {
           "label": "나프타",
-          "value": 116.58,
-          "change": 3.88,
-          "direction": "up",
+          "value": 105.95,
+          "change": -3.42,
+          "direction": "down",
           "unit": "$/Bbl"
         }
       ],
-      "chart_period_label": "9/4~10/30",
+      "chart_period_label": "9/4~11/4",
       "chart_window": {
         "start": "2026-09-04",
         "end": "2026-11-04",
@@ -834,6 +868,16 @@
             "date": "2026-10-30",
             "label": "10/30",
             "value": 127.64
+          },
+          {
+            "date": "2026-11-03",
+            "label": "11/3",
+            "value": 114.27
+          },
+          {
+            "date": "2026-11-04",
+            "label": "11/4",
+            "value": 110.94
           }
         ],
         "Diesel": [
@@ -1021,6 +1065,16 @@
             "date": "2026-10-30",
             "label": "10/30",
             "value": 170.02
+          },
+          {
+            "date": "2026-11-03",
+            "label": "11/3",
+            "value": 166.8
+          },
+          {
+            "date": "2026-11-04",
+            "label": "11/4",
+            "value": 165.83
           }
         ],
         "Naphtha": [
@@ -1208,6 +1262,16 @@
             "date": "2026-10-30",
             "label": "10/30",
             "value": 116.58
+          },
+          {
+            "date": "2026-11-03",
+            "label": "11/3",
+            "value": 109.37
+          },
+          {
+            "date": "2026-11-04",
+            "label": "11/4",
+            "value": 105.95
           }
         ]
       }
@@ -1458,14 +1522,19 @@
         "url": ""
       },
       {
+        "name": "장기 가격 이력 history.json",
+        "type": "price-history",
+        "url": ""
+      },
+      {
         "name": "오피넷 국제유가 > 원유",
         "type": "price",
-        "url": ""
+        "url": "https://www.opinet.co.kr/gloptotSelect.do"
       },
       {
         "name": "오피넷 국제유가 > 석유제품",
         "type": "price",
-        "url": ""
+        "url": "https://www.opinet.co.kr/glopopdSelect.do"
       },
       {
         "name": "장기 가격 이력 history.json",
@@ -1541,8 +1610,8 @@
       "report_slot": "evening"
     },
     "opinet_prices": {
-      "price_json_used": false,
-      "source_date": "",
+      "price_json_used": true,
+      "source_date": "2026-11-05",
       "history_schema_version": "1.3",
       "history_period": {
         "start": "2026-01-01",
@@ -1555,9 +1624,52 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-11-05 08:17:53 KST",
+      "merged_at": "2026-11-06 08:26:02 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△중기부, 정책자금 동일 IP 중복신청 9117건 적발 및 부당개입 의심 760건 차단 △민주노총, 초광역특구법 노동 특례 폐기 및 사회적 대화 보장 촉구 △정부, 가상자산 과세 2029년 시행 및 3년 손실 이월공제 국회 협의 추진",
+    "trend_paragraphs": [
+      "중기부, 정책자금 동일 IP 중복신청 9117건 적발 및 부당개입 의심 760건 차단",
+      "민주노총, 초광역특구법 노동 특례 폐기 및 사회적 대화 보장 촉구",
+      "정부, 가상자산 과세 2029년 시행 및 3년 손실 이월공제 국회 협의 추진"
+    ],
+    "articles": [
+      {
+        "title": "중기부, 정책자금 동일 IP 중복신청 9천여건 적발…760건 차단",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261105074800030",
+        "summary": "중기부, 정책자금 동일 IP 중복신청 9117건 적발 및 부당개입 의심 760건 차단",
+        "published_at_kst": "2026-11-05T14:30:00+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-05T14:30:00+09:00; 발행사 본문 및 하단 최초 송고시각 직접 대조",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "민주노총 \"초광역특구법은 '재벌 특혜법'…원점서 재논의해야\"",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261105146200530",
+        "summary": "민주노총, 초광역특구법 노동 특례 폐기 및 사회적 대화 보장 촉구",
+        "published_at_kst": "2026-11-05T16:28:46+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-05T16:28:46+09:00; 발행사 본문 및 하단 최초 송고시각 직접 대조",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "정부 \"가상자산 과세 2년 늦춰 2029년부터…손실 3년 이월공제\"",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261105132100002",
+        "summary": "정부, 가상자산 과세 2029년 시행 및 3년 손실 이월공제 국회 협의 추진",
+        "published_at_kst": "2026-11-05T16:00:06+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-05T16:00:06+09:00; 발행사 본문 및 하단 최초 송고시각 직접 대조",
+        "summary_basis": "original_article_body_manual_review"
+      }
+    ],
+    "source": "발행사 원문·최초 보도시각 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
