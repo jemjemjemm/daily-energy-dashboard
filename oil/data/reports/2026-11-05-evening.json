@@ -1,0 +1,280 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-05",
+  "slot": "evening",
+  "period_start": "2026-11-05T08:00:00+09:00",
+  "period_end": "2026-11-05T17:00:00+09:00",
+  "period_label": "2026-11-05 08:00 ~ 2026-11-05 17:00",
+  "generated_at": "2026-11-06T01:25:09.569115+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 53,
+  "total_enriched_input_count": 18,
+  "total_in_period_unique_count": 6,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 8,
+  "total_deduped_count": 6,
+  "total_ok_count": 4,
+  "total_review_count": 2,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 1,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 42,
+    "daum": 5,
+    "google": 6
+  },
+  "query_counts": {
+    "공정위 유가 담합": 2,
+    "석유 담합": 4,
+    "석유제품 담합": 3,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 1,
+    "정유업계 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-06T01:24:26.109385+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "‘16조원 석화제품 담합’ 업체·임직원 1심 첫 공판",
+      "url": "https://www.naeil.com/news/read/607730?ref=naver",
+      "source": "내일신문",
+      "published_at": "2026-11-05T13:00:18+09:00",
+      "snippet": "16조원대 석유 화학 제품 가격 담합 혐의로 기소된 LG화학·애경케미칼·롯데정밀화학 등 6개 업체와 임직원들에 대한 1심 첫 재판이 열렸다. 서울중앙지방법원 형사합의36부(이정엽 부장판사)는 4일 독점규제및공정거래에관한법률 위반 혐의로 기소된 LG화학·애경케미칼·롯데정밀화학·OCI·PKC·유니드 등 법인...",
+      "collected_at": "2026-11-06T01:24:37.172588+09:00",
+      "normalized_title": "‘16조원 석화제품 담합’ 업체·임직원 1심 첫 공판",
+      "source_normalized": "내일신문",
+      "duplicate_key": "내일신문::‘16조원 석화제품 담합’ 업체·임직원 1심 첫 공판",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.naeil.com/news/read/607730?ref=naver",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-05T13:00:18+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "6703dd776e012832",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "'블루쓰나미'에 美정유업계 '비상'…'초과이득세' 추진될까 '전전...",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03250486645642768&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "source": "이데일리",
+      "published_at": "2026-11-05T08:24:32.442111+09:00",
+      "snippet": "트럼프 대통령은 지난 6월 법무부에 정유사들의 담합 및 담합 가격 인상 조사를 지시한 바 있다. 지난 8월엔 엑손모빌과 셰브론이 2분기에만 260억 달러(약... 앤드리아 우즈 미국 석유 협회(API) 대변인은 “세금으로 에너지 안보를 강화할 수는 없다”며 “횡재세는 소비자 가격을 낮추지 못하고, 오히려 공급망과...",
+      "collected_at": "2026-11-06T01:24:32.442141+09:00",
+      "normalized_title": "'블루쓰나미'에 美정유업계 '비상'…'초과이득세' 추진될까 '전전...",
+      "source_normalized": "이데일리",
+      "duplicate_key": "이데일리::'블루쓰나미'에 美정유업계 '비상'…'초과이득세' 추진될까 '전전...",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.edaily.co.kr/News/Read?newsId=03250486645642768&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "5762296a691f6557",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "정유업계",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[더벨][저PBR 기업 전략 점검] 삼양그룹, 보유 지분가치 밑돈 몸값…밸...",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611031514047840105735",
+      "source": "더벨",
+      "published_at": "2026-11-05T16:24:27.498472+09:00",
+      "snippet": "두 회사가 속한 유가 증권시장 필수소비재 업종의 하위 25% 기준값(0.38배)을 모두 밑돈다. 지주사와 주요 사업회사가 함께 명단에 오른 사례로는... 다만 공정위 는 판매가격 담합 과 별개로 전분당 입찰 및 부산물 가격 담합 혐의에 대한 심의 절차도 진행하고 있다. 지난달에는 삼양사를 포함한 6개사를...",
+      "collected_at": "2026-11-06T01:24:27.498484+09:00",
+      "normalized_title": "[더벨][저PBR 기업 전략 점검] 삼양그룹, 보유 지분가치 밑돈 몸값…밸...",
+      "source_normalized": "더벨",
+      "duplicate_key": "더벨::[더벨][저pbr 기업 전략 점검] 삼양그룹, 보유 지분가치 밑돈 몸값…밸...",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611031514047840105735",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "8372a91db8d7d129",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[2026 Best Law Firms in Korea] 법무법인 KCL",
+      "url": "http://www.legaltimes.co.kr/news/articleView.html?idxno=96798",
+      "source": "리걸타임즈",
+      "published_at": "2026-11-05T11:06:10+09:00",
+      "snippet": "서울중앙지검 공정거래조사부가 국민 생활필수품 물가 안정을 명분으로 집중 수사한 밀가루, 전분당, 석유 화학 제품 가격 담합 사건에서 KCL은 각각 회사와 그 임직원을 변호해 구속영장 기각, 입건자 및 입건 범죄사실 최소화라는 만족스러운 결과를 도출했다. 이들 사건은 특히 검찰이 공정위 조사...",
+      "collected_at": "2026-11-06T01:24:37.173386+09:00",
+      "normalized_title": "[2026 Best Law Firms in Korea] 법무법인 KCL",
+      "source_normalized": "리걸타임즈",
+      "duplicate_key": "리걸타임즈::[2026 best law firms in korea] 법무법인 kcl",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.legaltimes.co.kr/news/articleView.html?idxno=96798",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-05T11:06:10+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "2526924c7cf711f4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"AI를 R&D 기본 인프라로\"···김윤 삼양그룹 회장, 스페셜티 사업 고도화 주문",
+      "url": "https://www.womaneconomy.co.kr/news/articleView.html?idxno=260698",
+      "source": "여성경제신문",
+      "published_at": "2026-11-05T13:33:20+09:00",
+      "snippet": "기존 석유 화학 중심의 사업 구조를 첨단소재와 바이오 등으로 다변화하는 가운데 연구개발 역량을 중장기 성장 전략과 연계한다는 방침이다. 5일... 정 그룹장은 설탕 등 식품사업의 가격 담합 사건 이후 조직 안정화에 기여한 점을 인정받아 식품사업을 총괄하게 됐다. 두 사람은 2027년 3월 정기 주주총회 등을...",
+      "collected_at": "2026-11-06T01:24:37.171807+09:00",
+      "normalized_title": "\"AI를 R&D 기본 인프라로\"···김윤 삼양그룹 회장, 스페셜티 사업 고도화 주문",
+      "source_normalized": "여성경제신문",
+      "duplicate_key": "여성경제신문::\"ai를 r&d 기본 인프라로\"···김윤 삼양그룹 회장, 스페셜티 사업 고도화 주문",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.womaneconomy.co.kr/news/articleView.html?idxno=260698",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-05T13:33:20+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "6ba9c8b57f77ec7a",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[청년일보] \"용기면 가격 인상 여파\"…농심, 공정위 라면 담합 조사에 '발목'",
+      "url": "https://www.youthdaily.co.kr/news/article.html?no=229342",
+      "source": "청년일보",
+      "published_at": "2026-11-05T08:00:03+09:00",
+      "snippet": "행위도 담합 으로 규율한다. 공정위 는 올해 1월 21일 국민·신한·하나·우리은행의 부동산 담보인정비율(LTV) 정보교환 행위에 해당 규정을 처음 적용해... ◆ 농심 \"원가 부담에 가격 조정\"…증권가도 국내 수익성 압박 전망 농심은 8월 가격 인상 당시 고환율·고 유가 의 영향으로 포장재 등 자재 가격이 오르고...",
+      "collected_at": "2026-11-06T01:24:27.499297+09:00",
+      "normalized_title": "[청년일보] \"용기면 가격 인상 여파\"…농심, 공정위 라면 담합 조사에 '발목'",
+      "source_normalized": "청년일보",
+      "duplicate_key": "청년일보::[청년일보] \"용기면 가격 인상 여파\"…농심, 공정위 라면 담합 조사에 '발목'",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.youthdaily.co.kr/news/article.html?no=229342",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.11.05 08:00:03",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "f13f257dc97e2f3e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ]
+}
