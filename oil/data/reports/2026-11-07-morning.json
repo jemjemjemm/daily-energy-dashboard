@@ -1,0 +1,157 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-07",
+  "slot": "morning",
+  "period_start": "2026-11-07T00:00:00+09:00",
+  "period_end": "2026-11-07T08:00:00+09:00",
+  "period_label": "2026-11-07 00:00 ~ 2026-11-07 08:00",
+  "generated_at": "2026-11-07T11:45:16.036941+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 21,
+  "total_enriched_input_count": 9,
+  "total_in_period_unique_count": 2,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 3,
+  "total_deduped_count": 2,
+  "total_ok_count": 0,
+  "total_review_count": 2,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 11,
+    "daum": 8,
+    "google": 2
+  },
+  "query_counts": {
+    "공정거래위원회 정유사 담합": 2,
+    "공정위 유가 담합": 2,
+    "기름값 담합": 2,
+    "유가 담합": 2,
+    "유가담합": 2,
+    "정유사 담합": 2,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-07T11:44:26.612852+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "내릴 줄 모르는 기름값, 해외보다 비싼 유튜브…공정위 제재 대상으로 [Pick코노미]",
+      "url": "http://v.daum.net/v/20261107053159490",
+      "source": "서울경제",
+      "published_at": "2026-11-07T05:31:00+09:00",
+      "snippet": "규제 대상에 포함된다. 국제 유가가 배럴당 100달러로 치솟자 휘발유 가격을 즉각 올린 정유사가 이후 유가가 70달러로 떨어졌는데도...내리는 사례가 대표적이다. 공정위 관계자는 “담합 사건에서는 원가 상승·하락기에 나타나는 가격 행위와 관련해 여러 사업자... 6시간 전 1",
+      "collected_at": "2026-11-07T11:44:29.480918+09:00",
+      "normalized_title": "내릴 줄 모르는 기름값, 해외보다 비싼 유튜브…공정위 제재 대상으로 [Pick코노미]",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::내릴 줄 모르는 기름값, 해외보다 비싼 유튜브…공정위 제재 대상으로 [pick코노미]",
+      "portals": [
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20261107053159490",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 7. 05:31",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "255571d175538081",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "휘발유",
+        "공정위",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "내릴 줄 모르는 기름값, 해외보다 비싼 유튜브…공정위 제재 대상으로",
+      "url": "https://www.sedaily.com/article/20111377?ref=naver",
+      "source": "서울경제",
+      "published_at": "2026-11-07T05:30:02+09:00",
+      "snippet": "앞으로 국제 유가가 떨어졌는데도 정유사 들이 기름값을 내리지 않으면 공정거래위원회 에 관련 매출액의 최대 6%를 과징금으로 물어야 할 수도 있다.... 올린 정유사 가 이후 유가가 70달러로 떨어졌는데도 기존 가격을 계속 유지하거나 천천히 내리는 사례가 대표적이다. 공정 위 관계자는 “ 담합 사건에서는 원가...",
+      "collected_at": "2026-11-07T11:44:28.128865+09:00",
+      "normalized_title": "내릴 줄 모르는 기름값, 해외보다 비싼 유튜브…공정위 제재 대상으로",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::내릴 줄 모르는 기름값, 해외보다 비싼 유튜브…공정위 제재 대상으로",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.sedaily.com/article/20111377?ref=naver",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-07T05:30:02+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "00412c5aea817f86",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유사",
+        "기름값",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "제재",
+        "과징금"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ]
+}
