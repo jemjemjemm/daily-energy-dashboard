@@ -1,0 +1,138 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-07",
+  "slot": "evening",
+  "period_start": "2026-11-07T08:00:00+09:00",
+  "period_end": "2026-11-07T17:00:00+09:00",
+  "period_label": "2026-11-07 08:00 ~ 2026-11-07 17:00",
+  "generated_at": "2026-11-07T23:52:13.140629+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 15,
+  "total_enriched_input_count": 6,
+  "total_in_period_unique_count": 2,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 1,
+  "total_deduped_count": 2,
+  "total_ok_count": 0,
+  "total_review_count": 2,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 13,
+    "daum": 2,
+    "google": 0
+  },
+  "query_counts": {
+    "공정위 유가 담합": 1,
+    "석유 담합": 1,
+    "유가 담합": 2,
+    "유가담합": 2
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-07T23:51:31.952613+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "‘미친 물가’ 튀르키예에서 4만% 대박 펀드가 폭파됐다[딥다이브]",
+      "url": "https://www.donga.com/news/Economy/article/all/20261106/134977985/1",
+      "source": "동아일보",
+      "published_at": "2026-11-07T10:00:00+09:00",
+      "snippet": "지난 6월엔 MSCI까지 나서서 소규모 기업과 투자 펀드 간의 “ 담합 거래 행위”가 주가를 왜곡한다고 경고했죠. 그리고 8월 말, 튀르키예... 국제 유가 가 안 그래도 고민거리인데, 환율 탓에 인플레이션을 잡기가 더 어려워집니다. 그래서 10월 22일 튀르키예 중앙은행의 통화정책 회의를 앞두고 골드만삭스를...",
+      "collected_at": "2026-11-07T23:51:33.141325+09:00",
+      "normalized_title": "‘미친 물가’ 튀르키예에서 4만% 대박 펀드가 폭파됐다[딥다이브]",
+      "source_normalized": "동아일보",
+      "duplicate_key": "동아일보::‘미친 물가’ 튀르키예에서 4만% 대박 펀드가 폭파됐다[딥다이브]",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.donga.com/news/Economy/article/all/20261106/134977985/1",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-07T10:00:00+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "9b2767f46f199f77",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "유가 내린다고 생존할까…K-석화, 설비 25% 감축 '분수령' - 뉴스웍스",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=902157",
+      "source": "뉴스웍스",
+      "published_at": "2026-11-07T14:00:00+09:00",
+      "snippet": "미국 중간선거 이후 국제 유가 안정세와 석유화학산업 주원료인 나프타 단가 하락 기대감이 고조되고 있으나 국내 현장 진단은 냉혹하다. 원가 부담이... 기업 간 설비 통폐합과 M&A 과정에서 걸림돌이 되는 공정거래법상 공정위 의 담합 ·기업결합 규제를 한시적으로 완화하고, 사업재편특별법을 활용한 세제...",
+      "collected_at": "2026-11-07T23:51:33.140537+09:00",
+      "normalized_title": "유가 내린다고 생존할까…K-석화, 설비 25% 감축 '분수령' - 뉴스웍스",
+      "source_normalized": "뉴스웍스",
+      "duplicate_key": "뉴스웍스::유가 내린다고 생존할까…k-석화, 설비 25% 감축 '분수령' - 뉴스웍스",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.newsworks.co.kr/news/articleView.html?idxno=902157",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-07T14:00:00+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "e021eb3b89459b96",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "나프타",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ]
+}
