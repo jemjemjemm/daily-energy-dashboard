@@ -1,0 +1,97 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-08",
+  "slot": "evening",
+  "period_start": "2026-11-08T08:00:00+09:00",
+  "period_end": "2026-11-08T17:00:00+09:00",
+  "period_label": "2026-11-08 08:00 ~ 2026-11-08 17:00",
+  "generated_at": "2026-11-09T00:04:06.053670+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 4,
+  "total_enriched_input_count": 2,
+  "total_in_period_unique_count": 1,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 1,
+  "total_deduped_count": 1,
+  "total_ok_count": 0,
+  "total_review_count": 1,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 1,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 2,
+    "daum": 2,
+    "google": 0
+  },
+  "query_counts": {
+    "석유 담합": 1,
+    "석유제품 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-09T00:03:27.377276+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "articles": [
+    {
+      "title": "근원·헤드라인 물가 역전 눈앞…'끈적한 인플레'에 고심 깊은 정부",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443624",
+      "source": "연합인포맥스",
+      "published_at": "2026-11-08T08:05:00+09:00",
+      "snippet": "재정경제부 관계자는 \"농축수산물· 석유 류 등 국민생활 밀접 품목을 상시 점검하고 이상징후가 보이면 신속히 대응할 계획\"이라며 \"유통구조 효율화를 일관되게 추진하고 담합 등 불공정행위에 엄정 대응하는 등 구조적인 물가안정 기반 강화 노력도 이어가겠다\"고 말했다. 이어 \"정부의 할당관세·할인지원...",
+      "collected_at": "2026-11-09T00:03:37.930452+09:00",
+      "normalized_title": "근원·헤드라인 물가 역전 눈앞…'끈적한 인플레'에 고심 깊은 정부",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::근원·헤드라인 물가 역전 눈앞…'끈적한 인플레'에 고심 깊은 정부",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443624",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-08T08:05:00+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "c6d3f2577ed718ee",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ]
+}
