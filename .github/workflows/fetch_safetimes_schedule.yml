@@ -560,5 +560,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: report-bundle-simulation
-          path: .cache/pipeline-simulation/
+          path: |
+            .cache/pipeline-simulation/result.json
+            .cache/pipeline-simulation/fresh-probe*.json
           if-no-files-found: warn

@@ -163,6 +163,9 @@ def publish(review: dict, date: str, slot: str, output_dir: Path = REPORT_DIR) -
     report = {'date': date, 'slot': slot, 'status': 'published', 'period': period_label(date, slot),
               'published_at': datetime.now(KST).isoformat(timespec='seconds'),
               'committees': select_articles(review['articles'], date, slot)}
+    for key in ('review_method', 'limitations'):
+        if review.get(key):
+            report[key] = review[key]
     validate_report(report)
     output_dir.mkdir(parents=True, exist_ok=True)
     path = output_dir / f'{date}-{slot}.json'
@@ -205,6 +208,8 @@ def render(date: str, directory: Path = REPORT_DIR) -> str:
         parts.append(f'<details class="committee-slot" data-slot="{slot}"{expanded}><summary>{slot.title()} ({span})</summary>')
         parts.append(f'<p class="committee-period">📋 {slot.title()} 국회 상임위 주요 이슈 리포트<br>{period_label(date, slot)}</p>')
         parts.append('<p class="committee-status">발간 완료 · 시간대·중복 조건을 충족한 확인 기사만 수록</p>' if report else '<p class="committee-status">미발간</p>')
+        if report and report.get('limitations'):
+            parts.append('<p class="committee-status">수집·검증 제한: ' + esc(' / '.join(report['limitations'])) + '</p>')
         for i, (key, name, short) in enumerate(COMMITTEES, start=1):
             group = next((c for c in report['committees'] if c['id'] == key), None) if report else None
             parts.append(f'<div class="committee-news" data-committee="{key}"><h3>{i}. {name}({short})</h3>')
@@ -213,6 +218,8 @@ def render(date: str, directory: Path = REPORT_DIR) -> str:
                 articles = group[kind] if group else []
                 if not articles:
                     message = '해당 시간대 수집된 뉴스 없음' if report else '아직 발간되지 않은 리포트입니다.'
+                    if report and report.get('limitations') and group and not group['all']:
+                        message = '수집·검증 제한으로 확인 기사 미확보 · 뉴스 부재로 단정하지 않음'
                     if report and group is None:
                         message = '미수집 · 상임위 구성 변경 전 보고서로, 기노위는 당시 수집 대상에 포함되지 않았습니다.'
                     parts.append(f'<p class="committee-empty">{message}</p>')

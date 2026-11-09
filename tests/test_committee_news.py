@@ -22,6 +22,16 @@ def article(**changes):
 
 
 class CommitteeNewsTest(unittest.TestCase):
+    def test_collection_limits_are_not_rendered_as_no_news(self):
+        with tempfile.TemporaryDirectory() as temp:
+            directory = Path(temp)
+            review = dict(date='2026-09-18', slot='morning', articles=[], search_log=['source check'],
+                          limitations=['원문 확인 제한'], review_method='deterministic-original-source-review')
+            publish(review, review['date'], review['slot'], directory)
+            output = render(review['date'], directory)
+            self.assertIn('수집·검증 제한으로 확인 기사 미확보', output)
+            self.assertNotIn('해당 시간대 수집된 뉴스 없음', output)
+
     def test_cross_committee_event_and_url_deduplication(self):
         first = article()
         second = article(committees=['finance'], press='뉴스1')

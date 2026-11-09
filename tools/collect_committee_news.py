@@ -113,6 +113,11 @@ def collect(date, slot, output):
             else:
                 review['exclusions'].append(excluded)
     review['confirmed_candidates'] = confirmed
+    review['limitations'] = []
+    if any(record['status'] != 'ok' for record in logs):
+        review['limitations'].append('일부 검색원 오류; 주제별 검색 결과·오류 및 보완 검색 기록은 검토 파일 참조')
+    if any(item['reason'] != 'outside_requested_window' for item in review['exclusions']):
+        review['limitations'].append('발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음')
     save(diagnostic, review)
     if not confirmed:
         # No successful body confirmations cannot distinguish a quiet slot from
@@ -147,7 +152,7 @@ summary는 행동·결과 명사로 끝내며 발표했다/점검했다/~내용/
         from tools.committee_editorial_rules import classify
         result = classify(confirmed, committee_roster())
         review['review_method'] = 'deterministic-original-source-review'
-        review['limitations'] = ['선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요.']
+        review['limitations'].append('선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요.')
     decisions = result['decisions']
     if sorted(d.get('index', -1) for d in decisions) != list(range(len(confirmed))):
         raise ValueError('Editorial decisions must account for every confirmed article exactly once')
