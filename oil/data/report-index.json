@@ -8,14 +8,14 @@
     "json_path": "data/reports/2026-11-10-morning.json",
     "period_start": "2026-11-10T00:00:00+09:00",
     "period_end": "2026-11-10T08:00:00+09:00",
-    "total_deduped_count": 0,
-    "total_ok_count": 0,
-    "total_review_count": 0,
-    "total_excluded_count": 1,
+    "total_deduped_count": 19,
+    "total_ok_count": 1,
+    "total_review_count": 18,
+    "total_excluded_count": 138,
     "grade_counts": {
-      "A": 0,
-      "B": 0,
-      "C": 0
+      "A": 10,
+      "B": 2,
+      "C": 7
     },
     "generated_at": "2026-11-10T08:15:48.341016+09:00"
   },
@@ -28,14 +28,14 @@
     "json_path": "data/reports/2026-11-09-night.json",
     "period_start": "2026-11-09T17:00:00+09:00",
     "period_end": "2026-11-10T00:00:00+09:00",
-    "total_deduped_count": 1,
-    "total_ok_count": 0,
-    "total_review_count": 1,
-    "total_excluded_count": 2,
+    "total_deduped_count": 15,
+    "total_ok_count": 2,
+    "total_review_count": 13,
+    "total_excluded_count": 142,
     "grade_counts": {
-      "A": 0,
-      "B": 0,
-      "C": 1
+      "A": 9,
+      "B": 3,
+      "C": 3
     },
     "generated_at": "2026-11-10T08:15:46.568195+09:00"
   },

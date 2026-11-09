@@ -3,325 +3,469 @@
   "slot": "morning",
   "status": "published",
   "period": "수집 기간: 2026-11-09 17:00 ~ 2026-11-10 08:00 (KST)",
-  "published_at": "2026-11-10T08:15:02+09:00",
+  "published_at": "2026-11-10T08:18:24+09:00",
   "committees": [
     {
       "id": "industry",
       "priority": [
         {
-          "summary": "김정관 “석유 최고가격제 쉽게 중단 못해”…이달 말 정유사 손실 첫 정산",
-          "event_id": "2dfe3e9664a103b3f621",
+          "title": "산자위 '호남반도체 예산' 공방…\"초안도 없나\"·\"자율성 보장\"",
+          "url": "https://www.yna.co.kr/view/AKR20261109144600001",
+          "press": "연합뉴스",
+          "summary": "산중위, 호남 반도체 지원예산·기금 운용계획 및 변압기 전용 방안 공방",
+          "event_id": "1110m-f21",
           "committees": [
             "industry"
           ],
           "members": [
-            "임문영",
-            "차규근"
+            "구자근",
+            "김도읍",
+            "조지연",
+            "전은수",
+            "임문영"
           ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 임문영, 차규근",
+          "committee_reason": "원문 산중위 예산심의 명시. 발언 의원 구자근·김도읍·조지연·전은수·임문영을 roster.json과 대조. 재정 규모 언급이 있어도 실제 심사위원회인 산중위 단일 배정. 배터리 지원은 별도 정책 사건으로 분리.",
           "categories": [
-            "정유·유가/담합"
+            "LNG·전력"
           ],
-          "category_reason": "원문 제목에 직접 명시된 우선산업",
+          "category_reason": "원문 직접 관련: LNG·전력",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "김정관 “석유 최고가격제 쉽게 중단 못해”…이달 말 정유사 손실 첫 정산",
-          "url": "https://www.seoul.co.kr/news/politics/2026/11/09/20261109500402?wlog_tag3=naver",
-          "press": "서울신문",
-          "published_at": "2026-11-09T22:34:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026-11-09 22:34",
-          "source_body_sha256": "e4fa99a184e48609dc12bd76736c2613efedecdee54e72fcc8662a8d668c9bfc",
-          "verified": true
+          "published_at": "2026-11-09T17:59:52+09:00",
+          "time_evidence": "원문 published_time 2026-11-09T17:59:52+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "e12fb21f69cc660c5ccc917611b2e3595dbf2cffebdac513196d14dfb77bf644"
         },
         {
-          "summary": "최고가격제 첫 보상액 이달 말 통보...정유사 실적 걸린 '정산 공방' | 아주경제",
-          "event_id": "5aac7871e854e5cd3db3",
+          "title": "석유 최고가격제 첫 정산액 이달말 나온다…원가·적정마진 촉각(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261109071051003",
+          "press": "연합뉴스",
+          "summary": "석유 최고가격제 첫 정산액 이달 말 통보 예정 및 원가·적정마진 산정 이견",
+          "event_id": "1110m-s9",
           "committees": [
             "industry"
           ],
-          "members": [],
-          "speaker_role": "policy",
-          "committee_reason": "제목·본문 주된 부처 및 명시된 정책·법안·현안; 최고가격제 정산·보상/피해액·재정부담 주된 제목 맥락 구분",
+          "members": [
+            "임문영"
+          ],
+          "committee_reason": "원문 산업부 장관의 산중위 답변과 손실보전·정산 방식 검토. 피해액 중심 재경위에 중복 배정하지 않음. 원가와 MOPS 기준 이견, 이의신청·연내 지급 계획과 확정 지급액 구분. 산중위 임문영 의원 소속 roster 대조. 차규근은 질의자로 언급되나 소속을 산중위로 추정하지 않음. 공문 원문 확인 불가.",
           "categories": [
             "정유·유가/담합"
           ],
-          "category_reason": "원문 제목에 직접 명시된 우선산업",
+          "category_reason": "원문 직접 관련: 정유·유가/담합",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 1
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "[종합] 최고가격제 첫 보상액 이달 말 통보...정유사 실적 걸린 '정산 공방' | 아주경제",
-          "url": "https://www.ajunews.com/view/20261109150133783",
-          "press": "아주경제",
-          "published_at": "2026-11-09T17:00:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026-11-09 17:00",
-          "source_body_sha256": "bc1a3501641536a44055c5ab394d8ea58183520f0e11281f96976f83c0c24874",
-          "verified": true
+          "published_at": "2026-11-09T17:05:53+09:00",
+          "time_evidence": "원문 published_time 2026-11-09T17:05:53+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "c7113fa7b72ff9fdd663ceba623c9de53c8506fac44767bd8c81b5cea58d7c91"
+        },
+        {
+          "title": "통상본부장, 헝가리 부총리 면담…배터리 기업 지원사격",
+          "url": "https://www.yna.co.kr/view/AKR20261109097200003",
+          "press": "연합뉴스",
+          "summary": "통상본부장, 헝가리 배터리 규제 대응 지원 및 EU 배터리법 준비기간 확보 요청",
+          "event_id": "1110m-e1",
+          "committees": [
+            "industry"
+          ],
+          "members": [
+            "구자근"
+          ],
+          "committee_reason": "산업부 통상교섭본부장의 헝가리 정부 면담과 한국 배터리기업 지원 정책. 원문 말미 구자근 의원 산중위 질의와 roster 소속 대조. 환경 규제 자체보다 통상·기업 지원이 주된 맥락.",
+          "categories": [
+            "배터리"
+          ],
+          "category_reason": "원문 직접 관련: 배터리",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-11-09T18:00:01+09:00",
+          "time_evidence": "원문 published_time 2026-11-09T18:00:01+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "2d2e792b659156bff29ba625fb26fa79c3dbaa8d8b25e41e1b345d5075592915"
         }
       ],
       "all": [
         {
-          "summary": "후계자 없는 中企 살린다…與, ‘임직원이 기업 승계’ 특별법 이달 발의",
-          "event_id": "061f12359480b5eae581",
+          "title": "산업장관 \"체코 원전 무산 안되게 할 것…팀코리아와 완수\"",
+          "url": "https://www.yna.co.kr/view/AKR20261109139200003",
+          "press": "연합뉴스",
+          "summary": "산업장관, 체코 원전 사업 완수 의지 표명 및 정부 분쟁 관여 법적 근거 마련 추진",
+          "event_id": "1110m-e2",
+          "committees": [
+            "industry"
+          ],
+          "members": [
+            "김성원",
+            "윤한홍"
+          ],
+          "committee_reason": "국회 산중위 전체회의에서 장관 답변·김성원 위원장과 윤한홍 의원 질의. roster.json 산중위 명단 대조. 협상 종료와 계약 파기, 추진 의지와 사업 완료 구분. 대형 원전이므로 SMR 신사업 태그는 부여하지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-11-09T17:14:38+09:00",
+          "time_evidence": "원문 published_time 2026-11-09T17:14:38+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "c6f98350d54703a012197d493c358a5c188285c1b8e763ca6e8d93fc0b0ef84e"
+        },
+        {
+          "title": "산자위 '호남반도체 예산' 공방…\"초안도 없나\"·\"자율성 보장\"",
+          "url": "https://www.yna.co.kr/view/AKR20261109144600001",
+          "press": "연합뉴스",
+          "summary": "산중위, 호남 반도체 지원예산·기금 운용계획 및 변압기 전용 방안 공방",
+          "event_id": "1110m-f21",
+          "committees": [
+            "industry"
+          ],
+          "members": [
+            "구자근",
+            "김도읍",
+            "조지연",
+            "전은수",
+            "임문영"
+          ],
+          "committee_reason": "원문 산중위 예산심의 명시. 발언 의원 구자근·김도읍·조지연·전은수·임문영을 roster.json과 대조. 재정 규모 언급이 있어도 실제 심사위원회인 산중위 단일 배정. 배터리 지원은 별도 정책 사건으로 분리.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문 직접 관련: LNG·전력",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-11-09T17:59:52+09:00",
+          "time_evidence": "원문 published_time 2026-11-09T17:59:52+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "e12fb21f69cc660c5ccc917611b2e3595dbf2cffebdac513196d14dfb77bf644"
+        },
+        {
+          "title": "후계자 없는 中企 살린다…與, ‘임직원이 기업 승계’ 특별법 이달 발의",
+          "url": "https://www.sedaily.com/article/20112180",
+          "press": "서울경제",
+          "summary": "임직원 기업승계 특별법 이달 발의 추진 및 후계자 없는 중소기업 지원 논의",
+          "event_id": "1110m-s7",
           "committees": [
             "industry"
           ],
           "members": [
             "전은수"
           ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 전은수",
+          "committee_reason": "원문 전은수 의원의 임직원 기업인수 특별법 이달 대표발의 계획 및 중기부 협의 명시. roster.json 산중위 전은수 의원 소속 대조. 기존 법안 발의자들을 새 법안 발의자로 혼동하지 않으며 발의 계획과 통과 구분.",
           "categories": [],
           "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-11-10T07:00:08+09:00",
+          "time_evidence": "원문 published_time 2026-11-10T07:00:08+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "bea837610271ab72e66cdcdc7a6bf940abb438f5371673234fbf0c3939b3dd54"
+        },
+        {
+          "title": "석유 최고가격제 첫 정산액 이달말 나온다…원가·적정마진 촉각(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261109071051003",
+          "press": "연합뉴스",
+          "summary": "석유 최고가격제 첫 정산액 이달 말 통보 예정 및 원가·적정마진 산정 이견",
+          "event_id": "1110m-s9",
+          "committees": [
+            "industry"
+          ],
+          "members": [
+            "임문영"
+          ],
+          "committee_reason": "원문 산업부 장관의 산중위 답변과 손실보전·정산 방식 검토. 피해액 중심 재경위에 중복 배정하지 않음. 원가와 MOPS 기준 이견, 이의신청·연내 지급 계획과 확정 지급액 구분. 산중위 임문영 의원 소속 roster 대조. 차규근은 질의자로 언급되나 소속을 산중위로 추정하지 않음. 공문 원문 확인 불가.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문 직접 관련: 정유·유가/담합",
           "importance": {
             "legislation": 2,
-            "impact": 2,
-            "speaker": 2
-          },
-          "title": "후계자 없는 中企 살린다…與, ‘임직원이 기업 승계’ 특별법 이달 발의",
-          "url": "https://www.sedaily.com/article/20112180?ref=naver",
-          "press": "서울경제",
-          "published_at": "2026-11-10T07:00:08+09:00",
-          "time_evidence": "원문 published_time 2026-11-10T07:00:08+09:00",
-          "source_body_sha256": "bea837610271ab72e66cdcdc7a6bf940abb438f5371673234fbf0c3939b3dd54",
-          "verified": true
-        },
-        {
-          "summary": "산업장관 \"체코 원전 무산 안되게 할 것…팀코리아와 완수\" 발언",
-          "event_id": "56abc6bb1f3a576952b5",
-          "committees": [
-            "industry"
-          ],
-          "members": [],
-          "speaker_role": "minister",
-          "committee_reason": "제목에 명시된 장관·차관 자격 및 소관 부처",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
+            "impact": 3,
             "speaker": 3
           },
-          "title": "산업장관 \"체코 원전 무산 안되게 할 것…팀코리아와 완수\"",
-          "url": "https://www.yna.co.kr/view/AKR20261109139200003?input=1195m",
-          "press": "연합뉴스",
-          "published_at": "2026-11-09T17:14:38+09:00",
-          "time_evidence": "원문 published_time 2026-11-09T17:14:38+09:00",
-          "source_body_sha256": "ea61da3f1da530e7d0c12ed75479717eb5ed4e1b42be73d2b8b8d7cede124a5b",
-          "verified": true
-        },
-        {
-          "summary": "김정관 산업부 장관 \"AI 투자 구조적으로 확대될 것…오히려 투자 적기\" 발언",
-          "event_id": "9253707364649c948113",
-          "committees": [
-            "industry"
-          ],
-          "members": [],
-          "speaker_role": "minister",
-          "committee_reason": "제목에 명시된 장관·차관 자격 및 소관 부처",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 3
-          },
-          "title": "김정관 산업부 장관 \"AI 투자 구조적으로 확대될 것…오히려 투자 적기\"",
-          "url": "https://www.news1.kr/economy/trend/6348209",
-          "press": "뉴스1",
-          "published_at": "2026-11-09T18:13:15+09:00",
-          "time_evidence": "원문 published_time 2026-11-09T18:13:15+09:00",
-          "source_body_sha256": "04cdd3493df03dbe176affaba650b125feda1608b4d3cb237ed53ab4ef8f3084",
-          "verified": true
-        },
-        {
-          "summary": "석유 최고가격제 첫 정산액 이달말 나온다…원가·적정마진 촉각",
-          "event_id": "5ea1cb969bfd0be3bdb8",
-          "committees": [
-            "industry"
-          ],
-          "members": [
-            "임문영",
-            "차규근"
-          ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 임문영, 차규근",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
-          },
-          "title": "석유 최고가격제 첫 정산액 이달말 나온다…원가·적정마진 촉각(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261109071051003?input=1195m",
-          "press": "연합뉴스",
           "published_at": "2026-11-09T17:05:53+09:00",
-          "time_evidence": "원문 published_time 2026-11-09T17:05:53+09:00",
-          "source_body_sha256": "c7113fa7b72ff9fdd663ceba623c9de53c8506fac44767bd8c81b5cea58d7c91",
-          "verified": true
+          "time_evidence": "원문 published_time 2026-11-09T17:05:53+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "c7113fa7b72ff9fdd663ceba623c9de53c8506fac44767bd8c81b5cea58d7c91"
         },
         {
-          "summary": "산자위 '호남반도체 예산' 공방…\"초안도 없나\"·\"자율성 보장\" 발언",
-          "event_id": "437bd46de5f8f7f2da73",
-          "committees": [
-            "industry"
-          ],
-          "members": [
-            "구자근",
-            "임문영",
-            "전은수",
-            "김도읍",
-            "조지연"
-          ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 구자근, 임문영, 전은수, 김도읍, 조지연",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
-          },
-          "title": "산자위 '호남반도체 예산' 공방…\"초안도 없나\"·\"자율성 보장\"",
-          "url": "https://www.yna.co.kr/view/AKR20261109144600001?input=1195m",
+          "title": "통상본부장, 헝가리 부총리 면담…배터리 기업 지원사격",
+          "url": "https://www.yna.co.kr/view/AKR20261109097200003",
           "press": "연합뉴스",
-          "published_at": "2026-11-09T17:59:52+09:00",
-          "time_evidence": "원문 published_time 2026-11-09T17:59:52+09:00",
-          "source_body_sha256": "8e1fcbfebc87796129ba5e5f6777fd52d575df66fbff406084d7a27915dcc9c7",
-          "verified": true
-        },
-        {
-          "summary": "김정관 “체코 원전 무산은 안 돼”…한수원 “사업 일정 준수 가능” 발언",
-          "event_id": "4a4a5869bbef4c265dac",
+          "summary": "통상본부장, 헝가리 배터리 규제 대응 지원 및 EU 배터리법 준비기간 확보 요청",
+          "event_id": "1110m-e1",
           "committees": [
             "industry"
           ],
           "members": [
-            "김성원",
-            "윤한홍"
+            "구자근"
           ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 김성원, 윤한홍",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
-          },
-          "title": "김정관 “체코 원전 무산은 안 돼”…한수원 “사업 일정 준수 가능”",
-          "url": "https://www.segye.com/newsView/20261109517491?OutUrl=naver",
-          "press": "세계일보",
-          "published_at": "2026-11-09T18:52:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026-11-09 18:52",
-          "source_body_sha256": "282546a7638815bf4e06facd1dafc46bfd45ca925690aacd3c861e64ed9c6e85",
-          "verified": true
-        },
-        {
-          "summary": "김정관 “체코 원전 무산 안 되게 만들 것…팀코리아와 반드시 해낸다” 발언",
-          "event_id": "d2d26e1a5bb173cc67d0",
-          "committees": [
-            "industry"
-          ],
-          "members": [
-            "김성원",
-            "윤한홍"
-          ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 김성원, 윤한홍",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
-          },
-          "title": "김정관 “체코 원전 무산 안 되게 만들 것…팀코리아와 반드시 해낸다”",
-          "url": "https://www.seoul.co.kr/news/politics/2026/11/09/20261109500399?wlog_tag3=naver",
-          "press": "서울신문",
-          "published_at": "2026-11-09T21:40:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026-11-09 21:40",
-          "source_body_sha256": "16cf8748a01bd9933a8de3e295bd1b2e0061c3bf563ad2dd5dc5e777215c4d7b",
-          "verified": true
-        },
-        {
-          "summary": "김정관 “석유 최고가격제 쉽게 중단 못해”…이달 말 정유사 손실 첫 정산",
-          "event_id": "2dfe3e9664a103b3f621",
-          "committees": [
-            "industry"
-          ],
-          "members": [
-            "임문영",
-            "차규근"
-          ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 임문영, 차규근",
+          "committee_reason": "산업부 통상교섭본부장의 헝가리 정부 면담과 한국 배터리기업 지원 정책. 원문 말미 구자근 의원 산중위 질의와 roster 소속 대조. 환경 규제 자체보다 통상·기업 지원이 주된 맥락.",
           "categories": [
-            "정유·유가/담합"
+            "배터리"
           ],
-          "category_reason": "원문 제목에 직접 명시된 우선산업",
+          "category_reason": "원문 직접 관련: 배터리",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "김정관 “석유 최고가격제 쉽게 중단 못해”…이달 말 정유사 손실 첫 정산",
-          "url": "https://www.seoul.co.kr/news/politics/2026/11/09/20261109500402?wlog_tag3=naver",
-          "press": "서울신문",
-          "published_at": "2026-11-09T22:34:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026-11-09 22:34",
-          "source_body_sha256": "e4fa99a184e48609dc12bd76736c2613efedecdee54e72fcc8662a8d668c9bfc",
-          "verified": true
+          "published_at": "2026-11-09T18:00:01+09:00",
+          "time_evidence": "원문 published_time 2026-11-09T18:00:01+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "2d2e792b659156bff29ba625fb26fa79c3dbaa8d8b25e41e1b345d5075592915"
         },
         {
-          "summary": "최고가격제 첫 보상액 이달 말 통보...정유사 실적 걸린 '정산 공방' | 아주경제",
-          "event_id": "5aac7871e854e5cd3db3",
+          "title": "중기부, '글로벌 육성' 기업 수출 706만달러…전년比 56% 증가",
+          "url": "https://www.yna.co.kr/view/AKR20261109117000030",
+          "press": "연합뉴스",
+          "summary": "글로벌 소상공인 육성사업 참여 수출기업 92곳의 수출액 56.3% 증가",
+          "event_id": "1110m-e0",
           "committees": [
             "industry"
           ],
           "members": [],
-          "speaker_role": "policy",
-          "committee_reason": "제목·본문 주된 부처 및 명시된 정책·법안·현안; 최고가격제 정산·보상/피해액·재정부담 주된 제목 맥락 구분",
-          "categories": [
-            "정유·유가/담합"
-          ],
-          "category_reason": "원문 제목에 직접 명시된 우선산업",
+          "committee_reason": "중기부의 소상공인 해외 판로개척 지원사업 성과. 1~9월 실적과 발표·보도 날짜 구분. 단순 개별 기업 영업 뉴스가 아닌 정부 정책 성과 검토.",
+          "categories": [],
+          "category_reason": "",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 1
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
           },
-          "title": "[종합] 최고가격제 첫 보상액 이달 말 통보...정유사 실적 걸린 '정산 공방' | 아주경제",
-          "url": "https://www.ajunews.com/view/20261109150133783",
-          "press": "아주경제",
-          "published_at": "2026-11-09T17:00:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026-11-09 17:00",
-          "source_body_sha256": "bc1a3501641536a44055c5ab394d8ea58183520f0e11281f96976f83c0c24874",
-          "verified": true
+          "published_at": "2026-11-10T06:00:05+09:00",
+          "time_evidence": "원문 published_time 2026-11-10T06:00:05+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "f7b192bbcb6de12f22eaa9eea72c40030e2a2a838df81966926175ba29b67047"
+        },
+        {
+          "title": "서비스 수출실적 증명 편리하게…무역협회 등 6개 기관 협력",
+          "url": "https://www.yna.co.kr/view/AKR20261109140300003",
+          "press": "연합뉴스",
+          "summary": "서비스 수출실적 증명 편의 제고를 위한 무역협회 등 6개 기관 협력",
+          "event_id": "1110m-f0",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "committee_reason": "서비스 수출 지원제도·통상 인프라 개선 협약. 민간 기업 단순 뉴스가 아닌 수출 지원 정책.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-11-10T06:00:02+09:00",
+          "time_evidence": "원문 published_time 2026-11-10T06:00:02+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "467f60bc201f1845827bb40c202700ca3a1040e0cb0a915c1ab8ded38d9d1a91"
         }
       ]
     },
     {
       "id": "climate_labor",
-      "priority": [],
-      "all": []
+      "priority": [
+        {
+          "title": "유엔 사무총장 \"기후 극한현상의 새 시대 진입\"",
+          "url": "https://www.yna.co.kr/view/AKR20261109142100109",
+          "press": "연합뉴스",
+          "summary": "유엔 사무총장, COP31 개막에 온실가스 감축·탈화석연료 전환 가속 촉구",
+          "event_id": "1110m-e30",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "국제 기후협상·온실가스 감축과 기후취약국 지원 소관. 사무총장 제언과 당사국 합의 구분. 앞선 COP31 개막 기사 최초시각 16:28은 시간대 밖이므로 별도 신규 성명 원문을 채택.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문 직접 관련: 재생에너지·수소",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-11-09T17:33:33+09:00",
+          "time_evidence": "원문 published_time 2026-11-09T17:33:33+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "80fd33e5f29a48352e4dcf0b0f298d62d98df5688bc651d7e5d74f7c70e1cba8"
+        },
+        {
+          "title": "IAEA \"자포리자 원전·화력발전서 드론 공격으로 2명 사망\"",
+          "url": "https://www.yna.co.kr/view/AKR20261109159400099",
+          "press": "연합뉴스",
+          "summary": "IAEA, 자포리자 원전·화력발전소 드론 공격에 따른 근로자 2명 사망 보고",
+          "event_id": "1110m-e29",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "원전·발전소 안전과 전력시설 공격 현안. 신규 원전 사업이 아니므로 SMR 신사업 태그 제외. IAEA가 전달한 사망 보고와 독립 확정 구분.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문 직접 관련: LNG·전력",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-11-09T23:36:20+09:00",
+          "time_evidence": "원문 published_time 2026-11-09T23:36:20+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "5681dc8d7c284aa8fd559d97ff5b7daf9996bb4cc13d970f924e1572e5e63688"
+        }
+      ],
+      "all": [
+        {
+          "title": "노동장관 \"초광역특구법 비정규직 양산, 사회적 대화서 다룰 것\"",
+          "url": "https://www.yna.co.kr/view/AKR20261109132900001",
+          "press": "연합뉴스",
+          "summary": "노동장관, 초광역특구법 기간제 고용 확대 우려에 노사정 대화 의제화 방침",
+          "event_id": "1110m-e18",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "예결위 답변이지만 고용노동부 장관 자격의 기간제 고용·주52시간 특례 답변이므로 노동 소관 기노위 배정. 질의한 이연희·발의한 박상혁의 소속을 기노위로 간주하지 않음. 법안의 제안과 시행 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-11-09T17:00:10+09:00",
+          "time_evidence": "원문 published_time 2026-11-09T17:00:10+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "361bbb0c9ec3ce13c78f4a974fb7943852ab244798527c86afb555934e904ea9"
+        },
+        {
+          "title": "유엔 사무총장 \"기후 극한현상의 새 시대 진입\"",
+          "url": "https://www.yna.co.kr/view/AKR20261109142100109",
+          "press": "연합뉴스",
+          "summary": "유엔 사무총장, COP31 개막에 온실가스 감축·탈화석연료 전환 가속 촉구",
+          "event_id": "1110m-e30",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "국제 기후협상·온실가스 감축과 기후취약국 지원 소관. 사무총장 제언과 당사국 합의 구분. 앞선 COP31 개막 기사 최초시각 16:28은 시간대 밖이므로 별도 신규 성명 원문을 채택.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문 직접 관련: 재생에너지·수소",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-11-09T17:33:33+09:00",
+          "time_evidence": "원문 published_time 2026-11-09T17:33:33+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "80fd33e5f29a48352e4dcf0b0f298d62d98df5688bc651d7e5d74f7c70e1cba8"
+        },
+        {
+          "title": "IAEA \"자포리자 원전·화력발전서 드론 공격으로 2명 사망\"",
+          "url": "https://www.yna.co.kr/view/AKR20261109159400099",
+          "press": "연합뉴스",
+          "summary": "IAEA, 자포리자 원전·화력발전소 드론 공격에 따른 근로자 2명 사망 보고",
+          "event_id": "1110m-e29",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "committee_reason": "원전·발전소 안전과 전력시설 공격 현안. 신규 원전 사업이 아니므로 SMR 신사업 태그 제외. IAEA가 전달한 사망 보고와 독립 확정 구분.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문 직접 관련: LNG·전력",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-11-09T23:36:20+09:00",
+          "time_evidence": "원문 published_time 2026-11-09T23:36:20+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "5681dc8d7c284aa8fd559d97ff5b7daf9996bb4cc13d970f924e1572e5e63688"
+        }
+      ]
     },
     {
       "id": "finance",
       "priority": [],
-      "all": []
+      "all": [
+        {
+          "title": "예결위, 경제부처 예산안 심사 이틀차…미래대응기금 공방 지속",
+          "url": "https://www.yna.co.kr/view/AKR20261109135600001",
+          "press": "연합뉴스",
+          "summary": "예결위, 820조9천억원 예산안 경제부처 심사 이틀째 진행 예정",
+          "event_id": "1110m-f18",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "committee_reason": "국가 예산·재정 운용 방향 소관. 경제부처 부별 심사 일정으로 아직 열린 결과로 서술하지 않음. 미래기금 입법예고 의견 조사와 별개 심사 일정 사건.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-11-10T05:00:02+09:00",
+          "time_evidence": "원문 published_time 2026-11-10T05:00:02+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "5de150aaac3844c5cb5bd99958d3681916142d47dd0c067da8118ec07aa9193a"
+        },
+        {
+          "title": "미래기금에 \"중복 투자 우려\" 등 반대 입법의견 다수 제기돼",
+          "url": "https://www.yna.co.kr/view/AKR20261109151800002",
+          "press": "연합뉴스",
+          "summary": "미래대응기금 입법예고 의견 111건 중 찬성 분류 0건 및 중복투자 우려 제기",
+          "event_id": "1110m-f14",
+          "committees": [
+            "finance"
+          ],
+          "members": [
+            "박수영"
+          ],
+          "committee_reason": "원문 국민의힘 박수영 의원실 자료·발언과 roster.json 재경위 명단 대조. 입법의견 집계와 전체 국민 여론 구분. 의원의 절차 위반 주장을 확정 사실로 서술하지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-11-10T05:53:05+09:00",
+          "time_evidence": "원문 published_time 2026-11-10T05:53:05+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
+          "verified": true,
+          "source_body_sha256": "3983f5eb64e720c4c412cd7ff38bfb62b5eb9a777bd2b6a8ab843ed526090058"
+        }
+      ]
     }
   ],
-  "review_method": "deterministic-original-source-review",
+  "review_method": "original-source-manual-editorial-review",
   "limitations": [
-    "일부 검색원 오류; 주제별 검색 결과·오류 및 보완 검색 기록은 검토 파일 참조",
-    "발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음",
-    "선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요."
+    "공개 검색 노출·페이지 한계 및 일부 발행사 원문 접근 실패. 원문·최초시각 확인 기사만 국감 수록. 관심사항의 비공개 공문·회신·비용 추정 없음."
   ]
 }
