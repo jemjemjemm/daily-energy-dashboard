@@ -1,0 +1,146 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-10",
+  "slot": "morning",
+  "period_start": "2026-11-10T00:00:00+09:00",
+  "period_end": "2026-11-10T08:00:00+09:00",
+  "period_label": "2026-11-10 00:00 ~ 2026-11-10 08:00",
+  "generated_at": "2026-11-10T08:15:48.341016+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 9,
+  "total_enriched_input_count": 5,
+  "total_in_period_unique_count": 1,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 4,
+  "total_deduped_count": 0,
+  "total_ok_count": 0,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 2,
+    "daum": 1,
+    "google": 6
+  },
+  "query_counts": {},
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-10T08:15:02.826876+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "[이의경의 시콜세상]공정위의 부정적 기업관, 누가 울고 누가 웃나",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA4RDRfVzRtVi1zTUxDWTdsVTdRdUc3ZWtwV2t4VTZ2OEVlUUJIbHFKWF9CTjlaN2ZVcEY1ZFVMQ0pvU0lFZEtVMWNLTXZKNU1zRVdCT2lYaTNYWjhYS3FaTnZKdw?oc=5",
+      "published_at": "2026-11-10T06:00:00+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "배달음식값 담합 유도한 배민·쿠팡…6319억 과징금",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wM001SVBYaVFlTzVkaWYxUGQxTmpsTXhDRnhqdmN0em1aSnhrUm85LWVLenBBREdTclFVSjFvaWlKbUJhTVNkb2tpbnJFMFl4d3F30gFTQVVfeXFMTzAzTTVJUFhpUWVPNWRpZjFQZDFOamxNeENGeGp2Y3R6bVpKeGtSbzktZUt6cEFER1NyUVVKMW9paUptQmFNU2Rva2luckUwWXh3cXc?oc=5",
+      "published_at": "2026-11-09T17:41:23+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "“과징금 내고 돌아서면 정부 지원금…상습 위반 기업 심사 손봐야”",
+      "url": "https://www.ekn.kr/web/view.php?key=20261109026137428",
+      "published_at": "2026-11-09T21:37:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026.11.09 21:37",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[2026 Best Law Firms in Korea] 법무법인 태평양",
+      "url": "http://www.legaltimes.co.kr/news/articleView.html?idxno=96833",
+      "published_at": "2026-11-09T07:07:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-09T07:07:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "공정위, 배민·쿠팡이츠 '최혜대우' 지적, 6,319억 과징금 부과",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51X0ZGVWowb2R6UW9nM3Q0U2RKbHQ2Tk44UnB5N0tQMVpEVmlheWY2cmtYNHhEUC1HOGtlQlM3ZVl2MVZFdnhVelJoN1ZpRWJaMjQ3ZklRUm9YMGc0NkIzNXZ3Q1NfX016M1HSAW9BVV95cUxNZFJDdjByYkppOXdIbzZudXk1alBnbHEyWWMyWTJ3TG5NamZ2akwxWHpRVzRyb25ubjRPYjZ6blpDaDlzcVJqZ2hlNXhaOEx1ZS1xS2R3SVF4MHkwT3g2ZHFadWJBWkxQdVBGMS15VXc?oc=5",
+      "published_at": "2026-11-09T19:12:31+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    }
+  ],
+  "articles": [],
+  "summary": "수집 기사 0건, 발행사 본문·최초시각 확인 0건, 미확인 0건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 9,
+    "exclusions": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA4RDRfVzRtVi1zTUxDWTdsVTdRdUc3ZWtwV2t4VTZ2OEVlUUJIbHFKWF9CTjlaN2ZVcEY1ZFVMQ0pvU0lFZEtVMWNLTXZKNU1zRVdCT2lYaTNYWjhYS3FaTnZKdw?oc=5",
+        "title": "[이의경의 시콜세상]공정위의 부정적 기업관, 누가 울고 누가 웃나",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wM001SVBYaVFlTzVkaWYxUGQxTmpsTXhDRnhqdmN0em1aSnhrUm85LWVLenBBREdTclFVSjFvaWlKbUJhTVNkb2tpbnJFMFl4d3F30gFTQVVfeXFMTzAzTTVJUFhpUWVPNWRpZjFQZDFOamxNeENGeGp2Y3R6bVpKeGtSbzktZUt6cEFER1NyUVVKMW9paUptQmFNU2Rva2luckUwWXh3cXc?oc=5",
+        "title": "배달음식값 담합 유도한 배민·쿠팡…6319억 과징금",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.ekn.kr/web/view.php?key=20261109026137428",
+        "title": "“과징금 내고 돌아서면 정부 지원금…상습 위반 기업 심사 손봐야”",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://www.legaltimes.co.kr/news/articleView.html?idxno=96833",
+        "title": "[2026 Best Law Firms in Korea] 법무법인 태평양",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51X0ZGVWowb2R6UW9nM3Q0U2RKbHQ2Tk44UnB5N0tQMVpEVmlheWY2cmtYNHhEUC1HOGtlQlM3ZVl2MVZFdnhVelJoN1ZpRWJaMjQ3ZklRUm9YMGc0NkIzNXZ3Q1NfX016M1HSAW9BVV95cUxNZFJDdjByYkppOXdIbzZudXk1alBnbHEyWWMyWTJ3TG5NamZ2akwxWHpRVzRyb25ubjRPYjZ6blpDaDlzcVJqZ2hlNXhaOEx1ZS1xS2R3SVF4MHkwT3g2ZHFadWJBWkxQdVBGMS15VXc?oc=5",
+        "title": "공정위, 배민·쿠팡이츠 '최혜대우' 지적, 6,319억 과징금 부과",
+        "reason": "outside_period"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-10T08:15:02.826876+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
