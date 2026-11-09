@@ -4,9 +4,9 @@
   "api": "ALLSCHEDULE",
   "date": "2026-11-09",
   "monthCache": "months/2026-11.json",
-  "collectedAt": "2026-11-09T08:14:23+09:00",
-  "count": 19,
-  "apiTotalCount": 19,
+  "collectedAt": "2026-11-09T16:41:28+09:00",
+  "count": 20,
+  "apiTotalCount": 20,
   "fields": [
     "SCH_KIND",
     "SCH_CN",
@@ -74,7 +74,7 @@
       "SCH_DT": "2026-11-09",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "산업통상자원중소벤처기업위원회",
+      "CMIT_NM": "예산결산특별위원회",
       "CONF_SESS": "제439회국회(정기회)",
       "CONF_DGR": "제6차",
       "EV_INST_NM": null,
@@ -86,7 +86,7 @@
       "SCH_DT": "2026-11-09",
       "SCH_TM": "10:00",
       "CONF_DIV": "전체회의",
-      "CMIT_NM": "예산결산특별위원회",
+      "CMIT_NM": "산업통상자원중소벤처기업위원회",
       "CONF_SESS": "제439회국회(정기회)",
       "CONF_DGR": "제6차",
       "EV_INST_NM": null,
@@ -225,6 +225,18 @@
       "EV_PLC": null
     },
     {
+      "SCH_KIND": "의장단(부의장)",
+      "SCH_CN": "미국 뉴저지주 하원의원단 접견 / 남인순부의장실",
+      "SCH_DT": "2026-11-09",
+      "SCH_TM": "14:30",
+      "CONF_DIV": null,
+      "CMIT_NM": null,
+      "CONF_SESS": null,
+      "CONF_DGR": null,
+      "EV_INST_NM": null,
+      "EV_PLC": null
+    },
+    {
       "SCH_KIND": "국회행사",
       "SCH_CN": "더불어민주당 국가보훈정책 특별위원회 출범식",
       "SCH_DT": "2026-11-09",
@@ -237,16 +249,16 @@
       "EV_PLC": "의원회관 대회의실"
     },
     {
-      "SCH_KIND": "국회행사",
-      "SCH_CN": "주가누르기 방지를 위한 '상속·증여세법' 개정안 공개토론회",
+      "SCH_KIND": "의장단(부의장)",
+      "SCH_CN": "정근식 서울시 교육감 면담 / 서울시교육청 신청사",
       "SCH_DT": "2026-11-09",
-      "SCH_TM": "16:00~18:00",
+      "SCH_TM": "16:30",
       "CONF_DIV": null,
       "CMIT_NM": null,
       "CONF_SESS": null,
       "CONF_DGR": null,
-      "EV_INST_NM": "오기형 의원실, 더불어민주당 K-자본시장특별위원회",
-      "EV_PLC": "의원회관 제6간담회의실(209호)"
+      "EV_INST_NM": null,
+      "EV_PLC": null
     }
   ]
 }

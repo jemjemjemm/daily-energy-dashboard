@@ -5,7 +5,7 @@
     "display_date": "2026년 11월 9일 (월)",
     "previous_day_label": "11/8",
     "today_label": "11/9",
-    "generated_at": "2026-11-09 08:14 KST",
+    "generated_at": "2026-11-09 16:41 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -21,7 +21,7 @@
     },
     {
       "type": "news_trend",
-      "text": "(Morning) △최고가격제 첫 정산 결과 이르면 20일 통보 전망 및 원가·기회비용 보상 범위 이견 △COP31, 전력화 확대·기후재원·탈화석연료 이행 과제 부각 △미국 의회·백악관 정책 변화에 한국 정부·기업의 대미 통상 대응 불확실성 확대"
+      "text": "(Morning) △석유 최고가격제 도입 이후 정유사에 지급할 첫 손실보상액이 조만간 윤곽을 드러낸다 △현대차는 지난달 29일 상용차 충전소 운영사 코하이젠이 발행하는 394억원 규모 사모 전환사채(CB) 가운데 186억2200만원어치를 인수한다고 공시 △연료원별로 보면, 석유에 660달러, 전기에 440달러, 기타 에너지원에 250달러를 쓴 겁음"
     }
   ],
   "prices": {
@@ -1410,46 +1410,76 @@
     }
   ],
   "news_trend": {
-    "summary": "△최고가격제 첫 정산 결과 이르면 20일 통보 전망 및 원가·기회비용 보상 범위 이견 △COP31, 전력화 확대·기후재원·탈화석연료 이행 과제 부각 △미국 의회·백악관 정책 변화에 한국 정부·기업의 대미 통상 대응 불확실성 확대",
+    "summary": "△석유 최고가격제 도입 이후 정유사에 지급할 첫 손실보상액이 조만간 윤곽을 드러낸다 △현대차는 지난달 29일 상용차 충전소 운영사 코하이젠이 발행하는 394억원 규모 사모 전환사채(CB) 가운데 186억2200만원어치를 인수한다고 공시 △연료원별로 보면, 석유에 660달러, 전기에 440달러, 기타 에너지원에 250달러를 쓴 겁음",
     "trend_paragraphs": [
-      "최고가격제 첫 정산 결과 이르면 20일 통보 전망 및 원가·기회비용 보상 범위 이견",
-      "COP31, 전력화 확대·기후재원·탈화석연료 이행 과제 부각",
-      "미국 의회·백악관 정책 변화에 한국 정부·기업의 대미 통상 대응 불확실성 확대"
+      "서울경제는 석유 최고가격제 도입 이후 정유사에 지급할 첫 손실보상액이 조만간 윤곽을 드러낸다.",
+      "경향신문은 현대차는 지난달 29일 상용차 충전소 운영사 코하이젠이 발행하는 394억원 규모 사모 전환사채(CB) 가운데 186억2200만원어치를 인수한다고 공시했다.",
+      "JTBC는 연료원별로 보면, 석유에 660달러, 전기에 440달러, 기타 에너지원에 250달러를 쓴 겁음."
     ],
     "articles": [
       {
-        "title": "정부 “원가만” 정유사 “기회비용도”…석유 최고가격제 첫 계산서 나온다",
+        "title": "정부 “원가만” 정유사 “기회비용도”… 석유 최고가격제 첫 계산서 나온다[Pick코노미]",
         "press": "서울경제",
-        "url": "https://www.sedaily.com/article/20111716",
-        "summary": "최고가격제 첫 정산 결과 이르면 20일 통보 전망 및 원가·기회비용 보상 범위 이견",
-        "published_at_kst": "2026-11-09T06:22:43+09:00",
-        "verified": true,
-        "time_evidence": "원문 published_time 2026-11-09T06:22:43+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
-        "summary_basis": "original_article_body_manual_review"
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20261109062431479",
+        "summary": "석유 최고가격제 도입 이후 정유사에 지급할 첫 손실보상액이 조만간 윤곽을 드러낸다",
+        "snippet": "2 정부 “원가만” 정유사 “기회비용도”… 석유 최고가격제 첫 계산서 나온다[Pick코노미] 정부는 실제 원유 도입비와 생산·판매비 등 원가에 적정 이윤을 더해 보상한다는 입장이다. 반면 업계는 싱가포르 국제 석유 제품 가격(MOPS)과 최고가격의 차액뿐 아니라 수출 제한에 따른 기회비용도 반영해야 한다고 주장한다. 가격 통제와 수출 제한이 없었다면... 10시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1608
       },
       {
-        "title": "전력화·기후 재원·1.5도 초과…‘이행’ 앞세운 튀르키예 기후총회 쟁점들",
-        "press": "한겨레",
-        "url": "https://www.hani.co.kr/arti/society/environment/1286363.html",
-        "summary": "COP31, 전력화 확대·기후재원·탈화석연료 이행 과제 부각",
-        "published_at_kst": "2026-11-09T05:00:00+09:00",
-        "verified": true,
-        "time_evidence": "원문 published_time 2026-11-09T05:00:00+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
-        "summary_basis": "original_article_body_manual_review"
+        "title": "적자 충전소 떠안고 수소도 생산…현대차 ‘자립 전략’ 통할까",
+        "press": "경향신문",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20261108204113913",
+        "summary": "현대차는 지난달 29일 상용차 충전소 운영사 코하이젠이 발행하는 394억원 규모 사모 전환사채(CB) 가운데 186억2200만원어치를 인수한다고 공시했다",
+        "snippet": "적자 충전소 떠안고 수소도 생산…현대차 ‘자립 전략’ 통할까 거래 목적은 ‘수소충전 인프라 운영 안정성 강화를 통한 판매 기반 확보’다. 코하이젠은 2021년 현대차와 한국지역난방공사, 정유사 등 9곳이 함께 세웠다. 2024년 유상증자 때 다른 주주들이 참여하지 않자 현대차가 단독으로 175억원을 출자해 최대주주(지분... 20시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 2,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 0,
+          "press": 3,
+          "originality": 3,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1483
       },
       {
-        "title": "거대 야당에 강성 백악관까지…韓 정부·기업 '좌표설정' 이중고",
-        "press": "연합뉴스",
-        "url": "https://www.yna.co.kr/view/AKR20261109001000071",
-        "summary": "미국 의회·백악관 정책 변화에 한국 정부·기업의 대미 통상 대응 불확실성 확대",
-        "published_at_kst": "2026-11-09T01:30:06+09:00",
-        "verified": true,
-        "time_evidence": "원문 published_time 2026-11-09T01:30:06+09:00; 발행사 본문·최초 송고/입력시각 직접 대조",
-        "summary_basis": "original_article_body_manual_review"
+        "title": "[박상욱의 기후 1.5] 전기화와 기회의 창…우리에게 주어진 기회는? (하)",
+        "press": "JTBC",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20261109080003207",
+        "summary": "연료원별로 보면, 석유에 660달러, 전기에 440달러, 기타 에너지원에 250달러를 쓴 겁음",
+        "snippet": "6 [박상욱의 기후 1.5] 전기화와 기회의 창…우리에게 주어진 기회는? (하) 10년 전에 비해 얼마나 줄어들 수 있는지 분석했습니다. 수송부문의 경우, 전기화를 통해 10년 후엔 하루에 1,160만배럴 만큼 원유 수입을 덜 해도 되는 것으로 나타났습니다. 건물부문의 경우, 원유 는 하루 150만배럴 수입을 덜 해도 되고, 천연가스는 무려 62.9bcm... 8시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 2,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 1,
+          "press": 2,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 5999
       }
     ],
-    "source": "발행사 원문·최초 보도시각 직접 검토",
-    "needs_review": false,
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
     "report_slot": "morning"
   },
   "quality_control": {
@@ -1462,7 +1492,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(9/8~11/8)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1483,6 +1514,11 @@
       {
         "name": "대표 기사 원문",
         "type": "news",
+        "url": ""
+      },
+      {
+        "name": "장기 가격 이력 history.json",
+        "type": "price-history",
         "url": ""
       },
       {
@@ -1575,7 +1611,7 @@
       },
       "crude_chart_source": "history.json window",
       "products_chart_source": "history.json window",
-      "merged_at": "2026-11-09 08:14:55 KST",
+      "merged_at": "2026-11-09 16:41:54 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
