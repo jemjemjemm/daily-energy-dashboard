@@ -26,8 +26,14 @@ class ReportBundleTests(unittest.TestCase):
 
     def test_reissue_preserves_only_the_existing_news_slot(self):
         from scripts.generate_reports_range import has_completed_news_slot
-        self.assertTrue(has_completed_news_slot(ROOT / 'data/reports/2026-11-09.report.json', 'morning'))
-        self.assertFalse(has_completed_news_slot(ROOT / 'data/reports/2026-11-09.report.json', 'evening'))
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / 'report.json'
+            path.write_text(json.dumps({'news_trend': {
+                'articles': [{'title': 'Morning source'}],
+                'summary': 'Morning summary', 'report_slot': 'morning',
+            }}), encoding='utf-8')
+            self.assertTrue(has_completed_news_slot(path, 'morning'))
+            self.assertFalse(has_completed_news_slot(path, 'evening'))
 
     def test_legacy_done_marker_does_not_skip_an_incomplete_bundle(self):
         from scripts.report_run_status import main

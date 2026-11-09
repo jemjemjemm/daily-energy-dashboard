@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △최고가격제 첫 정산 결과 이르면 20일 통보 전망 및 원가·기회비용 보상 범위 이견 △COP31, 전력화 확대·기후재원·탈화석연료 이행 과제 부각 △미국 의회·백악관 정책 변화에 한국 정부·기업의 대미 통상 대응 불확실성 확대"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △국제유가가 한 주 만에 10% 넘게 급락하면서 8개월째 시행 중인 석유 최고가격제의 출구전략 마련 필요성이 다시 부상하고 있음 △지난 7월 상업운영에 들어가면서 KET는 총 64만5000㎘ 규모의 LNG 저장능력을 갖추게 △김정관 산업통상부 장관이 석유최고가격제와 관련해 \"중동 상황이 워낙 복잡하고 불확실하기 때문에 지금 이 제도를 쉽게 중단하거나 할 수 없다\"고 발표"
     }
   ],
   "prices": {
@@ -1590,6 +1594,88 @@
       "merged_at": "2026-11-09 16:45:17 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data\\news\\2026-11-09.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "????? ?? ? ????? ????? ???? ?????? ?? ?? ??? ?? ?KET LNG ???? 64?5000? ?? ? LNG ??? ?? ?? ?? ?????, ?? ????? ?? ????? ??? ?? ???? ?? ??? ??",
+    "trend_paragraphs": [
+      "????? ?? ? ????? ????? ???? ?????? ?? ?? ??? ??",
+      "?KET LNG ???? 64?5000? ?? ? LNG ??? ?? ?? ??",
+      "?????, ?? ????? ?? ????? ??? ?? ???? ?? ??? ??"
+    ],
+    "articles": [
+      {
+        "title": "국제유가 급락에 최고가격제 출구전략 부상…정유사 부담·물가 딜레마",
+        "press": "문화일보",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20261109120646312",
+        "summary": "???? ?? ? ????? ????? ???? ?????? ?? ?? ??? ??",
+        "snippet": "국제유가 급락에 최고가격제 출구전략 부상…정유사 부담·물가 딜레마 지난 8일 서울 시내 한 주유소 모습. 연합뉴스 국제유가가 한 주 만에 10% 넘게 급락하면서 8개월째 시행 중인 석유 최고가격제의 출구전략 마련 필요성이 다시 부상하고 있다. 국제유가가 정부가 제시한 종료 검토 기준에 가까워졌지만, 국제 석유제품 가격은... 5시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1430
+      },
+      {
+        "title": "“장충체육관 3배 크기 LNG 탱크 우뚝”…울산 에너지 허브 이끄는 KET [르포]",
+        "press": "이데일리",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20261109140334383",
+        "summary": "KET LNG ???? 64?5000? ?? ? LNG ??? ?? ?? ??",
+        "snippet": "3 “장충체육관 3배 크기 LNG 탱크 우뚝”…울산 에너지 허브 이끄는 KET [르포] 최초의 복합 에너지 터미널로서 대한민국이 동북아 에너지 허브로 성장하는 데 기여하고 있다”고 말했다. 이어 “특히 울산의 정유 ·석유화학 산업 및 에너지 수요처와 연계해 관련 산업의 물류 경쟁력과 부가가치 창출이 기대된다”고 덧붙였다. 울산이 국내 대표... 3시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 3,
+          "originality": 2,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1941
+      },
+      {
+        "title": "김정관 \"석유최고가격제, 쉽게 중단 못 해...중동 상황 불확실\"",
+        "press": "머니투데이",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20261109152531984",
+        "summary": "????, ?? ????? ?? ????? ??? ?? ???? ?? ??? ??",
+        "snippet": "김정관 \"석유최고가격제, 쉽게 중단 못 해...중동 상황 불확실\" 제도를 도입한 지난 3월 13일부터 6월 30일까지다. 다만 손실 산정의 기준이 되는 원가 인정 범위와 적정 마진 등을 놓고 정부와 정유 업계 간 이견이 있어 실제 지급까지는 진통이 예상된다. 산업부는 석유최고가격제가 올해 4분기까지 시행되는 상황을 전제로... 1시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1201
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": false,
+    "report_slot": "evening",
+    "editorial_note": "?? ?? ?? ? ??? ?? ??. ?? ?? ???? ??? ???? ??? ??."
   }
 }
