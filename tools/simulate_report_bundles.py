@@ -32,6 +32,9 @@ def main():
         for slot in ['morning', 'evening']:
             generate(day.isoformat(), slot, replay=True)
             results.append(validate_bundle(ROOT, day.isoformat(), slot))
+            # Production runs the tests after generation. Exercise that same
+            # ordering for every slot, not just once after the entire range.
+            run(['-m', 'unittest', 'tests.test_report_bundle'])
     if not results:
         raise ValueError('No business days selected')
     run(['tools/sync_assembly_content.py'])

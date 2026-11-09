@@ -35,6 +35,20 @@ class ReportBundleTests(unittest.TestCase):
             self.assertTrue(has_completed_news_slot(path, 'morning'))
             self.assertFalse(has_completed_news_slot(path, 'evening'))
 
+            # The pipeline runs these tests after adding Evening news. Check
+            # that transition without depending on a mutable production date.
+            payload = json.loads(path.read_text(encoding='utf-8'))
+            payload['news_trend_afternoon'] = {
+                'articles': [{'title': 'Evening source'}],
+                'summary': 'Evening summary', 'report_slot': 'evening',
+            }
+            path.write_text(json.dumps(payload), encoding='utf-8')
+            self.assertTrue(has_completed_news_slot(path, 'morning'))
+            self.assertTrue(has_completed_news_slot(path, 'evening'))
+            payload['news_trend_afternoon']['report_slot'] = 'morning'
+            path.write_text(json.dumps(payload), encoding='utf-8')
+            self.assertFalse(has_completed_news_slot(path, 'evening'))
+
     def test_legacy_done_marker_does_not_skip_an_incomplete_bundle(self):
         from scripts.report_run_status import main
         with tempfile.TemporaryDirectory() as temp:
