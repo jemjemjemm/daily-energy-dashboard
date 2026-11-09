@@ -31,7 +31,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: oil-report-${{ github.ref }}
+  group: daily-energy-dashboard-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -91,6 +91,9 @@ jobs:
           --include-previous-night "true"
       - name: Run tests
         run: |
+          if [ "$ALREADY_PUBLISHED" != "true" ]; then
+            python scripts/audit_report.py --slot "$REPORT_SLOT" --base-date "$BASE_DATE" --include-previous-night true
+          fi
           python -m unittest discover -s tests -v
           python scripts/validate_reports.py
       - name: Commit generated report files

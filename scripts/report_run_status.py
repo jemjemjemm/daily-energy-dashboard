@@ -8,6 +8,7 @@ import argparse
 import json
 import os
 import tempfile
+import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
@@ -48,21 +49,30 @@ def force_enabled(args: argparse.Namespace) -> bool:
 def main() -> int:
     args = parse_args()
     path = done_path(args.status_dir, args.date, args.report_slot)
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    from tools.report_bundle import ROOT, validate_bundle
     if args.action == "check":
         if path.exists() and not force_enabled(args):
-            print(f"[SKIP] done file already exists: {path}")
-            return 10
+            try:
+                validate_bundle(ROOT, args.date, args.report_slot)
+            except (OSError, ValueError, KeyError) as exc:
+                print(f"[REPAIR] Existing completion marker has an incomplete bundle: {exc}")
+            else:
+                print(f"[SKIP] complete report bundle already exists: {path}")
+                return 10
         if path.exists():
             print(f"[INFO] FORCE_RUN=true, ignoring existing done file: {path}")
         else:
             print(f"[OK] no done file: {path}")
         return 0
 
+    bundle = validate_bundle(ROOT, args.date, args.report_slot)
     payload = {
         "date": args.date,
         "report_slot": args.report_slot,
         "completed_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S KST"),
         "status": "done",
+        "bundle": bundle,
     }
     atomic_write_json(path, payload)
     print(f"[OK] marked done: {path}")

@@ -29,6 +29,13 @@ ARTICLE_SELECTORS = (
     ".article_body",
     ".news_body",
     ".news_view",
+    "#article-body",
+    "#ttsBody",
+    ".story-news",
+    "#articleBody",
+    "#article-view-content-div",
+    "#news_body_area",
+    ".article_txt",
 )
 
 BOILERPLATE_PATTERNS = (
@@ -82,13 +89,13 @@ def extract_article_body(html: str | bytes, max_chars: int = MAX_BODY_CHARS) -> 
     except ImportError:
         return ""
     soup = BeautifulSoup(html, "html.parser")
-    for node in soup.select("script, style, noscript, iframe, svg, figure, figcaption, .ad, .advertisement"):
-        node.decompose()
-
     candidates = [text for text in _json_ld_bodies(soup) if len(text) >= MIN_BODY_CHARS]
     if candidates:
         body = max(candidates, key=len)
         return body[:max_chars].rsplit(" ", 1)[0].strip() if len(body) > max_chars else body
+
+    for node in soup.select("script, style, noscript, iframe, svg, figure, figcaption, .ad, .advertisement"):
+        node.decompose()
 
     for selector in ARTICLE_SELECTORS:
         candidates = []

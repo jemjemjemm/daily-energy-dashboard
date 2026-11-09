@@ -35,6 +35,15 @@ on:
         required: false
         default: false
         type: boolean
+      simulate_only:
+        description: "Replay saved sources for both slots without publishing (requires date_from/date_to)"
+        required: false
+        default: false
+        type: boolean
+      collection_probe_date:
+        description: "Optional fresh Morning committee collection probe in simulation (YYYY-MM-DD)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -46,16 +55,21 @@ concurrency:
 
 jobs:
   daily-data-pipeline:
+    if: inputs.simulate_only != true
     runs-on: ubuntu-latest
 
     env:
       TZ: Asia/Seoul
       OPINET_API_KEY: ${{ secrets.OPINET_API_KEY }}
       ASSEMBLY_API_KEY: ${{ secrets.ASSEMBLY_API_KEY }}
-      # 대표 기사 요약을 Claude API로 보강할 때 사용합니다. secret이 없으면
-      # scripts/llm_article_summary.py가 자동으로 no-op 처리되어 기존 규칙
-      # 기반 요약으로만 동작하므로, 이 secret이 없어도 파이프라인은 실패하지 않습니다.
+      # Fresh committee inputs require the editorial API. Existing reviewed
+      # inputs are preserved; a missing API key must not publish empty news.
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+      NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+      SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+      GOOGLE_CSE_KEY: ${{ secrets.GOOGLE_CSE_KEY }}
+      GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
 
     steps:
       - name: Checkout
@@ -73,7 +87,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          pip install -r oil/requirements.txt
 
       - name: Check required files
         run: |
@@ -181,8 +195,8 @@ jobs:
         run: |
           echo "[INFO] 비영업일이므로 자동 수집/리포트 생성을 건너뜁니다: $TARGET_DATE"
 
-      - name: Skip premature evening report
-        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.REPORT_SLOT == 'evening'
+      - name: Reject reports before the collection window closes
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         run: |
           python - <<'PY' >> "$GITHUB_ENV"
           import datetime as dt
@@ -191,11 +205,10 @@ jobs:
 
           now = dt.datetime.now(ZoneInfo("Asia/Seoul"))
           target = dt.date.fromisoformat(os.environ["TARGET_DATE"].strip())
-          cutoff = dt.time(17, 0)
+          cutoff = dt.time({'morning': 8, 'evening': 17}[os.environ['REPORT_SLOT']], 0)
 
-          if target == now.date() and now.time() < cutoff:
-              print("RUN_MODE=skip")
-              print(f"SKIP_REASON={target.isoformat()} evening report is not publishable before 17:00 KST")
+          if now < dt.datetime.combine(target, cutoff, now.tzinfo):
+              raise SystemExit(f"Reporting window has not closed: {target} {os.environ['REPORT_SLOT']}")
           PY
           echo "RUN_MODE=$RUN_MODE"
           echo "SKIP_REASON=${SKIP_REASON:-}"
@@ -234,6 +247,7 @@ jobs:
           python scripts/generate_reports_range.py \
             --start "$DATE_FROM" \
             --end "$DATE_TO" \
+            --report-slot "$REPORT_SLOT" \
             --skip-weekends \
             --skip-korean-holidays \
             --report-dir data/reports \
@@ -300,7 +314,10 @@ jobs:
       - name: Try Build report draft from SafeTimes
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.REPORT_SLOT == 'morning'
         run: |
-          rm -f "data/reports/$TARGET_DATE.report.json"
+          if [ -f "data/reports/$TARGET_DATE.report.json" ]; then
+            echo "[OK] Preserve existing Daily source and independent news slots"
+            exit 0
+          fi
           python scripts/build_report_draft_from_schedule.py \
             --date "$TARGET_DATE" \
             --schedule-dir data/schedules \
@@ -439,6 +456,30 @@ jobs:
               --end "$DATE_TO"
           fi
 
+      - name: Generate and validate the complete report bundle
+        if: env.RUN_MODE == 'range' || (env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true')
+        timeout-minutes: 45
+        run: |
+          if [ "$RUN_MODE" = "single" ]; then
+            python -m tools.report_bundle --date "$TARGET_DATE" --slot "$REPORT_SLOT" --result .cache/bundle-result.json
+          else
+            python -m tools.report_bundle --start "$DATE_FROM" --end "$DATE_TO" --slot "$REPORT_SLOT" --result .cache/bundle-result.json
+          fi
+          python oil/scripts/validate_reports.py
+          python tools/assemble_site.py --output .cache/pipeline-site
+          python -m tools.validate_site --site .cache/pipeline-site
+          python -m unittest tests.test_report_bundle tests.test_committee_news tests.test_sync_assembly_content tests.test_site_views
+
+      - name: Upload publication evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: report-bundle-evidence-${{ github.run_id }}
+          path: |
+            .cache/bundle-result.json
+            data/committee-news/*.collection.json
+          if-no-files-found: ignore
+
       - name: Mark report slot done
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
         run: |
@@ -462,6 +503,7 @@ jobs:
           git add data/reports/ || true
           git add data/prices/ || true
           git add data/news/ || true
+          git add data/committee-news/ docs/assembly-content/ oil/data/ oil/reports/
           git add data/run_status/ || true
           git add docs/index.html || true
           git add docs/assembly/ docs/assembly-schedule-index.json docs/assets/ || true
@@ -486,34 +528,37 @@ jobs:
           git pull --rebase origin main
           git push
 
-      - name: Request matching oil issue report
-        # 유가 예약 실행은 GitHub 사정으로 수 시간 늦게 시작되므로, Daily 발행 시
-        # 같은 날짜·슬롯의 유가 리포트를 함께 요청합니다. 이미 발행된 리포트는
-        # 유가 workflow가 건너뛰므로 수동 검토본을 덮어쓰지 않습니다.
-        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
-        continue-on-error: true
+  simulate-report-bundles:
+    if: inputs.simulate_only == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: read
+    env:
+      TZ: Asia/Seoul
+      PYTHONUTF8: '1'
+      DATE_FROM: ${{ inputs.date_from }}
+      DATE_TO: ${{ inputs.date_to }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install production dependencies
+        run: pip install -r oil/requirements.txt
+      - name: Replay both slots with the production generators and gate
+        run: python -m tools.simulate_report_bundles --start "$DATE_FROM" --end "$DATE_TO"
+      - name: Probe fresh committee collection without changing reviewed sources
+        if: inputs.collection_probe_date != ''
+        timeout-minutes: 30
         env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          OIL_DISPATCH="$(python - <<'PY'
-          import datetime as dt
-          import os
-          from zoneinfo import ZoneInfo
-
-          now = dt.datetime.now(ZoneInfo("Asia/Seoul"))
-          target = dt.date.fromisoformat(os.environ["TARGET_DATE"].strip())
-          # 기존 유가 예약 시각(08:10/17:10)과 같게 마감 10분 뒤부터 요청합니다.
-          end_hour = {"morning": 8, "evening": 17}[os.environ["REPORT_SLOT"]]
-          window_closed = now >= dt.datetime.combine(target, dt.time(end_hour, 10), now.tzinfo)
-          print("true" if target == now.date() and window_closed else "false")
-          PY
-          )"
-          if [ "$OIL_DISPATCH" != "true" ]; then
-            echo "[INFO] 오늘 날짜의 마감된 슬롯이 아니므로 유가 리포트를 요청하지 않습니다."
-            exit 0
-          fi
-          gh workflow run oil-report.yml --ref main \
-            -f report_slot="$REPORT_SLOT" \
-            -f base_date="$TARGET_DATE" \
-            -f skip_if_published=true
-          echo "[OK] 유가 리포트 요청: $TARGET_DATE $REPORT_SLOT"
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PROBE_DATE: ${{ inputs.collection_probe_date }}
+        run: python -m tools.collect_committee_news --date "$PROBE_DATE" --slot morning --output .cache/pipeline-simulation/fresh-probe.review.json
+      - name: Save simulation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: report-bundle-simulation
+          path: .cache/pipeline-simulation/
+          if-no-files-found: warn

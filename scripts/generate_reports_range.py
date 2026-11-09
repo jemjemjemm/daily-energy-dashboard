@@ -34,6 +34,7 @@ except ImportError:
 
 def parse_args():
     parser = argparse.ArgumentParser(description="기간별 평일 리포트 일괄 생성")
+    parser.add_argument("--report-slot", choices=["morning", "evening"], default="evening")
     parser.add_argument("--start", required=True, help="시작일 YYYY-MM-DD")
     parser.add_argument("--end", required=True, help="종료일 YYYY-MM-DD")
     parser.add_argument("--skip-weekends", action="store_true", default=True, help="토/일 제외")
@@ -416,6 +417,7 @@ def main() -> int:
         run([
             sys.executable,
             "scripts/generate_html_report.py",
+            "--report-slot", args.report_slot,
             "--date", date_text,
             "--report-dir", args.report_dir,
             "--out-dir", args.html_dir,

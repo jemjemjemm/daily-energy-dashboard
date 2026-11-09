@@ -89,6 +89,9 @@ def build_report(raw: dict, base_date: str, slot: str) -> dict:
         "portal_counts": {portal: raw.get("portal_counts", {}).get(portal, 0) for portal in ("naver", "daum", "google")},
         "query_counts": dict(sorted(query_counts.items())),
         "collection_warnings": raw.get("collection_warnings", []), "telegram_alert_log": [],
+        "source_review": [{key: item.get(key) for key in
+                           ("title", "url", "published_at", "verified", "time_evidence", "verification_reason")}
+                          for item in unique],
         "articles": articles,
     }
 
@@ -169,15 +172,29 @@ def build_previous_night(morning_date: str, overwrite_reviewed: bool = False) ->
         raise FileNotFoundError(f"Raw data not found for {night_date} night")
     out = ROOT / "data" / "reports" / f"{night_date}-night.json"
     if not overwrite_reviewed and is_reviewed_report(out):
+        existing = json.loads(out.read_text(encoding="utf-8"))
+        update_index(existing)
+        write_report_html(existing)
         print(f"Kept reviewed report: {out.relative_to(ROOT)}")
         return
     raw = json.loads(raw_path.read_text(encoding="utf-8"))
+    enrich_raw(raw)
     report = build_report(raw, night_date, "night")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     update_index(report)
     write_report_html(report)
     print(f"Built {report['total_deduped_count']} articles -> {out.relative_to(ROOT)}")
+
+
+def enrich_raw(raw: dict) -> None:
+    """Apply the same original-source checks to Morning, Evening and Night."""
+    from concurrent.futures import ThreadPoolExecutor
+    from enrich_news import enrich_article
+    unique = deduplicate(raw.get("items", []))
+    raw["collection_total_raw_count"] = len(raw.get("items", []))
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        raw["items"] = list(pool.map(enrich_article, unique))
 
 
 def main() -> int:
@@ -194,6 +211,9 @@ def main() -> int:
         build_previous_night(base_date, overwrite_reviewed)
     out = ROOT / "data" / "reports" / f"{base_date}-{slot}.json"
     if not overwrite_reviewed and is_reviewed_report(out):
+        existing = json.loads(out.read_text(encoding="utf-8"))
+        update_index(existing)
+        write_report_html(existing)
         print(f"Kept reviewed report: {out.relative_to(ROOT)}")
         return 0
     raw_path = ROOT / "data" / "raw" / f"{base_date}-{slot}-raw.json"
@@ -202,12 +222,7 @@ def main() -> int:
     raw = json.loads(raw_path.read_text(encoding="utf-8"))
     # Monitoring keeps every publisher's coverage. Enrich complete candidates,
     # never replace the corpus with one representative article per event.
-    from concurrent.futures import ThreadPoolExecutor
-    from enrich_news import enrich_article
-    unique = deduplicate(raw.get("items", []))
-    raw["collection_total_raw_count"] = len(raw.get("items", []))
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        raw["items"] = list(pool.map(enrich_article, unique))
+    enrich_raw(raw)
     report = build_report(raw, base_date, slot)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
