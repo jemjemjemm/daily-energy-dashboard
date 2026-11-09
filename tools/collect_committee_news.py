@@ -1,7 +1,7 @@
 """Collect auditable committee candidates and classify confirmed original articles.
 
-Existing source-reviewed inputs are immutable. New inputs require the configured
-editorial API; API/search failures are errors, never empty published reports.
+Existing source-reviewed inputs are immutable. New inputs use confirmed original
+articles with optional editorial API assistance and conservative source rules.
 """
 from __future__ import annotations
 

@@ -85,6 +85,14 @@ def generate(day, slot, *, replay=False):
     if datetime.now(KST) < window(day, slot)[1]:
         raise ValueError(f'{day} {slot}: reporting window has not closed')
     if replay:
+        review_path = ROOT / f'data/committee-news/{day}-{slot}.review.json'
+        if not review_path.is_file():
+            raise ValueError(f'Replay requires a saved committee source review: {review_path}')
+        for oil_day, oil_slot in oil_targets(day, slot):
+            report_path = ROOT / f'oil/data/reports/{oil_day}-{oil_slot}.json'
+            snapshot = read(report_path)
+            if not snapshot.get('editorial_audit') or not snapshot.get('summary'):
+                raise ValueError(f'Replay requires a reviewed oil snapshot: {report_path}')
         # Actual generators, isolated checkout; preserve curated source data.
         # Use the saved, source-reviewed Daily JSON. Reapplying today's body
         # fetches or LLM summaries would no longer be a historical replay.

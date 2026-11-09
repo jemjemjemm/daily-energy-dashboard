@@ -16,6 +16,19 @@ class ReportBundleTests(unittest.TestCase):
     def test_evening_does_not_require_night(self):
         self.assertEqual(oil_targets('2026-11-06', 'evening'), [('2026-11-06', 'evening')])
 
+    def test_replay_missing_saved_review_cannot_start_live_collection(self):
+        from tools.report_bundle import generate
+        with tempfile.TemporaryDirectory() as temp, patch('tools.report_bundle.ROOT', Path(temp)), \
+             patch('tools.report_bundle.run') as execute:
+            with self.assertRaisesRegex(ValueError, 'saved committee source review'):
+                generate('2026-11-06', 'morning', replay=True)
+            execute.assert_not_called()
+
+    def test_reissue_preserves_only_the_existing_news_slot(self):
+        from scripts.generate_reports_range import has_completed_news_slot
+        self.assertTrue(has_completed_news_slot(ROOT / 'data/reports/2026-11-09.report.json', 'morning'))
+        self.assertFalse(has_completed_news_slot(ROOT / 'data/reports/2026-11-09.report.json', 'evening'))
+
     def test_legacy_done_marker_does_not_skip_an_incomplete_bundle(self):
         from scripts.report_run_status import main
         with tempfile.TemporaryDirectory() as temp:
@@ -89,6 +102,7 @@ class ReportBundleTests(unittest.TestCase):
         self.assertLess(workflow.index('Mark report slot done'), workflow.index('Commit collected data'))
         self.assertNotIn('gh workflow run oil-report.yml', workflow)
         self.assertIn('git add data/committee-news/ docs/assembly-content/ oil/data/ oil/reports/', workflow)
+        self.assertEqual(workflow.count("env.PRESERVE_DAILY_NEWS != 'true'"), 2)
 
     def test_fresh_collection_checks_source_body_and_keeps_exclusions(self):
         from tools import collect_committee_news as collector

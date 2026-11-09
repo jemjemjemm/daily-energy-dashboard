@@ -34,7 +34,7 @@ except ImportError:
 
 def parse_args():
     parser = argparse.ArgumentParser(description="기간별 평일 리포트 일괄 생성")
-    parser.add_argument("--report-slot", choices=["morning", "evening"], default="evening")
+    parser.add_argument("--report-slot", choices=["morning", "evening", "both"], default="both")
     parser.add_argument("--start", required=True, help="시작일 YYYY-MM-DD")
     parser.add_argument("--end", required=True, help="종료일 YYYY-MM-DD")
     parser.add_argument("--skip-weekends", action="store_true", default=True, help="토/일 제외")
@@ -55,6 +55,15 @@ def parse_args():
         help="생성/건너뜀 날짜를 기록할 JSON 파일 (후속 검증용)",
     )
     return parser.parse_args()
+
+
+def has_completed_news_slot(path: str | Path, slot: str) -> bool:
+    try:
+        payload = json.loads(Path(path).read_text(encoding='utf-8'))
+        news = payload.get('news_trend' if slot == 'morning' else 'news_trend_afternoon', {})
+        return bool(news.get('articles') and news.get('summary') and news.get('report_slot') == slot)
+    except (OSError, ValueError, TypeError, AttributeError):
+        return False
 
 
 def normalize_date_text(value: str, option_name: str) -> str:
@@ -345,49 +354,24 @@ def main() -> int:
         # 기사 후보 0건은 정상 상태가 아니므로 백필도 실패시켜 검수하게 한다.
         if not Path("scripts/fetch_news_candidates.py").exists() or not Path("scripts/apply_news_to_report.py").exists():
             raise RuntimeError("뉴스 후보 수집/반영 스크립트가 없습니다.")
-        run([
-            sys.executable,
-            "scripts/fetch_news_candidates.py",
-            "--date", date_text,
-            "--report-slot", "morning",
-            "--out-dir", "data/news",
-            "--min-required", "1",
-            "--max-items", "12",
-            "--request-timeout-seconds", "6",
-            "--global-timeout-seconds", "120",
-            "--max-queries-per-collector", "8",
-        ])
-        run([
-            sys.executable,
-            "scripts/apply_news_to_report.py",
-            "--date", date_text,
-            "--report-slot", "morning",
-            "--news-dir", "data/news",
-            "--report-dir", args.report_dir,
-            "--min-required", "1",
-        ])
-        print(f"[INFO] News Trend slot 생성: {date_text} evening")
-        run([
-            sys.executable,
-            "scripts/fetch_news_candidates.py",
-            "--date", date_text,
-            "--report-slot", "evening",
-            "--out-dir", "data/news",
-            "--min-required", "1",
-            "--max-items", "12",
-            "--request-timeout-seconds", "6",
-            "--global-timeout-seconds", "120",
-            "--max-queries-per-collector", "8",
-        ])
-        run([
-            sys.executable,
-            "scripts/apply_news_to_report.py",
-            "--date", date_text,
-            "--report-slot", "evening",
-            "--news-dir", "data/news",
-            "--report-dir", args.report_dir,
-            "--min-required", "1",
-        ])
+        slots = ['morning', 'evening'] if args.report_slot == 'both' else [args.report_slot]
+        for slot in slots:
+            if has_completed_news_slot(report_path, slot):
+                print(f"[OK] Preserve existing Daily news: {date_text} {slot}")
+                continue
+            run([
+                sys.executable, "scripts/fetch_news_candidates.py",
+                "--date", date_text, "--report-slot", slot,
+                "--out-dir", "data/news", "--min-required", "1", "--max-items", "12",
+                "--request-timeout-seconds", "6", "--global-timeout-seconds", "120",
+                "--max-queries-per-collector", "8",
+            ])
+            run([
+                sys.executable, "scripts/apply_news_to_report.py",
+                "--date", date_text, "--report-slot", slot,
+                "--news-dir", "data/news", "--report-dir", args.report_dir,
+                "--min-required", "1",
+            ])
 
         # 4. 가격 병합. 과거 날짜는 history.json 기준.
         run([
@@ -417,7 +401,7 @@ def main() -> int:
         run([
             sys.executable,
             "scripts/generate_html_report.py",
-            "--report-slot", args.report_slot,
+            "--report-slot", "evening" if args.report_slot == "both" else args.report_slot,
             "--date", date_text,
             "--report-dir", args.report_dir,
             "--out-dir", args.html_dir,

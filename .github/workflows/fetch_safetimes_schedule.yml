@@ -357,8 +357,21 @@ jobs:
             --out-dir data/reports \
             --patch-existing
 
-      - name: Fetch news candidates
+      - name: Preserve existing completed Daily news slot
         if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
+        run: |
+          python - <<'PY' >> "$GITHUB_ENV"
+          import os
+          from pathlib import Path
+          from scripts.generate_reports_range import has_completed_news_slot
+          path = Path('data/reports') / f"{os.environ['TARGET_DATE']}.report.json"
+          slot = os.environ['REPORT_SLOT']
+          complete = has_completed_news_slot(path, slot)
+          print(f"PRESERVE_DAILY_NEWS={'true' if complete else 'false'}")
+          PY
+
+      - name: Fetch news candidates
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.PRESERVE_DAILY_NEWS != 'true'
         timeout-minutes: 6
         continue-on-error: true
         run: |
@@ -374,7 +387,7 @@ jobs:
             --max-queries-per-collector 8
 
       - name: Apply news candidates
-        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.PRESERVE_DAILY_NEWS != 'true'
         continue-on-error: true
         timeout-minutes: 3
         run: |
