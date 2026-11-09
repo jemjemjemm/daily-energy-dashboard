@@ -57,6 +57,7 @@ def main() -> int:
                 validate_bundle(ROOT, args.date, args.report_slot)
             except (OSError, ValueError, KeyError) as exc:
                 print(f"[REPAIR] Existing completion marker has an incomplete bundle: {exc}")
+                return 0
             else:
                 print(f"[SKIP] complete report bundle already exists: {path}")
                 return 10

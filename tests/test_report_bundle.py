@@ -16,6 +16,25 @@ class ReportBundleTests(unittest.TestCase):
     def test_evening_does_not_require_night(self):
         self.assertEqual(oil_targets('2026-11-06', 'evening'), [('2026-11-06', 'evening')])
 
+    def test_legacy_done_marker_does_not_skip_an_incomplete_bundle(self):
+        from scripts.report_run_status import main
+        with tempfile.TemporaryDirectory() as temp:
+            marker = Path(temp) / '2026-11-09.morning.done.json'
+            marker.write_text('{"status":"done"}', encoding='utf-8')
+            with patch('sys.argv', ['status', 'check', '--date', '2026-11-09', '--report-slot', 'morning', '--status-dir', temp]), \
+                 patch.dict('os.environ', {}, clear=True), \
+                 patch('tools.report_bundle.validate_bundle', side_effect=ValueError('Missing committee')):
+                self.assertEqual(main(), 0)
+
+    def test_mark_cannot_create_done_marker_for_partial_bundle(self):
+        from scripts.report_run_status import main
+        with tempfile.TemporaryDirectory() as temp, \
+             patch('sys.argv', ['status', 'mark', '--date', '2026-11-09', '--report-slot', 'morning', '--status-dir', temp]), \
+             patch('tools.report_bundle.validate_bundle', side_effect=ValueError('Missing oil')):
+            with self.assertRaisesRegex(ValueError, 'Missing oil'):
+                main()
+            self.assertFalse((Path(temp) / '2026-11-09.morning.done.json').exists())
+
     def copy_bundle(self, target):
         for relative in ['docs/reports/2026-11-09.html', 'docs/report-index.json',
                          'data/reports/2026-11-09.report.json',
@@ -53,13 +72,16 @@ class ReportBundleTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'target mismatch'):
                 validate_bundle(root, '2026-11-09', 'morning')
 
-    def test_collection_missing_api_key_cannot_publish_empty_news(self):
-        from tools.collect_committee_news import collect
-        with patch.dict('os.environ', {}, clear=True), tempfile.TemporaryDirectory() as temp:
-            target = Path(temp) / 'review.json'
-            with self.assertRaisesRegex(RuntimeError, 'ANTHROPIC_API_KEY'):
-                collect('2026-11-09', 'morning', target)
-            self.assertFalse(target.exists())
+    def test_fallback_requires_member_role_and_actual_context(self):
+        from tools.committee_editorial_rules import classify
+        roster = [dict(name='홍길동', committee='industry')]
+        ambiguous = dict(title='기업 실적 증가', body='홍길동은 기업 행사에 참석했다.')
+        statement = dict(title='산중위 홍길동 의원, 산업 정책 지원 촉구', body='홍길동 의원은 산업 정책 지원을 촉구했다.')
+        decisions = classify([ambiguous, statement], roster)['decisions']
+        self.assertFalse(decisions[0]['include'])
+        self.assertTrue(decisions[1]['include'])
+        self.assertEqual(decisions[1]['members'], ['홍길동'])
+        self.assertEqual(decisions[1]['committees'], ['industry'])
 
     def test_workflow_waits_for_bundle_before_mark_and_commit(self):
         workflow = (ROOT / '.github/workflows/fetch_safetimes_schedule.yml').read_text(encoding='utf-8')

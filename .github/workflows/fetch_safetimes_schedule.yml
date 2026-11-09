@@ -62,8 +62,8 @@ jobs:
       TZ: Asia/Seoul
       OPINET_API_KEY: ${{ secrets.OPINET_API_KEY }}
       ASSEMBLY_API_KEY: ${{ secrets.ASSEMBLY_API_KEY }}
-      # Fresh committee inputs require the editorial API. Existing reviewed
-      # inputs are preserved; a missing API key must not publish empty news.
+      # Optional editorial API. Original-source rules remain available when
+      # the key is missing or out of credits; ambiguous candidates are excluded.
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
       NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}

@@ -43,8 +43,6 @@ def save(path, data):
 
 def collect(date, slot, output):
     start, end = window(date, slot)
-    if not os.environ.get('ANTHROPIC_API_KEY'):
-        raise RuntimeError('New committee reviews require ANTHROPIC_API_KEY; no unreviewed report will be published')
     tasks = [(committee, query) for committee, queries in TOPICS.items() for query in queries]
 
     def search(task):
@@ -90,6 +88,7 @@ def collect(date, slot, output):
             if urlsplit(response.url).hostname in PORTALS:
                 raise ValueError('Redirected to portal')
             evidence = parse_article_html(response.content, response.url, item.get('source', ''))
+            evidence['source'] = {'조선Biz': '조선비즈', 'EBN': 'EBN산업경제'}.get(evidence['source'], evidence['source'])
             body = extract_article_body(response.content)
             soup = BeautifulSoup(response.content, 'html.parser')
             body_node = soup.select_one(', '.join(ARTICLE_SELECTORS))
@@ -113,6 +112,7 @@ def collect(date, slot, output):
                 confirmed.append(item)
             else:
                 review['exclusions'].append(excluded)
+    review['confirmed_candidates'] = confirmed
     save(diagnostic, review)
     if not confirmed:
         # No successful body confirmations cannot distinguish a quiet slot from
@@ -138,11 +138,16 @@ summary는 행동·결과 명사로 끝내며 발표했다/점검했다/~내용/
 '''
     user = json.dumps(dict(committees=COMMITTEES, categories=CATEGORIES, roster=committee_roster(), schema=schema,
                            articles=[dict(index=i, **item) for i, item in enumerate(confirmed)]), ensure_ascii=False)
-    response = _call_claude(prompt, user, os.environ.get('COMMITTEE_REVIEW_MODEL', DEFAULT_MODEL),
-                            os.environ['ANTHROPIC_API_KEY'], timeout=180, max_tokens=24000)
+    response = None
+    if os.environ.get('ANTHROPIC_API_KEY'):
+        response = _call_claude(prompt, user, os.environ.get('COMMITTEE_REVIEW_MODEL', DEFAULT_MODEL),
+                               os.environ['ANTHROPIC_API_KEY'], timeout=180, max_tokens=24000)
     result = _extract_json_block(response or '')
     if not result or not isinstance(result.get('decisions'), list):
-        raise RuntimeError('Editorial API failed or returned invalid JSON')
+        from tools.committee_editorial_rules import classify
+        result = classify(confirmed, committee_roster())
+        review['review_method'] = 'deterministic-original-source-review'
+        review['limitations'] = ['선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요.']
     decisions = result['decisions']
     if sorted(d.get('index', -1) for d in decisions) != list(range(len(confirmed))):
         raise ValueError('Editorial decisions must account for every confirmed article exactly once')
