@@ -3,99 +3,437 @@
   "slot": "morning",
   "status": "published",
   "period": "수집 기간: 2026-11-10 17:00 ~ 2026-11-11 08:00 (KST)",
-  "published_at": "2026-11-11T08:08:54+09:00",
+  "published_at": "2026-11-11T08:12:29+09:00",
   "committees": [
     {
       "id": "industry",
-      "priority": [],
-      "all": [
+      "priority": [
         {
-          "summary": "석유 최고가격제, 유지? 종료?⋯물가 반등 우려",
-          "event_id": "93ee4b30a47fcdd9ffde",
+          "title": "산업장관 \"호남 반도체 클러스터 팹 배치 이달 내 마무리\"(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261110091051001",
+          "press": "연합뉴스",
+          "summary": "산업장관, 대미 가스발전사업 전력공급계약 미체결 및 후보 서너 곳 검토 설명",
+          "event_id": "1111m-f5",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "18:30 최초 송고 종합 기사에 추가된 산업장관의 대미 가스발전·전력공급계약 답변 중심. 12:07 반도체 배치 단독기사는 시간대 밖 제외. 장관 자격의 산업·통상 사업 답변이므로 산중위. 질의한 나경원은 roster상 기노위이며 산중위 의원으로 기재하지 않음. 조인철도 산중위 소속으로 추정하지 않음. 계약 후보와 계약 체결 구분.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문 직접 관련: LNG·전력",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-11-10T18:30:49+09:00",
+          "time_evidence": "원문 published_time 2026-11-10T18:30:49+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "37cccf65b5844233eaf1d378a3c145e264c4618a1849b5629eb7b860468225f8"
+        },
+        {
+          "title": "알뜰주유소, 최고가격제 손실보전 소외논란…정부 \"사적계약\"(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261110123251001",
+          "press": "연합뉴스",
+          "summary": "알뜰주유소의 최고가격제 정산 소송 착수 및 산업부 중재 지속",
+          "event_id": "1111m-f6",
           "committees": [
             "industry"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "제목·본문 주된 부처 및 명시된 정책·법안·현안; 최고가격제 정산·보상/피해액·재정부담 주된 제목 맥락 구분",
-          "categories": [],
-          "category_reason": "",
+          "committee_reason": "17:37 최초 송고된 종합 원문에서 소송 착수·정산 대상·산업부 중재 추가 확인. 앞선 15:55 장관 답변 단독기사는 시간대 밖 제외. 최고가격제 보상·정산 대상과 민간 계약 분쟁이 주된 새 맥락이므로 산중위 단일 배정. 1600억원은 업계 추정 격차이며 인정 피해액이나 확정 보상액으로 단정하지 않음. 장관 자격 답변은 의원 소속으로 분류하지 않음.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문 직접 관련: 정유·유가/담합",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 1
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
           },
+          "published_at": "2026-11-10T17:37:32+09:00",
+          "time_evidence": "원문 published_time 2026-11-10T17:37:32+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "c9ad1c67847ad6f3ee7791ea873ddece106e51e741dde68e797287d88300fb4b"
+        },
+        {
           "title": "석유 최고가격제, 유지? 종료?⋯물가 반등 우려",
           "url": "https://www.kmib.co.kr/article/20261110502149",
           "press": "국민일보",
+          "summary": "최고가격제 첫 손실정산과 출구전략 논의 및 물가 반등 우려 제기",
+          "event_id": "1111m-c4",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "최고가격제 유지·종료 및 사후정산 방식·선별지원 제언이 주된 정책 맥락. 확정된 종료 결정이나 인정 손실액은 없음. 소송 착수 보도와 다른 제도 출구 분석 사건으로 분리.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문 직접 관련: 정유·유가/담합",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
           "published_at": "2026-11-10T23:24:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026-11-10 23:24",
-          "source_body_sha256": "26e58c00db09a0f43d388f3fa479e958d702f15d8ff5d01cdbd8b3e611441b72",
-          "verified": true
+          "time_evidence": "원문 최초 등록·입력 2026-11-10 23:24; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "26e58c00db09a0f43d388f3fa479e958d702f15d8ff5d01cdbd8b3e611441b72"
+        }
+      ],
+      "all": [
+        {
+          "title": "산업장관 \"호남 반도체 클러스터 팹 배치 이달 내 마무리\"(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261110091051001",
+          "press": "연합뉴스",
+          "summary": "산업장관, 대미 가스발전사업 전력공급계약 미체결 및 후보 서너 곳 검토 설명",
+          "event_id": "1111m-f5",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "18:30 최초 송고 종합 기사에 추가된 산업장관의 대미 가스발전·전력공급계약 답변 중심. 12:07 반도체 배치 단독기사는 시간대 밖 제외. 장관 자격의 산업·통상 사업 답변이므로 산중위. 질의한 나경원은 roster상 기노위이며 산중위 의원으로 기재하지 않음. 조인철도 산중위 소속으로 추정하지 않음. 계약 후보와 계약 체결 구분.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문 직접 관련: LNG·전력",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-11-10T18:30:49+09:00",
+          "time_evidence": "원문 published_time 2026-11-10T18:30:49+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "37cccf65b5844233eaf1d378a3c145e264c4618a1849b5629eb7b860468225f8"
+        },
+        {
+          "title": "알뜰주유소, 최고가격제 손실보전 소외논란…정부 \"사적계약\"(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261110123251001",
+          "press": "연합뉴스",
+          "summary": "알뜰주유소의 최고가격제 정산 소송 착수 및 산업부 중재 지속",
+          "event_id": "1111m-f6",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "17:37 최초 송고된 종합 원문에서 소송 착수·정산 대상·산업부 중재 추가 확인. 앞선 15:55 장관 답변 단독기사는 시간대 밖 제외. 최고가격제 보상·정산 대상과 민간 계약 분쟁이 주된 새 맥락이므로 산중위 단일 배정. 1600억원은 업계 추정 격차이며 인정 피해액이나 확정 보상액으로 단정하지 않음. 장관 자격 답변은 의원 소속으로 분류하지 않음.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문 직접 관련: 정유·유가/담합",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-11-10T17:37:32+09:00",
+          "time_evidence": "원문 published_time 2026-11-10T17:37:32+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "c9ad1c67847ad6f3ee7791ea873ddece106e51e741dde68e797287d88300fb4b"
+        },
+        {
+          "title": "석유 최고가격제, 유지? 종료?⋯물가 반등 우려",
+          "url": "https://www.kmib.co.kr/article/20261110502149",
+          "press": "국민일보",
+          "summary": "최고가격제 첫 손실정산과 출구전략 논의 및 물가 반등 우려 제기",
+          "event_id": "1111m-c4",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "최고가격제 유지·종료 및 사후정산 방식·선별지원 제언이 주된 정책 맥락. 확정된 종료 결정이나 인정 손실액은 없음. 소송 착수 보도와 다른 제도 출구 분석 사건으로 분리.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문 직접 관련: 정유·유가/담합",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-11-10T23:24:00+09:00",
+          "time_evidence": "원문 최초 등록·입력 2026-11-10 23:24; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "26e58c00db09a0f43d388f3fa479e958d702f15d8ff5d01cdbd8b3e611441b72"
+        },
+        {
+          "title": "영국 신차유통규제 폐지에…현대차·기아, 판매전략 재정비 고심",
+          "url": "https://www.yna.co.kr/view/AKR20261110158300003",
+          "press": "연합뉴스",
+          "summary": "영국 신차 유통규제 폐지에 따른 국내 완성차업계 판매전략 재검토",
+          "event_id": "1111m-f2",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "영국 정부 경쟁·유통 규제 변경과 한국 자동차 수출시장 파급이 주된 맥락. 단순 기업 실적이 아닌 통상·산업제도 변화. 수익성 개선은 미확정.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 1
+          },
+          "published_at": "2026-11-11T07:01:00+09:00",
+          "time_evidence": "원문 published_time 2026-11-11T07:01:00+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "165890c887f3036c61015c96da99d2b8141c4691e3804161690ad8d9edaadd82"
+        },
+        {
+          "title": "[게시판] 코트라, 전국 12개 지역서 찾아가는 수출 설명회",
+          "url": "https://www.yna.co.kr/view/AKR20261110161700003",
+          "press": "연합뉴스",
+          "summary": "코트라, 전국 12개 지역 수출 설명회·상담으로 600개사 지원 예정",
+          "event_id": "1111m-f3",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "코트라·소상공인시장진흥공단의 지역 중소기업 수출 다변화 지원정책. 600개사는 지원 예정 규모이며 실제 완료 실적으로 서술하지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-11-11T06:00:02+09:00",
+          "time_evidence": "원문 published_time 2026-11-11T06:00:02+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "b508b20b30e5df24979059927348ab67c0a20bde9b0aef84bc36bb8ab5dc6e32"
+        },
+        {
+          "title": "무역협회, 중국 국제수입박람회서 한국관…1천200건 수출 상담",
+          "url": "https://www.yna.co.kr/view/AKR20261110163100003",
+          "press": "연합뉴스",
+          "summary": "산업부·무역협회, 중국 수입박람회 한국관 운영 및 1200건 수출 상담",
+          "event_id": "1111m-f4",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부와 무역협회의 중소기업 해외 판로 지원정책. 상담액 1억7000만달러는 거래 가능성 논의이며 확정 계약액 아님.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "published_at": "2026-11-11T06:00:02+09:00",
+          "time_evidence": "원문 published_time 2026-11-11T06:00:02+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "7b8c3ec519266da56652db27fa22f81df1b9633659cfecad159f9805e75b6ea2"
         }
       ]
     },
     {
       "id": "climate_labor",
-      "priority": [],
-      "all": [
+      "priority": [
         {
-          "summary": "국제신문 회생, 조문 두개면 충분하다 [미디어 전망대]",
-          "event_id": "a38d3d82878b44b9ceac",
+          "title": "인프라 건설에도 꺼내쓰나… 걱정 커지는 '미래기금'",
+          "url": "https://www.mt.co.kr/economy/2026/11/11/2026111020004011053",
+          "press": "머니투데이",
+          "summary": "기노위 전문위원, 미래기금 전력망 사업의 총사업비·연차별 계획 재확정 필요성 지적",
+          "event_id": "1111m-c7",
           "committees": [
             "climate_labor"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "committee_reason": "원문 기노위 2027년 기금운용계획 예비심사검토보고서와 수석전문위원 지적 명시. 일반 재정기사로 이관하지 않고 실제 심사위 기노위 단일 배정. 의원 발언이 아닌 전문위원 검토. 2031년 이후 계획과 집행액 구분.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문 직접 관련: LNG·전력",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-11-11T03:40:00+09:00",
+          "time_evidence": "원문 published_time 2026-11-11T03:40:00+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "66e2641078acdce2df646e929e3cf059a1cdfa6bbff9f5413870cf183ce331f6"
+        },
+        {
+          "title": "툰베리 \"그린워싱 서커스\"…UN 기후회의서 비판 쏟아져",
+          "url": "https://www.yna.co.kr/view/AKR20261111000800109",
+          "press": "연합뉴스",
+          "summary": "COP31에서 화석연료 의존·석유기업 초과이익 비판 및 구체적 전환계획 촉구",
+          "event_id": "1111m-f55",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후협상 현장 연설·환경운동가 비판과 화석연료 전환정책 소관. 유엔 사무총장 전망과 확정 이익 구분. 전일 Morning의 개막 성명과 다른 10일 현장 연설 보도.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문 직접 관련: 재생에너지·수소",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-11-11T00:48:20+09:00",
+          "time_evidence": "원문 published_time 2026-11-11T00:48:20+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "d7c7a2602698c7510c83f12c898e2ea7178a640bd0c97daf7e2eb8574a67aef2"
+        },
+        {
+          "title": "[사이테크+] \"올해 세계 화석연료 CO₂ 배출량 감소 전망…이란 전쟁 여파\"",
+          "url": "https://www.yna.co.kr/view/AKR20261110181100017",
+          "press": "연합뉴스",
+          "summary": "연구팀, 올해 화석연료 CO₂ 배출량 0.4% 감소 전망 및 청정기술 보급 가속 촉구",
+          "event_id": "1111m-f0",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후변화 대응·온실가스 감축 연구와 정책 함의. 확정 배출량이 아닌 연구팀 전망치이며 전쟁·공급제약 영향을 구분. 정유업계 자체 감축대책으로 오인하지 않음.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문 직접 관련: 재생에너지·수소",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-11-11T07:47:52+09:00",
+          "time_evidence": "원문 published_time 2026-11-11T07:47:52+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "2b2a4885ac558644d16877a541baf92619235616bcd1ca129360e3cfc5d3b254"
+        }
+      ],
+      "all": [
+        {
+          "title": "한국노총, 노동부에 정년연장 입법 촉구…\"국회에만 의존 말라\"",
+          "url": "https://www.yna.co.kr/view/AKR20261110167500530",
+          "press": "연합뉴스",
+          "summary": "한국노총, 노동부에 65세 정년연장 입법 지원과 공공기관 통폐합 근거 공개 요구",
+          "event_id": "1111m-f24",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "한국노총·고용노동부 운영협의체의 정년연장·노동정책 협의. 노동계 요구와 법안 통과·정부 수용을 구분. 동일 회의 뉴시스 보도는 연합뉴스 대표기사 우선.",
           "categories": [],
           "category_reason": "",
           "importance": {
             "legislation": 3,
-            "impact": 2,
-            "speaker": 1
+            "impact": 3,
+            "speaker": 2
           },
-          "title": "국제신문 회생, 조문 두개면 충분하다 [미디어 전망대]",
-          "url": "https://www.hani.co.kr/arti/society/media/1286717.html",
-          "press": "한겨레",
-          "published_at": "2026-11-11T05:00:00+09:00",
-          "time_evidence": "원문 published_time 2026-11-11T05:00:00+09:00",
-          "source_body_sha256": "e43530ee5e9bffbe317c4d7fffa82f2c185d03f8f88606e06e9079a4546819f3",
-          "verified": true
+          "published_at": "2026-11-10T18:16:47+09:00",
+          "time_evidence": "원문 published_time 2026-11-10T18:16:47+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "5bbf91fe92f6cee63557582fb01b82ec4984cb045e08b59b3b6a55a964491284"
         },
         {
-          "summary": "한국노총 \"65세 정년연장, 연내 입법 로드맵 마련해야\" 발언",
-          "event_id": "443c7fca13d1179cd890",
+          "title": "인프라 건설에도 꺼내쓰나… 걱정 커지는 '미래기금'",
+          "url": "https://www.mt.co.kr/economy/2026/11/11/2026111020004011053",
+          "press": "머니투데이",
+          "summary": "기노위 전문위원, 미래기금 전력망 사업의 총사업비·연차별 계획 재확정 필요성 지적",
+          "event_id": "1111m-c7",
           "committees": [
             "climate_labor"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "제목·본문 주된 부처 및 명시된 정책·법안·현안",
-          "categories": [],
-          "category_reason": "",
+          "committee_reason": "원문 기노위 2027년 기금운용계획 예비심사검토보고서와 수석전문위원 지적 명시. 일반 재정기사로 이관하지 않고 실제 심사위 기노위 단일 배정. 의원 발언이 아닌 전문위원 검토. 2031년 이후 계획과 집행액 구분.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문 직접 관련: LNG·전력",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-11-11T03:40:00+09:00",
+          "time_evidence": "원문 published_time 2026-11-11T03:40:00+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "66e2641078acdce2df646e929e3cf059a1cdfa6bbff9f5413870cf183ce331f6"
+        },
+        {
+          "title": "툰베리 \"그린워싱 서커스\"…UN 기후회의서 비판 쏟아져",
+          "url": "https://www.yna.co.kr/view/AKR20261111000800109",
+          "press": "연합뉴스",
+          "summary": "COP31에서 화석연료 의존·석유기업 초과이익 비판 및 구체적 전환계획 촉구",
+          "event_id": "1111m-f55",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후협상 현장 연설·환경운동가 비판과 화석연료 전환정책 소관. 유엔 사무총장 전망과 확정 이익 구분. 전일 Morning의 개막 성명과 다른 10일 현장 연설 보도.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문 직접 관련: 재생에너지·수소",
           "importance": {
             "legislation": 2,
-            "impact": 2,
-            "speaker": 1
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "한국노총 \"65세 정년연장, 연내 입법 로드맵 마련해야\"",
-          "url": "https://www.newsis.com/view/NISX20261110_0003862779",
-          "press": "뉴시스",
-          "published_at": "2026-11-10T18:09:54+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026.11.10 18:09:54",
-          "source_body_sha256": "ccf7da41a105d8582c86eb22e6674fec55b3a1fcc48f7586071a4ad314de4daf",
-          "verified": true
+          "published_at": "2026-11-11T00:48:20+09:00",
+          "time_evidence": "원문 published_time 2026-11-11T00:48:20+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "d7c7a2602698c7510c83f12c898e2ea7178a640bd0c97daf7e2eb8574a67aef2"
         },
         {
-          "summary": "우창코넥타 해고자들, 김민석 대표 사무소 점거농성…“해결 약속 지켜야” 발언",
-          "event_id": "5ba04f1efd4f4bc87513",
+          "title": "[사이테크+] \"올해 세계 화석연료 CO₂ 배출량 감소 전망…이란 전쟁 여파\"",
+          "url": "https://www.yna.co.kr/view/AKR20261110181100017",
+          "press": "연합뉴스",
+          "summary": "연구팀, 올해 화석연료 CO₂ 배출량 0.4% 감소 전망 및 청정기술 보급 가속 촉구",
+          "event_id": "1111m-f0",
           "committees": [
             "climate_labor"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "committee_reason": "기후변화 대응·온실가스 감축 연구와 정책 함의. 확정 배출량이 아닌 연구팀 전망치이며 전쟁·공급제약 영향을 구분. 정유업계 자체 감축대책으로 오인하지 않음.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문 직접 관련: 재생에너지·수소",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "published_at": "2026-11-11T07:47:52+09:00",
+          "time_evidence": "원문 published_time 2026-11-11T07:47:52+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "2b2a4885ac558644d16877a541baf92619235616bcd1ca129360e3cfc5d3b254"
+        },
+        {
+          "summary": "우창코넥타 해고 노동자, 집단해고 해결 촉구하며 민주당 대표 사무소 농성 돌입",
+          "event_id": "1111m-c8",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기노위·을지로위의 집단해고 대응과 고용노동부 수사 현안. 노동계의 기획파산 의혹은 확정 사실과 구분. 김민석은 당 대표 자격으로 언급되며 기노위 소속 의원으로 추정하지 않음. 초기 수집에서 원문·17:03 입력 확인, 재접속 403 제한은 별도 기록.",
           "categories": [],
           "category_reason": "",
           "importance": {
@@ -110,67 +448,42 @@
           "time_evidence": "원문 published_time 2026-11-10T17:03:00+09:00",
           "source_body_sha256": "dcee5f27df01fd3f020b1424c7bbbcf17921ff298a137be62595dead8846cd06",
           "verified": true
-        },
-        {
-          "summary": "인프라 건설에도 꺼내쓰나… 걱정 커지는 '미래기금' 발언",
-          "event_id": "fb26d8c1a622d3e80bcb",
-          "committees": [
-            "climate_labor"
-          ],
-          "members": [],
-          "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 1
-          },
-          "title": "인프라 건설에도 꺼내쓰나… 걱정 커지는 '미래기금'",
-          "url": "https://www.mt.co.kr/economy/2026/11/11/2026111020004011053",
-          "press": "머니투데이",
-          "published_at": "2026-11-11T03:40:00+09:00",
-          "time_evidence": "원문 published_time 2026-11-11T03:40:00+09:00",
-          "source_body_sha256": "26dae3f9ccc9a437ab7a66d28d25f5785627ffca45a7094f5ed30844e8fef769",
-          "verified": true
-        },
-        {
-          "summary": "[오늘의 주요일정]기후에너지환경부(11월11일수요일)",
-          "event_id": "04d699540c1b205161d8",
-          "committees": [
-            "climate_labor"
-          ],
-          "members": [],
-          "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 1
-          },
-          "title": "[오늘의 주요일정]기후에너지환경부(11월11일수요일)",
-          "url": "https://www.newsis.com/view/NISX20261110_0003861313",
-          "press": "뉴시스",
-          "published_at": "2026-11-11T06:00:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026.11.11 06:00:00",
-          "source_body_sha256": "045fed9e68f523dcd0c8b14ec7c38fad81101de039e48e23b74f63deefafcc2d",
-          "verified": true
         }
       ]
     },
     {
       "id": "finance",
       "priority": [],
-      "all": []
+      "all": [
+        {
+          "title": "예결위, 오늘 비경제부처 예산안 심사…미래기금·특활비 공방",
+          "url": "https://www.yna.co.kr/view/AKR20261110147600001",
+          "press": "연합뉴스",
+          "summary": "예결위, 비경제부처 예산안 심사 예정 및 미래기금·특활비 쟁점 점검",
+          "event_id": "1111m-f45",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "국가 예산·미래기금 및 특별활동비 재정운용의 심사 일정. 34개 기관 심사 예정과 실제 심사 결과 구분. 특정 의원 소속으로 추정하지 않고 국가재정 정책 맥락 배정.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "published_at": "2026-11-11T05:00:01+09:00",
+          "time_evidence": "원문 published_time 2026-11-11T05:00:01+09:00; 발행사 본문 및 최초 송고·입력시각 직접 대조; 수정시각 미사용",
+          "verified": true,
+          "source_body_sha256": "3303a5f04b0e989a1d7e449687b3b73a7a196531c0074b647b6602c25d146bf1"
+        }
+      ]
     }
   ],
-  "review_method": "deterministic-original-source-review",
+  "review_method": "original-source-manual-editorial-review",
   "limitations": [
-    "일부 검색원 오류; 주제별 검색 결과·오류 및 보완 검색 기록은 검토 파일 참조",
-    "발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음",
-    "선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요."
+    "공개검색 노출·페이지 한계 및 일부 원문 접속 실패. 국감은 본문·최초시각 확인 기사만 수록. 비공개 공문·회신·비용 추정 없음."
   ]
 }
