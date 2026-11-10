@@ -1,0 +1,169 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-11",
+  "slot": "morning",
+  "period_start": "2026-11-11T00:00:00+09:00",
+  "period_end": "2026-11-11T08:00:00+09:00",
+  "period_label": "2026-11-11 00:00 ~ 2026-11-11 08:00",
+  "generated_at": "2026-11-11T08:09:42.695218+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 30,
+  "total_enriched_input_count": 5,
+  "total_in_period_unique_count": 1,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 3,
+  "total_deduped_count": 1,
+  "total_ok_count": 0,
+  "total_review_count": 1,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 18,
+    "daum": 8,
+    "google": 4
+  },
+  "query_counts": {
+    "공정위 유가 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-11T08:08:54.662758+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "[Who Is ?] 한경록 한솔제지 대표이사",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451675",
+      "published_at": "2026-11-11T07:08:56.291005+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 확인 실패: HTTPError"
+    },
+    {
+      "title": "석유 최고가격제 이달 첫 계산서…’산정기준’ 관건",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH202611101836313uC",
+      "published_at": "2026-11-10T18:36:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-10 18:36",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "기본소득 옥천지역 기름값 왜 비쌀까…전국·충북평균 '상회'",
+      "url": "https://www.newsis.com/view/NISX20261110_0003861679",
+      "published_at": "2026-11-10T13:43:46+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.10 13:43:46",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "최고가격제 정산 갈등 … 알뜰주유소 정유사 '소송'",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85YzBxQ3l1R0E5UlZUR3gtREY0WXRWVG0yd19oa25kNTdWTWY4elh1Qk9iSV9wMm9BbDJwY29zUWQxRG9MeS04VW56X2dYY0kzcUszQ2l3cU1zcm5oSHlFZFBpSmpfSllzQ183NkQ0WdIBc0FVX3lxTE11ZHoyVmI5STQ2MWFxVTRVSVYxXzBmLUNDYmF1bnBabDJFR2d1UWRZd3BzcXNMM0NVUEtpZ0F2cDRzczRxQjl4VHF2TjFZdGhheXhWSmhaU3VXaXZ2b0l2MG95bXgtMXF1NXNReXZVdGhTcEk?oc=5",
+      "published_at": "2026-11-10T18:55:19+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    }
+  ],
+  "articles": [
+    {
+      "title": "[Who Is ?] 한경록 한솔제지 대표이사",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451675",
+      "source": "비즈니스포스트",
+      "published_at": "2026-11-11T07:08:56.291005+09:00",
+      "snippet": "현재의 한솔제지는 이때 설립된 법인으로 같은 달 26일 유가 증권시장에 재상장했다. ◆ 비전과 과제 한경록 한솔제지 대표이사 부사장(오른쪽 두... 같은 해 9월에는 농민신문사 발주 입찰에서도 담합 이 적발됐다. 공정위 조사에 따르면 제지업체들은 2021년 6월부터 2024년 11월까지 입찰 6건의 낙찰예정자와...",
+      "collected_at": "2026-11-11T08:08:56.291074+09:00",
+      "normalized_title": "[Who Is ?] 한경록 한솔제지 대표이사",
+      "source_normalized": "비즈니스포스트",
+      "duplicate_key": "비즈니스포스트::[who is ?] 한경록 한솔제지 대표이사",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.businesspost.co.kr/BP?command=article_view&num=451675",
+      "verified": false,
+      "verification_reason": "원문 확인 실패: HTTPError",
+      "id": "5689129d1137afb4",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 확인 실패: HTTPError",
+      "time_evidence": "원문 확인 실패: HTTPError"
+    }
+  ],
+  "summary": "수집 기사 1건, 발행사 본문·최초시각 확인 0건, 미확인 1건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 30,
+    "exclusions": [
+      {
+        "url": "http://www.yonhapnewstv.co.kr/news/MYH202611101836313uC",
+        "title": "석유 최고가격제 이달 첫 계산서…’산정기준’ 관건",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.newsis.com/view/NISX20261110_0003861679",
+        "title": "기본소득 옥천지역 기름값 왜 비쌀까…전국·충북평균 '상회'",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85YzBxQ3l1R0E5UlZUR3gtREY0WXRWVG0yd19oa25kNTdWTWY4elh1Qk9iSV9wMm9BbDJwY29zUWQxRG9MeS04VW56X2dYY0kzcUszQ2l3cU1zcm5oSHlFZFBpSmpfSllzQ183NkQ0WdIBc0FVX3lxTE11ZHoyVmI5STQ2MWFxVTRVSVYxXzBmLUNDYmF1bnBabDJFR2d1UWRZd3BzcXNMM0NVUEtpZ0F2cDRzczRxQjl4VHF2TjFZdGhheXhWSmhaU3VXaXZ2b0l2MG95bXgtMXF1NXNReXZVdGhTcEk?oc=5",
+        "title": "최고가격제 정산 갈등 … 알뜰주유소 정유사 '소송'",
+        "reason": "outside_period"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-11T08:08:54.662758+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
