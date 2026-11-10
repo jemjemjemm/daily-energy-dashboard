@@ -5,7 +5,7 @@
     "display_date": "2026년 11월 10일 (화)",
     "previous_day_label": "11/9",
     "today_label": "11/10",
-    "generated_at": "2026-11-10 08:13 KST",
+    "generated_at": "2026-11-10 17:03 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △석유 최고가격제 첫 정산액 이달 말 통보 예정 및 원가·적정마진 산정 이견 △통상본부장, 헝가리 배터리 규제 대응 지원 및 EU 배터리법 준비기간 확보 요청 △노동장관, 초광역특구법 기간제 고용 확대 우려에 노사정 대화 의제화 방침"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △10일 한국도로공사 및 윤한홍 국회 산업통상자원중소벤처기업위원회 의원실 등에 따르면 한국도로공사 알뜰주유소 ex-OIL은 지난 9일 GS칼텍스를 대상으로 석유 최고가격제 정산과 관련, ‘부당이득 △정부와 정유·석유화학 업계가 연말까지 원유와 나프타 물량을 안정적으로 확보한 것으로 나타났다 △영국 파이낸셜타임스(FT)는 지방 당국을 통해 확인된 휘발유 판매 제한 지역이 자바이칼 등 최소 4개 지역이라고 보도"
     }
   ],
   "prices": {
@@ -1456,7 +1460,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(9/9~11/9)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1572,6 +1577,87 @@
       "merged_at": "2026-11-10 08:14:22 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-11-10.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△10일 한국도로공사 및 윤한홍 국회 산업통상자원중소벤처기업위원회 의원실 등에 따르면 한국도로공사 알뜰주유소 ex-OIL은 지난 9일 GS칼텍스를 대상으로 석유 최고가격제 정산과 관련, ‘부당이득 △정부와 정유·석유화학 업계가 연말까지 원유와 나프타 물량을 안정적으로 확보한 것으로 나타났다 △영국 파이낸셜타임스(FT)는 지방 당국을 통해 확인된 휘발유 판매 제한 지역이 자바이칼 등 최소 4개 지역이라고 보도",
+    "trend_paragraphs": [
+      "헤럴드경제는 10일 한국도로공사 및 윤한홍 국회 산업통상자원중소벤처기업위원회 의원실 등에 따르면 한국도로공사 알뜰주유소 ex-OIL은 지난 9일 GS칼텍스를 대상으로 석유 최고가격제 정산과 관련, ‘부당이득 반환 청구의 소’를.",
+      "연합뉴스는 정부와 정유·석유화학 업계가 연말까지 원유와 나프타 물량을 안정적으로 확보한 것으로 나타났다.",
+      "한국일보는 영국 파이낸셜타임스(FT)는 지방 당국을 통해 확인된 휘발유 판매 제한 지역이 자바이칼 등 최소 4개 지역이라고 보도했다."
+    ],
+    "articles": [
+      {
+        "title": "[단독] 석유 최고가격제 결국 ‘소송전’으로…도로공사 알뜰 주유소, GS칼텍스 대상 반환 청구",
+        "press": "헤럴드경제",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20261110152229206",
+        "summary": "10일 한국도로공사 및 윤한홍 국회 산업통상자원중소벤처기업위원회 의원실 등에 따르면 한국도로공사 알뜰주유소 ex-OIL은 지난 9일 GS칼텍스를 대상으로 석유 최고가격제 정산과 관련, ‘부당이득 반환 청구의 소’를",
+        "snippet": "2 [단독] 석유 최고가격제 결국 ‘소송전’으로…도로공사 알뜰 주유소, GS칼텍스 대상 반환 청구 주장이다. 정유사와 알뜰주유소는 통상 ‘월말’에 대금을 정산한다. 정유사가 제시하는 공급가에 따라 미리 대금을 내고, 국제 석유 제품 가격(MOPS) 월평균이 확정되면 사후에 차액을 돌려받거나 더 내는 방식이다. 이같은 절차에 따라 GS칼텍스는 최고가격제 시행... 1시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 14,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 3,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1531
+      },
+      {
+        "title": "산업부 \"연말까지 원유·나프타 물량 90% 이상 확보\"",
+        "press": "연합뉴스",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20261110161920259",
+        "summary": "정부와 정유·석유화학 업계가 연말까지 원유와 나프타 물량을 안정적으로 확보한 것으로 나타났다",
+        "snippet": "산업부 \"연말까지 원유·나프타 물량 90% 이상 확보\" 내린 1천842.0원을 기록했다. 사진은 8일 서울의 한 주유소 모습. 2026.11.8 jin90@yna.co.kr (서울=연합뉴스) 신창용 기자 = 정부와 정유 ·석유화학 업계가 연말까지 원유와 나프타 물량을 안정적으로 확보한 것으로 나타났다. 산업통상부는 10일 '중동전쟁 대응... 44분 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 897
+      },
+      {
+        "title": "러, 휘발유 판매제한 또 시행… \"우크라 공습에 정유 시설 35% 멈춰\"",
+        "press": "한국일보",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20261110134741802",
+        "summary": "영국 파이낸셜타임스(FT)는 지방 당국을 통해 확인된 휘발유 판매 제한 지역이 자바이칼 등 최소 4개 지역이라고 보도했다",
+        "snippet": "러, 휘발유 판매제한 또 시행… \"우크라 공습에 정유 시설 35% 멈춰\" 우크라이나의 러시아 정유 시설 공격으로 연료난이 이어졌던 9월 15일 러시아 상트페테르부르크의 주유소 앞에 주유를 기다리는 차량이 줄지어 서 있다. 상트페테르부르크=EPA 연합뉴스 러시아 국영 석유기업 로스네프트가 주유소 휘발유 판매량을 다시 제한했다... 3시간 전",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 11,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 3,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1153
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }

@@ -1,0 +1,141 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-10",
+  "slot": "evening",
+  "period_start": "2026-11-10T08:00:00+09:00",
+  "period_end": "2026-11-10T17:00:00+09:00",
+  "period_label": "2026-11-10 08:00 ~ 2026-11-10 17:00",
+  "generated_at": "2026-11-10T17:04:46.840273+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 14,
+  "total_enriched_input_count": 1,
+  "total_in_period_unique_count": 1,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 0,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 7,
+    "daum": 7,
+    "google": 0
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "기름값 담합": 1,
+    "석유 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "주유소 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-10T17:04:04.020285+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "기본소득 옥천지역 기름값 왜 비쌀까…전국·충북평균 '상회'",
+      "url": "https://www.newsis.com/view/NISX20261110_0003861679",
+      "published_at": "2026-11-10T13:43:46+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.10 13:43:46",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "기본소득 옥천지역 기름값 왜 비쌀까…전국·충북평균 '상회'",
+      "url": "https://www.newsis.com/view/NISX20261110_0003861679",
+      "source": "뉴시스",
+      "published_at": "2026-11-10T13:43:46+09:00",
+      "snippet": "(1895원), 경유 (1865원), 등유(1550원) 모두 판박이처럼 똑같다. 같은 도로상에 있는 대전시 동구 지역 주유소의 휘발유 가격은 1820원대, 영동지역은 1822~1840원 수준이다. 옥천군의회는 최근 군정업무보고 당시 집행부에 주유소 업계의 가격 담합 여부를 조사해봐야 한다는 의견을 냈고, 황규철 군수 역시...",
+      "collected_at": "2026-11-10T17:04:05.141982+09:00",
+      "normalized_title": "기본소득 옥천지역 기름값 왜 비쌀까…전국·충북평균 '상회'",
+      "source_normalized": "뉴시스",
+      "duplicate_key": "뉴시스::기본소득 옥천지역 기름값 왜 비쌀까…전국·충북평균 '상회'",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "경유 담합",
+        "기름값 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.newsis.com/view/NISX20261110_0003861679",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.11.10 13:43:46",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "cd3a856acdeafd2b",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "기름값",
+        "휘발유",
+        "경유",
+        "주유소",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "summary": "수집 기사 1건, 발행사 본문·최초시각 확인 1건, 미확인 0건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 14,
+    "exclusions": [],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-10T17:04:04.020285+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
