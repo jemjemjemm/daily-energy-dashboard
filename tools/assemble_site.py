@@ -58,7 +58,7 @@ def split_report(text: str, date: str | None = None) -> tuple[str, str]:
     start = sections[0].start()
     end = sections[-1].end()
     assembly = text[:start] + schedule_text + text[end:]
-    assembly = assembly.replace('Daily Issue Report', '국감')
+    assembly = assembly.replace('Daily Issue Report', '국회 동향')
     assembly = assembly.replace('../schedules/', '../../schedules/')
     # Parliamentary reports use a compact date-only header.
     assembly = re.sub(
@@ -91,8 +91,8 @@ def publish_views(output: Path) -> None:
     dashboard = (output / 'index.html').read_text(encoding='utf-8')
     assembly_dashboard = dashboard.replace('<head>', '<head>\n  <base href="../">', 1)
     assembly_dashboard = assembly_dashboard.replace('class="daily-dashboard"', 'class="assembly-dashboard"', 1)
-    assembly_dashboard = assembly_dashboard.replace('Daily Issue Dashboard', '국감')
-    assembly_dashboard = assembly_dashboard.replace('Daily Issue Report', '국감')
+    assembly_dashboard = assembly_dashboard.replace('Daily Issue Dashboard', '국회 동향')
+    assembly_dashboard = assembly_dashboard.replace('Daily Issue Report', '국회 동향')
     assembly_dashboard = assembly_dashboard.replace('정유 · 석유화학 · LNG AI 리포트', '본회의 · 상임위 일정 + 월간 국회일정캘린더')
     assembly_dashboard = assembly_dashboard.replace('href="./" aria-current="page"', 'href="./"')
     assembly_dashboard = assembly_dashboard.replace('href="assembly/"', 'href="assembly/" aria-current="page"')
@@ -100,7 +100,7 @@ def publish_views(output: Path) -> None:
     assembly_dashboard = assembly_dashboard.replace('r.url || `reports/${date}.html`', '`assembly/reports/${date}.html`')
     assembly_dashboard = assembly_dashboard.replace(
         'state.reports=(data.reports||[]).slice()',
-        "state.reports=(data.reports||[]).map(r=>({...r,title:String(r.title||'').replace('Daily Issue Report','국감')})).slice()")
+        "state.reports=(data.reports||[]).map(r=>({...r,title:String(r.title||'').replace('Daily Issue Report','국회 동향')})).slice()")
     assembly_dashboard = re.sub(r'\s*<!-- OIL START -->.*?<!-- OIL END -->', '', assembly_dashboard, flags=re.S)
     (output / 'assembly/index.html').write_text(assembly_dashboard, encoding='utf-8')
 
