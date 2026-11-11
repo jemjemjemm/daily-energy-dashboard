@@ -1,0 +1,381 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-11",
+  "slot": "evening",
+  "period_start": "2026-11-11T08:00:00+09:00",
+  "period_end": "2026-11-11T17:00:00+09:00",
+  "period_label": "2026-11-11 08:00 ~ 2026-11-11 17:00",
+  "generated_at": "2026-11-11T17:21:30.887216+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 26,
+  "total_enriched_input_count": 9,
+  "total_in_period_unique_count": 7,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 1,
+  "total_deduped_count": 6,
+  "total_ok_count": 2,
+  "total_review_count": 4,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 1,
+    "C": 5
+  },
+  "portal_counts": {
+    "naver": 16,
+    "daum": 10,
+    "google": 0
+  },
+  "query_counts": {
+    "공정위 유가 담합": 2,
+    "석유 담합": 1,
+    "유가 담합": 5,
+    "유가 짬짜미": 1,
+    "유가담합": 5,
+    "정유 44조": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-11T17:20:39.063408+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "KCGS 작년 A+ 19곳 중 10곳 강등…POSCO홀딩스·삼성물산·하나금융도 - IMPACT ON(임팩트온)",
+      "url": "https://www.impacton.net/news/articleView.html?idxno=30638",
+      "published_at": "2026-11-11T14:55:13+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T14:55:13+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "한국ESG기준원 2026 ESG 등급…사회 A+ 38곳 늘 때 환경 A+는 5곳 줄어 - IMPACT ON(임팩트온)",
+      "url": "https://www.impacton.net/news/articleView.html?idxno=30629",
+      "published_at": "2026-11-11T13:31:32+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T13:31:32+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "한미반도체 등 ESG D등급…상장사 213곳 '낙제점'",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=882102",
+      "published_at": "2026-11-11T11:04:39+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-11T11:04:39+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[남승표의 궁변통구] 젠슨 황의 T5T와 '약한 신호'",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444135",
+      "published_at": "2026-11-11T10:15:54+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-11T10:15:54+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "한솔제지 장항공장서 근로자 사망…'경위·원인 파악중'",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=881979",
+      "published_at": "2026-11-11T08:31:33+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-11T08:31:33+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[Who Is ?] 한경록 한솔제지 대표이사",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451675",
+      "published_at": "2026-11-11T07:20:40.333325+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 확인 실패: HTTPError"
+    },
+    {
+      "title": "국고채 입찰 담합…15개 금융사에 과징금 1.6조 ‘역대 최대’ - 뉴시안",
+      "url": "https://www.newsian.co.kr/news/articleView.html?idxno=101041",
+      "published_at": "2026-11-11T12:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T12:00:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[현장]GS칼텍스, ‘기름값 인하’ 주유소에 폭등 유가 떠넘겼다 줄소송 피소 - 알파경제",
+      "url": "https://cp.news.search.daum.net/p/184137729",
+      "published_at": "2026-11-11T09:04:54+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-11T09:04:54+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "[남승표의 궁변통구] 젠슨 황의 T5T와 '약한 신호'",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444135",
+      "source": "연합인포맥스",
+      "published_at": "2026-11-11T10:15:54+09:00",
+      "snippet": "크게는 지난 4월 미국과 이란 전쟁 이후 치솟은 국제 유가 충격을 최고가격제 시행을 통해 안정적으로 관리하고 있으며 설탕, 밀가루, 전분당, 계란 등 민생 물가에 대한 전방위 단속으로 관행이라는 이름 하에 저질러지던 사업자의 담합 행위도 하나씩 부러뜨리고 있다. 라면값과 고속도로...",
+      "collected_at": "2026-11-11T17:20:40.331394+09:00",
+      "normalized_title": "[남승표의 궁변통구] 젠슨 황의 T5T와 '약한 신호'",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::[남승표의 궁변통구] 젠슨 황의 t5t와 '약한 신호'",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444135",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-11T10:15:54+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "b81610209cdd066e",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[현장]GS칼텍스, ‘기름값 인하’ 주유소에 폭등 유가 떠넘겼다 줄소송 피소 - 알파경제",
+      "url": "https://cp.news.search.daum.net/p/184137729",
+      "source": "알파경제",
+      "published_at": "2026-11-11T09:04:54+09:00",
+      "snippet": "1~12일 공급 물량에서 터졌다. <2026년 10월 7일자 \"4년 동안 44조 원대 가격 짬짜미\"…SK에너지·HD현대오일뱅크, 공정위 제재안...차감했다. 도로공사와 주유소 측은 국가적 비상 상황에서 정유 대기업이 평시 계약을 기계적으로 적용해 일선 운영사에 위험을 전가...",
+      "collected_at": "2026-11-11T17:21:23.583358+09:00",
+      "normalized_title": "[현장]GS칼텍스, ‘기름값 인하’ 주유소에 폭등 유가 떠넘겼다 줄소송 피소 - 알파경제",
+      "source_normalized": "알파경제",
+      "duplicate_key": "알파경제::[현장]gs칼텍스, ‘기름값 인하’ 주유소에 폭등 유가 떠넘겼다 줄소송 피소 - 알파경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 짬짜미",
+        "정유 44조"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://cp.news.search.daum.net/p/184137729",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-11T09:04:54+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "26fb5d6ab67f01c8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "기름값",
+        "주유소",
+        "공정위",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "KCGS 작년 A+ 19곳 중 10곳 강등…POSCO홀딩스·삼성물산·하나금융도 - IMPACT ON(임팩트온)",
+      "url": "https://www.impacton.net/news/articleView.html?idxno=30638",
+      "source": "임팩트온",
+      "published_at": "2026-11-11T14:55:13+09:00",
+      "snippet": "지난해 한국ESG기준원(KCGS) 통합 A+ 기업 19곳( 유가 증권시장 기준) 가운데 10곳이 올해 A로 내려왔다. 임팩트온이 KCGS가 11일 공표한 '2026년 ESG 평가 및... CJ제일제당과 삼양사는 담합 3건에 연루됐다. 공정위 는 2월 두 회사와 대한제당의 설탕 가격 담합 에 과징금 4,083억원을 부과했다. 5월에는 두 회사와...",
+      "collected_at": "2026-11-11T17:20:40.328615+09:00",
+      "normalized_title": "KCGS 작년 A+ 19곳 중 10곳 강등…POSCO홀딩스·삼성물산·하나금융도 - IMPACT ON(임팩트온)",
+      "source_normalized": "임팩트온",
+      "duplicate_key": "임팩트온::kcgs 작년 a+ 19곳 중 10곳 강등…posco홀딩스·삼성물산·하나금융도 - impact on(임팩트온)",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.impacton.net/news/articleView.html?idxno=30638",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-11T14:55:13+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "aa26d362dde6b6ba",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한국ESG기준원 2026 ESG 등급…사회 A+ 38곳 늘 때 환경 A+는 5곳 줄어 - IMPACT ON(임팩트온)",
+      "url": "https://www.impacton.net/news/articleView.html?idxno=30629",
+      "source": "임팩트온",
+      "published_at": "2026-11-11T13:31:32+09:00",
+      "snippet": "통합 A+ 17곳…C·D등급 비중 47.2% 유가 증권시장 상장사 794곳 기준 통합등급 A+를 받은 기업은 17곳이다. 지난해 19곳보다 2곳 줄었다. A등급은... KCGS ESG기준위원회는 지난 5일 담합 제재와 산업안전보건 리스크 관리 미흡 등을 반영해 29개사의 등급을 하향 조정했다. 이 가운데 삼양사·현대건설...",
+      "collected_at": "2026-11-11T17:20:40.329570+09:00",
+      "normalized_title": "한국ESG기준원 2026 ESG 등급…사회 A+ 38곳 늘 때 환경 A+는 5곳 줄어 - IMPACT ON(임팩트온)",
+      "source_normalized": "임팩트온",
+      "duplicate_key": "임팩트온::한국esg기준원 2026 esg 등급…사회 a+ 38곳 늘 때 환경 a+는 5곳 줄어 - impact on(임팩트온)",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.impacton.net/news/articleView.html?idxno=30629",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-11T13:31:32+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "bab46c7a45be2232",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "한미반도체 등 ESG D등급…상장사 213곳 '낙제점'",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=882102",
+      "source": "한스경제",
+      "published_at": "2026-11-11T11:04:39+09:00",
+      "snippet": "11일 한국ESG기준원(KCGS)이 발표한 '2026년 ESG 평가 및 등급 부여 현황'에 따르면 유가 증권시장 상장사 794곳 가운데 D등급을 받은 기업은 213곳으로... 담합 행위 제재, 산업안전보건 리스크 관리 미흡, 공정거래위원회 및 증권선물위원회 제재, 횡령·배임 혐의 등이 주요 조정 사유였다. 특히 대한제당은...",
+      "collected_at": "2026-11-11T17:20:40.330486+09:00",
+      "normalized_title": "한미반도체 등 ESG D등급…상장사 213곳 '낙제점'",
+      "source_normalized": "한스경제",
+      "duplicate_key": "한스경제::한미반도체 등 esg d등급…상장사 213곳 '낙제점'",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=882102",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-11T11:04:39+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "436ebf53215351d2",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "한솔제지 장항공장서 근로자 사망…'경위·원인 파악중'",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=881979",
+      "source": "한스경제",
+      "published_at": "2026-11-11T08:31:33+09:00",
+      "snippet": "이번 공시는 유가 증권시장 공시규정 제7조 제1항 제1호 바목에 따른 주요경영사항 보고에 해당한다. 중대재해 처벌 등에 관한 법률 적용 여부와 안전관리... 최근 한경록 한솔제지 대표는 제지사 가격 담합 관련 사안에 대해 재발 방지 대책을 충실히 이행하겠다는 입장을 밝힌 바 있으며, 대전 지역 생산시설...",
+      "collected_at": "2026-11-11T17:20:40.332301+09:00",
+      "normalized_title": "한솔제지 장항공장서 근로자 사망…'경위·원인 파악중'",
+      "source_normalized": "한스경제",
+      "duplicate_key": "한스경제::한솔제지 장항공장서 근로자 사망…'경위·원인 파악중'",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=881979",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-11T08:31:33+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "5dc29040b2b5cd23",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "summary": "수집 기사 6건, 발행사 본문·최초시각 확인 2건, 미확인 4건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 26,
+    "exclusions": [
+      {
+        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451675",
+        "title": "[Who Is ?] 한경록 한솔제지 대표이사",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.newsian.co.kr/news/articleView.html?idxno=101041",
+        "title": "국고채 입찰 담합…15개 금융사에 과징금 1.6조 ‘역대 최대’ - 뉴시안",
+        "reason": "duplicate_or_quality_exclusion"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-11T17:20:39.063408+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
