@@ -1,0 +1,361 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-11",
+  "slot": "night",
+  "period_start": "2026-11-11T17:00:00+09:00",
+  "period_end": "2026-11-12T00:00:00+09:00",
+  "period_label": "2026-11-11 17:00 ~ 2026-11-12 00:00",
+  "generated_at": "2026-11-12T08:23:21.062793+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 74,
+  "total_enriched_input_count": 25,
+  "total_in_period_unique_count": 6,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 13,
+  "total_deduped_count": 1,
+  "total_ok_count": 0,
+  "total_review_count": 1,
+  "total_excluded_count": 5,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 42,
+    "daum": 18,
+    "google": 14
+  },
+  "query_counts": {
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-12T08:22:01.697017+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "[정유 피크아웃] ②최고가격제 손실보전 첫정산 앞두고 기준 산정ㆍ국회 반기ㆍ소송전까지 ‘진통’",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611111308035910581",
+      "published_at": "2026-11-12T05:00:28+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 05:00:28",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[미리보는 이데일리 신문]알바인 줄 알았더니, 2030 사장님",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=06369766645644736&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "published_at": "2026-11-11T23:22:03.252505+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "메리츠금융 “중장기 주식투자 확대 이어갈 것”",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=315171",
+      "published_at": "2026-11-11T18:18:13+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-11T18:18:13+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "KCGS 작년 A+ 19곳 중 10곳 강등…POSCO홀딩스·삼성물산·하나금융도 - IMPACT ON(임팩트온)",
+      "url": "https://www.impacton.net/news/articleView.html?idxno=30638",
+      "published_at": "2026-11-11T14:55:13+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T14:55:13+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "한국ESG기준원 2026 ESG 등급…사회 A+ 38곳 늘 때 환경 A+는 5곳 줄어 - IMPACT ON(임팩트온)",
+      "url": "https://www.impacton.net/news/articleView.html?idxno=30629",
+      "published_at": "2026-11-11T13:31:32+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T13:31:32+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "한미반도체 등 ESG D등급…상장사 213곳 '낙제점'",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=882102",
+      "published_at": "2026-11-11T11:04:39+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-11T11:04:39+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[남승표의 궁변통구] 젠슨 황의 T5T와 '약한 신호'",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444135",
+      "published_at": "2026-11-11T10:15:54+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-11T10:15:54+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "한솔제지 장항공장서 근로자 사망…'경위·원인 파악중'",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=881979",
+      "published_at": "2026-11-11T08:31:33+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-11T08:31:33+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[Who Is ?] 한경록 한솔제지 대표이사",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451675",
+      "published_at": "2026-11-11T08:22:03.256347+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 확인 실패: HTTPError"
+    },
+    {
+      "title": "[정유 피크아웃] ③역대급 성적 찍은 정유사…가격 투명성ㆍ상생 행보ㆍ고객 신뢰 다지기",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611111232255640574",
+      "published_at": "2026-11-12T05:00:31+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 05:00:31",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "5% 반등한 SK하이닉스, 외국인도 쓸어 담았다고?",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsN1FMdFlHeEl6b3N1OEVaMEZoNUJ2MjNET2gwSUJTd2Y5bUFtYVlSQWlkeE9IOTItUzV1LWJseWtnTzh1bTVZWFJKMGJNUFM1TTNoMDVBTjg?oc=5",
+      "published_at": "2026-11-11T17:38:25+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[전국 주요 신문 사설](12일 조간)",
+      "url": "https://www.yna.co.kr/view/AKR20261112020500011?input=1195m",
+      "published_at": "2026-11-12T08:00:02+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T08:00:02+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "국고채 입찰 150건 담합…1조6000억 과징금 철퇴外 [한강로 경제브리핑]",
+      "url": "https://www.segye.com/newsView/20261111518496?OutUrl=naver",
+      "published_at": "2026-11-12T07:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 07:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[데스크칼럼] 부자 나라, 가난한 국민",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=503163",
+      "published_at": "2026-11-12T02:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T02:00:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "국고채 입찰 담합…15개 금융사에 과징금 1.6조 ‘역대 최대’ - 뉴시안",
+      "url": "https://www.newsian.co.kr/news/articleView.html?idxno=101041",
+      "published_at": "2026-11-11T12:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T12:00:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "부동산 토론회, 민주당 의원들은 청와대 눈치를 봤다: 슬로우레터 11월12일. - 슬로우뉴스.",
+      "url": "https://slownews.kr/169424",
+      "published_at": "2026-11-12T08:03:12+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T08:03:12+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "금투협 \"공정위 국고채 담합 제재 유감…국채 발행 지장 우려\"",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GUGV6U3JwNEh1S2NGNkxhd2xNbHUyeEZ5MGMzb0hJRUZaRGtGUFFMS0dtRkVIZVJ4bXhCWW5JSHNDSTR4YU5FVmtXbGZkNGZ6MmxmWmFDODhOckl4YVZNNnR2R2RLQnk0TlNEVy02OG0?oc=5",
+      "published_at": "2026-11-11T17:41:21+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[국고채 담합 과징금 쇼크] 명백한 담합이라는 공정위…국고 손실 없는데 무슨 담합?이라는 증권사",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OUWllNVBBQXVMRlhuT0x5X2daZnJzcWVJTTVUZzFRcDBPV1ROdm9nR09zakhKWm0zWERVU1p1QlFsWWdVMVk4aFB2WklhQzM3Q0JSWVdQSFXSAVhBVV95cUxNTlFpZTVQQUF1TEZYbk9MeV9nWmZyc3FlSU01VGcxUXAwT1dUTnZvZ0dPc2pISlptM1hEVVNadUJRbFlnVTFZOGhQdlpJYUMzN0NCUllXUEhV?oc=5",
+      "published_at": "2026-11-11T18:21:04+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[채권-마감] 美 금리 급등·공정위 PD 담합 제재 여파…3년물 9.6bp↑",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLeFJTLWlRc3hYbjdydTVxeWZsaTFzNGRiTGRwclJ2akF2azdtRXJXMy15NWN6SnBxUmZOT3NScm85eWd0bFpqU3ZEcDdZVkRhT2tGWTJmaUNraHR2d2t6MHB0QWxEdFh5SFBjTDdWdno?oc=5",
+      "published_at": "2026-11-11T19:08:09+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    }
+  ],
+  "articles": [
+    {
+      "title": "메리츠금융 “중장기 주식투자 확대 이어갈 것”",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=315171",
+      "source": "스트레이트뉴스",
+      "published_at": "2026-11-11T18:18:13+09:00",
+      "snippet": "자동차보험 역시 고 유가 에 따른 차량 운행량 및 사고율 감소 등의 영향으로 흑자 기조를 이어갔다. 3분기 말 자산운용 투자이익률은 5.0%, 잠정... 안다\"며, \"그러나 담합 에 해당하는 직접적인 증거가 충분하지 않으며 당사는 담합 행위 자체를 인정하지 않는 입장이라 행정소송을 통해 다툴 예정\"이라고 선을...",
+      "collected_at": "2026-11-12T08:22:03.253067+09:00",
+      "normalized_title": "메리츠금융 “중장기 주식투자 확대 이어갈 것”",
+      "source_normalized": "스트레이트뉴스",
+      "duplicate_key": "스트레이트뉴스::메리츠금융 “중장기 주식투자 확대 이어갈 것”",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.straightnews.co.kr/news/articleView.html?idxno=315171",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-11T18:18:13+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "cc3d5a8a9fe3113f",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "summary": "수집 기사 1건, 발행사 본문·최초시각 확인 0건, 미확인 1건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 74,
+    "exclusions": [
+      {
+        "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611111308035910581",
+        "title": "[정유 피크아웃] ②최고가격제 손실보전 첫정산 앞두고 기준 산정ㆍ국회 반기ㆍ소송전까지 ‘진통’",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.edaily.co.kr/News/Read?newsId=06369766645644736&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "title": "[미리보는 이데일리 신문]알바인 줄 알았더니, 2030 사장님",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://www.impacton.net/news/articleView.html?idxno=30638",
+        "title": "KCGS 작년 A+ 19곳 중 10곳 강등…POSCO홀딩스·삼성물산·하나금융도 - IMPACT ON(임팩트온)",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.impacton.net/news/articleView.html?idxno=30629",
+        "title": "한국ESG기준원 2026 ESG 등급…사회 A+ 38곳 늘 때 환경 A+는 5곳 줄어 - IMPACT ON(임팩트온)",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=882102",
+        "title": "한미반도체 등 ESG D등급…상장사 213곳 '낙제점'",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444135",
+        "title": "[남승표의 궁변통구] 젠슨 황의 T5T와 '약한 신호'",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=881979",
+        "title": "한솔제지 장항공장서 근로자 사망…'경위·원인 파악중'",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451675",
+        "title": "[Who Is ?] 한경록 한솔제지 대표이사",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611111232255640574",
+        "title": "[정유 피크아웃] ③역대급 성적 찍은 정유사…가격 투명성ㆍ상생 행보ㆍ고객 신뢰 다지기",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsN1FMdFlHeEl6b3N1OEVaMEZoNUJ2MjNET2gwSUJTd2Y5bUFtYVlSQWlkeE9IOTItUzV1LWJseWtnTzh1bTVZWFJKMGJNUFM1TTNoMDVBTjg?oc=5",
+        "title": "5% 반등한 SK하이닉스, 외국인도 쓸어 담았다고?",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://www.yna.co.kr/view/AKR20261112020500011?input=1195m",
+        "title": "[전국 주요 신문 사설](12일 조간)",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.segye.com/newsView/20261111518496?OutUrl=naver",
+        "title": "국고채 입찰 150건 담합…1조6000억 과징금 철퇴外 [한강로 경제브리핑]",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=503163",
+        "title": "[데스크칼럼] 부자 나라, 가난한 국민",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.newsian.co.kr/news/articleView.html?idxno=101041",
+        "title": "국고채 입찰 담합…15개 금융사에 과징금 1.6조 ‘역대 최대’ - 뉴시안",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://slownews.kr/169424",
+        "title": "부동산 토론회, 민주당 의원들은 청와대 눈치를 봤다: 슬로우레터 11월12일. - 슬로우뉴스.",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GUGV6U3JwNEh1S2NGNkxhd2xNbHUyeEZ5MGMzb0hJRUZaRGtGUFFMS0dtRkVIZVJ4bXhCWW5JSHNDSTR4YU5FVmtXbGZkNGZ6MmxmWmFDODhOckl4YVZNNnR2R2RLQnk0TlNEVy02OG0?oc=5",
+        "title": "금투협 \"공정위 국고채 담합 제재 유감…국채 발행 지장 우려\"",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OUWllNVBBQXVMRlhuT0x5X2daZnJzcWVJTTVUZzFRcDBPV1ROdm9nR09zakhKWm0zWERVU1p1QlFsWWdVMVk4aFB2WklhQzM3Q0JSWVdQSFXSAVhBVV95cUxNTlFpZTVQQUF1TEZYbk9MeV9nWmZyc3FlSU01VGcxUXAwT1dUTnZvZ0dPc2pISlptM1hEVVNadUJRbFlnVTFZOGhQdlpJYUMzN0NCUllXUEhV?oc=5",
+        "title": "[국고채 담합 과징금 쇼크] 명백한 담합이라는 공정위…국고 손실 없는데 무슨 담합?이라는 증권사",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLeFJTLWlRc3hYbjdydTVxeWZsaTFzNGRiTGRwclJ2akF2azdtRXJXMy15NWN6SnBxUmZOT3NScm85eWd0bFpqU3ZEcDdZVkRhT2tGWTJmaUNraHR2d2t6MHB0QWxEdFh5SFBjTDdWdno?oc=5",
+        "title": "[채권-마감] 美 금리 급등·공정위 PD 담합 제재 여파…3년물 9.6bp↑",
+        "reason": "duplicate_or_quality_exclusion"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-12T08:22:01.697017+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}

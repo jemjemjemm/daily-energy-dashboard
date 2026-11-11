@@ -1,6 +1,6 @@
 {
   "schema_version": "1.3",
-  "updated_at": "2026-11-11 08:08:17 KST",
+  "updated_at": "2026-11-12 08:14:57 KST",
   "unit": "$/Bbl",
   "period": {
     "start": "2026-01-01",
@@ -1085,6 +1085,11 @@
       "Dubai": 0.0,
       "Brent": 92.57,
       "WTI": 86.85
+    },
+    "2026-11-10": {
+      "Dubai": 87.82,
+      "Brent": 91.49,
+      "WTI": 86.04
     }
   },
   "products": {
@@ -2127,6 +2132,11 @@
       "Gasoline_92RON": 109.89,
       "Diesel_0.001": 161.83,
       "Naphtha": 99.47
+    },
+    "2026-11-10": {
+      "Gasoline_92RON": 101.06,
+      "Diesel_0.001": 149.27,
+      "Naphtha": 92.01
     }
   }
 }
