@@ -23,18 +23,18 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 26,
-  "total_enriched_input_count": 9,
-  "total_in_period_unique_count": 7,
-  "total_unknown_time_count": 0,
+  "total_enriched_input_count": 35,
+  "total_in_period_unique_count": 32,
+  "total_unknown_time_count": 2,
   "total_outside_period_count": 1,
-  "total_deduped_count": 6,
-  "total_ok_count": 2,
-  "total_review_count": 4,
-  "total_excluded_count": 1,
+  "total_deduped_count": 24,
+  "total_ok_count": 12,
+  "total_review_count": 12,
+  "total_excluded_count": 9,
   "grade_counts": {
-    "A": 0,
-    "B": 1,
-    "C": 5
+    "A": 6,
+    "B": 2,
+    "C": 16
   },
   "portal_counts": {
     "naver": 16,
@@ -129,253 +129,582 @@
   ],
   "articles": [
     {
-      "title": "[남승표의 궁변통구] 젠슨 황의 T5T와 '약한 신호'",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444135",
-      "source": "연합인포맥스",
-      "published_at": "2026-11-11T10:15:54+09:00",
-      "snippet": "크게는 지난 4월 미국과 이란 전쟁 이후 치솟은 국제 유가 충격을 최고가격제 시행을 통해 안정적으로 관리하고 있으며 설탕, 밀가루, 전분당, 계란 등 민생 물가에 대한 전방위 단속으로 관행이라는 이름 하에 저질러지던 사업자의 담합 행위도 하나씩 부러뜨리고 있다. 라면값과 고속도로...",
-      "collected_at": "2026-11-11T17:20:40.331394+09:00",
-      "normalized_title": "[남승표의 궁변통구] 젠슨 황의 T5T와 '약한 신호'",
-      "source_normalized": "연합인포맥스",
-      "duplicate_key": "연합인포맥스::[남승표의 궁변통구] 젠슨 황의 t5t와 '약한 신호'",
-      "portals": [
-        "naver",
-        "daum"
-      ],
-      "queries": [
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444135",
-      "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-11-11T10:15:54+09:00",
+      "title": "석유 최고가격제 8개월째…몰려오는 청구서에 유가 통제 풀리나",
+      "source": "아시아타임즈",
+      "url": "https://www.asiatime.co.kr/article/20261111500261",
+      "published_at": "2026-11-11T14:14:00+09:00",
       "verified": false,
-      "verification_reason": "원문 본문 또는 최초시각 미확인",
-      "id": "b81610209cdd066e",
+      "time_evidence": "검색 또는 포털 표기시각; 발행사 본문·최초시각 미확인",
+      "snippet": "아시아타임즈 3시간 전 석유 최고가격제 8개월째…몰려오는 청구서에 유가 통제 풀리나 예산결산특별위원회 전체회의에서 질의를 듣고 있다. (사진= 연합뉴스 ) 최고가격제 장기화에 따른 재정 부담도 정부의 정책 결정을...최고가격제 시행 이후 첫 손실정산 결과가 나올 전망이다. 산업부 는 지난 3월 13일부터 6월 30일까지 발생한 정유사 손실에 대한...",
+      "queries": [
+        "연합뉴스 산업부"
+      ],
+      "summary": "석유 최고가격제 8개월째…몰려오는 청구서에 유가 통제 풀리나",
+      "id": "851943eeeaf123c6",
+      "canonical_url": "https://www.asiatime.co.kr/article/20261111500261",
+      "source_normalized": "아시아타임즈",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 본문·최초시각 미확인"
+    },
+    {
+      "title": "휘발유 15%, 경유 25%, 부탄 25%…유류세 한시적 인하 내년 1월 31일까지 연장",
+      "source": "경기일보",
+      "url": "https://v.daum.net/v/20261111162835440",
+      "published_at": "2026-11-11T16:28:35+09:00",
+      "verified": false,
+      "time_evidence": "검색 또는 포털 표기시각; 발행사 본문·최초시각 미확인",
+      "snippet": "경기일보 55분 전 다음뉴스 휘발유 15%, 경유 25%, 부탄 25%…유류세 한시적 인하 내년 1월 31일까지 연장 기사의 이해를 돕기 위해 사용된 이미지로 직접적 연관은 없습니다. 서울의 한 주유소 모습. 연합뉴스 이달 말 종료 예정인 유류세 한시적 인하 조치가 2개월 연장된다. 재정경제부는 11일 이형일 부총리 겸 재경부 장관 주재로 열린 비상경제장관회의에서 중동전쟁...",
+      "queries": [
+        "연합뉴스 재경부"
+      ],
+      "summary": "휘발유 15%, 경유 25%, 부탄 25%…유류세 한시적 인하 내년 1월 31일까지 연장",
+      "id": "689bbf505f7cfc31",
+      "canonical_url": "https://v.daum.net/v/20261111162835440",
+      "source_normalized": "경기일보",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 본문·최초시각 미확인"
+    },
+    {
+      "title": "유류세 인하 내년 1월까지 2개월 연장…\"유류비 부담 경감\" - 매일일보",
+      "source": "매일일보",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2017381",
+      "published_at": "2026-11-11T16:15:43+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T16:15:43+09:00; 원문 본문 대조",
+      "snippet": "매일일보 1시간 전 유류세 인하 내년 1월까지 2개월 연장…\"유류비 부담 경감\" 매일일보 = 이상래 기자 | 정부는 이달 말 종료 예정인 유류세 한시적 인하 조치를 2개월 연장한다. 연합뉴스에 따르면 재정경제부는 11일 이형일 부총리 겸 재경부 장관 주재로 열린 비상경제장관회의에서 중동전쟁 불확실성과 고유가 상황에서 국민 유류비 부담을...",
+      "queries": [
+        "유류세"
+      ],
+      "summary": "유류세 인하 내년 1월까지 2개월 연장…\"유류비 부담 경감\" - 매일일보",
+      "id": "e1451fa8ffd949c0",
+      "canonical_url": "https://www.m-i.kr/news/articleView.html?idxno=2017381",
+      "source_normalized": "매일일보",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "유류세 인하 조치 2개월 연장... 세수 약 8000억원 감소 추정",
+      "source": "투데이에너지",
+      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=305418",
+      "published_at": "2026-11-11T16:48:38+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T16:48:38+09:00; 원문 본문 대조",
+      "snippet": "투데이에너지 35분 전 유류세 인하 조치 2개월 연장... 세수 약 8000억원 감소 추정 [투데이에너지 신영균 기자] 정부가 이달 말 종료 예정인 휘발유·경유·LPG 부탄에 대한 유류세 인하 조치를 내년 1월 31일까지 2개월 연장한다고 밝혔다. 이는 중동 전쟁이 장기화되는 상황에서 국민 유류비 부담을 경감하기 위한 조치다. 이형일 부총리 겸 재정...",
+      "queries": [
+        "유류세"
+      ],
+      "summary": "유류세 인하 조치 2개월 연장... 세수 약 8000억원 감소 추정",
+      "id": "abf114d7827e2920",
+      "canonical_url": "https://www.todayenergy.kr/news/articleView.html?idxno=305418",
+      "source_normalized": "투데이에너지",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "정부는 원가, 업계는 국제시세⋯석유 최고 가격제 첫 정산 에 쏠린 눈",
+      "source": "브릿지경제",
+      "url": "https://v.daum.net/v/20261111162210108",
+      "published_at": "2026-11-11T16:22:10+09:00",
+      "verified": false,
+      "time_evidence": "검색 또는 포털 표기시각; 발행사 본문·최초시각 미확인",
+      "snippet": "브릿지경제 1시간 전 다음뉴스 정부는 원가, 업계는 국제시세⋯석유 최고 가격제 첫 정산 에 쏠린 눈 자료사진. 연합제공. 석유 최고 가격제 시행이 8개월째에 접어든 가운데 정유업계의 손실 정산 문제가 첫 분수령을 목전에 두고 있다. 이달 말 첫 정산액 산정을 앞두고 정부가 원가 중심의 보상 원칙을 확정하자 정유업계는 실제 발생한 손실 규모를 얼마나 보전해...",
+      "queries": [
+        "최고가격제 손실보상 정산"
+      ],
+      "summary": "정부는 원가, 업계는 국제시세⋯석유 최고 가격제 첫 정산 에 쏠린 눈",
+      "id": "751db56e8502f225",
+      "canonical_url": "https://v.daum.net/v/20261111162210108",
+      "source_normalized": "브릿지경제",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 본문·최초시각 미확인"
+    },
+    {
+      "title": "석유최고가격제 강행하더니 보상은 나 몰라라 … 정부 갑질에 정유사 피해 '눈덩이'",
+      "source": "뉴데일리",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/11/2026111100101.html",
+      "published_at": "2026-11-11T10:36:00+09:00",
+      "verified": false,
+      "time_evidence": "검색 또는 포털 표기시각; 발행사 본문·최초시각 미확인",
+      "snippet": "뉴데일리 6시간 전 석유 최고 가격제 강행하더니 보상 은 나 몰라라 … 정부 갑질에 정유사 피해 '눈덩이' 공급분은 최고 가격제 시행 이전 거래여서 정부의 손실 보전 대상에서도 제외된다. 소송 결과에 따라 대금 반환 부담까지 떠안을 가능성...에쓰오일, HD현대오일뱅크 등 정유 4사와 알뜰주유소 업계 간 정산 대금 격차는 약 1600억원으로 추정된다. 다른 정유사를 상대...",
+      "queries": [
+        "최고가격제 손실보상 정산"
+      ],
+      "summary": "석유최고가격제 강행하더니 보상은 나 몰라라 … 정부 갑질에 정유사 피해 '눈덩이'",
+      "id": "d807c68923d9a6ce",
+      "canonical_url": "https://biz.newdaily.co.kr/site/data/html/2026/11/11/2026111100101.html",
+      "source_normalized": "뉴데일리",
       "grade": "B",
       "published_at_status": "known",
       "matched_keywords": [
-        "유가",
-        "담합"
+        "유가·석유 직접 관련성 검토"
       ],
       "quality_status": "review",
       "status_label": "원문 미확인",
-      "status_reason": "원문 본문 또는 최초시각 미확인"
+      "status_reason": "발행사 본문·최초시각 미확인"
     },
     {
-      "title": "[현장]GS칼텍스, ‘기름값 인하’ 주유소에 폭등 유가 떠넘겼다 줄소송 피소 - 알파경제",
-      "url": "https://cp.news.search.daum.net/p/184137729",
-      "source": "알파경제",
-      "published_at": "2026-11-11T09:04:54+09:00",
-      "snippet": "1~12일 공급 물량에서 터졌다. <2026년 10월 7일자 \"4년 동안 44조 원대 가격 짬짜미\"…SK에너지·HD현대오일뱅크, 공정위 제재안...차감했다. 도로공사와 주유소 측은 국가적 비상 상황에서 정유 대기업이 평시 계약을 기계적으로 적용해 일선 운영사에 위험을 전가...",
-      "collected_at": "2026-11-11T17:21:23.583358+09:00",
-      "normalized_title": "[현장]GS칼텍스, ‘기름값 인하’ 주유소에 폭등 유가 떠넘겼다 줄소송 피소 - 알파경제",
-      "source_normalized": "알파경제",
-      "duplicate_key": "알파경제::[현장]gs칼텍스, ‘기름값 인하’ 주유소에 폭등 유가 떠넘겼다 줄소송 피소 - 알파경제",
-      "portals": [
-        "daum"
-      ],
-      "queries": [
-        "유가 짬짜미",
-        "정유 44조"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://cp.news.search.daum.net/p/184137729",
-      "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-11-11T09:04:54+09:00",
+      "title": "한국석유공사, 동해 심해 탐사사업 투자 유치 BP와 협상 진행 중… \"이달 계약 확정 아냐\"",
+      "source": "아시아경제",
+      "url": "https://v.daum.net/v/20261111120308882",
+      "published_at": "2026-11-11T12:03:08+09:00",
       "verified": false,
-      "verification_reason": "원문 본문 또는 최초시각 미확인",
-      "id": "26fb5d6ab67f01c8",
-      "grade": "C",
+      "time_evidence": "검색 또는 포털 표기시각; 발행사 본문·최초시각 미확인",
+      "snippet": "아시아경제 5시간 전 다음뉴스 한국석유공사, 동해 심해 탐사사업 투자 유치 BP와 협상 진행 중… \"이달 계약 확정 아냐\" 위험 부담을 낮추기 위해 글로벌 에너지 기업의 지분 투자 유치가 필수적이다. 정부 와 석유공사는 복수의 글로벌 기업과 접촉해 BP를...이달 말 계약 체결은 예정돼 있지 않다\"라고 말했다. 대왕 고래 프로젝트의 핵심은 결국 막대한 시추 비용을 함께 부담할 '오일...",
+      "queries": [
+        "대왕고래 지분투자 정부"
+      ],
+      "summary": "한국석유공사, 동해 심해 탐사사업 투자 유치 BP와 협상 진행 중… \"이달 계약 확정 아냐\"",
+      "id": "8616da148a93dd00",
+      "canonical_url": "https://v.daum.net/v/20261111120308882",
+      "source_normalized": "아시아경제",
+      "grade": "A",
       "published_at_status": "known",
       "matched_keywords": [
-        "유가",
-        "기름값",
-        "주유소",
-        "공정위",
-        "제재"
+        "유가·석유 직접 관련성 검토"
       ],
       "quality_status": "review",
       "status_label": "원문 미확인",
-      "status_reason": "원문 본문 또는 최초시각 미확인"
+      "status_reason": "발행사 본문·최초시각 미확인"
     },
     {
-      "title": "KCGS 작년 A+ 19곳 중 10곳 강등…POSCO홀딩스·삼성물산·하나금융도 - IMPACT ON(임팩트온)",
-      "url": "https://www.impacton.net/news/articleView.html?idxno=30638",
-      "source": "임팩트온",
-      "published_at": "2026-11-11T14:55:13+09:00",
-      "snippet": "지난해 한국ESG기준원(KCGS) 통합 A+ 기업 19곳( 유가 증권시장 기준) 가운데 10곳이 올해 A로 내려왔다. 임팩트온이 KCGS가 11일 공표한 '2026년 ESG 평가 및... CJ제일제당과 삼양사는 담합 3건에 연루됐다. 공정위 는 2월 두 회사와 대한제당의 설탕 가격 담합 에 과징금 4,083억원을 부과했다. 5월에는 두 회사와...",
-      "collected_at": "2026-11-11T17:20:40.328615+09:00",
-      "normalized_title": "KCGS 작년 A+ 19곳 중 10곳 강등…POSCO홀딩스·삼성물산·하나금융도 - IMPACT ON(임팩트온)",
-      "source_normalized": "임팩트온",
-      "duplicate_key": "임팩트온::kcgs 작년 a+ 19곳 중 10곳 강등…posco홀딩스·삼성물산·하나금융도 - impact on(임팩트온)",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "공정위 유가 담합",
-        "석유 담합",
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.impacton.net/news/articleView.html?idxno=30638",
-      "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-11-11T14:55:13+09:00",
+      "title": "한·중·일 석유‧친환경연료 기술 교류…석유관리원, 11~12일 제주서",
+      "source": "에너지신문",
+      "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=229697",
+      "published_at": "2026-11-11T16:04:46+09:00",
       "verified": true,
-      "verification_reason": "발행사 본문·최초시각 확인",
-      "id": "aa26d362dde6b6ba",
+      "time_evidence": "원문 published_time 2026-11-11T16:04:46+09:00; 원문 본문 대조",
+      "snippet": "에너지신문 1시간 전 한·중·일 석유 ‧친환경연료 기술 교류… 석유 관리원, 11~12 제주서 S-OIL, HD현대오일뱅크, 한화토탈에너지스 등 국내 주요 정유 · 석유 화학 기업이 참여해 중국과 일본 정유사 및 석유 업계 전문가를...중국은 액상 탄화수소 분리 기술의 발전과 전망, 탄소 중립 시대의 친환경 연료 기준 공동 개발 및 협력 방안을 발표한다. 일본...",
+      "queries": [
+        "정유 석유화학 탄소"
+      ],
+      "summary": "한·중·일 석유‧친환경연료 기술 교류…석유관리원, 11~12일 제주서",
+      "id": "f372732802252d8b",
+      "canonical_url": "https://www.energy-news.co.kr/news/articleView.html?idxno=229697",
+      "source_normalized": "에너지신문",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
-        "유가",
-        "공정위",
-        "담합",
-        "과징금"
+        "유가·석유 직접 관련성 검토"
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "발행사 본문·최초시각 확인"
     },
     {
-      "title": "한국ESG기준원 2026 ESG 등급…사회 A+ 38곳 늘 때 환경 A+는 5곳 줄어 - IMPACT ON(임팩트온)",
-      "url": "https://www.impacton.net/news/articleView.html?idxno=30629",
-      "source": "임팩트온",
-      "published_at": "2026-11-11T13:31:32+09:00",
-      "snippet": "통합 A+ 17곳…C·D등급 비중 47.2% 유가 증권시장 상장사 794곳 기준 통합등급 A+를 받은 기업은 17곳이다. 지난해 19곳보다 2곳 줄었다. A등급은... KCGS ESG기준위원회는 지난 5일 담합 제재와 산업안전보건 리스크 관리 미흡 등을 반영해 29개사의 등급을 하향 조정했다. 이 가운데 삼양사·현대건설...",
-      "collected_at": "2026-11-11T17:20:40.329570+09:00",
-      "normalized_title": "한국ESG기준원 2026 ESG 등급…사회 A+ 38곳 늘 때 환경 A+는 5곳 줄어 - IMPACT ON(임팩트온)",
-      "source_normalized": "임팩트온",
-      "duplicate_key": "임팩트온::한국esg기준원 2026 esg 등급…사회 a+ 38곳 늘 때 환경 a+는 5곳 줄어 - impact on(임팩트온)",
-      "portals": [
-        "naver"
-      ],
-      "queries": [
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.impacton.net/news/articleView.html?idxno=30629",
-      "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-11-11T13:31:32+09:00",
+      "title": "국제유가 하락에 원유 확보까지…정부, 12차 석유 최고가격 인하할까",
+      "source": "뉴스인",
+      "url": "http://www.newsin.co.kr/news/articleView.html?idxno=134927",
+      "published_at": "2026-11-11T16:35:16+09:00",
       "verified": true,
-      "verification_reason": "발행사 본문·최초시각 확인",
-      "id": "bab46c7a45be2232",
+      "time_evidence": "원문 published_time 2026-11-11T16:35:16+09:00; 원문 본문 대조",
+      "snippet": "뉴스인 48분 전 국제유가 하락에 원유 확보까지…정부, 12차 석유 최고가격 인하할까 정부 재정 여력까지 종합적으로 고려할 것으로 보인다. 석유 최고가격제를 언제 종료할지도 중요한 과제다. 정부는 그동안 호르무즈 해협의 정상적인 통항과 국제유가 안정 등을 제도 종료의 주요 조건으로 제시해 왔다. 하지만 중동 지역의 공급망 불확실성은...",
+      "queries": [
+        "호르무즈"
+      ],
+      "summary": "국제유가 하락에 원유 확보까지…정부, 12차 석유 최고가격 인하할까",
+      "id": "d3d8d4ae1bea20ff",
+      "canonical_url": "http://www.newsin.co.kr/news/articleView.html?idxno=134927",
+      "source_normalized": "뉴스인",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
-        "유가",
-        "담합",
-        "제재"
+        "유가·석유 직접 관련성 검토"
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "발행사 본문·최초시각 확인"
     },
     {
-      "title": "한미반도체 등 ESG D등급…상장사 213곳 '낙제점'",
-      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=882102",
-      "source": "한스경제",
-      "published_at": "2026-11-11T11:04:39+09:00",
-      "snippet": "11일 한국ESG기준원(KCGS)이 발표한 '2026년 ESG 평가 및 등급 부여 현황'에 따르면 유가 증권시장 상장사 794곳 가운데 D등급을 받은 기업은 213곳으로... 담합 행위 제재, 산업안전보건 리스크 관리 미흡, 공정거래위원회 및 증권선물위원회 제재, 횡령·배임 혐의 등이 주요 조정 사유였다. 특히 대한제당은...",
-      "collected_at": "2026-11-11T17:20:40.330486+09:00",
-      "normalized_title": "한미반도체 등 ESG D등급…상장사 213곳 '낙제점'",
-      "source_normalized": "한스경제",
-      "duplicate_key": "한스경제::한미반도체 등 esg d등급…상장사 213곳 '낙제점'",
-      "portals": [
-        "naver",
-        "daum"
-      ],
+      "title": "국제유가, 미·이란 군사충돌 우려 완화에 하락…브렌트유 91달러대 - 폴리뉴스 Polinews",
+      "source": "폴리뉴스",
+      "url": "https://www.polinews.co.kr/news/articleView.html?idxno=748213",
+      "published_at": "2026-11-11T16:34:18+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T16:34:18+09:00; 원문 본문 대조",
+      "snippet": "폴리뉴스 49분 전 국제유가, 미·이란 군사충돌 우려 완화에 하락…브렌트유 91달러대 국제유가가 미국의 대이란 추가 군사작전 가능성이 낮아졌다는 관측에 하락세를 이어갔다. 중동 지역의 원유 공급 차질 우려가 일부 완화되면서 브렌트유와 서부텍사스산 원유 (WTI) 가격이 모두 8월 말 이후 최저 수준으로 내려갔다. 10일(현지시간) 런던 ICE 선물...",
       "queries": [
-        "공정위 유가 담합",
-        "유가 담합",
-        "유가담합"
+        "중동 원유"
       ],
-      "duplicate_count": 0,
-      "canonical_url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=882102",
-      "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-11-11T11:04:39+09:00",
-      "verified": false,
-      "verification_reason": "원문 본문 또는 최초시각 미확인",
-      "id": "436ebf53215351d2",
+      "summary": "국제유가, 미·이란 군사충돌 우려 완화에 하락…브렌트유 91달러대 - 폴리뉴스 Polinews",
+      "id": "509e057ee9248098",
+      "canonical_url": "https://www.polinews.co.kr/news/articleView.html?idxno=748213",
+      "source_normalized": "폴리뉴스",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
-        "유가",
-        "공정거래위원회",
-        "담합",
-        "제재"
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[취재후일담] 공익 앞세운 정부의 기름값 인하…정유사·주유소는 소송전",
+      "source": "아시아투데이",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261111010004324",
+      "published_at": "2026-11-11T16:33:01+09:00",
+      "verified": false,
+      "time_evidence": "검색 또는 포털 표기시각; 발행사 본문·최초시각 미확인",
+      "snippet": "아시아투데이 50분 전 [취재후일담] 공익 앞세운 정부의 기름값 인하…정유사·주유소는 소송전 국제 유가 가 반영됐기 때문입니다. 가격 인하를 독려할 때는 '공익'을 내세웠던 정부가 정산 문제가 불거지자 '사적 계약'이라며 선을 긋고 있습니다. 가격에는 개입하면서 그에 따른 비용은 민간이 책임지라는 것입니다.지난 3월 정부는 정유사의 석유제품 공급가격...",
+      "queries": [
+        "유가 정유"
+      ],
+      "summary": "[취재후일담] 공익 앞세운 정부의 기름값 인하…정유사·주유소는 소송전",
+      "id": "959fd9e0cb197b4a",
+      "canonical_url": "https://www.asiatoday.co.kr/kn/view.php?key=20261111010004324",
+      "source_normalized": "아시아투데이",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
       ],
       "quality_status": "review",
       "status_label": "원문 미확인",
-      "status_reason": "원문 본문 또는 최초시각 미확인"
+      "status_reason": "발행사 본문·최초시각 미확인"
     },
     {
-      "title": "한솔제지 장항공장서 근로자 사망…'경위·원인 파악중'",
-      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=881979",
-      "source": "한스경제",
-      "published_at": "2026-11-11T08:31:33+09:00",
-      "snippet": "이번 공시는 유가 증권시장 공시규정 제7조 제1항 제1호 바목에 따른 주요경영사항 보고에 해당한다. 중대재해 처벌 등에 관한 법률 적용 여부와 안전관리... 최근 한경록 한솔제지 대표는 제지사 가격 담합 관련 사안에 대해 재발 방지 대책을 충실히 이행하겠다는 입장을 밝힌 바 있으며, 대전 지역 생산시설...",
-      "collected_at": "2026-11-11T17:20:40.332301+09:00",
-      "normalized_title": "한솔제지 장항공장서 근로자 사망…'경위·원인 파악중'",
-      "source_normalized": "한스경제",
-      "duplicate_key": "한스경제::한솔제지 장항공장서 근로자 사망…'경위·원인 파악중'",
-      "portals": [
-        "naver",
-        "daum"
-      ],
+      "title": "원료 걱정 한숨 돌렸더니…정유·석화 덮친 '유가 급락' - 매일일보",
+      "source": "매일일보",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2017226",
+      "published_at": "2026-11-11T14:00:26+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T14:00:26+09:00; 원문 본문 대조",
+      "snippet": "매일일보 3시간 전 원료 걱정 한숨 돌렸더니… 정유 ·석화 덮친 ' 유가 급락' 긴장 완화 기대가 반영되면서 중동 전쟁 이후 유가 상승을 부추겼던 공급 불안이 일부 누그러진 영향으로 풀이된다. 정유 업계에서는 유가 하락에 따른 재고평가손실과 정제마진 축소 가능성을 우려하고 있다. 정유사는 원유를 구매한 뒤 운송과 정제 과정을 거쳐...",
       "queries": [
-        "유가 담합",
-        "유가담합"
+        "유가 정유"
       ],
-      "duplicate_count": 0,
-      "canonical_url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=881979",
-      "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-11-11T08:31:33+09:00",
-      "verified": false,
-      "verification_reason": "원문 본문 또는 최초시각 미확인",
-      "id": "5dc29040b2b5cd23",
+      "summary": "원료 걱정 한숨 돌렸더니…정유·석화 덮친 '유가 급락' - 매일일보",
+      "id": "e92ae953d97f7d32",
+      "canonical_url": "https://www.m-i.kr/news/articleView.html?idxno=2017226",
+      "source_normalized": "매일일보",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
-        "유가",
-        "담합"
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "두바이유 80달러대인데 통제는 그대로…정유사 '삼중 청구서'",
+      "source": "MTN 머니투데이방송",
+      "url": "https://v.daum.net/v/20261111135700020",
+      "published_at": "2026-11-11T13:57:00+09:00",
+      "verified": false,
+      "time_evidence": "검색 또는 포털 표기시각; 발행사 본문·최초시각 미확인",
+      "snippet": "MTN 머니투데이방송 3시간 전 다음뉴스 두바이유 80달러대인데 통제는 그대로…정유사 '삼중 청구서' 판매가격은 반년 가까이 매주 내림세를 이어가고 있지만 소비자가 체감할 만한 수준은 아니라는 기류가 읽힌다. 한 정유 업계 관계자는 \" 유가 가 내려오면 통제를 풀 명분이 생길 거라 기대했는데 오히려 유류세와 함께 연장 분위기로 흘러가고 있다\"며 \"정산 결과가...",
+      "queries": [
+        "유가 정유"
+      ],
+      "summary": "두바이유 80달러대인데 통제는 그대로…정유사 '삼중 청구서'",
+      "id": "a7762f907cac8c3b",
+      "canonical_url": "https://v.daum.net/v/20261111135700020",
+      "source_normalized": "MTN 머니투데이방송",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
       ],
       "quality_status": "review",
       "status_label": "원문 미확인",
-      "status_reason": "원문 본문 또는 최초시각 미확인"
+      "status_reason": "발행사 본문·최초시각 미확인"
+    },
+    {
+      "title": "유가 하락에도 유류세 인하 2개월 연장",
+      "source": "중소기업신문",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=366024",
+      "published_at": "2026-11-11T11:28:32+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T11:28:32+09:00; 원문 본문 대조",
+      "snippet": "중소기업신문 5시간 전 유가 하락에도 유류세 인하 2개월 연장 기준을 내세우고, 정유업계는 싱가포르 국제 석유 제품 가격(MOPS)과의 차액에 수출 제한에 따른 기회비용까지 반영해야 한다고 주장...올해 손실보전용으로 편성한 목적예비비는 4조 2000억 원이다. 경유 화물차와 부탄 소형 트럭을 쓰는 영세 운송업체와 소상공인...",
+      "queries": [
+        "석유 경유 수출"
+      ],
+      "summary": "유가 하락에도 유류세 인하 2개월 연장",
+      "id": "f3ac0064299eb6f5",
+      "canonical_url": "http://www.smedaily.co.kr/news/articleView.html?idxno=366024",
+      "source_normalized": "중소기업신문",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "유류세 인하 내년 1월까지 두 달 더",
+      "source": "에너지경제",
+      "url": "https://v.daum.net/v/20261111103129414",
+      "published_at": "2026-11-11T10:31:29+09:00",
+      "verified": false,
+      "time_evidence": "검색 또는 포털 표기시각; 발행사 본문·최초시각 미확인",
+      "snippet": "에너지경제 PICK 6시간 전 다음뉴스 2 유류세 인하 내년 1월까지 두 달 더 필수적인 경유 와 소형트럭 등 서민 연료로 활용되는 부탄에 대해 상대적으로 높은 인하폭을 유지한다는 방침이다. 최근 중동 전쟁...2% 후반대 상승률이 이어지는 가운데 10월 2.8%로 올랐다. 특히 석유 류 가격이 14.9% 급등했다. 정부는 향후 '교통·에너지·환경세...",
+      "queries": [
+        "석유 경유 수출"
+      ],
+      "summary": "유류세 인하 내년 1월까지 두 달 더",
+      "id": "3d2762d56bbc5f91",
+      "canonical_url": "https://v.daum.net/v/20261111103129414",
+      "source_normalized": "에너지경제",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 본문·최초시각 미확인"
+    },
+    {
+      "title": "전쟁 덕 정유 4사 3분기 총 영업익 6조… \"손실보전은 별개 문제\"",
+      "source": "한국일보",
+      "url": "https://v.daum.net/v/20261111100145872",
+      "published_at": "2026-11-11T10:01:45+09:00",
+      "verified": false,
+      "time_evidence": "검색 또는 포털 표기시각; 발행사 본문·최초시각 미확인",
+      "snippet": "한국일보 7시간 전 다음뉴스 4 전쟁 덕 정유 4사 3분기 총 영업익 6조… \"손실보전은 별개 문제\" 2022년 연간 영업이익을 이미 웃돈다. 기록적인 실적은 높은 정제마진 덕이다. 중동 정유설비 가동 차질과 러시아의 경유 수출 제한 등으로 석유 제품 공급이 줄면서 정제마진이 높은 수준에서 유지됐다. 4분기에도 호조는 이어질 전망이다. 업계 관계자는 \"동절기가...",
+      "queries": [
+        "석유 경유 수출"
+      ],
+      "summary": "전쟁 덕 정유 4사 3분기 총 영업익 6조… \"손실보전은 별개 문제\"",
+      "id": "e242121108459b5b",
+      "canonical_url": "https://v.daum.net/v/20261111100145872",
+      "source_normalized": "한국일보",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 본문·최초시각 미확인"
+    },
+    {
+      "title": "유류세 인하 내년 1월까지 2개월 연장…“유류비 부담 경감 차원”",
+      "source": "조선일보",
+      "url": "https://v.daum.net/v/20261111091630391",
+      "published_at": "2026-11-11T09:16:30+09:00",
+      "verified": false,
+      "time_evidence": "검색 또는 포털 표기시각; 발행사 본문·최초시각 미확인",
+      "snippet": "조선일보 8시간 전 다음뉴스 1 유류세 인하 내년 1월까지 2개월 연장…“유류비 부담 경감 차원” 한국 석유 공사 유가정보시스템 오피넷에 따르면 11월 첫째 주 전국 주유소 휘발유 평균 판매 가격은 리터당 1855.4원으로 전주보다 0.3...이에 따라 현재와 마찬가지로 유종별로 휘발유 15%, 경유 25%, 부탄 25%의 인하율이 내년 1월 31일까지 적용된다. 리터(L)당...",
+      "queries": [
+        "석유 경유 수출"
+      ],
+      "summary": "유류세 인하 내년 1월까지 2개월 연장…“유류비 부담 경감 차원”",
+      "id": "b7f4dffcfc36608e",
+      "canonical_url": "https://v.daum.net/v/20261111091630391",
+      "source_normalized": "조선일보",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 본문·최초시각 미확인"
+    },
+    {
+      "title": "원유 수급 안정세에도 기름값 부담 여전…12차 최고가격제 향방은",
+      "source": "뉴시스",
+      "url": "https://v.daum.net/v/20261111160129021",
+      "published_at": "2026-11-11T16:01:29+09:00",
+      "verified": false,
+      "time_evidence": "검색 또는 포털 표기시각; 발행사 본문·최초시각 미확인",
+      "snippet": "뉴시스 1시간 전 다음뉴스 3 원유 수급 안정세에도 기름값 부담 여전…12차 최고가격제 향방은 정산액을 통보할 전망이다. 재정 부담이 커질 수 있다는 점에서 최고가격제를 언제 종료할지도 주요 쟁점이다. 정부는 그동안 호르무즈 해협 통항 정상화와 국제유가 안정 등을 제도 종료를 위한 주요 조건으로 제시해 왔다. 그러나 영국 해사무역기구(UKMTO)에...",
+      "queries": [
+        "호르무즈"
+      ],
+      "summary": "원유 수급 안정세에도 기름값 부담 여전…12차 최고가격제 향방은",
+      "id": "1514cf1e7d271050",
+      "canonical_url": "https://v.daum.net/v/20261111160129021",
+      "source_normalized": "뉴시스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 본문·최초시각 미확인"
+    },
+    {
+      "title": "유류세 인하 내년 1월까지 연장… 고유가 부담 완화 조치",
+      "source": "천지일보",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3447854",
+      "published_at": "2026-11-11T15:53:41+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T15:53:41+09:00; 원문 본문 대조",
+      "snippet": "천지일보 1시간 전 유류세 인하 내년 1월까지 연장… 고유가 부담 완화 조치 [천지일보=정다준 기자] 정부가 이달 말 종료 예정이던 유류세 인하 조치를 내년 1월 31일까지 2개월 연장한다. 중동 정세 불확실성과 고유가가 이어지는 가운데 국민의 유류비 부담을 낮추기 위한 조치다. 재정경제부는 11일 이형일 부총리 겸 재경부 장관 주재로...",
+      "queries": [
+        "유류세"
+      ],
+      "summary": "유류세 인하 내년 1월까지 연장… 고유가 부담 완화 조치",
+      "id": "601b9a358a202411",
+      "canonical_url": "https://www.newscj.com/news/articleView.html?idxno=3447854",
+      "source_normalized": "천지일보",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "유류세 인하 2개월 연장…휘발유 15%·경유 25% 인하 유지",
+      "source": "정책브리핑",
+      "url": "https://v.daum.net/v/20261111152027721",
+      "published_at": "2026-11-11T15:20:27+09:00",
+      "verified": false,
+      "time_evidence": "검색 또는 포털 표기시각; 발행사 본문·최초시각 미확인",
+      "snippet": "정책브리핑 2시간 전 다음뉴스 유류세 인하 2개월 연장…휘발유 15%·경유 25% 인하 유지 [재정경제부] 정부가 국민 유류비 부담 완화를 위해 현재 시행 중인 수송용 유류세 인하 조치를 내년 1월 31일까지 2개월 연장한다. 정부는 중동전쟁을 둘러싼 불확실성과 고유가 상황이 지속되는 가운데 국민의 유류비 부담을 덜고, 향후 국제유가 변동성 확대에도...",
+      "queries": [
+        "유류세"
+      ],
+      "summary": "유류세 인하 2개월 연장…휘발유 15%·경유 25% 인하 유지",
+      "id": "8d214e5537b01d6b",
+      "canonical_url": "https://v.daum.net/v/20261111152027721",
+      "source_normalized": "정책브리핑",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 본문·최초시각 미확인"
+    },
+    {
+      "title": "유류세 인하 내년 1월 말까지 연장…내년 성장전략에 양극화 완화 대책",
+      "source": "세계비즈",
+      "url": "http://www.segyebiz.com/newsView/20261111512105",
+      "published_at": "2026-11-11T14:49:24+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-11 14:49:24; 원문 본문 대조",
+      "snippet": "세계비즈 2시간 전 유류세 인하 내년 1월 말까지 연장…내년 성장전략에 양극화 완화 대책 11일 오전 서울 종로구 정부서울청사에서 열린 비상경제장관회의에서 발언하고 있다. 뉴시스 정부가 이달 말 종료 예정인 수송용 유류세 인하 조치를 내년 1월 31일까지 두 달 연장한다. 인하율은 휘발유 15%, 경유·부탄 각각 25%로 유지한다. 12월 발표할 내년도...",
+      "queries": [
+        "유류세"
+      ],
+      "summary": "유류세 인하 내년 1월 말까지 연장…내년 성장전략에 양극화 완화 대책",
+      "id": "f5ea6a2aaed0fe17",
+      "canonical_url": "http://www.segyebiz.com/newsView/20261111512105",
+      "source_normalized": "세계비즈",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "유류세 인하 내년 1월까지 2개월 연장…휘발유 15%·경유 25% 인하 유지 - 日刊 NTN(국세신문사)",
+      "source": "일간NTN",
+      "url": "https://www.intn.co.kr/news/articleView.html?idxno=3000142",
+      "published_at": "2026-11-11T14:03:29+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T14:03:29+09:00; 원문 본문 대조",
+      "snippet": "일간NTN 3시간 전 유류세 인하 내년 1월까지 2개월 연장…휘발유 15%·경유 25% 인하 유지 정부가 이달 말 종료 예정인 유류세 한시적 인하 조치를 내년 1월 31일까지 2개월 연장한다. 중동전쟁에 따른 불확실성과 고유가 상황이 이어지는 가운데 국민들의 유류비 부담을 완화하기 위한 조치다. 재정경제부는 11일 이형일 부총리 겸 재정경제부 장관 주재로...",
+      "queries": [
+        "유류세"
+      ],
+      "summary": "유류세 인하 내년 1월까지 2개월 연장…휘발유 15%·경유 25% 인하 유지 - 日刊 NTN(국세신문사)",
+      "id": "092c4b917e37150f",
+      "canonical_url": "https://www.intn.co.kr/news/articleView.html?idxno=3000142",
+      "source_normalized": "일간NTN",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "유류세 인하 내년 1월까지 2개월 연장…\"유류비 부담 경감\"",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261110161900002",
+      "published_at": "2026-11-11T09:00:05+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T09:00:05+09:00; 원문 본문 직접 대조",
+      "summary": "휘발유 15%·경유·부탄 25% 유류세 인하 내년 1월 말까지 연장",
+      "source_body_sha256": "28ab2170d5437fe5f5bcb3c4f313d274edf603dbdf7e73acfa20f611152f7e7d",
+      "id": "730618b486166efc",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261110161900002",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "우크라 드론 공세에 러 정유능력 30% 타격…연료난 가중",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261111025700009",
+      "published_at": "2026-11-11T08:25:26+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-11T08:25:26+09:00; 원문 본문 직접 대조",
+      "summary": "우크라이나 공격에 러시아 정유능력 약 30% 해당 시설 영향 및 실제 처리량 감소 추정",
+      "source_body_sha256": "0c7303ca9f1ba1800e33ccaa0f4e1161a1aa8700d5a89bdd56b0f32bcbcb669b",
+      "id": "c231290972513285",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261111025700009",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
     }
   ],
-  "summary": "수집 기사 6건, 발행사 본문·최초시각 확인 2건, 미확인 4건 구분",
-  "editorial_audit": {
-    "method": "automated-source-audit",
-    "raw_result_count": 26,
-    "exclusions": [
-      {
-        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451675",
-        "title": "[Who Is ?] 한경록 한솔제지 대표이사",
-        "reason": "outside_period"
-      },
-      {
-        "url": "https://www.newsian.co.kr/news/articleView.html?idxno=101041",
-        "title": "국고채 입찰 담합…15개 금융사에 과징금 1.6조 ‘역대 최대’ - 뉴시안",
-        "reason": "duplicate_or_quality_exclusion"
-      }
-    ],
-    "collection_warnings": [
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "전체 검색",
-        "message": "public search coverage limit",
-        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
-        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-        "created_at": "2026-11-11T17:20:39.063408+09:00"
-      }
-    ],
-    "limitations": [
-      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
-    ]
-  }
+  "summary": "유류세 인하 2개월 연장·최고가격제 정산 갈등 및 러시아 정유시설 피해 모니터링",
+  "editorial_audit": "data/reviews/2026-11-11-evening.audit.json",
+  "supplemental_raw_search_result_count": 171,
+  "coverage_note": "자동 원수집 26건 및 추가검색 171건 전체 별도 보존. 원문·최초시각 확인 12건, 미확인 12건 구분. 공개검색 노출·원문 접근 제한 존재.",
+  "editorial_decisions": [
+    "동일 매체·정규화 제목만 병합; 다른 매체 동일사안 보존",
+    "비공개 정산액·공문·회신 추정 없음"
+  ]
 }

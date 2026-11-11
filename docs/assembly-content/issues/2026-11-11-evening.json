@@ -3,15 +3,19 @@
   "slot": "evening",
   "status": "published",
   "period": "수집 기간: 2026-11-11 08:00 ~ 2026-11-11 17:00 (KST)",
-  "published_at": "2026-11-11T17:20:38+09:00",
+  "published_at": "2026-11-11T17:28:43+09:00",
   "committees": [
     {
       "id": "industry",
       "priority": [],
       "all": [
         {
-          "summary": "산자소위, 호남반도체 예산 보류…與 \"4배로\"·국힘 \"삭감\" 충돌",
-          "event_id": "8ffc033903acb1c269ad",
+          "title": "산자소위, 호남반도체 예산 보류…與 \"4배로\"·국힘 \"삭감\" 충돌",
+          "url": "https://www.yna.co.kr/view/AKR20261111152000001",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T16:59:01+09:00",
+          "summary": "호남 반도체 예산 증액·삭감 이견에 예산소위 심의 보류",
+          "event_id": "1111e-1",
           "committees": [
             "industry"
           ],
@@ -27,27 +31,51 @@
           "categories": [],
           "category_reason": "",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
+            "legislation": 2,
+            "impact": 3,
             "speaker": 2
           },
-          "title": "산자소위, 호남반도체 예산 보류…與 \"4배로\"·국힘 \"삭감\" 충돌",
-          "url": "https://www.yna.co.kr/view/AKR20261111152000001?input=1195m",
-          "press": "연합뉴스",
-          "published_at": "2026-11-11T16:59:01+09:00",
-          "time_evidence": "원문 published_time 2026-11-11T16:59:01+09:00",
-          "source_body_sha256": "1cd999fd7c96fd90f08d27d1a6d92cbea1b66e324fa47ed4b08cbf2c0fe909ee",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T16:59:01+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "1cd999fd7c96fd90f08d27d1a6d92cbea1b66e324fa47ed4b08cbf2c0fe909ee"
         },
         {
-          "summary": "[정책 인사이트] 예산 브레이크 헐거운 정부… ‘감액 회피’ ‘전망 부실 ’ ‘연구 과제 없는데 예산 먼저’",
-          "event_id": "4f80fc6c117edebed79f",
+          "title": "중기부, '1조원 가치' AI스타트업 20곳 육성…100억원 이상 지원",
+          "url": "https://www.yna.co.kr/view/AKR20261111008300030",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T14:00:05+09:00",
+          "summary": "2030년 AI 유니콘 20곳·데카콘 1곳 육성 및 최종 연계 기업 100억원 이상 지원 전략 발표",
+          "event_id": "1111e-4",
           "committees": [
             "industry"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "committee_reason": "산업부·중기부 소관 통상·산업지원 정책 원문 맥락",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 0,
+            "impact": 3,
+            "speaker": 1
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T14:00:05+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "6334d17b75eb37a7aefc0aa7bded49405e522db7e437bb69304e8f565f843246"
+        },
+        {
+          "title": "중기부, '전남광주 펀드' 1천313억원 규모로 출범…\"전국 최대\"",
+          "url": "https://www.yna.co.kr/view/AKR20261111002400030",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T14:00:04+09:00",
+          "summary": "전남광주 지역성장 모펀드 1313억원 결성 및 2000억원 벤처펀드 조성 추진",
+          "event_id": "1111e-5",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부·중기부 소관 통상·산업지원 정책 원문 맥락",
           "categories": [],
           "category_reason": "",
           "importance": {
@@ -55,29 +83,180 @@
             "impact": 2,
             "speaker": 1
           },
-          "title": "[정책 인사이트] 예산 브레이크 헐거운 정부… ‘감액 회피’ ‘전망 부실 ’ ‘연구 과제 없는데 예산 먼저’",
-          "url": "https://biz.chosun.com/policy/policy_sub/2026/11/11/UI4VHV5QQBHXXHT5JIGVXP742M/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-          "press": "조선비즈",
-          "published_at": "2026-11-11T14:19:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026.11.11. 14:19",
-          "source_body_sha256": "eae933da1c6adba1953ed0e669d00cb9841fda624f84460bbf34c4b30cefd02e",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T14:00:04+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "53c3a92c427dc38920a369f87fb9f0c72d9619cb13662ed42c2240abb91a88ca"
+        },
+        {
+          "title": "CPTPP 협정 궁금하다면…산업통상부 릴레이 세미나",
+          "url": "https://www.yna.co.kr/view/AKR20261111037800003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T11:00:05+09:00",
+          "summary": "CPTPP 협정 이해 제고를 위한 내년 1월까지 8회 세미나 개시",
+          "event_id": "1111e-9",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부·중기부 소관 통상·산업지원 정책 원문 맥락",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 0,
+            "impact": 2,
+            "speaker": 1
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T11:00:05+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "5b9b162fab7679d8c98800d5e5c8d777154f244f590eef9c1481d511cdef6949"
+        },
+        {
+          "title": "섬유의 날 기념식…최재락 세왕섬유 회장 금탑산업훈장",
+          "url": "https://www.yna.co.kr/view/AKR20261111031700003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T11:00:06+09:00",
+          "summary": "섬유의 날 기념식 개최 및 섬유산업 유공자 포상",
+          "event_id": "1111e-8",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부·중기부 소관 통상·산업지원 정책 원문 맥락",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 0,
+            "impact": 1,
+            "speaker": 1
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T11:00:06+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "a09bf4907376dc99f6bc4b3eac29aa4b9c6cc063d23e0a1c0fdf6253ea00ad5e"
+        },
+        {
+          "title": "CJ제일제당, 산업부 AI 팩토리 사업 참여…식품 제조 혁신 추진",
+          "url": "https://www.yna.co.kr/view/AKR20261111043500030",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T09:35:25+09:00",
+          "summary": "산업부 AI 팩토리 지원사업 연계 식품 제조공정 자율제어·품질·안전 기술 개발 추진",
+          "event_id": "1111e-13",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부·중기부 소관 통상·산업지원 정책 원문 맥락",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 0,
+            "impact": 1,
+            "speaker": 1
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T09:35:25+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "a4863065425b25f781750269a0b21d92ceadc3f655463ff64e7dc588e0edb014"
         }
       ]
     },
     {
       "id": "climate_labor",
-      "priority": [],
-      "all": [
+      "priority": [
         {
-          "summary": "김성환 장관, 호남권 산단 용수 공급 현장점검",
-          "event_id": "824f946b6f7e4f1bd6d8",
+          "title": "기후장관 \"호남 반도체 위해 다른 지역 변압기 전용 안해\"",
+          "url": "https://www.yna.co.kr/view/AKR20261111091700530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T11:50:03+09:00",
+          "summary": "호남 반도체 전력망용 타지역 변압기 전용 검토 철회 및 신규 발주 방침",
+          "event_id": "1111e-51",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "기후부·노동부 소관 환경·산업안전·고용정책 원문 맥락",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문 전력망·변압기 공급 정책",
+          "importance": {
+            "legislation": 0,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T11:50:03+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "cbc1720a88b0bac7cdccae652d115a6658a7a3038b5487e2a09064e95fbb470b"
+        },
+        {
+          "title": "울산 노동단체 \"납 취급·배출 사업장 전체 기획 감독하라\"",
+          "url": "https://www.yna.co.kr/view/AKR20261111129800057",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T15:39:26+09:00",
+          "summary": "울산 노동단체, 납 취급·배출 전체 사업장 기획감독 및 작업환경 개선 촉구",
+          "event_id": "1111e-43",
           "committees": [
             "climate_labor"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "committee_reason": "기후부·노동부 소관 환경·산업안전·고용정책 원문 맥락",
+          "categories": [
+            "배터리"
+          ],
+          "category_reason": "원문 배터리 제조 작업장 납 노출 감독 요구",
+          "importance": {
+            "legislation": 0,
+            "impact": 2,
+            "speaker": 1
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T15:39:26+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "a8377d88f3b98fbf49dde2d265f2652c789c725ee3da269f1bbbdb543980a2d3"
+        }
+      ],
+      "all": [
+        {
+          "title": "기후장관 \"호남 반도체 위해 다른 지역 변압기 전용 안해\"",
+          "url": "https://www.yna.co.kr/view/AKR20261111091700530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T11:50:03+09:00",
+          "summary": "호남 반도체 전력망용 타지역 변압기 전용 검토 철회 및 신규 발주 방침",
+          "event_id": "1111e-51",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "기후부·노동부 소관 환경·산업안전·고용정책 원문 맥락",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문 전력망·변압기 공급 정책",
+          "importance": {
+            "legislation": 0,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T11:50:03+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "cbc1720a88b0bac7cdccae652d115a6658a7a3038b5487e2a09064e95fbb470b"
+        },
+        {
+          "title": "건설·플랫폼노동자 금융 문턱 낮춘다…근로이력 신용평가 반영",
+          "url": "https://www.yna.co.kr/view/AKR20261111072300530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T14:00:02+09:00",
+          "summary": "건설·플랫폼노동자 노동이력 신용평가 반영 및 내년 맞춤형 금융상품 출시 추진",
+          "event_id": "1111e-71",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부·노동부 소관 환경·산업안전·고용정책 원문 맥락",
           "categories": [],
           "category_reason": "",
           "importance": {
@@ -85,60 +264,156 @@
             "impact": 2,
             "speaker": 1
           },
-          "title": "김성환 장관, 호남권 산단 용수 공급 현장점검",
-          "url": "https://www.todayenergy.kr/news/articleView.html?idxno=305388",
-          "press": "투데이에너지",
-          "published_at": "2026-11-11T13:17:12+09:00",
-          "time_evidence": "원문 published_time 2026-11-11T13:17:12+09:00",
-          "source_body_sha256": "64a733eec53a59c2cf96de8609f22d438c77f7e84aec1101a5b8030d7a1c202b",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T14:00:02+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "f6b96c9918024edc3ec9f451db4137af3c4d18d94807b29cd65f2ad64f0e3cc7"
+        },
+        {
+          "title": "울산 노동단체 \"납 취급·배출 사업장 전체 기획 감독하라\"",
+          "url": "https://www.yna.co.kr/view/AKR20261111129800057",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T15:39:26+09:00",
+          "summary": "울산 노동단체, 납 취급·배출 전체 사업장 기획감독 및 작업환경 개선 촉구",
+          "event_id": "1111e-43",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부·노동부 소관 환경·산업안전·고용정책 원문 맥락",
+          "categories": [
+            "배터리"
+          ],
+          "category_reason": "원문 배터리 제조 작업장 납 노출 감독 요구",
+          "importance": {
+            "legislation": 0,
+            "impact": 2,
+            "speaker": 1
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T15:39:26+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "a8377d88f3b98fbf49dde2d265f2652c789c725ee3da269f1bbbdb543980a2d3"
+        },
+        {
+          "title": "한국고용정보원, 진천군과 '지역 맞춤형 AI 청년일자리' 협약",
+          "url": "https://www.yna.co.kr/view/AKR20261111038300530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T10:00:03+09:00",
+          "summary": "고용정보원·진천군 AI 청년 맞춤형 일자리 매칭 및 잡케어 공유 협약",
+          "event_id": "1111e-75",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부·노동부 소관 환경·산업안전·고용정책 원문 맥락",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 0,
+            "impact": 1,
+            "speaker": 1
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T10:00:03+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "a0a8fe3baf9b87e7e2ba7f2ce04a0574c52e3d785399728f4eed5bdcf82763fd"
+        },
+        {
+          "title": "전남광주시, 환경오염물질 배출사업장 합동점검",
+          "url": "https://www.yna.co.kr/view/AKR20261111062700054",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T10:22:50+09:00",
+          "summary": "전남광주시 환경오염물질 배출사업장 합동점검 추진",
+          "event_id": "1111e-58",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부·노동부 소관 환경·산업안전·고용정책 원문 맥락",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 0,
+            "impact": 1,
+            "speaker": 1
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T10:22:50+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "bed4495e184b0d07586c3386dacd63011d792e760c3fe7309a921e66d4382177"
         }
       ]
     },
     {
       "id": "finance",
-      "priority": [],
+      "priority": [
+        {
+          "title": "유류세 인하 내년 1월까지 2개월 연장…\"유류비 부담 경감\"",
+          "url": "https://www.yna.co.kr/view/AKR20261110161900002",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T09:00:05+09:00",
+          "summary": "휘발유 15%·경유·부탄 25% 유류세 인하 내년 1월 말까지 연장",
+          "event_id": "1111e-16",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "재정경제부 소관 조세·경제성장·재정정책 원문 맥락",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문 석유제품 유류세 인하 정책",
+          "importance": {
+            "legislation": 0,
+            "impact": 3,
+            "speaker": 1
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T09:00:05+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "28ab2170d5437fe5f5bcb3c4f313d274edf603dbdf7e73acfa20f611152f7e7d"
+        }
+      ],
       "all": [
         {
-          "summary": "재경위 여야 간사",
-          "event_id": "6999d7bea3dbc5d33851",
-          "committees": [
-            "finance"
-          ],
-          "members": [
-            "오기형",
-            "배준영",
-            "안상훈"
-          ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 오기형, 배준영, 안상훈",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
-          },
-          "title": "재경위 여야 간사",
-          "url": "https://www.yna.co.kr/view/PYH20261111178600013?input=1196m",
+          "title": "유류세 인하 내년 1월까지 2개월 연장…\"유류비 부담 경감\"",
+          "url": "https://www.yna.co.kr/view/AKR20261110161900002",
           "press": "연합뉴스",
-          "published_at": "2026-11-11T16:10:04+09:00",
-          "time_evidence": "원문 published_time 2026-11-11T16:10:04+09:00",
-          "source_body_sha256": "8f8bb85f17ba923d66bbaf5f2b99eb5ac793821f5d08ad4a400891b0caa8683a",
-          "verified": true
-        },
-        {
-          "summary": "재경위 조세소위 앞두고 대화하는 여야 간사",
-          "event_id": "18e5aaf8b52adf637215",
+          "published_at": "2026-11-11T09:00:05+09:00",
+          "summary": "휘발유 15%·경유·부탄 25% 유류세 인하 내년 1월 말까지 연장",
+          "event_id": "1111e-16",
           "committees": [
             "finance"
           ],
-          "members": [
-            "오기형",
-            "배준영"
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "재정경제부 소관 조세·경제성장·재정정책 원문 맥락",
+          "categories": [
+            "정유·유가/담합"
           ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 오기형, 배준영",
+          "category_reason": "원문 석유제품 유류세 인하 정책",
+          "importance": {
+            "legislation": 0,
+            "impact": 3,
+            "speaker": 1
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T09:00:05+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "28ab2170d5437fe5f5bcb3c4f313d274edf603dbdf7e73acfa20f611152f7e7d"
+        },
+        {
+          "title": "이형일 \"내년 성장전략, 양극화 완화·잠재성장률 제고에 중점\"",
+          "url": "https://www.yna.co.kr/view/AKR20261111047600002",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T09:32:17+09:00",
+          "summary": "2027년 성장전략 양극화 완화·잠재성장률 제고 중점 및 경제전망 연 3회 확대 방침",
+          "event_id": "1111e-76",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "재정경제부 소관 조세·경제성장·재정정책 원문 맥락",
           "categories": [],
           "category_reason": "",
           "importance": {
@@ -146,48 +421,40 @@
             "impact": 2,
             "speaker": 2
           },
-          "title": "재경위 조세소위 앞두고 대화하는 여야 간사",
-          "url": "https://www.newsis.com/view/NISI20261111_0021529093",
-          "press": "뉴시스",
-          "published_at": "2026-11-11T14:32:19+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026.11.11 14:32:19",
-          "source_body_sha256": "a52a2841d78ffe83f41830590cfef90217856a79b77aceb5490e78e3f8ac9dff",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T09:32:17+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "bec37d54ea16ae8dd735d25a004167c64286b6f3fc69b5d57a0791582772983c"
         },
         {
-          "summary": "대화하는 재경위 여야 간사와 문진석 의원",
-          "event_id": "12ec051e0ba214944dcf",
+          "title": "양극화 대응에 팔 걷는 정부…경제부총리가 태스크포스 팀장",
+          "url": "https://www.yna.co.kr/view/AKR20261110136900002",
+          "press": "연합뉴스",
+          "published_at": "2026-11-11T09:00:04+09:00",
+          "summary": "경제부총리 주재 양극화 대응 TF 및 5개 작업반 가동",
+          "event_id": "1111e-61",
           "committees": [
             "finance"
           ],
-          "members": [
-            "오기형",
-            "배준영",
-            "문진석"
-          ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 오기형, 배준영, 문진석",
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "재정경제부 소관 조세·경제성장·재정정책 원문 맥락",
           "categories": [],
           "category_reason": "",
           "importance": {
             "legislation": 0,
             "impact": 2,
-            "speaker": 2
+            "speaker": 1
           },
-          "title": "대화하는 재경위 여야 간사와 문진석 의원",
-          "url": "https://www.newsis.com/view/NISI20261111_0021529107",
-          "press": "뉴시스",
-          "published_at": "2026-11-11T14:38:41+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026.11.11 14:38:41",
-          "source_body_sha256": "640dee437813ed8fef051f43b5f06996e8c5b4e016fcdd777ff3cc454251e7f7",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-11T09:00:04+09:00; 발행사 본문 및 최초시각 직접 대조",
+          "source_body_sha256": "b780acd5ffe77ffcdb98cc22853707eecc2ddbc18cc417e10e247458defb9f82"
         }
       ]
     }
   ],
-  "review_method": "deterministic-original-source-review",
+  "review_method": "manual-original-source-editorial-review",
   "limitations": [
-    "발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음",
-    "선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요."
+    "공개검색 노출 및 발행사 원문 접근 한계; 원문·최초시각 미확인 후보는 제외. 관심사항 관련 비공개 공문·회신·정산인정액은 확인 불가이며 추정 없음.",
+    "상임위별 우선산업 목표 건수 미달은 확인된 직접 관련 기사만 수록한 결과. 정무위 일반 공정거래 제재는 제외."
   ]
 }
