@@ -25,8 +25,9 @@ def validate_site(site: Path) -> None:
         assert daily == expected_daily, source
         assert assembly == expected_assembly, source
         assert re.findall(r'class="section-num">(\d+)', daily) == list('123456'), source
-        assert re.findall(r'class="section-num">(\d+)', assembly) == ['1', '2', '3'], source
-        assert '../../assembly-content/monitoring/index.html' in assembly, source
+        assert re.findall(r'class="section-num">(\d+)', assembly) == ['1', '2'], source
+        assert 'assembly-monitoring' not in assembly, source
+        assert 'Monitoring Report' not in assembly, source
         assert 'class="section-title">금일 주요 일정' not in daily, source
         assert 'class="section-title">News Trend' not in assembly, source
         count += 1
