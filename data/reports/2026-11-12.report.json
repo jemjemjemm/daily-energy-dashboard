@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △지역혁신클러스터 R&D 내년 예산, 기존 협약 소요액보다 377억원 부족 편성 △정부, 2035년 세계 전기화율 35% 서약 지지·참여 의사 표명 예정 △최고가격제 첫 정산 앞두고 예비비 4.2조원과 손실 인정범위의 재정 부담 쟁점 제기"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △산업장관, 체코 원전사업 이행 점검 및 정부 관리·대체 시공사 선정 추진 △KDI, 유가 상승의 올해 민간소비 증가율 약 0.4%p 하방 영향 추정 △기획예산처, 미래대응기금 부처 간 세부협의 미흡 인정 및 소위에 합의안 보고 예고"
     }
   ],
   "prices": {
@@ -1546,5 +1550,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△산업장관, 체코 원전사업 이행 점검 및 정부 관리·대체 시공사 선정 추진 △KDI, 유가 상승의 올해 민간소비 증가율 약 0.4%p 하방 영향 추정 △기획예산처, 미래대응기금 부처 간 세부협의 미흡 인정 및 소위에 합의안 보고 예고",
+    "trend_paragraphs": [
+      "산업장관, 체코 원전사업 이행 점검 및 정부 관리·대체 시공사 선정 추진",
+      "KDI, 유가 상승의 올해 민간소비 증가율 약 0.4%p 하방 영향 추정",
+      "기획예산처, 미래대응기금 부처 간 세부협의 미흡 인정 및 소위에 합의안 보고 예고"
+    ],
+    "articles": [
+      {
+        "title": "산업장관 \"체코 원전사업 차질 없이 추진…신뢰 지킬 것\"",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261112129500003",
+        "summary": "산업장관, 체코 원전사업 이행 점검 및 정부 관리·대체 시공사 선정 추진",
+        "published_at_kst": "2026-11-12T15:30:01+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-12T15:30:01+09:00; 발행사 기사 본문과 최초 송고시각 직접 대조",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "반도체 호황 누른 유가…KDI \"소비에 부정적 영향 먼저 반영\"",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261112084800002",
+        "summary": "KDI, 유가 상승의 올해 민간소비 증가율 약 0.4%p 하방 영향 추정",
+        "published_at_kst": "2026-11-12T12:00:03+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-12T12:00:03+09:00; 발행사 기사 본문과 최초 송고시각 직접 대조",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "기획예산처 \"미래대응기금 부처 간 협의 미흡 인정...거의 마무리\"",
+        "press": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611121637424551",
+        "summary": "기획예산처, 미래대응기금 부처 간 세부협의 미흡 인정 및 소위에 합의안 보고 예고",
+        "published_at_kst": "2026-11-12T16:47:40+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-12T16:47:40+09:00",
+        "summary_basis": "original_article_body_manual_review"
+      }
+    ],
+    "source": "발행사 본문·최초 송고시각 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }

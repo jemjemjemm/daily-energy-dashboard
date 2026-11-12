@@ -1,0 +1,1020 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-12",
+  "slot": "evening",
+  "period_start": "2026-11-12T08:00:00+09:00",
+  "period_end": "2026-11-12T17:00:00+09:00",
+  "period_label": "2026-11-12 08:00 ~ 2026-11-12 17:00",
+  "generated_at": "2026-11-12T17:13:14.417341+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 61,
+  "total_enriched_input_count": 185,
+  "total_in_period_unique_count": 166,
+  "total_unknown_time_count": 7,
+  "total_outside_period_count": 12,
+  "total_deduped_count": 32,
+  "total_ok_count": 6,
+  "total_review_count": 26,
+  "total_excluded_count": 153,
+  "grade_counts": {
+    "A": 8,
+    "B": 4,
+    "C": 20
+  },
+  "portal_counts": {
+    "naver": 47,
+    "daum": 14,
+    "google": 0
+  },
+  "query_counts": {
+    "경유 담합": 2,
+    "공정위 유가 담합": 4,
+    "기름값 담합": 1,
+    "석유 담합": 2,
+    "유가 담합": 5,
+    "유가담합": 5,
+    "주유소 담합": 1,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-12T17:11:46.146816+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "거래 식고 평가손 겹쳤다…대형 증권사, 3Q 영업익 7.6조→1.8조",
+      "url": "https://www.dt.co.kr/article/12094899?ref=naver",
+      "published_at": "2026-11-12T16:44:08+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T16:44:08+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "테슬라 팔아 스페이스X로…서학개미 ‘머스크 제국’ 자금 이동 본격화",
+      "url": "https://www.sedaily.com/article/20113434?ref=naver",
+      "published_at": "2026-11-12T13:21:28+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T13:21:28+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "코어위브, 3분기 매출 168% 급증…순손실은 6배 확대",
+      "url": "https://www.sedaily.com/article/20113430?ref=naver",
+      "published_at": "2026-11-12T13:20:46+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T13:20:46+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "ESG 평가 A+ 지킨 삼양·신세계·BGF...코웨이·현대그린푸드 새 진입, CJ·오리온도 반등",
+      "url": "http://www.popcornnews.net/news/articleView.html?idxno=139802",
+      "published_at": "2026-11-12T12:48:37+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T12:48:37+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "과징금에 실적 부담 커지는 국고채 담합 증권사들…재무 영향은 제각각 - THE Biz(더비즈)",
+      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=731232",
+      "published_at": "2026-11-12T11:59:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.12 11:59",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "KB·신한금융, ESG 최고등급 지켰지만, 담합 제재에 사회평가 하락",
+      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=718939",
+      "published_at": "2026-11-12T10:02:23+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T10:02:23+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "11월 12일 개장 전 주요 공시 - 서울파이낸스",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=642577",
+      "published_at": "2026-11-12T07:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026.11.12 07:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[정유 피크아웃] ②최고가격제 손실보전 첫정산 앞두고 기준 산정ㆍ국회 반기ㆍ소송전까지 ‘진통’",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611111308035910581",
+      "published_at": "2026-11-12T05:00:28+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 05:00:28",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "유통업계 ESG 성적표 희비…지배구조·담합에 등급 엇갈렸다",
+      "url": "https://cp.news.search.daum.net/p/184225666",
+      "published_at": "2026-11-12T16:11:30+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T16:11:30+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[정유 피크아웃] ③역대급 성적 찍은 정유사…가격 투명성ㆍ상생 행보ㆍ고객 신뢰 다지기",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611111232255640574",
+      "published_at": "2026-11-12T05:00:31+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 05:00:31",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "(토마토칼럼)담합 적발이 민생이다",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1320199&inflow=N",
+      "published_at": "2026-11-12T11:55:41+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T11:55:41+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "【데일리 ESG 정책 브리핑】국고채 담합 1조6266억원 과징금·지역성장펀드 2000억원 조성·COP31 전기화 공약 - IMPACT ON(임팩트온)",
+      "url": "https://www.impacton.net/news/articleView.html?idxno=30642",
+      "published_at": "2026-11-12T09:36:15+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T09:36:15+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[오늘의 사설] \"해킹 막아야 할 금융보안원까지 뚫리다니...\"",
+      "url": "http://www.nongaek.com/news/articleView.html?idxno=97450",
+      "published_at": "2026-11-12T09:01:08+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T09:01:08+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[전국 주요 신문 사설](12일 조간)",
+      "url": "https://www.yna.co.kr/view/AKR20261112020500011?input=1195m",
+      "published_at": "2026-11-12T08:00:02+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T08:00:02+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "국고채 입찰 150건 담합…1조6000억 과징금 철퇴外 [한강로 경제브리핑]",
+      "url": "https://www.segye.com/newsView/20261111518496?OutUrl=naver",
+      "published_at": "2026-11-12T07:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 07:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[데스크칼럼] 부자 나라, 가난한 국민",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=503163",
+      "published_at": "2026-11-12T02:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T02:00:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[오늘의 신문] 美 대중국 반도체 통제 강화·엔비디아 3중 조사...한국 가계대출 1204조원 - 아시아엔 THE AsiaN",
+      "url": "http://kor.theasian.asia/archives/421462",
+      "published_at": "2026-11-12T09:23:02+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T00:23:02+00:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "부동산 토론회, 민주당 의원들은 청와대 눈치를 봤다: 슬로우레터 11월12일. - 슬로우뉴스.",
+      "url": "https://slownews.kr/169424",
+      "published_at": "2026-11-12T08:03:12+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T08:03:12+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "반도체 초호황에도 소비 회복 ‘제자리’…고유가 충격도 묵직",
+      "source": "아시아타임즈",
+      "url": "https://www.asiatime.co.kr/article/20261112500302",
+      "published_at": "2026-11-12T14:02:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 14:02",
+      "summary": "반도체 초호황에도 소비 회복 ‘제자리’…고유가 충격도 묵직",
+      "queries": [
+        "유류세"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "f03d0a4337c9241b",
+      "canonical_url": "https://www.asiatime.co.kr/article/20261112500302",
+      "source_normalized": "아시아타임즈",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "석유 최고가격제 첫 정산 임박…4.2조 보전 촉각 - 스페셜경제",
+      "source": "스페셜경제",
+      "url": "https://www.speconomy.com/news/articleView.html?idxno=419964",
+      "published_at": "2026-11-12T09:18:43+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T09:18:43+09:00",
+      "summary": "석유 최고가격제 첫 정산 임박…4.2조 보전 촉각 - 스페셜경제",
+      "queries": [
+        "최고가격제 손실보상 정산"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "12903da19a88cff5",
+      "canonical_url": "https://www.speconomy.com/news/articleView.html?idxno=419964",
+      "source_normalized": "스페셜경제",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "한·중·일 석유업계, 에너지 전환 대응 기술협력 강화",
+      "source": "가스신문",
+      "url": "https://www.gasnews.com/news/articleView.html",
+      "published_at": "2026-11-12T14:50:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T14:50:00+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "한중일 석유기술회, 정유업계 탄소중립·SAF 및 저탄소 연료 협력 논의",
+      "snippet": "한중일 석유기술회, 정유업계 탄소중립·SAF 및 저탄소 연료 협력 논의",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "eeef5ec14f3819536543acfe4c7149ca9e35b60cdb6567e8af9d4a347abfba2f",
+      "id": "4d1bef3caa367834",
+      "canonical_url": "https://www.gasnews.com/news/articleView.html",
+      "source_normalized": "가스신문",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "KDI \"유가 상승, 반도체 호황보다 소비에 먼저 타격\"…올해 소비 증가율 0.4%p↓",
+      "source": "뉴스파인더",
+      "url": "http://www.newsfinder.co.kr/news/articleView.html?idxno=222987",
+      "published_at": "2026-11-12T16:35:18+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T16:35:18+09:00",
+      "summary": "KDI \"유가 상승, 반도체 호황보다 소비에 먼저 타격\"…올해 소비 증가율 0.4%p↓",
+      "queries": [
+        "석유 수출"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "af75bbb81fc6af68",
+      "canonical_url": "http://www.newsfinder.co.kr/news/articleView.html?idxno=222987",
+      "source_normalized": "뉴스파인더",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "기름값 탓이라더니…미 연준 ‘빅스텝’ 불 지핀 AI·서비스",
+      "source": "직썰",
+      "url": "https://www.ziksir.com/news/articleView.html?idxno=153128",
+      "published_at": "2026-11-12T16:17:35+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T16:17:35+09:00",
+      "summary": "기름값 탓이라더니…미 연준 ‘빅스텝’ 불 지핀 AI·서비스",
+      "queries": [
+        "기름값"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "495c7d2c6a12a4ea",
+      "canonical_url": "https://www.ziksir.com/news/articleView.html?idxno=153128",
+      "source_normalized": "직썰",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "인도 중동산 원유 하루 230만배럴…10월 러시아산 웃돌아 | 토큰포스트",
+      "source": "토큰포스트",
+      "url": "https://www.tokenpost.kr/news/economy/437043",
+      "published_at": "2026-11-12T16:26:58+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T16:26:58+09:00",
+      "summary": "인도 중동산 원유 하루 230만배럴…10월 러시아산 웃돌아 | 토큰포스트",
+      "queries": [
+        "호르무즈"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "afb979109995e86b",
+      "canonical_url": "https://www.tokenpost.kr/news/economy/437043",
+      "source_normalized": "토큰포스트",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "베트남 빈선정유화학, 9월까지 연결익 25조 동 육박 전년동기比 11.6배↑…고유가에 정유소 ‘풀가동’ - 인사이드비나",
+      "source": "인사이드비나",
+      "url": "https://www.insidevina.com/news/articleView.html?idxno=44490",
+      "published_at": "2026-11-12T12:43:56+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T12:43:56+09:00",
+      "summary": "베트남 빈선정유화학, 9월까지 연결익 25조 동 육박 전년동기比 11.6배↑…고유가에 정유소 ‘풀가동’ - 인사이드비나",
+      "queries": [
+        "유가 정유"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "8e4892f45ea10426",
+      "canonical_url": "https://www.insidevina.com/news/articleView.html?idxno=44490",
+      "source_normalized": "인사이드비나",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "러시아 정제시설 피격 등에 11월11일 국제유가 상승",
+      "source": "에너지신문",
+      "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=229714",
+      "published_at": "2026-11-12T10:52:05+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T10:52:05+09:00",
+      "summary": "러시아 정제시설 피격 등에 11월11일 국제유가 상승",
+      "queries": [
+        "유가 정유"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "2d576b8ede7a613b",
+      "canonical_url": "https://www.energy-news.co.kr/news/articleView.html?idxno=229714",
+      "source_normalized": "에너지신문",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "[포커스] 3분기 실적, 정유사 견고 · 석유화학 부진 ‘희비 교차’",
+      "source": "투데이에너지",
+      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=305439",
+      "published_at": "2026-11-12T10:35:08+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T10:35:08+09:00",
+      "summary": "[포커스] 3분기 실적, 정유사 견고 · 석유화학 부진 ‘희비 교차’",
+      "queries": [
+        "석유 경유 수출"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "851d6b87f1ba1ec7",
+      "canonical_url": "https://www.todayenergy.kr/news/articleView.html?idxno=305439",
+      "source_normalized": "투데이에너지",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "KIET ＂호르무즈 사태 장기화에 한국 산업 부담 확대… 제조업 생산비 3.9% 상승 추정＂",
+      "source": "일요주간",
+      "url": "https://www.ilyoweekly.co.kr/news/newsview.php?ncode=1065590203790461",
+      "published_at": "2026-11-12T10:16:43+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T10:16:43+09:00",
+      "summary": "KIET ＂호르무즈 사태 장기화에 한국 산업 부담 확대… 제조업 생산비 3.9% 상승 추정＂",
+      "queries": [
+        "석유 경유 수출"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "f4f8adabfce81bf4",
+      "canonical_url": "https://www.ilyoweekly.co.kr/news/newsview.php?ncode=1065590203790461",
+      "source_normalized": "일요주간",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "日 주도로 아세안 석유 공동비축 추진...인도네시아·태국에 거점",
+      "source": "뉴스핌",
+      "url": "https://www.newspim.com/news/view/20261112000926",
+      "published_at": "2026-11-12T14:10:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T14:10:00+09:00",
+      "summary": "日 주도로 아세안 석유 공동비축 추진...인도네시아·태국에 거점",
+      "queries": [
+        "석유 경유 수출"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "c72cf618248a1a59",
+      "canonical_url": "https://www.newspim.com/news/view/20261112000926",
+      "source_normalized": "뉴스핌",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "반도체 호황에도 지갑은 닫혔다…유가 상승에 올해 소비 0.4%p '뒷걸음'",
+      "source": "핀포인트뉴스",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=503344",
+      "published_at": "2026-11-12T13:01:06+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T13:01:06+09:00",
+      "summary": "반도체 호황에도 지갑은 닫혔다…유가 상승에 올해 소비 0.4%p '뒷걸음'",
+      "queries": [
+        "기름값"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "639680452a0d9a74",
+      "canonical_url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=503344",
+      "source_normalized": "핀포인트뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "정유사 손실보전 첫 정산 이달 말…정부·업계 5조원 손실 놓고 충돌 예고",
+      "source": "현대경제",
+      "url": "https://www.hdnews.co.kr/news/articleView.html",
+      "published_at": "2026-11-12T08:31:16+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T08:31:16+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "최고가격제 첫 정산 앞두고 정부 실제원가·업계 국제시세 기준 간극 확인",
+      "snippet": "최고가격제 첫 정산 앞두고 정부 실제원가·업계 국제시세 기준 간극 확인",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "4525e7120987263b2bff2a1ddda859d716820d7ca83f3ee06c8c26d16a690545",
+      "id": "045bd3d807e16682",
+      "canonical_url": "https://www.hdnews.co.kr/news/articleView.html",
+      "source_normalized": "현대경제",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "장금상선, 한진 3대 주주로 부상…호르무즈 특수 이후 광폭 행보",
+      "source": "서울일보",
+      "url": "http://www.seoulilbo.com/news/articleView.html?idxno=864626",
+      "published_at": "2026-11-12T16:58:51+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T16:58:51+09:00",
+      "summary": "장금상선, 한진 3대 주주로 부상…호르무즈 특수 이후 광폭 행보",
+      "queries": [
+        "호르무즈"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "ce38c9144889680d",
+      "canonical_url": "http://www.seoulilbo.com/news/articleView.html?idxno=864626",
+      "source_normalized": "서울일보",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "해운협회 \"호르무즈 피격 유조선, 장금상선 소유 아냐\"",
+      "source": "뉴데일리",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/12/2026111200329.html",
+      "published_at": "2026-11-12T16:35:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 16:35",
+      "summary": "해운협회 \"호르무즈 피격 유조선, 장금상선 소유 아냐\"",
+      "queries": [
+        "호르무즈"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "d9dbd28083cdcaaf",
+      "canonical_url": "https://biz.newdaily.co.kr/site/data/html/2026/11/12/2026111200329.html",
+      "source_normalized": "뉴데일리",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "기름값 1900원 시대⋯유류세 인하 두 달 연장, 50ℓ 주유하면 얼마나 아끼나 - 엠투데이",
+      "source": "엠투데이",
+      "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=602025",
+      "published_at": "2026-11-12T10:10:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T10:10:00+09:00",
+      "summary": "기름값 1900원 시대⋯유류세 인하 두 달 연장, 50ℓ 주유하면 얼마나 아끼나 - 엠투데이",
+      "queries": [
+        "유류세"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "5b2d640f4a93b18d",
+      "canonical_url": "https://www.autodaily.co.kr/news/articleView.html?idxno=602025",
+      "source_normalized": "엠투데이",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "[위클리오늘] 유류세 인하 또 2개월 연장…휘발유 122원·경유 145원 인하 효과 유지",
+      "source": "위클리오늘",
+      "url": "http://www.weeklytoday.com/news/articleView.html?idxno=801801",
+      "published_at": "2026-11-12T10:08:29+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T10:08:29+09:00",
+      "summary": "[위클리오늘] 유류세 인하 또 2개월 연장…휘발유 122원·경유 145원 인하 효과 유지",
+      "queries": [
+        "유류세"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "ac1951a5df3d7806",
+      "canonical_url": "http://www.weeklytoday.com/news/articleView.html?idxno=801801",
+      "source_normalized": "위클리오늘",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "'다리가 3개나 되는데'…강남 수준 기름값에 영종 주민들 한숨",
+      "source": "경기신문",
+      "url": "https://www.kgnews.co.kr/news/article.html?no=919353",
+      "published_at": "2026-11-12T16:16:16+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026.11.12 16:16:16",
+      "summary": "'다리가 3개나 되는데'…강남 수준 기름값에 영종 주민들 한숨",
+      "queries": [
+        "기름값"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "c5aef8fd60bdc1c2",
+      "canonical_url": "https://www.kgnews.co.kr/news/article.html?no=919353",
+      "source_normalized": "경기신문",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "대한조선, 2498억 규모 원유 운반선 2척 수주 - 디일렉(THE ELEC)",
+      "source": "디일렉",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=65345",
+      "published_at": "2026-11-12T16:28:19+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T16:28:19+09:00",
+      "summary": "대한조선, 2498억 규모 원유 운반선 2척 수주 - 디일렉(THE ELEC)",
+      "queries": [
+        "원유"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "d11d2e28b8b75fbb",
+      "canonical_url": "https://www.thelec.kr/news/articleView.html?idxno=65345",
+      "source_normalized": "디일렉",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "“최고가격제 정산 부당”…ex-OIL, GS칼텍스 상대 소송 - 메디컬투데이",
+      "source": "메디컬투데이",
+      "url": "https://www.mdtoday.co.kr/news/articleView.html",
+      "published_at": "2026-11-12T14:25:24+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T14:25:24+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "ex-OIL, GS칼텍스에 약 4억원 정산금 반환 소송 제기 및 계약정산 입장 대립",
+      "snippet": "ex-OIL, GS칼텍스에 약 4억원 정산금 반환 소송 제기 및 계약정산 입장 대립",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "0bc7a8b7dd8a6a2cfa1375e7ab9b95fdd031a72c039b9c469ea5dce7880a791a",
+      "id": "93152b7f76728fe8",
+      "canonical_url": "https://www.mdtoday.co.kr/news/articleView.html",
+      "source_normalized": "메디컬투데이",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "에쓰오일, 창립 50주년 고객 감사 이벤트…20만명에 주유쿠폰 증정",
+      "source": "포인트데일리",
+      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=325794",
+      "published_at": "2026-11-12T16:15:46+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T16:15:46+09:00",
+      "summary": "에쓰오일, 창립 50주년 고객 감사 이벤트…20만명에 주유쿠폰 증정",
+      "queries": [
+        "주유소"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "b137cc0c0095c44a",
+      "canonical_url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=325794",
+      "source_normalized": "포인트데일리",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "최고 가격제 후폭풍…정유업계 손실 보전 갈등에 소송전까지",
+      "source": "뉴스토마토",
+      "url": "https://v.daum.net/v/20261112151052981",
+      "published_at": "2026-11-12T15:10:52+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "최고 가격제 후폭풍…정유업계 손실 보전 갈등에 소송전까지",
+      "snippet": "뉴스토마토 1시간 전 다음뉴스 2 최고 가격제 후폭풍…정유업계 손실 보전 갈등에 소송전까지 위에 올랐습니다. 알뜰주유소 역시 최고 가격제 시행 이후 손실 이 발생했지만 보상 대상에서는 빠졌다는 지적입니다. 최근 윤한홍 국민의힘 의원실은 내년도 석유가격 안정화 지원사업 예산 1조4490억원 중 1821억원을 알뜰주유소 몫으로 별도 편성해 손실 을 보전해야...",
+      "queries": [
+        "최고가격제 손실보상 정산"
+      ],
+      "verification_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "id": "bff1def71e27f313",
+      "canonical_url": "https://v.daum.net/v/20261112151052981",
+      "source_normalized": "뉴스토마토",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "반도체 날아도 소비는 제자리…유가 충격이 더 빨랐다",
+      "source": "쿠키뉴스",
+      "url": "https://v.daum.net/v/20261112162637669",
+      "published_at": "2026-11-12T16:26:37+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "반도체 날아도 소비는 제자리… 유가 충격이 더 빨랐다",
+      "snippet": "쿠키뉴스 40분 전 다음뉴스 3 반도체 날아도 소비는 제자리… 유가 충격이 더 빨랐다 주유소에 표시된 유가 . 연합뉴스 반도체 호조에도 민간소비가 얼어붙고 있다. 반도체 호황의 긍정적 영향보다 중동전쟁으로 인한 국제 유가 상승이 빠르게 반영되고 있기 때문이다. 여기에 더해 미국 중간선거 이후 반도체에 편중된 한국 경제의 취약성도 제기되고...",
+      "queries": [
+        "국제유가"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "1fefbae6d0d3df31",
+      "canonical_url": "https://v.daum.net/v/20261112162637669",
+      "source_normalized": "쿠키뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "한국전력 3분기 영업이익 1.6조원, 전년 대비 71% 감소…\"중동전쟁 영향\"",
+      "source": "머니투데이",
+      "url": "https://v.daum.net/v/20261112162630650",
+      "published_at": "2026-11-12T16:26:30+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "한국전력 3분기 영업이익 1.6조원, 전년 대비 71% 감소…\" 중동 전쟁 영향\"",
+      "snippet": "머니투데이 40분 전 다음뉴스 2 한국전력 3분기 영업이익 1.6조원, 전년 대비 71% 감소…\" 중동 전쟁 영향\" 증가했다. 중동 전쟁으로 인한 업황 부진의 영향으로 전력 판매량과 판매단가가 동시에 하락하면서 매출액도 감소했다. 올해 전력 판매량은 415.3TWh(테라와트시), 판매단가는 kWh당 169.7원으로 전년 대비 각각 1.1%, 0.4% 하락했다. 기타 영업비용은 발전 및 송배전...",
+      "queries": [
+        "중동 원유"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "3ee26bbedabf39e4",
+      "canonical_url": "https://v.daum.net/v/20261112162630650",
+      "source_normalized": "머니투데이",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "바닷길 이어 이란 육상 봉쇄 강화 나선 미국···주변국 난색에 난항",
+      "source": "경향신문",
+      "url": "https://v.daum.net/v/20261112155756027",
+      "published_at": "2026-11-12T15:57:56+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "바닷길 이어 이란 육상 봉쇄 강화 나선 미국···주변국 난색에 난항",
+      "snippet": "경향신문 1시간 전 다음뉴스 바닷길 이어 이란 육상 봉쇄 강화 나선 미국···주변국 난색에 난항 근간인 원유 수출길이 차단된 것이다. 바닷길 차단의 효과를 톡톡히 본 미국은 이번엔 육상으로 눈을 돌렸다. 마지막 경제적 생명줄마저 끊어 이란을 굴복시킨다는 계산이었다. 하지만 주변국 반발에 부딪혔다. 해당 협상에 관여한 한 미국 관계자는 “주변국들은...",
+      "queries": [
+        "중동 원유"
+      ],
+      "verification_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "id": "e7186fb09c39c40c",
+      "canonical_url": "https://v.daum.net/v/20261112155756027",
+      "source_normalized": "경향신문",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "국제유가·석유제품가 하락…석유 최고가격제 향방에 쏠리는 눈",
+      "source": "조선비즈",
+      "url": "https://biz.chosun.com/industry/company/2026/11/12/IGNMTKEYLVFGFD5DPK3B2NHA54/",
+      "published_at": "2026-11-12T15:53:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.12. 15:53; 발행사 본문·최초시각 직접 대조",
+      "summary": "국제 석유제품가격 하락 속 12차 최고가격 발표와 첫 손실정산액 산정 주목",
+      "snippet": "국제 석유제품가격 하락 속 12차 최고가격 발표와 첫 손실정산액 산정 주목",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "8cc857ac1dea19cf37a649c32e15d333d494fa8f511f8c4588b35681e0f4914f",
+      "id": "00a0f9226c060ba5",
+      "canonical_url": "https://biz.chosun.com/industry/company/2026/11/12/IGNMTKEYLVFGFD5DPK3B2NHA54/",
+      "source_normalized": "조선Biz",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "반도체 호황에도 소비 더딘 이유…KDI “고유가가 올해 소비 증가율 0.4%p 낮춰”",
+      "source": "헤럴드경제",
+      "url": "https://v.daum.net/v/20261112120147955",
+      "published_at": "2026-11-12T12:01:47+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "반도체 호황에도 소비 더딘 이유…KDI “고유가가 올해 소비 증가율 0.4%p 낮춰”",
+      "snippet": "헤럴드경제 PICK 5시간 전 다음뉴스 2 반도체 호황에도 소비 더딘 이유…KDI “고유가가 올해 소비 증가율 0.4%p 낮춰” 폭이 미미해지면서 사실상 제자리걸음을 이어가고 있다. 한국 석유 공사 유가정보시스템 오피넷에 따르면 11월 첫째 주(1∼5일) 전국...판매가는 지난주보다 L당 0.3원 내린 1855.4원이었다. 경유 는 0.1원 내린 1842.0원을 기록했다. 사진은 8일 서울의 한 주유소 모습...",
+      "queries": [
+        "석유 경유 수출"
+      ],
+      "verification_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "id": "92a2043b34148630",
+      "canonical_url": "https://v.daum.net/v/20261112120147955",
+      "source_normalized": "헤럴드경제",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "울산항 10월 화물 반출 406만 톤…유럽행 석유 제품 9.6배 급증",
+      "source": "서울경제",
+      "url": "https://v.daum.net/v/20261112110829997",
+      "published_at": "2026-11-12T11:08:29+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "울산항 10월 화물 반출 406만 톤…유럽행 석유 제품 9.6배 급증",
+      "snippet": "서울경제 5시간 전 다음뉴스 울산항 10월 화물 반출 406만 톤…유럽행 석유 제품 9.6배 급증 물류 거점인 네덜란드 로테르담항을 통해 대거 공급된 결과다. 10월 최대 반출 목적국은 호주(59만 9329톤·14.8%)였다. 경유 등 석유 제품 수출 이 늘면서 전년 동월 대비 170.2% 급증했다. 이어 중국 48만 3560톤(11.9%), 미국 43만 1164톤(10.6%), 일본 35만 8407톤...",
+      "queries": [
+        "석유 경유 수출"
+      ],
+      "verification_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "id": "2f376eee6776f4a5",
+      "canonical_url": "https://v.daum.net/v/20261112110829997",
+      "source_normalized": "서울경제",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "필리핀 비축 석유 비상시 인니·태국 공급…\"日 주축 추진\"",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261112142100073",
+      "published_at": "2026-11-12T16:07:08+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T16:07:08+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "일본 지원 아래 아세안 석유 공동비축·비상공급 체계 추진",
+      "snippet": "일본 지원 아래 아세안 석유 공동비축·비상공급 체계 추진",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "7f4366cc7a0e0dfffb55d6a8782af1219c332d73ed6b9201885b72c88baefc32",
+      "id": "b6d107743ce55d4b",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261112142100073",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "“반도체 호황에도 소비 회복 더뎌…고유가 영향 탓”",
+      "source": "동아일보",
+      "url": "https://v.daum.net/v/20261112151820504",
+      "published_at": "2026-11-12T15:18:20+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "“반도체 호황에도 소비 회복 더뎌…고유가 영향 탓”",
+      "snippet": "동아일보 1시간 전 다음뉴스 “반도체 호황에도 소비 회복 더뎌…고유가 영향 탓” 미쳤다. 국제유가가 통상적인 변동 폭만큼 오르면 소비는 곧바로 줄기 시작해 3개 분기 뒤 약 0.5% 감소하는 것으로 분석됐다. 기름 값 과 항공·여행 서비스 가격이 오르면서 가계의 구매력이 떨어진 데 따른 영향이다. 이에 따라 KDI는 내년 반도체 호황으로 민간...",
+      "queries": [
+        "기름값"
+      ],
+      "verification_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "id": "71507179543faed9",
+      "canonical_url": "https://v.daum.net/v/20261112151820504",
+      "source_normalized": "동아일보",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "\"이라크·튀르키예·파키스탄, 트럼프 '이란 육로봉쇄'에 반발\" NYT",
+      "source": "뉴시스",
+      "url": "https://v.daum.net/v/20261112161720198",
+      "published_at": "2026-11-12T16:17:20+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "\"이라크·튀르키예·파키스탄, 트럼프 '이란 육로봉쇄'에 반발\" NYT",
+      "snippet": "뉴시스 51분 전 다음뉴스 1 \"이라크·튀르키예·파키스탄, 트럼프 '이란 육로봉쇄'에 반발\" NYT 보이면서, 아이언 게이트 작전의 실효성은 높지 않을 수 있다는 관측이 제기된다는 것이 보도 요지다. 실제로 이란의 해상 석유 수출 을 완전히 근절한 해상 봉쇄와 달리, 육로를 틀어막겠다는 아이언 게이트는 큰 효과를 보지 못할 가능성이 있다는 것이다. 엘리 게...",
+      "queries": [
+        "석유 수출"
+      ],
+      "verification_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "id": "2add663dbfa72dd5",
+      "canonical_url": "https://v.daum.net/v/20261112161720198",
+      "source_normalized": "뉴시스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "반도체 호황 누른 유가…KDI \"소비에 부정적 영향 먼저 반영\"",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261112084800002",
+      "published_at": "2026-11-12T12:00:03+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T12:00:03+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "KDI, 유가 충격의 올해 소비 증가율 약 0.4%p 하방 영향 추정",
+      "snippet": "KDI, 유가 충격의 올해 소비 증가율 약 0.4%p 하방 영향 추정",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "9bdcb1235909b21015b89aa11f430100817e0da48c0148a51f5b135deca08f69",
+      "id": "8dc0fff79015efdf",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261112084800002",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    }
+  ],
+  "summary": "최고가격제 첫 손실정산·해제 검토 및 유가 상승의 소비 영향 모니터링",
+  "editorial_audit": "data/reviews/2026-11-12-evening.audit.json",
+  "supplemental_raw_search_result_count": 277,
+  "coverage_note": "자동 원수집 61건과 추가검색 결과 전체 별도 보존. 원문·최초시각 확인 6건, 미확인 26건 구분. 공개검색 노출 한계·일부 발행사 접속 실패가 있음.",
+  "raw_count_basis": "자동 원수집 실제 61건; 추가검색 결과와 구분",
+  "editorial_decisions": [
+    "동일 매체·정규화 제목만 병합; 다른 매체 동일사안 보존",
+    "포털 게시 식별시각은 원문 최초시각으로 인증하지 않음",
+    "추산 손실과 확정 보상액 구분. 비공개 공문·회신 내용 추정 없음"
+  ]
+}
