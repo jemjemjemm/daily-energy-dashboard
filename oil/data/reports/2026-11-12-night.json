@@ -1,0 +1,325 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-12",
+  "slot": "night",
+  "period_start": "2026-11-12T17:00:00+09:00",
+  "period_end": "2026-11-13T00:00:00+09:00",
+  "period_label": "2026-11-12 17:00 ~ 2026-11-13 00:00",
+  "generated_at": "2026-11-13T08:18:35.378725+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 57,
+  "total_enriched_input_count": 179,
+  "total_in_period_unique_count": 43,
+  "total_unknown_time_count": 15,
+  "total_outside_period_count": 121,
+  "total_deduped_count": 4,
+  "total_ok_count": 2,
+  "total_review_count": 2,
+  "total_excluded_count": 175,
+  "grade_counts": {
+    "A": 2,
+    "B": 1,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 52,
+    "daum": 5,
+    "google": 0
+  },
+  "query_counts": {},
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-13T08:17:38.832682+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "[Who Is ?] 유진수 STX엔진 대표이사",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=450849",
+      "published_at": "2026-11-13T07:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-13T07:00:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "증권사 3분기 실적 급랭…상반기 증시 호황에 누적 순익은 60% 급증",
+      "url": "http://www.4th.kr/news/articleView.html?idxno=2120823",
+      "published_at": "2026-11-12T17:44:05+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T17:44:05+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "거래 식고 평가손 겹쳤다… 대형 증권사, 3Q 영업익 7.6조→1.8조",
+      "url": "https://www.dt.co.kr/article/12094899?ref=naver",
+      "published_at": "2026-11-12T16:44:08+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T16:44:08+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "테슬라 팔아 스페이스X로…서학개미 ‘머스크 제국’ 자금 이동 본격화",
+      "url": "https://www.sedaily.com/article/20113434?ref=naver",
+      "published_at": "2026-11-12T13:21:28+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T13:21:28+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "코어위브, 3분기 매출 168% 급증…순손실은 6배 확대",
+      "url": "https://www.sedaily.com/article/20113430?ref=naver",
+      "published_at": "2026-11-12T13:20:46+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T13:20:46+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "ESG 평가 A+ 지킨 삼양·신세계·BGF...코웨이·현대그린푸드 새 진입, CJ·오리온도 반등",
+      "url": "http://www.popcornnews.net/news/articleView.html?idxno=139802",
+      "published_at": "2026-11-12T12:48:37+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T12:48:37+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "과징금에 실적 부담 커지는 국고채 담합 증권사들…재무 영향은 제각각 - THE Biz(더비즈)",
+      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=731232",
+      "published_at": "2026-11-12T11:59:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.12 11:59",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "KB·신한금융, ESG 최고등급 지켰지만, 담합 제재에 사회평가 하락",
+      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=718939",
+      "published_at": "2026-11-12T10:02:23+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T10:02:23+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "11월 12일 개장 전 주요 공시 - 서울파이낸스",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=642577",
+      "published_at": "2026-11-12T07:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026.11.12 07:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[정유 피크아웃] ②최고가격제 손실보전 첫정산 앞두고 기준 산정ㆍ국회 반기ㆍ소송전까지 ‘진통’",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611111308035910581",
+      "published_at": "2026-11-12T05:00:28+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 05:00:28",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[정유 피크아웃] ③역대급 성적 찍은 정유사…가격 투명성ㆍ상생 행보ㆍ고객 신뢰 다지기",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611111232255640574",
+      "published_at": "2026-11-12T05:00:31+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 05:00:31",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "(토마토칼럼)담합 적발이 민생이다",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1320199&inflow=N",
+      "published_at": "2026-11-12T11:55:41+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T11:55:41+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "【데일리 ESG 정책 브리핑】국고채 담합 1조6266억원 과징금·지역성장펀드 2000억원 조성·COP31 전기화 공약 - IMPACT ON(임팩트온)",
+      "url": "https://www.impacton.net/news/articleView.html?idxno=30642",
+      "published_at": "2026-11-12T09:36:15+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T09:36:15+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[오늘의 사설] \"해킹 막아야 할 금융보안원까지 뚫리다니...\"",
+      "url": "http://www.nongaek.com/news/articleView.html?idxno=97450",
+      "published_at": "2026-11-12T09:01:08+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T09:01:08+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[전국 주요 신문 사설](12일 조간)",
+      "url": "https://www.yna.co.kr/view/AKR20261112020500011?input=1195m",
+      "published_at": "2026-11-12T08:00:02+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T08:00:02+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "국고채 입찰 150건 담합…1조6000억 과징금 철퇴外 [한강로 경제브리핑]",
+      "url": "https://www.segye.com/newsView/20261111518496?OutUrl=naver",
+      "published_at": "2026-11-12T07:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 07:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[데스크칼럼] 부자 나라, 가난한 국민",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=503163",
+      "published_at": "2026-11-12T02:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T02:00:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[오늘의 신문] 美 대중국 반도체 통제 강화·엔비디아 3중 조사...한국 가계대출 1204조원 - 아시아엔 THE AsiaN",
+      "url": "http://kor.theasian.asia/archives/421462",
+      "published_at": "2026-11-12T09:23:02+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T00:23:02+00:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "부동산 토론회, 민주당 의원들은 청와대 눈치를 봤다: 슬로우레터 11월12일. - 슬로우뉴스.",
+      "url": "https://slownews.kr/169424",
+      "published_at": "2026-11-12T08:03:12+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T08:03:12+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "국제유가 내려도 정유업계 원료 조달 부담 여전",
+      "source": "울산신문",
+      "url": "https://www.ulsanpress.net/news/articleView.html",
+      "published_at": "2026-11-12T20:05:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T20:05:00+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "국제유가 하락에도 높은 해상운임과 지정학적 불확실성에 정유업계 조달비용 부담 지속 분석",
+      "snippet": "국제유가 하락에도 높은 해상운임과 지정학적 불확실성에 정유업계 조달비용 부담 지속 분석",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "be4d41c9a0eee920b4c0e7dc7442b791ea46913cc75ebcb9353d48c2db329f5a",
+      "id": "d652c5e3c43e0905",
+      "canonical_url": "https://www.ulsanpress.net/news/articleView.html",
+      "source_normalized": "울산신문",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "中 경유 수출 68% 급감 전망…韓 정유사에 열린 기회의 창",
+      "source": "아시아투데이",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261112010004890",
+      "published_at": "2026-11-12T18:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T18:00:00+09:00",
+      "summary": "中 경유 수출 68% 급감 전망…韓 정유사에 열린 기회의 창",
+      "queries": [
+        "정유사"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "0e7e215407d418f9",
+      "canonical_url": "https://www.asiatoday.co.kr/kn/view.php?key=20261112010004890",
+      "source_normalized": "아시아투데이",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "'트럼프-푸틴 합의'로 러 경유 수출 2배 증가…美 공급 물량은 '0'",
+      "source": "뉴스1",
+      "url": "https://v.daum.net/v/20261112213509573",
+      "published_at": "2026-11-12T21:35:09+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "'트럼프-푸틴 합의'로 러 경유 수출 2배 증가…美 공급 물량은 '0'",
+      "snippet": "뉴스1 10시간 전 다음뉴스 '트럼프-푸틴 합의'로 러 경유 수출 2배 증가…美 공급 물량은 '0' 반면 브라질과 튀르키예 등 다른 국가로의 러시아산 경유 수출 은 증가했다고 FT는 전했다. 트럼프 대통령은 지난 3일 미국 중간선거를...로이터통신은 지난 10일 우크라이나의 공격 재개 이후 러시아의 석유 정제 능력이 약 30% 감소했다고 보도했다. cjyou@news1.kr",
+      "queries": [
+        "석유 경유 수출"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "542e04ada72f3d2a",
+      "canonical_url": "https://v.daum.net/v/20261112213509573",
+      "source_normalized": "뉴스1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "베네수 \"석유산업 강화할 주권적 권리\"…섬나라들 \"생존 문제\"",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261112177600109",
+      "published_at": "2026-11-12T20:07:25+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T20:07:25+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "COP31서 베네수엘라 석유산업 강화 주장 및 도서국의 온실가스 감축 촉구",
+      "snippet": "COP31서 베네수엘라 석유산업 강화 주장 및 도서국의 온실가스 감축 촉구",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "c4924a18bc0f1ca42ce9f291cddf23bae1a7e7acf02eaeab94b5114f42ba79ed",
+      "id": "8fed369427d83571",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261112177600109",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    }
+  ],
+  "summary": "정유업계 조달비용 부담·경유 수출 및 COP31 석유산업·기후정책 논의 모니터링",
+  "editorial_audit": "data/reviews/2026-11-12-night.audit.json",
+  "supplemental_raw_search_result_count": 223,
+  "coverage_note": "자동 원수집 57건과 추가검색 결과 전체 별도 보존. 원문·최초시각 확인 2건, 미확인 2건 구분. 공개검색 노출 한계·일부 발행사 접속 실패가 있음.",
+  "raw_count_basis": "자동 원수집 실제 57건; 추가검색 결과와 구분",
+  "editorial_decisions": [
+    "동일 매체·정규화 제목만 병합; 다른 매체 동일사안 보존",
+    "포털 게시 식별시각은 원문 최초시각으로 인증하지 않음",
+    "추산 손실과 확정 보상액 구분. 비공개 공문·회신 내용 추정 없음"
+  ]
+}

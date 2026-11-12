@@ -1,0 +1,863 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-13",
+  "slot": "morning",
+  "period_start": "2026-11-13T00:00:00+09:00",
+  "period_end": "2026-11-13T08:00:00+09:00",
+  "period_label": "2026-11-13 00:00 ~ 2026-11-13 08:00",
+  "generated_at": "2026-11-13T08:18:37.830990+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 57,
+  "total_enriched_input_count": 179,
+  "total_in_period_unique_count": 102,
+  "total_unknown_time_count": 15,
+  "total_outside_period_count": 62,
+  "total_deduped_count": 25,
+  "total_ok_count": 9,
+  "total_review_count": 16,
+  "total_excluded_count": 154,
+  "grade_counts": {
+    "A": 10,
+    "B": 7,
+    "C": 8
+  },
+  "portal_counts": {
+    "naver": 52,
+    "daum": 5,
+    "google": 0
+  },
+  "query_counts": {},
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-13T08:17:38.832682+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "[Who Is ?] 유진수 STX엔진 대표이사",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=450849",
+      "published_at": "2026-11-13T07:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-13T07:00:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "증권사 3분기 실적 급랭…상반기 증시 호황에 누적 순익은 60% 급증",
+      "url": "http://www.4th.kr/news/articleView.html?idxno=2120823",
+      "published_at": "2026-11-12T17:44:05+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T17:44:05+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "거래 식고 평가손 겹쳤다… 대형 증권사, 3Q 영업익 7.6조→1.8조",
+      "url": "https://www.dt.co.kr/article/12094899?ref=naver",
+      "published_at": "2026-11-12T16:44:08+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T16:44:08+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "테슬라 팔아 스페이스X로…서학개미 ‘머스크 제국’ 자금 이동 본격화",
+      "url": "https://www.sedaily.com/article/20113434?ref=naver",
+      "published_at": "2026-11-12T13:21:28+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T13:21:28+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "코어위브, 3분기 매출 168% 급증…순손실은 6배 확대",
+      "url": "https://www.sedaily.com/article/20113430?ref=naver",
+      "published_at": "2026-11-12T13:20:46+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T13:20:46+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "ESG 평가 A+ 지킨 삼양·신세계·BGF...코웨이·현대그린푸드 새 진입, CJ·오리온도 반등",
+      "url": "http://www.popcornnews.net/news/articleView.html?idxno=139802",
+      "published_at": "2026-11-12T12:48:37+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T12:48:37+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "과징금에 실적 부담 커지는 국고채 담합 증권사들…재무 영향은 제각각 - THE Biz(더비즈)",
+      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=731232",
+      "published_at": "2026-11-12T11:59:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.12 11:59",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "KB·신한금융, ESG 최고등급 지켰지만, 담합 제재에 사회평가 하락",
+      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=718939",
+      "published_at": "2026-11-12T10:02:23+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T10:02:23+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "11월 12일 개장 전 주요 공시 - 서울파이낸스",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=642577",
+      "published_at": "2026-11-12T07:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026.11.12 07:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[정유 피크아웃] ②최고가격제 손실보전 첫정산 앞두고 기준 산정ㆍ국회 반기ㆍ소송전까지 ‘진통’",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611111308035910581",
+      "published_at": "2026-11-12T05:00:28+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 05:00:28",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[정유 피크아웃] ③역대급 성적 찍은 정유사…가격 투명성ㆍ상생 행보ㆍ고객 신뢰 다지기",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611111232255640574",
+      "published_at": "2026-11-12T05:00:31+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 05:00:31",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "(토마토칼럼)담합 적발이 민생이다",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1320199&inflow=N",
+      "published_at": "2026-11-12T11:55:41+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T11:55:41+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "【데일리 ESG 정책 브리핑】국고채 담합 1조6266억원 과징금·지역성장펀드 2000억원 조성·COP31 전기화 공약 - IMPACT ON(임팩트온)",
+      "url": "https://www.impacton.net/news/articleView.html?idxno=30642",
+      "published_at": "2026-11-12T09:36:15+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T09:36:15+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[오늘의 사설] \"해킹 막아야 할 금융보안원까지 뚫리다니...\"",
+      "url": "http://www.nongaek.com/news/articleView.html?idxno=97450",
+      "published_at": "2026-11-12T09:01:08+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T09:01:08+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[전국 주요 신문 사설](12일 조간)",
+      "url": "https://www.yna.co.kr/view/AKR20261112020500011?input=1195m",
+      "published_at": "2026-11-12T08:00:02+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T08:00:02+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "국고채 입찰 150건 담합…1조6000억 과징금 철퇴外 [한강로 경제브리핑]",
+      "url": "https://www.segye.com/newsView/20261111518496?OutUrl=naver",
+      "published_at": "2026-11-12T07:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-12 07:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[데스크칼럼] 부자 나라, 가난한 국민",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=503163",
+      "published_at": "2026-11-12T02:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T02:00:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[오늘의 신문] 美 대중국 반도체 통제 강화·엔비디아 3중 조사...한국 가계대출 1204조원 - 아시아엔 THE AsiaN",
+      "url": "http://kor.theasian.asia/archives/421462",
+      "published_at": "2026-11-12T09:23:02+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-12T00:23:02+00:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "부동산 토론회, 민주당 의원들은 청와대 눈치를 봤다: 슬로우레터 11월12일. - 슬로우뉴스.",
+      "url": "https://slownews.kr/169424",
+      "published_at": "2026-11-12T08:03:12+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-12T08:03:12+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "미 원유 재고 465.7만배럴, 한 주 새 1.14% 증가 | 토큰포스트",
+      "source": "토큰포스트",
+      "url": "https://www.tokenpost.kr/news/economy/437314",
+      "published_at": "2026-11-13T04:06:22+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-13T04:06:22+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "미 EIA 주간 집계상 상업용 원유 재고 465.7만배럴 증가",
+      "snippet": "미 EIA 주간 집계상 상업용 원유 재고 465.7만배럴 증가",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "73cf44287140c77a5312691eec5a34b1c2608479c9d3b30ecfacc1373520c924",
+      "id": "0558b66ea5c7e42a",
+      "canonical_url": "https://www.tokenpost.kr/news/economy/437314",
+      "source_normalized": "토큰포스트",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "이란 매체 \"남부 호르모즈간주 시리크, 적 공격 받아\"",
+      "source": "뉴스핌",
+      "url": "https://www.newspim.com/news/view/20261113000037",
+      "published_at": "2026-11-13T07:52:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-13T07:52:00+09:00",
+      "summary": "이란 매체 \"남부 호르모즈간주 시리크, 적 공격 받아\"",
+      "queries": [
+        "호르무즈"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "5b00699ef739ac52",
+      "canonical_url": "https://www.newspim.com/news/view/20261113000037",
+      "source_normalized": "뉴스핌",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "트럼프 \"이란과 합의 필요 없어\"…밴스에 민주당 부패 수사 집중 지시 - 조세일보",
+      "source": "조세일보",
+      "url": "https://www.joseilbo.com/news/htmls/2026/11/20261113579562.html",
+      "published_at": "2026-11-13T07:44:16+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-13T07:44:16+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "트럼프, 이란과 합의 불필요 주장 및 밴스 부통령에 국내 문제 집중 지시",
+      "snippet": "트럼프, 이란과 합의 불필요 주장 및 밴스 부통령에 국내 문제 집중 지시",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "d7c38f93767991f41887b04825958bf027a88132e36b26e0f465c91086ad5373",
+      "id": "e69b34a6aa745dd9",
+      "canonical_url": "https://www.joseilbo.com/news/htmls/2026/11/20261113579562.html",
+      "source_normalized": "조세일보",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[금/유가] 중동 평화기대 후퇴하며 유가 2% 급등…금값 3% 급락",
+      "source": "뉴스핌",
+      "url": "https://www.newspim.com/news/view/20261113000016",
+      "published_at": "2026-11-13T05:48:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-13T05:48:00+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "중동 에너지시설 공격 주장과 공급 불안에 국제유가 상승 및 금값 하락",
+      "snippet": "중동 에너지시설 공격 주장과 공급 불안에 국제유가 상승 및 금값 하락",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "07eb192145a8473c0edcd80cefdb40fd963365df9178ab4e802010c8a87a5af1",
+      "id": "bd853ca0b29440b8",
+      "canonical_url": "https://www.newspim.com/news/view/20261113000016",
+      "source_normalized": "뉴스핌",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[대한뉴스] 2026년 운행경유차 조기폐차 마지막 추가 접수",
+      "source": "대한뉴스",
+      "url": "https://www.daehannews.kr/news/article.html",
+      "published_at": "2026-11-13T06:05:46+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.13 06:05:46; 발행사 본문·최초시각 직접 대조",
+      "summary": "충주시, 노후 경유차 조기폐차 지원 마지막 추가 접수",
+      "snippet": "충주시, 노후 경유차 조기폐차 지원 마지막 추가 접수",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "e81da007e5985b2f4e452a8289ab7d757fb0d995ef38887b73ff75c213b39f8d",
+      "id": "285ce0dceb2e2ee6",
+      "canonical_url": "https://www.daehannews.kr/news/article.html",
+      "source_normalized": "대한뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "10월 수입물가지수 1.8%↓…환율·유가 하락 영향",
+      "source": "국제뉴스",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3750693",
+      "published_at": "2026-11-13T07:05:19+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-13T07:05:19+09:00",
+      "summary": "10월 수입물가지수 1.8%↓…환율·유가 하락 영향",
+      "queries": [
+        "석유 수출"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "741c95f88d731643",
+      "canonical_url": "https://www.gukjenews.com/news/articleView.html?idxno=3750693",
+      "source_normalized": "국제뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "적자전환 석유화학사들, 10년째 스페셜티 외치지만…체질 개선은 제자리",
+      "source": "인베스트조선",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/11/12/2026111280164.html",
+      "published_at": "2026-11-13T07:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026.11.13 07:00",
+      "summary": "적자전환 석유화학사들, 10년째 스페셜티 외치지만…체질 개선은 제자리",
+      "queries": [
+        "석유화학"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "fab8a728e0b6a004",
+      "canonical_url": "https://www.investchosun.com/site/data/html_dir/2026/11/12/2026111280164.html",
+      "source_normalized": "인베스트조선",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "[조세금융신문] 환율·유가 동반 하락에 10월 수입물가 1.8%↓...수출물가 0.7%↑",
+      "source": "조세금융신문",
+      "url": "https://www.tfmedia.co.kr/news/article.html?no=208861",
+      "published_at": "2026-11-13T07:21:34+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026.11.13 07:21:34",
+      "summary": "[조세금융신문] 환율·유가 동반 하락에 10월 수입물가 1.8%↓...수출물가 0.7%↑",
+      "queries": [
+        "석유 수출"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "3d405177491faa69",
+      "canonical_url": "https://www.tfmedia.co.kr/news/article.html?no=208861",
+      "source_normalized": "조세금융신문",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "환율·유가 내리자 수입물가 1.8% 하락",
+      "source": "스트레이트뉴스",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=315277",
+      "published_at": "2026-11-13T07:01:52+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-13T07:01:52+09:00",
+      "summary": "환율·유가 내리자 수입물가 1.8% 하락",
+      "queries": [
+        "석유 수출"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "id": "e7f61a2f61150265",
+      "canonical_url": "https://www.straightnews.co.kr/news/articleView.html?idxno=315277",
+      "source_normalized": "스트레이트뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "후티 반군 \"드론으로 사우디 송유관·미사일로 석유 시설 타격 성공\"",
+      "source": "아주경제",
+      "url": "https://v.daum.net/v/20261113073141919",
+      "published_at": "2026-11-13T07:31:41+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "후티 반군 \"드론으로 사우디 송유관·미사일로 석유 시설 타격 성공\"",
+      "snippet": "아주경제 43분 전 다음뉴스 후티 반군 \"드론으로 사우디 송유관·미사일로 석유 시설 타격 성공\" 운송하는 시설로, 호르무즈 해협을 거치지 않고 원유 를 수출할 수 있는 핵심 경로다. 로이터에 따르면 사우디는 중동 전쟁으로 호르무즈 해협의 원유 수송이 차질을 빚자 하루 약 400만 배럴의 원유 를 동서 송유관을 통해 얀부로 운송하고 있다. 이는 전 세계 원유 ...",
+      "queries": [
+        "중동 원유"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "e7ac5914ae9b594d",
+      "canonical_url": "https://v.daum.net/v/20261113073141919",
+      "source_normalized": "아주경제",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "\"뱁새가 황새 따라가다…\" 이란, 한국 속담으로 호르무즈 개입 경고",
+      "source": "한국일보",
+      "url": "https://v.daum.net/v/20261113075839370",
+      "published_at": "2026-11-13T07:58:39+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "\"뱁새가 황새 따라가다…\" 이란, 한국 속담으로 호르무즈 개입 경고",
+      "snippet": "한국일보 16분 전 다음뉴스 \"뱁새가 황새 따라가다…\" 이란, 한국 속담으로 호르무즈 개입 경고 SNS) 엑스(X)에 올린 게시글. 한국 속담임을 명시하며 미국의 대이란 침략에 가담하지 말라고 경고하고 있다. X 캡처 정부가 호르무즈 해협 안보와 관련해 청해부대 작전 범위 확대를 추진 중인 가운데 이란 외무부가 13일(현지시간) 한국 속담을 인용해 경고장을...",
+      "queries": [
+        "호르무즈"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "4f99b29f7ce4ff61",
+      "canonical_url": "https://v.daum.net/v/20261113075839370",
+      "source_normalized": "한국일보",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "트럼프 \"이란과 합의 필요없다\"…밴스 주도 협상론서 급격 선회(종합)",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261113007751071",
+      "published_at": "2026-11-13T07:51:05+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-13T07:51:05+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "트럼프, 이란과 합의 불필요 발언 및 밴스 부통령에 다른 업무 집중 지시",
+      "snippet": "트럼프, 이란과 합의 불필요 발언 및 밴스 부통령에 다른 업무 집중 지시",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "bace65757db22bd0fce8ec86a56906f4c942a54c1bab5f2301c2797d4d6e1f60",
+      "id": "fb05a971a4bc80ba",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261113007751071",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "후티 “사우디 동서 송유관·얀부 석유시설 공격해”",
+      "source": "경향신문",
+      "url": "https://v.daum.net/v/20261113075156278",
+      "published_at": "2026-11-13T07:51:56+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "후티 “사우디 동서 송유관·얀부 석유시설 공격해”",
+      "snippet": "경향신문 23분 전 다음뉴스 후티 “사우디 동서 송유관·얀부 석유시설 공격해” 사나의 공습이 발생한 현장에서 구호를 외치고 있다. AP연합뉴스 예멘의 친이란 무장세력 후티(안사르 알라)는 12일(현지시간) 호르무즈 해협을 우회하는 사우디아라비아의 석유 운송 수단인 동서 송유관과 석유 시설을 공격했다고 주장했다. 야히야 사리 후티 반군...",
+      "queries": [
+        "호르무즈"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "3853e47bf4ab1d15",
+      "canonical_url": "https://v.daum.net/v/20261113075156278",
+      "source_normalized": "경향신문",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "갑자기 바뀐 트럼프 \"이란과 합의 필요없다\"…'협상 주도' 밴스에 딴일 지시",
+      "source": "JTBC",
+      "url": "https://v.daum.net/v/20261113074804226",
+      "published_at": "2026-11-13T07:48:04+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "갑자기 바뀐 트럼프 \"이란과 합의 필요없다\"…'협상 주도' 밴스에 딴일 지시",
+      "snippet": "JTBC 27분 전 다음뉴스 갑자기 바뀐 트럼프 \"이란과 합의 필요없다\"…'협상 주도' 밴스에 딴일 지시 필요하지 않다\"며 \"그런 시대는 오래전에 지났다\"고 밝혔습니다. 이어 \"우리는 그들의 돈 수천억 달러를 확보했으며 그들의 ( 호르무즈 ) 해협도 장악했다\"고 주장했습니다. 그러면서 민주당이 집권한 지역에서 벌어지는 부패 문제를 거론하며 밴스 부통령에게 관련...",
+      "queries": [
+        "호르무즈"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "bb6b32dd0d693ade",
+      "canonical_url": "https://v.daum.net/v/20261113074804226",
+      "source_normalized": "JTBC",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "트럼프 “이란과 합의 필요 없다”…‘협상 주도’ 밴스에 “다른 문제에 집중해라”",
+      "source": "쿠키뉴스",
+      "url": "https://v.daum.net/v/20261113074632201",
+      "published_at": "2026-11-13T07:46:32+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "트럼프 “이란과 합의 필요 없다”…‘협상 주도’ 밴스에 “다른 문제에 집중해라”",
+      "snippet": "쿠키뉴스 28분 전 다음뉴스 트럼프 “이란과 합의 필요 없다”…‘협상 주도’ 밴스에 “다른 문제에 집중해라” 않다”면서 “그런 시대는 오래전에 지났다”고 적었다. 이어 그는 “우리는 그들의 돈 수천억 달러를 확보했으며 그들의 ( 호르무즈 ) 해협도 장악했다”고 주장했다. 트럼프 대통령은 “민주당이 운영하는 지역에서 대규모 부패와 범죄가 벌어지고 있다”며 “이란...",
+      "queries": [
+        "호르무즈"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "522d768b3bc8a765",
+      "canonical_url": "https://v.daum.net/v/20261113074632201",
+      "source_normalized": "쿠키뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "협상 대신 공격 재개하나… 트럼프 “이란과 합의 필요없다”",
+      "source": "조선Biz",
+      "url": "https://v.daum.net/v/20261113073640992",
+      "published_at": "2026-11-13T07:36:40+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "협상 대신 공격 재개하나… 트럼프 “이란과 합의 필요없다”",
+      "snippet": "조선비즈 38분 전 다음뉴스 협상 대신 공격 재개하나… 트럼프 “이란과 합의 필요없다” 우리는 이란과의 합의가 필요하지 않다. 그런 시대는 오래 전에 지났다”며 “우리는 그들의 돈 수천억달러를 확보했고, 그들의 ( 호르무즈 ) 해협도 장악했다”고 했다. 그러면서 트럼프 대통령은 민주당이 운영하는 지역에서 대규모 부패와 범죄가 벌어지고 있다며...",
+      "queries": [
+        "호르무즈"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "024e898902fbd981",
+      "canonical_url": "https://v.daum.net/v/20261113073640992",
+      "source_normalized": "조선Biz",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "[뉴욕유가] \"합의 불필요\" 트럼프 변심 속 이틀째 상승…WTI 2.55%↑",
+      "source": "연합인포맥스",
+      "url": "https://v.daum.net/v/20261113072203789",
+      "published_at": "2026-11-13T07:22:03+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "[뉴욕유가] \"합의 불필요\" 트럼프 변심 속 이틀째 상승…WTI 2.55%↑",
+      "snippet": "연합인포맥스 53분 전 다음뉴스 [뉴욕유가] \"합의 불필요\" 트럼프 변심 속 이틀째 상승…WTI 2.55%↑ 여부에 대해서는 언급하지 않았다. 시리크는 호르무즈 해협 동쪽 출입구 연안에 자리 잡고 있는 항구 도시다. 미국의 원유 및 휘발유 재고가 예상과 달리 늘었다는 소식이 전해졌으나 유가는 거의 반응하지 않았다. 미 에너지정보청(EIA)에 따르면 지난 6일로 끝난...",
+      "queries": [
+        "휘발유"
+      ],
+      "verification_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "id": "3ddb3c4892efa54b",
+      "canonical_url": "https://v.daum.net/v/20261113072203789",
+      "source_normalized": "연합인포맥스",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "원·달러 환율·국제 유가 하락에…10월 수입물가 1.8%↓",
+      "source": "뉴시스",
+      "url": "https://v.daum.net/v/20261113074033082",
+      "published_at": "2026-11-13T07:40:33+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "원·달러 환율·국제 유가 하락에…10월 수입물가 1.8%↓",
+      "snippet": "뉴시스 35분 전 다음뉴스 원·달러 환율·국제 유가 하락에…10월 수입물가 1.8%↓ 광산품(-3.0%)을 중심으로 3.0% 하락했다. 중간재는 석탄 및 석유 제품(3.5%)이 올랐지만 1차 금속 제품(-4.2%) 등이 내려 1.0% 하락...14.9% 상승했다. 컴퓨터·전자 및 광학기기, 기계 및 장비, 화학 제품 등이 증가한 결과다. 수입금액지수는 36.6% 올랐다. 수출...",
+      "queries": [
+        "석유화학"
+      ],
+      "verification_error": "('Connection aborted.', ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None))",
+      "id": "2a66024de4eb63c7",
+      "canonical_url": "https://v.daum.net/v/20261113074033082",
+      "source_normalized": "뉴시스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "환율·유가 내리자 수입물가 한 달만 하락...10월 1.8%↓[Pick코노미]",
+      "source": "서울경제",
+      "url": "https://v.daum.net/v/20261113060139389",
+      "published_at": "2026-11-13T06:01:39+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "환율·유가 내리자 수입물가 한 달만 하락...10월 1.8%↓[Pick코노미]",
+      "snippet": "서울경제 2시간 전 다음뉴스 2 환율·유가 내리자 수입물가 한 달만 하락...10월 1.8%↓[Pick코노미] 12일 서울 서초구 만남의광장 주유소 에 유가가 표시돼있다. 연합뉴스 지난달 수입물가가 환율 및 국제유가 하락으로 한 달 만에 하락세로 전환했다. 한국은행이 13일 발표한 ‘10월 수출입물가지수’에 따르며 지난달 수입물가지수(원화 기준 잠정치·2020년=100)는...",
+      "queries": [
+        "주유소"
+      ],
+      "verification_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "id": "e6f206ebce04a299",
+      "canonical_url": "https://v.daum.net/v/20261113060139389",
+      "source_normalized": "서울경제",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "“高유가 소비 위축 효과, 반도체 호황 압도”",
+      "source": "조선일보",
+      "url": "https://v.daum.net/v/20261113003319947",
+      "published_at": "2026-11-13T00:33:19+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "“高유가 소비 위축 효과, 반도체 호황 압도”",
+      "snippet": "조선일보 7시간 전 다음뉴스 2 “高유가 소비 위축 효과, 반도체 호황 압도” 서울 도심의 한 주유소 에 유가정보가 표시돼 있다. /뉴스1 한국개발연구원(KDI)이 최근 반도체 호황임에도 민간 소비 개선세가 완만한 수준에 그치고 있는 현상과 관련해 “반도체 호황에 따른 긍정적 영향이 파급되지 않은 상황에서 중동 전쟁에 따른 유가 상승...",
+      "queries": [
+        "주유소"
+      ],
+      "verification_error": "('Connection aborted.', ConnectionAbortedError(10053, '현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다', None, 10053, None))",
+      "id": "128dab10a5df6a95",
+      "canonical_url": "https://v.daum.net/v/20261113003319947",
+      "source_normalized": "조선일보",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "환율·유가 하락에 10월 수입물가 하락세…한 달 전보다 1.8% ↓",
+      "source": "SBS Biz",
+      "url": "https://v.daum.net/v/20261113071209673",
+      "published_at": "2026-11-13T07:12:09+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "환율·유가 하락에 10월 수입물가 하락세…한 달 전보다 1.8% ↓",
+      "snippet": "SBS Biz PICK 1시간 전 다음뉴스 환율·유가 하락에 10월 수입물가 하락세…한 달 전보다 1.8% ↓ 하락하면서 하방 요인으로 작용할 것\"이라고 말했습니다. 10월 수출 물가지수는 184.15로, 전월(182.84)대비 0.7% 상승했습니다. 달러...및 광학기기가 홀로 3.7% 상승했습니다. 이외 석탄 및 석유 제품(-0.4%), 1차금속제품(-3.1%), 전기장비(-1.8%), 운송장비(-2.0%...",
+      "queries": [
+        "석유 수출"
+      ],
+      "verification_error": "('Connection aborted.', ConnectionAbortedError(10053, '현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다', None, 10053, None))",
+      "id": "37795c8a98a40446",
+      "canonical_url": "https://v.daum.net/v/20261113071209673",
+      "source_normalized": "SBS Biz",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "환율·유가 동반 하락에 10월 수입물가 1.8%↓",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261112167900002",
+      "published_at": "2026-11-13T06:00:03+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-13T06:00:03+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "한은, 환율·유가 동반 하락에 10월 수입물가 전월 대비 1.8% 하락 집계",
+      "snippet": "한은, 환율·유가 동반 하락에 10월 수입물가 전월 대비 1.8% 하락 집계",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "d5bb60a47393e7946b62eb160307536dc43c15dd0de6e75748e4823b58be0299",
+      "id": "af3606a16b17fe63",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261112167900002",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "트럼프 \"이란과 합의 불필요\"에 국제유가 급등…브렌트유 3.3%↑",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261113010900072",
+      "published_at": "2026-11-13T05:50:52+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-13T05:50:52+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "미·이란 협상 기대 후퇴에 브렌트유 3.30%·WTI 2.55% 상승 마감",
+      "snippet": "미·이란 협상 기대 후퇴에 브렌트유 3.30%·WTI 2.55% 상승 마감",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "55c4a1c72d26addba2d08e71297a427ac831f972c617f0ba119364ab9db9cb80",
+      "id": "1fc0c73e40dd39d9",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261113010900072",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "이란 매체 \"남부 호르모즈간주 시리크, 적 공격 받아\"",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261113008700079",
+      "published_at": "2026-11-13T04:39:55+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-13T04:39:55+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "이란 IRNA 통신, 남부 시리크 공격 보도 및 피해 세부정보 미공개",
+      "snippet": "이란 IRNA 통신, 남부 시리크 공격 보도 및 피해 세부정보 미공개",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "74291c568271e23cd4b00c05da4ffaac1526243e8364d998a9f9aa094694abc7",
+      "id": "9c63586bca7e8bf9",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261113008700079",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "후티 반군 \"사우디 동서 송유관·얀부 석유시설 타격\"(종합)",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261113005051079",
+      "published_at": "2026-11-13T03:32:39+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-13T03:32:39+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "후티 반군, 사우디 동서 송유관·얀부 석유시설 타격 주장",
+      "snippet": "후티 반군, 사우디 동서 송유관·얀부 석유시설 타격 주장",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "88e6d3e1415db18a7c64e8d0ab67f88803d0c4c9e6fdc3ffb0b01dbf099be093",
+      "id": "5f9e4c07c1e00c00",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261113005051079",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    }
+  ],
+  "summary": "미·이란 협상 기대 후퇴·공급 차질 우려에 국제유가 상승 및 수입물가 하락 집계",
+  "editorial_audit": "data/reviews/2026-11-13-morning.audit.json",
+  "supplemental_raw_search_result_count": 223,
+  "coverage_note": "자동 원수집 57건과 추가검색 결과 전체 별도 보존. 원문·최초시각 확인 9건, 미확인 16건 구분. 공개검색 노출 한계·일부 발행사 접속 실패가 있음.",
+  "raw_count_basis": "자동 원수집 실제 57건; 추가검색 결과와 구분",
+  "editorial_decisions": [
+    "동일 매체·정규화 제목만 병합; 다른 매체 동일사안 보존",
+    "포털 게시 식별시각은 원문 최초시각으로 인증하지 않음",
+    "추산 손실과 확정 보상액 구분. 비공개 공문·회신 내용 추정 없음"
+  ]
+}

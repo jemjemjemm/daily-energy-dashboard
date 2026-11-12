@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-13",
+  "report_slot": "morning",
+  "completed_at": "2026-11-13 08:23:18 KST",
+  "status": "done",
+  "bundle": {
+    "date": "2026-11-13",
+    "slot": "morning",
+    "daily": true,
+    "committees": {
+      "industry": 5,
+      "climate_labor": 5,
+      "finance": 4
+    },
+    "oil": [
+      {
+        "date": "2026-11-13",
+        "slot": "morning",
+        "articles": 25
+      },
+      {
+        "date": "2026-11-12",
+        "slot": "night",
+        "articles": 4
+      }
+    ],
+    "monitoring": 27
+  }
+}
