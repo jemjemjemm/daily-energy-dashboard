@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △통상교섭본부장, 배터리 등 업계와 EU 보호무역 조치 공동 대응 △국회 토론회서 자발적 탄소시장 법제화 공방 및 기후부의 배출권거래제 연계 계획 부인 △재경부, 지방법인세 신설안에 수도권 세수 편중·교부세 감소 우려 및 중장기 검토 의견"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △산중위, 소관 예산안 의결 무산 및 체코 원전 시공계약 청문회 필요성 제기 △노동장관, 반도체 R&D 근로시간 의견 청취 및 초광역특구 사회적 대화 참고 방침 △당정, 최고가격제 내년 공급분 손실보전에 추가 2조원 추산 및 예산 증액 논의"
     }
   ],
   "prices": {
@@ -1537,5 +1541,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△산중위, 소관 예산안 의결 무산 및 체코 원전 시공계약 청문회 필요성 제기 △노동장관, 반도체 R&D 근로시간 의견 청취 및 초광역특구 사회적 대화 참고 방침 △당정, 최고가격제 내년 공급분 손실보전에 추가 2조원 추산 및 예산 증액 논의",
+    "trend_paragraphs": [
+      "산중위, 소관 예산안 의결 무산 및 체코 원전 시공계약 청문회 필요성 제기",
+      "노동장관, 반도체 R&D 근로시간 의견 청취 및 초광역특구 사회적 대화 참고 방침",
+      "당정, 최고가격제 내년 공급분 손실보전에 추가 2조원 추산 및 예산 증액 논의"
+    ],
+    "articles": [
+      {
+        "title": "산자위, 호남반도체·미래기금 이견에 '소관 예산안' 의결 무산(종합)",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261113092351001",
+        "summary": "산중위, 소관 예산안 의결 무산 및 체코 원전 시공계약 청문회 필요성 제기",
+        "published_at_kst": "2026-11-13T16:13:07+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-13T16:13:07+09:00; 발행사 원문 본문·최초 송고/입력시각 직접 확인, 수정시각 미사용",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "노동장관, 반도체 기업 간담회…초광역특구 사회적 대화에 참고",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261112178500530",
+        "summary": "노동장관, 반도체 R&D 근로시간 의견 청취 및 초광역특구 사회적 대화 참고 방침",
+        "published_at_kst": "2026-11-13T09:30:02+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-13T09:30:02+09:00; 발행사 원문 본문·최초 송고/입력시각 직접 확인, 수정시각 미사용",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "[단독] 석유 최고가격제 내년에도 이어간다…당정, 예산 증액 논의",
+        "press": "뉴스1",
+        "url": "https://www.news1.kr/economy/trend/6353176",
+        "summary": "당정, 최고가격제 내년 공급분 손실보전에 추가 2조원 추산 및 예산 증액 논의",
+        "published_at_kst": "2026-11-13T13:00:03+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-13T13:00:03+09:00; 발행사 원문 본문·최초 송고/입력시각 직접 확인, 수정시각 미사용; 발행사 공개 HTML의 __NEXT_DATA__ articleView.contentArrange 텍스트 본문 확인",
+        "summary_basis": "original_article_body_manual_review"
+      }
+    ],
+    "source": "발행사 본문·최초 송고시각 직접 검토",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
