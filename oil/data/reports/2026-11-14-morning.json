@@ -1,0 +1,380 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-14",
+  "slot": "morning",
+  "period_start": "2026-11-14T00:00:00+09:00",
+  "period_end": "2026-11-14T08:00:00+09:00",
+  "period_label": "2026-11-14 00:00 ~ 2026-11-14 08:00",
+  "generated_at": "2026-11-14T12:10:59.555231+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 123,
+  "total_enriched_input_count": 25,
+  "total_in_period_unique_count": 3,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 20,
+  "total_deduped_count": 0,
+  "total_ok_count": 0,
+  "total_review_count": 0,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 47,
+    "daum": 46,
+    "google": 30
+  },
+  "query_counts": {},
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-14T12:07:32.019824+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "상반기 호황 무색…대형 증권사 3분기 순이익 85% 급감",
+      "url": "https://www.mediapen.com/news/view/1137368",
+      "published_at": "2026-11-14T09:36:57+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-14 09:36:57",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[저PBR 점검] 삼양사·삼양홀딩스, 보유 지분가치 밑돈 시총…과징금·지주사 할인 과제",
+      "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=369664",
+      "published_at": "2026-11-14T08:26:33+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-14T08:26:33+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "국고채 금리 상승…10년물, 열흘만에 다시 4%대로",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110556",
+      "published_at": "2026-11-14T06:39:30+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-14T06:39:30+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "국고채 10년물 금리 4% 돌파…열흘 만에 재진입",
+      "url": "http://www.kjdaily.com/article.php?aid=1794582487692181276",
+      "published_at": "2026-11-14T01:07:34.022412+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 확인 실패: ConnectTimeout"
+    },
+    {
+      "title": "교보증권, 3분기 누적 순익 22%↑… 공정위 제재 리스크는 부담",
+      "url": "http://www.biztribune.co.kr/news/articleView.html?idxno=362515",
+      "published_at": "2026-11-13T19:03:26+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-13T19:03:26+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "삼성증권, 시장 변동성에도 이익 방어력…배당 매력 유효",
+      "url": "https://www.consumuch.com/news/articleView.html?idxno=79561",
+      "published_at": "2026-11-13T19:21:46+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-13T19:21:46+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "“삼성증권, 3분기 순이익 3528억…브로커리지 부진 속 ‘전통 IB’가 살렸다” - 뉴스퀘스트",
+      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=305025",
+      "published_at": "2026-11-13T18:53:08+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-13T18:53:08+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "증권사 3분기 순익 반토막…과징금∙교육세 '뇌관'",
+      "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7193666",
+      "published_at": "2026-11-13T18:09:37+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-13T18:09:37+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "석유 최고가격 '동결' 휘발유 1784원… \"4조 2천억 예비비 내 정산 충분\"",
+      "url": "http://www.metroseoul.co.kr/article/20261113500138",
+      "published_at": "2026-11-13T18:07:34.025448+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "산업부 \"최고가격제, 민생의 방파제…내년 유지는 미정\"(종합)",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444722",
+      "published_at": "2026-11-13T18:00:15+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-13T18:00:15+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "정부, 최고가격 첫 정산액 12월초 발표…\"예비비 4.2조로 감당 가능\"",
+      "url": "https://www.newsis.com/view/NISX20261113_0003867323",
+      "published_at": "2026-11-13T18:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.13 18:00:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "석유 최고가격 '동결' 휘발유 1784원… \"4조 2천억 예비비 내 정산 충분\"",
+      "url": "http://v.daum.net/v/20261113180025679",
+      "published_at": "2026-11-13T18:00:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 13. 18:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[채권마감] 10년 금리 10일만 4%대 재진입, 유가·미 금리 급등",
+      "url": "http://v.daum.net/v/20261113171506201",
+      "published_at": "2026-11-13T17:15:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 13. 17:15",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "국고채 금리 상승…유가 상승·美국채 약세",
+      "url": "http://v.daum.net/v/20261113171200112",
+      "published_at": "2026-11-13T17:12:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 13. 17:12",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[담합망국] HD현대오일뱅크① \"전쟁으로 먹고사는 회사\" \"올해 2조 벌듯\"···정기선 회장은 침묵",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBad21UUDd5YlU0dGNPTE5NOHdTbFRFazFGdmxWSUhqOG8xNkRtVFA1ZnRjR3pSVjdZVXRaTU1vVXhmWjB6TmdRazNiU0I0b3V2SERRMERBcmFDQUFkX0lOWk5lZzRVaEJNQTRB?oc=5",
+      "published_at": "2026-11-13T17:42:25+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "정부, 정유사 손실 12월 초 첫 정산…\"원가기준 적용 변함 없다\"",
+      "url": "https://www.newspim.com/news/view/20261113001357",
+      "published_at": "2026-11-13T18:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-13T18:00:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "을지키는민생실천위원장 연임한 민병덕…“억울함이 생기지 않는 구조 만들어야” [주간 여의도 Who?]",
+      "url": "https://www.seoul.co.kr/news/plan/congressperson/2026/11/13/20261113500188?wlog_tag3=naver",
+      "published_at": "2026-11-13T14:20:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-13 14:20",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "산업부 \"최고가격제, 민생의 방파제…내년 유지는 미정\"(종합) |",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4eUdUWHQ4d1pCWlppVlVzTmxjLU14X0dVXzVOenRldUw1MnlPYzBMakFfSjhBeEM1cTFZNVRyT0E4SEt0SGtQTS1lakhkaXN5ZV9lekxYdzktbm4zUGt4MDV0R0FGVGtBNG15aEdpdGdNS3l0?oc=5",
+      "published_at": "2026-11-13T18:03:24+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "대통령 \"진리 깨우치도록\" 정유업계 직격…단속 시작됐다",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WWW9yanQxQkktc1FObkowbGpuYTNlVnFnb3ljeWViREp5YnJUcndPbEc0c0hZT0tCYnhLMERtckxHTTB5dzMxd0NHMTFtdjdSX2c?oc=5",
+      "published_at": "2026-11-14T05:55:12+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "휘발유ℓ당 1784원, 석유제품 최고가격 5차례 연속 동결",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9qMlp3cHIxejAwdHR5bk5NT1JKUFl0WTRud2w3ZmNjMmdnNlF4Q3lfdjk4dW5aUlJnbzNOR0ZiVlN6bUExZWRRa3dmeTYxa1gxaUNCYQ?oc=5",
+      "published_at": "2026-11-13T18:08:30+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zN1JQcTlyVWV4Rzd0enJBSGVtQm9wR2xXZjQ5V2xzOWpBUE5RNUU1ZUJqdWlDUDZNZW15OUxrWUJ6MFE4d2xOQ29wR25peWs?oc=5",
+      "published_at": "2026-11-13T23:35:05+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[Q4 전망] \"초저연체율 0.16%·WM 57%↑\" 삼성증권, Q3 순익 3528억 방어…4분기 '고배당 8.9%' 승부수 - 이코노미톡뉴스",
+      "url": "http://www.economytalk.kr/news/articleView.html?idxno=425311",
+      "published_at": "2026-11-13T14:33:23+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-13T14:33:23+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[Who Is ?] 유진수 STX엔진 대표이사",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=450849",
+      "published_at": "2026-11-13T07:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-13T07:00:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "articles": [],
+  "summary": "수집 기사 0건, 발행사 본문·최초시각 확인 0건, 미확인 0건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 123,
+    "exclusions": [
+      {
+        "url": "https://www.mediapen.com/news/view/1137368",
+        "title": "상반기 호황 무색…대형 증권사 3분기 순이익 85% 급감",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=369664",
+        "title": "[저PBR 점검] 삼양사·삼양홀딩스, 보유 지분가치 밑돈 시총…과징금·지주사 할인 과제",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110556",
+        "title": "국고채 금리 상승…10년물, 열흘만에 다시 4%대로",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "http://www.kjdaily.com/article.php?aid=1794582487692181276",
+        "title": "국고채 10년물 금리 4% 돌파…열흘 만에 재진입",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "http://www.biztribune.co.kr/news/articleView.html?idxno=362515",
+        "title": "교보증권, 3분기 누적 순익 22%↑… 공정위 제재 리스크는 부담",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.consumuch.com/news/articleView.html?idxno=79561",
+        "title": "삼성증권, 시장 변동성에도 이익 방어력…배당 매력 유효",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=305025",
+        "title": "“삼성증권, 3분기 순이익 3528억…브로커리지 부진 속 ‘전통 IB’가 살렸다” - 뉴스퀘스트",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7193666",
+        "title": "증권사 3분기 순익 반토막…과징금∙교육세 '뇌관'",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://www.metroseoul.co.kr/article/20261113500138",
+        "title": "석유 최고가격 '동결' 휘발유 1784원… \"4조 2천억 예비비 내 정산 충분\"",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444722",
+        "title": "산업부 \"최고가격제, 민생의 방파제…내년 유지는 미정\"(종합)",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.newsis.com/view/NISX20261113_0003867323",
+        "title": "정부, 최고가격 첫 정산액 12월초 발표…\"예비비 4.2조로 감당 가능\"",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261113180025679",
+        "title": "석유 최고가격 '동결' 휘발유 1784원… \"4조 2천억 예비비 내 정산 충분\"",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261113171506201",
+        "title": "[채권마감] 10년 금리 10일만 4%대 재진입, 유가·미 금리 급등",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261113171200112",
+        "title": "국고채 금리 상승…유가 상승·美국채 약세",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBad21UUDd5YlU0dGNPTE5NOHdTbFRFazFGdmxWSUhqOG8xNkRtVFA1ZnRjR3pSVjdZVXRaTU1vVXhmWjB6TmdRazNiU0I0b3V2SERRMERBcmFDQUFkX0lOWk5lZzRVaEJNQTRB?oc=5",
+        "title": "[담합망국] HD현대오일뱅크① \"전쟁으로 먹고사는 회사\" \"올해 2조 벌듯\"···정기선 회장은 침묵",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.newspim.com/news/view/20261113001357",
+        "title": "정부, 정유사 손실 12월 초 첫 정산…\"원가기준 적용 변함 없다\"",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.seoul.co.kr/news/plan/congressperson/2026/11/13/20261113500188?wlog_tag3=naver",
+        "title": "을지키는민생실천위원장 연임한 민병덕…“억울함이 생기지 않는 구조 만들어야” [주간 여의도 Who?]",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4eUdUWHQ4d1pCWlppVlVzTmxjLU14X0dVXzVOenRldUw1MnlPYzBMakFfSjhBeEM1cTFZNVRyT0E4SEt0SGtQTS1lakhkaXN5ZV9lekxYdzktbm4zUGt4MDV0R0FGVGtBNG15aEdpdGdNS3l0?oc=5",
+        "title": "산업부 \"최고가격제, 민생의 방파제…내년 유지는 미정\"(종합) |",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WWW9yanQxQkktc1FObkowbGpuYTNlVnFnb3ljeWViREp5YnJUcndPbEc0c0hZT0tCYnhLMERtckxHTTB5dzMxd0NHMTFtdjdSX2c?oc=5",
+        "title": "대통령 \"진리 깨우치도록\" 정유업계 직격…단속 시작됐다",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9qMlp3cHIxejAwdHR5bk5NT1JKUFl0WTRud2w3ZmNjMmdnNlF4Q3lfdjk4dW5aUlJnbzNOR0ZiVlN6bUExZWRRa3dmeTYxa1gxaUNCYQ?oc=5",
+        "title": "휘발유ℓ당 1784원, 석유제품 최고가격 5차례 연속 동결",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zN1JQcTlyVWV4Rzd0enJBSGVtQm9wR2xXZjQ5V2xzOWpBUE5RNUU1ZUJqdWlDUDZNZW15OUxrWUJ6MFE4d2xOQ29wR25peWs?oc=5",
+        "title": "[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://www.economytalk.kr/news/articleView.html?idxno=425311",
+        "title": "[Q4 전망] \"초저연체율 0.16%·WM 57%↑\" 삼성증권, Q3 순익 3528억 방어…4분기 '고배당 8.9%' 승부수 - 이코노미톡뉴스",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=450849",
+        "title": "[Who Is ?] 유진수 STX엔진 대표이사",
+        "reason": "outside_period"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-14T12:07:32.019824+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
