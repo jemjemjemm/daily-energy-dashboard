@@ -1,0 +1,170 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-14",
+  "slot": "evening",
+  "period_start": "2026-11-14T08:00:00+09:00",
+  "period_end": "2026-11-14T17:00:00+09:00",
+  "period_label": "2026-11-14 08:00 ~ 2026-11-14 17:00",
+  "generated_at": "2026-11-14T23:59:50.740224+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 15,
+  "total_enriched_input_count": 5,
+  "total_in_period_unique_count": 2,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 2,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 9,
+    "daum": 6,
+    "google": 0
+  },
+  "query_counts": {
+    "공정위 유가 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-14T23:58:40.049205+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "상반기 호황 무색…대형 증권사 3분기 순이익 85% 급감",
+      "url": "https://www.mediapen.com/news/view/1137368",
+      "published_at": "2026-11-14T09:36:57+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-14 09:36:57",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[저PBR 점검] 삼양사·삼양홀딩스, 보유 지분가치 밑돈 시총…과징금·지주사 할인 과제",
+      "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=369664",
+      "published_at": "2026-11-14T08:26:33+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-14T08:26:33+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "국고채 금리 상승…10년물, 열흘만에 다시 4%대로",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110556",
+      "published_at": "2026-11-14T06:39:30+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-14T06:39:30+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "국고채 10년물 금리 4% 돌파…열흘 만에 재진입",
+      "url": "http://www.kjdaily.com/article.php?aid=1794582487692181276",
+      "published_at": "2026-11-14T00:58:41.407307+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 확인 실패: ConnectTimeout"
+    }
+  ],
+  "articles": [
+    {
+      "title": "[저PBR 점검] 삼양사·삼양홀딩스, 보유 지분가치 밑돈 시총…과징금·지주사 할인 과제",
+      "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=369664",
+      "source": "파이낸셜투데이",
+      "published_at": "2026-11-14T08:26:33+09:00",
+      "snippet": "삼양사는 담합 과징금과 해외 인수 이후 재무 부담이, 삼양홀딩스는 지주사 할인과 구체성이 부족한 주주환원 정책이 기업가치 회복의 과제로 남아... 두 회사 모두 유가 증권시장 필수소비재 업종의 하위 25% 기준값인 0.38배를 밑돈다. 두 회사는 같은 그룹에 속하지만 사업구조는 다르다. 삼양사는 설탕...",
+      "collected_at": "2026-11-14T23:58:41.406392+09:00",
+      "normalized_title": "[저PBR 점검] 삼양사·삼양홀딩스, 보유 지분가치 밑돈 시총…과징금·지주사 할인 과제",
+      "source_normalized": "파이낸셜투데이",
+      "duplicate_key": "파이낸셜투데이::[저pbr 점검] 삼양사·삼양홀딩스, 보유 지분가치 밑돈 시총…과징금·지주사 할인 과제",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.ftoday.co.kr/news/articleView.html?idxno=369664",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-14T08:26:33+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "78ac1b94575d78da",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "summary": "수집 기사 1건, 발행사 본문·최초시각 확인 1건, 미확인 0건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 15,
+    "exclusions": [
+      {
+        "url": "https://www.mediapen.com/news/view/1137368",
+        "title": "상반기 호황 무색…대형 증권사 3분기 순이익 85% 급감",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110556",
+        "title": "국고채 금리 상승…10년물, 열흘만에 다시 4%대로",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://www.kjdaily.com/article.php?aid=1794582487692181276",
+        "title": "국고채 10년물 금리 4% 돌파…열흘 만에 재진입",
+        "reason": "outside_period"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-14T23:58:40.049205+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
