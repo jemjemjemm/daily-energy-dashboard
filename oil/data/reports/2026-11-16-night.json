@@ -1,0 +1,504 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-16",
+  "slot": "night",
+  "period_start": "2026-11-16T17:00:00+09:00",
+  "period_end": "2026-11-17T00:00:00+09:00",
+  "period_label": "2026-11-16 17:00 ~ 2026-11-17 00:00",
+  "generated_at": "2026-11-17T08:33:31.879719+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 104,
+  "total_enriched_input_count": 200,
+  "total_in_period_unique_count": 27,
+  "total_unknown_time_count": 81,
+  "total_outside_period_count": 92,
+  "total_deduped_count": 5,
+  "total_ok_count": 2,
+  "total_review_count": 3,
+  "total_excluded_count": 195,
+  "grade_counts": {
+    "A": 3,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 50,
+    "daum": 52,
+    "google": 2
+  },
+  "query_counts": {
+    "유가 담합": 7,
+    "유가담합": 7
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-17T08:30:39.219923+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "유가 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9+after%3A2026-11-16+before%3A2026-11-18&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-11-17T08:32:13.933755+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "휘발유 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '휘발유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%ED%9C%98%EB%B0%9C%EC%9C%A0+%EB%8B%B4%ED%95%A9+after%3A2026-11-16+before%3A2026-11-18&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-11-17T08:32:32.624119+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "경유 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '경유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%EA%B2%BD%EC%9C%A0+%EB%8B%B4%ED%95%A9+after%3A2026-11-16+before%3A2026-11-18&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-11-17T08:32:36.735181+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "정유업계 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '정유업계 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%EC%A0%95%EC%9C%A0%EC%97%85%EA%B3%84+%EB%8B%B4%ED%95%A9+after%3A2026-11-16+before%3A2026-11-18&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-11-17T08:32:42.395747+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "[오늘의 이슈] 엔비디아 실적 앞두고 반도체주 다시 흔들",
+      "url": "http://www.newskr.kr/news/articleView.html?idxno=108052",
+      "published_at": "2026-11-17T07:41:23+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T07:41:23+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[마켓 브리핑] 뉴욕증시, 엔비디아 실적 앞두고 경계감 확대",
+      "url": "https://biz.sbs.co.kr/article_hub/20000346874?division=NAVER",
+      "published_at": "2026-11-17T06:59:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T06:59:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[마켓 프리뷰] '황 리스크' 속 AI 빅위크 경계감…국내증시 '덜컹'",
+      "url": "https://biz.sbs.co.kr/article_hub/20000346875?division=NAVER",
+      "published_at": "2026-11-17T06:59:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T06:59:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.11.17 — 오늘 꼭 알아야 할 국내외 경제뉴스 - 한국금융신문",
+      "url": "https://www.fntimes.com/html/view.php?ud=202611170708146723141825007d_18",
+      "published_at": "2026-11-17T07:27:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-17 07:27",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[증시전략] 이사회는 '고려 안해' 트럼프는 '긍정적'…'젠슨 황 복귀' 전망은",
+      "url": "https://biz.sbs.co.kr/article_hub/20000346866?division=NAVER",
+      "published_at": "2026-11-17T05:59:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T05:59:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "시작된 '슈퍼위크' ...첫날 1.4조 판 외국인들 U턴 카드는?",
+      "url": "https://www.fnnews.com/news/202611161610416501",
+      "published_at": "2026-11-17T06:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T06:00:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "삼전·닉스 덮친 'D램 담합' 소송…증권가 \"불확실성 확대\"",
+      "url": "https://www.newsis.com/view/NISX20261116_0003870449",
+      "published_at": "2026-11-17T06:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.17 06:00:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[핫이슈] 엔비디아 이사회 \"젠슨 황 복귀 검토 안 해\"…삼성전자·SK하이닉스 동반 급락 - 더투데이",
+      "url": "https://www.the-today.com/news/articleView.html?idxno=93687",
+      "published_at": "2026-11-17T05:27:16+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T05:27:16+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "‘젠슨 황 복귀설’에 또 한방 맞은 증시",
+      "url": "https://www.donga.com/news/Economy/article/all/20261116/135034695/2",
+      "published_at": "2026-11-17T01:30:41.158565+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 확인 실패: ConnectTimeout"
+    },
+    {
+      "title": "SK하이닉스 인버스 ETF 16.76% 급등…삼성전자 인버스도 9%↑",
+      "url": "http://www.kjdaily.com/article.php?aid=1794842836692465276",
+      "published_at": "2026-11-17T00:30:41.159306+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 확인 실패: ConnectTimeout"
+    },
+    {
+      "title": "HD현대오일뱅크, 수출 늘려도 못 메울 손실…과징금 변수까지",
+      "url": "http://v.daum.net/v/20261117070030787",
+      "published_at": "2026-11-17T07:00:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 17. 07:00",
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "[증시블랙홀] 외인 1.4조원 폭탄 던졌다… 삼성전자·하이닉스 급락 속 코스닥 장비주 '와르르'",
+      "url": "https://cp.news.search.daum.net/p/184384639",
+      "published_at": "2026-11-17T00:25:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T00:25:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "삼성전자·SK하이닉스 거래대금 8조원 돌파…코스피 급락 속 19.9% 증가",
+      "url": "http://v.daum.net/v/20261116204113977",
+      "published_at": "2026-11-16T20:41:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 16. 20:41",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[주간증시전망] 삼전닉스 D램 담합 소송 진행 허용…외국인 1.3조 폭탄 매물에 개인들만 독박",
+      "url": "http://v.daum.net/v/20261116183410469",
+      "published_at": "2026-11-16T18:34:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 16. 18:34",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "증시 흔들리는데 5년來 최대 순매도…‘구원투수’커녕 투매 부추긴 연기금",
+      "url": "http://v.daum.net/v/20261116175423157",
+      "published_at": "2026-11-16T17:54:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 16. 17:54",
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "코스피 3.59%·코스닥 4.86% 급락외인·기관 동반 매도에 5,100선 턱걸이",
+      "url": "https://cp.news.search.daum.net/p/184369903",
+      "published_at": "2026-11-16T17:37:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026.11.16 17:37",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "젠슨 황 사퇴 충격에 '20만 전자' 붕괴…증권가 'AI 빅위크' 촉각",
+      "url": "http://v.daum.net/v/20261116173756458",
+      "published_at": "2026-11-16T17:37:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 16. 17:37",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[‘클릭’ 증시] 젠슨 황 충격에 D램 담합 소송까지...美 셔먼법 부담",
+      "url": "https://cp.news.search.daum.net/p/184370875",
+      "published_at": "2026-11-16T17:34:59+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T17:34:59+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[마감시황] 'AI 빅위크' 앞두고 반도체 급락…코스피 5100선 후퇴 - 폴리뉴스 Polinews",
+      "url": "https://cp.news.search.daum.net/p/184369491",
+      "published_at": "2026-11-16T17:33:49+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-16T17:33:49+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "코스피 3.59% 급락, 5,100선으로 후퇴…코스닥도 4.8%↓",
+      "url": "https://cp.news.search.daum.net/p/184369078",
+      "published_at": "2026-11-16T17:25:19+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-16T17:25:19+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "'엔비디아 쇼크'에 국내 증시 직격탄… 코스피 3.59%·코스닥 4.86% 동반 급락",
+      "url": "https://cp.news.search.daum.net/p/184381926",
+      "published_at": "2026-11-16T17:23:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-16T17:23:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[주간증시전망] 삼전닉스 D램 담합 소송 진행 허용…외국인 1.3조 폭탄 매물에 개인들만 독박",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkWUJUVmFTMlhhRHhfQkY4QXp5VWNSSmNObGl0bFE1aFJJU0R4bEpUYU1SQUlYeUFtR2h5MWlOeVlqcHdtWjljN0VwbFhWOFBHSW95M2xyRndvaXFK?oc=5",
+      "published_at": "2026-11-16T18:40:08+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[라이브뉴스] HD현대오일뱅크 44조원 유가 담합 의혹…정기선 회장 겸직 속 내부통제 도마",
+      "url": "https://www.livesnews.com/news/article.html?no=66004",
+      "published_at": "2026-11-16T15:35:50+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.16 15:35:50",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "HD현대오일뱅크, 3조원대 흑자 잔치 뒤 '4년간 가격 담합' 혐의…무너진 준법경영 - 업코리아",
+      "url": "https://www.upkoreanews.kr/news/articleView.html?idxno=101178",
+      "published_at": "2026-11-16T12:31:26+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T12:31:26+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[핀테크핫이슈] 금융지주 지배구조 개편 본격화…해킹 당한 금융보안원",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715826",
+      "published_at": "2026-11-17T07:30:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T07:30:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[증시 인사이트] 국내증시 동반 하락…외국인·기관 양 시장 순매도",
+      "url": "https://biz.sbs.co.kr/article_hub/20000346753?division=NAVER",
+      "published_at": "2026-11-16T16:05:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-16T16:05:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "美 법원 \"삼성·SK·마이크론 D램 담합 가능성\"..5개 의혹 인정",
+      "url": "http://www.4th.kr/news/articleView.html?idxno=2121941",
+      "published_at": "2026-11-16T13:10:45+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T13:10:45+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[짧은생각] 대통령 치킨값 언급 엿새…공정위 칼끝은 가격 동결한 치킨 3사",
+      "url": "https://www.newswhoplus.com/news/articleView.html?idxno=73484",
+      "published_at": "2026-11-16T05:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T05:00:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[핀테크핫이슈] 금융지주 지배구조 개편 본격화…해킹 당한 금융보안원",
+      "url": "https://cp.news.search.daum.net/p/184387670",
+      "published_at": "2026-11-17T07:30:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T07:30:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[Who Is ?] 김정수 삼양식품 대표이사 회장",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451896",
+      "published_at": "2026-11-16T08:32:51.873023+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 확인 실패: HTTPError"
+    }
+  ],
+  "articles": [
+    {
+      "title": "美, 중동에 항모전단 3개 집결…이란과 전면전 재개 위기",
+      "source": "포쓰저널",
+      "url": "http://www.4th.kr/news/articleView.html?idxno=2122001",
+      "published_at": "2026-11-16T21:32:30+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T21:32:30+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "美, 중동에 항모전단 3개 집결…이란과 전면전 재개 위기",
+      "source_body_sha256": "43d7127dd2b54978bf2454e565ffac31317f02bf100aa84ddb206b158f232a5b",
+      "published_at_basis": "original_article",
+      "id": "7342e0c1dca10ee4",
+      "canonical_url": "http://www.4th.kr/news/articleView.html?idxno=2122001",
+      "source_normalized": "포쓰저널",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "중동산 원유 생산·수출 회복세 정유업계 원가 부담 완화 기대",
+      "source": "울산신문",
+      "url": "https://www.ulsanpress.net/news/articleView.html?idxno=586938",
+      "published_at": "2026-11-16T20:05:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T20:05:00+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "중동산 원유 생산·수출 회복세 정유업계 원가 부담 완화 기대",
+      "source_body_sha256": "470163e9d96e15c844ee91e7b9e93de50be7423ac098b79edb5c2abe7703dddc",
+      "published_at_basis": "original_article",
+      "id": "72c98c692400d184",
+      "canonical_url": "https://www.ulsanpress.net/news/articleView.html?idxno=586938",
+      "source_normalized": "울산신문",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "IEA \"4분기 세계 원유 공급, 수요 추월\"",
+      "press": "디지털타임스",
+      "press_grade": "C",
+      "url": "https://v.daum.net/v/20261116193644763",
+      "published_date": "2026-11-17",
+      "published_at_kst": "",
+      "snippet": "디지털타임스 12시간 전 다음뉴스 IEA \"4분기 세계 원유 공급, 수요 추월\" 나왔다. 지난 3월 중동전 발발 이후 이어졌던 원유 수급난이 드디어 해소될 수 있다는 기대감에서다. 다만 유가 상승으로 역대급 이익을 거둔 정유 업계는 '역레깅'(원재료 가격보다 제품 가격이 먼저 떨어지는) 공포에 시달리고 있다. 16일(현지시간) 로이터통신에...",
+      "score": 11,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 1,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "유가 정유",
+      "collector": "daum_news_search",
+      "source": "디지털타임스",
+      "published_at": "2026-11-16T19:36:44+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "IEA \"4분기 세계 원유 공급, 수요 추월\"",
+      "id": "a2563e8cdf3db7d5",
+      "canonical_url": "https://v.daum.net/v/20261116193644763",
+      "source_normalized": "디지털타임스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "석유 최고 가격제 9개월째…기름값 눌렀지만 재정 부담 5.6조 눈덩이",
+      "press": "동아일보",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261116173433278",
+      "published_date": "2026-11-17",
+      "published_at_kst": "",
+      "snippet": "동아일보 14시간 전 다음뉴스 1 석유 최고 가격제 9개월째…기름값 눌렀지만 재정 부담 5.6조 눈덩이 2026.11.15/뉴스1 올해 초 중동전쟁이 시작된 이후 국제유가 급등에 따른 소비자 부담을 줄이기 위해 한시적으로 도입 석유 최고 가격제 가 최소 9개월간 이어지게 됐다. 정부가 다음 달 11일까지 최고 가격을 4주간 더 동결하기로 하면서다. 최고 가격제 가 기름값과...",
+      "score": 11,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 1,
+      "source_query": "최고가격제",
+      "collector": "daum_news_search",
+      "source": "동아일보",
+      "published_at": "2026-11-16T17:34:33+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "석유 최고 가격제 9개월째…기름값 눌렀지만 재정 부담 5.6조 눈덩이",
+      "id": "32aff3d09c3e1b7a",
+      "canonical_url": "https://v.daum.net/v/20261116173433278",
+      "source_normalized": "동아일보",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "길어지는 최고가제 … 정유 업계 \"소송할 것\"",
+      "press": "매일경제",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261116172712917",
+      "published_date": "2026-11-17",
+      "published_at_kst": "",
+      "snippet": "매일경제 14시간 전 다음뉴스 길어지는 최고가제 … 정유 업계 \"소송할 것\" 값은 ℓ당 1854.76원을 기록했다. 전일 서울시내 한 주유소에 유가 가 게시돼 있다. 뉴시스 정부가 물가 안정을 이유로 석유 최고...대한 책임 추궁까지 이뤄질 수 있다고 우려한다. 16일 정유 업계에 따르면 지난 14일부터 적용된 제12차 석유 최고가격은 리터(ℓ...",
+      "score": 12,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 3,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "유가 정유",
+      "collector": "daum_news_search",
+      "source": "매일경제",
+      "published_at": "2026-11-16T17:27:12+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "길어지는 최고가제 … 정유 업계 \"소송할 것\"",
+      "id": "7c081d7de9d8263e",
+      "canonical_url": "https://v.daum.net/v/20261116172712917",
+      "source_normalized": "매일경제",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    }
+  ],
+  "summary": "공급과잉 전망에 국제유가 3%대 하락 및 최고가격제 손실·정산 쟁점 점검",
+  "editorial_audit": "data/reviews/2026-11-16-night.audit.json",
+  "supplemental_raw_search_result_count": 269,
+  "coverage_note": "자동 원수집 104건과 추가검색 전체 별도 보존. 원문 확인 2건·미확인 3건 구분. 공개검색 노출·일부 발행사 접속 제한.",
+  "editorial_decisions": [
+    "동일 매체·정규화 제목만 병합; 다른 매체 동일 사건 보도 보존",
+    "추정 손실과 인정 보전액, 제도 연장 계획과 확정 구분",
+    "포털 표기시각을 발행사 최초 보도시각으로 인증하지 않음"
+  ]
+}
