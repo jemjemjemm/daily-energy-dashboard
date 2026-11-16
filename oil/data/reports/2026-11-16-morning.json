@@ -1,0 +1,547 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-16",
+  "slot": "morning",
+  "period_start": "2026-11-16T00:00:00+09:00",
+  "period_end": "2026-11-16T08:00:00+09:00",
+  "period_label": "2026-11-16 00:00 ~ 2026-11-16 08:00",
+  "generated_at": "2026-11-16T08:09:49.841945+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 24,
+  "total_enriched_input_count": 135,
+  "total_in_period_unique_count": 84,
+  "total_unknown_time_count": 11,
+  "total_outside_period_count": 40,
+  "total_deduped_count": 16,
+  "total_ok_count": 5,
+  "total_review_count": 11,
+  "total_excluded_count": 119,
+  "grade_counts": {
+    "A": 7,
+    "B": 4,
+    "C": 5
+  },
+  "portal_counts": {
+    "naver": 8,
+    "daum": 10,
+    "google": 6
+  },
+  "query_counts": {
+    "공정위 유가 담합": 2,
+    "기름값 담합": 1,
+    "유가 담합": 2,
+    "유가담합": 2
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-16T08:08:30.532173+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "[Who Is ?] 김정수 삼양식품 대표이사 회장",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451896",
+      "published_at": "2026-11-16T07:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T07:00:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "트럼프 리스크·엔비디아 쇼크...코스피 5300선 후퇴",
+      "url": "http://www.breaknews.com/1251056",
+      "published_at": "2026-11-15T08:08:31.337648+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 확인 실패: HTTPError"
+    },
+    {
+      "title": "정부 전방위적인 압박…이번엔 담합 업체 CCM 인증 박탈 논란 - 식품음료신문",
+      "url": "https://cp.news.search.daum.net/p/184328133",
+      "published_at": "2026-11-16T07:55:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T07:55:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "정제마진 타고 3분기 4.7조 번 정유 4사…연말 '역래깅' 복병",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hTEFXWVV3c1BUT18xaDNON1UyaHNHaHlhNHFhRnB1eFY4WHpSaEtWd0VlMjQ0dWoyTTkxdDZYWnZmVUtPMVlGZ3FfZENxZ2Q4SE5tbWRpS3FFdWQzaWJaeEJ6azRrUEJtQkFhcA?oc=5",
+      "published_at": "2026-11-16T06:50:02+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "대통령 \"진리 깨우치도록\" 정유업계 직격…단속 시작됐다",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WWW9yanQxQkktc1FObkowbGpuYTNlVnFnb3ljeWViREp5YnJUcndPbEc0c0hZT0tCYnhLMERtckxHTTB5dzMxd0NHMTFtdjdSX2c?oc=5",
+      "published_at": "2026-11-15T18:22:25+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[짧은생각] 대통령 치킨값 언급 엿새…공정위 칼끝은 가격 동결한 치킨 3사",
+      "url": "https://www.newswhoplus.com/news/articleView.html?idxno=73484",
+      "published_at": "2026-11-16T05:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T05:00:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "“경쟁을 만들어라”…단속 넘어 시장구조 겨냥한 李의 공정위 구상",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02017206645646048&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "published_at": "2026-11-15T22:09:08.456087+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "하나증권 ‘내년 아시아 도입 원유, 전 세계서 가장 저렴해질 것’",
+      "source": "에너지플랫폼뉴스",
+      "url": "http://www.e-platform.net/news/articleView.html?idxno=107000",
+      "published_at": "2026-11-16T07:52:16+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T07:52:16+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "하나증권, 원유 공급 확대에 내년 아시아 도입단가 하락 전망 제시",
+      "snippet": "하나증권, 원유 공급 확대에 내년 아시아 도입단가 하락 전망 제시",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "af8f742396827fdefcbfec251a6f74c340536516d1e92aa8b7a6b95e915a87fa",
+      "id": "0274e1b204a0161a",
+      "canonical_url": "http://www.e-platform.net/news/articleView.html?idxno=107000",
+      "source_normalized": "에너지플랫폼뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "12차 석유 최고가격 발표...5연속 동결",
+      "source": "이투뉴스",
+      "url": "http://www.e2news.com/news/articleView.html?idxno=336123",
+      "published_at": "2026-11-16T07:43:37+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T07:43:37+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "산업부, 12차 석유 최고가격 동결 및 다음 달 11일까지 공급가격 상한 유지",
+      "snippet": "산업부, 12차 석유 최고가격 동결 및 다음 달 11일까지 공급가격 상한 유지",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "0159ef8ee6f46cc4579dacc1afe73db0bb1b9d838d2b615a85aa156e035fbaca",
+      "id": "1d4977c29364e4ed",
+      "canonical_url": "http://www.e2news.com/news/articleView.html?idxno=336123",
+      "source_normalized": "이투뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[이영기 칼럼] 석유화학 구조조정의 역설…누군가는 줄이고 누군가는 늘린다",
+      "source": "더밸류뉴스",
+      "url": "https://www.thevaluenews.co.kr/news/203112",
+      "published_at": "2026-11-16T07:10:01+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-16 07:10:01; 원문 최초시각으로 포털 시각 정정, 본문 검토 상태 별도",
+      "summary": "[이영기 칼럼] 석유화학 구조조정의 역설…누군가는 줄이고 누군가는 늘린다",
+      "queries": [
+        "석유 수출"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "published_at_basis": "original_article",
+      "id": "fcd9a2125ff979d7",
+      "canonical_url": "https://www.thevaluenews.co.kr/news/203112",
+      "source_normalized": "더밸류뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "[미국 특징주] 퍼미안 분지, '찔끔 증산'이 모여 산유국 한 곳 규모…美 원유 생산 2.8% 늘어난다",
+      "source": "뉴스핌",
+      "url": "https://www.newspim.com/news/view/20261116000009",
+      "published_at": "2026-11-16T02:10:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T02:10:00+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "미 퍼미안 셰일업체의 점진적 증산 및 연말 원유 생산량 확대 전망",
+      "snippet": "미 퍼미안 셰일업체의 점진적 증산 및 연말 원유 생산량 확대 전망",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "160018e3bae02d08ec6fab1d08a10f5c53f0851719e5826053058103027a2215",
+      "id": "0df1834343eb6b6e",
+      "canonical_url": "https://www.newspim.com/news/view/20261116000009",
+      "source_normalized": "뉴스핌",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "이란, 바레인 미군기지 사흘 새 두 차례 드론 공격… 트럼프 “합의 필요 없다” 대화 중단",
+      "source": "조선Biz",
+      "url": "https://v.daum.net/v/20261116072033802",
+      "published_at": "2026-11-16T07:20:33+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "이란, 바레인 미군기지 사흘 새 두 차례 드론 공격… 트럼프 “합의 필요 없다” 대화 중단",
+      "snippet": "조선비즈 PICK 48분 전 다음뉴스 이란, 바레인 미군기지 사흘 새 두 차례 드론 공격… 트럼프 “합의 필요 없다” 대화 중단 반면 사우디아라비아 등 걸프 국가들의 원유 수출량은 지난 10월 하루 1840만배럴을 기록하며 전쟁 이전 수준에 근접했다. 국제 유가 도 하락해 호르무즈 해협을 움켜쥐려던 이란 측 협상력은 크게 떨어졌다. 사우디아라비아, 바레인 등 아랍권 6개국 협의체 걸프...",
+      "queries": [
+        "국제유가"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "a9d0c091cfe47902",
+      "canonical_url": "https://v.daum.net/v/20261116072033802",
+      "source_normalized": "조선Biz",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "홍해 길목서 후퇴한 친사우디군…이란은 바레인에 드론 공격",
+      "source": "이데일리",
+      "url": "https://v.daum.net/v/20261116075718436",
+      "published_at": "2026-11-16T07:57:18+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "홍해 길목서 후퇴한 친사우디군…이란은 바레인에 드론 공격",
+      "snippet": "이데일리 11분 전 다음뉴스 홍해 길목서 후퇴한 친사우디군…이란은 바레인에 드론 공격 요충지인 바브엘만데브 해협 일대에서 철수했다. 이란은 미 해군 제5함대 사령부가 있는 바레인에 드론 공격을 감행했다. 중동 원유 수송의 양대 길목인 홍해와 호르무즈 해협에서 긴장이 동시에 높아지면서 미국과 걸프 국가들의 부담이 커지고 있다. 2026년 11...",
+      "queries": [
+        "중동 원유"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "4197719d1391c9a4",
+      "canonical_url": "https://v.daum.net/v/20261116075718436",
+      "source_normalized": "이데일리",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "정제마진 타고 3분기 4.7조 번 정유 4사…연말 '역래깅' 복병",
+      "source": "비즈워치",
+      "url": "https://v.daum.net/v/20261116065156300",
+      "published_at": "2026-11-16T06:51:56+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "정제마진 타고 3분기 4.7조 번 정유 4사…연말 '역래깅' 복병",
+      "snippet": "비즈워치 PICK 1시간 전 다음뉴스 2 정제마진 타고 3분기 4.7조 번 정유 4사…연말 '역래깅' 복병 정제마진이 본격적인 하락 조정을 겪을 경우 고가에 사들인 원유 를 정제해 낮아진 가격에 제품을 판매해야 하는 역래깅이 발생하고...과정에서 발생하는 부대비용 상승도 수익성을 압박하는 요인이다. 중동 지역의 지정학적 갈등 장기화로 해상 유조선 운임과 전쟁...",
+      "queries": [
+        "중동 원유"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "8d7daf542bbde0a2",
+      "canonical_url": "https://v.daum.net/v/20261116065156300",
+      "source_normalized": "비즈워치",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "호르무즈 이어 홍해도 위태…예멘 정부군, 전략 해협서 철수",
+      "source": "이투데이",
+      "url": "https://v.daum.net/v/20261116063703111",
+      "published_at": "2026-11-16T06:37:03+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "호르무즈 이어 홍해도 위태…예멘 정부군, 전략 해협서 철수",
+      "snippet": "이투데이 1시간 전 다음뉴스 호르무즈 이어 홍해도 위태…예멘 정부군, 전략 해협서 철수 이집트 수에즈운하로 향하기 위해 통과하는 핵심 항로로, 원유 와 각종 상품의 주요 운송 통로다. 특히 이란이 호르무즈 해협의 해상...상황에서 친이란 후티 반군까지 바브엘만데브 해협에 대한 통제력을 강화하면 중동 의 양대 해상 요충지가 동시에 압박받을 수...",
+      "queries": [
+        "중동 원유"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "2075a58584e75141",
+      "canonical_url": "https://v.daum.net/v/20261116063703111",
+      "source_normalized": "이투데이",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "[사설] 유가 떨어졌는데도 최고가격제 유지…해제 않는 이유 뭔가",
+      "source": "한국경제",
+      "url": "https://v.daum.net/v/20261116002322403",
+      "published_at": "2026-11-16T00:23:22+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "[사설] 유가 떨어졌는데도 최고가격제 유지…해제 않는 이유 뭔가",
+      "snippet": "한국경제 7시간 전 다음뉴스 [사설] 유가 떨어졌는데도 최고가격제 유지…해제 않는 이유 뭔가 유가 90달러대 안착’은 가시권에 들어왔지만 중동 전쟁 종전이 불투명하고 호르무즈해협의 통항도 정상화되지 않았다는 점을 동결...장기화되면서 막대한 청구서도 쌓이고 있다. 정부가 올해 정유 업계 손실을 보전하기 위해 확보한 예산은 약 5조7000억원에 달한다...",
+      "queries": [
+        "유가 정유"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "0ac7775319415767",
+      "canonical_url": "https://v.daum.net/v/20261116002322403",
+      "source_normalized": "한국경제",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "美, 러시아산 경유 수입 제동…트럼프-푸틴 ‘에너지 거래’ 법 장벽에 막혔다",
+      "source": "디지털타임스",
+      "url": "https://v.daum.net/v/20261116075356361",
+      "published_at": "2026-11-16T07:53:56+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "美, 러시아산 경유 수입 제동…트럼프-푸틴 ‘에너지 거래’ 법 장벽에 막혔다",
+      "snippet": "디지털타임스 15분 전 다음뉴스 美, 러시아산 경유 수입 제동…트럼프-푸틴 ‘에너지 거래’ 법 장벽에 막혔다 러산 경유 실은 유조선, 美 구매자 못 찾아 해상 표류 러시아산 석유 제품을 실은 유조선. EPA 연합뉴스 도널드 트럼프 미국 대통령과...핵심이었다. 미국의 대러 제재로 막혀 있던 러시아산 경유 의 수출 길을 다시 열어주는 조치였다. 당시 미국에서는 경윳값이 급등...",
+      "queries": [
+        "석유 경유 수출"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "e81758ae4dd75a4a",
+      "canonical_url": "https://v.daum.net/v/20261116075356361",
+      "source_normalized": "디지털타임스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "\"트럼프-푸틴 합의한 러 경유 美 반입, 법 위반 우려에 난항\"",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261116010000071",
+      "published_at": "2026-11-16T07:37:43+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T07:37:43+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "미·러 경유 반입 합의에 제재·법 위반 우려로 미국 내 수입 난항 보도",
+      "snippet": "미·러 경유 반입 합의에 제재·법 위반 우려로 미국 내 수입 난항 보도",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "44b2a89ceb3eddebf5ee08318d71953a843a90a56226bf9ea06d8ce784f7fa01",
+      "id": "a7099e566bc85c5f",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261116010000071",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[경제 단신] 석유최고가격제 동결… 4주 더 연장 외",
+      "source": "세계일보",
+      "url": "https://v.daum.net/v/20261116050350594",
+      "published_at": "2026-11-16T05:03:50+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "[경제 단신] 석유최고가격제 동결… 4주 더 연장 외",
+      "snippet": "세계일보 3시간 전 다음뉴스 [경제 단신] 석유최고가격제 동결… 4주 더 연장 외 산업통상부는 14일부터 4주간 적용하는 12차 석유 최고가격을 11차와 같은 수준으로 유지한다고 15일 밝혔다. 최고가격은 ℓ당 휘발유 1784원, 경유 1773원, 등유 1380원이다. 6월 말 미국과 이란 간 종전 합의 당시 ℓ당 150원씩 인하한 후 같은 가격을 유지하고...",
+      "queries": [
+        "휘발유"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "1e80730ab071e939",
+      "canonical_url": "https://v.daum.net/v/20261116050350594",
+      "source_normalized": "세계일보",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "[사진] 기름값 26주 연속 하락",
+      "source": "중앙일보",
+      "url": "https://v.daum.net/v/20261116000350126",
+      "published_at": "2026-11-16T00:03:50+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "[사진] 기름값 26주 연속 하락",
+      "snippet": "중앙일보 8시간 전 다음뉴스 [사진] 기름값 26주 연속 하락 전국 주유소의 기름값이 26주 연속 소폭 하락했다. 한국석유공사에 따르면 11월 둘째 주 전국 휘발유 평균 판매가는 L당 0.3원 내린 1855.1원, 경유는 0.2원 내린 1841.8원으로 나타났다. 사진은 서울 시내 한 주유소. [뉴스1]",
+      "queries": [
+        "휘발유"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "c6776f1041539672",
+      "canonical_url": "https://v.daum.net/v/20261116000350126",
+      "source_normalized": "중앙일보",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "“트럼프-푸틴 합의한 러 경유 미국 반입, 법 위반 우려에 난항”",
+      "source": "KBS",
+      "url": "https://v.daum.net/v/20261116075538404",
+      "published_at": "2026-11-16T07:55:38+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "“트럼프-푸틴 합의한 러 경유 미국 반입, 법 위반 우려에 난항”",
+      "snippet": "KBS 15분 전 다음뉴스 “트럼프-푸틴 합의한 러 경유 미국 반입, 법 위반 우려에 난항” 트럼프 미국 대통령과 푸틴 러시아 대통령이 합의한 러시아산 경유 의 미국 반입이 법 위반 우려로 난항을 겪고 있다고 미 CNN 방송이 현지 시각 15일 보도했습니다. 지난달 9일 합의한, 이른바 ‘ 경유 딜’은 러시아가 미국 및 세계 시장에 경유 30만 톤을 즉각 공급...",
+      "queries": [
+        "경유"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "25df6d9f4b4ae098",
+      "canonical_url": "https://v.daum.net/v/20261116075538404",
+      "source_normalized": "KBS",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "트럼프-푸틴 합의한 러 경유 美 반입, 법 위반 우려에 발목",
+      "source": "SBS Biz",
+      "url": "https://v.daum.net/v/20261116075104310",
+      "published_at": "2026-11-16T07:51:04+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "트럼프-푸틴 합의한 러 경유 美 반입, 법 위반 우려에 발목",
+      "snippet": "SBS Biz 20분 전 다음뉴스 트럼프-푸틴 합의한 러 경유 美 반입, 법 위반 우려에 발목 미국 대통령(우측) (AFP=연합뉴스 자료사진)] 도널드 트럼프 미국 대통령과 블라디미르 푸틴 러시아 대통령이 합의한 러시아산 경유 의 미국 반입이 법 위반 우려로 난항을 겪고 있다고 미 CNN 방송이 현지시간 15일 보도했습니다. 지난달 9일 미러 정상이 전격적으로...",
+      "queries": [
+        "경유"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "86ba405b378aa858",
+      "canonical_url": "https://v.daum.net/v/20261116075104310",
+      "source_normalized": "SBS Biz",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "후티 공세에…\"예멘 정부군, 바브엘만데브 해협서 사실상 철수\"",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261116002100099",
+      "published_at": "2026-11-16T03:39:01+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T03:39:01+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "예멘 정부군 병력 재배치에 홍해 석유 수송로 확보 작전의 사실상 종료 분석",
+      "snippet": "예멘 정부군 병력 재배치에 홍해 석유 수송로 확보 작전의 사실상 종료 분석",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "313557928cb11ee5b29e3bc62c0e8b82167ef868791b63ae159b9e3732f7950d",
+      "id": "d6f889292912e6d7",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261116002100099",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    }
+  ],
+  "summary": "러시아산 경유 미국 반입의 법적 장벽·홍해 수송로 불안 및 원유 공급 확대 전망 점검",
+  "editorial_audit": "data/reviews/2026-11-16-morning.audit.json",
+  "supplemental_raw_search_result_count": 266,
+  "coverage_note": "자동 원수집 24건과 추가검색 결과 전체 별도 보존. 원문·최초시각 확인 5건, 미확인 11건 구분. 공개검색 노출 한계·일부 발행사 접속 실패가 있음.",
+  "raw_count_basis": "자동 원수집 실제 24건; 추가검색 결과와 구분",
+  "editorial_decisions": [
+    "동일 매체·정규화 제목만 병합; 다른 매체 동일사안 보존",
+    "포털 게시 식별시각은 원문 최초시각으로 인증하지 않음",
+    "추산 손실과 확정 보상액 구분. 비공개 공문·회신 내용 추정 없음"
+  ]
+}

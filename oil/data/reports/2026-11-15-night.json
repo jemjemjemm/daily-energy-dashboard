@@ -1,0 +1,530 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-15",
+  "slot": "night",
+  "period_start": "2026-11-15T17:00:00+09:00",
+  "period_end": "2026-11-16T00:00:00+09:00",
+  "period_label": "2026-11-15 17:00 ~ 2026-11-16 00:00",
+  "generated_at": "2026-11-16T08:09:46.335630+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 24,
+  "total_enriched_input_count": 135,
+  "total_in_period_unique_count": 34,
+  "total_unknown_time_count": 11,
+  "total_outside_period_count": 90,
+  "total_deduped_count": 14,
+  "total_ok_count": 4,
+  "total_review_count": 10,
+  "total_excluded_count": 121,
+  "grade_counts": {
+    "A": 2,
+    "B": 4,
+    "C": 8
+  },
+  "portal_counts": {
+    "naver": 8,
+    "daum": 10,
+    "google": 6
+  },
+  "query_counts": {
+    "유류가격 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-16T08:08:30.532173+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "[Who Is ?] 김정수 삼양식품 대표이사 회장",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451896",
+      "published_at": "2026-11-16T07:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T07:00:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "트럼프 리스크·엔비디아 쇼크...코스피 5300선 후퇴",
+      "url": "http://www.breaknews.com/1251056",
+      "published_at": "2026-11-15T08:08:31.337648+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 확인 실패: HTTPError"
+    },
+    {
+      "title": "정부 전방위적인 압박…이번엔 담합 업체 CCM 인증 박탈 논란 - 식품음료신문",
+      "url": "https://cp.news.search.daum.net/p/184328133",
+      "published_at": "2026-11-16T07:55:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T07:55:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "정제마진 타고 3분기 4.7조 번 정유 4사…연말 '역래깅' 복병",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hTEFXWVV3c1BUT18xaDNON1UyaHNHaHlhNHFhRnB1eFY4WHpSaEtWd0VlMjQ0dWoyTTkxdDZYWnZmVUtPMVlGZ3FfZENxZ2Q4SE5tbWRpS3FFdWQzaWJaeEJ6azRrUEJtQkFhcA?oc=5",
+      "published_at": "2026-11-16T06:50:02+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "대통령 \"진리 깨우치도록\" 정유업계 직격…단속 시작됐다",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WWW9yanQxQkktc1FObkowbGpuYTNlVnFnb3ljeWViREp5YnJUcndPbEc0c0hZT0tCYnhLMERtckxHTTB5dzMxd0NHMTFtdjdSX2c?oc=5",
+      "published_at": "2026-11-15T18:22:25+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[짧은생각] 대통령 치킨값 언급 엿새…공정위 칼끝은 가격 동결한 치킨 3사",
+      "url": "https://www.newswhoplus.com/news/articleView.html?idxno=73484",
+      "published_at": "2026-11-16T05:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-16T05:00:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "“경쟁을 만들어라”…단속 넘어 시장구조 겨냥한 李의 공정위 구상",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02017206645646048&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "published_at": "2026-11-15T22:09:08.456087+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "국제 유가, 공급 과잉과 중동 긴장 속 혼조세 지속",
+      "source": "공감신문",
+      "url": "https://www.gokorea.kr/news/articleView.html?idxno=885677",
+      "published_at": "2026-11-15T19:01:26+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-15T19:01:26+09:00; 원문 최초시각으로 포털 시각 정정, 본문 검토 상태 별도",
+      "summary": "국제 유가, 공급 과잉과 중동 긴장 속 혼조세 지속",
+      "queries": [
+        "유가 정유"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "published_at_basis": "original_article",
+      "id": "6931b0b6e528146e",
+      "canonical_url": "https://www.gokorea.kr/news/articleView.html?idxno=885677",
+      "source_normalized": "공감신문",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "휘발유·경유 내리는데 LPG만 7% 상승…12월 추가 인상 우려에 택시기사 부담 커진다",
+      "source": "녹색경제",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=354679",
+      "published_at": "2026-11-15T23:07:45+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-15T23:07:45+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "국제 LPG 계약가격 상승에 택시 연료비 부담 확대 및 12월 추가 인상 가능성 제기",
+      "snippet": "국제 LPG 계약가격 상승에 택시 연료비 부담 확대 및 12월 추가 인상 가능성 제기",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "d4b38f208bb259bc5da70631e79cc1ee9270695234997d4fee9eb071d1e1efca",
+      "id": "d2e1fb3d8511e67b",
+      "canonical_url": "https://www.greened.kr/news/articleView.html?idxno=354679",
+      "source_normalized": "녹색경제",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "김정관 \"석유 최고가격제 연장 불가피\"…해제 조건은 유가만 근접",
+      "source": "중소기업신문",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=366161",
+      "published_at": "2026-11-15T21:22:21+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-15T21:22:21+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "최고가격제 종료 조건과 손실보전 재원 부담 점검 및 정유업계 손실 추정치 소개",
+      "snippet": "최고가격제 종료 조건과 손실보전 재원 부담 점검 및 정유업계 손실 추정치 소개",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "be663c0c020468cf2dccef8bbfbfec80812d66bd05a7ad65948089611c4483fd",
+      "id": "f4469e9e0f564906",
+      "canonical_url": "http://www.smedaily.co.kr/news/articleView.html?idxno=366161",
+      "source_normalized": "중소기업신문",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[M이코노미뉴스] 일본, 석유 위기 대응 ‘아시아판 IEA’ 추진…한국도 참여할 수 있나",
+      "source": "M이코노미뉴스",
+      "url": "https://www.m-economynews.com/news/article.html?no=73066",
+      "published_at": "2026-11-15T21:20:39+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026.11.15 21:20:39; 원문 최초시각으로 포털 시각 정정, 본문 검토 상태 별도",
+      "summary": "[M이코노미뉴스] 일본, 석유 위기 대응 ‘아시아판 IEA’ 추진…한국도 참여할 수 있나",
+      "queries": [
+        "정유사"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "published_at_basis": "original_article",
+      "id": "00c755cfcbe54380",
+      "canonical_url": "https://www.m-economynews.com/news/article.html?no=73066",
+      "source_normalized": "M이코노미뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "\"언제까지 지속할 수는 없는 제도\"…김정관, 석유 최고가격제 연장엔 '불가피' - 알파경제",
+      "source": "알파경제",
+      "url": "https://www.alphabiz.co.kr/news/articleView.html?idxno=198169",
+      "published_at": "2026-11-15T22:23:14+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-15T22:23:14+09:00; 원문 최초시각으로 포털 시각 정정, 본문 검토 상태 별도",
+      "summary": "\"언제까지 지속할 수는 없는 제도\"…김정관, 석유 최고가격제 연장엔 '불가피' - 알파경제",
+      "queries": [
+        "기름값"
+      ],
+      "verification_error": "원문 재검토 필요",
+      "published_at_basis": "original_article",
+      "id": "24e948c308d5e271",
+      "canonical_url": "https://www.alphabiz.co.kr/news/articleView.html?idxno=198169",
+      "source_normalized": "알파경제",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "김정관 산업부 장관 \"석유 최고가격제 연장 불가피\"…도입 9개월째",
+      "source": "대전일보",
+      "url": "https://v.daum.net/v/20261115175956420",
+      "published_at": "2026-11-15T17:59:56+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "김정관 산업부 장관 \"석유 최고가격제 연장 불가피\"…도입 9개월째",
+      "snippet": "대전일보 PICK 14시간 전 다음뉴스 김정관 산업부 장관 \"석유 최고가격제 연장 불가피\"…도입 9개월째 김정관 산업통상부 장관. 연합뉴스 정부가 최근 석유 최고가격제를 4주 연장한 것에 대해 김정관 산업통상부 장관이 불가피한 선택이었다고 설명했다. 김 장관은 15일 페이스북을 통해 \"지난 3월 도입한 최고가격제가 벌써 9개월째 이어지고 있다. 언제까지 지속할...",
+      "queries": [
+        "연합뉴스 산업부"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "2f32b055924cc77f",
+      "canonical_url": "https://v.daum.net/v/20261115175956420",
+      "source_normalized": "대전일보",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "김정관 산업장관 \"석유 최고가격제 연장 불가피한 선택\"",
+      "source": "MBN",
+      "url": "https://v.daum.net/v/20261115174156992",
+      "published_at": "2026-11-15T17:41:56+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "김정관 산업장관 \"석유 최고가격제 연장 불가피한 선택\"",
+      "snippet": "MBN 14시간 전 다음뉴스 김정관 산업장관 \"석유 최고가격제 연장 불가피한 선택\" 지난 3월 주유소 가격 동향 점검하는 김정관 산업부 장관 / 사진= 연합뉴스 정부가 석유 최고가격제를 또다시 4주 연장한 것과 관련해 산업통상부 김정관 장관은 \"불가피한 선택이었다\"고 설명했습니다. 김 장관은 오늘(15일) 자신의 페이스북에 올린 글에서 지난 3월...",
+      "queries": [
+        "연합뉴스 산업부"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "8e79d1787497bcc5",
+      "canonical_url": "https://v.daum.net/v/20261115174156992",
+      "source_normalized": "MBN",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "김정관 산업부 장관 \"석유 최고가격제 연장 불가피…국민 물가 부담 줄이는 게 우선\"",
+      "source": "kbc광주방송",
+      "url": "https://v.daum.net/v/20261115173502789",
+      "published_at": "2026-11-15T17:35:02+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "김정관 산업부 장관 \"석유 최고가격제 연장 불가피…국민 물가 부담 줄이는 게 우선\"",
+      "snippet": "kbc광주방송 14시간 전 다음뉴스 김정관 산업부 장관 \"석유 최고가격제 연장 불가피…국민 물가 부담 줄이는 게 우선\" ▲알뜰주유소 가격 동향 점검하는 김정관 산업부 장관 [ 연합뉴스 ] 정부가 지난 13일 석유 최고가격제를 4주 더 연장한 것과 관련해 주무부처인 산업통상부의 김정관 장관이 불가피한 선택이었다고 설명했습니다. 김 장관은 15일 자신의 페이스북에 올린 글에서 지난...",
+      "queries": [
+        "연합뉴스 산업부"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "2f3d28edf19fe41e",
+      "canonical_url": "https://v.daum.net/v/20261115173502789",
+      "source_normalized": "kbc광주방송",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "美·유럽 경유값 폭등 신음…韓은 최고가격제로 '선방'",
+      "source": "매일경제",
+      "url": "https://v.daum.net/v/20261115174212010",
+      "published_at": "2026-11-15T17:42:12+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "美·유럽 경유 값 폭등 신음…韓은 최고가격제로 '선방'",
+      "snippet": "매일경제 14시간 전 다음뉴스 美·유럽 경유 값 폭등 신음…韓은 최고가격제로 '선방' 졌다. 유럽연합(EU) 회원국들이 유류세 인하와 보조금 지급 등 개별적인 대응에 나섰지만 역부족이었다. 이 같은 경유 쇼크는 중동의 원유· 석유 제품 수출 차질과 오랜 기간 이어진 정유설비 투자 부족이 겹친 결과다. 국제에너지기구(IEA)에 따르면 올해 3분기 세계...",
+      "queries": [
+        "석유 경유 수출"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "4240c27e89a29672",
+      "canonical_url": "https://v.daum.net/v/20261115174212010",
+      "source_normalized": "매일경제",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "강원 주간 휘발유 ℓ당 1,867원, 가격 정체 이어져",
+      "source": "MBC강원영동",
+      "url": "https://v.daum.net/v/20261115231548753",
+      "published_at": "2026-11-15T23:15:48+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "강원 주간 휘발유 ℓ당 1,867원, 가격 정체 이어져",
+      "snippet": "MBC강원영동 8시간 전 다음뉴스 동영상 강원 주간 휘발유 ℓ당 1,867원, 가격 정체 이어져 강원도 내 주유소 주간 기름값이 7월 3주 이후 ℓ당 1,800원 대로 내려왔지만 이후 내림세가 정체된 것으로 나타났습니다. 유가정보사이트 오피넷에 따르면 강원도 내 주요소 주간 기름값은 7월 3주 ℓ당 1,893원으로 내려오며 계속 내림세를 보이고 있습니다. 11...",
+      "queries": [
+        "휘발유"
+      ],
+      "verification_error": "발행사 원문 URL 미해소",
+      "id": "bf4a9e690a72469b",
+      "canonical_url": "https://v.daum.net/v/20261115231548753",
+      "source_normalized": "MBC강원영동",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "석유 최고가격 '9개월'...정유사 손실, 이번 주 윤곽",
+      "source": "YTN",
+      "url": "https://www.ytn.co.kr/_ln/0102_202611151902540944",
+      "published_at": "2026-11-15T19:02:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-15T19:02:00+09:00; 발행사 본문·최초시각 직접 대조",
+      "summary": "최고가격제 첫 손실보전의 원가·적정마진 산정 쟁점 및 정유업계 이의신청 가능성",
+      "snippet": "최고가격제 첫 손실보전의 원가·적정마진 산정 쟁점 및 정유업계 이의신청 가능성",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "a348c67fe78614727ac035e45d6415a439efea2d73ff80060def7209c16ddedf",
+      "id": "de4a11d29e19cd73",
+      "canonical_url": "https://www.ytn.co.kr/_ln/0102_202611151902540944",
+      "source_normalized": "YTN",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[사설]석유 전기 가스 쌓이는 청구서… 단계적 요금 현실화 불가피",
+      "source": "동아일보",
+      "url": "https://v.daum.net/v/20261115232230779",
+      "published_at": "2026-11-15T23:22:30+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "포털 URL 게시 식별시각만 확인; 발행사 최초 보도시각 미확인",
+      "summary": "[사설]석유 전기 가스 쌓이는 청구서… 단계적 요금 현실화 불가피",
+      "snippet": "동아일보 PICK 8시간 전 다음뉴스 [사설]석유 전기 가스 쌓이는 청구서… 단계적 요금 현실화 불가피 서울 시내 한 주유소 모습. 2026.10.2 뉴스1 정부가 13일 석유 최고 가격을 4주간 더 동결하기로 했다. 올해 3월 도입된 석유 최고 가격제 가 적어도 12월까지 9개월간 이어지게 됐다. 정부는 “물가 안정 효과가 확인됐고 중동 지역 불안이 여전하다”는 이유를 들었다...",
+      "queries": [
+        "최고가격제"
+      ],
+      "verification_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "id": "bde91f0dcc1b0df9",
+      "canonical_url": "https://v.daum.net/v/20261115232230779",
+      "source_normalized": "동아일보",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "김정관 \"석유 최고가격제 연장, 아직은 불가피한 선택\" | 아주경제",
+      "source": "아주경제",
+      "url": "https://www.ajunews.com/view/20261115200822677",
+      "published_at": "2026-11-15T20:11:00+09:00",
+      "published_at_basis": "original_article",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-15 20:11; 발행사 본문·최초시각 직접 대조",
+      "summary": "산업장관, 물가 부담에 최고가격제 4주 연장 설명 및 정상화 여건 조성 강조",
+      "snippet": "산업장관, 물가 부담에 최고가격제 4주 연장 설명 및 정상화 여건 조성 강조",
+      "queries": [
+        "발행사 원문 추가검토"
+      ],
+      "source_body_sha256": "8733823a600e3323194dbe0818a57ec759d186797c305d33e06411caf8503706",
+      "id": "f418299cb0154875",
+      "canonical_url": "https://www.ajunews.com/view/20261115200822677",
+      "source_normalized": "아주경제",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "portal": "google",
+      "query": "기름값 담합",
+      "title": "대통령 \"진리 깨우치도록\" 정유업계 직격…단속 시작됐다",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WWW9yanQxQkktc1FObkowbGpuYTNlVnFnb3ljeWViREp5YnJUcndPbEc0c0hZT0tCYnhLMERtckxHTTB5dzMxd0NHMTFtdjdSX2c?oc=5",
+      "source": "JTBC",
+      "published_at": "2026-11-15T18:22:25+09:00",
+      "snippet": "대통령 \"진리 깨우치도록\" 정유업계 직격…단속 시작됐다 JTBC",
+      "collected_at": "2026-11-16T08:08:49.097539+09:00",
+      "raw": {
+        "title": "대통령 \"진리 깨우치도록\" 정유업계 직격…단속 시작됐다 - JTBC",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "대통령 \"진리 깨우치도록\" 정유업계 직격…단속 시작됐다 - JTBC"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WWW9yanQxQkktc1FObkowbGpuYTNlVnFnb3ljeWViREp5YnJUcndPbEc0c0hZT0tCYnhLMERtckxHTTB5dzMxd0NHMTFtdjdSX2c?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WWW9yanQxQkktc1FObkowbGpuYTNlVnFnb3ljeWViREp5YnJUcndPbEc0c0hZT0tCYnhLMERtckxHTTB5dzMxd0NHMTFtdjdSX2c?oc=5",
+        "id": "CBMiUkFVX3lxTE5WWW9yanQxQkktc1FObkowbGpuYTNlVnFnb3ljeWViREp5YnJUcndPbEc0c0hZT0tCYnhLMERtckxHTTB5dzMxd0NHMTFtdjdSX2c",
+        "guidislink": false,
+        "published": "Sun, 15 Nov 2026 09:22:25 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          15,
+          9,
+          22,
+          25,
+          6,
+          319,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WWW9yanQxQkktc1FObkowbGpuYTNlVnFnb3ljeWViREp5YnJUcndPbEc0c0hZT0tCYnhLMERtckxHTTB5dzMxd0NHMTFtdjdSX2c?oc=5\" target=\"_blank\">대통령 \"진리 깨우치도록\" 정유업계 직격…단속 시작됐다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">JTBC</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WWW9yanQxQkktc1FObkowbGpuYTNlVnFnb3ljeWViREp5YnJUcndPbEc0c0hZT0tCYnhLMERtckxHTTB5dzMxd0NHMTFtdjdSX2c?oc=5\" target=\"_blank\">대통령 \"진리 깨우치도록\" 정유업계 직격…단속 시작됐다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">JTBC</font>"
+        },
+        "source": {
+          "href": "https://news.jtbc.co.kr",
+          "title": "JTBC"
+        }
+      },
+      "verified": false,
+      "time_evidence": "검색 표기시각; 발행사 원문·최초시각 검증 미완료",
+      "summary": "대통령 \"진리 깨우치도록\" 정유업계 직격…단속 시작됐다",
+      "id": "9853ec8855aa5a36",
+      "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WWW9yanQxQkktc1FObkowbGpuYTNlVnFnb3ljeWViREp5YnJUcndPbEc0c0hZT0tCYnhLMERtckxHTTB5dzMxd0NHMTFtdjdSX2c?oc=5",
+      "source_normalized": "JTBC",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 직접 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    }
+  ],
+  "summary": "최고가격제 연장·첫 손실보전의 원가와 적정마진 쟁점 및 LPG 연료비 부담 점검",
+  "editorial_audit": "data/reviews/2026-11-15-night.audit.json",
+  "supplemental_raw_search_result_count": 266,
+  "coverage_note": "자동 원수집 24건과 추가검색 결과 전체 별도 보존. 원문·최초시각 확인 4건, 미확인 10건 구분. 공개검색 노출 한계·일부 발행사 접속 실패가 있음.",
+  "raw_count_basis": "자동 원수집 실제 24건; 추가검색 결과와 구분",
+  "editorial_decisions": [
+    "동일 매체·정규화 제목만 병합; 다른 매체 동일사안 보존",
+    "포털 게시 식별시각은 원문 최초시각으로 인증하지 않음",
+    "추산 손실과 확정 보상액 구분. 비공개 공문·회신 내용 추정 없음"
+  ]
+}
