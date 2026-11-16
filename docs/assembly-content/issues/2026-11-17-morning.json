@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-17",
+  "slot": "morning",
+  "status": "published",
+  "period": "수집 기간: 2026-11-16 17:00 ~ 2026-11-17 08:00 (KST)",
+  "published_at": "2026-11-17T08:30:39+09:00",
+  "committees": [
+    {
+      "id": "industry",
+      "priority": [],
+      "all": [
+        {
+          "summary": "與 '솔라시도' 예산 2000억 증액 불발",
+          "event_id": "f4c8aadde36b092aea6e",
+          "committees": [
+            "industry"
+          ],
+          "members": [
+            "구자근"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 구자근",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 2,
+            "speaker": 2
+          },
+          "title": "與 '솔라시도' 예산 2000억 증액 불발",
+          "url": "https://www.fnnews.com/news/202611161834225979",
+          "press": "파이낸셜뉴스",
+          "published_at": "2026-11-16T18:33:46+09:00",
+          "time_evidence": "원문 published_time 2026-11-16T18:33:46+09:00",
+          "source_body_sha256": "3eaacb34204ed59dd29def5cd58a220cd40ac18291094379d5f77b511e11951f",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "climate_labor",
+      "priority": [],
+      "all": [
+        {
+          "summary": "녹색대전환 1000조 쏟아붓는데… 탈탄소 특별법 2년째 표류",
+          "event_id": "cd8123268ae49dca4c8a",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "박지혜"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 박지혜",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 2,
+            "speaker": 2
+          },
+          "title": "녹색대전환 1000조 쏟아붓는데… 탈탄소 특별법 2년째 표류",
+          "url": "https://www.fnnews.com/news/202611161835380520",
+          "press": "파이낸셜뉴스",
+          "published_at": "2026-11-16T18:35:04+09:00",
+          "time_evidence": "원문 published_time 2026-11-16T18:35:04+09:00",
+          "source_body_sha256": "931ac80d50df81b56012fd62bda0549d62cac1f3758667c3dfeab1d16da7e910",
+          "verified": true
+        },
+        {
+          "summary": "[오늘의 국회일정] 상임위·세미나·기자회견·주요 정당 -11월 17일",
+          "event_id": "81a872d9f24981d98e6a",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 2,
+            "speaker": 1
+          },
+          "title": "[오늘의 국회일정] 상임위·세미나·기자회견·주요 정당 -11월 17일",
+          "url": "https://www.newspim.com/news/view/20261116001364",
+          "press": "뉴스핌",
+          "published_at": "2026-11-17T05:00:00+09:00",
+          "time_evidence": "원문 published_time 2026-11-17T05:00:00+09:00",
+          "source_body_sha256": "ff76397b6cdcf1a499199711211f8741453785fe46af2b7c2d02588f95ed42cf",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "priority": [],
+      "all": [
+        {
+          "summary": "SOC 예타 기준 500억 → 1000억 완화",
+          "event_id": "3241ce0281fda76b08cc",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 2,
+            "speaker": 1
+          },
+          "title": "SOC 예타 기준 500억 → 1000억 완화",
+          "url": "https://www.fnnews.com/news/202611162123136581",
+          "press": "파이낸셜뉴스",
+          "published_at": "2026-11-16T21:22:29+09:00",
+          "time_evidence": "원문 published_time 2026-11-16T21:22:29+09:00",
+          "source_body_sha256": "e8a9d2dc194c4506aa801b58a22cff3c3a9b2a43b2c87c041cc4664cc0bb7c05",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "review_method": "deterministic-original-source-review",
+  "limitations": [
+    "일부 검색원 오류; 주제별 검색 결과·오류 및 보완 검색 기록은 검토 파일 참조",
+    "발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음",
+    "선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요."
+  ]
+}
