@@ -5,7 +5,7 @@
     "display_date": "2026년 11월 17일 (화)",
     "previous_day_label": "11/16",
     "today_label": "11/17",
-    "generated_at": "2026-11-17 08:24 KST",
+    "generated_at": "2026-11-17 17:49 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △원유 공급과잉 전망에 브렌트 3.55%·WTI 3.21% 하락 및 WTI 85.72달러 마감 △최고가격제 첫 정산의 원가·국제시세 기준 이견 및 이의신청·소송 가능성 제기 △재경위 경제재정소위, SOC 예타 대상 기준 상향 국가재정법 개정안 의결"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △산업부는 지난 14일부터 4주간 적용되는 12차 석유 최고가격을 7∼11차와 동일하게 유지하고, 정유사의 주유소 공급가격 상한을 휘발유 리터(L)당 1,784원, 경유 1,773원, 등유 △산업통상부는 17일 중동전쟁 대응 본부 서면 브리핑을 통해 올해 11월에서 12월 원유 도입물량을 지난해 평균의 90% 수준까지 확보했고, 내년 1월분도 50% 이상 확보했다고 발표 △코스피는 지난 7월 인공지능(AI) 투자 수익성 우려와 단일종목 레버리지 상장지수펀드(ETF) 청산이 겹치며 22.19% 급락한 뒤 지난달에는 시장금리 상승과 AI 밸류체인 투자 우려가 재부각되며"
     }
   ],
   "prices": {
@@ -1408,7 +1412,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(9/16~11/16)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1524,6 +1529,87 @@
       "merged_at": "2026-11-17 08:25:03 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-11-17.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△산업부는 지난 14일부터 4주간 적용되는 12차 석유 최고가격을 7∼11차와 동일하게 유지하고, 정유사의 주유소 공급가격 상한을 휘발유 리터(L)당 1,784원, 경유 1,773원, 등유 △산업통상부는 17일 중동전쟁 대응 본부 서면 브리핑을 통해 올해 11월에서 12월 원유 도입물량을 지난해 평균의 90% 수준까지 확보했고, 내년 1월분도 50% 이상 확보했다고 발표 △코스피는 지난 7월 인공지능(AI) 투자 수익성 우려와 단일종목 레버리지 상장지수펀드(ETF) 청산이 겹치며 22.19% 급락한 뒤 지난달에는 시장금리 상승과 AI 밸류체인 투자 우려가 재부각되며",
+    "trend_paragraphs": [
+      "TV조선은 산업부는 지난 14일부터 4주간 적용되는 12차 석유 최고가격을 7∼11차와 동일하게 유지하고, 정유사의 주유소 공급가격 상한을 휘발유 리터(L)당 1,784원, 경유 1,773원, 등유 1천380원으로 지정했다.",
+      "TV조선은 산업통상부는 17일 중동전쟁 대응 본부 서면 브리핑을 통해 올해 11월에서 12월 원유 도입물량을 지난해 평균의 90% 수준까지 확보했고, 내년 1월분도 50% 이상 확보했다고 밝혔다.",
+      "TV조선은 코스피는 지난 7월 인공지능(AI) 투자 수익성 우려와 단일종목 레버리지 상장지수펀드(ETF) 청산이 겹치며 22.19% 급락한 뒤 지난달에는 시장금리 상승과 AI 밸류체인 투자 우려가 재부각되며 16.19%."
+    ],
+    "articles": [
+      {
+        "title": "산업부 \"내년 1월 원유 50% 이상 확보…올해 11∼12월은 90%\"",
+        "press": "TV조선",
+        "press_grade": "B",
+        "url": "https://cp.news.search.daum.net/p/184414465",
+        "summary": "산업부는 지난 14일부터 4주간 적용되는 12차 석유 최고가격을 7∼11차와 동일하게 유지하고, 정유사의 주유소 공급가격 상한을 휘발유 리터(L)당 1,784원, 경유 1,773원, 등유 1천380원으로 지정했다",
+        "snippet": "TV조선 2시간 전 산업부 \"내년 1월 원유 50% 이상 확보…올해 11∼12월은 90%\" 시행으로 안정세를 유지하고 있다.산업부는 지난 14일부터 4주간 적용되는 12차 석유 최고가격을 7∼11차와 동일하게 유지하고, 정유사 의 주유소 공급가격 상한을 휘발유 리터(L)당 1,784원, 경유 1,773원, 등유 1천380원으로 지정했다.국내 주유소의 휘발유 가격은...",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 2,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 885
+      },
+      {
+        "title": "내년 1월 원유 절반 이상 확보…연말까진 90% 수준",
+        "press": "TV조선",
+        "press_grade": "B",
+        "url": "https://cp.news.search.daum.net/p/184414415",
+        "summary": "산업통상부는 17일 중동전쟁 대응 본부 서면 브리핑을 통해 올해 11월에서 12월 원유 도입물량을 지난해 평균의 90% 수준까지 확보했고, 내년 1월분도 50% 이상 확보했다고 밝혔다",
+        "snippet": "TV조선 2시간 전 내년 1월 원유 절반 이상 확보…연말까진 90% 수준 높은 수준이다. 국내유가는 석유 최고가격제 시행으로 안정세를 유지하고 있다. 산업부는 지나 14일부터 4주 동안 적용되는 12차 석유 최고가격을 앞선 7~11차와 동일하게 유지했다. 정유사 의 주유소 공급가격 상한은 리터 당 1784원, 경유 1773원, 등유 1380원이다...",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 3,
+          "press": 2,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 726
+      },
+      {
+        "title": "코스피 5000선 붕괴…고점 대비 반토막, 9개월 만에 최저",
+        "press": "TV조선",
+        "press_grade": "B",
+        "url": "https://cp.news.search.daum.net/p/184425487",
+        "summary": "코스피는 지난 7월 인공지능(AI) 투자 수익성 우려와 단일종목 레버리지 상장지수펀드(ETF) 청산이 겹치며 22.19% 급락한 뒤 지난달에는 시장금리 상승과 AI 밸류체인 투자 우려가 재부각되며 16.19%",
+        "snippet": "TV조선 50분 전 코스피 5000선 붕괴…고점 대비 반토막, 9개월 만에 최저 4,949.67 이후 가장 낮은 수준이다. 지난 6월 22일 기록한 사상 최고치인 종가 9,114.55와 비교하면 5개월 만에 45.5% 급락했다. 유가 증권시장 시가총액도 4,076조 8,389억 원으로 1월 21일 이후 최저로 쪼그라들었다. 최고점 당시 7,449조 원보다 45.3% 줄어든 규모...",
+        "published_at_kst": "",
+        "industry_relevance": -1,
+        "score": 5,
+        "score_breakdown": {
+          "keyword": 2,
+          "title_importance": 1,
+          "press": 2,
+          "originality": 0,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 958
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }

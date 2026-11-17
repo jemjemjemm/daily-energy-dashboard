@@ -1,0 +1,789 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-17",
+  "slot": "evening",
+  "period_start": "2026-11-17T08:00:00+09:00",
+  "period_end": "2026-11-17T17:00:00+09:00",
+  "period_label": "2026-11-17 08:00 ~ 2026-11-17 17:00",
+  "generated_at": "2026-11-17T17:59:33.275374+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 66,
+  "total_enriched_input_count": 25,
+  "total_in_period_unique_count": 16,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 5,
+  "total_deduped_count": 14,
+  "total_ok_count": 8,
+  "total_review_count": 6,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 2,
+    "B": 2,
+    "C": 10
+  },
+  "portal_counts": {
+    "naver": 38,
+    "daum": 26,
+    "google": 2
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "공정위 유가 담합": 3,
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "유가 담합": 11,
+    "유가담합": 11,
+    "현대오일뱅크 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-17T17:57:46.014709+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "담합 제재 기업이 공정거래 제도는 잘 갖췄다",
+      "url": "https://www.khan.co.kr/article/202611171717001",
+      "published_at": "2026-11-17T17:17:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T17:17:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[담합망국] HD현대오일뱅크① 전쟁 틈타 44조 담합···준법경영 외친 정기선 회장은 침묵",
+      "url": "https://www.globale.co.kr/news/articleView.html?idxno=41634",
+      "published_at": "2026-11-13T17:42:25+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-13T17:42:25+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "서스틴베스트 “담합 제재 기업, 공정거래 프로그램 도입률 2배” | 중앙일보",
+      "url": "https://www.joongang.co.kr/article/25479414",
+      "published_at": "2026-11-17T15:23:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T15:23:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "대신증권, 본업 부진에 과징금까지…3분기 적자전환 - 중기이코노미",
+      "url": "https://www.junggi.co.kr/news/articleView.html?idxno=38530",
+      "published_at": "2026-11-17T15:08:38+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T15:08:38+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "서스틴베스트 \"담합 기업 10곳 중 6곳 준법경영 제도 보유…실효성 높여야\" | 아주경제",
+      "url": "https://www.ajunews.com/view/20261117134049017",
+      "published_at": "2026-11-17T13:42:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-17 13:42",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "대신증권, 보유자산 위험 관리 강화…\"수익성 회복 집중\"",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1425844",
+      "published_at": "2026-11-17T13:32:06+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T13:32:06+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "\"담합 제재 기업, 준법제도 더 갖췄다···도입보다 실효성 검증해야\" - 뉴스웨이",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026111710591840939",
+      "published_at": "2026-11-17T11:13:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.17 11:13",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "담합 제재 기업이 오히려 준법 인증 더 많아…인증률 2.9배·공정거래 자율준수 도입률 2배 - IMPACT ON(임팩트온)",
+      "url": "https://www.impacton.net/news/articleView.html?idxno=30705",
+      "published_at": "2026-11-17T11:02:46+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T11:02:46+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "삼성전자·SK하이닉스 덮친 'D램 담합' 집단소송…증권가 \"법적 불확실성 가중\"",
+      "url": "https://www.widedaily.com/news/articleView.html?idxno=303854",
+      "published_at": "2026-11-17T10:35:49+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T10:35:49+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "복귀 노리는 젠슨 황 vs “쇄신 필요” 베선트…엔비디아 둘러싼 충돌",
+      "url": "https://www.sedaily.com/article/20115281?ref=naver",
+      "published_at": "2026-11-17T10:27:54+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T10:27:54+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "서스틴베스트 “담합 제재 기업, 공정거래 프로그램 도입률 2배”",
+      "url": "http://v.daum.net/v/20261117152439632",
+      "published_at": "2026-11-17T15:24:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 17. 15:24",
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "서스틴베스트 \"담합 기업 10곳 중 6곳 준법경영 제도 보유…실효성 높여야\"",
+      "url": "http://v.daum.net/v/20261117134233141",
+      "published_at": "2026-11-17T13:42:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 17. 13:42",
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "\"담합 제재 기업, 준법제도 더 갖췄다…도입보다 실효성 검증해야\"",
+      "url": "http://v.daum.net/v/20261117111303754",
+      "published_at": "2026-11-17T11:13:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 17. 11:13",
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "삼성전자·SK하이닉스·마이크론 D램 담합 소송 본안행..내부 문건 공개 기로 - 한국정경신문",
+      "url": "https://cp.news.search.daum.net/p/184393015",
+      "published_at": "2026-11-17T18:32:01+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time Tue, 17 Nov 2026 09:32:01 GMT",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[굿모닝 오늘의 증시] 엔비디아 실적 D-1, 워시 \"AI 3대 시나리오 마련 중\"",
+      "url": "http://v.daum.net/v/20261117092704934",
+      "published_at": "2026-11-17T09:27:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 17. 09:27",
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "[어제장 오늘장] 젠슨황발 여진 계속…차가워진 AI 투심",
+      "url": "http://v.daum.net/v/20261117083309904",
+      "published_at": "2026-11-17T08:33:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 17. 08:33",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[롯데케미칼 리스크] 재무약정 준수 유예… 대산 자금보충·美 실리카 소송 207건",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083079",
+      "published_at": "2026-11-17T16:54:42+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T16:54:42+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[LG화학 리스크] 석화 6사 담합 재판에 안전·환경 제재 잇따라… 여수·대산 사업재편 진행",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082957",
+      "published_at": "2026-11-17T13:33:49+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T13:33:49+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[핀테크핫이슈] 금융지주 지배구조 개편 본격화…해킹 당한 금융보안원",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715826",
+      "published_at": "2026-11-17T07:30:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T07:30:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[투자전략 따라잡기] 국장 수급 공백 장기화 결국 개미 탓?",
+      "url": "https://biz.sbs.co.kr/article_hub/20000347008?division=NAVER",
+      "published_at": "2026-11-17T13:25:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T13:25:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.11.17 — 오늘 꼭 알아야 할 국내외 경제뉴스 - 한국금융신문",
+      "url": "https://www.fntimes.com/html/view.php?ud=202611170708146723141825007d_18",
+      "published_at": "2026-11-17T07:27:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-17 07:27",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "서스틴베스트 “담합 제재 기업, 공정거래 프로그램 도입률 2배” | 중앙일보",
+      "url": "https://www.joongang.co.kr/article/25479414",
+      "source": "중앙일보",
+      "published_at": "2026-11-17T15:23:00+09:00",
+      "snippet": "분석 결과, 담합 제재 이력이 있는 기업의 공정거래 자율준수 프로그램(CP) 도입률은 58.2%로 같은 업종의 미제재 기업(28.9%)보다 약 2배 높았다.... 이번 평가 대상은 유가 증권시장 상장사 743곳과 코스닥 상장사 340곳, 비상장사 245곳 등 총 1328곳이다. 평가 등급별로는 최상위 AA등급 기업이 160곳으로...",
+      "collected_at": "2026-11-17T17:57:47.394294+09:00",
+      "normalized_title": "서스틴베스트 “담합 제재 기업, 공정거래 프로그램 도입률 2배” | 중앙일보",
+      "source_normalized": "중앙일보",
+      "duplicate_key": "중앙일보::서스틴베스트 “담합 제재 기업, 공정거래 프로그램 도입률 2배” | 중앙일보",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.joongang.co.kr/article/25479414",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-17T15:23:00+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "9f08cf252172d1cb",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "복귀 노리는 젠슨 황 vs “쇄신 필요” 베선트…엔비디아 둘러싼 충돌",
+      "url": "https://www.sedaily.com/article/20115281?ref=naver",
+      "source": "서울경제",
+      "published_at": "2026-11-17T10:27:54+09:00",
+      "snippet": "외국인이 유가 증권시장에서 1조3837억 원을 순매도한 반면 개인은 1조3484억 원을 순매수하며 맞섰다. 반도체 대형주를 중심으로 AI 밸류체인 전반에... 미 법원, 삼성·하이닉스 D램 담합 소송 중지 신청 기각 핵심 요약: 미 연방법원이 삼성전자·SK하이닉스·마이크론이 낸 D램 집단소송 중지 신청을...",
+      "collected_at": "2026-11-17T17:57:47.398116+09:00",
+      "normalized_title": "복귀 노리는 젠슨 황 vs “쇄신 필요” 베선트…엔비디아 둘러싼 충돌",
+      "source_normalized": "서울경제",
+      "duplicate_key": "서울경제::복귀 노리는 젠슨 황 vs “쇄신 필요” 베선트…엔비디아 둘러싼 충돌",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.sedaily.com/article/20115281?ref=naver",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-17T10:27:54+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "9661e971593dbc15",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서스틴베스트 \"담합 기업 10곳 중 6곳 준법경영 제도 보유…실효성 높여야\" | 아주경제",
+      "url": "https://www.ajunews.com/view/20261117134049017",
+      "source": "아주경제",
+      "published_at": "2026-11-17T13:42:00+09:00",
+      "snippet": "아주경제=신동근 기자 sdk6425@ajunews.com 최근 4년간 담합 으로 제재받은 기업 10곳 중 6곳은 공정거래 자율준수 프로그램(CP)을 도입한 것으로 나타났다.... 유가 증권시장 상장사 743곳, 코스닥 상장사 340곳, 비상장사 245곳이 포함됐다. 평가 결과 최상위인 AA등급 기업은 160곳으로 전체의 12.0%를 차지했다....",
+      "collected_at": "2026-11-17T17:57:47.395389+09:00",
+      "normalized_title": "서스틴베스트 \"담합 기업 10곳 중 6곳 준법경영 제도 보유…실효성 높여야\" | 아주경제",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::서스틴베스트 \"담합 기업 10곳 중 6곳 준법경영 제도 보유…실효성 높여야\" | 아주경제",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.ajunews.com/view/20261117134049017",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-11-17 13:42",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "9b9673874f480e66",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "서스틴베스트 \"담합 기업 10곳 중 6곳 준법경영 제도 보유…실효성 높여야\"",
+      "url": "http://v.daum.net/v/20261117134233141",
+      "source": "아주경제",
+      "published_at": "2026-11-17T13:42:00+09:00",
+      "snippet": "조사 면제 등의 혜택을 제공하고 있다. 지난 4월에는 반복적으로 담합을 저지른 기업에 CP 도입과 운영을 의무화하는 방안도 발표했다...기업 1328곳을 대상으로 ESG 관리 수준을 분석했다. 유가증권시장 상장사 743곳, 코스닥 상장사 340곳, 비상장사 245곳이 포함...",
+      "collected_at": "2026-11-17T17:57:54.705877+09:00",
+      "normalized_title": "서스틴베스트 \"담합 기업 10곳 중 6곳 준법경영 제도 보유…실효성 높여야\"",
+      "source_normalized": "아주경제",
+      "duplicate_key": "아주경제::서스틴베스트 \"담합 기업 10곳 중 6곳 준법경영 제도 보유…실효성 높여야\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20261117134233141",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 17. 13:42",
+      "verified": false,
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인",
+      "id": "e1f46ec8a1ccbad0",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "[투자전략 따라잡기] 국장 수급 공백 장기화 결국 개미 탓?",
+      "url": "https://biz.sbs.co.kr/article_hub/20000347008?division=NAVER",
+      "source": "SBS Biz",
+      "published_at": "2026-11-17T13:25:00+09:00",
+      "snippet": "미 상무부가 제3국 데이터센터를 경유 한 우회 접근을 차단하는 신규 수출 통제 규정을 내놓았는데요! 관련 기업들에는 어떤 타격이 예상되나요? Q. 미... 어제(16일)는 엔비디아를 둘러싼 경영 불확실성에 메모리 반도체 업계의 담합 소송 리스크까지 더해지면서 투자심리가 더욱 위축됐는데요. 삼성전자...",
+      "collected_at": "2026-11-17T17:58:41.053294+09:00",
+      "normalized_title": "[투자전략 따라잡기] 국장 수급 공백 장기화 결국 개미 탓?",
+      "source_normalized": "SBS Biz",
+      "duplicate_key": "sbs biz::[투자전략 따라잡기] 국장 수급 공백 장기화 결국 개미 탓?",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "경유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://biz.sbs.co.kr/article_hub/20000347008?division=NAVER",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-17T13:25:00+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "86bc19bfe1dd9eec",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "경유",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[어제장 오늘장] 젠슨황발 여진 계속…차가워진 AI 투심",
+      "url": "http://v.daum.net/v/20261117083309904",
+      "source": "SBS Biz",
+      "published_at": "2026-11-17T08:33:00+09:00",
+      "snippet": "거세지며 하락폭을 키웠습니다. 미국 법원에서 D램 3사의 담합 소송 기각 신청을 거부한 점도 악재로 작용했습니다. 코스닥도 지난 주...펀드 가동 자제 입장 확인하면서 낙폭을 재차 키웠습니다. 유가증권시장에서 외국인이 조단위 매도세를 나타냈습니다. 1조...",
+      "collected_at": "2026-11-17T17:58:06.208287+09:00",
+      "normalized_title": "[어제장 오늘장] 젠슨황발 여진 계속…차가워진 AI 투심",
+      "source_normalized": "SBS Biz",
+      "duplicate_key": "sbs biz::[어제장 오늘장] 젠슨황발 여진 계속…차가워진 ai 투심",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20261117083309904",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 17. 08:33",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "1337502e7dd096c5",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "\"담합 제재 기업, 준법제도 더 갖췄다···도입보다 실효성 검증해야\" - 뉴스웨이",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026111710591840939",
+      "source": "뉴스웨이",
+      "published_at": "2026-11-17T11:13:00+09:00",
+      "snippet": "담합 으로 제재받은 기업에서 오히려 해당 제도를 갖춘 비율이 같은 업종의 미제재 기업보다 높게 나타나면서다. 17일 서스틴베스트는 유가 증권시장 상장사 743곳, 코스닥 상장사 340곳, 비상장사 245곳 등 총 1328곳을 대상으로 한 '2026년 하반기 환경·사회·지배구조(ESG) 평가 결과'를 발표했다. 담합 다발...",
+      "collected_at": "2026-11-17T17:57:47.396462+09:00",
+      "normalized_title": "\"담합 제재 기업, 준법제도 더 갖췄다···도입보다 실효성 검증해야\" - 뉴스웨이",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::\"담합 제재 기업, 준법제도 더 갖췄다···도입보다 실효성 검증해야\" - 뉴스웨이",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.newsway.co.kr/news/view?ud=2026111710591840939",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.11.17 11:13",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "e595adfcbca08252",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "\"담합 제재 기업, 준법제도 더 갖췄다…도입보다 실효성 검증해야\"",
+      "url": "http://v.daum.net/v/20261117111303754",
+      "source": "뉴스웨이",
+      "published_at": "2026-11-17T11:13:00+09:00",
+      "snippet": "사진=서스틴베스트 공정거래 자율준수 프로그램(CP)의 도입 여부보다 실제 위반 예방 효과를 검증해야 한다는 지적이 나왔다. 담합으로 제재받은 기업에서 오히려 해당 제도를 갖춘 비율이 같은 업종의 미제재 기업보다 높게 나타나면서다. 17일 서스틴베스트는 유가...",
+      "collected_at": "2026-11-17T17:57:57.996732+09:00",
+      "normalized_title": "\"담합 제재 기업, 준법제도 더 갖췄다…도입보다 실효성 검증해야\"",
+      "source_normalized": "뉴스웨이",
+      "duplicate_key": "뉴스웨이::\"담합 제재 기업, 준법제도 더 갖췄다…도입보다 실효성 검증해야\"",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20261117111303754",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 17. 11:13",
+      "verified": false,
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인",
+      "id": "45e826ae15b08897",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "[롯데케미칼 리스크] 재무약정 준수 유예… 대산 자금보충·美 실리카 소송 207건",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083079",
+      "source": "뉴스클레임",
+      "published_at": "2026-11-17T16:54:42+09:00",
+      "snippet": "같은 달 4일 공식 출범한 H&L어드밴스드는 롯데케미칼과 HD 현대오일뱅크 가 지분을 각각 50%씩 보유한 공동기업이다. 사업재편 과정에서 롯데케미칼의... 국내에서는 석유화학제품 담합 혐의로 계열사가 재판에 넘겨졌다. 서울중앙지검은 지난 10월 1일 롯데정밀화학을 포함한 석유화학업체 6곳과 전·현직...",
+      "collected_at": "2026-11-17T17:58:31.681881+09:00",
+      "normalized_title": "[롯데케미칼 리스크] 재무약정 준수 유예… 대산 자금보충·美 실리카 소송 207건",
+      "source_normalized": "뉴스클레임",
+      "duplicate_key": "뉴스클레임::[롯데케미칼 리스크] 재무약정 준수 유예… 대산 자금보충·美 실리카 소송 207건",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083079",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-17T16:54:42+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "f683c3fd2e79dc40",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[LG화학 리스크] 석화 6사 담합 재판에 안전·환경 제재 잇따라… 여수·대산 사업재편 진행",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082957",
+      "source": "뉴스클레임",
+      "published_at": "2026-11-17T13:33:49+09:00",
+      "snippet": "사진=LG화학·뉴스클레임 편집 LG화학이 석유 화학 제품 가격 담합 혐의로 형사재판을 받는 가운데 산업안전·환경관리 관련 제재도 이어지고 있다. 지난 11월 4일 열린 첫 공판준비기일에서는 피고인별 담합 가담 행위와 시기를 구체적으로 정리해 달라는 재판부의 요구가 나왔다. LG화학이 지난 16일...",
+      "collected_at": "2026-11-17T17:58:31.682461+09:00",
+      "normalized_title": "[LG화학 리스크] 석화 6사 담합 재판에 안전·환경 제재 잇따라… 여수·대산 사업재편 진행",
+      "source_normalized": "뉴스클레임",
+      "duplicate_key": "뉴스클레임::[lg화학 리스크] 석화 6사 담합 재판에 안전·환경 제재 잇따라… 여수·대산 사업재편 진행",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082957",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-17T13:33:49+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "ac478c07df240268",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "대신증권, 보유자산 위험 관리 강화…\"수익성 회복 집중\"",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1425844",
+      "source": "데일리한국",
+      "published_at": "2026-11-17T13:32:06+09:00",
+      "snippet": "특히 보유 유가 증권에서 대규모 평가손실이 발생하면서 운용 부문이 향후 실적의 주요 변수로 떠올랐다. 회사는 시장 변동성에 따른 손익 영향을... 지난 11일 부과된 국고채 담합 관련 과징금이 최종 실적에 반영된 영향이다. 과징금을 제외하더라도 증권 부문의 실적은 부진했다. 대신증권 별도 기준...",
+      "collected_at": "2026-11-17T17:57:47.395909+09:00",
+      "normalized_title": "대신증권, 보유자산 위험 관리 강화…\"수익성 회복 집중\"",
+      "source_normalized": "데일리한국",
+      "duplicate_key": "데일리한국::대신증권, 보유자산 위험 관리 강화…\"수익성 회복 집중\"",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://daily.hankooki.com/news/articleView.html?idxno=1425844",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-17T13:32:06+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "b55972c40c029e65",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "삼성전자·SK하이닉스 덮친 'D램 담합' 집단소송…증권가 \"법적 불확실성 가중\"",
+      "url": "https://www.widedaily.com/news/articleView.html?idxno=303854",
+      "source": "와이드경제",
+      "published_at": "2026-11-17T10:35:49+09:00",
+      "snippet": "16일 유가 증권시장에서 삼성전자는 전 거래일보다 4.47% 하락한 19만6800원에 장을 마감했다. 같은 날 SK하이닉스 역시 7.89% 급락한 112만원으로 거래를 마쳤다. 증권가에서는 이번 소송 이슈가 가뜩이나 예민해진 반도체 수급을 자극했다고 진단한다. 강진혁 신한투자증권 연구원은 \"D램 3사 담합 소송 기각 신청...",
+      "collected_at": "2026-11-17T17:57:47.397565+09:00",
+      "normalized_title": "삼성전자·SK하이닉스 덮친 'D램 담합' 집단소송…증권가 \"법적 불확실성 가중\"",
+      "source_normalized": "와이드경제",
+      "duplicate_key": "와이드경제::삼성전자·sk하이닉스 덮친 'd램 담합' 집단소송…증권가 \"법적 불확실성 가중\"",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.widedaily.com/news/articleView.html?idxno=303854",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-17T10:35:49+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "feee66b641f92a01",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "담합 제재 기업이 오히려 준법 인증 더 많아…인증률 2.9배·공정거래 자율준수 도입률 2배 - IMPACT ON(임팩트온)",
+      "url": "https://www.impacton.net/news/articleView.html?idxno=30705",
+      "source": "임팩트온",
+      "published_at": "2026-11-17T11:02:46+09:00",
+      "snippet": "담합 으로 제재받은 기업의 공정거래 자율준수 프로그램(CP) 도입률이 같은 업종 미제재 기업의 2배로 나타났다. 서스틴베스트는 17일 국내 1328개... 유가 증권시장 743곳, 코스닥 340곳, 비상장기업 245곳 등 1328곳을 평가한 결과 AA등급 기업은 160곳(12.0%)으로 직전 상반기(152곳)보다 8곳 늘었다. 증가분은...",
+      "collected_at": "2026-11-17T17:57:47.397017+09:00",
+      "normalized_title": "담합 제재 기업이 오히려 준법 인증 더 많아…인증률 2.9배·공정거래 자율준수 도입률 2배 - IMPACT ON(임팩트온)",
+      "source_normalized": "임팩트온",
+      "duplicate_key": "임팩트온::담합 제재 기업이 오히려 준법 인증 더 많아…인증률 2.9배·공정거래 자율준수 도입률 2배 - impact on(임팩트온)",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.impacton.net/news/articleView.html?idxno=30705",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-17T11:02:46+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "13905056d7d0c493",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "대신증권, 본업 부진에 과징금까지…3분기 적자전환 - 중기이코노미",
+      "url": "https://www.junggi.co.kr/news/articleView.html?idxno=38530",
+      "source": "중기이코노미",
+      "published_at": "2026-11-17T15:08:38+09:00",
+      "snippet": "유가 증권 평가손실 등으로 본업이 부진한 데다 국고채 전문딜러(PD) 담합 에 따른 공정거래위원회의 과징금 부과 여파로 영업외손실도 크게... 앞서 대신증권은 지난 11일 국고채 PD 담합 과 관련해 공정위 로부터 1200억5100만원의 과징금을 부과받았다고 밝힌 바 있다. 대신증권 관계자는 16일...",
+      "collected_at": "2026-11-17T17:57:47.394830+09:00",
+      "normalized_title": "대신증권, 본업 부진에 과징금까지…3분기 적자전환 - 중기이코노미",
+      "source_normalized": "중기이코노미",
+      "duplicate_key": "중기이코노미::대신증권, 본업 부진에 과징금까지…3분기 적자전환 - 중기이코노미",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.junggi.co.kr/news/articleView.html?idxno=38530",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-17T15:08:38+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "35f2ccf85fcd3e77",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "summary": "수집 기사 14건, 발행사 본문·최초시각 확인 8건, 미확인 6건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 66,
+    "exclusions": [
+      {
+        "url": "https://www.khan.co.kr/article/202611171717001",
+        "title": "담합 제재 기업이 공정거래 제도는 잘 갖췄다",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.globale.co.kr/news/articleView.html?idxno=41634",
+        "title": "[담합망국] HD현대오일뱅크① 전쟁 틈타 44조 담합···준법경영 외친 정기선 회장은 침묵",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261117152439632",
+        "title": "서스틴베스트 “담합 제재 기업, 공정거래 프로그램 도입률 2배”",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184393015",
+        "title": "삼성전자·SK하이닉스·마이크론 D램 담합 소송 본안행..내부 문건 공개 기로 - 한국정경신문",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261117092704934",
+        "title": "[굿모닝 오늘의 증시] 엔비디아 실적 D-1, 워시 \"AI 3대 시나리오 마련 중\"",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715826",
+        "title": "[핀테크핫이슈] 금융지주 지배구조 개편 본격화…해킹 당한 금융보안원",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.fntimes.com/html/view.php?ud=202611170708146723141825007d_18",
+        "title": "[KFT 모닝 브리프] 2026.11.17 — 오늘 꼭 알아야 할 국내외 경제뉴스 - 한국금융신문",
+        "reason": "outside_period"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-17T17:57:46.014709+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
