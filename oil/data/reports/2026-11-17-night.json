@@ -1,0 +1,423 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-17",
+  "slot": "night",
+  "period_start": "2026-11-17T17:00:00+09:00",
+  "period_end": "2026-11-18T00:00:00+09:00",
+  "period_label": "2026-11-17 17:00 ~ 2026-11-18 00:00",
+  "generated_at": "2026-11-18T08:17:06.257187+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 81,
+  "total_enriched_input_count": 174,
+  "total_in_period_unique_count": 37,
+  "total_unknown_time_count": 72,
+  "total_outside_period_count": 65,
+  "total_deduped_count": 7,
+  "total_ok_count": 4,
+  "total_review_count": 3,
+  "total_excluded_count": 167,
+  "grade_counts": {
+    "A": 3,
+    "B": 1,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 52,
+    "daum": 23,
+    "google": 6
+  },
+  "query_counts": {
+    "경유 담합": 2,
+    "공정위 유가 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-18T08:16:16.475159+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "[글로벌 식탁의 진짜 주인] ③곡물 전쟁이 장바구니 전쟁으로 - 이비엔(EBN)뉴스센터",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1731977",
+      "published_at": "2026-11-18T06:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T06:00:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[칼럼] 석유최고가격제 폭탄 돌리기, 마지막 바퀴 다가오는데…",
+      "url": "https://www.nocutnews.co.kr/news/6608365?utm_source=naver&utm_medium=article&utm_campaign=20261118064447",
+      "published_at": "2026-11-18T05:20:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-18T05:20:00.0000000",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "11월 3주 주요 제조업 전망 - 참여와혁신",
+      "url": "https://www.laborplus.co.kr/news/articleView.html?idxno=41817",
+      "published_at": "2026-11-17T19:56:01+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T19:56:01+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "담합 제재 기업이 공정거래 제도는 잘 갖췄다",
+      "url": "https://www.khan.co.kr/article/202611171717001",
+      "published_at": "2026-11-17T17:17:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T17:17:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[담합망국] HD현대오일뱅크① 전쟁 틈타 44조 담합···준법경영 외친 정기선 회장은 침묵",
+      "url": "https://www.globale.co.kr/news/articleView.html?idxno=41634",
+      "published_at": "2026-11-13T17:42:25+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-13T17:42:25+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "서스틴베스트 “담합 제재 기업, 공정거래 프로그램 도입률 2배” | 중앙일보",
+      "url": "https://www.joongang.co.kr/article/25479414",
+      "published_at": "2026-11-17T15:23:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T15:23:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "대신증권, 본업 부진에 과징금까지…3분기 적자전환 - 중기이코노미",
+      "url": "https://www.junggi.co.kr/news/articleView.html?idxno=38530",
+      "published_at": "2026-11-17T15:08:38+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T15:08:38+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "서스틴베스트 \"담합 기업 10곳 중 6곳 준법경영 제도 보유…실효성 높여야\" | 아주경제",
+      "url": "https://www.ajunews.com/view/20261117134049017",
+      "published_at": "2026-11-17T13:42:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-17 13:42",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "대신증권, 보유자산 위험 관리 강화…\"수익성 회복 집중\"",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1425844",
+      "published_at": "2026-11-17T13:32:06+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T13:32:06+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "\"담합 제재 기업, 준법제도 더 갖췄다···도입보다 실효성 검증해야\" - 뉴스웨이",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026111710591840939",
+      "published_at": "2026-11-17T11:13:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.17 11:13",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[롯데케미칼 리스크] 재무약정 준수 유예… 대산 자금보충·美 실리카 소송 207건",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083079",
+      "published_at": "2026-11-17T16:54:42+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T16:54:42+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[LG화학 리스크] 석화 6사 담합 재판에 안전·환경 제재 잇따라… 여수·대산 사업재편 진행",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3082957",
+      "published_at": "2026-11-17T13:33:49+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T13:33:49+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[핀테크핫이슈] 금융지주 지배구조 개편 본격화…해킹 당한 금융보안원",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715826",
+      "published_at": "2026-11-17T07:30:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T07:30:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[대중문화칼럼] 도서정가제 개혁에서 다시 생각해야 할 점들",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3449563",
+      "published_at": "2026-11-17T18:35:14+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T18:35:14+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[투자전략 따라잡기] 국장 수급 공백 장기화 결국 개미 탓?",
+      "url": "https://biz.sbs.co.kr/article_hub/20000347008?division=NAVER",
+      "published_at": "2026-11-17T13:25:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T13:25:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.11.17 — 오늘 꼭 알아야 할 국내외 경제뉴스 - 한국금융신문",
+      "url": "https://www.fntimes.com/html/view.php?ud=202611170708146723141825007d_18",
+      "published_at": "2026-11-17T07:27:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-17 07:27",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[대중문화칼럼] 도서정가제 개혁에서 다시 생각해야 할 점들",
+      "url": "https://cp.news.search.daum.net/p/184432326",
+      "published_at": "2026-11-17T18:35:14+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-17T18:35:14+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "담합 제재 기업이 오히려 준법 인증 더 많아…인증률 2.9배·공정거래 자율준수 도입률 2배 - IMPACT ON(임팩트온)",
+      "url": "https://www.impacton.net/news/articleView.html?idxno=30705",
+      "published_at": "2026-11-17T11:02:46+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T11:02:46+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "HD현대오일뱅크, 창립 42주년…고도화·다각화·친환경 '3대 엔진' 가속",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96dUxKTUkwYmdXXzVpUGRjWndsQ2JtRGNyZi1TMURpaWhDdGZTU0tHNUZWOEJSVVJYYjNLUHdVWnFlcHBULVNqM1JqdHZfNGhBV0ctM0x5LVFjTmUxdzhHYTF4VzhFLUs0NFNxNHpCdDdXQl9h?oc=5",
+      "published_at": "2026-11-18T06:30:00+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[중형 증권사의 꿈]④ KB증권, 담합 과징금 1위로 빛 바랜 순이익 1조원",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NTTQtRUxUbFB0c3N5c2ZVeC1MTXJleTJUV2ZRV19YZUIwVldSQ01tTjhtaUZ0N1pjTG9lVEl5WHdlX2hiYjlRSjR3QU9tczFUTnkxeDlKUFlKaV96N0g5NmhiZmpIZFYtNko3b2hUVGI5VENX?oc=5",
+      "published_at": "2026-11-18T06:09:43+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    }
+  ],
+  "articles": [
+    {
+      "title": "원유는 8월 이후 최저인데 주유소 가격표는 왜 안 움직일까?",
+      "source": "국제뉴스",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3755096",
+      "published_at": "2026-11-17T21:02:37+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T21:02:37+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "원유는 8월 이후 최저인데 주유소 가격표는 왜 안 움직일까?",
+      "source_body_sha256": "13cc1dc6158c10a77c4adecdc049faf3ca4e1c68f8c6997d835ebed2e5bb1881",
+      "published_at_basis": "original_article",
+      "id": "95dff078a092586d",
+      "canonical_url": "https://www.gukjenews.com/news/articleView.html?idxno=3755096",
+      "source_normalized": "국제뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "세계 석유시장 공급과잉 전망에 국제유가 하락",
+      "source": "이투뉴스",
+      "url": "http://www.e2news.com/news/articleView.html?idxno=336171",
+      "published_at": "2026-11-17T19:24:32+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T19:24:32+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "세계 석유시장 공급과잉 전망에 국제유가 하락",
+      "source_body_sha256": "2f039f1980d8aef4590efb68032ed4c28751e1e9a139b26acebb854ebc4c57be",
+      "published_at_basis": "original_article",
+      "id": "8db3e04b54c84a48",
+      "canonical_url": "http://www.e2news.com/news/articleView.html?idxno=336171",
+      "source_normalized": "이투뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "아세안, 한일 등 정상과 중동전쟁발 위기대응·경제회복력 논의",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261117160700084",
+      "published_at": "2026-11-17T18:31:07+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T18:31:07+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "아세안, 한일 등 정상과 중동전쟁발 위기대응·경제회복력 논의",
+      "source_body_sha256": "058c2a3f995814a8c01a644d1e74ee5677bc71baa1bff3fd5a9236cacceba133",
+      "published_at_basis": "original_article",
+      "id": "d1f6de8e6ed64a84",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261117160700084",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "울산 10월 수출 55.7%↑…석유제품·자동차 등 주요 품목 호조",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261117159600057",
+      "published_at": "2026-11-17T18:11:12+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-17T18:11:12+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "울산 10월 수출 55.7%↑…석유제품·자동차 등 주요 품목 호조",
+      "source_body_sha256": "cc9f7ea65cc25c2692694f6e07a9f34aba7ff03f72412721a450ef62f6f12549",
+      "published_at_basis": "original_article",
+      "id": "c31a2dca4a703403",
+      "canonical_url": "https://www.yna.co.kr/view/AKR20261117159600057",
+      "source_normalized": "연합뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "석유公 비축시설 2000만 배럴 늘린다…원유 스와프도 유지",
+      "press": "서울경제",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261117173524426",
+      "published_date": "2026-11-18",
+      "published_at_kst": "",
+      "snippet": "서울경제 14시간 전 다음뉴스 2 석유公 비축시설 2000만 배럴 늘린다…원유 스와프도 유지 도 가동했다. 우선 시설 임대에 집중해 온 국제공동비축 물량을 비상시 우선구매권 행사로 국내 수급에 활용할 수 있도록 했다. 정유사 의 운송 중 원유와 전략비축유를 교환하는 ‘원유 스와프(SWAP)’ 제도도 도입했다. 비상시 해외에서 생산한 원유를 국내로 반입...",
+      "score": 10,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "정유사",
+      "collector": "daum_news_search",
+      "source": "서울경제",
+      "published_at": "2026-11-17T17:35:24+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "석유公 비축시설 2000만 배럴 늘린다…원유 스와프도 유지",
+      "id": "bd6eee3f3b7c51ad",
+      "canonical_url": "https://v.daum.net/v/20261117173524426",
+      "source_normalized": "서울경제",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "portal": "naver",
+      "query": "유가담합",
+      "title": "[ 담합 망국] HD 현대오일뱅크 ① 전쟁 틈타 44조 담합 ···준법경영 외친 ...",
+      "url": "https://www.globale.co.kr/news/articleView.html?idxno=41634",
+      "source": "글로벌E",
+      "published_at": "2026-11-17T17:16:17.534293+09:00",
+      "snippet": "HD현대오일뱅크가 26조 원대 유가 담합 혐의로 검찰에 기소된 데 이어 2022년부터 4년간 SK에너지와 44조 원에 달하는 담합을 벌인 혐의로 공정위 심판대에 올랐다. 전쟁을 틈타 폭리를 취한 것도 모자라 주유소에 전량 구매를 강제하고 수사 과정에서 조직적인 증거인멸까지 시도한 것으로 드러났다....",
+      "collected_at": "2026-11-18T08:16:17.534304+09:00",
+      "raw": {},
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "[ 담합 망국] HD 현대오일뱅크 ① 전쟁 틈타 44조 담합 ···준법경영 외친 ...",
+      "id": "011365003bc8bfe3",
+      "canonical_url": "https://www.globale.co.kr/news/articleView.html?idxno=41634",
+      "source_normalized": "글로벌E",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "[세종 인사이드아웃] 석유 최고 가격제 이견… 재경부 “내년에도 하자” VS 산업부 “신중해야”",
+      "press": "조선비즈",
+      "press_grade": "C",
+      "url": "https://v.daum.net/v/20261117171319333",
+      "published_date": "2026-11-18",
+      "published_at_kst": "",
+      "snippet": "조선비즈 PICK 15시간 전 다음뉴스 [세종 인사이드아웃] 석유 최고 가격제 이견… 재경부 “내년에도 하자” VS 산업부 “신중해야” 지난 10월 서울 시내 한 주유소에서 시민이 주유를 하고 있다. /뉴스1 중동 전쟁 이후 도입된 ‘석유 최고 가격제 ’를 내년에도 이어갈 지를 놓고 재정경제부와 산업통상부가 서로 입장이 다르다고 한다. 당초 정부는 석유 최고 가격제 를 올해 연말까지만 시행할 예정...",
+      "score": 6,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 1,
+        "originality": 1,
+        "duplicate_or_low_quality": -3
+      },
+      "industry_relevance": 1,
+      "source_query": "최고가격제",
+      "collector": "daum_news_search",
+      "source": "조선비즈",
+      "published_at": "2026-11-17T17:13:19+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "[세종 인사이드아웃] 석유 최고 가격제 이견… 재경부 “내년에도 하자” VS 산업부 “신중해야”",
+      "id": "8f50d09999764e35",
+      "canonical_url": "https://v.daum.net/v/20261117171319333",
+      "source_normalized": "조선Biz",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    }
+  ],
+  "summary": "석유제품 수출·국내 가격 쟁점 및 국제 원유시장 공급과잉 전망 점검",
+  "editorial_audit": "data/reviews/2026-11-17-night.audit.json",
+  "supplemental_raw_search_result_count": 243,
+  "coverage_note": "자동 원수집 81건과 추가검색 전체 별도 보존. 원문 확인 4건·미확인 3건 구분. 공개검색 노출·일부 발행사 접속 제한.",
+  "editorial_decisions": [
+    "동일 매체·정규화 제목만 병합; 다른 매체 동일 사건 보도 보존",
+    "추정 손실과 인정 보전액, 제도 연장 계획과 확정 구분",
+    "포털 표기시각을 발행사 최초 보도시각으로 인증하지 않음",
+    "동일 사건의 다른 매체 보도는 모두 보존; 원문 미확인 표기를 확인 완료로 변경하지 않음"
+  ]
+}
