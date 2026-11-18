@@ -5,7 +5,7 @@
     "display_date": "2026년 11월 18일 (수)",
     "previous_day_label": "11/17",
     "today_label": "11/18",
-    "generated_at": "2026-11-18 08:16 KST",
+    "generated_at": "2026-11-18 Evening KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △중동 군사적 긴장에 브렌트 0.76%·WTI 0.34% 상승 및 WTI 86.01달러 마감 △산업부, 석유제품 수출한도 조정사유·심사절차 지침 시행 △산중위 여야 의원, 체코 원전 시공계약 결렬 청문회 요구 및 간사 합의 여부 부인"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △최고가격제 첫 손실보상 정산 준비 및 적정 마진·수출 제한 기회비용 인정 쟁점 점검 △산업부, 체코 원전 설계·인허가·신규 시공사 선정의 주 단위 추진계획 점검 △수자원공사, 수상태양광 규제 개선·기자재 국산화 협의체 출범"
     }
   ],
   "prices": {
@@ -1479,5 +1483,54 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "최고가격제 첫 손실보상 정산 준비 및 적정 마진·수출 제한 기회비용 인정 쟁점 점검 △산업부, 체코 원전 설계·인허가·신규 시공사 선정의 주 단위 추진계획 점검 △수자원공사, 수상태양광 규제 개선·기자재 국산화 협의체 출범",
+    "trend_paragraphs": [
+      "최고가격제 첫 손실보상 정산 준비 및 적정 마진·수출 제한 기회비용 인정 쟁점 점검",
+      "산업부, 체코 원전 설계·인허가·신규 시공사 선정의 주 단위 추진계획 점검",
+      "수자원공사, 수상태양광 규제 개선·기자재 국산화 협의체 출범"
+    ],
+    "articles": [
+      {
+        "title": "석유 최고가격제 1차 정산 초읽기…막판 쟁점은 ‘적정 수준의 마진’",
+        "press": "경향신문",
+        "press_grade": "A",
+        "url": "https://www.khan.co.kr/article/202611181139001",
+        "summary": "최고가격제 첫 손실보상 정산 준비 및 적정 마진·수출 제한 기회비용 인정 쟁점 점검",
+        "published_at_kst": "2026-11-18T11:39:00+09:00",
+        "summary_basis": "article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-18T11:39:00+09:00; Actions 44264568259 발행사 직접 수집 원문 스냅샷 대조; 발행사 본문과 최초 송고·입력 직접 대조. 수정시각·검색시각 미사용",
+        "source_body_sha256": "bc2531a95338a6cdfcaf53b946ce1e74bc60bc41f93dcaf040cecb82c3054f67"
+      },
+      {
+        "title": "산업부, 한수원 체코 원전 추진계획 2차 점검…\"정상추진 담보\"",
+        "press": "연합뉴스",
+        "press_grade": "A",
+        "url": "https://www.yna.co.kr/view/AKR20261118036500003",
+        "summary": "산업부, 체코 원전 설계·인허가·신규 시공사 선정의 주 단위 추진계획 점검",
+        "published_at_kst": "2026-11-18T11:00:03+09:00",
+        "summary_basis": "article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-18T11:00:03+09:00; 발행사 본문과 최초 송고·입력 직접 대조. 수정시각·검색시각 미사용",
+        "source_body_sha256": "339b0d06f931ab5aa07491a5f119addfc16a7e2103bb1d9fcd7b028fb8ef0abc"
+      },
+      {
+        "title": "수공, 수상태양광 활성화 발전협의체 출범…50여개 기관 참여",
+        "press": "연합뉴스",
+        "press_grade": "A",
+        "url": "https://www.yna.co.kr/view/AKR20261118136100063",
+        "summary": "수자원공사, 수상태양광 규제 개선·기자재 국산화 협의체 출범",
+        "published_at_kst": "2026-11-18T15:39:28+09:00",
+        "summary_basis": "article_body_manual_review",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-18T15:39:28+09:00; 발행사 본문과 최초 송고·입력 직접 대조. 수정시각·검색시각 미사용",
+        "source_body_sha256": "2ba9206df3b042d237fee90be5db62810b2359c16231e376a9bbc231e90f30d5"
+      }
+    ],
+    "source": "발행사 원문 본문·최초시각 직접 확인 및 Actions 수집 원문 스냅샷 직접 대조",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }

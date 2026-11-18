@@ -1,0 +1,1615 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-18",
+  "slot": "evening",
+  "period_start": "2026-11-18T08:00:00+09:00",
+  "period_end": "2026-11-18T17:00:00+09:00",
+  "period_label": "2026-11-18 08:00 ~ 2026-11-18 17:00",
+  "generated_at": "2026-11-18T17:17:48.641429+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 66,
+  "total_enriched_input_count": 15,
+  "total_in_period_unique_count": 6,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 2,
+  "total_deduped_count": 26,
+  "total_ok_count": 16,
+  "total_review_count": 10,
+  "total_excluded_count": 3,
+  "grade_counts": {
+    "A": 6,
+    "B": 4,
+    "C": 16
+  },
+  "portal_counts": {
+    "naver": 42,
+    "daum": 24,
+    "google": 0
+  },
+  "query_counts": {
+    "SK에너지 담합": 2,
+    "경유 담합": 2,
+    "공정거래위원회 정유사 담합": 1,
+    "공정위 유가 담합": 3,
+    "석유 담합": 2,
+    "석유제품 담합": 2,
+    "유가 담합": 3,
+    "유가담합": 3,
+    "정유 44조": 1,
+    "정유사 담합": 1,
+    "정유업계 담합": 1,
+    "주유소 담합": 1,
+    "현대오일뱅크 담합": 2,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-18T17:16:06.730547+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "유가담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '유가담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9+after%3A2026-11-18+before%3A2026-11-19&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-11-18T17:16:09.493122+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+      "url": "http://www.inews24.com/view/2027703",
+      "published_at": "2026-11-18T16:43:59+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T16:43:59+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "정기선 회장 '위험 신호' 강조했지만…HD현대오일뱅크 담합 의혹에 내부통제 도마 - ㅍㅍㅅㅅ PPSS",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=321753",
+      "published_at": "2026-11-18T16:07:23+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T16:07:23+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "증시 급락에 과징금까지…초라해진 증권사, 3분기 성적표",
+      "url": "https://www.imaeil.com/page/view/2026111810245529740",
+      "published_at": "2026-11-18T10:33:16+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-18 10:33:16",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "'준법 프로그램' 의 역설··· 담합 기업 60% 도입, 미담합 기업의 2배 - 그린포스트코리아",
+      "url": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=308078",
+      "published_at": "2026-11-18T09:46:34+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T09:46:34+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[글로벌 식탁의 진짜 주인] ③곡물 전쟁이 장바구니 전쟁으로 - 이비엔(EBN)뉴스센터",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1731977",
+      "published_at": "2026-11-18T06:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T06:00:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[칼럼] 석유최고가격제 폭탄 돌리기, 마지막 바퀴 다가오는데…",
+      "url": "https://www.nocutnews.co.kr/news/6608365?utm_source=naver&utm_medium=article&utm_campaign=20261118064447",
+      "published_at": "2026-11-18T05:20:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-18T05:20:00.0000000",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[애경케미칼 리스크] 中법인 출자금 504억 전액 손상… 가소제·바이오연료 담합 혐의",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083211",
+      "published_at": "2026-11-18T14:45:55+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T14:45:55+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[SK케미칼 리스크] 가습기살균제 국가배상 분담금·630억 소송… 바이오연료 담합 심의·비염약 수입정지",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083197",
+      "published_at": "2026-11-18T11:55:22+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T11:55:22+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    }
+  ],
+  "articles": [
+    {
+      "id": "7952c3c5e4961e4b",
+      "title": "석유 최고가격제 1차 정산 초읽기…막판 쟁점은 ‘적정 수준의 마진’",
+      "source": "경향신문",
+      "source_normalized": "경향신문",
+      "url": "https://www.khan.co.kr/article/202611181139001",
+      "canonical_url": "https://www.khan.co.kr/article/202611181139001",
+      "published_at": "2026-11-18T11:39:00+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "A",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T11:39:00+09:00; Actions 44264568259 발행사 직접수집 본문 스냅샷 검토",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "최고가격제 손실보상 원가·적정 마진 및 수출 기회비용 쟁점 점검. 정산 예정·업계 주장과 확정 지급액 구분",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "bc2531a95338a6cdfcaf53b946ce1e74bc60bc41f93dcaf040cecb82c3054f67"
+    },
+    {
+      "id": "724df790d7a6d080",
+      "title": "에쓰오일, ‘샤힌 프로젝트’ 기념 이벤트…회원 12.5만명에 주유쿠폰",
+      "source": "문화일보",
+      "source_normalized": "문화일보",
+      "url": "https://v.daum.net/v/20261118153603403",
+      "canonical_url": "https://v.daum.net/v/20261118153603403",
+      "published_at": "2026-11-18T15:36:00+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "portal_article",
+      "grade": "A",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 15:36; 포털 전송시각이며 발행사 최초시각 미확인",
+      "verification_reason": "포털·검색 본문·시각 확인; 발행사 최초시각 미확인",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "6535bafa8c141339182c7a24455aacfce5b7b90937633c003989bfd10d59342a"
+    },
+    {
+      "id": "ab4cf21ecd3e9812",
+      "title": "에쓰오일, 12만 5000명에게 “주유쿠폰 쏜다”",
+      "source": "서울경제",
+      "source_normalized": "서울경제",
+      "url": "https://v.daum.net/v/20261118144120007",
+      "canonical_url": "https://v.daum.net/v/20261118144120007",
+      "published_at": "2026-11-18T14:41:00+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "portal_article",
+      "grade": "A",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 14:41; 포털 전송시각이며 발행사 최초시각 미확인",
+      "verification_reason": "포털·검색 본문·시각 확인; 발행사 최초시각 미확인",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "a9aa1f220b1501b808baab18e703c1aca7855c965ac29d3af9cc4a55e182f697"
+    },
+    {
+      "id": "728f21f459d95535",
+      "title": "중동긴장 급속 악화…이란, 쿠웨이트·바레인 두달만에 폭격",
+      "source": "연합뉴스",
+      "source_normalized": "연합뉴스",
+      "url": "https://v.daum.net/v/20261118161532640",
+      "canonical_url": "https://v.daum.net/v/20261118161532640",
+      "published_at": "2026-11-18T16:15:00+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "portal_article",
+      "grade": "A",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 16:15; 포털 전송시각이며 발행사 최초시각 미확인",
+      "verification_reason": "포털·검색 본문·시각 확인; 발행사 최초시각 미확인",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "78bae00245cff85603d8ccc0e9c19739220534e18173bd1445e8f00468c46da6"
+    },
+    {
+      "id": "372ad0e802bd6e63",
+      "title": "정유 4사, 1~3분기 합산 영업익 '16조' 육박…\"高유가·高마진·윤활유 호조 효과\"",
+      "source": "뉴시스",
+      "source_normalized": "뉴시스",
+      "url": "https://v.daum.net/v/20261118112750453",
+      "canonical_url": "https://v.daum.net/v/20261118112750453",
+      "published_at": "2026-11-18T11:27:00+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "portal_article",
+      "grade": "A",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 11:27; 포털 전송시각이며 발행사 최초시각 미확인",
+      "verification_reason": "포털·검색 본문·시각 확인; 발행사 최초시각 미확인",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "d4603d025e6bddbb383a2bba0eda8cde359d9b2846d8001faef59c63b89eb125"
+    },
+    {
+      "id": "60d726d1ef154d5e",
+      "title": "\"이란, 트럼프·공화당 참패에 자신감…대미 협상 더 강경해져\"",
+      "source": "뉴스1",
+      "source_normalized": "뉴스1",
+      "url": "https://v.daum.net/v/20261118161723730",
+      "canonical_url": "https://v.daum.net/v/20261118161723730",
+      "published_at": "2026-11-18T16:17:00+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "portal_article",
+      "grade": "A",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 16:17; 포털 전송시각이며 발행사 최초시각 미확인",
+      "verification_reason": "포털·검색 본문·시각 확인; 발행사 최초시각 미확인",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "682123d8d2d3a83d249b6ac02fe34fbc3b5b28ce2f99cb360a1a5e756d066a24"
+    },
+    {
+      "id": "4d97c5f0e6da770f",
+      "title": "중동 긴장 급속 악화…이란, 쿠웨이트·바레인 두 달 만에 폭격",
+      "source": "SBS",
+      "source_normalized": "SBS",
+      "url": "https://v.daum.net/v/20261118165708817",
+      "canonical_url": "https://v.daum.net/v/20261118165708817",
+      "published_at": "2026-11-18T16:57:00+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "portal_article",
+      "grade": "B",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 16:57; 포털 전송시각이며 발행사 최초시각 미확인",
+      "verification_reason": "포털·검색 본문·시각 확인; 발행사 최초시각 미확인",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "acbbe4ba187a55c34dd36cdbaeeecf50008727820beb20446c400fc90a08ee20"
+    },
+    {
+      "id": "0e68d15fcc6d7e45",
+      "title": "[정유·화학 & NOW] 에쓰오일, 샤힌 프로젝트 기념 고객감사 이벤트 등",
+      "source": "EBN",
+      "source_normalized": "EBN",
+      "url": "https://v.daum.net/v/20261118150401467",
+      "canonical_url": "https://v.daum.net/v/20261118150401467",
+      "published_at": "2026-11-18T15:04:00+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "portal_article",
+      "grade": "B",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 15:04; 포털 전송시각이며 발행사 최초시각 미확인",
+      "verification_reason": "포털·검색 본문·시각 확인; 발행사 최초시각 미확인",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "620cd2194467078b0dded8fc873174bbb9a5d8e99282af73b8ef35ea8521bfa9"
+    },
+    {
+      "id": "e1c7a6f32dc0aab2",
+      "title": "정부가 기름값 눌렀는데… 정유사 국내 공급 손실은 어디까지 보전하나",
+      "source": "데일리안",
+      "source_normalized": "데일리안",
+      "url": "https://www.dailian.co.kr/news/view/1716676/%ED%9D%91%EC%9E%90-%EB%82%B8-%EC%A0%95%EC%9C%A0%EC%82%AC-%EC%99%9C-%EC%84%B8%EA%B8%88-%ED%88%AC%EC%9E%85%EA%B8%B0%EB%A6%84%EA%B0%92-2026",
+      "canonical_url": "https://www.dailian.co.kr/news/view/1716676/%ED%9D%91%EC%9E%90-%EB%82%B8-%EC%A0%95%EC%9C%A0%EC%82%AC-%EC%99%9C-%EC%84%B8%EA%B8%88-%ED%88%AC%EC%9E%85%EA%B8%B0%EB%A6%84%EA%B0%92-2026",
+      "published_at": "2026-11-18T13:52:00+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "B",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.18 13:52; Actions 44264568259 발행사 직접수집 본문 스냅샷 검토",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "최고가격제 손실보상 원가·적정 마진 및 수출 기회비용 쟁점 점검. 정산 예정·업계 주장과 확정 지급액 구분",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "35e8057a3de7b049896e2c419f28066a4a16c549445af30f083cb2a942530762"
+    },
+    {
+      "id": "93f0d4762d302b87",
+      "title": "이란, 쿠웨이트·바레인 두달만에 폭격…중동 긴장 급속 악화",
+      "source": "연합뉴스TV",
+      "source_normalized": "연합뉴스TV",
+      "url": "https://v.daum.net/v/20261118162343041",
+      "canonical_url": "https://v.daum.net/v/20261118162343041",
+      "published_at": "2026-11-18T16:23:00+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "portal_article",
+      "grade": "B",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 16:23; 포털 전송시각이며 발행사 최초시각 미확인",
+      "verification_reason": "포털·검색 본문·시각 확인; 발행사 최초시각 미확인",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "d08d8c81b9b7ca46151848821336a5fab0935dfefa6e79c5573fa0047573784e"
+    },
+    {
+      "id": "485d307f8a8f109b",
+      "title": "정기선 회장 '위험 신호' 강조했지만…HD현대오일뱅크 담합 의혹에 내부통제 도마 - ㅍㅍㅅㅅ PPSS",
+      "source": "PPSS",
+      "source_normalized": "PPSS",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=321753",
+      "canonical_url": "https://www.ppss.kr/news/articleView.html?idxno=321753",
+      "published_at": "2026-11-18T16:07:23+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T16:07:23+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "HD현대오일뱅크 담합·증거인멸 혐의 재판 및 내부통제 점검. 회사 혐의 부인, 관련 매출액과 부당이득·피해액 구분",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "25f1eaaeaf1c824615adf2f14bfd5d5d4a37e1e9b95cd736905292a7f8c2a5b8"
+    },
+    {
+      "id": "a07f1a7ee7be6043",
+      "title": "S-OIL, ‘샤힌 프로젝트’ 기념 고객감사 진행",
+      "source": "경남신문",
+      "source_normalized": "경남신문",
+      "url": "https://v.daum.net/v/20261118143345594",
+      "canonical_url": "https://v.daum.net/v/20261118143345594",
+      "published_at": "2026-11-18T14:33:00+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "portal_article",
+      "grade": "C",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 14:33; 포털 전송시각이며 발행사 최초시각 미확인",
+      "verification_reason": "포털·검색 본문·시각 확인; 발행사 최초시각 미확인",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "8c7277dba3b5fe453ad5a738de61630419f21b807b28aa051522fb84e2dc4dfb"
+    },
+    {
+      "id": "b406279111eb6fa3",
+      "title": "대구소방안전본부, 주유소 391곳 안전관리 강화",
+      "source": "국제i저널",
+      "source_normalized": "국제i저널",
+      "url": "https://www.iij.co.kr/news/articleView.html?idxno=396296",
+      "canonical_url": "https://www.iij.co.kr/news/articleView.html?idxno=396296",
+      "published_at": "2026-11-18T16:53:39+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T16:53:39+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "93468f200e9b22e463d18b7ab0c3e789093b1350cd85ffb72eae3509925403c4"
+    },
+    {
+      "id": "8c344a61b35a961f",
+      "title": "S-OIL, ‘샤힌 프로젝트’ 기념 고객감사 이벤트",
+      "source": "금융경제신문",
+      "source_normalized": "금융경제신문",
+      "url": "http://www.fetimes.co.kr/news/articleView.html?idxno=129042",
+      "canonical_url": "http://www.fetimes.co.kr/news/articleView.html?idxno=129042",
+      "published_at": "2026-11-18T15:09:04+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T15:09:04+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "d1ce88a2038233f1930a5cbb55b51e9953f1f1cc0bfa5e2c870fba91b335c5b3"
+    },
+    {
+      "id": "6e18ef87cfdd0b02",
+      "title": "'호실적' GS칼텍스, 대주주 배당 '쑥' 미래투자 '뚝'",
+      "source": "뉴스드림",
+      "source_normalized": "뉴스드림",
+      "url": "http://www.newsdream.kr/news/articleView.html?idxno=122428",
+      "canonical_url": "http://www.newsdream.kr/news/articleView.html?idxno=122428",
+      "published_at": "2026-11-18T10:36:34+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T10:36:34+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "e9f1099d9c88750856e21359636a0fdaecd29f8446cc5ffc1f0c8186d02ffae3"
+    },
+    {
+      "id": "042e764bef8ea57f",
+      "title": "[금호석유화학 리스크] 투자주식 손상에도 합작사 추가 출자… 원료 수급·산업안전 부담",
+      "source": "뉴스클레임",
+      "source_normalized": "뉴스클레임",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083255",
+      "canonical_url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083255",
+      "published_at": "2026-11-18T16:47:18+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T16:47:18+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "11d5bbb593117dc781793833ec66f9d5e35f3d7206c7ac4a5d6bcc53c0e69939"
+    },
+    {
+      "id": "ba58642e53bc725d",
+      "title": "[애경케미칼 리스크] 中법인 출자금 504억 전액 손상… 가소제·바이오연료 담합 혐의",
+      "source": "뉴스클레임",
+      "source_normalized": "뉴스클레임",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083211",
+      "canonical_url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083211",
+      "published_at": "2026-11-18T14:45:55+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T14:45:55+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "f49ad559fff8f07787bdda5631d85084e21f6769ba3a540e70fad0c0bb25adea"
+    },
+    {
+      "id": "6015235769737069",
+      "title": "석탄 뺀 자리 가스로 채울라...한·호주 '탈탄소 MOU' 앞으로 과제는?",
+      "source": "뉴스펭귄",
+      "source_normalized": "뉴스펭귄",
+      "url": "https://v.daum.net/v/20261118163547721",
+      "canonical_url": "https://v.daum.net/v/20261118163547721",
+      "published_at": "2026-11-18T16:35:00+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "portal_article",
+      "grade": "C",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 16:35; 포털 전송시각이며 발행사 최초시각 미확인",
+      "verification_reason": "포털·검색 본문·시각 확인; 발행사 최초시각 미확인",
+      "quality_status": "review",
+      "status_label": "검토 필요",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "c741e9e4bf33a9872d916f826b041de57ee6f0ea10e131dc0854200d26411978"
+    },
+    {
+      "id": "6598a3256763e9de",
+      "title": "대구소방, 다음 달 18일까지 주유취급소 391곳 안전관리 강화",
+      "source": "대경일보",
+      "source_normalized": "대경일보",
+      "url": "https://www.dkilbo.com/news/articleView.html?idxno=561300",
+      "canonical_url": "https://www.dkilbo.com/news/articleView.html?idxno=561300",
+      "published_at": "2026-11-18T16:54:56+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T16:54:56+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "19a9a7fa60a561ca825413f848d423bee2e48343600a9567f181a8aeb64fc98a"
+    },
+    {
+      "id": "d32fc3e08f7a4b04",
+      "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+      "source": "아이뉴스24",
+      "source_normalized": "아이뉴스24",
+      "url": "http://www.inews24.com/view/2027703",
+      "canonical_url": "http://www.inews24.com/view/2027703",
+      "published_at": "2026-11-18T16:43:59+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T16:43:59+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "정유사별 사후정산 폐지·혼합계약 전환 진행 상황 점검. 표준계약서 권고와 개별 계약 이행, 최고가격제 종료 후 시행 방침 구분",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "052e2fa0b420be450879823e5196fcfb484ede39ed54cb8f93b14294d483a9c7"
+    },
+    {
+      "id": "596675b27d905b5a",
+      "title": "SK이노베이션, e-SAF 핵심 수전해 촉매 개발…재생전력 변동에도 효율·내구성 높여 - 에너지데일리",
+      "source": "에너지데일리",
+      "source_normalized": "에너지데일리",
+      "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205229",
+      "canonical_url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205229",
+      "published_at": "2026-11-18T16:31:07+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T16:31:07+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "4edfe233fd48d82216a8e2253a14c1be651817b588d3e4ccf5b2007cdd41e5ce"
+    },
+    {
+      "id": "07146eb7127792e5",
+      "title": "최고가격제에 일반·고급휘발유 600원/ℓ 차이고…고급유 판매량 감소",
+      "source": "에너지플랫폼뉴스",
+      "source_normalized": "에너지플랫폼뉴스",
+      "url": "http://www.e-platform.net/news/articleView.html?idxno=107091",
+      "canonical_url": "http://www.e-platform.net/news/articleView.html?idxno=107091",
+      "published_at": "2026-11-18T10:25:19+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T10:25:19+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "71d6a47e79fc69bfd07e9ea8959f6fdb8463956b9381dd1529b36cdd548e2763"
+    },
+    {
+      "id": "6b5cd9a2f0cbd249",
+      "title": "에쓰오일, 샤힌 프로젝트 완공 기념···12만명에 주유쿠폰 쏜다",
+      "source": "이뉴스투데이",
+      "source_normalized": "이뉴스투데이",
+      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2494069",
+      "canonical_url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2494069",
+      "published_at": "2026-11-18T14:35:00+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T14:35:00+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "b675299c64acbba3b8ead4ec3dc9b2843801de0a4aca5ea97f961279ed82a2e0"
+    },
+    {
+      "id": "afbe5fd72ca0c572",
+      "title": "호르무즈 피격에 유가 반등…석유 최고가격 인하 또 멀어져",
+      "source": "중소기업신문",
+      "source_normalized": "중소기업신문",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=366306",
+      "canonical_url": "http://www.smedaily.co.kr/news/articleView.html?idxno=366306",
+      "published_at": "2026-11-18T11:05:49+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T11:05:49+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "c1da113f958d3a3f121764063588904c33830f7ad6f851d23feb7135125572d4"
+    },
+    {
+      "id": "0f794cf942b56e92",
+      "title": "중국 독립 정유사, 국제 거래사 통해 이라크 원유 조달 | 토큰포스트",
+      "source": "토큰포스트",
+      "source_normalized": "토큰포스트",
+      "url": "https://www.tokenpost.kr/news/economy/440219",
+      "canonical_url": "https://www.tokenpost.kr/news/economy/440219",
+      "published_at": "2026-11-18T12:30:45+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T12:30:45+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "19f723dfd7d20311b38e3af3f6b86c35440bc332f2df4a0899f076022052af6d"
+    },
+    {
+      "id": "8b3e20ec9db92e18",
+      "title": "[진단] 민관, e-SAF 생산 기술 실증 본격화",
+      "source": "투데이에너지",
+      "source_normalized": "투데이에너지",
+      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=305743",
+      "canonical_url": "https://www.todayenergy.kr/news/articleView.html?idxno=305743",
+      "published_at": "2026-11-18T16:31:06+09:00",
+      "published_at_status": "known",
+      "published_at_basis": "original_article",
+      "grade": "C",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-18T16:31:06+09:00; 발행사 본문 직접 대조",
+      "verification_reason": "발행사 본문·최초시각 직접 확인",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가·정유·석유화학 직접 관련성 검토; 혐의·계획과 확정 구분",
+      "summary": "",
+      "matched_keywords": [
+        "유가·정유·석유화학"
+      ],
+      "source_body_sha256": "87d3f503a6f5cbc9b5399f1b68d35efc569472ad3651ab3d6e704faabaeeb3bc"
+    }
+  ],
+  "summary": "원수집 66건·보완검색 121건 보존, 시간대 내 관련기사 26건 수록(발행사 본문·최초시각 확인 16건, 발행사 미확인 10건). 최고가격제 정산·정유사 담합·거래관행 및 중동 공급위험 검토. 매체가 다른 동일 사안 보도 유지",
+  "editorial_audit": {
+    "method": "original-source-manual-editorial-review",
+    "raw_result_count": 66,
+    "supplemental_result_count": 121,
+    "original_verified_count": 16,
+    "unconfirmed_count": 10,
+    "exclusions": [
+      {
+        "url": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=308078",
+        "title": "'준법 프로그램' 의 역설··· 담합 기업 60% 도입, 미담합 기업의 2배 - 그린포스트코리아",
+        "reason": "일반 ESG·CP 도입 통계 및 국고채 담합, 정유·석유화학 직접 관련성 미확인",
+        "source_check": {
+          "title": "'준법 프로그램' 의 역설··· 담합 기업 60% 도입, 미담합 기업의 2배 - 그린포스트코리아",
+          "source": "그린포스트코리아",
+          "published_at": "2026-11-18T09:46:34+09:00",
+          "verified": true,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T09:46:34+09:00",
+          "body_available": true
+        }
+      },
+      {
+        "url": "https://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "reason": "동일 매체·동일 제목 발행사 원문으로 병합",
+        "original_url": "http://www.inews24.com/view/2027703"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184483445",
+        "title": "고유가 뒤 유가 하락세…정유업계, 4분기 수익성 변수",
+        "reason": "원문·최초시각 미확인; 시간대 포함을 입증하지 못해 본문 목록 제외",
+        "error": "403 Client Error: Forbidden for url: https://www.g-enews.com/view.php?ud=20261118143045466024debea800_1"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118164706377",
+        "title": "독도사랑 주유소 연합회, 충남도와 취약계층 겨울나기 협력",
+        "reason": "주유소 자선활동·항만 일반행사 등 유가·정유시장 직접 관련성 부족"
+      },
+      {
+        "title": "\"AI 힘 합치고 석유 공동비축\"…최태원 '한일 플랫폼' 띄웠다",
+        "url": "https://v.daum.net/v/20261118170007998",
+        "published_at": "2026-11-18T17:00:00+09:00",
+        "reason": "outside_period_or_unknown_original_time"
+      },
+      {
+        "url": "https://www.koreapost.co.kr/news/articleView.html?idxno=90200",
+        "title": "[이슈/ 제22차 한-중동 협력포럼] 에너지·건설 넘어 AI·반도체로…한·중동 협력 확대 모색",
+        "reason": "주유소 자선활동·항만 일반행사 등 유가·정유시장 직접 관련성 부족"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118140306095",
+        "title": "정부가 기름 값 눌렀는데… 정유사 국내 공급 손실은 어디까지 보전하나",
+        "reason": "동일 매체·동일 제목 발행사 원문으로 병합",
+        "original_url": "https://www.dailian.co.kr/news/view/1716676/%ED%9D%91%EC%9E%90-%EB%82%B8-%EC%A0%95%EC%9C%A0%EC%82%AC-%EC%99%9C-%EC%84%B8%EA%B8%88-%ED%88%AC%EC%9E%85%EA%B8%B0%EB%A6%84%EA%B0%92-2026"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118114142301",
+        "title": "석유 최고가격제 1차 정산 초읽기…막판 쟁점은 ‘적정 수준의 마진’",
+        "reason": "동일 매체·동일 제목 발행사 원문으로 병합",
+        "original_url": "https://www.khan.co.kr/article/202611181139001"
+      },
+      {
+        "url": "http://www.sejongtv.kr/news/articleView.html?idxno=237371",
+        "title": "독도사랑 주유소 연합회, 충남 취약계층 겨울나기 협력 의향서 전달",
+        "reason": "주유소 자선활동·항만 일반행사 등 유가·정유시장 직접 관련성 부족"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184477836",
+        "title": "대구소방, 주유취급소 안전관리 실태 집중점검",
+        "reason": "주유소 자선활동·항만 일반행사 등 유가·정유시장 직접 관련성 부족"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118152636807",
+        "title": "독도사랑 주유소 연합회, 취약계층 겨울나기 협력",
+        "reason": "주유소 자선활동·항만 일반행사 등 유가·정유시장 직접 관련성 부족"
+      },
+      {
+        "url": "http://www.babytimes.co.kr/news/articleView.html?idxno=74711",
+        "title": "독도사랑 주유소 연합회, 충남도와 에너지 공급망 개선·석유유통 혁신 협력 추진",
+        "reason": "주유소 자선활동·항만 일반행사 등 유가·정유시장 직접 관련성 부족"
+      },
+      {
+        "title": "이란, 쿠웨이트·바레인 연쇄 공격…중동 긴장 다시 고조",
+        "url": "https://v.daum.net/v/20261118170036049",
+        "published_at": "2026-11-18T17:00:00+09:00",
+        "reason": "outside_period_or_unknown_original_time"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184481783",
+        "title": "울산항만공사, ‘제10회 울산항 안전 콘퍼런스’ 성료",
+        "reason": "주유소 자선활동·항만 일반행사 등 유가·정유시장 직접 관련성 부족"
+      },
+      {
+        "url": "https://www.imaeil.com/page/view/2026111810245529740",
+        "title": "증시 급락에 과징금까지…초라해진 증권사, 3분기 성적표",
+        "published_at": "2026-11-18T11:16:07.225826+09:00",
+        "reason": "동일 매체 원문 병합 또는 일반 담합·비관련 후보 제외; 전체 원수집과 source_review 보존"
+      },
+      {
+        "url": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=308078",
+        "title": "'준법 프로그램' 의 역설··· 담합 기업 60% 도입, 미 담합 기업의 2배",
+        "published_at": "2026-11-18T10:16:07.226554+09:00",
+        "reason": "동일 매체 원문 병합 또는 일반 담합·비관련 후보 제외; 전체 원수집과 source_review 보존"
+      },
+      {
+        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1731977",
+        "title": "[글로벌 식탁의 진짜 주인] ③곡물 전쟁이 장바구니 전쟁으로",
+        "published_at": "2026-11-18T06:16:07.227334+09:00",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.nocutnews.co.kr/news/6608365?utm_source=naver&utm_medium=article&utm_campaign=20261118064447",
+        "title": "[칼럼] 석유최고가격제 폭탄 돌리기, 마지막 바퀴 다가오는데…",
+        "published_at": "2026-11-18T06:16:07.228210+09:00",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184451773",
+        "title": "'준법 프로그램' 의 역설··· 담합 기업 60% 도입, 미담합 기업의 2배",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.imaeil.com/page/view/2026111810245529740",
+        "title": "증시 급락에 과징금까지…초라해진 증권사, 3분기 성적표",
+        "published_at": "2026-11-18T11:16:10.108913+09:00",
+        "reason": "동일 매체 원문 병합 또는 일반 담합·비관련 후보 제외; 전체 원수집과 source_review 보존"
+      },
+      {
+        "url": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=308078",
+        "title": "'준법 프로그램' 의 역설··· 담합 기업 60% 도입, 미 담합 기업의 2배",
+        "published_at": "2026-11-18T10:16:10.110927+09:00",
+        "reason": "동일 매체 원문 병합 또는 일반 담합·비관련 후보 제외; 전체 원수집과 source_review 보존"
+      },
+      {
+        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1731977",
+        "title": "[글로벌 식탁의 진짜 주인] ③곡물 전쟁이 장바구니 전쟁으로",
+        "published_at": "2026-11-18T06:16:10.113053+09:00",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.nocutnews.co.kr/news/6608365?utm_source=naver&utm_medium=article&utm_campaign=20261118064447",
+        "title": "[칼럼] 석유최고가격제 폭탄 돌리기, 마지막 바퀴 다가오는데…",
+        "published_at": "2026-11-18T06:16:10.115101+09:00",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184451773",
+        "title": "'준법 프로그램' 의 역설··· 담합 기업 60% 도입, 미담합 기업의 2배",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.nocutnews.co.kr/news/6608365?utm_source=naver&utm_medium=article&utm_campaign=20261118064447",
+        "title": "[칼럼] 석유최고가격제 폭탄 돌리기, 마지막 바퀴 다가오는데…",
+        "published_at": "2026-11-18T06:16:13.100971+09:00",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184473320",
+        "title": "[애경케미칼 리스크] 中법인 출자금 504억 전액 손상… 가소제·바이오연료 담합 혐의",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.nocutnews.co.kr/news/6608365?utm_source=naver&utm_medium=article&utm_campaign=20261118064447",
+        "title": "[칼럼] 석유최고가격제 폭탄 돌리기, 마지막 바퀴 다가오는데…",
+        "published_at": "2026-11-18T06:16:15.935403+09:00",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083197",
+        "title": "[SK케미칼 리스크] 가습기살균제 국가배상 분담금·630억 소송… 바이오...",
+        "published_at": "2026-11-18T12:16:17.475832+09:00",
+        "reason": "동일 매체 원문 병합 또는 일반 담합·비관련 후보 제외; 전체 원수집과 source_review 보존"
+      },
+      {
+        "url": "https://www.nocutnews.co.kr/news/6608365?utm_source=naver&utm_medium=article&utm_campaign=20261118064447",
+        "title": "[칼럼] 석유 최고가격제 폭탄 돌리기, 마지막 바퀴 다가오는데…",
+        "published_at": "2026-11-18T06:16:17.477438+09:00",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184473320",
+        "title": "[애경케미칼 리스크] 中법인 출자금 504억 전액 손상… 가소제·바이오연료 담합 혐의",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184462213",
+        "title": "[SK케미칼 리스크] 가습기살균제 국가배상 분담금·630억 소송… 바이오연료 담합 심의·비염약 수입정지",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.nocutnews.co.kr/news/6608365?utm_source=naver&utm_medium=article&utm_campaign=20261118064447",
+        "title": "[칼럼] 석유최고가격제 폭탄 돌리기, 마지막 바퀴 다가오는데…",
+        "published_at": "2026-11-18T06:16:20.708464+09:00",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184473320",
+        "title": "[애경케미칼 리스크] 中법인 출자금 504억 전액 손상… 가소제·바이오연료 담합 혐의",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.nocutnews.co.kr/news/6608365?utm_source=naver&utm_medium=article&utm_campaign=20261118064447",
+        "title": "[칼럼] 석유최고가격제 폭탄 돌리기, 마지막 바퀴 다가오는데…",
+        "published_at": "2026-11-18T06:16:26.375385+09:00",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.nocutnews.co.kr/news/6608365?utm_source=naver&utm_medium=article&utm_campaign=20261118064447",
+        "title": "[칼럼] 석유최고가격제 폭탄 돌리기, 마지막 바퀴 다가오는데…",
+        "published_at": "2026-11-18T06:16:28.449135+09:00",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184473320",
+        "title": "[애경케미칼 리스크] 中법인 출자금 504억 전액 손상… 가소제·바이오연료 담합 혐의",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184462213",
+        "title": "[SK케미칼 리스크] 가습기살균제 국가배상 분담금·630억 소송… 바이오연료 담합 심의·비염약 수입정지",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=308078",
+        "title": "'준법 프로그램' 의 역설··· 담합 기업 60% 도입, 미 담합 기업의 2배",
+        "published_at": "2026-11-18T10:16:35.404319+09:00",
+        "reason": "동일 매체 원문 병합 또는 일반 담합·비관련 후보 제외; 전체 원수집과 source_review 보존"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184451773",
+        "title": "'준법 프로그램' 의 역설··· 담합 기업 60% 도입, 미담합 기업의 2배",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184473320",
+        "title": "[애경케미칼 리스크] 中법인 출자금 504억 전액 손상… 가소제·바이오연료 담합 혐의",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261118164546313",
+        "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+        "published_at": "",
+        "reason": "outside_period"
+      }
+    ],
+    "original_checks": [
+      {
+        "url": "https://www.ppss.kr/news/articleView.html?idxno=321753",
+        "evidence": {
+          "title": "정기선 회장 '위험 신호' 강조했지만…HD현대오일뱅크 담합 의혹에 내부통제 도마 - ㅍㅍㅅㅅ PPSS",
+          "source": "PPSS",
+          "published_at": "2026-11-18T16:07:23+09:00",
+          "verified": true,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T16:07:23+09:00",
+          "body_available": true
+        },
+        "error": null,
+        "body_sha256": "25f1eaaeaf1c824615adf2f14bfd5d5d4a37e1e9b95cd736905292a7f8c2a5b8"
+      },
+      {
+        "url": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=308078",
+        "evidence": {
+          "title": "'준법 프로그램' 의 역설··· 담합 기업 60% 도입, 미담합 기업의 2배 - 그린포스트코리아",
+          "source": "그린포스트코리아",
+          "published_at": "2026-11-18T09:46:34+09:00",
+          "verified": true,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T09:46:34+09:00",
+          "body_available": true
+        },
+        "error": null,
+        "body_sha256": "8c984be82e97553d195f17b6eb5287b9283469fe166a24caa41132125f51de4f"
+      },
+      {
+        "url": "http://www.inews24.com/view/2027703",
+        "evidence": {
+          "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+          "source": "아이뉴스24",
+          "published_at": "2026-11-18T16:43:59+09:00",
+          "verified": true,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T16:43:59+09:00",
+          "body_available": true
+        },
+        "error": null,
+        "body_sha256": "052e2fa0b420be450879823e5196fcfb484ede39ed54cb8f93b14294d483a9c7"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118164546313",
+        "evidence": {
+          "title": "사후정산 폐지 약속 7개월…정유사 “최고가격제 끝나야 시행”",
+          "source": "아이뉴스24",
+          "published_at": "2026-11-18T16:45:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 16:45",
+          "body_available": true
+        },
+        "error": null,
+        "body_sha256": "e89dcb5bec29093e16939ccec89edeacc957a54d870036a06158224a92a24433"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118153603403",
+        "evidence": {
+          "title": "에쓰오일, ‘샤힌 프로젝트’ 기념 이벤트…회원 12.5만명에 주유쿠폰",
+          "source": "문화일보",
+          "published_at": "2026-11-18T15:36:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 15:36",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "6535bafa8c141339182c7a24455aacfce5b7b90937633c003989bfd10d59342a"
+      },
+      {
+        "url": "http://www.fetimes.co.kr/news/articleView.html?idxno=129042",
+        "evidence": {
+          "title": "S-OIL, ‘샤힌 프로젝트’ 기념 고객감사 이벤트",
+          "source": "금융경제신문",
+          "published_at": "2026-11-18T15:09:04+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T15:09:04+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "d1ce88a2038233f1930a5cbb55b51e9953f1f1cc0bfa5e2c870fba91b335c5b3"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118150401467",
+        "evidence": {
+          "title": "[정유·화학 & NOW] 에쓰오일, 샤힌 프로젝트 기념 고객감사 이벤트 등",
+          "source": "EBN",
+          "published_at": "2026-11-18T15:04:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 15:04",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "620cd2194467078b0dded8fc873174bbb9a5d8e99282af73b8ef35ea8521bfa9"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118144120007",
+        "evidence": {
+          "title": "에쓰오일, 12만 5000명에게 “주유쿠폰 쏜다”",
+          "source": "서울경제",
+          "published_at": "2026-11-18T14:41:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 14:41",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "a9aa1f220b1501b808baab18e703c1aca7855c965ac29d3af9cc4a55e182f697"
+      },
+      {
+        "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2494069",
+        "evidence": {
+          "title": "에쓰오일, 샤힌 프로젝트 완공 기념···12만명에 주유쿠폰 쏜다",
+          "source": "이뉴스투데이",
+          "published_at": "2026-11-18T14:35:00+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T14:35:00+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "b675299c64acbba3b8ead4ec3dc9b2843801de0a4aca5ea97f961279ed82a2e0"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118143345594",
+        "evidence": {
+          "title": "S-OIL, ‘샤힌 프로젝트’ 기념 고객감사 진행",
+          "source": "경남신문",
+          "published_at": "2026-11-18T14:33:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 14:33",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "8c7277dba3b5fe453ad5a738de61630419f21b807b28aa051522fb84e2dc4dfb"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184483445",
+        "evidence": null,
+        "error": "403 Client Error: Forbidden for url: https://www.g-enews.com/view.php?ud=20261118143045466024debea800_1",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "url": "https://www.dkilbo.com/news/articleView.html?idxno=561300",
+        "evidence": {
+          "title": "대구소방, 다음 달 18일까지 주유취급소 391곳 안전관리 강화",
+          "source": "대경일보",
+          "published_at": "2026-11-18T16:54:56+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T16:54:56+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "19a9a7fa60a561ca825413f848d423bee2e48343600a9567f181a8aeb64fc98a"
+      },
+      {
+        "url": "https://www.iij.co.kr/news/articleView.html?idxno=396296",
+        "evidence": {
+          "title": "대구소방안전본부, 주유소 391곳 안전관리 강화",
+          "source": "국제i저널",
+          "published_at": "2026-11-18T16:53:39+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T16:53:39+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "93468f200e9b22e463d18b7ab0c3e789093b1350cd85ffb72eae3509925403c4"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118164706377",
+        "evidence": {
+          "title": "독도사랑주유소연합회, 충남도와 취약계층 겨울나기 협력",
+          "source": "한국일보",
+          "published_at": "2026-11-18T16:47:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 16:47",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "9db641ebf87a2a8b0a1e81461da01d13388a9761c7add5ed8bc01725269e7dd2"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118170007998",
+        "evidence": {
+          "title": "\"AI 힘 합치고 석유 공동비축\"…최태원 '한일 플랫폼' 띄웠다",
+          "source": "매일경제",
+          "published_at": "2026-11-18T17:00:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 17:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "0a907f38fbfe29f925b67f292de0b01201b9229451127b32918f92b6537b91bc"
+      },
+      {
+        "url": "https://www.koreapost.co.kr/news/articleView.html?idxno=90200",
+        "evidence": {
+          "title": "[이슈/ 제22차 한-중동 협력포럼] 에너지·건설 넘어 AI·반도체로…한·중동 협력 확대 모색 - 코리아포스트 한글판",
+          "source": "코리아포스트",
+          "published_at": "2026-11-18T16:40:19+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T16:40:19+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "9da62496ed9c170d77086da099aa292d0a89a2b7af5a8c36ed233e782bbc5f2b"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118163547721",
+        "evidence": {
+          "title": "석탄 뺀 자리 가스로 채울라...한·호주 '탈탄소 MOU' 앞으로 과제는?",
+          "source": "뉴스펭귄",
+          "published_at": "2026-11-18T16:35:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 16:35",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "c741e9e4bf33a9872d916f826b041de57ee6f0ea10e131dc0854200d26411978"
+      },
+      {
+        "url": "https://www.todayenergy.kr/news/articleView.html?idxno=305743",
+        "evidence": {
+          "title": "[진단] 민관, e-SAF 생산 기술 실증 본격화",
+          "source": "투데이에너지",
+          "published_at": "2026-11-18T16:31:06+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T16:31:06+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "87d3f503a6f5cbc9b5399f1b68d35efc569472ad3651ab3d6e704faabaeeb3bc"
+      },
+      {
+        "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205229",
+        "evidence": {
+          "title": "SK이노베이션, e-SAF 핵심 수전해 촉매 개발…재생전력 변동에도 효율·내구성 높여 - 에너지데일리",
+          "source": "에너지데일리",
+          "published_at": "2026-11-18T16:31:07+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T16:31:07+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "4edfe233fd48d82216a8e2253a14c1be651817b588d3e4ccf5b2007cdd41e5ce"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118161723730",
+        "evidence": {
+          "title": "\"이란, 트럼프·공화당 참패에 자신감…대미 협상 더 강경해져\"",
+          "source": "뉴스1",
+          "published_at": "2026-11-18T16:17:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 16:17",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "682123d8d2d3a83d249b6ac02fe34fbc3b5b28ce2f99cb360a1a5e756d066a24"
+      },
+      {
+        "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083255",
+        "evidence": {
+          "title": "[금호석유화학 리스크] 투자주식 손상에도 합작사 추가 출자… 원료 수급·산업안전 부담",
+          "source": "뉴스클레임",
+          "published_at": "2026-11-18T16:47:18+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T16:47:18+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "11d5bbb593117dc781793833ec66f9d5e35f3d7206c7ac4a5d6bcc53c0e69939"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118140306095",
+        "evidence": {
+          "title": "정부가 기름값 눌렀는데… 정유사 국내 공급 손실은 어디까지 보전하나",
+          "source": "데일리안",
+          "published_at": "2026-11-18T14:03:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 14:03",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "022274c01b4d0e5f5e6bffeeed0fe93a5d4b2df2558dc5a689c1b400f23cf232"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118114142301",
+        "evidence": {
+          "title": "석유 최고가격제 1차 정산 초읽기…막판 쟁점은 ‘적정 수준의 마진’",
+          "source": "경향신문",
+          "published_at": "2026-11-18T11:41:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 11:41",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "b0bf23117761ac138ac489e09a629bf124cf9dea70979f0e9f101325b6f16edf"
+      },
+      {
+        "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=366306",
+        "evidence": {
+          "title": "호르무즈 피격에 유가 반등…석유 최고가격 인하 또 멀어져",
+          "source": "중소기업신문",
+          "published_at": "2026-11-18T11:05:49+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T11:05:49+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "c1da113f958d3a3f121764063588904c33830f7ad6f851d23feb7135125572d4"
+      },
+      {
+        "url": "http://www.newsdream.kr/news/articleView.html?idxno=122428",
+        "evidence": {
+          "title": "'호실적' GS칼텍스, 대주주 배당 '쑥' 미래투자 '뚝'",
+          "source": "뉴스드림",
+          "published_at": "2026-11-18T10:36:34+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T10:36:34+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "e9f1099d9c88750856e21359636a0fdaecd29f8446cc5ffc1f0c8186d02ffae3"
+      },
+      {
+        "url": "http://www.e-platform.net/news/articleView.html?idxno=107091",
+        "evidence": {
+          "title": "최고가격제에 일반·고급휘발유 600원/ℓ 차이고…고급유 판매량 감소",
+          "source": "에너지플랫폼뉴스",
+          "published_at": "2026-11-18T10:25:19+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T10:25:19+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "71d6a47e79fc69bfd07e9ea8959f6fdb8463956b9381dd1529b36cdd548e2763"
+      },
+      {
+        "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083211",
+        "evidence": {
+          "title": "[애경케미칼 리스크] 中법인 출자금 504억 전액 손상… 가소제·바이오연료 담합 혐의",
+          "source": "뉴스클레임",
+          "published_at": "2026-11-18T14:45:55+09:00",
+          "verified": true,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T14:45:55+09:00",
+          "body_available": true
+        },
+        "error": null,
+        "body_sha256": "f49ad559fff8f07787bdda5631d85084e21f6769ba3a540e70fad0c0bb25adea"
+      },
+      {
+        "url": "https://www.tokenpost.kr/news/economy/440219",
+        "evidence": {
+          "title": "중국 독립 정유사, 국제 거래사 통해 이라크 원유 조달 | 토큰포스트",
+          "source": "토큰포스트",
+          "published_at": "2026-11-18T12:30:45+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T12:30:45+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "19f723dfd7d20311b38e3af3f6b86c35440bc332f2df4a0899f076022052af6d"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118112750453",
+        "evidence": {
+          "title": "정유 4사, 1~3분기 합산 영업익 '16조' 육박…\"高유가·高마진·윤활유 호조 효과\"",
+          "source": "뉴시스",
+          "published_at": "2026-11-18T11:27:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 11:27",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "d4603d025e6bddbb383a2bba0eda8cde359d9b2846d8001faef59c63b89eb125"
+      },
+      {
+        "url": "http://www.sejongtv.kr/news/articleView.html?idxno=237371",
+        "evidence": {
+          "title": "독도사랑주유소연합회, 충남 취약계층 겨울나기 협력 의향서 전달",
+          "source": "세종방송",
+          "published_at": "2026-11-18T16:11:34+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T16:11:34+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "dad95d2182dcdf289831363a08ee1fafe714dc08b2719aecbbccb5dd4b18a35b"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184477836",
+        "evidence": null,
+        "error": "('Connection aborted.', ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None))",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118152636807",
+        "evidence": {
+          "title": "독도사랑주유소연합회, 취약계층 겨울나기 협력",
+          "source": "충청타임즈",
+          "published_at": "2026-11-18T15:26:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 15:26",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "d31a217870d8b341a42bce6cff365b754b0c87283eb8cecea2248ae048716c31"
+      },
+      {
+        "url": "http://www.babytimes.co.kr/news/articleView.html?idxno=74711",
+        "evidence": {
+          "title": "독도사랑주유소연합회, 충남도와 에너지 공급망 개선·석유유통 혁신 협력 추진",
+          "source": "베이비타임즈",
+          "published_at": "2026-11-18T15:21:51+09:00",
+          "verified": false,
+          "published_at_basis": "original_article",
+          "time_evidence": "원문 published_time 2026-11-18T15:21:51+09:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "a2d106c229649c34edc922c719c15aebcd2455f3bef487bbec84c3b9ede9f732"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118170036049",
+        "evidence": {
+          "title": "이란, 쿠웨이트·바레인 연쇄 공격…중동 긴장 다시 고조",
+          "source": "전남일보",
+          "published_at": "2026-11-18T17:00:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 17:00",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "aba5d8c0becf3e128fe725197b271dd1a92f046a2b1025517bb52ff5b305bdd7"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118165708817",
+        "evidence": {
+          "title": "중동 긴장 급속 악화…이란, 쿠웨이트·바레인 두 달 만에 폭격",
+          "source": "SBS",
+          "published_at": "2026-11-18T16:57:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 16:57",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "acbbe4ba187a55c34dd36cdbaeeecf50008727820beb20446c400fc90a08ee20"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184481783",
+        "evidence": null,
+        "error": "('Connection aborted.', ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None))",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118162343041",
+        "evidence": {
+          "title": "이란, 쿠웨이트·바레인 두달만에 폭격…중동 긴장 급속 악화",
+          "source": "연합뉴스TV",
+          "published_at": "2026-11-18T16:23:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 16:23",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "d08d8c81b9b7ca46151848821336a5fab0935dfefa6e79c5573fa0047573784e"
+      },
+      {
+        "url": "https://v.daum.net/v/20261118161532640",
+        "evidence": {
+          "title": "중동긴장 급속 악화…이란, 쿠웨이트·바레인 두달만에 폭격",
+          "source": "연합뉴스",
+          "published_at": "2026-11-18T16:15:00+09:00",
+          "verified": false,
+          "published_at_basis": "portal_article",
+          "time_evidence": "포털 본문 최초 입력 2026. 11. 18. 16:15",
+          "body_available": false
+        },
+        "error": null,
+        "body_sha256": "78bae00245cff85603d8ccc0e9c19739220534e18173bd1445e8f00468c46da6"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-18T17:16:06.730547+09:00"
+      },
+      {
+        "level": "warning",
+        "portal": "google",
+        "query": "유가담합",
+        "message": "google collection failed",
+        "user_message": "구글뉴스에서 '유가담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+        "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9+after%3A2026-11-18+before%3A2026-11-19&hl=ko&gl=KR&ceid=KR:ko",
+        "created_at": "2026-11-18T17:16:09.493122+09:00"
+      }
+    ],
+    "limitations": [
+      "네이버 공개검색 페이지 제한 및 일부 발행사 접근 제한. 포털만 확인한 기사는 verified=false·검토 필요로 구분하며 발행사 검증 완료를 뜻하지 않음. 전체 온라인 기사 전수 확보를 보장하지 않음. 보완검색은 원수집 66건을 대체하지 않고 별도 121건 전체 보존."
+    ]
+  }
+}
