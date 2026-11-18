@@ -21,7 +21,7 @@
     },
     {
       "type": "news_trend",
-      "text": "(Morning) △이번 정산은 1차 최고가격제가 도입된 지난 3월13일부터 6월30일까지 발생한 정유사들의 손실을 대상으로 △정부가 석유 최고가격제 시행에 따른 첫 손실보전액 산정을 앞두고 정유사의 원유 조달비용과 적정 마진을 검토하고 있음 △우크라이나가 러시아의 에너지 기반 시설을 겨냥한 드론 공격을 강화하면서 러시아 정유소들의 정유량이 10월 말 이후 45% 감소했다고 18일(현지시간) 로이터가 복수의 소식통을 인용해 보도"
+      "text": "(Morning) △미국 원유·휘발유 재고 급증에 국제유가 3%대 하락 및 공급과잉 우려 확대 △최고가격제 1차 손실보전 심의 앞두고 원유 조달비·운임·보험료·적정 마진 인정 범위 쟁점 부각 △기후부, 내년부터 5년간 원전 전력거래 정부승인차액계약 적용 추진"
     }
   ],
   "prices": {
@@ -1325,76 +1325,46 @@
     }
   ],
   "news_trend": {
-    "summary": "△이번 정산은 1차 최고가격제가 도입된 지난 3월13일부터 6월30일까지 발생한 정유사들의 손실을 대상으로 △정부가 석유 최고가격제 시행에 따른 첫 손실보전액 산정을 앞두고 정유사의 원유 조달비용과 적정 마진을 검토하고 있음 △우크라이나가 러시아의 에너지 기반 시설을 겨냥한 드론 공격을 강화하면서 러시아 정유소들의 정유량이 10월 말 이후 45% 감소했다고 18일(현지시간) 로이터가 복수의 소식통을 인용해 보도",
+    "summary": "△미국 원유·휘발유 재고 급증에 국제유가 3%대 하락 및 공급과잉 우려 확대 △최고가격제 1차 손실보전 심의 앞두고 원유 조달비·운임·보험료·적정 마진 인정 범위 쟁점 부각 △기후부, 내년부터 5년간 원전 전력거래 정부승인차액계약 적용 추진",
     "trend_paragraphs": [
-      "경향신문은 이번 정산은 1차 최고가격제가 도입된 지난 3월13일부터 6월30일까지 발생한 정유사들의 손실을 대상으로 한다.",
-      "파이낸셜뉴스는 정부가 석유 최고가격제 시행에 따른 첫 손실보전액 산정을 앞두고 정유사의 원유 조달비용과 적정 마진을 검토하고 있다.",
-      "뉴스1는 우크라이나가 러시아의 에너지 기반 시설을 겨냥한 드론 공격을 강화하면서 러시아 정유소들의 정유량이 10월 말 이후 45% 감소했다고 18일(현지시간) 로이터가 복수의 소식통을 인용해 보도했다."
+      "미국 원유·휘발유 재고 급증에 국제유가 3%대 하락 및 공급과잉 우려 확대",
+      "최고가격제 1차 손실보전 심의 앞두고 원유 조달비·운임·보험료·적정 마진 인정 범위 쟁점 부각",
+      "기후부, 내년부터 5년간 원전 전력거래 정부승인차액계약 적용 추진"
     ],
     "articles": [
       {
-        "title": "석유 최고가격제 첫 정산 임박… 정유사 ‘적정 마진’ 초미 관심",
-        "press": "경향신문",
-        "press_grade": "A",
-        "url": "https://v.daum.net/v/20261118203639003",
-        "summary": "이번 정산은 1차 최고가격제가 도입된 지난 3월13일부터 6월30일까지 발생한 정유사들의 손실을 대상으로 한다",
-        "snippet": "경향신문 11시간 전 다음뉴스 석유 최고가격제 첫 정산 임박… 정유사 ‘적정 마진’ 초미 관심 석유 최고가격제 도입에 따른 정유사 손실 보상을 위한 첫 정산이 초읽기에 들어갔다. 정부와 정유업계 사이의 간극이 큰 상황에서 ‘적정 수준의 마진’과 관련한 산정 기준이 막판 쟁점이 될 것으로 전망된다. 18일 정부와 업계 관계자 말을 종합하면 산업통상부...",
-        "published_at_kst": "",
-        "industry_relevance": 5,
-        "score": 14,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 4,
-          "press": 3,
-          "originality": 2,
-          "duplicate_or_low_quality": 0
-        },
-        "summary_basis": "article_body_extract",
-        "article_content_chars": 1306
+        "title": "국제유가 3%대 급락…美 원유·휘발유 재고 급증에 공급과잉 우려",
+        "press": "뉴스1",
+        "url": "https://www.news1.kr/world/international-economy/6358801",
+        "summary": "미국 원유·휘발유 재고 급증에 국제유가 3%대 하락 및 공급과잉 우려 확대",
+        "published_at_kst": "2026-11-19T05:15:40+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-19T05:15:40+09:00",
+        "summary_basis": "original_article_body_manual_review"
       },
       {
         "title": "첫 손실보전 앞둔 정유사, 운임·보험료 인정 범위 촉각",
         "press": "파이낸셜뉴스",
-        "press_grade": "A",
-        "url": "https://v.daum.net/v/20261119070109136",
-        "summary": "정부가 석유 최고가격제 시행에 따른 첫 손실보전액 산정을 앞두고 정유사의 원유 조달비용과 적정 마진을 검토하고 있다",
-        "snippet": "파이낸셜뉴스 1시간 전 다음뉴스 첫 손실보전 앞둔 정유사, 운임·보험료 인정 범위 촉각 마진을 검토하고 있다. 중동발 공급 차질로 원유 도입선이 다변화되면서 운임과 보험료 부담이 커진 가운데 정유업계는 국제 석유 제품 가격과 국내 공급가격 차이를 반영해야 한다는 입장이다. 반면에 정부는 실제 투입 원가를 기준으로 보전액을 산정한다는 원칙을...",
-        "published_at_kst": "",
-        "industry_relevance": 5,
-        "score": 11,
-        "score_breakdown": {
-          "keyword": 5,
-          "title_importance": 2,
-          "press": 3,
-          "originality": 1,
-          "duplicate_or_low_quality": 0
-        },
-        "summary_basis": "article_body_extract",
-        "article_content_chars": 1583
+        "url": "https://www.fnnews.com/news/202611181536573434",
+        "summary": "최고가격제 1차 손실보전 심의 앞두고 원유 조달비·운임·보험료·적정 마진 인정 범위 쟁점 부각",
+        "published_at_kst": "2026-11-19T06:59:00+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-19T06:59:00+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+        "summary_basis": "original_article_body_manual_review"
       },
       {
-        "title": "\"우크라 드론 공격 강화하자…러 11월 정유량 절반 가까이 감소\"",
-        "press": "뉴스1",
-        "press_grade": "A",
-        "url": "https://v.daum.net/v/20261119074357049",
-        "summary": "우크라이나가 러시아의 에너지 기반 시설을 겨냥한 드론 공격을 강화하면서 러시아 정유소들의 정유량이 10월 말 이후 45% 감소했다고 18일(현지시간) 로이터가 복수의 소식통을 인용해 보도했다",
-        "snippet": "뉴스1 30분 전 다음뉴스 \"우크라 드론 공격 강화하자…러 11월 정유량 절반 가까이 감소\" 우크라이나의 드론 공격으로 러시아 모스크바의 한 정유 공장에서 연기가 솟아오르고 있다. (자료 사진) 2026.9.20 ⓒ 로이터=뉴스1 (서울=뉴스1) 윤다정 기자 = 우크라이나가 러시아의 에너지 기반 시설을 겨냥한 드론 공격을 강화하면서 러시아 정유소들의 정유량이...",
-        "published_at_kst": "",
-        "industry_relevance": 4,
-        "score": 10,
-        "score_breakdown": {
-          "keyword": 4,
-          "title_importance": 2,
-          "press": 3,
-          "originality": 1,
-          "duplicate_or_low_quality": 0
-        },
-        "summary_basis": "article_body_extract",
-        "article_content_chars": 966
+        "title": "내년부터 원전 전력가격 미리 정한다…'차액계약' 도입",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261118153900530",
+        "summary": "기후부, 내년부터 5년간 원전 전력거래 정부승인차액계약 적용 추진",
+        "published_at_kst": "2026-11-19T06:00:06+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-19T06:00:06+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+        "summary_basis": "original_article_body_manual_review"
       }
     ],
-    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
-    "needs_review": true,
+    "source": "발행사 원문 본문·최초 보도시각 직접 확인",
+    "needs_review": false,
     "report_slot": "morning"
   },
   "quality_control": {

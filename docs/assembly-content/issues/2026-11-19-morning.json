@@ -3,79 +3,571 @@
   "slot": "morning",
   "status": "published",
   "period": "수집 기간: 2026-11-18 17:00 ~ 2026-11-19 08:00 (KST)",
-  "published_at": "2026-11-19T08:18:42+09:00",
+  "published_at": "2026-11-19T08:26:14+09:00",
   "committees": [
     {
       "id": "industry",
-      "priority": [],
-      "all": []
-    },
-    {
-      "id": "climate_labor",
-      "priority": [],
-      "all": [
+      "priority": [
         {
-          "summary": "발전5사 통합, ‘지배구조·재산권’ 최대 쟁점 부상",
-          "event_id": "7e3011488517c080076e",
+          "title": "첫 손실보전 앞둔 정유사, 운임·보험료 인정 범위 촉각",
+          "url": "https://www.fnnews.com/news/202611181536573434",
+          "press": "파이낸셜뉴스",
+          "published_at": "2026-11-19T06:59:00+09:00",
+          "summary": "최고가격제 1차 손실보전 심의 앞두고 원유 조달비·운임·보험료·적정 마진 인정 범위 쟁점 부각",
+          "event_id": "1119m-643a66cf51c1",
           "committees": [
-            "climate_labor"
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부 최고액정산위원회의 비용 인정·보상 산정 중심으로 산중위 단일 배정. 심의결과 전달·연내 지급은 계획이며 회사별 인정액·소송 확정 아님.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "본문의 정유·유가/담합 관련 정책·제도와 직접 연관",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T06:59:00+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "9438e623076c2e2ae4dbec6b0b60ae7a62f25c1bab7184d943d7bc404e91c45e"
+        },
+        {
+          "title": "[공기업레이더] “‘비상장’ 석유공사와 통합 시너지 불명”…“‘대왕고래’ 인력 여전”",
+          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7194639",
+          "press": "주간한국",
+          "published_at": "2026-11-18T21:18:43+09:00",
+          "summary": "석유공사·가스공사 통합 시너지 우려 및 대왕고래 투자검증·내부통제 개선 과제 제기",
+          "event_id": "1119m-a0d0038044c9",
+          "committees": [
+            "industry"
           ],
           "members": [
-            "최기상"
+            "권향엽"
           ],
           "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 최기상",
+          "committee_reason": "원문 산중위 국감 권향엽 질의와 Excel roster 산중위 소속 대조. 주된 사안은 자원공기업 통합·사업 검증. 보조 재경위 사내대출 인용은 별도 배정·요약하지 않음. BP 지분투자는 협상 중이며 확정·정부 권유 사실로 쓰지 않음.",
+          "categories": [
+            "E&P·해외자원개발"
+          ],
+          "category_reason": "본문의 E&P·해외자원개발 관련 정책·제도와 직접 연관",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-18T21:18:43+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "2a67e23c7dd84b99db4eaee2a9df70f34affbc8453e7f371446fc4dd9062ba16"
+        }
+      ],
+      "all": [
+        {
+          "title": "첫 손실보전 앞둔 정유사, 운임·보험료 인정 범위 촉각",
+          "url": "https://www.fnnews.com/news/202611181536573434",
+          "press": "파이낸셜뉴스",
+          "published_at": "2026-11-19T06:59:00+09:00",
+          "summary": "최고가격제 1차 손실보전 심의 앞두고 원유 조달비·운임·보험료·적정 마진 인정 범위 쟁점 부각",
+          "event_id": "1119m-643a66cf51c1",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부 최고액정산위원회의 비용 인정·보상 산정 중심으로 산중위 단일 배정. 심의결과 전달·연내 지급은 계획이며 회사별 인정액·소송 확정 아님.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "본문의 정유·유가/담합 관련 정책·제도와 직접 연관",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T06:59:00+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "9438e623076c2e2ae4dbec6b0b60ae7a62f25c1bab7184d943d7bc404e91c45e"
+        },
+        {
+          "title": "[공기업레이더] “‘비상장’ 석유공사와 통합 시너지 불명”…“‘대왕고래’ 인력 여전”",
+          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7194639",
+          "press": "주간한국",
+          "published_at": "2026-11-18T21:18:43+09:00",
+          "summary": "석유공사·가스공사 통합 시너지 우려 및 대왕고래 투자검증·내부통제 개선 과제 제기",
+          "event_id": "1119m-a0d0038044c9",
+          "committees": [
+            "industry"
+          ],
+          "members": [
+            "권향엽"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "원문 산중위 국감 권향엽 질의와 Excel roster 산중위 소속 대조. 주된 사안은 자원공기업 통합·사업 검증. 보조 재경위 사내대출 인용은 별도 배정·요약하지 않음. BP 지분투자는 협상 중이며 확정·정부 권유 사실로 쓰지 않음.",
+          "categories": [
+            "E&P·해외자원개발"
+          ],
+          "category_reason": "본문의 E&P·해외자원개발 관련 정책·제도와 직접 연관",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-18T21:18:43+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "2a67e23c7dd84b99db4eaee2a9df70f34affbc8453e7f371446fc4dd9062ba16"
+        },
+        {
+          "title": "李대통령 \"지정학적 위기…핵심광물·에너지수급 함께 노력해야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261118145000001",
+          "press": "연합뉴스",
+          "published_at": "2026-11-18T17:02:47+09:00",
+          "summary": "이 대통령, APEC에서 핵심광물·에너지 공급 안정 및 제조 AI 공동 대응 촉구",
+          "event_id": "1119m-0ea00ef86a11",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "APEC CEO 서밋의 실제 발언은 산업 공급망·통상협력 중심으로 산중위 단일 배정. 에너지 안정공급의 필요성 언급과 확보 완료 구분.",
           "categories": [],
           "category_reason": "",
           "importance": {
-            "legislation": 2,
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-18T17:02:47+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "5125dec0ae4b4b117b8efd843b6cbe745ecf2fa58c86609990338a45639dd131"
+        },
+        {
+          "title": "\"실패는 또 다른 출발점\"…중기부, 재창업 성공 공유·투자 지원",
+          "url": "https://www.yna.co.kr/view/AKR20261118162200030",
+          "press": "연합뉴스",
+          "published_at": "2026-11-19T06:00:07+09:00",
+          "summary": "중기부, 재창업 성공사례 공유·투자유치 지원 위한 재도전의 날 행사 개최 예정",
+          "event_id": "1119m-583fc92e4d68",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "중기부 재창업 지원정책·사업화 융자 예산과 제도 개선 맥락으로 산중위 배정. 19일 행사 예정과 완료 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
             "impact": 2,
             "speaker": 2
           },
-          "title": "발전5사 통합, ‘지배구조·재산권’ 최대 쟁점 부상",
-          "url": "https://www.electimes.com/news/articleView.html?idxno=374943",
-          "press": "전기신문",
-          "published_at": "2026-11-18T17:00:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026.11.18 17:00",
-          "source_body_sha256": "fe8fb9d9978bc2a21edce7a1f861f9daf30d4e338206478194a5b6a277bca245",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T06:00:07+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "13f77815759e2ca3a3acbd38168c98639f9db23715a7f12ecd21c372d8ffc588"
         },
         {
-          "summary": "발전5사 노조, 통합 발전공기업 투자재원 확보 방안 촉구",
-          "event_id": "8b189287b4f87a795e26",
+          "title": "중기부, 중소기업 R&D 우수기업 50개사 선정·포상",
+          "url": "https://www.yna.co.kr/view/AKR20261118167700030",
+          "press": "연합뉴스",
+          "published_at": "2026-11-19T06:00:04+09:00",
+          "summary": "중기부, 중소기업 R&D 우수기업 50개사 선정·포상 및 기술사업화 후속 지원 강조",
+          "event_id": "1119m-a4d7e2efe694",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "중기부 국가 중소기업 R&D 성과·기술사업화 지원정책으로 산중위 배정. 특정 기업 단순 홍보와 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T06:00:04+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "405b484e2803a198ccbd4a7fc3c28e9de04e3c4b0a88237591645455c60fe5d7"
+        }
+      ]
+    },
+    {
+      "id": "climate_labor",
+      "priority": [
+        {
+          "title": "내년부터 원전 전력가격 미리 정한다…'차액계약' 도입",
+          "url": "https://www.yna.co.kr/view/AKR20261118153900530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-19T06:00:06+09:00",
+          "summary": "기후부, 내년부터 5년간 원전 전력거래 정부승인차액계약 적용 추진",
+          "event_id": "1119m-35220dbe6ca6",
           "committees": [
             "climate_labor"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "committee_reason": "기후부·전기위원회 심의와 전력시장 제도 소관이 명시되어 기노위 배정. 일반 원전 산업정책과 구분. 인가를 거친 내년 시행 예정.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "본문의 LNG·전력 관련 정책·제도와 직접 연관",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T06:00:06+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "54eae507bbee09fb21d2a374f1969fb31532d52191175486ed635e10a0d95f58"
+        },
+        {
+          "title": "발전5사 통합, ‘지배구조·재산권’ 최대 쟁점 부상",
+          "url": "https://www.electimes.com/news/articleView.html?idxno=374943",
+          "press": "전기신문",
+          "published_at": "2026-11-18T17:00:00+09:00",
+          "summary": "기노위 발전공기업 통합 공청회에서 한전 지분·재산권·재정 부담과 투자역량 보완 쟁점 제기",
+          "event_id": "1119m-29e54c067639",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기노위 입법공청회 전문가·한전·노조 진술이 중심. 최기상은 법안 유형 설명으로만 등장하며 의원 직접 발언으로 전환하지 않음. 같은 공청회 노조 성명·매일노동뉴스 기사는 대표 1건으로 병합.",
+          "categories": [
+            "LNG·전력",
+            "재생에너지·수소"
+          ],
+          "category_reason": "본문의 LNG·전력, 재생에너지·수소 관련 정책·제도와 직접 연관",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026.11.18 17:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "fe8fb9d9978bc2a21edce7a1f861f9daf30d4e338206478194a5b6a277bca245"
+        },
+        {
+          "title": "기후총회 'AI 서약', 미국 빅테크 참여 못 끌어내",
+          "url": "https://www.yna.co.kr/view/AKR20261119002900099",
+          "press": "연합뉴스",
+          "published_at": "2026-11-19T02:13:10+09:00",
+          "summary": "COP31 AI 에너지·환경 서약에 한국 등 참여 및 미국 주요 빅테크 불참",
+          "event_id": "1119m-a235f483aa64",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후협약·데이터센터 전력소비와 탄소배출 관리 소관으로 기노위 배정. 자발적 서약이며 의무 규제 확정으로 표현하지 않음.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "본문의 LNG·전력 관련 정책·제도와 직접 연관",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T02:13:10+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "1e4f970177b1bfe40c9779911c51816e9f01893203de7b71e89f40f7aaae256c"
+        }
+      ],
+      "all": [
+        {
+          "title": "내년부터 원전 전력가격 미리 정한다…'차액계약' 도입",
+          "url": "https://www.yna.co.kr/view/AKR20261118153900530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-19T06:00:06+09:00",
+          "summary": "기후부, 내년부터 5년간 원전 전력거래 정부승인차액계약 적용 추진",
+          "event_id": "1119m-35220dbe6ca6",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부·전기위원회 심의와 전력시장 제도 소관이 명시되어 기노위 배정. 일반 원전 산업정책과 구분. 인가를 거친 내년 시행 예정.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "본문의 LNG·전력 관련 정책·제도와 직접 연관",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T06:00:06+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "54eae507bbee09fb21d2a374f1969fb31532d52191175486ed635e10a0d95f58"
+        },
+        {
+          "title": "\"초광역 재벌 특혜법\"…양대노총, 與 노동특례에 반발",
+          "url": "https://www.hankyung.com/article/2026111855811",
+          "press": "한국경제",
+          "published_at": "2026-11-18T18:15:00+09:00",
+          "summary": "초광역특구법 노동특례 토론회에서 양대노총·이용우 의원 반발 및 노사정 이견 표출",
+          "event_id": "1119m-2cd4ee5d1eb4",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "이용우"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "실제 노동특례 토론회 이용우 발언과 보완 roster 기노위 소속 대조. 정무위 박상혁 발의안 언급만으로 소속을 치환하지 않음. 같은 토론회 중앙일보·아주경제는 중복 제외.",
           "categories": [],
           "category_reason": "",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 1
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "발전5사 노조, 통합 발전공기업 투자재원 확보 방안 촉구",
-          "url": "https://www.todayenergy.kr/news/articleView.html?idxno=305748",
-          "press": "투데이에너지",
-          "published_at": "2026-11-18T17:01:11+09:00",
-          "time_evidence": "원문 published_time 2026-11-18T17:01:11+09:00",
-          "source_body_sha256": "b4a4ffb4e1acd0a2b08c07262a1350130bdb9e623d5af130984e2fa17ef82aef",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026.11.18 18:15; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "6468355439ff102c2a6926c192f531eff7708700e9d60c67e2790a64f25557eb"
+        },
+        {
+          "title": "발전5사 통합, ‘지배구조·재산권’ 최대 쟁점 부상",
+          "url": "https://www.electimes.com/news/articleView.html?idxno=374943",
+          "press": "전기신문",
+          "published_at": "2026-11-18T17:00:00+09:00",
+          "summary": "기노위 발전공기업 통합 공청회에서 한전 지분·재산권·재정 부담과 투자역량 보완 쟁점 제기",
+          "event_id": "1119m-29e54c067639",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기노위 입법공청회 전문가·한전·노조 진술이 중심. 최기상은 법안 유형 설명으로만 등장하며 의원 직접 발언으로 전환하지 않음. 같은 공청회 노조 성명·매일노동뉴스 기사는 대표 1건으로 병합.",
+          "categories": [
+            "LNG·전력",
+            "재생에너지·수소"
+          ],
+          "category_reason": "본문의 LNG·전력, 재생에너지·수소 관련 정책·제도와 직접 연관",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026.11.18 17:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "fe8fb9d9978bc2a21edce7a1f861f9daf30d4e338206478194a5b6a277bca245"
+        },
+        {
+          "title": "‘지역고용활성화법’ 기후노동위서 제정 시동",
+          "url": "https://www.labortoday.co.kr/news/articleView.html?idxno=237813",
+          "press": "매일노동뉴스",
+          "published_at": "2026-11-19T06:30:04+09:00",
+          "summary": "기노위, 지역고용활성화법 입법공청회 개최 및 지역 고용 거버넌스 제도화 검토",
+          "event_id": "1119m-567c5e94fb6d",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "안호영",
+            "김태선",
+            "이용우",
+            "김기현",
+            "김위상"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "기노위 실제 법안 공청회와 안호영·김태선·이용우·김기현·김위상 발의 맥락. 다섯 의원의 보완 roster 기노위 소속 대조. 법률 제정·본회의 통과가 아닌 심사 단계.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T06:30:04+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "13d069883079bdb8a68123dcdcc1cb0ad8072e1b8d060f5f2e185c0b08ecbc52"
+        },
+        {
+          "title": "기후총회 'AI 서약', 미국 빅테크 참여 못 끌어내",
+          "url": "https://www.yna.co.kr/view/AKR20261119002900099",
+          "press": "연합뉴스",
+          "published_at": "2026-11-19T02:13:10+09:00",
+          "summary": "COP31 AI 에너지·환경 서약에 한국 등 참여 및 미국 주요 빅테크 불참",
+          "event_id": "1119m-a235f483aa64",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후협약·데이터센터 전력소비와 탄소배출 관리 소관으로 기노위 배정. 자발적 서약이며 의무 규제 확정으로 표현하지 않음.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "본문의 LNG·전력 관련 정책·제도와 직접 연관",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T02:13:10+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "1e4f970177b1bfe40c9779911c51816e9f01893203de7b71e89f40f7aaae256c"
+        },
+        {
+          "title": "[단독]안경 벗고 반지 검사, 휴대폰 제출…수능 이어 국가자격시험 감독 강화",
+          "url": "https://www.news1.kr/economy/employment-labor/6358549",
+          "press": "뉴스1",
+          "published_at": "2026-11-19T05:50:00+09:00",
+          "summary": "산업인력공단, 경비지도사 시험부터 반지·안경 검사와 휴대폰 제출 등 AI 부정행위 감독 강화",
+          "event_id": "1119m-a97788a9f7aa",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "고용노동부 소관 국가자격시험 운영·감독 정책으로 기노위 배정. 21일 시험부터 적용 예정과 이미 시행 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T05:50:00+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용; 발행사 __NEXT_DATA__ 전체 본문·published_time 대조",
+          "source_body_sha256": "5b666c840af36629d53b88545f8988216887c6adad77ebd6a05ff731acd7cf15"
         }
       ]
     },
     {
       "id": "finance",
       "priority": [],
-      "all": []
+      "all": [
+        {
+          "title": "“세액공제, 재경위 테이블에 딱 올라와 있다”… 게임대상서 ‘겜심’ 잡기 나선 당·정",
+          "url": "https://www.kmib.co.kr/article/20261118502240",
+          "press": "국민일보",
+          "published_at": "2026-11-18T18:40:00+09:00",
+          "summary": "조승래 재경위원장, 게임 제작비 세액공제 법안 심사·지원 의지 표명",
+          "event_id": "1119m-f70e4f7298a3",
+          "committees": [
+            "finance"
+          ],
+          "members": [
+            "조승래"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "원문 조승래 재정경제기획위원장 직책과 Excel roster 재경위 위원장 소속 대조. 문체부 장관·문체위원장은 보조 참석자로서 인용 확대 없음. 세액공제 통과·확정 아님.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026-11-18 18:40; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "94bdf7e93854efbf19d0121bd79597d4d7d3431fc55ab70f63fbf04da713a8a5"
+        },
+        {
+          "title": "‘유아 영·수 학원비 세액공제 폐지’ 제동 건 국회",
+          "url": "https://www.sedaily.com/article/20116084?ref=naver",
+          "press": "서울경제",
+          "published_at": "2026-11-18T17:43:59+09:00",
+          "summary": "재경위, 유아 영어·수학 학원비 세액공제 제외·출산지원금 비과세 확대 정부안 재심사",
+          "event_id": "1119m-29a785fd7c52",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "원문에 재경위 소득세법 심사 보류가 명시. 익명 여야 의원의 실명·소속 추정 없이 법안 처리 사실만 요약. 익명 인용을 실명 의원 발언으로 분류하지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-18T17:43:59+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "74fe933c7ee6d8af7e67255debd6c0553bd3ce6e57abb547c39c710d9b519482"
+        },
+        {
+          "title": "청년 자립부터 노후 안전망까지…정부, 세대격차 완화 과제 논의",
+          "url": "https://www.yna.co.kr/view/AKR20261118153700002",
+          "press": "연합뉴스",
+          "published_at": "2026-11-18T17:00:00+09:00",
+          "summary": "재경부, 양극화 대응 TF 세대반 첫 회의 개최 및 내년 경제성장전략 반영 과제 발굴",
+          "event_id": "1119m-2f75dfee6516",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "주관 부처 재경부와 범정부 경제정책 조정 중심으로 재경위 배정. 청년·노동 언급만으로 기노위 중복 배정하지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-18T17:00:00+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "c3045c76e9536961130d0183c70065785a83900dadb30eef136f6df1ad38672e"
+        },
+        {
+          "title": "씨티, 내년 성장률 전망치 4.1%로 상향…\"반도체 호황 지속\"",
+          "url": "https://www.yna.co.kr/view/AKR20261118175200002",
+          "press": "연합뉴스",
+          "published_at": "2026-11-18T18:40:44+09:00",
+          "summary": "씨티, 내년 한국 성장률 전망 4.1%로 상향 및 민간소비 부진 전망",
+          "event_id": "1119m-c0bd575b1cfe",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "한국 성장률·소비·통화정책의 거시경제 분석으로 재경위 배정. 금융감독·개별 금융회사 상품뉴스와 구분하며 민간 전망을 정부 확정치로 표현하지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-18T18:40:44+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "024b68c27a62160e84b2aa30ef303442366638d5f3af5c0c030b5a3e616bbf28"
+        },
+        {
+          "title": "[게시판] 재정경제부 대외경제협력기금-시민사회 간담회",
+          "url": "https://www.yna.co.kr/view/AKR20261118135500002",
+          "press": "연합뉴스",
+          "published_at": "2026-11-18T17:00:00+09:00",
+          "summary": "재경부, EDCF 시민사회 간담회에서 중기 운용방향 공유 및 성과평가제도 개선 추진",
+          "event_id": "1119m-bf7e71b663eb",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "재경부 대외경제협력기금의 운용·성과평가 재정정책으로 재경위 배정. 18일 17:00 최초 송고는 포함 경계.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-18T17:00:00+09:00; 발행사 본문·최초 등록시각 대조, 수정·포털 시각 미사용",
+          "source_body_sha256": "a0e8e73802b33683fdd713874b78e36969ffe2d6812aae7d81b0d337b521076c"
+        }
+      ]
     }
   ],
-  "review_method": "deterministic-original-source-review",
+  "review_method": "original-source-manual-editorial-review",
   "limitations": [
-    "일부 검색원 오류; 주제별 검색 결과·오류 및 보완 검색 기록은 검토 파일 참조",
-    "발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음",
-    "선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요."
+    "공개검색 노출 한계·일부 원문 접근 제한. 목표 건수 충족을 위해 중복·시간대 밖·무관 기사를 추가하지 않음."
   ]
 }

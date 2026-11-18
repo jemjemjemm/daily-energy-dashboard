@@ -22,19 +22,19 @@
     "공정위 유가 담합",
     "공정거래위원회 정유사 담합"
   ],
-  "total_raw_count": 19,
-  "total_enriched_input_count": 1,
-  "total_in_period_unique_count": 0,
-  "total_unknown_time_count": 0,
-  "total_outside_period_count": 1,
-  "total_deduped_count": 0,
-  "total_ok_count": 0,
-  "total_review_count": 0,
-  "total_excluded_count": 0,
+  "total_raw_count": 73,
+  "total_enriched_input_count": 175,
+  "total_in_period_unique_count": 57,
+  "total_unknown_time_count": 68,
+  "total_outside_period_count": 50,
+  "total_deduped_count": 10,
+  "total_ok_count": 6,
+  "total_review_count": 4,
+  "total_excluded_count": 165,
   "grade_counts": {
-    "A": 0,
-    "B": 0,
-    "C": 0
+    "A": 3,
+    "B": 3,
+    "C": 4
   },
   "portal_counts": {
     "naver": 0,
@@ -217,184 +217,296 @@
       "verification_reason": "원문 본문 또는 최초시각 미확인"
     }
   ],
-  "articles": [],
-  "summary": "수집 기사 0건, 발행사 본문·최초시각 확인 0건, 미확인 0건 구분",
-  "editorial_audit": {
-    "method": "automated-source-audit",
-    "raw_result_count": 19,
-    "exclusions": [
-      {
-        "url": "https://cp.news.search.daum.net/p/184490678",
-        "title": "≪시사우리신문≫ HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
-        "reason": "outside_period"
-      }
-    ],
-    "collection_warnings": [
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "전체 검색",
-        "message": "public search coverage limit",
-        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
-        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-        "created_at": "2026-11-19T08:18:43.137821+09:00"
+  "articles": [
+    {
+      "title": "[일일 국내 유가동향 : 2026년 11월 19일]",
+      "source": "에너지플랫폼뉴스",
+      "url": "http://www.e-platform.net/news/articleView.html?idxno=107117",
+      "published_at": "2026-11-19T07:52:33+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T07:52:33+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "[일일 국내 유가동향 : 2026년 11월 19일]",
+      "source_body_sha256": "f9a3b039bac39117b1e9dea8611aecd64865c337314ca0e619902f505d104b49",
+      "published_at_basis": "original_article",
+      "id": "4f06e010e1b885ef",
+      "canonical_url": "http://www.e-platform.net/news/articleView.html?idxno=107117",
+      "source_normalized": "에너지플랫폼뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "독도사랑주유소연합회, 충남도와 에너지 복지·석유 유통혁신 추진",
+      "source": "한국시민기자협회",
+      "url": "http://www.civilreporter.co.kr/news/articleView.html?idxno=547868",
+      "published_at": "2026-11-19T07:33:38+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T07:33:38+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "독도사랑주유소연합회, 충남도와 에너지 복지·석유 유통혁신 추진",
+      "source_body_sha256": "83c5a0a32577436707ceb4a1f2f700a05d98f1ca87a9c6a9466c5f144bb532cb",
+      "published_at_basis": "original_article",
+      "id": "f6b65fc8aaa40ec4",
+      "canonical_url": "http://www.civilreporter.co.kr/news/articleView.html?idxno=547868",
+      "source_normalized": "한국시민기자협회",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "미중러 회담 앞두고 중동 긴장 고조...이란, 쿠웨이트 공습 재개",
+      "press": "YTN",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261119072822746",
+      "published_date": "2026-11-19",
+      "published_at_kst": "",
+      "snippet": "YTN 45분 전 다음뉴스 동영상 미중러 회담 앞두고 중동 긴장 고조...이란, 쿠웨이트 공습 재개 외신들은 전했습니다. 이란은 최근 미군이 이란 남부 게슘 섬 일대를 폭격한 것에 대한 보복 차원이라고 주장했습니다. 호르무즈 해협을 둘러싼 미국과 이란의 충돌이 중동 내 주변국으로 다시 확산하는 모양새입니다. [아미르 하타미 / 이란군 총사령관 : 적과 지지...",
+      "score": 6,
+      "score_breakdown": {
+        "keyword": 4,
+        "title_importance": 0,
+        "press": 2,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "유가담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '유가담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:18:44.132847+09:00"
+      "industry_relevance": 1,
+      "source_query": "호르무즈",
+      "collector": "daum_news_search",
+      "source": "YTN",
+      "published_at": "2026-11-19T07:28:22+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "미중러 회담 앞두고 중동 긴장 고조...이란, 쿠웨이트 공습 재개",
+      "id": "21714ae4eea5ca92",
+      "canonical_url": "https://v.daum.net/v/20261119072822746",
+      "source_normalized": "YTN",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "[뉴욕 유가 ] 美 원유 재고 예상 상회에 WTI 3.2% 급락…3개월來 최저",
+      "press": "연합인포맥스",
+      "press_grade": "C",
+      "url": "https://v.daum.net/v/20261119072302663",
+      "published_date": "2026-11-19",
+      "published_at_kst": "",
+      "snippet": "연합인포맥스 51분 전 다음뉴스 [뉴욕 유가 ] 美 원유 재고 예상 상회에 WTI 3.2% 급락…3개월來 최저 미국 텍사스주(州) 미들랜드 소재 석유 시추펌프연합뉴스 자료사진 (서울=연합인포맥스) 김성진 기자 = 뉴욕 유가 는 미국의 원유 및 정유 제품 재고가 일제히 예상을 웃돌았다는 소식에 하락했다. 최근 부상한 공급 과잉 전망에 더 힘이 실렸다. 18일(미국 동부시간...",
+      "score": 12,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 1,
+        "originality": 2,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "유가 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:18:46.750781+09:00"
+      "industry_relevance": 5,
+      "source_query": "유가 정유",
+      "collector": "daum_news_search",
+      "source": "연합인포맥스",
+      "published_at": "2026-11-19T07:23:02+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "[뉴욕 유가 ] 美 원유 재고 예상 상회에 WTI 3.2% 급락…3개월來 최저",
+      "id": "3f546a3ef4ab9860",
+      "canonical_url": "https://v.daum.net/v/20261119072302663",
+      "source_normalized": "연합인포맥스",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "첫 손실보전 앞둔 정유사, 운임·보험료 인정 범위 촉각",
+      "source": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202611181536573434",
+      "published_at": "2026-11-19T06:59:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T06:59:00+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "첫 손실보전 앞둔 정유사, 운임·보험료 인정 범위 촉각",
+      "source_body_sha256": "9438e623076c2e2ae4dbec6b0b60ae7a62f25c1bab7184d943d7bc404e91c45e",
+      "published_at_basis": "original_article",
+      "id": "0570458070f2b71d",
+      "canonical_url": "https://www.fnnews.com/news/202611181536573434",
+      "source_normalized": "파이낸셜뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "국제유가, 글로벌 원유 공급과잉 우려 등 영향 하락반전WTI 3%대 내려 배럴당 81달러대⋯국제금값, 달러강세 등에 3%대 하락",
+      "source": "이코노뉴스",
+      "url": "http://www.econonews.co.kr/news/articleView.html?idxno=447383",
+      "published_at": "2026-11-19T06:54:45+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T06:54:45+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "국제유가, 글로벌 원유 공급과잉 우려 등 영향 하락반전WTI 3%대 내려 배럴당 81달러대⋯국제금값, 달러강세 등에 3%대 하락",
+      "source_body_sha256": "7aa0e38819c476bcc1b2f3e1eaf2e0fbed8142db4740089fae884768cdbe0720",
+      "published_at_basis": "original_article",
+      "id": "557fc724bd531913",
+      "canonical_url": "http://www.econonews.co.kr/news/articleView.html?idxno=447383",
+      "source_normalized": "이코노뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "사라지는 농촌 주유소 , 생활 거점으로…유류 공동구매·배달 모델 추진",
+      "press": "이데일리",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261119060431357",
+      "published_date": "2026-11-19",
+      "published_at_kst": "",
+      "snippet": "이데일리 2시간 전 다음뉴스 1 사라지는 농촌 주유소 , 생활 거점으로…유류 공동구매·배달 모델 추진 [경북=이데일리 홍석천 기자] 휴·폐업 위기에 놓인 농촌 주유소 를 연료 공급과 주민 교류를 함께 담당하는 생활 거점으로 활용하자는 제안이 나왔다. 독도사랑 주유소 연합회는 18일 충남도에 지역 에너지 공급망 개선과 석유 유통구조 혁신을 위한 협력 의향을 전달...",
+      "score": 8,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 3,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "정유사 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:18:49.053199+09:00"
+      "industry_relevance": 4,
+      "source_query": "주유소",
+      "collector": "daum_news_search",
+      "source": "이데일리",
+      "published_at": "2026-11-19T06:04:31+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "사라지는 농촌 주유소 , 생활 거점으로…유류 공동구매·배달 모델 추진",
+      "id": "5c0ff4c04f361fe2",
+      "canonical_url": "https://v.daum.net/v/20261119060431357",
+      "source_normalized": "이데일리",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "[기획] 반도체는 역대급 호황인데… 석유 화학 적자·철강 저수익, 제조업 양극화의 실체",
+      "press": "경인방송",
+      "press_grade": "C",
+      "url": "https://v.daum.net/v/20261119060005990",
+      "published_date": "2026-11-19",
+      "published_at_kst": "",
+      "snippet": "경인방송 2시간 전 다음뉴스 2 [기획] 반도체는 역대급 호황인데… 석유 화학 적자·철강 저수익, 제조업 양극화의 실체 국제유가 상승 등의 영향으로 수출 단가가 높아지면서 금액 기준 실적은 개선됐지만, 판매 물량은 감소한 것이다. 실제로 석유 화학 제품의 평균 수출 단가는 지난해 같은 달보다 36.9% 상승했다. 수출액 증가만으로 업황이 회복됐다고 판단하기 어려운 이유다. 기업...",
+      "score": 7,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 1,
+        "press": 1,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "기름값 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '기름값 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B8%B0%EB%A6%84%EA%B0%92+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:18:53.237297+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "석유 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '석유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:18:55.651532+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "휘발유 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '휘발유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%9C%98%EB%B0%9C%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:18:59.269980+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "경유 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '경유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B2%BD%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:19:02.926060+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "주유소 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '주유소 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A3%BC%EC%9C%A0%EC%86%8C+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:19:06.486334+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "정유업계 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '정유업계 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%97%85%EA%B3%84+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:19:08.948960+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "석유제품 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '석유제품 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0%EC%A0%9C%ED%92%88+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:19:11.437796+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "유류가격 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '유류가격 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EB%A5%98%EA%B0%80%EA%B2%A9+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:19:15.246749+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "공정위 유가 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '공정위 유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EC%9C%84+%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:19:17.571600+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "공정거래위원회 정유사 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '공정거래위원회 정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EA%B1%B0%EB%9E%98%EC%9C%84%EC%9B%90%ED%9A%8C+%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:19:19.919548+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "SK에너지 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 'SK에너지 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=SK%EC%97%90%EB%84%88%EC%A7%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:19:23.722285+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "현대오일뱅크 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:19:26.920212+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "정유 44조",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '정유 44조' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0+44%EC%A1%B0&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:19:30.281988+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "유가 짬짜미",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '유가 짬짜미' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EC%A7%AC%EC%A7%9C%EB%AF%B8&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
-        "created_at": "2026-11-19T08:19:34.481080+09:00"
-      }
-    ],
-    "limitations": [
-      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
-    ]
-  }
+      "industry_relevance": 1,
+      "source_query": "석유 수출",
+      "collector": "daum_news_search",
+      "source": "경인방송",
+      "published_at": "2026-11-19T06:00:05+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "[기획] 반도체는 역대급 호황인데… 석유 화학 적자·철강 저수익, 제조업 양극화의 실체",
+      "id": "16fec06a0edd6e3a",
+      "canonical_url": "https://v.daum.net/v/20261119060005990",
+      "source_normalized": "경인방송",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "국제유가 3%대 급락…美 원유·휘발유 재고 급증에 공급과잉 우려",
+      "source": "뉴스1",
+      "url": "https://www.news1.kr/world/international-economy/6358801",
+      "published_at": "2026-11-19T05:15:40+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T05:15:40+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "국제유가 3%대 급락…美 원유·휘발유 재고 급증에 공급과잉 우려",
+      "source_body_sha256": "d2f67f820db95a1a70b0e8cca89c3897da1d97d7fdd7841ff2547404fd1dfad0",
+      "published_at_basis": "original_article",
+      "id": "bb38e970d026a1a0",
+      "canonical_url": "https://www.news1.kr/world/international-economy/6358801",
+      "source_normalized": "뉴스1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "\"러, 지난달 휘발유 해상 수입 사상 최대… 우크라 공습에 정유시설 심각한 타격\"",
+      "source": "뉴스핌",
+      "url": "https://www.newspim.com/news/view/20261119000011",
+      "published_at": "2026-11-19T01:12:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T01:12:00+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "\"러, 지난달 휘발유 해상 수입 사상 최대… 우크라 공습에 정유시설 심각한 타격\"",
+      "source_body_sha256": "8a32af7d9ba31c2cd1a927a624945559d81e404580d2db9e6278b9a2a0f9c9eb",
+      "published_at_basis": "original_article",
+      "id": "6479bf10c9a17b2b",
+      "canonical_url": "https://www.newspim.com/news/view/20261119000011",
+      "source_normalized": "뉴스핌",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    }
+  ],
+  "summary": "미국 재고 증가에 국제유가 하락 및 최고가격제 첫 손실보전 비용 인정 쟁점 점검",
+  "editorial_audit": "data/reviews/2026-11-19-morning.audit.json",
+  "supplemental_raw_search_result_count": 250,
+  "coverage_note": "자동 원수집 73건과 보완검색 전체 별도 보존. 원문 확인 6건·미확인 4건 구분. 최초 원문이 시간대 밖인 재게시 제외. 공개검색 노출·일부 발행사 접속 제한.",
+  "editorial_decisions": [
+    "동일 매체·정규화 제목만 병합; 다른 매체 동일 사건 보도 보존",
+    "추정 손실과 인정 보전액, 제도 연장 계획과 확정 구분",
+    "포털 표기시각을 발행사 최초 보도시각으로 인증하지 않음",
+    "경향신문 동일 본문 11:39 원문·20:33 재게시 대조 후 시간대 밖 제외. 다른 매체 동일 사건 보도는 보존"
+  ]
 }
