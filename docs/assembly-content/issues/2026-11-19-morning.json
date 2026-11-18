@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-19",
+  "slot": "morning",
+  "status": "published",
+  "period": "수집 기간: 2026-11-18 17:00 ~ 2026-11-19 08:00 (KST)",
+  "published_at": "2026-11-19T08:18:42+09:00",
+  "committees": [
+    {
+      "id": "industry",
+      "priority": [],
+      "all": []
+    },
+    {
+      "id": "climate_labor",
+      "priority": [],
+      "all": [
+        {
+          "summary": "발전5사 통합, ‘지배구조·재산권’ 최대 쟁점 부상",
+          "event_id": "7e3011488517c080076e",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "최기상"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 최기상",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 2,
+            "speaker": 2
+          },
+          "title": "발전5사 통합, ‘지배구조·재산권’ 최대 쟁점 부상",
+          "url": "https://www.electimes.com/news/articleView.html?idxno=374943",
+          "press": "전기신문",
+          "published_at": "2026-11-18T17:00:00+09:00",
+          "time_evidence": "원문 최초 등록·입력 2026.11.18 17:00",
+          "source_body_sha256": "fe8fb9d9978bc2a21edce7a1f861f9daf30d4e338206478194a5b6a277bca245",
+          "verified": true
+        },
+        {
+          "summary": "발전5사 노조, 통합 발전공기업 투자재원 확보 방안 촉구",
+          "event_id": "8b189287b4f87a795e26",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 0,
+            "impact": 2,
+            "speaker": 1
+          },
+          "title": "발전5사 노조, 통합 발전공기업 투자재원 확보 방안 촉구",
+          "url": "https://www.todayenergy.kr/news/articleView.html?idxno=305748",
+          "press": "투데이에너지",
+          "published_at": "2026-11-18T17:01:11+09:00",
+          "time_evidence": "원문 published_time 2026-11-18T17:01:11+09:00",
+          "source_body_sha256": "b4a4ffb4e1acd0a2b08c07262a1350130bdb9e623d5af130984e2fa17ef82aef",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "priority": [],
+      "all": []
+    }
+  ],
+  "review_method": "deterministic-original-source-review",
+  "limitations": [
+    "일부 검색원 오류; 주제별 검색 결과·오류 및 보완 검색 기록은 검토 파일 참조",
+    "발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음",
+    "선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요."
+  ]
+}

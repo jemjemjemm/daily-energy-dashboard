@@ -1,0 +1,812 @@
+{
+  "base_date": "2026-11-19",
+  "slot": "morning",
+  "period_start": "2026-11-19T00:00:00+09:00",
+  "period_end": "2026-11-19T08:00:00+09:00",
+  "collected_at": "2026-11-19T08:19:36.244663+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "portal_counts": {
+    "naver": 0,
+    "daum": 9,
+    "google": 10
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-19T08:18:43.137821+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유가담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유가담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:18:44.132847+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유가 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:18:46.750781+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "정유사 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:18:49.053199+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "기름값 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '기름값 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B8%B0%EB%A6%84%EA%B0%92+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:18:53.237297+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "석유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '석유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:18:55.651532+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "휘발유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '휘발유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%9C%98%EB%B0%9C%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:18:59.269980+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "경유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '경유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B2%BD%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:19:02.926060+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "주유소 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '주유소 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A3%BC%EC%9C%A0%EC%86%8C+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:19:06.486334+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "정유업계 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '정유업계 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%97%85%EA%B3%84+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:19:08.948960+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "석유제품 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '석유제품 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0%EC%A0%9C%ED%92%88+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:19:11.437796+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유류가격 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유류가격 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EB%A5%98%EA%B0%80%EA%B2%A9+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:19:15.246749+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "공정위 유가 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '공정위 유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EC%9C%84+%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:19:17.571600+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "공정거래위원회 정유사 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '공정거래위원회 정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EA%B1%B0%EB%9E%98%EC%9C%84%EC%9B%90%ED%9A%8C+%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:19:19.919548+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "SK에너지 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 'SK에너지 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=SK%EC%97%90%EB%84%88%EC%A7%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:19:23.722285+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "현대오일뱅크 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:19:26.920212+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "정유 44조",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '정유 44조' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0+44%EC%A1%B0&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:19:30.281988+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유가 짬짜미",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유가 짬짜미' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EC%A7%AC%EC%A7%9C%EB%AF%B8&sort=1&pd=3&ds=2026.11.18&de=2026.11.19",
+      "created_at": "2026-11-19T08:19:34.481080+09:00"
+    }
+  ],
+  "items": [
+    {
+      "portal": "daum",
+      "query": "정유사 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://cp.news.search.daum.net/p/184490678",
+      "source": "시사우리신문",
+      "published_at": "",
+      "snippet": "공정위가 산정한 관련 매출액은 44조1000억원이다. 이는 담합 혐의와 관련된 거래 규모로, 실제 부당이득이나 소비자 피해액과는 구분...파악한 직접 담합 관련 거래 규모는 14조2000억원이며, 다른 정유사의 가격 추종 효과까지 포함하면 약 26조원에 이르는 것으로...",
+      "collected_at": "2026-11-19T08:18:51.790342+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "정유사 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+      "source": "시사우리신문",
+      "published_at": "2026-11-18T18:21:00+09:00",
+      "snippet": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 시사우리신문",
+      "collected_at": "2026-11-19T08:18:52.415621+09:00",
+      "raw": {
+        "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+        "id": "CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK",
+        "guidislink": false,
+        "published": "Wed, 18 Nov 2026 09:21:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          18,
+          9,
+          21,
+          0,
+          2,
+          322,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>"
+        },
+        "source": {
+          "href": "http://www.urinews.co.kr",
+          "title": "시사우리신문"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "석유 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://cp.news.search.daum.net/p/184490678",
+      "source": "시사우리신문",
+      "published_at": "",
+      "snippet": "4년간 가격정보 교환 혐의…관련 매출 44조원 공정위가 조사한 담합 혐의 기간은 2022년 2월부터 올해 3월까지 약 4년이다. 공정위...것으로 판단했다. 올해 3월에는 두 회사가 두 차례에 걸쳐 석유제품 입금가를 합의했다는 혐의도 제기됐다. 공정위가 산정한 관련...",
+      "collected_at": "2026-11-19T08:18:58.046796+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "석유 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+      "source": "시사우리신문",
+      "published_at": "2026-11-18T18:21:00+09:00",
+      "snippet": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 시사우리신문",
+      "collected_at": "2026-11-19T08:18:58.447030+09:00",
+      "raw": {
+        "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+        "id": "CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK",
+        "guidislink": false,
+        "published": "Wed, 18 Nov 2026 09:21:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          18,
+          9,
+          21,
+          0,
+          2,
+          322,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>"
+        },
+        "source": {
+          "href": "http://www.urinews.co.kr",
+          "title": "시사우리신문"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "휘발유 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://cp.news.search.daum.net/p/184490678",
+      "source": "시사우리신문",
+      "published_at": "",
+      "snippet": "2022년 3월부터 HD현대 대표이사로 그룹 경영에 참여해 왔다. 4년간 가격정보 교환 혐의…관련 매출 44조원 공정위가 조사한 담합 혐의 기간은 2022년 2월부터 올해 3월까지 약 4년이다. 공정위 심사관은 HD현대오일뱅크와 SK에너지가 이 기간 휘발유·경유·등유의...",
+      "collected_at": "2026-11-19T08:19:01.677249+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "휘발유 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+      "source": "시사우리신문",
+      "published_at": "2026-11-18T18:21:00+09:00",
+      "snippet": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 시사우리신문",
+      "collected_at": "2026-11-19T08:19:02.100717+09:00",
+      "raw": {
+        "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+        "id": "CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK",
+        "guidislink": false,
+        "published": "Wed, 18 Nov 2026 09:21:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          18,
+          9,
+          21,
+          0,
+          2,
+          322,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>"
+        },
+        "source": {
+          "href": "http://www.urinews.co.kr",
+          "title": "시사우리신문"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "경유 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://cp.news.search.daum.net/p/184490678",
+      "source": "시사우리신문",
+      "published_at": "",
+      "snippet": "2022년 3월부터 HD현대 대표이사로 그룹 경영에 참여해 왔다. 4년간 가격정보 교환 혐의…관련 매출 44조원 공정위가 조사한 담합 혐의 기간은 2022년 2월부터 올해 3월까지 약 4년이다. 공정위 심사관은 HD현대오일뱅크와 SK에너지가 이 기간 휘발유·경유·등유의...",
+      "collected_at": "2026-11-19T08:19:05.049245+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "경유 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+      "source": "시사우리신문",
+      "published_at": "2026-11-18T18:21:00+09:00",
+      "snippet": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 시사우리신문",
+      "collected_at": "2026-11-19T08:19:05.664614+09:00",
+      "raw": {
+        "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+        "id": "CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK",
+        "guidislink": false,
+        "published": "Wed, 18 Nov 2026 09:21:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          18,
+          9,
+          21,
+          0,
+          2,
+          322,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>"
+        },
+        "source": {
+          "href": "http://www.urinews.co.kr",
+          "title": "시사우리신문"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "정유업계 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+      "source": "시사우리신문",
+      "published_at": "2026-11-18T18:21:00+09:00",
+      "snippet": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 시사우리신문",
+      "collected_at": "2026-11-19T08:19:10.603649+09:00",
+      "raw": {
+        "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+        "id": "CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK",
+        "guidislink": false,
+        "published": "Wed, 18 Nov 2026 09:21:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          18,
+          9,
+          21,
+          0,
+          2,
+          322,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>"
+        },
+        "source": {
+          "href": "http://www.urinews.co.kr",
+          "title": "시사우리신문"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "석유제품 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://cp.news.search.daum.net/p/184490678",
+      "source": "시사우리신문",
+      "published_at": "",
+      "snippet": "경유·등유의 입금가와 확정가, 판매정책 등에 관한 정보를 교환한 것으로 판단했다. 올해 3월에는 두 회사가 두 차례에 걸쳐 석유제품 입금가를 합의했다는 혐의도 제기됐다. 공정위가 산정한 관련 매출액은 44조1000억원이다. 이는 담합 혐의와 관련된 거래 규모로...",
+      "collected_at": "2026-11-19T08:19:13.997787+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "석유제품 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+      "source": "시사우리신문",
+      "published_at": "2026-11-18T18:21:00+09:00",
+      "snippet": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 시사우리신문",
+      "collected_at": "2026-11-19T08:19:14.577744+09:00",
+      "raw": {
+        "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+        "id": "CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK",
+        "guidislink": false,
+        "published": "Wed, 18 Nov 2026 09:21:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          18,
+          9,
+          21,
+          0,
+          2,
+          322,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>"
+        },
+        "source": {
+          "href": "http://www.urinews.co.kr",
+          "title": "시사우리신문"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "공정거래위원회 정유사 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://cp.news.search.daum.net/p/184490678",
+      "source": "시사우리신문",
+      "published_at": "",
+      "snippet": "기소했다. 검찰이 파악한 직접 담합 관련 거래 규모는 14조2000억원이며, 다른 정유사의 가격 추종 효과까지 포함하면 약 26조원에...추궁 경영진의 보고·감독 책임은 지난달 12일 국회 정무위원회 국정감사에서도 쟁점으로 떠올랐다. 박준태 국민의힘 의원은...",
+      "collected_at": "2026-11-19T08:19:22.474364+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "공정거래위원회 정유사 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+      "source": "시사우리신문",
+      "published_at": "2026-11-18T18:21:00+09:00",
+      "snippet": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 시사우리신문",
+      "collected_at": "2026-11-19T08:19:22.894973+09:00",
+      "raw": {
+        "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+        "id": "CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK",
+        "guidislink": false,
+        "published": "Wed, 18 Nov 2026 09:21:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          18,
+          9,
+          21,
+          0,
+          2,
+          322,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>"
+        },
+        "source": {
+          "href": "http://www.urinews.co.kr",
+          "title": "시사우리신문"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "SK에너지 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://cp.news.search.daum.net/p/184490678",
+      "source": "시사우리신문",
+      "published_at": "",
+      "snippet": "입장이다. 올해 3월 제기된 입금가 합의 혐의에 대해서도 경쟁사 관계자의 일방적인 진술에 근거한 것으로 실제 담합은 없었다고 반박했다. SK에너지는 지난달 공정위 심사보고서 송부 이후 김종화 사장 명의로 사과하고 사후정산제 폐지와 경쟁사 접촉 사전승인제...",
+      "collected_at": "2026-11-19T08:19:25.779040+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "SK에너지 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+      "source": "시사우리신문",
+      "published_at": "2026-11-18T18:21:00+09:00",
+      "snippet": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 시사우리신문",
+      "collected_at": "2026-11-19T08:19:26.255817+09:00",
+      "raw": {
+        "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+        "id": "CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK",
+        "guidislink": false,
+        "published": "Wed, 18 Nov 2026 09:21:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          18,
+          9,
+          21,
+          0,
+          2,
+          322,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>"
+        },
+        "source": {
+          "href": "http://www.urinews.co.kr",
+          "title": "시사우리신문"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "현대오일뱅크 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://cp.news.search.daum.net/p/184490678",
+      "source": "시사우리신문",
+      "published_at": "",
+      "snippet": "실적 증가가 담합 혐의와 직접 관련됐다는 사실은 확인되지 않았다. HD현대오일뱅크 혐의 부인…공정위 판단 주목 HD현대오일뱅크는 가격담합 혐의를 부인하고 있다. 회사 측은 경쟁사와 교환한 정보가 이미 시장에 공개됐거나 다양한 경로로 확인할 수 있는 과거...",
+      "collected_at": "2026-11-19T08:19:29.015267+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "현대오일뱅크 담합",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+      "source": "시사우리신문",
+      "published_at": "2026-11-18T18:21:00+09:00",
+      "snippet": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 시사우리신문",
+      "collected_at": "2026-11-19T08:19:29.449761+09:00",
+      "raw": {
+        "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+        "id": "CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK",
+        "guidislink": false,
+        "published": "Wed, 18 Nov 2026 09:21:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          18,
+          9,
+          21,
+          0,
+          2,
+          322,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>"
+        },
+        "source": {
+          "href": "http://www.urinews.co.kr",
+          "title": "시사우리신문"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "정유 44조",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://cp.news.search.daum.net/p/184490678",
+      "source": "시사우리신문",
+      "published_at": "",
+      "snippet": "매출액은 44조1000억원이다. 이는 담합 혐의와 관련된 거래 규모로, 실제 부당이득이나 소비자 피해액과는 구분된다. 검찰도 가격담합 의혹을 수사해 지난 7월 관련 법인과 임직원들을 기소했다. 검찰이 파악한 직접 담합 관련 거래 규모는 14조2000억원이며, 다른...",
+      "collected_at": "2026-11-19T08:19:32.993216+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "정유 44조",
+      "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+      "source": "시사우리신문",
+      "published_at": "2026-11-18T18:21:00+09:00",
+      "snippet": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 시사우리신문",
+      "collected_at": "2026-11-19T08:19:33.638143+09:00",
+      "raw": {
+        "title": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나 - 시사우리신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5",
+        "id": "CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK",
+        "guidislink": false,
+        "published": "Wed, 18 Nov 2026 09:21:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          18,
+          9,
+          21,
+          0,
+          2,
+          322,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE55V3RVU21FOFp2QW5SQzRjVE9PX3oyYnk4TTNTQjVpTVhHcFBtSG15YzdSUDBKT3pkQWg5dU9pMDRMNlpK?oc=5\" target=\"_blank\">HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">시사우리신문</font>"
+        },
+        "source": {
+          "href": "http://www.urinews.co.kr",
+          "title": "시사우리신문"
+        }
+      }
+    }
+  ]
+}
