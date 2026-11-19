@@ -23,18 +23,18 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 29,
-  "total_enriched_input_count": 6,
-  "total_in_period_unique_count": 3,
-  "total_unknown_time_count": 0,
-  "total_outside_period_count": 3,
-  "total_deduped_count": 1,
-  "total_ok_count": 0,
-  "total_review_count": 1,
-  "total_excluded_count": 2,
+  "total_enriched_input_count": 221,
+  "total_in_period_unique_count": 46,
+  "total_unknown_time_count": 111,
+  "total_outside_period_count": 64,
+  "total_deduped_count": 18,
+  "total_ok_count": 15,
+  "total_review_count": 3,
+  "total_excluded_count": 203,
   "grade_counts": {
-    "A": 0,
-    "B": 0,
-    "C": 1
+    "A": 6,
+    "B": 1,
+    "C": 11
   },
   "portal_counts": {
     "naver": 0,
@@ -269,246 +269,454 @@
   ],
   "articles": [
     {
-      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
-      "url": "http://v.daum.net/v/20261119174505820",
-      "source": "브릿지경제",
-      "published_at": "2026-11-19T17:45:00+09:00",
-      "snippet": "열린 공판에서 검찰과 HD현대오일뱅크 측 변호인단은 각각 약 1시간 동안 프레젠테이션(PT)을 진행하며 담합 혐의를 놓고 맞섰다. 변호인단은 정유업계의 거래 구조와 가격 결정 방식, 입금가의 성격을 설명하고 담합 성립 요건과 관련 법리를 중심으로 검찰 주장에...",
-      "collected_at": "2026-11-20T08:19:20.479750+09:00",
-      "normalized_title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
-      "source_normalized": "브릿지경제",
-      "duplicate_key": "브릿지경제::26조 유가담합 공방⋯ hd현대오일뱅크, 가격 결정 구조로 혐의 반박",
-      "portals": [
-        "daum",
-        "google"
+      "title": "트럼프·시진핑·푸틴, 첫 3자 정상회담…핵위험 감소·정제유 공급 확대 선언",
+      "source": "아시아투데이",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261119010007846",
+      "published_at": "2026-11-19T23:04:55+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T23:04:55+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "트럼프·시진핑·푸틴, 첫 3자 정상회담…핵위험 감소·정제유 공급 확대 선언",
+      "source_body_sha256": "e61f499c995bdf460e3961d014aea3f276572981c856320cb1e268a98d4dbc05",
+      "published_at_basis": "original_article",
+      "id": "b5a0ec8564de8708",
+      "canonical_url": "https://www.asiatoday.co.kr/kn/view.php?key=20261119010007846",
+      "source_normalized": "아시아투데이",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
       ],
-      "queries": [
-        "SK에너지 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "유가 담합",
-        "유가담합",
-        "정유사 담합",
-        "정유업계 담합",
-        "주유소 담합",
-        "현대오일뱅크 담합"
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "미중러 첫 정상회담, '정제유 증산' 합의…우크라·이란 전쟁은 빠졌다",
+      "source": "이데일리",
+      "url": "https://m.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04756006645647360",
+      "published_at": "2026-11-19T23:04:05+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T23:04:05+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "미중러 첫 정상회담, '정제유 증산' 합의…우크라·이란 전쟁은 빠졌다",
+      "source_body_sha256": "4065be521fbf3740ac14c29f9db7e02f800e4f59f68d6c18f96930d199e90fbf",
+      "published_at_basis": "original_article",
+      "id": "a4727ace0c3acc71",
+      "canonical_url": "https://m.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04756006645647360",
+      "source_normalized": "이데일리",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
       ],
-      "duplicate_count": 0,
-      "canonical_url": "http://v.daum.net/v/20261119174505820",
-      "published_at_basis": "portal_article",
-      "time_evidence": "포털 본문 최초 입력 2026. 11. 19. 17:45",
-      "verified": false,
-      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인",
-      "id": "0fc20a28b601402a",
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[글로벌 에너지·산업]IEA, 320조원 투자로 '탈호르무즈' 가능성 제시…세계 에너지 공급망 재편 본격화하나 - 코리아포스트 한글판",
+      "source": "코리아포스트",
+      "url": "https://www.koreapost.co.kr/news/articleView.html?idxno=90227",
+      "published_at": "2026-11-19T22:28:54+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T22:28:54+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "[글로벌 에너지·산업]IEA, 320조원 투자로 '탈호르무즈' 가능성 제시…세계 에너지 공급망 재편 본격화하나 - 코리아포스트 한글판",
+      "source_body_sha256": "0e11fd5b667781f1ba117357cf7eb2747735c6024edab98baccdc70ebd64bce5",
+      "published_at_basis": "original_article",
+      "id": "3a4f716411083829",
+      "canonical_url": "https://www.koreapost.co.kr/news/articleView.html?idxno=90227",
+      "source_normalized": "코리아포스트",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
-        "유가",
-        "정유업계",
-        "담합"
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "어기구 의원 , ‘ 폐플라스틱 열분해유 자원순환 활성화 ’ 토론회 개최",
+      "source": "글로벌뉴스통신",
+      "url": "https://www.globalnewsagency.kr/news/articleView.html?idxno=505860",
+      "published_at": "2026-11-19T21:16:39+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T21:16:39+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "어기구 의원 , ‘ 폐플라스틱 열분해유 자원순환 활성화 ’ 토론회 개최",
+      "source_body_sha256": "ac7ed4eea10717acc0cfffd16f29b951618430bd04b1fe0082d893290cb344e3",
+      "published_at_basis": "original_article",
+      "id": "b1593b6cd35475a1",
+      "canonical_url": "https://www.globalnewsagency.kr/news/articleView.html?idxno=505860",
+      "source_normalized": "글로벌뉴스통신",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[속보]미중러 정상 평화선언 \"석유제품 생산·공급 확대 계획\"",
+      "source": "머니투데이",
+      "url": "https://www.mt.co.kr/world/2026/11/19/2026111920070286709",
+      "published_at": "2026-11-19T20:09:26+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T20:09:26+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "[속보]미중러 정상 평화선언 \"석유제품 생산·공급 확대 계획\"",
+      "source_body_sha256": "b70b2a1897cb7036628670f2f74319db2d9bc44c8cbfb3d4930c167a2b2c33b4",
+      "published_at_basis": "original_article",
+      "id": "e80cd1dccfd16985",
+      "canonical_url": "https://www.mt.co.kr/world/2026/11/19/2026111920070286709",
+      "source_normalized": "머니투데이",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "미중러 정상 “ 석유 제품 생산 확대…핵확산 방지 대화할 것” [미중러 첫 3자 정상회담]",
+      "press": "서울경제",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261119193620629",
+      "published_date": "2026-11-20",
+      "published_at_kst": "",
+      "snippet": "서울경제 12시간 전 다음뉴스 미중러 정상 “ 석유 제품 생산 확대…핵확산 방지 대화할 것” [미중러 첫 3자 정상회담] 3국 정상은 또 글로벌 에너지 공급의 안정을 위해 정제 석유 제품의 생산과 공급을 확대하기로 했다. 3국이 단순히 원유(crude oil)가...제품(refined petroleum products)이라는 표현한 것은 휘발유· 경유 ·항공유 등 현재 정제 시설 부족으로 각국이 부족을 겪고...",
+      "score": 8,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 3,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 3,
+      "source_query": "석유 경유 수출",
+      "collector": "daum_news_search",
+      "source": "서울경제",
+      "published_at": "2026-11-19T19:36:20+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "미중러 정상 “ 석유 제품 생산 확대…핵확산 방지 대화할 것” [미중러 첫 3자 정상회담]",
+      "id": "36043681e1da2d02",
+      "canonical_url": "https://v.daum.net/v/20261119193620629",
+      "source_normalized": "서울경제",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
       ],
       "quality_status": "review",
       "status_label": "원문 미확인",
-      "status_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "어기구 의원, '폐플라스틱 열분해유 자원순환 활성화' 국회 토론회 개최",
+      "source": "뉴스티앤티",
+      "url": "https://www.newstnt.com/news/articleView.html?idxno=729408",
+      "published_at": "2026-11-19T19:30:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T19:30:00+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "어기구 의원, '폐플라스틱 열분해유 자원순환 활성화' 국회 토론회 개최",
+      "source_body_sha256": "c028ab18df01dd15db24d10e5ca7f0d3df11653877afe55560479f53d69095b0",
+      "published_at_basis": "original_article",
+      "id": "0e2e7d983d2dff66",
+      "canonical_url": "https://www.newstnt.com/news/articleView.html?idxno=729408",
+      "source_normalized": "뉴스티앤티",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "석유협회 \"최고가격제 손실 최대 6조\"…출구전략 촉구",
+      "source": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202611191902524870",
+      "published_at": "2026-11-19T19:07:33+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T19:07:33+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "석유협회 \"최고가격제 손실 최대 6조\"…출구전략 촉구",
+      "source_body_sha256": "a1418dc114fed5cc025b9d45f735b93df4ffcd92fdf1dd825f8560187ab7c729",
+      "published_at_basis": "original_article",
+      "id": "019e68dba2d8adc6",
+      "canonical_url": "https://www.fnnews.com/news/202611191902524870",
+      "source_normalized": "파이낸셜뉴스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "석유협회, 최고가격제 손실 5조~6조원 추산…\"출구전략 마련을\"",
+      "source": "머니투데이",
+      "url": "https://www.mt.co.kr/industry/2026/11/19/2026111918301922091",
+      "published_at": "2026-11-19T18:33:55+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T18:33:55+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "석유협회, 최고가격제 손실 5조~6조원 추산…\"출구전략 마련을\"",
+      "source_body_sha256": "dcecd146adb410acfe14cc7dd3362a48683f93422df6fec8da39c25faa79907e",
+      "published_at_basis": "original_article",
+      "id": "32d4b517af3235ed",
+      "canonical_url": "https://www.mt.co.kr/industry/2026/11/19/2026111918301922091",
+      "source_normalized": "머니투데이",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "기름값 눌렀던 정부, 정유사에 얼마 보상할까…12월 초 첫 정산액 공개",
+      "source": "더퍼블릭",
+      "url": "https://www.thepublic.kr/news/articleView.html?idxno=327564",
+      "published_at": "2026-11-19T18:30:35+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T18:30:35+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "기름값 눌렀던 정부, 정유사에 얼마 보상할까…12월 초 첫 정산액 공개",
+      "source_body_sha256": "f1e1992b9558c99d4f8165eafec04be2c829f767fd97456539a64b096c36aed2",
+      "published_at_basis": "original_article",
+      "id": "4f2e9c8b6a2e1877",
+      "canonical_url": "https://www.thepublic.kr/news/articleView.html?idxno=327564",
+      "source_normalized": "더퍼블릭",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[이슈] 석유 최고가격제 첫 정산 임박…정유사 '정당한 보상' 요구",
+      "source": "시사포커스",
+      "url": "https://www.sisafocus.co.kr/news/articleView.html?idxno=367828",
+      "published_at": "2026-11-19T18:30:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T18:30:00+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "[이슈] 석유 최고가격제 첫 정산 임박…정유사 '정당한 보상' 요구",
+      "source_body_sha256": "2cec32fe91f882c4f92da15731e8d70be23f6bfdfd4946b50935fd17ce907060",
+      "published_at_basis": "original_article",
+      "id": "f9c691857bc93975",
+      "canonical_url": "https://www.sisafocus.co.kr/news/articleView.html?idxno=367828",
+      "source_normalized": "시사포커스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "\"샤힌 들어오면 원료 공급망 바뀌나\"…울산 석화 3사, 복잡해진 생존 셈법",
+      "source": "이코노믹리뷰",
+      "url": "https://www.econovill.com/news/articleView.html?idxno=757849",
+      "published_at": "2026-11-19T18:14:07+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T18:14:07+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "\"샤힌 들어오면 원료 공급망 바뀌나\"…울산 석화 3사, 복잡해진 생존 셈법",
+      "source_body_sha256": "ab9326fb7592b9cb54291e915dae84b3810b9185be3dceef8470f5e560482de5",
+      "published_at_basis": "original_article",
+      "id": "716caeec46cd625b",
+      "canonical_url": "https://www.econovill.com/news/articleView.html?idxno=757849",
+      "source_normalized": "이코노믹리뷰",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "박주선 석유협회장 “ 최고 가격제 끝낼 출구전략 찾아야”",
+      "press": "서울경제",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261119175906508",
+      "published_date": "2026-11-20",
+      "published_at_kst": "",
+      "snippet": "서울경제 14시간 전 다음뉴스 박주선 석유협회장 “ 최고 가격제 끝낼 출구전략 찾아야” 취재진과 만나 발언하고 있다. 유현욱 기자 박주선 대한석유협회장이 미국·이란 전쟁 직후인 3월부터 시행 중인 석유제품 최고 가격제 의 출구전략 마련을 촉구했다. 박 회장은 19일 서울 여의도 TP타워에서 기자들과 만나 “ 최고 가격제 가 민생과 물가 안정에 상당히...",
+      "score": 10,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 1,
+      "source_query": "최고가격제",
+      "collector": "daum_news_search",
+      "source": "서울경제",
+      "published_at": "2026-11-19T17:59:06+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "박주선 석유협회장 “ 최고 가격제 끝낼 출구전략 찾아야”",
+      "id": "aceccfb548efe348",
+      "canonical_url": "https://v.daum.net/v/20261119175906508",
+      "source_normalized": "서울경제",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "[마감] 유가 급락에 정유주 직격탄…SK이노베이션 5.48% 하락",
+      "press": "한스경제",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261119175740450",
+      "published_date": "2026-11-20",
+      "published_at_kst": "",
+      "snippet": "한스경제 14시간 전 다음뉴스 [마감] 유가 급락에 정유주 직격탄…SK이노베이션 5.48% 하락 마쳤다. 지난 8월 26일 이후 약 3개월 만의 최저치다. 국제 유가 하락은 정유사들의 재고평가손익과 정제마진 등에 영향을 미칠 수...하락이 원재료 조달 비용을 낮추는 효과도 있는 만큼 향후 정유 업종의 실적은 정제마진과 석유제품 수요 흐름 등에 따라 달라질 것...",
+      "score": 11,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 2,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "유가 정유",
+      "collector": "daum_news_search",
+      "source": "한스경제",
+      "published_at": "2026-11-19T17:57:40+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "[마감] 유가 급락에 정유주 직격탄…SK이노베이션 5.48% 하락",
+      "id": "9be210754add5367",
+      "canonical_url": "https://v.daum.net/v/20261119175740450",
+      "source_normalized": "한스경제",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "정유업계, “최고가격제 8개월 출구전략 마련할 때”",
+      "source": "이투뉴스",
+      "url": "https://www.e2news.com/news/articleView.html?idxno=336301",
+      "published_at": "2026-11-19T17:55:29+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T17:55:29+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "정유업계, “최고가격제 8개월 출구전략 마련할 때”",
+      "source_body_sha256": "438b591b1093c4fdc7bfad89d5075cfeb656831bc0737cc0b5401e87513624f6",
+      "published_at_basis": "original_article",
+      "id": "554fc4ae3e25839d",
+      "canonical_url": "https://www.e2news.com/news/articleView.html?idxno=336301",
+      "source_normalized": "이투뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "source": "브릿지경제",
+      "url": "https://www.viva100.com/article/20261119501084",
+      "published_at": "2026-11-19T17:44:00+09:00",
+      "verified": true,
+      "time_evidence": "발행사 본문 배포일 2026-11-19 17:44 직접 확인. 수정일·11/20 지면 발행일 대신 최초 웹 배포일 적용; 발행사 본문·최초시각 직접 확인",
+      "summary": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "source_body_sha256": "83802e84072f1466b085415887595abdb2827b0e72d35db02ab878ff63faca30",
+      "published_at_basis": "original_article",
+      "id": "f415e5faeb2642e3",
+      "canonical_url": "https://www.viva100.com/article/20261119501084",
+      "source_normalized": "브릿지경제",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "대한석유협회 \"최고가격제로 정유사 손실 5조∼6조원 달해…출구전략 필요\"",
+      "source": "대구신문",
+      "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=565897",
+      "published_at": "2026-11-19T17:23:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T17:23:00+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "대한석유협회 \"최고가격제로 정유사 손실 5조∼6조원 달해…출구전략 필요\"",
+      "source_body_sha256": "c9cf5e8f79ade421338328e8b31bb62feda9b6f4ecf551a8e76e8a69ca8317b9",
+      "published_at_basis": "original_article",
+      "id": "4616d5cff0d4c2b5",
+      "canonical_url": "https://www.idaegu.co.kr/news/articleView.html?idxno=565897",
+      "source_normalized": "대구신문",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "어기구 의원, 폐플라스틱 열분해유 자원순환 활성화 국회토론회 개최",
+      "source": "당진신문",
+      "url": "https://www.idjnews.kr/news/articleView.html?idxno=304071",
+      "published_at": "2026-11-19T17:16:16+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-19T17:16:16+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "어기구 의원, 폐플라스틱 열분해유 자원순환 활성화 국회토론회 개최",
+      "source_body_sha256": "3fc2f6e905989f067c6e4997e6d1b49b8c7c29eceb960ce6fb6c232824e6f13d",
+      "published_at_basis": "original_article",
+      "id": "601677270b71b82c",
+      "canonical_url": "https://www.idjnews.kr/news/articleView.html?idxno=304071",
+      "source_normalized": "당진신문",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
     }
   ],
-  "summary": "수집 기사 1건, 발행사 본문·최초시각 확인 0건, 미확인 1건 구분",
-  "editorial_audit": {
-    "method": "automated-source-audit",
-    "raw_result_count": 29,
-    "exclusions": [
-      {
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52TnYxZWRHQUR4dTA4TjRMTlgzLXZiUFFvYjNlaTdmcWszYldvY09CSl8wUC1TUlhkSkZqVURqTnZta29RMmdjU2JCSzc5aXpRVVhwYW9LZnp0Z3Fl?oc=5",
-        "title": "재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시",
-        "reason": "duplicate_or_quality_exclusion"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14T1hWMEdYZVpBWWpCeHQwSy0zT3AtcGRPSnllSkkycW5nOTZiT0NqWFZSbFAtaFFTOG5tYlU3TXhwWEZ4anF6S2U4UzBtZFRwVWlqSg?oc=5",
-        "title": "미, ‘주한미군 납품 담합’ 정유 3사에 2670억원 벌금·배상",
-        "reason": "duplicate_or_quality_exclusion"
-      },
-      {
-        "url": "http://v.daum.net/v/20261120072213774",
-        "title": "미중러 첫 정상회담, 한국 없이 '한반도 문제'도 논의...무슨 대화? [뉴스타트]",
-        "reason": "outside_period"
-      },
-      {
-        "url": "http://v.daum.net/v/20261120034717181",
-        "title": "미중러 선언에 북한은 없었다…'신얄타' 속 한국 소외 우려",
-        "reason": "outside_period"
-      },
-      {
-        "url": "http://v.daum.net/v/20261120004919509",
-        "title": "“핵 확산 방지·유엔 개혁”… 미중러, 세기의 원탁 담합",
-        "reason": "outside_period"
-      }
-    ],
-    "collection_warnings": [
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "전체 검색",
-        "message": "public search coverage limit",
-        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
-        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-        "created_at": "2026-11-20T08:19:16.442710+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "유가담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '유가담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:19:17.225149+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "유가 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:19:21.807320+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "정유사 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:19:25.618264+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "기름값 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '기름값 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B8%B0%EB%A6%84%EA%B0%92+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:19:29.486188+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "석유 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '석유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:19:31.613762+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "휘발유 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '휘발유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%9C%98%EB%B0%9C%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:19:40.084406+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "경유 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '경유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B2%BD%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:19:42.285915+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "주유소 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '주유소 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A3%BC%EC%9C%A0%EC%86%8C+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:19:44.349602+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "정유업계 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '정유업계 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%97%85%EA%B3%84+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:19:48.383500+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "석유제품 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '석유제품 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0%EC%A0%9C%ED%92%88+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:19:52.341620+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "유류가격 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '유류가격 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EB%A5%98%EA%B0%80%EA%B2%A9+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:20:00.549775+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "공정위 유가 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '공정위 유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EC%9C%84+%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:20:02.963342+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "공정거래위원회 정유사 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '공정거래위원회 정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EA%B1%B0%EB%9E%98%EC%9C%84%EC%9B%90%ED%9A%8C+%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:20:05.288821+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "SK에너지 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 'SK에너지 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=SK%EC%97%90%EB%84%88%EC%A7%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:20:07.722020+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "현대오일뱅크 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:20:12.064514+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "정유 44조",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '정유 44조' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0+44%EC%A1%B0&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:20:15.904471+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "유가 짬짜미",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '유가 짬짜미' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EC%A7%AC%EC%A7%9C%EB%AF%B8&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
-        "created_at": "2026-11-20T08:20:18.304981+09:00"
-      }
-    ],
-    "limitations": [
-      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
-    ]
-  }
+  "summary": "최고가격제 손실보전·출구전략 요구 및 정유 담합 재판의 검찰·변호인 주장 점검",
+  "editorial_audit": "data/reviews/2026-11-19-night.audit.json",
+  "supplemental_raw_search_result_count": 453,
+  "coverage_note": "자동 원수집 29건과 추가검색 전체 별도 보존. 원문 확인 15건·미확인 3건 구분. 공개검색 노출·일부 발행사 접속 제한. 주한미군 납품 담합 JTBC 후보는 과거 동일 보도 재노출 가능성·최초시각 미확인으로 본문 수록 제외. 의혹·추정액은 확정판결·인정 보전액과 구분.",
+  "editorial_decisions": [
+    "동일 매체·정규화 제목만 병합; 다른 매체 동일 사건 보도 보존",
+    "추정 손실과 인정 보전액, 제도 연장 계획과 확정 구분",
+    "포털 표기시각을 발행사 최초 보도시각으로 인증하지 않음"
+  ]
 }

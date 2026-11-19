@@ -3,78 +3,518 @@
   "slot": "morning",
   "status": "published",
   "period": "수집 기간: 2026-11-19 17:00 ~ 2026-11-20 08:00 (KST)",
-  "published_at": "2026-11-20T08:19:16+09:00",
+  "published_at": "2026-11-20T08:24:30+09:00",
   "committees": [
     {
       "id": "industry",
       "priority": [],
-      "all": []
+      "all": [
+        {
+          "title": "美, 작년말부터 6개월간 中기업에 첨단칩 90만개 수출 승인",
+          "url": "https://www.yna.co.kr/view/AKR20261120015900071",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T07:44:37+09:00",
+          "summary": "미 하원, 대중 첨단 AI 반도체 수출 승인 약 88만개 공개",
+          "event_id": "1120m-0cba78c2fe61",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "반도체 통상·수출통제 정책으로 산중위 배정. 승인 수량과 실제 출하량 미확인을 구분. AMD 제재기업 기술유출 의혹을 확정사실로 합치지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T07:44:37+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "2f8fa5367c09e0a7517e7a2f1291a5ba79d6127465fb316457e328dcc8a1cba4"
+        },
+        {
+          "title": "제12회 중견기업인의 날 기념식…유공자 57명에 정부 포상",
+          "url": "https://www.yna.co.kr/view/AKR20261119168900003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T06:00:02+09:00",
+          "summary": "중견기업인의 날 유공자 57명 정부 포상 및 기술혁신·성장단계별 지원 추진",
+          "event_id": "1120m-498fd7e385df",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부 중견기업 성장촉진 기본계획과 지원정책 중심으로 산중위 배정. 개별 수상기업 홍보를 별도 사안으로 늘리지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T06:00:02+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "431802f0db4d71f2dbfff3a8a29cbf856594a0c4b4466c73dd9e0d7154519661"
+        },
+        {
+          "title": "중진공, '우수기업 IR 마트' 행사…핵심 기술·사업 성과 공유",
+          "url": "https://www.yna.co.kr/view/AKR20261119147900030",
+          "press": "연합뉴스",
+          "published_at": "2026-11-19T17:12:31+09:00",
+          "summary": "중진공, 우수기업 6곳 성과 공유 및 후속 투자유치 지원",
+          "event_id": "1120m-e0ba2bc9c88b",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "중기부 소관 중진공의 기업성장·후속 투자유치 지원사업으로 산중위 배정.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T17:12:31+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "4bd007a2d72b1905a450a664ab1496e6d730c527bd224d7b36915f5460888b42"
+        },
+        {
+          "title": "[게시판] 산업부, 지자체·유관기관 외국인투자유치 워크숍",
+          "url": "https://www.yna.co.kr/view/AKR20261119151700003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T06:00:04+09:00",
+          "summary": "산업부, 지역 주력산업 연계 외국인투자유치 워크숍 개최 예정",
+          "event_id": "1120m-08ffce417019",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부 주관 지역 전략산업 투자유치 정책으로 산중위 배정. 20일 개최 예정과 종료 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T06:00:04+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "6714f0dcd1f1f43c0f0a7d3f591ee096be0d008e1f82c5b3c0b426f9cef849d9"
+        }
+      ]
     },
     {
       "id": "climate_labor",
-      "priority": [],
-      "all": [
+      "priority": [
         {
-          "summary": "[단독] '괴롭힘 금지구제 지원관' 신설 추진…직장 내 괴롭힘 피해자 지원 강화",
-          "event_id": "2ec56856c965a9b48dd3",
+          "title": "폐플라스틱 재활용량 증가, 사용 의무화·인센티브 도입 요구돼",
+          "url": "https://www.e-platform.net/news/articleView.html?idxno=107154",
+          "press": "에너지플랫폼뉴스",
+          "published_at": "2026-11-20T07:36:07+09:00",
+          "summary": "어기구 토론회, 열분해유 재생원료 사용 의무화·인센티브와 품질기준 개선 제안",
+          "event_id": "1120m-2afac116df8e",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "어기구"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "어기구 의원 토론회 직접 발언 및 보완 roster의 기노위 소속 근거(연합뉴스 9/28·더팩트) 대조. 자원순환·탄소감축 정책으로 기노위 단일 배정. 의무화 시행 확정 아닌 전문가 제안.",
+          "categories": [
+            "석유화학"
+          ],
+          "category_reason": "원문에 명시된 석유화학 소관 제도·정책과 직접 연관",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T07:36:07+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "0a9b02e0a4c2b9deface01e2c82c6dc5e6bc20288668021310c26d86057aa052"
+        },
+        {
+          "title": "미국 후퇴한 기후 외교무대서 목소리 키우는 중국",
+          "url": "https://www.yna.co.kr/view/AKR20261120004500099",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T02:58:57+09:00",
+          "summary": "COP31에서 중국, EU 녹색전환 무역장벽 비판 및 기후외교 영향력 확대",
+          "event_id": "1120m-77778d501673",
           "committees": [
             "climate_labor"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
-          "categories": [],
-          "category_reason": "",
+          "committee_reason": "COP31 기후변화 대응·탄소국경조정제도·청정에너지 전환 논의 중심으로 기노위 배정. 일반 통상 기사와 구분.",
+          "categories": [
+            "재생에너지·수소",
+            "배터리"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소, 배터리 소관 제도·정책과 직접 연관",
           "importance": {
-            "legislation": 0,
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T02:58:57+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "967853ff59aaf53c8c19cb2453dbda4803e6c4ed1ce8ebeeae56a6c2fc762052"
+        },
+        {
+          "title": "(기자의눈) 예산은 3조, 사람은 줄줄이 이탈…기후부 전기차과 잔혹사",
+          "url": "https://www.electimes.com/news/articleView.html?idxno=375012",
+          "press": "전기신문",
+          "published_at": "2026-11-20T08:00:00+09:00",
+          "summary": "전기신문 기고, 전기·수소차 정책 담당자 잦은 교체에 따른 연속성 우려 제기",
+          "event_id": "1120m-2831be06918d",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부 수송전환 정책 집행체계에 관한 기자의눈 의견 기사로 표시. 내년 예산은 정부안이며 정책 중단 확정으로 표현하지 않음.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소 소관 제도·정책과 직접 연관",
+          "importance": {
+            "legislation": 1,
             "impact": 2,
             "speaker": 1
           },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026.11.20 08:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "5450b9f43780d6ca02569134e82b0057b6899b6e2875662889cd022b42f35a24"
+        }
+      ],
+      "all": [
+        {
           "title": "[단독] '괴롭힘 금지구제 지원관' 신설 추진…직장 내 괴롭힘 피해자 지원 강화",
           "url": "https://www.newspim.com/news/view/20261120000010",
           "press": "뉴스핌",
           "published_at": "2026-11-20T08:00:00+09:00",
-          "time_evidence": "원문 published_time 2026-11-20T08:00:00+09:00",
-          "source_body_sha256": "aea5a3ce1cc4e3301d0f736197c4ad22fe96fdd399930b373c6cf062712f0e05",
-          "verified": true
+          "summary": "기노위, 괴롭힘 금지구제 지원관 50명 시범 도입·관련 예산 신설 제안",
+          "event_id": "1120m-5a8a8266a52c",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기노위의 고용노동부 예산안 심사 결과가 명시된 소관 노동정책. 예결위·본회의 조정이 남아 있어 최종 확정 예산으로 쓰지 않음. 최초 08:00은 포함 경계.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T08:00:00+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "aea5a3ce1cc4e3301d0f736197c4ad22fe96fdd399930b373c6cf062712f0e05"
+        },
+        {
+          "title": "폐플라스틱 재활용량 증가, 사용 의무화·인센티브 도입 요구돼",
+          "url": "https://www.e-platform.net/news/articleView.html?idxno=107154",
+          "press": "에너지플랫폼뉴스",
+          "published_at": "2026-11-20T07:36:07+09:00",
+          "summary": "어기구 토론회, 열분해유 재생원료 사용 의무화·인센티브와 품질기준 개선 제안",
+          "event_id": "1120m-2afac116df8e",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "어기구"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "어기구 의원 토론회 직접 발언 및 보완 roster의 기노위 소속 근거(연합뉴스 9/28·더팩트) 대조. 자원순환·탄소감축 정책으로 기노위 단일 배정. 의무화 시행 확정 아닌 전문가 제안.",
+          "categories": [
+            "석유화학"
+          ],
+          "category_reason": "원문에 명시된 석유화학 소관 제도·정책과 직접 연관",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T07:36:07+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "0a9b02e0a4c2b9deface01e2c82c6dc5e6bc20288668021310c26d86057aa052"
+        },
+        {
+          "title": "미국 후퇴한 기후 외교무대서 목소리 키우는 중국",
+          "url": "https://www.yna.co.kr/view/AKR20261120004500099",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T02:58:57+09:00",
+          "summary": "COP31에서 중국, EU 녹색전환 무역장벽 비판 및 기후외교 영향력 확대",
+          "event_id": "1120m-77778d501673",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "COP31 기후변화 대응·탄소국경조정제도·청정에너지 전환 논의 중심으로 기노위 배정. 일반 통상 기사와 구분.",
+          "categories": [
+            "재생에너지·수소",
+            "배터리"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소, 배터리 소관 제도·정책과 직접 연관",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T02:58:57+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "967853ff59aaf53c8c19cb2453dbda4803e6c4ed1ce8ebeeae56a6c2fc762052"
+        },
+        {
+          "title": "장애인고용공단, '서울국제유아교육전&키즈페어' 참가 지원…표준사업장 판로 확대",
+          "url": "https://www.cstimes.com/news/articleView.html?idxno=728678",
+          "press": "컨슈머타임스",
+          "published_at": "2026-11-20T07:35:00+09:00",
+          "summary": "장애인고용공단, 장애인 표준사업장 박람회 참가·신규 판로 지원",
+          "event_id": "1120m-bc70566e0aed",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "노동부·장애인고용공단 표준사업장 홍보·마케팅 지원사업으로 기노위 배정. 단순 기업상품 홍보와 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T07:35:00+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "f0c90ece1e0312a79937dd7974bd92b6dca6d082370984655e3d1b6c3ee60e22"
+        },
+        {
+          "title": "(기자의눈) 예산은 3조, 사람은 줄줄이 이탈…기후부 전기차과 잔혹사",
+          "url": "https://www.electimes.com/news/articleView.html?idxno=375012",
+          "press": "전기신문",
+          "published_at": "2026-11-20T08:00:00+09:00",
+          "summary": "전기신문 기고, 전기·수소차 정책 담당자 잦은 교체에 따른 연속성 우려 제기",
+          "event_id": "1120m-2831be06918d",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부 수송전환 정책 집행체계에 관한 기자의눈 의견 기사로 표시. 내년 예산은 정부안이며 정책 중단 확정으로 표현하지 않음.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소 소관 제도·정책과 직접 연관",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 1
+          },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026.11.20 08:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "5450b9f43780d6ca02569134e82b0057b6899b6e2875662889cd022b42f35a24"
         }
       ]
     },
     {
       "id": "finance",
-      "priority": [],
-      "all": [
+      "priority": [
         {
-          "summary": "[오늘의 국회일정] 국회의장·상임위·세미나·기자회견·주요 정당 - 11월 20일",
-          "event_id": "1c41c10a7b0759a3c27a",
+          "title": "석유협회 \"최고가격제 손실 최대 6조\"…출구전략 촉구",
+          "url": "https://www.fnnews.com/news/202611191902524870",
+          "press": "파이낸셜뉴스",
+          "published_at": "2026-11-19T19:07:33+09:00",
+          "summary": "석유협회, 최고가격제 손실 최대 6조원 추정 및 출구전략 마련 촉구",
+          "event_id": "1120m-f472f183f588",
           "committees": [
             "finance"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "committee_reason": "정유사 피해액·부담이 주된 제목과 본문 맥락으로 재경위 단일 배정. 손실보전 방식 중심 이투뉴스를 포함해 같은 간담회 타매체는 국감에서 중복 제외하고 주요 경제지 대표 선정. 6조원은 협회 추정이며 정부 인정 보상액·확정 지급액 아님.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합 소관 제도·정책과 직접 연관",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T19:07:33+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "a1418dc114fed5cc025b9d45f735b93df4ffcd92fdf1dd825f8560187ab7c729"
+        }
+      ],
+      "all": [
+        {
+          "title": "안도걸 국회의원, 국민의힘 미래대응기금 5대 선결조건 반박…입법 협상 촉구",
+          "url": "https://gj.newdaily.co.kr/site/data/html/2026/11/20/2026112050010.html",
+          "press": "뉴데일리",
+          "published_at": "2026-11-20T07:31:00+09:00",
+          "summary": "안도걸, 미래대응기금 선결조건 반박 및 입법 협상 참여 촉구",
+          "event_id": "1120m-154585d0059e",
+          "committees": [
+            "finance"
+          ],
+          "members": [
+            "안도걸"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "안도걸 직접 발언과 Excel roster 재경위 소속 대조. 재정·기금 운용·국회 통제 논의로 재경위 단일 배정. 수치와 국제기구 평가는 의원 주장으로 한정.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026-11-20 07:31; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "5ba8f8df9d11098a5d726cf8b0a895653e518f4c05621513cbbff8c4e7a5a551"
+        },
+        {
+          "title": "“3.3% 시대 끝” 내년부터 프리랜서 원천징수세율 2.2%로…국회 잠정 합의",
+          "url": "https://www.sejungilbo.com/news/articleView.html?idxno=61197",
+          "press": "세정일보",
+          "published_at": "2026-11-20T07:29:46+09:00",
+          "summary": "재경위 조세소위, 인적용역 사업소득 원천징수세율 3%→2% 인하 잠정 합의",
+          "event_id": "1120m-d4e66e5f0e9d",
+          "committees": [
+            "finance"
+          ],
+          "members": [
+            "박수영",
+            "임이자",
+            "배준영",
+            "김남준",
+            "김영환"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "원문 조세소위 소득세법 심사와 Excel roster 재경위 박수영·임이자·배준영·김남준·김영환 소속 대조. 노동직종 언급보다 세법 심사 맥락 우선. 본회의 통과 전 잠정 합의이며 최종 세부담 인하와 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T07:29:46+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "654936dadd4fb2cb56583bcc7c7f26950c355e69ba34a0e198ade3c2a7d3ba16"
+        },
+        {
+          "title": "석유협회 \"최고가격제 손실 최대 6조\"…출구전략 촉구",
+          "url": "https://www.fnnews.com/news/202611191902524870",
+          "press": "파이낸셜뉴스",
+          "published_at": "2026-11-19T19:07:33+09:00",
+          "summary": "석유협회, 최고가격제 손실 최대 6조원 추정 및 출구전략 마련 촉구",
+          "event_id": "1120m-f472f183f588",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "정유사 피해액·부담이 주된 제목과 본문 맥락으로 재경위 단일 배정. 손실보전 방식 중심 이투뉴스를 포함해 같은 간담회 타매체는 국감에서 중복 제외하고 주요 경제지 대표 선정. 6조원은 협회 추정이며 정부 인정 보상액·확정 지급액 아님.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합 소관 제도·정책과 직접 연관",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T19:07:33+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "a1418dc114fed5cc025b9d45f735b93df4ffcd92fdf1dd825f8560187ab7c729"
+        },
+        {
+          "title": "재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시",
+          "url": "https://www.newspim.com/news/view/20261119001301",
+          "press": "뉴스핌",
+          "published_at": "2026-11-19T18:10:00+09:00",
+          "summary": "재경부, 11월 모집 방식 비경쟁인수 국고채 미발행 결정",
+          "event_id": "1120m-aad3c72cd2df",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "재경부 국고채 발행·수급 관리 정책으로 재경위 배정. 일반 국고채 발행 전체 중단이 아닌 모집 방식 비경쟁인수에 한정. 아주경제 우선 후보는 직접 접속 403으로 제외하고 확인 가능한 뉴스핌 원문 선정.",
           "categories": [],
           "category_reason": "",
           "importance": {
             "legislation": 2,
-            "impact": 2,
-            "speaker": 1
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "[오늘의 국회일정] 국회의장·상임위·세미나·기자회견·주요 정당 - 11월 20일",
-          "url": "https://www.newspim.com/news/view/20261119001458",
-          "press": "뉴스핌",
-          "published_at": "2026-11-20T05:00:00+09:00",
-          "time_evidence": "원문 published_time 2026-11-20T05:00:00+09:00",
-          "source_body_sha256": "8ecbce63460288a18e612716797a8cf22d883b65f201b786299702457435ad91",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T18:10:00+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "0c31ab8f1e546f73c8a0785d834e7c312b70983890d71456b05e241a42b794fe"
+        },
+        {
+          "title": "국고채 금리, 일제히 하락…유가 급락·외국인 매수(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261119158751008",
+          "press": "연합뉴스",
+          "published_at": "2026-11-19T17:47:52+09:00",
+          "summary": "유가 하락·외국인 국채선물 매수에 국고채 금리 하락",
+          "event_id": "1120m-5566909ab275",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "국고채 발행시장·금리 및 거시경제 동향으로 재경위 배정. 금융회사 감독·공정거래 기사와 구분하며 유가 언급만으로 우선산업 태그 미부여.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T17:47:52+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "f862661da33cfda92eb7e6d2efbca6a5c5f4d90d25b15b4457a616f2e9e93a34"
+        },
+        {
+          "title": "美 주간 신규 실업청구 20만3천건…고용 안정세 지속",
+          "url": "https://www.yna.co.kr/view/AKR20261119184300072",
+          "press": "연합뉴스",
+          "published_at": "2026-11-19T23:17:43+09:00",
+          "summary": "미 신규 실업수당 청구 20만3천건 및 고용 안정세 지속",
+          "event_id": "1120m-aaaed84c5a30",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "미국 고용지표·금리 판단 관련 거시경제 동향으로 재경위 배정. 국내 노동법·노동부 현안으로 치환하지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-19T23:17:43+09:00; 발행사 기사 본문·최초 등록시각 직접 대조. 수정·포털 시각 미사용",
+          "source_body_sha256": "6ebab4a2c81092308301e6ba173aa34d52ae9621404ec976c7cc8aa3d3885c83"
         }
       ]
     }
   ],
-  "review_method": "deterministic-original-source-review",
+  "review_method": "원문 본문·최초시각 및 상임위 소속 수동 대조",
   "limitations": [
-    "일부 검색원 오류; 주제별 검색 결과·오류 및 보완 검색 기록은 검토 파일 참조",
-    "발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음",
-    "선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요."
+    "공개 검색 노출과 일부 발행사 접속 제한. 미확인 후보는 국감에 수록하지 않음. 목표 수량을 맞추기 위한 중복·시간대 밖 기사 미추가.",
+    "관심 주제별 검색 전체 보존. 대왕고래 정부 권유·카드사 회신·정유사 공문 원문·화관법 개선비용·E&S CISO 사망·정유 담합 증인 신청의 시간대 내 새 근거 미확인. 공개 안 된 회신·공문·비용은 확인 불가이며 부재·0원·미신청으로 단정하지 않음."
   ]
 }
