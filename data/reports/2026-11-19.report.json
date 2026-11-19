@@ -5,7 +5,7 @@
     "display_date": "2026년 11월 19일 (목)",
     "previous_day_label": "11/18",
     "today_label": "11/19",
-    "generated_at": "2026-11-19 08:14 KST",
+    "generated_at": "2026-11-19 17:30 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △미국 원유·휘발유 재고 급증에 국제유가 3%대 하락 및 공급과잉 우려 확대 △최고가격제 1차 손실보전 심의 앞두고 원유 조달비·운임·보험료·적정 마진 인정 범위 쟁점 부각 △기후부, 내년부터 5년간 원전 전력거래 정부승인차액계약 적용 추진"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △국표원·국방부, 미국 표준 기반 소형드론 배터리 KS 제정 및 의견수렴 추진 △어기구, 폐플라스틱 열분해유 품질 개선·재생원료 수요 확대 위한 제도 정비 논의 △석유협회, 최고가격제 정유사 손실 5조~6조원 추정 및 첫 보상액 산정 이견 제기"
     }
   ],
   "prices": {
@@ -1494,5 +1498,48 @@
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△국표원·국방부, 미국 표준 기반 소형드론 배터리 KS 제정 및 의견수렴 추진 △어기구, 폐플라스틱 열분해유 품질 개선·재생원료 수요 확대 위한 제도 정비 논의 △석유협회, 최고가격제 정유사 손실 5조~6조원 추정 및 첫 보상액 산정 이견 제기",
+    "trend_paragraphs": [
+      "국표원·국방부, 미국 표준 기반 소형드론 배터리 KS 제정 및 의견수렴 추진",
+      "어기구, 폐플라스틱 열분해유 품질 개선·재생원료 수요 확대 위한 제도 정비 논의",
+      "석유협회, 최고가격제 정유사 손실 5조~6조원 추정 및 첫 보상액 산정 이견 제기"
+    ],
+    "articles": [
+      {
+        "title": "정부, 미국 표준 바탕으로 소형드론 배터리 국가표준 제정 추진",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261119041300003",
+        "summary": "국표원·국방부, 미국 표준 기반 소형드론 배터리 KS 제정 및 의견수렴 추진",
+        "published_at_kst": "2026-11-19T11:00:03+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-19T11:00:03+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·포털·검색시각 미사용",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "폐플라스틱 열분해유 시장 키우려면…품질 높이고 수요처 확보해야",
+        "press": "에너지신문",
+        "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=229922",
+        "summary": "어기구, 폐플라스틱 열분해유 품질 개선·재생원료 수요 확대 위한 제도 정비 논의",
+        "published_at_kst": "2026-11-19T16:43:50+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-19T16:43:50+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·포털·검색시각 미사용",
+        "summary_basis": "original_article_body_manual_review"
+      },
+      {
+        "title": "대한석유협회 \"최고가격제 손실 5조∼6조원…출구전략 찾아야\"",
+        "press": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261119122700003",
+        "summary": "석유협회, 최고가격제 정유사 손실 5조~6조원 추정 및 첫 보상액 산정 이견 제기",
+        "published_at_kst": "2026-11-19T15:18:45+09:00",
+        "verified": true,
+        "time_evidence": "원문 published_time 2026-11-19T15:18:45+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·포털·검색시각 미사용",
+        "summary_basis": "original_article_body_manual_review"
+      }
+    ],
+    "source": "발행사 원문·최초 보도시각 직접 확인",
+    "needs_review": false,
+    "report_slot": "evening"
   }
 }
