@@ -1,0 +1,1086 @@
+{
+  "base_date": "2026-11-20",
+  "slot": "morning",
+  "period_start": "2026-11-20T00:00:00+09:00",
+  "period_end": "2026-11-20T08:00:00+09:00",
+  "collected_at": "2026-11-20T08:20:19.886158+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "portal_counts": {
+    "naver": 0,
+    "daum": 15,
+    "google": 14
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-20T08:19:16.442710+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유가담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유가담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:19:17.225149+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유가 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:19:21.807320+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "정유사 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:19:25.618264+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "기름값 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '기름값 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B8%B0%EB%A6%84%EA%B0%92+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:19:29.486188+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "석유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '석유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:19:31.613762+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "휘발유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '휘발유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%9C%98%EB%B0%9C%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:19:40.084406+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "경유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '경유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B2%BD%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:19:42.285915+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "주유소 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '주유소 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A3%BC%EC%9C%A0%EC%86%8C+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:19:44.349602+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "정유업계 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '정유업계 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%97%85%EA%B3%84+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:19:48.383500+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "석유제품 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '석유제품 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0%EC%A0%9C%ED%92%88+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:19:52.341620+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유류가격 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유류가격 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EB%A5%98%EA%B0%80%EA%B2%A9+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:20:00.549775+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "공정위 유가 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '공정위 유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EC%9C%84+%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:20:02.963342+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "공정거래위원회 정유사 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '공정거래위원회 정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EA%B1%B0%EB%9E%98%EC%9C%84%EC%9B%90%ED%9A%8C+%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:20:05.288821+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "SK에너지 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 'SK에너지 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=SK%EC%97%90%EB%84%88%EC%A7%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:20:07.722020+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "현대오일뱅크 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:20:12.064514+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "정유 44조",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '정유 44조' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0+44%EC%A1%B0&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:20:15.904471+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유가 짬짜미",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유가 짬짜미' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EC%A7%AC%EC%A7%9C%EB%AF%B8&sort=1&pd=3&ds=2026.11.19&de=2026.11.20",
+      "created_at": "2026-11-20T08:20:18.304981+09:00"
+    }
+  ],
+  "items": [
+    {
+      "portal": "daum",
+      "query": "유가담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "http://v.daum.net/v/20261119174505820",
+      "source": "브릿지경제",
+      "published_at": "",
+      "snippet": "단정하기는 어렵다는 주장이다. 정유업계 한 관계자는 “국제유가와 환율, 석유제품 수급 등 정유사들이 공통적으로 영향을 받는 변수...HD현대오일뱅크 측은 SK에너지와의 가격정보 교환만으로 담합이 성립한다고 볼 수 없다는 법리적 반박도 제기했다. 변호인단은...",
+      "collected_at": "2026-11-20T08:19:20.479750+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "유가담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+      "source": "브릿지경제",
+      "published_at": "2026-11-19T17:44:00+09:00",
+      "snippet": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 브릿지경제",
+      "collected_at": "2026-11-20T08:19:20.888224+09:00",
+      "raw": {
+        "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+        "id": "CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 08:44:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          8,
+          44,
+          0,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>"
+        },
+        "source": {
+          "href": "https://www.viva100.com",
+          "title": "브릿지경제"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "유가 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "http://v.daum.net/v/20261119174505820",
+      "source": "브릿지경제",
+      "published_at": "",
+      "snippet": "단정하기는 어렵다는 주장이다. 정유업계 한 관계자는 “국제유가와 환율, 석유제품 수급 등 정유사들이 공통적으로 영향을 받는 변수...HD현대오일뱅크 측은 SK에너지와의 가격정보 교환만으로 담합이 성립한다고 볼 수 없다는 법리적 반박도 제기했다. 변호인단은...",
+      "collected_at": "2026-11-20T08:19:24.458653+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "유가 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+      "source": "브릿지경제",
+      "published_at": "2026-11-19T17:44:00+09:00",
+      "snippet": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 브릿지경제",
+      "collected_at": "2026-11-20T08:19:24.879478+09:00",
+      "raw": {
+        "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+        "id": "CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 08:44:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          8,
+          44,
+          0,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>"
+        },
+        "source": {
+          "href": "https://www.viva100.com",
+          "title": "브릿지경제"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "유가 담합",
+      "title": "재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52TnYxZWRHQUR4dTA4TjRMTlgzLXZiUFFvYjNlaTdmcWszYldvY09CSl8wUC1TUlhkSkZqVURqTnZta29RMmdjU2JCSzc5aXpRVVhwYW9LZnp0Z3Fl?oc=5",
+      "source": "뉴스핌",
+      "published_at": "2026-11-19T18:10:00+09:00",
+      "snippet": "재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시 뉴스핌",
+      "collected_at": "2026-11-20T08:19:24.879671+09:00",
+      "raw": {
+        "title": "재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시 - 뉴스핌",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시 - 뉴스핌"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52TnYxZWRHQUR4dTA4TjRMTlgzLXZiUFFvYjNlaTdmcWszYldvY09CSl8wUC1TUlhkSkZqVURqTnZta29RMmdjU2JCSzc5aXpRVVhwYW9LZnp0Z3Fl?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52TnYxZWRHQUR4dTA4TjRMTlgzLXZiUFFvYjNlaTdmcWszYldvY09CSl8wUC1TUlhkSkZqVURqTnZta29RMmdjU2JCSzc5aXpRVVhwYW9LZnp0Z3Fl?oc=5",
+        "id": "CBMiXEFVX3lxTE52TnYxZWRHQUR4dTA4TjRMTlgzLXZiUFFvYjNlaTdmcWszYldvY09CSl8wUC1TUlhkSkZqVURqTnZta29RMmdjU2JCSzc5aXpRVVhwYW9LZnp0Z3Fl",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 09:10:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          9,
+          10,
+          0,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE52TnYxZWRHQUR4dTA4TjRMTlgzLXZiUFFvYjNlaTdmcWszYldvY09CSl8wUC1TUlhkSkZqVURqTnZta29RMmdjU2JCSzc5aXpRVVhwYW9LZnp0Z3Fl?oc=5\" target=\"_blank\">재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴스핌</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE52TnYxZWRHQUR4dTA4TjRMTlgzLXZiUFFvYjNlaTdmcWszYldvY09CSl8wUC1TUlhkSkZqVURqTnZta29RMmdjU2JCSzc5aXpRVVhwYW9LZnp0Z3Fl?oc=5\" target=\"_blank\">재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴스핌</font>"
+        },
+        "source": {
+          "href": "https://www.newspim.com",
+          "title": "뉴스핌"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "정유사 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "http://v.daum.net/v/20261119174505820",
+      "source": "브릿지경제",
+      "published_at": "",
+      "snippet": "양사 간 연락 이후 재 공지한 사례도 근거로 제시했다. 검찰은 정유사가 주유소에 석유제품을 공급할 때 우선 적용하는 ‘입금가’가...인상 수준을 조율한 행위가 단순 정보교환을 넘어 가격담합이란 해석이다. 검찰이 파악한 HD현대오일뱅크와 SK에너지의 직접...",
+      "collected_at": "2026-11-20T08:19:28.134523+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "정유사 담합",
+      "title": "미, ‘주한미군 납품 담합’ 정유 3사에 2670억원 벌금·배상",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14T1hWMEdYZVpBWWpCeHQwSy0zT3AtcGRPSnllSkkycW5nOTZiT0NqWFZSbFAtaFFTOG5tYlU3TXhwWEZ4anF6S2U4UzBtZFRwVWlqSg?oc=5",
+      "source": "JTBC",
+      "published_at": "2026-11-19T23:45:28+09:00",
+      "snippet": "미, ‘주한미군 납품 담합’ 정유 3사에 2670억원 벌금·배상 JTBC",
+      "collected_at": "2026-11-20T08:19:28.566571+09:00",
+      "raw": {
+        "title": "미, ‘주한미군 납품 담합’ 정유 3사에 2670억원 벌금·배상 - JTBC",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "미, ‘주한미군 납품 담합’ 정유 3사에 2670억원 벌금·배상 - JTBC"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14T1hWMEdYZVpBWWpCeHQwSy0zT3AtcGRPSnllSkkycW5nOTZiT0NqWFZSbFAtaFFTOG5tYlU3TXhwWEZ4anF6S2U4UzBtZFRwVWlqSg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14T1hWMEdYZVpBWWpCeHQwSy0zT3AtcGRPSnllSkkycW5nOTZiT0NqWFZSbFAtaFFTOG5tYlU3TXhwWEZ4anF6S2U4UzBtZFRwVWlqSg?oc=5",
+        "id": "CBMiVEFVX3lxTE14T1hWMEdYZVpBWWpCeHQwSy0zT3AtcGRPSnllSkkycW5nOTZiT0NqWFZSbFAtaFFTOG5tYlU3TXhwWEZ4anF6S2U4UzBtZFRwVWlqSg",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 14:45:28 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          14,
+          45,
+          28,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE14T1hWMEdYZVpBWWpCeHQwSy0zT3AtcGRPSnllSkkycW5nOTZiT0NqWFZSbFAtaFFTOG5tYlU3TXhwWEZ4anF6S2U4UzBtZFRwVWlqSg?oc=5\" target=\"_blank\">미, ‘주한미군 납품 담합’ 정유 3사에 2670억원 벌금·배상</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">JTBC</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE14T1hWMEdYZVpBWWpCeHQwSy0zT3AtcGRPSnllSkkycW5nOTZiT0NqWFZSbFAtaFFTOG5tYlU3TXhwWEZ4anF6S2U4UzBtZFRwVWlqSg?oc=5\" target=\"_blank\">미, ‘주한미군 납품 담합’ 정유 3사에 2670억원 벌금·배상</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">JTBC</font>"
+        },
+        "source": {
+          "href": "https://news.jtbc.co.kr",
+          "title": "JTBC"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "정유사 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+      "source": "브릿지경제",
+      "published_at": "2026-11-19T17:44:00+09:00",
+      "snippet": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 브릿지경제",
+      "collected_at": "2026-11-20T08:19:28.566760+09:00",
+      "raw": {
+        "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+        "id": "CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 08:44:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          8,
+          44,
+          0,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>"
+        },
+        "source": {
+          "href": "https://www.viva100.com",
+          "title": "브릿지경제"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "석유 담합",
+      "title": "미중러 첫 정상회담, 한국 없이 '한반도 문제'도 논의...무슨 대화? [뉴스타트]",
+      "url": "http://v.daum.net/v/20261120072213774",
+      "source": "YTN",
+      "published_at": "",
+      "snippet": "UN 석유 제품 생산 공급 확대 국제형사재판소 관할권 문제, 핵확산 방지 이런 것에 대해서 3국 정상이 논의했다는 것이지, 여기에 대해서 어떤 구체적인 행동 플랜이라든지 계획이 도출된 것은 아니거든요. 국제형사재판소 관할권 문제만 해도 이것을 문제삼아서...",
+      "collected_at": "2026-11-20T08:19:34.437579+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "석유 담합",
+      "title": "미중러 선언에 북한은 없었다…'신얄타' 속 한국 소외 우려",
+      "url": "http://v.daum.net/v/20261120034717181",
+      "source": "이데일리",
+      "published_at": "",
+      "snippet": "정제 석유제품 생산·공급 확대, 유엔 개혁, 국제형사재판소(ICC) 등의 관할권 남용 반대도 담겼다. 북한 핵 문제나 한반도 비핵화는 언급되지 않았다. 백악관 국가안보회의(NSC) 아시아 담당 국장 출신 빅터 차 CSIS 한국석좌는 이날 CSIS 웹캐스트에서 “이란과...",
+      "collected_at": "2026-11-20T08:19:35.929069+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "석유 담합",
+      "title": "“핵 확산 방지·유엔 개혁”… 미중러, 세기의 원탁 담합",
+      "url": "http://v.daum.net/v/20261120004919509",
+      "source": "서울신문",
+      "published_at": "",
+      "snippet": "정제 석유 제품의 생산과 공급을 늘리겠다”고 밝힌 대목은 미국과 러시아가 각각 일으킨 이란·우크라이나 전쟁 여파로 불안해진 세계 에너지 시장을 진정시키기 위한 의도로 풀이된다. 다만 공동성명에 특정 안보현안에 대한 일방적 결정까지 담기지는 않았고, 핵...",
+      "collected_at": "2026-11-20T08:19:37.427276+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "석유 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "http://v.daum.net/v/20261119174505820",
+      "source": "브릿지경제",
+      "published_at": "",
+      "snippet": "26조원대 석유제품 가격담합 의혹으로 재판을 받고 있는 HD현대오일뱅크가 정유업계의 가격 결정 구조를 앞세워 검찰 주장에 정면 반박했다. 정유사가 주유소에 기름을 공급할 때 우선 적용하는 가격과 실제 거래가 끝난 뒤 확정되는 공급가격은 다르다는 주장이다...",
+      "collected_at": "2026-11-20T08:19:38.928649+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "석유 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+      "source": "브릿지경제",
+      "published_at": "2026-11-19T17:44:00+09:00",
+      "snippet": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 브릿지경제",
+      "collected_at": "2026-11-20T08:19:39.342247+09:00",
+      "raw": {
+        "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+        "id": "CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 08:44:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          8,
+          44,
+          0,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>"
+        },
+        "source": {
+          "href": "https://www.viva100.com",
+          "title": "브릿지경제"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "주유소 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "http://v.daum.net/v/20261119174505820",
+      "source": "브릿지경제",
+      "published_at": "",
+      "snippet": "26조원대 석유제품 가격담합 의혹으로 재판을 받고 있는 HD현대오일뱅크가 정유업계의 가격 결정 구조를 앞세워 검찰 주장에 정면 반박했다. 정유사가 주유소에 기름을 공급할 때 우선 적용하는 가격과 실제 거래가 끝난 뒤 확정되는 공급가격은 다르다는 주장이다...",
+      "collected_at": "2026-11-20T08:19:47.049544+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "주유소 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+      "source": "브릿지경제",
+      "published_at": "2026-11-19T17:44:00+09:00",
+      "snippet": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 브릿지경제",
+      "collected_at": "2026-11-20T08:19:47.445851+09:00",
+      "raw": {
+        "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+        "id": "CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 08:44:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          8,
+          44,
+          0,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>"
+        },
+        "source": {
+          "href": "https://www.viva100.com",
+          "title": "브릿지경제"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "정유업계 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "http://v.daum.net/v/20261119174505820",
+      "source": "브릿지경제",
+      "published_at": "",
+      "snippet": "열린 공판에서 검찰과 HD현대오일뱅크 측 변호인단은 각각 약 1시간 동안 프레젠테이션(PT)을 진행하며 담합 혐의를 놓고 맞섰다. 변호인단은 정유업계의 거래 구조와 가격 결정 방식, 입금가의 성격을 설명하고 담합 성립 요건과 관련 법리를 중심으로 검찰 주장에...",
+      "collected_at": "2026-11-20T08:19:51.036488+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "정유업계 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+      "source": "브릿지경제",
+      "published_at": "2026-11-19T17:44:00+09:00",
+      "snippet": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 브릿지경제",
+      "collected_at": "2026-11-20T08:19:51.419200+09:00",
+      "raw": {
+        "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+        "id": "CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 08:44:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          8,
+          44,
+          0,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>"
+        },
+        "source": {
+          "href": "https://www.viva100.com",
+          "title": "브릿지경제"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "석유제품 담합",
+      "title": "미중러 첫 정상회담, 한국 없이 '한반도 문제'도 논의...무슨 대화? [뉴스타트]",
+      "url": "http://v.daum.net/v/20261120072213774",
+      "source": "YTN",
+      "published_at": "",
+      "snippet": "UN 석유 제품 생산 공급 확대 국제형사재판소 관할권 문제, 핵확산 방지 이런 것에 대해서 3국 정상이 논의했다는 것이지, 여기에 대해서 어떤 구체적인 행동 플랜이라든지 계획이 도출된 것은 아니거든요. 국제형사재판소 관할권 문제만 해도 이것을 문제삼아서...",
+      "collected_at": "2026-11-20T08:19:54.554455+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "석유제품 담합",
+      "title": "미중러 선언에 북한은 없었다…'신얄타' 속 한국 소외 우려",
+      "url": "http://v.daum.net/v/20261120034717181",
+      "source": "이데일리",
+      "published_at": "",
+      "snippet": "정제 석유제품 생산·공급 확대, 유엔 개혁, 국제형사재판소(ICC) 등의 관할권 남용 반대도 담겼다. 북한 핵 문제나 한반도 비핵화는 언급되지 않았다. 백악관 국가안보회의(NSC) 아시아 담당 국장 출신 빅터 차 CSIS 한국석좌는 이날 CSIS 웹캐스트에서 “이란과...",
+      "collected_at": "2026-11-20T08:19:55.938816+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "석유제품 담합",
+      "title": "“핵 확산 방지·유엔 개혁”… 미중러, 세기의 원탁 담합",
+      "url": "http://v.daum.net/v/20261120004919509",
+      "source": "서울신문",
+      "published_at": "",
+      "snippet": "정제 석유 제품의 생산과 공급을 늘리겠다”고 밝힌 대목은 미국과 러시아가 각각 일으킨 이란·우크라이나 전쟁 여파로 불안해진 세계 에너지 시장을 진정시키기 위한 의도로 풀이된다. 다만 공동성명에 특정 안보현안에 대한 일방적 결정까지 담기지는 않았고, 핵...",
+      "collected_at": "2026-11-20T08:19:57.560850+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "석유제품 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "http://v.daum.net/v/20261119174505820",
+      "source": "브릿지경제",
+      "published_at": "",
+      "snippet": "26조원대 석유제품 가격담합 의혹으로 재판을 받고 있는 HD현대오일뱅크가 정유업계의 가격 결정 구조를 앞세워 검찰 주장에 정면 반박했다. 정유사가 주유소에 기름을 공급할 때 우선 적용하는 가격과 실제 거래가 끝난 뒤 확정되는 공급가격은 다르다는 주장이다...",
+      "collected_at": "2026-11-20T08:19:59.109221+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "석유제품 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+      "source": "브릿지경제",
+      "published_at": "2026-11-19T17:44:00+09:00",
+      "snippet": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 브릿지경제",
+      "collected_at": "2026-11-20T08:19:59.543449+09:00",
+      "raw": {
+        "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+        "id": "CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 08:44:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          8,
+          44,
+          0,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>"
+        },
+        "source": {
+          "href": "https://www.viva100.com",
+          "title": "브릿지경제"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "석유제품 담합",
+      "title": "“핵 확산 방지·유엔 개혁”… 미중러, 세기의 원탁 담합",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsU3JqX0RtcXJoYTRMNUpDLXVjSjR1b29XU0JXLTlpMW9JUFJTZlJLMDU2SHJVWnZlNHZLVmNCOUpyZEJWZlhrUi1VX3hlVG5qRWVnTk1vc1psZEE4aHU5WVdGWUxaTF85eGs5UmtZZnl4WWNtSno0?oc=5",
+      "source": "서울신문",
+      "published_at": "2026-11-20T00:13:20+09:00",
+      "snippet": "“핵 확산 방지·유엔 개혁”… 미중러, 세기의 원탁 담합 서울신문",
+      "collected_at": "2026-11-20T08:19:59.543642+09:00",
+      "raw": {
+        "title": "“핵 확산 방지·유엔 개혁”… 미중러, 세기의 원탁 담합 - 서울신문",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "“핵 확산 방지·유엔 개혁”… 미중러, 세기의 원탁 담합 - 서울신문"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsU3JqX0RtcXJoYTRMNUpDLXVjSjR1b29XU0JXLTlpMW9JUFJTZlJLMDU2SHJVWnZlNHZLVmNCOUpyZEJWZlhrUi1VX3hlVG5qRWVnTk1vc1psZEE4aHU5WVdGWUxaTF85eGs5UmtZZnl4WWNtSno0?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsU3JqX0RtcXJoYTRMNUpDLXVjSjR1b29XU0JXLTlpMW9JUFJTZlJLMDU2SHJVWnZlNHZLVmNCOUpyZEJWZlhrUi1VX3hlVG5qRWVnTk1vc1psZEE4aHU5WVdGWUxaTF85eGs5UmtZZnl4WWNtSno0?oc=5",
+        "id": "CBMid0FVX3lxTFBsU3JqX0RtcXJoYTRMNUpDLXVjSjR1b29XU0JXLTlpMW9JUFJTZlJLMDU2SHJVWnZlNHZLVmNCOUpyZEJWZlhrUi1VX3hlVG5qRWVnTk1vc1psZEE4aHU5WVdGWUxaTF85eGs5UmtZZnl4WWNtSno0",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 15:13:20 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          15,
+          13,
+          20,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBsU3JqX0RtcXJoYTRMNUpDLXVjSjR1b29XU0JXLTlpMW9JUFJTZlJLMDU2SHJVWnZlNHZLVmNCOUpyZEJWZlhrUi1VX3hlVG5qRWVnTk1vc1psZEE4aHU5WVdGWUxaTF85eGs5UmtZZnl4WWNtSno0?oc=5\" target=\"_blank\">“핵 확산 방지·유엔 개혁”… 미중러, 세기의 원탁 담합</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">서울신문</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBsU3JqX0RtcXJoYTRMNUpDLXVjSjR1b29XU0JXLTlpMW9JUFJTZlJLMDU2SHJVWnZlNHZLVmNCOUpyZEJWZlhrUi1VX3hlVG5qRWVnTk1vc1psZEE4aHU5WVdGWUxaTF85eGs5UmtZZnl4WWNtSno0?oc=5\" target=\"_blank\">“핵 확산 방지·유엔 개혁”… 미중러, 세기의 원탁 담합</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">서울신문</font>"
+        },
+        "source": {
+          "href": "https://www.seoul.co.kr",
+          "title": "서울신문"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "공정위 유가 담합",
+      "title": "재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52TnYxZWRHQUR4dTA4TjRMTlgzLXZiUFFvYjNlaTdmcWszYldvY09CSl8wUC1TUlhkSkZqVURqTnZta29RMmdjU2JCSzc5aXpRVVhwYW9LZnp0Z3Fl?oc=5",
+      "source": "뉴스핌",
+      "published_at": "2026-11-19T18:10:00+09:00",
+      "snippet": "재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시 뉴스핌",
+      "collected_at": "2026-11-20T08:20:04.554455+09:00",
+      "raw": {
+        "title": "재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시 - 뉴스핌",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시 - 뉴스핌"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52TnYxZWRHQUR4dTA4TjRMTlgzLXZiUFFvYjNlaTdmcWszYldvY09CSl8wUC1TUlhkSkZqVURqTnZta29RMmdjU2JCSzc5aXpRVVhwYW9LZnp0Z3Fl?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52TnYxZWRHQUR4dTA4TjRMTlgzLXZiUFFvYjNlaTdmcWszYldvY09CSl8wUC1TUlhkSkZqVURqTnZta29RMmdjU2JCSzc5aXpRVVhwYW9LZnp0Z3Fl?oc=5",
+        "id": "CBMiXEFVX3lxTE52TnYxZWRHQUR4dTA4TjRMTlgzLXZiUFFvYjNlaTdmcWszYldvY09CSl8wUC1TUlhkSkZqVURqTnZta29RMmdjU2JCSzc5aXpRVVhwYW9LZnp0Z3Fl",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 09:10:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          9,
+          10,
+          0,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE52TnYxZWRHQUR4dTA4TjRMTlgzLXZiUFFvYjNlaTdmcWszYldvY09CSl8wUC1TUlhkSkZqVURqTnZta29RMmdjU2JCSzc5aXpRVVhwYW9LZnp0Z3Fl?oc=5\" target=\"_blank\">재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴스핌</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE52TnYxZWRHQUR4dTA4TjRMTlgzLXZiUFFvYjNlaTdmcWszYldvY09CSl8wUC1TUlhkSkZqVURqTnZta29RMmdjU2JCSzc5aXpRVVhwYW9LZnp0Z3Fl?oc=5\" target=\"_blank\">재경부, 11월 국고채 '모집 방식 비경쟁인수' 발행 미실시</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴스핌</font>"
+        },
+        "source": {
+          "href": "https://www.newspim.com",
+          "title": "뉴스핌"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "SK에너지 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "http://v.daum.net/v/20261119174505820",
+      "source": "브릿지경제",
+      "published_at": "",
+      "snippet": "파악하고 인상 수준을 조율한 행위가 단순 정보교환을 넘어 가격담합이란 해석이다. 검찰이 파악한 HD현대오일뱅크와 SK에너지의 직접 담합 규모는 약 14조2000억원이며, 다른 정유사로 확산된 파급 효과까지 포함하면 26조원 상당의 경쟁제한 효과가 있다는 주장...",
+      "collected_at": "2026-11-20T08:20:10.748077+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "SK에너지 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+      "source": "브릿지경제",
+      "published_at": "2026-11-19T17:44:00+09:00",
+      "snippet": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 브릿지경제",
+      "collected_at": "2026-11-20T08:20:11.138426+09:00",
+      "raw": {
+        "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+        "id": "CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 08:44:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          8,
+          44,
+          0,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>"
+        },
+        "source": {
+          "href": "https://www.viva100.com",
+          "title": "브릿지경제"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "SK에너지 담합",
+      "title": "미, ‘주한미군 납품 담합’ 정유 3사에 2670억원 벌금·배상",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14T1hWMEdYZVpBWWpCeHQwSy0zT3AtcGRPSnllSkkycW5nOTZiT0NqWFZSbFAtaFFTOG5tYlU3TXhwWEZ4anF6S2U4UzBtZFRwVWlqSg?oc=5",
+      "source": "JTBC",
+      "published_at": "2026-11-19T23:45:28+09:00",
+      "snippet": "미, ‘주한미군 납품 담합’ 정유 3사에 2670억원 벌금·배상 JTBC",
+      "collected_at": "2026-11-20T08:20:11.138626+09:00",
+      "raw": {
+        "title": "미, ‘주한미군 납품 담합’ 정유 3사에 2670억원 벌금·배상 - JTBC",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "미, ‘주한미군 납품 담합’ 정유 3사에 2670억원 벌금·배상 - JTBC"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14T1hWMEdYZVpBWWpCeHQwSy0zT3AtcGRPSnllSkkycW5nOTZiT0NqWFZSbFAtaFFTOG5tYlU3TXhwWEZ4anF6S2U4UzBtZFRwVWlqSg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14T1hWMEdYZVpBWWpCeHQwSy0zT3AtcGRPSnllSkkycW5nOTZiT0NqWFZSbFAtaFFTOG5tYlU3TXhwWEZ4anF6S2U4UzBtZFRwVWlqSg?oc=5",
+        "id": "CBMiVEFVX3lxTE14T1hWMEdYZVpBWWpCeHQwSy0zT3AtcGRPSnllSkkycW5nOTZiT0NqWFZSbFAtaFFTOG5tYlU3TXhwWEZ4anF6S2U4UzBtZFRwVWlqSg",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 14:45:28 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          14,
+          45,
+          28,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE14T1hWMEdYZVpBWWpCeHQwSy0zT3AtcGRPSnllSkkycW5nOTZiT0NqWFZSbFAtaFFTOG5tYlU3TXhwWEZ4anF6S2U4UzBtZFRwVWlqSg?oc=5\" target=\"_blank\">미, ‘주한미군 납품 담합’ 정유 3사에 2670억원 벌금·배상</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">JTBC</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE14T1hWMEdYZVpBWWpCeHQwSy0zT3AtcGRPSnllSkkycW5nOTZiT0NqWFZSbFAtaFFTOG5tYlU3TXhwWEZ4anF6S2U4UzBtZFRwVWlqSg?oc=5\" target=\"_blank\">미, ‘주한미군 납품 담합’ 정유 3사에 2670억원 벌금·배상</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">JTBC</font>"
+        },
+        "source": {
+          "href": "https://news.jtbc.co.kr",
+          "title": "JTBC"
+        }
+      }
+    },
+    {
+      "portal": "daum",
+      "query": "현대오일뱅크 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "http://v.daum.net/v/20261119174505820",
+      "source": "브릿지경제",
+      "published_at": "",
+      "snippet": "26조원대 석유제품 가격담합 의혹으로 재판을 받고 있는 HD현대오일뱅크가 정유업계의 가격 결정 구조를 앞세워 검찰 주장에 정면...변호인단은 각각 약 1시간 동안 프레젠테이션(PT)을 진행하며 담합 혐의를 놓고 맞섰다. 변호인단은 정유업계의 거래 구조와 가격...",
+      "collected_at": "2026-11-20T08:20:14.538657+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "현대오일뱅크 담합",
+      "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+      "source": "브릿지경제",
+      "published_at": "2026-11-19T17:44:00+09:00",
+      "snippet": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 브릿지경제",
+      "collected_at": "2026-11-20T08:20:14.976254+09:00",
+      "raw": {
+        "title": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박 - 브릿지경제"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5",
+        "id": "CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw",
+        "guidislink": false,
+        "published": "Thu, 19 Nov 2026 08:44:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          19,
+          8,
+          44,
+          0,
+          3,
+          323,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aTFRelZZNGtvWDV0TFNtQ01POERkcEt3ZFltRkFobzh1cEhjVUZCN2VoLXl1MFJzSWV3cWFUd0Z6eTdKZ3lKVHdQRml5RF9nZjY2aFFpOEJkZw?oc=5\" target=\"_blank\">26조 유가담합 공방⋯ HD현대오일뱅크, 가격 결정 구조로 혐의 반박</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">브릿지경제</font>"
+        },
+        "source": {
+          "href": "https://www.viva100.com",
+          "title": "브릿지경제"
+        }
+      }
+    }
+  ]
+}
