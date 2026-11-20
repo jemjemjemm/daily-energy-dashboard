@@ -3,101 +3,745 @@
   "slot": "evening",
   "status": "published",
   "period": "수집 기간: 2026-11-20 08:00 ~ 2026-11-20 17:00 (KST)",
-  "published_at": "2026-11-20T17:18:24+09:00",
+  "published_at": "2026-11-20T17:20:47+09:00",
   "committees": [
     {
       "id": "industry",
-      "priority": [],
-      "all": []
-    },
-    {
-      "id": "climate_labor",
-      "priority": [],
-      "all": [
+      "priority": [
         {
-          "summary": "대구 팔현습지 보도교 예산 절반 삭감…환경단체 \"환영\" 발언",
-          "event_id": "981db870d870c696346d",
+          "title": "한국·노르웨이, 방산·에너지로 협력 확대…공동사업 발굴",
+          "url": "https://www.yna.co.kr/view/AKR20261120025100003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T09:00:01+09:00",
+          "summary": "한국·노르웨이, 방산·에너지 협력 확대 및 공동사업 발굴 논의",
+          "event_id": "1120e-22fce0256b57",
           "committees": [
-            "climate_labor"
+            "industry"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "committee_reason": "경제협력위원회 통상·산업협력 맥락으로 산중위 배정. 본문에 해상풍력 공동개발·부유식 기술 협력 명시. LNG 도입계약으로 확대 없음.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소 정책 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T09:00:01+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "c10c80aa3ebbad0981d185fceee4952e85ca5b105c911f522529c7a3007a1a5e"
+        },
+        {
+          "title": "충주 이차전지 소재 기업, 첨단전략산업 정부 지원 대상 선정",
+          "url": "https://www.yna.co.kr/view/AKR20261120100500064",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T14:03:32+09:00",
+          "summary": "산업부, 이차전지 소재 기업 투자지원 대상 선정 및 생산라인 확충 지원 추진",
+          "event_id": "1120e-a20face189af",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "국가첨단전략산업 공급망 안정·설비투자 지원정책으로 산중위 배정. 투자 390억원·지원금 150억원은 계획으로 집행액과 구분.",
+          "categories": [
+            "배터리"
+          ],
+          "category_reason": "원문에 명시된 배터리 정책 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T14:03:32+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "ab8026206204d4e203a172331121d4a7ee625d73c4c0941e9d9bbb7f2d88d3a7"
+        }
+      ],
+      "all": [
+        {
+          "title": "산업장관 \"수출 온기 확산하고 새로운 동력 발굴해야\"(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261120077151003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T13:42:01+09:00",
+          "summary": "산업장관, 수출 온기 확산·신성장동력 육성·통상협력 과제 및 초광역특구법 필요성 제시",
+          "event_id": "1120e-2656da57259e",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "산업장관 경제6단체 간담회 통상·산업정책 발언으로 산중위 배정. 같은 날 정오 원문과 종합 모두 구간 내, 동일 사건 병합.",
           "categories": [],
           "category_reason": "",
           "importance": {
             "legislation": 3,
-            "impact": 2,
-            "speaker": 1
+            "impact": 3,
+            "speaker": 3
           },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T13:42:01+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "202c91c4e1f7a5285d0f53ddff28313b8a68f53565927c6fe30eb5ba69dcd125"
+        },
+        {
+          "title": "한국·노르웨이, 방산·에너지로 협력 확대…공동사업 발굴",
+          "url": "https://www.yna.co.kr/view/AKR20261120025100003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T09:00:01+09:00",
+          "summary": "한국·노르웨이, 방산·에너지 협력 확대 및 공동사업 발굴 논의",
+          "event_id": "1120e-22fce0256b57",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "경제협력위원회 통상·산업협력 맥락으로 산중위 배정. 본문에 해상풍력 공동개발·부유식 기술 협력 명시. LNG 도입계약으로 확대 없음.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소 정책 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T09:00:01+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "c10c80aa3ebbad0981d185fceee4952e85ca5b105c911f522529c7a3007a1a5e"
+        },
+        {
+          "title": "통상본부장, 우루과이와 메르코수르 무역협정 재개 논의",
+          "url": "https://www.yna.co.kr/view/AKR20261120031100003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T11:00:01+09:00",
+          "summary": "통상본부장, 우루과이와 한·메르코수르 무역협정 협상 재개 논의",
+          "event_id": "1120e-4c3c6ef16021",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부 통상교섭 정책으로 산중위 배정. 재개 요청과 합의·체결 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T11:00:01+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "c7913e89237e289869cb950c213a60e6ada630248f4aff5af44da5d8646ff7e1"
+        },
+        {
+          "title": "중기부, 중소기업 공공구매 촉진 유공 기관·개인 39점 포상",
+          "url": "https://www.yna.co.kr/view/AKR20261120036400030",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T14:30:15+09:00",
+          "summary": "중기부, 공공구매 촉진 유공자 포상 및 중소기업 혁신제품 구매상담회 개최",
+          "event_id": "1120e-aebec08e442a",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "중기부 공공조달·중소기업 판로 지원정책 소관. 단순 기업 수상 홍보와 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T14:30:15+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "f413bf3d4814391e9daab1d0e221954804d798d4a98d336a278471ded01a3924"
+        },
+        {
+          "title": "중기연 \"지역화폐 활성화 위해 가맹점 간 재사용 유도해야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261120048600030",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T09:50:04+09:00",
+          "summary": "중기연, 지역화폐 가맹점 간 재사용 유도 등 활성화 방안 제안",
+          "event_id": "1120e-de4f04427540",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "중소기업·소상공인 지역상권 정책 연구로 산중위 배정. 정책 제안과 시행 확정 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T09:50:04+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "401b0e7109aceb75e0383e42875ab562e41c80d0f8da7896f6e0035e20e7e118"
+        },
+        {
+          "title": "충주 이차전지 소재 기업, 첨단전략산업 정부 지원 대상 선정",
+          "url": "https://www.yna.co.kr/view/AKR20261120100500064",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T14:03:32+09:00",
+          "summary": "산업부, 이차전지 소재 기업 투자지원 대상 선정 및 생산라인 확충 지원 추진",
+          "event_id": "1120e-a20face189af",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "국가첨단전략산업 공급망 안정·설비투자 지원정책으로 산중위 배정. 투자 390억원·지원금 150억원은 계획으로 집행액과 구분.",
+          "categories": [
+            "배터리"
+          ],
+          "category_reason": "원문에 명시된 배터리 정책 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T14:03:32+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "ab8026206204d4e203a172331121d4a7ee625d73c4c0941e9d9bbb7f2d88d3a7"
+        },
+        {
+          "title": "한수원 \"대우건설 컨소시엄과 체코원전 시공 공동협약 종료\"",
+          "url": "https://www.yna.co.kr/view/AKR20261120114200003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T14:51:44+09:00",
+          "summary": "한수원, 대우건설 컨소시엄과 체코원전 시공 공동협약 종료 및 후속 시공사 선정 추진",
+          "event_id": "1120e-99778c1be207",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "국가 원전 수출사업 이행·산업부 점검 소관. 일반 대형원전 사업이므로 SMR 태그 확대 없음. 신규 계약은 계획과 체결 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T14:51:44+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "4f38b0353d7d9dec16bd1bc5ef5c297a11e3a66acdfd30e3500d047de53c4e4f"
+        }
+      ]
+    },
+    {
+      "id": "climate_labor",
+      "priority": [
+        {
+          "title": "[AI픽] AI데이터센터 전력심사 간소화…초대형 사업은 우선 심사",
+          "url": "https://www.yna.co.kr/view/AKR20261120071400017",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T12:00:01+09:00",
+          "summary": "정부, 비수도권 50MW 이하 AIDC 전력평가 면제 시행령 입법예고 및 우선심사 추진",
+          "event_id": "1120e-43bf7432bda2",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부 전력계통영향평가 제도개선 소관. 과기정통부 공동정책이나 실제 전력심사 규제 맥락으로 기노위 단일 배정. 입법예고와 시행 구분.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력 정책 직접 관련",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T12:00:01+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "85c22f2416029e73b2f115f51b83fe77fe17a168834da2cb7af40483cd564650"
+        },
+        {
+          "title": "통합발전사 ‘공사’ 전환 시 사채한도 족쇄 우려…정부 “유연하게 검토”",
+          "url": "https://www.electimes.com/news/articleView.html?idxno=375069",
+          "press": "전기신문",
+          "published_at": "2026-11-20T15:45:00+09:00",
+          "summary": "국회 토론회, 통합발전사 사채한도·자본확충·노동자 참여 방안 논의 및 기후부 유연 검토 제시",
+          "event_id": "1120e-86a084f6ba1f",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "김정호",
+            "박지혜",
+            "김소희"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "본문 김정호·박지혜·김소희 공동주최, 보완 roster의 각 기노위 소속·원문 근거 대조. 기후부 발전사 통합 법안심사 맥락. 제안과 정부 확정안 구분.",
+          "categories": [
+            "LNG·전력",
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력, 재생에너지·수소 정책 직접 관련",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026.11.20 15:45; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "c25725d201210d2b1f786849d489380ec9137c6bf2c96b333ffc3717259e4861"
+        },
+        {
+          "title": "IEA \"호르무즈 사태, 역대 최대 에너지 충격…'전기의 시대' 진입\"",
+          "url": "https://www.yna.co.kr/view/AKR20261120051200530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T10:02:46+09:00",
+          "summary": "IEA, 호르무즈 에너지 충격 진단 및 한국 재생에너지 보급계획 이행 필요성 제시",
+          "event_id": "1120e-ff345f254480",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부 소관 에너지 전환·공급망 정책 평가로 기노위 배정. 전망·권고를 확정 실적으로 확대 없음.",
+          "categories": [
+            "정유·유가/담합",
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합, 재생에너지·수소 정책 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T10:02:46+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "7bb8d74345d8aa5b8026bbd93c4aefe33bbb88849821dea73e852aba3969eb04"
+        },
+        {
+          "title": "충주시, 345억 들여 노후 산단에 재생에너지 인프라 구축",
+          "url": "https://www.yna.co.kr/view/AKR20261120095700064",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T13:44:29+09:00",
+          "summary": "충주시, 노후 산단 태양광·ESS 및 에너지 통합관리 인프라 구축계획 발표",
+          "event_id": "1120e-c719d26477a7",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "재생에너지 보급·에너지 관리 정책으로 기노위 배정. 345억원·2029년 구축은 계획이며 집행·준공 아님.",
+          "categories": [
+            "재생에너지·수소",
+            "LNG·전력"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소, LNG·전력 정책 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T13:44:29+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "7b0c8ea25293e5b9294ffc529088d5e8424666218cb338778bd1702b5ff86c76"
+        }
+      ],
+      "all": [
+        {
+          "title": "[AI픽] AI데이터센터 전력심사 간소화…초대형 사업은 우선 심사",
+          "url": "https://www.yna.co.kr/view/AKR20261120071400017",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T12:00:01+09:00",
+          "summary": "정부, 비수도권 50MW 이하 AIDC 전력평가 면제 시행령 입법예고 및 우선심사 추진",
+          "event_id": "1120e-43bf7432bda2",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부 전력계통영향평가 제도개선 소관. 과기정통부 공동정책이나 실제 전력심사 규제 맥락으로 기노위 단일 배정. 입법예고와 시행 구분.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력 정책 직접 관련",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T12:00:01+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "85c22f2416029e73b2f115f51b83fe77fe17a168834da2cb7af40483cd564650"
+        },
+        {
+          "title": "통합발전사 ‘공사’ 전환 시 사채한도 족쇄 우려…정부 “유연하게 검토”",
+          "url": "https://www.electimes.com/news/articleView.html?idxno=375069",
+          "press": "전기신문",
+          "published_at": "2026-11-20T15:45:00+09:00",
+          "summary": "국회 토론회, 통합발전사 사채한도·자본확충·노동자 참여 방안 논의 및 기후부 유연 검토 제시",
+          "event_id": "1120e-86a084f6ba1f",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "김정호",
+            "박지혜",
+            "김소희"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "본문 김정호·박지혜·김소희 공동주최, 보완 roster의 각 기노위 소속·원문 근거 대조. 기후부 발전사 통합 법안심사 맥락. 제안과 정부 확정안 구분.",
+          "categories": [
+            "LNG·전력",
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력, 재생에너지·수소 정책 직접 관련",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026.11.20 15:45; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "c25725d201210d2b1f786849d489380ec9137c6bf2c96b333ffc3717259e4861"
+        },
+        {
           "title": "대구 팔현습지 보도교 예산 절반 삭감…환경단체 \"환영\"",
-          "url": "https://www.yna.co.kr/view/AKR20261120128300053?input=1195m",
+          "url": "https://www.yna.co.kr/view/AKR20261120128300053",
           "press": "연합뉴스",
           "published_at": "2026-11-20T15:42:35+09:00",
-          "time_evidence": "원문 published_time 2026-11-20T15:42:35+09:00",
-          "source_body_sha256": "a9e208678e0ea34981ca918dd5d548c90d437d23f90662b467dc47ffb68d40b2",
-          "verified": true
-        },
-        {
-          "summary": "기획처·중장기전략위, 산업경쟁력 높일 노동·교육 제도 개선 논의",
-          "event_id": "4c5caf205b3ddff3724f",
+          "summary": "기노위, 팔현습지 보도교 예산 절반 삭감 의결 및 환경단체 환영 입장 발표",
+          "event_id": "1120e-c9fb341f7502",
           "committees": [
             "climate_labor"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "제목·본문 주된 부처 및 명시된 정책·법안·현안",
+          "committee_reason": "원문에 기노위 예산 심사 명시. 상임위 의결과 본회의 최종 예산·사업 폐기 확정 구분.",
           "categories": [],
           "category_reason": "",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 1
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 2
           },
-          "title": "기획처·중장기전략위, 산업경쟁력 높일 노동·교육 제도 개선 논의",
-          "url": "https://www.news1.kr/economy/trend/6361013",
-          "press": "뉴스1",
-          "published_at": "2026-11-20T15:58:07+09:00",
-          "time_evidence": "원문 published_time 2026-11-20T15:58:07+09:00",
-          "source_body_sha256": "63931145898218a2a3e7b3cf139e0354889e9b51ed201c8ac2508f6e044250b4",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T15:42:35+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "a3f46c60a5392a48c924f88b5d31c4fbc80adb783b3e7a1035156914d1d8af95"
         },
         {
-          "summary": "[단독] '괴롭힘 금지구제 지원관' 신설 추진…직장 내 괴롭힘 피해자 지원 강화",
-          "event_id": "2ec56856c965a9b48dd3",
-          "committees": [
-            "climate_labor"
-          ],
-          "members": [],
-          "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 1
-          },
           "title": "[단독] '괴롭힘 금지구제 지원관' 신설 추진…직장 내 괴롭힘 피해자 지원 강화",
           "url": "https://www.newspim.com/news/view/20261120000010",
           "press": "뉴스핌",
           "published_at": "2026-11-20T08:00:00+09:00",
-          "time_evidence": "원문 published_time 2026-11-20T08:00:00+09:00",
-          "source_body_sha256": "4043dc5e4796edcc128caaed419c6d2b0eb3b8a54ccefe06b4a94a8098478fb8",
-          "verified": true
+          "summary": "기노위, 직장 내 괴롭힘 구제 지원관 50명 시범도입 예산안 제안",
+          "event_id": "1120e-5a8a8266a52c",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기노위 노동부 예산심사 명시. 예결위·본회의 심사 잔여로 인력 채용·집행 확정과 구분. 08:00 경계 포함.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T08:00:00+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "4043dc5e4796edcc128caaed419c6d2b0eb3b8a54ccefe06b4a94a8098478fb8"
+        },
+        {
+          "title": "IEA \"호르무즈 사태, 역대 최대 에너지 충격…'전기의 시대' 진입\"",
+          "url": "https://www.yna.co.kr/view/AKR20261120051200530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T10:02:46+09:00",
+          "summary": "IEA, 호르무즈 에너지 충격 진단 및 한국 재생에너지 보급계획 이행 필요성 제시",
+          "event_id": "1120e-ff345f254480",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부 소관 에너지 전환·공급망 정책 평가로 기노위 배정. 전망·권고를 확정 실적으로 확대 없음.",
+          "categories": [
+            "정유·유가/담합",
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합, 재생에너지·수소 정책 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T10:02:46+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "7bb8d74345d8aa5b8026bbd93c4aefe33bbb88849821dea73e852aba3969eb04"
+        },
+        {
+          "title": "정부, 노동시장 이중구조 개선 착수…산업구조까지 들여다본다",
+          "url": "https://www.yna.co.kr/view/AKR20261120054400530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T10:07:52+09:00",
+          "summary": "노동부, 노동시장 이중구조 개선반 첫 회의 및 산업구조·거래관행 종합 점검 착수",
+          "event_id": "1120e-125bab5d1dcd",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "노동차관 주재 노동시장 양극화 정책으로 기노위 단일 배정. 재경부 참여만으로 재경위 중복 배정 없음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T10:07:52+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "92e8570a94f6082c147b58f87bfe7ad7648c82af6ef66c9638f2e2ca587ce51e"
+        },
+        {
+          "title": "취약계층 돌봄·주거·교육 힘쓴 '올해의 사회적기업' 12곳 선정",
+          "url": "https://www.yna.co.kr/view/AKR20261120058300530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T14:00:02+09:00",
+          "summary": "노동부, 취약계층 일자리·사회서비스 기여 사회적기업 12곳 선정",
+          "event_id": "1120e-587a550f8930",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "노동부 사회적기업·취약계층 고용정책 소관으로 기노위 배정.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T14:00:02+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "3ac80afae511dba2b37b0be6dec96ba94f002a72445c9feaf7d552fdadaaee75"
+        },
+        {
+          "title": "기상청 \"온실가스 고배출 시 21세기 후반 지구 온도 3.6도↑\"",
+          "url": "https://www.yna.co.kr/view/AKR20261120066800530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T11:00:00+09:00",
+          "summary": "기상청, 온실가스 고배출 시 세기 후반 기온 3.6도 상승 시나리오 발표",
+          "event_id": "1120e-69c95c0da85a",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후변화 과학·정책 소관 기노위. 현재 대비 기온 상승 전망이며 확정 관측·산업화 이전 대비 수치와 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T11:00:00+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "e60f26f547a93fbd7821c1e27b506f7a9d4b41fad442481c17f9d3379044e6c9"
+        },
+        {
+          "title": "노동장관, 건설현장 불시 점검…한파쉼터 없고 추락방지 부실",
+          "url": "https://www.yna.co.kr/view/AKR20261120081800530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T11:42:04+09:00",
+          "summary": "노동장관, 중소 건설현장 한파·추락 안전조치 불시 점검 및 개선 지시",
+          "event_id": "1120e-166ae9a1c36a",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "고용노동부 산업안전 감독 소관. 위반 적발·사법처리와 확정 유죄판결 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T11:42:04+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "c546ee8518efa7b155db5931058d950c72840e1e5cd5487e11e9150c27b1d9aa"
+        },
+        {
+          "title": "충주시, 345억 들여 노후 산단에 재생에너지 인프라 구축",
+          "url": "https://www.yna.co.kr/view/AKR20261120095700064",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T13:44:29+09:00",
+          "summary": "충주시, 노후 산단 태양광·ESS 및 에너지 통합관리 인프라 구축계획 발표",
+          "event_id": "1120e-c719d26477a7",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "재생에너지 보급·에너지 관리 정책으로 기노위 배정. 345억원·2029년 구축은 계획이며 집행·준공 아님.",
+          "categories": [
+            "재생에너지·수소",
+            "LNG·전력"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소, LNG·전력 정책 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T13:44:29+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "7b0c8ea25293e5b9294ffc529088d5e8424666218cb338778bd1702b5ff86c76"
         }
       ]
     },
     {
       "id": "finance",
       "priority": [],
-      "all": []
+      "all": [
+        {
+          "title": "野안상훈, '국가채무 상환에 사용' 지속가능미래기금법 발의",
+          "url": "https://www.yna.co.kr/view/AKR20261120054500001",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T11:20:00+09:00",
+          "summary": "안상훈, 세수 증가분 적립·공적연금 안정·국가채무 상환 목적 지속가능미래기금법 발의",
+          "event_id": "1120e-cb8c609490a7",
+          "committees": [
+            "finance"
+          ],
+          "members": [
+            "안상훈"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "기사 재경위 안상훈 소속 명시 및 사용자 Excel roster Sheet0!D452 대조. 법안 발의와 통과·기금 설치 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T11:20:00+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "562a0963b810911556c90ba44cc1e18f71f056080cc40f4bc04af65de01e34be"
+        },
+        {
+          "title": "환경공단·원자력안전기술원 등 임직원 ‘영리업무 금지’ 기준 명확해진다 - 에너지데일리",
+          "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205312",
+          "press": "에너지데일리",
+          "published_at": "2026-11-20T15:23:28+09:00",
+          "summary": "김상훈, 공공기관 임직원 영리업무 금지 범위 명확화 위한 5개 법 개정안 발의",
+          "event_id": "1120e-78f37ce57e89",
+          "committees": [
+            "finance"
+          ],
+          "members": [
+            "김상훈"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "기사 김상훈 재경위 소속 명시 및 사용자 Excel roster Sheet0!D450 대조. 주된 발의 의원 기준 재경위 단일 배정. 환경 관련 법 제목만으로 기노위 중복 없음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T15:23:28+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "42b1fe82f91c3826d8294c45a67f3430ce72a3f46997c84d145ba196101d29e4"
+        },
+        {
+          "title": "\"정부안으론 못막는다\"…주가누르기 방지법, '하위 25%' 대신 'PBR 0.8배'로 가닥",
+          "url": "https://www.hankyung.com/article/202611209876i",
+          "press": "한국경제",
+          "published_at": "2026-11-20T15:40:00+09:00",
+          "summary": "재경위 조세소위, 주가누르기 방지법 PBR 절대기준 중심 검토 보도",
+          "event_id": "1120e-4b96c25a143f",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "실제 상속·증여세법 조세소위 심사 맥락으로 재경위 배정. 의원 개인 발언을 요약하지 않고 심사 쟁점만 기록. PBR 0.8배 방안은 검토 중이며 확정·통과 아님.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026.11.20 15:40; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "82dab3e0a21aad34a8a10b8f5e014abafeb5d88fb5d70992ccd1534a07f0209a"
+        },
+        {
+          "title": "퇴직 임직원 할인판매 과세 소득세법개정안, 재경위 조세소위 잠정 의결 - 日刊 NTN(국세신문사)",
+          "url": "https://www.intn.co.kr/news/articleView.html?idxno=3000413",
+          "press": "일간NTN",
+          "published_at": "2026-11-20T11:01:00+09:00",
+          "summary": "재경위 조세소위, 퇴직 임직원 할인 이익 과세 소득세법 개정안 잠정 의결 보도",
+          "event_id": "1120e-9cd5e45ae96f",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "본문 실제 조세소위 심사 맥락. 11일 심사 사실을 20일 보도한 기사로 보도시각 구간 적용. 본회의 통과·시행 확정 아님.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T11:01:00+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "3b620bc7ba102f05b2a8951c7e6e6eee368390583bdd299af0f85754941bb3e7"
+        },
+        {
+          "title": "증시 급락에 위험회피…국고채 금리 일제히 하락(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261120145551008",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T16:52:13+09:00",
+          "summary": "국고채 금리 일제 하락 및 3년물 연 3.642% 마감",
+          "event_id": "1120e-2aee3552bbdc",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "국채 조달금리·국고 시장 파급 맥락으로 재경위 배정. 개별주식 일반 투자기사와 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-20T16:52:13+09:00; 발행사 본문·최초 송고 또는 입력시각 직접 대조. 수정·검색·포털 전송시각 미사용",
+          "source_body_sha256": "4cc6e761af94314abf6ff5ca98d11fc5034ceadb36c91f826a379b671a805a1e"
+        }
+      ]
     }
   ],
-  "review_method": "deterministic-original-source-review",
+  "review_method": "original-source-manual-editorial-review",
   "limitations": [
-    "일부 검색원 오류; 주제별 검색 결과·오류 및 보완 검색 기록은 검토 파일 참조",
-    "발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음",
-    "선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요."
+    "공개검색 노출 및 일부 발행사 접속 제한. 수량 충족을 위한 중복·시간대 밖·무관 기사 추가 없음. 비공개 공문·회신 확인 불가."
   ]
 }
