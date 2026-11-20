@@ -1,0 +1,568 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-20",
+  "slot": "evening",
+  "period_start": "2026-11-20T08:00:00+09:00",
+  "period_end": "2026-11-20T17:00:00+09:00",
+  "period_label": "2026-11-20 08:00 ~ 2026-11-20 17:00",
+  "generated_at": "2026-11-20T17:20:04.689974+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 94,
+  "total_enriched_input_count": 22,
+  "total_in_period_unique_count": 10,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 4,
+  "total_deduped_count": 8,
+  "total_ok_count": 5,
+  "total_review_count": 3,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 1,
+    "B": 1,
+    "C": 6
+  },
+  "portal_counts": {
+    "naver": 51,
+    "daum": 43,
+    "google": 0
+  },
+  "query_counts": {
+    "SK에너지 담합": 5,
+    "경유 담합": 1,
+    "공정거래위원회 정유사 담합": 2,
+    "공정위 유가 담합": 4,
+    "기름값 담합": 1,
+    "석유 담합": 6,
+    "석유제품 담합": 5,
+    "유가 담합": 5,
+    "유가담합": 5,
+    "정유사 담합": 3,
+    "정유업계 담합": 3,
+    "주유소 담합": 3,
+    "현대오일뱅크 담합": 4,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-20T17:18:24.358414+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "[코오롱인더스트리 리스크] 아라미드 공급 경쟁·원재료값 상승… 합병 사업장 안전관리 부담",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083582",
+      "published_at": "2026-11-20T17:13:14+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-20T17:13:14+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[특징주] 한화솔루션·현대에너지솔루션·한솔테크닉스, 태양광 패널 담합 의혹에 급락",
+      "url": "http://www.biztribune.co.kr/news/articleView.html?idxno=362920",
+      "published_at": "2026-11-20T16:56:28+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-20T16:56:28+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "식품사 원가 부담 5년 새 가중…10곳 중 8곳 원가율↑",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=885581",
+      "published_at": "2026-11-20T15:06:09+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-20T15:06:09+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "대형 3곳 다 밀리고 iM만 영업익 늘었다···증권사 12곳 비교해 보니",
+      "url": "https://www.womaneconomy.co.kr/news/articleView.html?idxno=261421",
+      "published_at": "2026-11-20T15:00:53+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-20T15:00:53+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "공판서 유가 담합 의혹 맞선 정유 4사…거래 관행 개선은 ‘진행중’",
+      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=130984",
+      "published_at": "2026-11-20T14:26:09+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-20T14:26:09+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "HD현대오일뱅크·SK에너지·에쓰오일·GS칼텍스 ‘입금가 정보교환’ 놓고 법리공방",
+      "url": "https://www.naeil.com/news/read/609523?ref=naver",
+      "published_at": "2026-11-20T13:00:03+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-20T13:00:03+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "정기선 준법경영 시험대…HD현대오일뱅크 담합 재판 어디까지?(2부) - 더투데이",
+      "url": "https://www.the-today.com/news/articleView.html?idxno=93822",
+      "published_at": "2026-11-20T12:49:14+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-20T12:49:14+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "석유 한 방울 안 나는데 … 수출 금자탑 견인하고도 웃지 못하는 K정유사",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/20/2026112050104.html",
+      "published_at": "2026-11-20T11:18:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-20 11:18",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "미중러 첫 정상회담, 한국 없이 '한반도 문제'도 논의...무슨 대화? [뉴스타트]",
+      "url": "https://www.ytn.co.kr/_ln/0104_202611200716038203",
+      "published_at": "2026-11-20T07:16:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-20T07:16:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "“핵 확산 방지·유엔 개혁”… 미중러, 세기의 원탁 담합",
+      "url": "https://www.seoul.co.kr/news/international/2026/11/20/20261120001008?wlog_tag3=naver",
+      "published_at": "2026-11-20T00:13:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026-11-20 00:13",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "미중러 선언에 북한은 없었다…'신얄타' 속 한국 소외 우려",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01174246645647688&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "published_at": "2026-11-20T04:18:50.177348+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "석화·정유 이어 태양광까지…공정위, 담합 조사 범위 확대",
+      "url": "http://v.daum.net/v/20261120164721829",
+      "published_at": "2026-11-20T16:47:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 20. 16:47",
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "[미디어분석]11월 20일 주요일간지 1면…'한덕수 일부 무죄'에 엇갈린 시선, 미·중·러 정상회담·수능 부정행위 집중 조명",
+      "url": "https://cp.news.search.daum.net/p/184560395",
+      "published_at": "2026-11-20T08:14:55+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-20T08:14:55+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "중소형 증권사 순익 1년 새 67% '뚝'…상품운용 부진에 내년 유동성 규제 '이중고'",
+      "url": "http://v.daum.net/v/20261120145605052",
+      "published_at": "2026-11-20T14:56:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 20. 14:56",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "HD현대오일뱅크·SK에너지·에쓰오일·GS칼텍스 ‘입금가 정보교환’ 놓고 법리공방",
+      "url": "https://www.naeil.com/news/read/609523?ref=naver",
+      "source": "내일신문",
+      "published_at": "2026-11-20T13:00:03+09:00",
+      "snippet": "기름값을 담합 해 인상한 혐의로 재판에 넘겨진 국내 정유 4사에 대한 재판에서 공소청과 정유사간 치열한 법리 공방이 벌어졌다. 서울중앙지방법원... 검사는 전쟁 직후 국내 석유제품 가격이 과거와 달리 이례적으로 빠르게 상승한 점을 담합 의혹을 뒷받침하는 정황으로 제시했다. 또 HD현대오일뱅크와...",
+      "collected_at": "2026-11-20T17:18:25.376365+09:00",
+      "normalized_title": "HD현대오일뱅크·SK에너지·에쓰오일·GS칼텍스 ‘입금가 정보교환’ 놓고 법리공방",
+      "source_normalized": "내일신문",
+      "duplicate_key": "내일신문::hd현대오일뱅크·sk에너지·에쓰오일·gs칼텍스 ‘입금가 정보교환’ 놓고 법리공방",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.naeil.com/news/read/609523?ref=naver",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-20T13:00:03+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "03475c4b3e577740",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "기름값",
+        "석유제품",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "석유 한 방울 안 나는데 … 수출 금자탑 견인하고도 웃지 못하는 K정유사",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/20/2026112050104.html",
+      "source": "뉴데일리",
+      "published_at": "2026-11-20T11:18:00+09:00",
+      "snippet": "그러나 정작 정유사들은 정부의 석유제품 최고가격제와 수출 제한에 따른 부담에 더해 공정거래위원회의 담합 조사까지 직면하면서 수출 성과를 마냥... 1964년 SK에너지 의 전신인 울산정유공장이 하루 3만5000배럴의 정제능력으로 가동을 시작했다. 이후 정유사들은 정제시설 확충과 고도화설비 투자를 통해...",
+      "collected_at": "2026-11-20T17:18:43.606296+09:00",
+      "normalized_title": "석유 한 방울 안 나는데 … 수출 금자탑 견인하고도 웃지 못하는 K정유사",
+      "source_normalized": "뉴데일리",
+      "duplicate_key": "뉴데일리::석유 한 방울 안 나는데 … 수출 금자탑 견인하고도 웃지 못하는 k정유사",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "정유업계 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://biz.newdaily.co.kr/site/data/html/2026/11/20/2026112050104.html",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026-11-20 11:18",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "23db8837a3d33da2",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "석유제품",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "정기선 준법경영 시험대…HD현대오일뱅크 담합 재판 어디까지?(2부) - 더투데이",
+      "url": "https://www.the-today.com/news/articleView.html?idxno=93822",
+      "source": "더투데이",
+      "published_at": "2026-11-20T12:49:14+09:00",
+      "snippet": "20일 공정거래위원회 발표와 회사 공시, 관련 수사·재판 보도를 종합하면 HD현대오일뱅크는 SK에너지와 석유제품 가격을 담합 한 혐의로 형사재판을 받고 있다. 공정위도 지난달 7일 두 회사에 심사보고서를 송부하고 심의를 시작했다. 공정위 심사관은 두 회사가 2022년 2월부터 올해 3월까지 휘발유· 경유 ...",
+      "collected_at": "2026-11-20T17:18:25.377034+09:00",
+      "normalized_title": "정기선 준법경영 시험대…HD현대오일뱅크 담합 재판 어디까지?(2부) - 더투데이",
+      "source_normalized": "더투데이",
+      "duplicate_key": "더투데이::정기선 준법경영 시험대…hd현대오일뱅크 담합 재판 어디까지?(2부) - 더투데이",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.the-today.com/news/articleView.html?idxno=93822",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-20T12:49:14+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "fa0bc01b6fbbfd07",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[미디어분석]11월 20일 주요일간지 1면…'한덕수 일부 무죄'에 엇갈린 시선, 미·중·러 정상회담·수능 부정행위 집중 조명",
+      "url": "https://cp.news.search.daum.net/p/184560395",
+      "source": "미디어인뉴스",
+      "published_at": "2026-11-20T08:14:55+09:00",
+      "snippet": "주요 기사로 배치했다. 3국 정상의 회담 결과를 소개하며 석유 공급 확대와 국제협력 관련 합의도 함께 다뤘다. 미국·중국·러시아...서울신문은 '\"핵 확산 방지·유엔 개혁\"…미중러, 세기의 원탁 담합'이라는 제목으로 정상회담을 다뤘다. '원탁 담합'이라는 표현...",
+      "collected_at": "2026-11-20T17:18:57.298683+09:00",
+      "normalized_title": "[미디어분석]11월 20일 주요일간지 1면…'한덕수 일부 무죄'에 엇갈린 시선, 미·중·러 정상회담·수능 부정행위 집중 조명",
+      "source_normalized": "미디어인뉴스",
+      "duplicate_key": "미디어인뉴스::[미디어분석]11월 20일 주요일간지 1면…'한덕수 일부 무죄'에 엇갈린 시선, 미·중·러 정상회담·수능 부정행위 집중 조명",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "석유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://cp.news.search.daum.net/p/184560395",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-20T08:14:55+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "bfac48cd9283d43c",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[특징주] 한화솔루션·현대에너지솔루션·한솔테크닉스, 태양광 패널 담합 의혹에 급락",
+      "url": "http://www.biztribune.co.kr/news/articleView.html?idxno=362920",
+      "source": "비즈트리뷴",
+      "published_at": "2026-11-20T16:56:28+09:00",
+      "snippet": "한화솔루션 주가 ㅣ 네이버증권 공정거래위원회( 공정위 )가 태양광 발전 패널 담합 의혹과 관련해 현장 조사에 나선 것으로 전해지면서 한화솔루션을 비롯한 관련 종목 주가가 일제히 급락했다. 20일 유가 증권시장에서 한화솔루션은 전 거래일보다 6.68%(1390원) 내린 1만9410원에 거래를 마쳤다. 업계에...",
+      "collected_at": "2026-11-20T17:18:25.372934+09:00",
+      "normalized_title": "[특징주] 한화솔루션·현대에너지솔루션·한솔테크닉스, 태양광 패널 담합 의혹에 급락",
+      "source_normalized": "비즈트리뷴",
+      "duplicate_key": "비즈트리뷴::[특징주] 한화솔루션·현대에너지솔루션·한솔테크닉스, 태양광 패널 담합 의혹에 급락",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "http://www.biztribune.co.kr/news/articleView.html?idxno=362920",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-20T16:56:28+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "378af47a9e717657",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "석화·정유 이어 태양광까지…공정위, 담합 조사 범위 확대",
+      "url": "http://v.daum.net/v/20261120164721829",
+      "source": "지디넷코리아",
+      "published_at": "2026-11-20T16:47:00+09:00",
+      "snippet": "가격 인상 합의 여부가 조사 대상이었다. 앞서 3월에는 SK에너지·GS칼텍스·에쓰오일·HD현대오일뱅크 등 정유 4사의 석유제품 가격 담합 의혹과 관련해 현장조사를 진행했다. 중동 정세 불안 이후 국내 석유제품 가격이 급등한 상황에서 업체들의 가격 결정 과정을...",
+      "collected_at": "2026-11-20T17:18:52.150534+09:00",
+      "normalized_title": "석화·정유 이어 태양광까지…공정위, 담합 조사 범위 확대",
+      "source_normalized": "지디넷코리아",
+      "duplicate_key": "지디넷코리아::석화·정유 이어 태양광까지…공정위, 담합 조사 범위 확대",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유업계 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20261120164721829",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 20. 16:47",
+      "verified": false,
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인",
+      "id": "ce7c0f7895611d55",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "석유제품",
+        "공정위",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "공판서 유가 담합 의혹 맞선 정유 4사…거래 관행 개선은 ‘진행중’",
+      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=130984",
+      "source": "투데이신문",
+      "published_at": "2026-11-20T14:26:09+09:00",
+      "snippet": "이번 사건과 관련해 검찰이 파악한 HD 현대오일뱅크 와 SK에너지의 담합 관련 거래 규모는 약 14조2000억원이다. GS칼텍스와 에쓰 오일 의 가격 인상에 따른 파급 효과까지 포함하면 경쟁제한 관련 규모가 약 26조원에 달한다는 것이 검찰의 판단이다. 다만 SK에너지는 자진신고자 감면 제도인 리니언시를 통해 담합 ...",
+      "collected_at": "2026-11-20T17:18:25.375739+09:00",
+      "normalized_title": "공판서 유가 담합 의혹 맞선 정유 4사…거래 관행 개선은 ‘진행중’",
+      "source_normalized": "투데이신문",
+      "duplicate_key": "투데이신문::공판서 유가 담합 의혹 맞선 정유 4사…거래 관행 개선은 ‘진행중’",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.ntoday.co.kr/news/articleView.html?idxno=130984",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-20T14:26:09+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "3ac72300cb73ef7d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "식품사 원가 부담 5년 새 가중…10곳 중 8곳 원가율↑",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=885581",
+      "source": "한스경제",
+      "published_at": "2026-11-20T15:06:09+09:00",
+      "snippet": "▲ 매출 31%↑, 이익 3%↓…가격 인상 한계 올해는 고 유가 와 고환율이 겹치면서 원부자재 가격이 올랐고 하반기 들어 식품사들의 가격 인상이... 예컨대 라면값은 내리고 과자값은 올리는 등 품목별 대응이 엇갈리는 데다, 공정거래위원회의 담합 조사까지 겹쳐 식품사들은 가격 결정에 고심하고...",
+      "collected_at": "2026-11-20T17:18:25.373876+09:00",
+      "normalized_title": "식품사 원가 부담 5년 새 가중…10곳 중 8곳 원가율↑",
+      "source_normalized": "한스경제",
+      "duplicate_key": "한스경제::식품사 원가 부담 5년 새 가중…10곳 중 8곳 원가율↑",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=885581",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-20T15:06:09+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "1798536b932fffb8",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "summary": "수집 기사 8건, 발행사 본문·최초시각 확인 5건, 미확인 3건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 94,
+    "exclusions": [
+      {
+        "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083582",
+        "title": "[코오롱인더스트리 리스크] 아라미드 공급 경쟁·원재료값 상승… 합병 사업장 안전관리 부담",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.womaneconomy.co.kr/news/articleView.html?idxno=261421",
+        "title": "대형 3곳 다 밀리고 iM만 영업익 늘었다···증권사 12곳 비교해 보니",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://www.ytn.co.kr/_ln/0104_202611200716038203",
+        "title": "미중러 첫 정상회담, 한국 없이 '한반도 문제'도 논의...무슨 대화? [뉴스타트]",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.seoul.co.kr/news/international/2026/11/20/20261120001008?wlog_tag3=naver",
+        "title": "“핵 확산 방지·유엔 개혁”… 미중러, 세기의 원탁 담합",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.edaily.co.kr/News/Read?newsId=01174246645647688&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "title": "미중러 선언에 북한은 없었다…'신얄타' 속 한국 소외 우려",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261120145605052",
+        "title": "중소형 증권사 순익 1년 새 67% '뚝'…상품운용 부진에 내년 유동성 규제 '이중고'",
+        "reason": "duplicate_or_quality_exclusion"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-20T17:18:24.358414+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}

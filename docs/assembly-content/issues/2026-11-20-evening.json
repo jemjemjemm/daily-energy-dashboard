@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-20",
+  "slot": "evening",
+  "status": "published",
+  "period": "수집 기간: 2026-11-20 08:00 ~ 2026-11-20 17:00 (KST)",
+  "published_at": "2026-11-20T17:18:24+09:00",
+  "committees": [
+    {
+      "id": "industry",
+      "priority": [],
+      "all": []
+    },
+    {
+      "id": "climate_labor",
+      "priority": [],
+      "all": [
+        {
+          "summary": "대구 팔현습지 보도교 예산 절반 삭감…환경단체 \"환영\" 발언",
+          "event_id": "981db870d870c696346d",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 2,
+            "speaker": 1
+          },
+          "title": "대구 팔현습지 보도교 예산 절반 삭감…환경단체 \"환영\"",
+          "url": "https://www.yna.co.kr/view/AKR20261120128300053?input=1195m",
+          "press": "연합뉴스",
+          "published_at": "2026-11-20T15:42:35+09:00",
+          "time_evidence": "원문 published_time 2026-11-20T15:42:35+09:00",
+          "source_body_sha256": "a9e208678e0ea34981ca918dd5d548c90d437d23f90662b467dc47ffb68d40b2",
+          "verified": true
+        },
+        {
+          "summary": "기획처·중장기전략위, 산업경쟁력 높일 노동·교육 제도 개선 논의",
+          "event_id": "4c5caf205b3ddff3724f",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "제목·본문 주된 부처 및 명시된 정책·법안·현안",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 0,
+            "impact": 2,
+            "speaker": 1
+          },
+          "title": "기획처·중장기전략위, 산업경쟁력 높일 노동·교육 제도 개선 논의",
+          "url": "https://www.news1.kr/economy/trend/6361013",
+          "press": "뉴스1",
+          "published_at": "2026-11-20T15:58:07+09:00",
+          "time_evidence": "원문 published_time 2026-11-20T15:58:07+09:00",
+          "source_body_sha256": "63931145898218a2a3e7b3cf139e0354889e9b51ed201c8ac2508f6e044250b4",
+          "verified": true
+        },
+        {
+          "summary": "[단독] '괴롭힘 금지구제 지원관' 신설 추진…직장 내 괴롭힘 피해자 지원 강화",
+          "event_id": "2ec56856c965a9b48dd3",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 0,
+            "impact": 2,
+            "speaker": 1
+          },
+          "title": "[단독] '괴롭힘 금지구제 지원관' 신설 추진…직장 내 괴롭힘 피해자 지원 강화",
+          "url": "https://www.newspim.com/news/view/20261120000010",
+          "press": "뉴스핌",
+          "published_at": "2026-11-20T08:00:00+09:00",
+          "time_evidence": "원문 published_time 2026-11-20T08:00:00+09:00",
+          "source_body_sha256": "4043dc5e4796edcc128caaed419c6d2b0eb3b8a54ccefe06b4a94a8098478fb8",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "priority": [],
+      "all": []
+    }
+  ],
+  "review_method": "deterministic-original-source-review",
+  "limitations": [
+    "일부 검색원 오류; 주제별 검색 결과·오류 및 보완 검색 기록은 검토 파일 참조",
+    "발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음",
+    "선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요."
+  ]
+}
