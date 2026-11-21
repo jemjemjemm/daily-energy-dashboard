@@ -1,0 +1,113 @@
+{
+  "base_date": "2026-11-21",
+  "slot": "evening",
+  "period_start": "2026-11-21T08:00:00+09:00",
+  "period_end": "2026-11-21T17:00:00+09:00",
+  "collected_at": "2026-11-22T01:06:37.495896+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "portal_counts": {
+    "naver": 2,
+    "daum": 3,
+    "google": 0
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-22T01:05:54.900901+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "석유 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '석유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%EC%84%9D%EC%9C%A0+%EB%8B%B4%ED%95%A9+after%3A2026-11-21+before%3A2026-11-22&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-11-22T01:06:09.275831+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "휘발유 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '휘발유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%ED%9C%98%EB%B0%9C%EC%9C%A0+%EB%8B%B4%ED%95%A9+after%3A2026-11-21+before%3A2026-11-22&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-11-22T01:06:11.647873+09:00"
+    }
+  ],
+  "items": [
+    {
+      "portal": "naver",
+      "query": "유가담합",
+      "title": "증권사 4분기 실적도 '흐림'···거래대금 감소·과징금 변수",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=643511",
+      "source": "서울파이낸스",
+      "published_at": "2026-11-21T12:05:56.168157+09:00",
+      "snippet": "주식 거래대금 감소로 위탁매매 수익 회복이 쉽지 않은 가운데 금융상품 운용손익의 변동성과 국고채 입찰 담합 과징금까지 실적에 부담으로 작용할... 한국금융지주는 3분기 위탁매매·자산관리 수수료 감소와 유가 증권 평가손실, 환차손 등으로 실적이 크게 악화됐다. 4분기에는 추가 평가손실 부담이...",
+      "collected_at": "2026-11-22T01:05:56.168173+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "유가담합",
+      "title": "증권사 4분기 실적도 '흐림'···거래대금 감소·과징금 변수",
+      "url": "https://cp.news.search.daum.net/p/184606578",
+      "source": "서울파이낸스",
+      "published_at": "",
+      "snippet": "쉽지 않은 가운데 금융상품 운용손익의 변동성과 국고채 입찰 담합 과징금까지 실적에 부담으로 작용할 것으로 보인다. 20일 금융정보...한국금융지주는 3분기 위탁매매·자산관리 수수료 감소와 유가증권 평가손실, 환차손 등으로 실적이 크게 악화됐다. 4분기에는...",
+      "collected_at": "2026-11-22T01:05:58.817710+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "유가 담합",
+      "title": "증권사 4분기 실적도 '흐림'···거래대금 감소·과징금 변수",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=643511",
+      "source": "서울파이낸스",
+      "published_at": "2026-11-21T12:06:00.322330+09:00",
+      "snippet": "주식 거래대금 감소로 위탁매매 수익 회복이 쉽지 않은 가운데 금융상품 운용손익의 변동성과 국고채 입찰 담합 과징금까지 실적에 부담으로 작용할... 한국금융지주는 3분기 위탁매매·자산관리 수수료 감소와 유가 증권 평가손실, 환차손 등으로 실적이 크게 악화됐다. 4분기에는 추가 평가손실 부담이...",
+      "collected_at": "2026-11-22T01:06:00.322345+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "유가 담합",
+      "title": "증권사 4분기 실적도 '흐림'···거래대금 감소·과징금 변수",
+      "url": "https://cp.news.search.daum.net/p/184606578",
+      "source": "서울파이낸스",
+      "published_at": "",
+      "snippet": "쉽지 않은 가운데 금융상품 운용손익의 변동성과 국고채 입찰 담합 과징금까지 실적에 부담으로 작용할 것으로 보인다. 20일 금융정보...한국금융지주는 3분기 위탁매매·자산관리 수수료 감소와 유가증권 평가손실, 환차손 등으로 실적이 크게 악화됐다. 4분기에는...",
+      "collected_at": "2026-11-22T01:06:02.302890+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "공정위 유가 담합",
+      "title": "증권사 4분기 실적도 '흐림'···거래대금 감소·과징금 변수",
+      "url": "https://cp.news.search.daum.net/p/184606578",
+      "source": "서울파이낸스",
+      "published_at": "",
+      "snippet": "감소와 유가증권 평가손실, 환차손 등으로 실적이 크게 악화됐다. 4분기에는 추가 평가손실 부담이 줄어들고 기업금융(IB) 부문이 이익을 일부 방어할 것으로 예상되지만 거래대금 감소에 따른 위탁매매 수익 둔화와 발행어음·종합투자계좌(IMA) 관련 조달비용 부담...",
+      "collected_at": "2026-11-22T01:06:25.906670+09:00",
+      "raw": {}
+    }
+  ]
+}
