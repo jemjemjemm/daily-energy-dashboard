@@ -1,0 +1,131 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-22",
+  "slot": "evening",
+  "period_start": "2026-11-22T08:00:00+09:00",
+  "period_end": "2026-11-22T17:00:00+09:00",
+  "period_label": "2026-11-22 08:00 ~ 2026-11-22 17:00",
+  "generated_at": "2026-11-23T01:12:41.963858+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 5,
+  "total_enriched_input_count": 2,
+  "total_in_period_unique_count": 1,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 0,
+  "total_deduped_count": 1,
+  "total_ok_count": 0,
+  "total_review_count": 1,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 2,
+    "daum": 3,
+    "google": 0
+  },
+  "query_counts": {
+    "공정위 유가 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-23T01:11:54.942090+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "신한·KB·JB금융, ESG등급 ‘A+’ 최우수 - 매일일보",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2021344",
+      "published_at": "2026-11-22T10:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-22T10:00:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "신한·KB·JB금융, ESG등급 ‘A+’ 최우수 - 매일일보",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2021344",
+      "source": "매일일보",
+      "published_at": "2026-11-22T10:00:00+09:00",
+      "snippet": "한국ESG기준원(KCGS)이 발표한 '2026년 ESG 등급 부여 현황'에 따르면 유가 증권시장 상장 금융사 가운데 통합등급 A+(매우 우수)를 받은 곳은 신한금융... 지난 5일 열린 ESG기준위원회 정기 등급 조정에서 공정거래위원회 담합 제재 이슈가 반영되며 사회(S) 부문 등급이 A+에서 A로 하향 조정된 영향이다....",
+      "collected_at": "2026-11-23T01:11:56.337066+09:00",
+      "normalized_title": "신한·KB·JB금융, ESG등급 ‘A+’ 최우수 - 매일일보",
+      "source_normalized": "매일일보",
+      "duplicate_key": "매일일보::신한·kb·jb금융, esg등급 ‘a+’ 최우수 - 매일일보",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.m-i.kr/news/articleView.html?idxno=2021344",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-22T10:00:00+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "1baf9d5eadb1152d",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합",
+        "제재"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "summary": "수집 기사 1건, 발행사 본문·최초시각 확인 0건, 미확인 1건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 5,
+    "exclusions": [],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-23T01:11:54.942090+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
