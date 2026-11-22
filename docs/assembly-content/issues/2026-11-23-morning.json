@@ -3,35 +3,107 @@
   "slot": "morning",
   "status": "published",
   "period": "수집 기간: 2026-11-22 17:00 ~ 2026-11-23 08:00 (KST)",
-  "published_at": "2026-11-23T08:16:20+09:00",
+  "published_at": "2026-11-23T08:20:38+09:00",
   "committees": [
     {
       "id": "industry",
       "priority": [],
       "all": [
         {
-          "summary": "400쪽 협정문, 검토에만 6개월… 한중 FTA “빨라야 내년말” 발언",
-          "event_id": "54b84b892a1f1982ad91",
+          "title": "400쪽 협정문, 검토에만 6개월… 한중 FTA “빨라야 내년말”",
+          "url": "https://www.sedaily.com/article/20117365",
+          "press": "서울경제",
+          "published_at": "2026-11-23T05:30:00+09:00",
+          "summary": "한중 서비스·투자 FTA 번역·법률검토에 6개월 이상 소요 및 내년 말 이후 발효 전망",
+          "event_id": "1123m-c34266d67c0c",
           "committees": [
             "industry"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "committee_reason": "산업부 주도 통상협정 이행 준비와 산중위 보고 의무가 실제 맥락. 실질 타결과 서명·비준·발효 완료를 구분.",
           "categories": [],
           "category_reason": "",
           "importance": {
             "legislation": 2,
-            "impact": 2,
-            "speaker": 1
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "400쪽 협정문, 검토에만 6개월… 한중 FTA “빨라야 내년말”",
-          "url": "https://www.sedaily.com/article/20117365?ref=naver",
-          "press": "서울경제",
-          "published_at": "2026-11-23T05:30:00+09:00",
-          "time_evidence": "원문 published_time 2026-11-23T05:30:00+09:00",
-          "source_body_sha256": "cff0cc76abd739b485e5da1ef4494d95a35a18e0a52747cd45ef95235d7d7853",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T05:30:00+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "cff0cc76abd739b485e5da1ef4494d95a35a18e0a52747cd45ef95235d7d7853"
+        },
+        {
+          "title": "통상본부장, 굴 수출기업·딸기 농가 찾아 K-푸드 수출지원 논의",
+          "url": "https://www.yna.co.kr/view/AKR20261122033000003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T06:00:03+09:00",
+          "summary": "산업부 통상본부장, 굴·딸기 수출 현장 방문 및 관계부처 합동 지원방안 논의 예정",
+          "event_id": "1123m-8e5ea7baca30",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부 수출품목·시장 다변화 정책. 방문 예정과 완료 구분. 비우선산업 소관 뉴스 포함.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T06:00:03+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "535028d02f09838330ffbf17772b538fcf64e854d48461df73aa23991db3ab8d"
+        },
+        {
+          "title": "외국인 성지로 뜨는 'K-전통시장'…AI로 길 찾고 메뉴 주문까지",
+          "url": "https://www.news1.kr/industry/hotel-tourism/6356890",
+          "press": "뉴스1",
+          "published_at": "2026-11-23T06:00:00+09:00",
+          "summary": "중기부, 내년 문화관광형시장 지원을 3년간 최대 20억원으로 확대 예정",
+          "event_id": "1123m-fa616513703a",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "원문 중기부 전통시장·글로컬상권 지원정책 중심. 관광공사 AI 사업과 부처 협업을 구분. 이소영은 중기부 장관 자격으로 산중위 소관 분류.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T06:00:00+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "c9d0d0b3318e57b5f36ef744a261eb94168b386ce01b92fa629d64051ed92a1c"
+        },
+        {
+          "title": "중기부, 23일부터 '2026 동반성장주간' 운영…상생협력 행사 14개 개최",
+          "url": "https://www.entv.kr/news/articleView.html?idxno=221933",
+          "press": "경제뉴스TV",
+          "published_at": "2026-11-22T19:43:00+09:00",
+          "summary": "중기부, 23~27일 동반성장주간에 정책토론회 등 14개 프로그램 운영 예정",
+          "event_id": "1123m-c8685b0691ab",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "중기부의 대·중소기업 상생협력 정책. 상위 매체 뉴스1·파이낸셜뉴스 원문 최초시각은 22일 12:00·14:49로 시간대 밖. 시간대 내 확인 가능한 경제 전문매체 원문 채택.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-22T19:43:00+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "5c8471e502a9b2f06aed6223a77908959d25d622837785ecd78ef14d22a7ca18"
         }
       ]
     },
@@ -39,63 +111,68 @@
       "id": "climate_labor",
       "priority": [
         {
-          "summary": "전력 전문가, 수요 전망·원전 찬반 갈려도…‘전력 유연성’ 해법 일치",
-          "event_id": "87fd6a4266ac2afe0748",
+          "title": "통합발전사 본사 ‘내 지역’에? 의원들 유치 경쟁 ‘빈축’",
+          "url": "https://www.labortoday.co.kr/news/articleView.html?idxno=237858",
+          "press": "매일노동뉴스",
+          "published_at": "2026-11-23T06:30:03+09:00",
+          "summary": "기노위, 24일 통합발전회사 법안 심사 예정 및 본사 유치 경쟁·고용안정 쟁점 부각",
+          "event_id": "1123m-95bf7b76a857",
           "committees": [
             "climate_labor"
           ],
           "members": [
-            "김정호",
             "박지혜"
           ],
           "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 김정호, 박지혜",
+          "committee_reason": "원문 명시 기노위 법안소위 심사 맥락 및 박지혜 의원 직접 발언·roster 기노위 소속 대조. 다른 상임위 발의자 이름만으로 분류하지 않음. 설립·본사 소재지 확정 아님.",
           "categories": [
-            "LNG·전력"
+            "LNG·전력",
+            "재생에너지·수소"
           ],
-          "category_reason": "원문 제목에 직접 명시된 우선산업",
+          "category_reason": "원문에 명시된 LNG·전력, 재생에너지·수소 소관 정책·제도와 직접 관련",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "전력 전문가, 수요 전망·원전 찬반 갈려도…‘전력 유연성’ 해법 일치",
-          "url": "https://www.hani.co.kr/arti/economy/economy_general/1288563.html",
-          "press": "한겨레",
-          "published_at": "2026-11-23T06:00:00+09:00",
-          "time_evidence": "원문 published_time 2026-11-23T06:00:00+09:00",
-          "source_body_sha256": "a01f86828c70dd827a14da188b092c891770b11a1cd074285c4a09935c6eab8c",
-          "verified": true
-        }
-      ],
-      "all": [
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T06:30:03+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "7d3856873ad774103e85e594ac5535416f5a3ababef40f8b3daa0c5c7b739c17"
+        },
         {
-          "summary": "통합발전사 본사 ‘내 지역’에? 의원들 유치 경쟁 ‘빈축’",
-          "event_id": "99beb1087599b51ab5a7",
+          "title": "유엔기후총회 17년만에 합의 실패…화석연료 놓고 극한대립(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261122050452109",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T01:26:14+09:00",
+          "summary": "COP31, 화석연료 전환 이견으로 공동 합의문 채택 실패",
+          "event_id": "cop31-final",
           "committees": [
             "climate_labor"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
-          "categories": [],
-          "category_reason": "",
+          "committee_reason": "국제 기후협약·화석연료 전환·탄소감축 정책 중심. 같은 사건의 속보·중간보도는 연합뉴스 종합 대표로 통합.",
+          "categories": [
+            "정유·유가/담합",
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합, 재생에너지·수소 소관 정책·제도와 직접 관련",
           "importance": {
             "legislation": 2,
-            "impact": 2,
-            "speaker": 1
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "통합발전사 본사 ‘내 지역’에? 의원들 유치 경쟁 ‘빈축’",
-          "url": "https://www.labortoday.co.kr/news/articleView.html?idxno=237858",
-          "press": "매일노동뉴스",
-          "published_at": "2026-11-23T06:30:03+09:00",
-          "time_evidence": "원문 published_time 2026-11-23T06:30:03+09:00",
-          "source_body_sha256": "7d3856873ad774103e85e594ac5535416f5a3ababef40f8b3daa0c5c7b739c17",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T01:26:14+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "64295aeb4f9df2172d1c828698778da735b284a339be613fbbf33b68b55b1068"
         },
         {
-          "summary": "전력 전문가, 수요 전망·원전 찬반 갈려도…‘전력 유연성’ 해법 일치",
-          "event_id": "87fd6a4266ac2afe0748",
+          "title": "전력 전문가, 수요 전망·원전 찬반 갈려도…‘전력 유연성’ 해법 일치",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1288563.html",
+          "press": "한겨레",
+          "published_at": "2026-11-23T06:00:00+09:00",
+          "summary": "에너지정의포럼, 전력 수요전망 이견 속 시장·요금 유연성 강화에 공감대 형성",
+          "event_id": "1123m-0c9e426b5c3a",
           "committees": [
             "climate_labor"
           ],
@@ -103,24 +180,185 @@
             "김정호",
             "박지혜"
           ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 김정호, 박지혜",
+          "speaker_role": "policy",
+          "committee_reason": "기후부 전력계획·전력시장 개편 정책 논의. 김정호 기노위 위원장·박지혜 의원 참석을 기존 roster 근거와 대조. 주요 내용은 전문가 제안이며 정부 확정정책 아님.",
+          "categories": [
+            "LNG·전력",
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력, 재생에너지·수소 소관 정책·제도와 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T06:00:00+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "a01f86828c70dd827a14da188b092c891770b11a1cd074285c4a09935c6eab8c"
+        },
+        {
+          "title": "한전, 주민·계좌번호 등 개인정보 152만여건 유출 … 피해 예방 착수",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/23/2026112350015.html",
+          "press": "뉴데일리",
+          "published_at": "2026-11-23T07:42:00+09:00",
+          "summary": "한전, 152만여건 개인정보 유출에 보안체계 재검토 및 피해 예방 착수",
+          "event_id": "1123m-081ae9523acb",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부 소관 한전의 공공기관 보안관리 및 기후부 사이버안전센터 조사 맥락. 금융정보 언급을 이유로 정무위·재경위 분류하지 않음. 연합뉴스 낮 최초보도는 시간대 밖 제외.",
           "categories": [
             "LNG·전력"
           ],
-          "category_reason": "원문 제목에 직접 명시된 우선산업",
+          "category_reason": "원문에 명시된 LNG·전력 소관 정책·제도와 직접 관련",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
           },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026-11-23 07:42; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "c338fb447c711c415be1d8ebdc9f715142ef0d9a739260c155fbfba2daf78236"
+        }
+      ],
+      "all": [
+        {
+          "title": "통합발전사 본사 ‘내 지역’에? 의원들 유치 경쟁 ‘빈축’",
+          "url": "https://www.labortoday.co.kr/news/articleView.html?idxno=237858",
+          "press": "매일노동뉴스",
+          "published_at": "2026-11-23T06:30:03+09:00",
+          "summary": "기노위, 24일 통합발전회사 법안 심사 예정 및 본사 유치 경쟁·고용안정 쟁점 부각",
+          "event_id": "1123m-95bf7b76a857",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "박지혜"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "원문 명시 기노위 법안소위 심사 맥락 및 박지혜 의원 직접 발언·roster 기노위 소속 대조. 다른 상임위 발의자 이름만으로 분류하지 않음. 설립·본사 소재지 확정 아님.",
+          "categories": [
+            "LNG·전력",
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력, 재생에너지·수소 소관 정책·제도와 직접 관련",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T06:30:03+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "7d3856873ad774103e85e594ac5535416f5a3ababef40f8b3daa0c5c7b739c17"
+        },
+        {
+          "title": "유엔기후총회 17년만에 합의 실패…화석연료 놓고 극한대립(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261122050452109",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T01:26:14+09:00",
+          "summary": "COP31, 화석연료 전환 이견으로 공동 합의문 채택 실패",
+          "event_id": "cop31-final",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "국제 기후협약·화석연료 전환·탄소감축 정책 중심. 같은 사건의 속보·중간보도는 연합뉴스 종합 대표로 통합.",
+          "categories": [
+            "정유·유가/담합",
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합, 재생에너지·수소 소관 정책·제도와 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T01:26:14+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "64295aeb4f9df2172d1c828698778da735b284a339be613fbbf33b68b55b1068"
+        },
+        {
+          "title": "\"정년연장 연내 처리… 27일 합의 불발땐 정부안 발표\"",
+          "url": "https://www.fnnews.com/news/202611221829102683",
+          "press": "파이낸셜뉴스",
+          "published_at": "2026-11-22T18:28:22+09:00",
+          "summary": "노동장관, 27일 정년연장 특위 전후 정부 입장·방안 마련 가능성 제시",
+          "event_id": "1123m-2148f500a260",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "김영훈 노동장관 자격 발언으로 기노위 소관. 합의·정부안 확정·입법 통과와 구분. 연합뉴스·뉴시스 최초시각은 시간대 밖으로 제외.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-22T18:28:22+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "3edb3d3b86291df5876260bf38c9e03ac9e63c62f383a5d0699916f048c1ea51"
+        },
+        {
           "title": "전력 전문가, 수요 전망·원전 찬반 갈려도…‘전력 유연성’ 해법 일치",
           "url": "https://www.hani.co.kr/arti/economy/economy_general/1288563.html",
           "press": "한겨레",
           "published_at": "2026-11-23T06:00:00+09:00",
-          "time_evidence": "원문 published_time 2026-11-23T06:00:00+09:00",
-          "source_body_sha256": "a01f86828c70dd827a14da188b092c891770b11a1cd074285c4a09935c6eab8c",
-          "verified": true
+          "summary": "에너지정의포럼, 전력 수요전망 이견 속 시장·요금 유연성 강화에 공감대 형성",
+          "event_id": "1123m-0c9e426b5c3a",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "김정호",
+            "박지혜"
+          ],
+          "speaker_role": "policy",
+          "committee_reason": "기후부 전력계획·전력시장 개편 정책 논의. 김정호 기노위 위원장·박지혜 의원 참석을 기존 roster 근거와 대조. 주요 내용은 전문가 제안이며 정부 확정정책 아님.",
+          "categories": [
+            "LNG·전력",
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력, 재생에너지·수소 소관 정책·제도와 직접 관련",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T06:00:00+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "a01f86828c70dd827a14da188b092c891770b11a1cd074285c4a09935c6eab8c"
+        },
+        {
+          "title": "한전, 주민·계좌번호 등 개인정보 152만여건 유출 … 피해 예방 착수",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/23/2026112350015.html",
+          "press": "뉴데일리",
+          "published_at": "2026-11-23T07:42:00+09:00",
+          "summary": "한전, 152만여건 개인정보 유출에 보안체계 재검토 및 피해 예방 착수",
+          "event_id": "1123m-081ae9523acb",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부 소관 한전의 공공기관 보안관리 및 기후부 사이버안전센터 조사 맥락. 금융정보 언급을 이유로 정무위·재경위 분류하지 않음. 연합뉴스 낮 최초보도는 시간대 밖 제외.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력 소관 정책·제도와 직접 관련",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026-11-23 07:42; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "c338fb447c711c415be1d8ebdc9f715142ef0d9a739260c155fbfba2daf78236"
         }
       ]
     },
@@ -129,8 +367,12 @@
       "priority": [],
       "all": [
         {
-          "summary": "[단독] 산업부 “수출지원 기여금서 상선·원전 빼야” 발언",
-          "event_id": "f609c4c79c5a5eaaa3fc",
+          "title": "[단독] 산업부 “수출지원 기여금서 상선·원전 빼야”",
+          "url": "https://www.sedaily.com/article/20117404",
+          "press": "서울경제",
+          "published_at": "2026-11-22T17:09:43+09:00",
+          "summary": "산업부, 전략수출금융 법안 심사에서 상선·원전 공기업 기여금 부과 반대 의견 제출",
+          "event_id": "1123m-e406037f42ef",
           "committees": [
             "finance"
           ],
@@ -138,73 +380,25 @@
             "박수영"
           ],
           "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 박수영",
+          "committee_reason": "재경위 전략수출금융지원 법률안 심사 및 박수영 의원의 부담금 반대 발언이 실제 맥락. Excel roster 재경위 소속 대조. 산업부 소관이라는 이유로 산중위 중복 배정하지 않음.",
           "categories": [],
           "category_reason": "",
           "importance": {
-            "legislation": 2,
-            "impact": 2,
-            "speaker": 2
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "[단독] 산업부 “수출지원 기여금서 상선·원전 빼야”",
-          "url": "https://www.sedaily.com/article/20117404?ref=naver",
-          "press": "서울경제",
-          "published_at": "2026-11-22T17:09:43+09:00",
-          "time_evidence": "원문 published_time 2026-11-22T17:09:43+09:00",
-          "source_body_sha256": "e4c8b4d6ad93edfa3cc5314e442d33082c8412146b09d1af2bbce4639af33854",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-22T17:09:43+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "e4c8b4d6ad93edfa3cc5314e442d33082c8412146b09d1af2bbce4639af33854"
         },
         {
-          "summary": "[오늘의 국회일정](23일·월)",
-          "event_id": "5ad50216db1226e341c3",
-          "committees": [
-            "finance"
-          ],
-          "members": [],
-          "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 2,
-            "impact": 2,
-            "speaker": 1
-          },
-          "title": "[오늘의 국회일정](23일·월)",
-          "url": "https://www.yna.co.kr/view/AKR20261122038100001?input=1195m",
-          "press": "연합뉴스",
-          "published_at": "2026-11-23T07:00:01+09:00",
-          "time_evidence": "원문 published_time 2026-11-23T07:00:01+09:00",
-          "source_body_sha256": "0abd184ee3dd7402b4a74da140ff53ffeb579ca0e97d64b414d1bee8ba7a2e93",
-          "verified": true
-        },
-        {
-          "summary": "[오늘의 국회일정] 국회의장·상임위·세미나·기자회견·주요 정당 - 11월 23일",
-          "event_id": "c5d11e40940cb8bdbaf4",
-          "committees": [
-            "finance"
-          ],
-          "members": [],
-          "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 2,
-            "impact": 2,
-            "speaker": 1
-          },
-          "title": "[오늘의 국회일정] 국회의장·상임위·세미나·기자회견·주요 정당 - 11월 23일",
-          "url": "https://www.newspim.com/news/view/20261122000108",
-          "press": "뉴스핌",
+          "title": "열흘 앞으로 다가온 예산 처리 기한…與野 162조 미래대응기금 등 충돌",
+          "url": "https://www.newsis.com/view/NISX20261122_0003878300",
+          "press": "뉴시스",
           "published_at": "2026-11-23T05:00:00+09:00",
-          "time_evidence": "원문 published_time 2026-11-23T05:00:00+09:00",
-          "source_body_sha256": "1d7ede880be71bed826e32007879704c585eff2f05e97ab55279e5e57eebb623",
-          "verified": true
-        },
-        {
-          "summary": "열흘 앞으로 다가온 예산 처리 기한…與野 162조 미래대응기금 등 충돌",
-          "event_id": "10a8e41e846059d43c50",
+          "summary": "예결위, 162조3000억원 미래대응기금 심사 예정 및 여야 감액·기금 신설 대립",
+          "event_id": "1123m-7e501bc080cb",
           "committees": [
             "finance"
           ],
@@ -212,29 +406,99 @@
             "이광재"
           ],
           "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 이광재",
+          "committee_reason": "국가재정·기금 심사 맥락. 이광재 예산소위원장 발언과 roster 재경위 소속 대조. 최종 예산 확정·청문회 증인 채택과 구분.",
           "categories": [],
           "category_reason": "",
           "importance": {
-            "legislation": 0,
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026.11.23 05:00:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "a64b503438adec7b3ec1cd81cc33ff30e96e8082accb5c805c058fd01337cb89"
+        },
+        {
+          "title": "세무조사 한다며 장부 가져가더니…돌려줬는지는 모른다?",
+          "url": "https://www.taxwatch.co.kr/article/tax/2026/11/17/0001",
+          "press": "택스워치",
+          "published_at": "2026-11-23T07:27:01+09:00",
+          "summary": "김상훈, 국세청 장부 일시보관 증가·반환통계 미관리 지적",
+          "event_id": "1123m-b45e1b8fdbe1",
+          "committees": [
+            "finance"
+          ],
+          "members": [
+            "김상훈"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "김상훈 의원실 자료·직접 발언 및 Excel roster 재경위 소속 대조. 세무조사 절차·납세자 권리보호가 소관 맥락. 반환 통계 부재를 미반환 확정으로 쓰지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T07:27:01+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "f231d611cf5631a1ac6502195e557fd1063a23d11e28a1946bf1de49ae69bf8a"
+        },
+        {
+          "title": "[판세] 같은 시·군 주택 추가 취득 후 ‘타 시·군 주거이전’ 시 1세대 2주택 중과세율 예외인지",
+          "url": "https://www.sejungilbo.com/news/articleView.html?idxno=60679",
+          "press": "세정일보",
+          "published_at": "2026-11-23T07:35:18+09:00",
+          "summary": "세정일보 판례 해설, 동일 시·군 주택 취득 후 이전의 양도세 중과 예외 불인정 검토",
+          "event_id": "1123m-5a61a9d59f59",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "국세인 소득세법상 양도세 중과 예외 판례 분석으로 재경위. 당일 새 판결 아닌 9월 대법원 판례의 당일 해설기사임을 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
             "impact": 2,
+            "speaker": 1
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T07:35:18+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "63b95a6b46913116b7e67cdb8ad5337c88f73cf852b17dd48bd2594fa5912613"
+        },
+        {
+          "title": "국세청, 연말연시 음주운전 근절 특별 지시…“관서장이 직접 챙겨라”",
+          "url": "https://www.sejungilbo.com/news/articleView.html?idxno=61212",
+          "press": "세정일보",
+          "published_at": "2026-11-23T07:43:32+09:00",
+          "summary": "국세청, 연말연시 음주운전 예방교육 및 연말 복무감사 추진",
+          "event_id": "1123m-3473fedac64d",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "국세행정 담당 기관의 내부통제·공직기강 조치로 재경위 소관 비우선산업 뉴스.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 1,
             "speaker": 2
           },
-          "title": "열흘 앞으로 다가온 예산 처리 기한…與野 162조 미래대응기금 등 충돌",
-          "url": "https://www.newsis.com/view/NISX20261122_0003878300",
-          "press": "뉴시스",
-          "published_at": "2026-11-23T05:00:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026.11.23 05:00:00",
-          "source_body_sha256": "a64b503438adec7b3ec1cd81cc33ff30e96e8082accb5c805c058fd01337cb89",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T07:43:32+09:00; 발행사 본문 및 최초 입력시각 대조, 수정시각 미사용",
+          "source_body_sha256": "64fed3ae29e108dc380d5ec1aa2f47ef42d42274f0472274421b0bda4bde1423"
         }
       ]
     }
   ],
-  "review_method": "deterministic-original-source-review",
+  "review_method": "발행사 원문 본문·최초시각·소관 및 명단 직접 편집 검토",
   "limitations": [
-    "일부 검색원 오류; 주제별 검색 결과·오류 및 보완 검색 기록은 검토 파일 참조",
-    "발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음",
-    "선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요."
+    "공개검색 노출·일부 발행사 원문 접속 제한. 미확인 후보는 제외하며 목표 수량에 맞춰 시간대 밖·중복 기사 추가하지 않음.",
+    "관심주제별 검색 전체 보존. 대왕고래 정부 권유·카드사 회신·정유사 공문·화관법 개선비용·E&S CISO 사망·정유 담합 증인 신청의 해당 시간대 신규 근거 미확인. 비공개 회신·공문·비용 확인 불가.",
+    "최고가격제 정유4사 1차 정산액 제출 머니투데이 보도는 22일 15:11로 시간대 밖 제외. 원문 금액·지급일 미공개를 추정하지 않음."
   ]
 }
