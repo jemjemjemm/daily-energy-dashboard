@@ -1,0 +1,219 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-23",
+  "slot": "evening",
+  "period_start": "2026-11-23T08:00:00+09:00",
+  "period_end": "2026-11-23T17:00:00+09:00",
+  "period_label": "2026-11-23 08:00 ~ 2026-11-23 17:00",
+  "generated_at": "2026-11-23T17:21:37.252555+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 25,
+  "total_enriched_input_count": 9,
+  "total_in_period_unique_count": 3,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 0,
+  "total_deduped_count": 2,
+  "total_ok_count": 2,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 12,
+    "daum": 13,
+    "google": 0
+  },
+  "query_counts": {
+    "SK에너지 담합": 2,
+    "공정거래위원회 정유사 담합": 1,
+    "공정위 유가 담합": 1,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 1,
+    "현대오일뱅크 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-23T17:20:25.715623+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "주유소 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '주유소 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%EC%A3%BC%EC%9C%A0%EC%86%8C+%EB%8B%B4%ED%95%A9+after%3A2026-11-23+before%3A2026-11-24&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-11-23T17:20:58.810761+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "“이익보다 고객 신뢰” 못 박은 이재근…KB 4대 계열사 CEO 연임 전선 ‘이상기류’ - 뉴스퀘스트",
+      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=305614",
+      "published_at": "2026-11-23T14:25:10+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-23T14:25:10+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[단독]공정위, 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결’",
+      "url": "https://www.munhwa.com/article/11633299?ref=naver",
+      "published_at": "2026-11-23T11:52:10+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-23T11:52:10+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[SK지오센트릭 리스크] 사망사고 2건 사법절차… 담합 조사에 울산 NCC 재편 지연",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083796",
+      "published_at": "2026-11-23T16:03:20+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-23T16:03:20+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "[단독]공정위, 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결’",
+      "url": "https://www.munhwa.com/article/11633299?ref=naver",
+      "source": "문화일보",
+      "published_at": "2026-11-23T11:52:10+09:00",
+      "snippet": "공정거래위원회 가 올해 마지막 전원회의를 예년보다 한 주 늦은 12월 23일로 잠정 편성한 것으로 확인됐다. 지난 18일부터 6주 연속 매주 전원회의를... 네이버·두나무 기업결합에 대한 시정조치는 양사의 디지털금융 사업 전략에 영향을 줄 수 있고, 정유사 담합 사건은 위법성이 인정될 경우 막대한 과징금...",
+      "collected_at": "2026-11-23T17:20:27.318789+09:00",
+      "normalized_title": "공정위, 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결’",
+      "source_normalized": "문화일보",
+      "duplicate_key": "문화일보::공정위, 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결’",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 3,
+      "canonical_url": "https://www.munhwa.com/article/11633299?ref=naver",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-23T11:52:10+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "37b8e1c1b32705b6",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "공정거래위원회",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[SK지오센트릭 리스크] 사망사고 2건 사법절차… 담합 조사에 울산 NCC 재편 지연",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083796",
+      "source": "뉴스클레임",
+      "published_at": "2026-11-23T16:03:20+09:00",
+      "snippet": "지난 10월 검찰이 기소한 석유 화학 제품 담합 사건은 대상 업체가 다르다. 서울중앙지검은 10월 1일 LG화학과 OCI, 애경케미칼, 롯데정밀화학, PKC, 유니드 등 6개 업체를 공정거래법 위반 혐의로 기소했다. SK지오센트릭은 해당 기소 대상에 포함되지 않았다. 울산에서는 NCC 생산능력 감축을 둘러싼 협의가...",
+      "collected_at": "2026-11-23T17:20:46.655631+09:00",
+      "normalized_title": "[SK지오센트릭 리스크] 사망사고 2건 사법절차… 담합 조사에 울산 NCC 재편 지연",
+      "source_normalized": "뉴스클레임",
+      "duplicate_key": "뉴스클레임::[sk지오센트릭 리스크] 사망사고 2건 사법절차… 담합 조사에 울산 ncc 재편 지연",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "석유 담합",
+        "석유제품 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083796",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-23T16:03:20+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "d9358326f0226295",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "summary": "수집 기사 2건, 발행사 본문·최초시각 확인 2건, 미확인 0건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 25,
+    "exclusions": [
+      {
+        "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=305614",
+        "title": "“이익보다 고객 신뢰” 못 박은 이재근…KB 4대 계열사 CEO 연임 전선 ‘이상기류’ - 뉴스퀘스트",
+        "reason": "duplicate_or_quality_exclusion"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-23T17:20:25.715623+09:00"
+      },
+      {
+        "level": "warning",
+        "portal": "google",
+        "query": "주유소 담합",
+        "message": "google collection failed",
+        "user_message": "구글뉴스에서 '주유소 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+        "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%EC%A3%BC%EC%9C%A0%EC%86%8C+%EB%8B%B4%ED%95%A9+after%3A2026-11-23+before%3A2026-11-24&hl=ko&gl=KR&ceid=KR:ko",
+        "created_at": "2026-11-23T17:20:58.810761+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
