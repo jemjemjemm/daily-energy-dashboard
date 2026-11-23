@@ -3,280 +3,781 @@
   "slot": "evening",
   "status": "published",
   "period": "수집 기간: 2026-11-23 08:00 ~ 2026-11-23 17:00 (KST)",
-  "published_at": "2026-11-23T17:20:25+09:00",
+  "published_at": "2026-11-23T17:22:16+09:00",
   "committees": [
     {
       "id": "industry",
-      "priority": [],
+      "priority": [
+        {
+          "title": "산업장관, 석화업계 사업재편 촉구…\"연내 논의 매듭지어야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261123065700003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T14:00:06+09:00",
+          "summary": "산업장관, 미완료 석유화학 사업재편의 연내 논의 마무리 촉구",
+          "event_id": "1123e-0a44d6cdc009",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "산업부 주관 사업재편기업 CEO 간담회와 화학산업 생태계 지원정책. 확정 승인 프로젝트와 미완료 프로젝트 구분.",
+          "categories": [
+            "석유화학"
+          ],
+          "category_reason": "원문에 명시된 석유화학 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T14:00:06+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "519b30338822a41360e97be61ea72cb18420d6505f1aa13e7b7e516664622403"
+        },
+        {
+          "title": "산업장관, 카타르 에너지 장관 만나 LNG 우선 공급 요청",
+          "url": "https://www.yna.co.kr/view/AKR20261123041400003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T10:00:01+09:00",
+          "summary": "산업장관, 카타르 LNG 생산·통항 정상화 시 한국 우선 공급 요청",
+          "event_id": "1123e-923150fa5fc5",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "산업장관 자격의 양국 공급망·플랜트·조선 협력 회담으로 산중위. 우선 공급 요청과 합의·공급 재개 확정을 구분. 기후장관의 같은 국가 면담을 중복 수록하지 않음.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T10:00:01+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "a8432fdda7734d30bf26db546887c4eeb9dbbd46d8818634bb3b1797043655e5"
+        },
+        {
+          "title": "팀코리아 \"체코 원전사업 차질 없어…적기준공 약속 최우선\"",
+          "url": "https://www.yna.co.kr/view/AKR20261123079700003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T11:55:11+09:00",
+          "summary": "팀코리아, 체코 두코바니 원전의 사업 연속성 확보 및 적기 준공 의지 표명",
+          "event_id": "1123e-4e2131410a28",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "해외 원전 수출 국책사업의 시공협약 종료 후 이행·산업협력 맥락. 신규 시공계약 체결 완료로 표현하지 않음.",
+          "categories": [
+            "SMR·신재생 원전(신사업)"
+          ],
+          "category_reason": "원문에 명시된 SMR·신재생 원전(신사업) 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T11:55:11+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "e2d2e3ab1095e3dcfcb22c882735a781af17d51bedd7cce31f5275d959c49ae2"
+        },
+        {
+          "title": "산업연구원 \"내년 수출 1조3천억달러…반도체 비중 51% 전망\"",
+          "url": "https://www.yna.co.kr/view/AKR20261123111400003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T15:00:07+09:00",
+          "summary": "산업연구원, 내년 수출 1조3202억달러 전망 및 정유·석유화학 수출 감소 예상",
+          "event_id": "1123e-ebab0446dfea",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "국책연구기관의 산업별 수출 전망과 산업 구조·통상 리스크. 실적 확정 아닌 전망. 비우선산업 반도체·자동차도 포함.",
+          "categories": [
+            "정유·유가/담합",
+            "석유화학",
+            "배터리"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합, 석유화학, 배터리 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T15:00:07+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "696ebbc654b8cafcf181cafc815a37915dd5c3cc38f1381b3f66a5af2ec2573a"
+        }
+      ],
       "all": [
         {
-          "summary": "[프로필] 홍익표 통일장관 후보자…정무감각 갖춘 통일외교 정책통",
-          "event_id": "22f8ecba731975c13a26",
-          "committees": [
-            "industry"
-          ],
-          "members": [],
-          "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 1
-          },
-          "title": "[프로필] 홍익표 통일장관 후보자…정무감각 갖춘 통일외교 정책통",
-          "url": "https://www.yna.co.kr/view/AKR20261123127000001?input=1195m",
+          "title": "산업장관, 석화업계 사업재편 촉구…\"연내 논의 매듭지어야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261123065700003",
           "press": "연합뉴스",
-          "published_at": "2026-11-23T15:32:20+09:00",
-          "time_evidence": "원문 published_time 2026-11-23T15:32:20+09:00",
-          "source_body_sha256": "5b22007c51e2a676584bbbdf90f334961a8cf1dd041f7afc25dc3c8a903c076a",
-          "verified": true
+          "published_at": "2026-11-23T14:00:06+09:00",
+          "summary": "산업장관, 미완료 석유화학 사업재편의 연내 논의 마무리 촉구",
+          "event_id": "1123e-0a44d6cdc009",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "산업부 주관 사업재편기업 CEO 간담회와 화학산업 생태계 지원정책. 확정 승인 프로젝트와 미완료 프로젝트 구분.",
+          "categories": [
+            "석유화학"
+          ],
+          "category_reason": "원문에 명시된 석유화학 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T14:00:06+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "519b30338822a41360e97be61ea72cb18420d6505f1aa13e7b7e516664622403"
         },
         {
-          "summary": "[프로필] 홍익표 통일부 장관 후보자…대북정책·정무 두루 경험한 '정책통' | 아주경제",
-          "event_id": "fa4463768559a3a236c7",
+          "title": "산업장관, 카타르 에너지 장관 만나 LNG 우선 공급 요청",
+          "url": "https://www.yna.co.kr/view/AKR20261123041400003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T10:00:01+09:00",
+          "summary": "산업장관, 카타르 LNG 생산·통항 정상화 시 한국 우선 공급 요청",
+          "event_id": "1123e-923150fa5fc5",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "산업장관 자격의 양국 공급망·플랜트·조선 협력 회담으로 산중위. 우선 공급 요청과 합의·공급 재개 확정을 구분. 기후장관의 같은 국가 면담을 중복 수록하지 않음.",
+          "categories": [
+            "LNG·전력"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T10:00:01+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "a8432fdda7734d30bf26db546887c4eeb9dbbd46d8818634bb3b1797043655e5"
+        },
+        {
+          "title": "팀코리아 \"체코 원전사업 차질 없어…적기준공 약속 최우선\"",
+          "url": "https://www.yna.co.kr/view/AKR20261123079700003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T11:55:11+09:00",
+          "summary": "팀코리아, 체코 두코바니 원전의 사업 연속성 확보 및 적기 준공 의지 표명",
+          "event_id": "1123e-4e2131410a28",
           "committees": [
             "industry"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
-          "categories": [],
-          "category_reason": "",
+          "committee_reason": "해외 원전 수출 국책사업의 시공협약 종료 후 이행·산업협력 맥락. 신규 시공계약 체결 완료로 표현하지 않음.",
+          "categories": [
+            "SMR·신재생 원전(신사업)"
+          ],
+          "category_reason": "원문에 명시된 SMR·신재생 원전(신사업) 관련 제도·공급망·산업정책 직접성 확인",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 1
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "[프로필] 홍익표 통일부 장관 후보자…대북정책·정무 두루 경험한 '정책통' | 아주경제",
-          "url": "https://www.ajunews.com/view/20261123152213525",
-          "press": "아주경제",
-          "published_at": "2026-11-23T15:56:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026-11-23 15:56",
-          "source_body_sha256": "9b75443f644fee62881b9ff4dd60c6fb2f72a85743f8ee9aa9affa817cb7c167",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T11:55:11+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "e2d2e3ab1095e3dcfcb22c882735a781af17d51bedd7cce31f5275d959c49ae2"
         },
         {
-          "summary": "[프로필]홍익표 통일부 장관 후보자..3선의원에서 청와대 정무수석비서관까지 거쳐",
-          "event_id": "76900da5ab0ecd7fd6ba",
+          "title": "산업연구원 \"내년 수출 1조3천억달러…반도체 비중 51% 전망\"",
+          "url": "https://www.yna.co.kr/view/AKR20261123111400003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T15:00:07+09:00",
+          "summary": "산업연구원, 내년 수출 1조3202억달러 전망 및 정유·석유화학 수출 감소 예상",
+          "event_id": "1123e-ebab0446dfea",
           "committees": [
             "industry"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "committee_reason": "국책연구기관의 산업별 수출 전망과 산업 구조·통상 리스크. 실적 확정 아닌 전망. 비우선산업 반도체·자동차도 포함.",
+          "categories": [
+            "정유·유가/담합",
+            "석유화학",
+            "배터리"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합, 석유화학, 배터리 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T15:00:07+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "696ebbc654b8cafcf181cafc815a37915dd5c3cc38f1381b3f66a5af2ec2573a"
+        },
+        {
+          "title": "중기부, '스마트공장 구축지원사업' 공모…최대 12억원 지원",
+          "url": "https://www.yna.co.kr/view/AKR20261123060800030",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T12:00:02+09:00",
+          "summary": "중기부, 최대 12억원 지원하는 스마트공장 통합공모 계획 발표",
+          "event_id": "1123e-e173028d4417",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "중기부 제조혁신 지원정책. 공모기간은 12월7일~내년1월6일로 신청 개시와 구분. 비우선산업 소관 뉴스.",
           "categories": [],
           "category_reason": "",
           "importance": {
-            "legislation": 0,
+            "legislation": 1,
             "impact": 2,
-            "speaker": 1
+            "speaker": 3
           },
-          "title": "[프로필]홍익표 통일부 장관 후보자..3선의원에서 청와대 정무수석비서관까지 거쳐",
-          "url": "https://www.fnnews.com/news/202611231612455266",
-          "press": "파이낸셜뉴스",
-          "published_at": "2026-11-23T16:19:28+09:00",
-          "time_evidence": "원문 published_time 2026-11-23T16:19:28+09:00",
-          "source_body_sha256": "eeba32d2ed4f0e662383ec7d71e5628a72e5fd25d6b3b3ea020921408339cad4",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T12:00:02+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "20b7e5ab22952f842fc3c499aed2412c692c108b488b4b2d8a6c7987cc413c96"
+        },
+        {
+          "title": "중기부, 납품대금 연동 우수기업에 풍산·롯데칠성 등 9곳 선정",
+          "url": "https://www.yna.co.kr/view/AKR20261123068700030",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T12:00:02+09:00",
+          "summary": "중기부, 납품대금 연동 우수기업 9곳 선정 및 표창",
+          "event_id": "1123e-e1bbe438d5ab",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "중기부 상생협력·납품대금 연동제 운영 맥락. 일반 공정거래 감독으로 기노위 오분류하지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T12:00:02+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "46cceda4cf56061e961763918623abe8435cdd3b407696df6e340eb64a49717c"
+        },
+        {
+          "title": "중진공, 중소기업융합대전 전야제 개최…내년 지원사업 소개",
+          "url": "https://www.yna.co.kr/view/AKR20261123022300030",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T08:40:20+09:00",
+          "summary": "중진공, 중소기업융합대전 전야제에서 내년 지원사업 소개 및 현장 애로 청취",
+          "event_id": "1123e-198b58aac93f",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "중기부 산하 중진공의 중소기업 기술융합·지원정책. 22일 개최 행사를 23일 보도한 기사로, 사건일과 최초보도일 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 1,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T08:40:20+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "ac7b25a03671e1433a29a8d1d2c781e7edd24a3b3a4a22e3d4cb44294478863f"
         }
       ]
     },
     {
       "id": "climate_labor",
-      "priority": [],
-      "all": [
+      "priority": [
         {
-          "summary": "정년연장 '결단만 남았다'는데…27일이 갈림길",
-          "event_id": "8d797ef3b837991a4bed",
-          "committees": [
-            "climate_labor"
-          ],
-          "members": [
-            "김주영"
-          ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 김주영",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 3,
-            "impact": 2,
-            "speaker": 2
-          },
-          "title": "정년연장 '결단만 남았다'는데…27일이 갈림길",
-          "url": "https://www.newspim.com/news/view/20261123000999",
-          "press": "뉴스핌",
-          "published_at": "2026-11-23T16:05:00+09:00",
-          "time_evidence": "원문 published_time 2026-11-23T16:05:00+09:00",
-          "source_body_sha256": "4d50792e342134c376334573ce34fdff4460438721be35577c8b1c4e1475eee1",
-          "verified": true
-        },
-        {
-          "summary": "[이슈] 발전 5사 통합, 출자 규모-지배구조 이견...진통 예상",
-          "event_id": "d8ca934cb4bdab48a3fd",
+          "title": "'원전 공론' 확대측 전문가들, 참여 중단 선언…논의 시점 갈등(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261123091351530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T14:56:39+09:00",
+          "summary": "원전 공론 전문위원 3명, 2050년 비중 논의 요구하며 참여 잠정 중단 선언",
+          "event_id": "1123e-nuclear-consultation",
           "committees": [
             "climate_labor"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "committee_reason": "12차 전력수급기본계획 및 기후부 공론화 정책. 산업부 해외 원전수출과 별도 사안. 사퇴서 제출·공론화 취소 확정과 구분. 종합 대표로 초보 통합.",
+          "categories": [
+            "LNG·전력",
+            "SMR·신재생 원전(신사업)"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력, SMR·신재생 원전(신사업) 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T14:56:39+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "631229ed5ad2485854eeb35406bf1408af7099eac3695fae1bae7e13fc45cd61"
+        },
+        {
+          "title": "AI로 기후위기 넘는다…서울서 대한민국 탄소포럼 열려",
+          "url": "https://www.yna.co.kr/view/AKR20261123126900062",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T15:32:56+09:00",
+          "summary": "대한민국 탄소포럼, AI 활용 기후대응·녹색전환 정책 논의",
+          "event_id": "1123e-fbcfb2810f4d",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후위기·탄소중립·전력수급·CBAM 정책 세미나. 기업 홍보와 구분한 환경정책 맥락.",
+          "categories": [
+            "재생에너지·수소",
+            "LNG·전력"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소, LNG·전력 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T15:32:56+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "e6ad76ce0af08dd4066ee00bf64a1c8aad0e0aad2a663192f245ea8826a7cd6d"
+        },
+        {
+          "title": "울산시, HD현대중공업서 부유식 해상풍력·그린수소 협력 토론회",
+          "url": "https://www.yna.co.kr/view/AKR20261123001700057",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T09:00:04+09:00",
+          "summary": "울산시, 부유식 해상풍력·그린수소 조기 추진 협력 토론회 개최 계획",
+          "event_id": "1123e-bedfaef1fa5d",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "재생에너지·그린수소 공급망과 지역사업 참여 정책. 오전9시 기사에는 오전10시 개최 예정으로 서술돼 완료로 단정하지 않음.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T09:00:04+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "ef8fe64eca349383b2eda5d27b3bd355a5c095be8d875b3c8f937529e7730e7a"
+        },
+        {
+          "title": "울주군, 태양광 발전사업 활성화 나서…햇빛소득마을 주민교육",
+          "url": "https://www.yna.co.kr/view/AKR20261123061000057",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T10:38:21+09:00",
+          "summary": "울주군, 햇빛소득마을 주민교육으로 태양광 발전사업 참여 지원",
+          "event_id": "1123e-3d4b6a449fb2",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "지역 재생에너지 발전 및 주민 수익공유 정책의 실제 시행 맥락.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T10:38:21+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "308295379d691e4942711d6fba43b30b991801f4ececcd03ad008ab89faebe32"
+        }
+      ],
+      "all": [
+        {
+          "title": "'원전 공론' 확대측 전문가들, 참여 중단 선언…논의 시점 갈등(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261123091351530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T14:56:39+09:00",
+          "summary": "원전 공론 전문위원 3명, 2050년 비중 논의 요구하며 참여 잠정 중단 선언",
+          "event_id": "1123e-nuclear-consultation",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "12차 전력수급기본계획 및 기후부 공론화 정책. 산업부 해외 원전수출과 별도 사안. 사퇴서 제출·공론화 취소 확정과 구분. 종합 대표로 초보 통합.",
+          "categories": [
+            "LNG·전력",
+            "SMR·신재생 원전(신사업)"
+          ],
+          "category_reason": "원문에 명시된 LNG·전력, SMR·신재생 원전(신사업) 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T14:56:39+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "631229ed5ad2485854eeb35406bf1408af7099eac3695fae1bae7e13fc45cd61"
+        },
+        {
+          "title": "한화오션 하청노동자, 노동부 장관 면담…\"교섭 물꼬 터달라\"",
+          "url": "https://www.yna.co.kr/view/AKR20261123132100052",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T15:48:06+09:00",
+          "summary": "한화오션 하청노동자, 노동장관 면담에서 원청 교섭 중재 요청",
+          "event_id": "1123e-f208805a0e8d",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "노동부 장관 면담 및 원청 교섭·노동권 현안. 노조 요구와 정부 중재 성사·임금 합의 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T15:48:06+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "03f8004beb4b65a5e16a0734f269036afe5c5c0c909dfe25ec0772856a3afda7"
+        },
+        {
+          "title": "경남도, 내달 8일부터 30인 미만 사업장 노동감독 맡는다",
+          "url": "https://www.yna.co.kr/view/AKR20261123110100052",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T14:31:05+09:00",
+          "summary": "경남도, 12월8일부터 소규모 사업장 노동감독 위임사무 수행 예정",
+          "event_id": "1123e-9072a62fb936",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "고용노동부 감독권한 지방위임·근로기준 및 산업안전 집행정책. 권한 위임과 인력 추가충원 계획 구분.",
           "categories": [],
           "category_reason": "",
           "importance": {
             "legislation": 2,
             "impact": 2,
-            "speaker": 1
+            "speaker": 3
           },
-          "title": "[이슈] 발전 5사 통합, 출자 규모-지배구조 이견...진통 예상",
-          "url": "https://www.todayenergy.kr/news/articleView.html?idxno=305932",
-          "press": "투데이에너지",
-          "published_at": "2026-11-23T14:01:07+09:00",
-          "time_evidence": "원문 published_time 2026-11-23T14:01:07+09:00",
-          "source_body_sha256": "80a3d15909b19c57315b828f7928a016305b4b825c46ab2db3a5aabbba55967e",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T14:31:05+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "06abbbc973ae83e1db3270d3572cd3eede436e9f489a12130e8c36fa9db0c530"
         },
         {
-          "summary": "통합발전사, 한전서 독립하나 … 정부 51% 출자안에 기후부는 '글쎄' 발언",
-          "event_id": "120e101ab8705c5512f5",
+          "title": "AI로 기후위기 넘는다…서울서 대한민국 탄소포럼 열려",
+          "url": "https://www.yna.co.kr/view/AKR20261123126900062",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T15:32:56+09:00",
+          "summary": "대한민국 탄소포럼, AI 활용 기후대응·녹색전환 정책 논의",
+          "event_id": "1123e-fbcfb2810f4d",
           "committees": [
             "climate_labor"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "제목·본문 주된 부처 및 명시된 정책·법안·현안",
+          "committee_reason": "기후위기·탄소중립·전력수급·CBAM 정책 세미나. 기업 홍보와 구분한 환경정책 맥락.",
+          "categories": [
+            "재생에너지·수소",
+            "LNG·전력"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소, LNG·전력 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T15:32:56+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "e6ad76ce0af08dd4066ee00bf64a1c8aad0e0aad2a663192f245ea8826a7cd6d"
+        },
+        {
+          "title": "울산시, HD현대중공업서 부유식 해상풍력·그린수소 협력 토론회",
+          "url": "https://www.yna.co.kr/view/AKR20261123001700057",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T09:00:04+09:00",
+          "summary": "울산시, 부유식 해상풍력·그린수소 조기 추진 협력 토론회 개최 계획",
+          "event_id": "1123e-bedfaef1fa5d",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "재생에너지·그린수소 공급망과 지역사업 참여 정책. 오전9시 기사에는 오전10시 개최 예정으로 서술돼 완료로 단정하지 않음.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T09:00:04+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "ef8fe64eca349383b2eda5d27b3bd355a5c095be8d875b3c8f937529e7730e7a"
+        },
+        {
+          "title": "직원 58명 임금·퇴직금 7억 체불…요양병원 대표 구속",
+          "url": "https://www.yna.co.kr/view/AKR20261123037700053",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T09:25:30+09:00",
+          "summary": "대구고용노동청, 직원 58명 임금·퇴직금 체불 혐의 요양병원 대표 구속",
+          "event_id": "1123e-7783fb932061",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "근로기준법·퇴직급여법 집행과 노동권 보호. 혐의·구속과 유죄 확정 구분.",
           "categories": [],
           "category_reason": "",
           "importance": {
-            "legislation": 0,
+            "legislation": 1,
             "impact": 2,
-            "speaker": 1
+            "speaker": 2
           },
-          "title": "통합발전사, 한전서 독립하나 … 정부 51% 출자안에 기후부는 '글쎄'",
-          "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/23/2026112350202.html",
-          "press": "뉴데일리",
-          "published_at": "2026-11-23T13:32:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026-11-23 13:32",
-          "source_body_sha256": "257361b6573a9c6835b871f79db8a7e2866df0b3341a346e7707c2592ac36516",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T09:25:30+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "fcf348f5e12b976c83c514b7f121e7d77ff93b5c3402baabca4912e4ba706eb7"
+        },
+        {
+          "title": "울주군, 태양광 발전사업 활성화 나서…햇빛소득마을 주민교육",
+          "url": "https://www.yna.co.kr/view/AKR20261123061000057",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T10:38:21+09:00",
+          "summary": "울주군, 햇빛소득마을 주민교육으로 태양광 발전사업 참여 지원",
+          "event_id": "1123e-3d4b6a449fb2",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "지역 재생에너지 발전 및 주민 수익공유 정책의 실제 시행 맥락.",
+          "categories": [
+            "재생에너지·수소"
+          ],
+          "category_reason": "원문에 명시된 재생에너지·수소 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T10:38:21+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "308295379d691e4942711d6fba43b30b991801f4ececcd03ad008ab89faebe32"
+        },
+        {
+          "title": "\"청년 채용정보 공개 확대·돌봄노동자 표준임금 도입\" 제안",
+          "url": "https://www.yna.co.kr/view/AKR20261123130200530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T15:53:41+09:00",
+          "summary": "경사노위 계층별 위원회, 청년 채용정보 공개 확대·돌봄노동자 표준임금 도입 제안",
+          "event_id": "1123e-1a31939bf77f",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "경제사회노동위원회 청년·여성·비정규직위원회의 공동 정책간담회. 제안과 정부 채택·법제화 구분. 비우선산업 뉴스.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T15:53:41+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "ad40d702a3dde7a5da751071eef0a0140b2cb0222b6307b97a38d51b5e5b2cfd"
         }
       ]
     },
     {
       "id": "finance",
-      "priority": [],
-      "all": [
+      "priority": [
         {
-          "summary": "대화 나누는 국회 재경위 조세소위 여야",
-          "event_id": "10cc4e6513dd02a16a4a",
+          "title": "이형일 \"석유 최고가격제 내년에도 일정 기간 유지 필요\"",
+          "url": "https://www.yna.co.kr/view/AKR20261123082300002",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T11:40:01+09:00",
+          "summary": "재경부 장관, 석유 최고가격제 내년 유지 필요성 제시 및 연내 운영방안 발표 예고",
+          "event_id": "1123e-economy-minister-briefing",
           "committees": [
             "finance"
           ],
-          "members": [
-            "오기형",
-            "배준영"
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "재경부 장관의 물가·민생 부담 및 재정경제 운영 발언 중심. 보상·정산 방식 확정 없음. 내년 연장 확정·정유사 피해 인정액 지급으로 표현하지 않음. 같은 간담회 경제전망 기사를 별도 중복 수록하지 않음.",
+          "categories": [
+            "정유·유가/담합"
           ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 오기형, 배준영",
-          "categories": [],
-          "category_reason": "",
+          "category_reason": "원문에 명시된 정유·유가/담합 관련 제도·공급망·산업정책 직접성 확인",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "대화 나누는 국회 재경위 조세소위 여야",
-          "url": "https://www.newsis.com/view/NISI20261123_0021542656",
-          "press": "뉴시스",
-          "published_at": "2026-11-23T11:07:51+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026.11.23 11:07:51",
-          "source_body_sha256": "678b4312ab931e8e98b4b26c553b9e107669a7da7eadaa53a068506df5967aba",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T11:40:01+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "7b48f927c809da5666ce4f20b5931c25e4508b085e2ff85e554e6bde1b0f461c"
         },
         {
-          "summary": "국회 재경위 조세소위 대화 나누는 여야",
-          "event_id": "5b6a52a35ceb2b2e274e",
-          "committees": [
-            "finance"
-          ],
-          "members": [
-            "오기형",
-            "배준영"
-          ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 오기형, 배준영",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
-          },
-          "title": "국회 재경위 조세소위 대화 나누는 여야",
-          "url": "https://www.newsis.com/view/NISI20261123_0021542658",
-          "press": "뉴시스",
-          "published_at": "2026-11-23T11:07:51+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026.11.23 11:07:51",
-          "source_body_sha256": "adee1001e2c72ac58934204de2be9b01675cdfa01f009f81e3503b9a43b59fd3",
-          "verified": true
-        },
-        {
-          "summary": "국회 조세소위 야당 간사와 대화 나누는 재정경제부",
-          "event_id": "0ad2faf2bda1225a2af8",
-          "committees": [
-            "finance"
-          ],
-          "members": [
-            "배준영"
-          ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 배준영",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
-          },
-          "title": "국회 조세소위 야당 간사와 대화 나누는 재정경제부",
-          "url": "https://www.newsis.com/view/NISI20261123_0021542659",
-          "press": "뉴시스",
-          "published_at": "2026-11-23T11:08:20+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026.11.23 11:08:20",
-          "source_body_sha256": "501ab91daa059fea0bee7a170685b285535570d4b0e068cb2ce9eda723a286ff",
-          "verified": true
-        },
-        {
-          "summary": "전남광주시의회 기재위 \"통합지원기금으로 공공의료 지원해야\" 발언",
-          "event_id": "d4754292dcdd45bd5f27",
+          "title": "'1조 달러' 한국 수출, 이달 중순도 역대 최대…반도체 4배 급증(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261123030651002",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T09:11:48+09:00",
+          "summary": "관세청, 11월1~20일 수출 774억달러·무역흑자 271억달러 잠정 집계",
+          "event_id": "1123e-customs-exports",
           "committees": [
             "finance"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "committee_reason": "관세청 통관통계 발표를 재경위로 단일 배정. 전월·연간 확정치와 구분. 원유·가스 에너지 수입 증가 직접 명시.",
+          "categories": [
+            "정유·유가/담합",
+            "LNG·전력"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합, LNG·전력 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T09:11:48+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "cff0c5f3876ca6ec1dd8644ce8958b92020a8b625bc2f956414d11c6edc447b2"
+        }
+      ],
+      "all": [
+        {
+          "title": "이형일 \"석유 최고가격제 내년에도 일정 기간 유지 필요\"",
+          "url": "https://www.yna.co.kr/view/AKR20261123082300002",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T11:40:01+09:00",
+          "summary": "재경부 장관, 석유 최고가격제 내년 유지 필요성 제시 및 연내 운영방안 발표 예고",
+          "event_id": "1123e-economy-minister-briefing",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "재경부 장관의 물가·민생 부담 및 재정경제 운영 발언 중심. 보상·정산 방식 확정 없음. 내년 연장 확정·정유사 피해 인정액 지급으로 표현하지 않음. 같은 간담회 경제전망 기사를 별도 중복 수록하지 않음.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T11:40:01+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "7b48f927c809da5666ce4f20b5931c25e4508b085e2ff85e554e6bde1b0f461c"
+        },
+        {
+          "title": "이광재 예결위원장 \"'부자 감세·중산층 보호' 대토론 시작하자\"",
+          "url": "https://www.joseilbo.com/news/htmls/2026/11/20261123580251.html",
+          "press": "조세일보",
+          "published_at": "2026-11-23T16:47:56+09:00",
+          "summary": "이광재, 중산층 세 부담 완화·기업 혁신 기여도 중심 세제 개편 논의 제안",
+          "event_id": "1123e-42c588524b18",
+          "committees": [
+            "finance"
+          ],
+          "members": [
+            "이광재"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "조세일보·한국조세정책학회 토론회 축사 및 세제개편 맥락. roster 재경위 이광재 소속 직접 대조. 제안과 정부안·국회 의결 구분. 상위 매체 해당 시간대 동일행사 원문 미확인.",
           "categories": [],
           "category_reason": "",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 1
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "전남광주시의회 기재위 \"통합지원기금으로 공공의료 지원해야\"",
-          "url": "https://www.yna.co.kr/view/AKR20261123134200054?input=1195m",
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T16:47:56+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "3053e0fae600bbae7e14d2f38240a3aec137307ac948784a453dcd69b27ede2f"
+        },
+        {
+          "title": "'1조 달러' 한국 수출, 이달 중순도 역대 최대…반도체 4배 급증(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261123030651002",
           "press": "연합뉴스",
-          "published_at": "2026-11-23T15:55:02+09:00",
-          "time_evidence": "원문 published_time 2026-11-23T15:55:02+09:00",
-          "source_body_sha256": "527af690eab9bcf1ff03dcdc5c830a154e2f36d3b521e0cd50cd79591ed0edf6",
-          "verified": true
+          "published_at": "2026-11-23T09:11:48+09:00",
+          "summary": "관세청, 11월1~20일 수출 774억달러·무역흑자 271억달러 잠정 집계",
+          "event_id": "1123e-customs-exports",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "관세청 통관통계 발표를 재경위로 단일 배정. 전월·연간 확정치와 구분. 원유·가스 에너지 수입 증가 직접 명시.",
+          "categories": [
+            "정유·유가/담합",
+            "LNG·전력"
+          ],
+          "category_reason": "원문에 명시된 정유·유가/담합, LNG·전력 관련 제도·공급망·산업정책 직접성 확인",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T09:11:48+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "cff0c5f3876ca6ec1dd8644ce8958b92020a8b625bc2f956414d11c6edc447b2"
+        },
+        {
+          "title": "농어촌 기본소득 확대에 강원도 재정 부담 우려…\"대책 필요\"",
+          "url": "https://www.yna.co.kr/view/AKR20261123147300062",
+          "press": "연합뉴스",
+          "published_at": "2026-11-23T16:54:51+09:00",
+          "summary": "농어촌 기본소득 확대에 강원 지자체 재정분담 증가 우려 및 지원 촉구",
+          "event_id": "1123e-3d19bd3a2302",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "중앙정부 기본소득 시범사업 확대에 따른 지방재정 분담·국비 지원 쟁점. 부담 우려와 확정 편성액·지급 완료 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-23T16:54:51+09:00; 발행사 본문·최초 입력 메타데이터 직접 대조, 수정시각 미사용",
+          "source_body_sha256": "7f23cd8f65dd8b291f64ed1146b327951f998e058dafcd28784b666f8a83cfee"
         }
       ]
     }
   ],
-  "review_method": "deterministic-original-source-review",
+  "review_method": "발행사 본문·최초시각·소관 및 roster 직접 편집검토",
   "limitations": [
-    "발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음",
-    "선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요."
+    "공개 검색 노출·일부 원문 접근 제한. 목표 수량을 맞추기 위한 중복·무관 기사 추가 없음.",
+    "대왕고래 지분투자 정부 권유, 카드사 부가세 회신, 정유사 피해액·산업부 공문, 정유4사 담합 증인 신청·채택, 화관법 개선비용, E&S CISO 사망의 해당 시간대 신규 공개 원문 확인 불가. 비공개 회신·공문·비용은 추정하지 않음."
   ]
 }
