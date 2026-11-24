@@ -1,0 +1,622 @@
+{
+  "base_date": "2026-11-24",
+  "slot": "morning",
+  "period_start": "2026-11-24T00:00:00+09:00",
+  "period_end": "2026-11-24T08:00:00+09:00",
+  "collected_at": "2026-11-24T15:56:21.592045+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "portal_counts": {
+    "naver": 19,
+    "daum": 0,
+    "google": 7
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-24T15:55:39.950909+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "현대오일뱅크 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9+after%3A2026-11-23+before%3A2026-11-25&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-11-24T15:56:17.077990+09:00"
+    }
+  ],
+  "items": [
+    {
+      "portal": "naver",
+      "query": "유가담합",
+      "title": "내년 경제정책방향 핵심은 ‘모두의 성장’",
+      "url": "https://www.naeil.com/news/read/609876?ref=naver",
+      "source": "내일신문",
+      "published_at": "2026-11-24T13:55:41.277232+09:00",
+      "snippet": "‘민생 안정’ 분야에서는 고 유가 부담 경감을 위한 석유류 가격 안정과 농축수산물 할인 지원, 물가안정 담합 제재 이행력 제고 등 장바구니 물가 안정에 주력한다. 두 번째 축인 ‘성장동력 확충’ 분야에서는 반도체·피지컬 AI·AI 데이터센터 등 3대 메가 프로젝트와 7대 SEED 전략기술, 녹색전환(K-GX)...",
+      "collected_at": "2026-11-24T15:55:41.277257+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "유가담합",
+      "title": "내년 경제정책 '모두의 성장' 초점…일자리·주거·서민금융 3대 민생 프...",
+      "url": "https://www.news1.kr/economy/trend/6364010",
+      "source": "뉴스1",
+      "published_at": "2026-11-24T12:55:41.278228+09:00",
+      "snippet": "이와 함께 고 유가 부담 경감과 장바구니 물가 완화, 담합 제재 등 시장질서 확립, 노동시장 이중구조 개선, 우리아이자립펀드 출시 등 생애주기별 소득·자산 지원도 추진 과제로 제시했다. 성장동력 확충 분야에서는 반도체·피지컬 AI 등 3대 메가프로젝트와 소형모듈원자로(SMR)·양자·첨단바이오 등...",
+      "collected_at": "2026-11-24T15:55:41.278243+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "유가담합",
+      "title": "\"이익보다 고객 신뢰\" 못 박은 이재근…KB 4대 계열사 CEO 연임 전선 '이...",
+      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=305614",
+      "source": "뉴스퀘스트",
+      "published_at": "2026-11-23T15:55:41.279120+09:00",
+      "snippet": "반면 국민은행의 3분기 누적 유가 증권·파생상품·외환 관련 순손익 합계는 2624억원으로 전년 동기 6128억원보다 57.2% 감소했다. 올해 발생한... KB증권은 국고채 입찰 담합 에 따른 대규모 과징금으로 실적이 악화됐다. 공정거래위원회의 과징금 3322억원이 반영되면서 3분기 연결 지배주주순이익은 당초...",
+      "collected_at": "2026-11-24T15:55:41.279135+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "유가담합",
+      "title": "[단독]공정위, 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결...",
+      "url": "https://www.munhwa.com/article/11633299?ref=naver",
+      "source": "문화일보",
+      "published_at": "2026-11-23T15:55:41.280095+09:00",
+      "snippet": "국내 간편결제·가상자산거래소 1위 사업자 간 결합인 네이버파이낸셜·두나무 기업결합을 비롯해 관련 매출액이 44조1000억 원에 달하는 SK에너지·HD현대오일뱅크 유류 담합 의혹 사건, 1조4000억 원 규모의 밀가루 부산물 담합 사건 등이 심사보고서 송부를 마쳤다. 우버·딜리버리히어로 기업결합과 주요...",
+      "collected_at": "2026-11-24T15:55:41.280109+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "유가담합",
+      "title": "[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\"",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn?oc=5",
+      "source": "스마트투데이",
+      "published_at": "2026-11-24T12:31:00+09:00",
+      "snippet": "[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\" 스마트투데이",
+      "collected_at": "2026-11-24T15:55:43.071704+09:00",
+      "raw": {
+        "title": "[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\" - 스마트투데이",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\" - 스마트투데이"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn?oc=5",
+        "id": "CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn",
+        "guidislink": false,
+        "published": "Tue, 24 Nov 2026 03:31:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          24,
+          3,
+          31,
+          0,
+          1,
+          328,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn?oc=5\" target=\"_blank\">[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">스마트투데이</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn?oc=5\" target=\"_blank\">[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">스마트투데이</font>"
+        },
+        "source": {
+          "href": "https://www.smarttoday.co.kr",
+          "title": "스마트투데이"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "유가담합",
+      "title": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5",
+      "source": "더퍼블릭",
+      "published_at": "2026-11-24T10:40:56+09:00",
+      "snippet": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 더퍼블릭",
+      "collected_at": "2026-11-24T15:55:43.071977+09:00",
+      "raw": {
+        "title": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 - 더퍼블릭",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 - 더퍼블릭"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5",
+        "id": "CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN",
+        "guidislink": false,
+        "published": "Tue, 24 Nov 2026 01:40:56 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          24,
+          1,
+          40,
+          56,
+          1,
+          328,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5\" target=\"_blank\">정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">더퍼블릭</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5\" target=\"_blank\">정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">더퍼블릭</font>"
+        },
+        "source": {
+          "href": "https://www.thepublic.kr",
+          "title": "더퍼블릭"
+        }
+      }
+    },
+    {
+      "portal": "naver",
+      "query": "유가 담합",
+      "title": "내년 경제정책방향 핵심은 ‘모두의 성장’",
+      "url": "https://www.naeil.com/news/read/609876?ref=naver",
+      "source": "내일신문",
+      "published_at": "2026-11-24T13:55:44.155498+09:00",
+      "snippet": "‘민생 안정’ 분야에서는 고 유가 부담 경감을 위한 석유류 가격 안정과 농축수산물 할인 지원, 물가안정 담합 제재 이행력 제고 등 장바구니 물가 안정에 주력한다. 두 번째 축인 ‘성장동력 확충’ 분야에서는 반도체·피지컬 AI·AI 데이터센터 등 3대 메가 프로젝트와 7대 SEED 전략기술, 녹색전환(K-GX)...",
+      "collected_at": "2026-11-24T15:55:44.155522+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "유가 담합",
+      "title": "내년 경제정책 '모두의 성장' 초점…일자리·주거·서민금융 3대 민생 프...",
+      "url": "https://www.news1.kr/economy/trend/6364010",
+      "source": "뉴스1",
+      "published_at": "2026-11-24T12:55:44.156437+09:00",
+      "snippet": "이와 함께 고 유가 부담 경감과 장바구니 물가 완화, 담합 제재 등 시장질서 확립, 노동시장 이중구조 개선, 우리아이자립펀드 출시 등 생애주기별 소득·자산 지원도 추진 과제로 제시했다. 성장동력 확충 분야에서는 반도체·피지컬 AI 등 3대 메가프로젝트와 소형모듈원자로(SMR)·양자·첨단바이오 등...",
+      "collected_at": "2026-11-24T15:55:44.156452+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "유가 담합",
+      "title": "\"이익보다 고객 신뢰\" 못 박은 이재근…KB 4대 계열사 CEO 연임 전선 '이...",
+      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=305614",
+      "source": "뉴스퀘스트",
+      "published_at": "2026-11-23T15:55:44.157276+09:00",
+      "snippet": "반면 국민은행의 3분기 누적 유가 증권·파생상품·외환 관련 순손익 합계는 2624억원으로 전년 동기 6128억원보다 57.2% 감소했다. 올해 발생한... KB증권은 국고채 입찰 담합 에 따른 대규모 과징금으로 실적이 악화됐다. 공정거래위원회의 과징금 3322억원이 반영되면서 3분기 연결 지배주주순이익은 당초...",
+      "collected_at": "2026-11-24T15:55:44.157289+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "유가 담합",
+      "title": "[단독]공정위, 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결...",
+      "url": "https://www.munhwa.com/article/11633299?ref=naver",
+      "source": "문화일보",
+      "published_at": "2026-11-23T15:55:44.158230+09:00",
+      "snippet": "국내 간편결제·가상자산거래소 1위 사업자 간 결합인 네이버파이낸셜·두나무 기업결합을 비롯해 관련 매출액이 44조1000억 원에 달하는 SK에너지·HD현대오일뱅크 유류 담합 의혹 사건, 1조4000억 원 규모의 밀가루 부산물 담합 사건 등이 심사보고서 송부를 마쳤다. 우버·딜리버리히어로 기업결합과 주요...",
+      "collected_at": "2026-11-24T15:55:44.158243+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "유가 담합",
+      "title": "[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\"",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn?oc=5",
+      "source": "스마트투데이",
+      "published_at": "2026-11-24T12:31:00+09:00",
+      "snippet": "[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\" 스마트투데이",
+      "collected_at": "2026-11-24T15:55:45.421926+09:00",
+      "raw": {
+        "title": "[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\" - 스마트투데이",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\" - 스마트투데이"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn?oc=5",
+        "id": "CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn",
+        "guidislink": false,
+        "published": "Tue, 24 Nov 2026 03:31:00 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          24,
+          3,
+          31,
+          0,
+          1,
+          328,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn?oc=5\" target=\"_blank\">[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">스마트투데이</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn?oc=5\" target=\"_blank\">[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">스마트투데이</font>"
+        },
+        "source": {
+          "href": "https://www.smarttoday.co.kr",
+          "title": "스마트투데이"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "유가 담합",
+      "title": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5",
+      "source": "더퍼블릭",
+      "published_at": "2026-11-24T10:40:56+09:00",
+      "snippet": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 더퍼블릭",
+      "collected_at": "2026-11-24T15:55:45.422200+09:00",
+      "raw": {
+        "title": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 - 더퍼블릭",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 - 더퍼블릭"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5",
+        "id": "CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN",
+        "guidislink": false,
+        "published": "Tue, 24 Nov 2026 01:40:56 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          24,
+          1,
+          40,
+          56,
+          1,
+          328,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5\" target=\"_blank\">정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">더퍼블릭</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5\" target=\"_blank\">정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">더퍼블릭</font>"
+        },
+        "source": {
+          "href": "https://www.thepublic.kr",
+          "title": "더퍼블릭"
+        }
+      }
+    },
+    {
+      "portal": "naver",
+      "query": "정유사 담합",
+      "title": "[단독]공정위, 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결...",
+      "url": "https://www.munhwa.com/article/11633299?ref=naver",
+      "source": "문화일보",
+      "published_at": "2026-11-23T15:55:46.399402+09:00",
+      "snippet": "네이버·두나무 기업결합에 대한 시정조치는 양사의 디지털금융 사업 전략에 영향을 줄 수 있고, 정유사 담합 사건은 위법성이 인정될 경우 막대한 과징금 부담으로 이어질 가능성이 있다. 공정위의 신속한 법 집행이 시장의 불확실성을 줄일 수 있다는 기대와 함께 기업들이 단기간에 제재 대응과...",
+      "collected_at": "2026-11-24T15:55:46.399426+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "정유사 담합",
+      "title": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5",
+      "source": "더퍼블릭",
+      "published_at": "2026-11-24T10:40:56+09:00",
+      "snippet": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 더퍼블릭",
+      "collected_at": "2026-11-24T15:55:47.661138+09:00",
+      "raw": {
+        "title": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 - 더퍼블릭",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 - 더퍼블릭"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5",
+        "id": "CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN",
+        "guidislink": false,
+        "published": "Tue, 24 Nov 2026 01:40:56 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          24,
+          1,
+          40,
+          56,
+          1,
+          328,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5\" target=\"_blank\">정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">더퍼블릭</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5\" target=\"_blank\">정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">더퍼블릭</font>"
+        },
+        "source": {
+          "href": "https://www.thepublic.kr",
+          "title": "더퍼블릭"
+        }
+      }
+    },
+    {
+      "portal": "google",
+      "query": "기름값 담합",
+      "title": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5",
+      "source": "더퍼블릭",
+      "published_at": "2026-11-24T10:40:56+09:00",
+      "snippet": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 더퍼블릭",
+      "collected_at": "2026-11-24T15:55:50.031532+09:00",
+      "raw": {
+        "title": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 - 더퍼블릭",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 - 더퍼블릭"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5",
+        "id": "CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN",
+        "guidislink": false,
+        "published": "Tue, 24 Nov 2026 01:40:56 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          24,
+          1,
+          40,
+          56,
+          1,
+          328,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5\" target=\"_blank\">정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">더퍼블릭</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5\" target=\"_blank\">정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">더퍼블릭</font>"
+        },
+        "source": {
+          "href": "https://www.thepublic.kr",
+          "title": "더퍼블릭"
+        }
+      }
+    },
+    {
+      "portal": "naver",
+      "query": "석유 담합",
+      "title": "[동성케미컬 리스크] 부산공장 고용 갈등에 산업안전 위반 반복… 계열...",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083948",
+      "source": "뉴스클레임",
+      "published_at": "2026-11-24T14:55:51.092276+09:00",
+      "snippet": "입찰 담합 을 이유로 동성케미컬에 시정명령과 과징금 1억1400만원을 부과했다. 해당 사건은 회사가 과거 영위했던 SMC 관련 사업에서 발생한 것으로, 동성케미컬은 2024년 관련 사업을 매각했다. 동성케미컬은 과징금을 납부하고 임직원 교육과 관련 모니터링을 강화했다. 같은 해 9월 25일에는 석유 제품...",
+      "collected_at": "2026-11-24T15:55:51.092299+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "석유 담합",
+      "title": "내년 경제정책방향 핵심은 ‘모두의 성장’",
+      "url": "https://www.naeil.com/news/read/609876?ref=naver",
+      "source": "내일신문",
+      "published_at": "2026-11-24T13:55:51.093092+09:00",
+      "snippet": "‘민생 안정’ 분야에서는 고유가 부담 경감을 위한 석유 류 가격 안정과 농축수산물 할인 지원, 물가안정 담합 제재 이행력 제고 등 장바구니 물가 안정에 주력한다. 두 번째 축인 ‘성장동력 확충’ 분야에서는 반도체·피지컬 AI·AI 데이터센터 등 3대 메가 프로젝트와 7대 SEED 전략기술, 녹색전환(K-GX)...",
+      "collected_at": "2026-11-24T15:55:51.093107+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "석유 담합",
+      "title": "[SK지오센트릭 리스크] 사망사고 2건 사법절차… 담합 조사에 울산 NCC 재...",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083796",
+      "source": "뉴스클레임",
+      "published_at": "2026-11-23T16:55:51.094008+09:00",
+      "snippet": "지난 10월 검찰이 기소한 석유 화학제품 담합 사건은 대상 업체가 다르다. 서울중앙지검은 10월 1일 LG화학과 OCI, 애경케미칼, 롯데정밀화학, PKC, 유니드 등 6개 업체를 공정거래법 위반 혐의로 기소했다. SK지오센트릭은 해당 기소 대상에 포함되지 않았다. 울산에서는 NCC 생산능력 감축을 둘러싼 협의가...",
+      "collected_at": "2026-11-24T15:55:51.094024+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "google",
+      "query": "정유업계 담합",
+      "title": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5",
+      "source": "더퍼블릭",
+      "published_at": "2026-11-24T10:40:56+09:00",
+      "snippet": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 더퍼블릭",
+      "collected_at": "2026-11-24T15:56:01.446967+09:00",
+      "raw": {
+        "title": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 - 더퍼블릭",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "",
+          "value": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다 - 더퍼블릭"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5",
+        "id": "CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN",
+        "guidislink": false,
+        "published": "Tue, 24 Nov 2026 01:40:56 GMT",
+        "published_parsed": [
+          2026,
+          11,
+          24,
+          1,
+          40,
+          56,
+          1,
+          328,
+          0
+        ],
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5\" target=\"_blank\">정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">더퍼블릭</font>",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5\" target=\"_blank\">정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">더퍼블릭</font>"
+        },
+        "source": {
+          "href": "https://www.thepublic.kr",
+          "title": "더퍼블릭"
+        }
+      }
+    },
+    {
+      "portal": "naver",
+      "query": "석유제품 담합",
+      "title": "[동성케미컬 리스크] 부산공장 고용 갈등에 산업안전 위반 반복… 계열...",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083948",
+      "source": "뉴스클레임",
+      "published_at": "2026-11-24T14:56:02.374703+09:00",
+      "snippet": "입찰 담합 을 이유로 동성케미컬에 시정명령과 과징금 1억1400만원을 부과했다. 해당 사건은 회사가 과거 영위했던 SMC 관련 사업에서 발생한 것으로, 동성케미컬은 2024년 관련 사업을 매각했다. 동성케미컬은 과징금을 납부하고 임직원 교육과 관련 모니터링을 강화했다. 같은 해 9월 25일에는 석유제품 ...",
+      "collected_at": "2026-11-24T15:56:02.374728+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "석유제품 담합",
+      "title": "[SK지오센트릭 리스크] 사망사고 2건 사법절차… 담합 조사에 울산 NCC 재...",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083796",
+      "source": "뉴스클레임",
+      "published_at": "2026-11-23T16:56:02.375616+09:00",
+      "snippet": "지난 10월 검찰이 기소한 석유 화학 제품 담합 사건은 대상 업체가 다르다. 서울중앙지검은 10월 1일 LG화학과 OCI, 애경케미칼, 롯데정밀화학, PKC, 유니드 등 6개 업체를 공정거래법 위반 혐의로 기소했다. SK지오센트릭은 해당 기소 대상에 포함되지 않았다. 울산에서는 NCC 생산능력 감축을 둘러싼 협의가...",
+      "collected_at": "2026-11-24T15:56:02.375632+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "공정위 유가 담합",
+      "title": "[단독] 공정위 , 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결...",
+      "url": "https://www.munhwa.com/article/11633299?ref=naver",
+      "source": "문화일보",
+      "published_at": "2026-11-23T15:56:06.963998+09:00",
+      "snippet": "네이버·두나무 기업결합에 대한 시정조치는 양사의 디지털금융 사업 전략에 영향을 줄 수 있고, 정유사 담합 사건은 위법성이 인정될 경우 막대한 과징금 부담으로 이어질 가능성이 있다. 공정위 의 신속한 법 집행이 시장의 불확실성을 줄일 수 있다는 기대와 함께 기업들이 단기간에 제재 대응과...",
+      "collected_at": "2026-11-24T15:56:06.964022+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "공정거래위원회 정유사 담합",
+      "title": "[단독] 공정 위, 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결...",
+      "url": "https://www.munhwa.com/article/11633299?ref=naver",
+      "source": "문화일보",
+      "published_at": "2026-11-23T15:56:09.175926+09:00",
+      "snippet": "공정거래위원회 가 올해 마지막 전원회의를 예년보다 한 주 늦은 12월 23일로 잠정 편성한 것으로 확인됐다. 지난 18일부터 6주 연속 매주 전원회의를... 네이버·두나무 기업결합에 대한 시정조치는 양사의 디지털금융 사업 전략에 영향을 줄 수 있고, 정유사 담합 사건은 위법성이 인정될 경우 막대한 과징금...",
+      "collected_at": "2026-11-24T15:56:09.175950+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "SK에너지 담합",
+      "title": "[ SK 지오센트릭 리스크] 사망사고 2건 사법절차… 담합 조사에 울산 NCC 재...",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083796",
+      "source": "뉴스클레임",
+      "published_at": "2026-11-23T16:56:11.244664+09:00",
+      "snippet": "SK 지오센트릭 울산 넥슬렌 공장 전경. 사진= SK 이노베이션·뉴스클레임 편집 SK 지오센트릭이 울산공장 사망사고와 관련한 형사절차와 화학제품 담합 ... SK 지오센트릭 NCC 가동을 중단하고 SK에너지 에서 대한유화로 공급되는 납사 물량을 조정하는 방안도 협의 과정에서 검토됐다. 에쓰오일은 오는 11월 25일...",
+      "collected_at": "2026-11-24T15:56:11.244690+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "SK에너지 담합",
+      "title": "[단독]공정위, 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결...",
+      "url": "https://www.munhwa.com/article/11633299?ref=naver",
+      "source": "문화일보",
+      "published_at": "2026-11-23T15:56:11.245654+09:00",
+      "snippet": "국내 간편결제·가상자산거래소 1위 사업자 간 결합인 네이버파이낸셜·두나무 기업결합을 비롯해 관련 매출액이 44조1000억 원에 달하는 SK에너지 ·HD현대오일뱅크 유류 담합 의혹 사건, 1조4000억 원 규모의 밀가루 부산물 담합 사건 등이 심사보고서 송부를 마쳤다. 우버·딜리버리히어로 기업결합과 주요...",
+      "collected_at": "2026-11-24T15:56:11.245668+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "naver",
+      "query": "현대오일뱅크 담합",
+      "title": "[단독]공정위, 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결...",
+      "url": "https://www.munhwa.com/article/11633299?ref=naver",
+      "source": "문화일보",
+      "published_at": "2026-11-23T15:56:15.692457+09:00",
+      "snippet": "국내 간편결제·가상자산거래소 1위 사업자 간 결합인 네이버파이낸셜·두나무 기업결합을 비롯해 관련 매출액이 44조1000억 원에 달하는 SK에너지·HD 현대오일뱅크 유류 담합 의혹 사건, 1조4000억 원 규모의 밀가루 부산물 담합 사건 등이 심사보고서 송부를 마쳤다. 우버·딜리버리히어로 기업결합과 주요...",
+      "collected_at": "2026-11-24T15:56:15.692478+09:00",
+      "raw": {}
+    }
+  ]
+}

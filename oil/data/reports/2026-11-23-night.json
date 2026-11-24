@@ -1,0 +1,203 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-23",
+  "slot": "night",
+  "period_start": "2026-11-23T17:00:00+09:00",
+  "period_end": "2026-11-24T00:00:00+09:00",
+  "period_label": "2026-11-23 17:00 ~ 2026-11-24 00:00",
+  "generated_at": "2026-11-24T15:56:25.098895+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 26,
+  "total_enriched_input_count": 11,
+  "total_in_period_unique_count": 0,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 8,
+  "total_deduped_count": 0,
+  "total_ok_count": 0,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 19,
+    "daum": 0,
+    "google": 7
+  },
+  "query_counts": {},
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-24T15:55:39.950909+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "google",
+      "query": "현대오일뱅크 담합",
+      "message": "google collection failed",
+      "user_message": "구글뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9+after%3A2026-11-23+before%3A2026-11-25&hl=ko&gl=KR&ceid=KR:ko",
+      "created_at": "2026-11-24T15:56:17.077990+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "내년 경제정책방향 핵심은 ‘모두의 성장’",
+      "url": "https://www.naeil.com/news/read/609876?ref=naver",
+      "published_at": "2026-11-24T13:00:40+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-24T13:00:40+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "내년 경제정책 '모두의 성장' 초점…일자리·주거·서민금융 3대 민생 프로젝트",
+      "url": "https://www.news1.kr/economy/trend/6364010",
+      "published_at": "2026-11-24T12:11:14+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-24T12:11:14+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "“이익보다 고객 신뢰” 못 박은 이재근…KB 4대 계열사 CEO 연임 전선 ‘이상기류’ - 뉴스퀘스트",
+      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=305614",
+      "published_at": "2026-11-23T14:25:10+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-23T14:25:10+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[단독]공정위, 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결’",
+      "url": "https://www.munhwa.com/article/11633299?ref=naver",
+      "published_at": "2026-11-23T11:52:10+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-23T11:52:10+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\"",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn?oc=5",
+      "published_at": "2026-11-24T12:31:00+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5",
+      "published_at": "2026-11-24T10:40:56+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[동성케미컬 리스크] 부산공장 고용 갈등에 산업안전 위반 반복… 계열사 회계제재·의료기기 회수도",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083948",
+      "published_at": "2026-11-24T14:23:04+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-24T14:23:04+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[SK지오센트릭 리스크] 사망사고 2건 사법절차… 담합 조사에 울산 NCC 재편 지연",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083796",
+      "published_at": "2026-11-23T16:03:20+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-23T16:03:20+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    }
+  ],
+  "articles": [],
+  "summary": "수집 기사 0건, 발행사 본문·최초시각 확인 0건, 미확인 0건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 26,
+    "exclusions": [
+      {
+        "url": "https://www.naeil.com/news/read/609876?ref=naver",
+        "title": "내년 경제정책방향 핵심은 ‘모두의 성장’",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.news1.kr/economy/trend/6364010",
+        "title": "내년 경제정책 '모두의 성장' 초점…일자리·주거·서민금융 3대 민생 프로젝트",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=305614",
+        "title": "“이익보다 고객 신뢰” 못 박은 이재근…KB 4대 계열사 CEO 연임 전선 ‘이상기류’ - 뉴스퀘스트",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.munhwa.com/article/11633299?ref=naver",
+        "title": "[단독]공정위, 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결’",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn?oc=5",
+        "title": "[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\"",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5",
+        "title": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083948",
+        "title": "[동성케미컬 리스크] 부산공장 고용 갈등에 산업안전 위반 반복… 계열사 회계제재·의료기기 회수도",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083796",
+        "title": "[SK지오센트릭 리스크] 사망사고 2건 사법절차… 담합 조사에 울산 NCC 재편 지연",
+        "reason": "outside_period"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-24T15:55:39.950909+09:00"
+      },
+      {
+        "level": "warning",
+        "portal": "google",
+        "query": "현대오일뱅크 담합",
+        "message": "google collection failed",
+        "user_message": "구글뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+        "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9+after%3A2026-11-23+before%3A2026-11-25&hl=ko&gl=KR&ceid=KR:ko",
+        "created_at": "2026-11-24T15:56:17.077990+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
