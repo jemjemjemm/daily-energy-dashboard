@@ -8,14 +8,14 @@
     "json_path": "data/reports/2026-11-24-evening.json",
     "period_start": "2026-11-24T08:00:00+09:00",
     "period_end": "2026-11-24T17:00:00+09:00",
-    "total_deduped_count": 1,
-    "total_ok_count": 0,
-    "total_review_count": 1,
-    "total_excluded_count": 4,
+    "total_deduped_count": 18,
+    "total_ok_count": 6,
+    "total_review_count": 12,
+    "total_excluded_count": 122,
     "grade_counts": {
-      "A": 0,
-      "B": 0,
-      "C": 1
+      "A": 4,
+      "B": 3,
+      "C": 11
     },
     "generated_at": "2026-11-24T17:33:56.496664+09:00"
   },
@@ -28,14 +28,14 @@
     "json_path": "data/reports/2026-11-24-morning.json",
     "period_start": "2026-11-24T00:00:00+09:00",
     "period_end": "2026-11-24T08:00:00+09:00",
-    "total_deduped_count": 0,
-    "total_ok_count": 0,
-    "total_review_count": 0,
-    "total_excluded_count": 0,
+    "total_deduped_count": 11,
+    "total_ok_count": 4,
+    "total_review_count": 7,
+    "total_excluded_count": 123,
     "grade_counts": {
-      "A": 0,
-      "B": 0,
-      "C": 0
+      "A": 4,
+      "B": 3,
+      "C": 4
     },
     "generated_at": "2026-11-24T15:56:27.504826+09:00"
   },
@@ -48,14 +48,14 @@
     "json_path": "data/reports/2026-11-23-night.json",
     "period_start": "2026-11-23T17:00:00+09:00",
     "period_end": "2026-11-24T00:00:00+09:00",
-    "total_deduped_count": 0,
+    "total_deduped_count": 3,
     "total_ok_count": 0,
-    "total_review_count": 0,
-    "total_excluded_count": 0,
+    "total_review_count": 3,
+    "total_excluded_count": 131,
     "grade_counts": {
       "A": 0,
-      "B": 0,
-      "C": 0
+      "B": 2,
+      "C": 1
     },
     "generated_at": "2026-11-24T15:56:25.098895+09:00"
   },

@@ -23,18 +23,18 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 26,
-  "total_enriched_input_count": 11,
-  "total_in_period_unique_count": 0,
-  "total_unknown_time_count": 0,
-  "total_outside_period_count": 8,
-  "total_deduped_count": 0,
+  "total_enriched_input_count": 134,
+  "total_in_period_unique_count": 29,
+  "total_unknown_time_count": 48,
+  "total_outside_period_count": 57,
+  "total_deduped_count": 3,
   "total_ok_count": 0,
-  "total_review_count": 0,
-  "total_excluded_count": 0,
+  "total_review_count": 3,
+  "total_excluded_count": 131,
   "grade_counts": {
     "A": 0,
-    "B": 0,
-    "C": 0
+    "B": 2,
+    "C": 1
   },
   "portal_counts": {
     "naver": 19,
@@ -129,75 +129,126 @@
       "verification_reason": "발행사 본문·최초시각 확인"
     }
   ],
-  "articles": [],
-  "summary": "수집 기사 0건, 발행사 본문·최초시각 확인 0건, 미확인 0건 구분",
-  "editorial_audit": {
-    "method": "automated-source-audit",
-    "raw_result_count": 26,
-    "exclusions": [
-      {
-        "url": "https://www.naeil.com/news/read/609876?ref=naver",
-        "title": "내년 경제정책방향 핵심은 ‘모두의 성장’",
-        "reason": "outside_period"
+  "articles": [
+    {
+      "title": "석유 최고가격제 첫 정산 초읽기…출구 전략은?",
+      "press": "연합뉴스TV",
+      "press_grade": "C",
+      "url": "https://v.daum.net/v/20261123231054088",
+      "published_date": "2026-11-24",
+      "published_at_kst": "",
+      "snippet": "연합뉴스TV 18시간 전 다음뉴스 동영상 석유 최고가격제 첫 정산 초읽기…출구 전략은? 고려해야 한다고 주장해 왔습니다. 김정관 산업부 장관은 앞서 이와 관련해 \"모두가 만족하는 답은 나오지 않겠지만, 모두가 불행해...밝힌 가운데, 재정 부담을 줄이면서 공급 안정을 지킬 출구전략 마련이 과제로 떠올랐습니다. 연합뉴스 TV 이지현입니다. [영상편집...",
+      "score": 10,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 1,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "url": "https://www.news1.kr/economy/trend/6364010",
-        "title": "내년 경제정책 '모두의 성장' 초점…일자리·주거·서민금융 3대 민생 프로젝트",
-        "reason": "outside_period"
+      "industry_relevance": 4,
+      "source_query": "연합뉴스 산업부",
+      "collector": "daum_news_search",
+      "source": "연합뉴스TV",
+      "published_at": "2026-11-23T23:10:54+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "석유 최고가격제 첫 정산 초읽기…출구 전략은?",
+      "id": "e6bf9ac31df8156c",
+      "canonical_url": "https://v.daum.net/v/20261123231054088",
+      "source_normalized": "연합뉴스TV",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "[답답한 석화 재편] 여전히 ' 수출 효자' 정유·석화…정부는 당근 없이 채찍만",
+      "press": "아주경제",
+      "press_grade": "C",
+      "url": "https://v.daum.net/v/20261123180132815",
+      "published_date": "2026-11-24",
+      "published_at_kst": "",
+      "snippet": "아주경제 23시간 전 다음뉴스 [답답한 석화 재편] 여전히 ' 수출 효자' 정유·석화…정부는 당근 없이 채찍만 23일 산업통상부와 정유·석화 업계에 따르면 올해 1~10월 석유 제품 수출액은 570억4000만 달러, 석화제품은 389억2000만 달러로 집계... 석유 제품은 지난 3월 13일부터 시행된 정부의 휘발유· 경유 ·등유 수출 제한 속에서도 낸 실적이라 의미가 깊다. 미국·이란...",
+      "score": 9,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 1,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=305614",
-        "title": "“이익보다 고객 신뢰” 못 박은 이재근…KB 4대 계열사 CEO 연임 전선 ‘이상기류’ - 뉴스퀘스트",
-        "reason": "outside_period"
+      "industry_relevance": 4,
+      "source_query": "석유 경유 수출",
+      "collector": "daum_news_search",
+      "source": "아주경제",
+      "published_at": "2026-11-23T18:01:32+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "[답답한 석화 재편] 여전히 ' 수출 효자' 정유·석화…정부는 당근 없이 채찍만",
+      "id": "6be911f4d97bd144",
+      "canonical_url": "https://v.daum.net/v/20261123180132815",
+      "source_normalized": "아주경제",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "\"석 달 새 7조 벌고도...\" 4대 정유사, 정부에 5조7천억 달라는 이유",
+      "press": "한국경제TV",
+      "press_grade": "C",
+      "url": "https://v.daum.net/v/20261123175404522",
+      "published_date": "2026-11-24",
+      "published_at_kst": "",
+      "snippet": "한국경제TV 23시간 전 다음뉴스 2 동영상 \"석 달 새 7조 벌고도...\" 4대 정유사, 정부에 5조7천억 달라는 이유 화물차에 경유 200리터를 넣을 때 아낀 돈, 정부 추산으로 약 18만원입니다. 중동 전쟁으로 기름값이 치솟자 공급가에 상한을 씌운 효과입니다. 정부는 가격을 묶는 대신 세금으로 정유사 손실을 메워주기로 했습니다. 문제는 얼마를 주느냐. 정유 업계는 국제 시세...",
+      "score": 9,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 1,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "url": "https://www.munhwa.com/article/11633299?ref=naver",
-        "title": "[단독]공정위, 연말까지 매주 회의… 李에 발맞춰 민생현안 ‘속전속결’",
-        "reason": "outside_period"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zd2U3cmJQZEY5a0lhT1VYS243c1dtaFZzYk9Sa2lGcnNIeXcyWC0xZ3g2QVdZaXRvZmlUZmk3ZUlCSExtMXI2bFpTdHNHUjNwcXJBLTBnX0h0TTV5cmtn?oc=5",
-        "title": "[현장] 석유 최고가격제, 이제는 출구전략 짤 때…전문가들 \"단계적 해제 필요\"",
-        "reason": "outside_period"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zQXNlT002S3QtNkV4RUZiT3RPV1VBTW4tVkkweG9DcXZIbC1rci03dlJ3TXZqcjQtTGZZbUNzYUczWkEwdXF6Z21EX2hVVXJfWTJMYkdRa0hRbTNReTMyNnZKZW96Mmdib1k40gFvQVVfeXFMUHVYZ1pPYW9hNE9FamlGc1IzYWJtSllfZHRXcndQM1gySFBXdHE0b3c2bEt6S3BqUVRlS3U1UXZLeGJPS1pNQW5DME9pV0szRHcxSVhqQkc1Zi1nckFCNDFtRjhkVHRyWWFKdEdwQVpN?oc=5",
-        "title": "정유사 손실 6조 부담에도…정부, ‘물가 방어’ 택했다",
-        "reason": "outside_period"
-      },
-      {
-        "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083948",
-        "title": "[동성케미컬 리스크] 부산공장 고용 갈등에 산업안전 위반 반복… 계열사 회계제재·의료기기 회수도",
-        "reason": "outside_period"
-      },
-      {
-        "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083796",
-        "title": "[SK지오센트릭 리스크] 사망사고 2건 사법절차… 담합 조사에 울산 NCC 재편 지연",
-        "reason": "outside_period"
-      }
-    ],
-    "collection_warnings": [
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "전체 검색",
-        "message": "public search coverage limit",
-        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
-        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-        "created_at": "2026-11-24T15:55:39.950909+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "google",
-        "query": "현대오일뱅크 담합",
-        "message": "google collection failed",
-        "user_message": "구글뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9+after%3A2026-11-23+before%3A2026-11-25&hl=ko&gl=KR&ceid=KR:ko",
-        "created_at": "2026-11-24T15:56:17.077990+09:00"
-      }
-    ],
-    "limitations": [
-      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
-    ]
-  }
+      "industry_relevance": 5,
+      "source_query": "석유 경유 수출",
+      "collector": "daum_news_search",
+      "source": "한국경제TV",
+      "published_at": "2026-11-23T17:54:04+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "\"석 달 새 7조 벌고도...\" 4대 정유사, 정부에 5조7천억 달라는 이유",
+      "id": "62b1834d4772be04",
+      "canonical_url": "https://v.daum.net/v/20261123175404522",
+      "source_normalized": "한국경제TV",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    }
+  ],
+  "summary": "국제유가 공급 증가·최고가격제 손실정산 및 석유 수급 동향 점검",
+  "editorial_audit": "data/reviews/2026-11-23-night.audit.json",
+  "supplemental_raw_search_result_count": 141,
+  "coverage_note": "자동 원수집 26건과 추가검색 전체 별도 보존. 원문 확인 0건·미확인 3건 구분. 공개검색 노출·일부 발행사 접속 제한.",
+  "editorial_decisions": [
+    "동일 매체·정규화 제목만 병합; 다른 매체 동일 사건 보도 보존",
+    "추정 손실과 인정 보전액, 제도 연장 계획과 확정 구분",
+    "포털 표기시각을 발행사 최초 보도시각으로 인증하지 않음"
+  ]
 }
