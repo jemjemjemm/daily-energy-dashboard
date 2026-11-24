@@ -1,0 +1,237 @@
+{
+  "base_date": "2026-11-25",
+  "slot": "morning",
+  "period_start": "2026-11-25T00:00:00+09:00",
+  "period_end": "2026-11-25T08:00:00+09:00",
+  "collected_at": "2026-11-25T08:26:54.708507+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "portal_counts": {
+    "naver": 0,
+    "daum": 4,
+    "google": 0
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-25T08:26:13.021289+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유가담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유가담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:13.947865+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유가 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:17.729674+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "정유사 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:21.596979+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "기름값 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '기름값 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B8%B0%EB%A6%84%EA%B0%92+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:23.681634+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "석유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '석유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:25.900434+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "휘발유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '휘발유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%9C%98%EB%B0%9C%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:29.867606+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "경유 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '경유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B2%BD%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:31.847924+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "주유소 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '주유소 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A3%BC%EC%9C%A0%EC%86%8C+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:33.663027+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "정유업계 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '정유업계 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%97%85%EA%B3%84+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:35.625077+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "석유제품 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '석유제품 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0%EC%A0%9C%ED%92%88+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:37.799589+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유류가격 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유류가격 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EB%A5%98%EA%B0%80%EA%B2%A9+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:39.878785+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "공정위 유가 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '공정위 유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EC%9C%84+%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:41.861833+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "공정거래위원회 정유사 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '공정거래위원회 정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EA%B1%B0%EB%9E%98%EC%9C%84%EC%9B%90%ED%9A%8C+%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:45.570431+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "SK에너지 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 'SK에너지 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=SK%EC%97%90%EB%84%88%EC%A7%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:47.750394+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "현대오일뱅크 담합",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:49.611806+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "정유 44조",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '정유 44조' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0+44%EC%A1%B0&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:51.565805+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "유가 짬짜미",
+      "message": "naver collection failed",
+      "user_message": "네이버뉴스에서 '유가 짬짜미' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EC%A7%AC%EC%A7%9C%EB%AF%B8&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
+      "created_at": "2026-11-25T08:26:53.396205+09:00"
+    }
+  ],
+  "items": [
+    {
+      "portal": "daum",
+      "query": "유가담합",
+      "title": "[채권-마감] 금리 혼조세…주가 급등에도 外人 매수에 방향성 제한",
+      "url": "http://v.daum.net/v/20261124184503591",
+      "source": "연합인포맥스",
+      "published_at": "",
+      "snippet": "마감했다. 삼성전자와 SK하이닉스가 모두 6%대 상승했다. 국제유가는 과잉공급 전망으로 하락했다. 서부텍사스산원유(WTI) 1월물은 전...주재한 국무회의에서 공정거래위원회의 국고채 입찰 담합 제재와 관련해 \"과징금이 과도하다는 얘기들이 많은데, 어떻게...",
+      "collected_at": "2026-11-25T08:26:16.627600+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "유가 담합",
+      "title": "[채권-마감] 금리 혼조세…주가 급등에도 外人 매수에 방향성 제한",
+      "url": "http://v.daum.net/v/20261124184503591",
+      "source": "연합인포맥스",
+      "published_at": "",
+      "snippet": "마감했다. 삼성전자와 SK하이닉스가 모두 6%대 상승했다. 국제유가는 과잉공급 전망으로 하락했다. 서부텍사스산원유(WTI) 1월물은 전...주재한 국무회의에서 공정거래위원회의 국고채 입찰 담합 제재와 관련해 \"과징금이 과도하다는 얘기들이 많은데, 어떻게...",
+      "collected_at": "2026-11-25T08:26:20.340652+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "석유 담합",
+      "title": "[미리보는 이데일리 신문] AI황제의 귀환 美증시 4000조 축포",
+      "url": "http://v.daum.net/v/20261124222630290",
+      "source": "이데일리",
+      "published_at": "",
+      "snippet": "젠슨 황 복귀, 증시 환호… 지나친 낙관 안 돼 - [사설] 내년도 석유 최고가격제… 상시 통제 될라 △종합(화이트해커 육성 대학...때 금속탐지기 검사… 국가고시 감독관 보디캠 촬영 - 李 “국고채 담합 1.6조 과징금… 아직 적다” - 내년 경제정책 ‘민생·성장...",
+      "collected_at": "2026-11-25T08:26:28.726583+09:00",
+      "raw": {}
+    },
+    {
+      "portal": "daum",
+      "query": "공정위 유가 담합",
+      "title": "[채권-마감] 금리 혼조세…주가 급등에도 外人 매수에 방향성 제한",
+      "url": "http://v.daum.net/v/20261124184503591",
+      "source": "연합인포맥스",
+      "published_at": "",
+      "snippet": "마감했다. 삼성전자와 SK하이닉스가 모두 6%대 상승했다. 국제유가는 과잉공급 전망으로 하락했다. 서부텍사스산원유(WTI) 1월물은 전...청와대에서 주재한 국무회의에서 공정거래위원회의 국고채 입찰 담합 제재와 관련해 \"과징금이 과도하다는 얘기들이 많은데...",
+      "collected_at": "2026-11-25T08:26:44.448130+09:00",
+      "raw": {}
+    }
+  ]
+}

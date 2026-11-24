@@ -1,0 +1,303 @@
+{
+  "schema_version": "2.6",
+  "date": "2026-11-25",
+  "report_slot": "morning",
+  "collected_at": "2026-11-25 08:17:14 KST",
+  "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS",
+  "queries": [
+    "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
+    "정유 OR 정유사 OR 석유제품 OR 주유소 OR 유류세 OR 휘발유 OR 경유",
+    "석유화학 OR 나프타 OR 에틸렌 OR 프로필렌 OR 화학제품",
+    "LNG OR 천연가스 OR 가스공사 OR 도시가스",
+    "최고가격제 OR 가격상한 OR 유류세 OR 석탄및석유제품",
+    "호르무즈 OR 원유 수급 OR 석유 공급망 OR OPEC",
+    "산업부 석유 OR 공정위 석유 OR 국회 유류세",
+    "생산자물가 석유제품 OR 소비자물가 유류세 OR 수입물가 원유",
+    "전력 LNG OR 에너지 국제유가 OR 물가 석유제품",
+    "경제 유가 OR 산업 에너지",
+    "정부 유류세 OR 전력 LNG",
+    "산업부 에너지 OR 기재부 물가 석유",
+    "국제유가",
+    "유가",
+    "원유",
+    "석유제품",
+    "정유",
+    "정유사",
+    "주유소",
+    "유류세",
+    "휘발유",
+    "경유",
+    "석유화학",
+    "나프타",
+    "LNG",
+    "천연가스",
+    "최고가격제",
+    "호르무즈",
+    "전력 LNG",
+    "에너지 국제유가",
+    "물가 석유제품",
+    "생산자물가 석유제품"
+  ],
+  "time_window": "2026-11-24 17:00~2026-11-25 08:00 KST",
+  "summary": "△석유 최고가격제·유류세 등 가격 안정 정책 △중동 정세와 원유·LNG 수급 리스크 △정유·석유화학 업계 실적·원가·제품 가격 △물가 지표와 에너지 비용 부담",
+  "topics": [
+    "석유 최고가격제·유류세 등 가격 안정 정책",
+    "중동 정세와 원유·LNG 수급 리스크",
+    "정유·석유화학 업계 실적·원가·제품 가격",
+    "물가 지표와 에너지 비용 부담"
+  ],
+  "articles": [
+    {
+      "title": "뉴욕증시, AI·기술주 반락 속 혼조…국제유가, 반등",
+      "press": "한스경제",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261125074719819",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "한스경제 29분 전 다음뉴스 뉴욕증시, AI·기술주 반락 속 혼조…국제유가, 반등 다음날 발표되는 연준의 물가 지표인 개인소비지출(PCE) 가격지수에도 촉각을 곤두세우고 있다. 국제유가는 중동 지역의 원유 공급 증가 전망에도 호르무즈 해협을 둘러싼 긴장이 고조되면서 하루 만에 반등했다. 이날 뉴욕상업거래소에서 내년 1월 인도분 미국 서부...",
+      "score": 12,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 3,
+        "press": 2,
+        "originality": 2,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "원유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "[사설] 내년도 석유 최고가격제.. 상시 통제 될라",
+      "press": "이데일리",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261125050345798",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "이데일리 3시간 전 다음뉴스 [사설] 내년도 석유 최고가격제.. 상시 통제 될라 기간 유지할 방침이라고 한다. 휘발유·경유·등유 가격 상승을 막아 서민과 물류업계 부담을 덜겠다는 취지다. 최고가격제는 정유사 가 주유소에 공급하는 가격에 상한을 두고 그에 따른 손실을 정부 재정으로 보전하는 방식이다. 장점은 있다. 유가 상승이 소비자...",
+      "score": 13,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "\"석유 최고가격제 장기화땐 부작용…출구 전략 필요\"",
+      "press": "한국경제",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261124181723856",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "한국경제 13시간 전 다음뉴스 \"석유 최고가격제 장기화땐 부작용…출구 전략 필요\" 잠김 등 시장 혼란을 유발할 수 있어 조심스럽게 검토해야 한다”고 말했다. 정부는 호르무즈해협 봉쇄 직후인 지난 3월 13일부터 정유사 가 대리점·주유소에 공급하는 석유제품의 가격 상한을 정하는 최고가격제를 시행했다. 이에 따른 정유사 손실보전 1차 정산(3...",
+      "score": 13,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "\"석유 최고가격제, 가격인상 억제했지만 출구전략 고민해야\"",
+      "press": "연합뉴스",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261124194907753",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "연합뉴스 12시간 전 다음뉴스 1 \"석유 최고가격제, 가격인상 억제했지만 출구전략 고민해야\" 국제) 원유 가격 상승에도 국내 제품 가격 인상폭을 억제하는 데 기여했다\"고 말했다. 최고가격제뿐 아니라 착한주유소 제도, 유류세 인하 등이 소비자 부담을 낮췄다는 평가다. 다만 장 부연구위원은 정부 개입이 시장 가격 기능을 왜곡시킨다고 지적했다. 그는...",
+      "score": 13,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "유류세",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "푸틴 \"국내 석유시장 안정\"주장, 우크라의 정유소 폭격엔 보복 경고",
+      "press": "뉴시스",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261125075037875",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "뉴시스 26분 전 다음뉴스 2 푸틴 \"국내 석유시장 안정\"주장, 우크라의 정유소 폭격엔 보복 경고 기자회견하고 있다. 2026.11.25. [서울=뉴시스] 차미례 기자 = 블라디미르 푸틴 러시아 대통령은 24일(현지시간) 러시아는 그 동안 원유 수출 금지와 국내 석유시장 진흥책 등을 동원해서 국내 석유시장을 안정시켰다고 발표했다. 그러면서도 그는 우크라이나가 계속...",
+      "score": 11,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "원유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "푸틴 \"우크라, 트럼프 말 안듣고 러 정유 시설 공격…보복할 것\"",
+      "press": "뉴스1",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261125074204716",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "뉴스1 35분 전 다음뉴스 푸틴 \"우크라, 트럼프 말 안듣고 러 정유 시설 공격…보복할 것\" 블라디미르 푸틴 러시아 대통령은 24일(현지시간) 우크라이나가 도널드 트럼프 미국 대통령의 자제 요청에도 불구하고 러시아 정유 시설에 대한 공격을 지속하고 있다며 보복을 예고했다. 로이터통신에 따르면 푸틴 대통령은 이날 모스크바 크렘린궁에서 열린 정부...",
+      "score": 10,
+      "score_breakdown": {
+        "keyword": 4,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "정유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "우크라, 러 정유 시설 타격…푸틴 “석유시장 어려워” 보복 예고",
+      "press": "KBS",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261125065036734",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "KBS 1시간 전 다음뉴스 동영상 우크라, 러 정유 시설 타격…푸틴 “석유시장 어려워” 보복 예고 연기로 뒤덮였습니다. 불타는 석유 공장 인근엔 드론 잔해가 떨어져 있습니다. 러시아 로스토프 지역에서 유일하게 운영되던 대형 정유 시설이었는데, 우크라이나의 공격으로 가동이 전면 중단됐습니다. 로스토프는 러시아의 핵심 병참 보급로 중 한 곳으로, 그동안...",
+      "score": 9,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 2,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "정유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "중동전쟁 속 '비축유 스왑' … 물가 충격 방파제로",
+      "press": "매일경제",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261124173608214",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "매일경제 14시간 전 다음뉴스 중동전쟁 속 '비축유 스왑' … 물가 충격 방파제로 휩쓸린 반면 한국은 석유 최고가격제와 '비축유 스왑'을 통해 물가 충격을 상당 부분 막은 것으로 나타났다. 비축유 스왑은 정유사 가 해외에서 대체 원유를 확보하면 정부가 비축유를 먼저 빌려주고, 해당 원유가 국내에 도착하면 돌려받는 계약이다. 24일 관계부처...",
+      "score": 9,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 3,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "[글로벌 마켓시황] 하루 만에 혼조세…엔비디아 5%대↓",
+      "press": "SBS",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261125074806836",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "SBS 29분 전 다음뉴스 동영상 [글로벌 마켓시황] 하루 만에 혼조세…엔비디아 5%대↓ 물가지수 발표를 앞둔 경계감이 이어졌습니다. 미국 금리 10년 선물은 4.944%를 나타냈습니다. 원자재 선물 시장도 살펴보겠습니다. 원유 선물은 배럴당 81달러 선에서 거래된 가운데 호르무즈 해협에서 잇따라 선박이 피격되면서 공급 차질에 대한 경계감이...",
+      "score": 9,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 1,
+        "press": 2,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 2,
+      "source_query": "원유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "국내 '주유멤버십 1호' 엔크린카드 역사속으로",
+      "press": "머니투데이",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261125030138111",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "머니투데이 5시간 전 다음뉴스 국내 '주유멤버십 1호' 엔크린카드 역사속으로 서울 시내의 한 SK에너지 주유소 앞으로 시민이 지나가고 있다. /사진=뉴시스 /사진=김근수 SK에너지가 주유고객을 대상으로 운영한 '엔크린 보너스카드'(엔크린멤버십) 서비스를 올해 말에 종료한다. 국내 정유업계 최초로 자체 멤버십 서비스를 도입, 마케팅을...",
+      "score": 9,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 2,
+      "source_query": "주유소",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "젠슨 황 랠리 하루 만에 끝‥AI 관련주 일제히 하락세",
+      "press": "MBC",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261125075207910",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "MBC PICK 25분 전 다음뉴스 동영상 젠슨 황 랠리 하루 만에 끝‥AI 관련주 일제히 하락세 금리 인상 가능성과 국제유가 상승도 증시에 부담으로 작용했는데요. 미국의 10년물 국채금리는 4.93%까지 올랐고, '서부 텍사스산 원유 '도 중동 지역의 긴장 고조로 2.4% 상승했습니다. 종목별로 살펴보면, '코어위브'와 '마이크론 테크놀로지'가 각각 11% 넘게...",
+      "score": 8,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 1,
+        "press": 2,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 2,
+      "source_query": "원유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "푸틴, 러 석유시장 위기 인정⋯“보복 조치 불가피” 경고",
+      "press": "이투데이",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261125074703817",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "이투데이 30분 전 다음뉴스 푸틴, 러 석유시장 위기 인정⋯“보복 조치 불가피” 경고 발전 전략 및 환경안전위원회 회의를 주재하고 있다.(모스크바/AP연합뉴스) 블라디미르 푸틴 러시아 대통령이 우크라이나의 잇단 정유 시설 공격으로 자국 석유제품 시장이 어려운 상황에 놓였다고 인정하며 보복을 예고했다. 도널드 트럼프 미국 대통령의 공격 중단...",
+      "score": 7,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 2,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 2,
+      "source_query": "정유",
+      "collector": "daum_news_search"
+    }
+  ],
+  "errors": [
+    "naver 국제유가: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.24&de=2026.11.25&nso=so%3Ar%2Cp%3Afrom20261124to20261125%2Ca%3Aall&query=%EA%B5%AD%EC%A0%9C%EC%9C%A0%EA%B0%80",
+    "naver 유가: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.24&de=2026.11.25&nso=so%3Ar%2Cp%3Afrom20261124to20261125%2Ca%3Aall&query=%EC%9C%A0%EA%B0%80",
+    "naver 원유: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.24&de=2026.11.25&nso=so%3Ar%2Cp%3Afrom20261124to20261125%2Ca%3Aall&query=%EC%9B%90%EC%9C%A0",
+    "naver 석유제품: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.24&de=2026.11.25&nso=so%3Ar%2Cp%3Afrom20261124to20261125%2Ca%3Aall&query=%EC%84%9D%EC%9C%A0%EC%A0%9C%ED%92%88",
+    "naver 정유: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.24&de=2026.11.25&nso=so%3Ar%2Cp%3Afrom20261124to20261125%2Ca%3Aall&query=%EC%A0%95%EC%9C%A0",
+    "naver 정유사: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.24&de=2026.11.25&nso=so%3Ar%2Cp%3Afrom20261124to20261125%2Ca%3Aall&query=%EC%A0%95%EC%9C%A0%EC%82%AC",
+    "naver 주유소: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.24&de=2026.11.25&nso=so%3Ar%2Cp%3Afrom20261124to20261125%2Ca%3Aall&query=%EC%A3%BC%EC%9C%A0%EC%86%8C",
+    "naver 유류세: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.24&de=2026.11.25&nso=so%3Ar%2Cp%3Afrom20261124to20261125%2Ca%3Aall&query=%EC%9C%A0%EB%A5%98%EC%84%B8"
+  ],
+  "success": true,
+  "used_tier": "naver_html+daum_html"
+}
