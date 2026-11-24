@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-24",
+  "slot": "morning",
+  "status": "published",
+  "period": "수집 기간: 2026-11-23 17:00 ~ 2026-11-24 08:00 (KST)",
+  "published_at": "2026-11-24T17:23:24+09:00",
+  "committees": [
+    {
+      "id": "industry",
+      "priority": [],
+      "all": [
+        {
+          "summary": "대전상공회의소, 장철민 의원 초청 간담회 개최…지역 기업 현안 건의",
+          "event_id": "4f71554bd3a3b7cbabf3",
+          "committees": [
+            "industry"
+          ],
+          "members": [
+            "장철민"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 장철민",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 2,
+            "speaker": 2
+          },
+          "title": "대전상공회의소, 장철민 의원 초청 간담회 개최…지역 기업 현안 건의",
+          "url": "https://cc.newdaily.co.kr/site/data/html/2026/11/23/2026112350374.html",
+          "press": "뉴데일리",
+          "published_at": "2026-11-24T07:39:00+09:00",
+          "time_evidence": "원문 최초 등록·입력 2026-11-24 07:39",
+          "source_body_sha256": "719abd99ee41d13dc64790d65c7ac316f4af5854accfba6abd22f365e9959aeb",
+          "verified": true
+        },
+        {
+          "summary": "[오늘의 주요일정]산업통상부(11월24일 화요일)",
+          "event_id": "b6d8e20888872aa166f1",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 2,
+            "speaker": 1
+          },
+          "title": "[오늘의 주요일정]산업통상부(11월24일 화요일)",
+          "url": "https://www.newsis.com/view/NISX20261123_0003878515",
+          "press": "뉴시스",
+          "published_at": "2026-11-24T06:00:00+09:00",
+          "time_evidence": "원문 최초 등록·입력 2026.11.24 06:00:00",
+          "source_body_sha256": "6a8d205b73729752e8e53a717859bcd443f8f926f9b095b92c70dac84bccf894",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "climate_labor",
+      "priority": [],
+      "all": [
+        {
+          "summary": "[오늘의 주요일정]기후에너지환경부(11월24일 화요일)",
+          "event_id": "9e9cb2dfed828777f2f2",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 2,
+            "speaker": 1
+          },
+          "title": "[오늘의 주요일정]기후에너지환경부(11월24일 화요일)",
+          "url": "https://www.newsis.com/view/NISX20261123_0003879152",
+          "press": "뉴시스",
+          "published_at": "2026-11-24T06:00:00+09:00",
+          "time_evidence": "원문 최초 등록·입력 2026.11.24 06:00:00",
+          "source_body_sha256": "e3820c8114ff0d1c0a3ffa92d909ac9a3bba45421b465f0f545bd6a68380f4a1",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "priority": [],
+      "all": []
+    }
+  ],
+  "review_method": "deterministic-original-source-review",
+  "limitations": [
+    "일부 검색원 오류; 주제별 검색 결과·오류 및 보완 검색 기록은 검토 파일 참조",
+    "발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음",
+    "선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요."
+  ]
+}
