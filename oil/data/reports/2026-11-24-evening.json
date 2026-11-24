@@ -1,0 +1,182 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-24",
+  "slot": "evening",
+  "period_start": "2026-11-24T08:00:00+09:00",
+  "period_end": "2026-11-24T17:00:00+09:00",
+  "period_label": "2026-11-24 08:00 ~ 2026-11-24 17:00",
+  "generated_at": "2026-11-24T17:33:56.496664+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 13,
+  "total_enriched_input_count": 6,
+  "total_in_period_unique_count": 5,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 0,
+  "total_deduped_count": 1,
+  "total_ok_count": 0,
+  "total_review_count": 1,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 9,
+    "daum": 4,
+    "google": 0
+  },
+  "query_counts": {
+    "경유 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-24T17:33:06.880148+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "내년 경제정책방향 핵심은 ‘모두의 성장’",
+      "url": "https://www.naeil.com/news/read/609876?ref=naver",
+      "published_at": "2026-11-24T13:00:40+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-24T13:00:40+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "내년 경제정책 '모두의 성장' 초점…일자리·주거·서민금융 3대 민생 프로젝트",
+      "url": "https://www.news1.kr/economy/trend/6364010",
+      "published_at": "2026-11-24T12:11:14+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-24T12:11:14+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[동성케미컬 리스크] 부산공장 고용 갈등에 산업안전 위반 반복… 계열사 회계제재·의료기기 회수도",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083948",
+      "published_at": "2026-11-24T14:23:04+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-24T14:23:04+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "이 대통령 “예산안 시한 임박…민생 위해 초당적 지혜 발휘해야” - 진일보 | 전남일보",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000086176",
+      "published_at": "2026-11-24T15:57:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026.11.24 15:57",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "이 대통령 “예산안 시한 임박…민생 위해 초당적 지혜 발휘해야”",
+      "url": "http://v.daum.net/v/20261124155721030",
+      "published_at": "2026-11-24T15:57:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 24. 15:57",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "이 대통령 “예산안 시한 임박…민생 위해 초당적 지혜 발휘해야” - 진일보 | 전남일보",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000086176",
+      "source": "전남일보",
+      "published_at": "2026-11-24T15:57:00+09:00",
+      "snippet": "공정거래위원회에는 담합 이나 가격 조작으로 소비자에게 부담을 전가하는 행위를 엄단하라고 주문했다. 금융위원회에는 주주 중심의 자본시장 개혁에... 휘발유 15%, 경유 ·LPG 부탄 25%의 유류세 한시적 인하 조치를 2027년 1월 말까지 2개월 연장하는 교통·에너지·환경세법 및 개별소비세법 시행령 개정령안이...",
+      "collected_at": "2026-11-24T17:33:22.123184+09:00",
+      "normalized_title": "이 대통령 “예산안 시한 임박…민생 위해 초당적 지혜 발휘해야” - 진일보 | 전남일보",
+      "source_normalized": "전남일보",
+      "duplicate_key": "전남일보::이 대통령 “예산안 시한 임박…민생 위해 초당적 지혜 발휘해야” - 진일보 | 전남일보",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "경유 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://www.jnilbo.com/news/articleView.html?idxno=90000086176",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.11.24 15:57",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "07125879a46ea737",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "휘발유",
+        "경유",
+        "LPG",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "summary": "수집 기사 1건, 발행사 본문·최초시각 확인 0건, 미확인 1건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 13,
+    "exclusions": [
+      {
+        "url": "https://www.naeil.com/news/read/609876?ref=naver",
+        "title": "내년 경제정책방향 핵심은 ‘모두의 성장’",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://www.news1.kr/economy/trend/6364010",
+        "title": "내년 경제정책 '모두의 성장' 초점…일자리·주거·서민금융 3대 민생 프로젝트",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083948",
+        "title": "[동성케미컬 리스크] 부산공장 고용 갈등에 산업안전 위반 반복… 계열사 회계제재·의료기기 회수도",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "http://v.daum.net/v/20261124155721030",
+        "title": "이 대통령 “예산안 시한 임박…민생 위해 초당적 지혜 발휘해야”",
+        "reason": "duplicate_or_quality_exclusion"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-24T17:33:06.880148+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}

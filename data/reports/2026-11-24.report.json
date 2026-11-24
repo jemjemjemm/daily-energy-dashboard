@@ -5,7 +5,7 @@
     "display_date": "2026년 11월 24일 (화)",
     "previous_day_label": "11/23",
     "today_label": "11/24",
-    "generated_at": "2026-11-24 17:18 KST",
+    "generated_at": "2026-11-24 17:24 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △이형일 부총리 겸 재정경제부 장관은 23일 정부세종청사에서 진행된 기자간담회에서 \"현재 국제유가는 중동전쟁 등 불확실성이 여전히 남아 있다\"며 \"석유 최고가격제를 내년에도 일정 기간 유지할 필요가 △24일 산업연구원의 '2027년 경제·산업 전망' 보고서에 따르면, 내년 석유화학 수출액은 올해보다 3.0% 감소한 449억8000만 달러를 기록할 것으로 전망 △산업연구원이 23일 발표한 ‘2027년 경제·산업 전망’에 따르면 올해와 내년 실질 국내총생산(GDP) 성장률 전망치는 각각 3.7%, 3.5%다"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △호르무즈해협 봉쇄가 9개월째 이어지는 가운데 정부의 원유 수급 대응이 도입 차질을 줄이며 선방했다는 평가가 나왔다 △올해 중동 전쟁과 호르무즈 해협 봉쇄로 원유 공급망에 대한 중요성을 재확인한 만큼 수급 다변화 정책을 상시 제도화하고, 석유제품 가격 안정 정책이 불가피하더라도 정책 종료 조건을 구체화하는 등 △석유제품 최고가격제 시행 장기화에 따른 시장 왜곡과 재정 부담을 줄이기 위해 정부가 출구전략을 마련해야 한다는 제언이 나왔다"
     }
   ],
   "prices": {
@@ -1519,7 +1523,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(9/23~11/23)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1635,6 +1640,87 @@
       "merged_at": "2026-11-24 17:18:45 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-11-24.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△호르무즈해협 봉쇄가 9개월째 이어지는 가운데 정부의 원유 수급 대응이 도입 차질을 줄이며 선방했다는 평가가 나왔다 △올해 중동 전쟁과 호르무즈 해협 봉쇄로 원유 공급망에 대한 중요성을 재확인한 만큼 수급 다변화 정책을 상시 제도화하고, 석유제품 가격 안정 정책이 불가피하더라도 정책 종료 조건을 구체화하는 등 △석유제품 최고가격제 시행 장기화에 따른 시장 왜곡과 재정 부담을 줄이기 위해 정부가 출구전략을 마련해야 한다는 제언이 나왔다",
+    "trend_paragraphs": [
+      "한국일보는 호르무즈해협 봉쇄가 9개월째 이어지는 가운데 정부의 원유 수급 대응이 도입 차질을 줄이며 선방했다는 평가가 나왔다.",
+      "에너지경제는 올해 중동 전쟁과 호르무즈 해협 봉쇄로 원유 공급망에 대한 중요성을 재확인한 만큼 수급 다변화 정책을 상시 제도화하고, 석유제품 가격 안정 정책이 불가피하더라도 정책 종료 조건을 구체화하는 등 출구 전략을 마련해야.",
+      "이데일리는 석유제품 최고가격제 시행 장기화에 따른 시장 왜곡과 재정 부담을 줄이기 위해 정부가 출구전략을 마련해야 한다는 제언이 나왔다."
+    ],
+    "articles": [
+      {
+        "title": "호르무즈 사태 9개월, \"석유안보 선방했지만 최고가격제 출구는 과제\"",
+        "press": "한국일보",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20261124165232065",
+        "summary": "호르무즈해협 봉쇄가 9개월째 이어지는 가운데 정부의 원유 수급 대응이 도입 차질을 줄이며 선방했다는 평가가 나왔다",
+        "snippet": "한국일보 31분 전 다음뉴스 3 호르무즈 사태 9개월, \"석유안보 선방했지만 최고가격제 출구는 과제\" 정책 성과와 과제' 포럼 참석자들이 토론하고 있다. 에너지경제연구원 제공 호르무즈해협 봉쇄가 9개월째 이어지는 가운데 정부의 원유 수급 대응이 도입 차질을 줄이며 선방했다는 평가가 나왔다. 반면 기름값을 묶은 최고가격제와 유류세 인하는 재정 부담이...",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1213
+      },
+      {
+        "title": "“원유수급 다변화 상시화 필요…최고가격제 출구전략 마련해야”",
+        "press": "에너지경제",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20261124152954499",
+        "summary": "올해 중동 전쟁과 호르무즈 해협 봉쇄로 원유 공급망에 대한 중요성을 재확인한 만큼 수급 다변화 정책을 상시 제도화하고, 석유제품 가격 안정 정책이 불가피하더라도 정책 종료 조건을 구체화하는 등 출구 전략을 마련해야",
+        "snippet": "에너지경제 1시간 전 다음뉴스 “원유수급 다변화 상시화 필요…최고가격제 출구전략 마련해야” 구축해야 한다고 제언했다. 정부의 위기 대응책이 △원유 비축과 수급 다변화 혼용 △수급선 대체에 따른 추가 운임·관세 지원 △ 정유사 비축유 스와프 및 비축의무 완화 △우방국 수출 유지로 시장 신뢰 유지 같은 성과를 냈더라도, 시장 원리에 따라 사업을 영위...",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 2441
+      },
+      {
+        "title": "기름값 잡았지만 시장가 왜곡…\"석유 최고가격제, 출구전략 마련해야\"",
+        "press": "이데일리",
+        "press_grade": "A",
+        "url": "https://v.daum.net/v/20261124154532363",
+        "summary": "석유제품 최고가격제 시행 장기화에 따른 시장 왜곡과 재정 부담을 줄이기 위해 정부가 출구전략을 마련해야 한다는 제언이 나왔다",
+        "snippet": "이데일리 1시간 전 다음뉴스 2 기름값 잡았지만 시장가 왜곡…\"석유 최고가격제, 출구전략 마련해야\" 줄었지만 수급 불균형 등 부작용이 나타났다는 지적이 나왔다. 장태훈 에너지경제연구원 부연구위원은 “최고가격제·착한주유소· 유류세 인하로 구성된 정부의 가격 안정 패키지가 물가를 약 0.1%포인트, 석유제품 가격을 최대 300원가량 억제하는 효과가 있었다...",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 13,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 3,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 1408
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }
