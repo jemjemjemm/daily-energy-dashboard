@@ -3,15 +3,246 @@
   "slot": "morning",
   "status": "published",
   "period": "수집 기간: 2026-11-24 17:00 ~ 2026-11-25 08:00 (KST)",
-  "published_at": "2026-11-25T08:26:12+09:00",
+  "published_at": "2026-11-25T08:28:49+09:00",
   "committees": [
     {
       "id": "industry",
-      "priority": [],
+      "priority": [
+        {
+          "title": "\"석유 최고가격제, 가격인상 억제했지만 출구전략 고민해야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261124176200003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-24T19:48:01+09:00",
+          "summary": "에너지경제연구원, 석유 최고가격제 단계적 출구전략 및 원유 도입선 다변화 제언",
+          "event_id": "c342cdaebca2bdcdf18e",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "석유 공급·최고가격제 정상화 방식 중심의 포럼. 정부 확정 종료일·인정 보상액과 연구진 제언 구분. 같은 포럼 뉴시스 등은 국감 중복 제외.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문에서 직접 확인한 산업·규제 연관성: 정유·유가/담합",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-24T19:48:01+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "de995c13513245b89417dab7ed7c3e7ea2c54033c8130349390d579b71eca3ca"
+        },
+        {
+          "title": "EU 재생원료 사용 의무화 확대되는데…수출기업 43% \"내용 몰라\"",
+          "url": "https://www.yna.co.kr/view/AKR20261124166800003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-25T06:00:02+09:00",
+          "summary": "한경협, EU 재생원료 규제 인지도 조사 및 국내 재생원료 공급망 확충 제언",
+          "event_id": "124a2df31c0252b97561",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "한국 수출기업 대상 통상규제 대응 조사·산업 공급망 정책 제언이 주된 맥락. 환경 일반규제로 기노위에 중복 배정하지 않음.",
+          "categories": [
+            "석유화학",
+            "배터리"
+          ],
+          "category_reason": "원문에서 직접 확인한 산업·규제 연관성: 석유화학, 배터리",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-25T06:00:02+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "b4591e3e83a90af76e0427275f89f141e3ea782c2883093e9d101df0f1cf1c1c"
+        }
+      ],
       "all": [
         {
-          "summary": "'제21회 LPG의 날' 기념행사 개최... 정부 정책 지원 등 촉구",
-          "event_id": "4fb80692f8dfedcbd11c",
+          "title": "정부, 산업기술보호 종합계획 발표 앞두고 최종점검",
+          "url": "https://www.yna.co.kr/view/AKR20261124162500003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-25T06:00:06+09:00",
+          "summary": "산업부, 제6차 산업기술보호 종합계획 잠정안의 부처별 실행과제 최종 점검 예정",
+          "event_id": "3a15b10432945b7ac6f5",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부 주재 산업기술보호 정책협의회·기술유출 대응의 소관 정책. 연말 확정 발표와 잠정안 점검 예정 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-25T06:00:06+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "e4e6508a9abdf3c29d3916fed27bf5b74945ce2ff30263032614400e18ba692a"
+        },
+        {
+          "title": "내달부터 EU행 한국산 하이브리드차 무관세 6만7천924대로 제한(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261124170651098",
+          "press": "연합뉴스",
+          "published_at": "2026-11-24T19:08:52+09:00",
+          "summary": "EU, 12월부터 한국산 하이브리드차 무관세 수입물량을 200일간 6만7천924대로 제한",
+          "event_id": "4784f46748b2cf2de113",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부·EU 통상 세이프가드 대응. 유류세·국내 재정 아닌 무역구제·산업 수출정책으로 산중위 단일 배정. 하이브리드만으로 배터리 태그 미부여.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-24T19:08:52+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "f8da9895826cb4d88093f7c3692789c855ad6b474b4dcdaaeaae9d8e00b12aa2"
+        },
+        {
+          "title": "\"석유 최고가격제, 가격인상 억제했지만 출구전략 고민해야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261124176200003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-24T19:48:01+09:00",
+          "summary": "에너지경제연구원, 석유 최고가격제 단계적 출구전략 및 원유 도입선 다변화 제언",
+          "event_id": "c342cdaebca2bdcdf18e",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "석유 공급·최고가격제 정상화 방식 중심의 포럼. 정부 확정 종료일·인정 보상액과 연구진 제언 구분. 같은 포럼 뉴시스 등은 국감 중복 제외.",
+          "categories": [
+            "정유·유가/담합"
+          ],
+          "category_reason": "원문에서 직접 확인한 산업·규제 연관성: 정유·유가/담합",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-24T19:48:01+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "de995c13513245b89417dab7ed7c3e7ea2c54033c8130349390d579b71eca3ca"
+        },
+        {
+          "title": "1조 달러 한국 수출, 세계 속도 2배로 성장…경제 기여 27%",
+          "url": "https://www.yna.co.kr/view/AKR20261124149700003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-25T07:00:03+09:00",
+          "summary": "대한상의, 수출의 경제성장 기여 분석 및 수출품목·시장 다각화 과제 제시",
+          "event_id": "59d9589f4ba0ab956fd3",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업·통상정책 과제와 수출 공급망의 국내 파급효과 분석. 비우선산업 소관 기사 포함.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-25T07:00:03+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "353bd1a105bfebcd6f3864485ea3821b87436fa6fc4a954f39c658b298ea87a9"
+        },
+        {
+          "title": "EU 재생원료 사용 의무화 확대되는데…수출기업 43% \"내용 몰라\"",
+          "url": "https://www.yna.co.kr/view/AKR20261124166800003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-25T06:00:02+09:00",
+          "summary": "한경협, EU 재생원료 규제 인지도 조사 및 국내 재생원료 공급망 확충 제언",
+          "event_id": "124a2df31c0252b97561",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "한국 수출기업 대상 통상규제 대응 조사·산업 공급망 정책 제언이 주된 맥락. 환경 일반규제로 기노위에 중복 배정하지 않음.",
+          "categories": [
+            "석유화학",
+            "배터리"
+          ],
+          "category_reason": "원문에서 직접 확인한 산업·규제 연관성: 석유화학, 배터리",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-25T06:00:02+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "b4591e3e83a90af76e0427275f89f141e3ea782c2883093e9d101df0f1cf1c1c"
+        },
+        {
+          "title": "중기부, 송도에 'K-바이오 랩허브' 연구장비 실험실 개소",
+          "url": "https://www.yna.co.kr/view/AKR20261124143300030",
+          "press": "연합뉴스",
+          "published_at": "2026-11-25T06:00:09+09:00",
+          "summary": "중기부, 송도에 제약·바이오 스타트업 지원 연구장비 실험실 개소",
+          "event_id": "b0bed6da4b20d195fdb1",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "중기부 바이오 스타트업 연구개발 인프라 지원 정책. 임시 실험실 개소와 2028년 본 건물 완공 예정 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-25T06:00:09+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "4bebaa926882228965716a45794d7b90c628f095a69349218223ea72f3536f0f"
+        },
+        {
+          "title": "기술·산업 경계 허문 K-디자인 한눈에…디자인코리아 2026",
+          "url": "https://www.yna.co.kr/view/AKR20261124165600003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-25T06:00:03+09:00",
+          "summary": "산업부, 디자인코리아 2026 개최 및 산업·기술 융합 디자인 전시 지원",
+          "event_id": "42873565647a7bb57033",
+          "committees": [
+            "industry"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "산업부 디자인 산업 육성 행사·지원 정책이며 단순 개별기업 행사와 구분. 비우선산업 기사.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-25T06:00:03+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "3fbd989dce502c7a1bdecd0914d78b6088c3e1881211096ceeddb6212e9a12a3"
+        },
+        {
+          "title": "'제21회 LPG의 날' 기념행사 개최... 정부 정책 지원 등 촉구",
+          "url": "https://www.todayenergy.kr/news/articleView.html?idxno=306018",
+          "press": "투데이에너지",
+          "published_at": "2026-11-25T00:30:47+09:00",
+          "summary": "LPG업계, 제도 개선·정책 지원 촉구 및 김성원 산중위원장 지원 검토 강조",
+          "event_id": "08a171b941eac60be187",
           "committees": [
             "industry"
           ],
@@ -19,21 +250,17 @@
             "김성원"
           ],
           "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 김성원",
+          "committee_reason": "LPG의 날 행사에서 산업부 자원산업정책관과 산중위원장 발언. 김성원은 사용자 Excel 기반 roster의 산중위원장과 원문 자격 대조. LPG를 LNG·도시가스로 치환하지 않음.",
           "categories": [],
           "category_reason": "",
           "importance": {
-            "legislation": 0,
+            "legislation": 1,
             "impact": 2,
-            "speaker": 2
+            "speaker": 3
           },
-          "title": "'제21회 LPG의 날' 기념행사 개최... 정부 정책 지원 등 촉구",
-          "url": "https://www.todayenergy.kr/news/articleView.html?idxno=306018",
-          "press": "투데이에너지",
-          "published_at": "2026-11-25T00:30:47+09:00",
-          "time_evidence": "원문 published_time 2026-11-25T00:30:47+09:00",
-          "source_body_sha256": "329e42148b66aaff651023e9387f01227bad7cdddae4506a2cae35f3b0722f12",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-25T00:30:47+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "329e42148b66aaff651023e9387f01227bad7cdddae4506a2cae35f3b0722f12"
         }
       ]
     },
@@ -41,113 +268,92 @@
       "id": "climate_labor",
       "priority": [
         {
-          "summary": "[해상풍력 얼라이언스] POST-RPS 전환기 맞은 해상풍력…‘고비용·착공절벽’ 넘어설 해법 모색",
-          "event_id": "33c327398a1fa4435e57",
-          "committees": [
-            "climate_labor"
-          ],
-          "members": [
-            "김정호",
-            "서왕진"
-          ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 김정호, 서왕진",
-          "categories": [
-            "재생에너지·수소"
-          ],
-          "category_reason": "원문 제목에 직접 명시된 우선산업",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
-          },
-          "title": "[해상풍력 얼라이언스] POST-RPS 전환기 맞은 해상풍력…‘고비용·착공절벽’ 넘어설 해법 모색",
-          "url": "https://www.electimes.com/news/articleView.html?idxno=375225",
-          "press": "전기신문",
-          "published_at": "2026-11-24T21:24:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026.11.24 21:24",
-          "source_body_sha256": "0a44441c7f7b2dd7649354330c8a609fbc27e95e039d641643fbc3bf1b5bf7d7",
-          "verified": true
-        },
-        {
-          "summary": "'메아리 없는' 재생에너지 속도전… 예산 집행도 안되고 인프라도 없고",
-          "event_id": "ae1c7b3768b75cecd97e",
-          "committees": [
-            "climate_labor"
-          ],
-          "members": [],
-          "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
-          "categories": [
-            "재생에너지·수소"
-          ],
-          "category_reason": "원문 제목에 직접 명시된 우선산업",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 1
-          },
           "title": "'메아리 없는' 재생에너지 속도전… 예산 집행도 안되고 인프라도 없고",
           "url": "https://www.fnnews.com/news/202611241809010532",
           "press": "파이낸셜뉴스",
           "published_at": "2026-11-24T18:08:31+09:00",
-          "time_evidence": "원문 published_time 2026-11-24T18:08:31+09:00",
-          "source_body_sha256": "d826cf1dd1ef6b5fe00ca9cd2d4159de7450c2abec83c24da420f7624a1d1395",
-          "verified": true
-        }
-      ],
-      "all": [
-        {
-          "summary": "[단독] 1명당 100만원씩, 플랫폼 노동자 보호 예산 신설",
-          "event_id": "610907cfd20211278c3f",
+          "summary": "기노위 재생에너지 예산심사, 집행 부진·전력망 과제와 증액·삭감 이견 부각",
+          "event_id": "9f424abb3642c9568d71",
           "committees": [
             "climate_labor"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
-          "categories": [],
-          "category_reason": "",
+          "committee_reason": "국회 기노위 예산결산기금심사소위의 재생에너지 지원 예산심사. 일반 재정부담으로 재경위에 중복 배정하지 않음. 정부안·여야 요구와 최종 확정예산 구분.",
+          "categories": [
+            "재생에너지·수소",
+            "LNG·전력"
+          ],
+          "category_reason": "원문에서 직접 확인한 산업·규제 연관성: 재생에너지·수소, LNG·전력",
           "importance": {
             "legislation": 3,
-            "impact": 2,
-            "speaker": 1
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "[단독] 1명당 100만원씩, 플랫폼 노동자 보호 예산 신설",
-          "url": "https://www.fnnews.com/news/202611241328192999",
-          "press": "파이낸셜뉴스",
-          "published_at": "2026-11-24T18:08:47+09:00",
-          "time_evidence": "원문 published_time 2026-11-24T18:08:47+09:00",
-          "source_body_sha256": "e05a24d0155fbddbb7a28c8755ba73e7c4cfd2b75d4b1a96b7d17a3e3edc2ca9",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-24T18:08:31+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "d826cf1dd1ef6b5fe00ca9cd2d4159de7450c2abec83c24da420f7624a1d1395"
         },
         {
-          "summary": "'노동 사각지대' 줄인다… 특고·플랫폼 노동자 1명당 100만원씩 지원",
-          "event_id": "c2a4958494c2ef77add8",
+          "title": "2035년까지 신규 택시 100% 전기차로…정부·택시업계 맞손",
+          "url": "https://www.yna.co.kr/view/AKR20261124153300003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-24T17:30:01+09:00",
+          "summary": "정부·택시업계, 2035년 신규 택시 전기차 전환 목표 및 충전시설 확충 추진",
+          "event_id": "a84f2929f20a5135998f",
           "committees": [
             "climate_labor"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
-          "categories": [],
-          "category_reason": "",
+          "committee_reason": "기후부·국토부 택시 전동화 협약과 온실가스 감축 정책. 목표와 전환 완료 구분.",
+          "categories": [
+            "배터리"
+          ],
+          "category_reason": "원문에서 직접 확인한 산업·규제 연관성: 배터리",
           "importance": {
-            "legislation": 3,
-            "impact": 2,
-            "speaker": 1
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "'노동 사각지대' 줄인다… 특고·플랫폼 노동자 1명당 100만원씩 지원",
-          "url": "https://www.fnnews.com/news/202611241809039455",
-          "press": "파이낸셜뉴스",
-          "published_at": "2026-11-24T18:08:41+09:00",
-          "time_evidence": "원문 published_time 2026-11-24T18:08:41+09:00",
-          "source_body_sha256": "5ad1abf3e7616b94df1eee2dc7f78f0c6bbe48357546549b13df05dd257fd5cb",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-24T17:30:01+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "4b68799882ac425bd689da7fa76782318e39815334630c4eef013530d651225a"
         },
         {
-          "summary": "“에너지에 정파 없다…AI·전기 함께 갖춰야” 발언",
-          "event_id": "ac20ae523383da05775f",
+          "title": "[해상풍력 얼라이언스] POST-RPS 전환기 맞은 해상풍력…‘고비용·착공절벽’ 넘어설 해법 모색",
+          "url": "https://www.electimes.com/news/articleView.html?idxno=375225",
+          "press": "전기신문",
+          "published_at": "2026-11-24T21:24:00+09:00",
+          "summary": "해상풍력 얼라이언스, 발전단가·인허가·공급망 과제 및 보급 확대 방안 논의",
+          "event_id": "943d0fcf7d06c43c3df4",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부 해상풍력추진단 참석·국회 해상풍력 정책토론의 재생에너지 보급·전력정책 맥락. 개발사 추정단가와 정부 확정 입찰가격 구분.",
+          "categories": [
+            "재생에너지·수소",
+            "LNG·전력"
+          ],
+          "category_reason": "원문에서 직접 확인한 산업·규제 연관성: 재생에너지·수소, LNG·전력",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026.11.24 21:24; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "69e1c40d1de6f7a4c2b36bc6c00e68c15994ec357f108f8f878221b0ef5d9fa6"
+        },
+        {
+          "title": "“에너지에 정파 없다…AI·전기 함께 갖춰야”",
+          "url": "https://www.sedaily.com/article/20118490?ref=naver",
+          "press": "서울경제",
+          "published_at": "2026-11-24T18:15:45+09:00",
+          "summary": "최기상·박수민 의원, 안정적 전력공급과 ESS 산업 육성 지원 강조",
+          "event_id": "24695e09443ac549a05c",
           "committees": [
             "climate_labor"
           ],
@@ -156,102 +362,228 @@
             "박수민"
           ],
           "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 최기상, 박수민",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
-          },
-          "title": "“에너지에 정파 없다…AI·전기 함께 갖춰야”",
-          "url": "https://www.sedaily.com/article/20118490?ref=naver",
-          "press": "서울경제",
-          "published_at": "2026-11-24T18:15:45+09:00",
-          "time_evidence": "원문 published_time 2026-11-24T18:15:45+09:00",
-          "source_body_sha256": "34433bb2673cbc7bb0f693edc638dc514c6d4291043aea5201e761ae7e494174",
-          "verified": true
-        },
-        {
-          "summary": "[해상풍력 얼라이언스] POST-RPS 전환기 맞은 해상풍력…‘고비용·착공절벽’ 넘어설 해법 모색",
-          "event_id": "33c327398a1fa4435e57",
-          "committees": [
-            "climate_labor"
-          ],
-          "members": [
-            "김정호",
-            "서왕진"
-          ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 김정호, 서왕진",
+          "committee_reason": "원문이 기노위 소속 의원의 축사 자격·정책을 명시. 최기상·박수민은 roster 보완 소속 근거와 대조. 의원명만으로 분류하지 않음.",
           "categories": [
-            "재생에너지·수소"
+            "배터리",
+            "LNG·전력"
           ],
-          "category_reason": "원문 제목에 직접 명시된 우선산업",
+          "category_reason": "원문에서 직접 확인한 산업·규제 연관성: 배터리, LNG·전력",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "[해상풍력 얼라이언스] POST-RPS 전환기 맞은 해상풍력…‘고비용·착공절벽’ 넘어설 해법 모색",
-          "url": "https://www.electimes.com/news/articleView.html?idxno=375225",
-          "press": "전기신문",
-          "published_at": "2026-11-24T21:24:00+09:00",
-          "time_evidence": "원문 최초 등록·입력 2026.11.24 21:24",
-          "source_body_sha256": "0a44441c7f7b2dd7649354330c8a609fbc27e95e039d641643fbc3bf1b5bf7d7",
-          "verified": true
-        },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-24T18:15:45+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "34433bb2673cbc7bb0f693edc638dc514c6d4291043aea5201e761ae7e494174"
+        }
+      ],
+      "all": [
         {
-          "summary": "[단독] ‘장애인 취성패’ 예결위서 민간위탁 움직임",
-          "event_id": "d8d019194d8822f1de48",
-          "committees": [
-            "climate_labor"
-          ],
-          "members": [
-            "박해철"
-          ],
-          "speaker_role": "member",
-          "committee_reason": "본문 의원·위원장·간사 발언 표시 및 roster 소속 대조: 박해철",
-          "categories": [],
-          "category_reason": "",
-          "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 2
-          },
-          "title": "[단독] ‘장애인 취성패’ 예결위서 민간위탁 움직임",
-          "url": "https://www.labortoday.co.kr/news/articleView.html?idxno=237904",
-          "press": "매일노동뉴스",
-          "published_at": "2026-11-25T06:30:03+09:00",
-          "time_evidence": "원문 published_time 2026-11-25T06:30:03+09:00",
-          "source_body_sha256": "fbeb3919cb7f18eb1730ff7b71d2c1a85defcb76a51cd3691c98813b721482cb",
-          "verified": true
-        },
-        {
-          "summary": "'메아리 없는' 재생에너지 속도전… 예산 집행도 안되고 인프라도 없고",
-          "event_id": "ae1c7b3768b75cecd97e",
+          "title": "'메아리 없는' 재생에너지 속도전… 예산 집행도 안되고 인프라도 없고",
+          "url": "https://www.fnnews.com/news/202611241809010532",
+          "press": "파이낸셜뉴스",
+          "published_at": "2026-11-24T18:08:31+09:00",
+          "summary": "기노위 재생에너지 예산심사, 집행 부진·전력망 과제와 증액·삭감 이견 부각",
+          "event_id": "9f424abb3642c9568d71",
           "committees": [
             "climate_labor"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "committee_reason": "국회 기노위 예산결산기금심사소위의 재생에너지 지원 예산심사. 일반 재정부담으로 재경위에 중복 배정하지 않음. 정부안·여야 요구와 최종 확정예산 구분.",
           "categories": [
-            "재생에너지·수소"
+            "재생에너지·수소",
+            "LNG·전력"
           ],
-          "category_reason": "원문 제목에 직접 명시된 우선산업",
+          "category_reason": "원문에서 직접 확인한 산업·규제 연관성: 재생에너지·수소, LNG·전력",
           "importance": {
-            "legislation": 0,
-            "impact": 2,
-            "speaker": 1
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
           },
-          "title": "'메아리 없는' 재생에너지 속도전… 예산 집행도 안되고 인프라도 없고",
-          "url": "https://www.fnnews.com/news/202611241809010532",
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-24T18:08:31+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "d826cf1dd1ef6b5fe00ca9cd2d4159de7450c2abec83c24da420f7624a1d1395"
+        },
+        {
+          "title": "2035년까지 신규 택시 100% 전기차로…정부·택시업계 맞손",
+          "url": "https://www.yna.co.kr/view/AKR20261124153300003",
+          "press": "연합뉴스",
+          "published_at": "2026-11-24T17:30:01+09:00",
+          "summary": "정부·택시업계, 2035년 신규 택시 전기차 전환 목표 및 충전시설 확충 추진",
+          "event_id": "a84f2929f20a5135998f",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부·국토부 택시 전동화 협약과 온실가스 감축 정책. 목표와 전환 완료 구분.",
+          "categories": [
+            "배터리"
+          ],
+          "category_reason": "원문에서 직접 확인한 산업·규제 연관성: 배터리",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-24T17:30:01+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "4b68799882ac425bd689da7fa76782318e39815334630c4eef013530d651225a"
+        },
+        {
+          "title": "[해상풍력 얼라이언스] POST-RPS 전환기 맞은 해상풍력…‘고비용·착공절벽’ 넘어설 해법 모색",
+          "url": "https://www.electimes.com/news/articleView.html?idxno=375225",
+          "press": "전기신문",
+          "published_at": "2026-11-24T21:24:00+09:00",
+          "summary": "해상풍력 얼라이언스, 발전단가·인허가·공급망 과제 및 보급 확대 방안 논의",
+          "event_id": "943d0fcf7d06c43c3df4",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "기후부 해상풍력추진단 참석·국회 해상풍력 정책토론의 재생에너지 보급·전력정책 맥락. 개발사 추정단가와 정부 확정 입찰가격 구분.",
+          "categories": [
+            "재생에너지·수소",
+            "LNG·전력"
+          ],
+          "category_reason": "원문에서 직접 확인한 산업·규제 연관성: 재생에너지·수소, LNG·전력",
+          "importance": {
+            "legislation": 2,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 최초 등록·입력 2026.11.24 21:24; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "69e1c40d1de6f7a4c2b36bc6c00e68c15994ec357f108f8f878221b0ef5d9fa6"
+        },
+        {
+          "title": "노동장관, 삼성물산 등과 반도체팹 건설 논의…인력 확보 총력",
+          "url": "https://www.yna.co.kr/view/AKR20261124166100530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-25T07:30:01+09:00",
+          "summary": "노동부, 반도체팹 건설 숙련인력 확보를 위한 직업훈련 확대 및 현장 안전 당부",
+          "event_id": "eca00b333bf5111ae10e",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "minister",
+          "committee_reason": "고용노동부 장관 자격의 인력양성·산업안전 간담회. 반도체 기업명이 있어도 산업통상 대신 고용노동 소관 단일 배정.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-25T07:30:01+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "34ea7d4d3ef18589efd6abcddffe0ab4389606e8e633e31a3f917164f3b8d55e"
+        },
+        {
+          "title": "“에너지에 정파 없다…AI·전기 함께 갖춰야”",
+          "url": "https://www.sedaily.com/article/20118490?ref=naver",
+          "press": "서울경제",
+          "published_at": "2026-11-24T18:15:45+09:00",
+          "summary": "최기상·박수민 의원, 안정적 전력공급과 ESS 산업 육성 지원 강조",
+          "event_id": "24695e09443ac549a05c",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [
+            "최기상",
+            "박수민"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "원문이 기노위 소속 의원의 축사 자격·정책을 명시. 최기상·박수민은 roster 보완 소속 근거와 대조. 의원명만으로 분류하지 않음.",
+          "categories": [
+            "배터리",
+            "LNG·전력"
+          ],
+          "category_reason": "원문에서 직접 확인한 산업·규제 연관성: 배터리, LNG·전력",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-24T18:15:45+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "34433bb2673cbc7bb0f693edc638dc514c6d4291043aea5201e761ae7e494174"
+        },
+        {
+          "title": "서울지하철 임단협 타결로 파업 철회…'출근길 대란' 피했다(종합3보)",
+          "url": "https://www.yna.co.kr/view/AKR20261125004253004",
+          "press": "연합뉴스",
+          "published_at": "2026-11-25T05:15:28+09:00",
+          "summary": "서울교통공사 1·2·3노조 임단협 타결 및 예고 파업 철회",
+          "event_id": "a25e54de237f16ea8c17",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "노사 임금·단체협약 및 구조조정·근무환경 합의의 노동 현안. 동일 사안 속보와 종합 이전판 중복 제거.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 3,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-25T05:15:28+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "de79bc0194399c328a5a965a65bd2c9dc2eea47983e0f2fcff003816e75be4e6"
+        },
+        {
+          "title": "'노동 사각지대' 줄인다… 특고·플랫폼 노동자 1명당 100만원씩 지원",
+          "url": "https://www.fnnews.com/news/202611241809039455",
           "press": "파이낸셜뉴스",
-          "published_at": "2026-11-24T18:08:31+09:00",
-          "time_evidence": "원문 published_time 2026-11-24T18:08:31+09:00",
-          "source_body_sha256": "d826cf1dd1ef6b5fe00ca9cd2d4159de7450c2abec83c24da420f7624a1d1395",
-          "verified": true
+          "published_at": "2026-11-24T18:08:41+09:00",
+          "summary": "기노위, 특고·플랫폼·프리랜서 생활안정 지원 등을 위한 취약노동자지원 예산 524억원 증액 의결",
+          "event_id": "340b7e0917b9b28dd6c7",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "국회 기노위 예산심사의 취약노동자 생활안정 지원이 핵심. 상임위 증액 의결과 최종 예산 확정·실제 지급 구분. 익명 의원 발언은 이름·소속을 추정하지 않고 위원회 의결 맥락으로 배정.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-24T18:08:41+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "5ad1abf3e7616b94df1eee2dc7f78f0c6bbe48357546549b13df05dd257fd5cb"
+        },
+        {
+          "title": "사업주훈련 우수사례 경진대회…삼우전자정밀, 중기부문 '대상'",
+          "url": "https://www.yna.co.kr/view/AKR20261124151600530",
+          "press": "연합뉴스",
+          "published_at": "2026-11-25T06:00:07+09:00",
+          "summary": "고용부·산업인력공단, 사업주 직업능력개발훈련 우수사례 선정",
+          "event_id": "195ca93ed396db967cb6",
+          "committees": [
+            "climate_labor"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "고용부 사업주 직업훈련 정책·확산 행사. 제목의 중기부문은 중소기업 부문으로 중기부 부처로 오분류하지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-25T06:00:07+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "034a404ba673868cf170a264bac931e26b992cd5d3794f97abd39a2a13661321"
         }
       ]
     },
@@ -260,35 +592,86 @@
       "priority": [],
       "all": [
         {
-          "summary": "예산소위, 靑 특활비 놓고 충돌 끝 보류…野 \"내로남불 사과해야\" 與 \"역대 첫 공개\" 발언",
-          "event_id": "d0e50f66552b2d10ce1f",
+          "title": "與野 예결위·재경위 간사, 1시간 '4자 회동'…미래기금 이견에 '빈손'",
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04126246645649000",
+          "press": "이데일리",
+          "published_at": "2026-11-24T17:40:07+09:00",
+          "summary": "예결위·재경위 여야 간사, 미래대응기금 4자 협상에서 입장차 재확인",
+          "event_id": "c51a697357dfadfa89eb",
+          "committees": [
+            "finance"
+          ],
+          "members": [
+            "오기형",
+            "배준영"
+          ],
+          "speaker_role": "member",
+          "committee_reason": "재경위의 미래대응기금 설치 법안·예산 심사 맥락과 해당 간사 오기형·배준영의 참여를 원문 및 사용자 제공 roster.json 대조. 예결위 소속 정태호·유상범을 재경위 의원으로 분류하지 않음.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 3,
+            "impact": 3,
+            "speaker": 3
+          },
+          "verified": true,
+          "time_evidence": "발행사 화면 등록 2026-11-24 오후 5:40:07 직접 확인; 수정 오후 5:44:08과 구분; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "221017e770a03b478b677f401ad6035f3058aa83102cbde3fb3d84077de0c37b"
+        },
+        {
+          "title": "대법 \"외국납부세액공제 계산시 괌은 미국과 별개 국가로 봐야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261124175400004",
+          "press": "연합뉴스",
+          "published_at": "2026-11-25T06:00:01+09:00",
+          "summary": "대법원, 외국납부세액공제 한도 계산 시 괌·북마리아나와 미국의 구분 판단",
+          "event_id": "e26420ff2487e11d787b",
           "committees": [
             "finance"
           ],
           "members": [],
           "speaker_role": "policy",
-          "committee_reason": "본문에 명시된 심사·소관 상임위",
+          "committee_reason": "법인세 외국납부세액공제의 국가별 한도와 조세 해석 쟁점. 법원 일반 사법정책이 아닌 세법 적용의 재정경제 소관으로 단일 배정.",
           "categories": [],
           "category_reason": "",
           "importance": {
             "legislation": 2,
             "impact": 2,
-            "speaker": 1
+            "speaker": 2
           },
-          "title": "예산소위, 靑 특활비 놓고 충돌 끝 보류…野 \"내로남불 사과해야\" 與 \"역대 첫 공개\"",
-          "url": "https://www.fnnews.com/news/202611242253013485",
-          "press": "파이낸셜뉴스",
-          "published_at": "2026-11-24T22:56:29+09:00",
-          "time_evidence": "원문 published_time 2026-11-24T22:56:29+09:00",
-          "source_body_sha256": "67c33b73b51739e3ed6cfaa77504dbbb90415cfdcaa43f0647752fd7a79586e8",
-          "verified": true
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-25T06:00:01+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "ab9e6b7e757b3222a565df7b2b814dbff2bfb451debf684339c51796d4cc5d3f"
+        },
+        {
+          "title": "\"SK하이닉스 세수 늘었지만…청주시, 세입 감소 대비해야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261124159400064",
+          "press": "연합뉴스",
+          "published_at": "2026-11-24T17:11:33+09:00",
+          "summary": "청주시정연구원, 반도체 호황 세수의 적립 및 향후 세입 감소 대비 제언",
+          "event_id": "ce4d05065a172cae7ac3",
+          "committees": [
+            "finance"
+          ],
+          "members": [],
+          "speaker_role": "policy",
+          "committee_reason": "지방세 수입 변동과 재정계획에 대한 연구기관 콜로키움. 연구위원 제언이며 국회의원 발언·정부 확정 재정안과 구분.",
+          "categories": [],
+          "category_reason": "",
+          "importance": {
+            "legislation": 1,
+            "impact": 2,
+            "speaker": 2
+          },
+          "verified": true,
+          "time_evidence": "원문 published_time 2026-11-24T17:11:33+09:00; 발행사 원문 본문·최초 송고시각 직접 대조, 수정 및 포털 재게시시각 미사용",
+          "source_body_sha256": "6400bc0f92af5f60b3507bf5dccb0fe14140d6c3a7260db6a2c88626c751a331"
         }
       ]
     }
   ],
-  "review_method": "deterministic-original-source-review",
+  "review_method": "발행사 원문 본문·최초시각 및 소관 직접 편집 검토",
   "limitations": [
-    "발행사 원문·최초시각 미확인 후보는 제외; 확인 기사만 수록하며 전체 뉴스 부재를 의미하지 않음",
-    "선택적 편집 API 사용 불가; 명시적 소관·발언자 및 원문 제목 기반 기본 분류. 모호한 맥락은 제외하며 동일 사안의 문구가 크게 다른 보도는 추가 편집 검토 필요."
+    "공개검색 노출·일부 발행사 원문 접근 제한. 미확인·시간대 밖·중복 기사는 제외하며 기사 부족을 뉴스 부재로 단정하지 않음.",
+    "정유4사 증인 신청·채택, 대왕고래 정부 권유, 카드사 회신·산업부 공문·화관법 투자비·E&S CISO 사망의 시간대 내 신규 공개 원문 근거 미확인. 비공개 자료 내용 추정 불가."
   ]
 }

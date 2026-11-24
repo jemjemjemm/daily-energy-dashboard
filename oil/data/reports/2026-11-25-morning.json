@@ -23,18 +23,18 @@
     "공정거래위원회 정유사 담합"
   ],
   "total_raw_count": 4,
-  "total_enriched_input_count": 2,
-  "total_in_period_unique_count": 0,
-  "total_unknown_time_count": 0,
-  "total_outside_period_count": 2,
-  "total_deduped_count": 0,
-  "total_ok_count": 0,
-  "total_review_count": 0,
-  "total_excluded_count": 0,
+  "total_enriched_input_count": 142,
+  "total_in_period_unique_count": 56,
+  "total_unknown_time_count": 60,
+  "total_outside_period_count": 26,
+  "total_deduped_count": 15,
+  "total_ok_count": 6,
+  "total_review_count": 9,
+  "total_excluded_count": 127,
   "grade_counts": {
-    "A": 0,
-    "B": 0,
-    "C": 0
+    "A": 5,
+    "B": 3,
+    "C": 7
   },
   "portal_counts": {
     "naver": 0,
@@ -225,189 +225,480 @@
       "verification_reason": "원문 본문 또는 최초시각 미확인"
     }
   ],
-  "articles": [],
-  "summary": "수집 기사 0건, 발행사 본문·최초시각 확인 0건, 미확인 0건 구분",
-  "editorial_audit": {
-    "method": "automated-source-audit",
-    "raw_result_count": 4,
-    "exclusions": [
-      {
-        "url": "http://v.daum.net/v/20261124184503591",
-        "title": "[채권-마감] 금리 혼조세…주가 급등에도 外人 매수에 방향성 제한",
-        "reason": "outside_period"
+  "articles": [
+    {
+      "title": "푸틴 \"국내 석유시장 안정\"주장, 우크라의 정유소 폭격엔 보복 경고",
+      "press": "뉴시스",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261125075037875",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "뉴시스 26분 전 다음뉴스 2 푸틴 \"국내 석유시장 안정\"주장, 우크라의 정유소 폭격엔 보복 경고 푸틴(가운데) 러시아 대통령이 3월 9일 모스크바의 크렘린궁에서 글로벌 에너지시장 정부 회의를 주재하고 있다. 푸틴 대통령은 \" 호르무즈 해협에 의존한 원유 생산이 한 달 이내에 멈출 위험이 있다\"며 \"러시아는 여전히 신뢰할 수 있는 에너지 공급자\"라고 말했다...",
+      "score": 11,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "url": "http://v.daum.net/v/20261124222630290",
-        "title": "[미리보는 이데일리 신문] AI황제의 귀환 美증시 4000조 축포",
-        "reason": "outside_period"
-      }
-    ],
-    "collection_warnings": [
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "전체 검색",
-        "message": "public search coverage limit",
-        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
-        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
-        "created_at": "2026-11-25T08:26:13.021289+09:00"
+      "industry_relevance": 4,
+      "source_query": "호르무즈",
+      "collector": "daum_news_search",
+      "source": "뉴시스",
+      "published_at": "2026-11-25T07:50:37+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "푸틴 \"국내 석유시장 안정\"주장, 우크라의 정유소 폭격엔 보복 경고",
+      "id": "310d8628209b3e4a",
+      "canonical_url": "https://v.daum.net/v/20261125075037875",
+      "source_normalized": "뉴시스",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "호르무즈 긴장에 국제 유가 반등⋯브렌트유·WTI 2%대 ↑",
+      "press": "브릿지경제",
+      "press_grade": "C",
+      "url": "https://v.daum.net/v/20261125075030869",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "브릿지경제 26분 전 다음뉴스 호르무즈 긴장에 국제 유가 반등⋯브렌트유·WTI 2%대 ↑ 호르무즈 해협 모습. 로이터=연합. 전날 중동산 원유 공급 증가 여파로 3%대 급락했던 국제 유가 가호르무즈 해협을 둘러싼 군사적 긴장이 다시 고조되면서 상승세로 돌아섰다. 24일(현지시간) 런던 ICE선물거래소에서 내년 1월 인도분 브렌트유는 전 거래일보다 2.03...",
+      "score": 10,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 1,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "유가담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '유가담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:13.947865+09:00"
+      "industry_relevance": 5,
+      "source_query": "국제유가",
+      "collector": "daum_news_search",
+      "source": "브릿지경제",
+      "published_at": "2026-11-25T07:50:30+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "호르무즈 긴장에 국제 유가 반등⋯브렌트유·WTI 2%대 ↑",
+      "id": "9defb0a2fca036cc",
+      "canonical_url": "https://v.daum.net/v/20261125075030869",
+      "source_normalized": "브릿지경제",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "엔비디아 급등 하루 만에 휘청···국제유가 중동 긴장에 상승 반전 - 스마트비즈",
+      "source": "스마트비즈",
+      "url": "https://www.smartbizn.com/news/articleView.html?idxno=160497",
+      "published_at": "2026-11-25T07:48:47+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-25T07:48:47+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "엔비디아 급등 하루 만에 휘청···국제유가 중동 긴장에 상승 반전 - 스마트비즈",
+      "source_body_sha256": "95aa7e8d06616044a283c7b6261e6dae50e546b21d1646b5dcbe502698113dc1",
+      "published_at_basis": "original_article",
+      "id": "1bc070b3bd79bee9",
+      "canonical_url": "https://www.smartbizn.com/news/articleView.html?idxno=160497",
+      "source_normalized": "스마트비즈",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "푸틴, 러 석유시장 위기 인정⋯“보복 조치 불가피” 경고",
+      "press": "이투데이",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261125074703817",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "이투데이 36분 전 다음뉴스 푸틴, 러 석유시장 위기 인정⋯“보복 조치 불가피” 경고 발전 전략 및 환경안전위원회 회의를 주재하고 있다.(모스크바/AP연합뉴스) 블라디미르 푸틴 러시아 대통령이 우크라이나의 잇단 정유 시설 공격으로 자국 석유제품 시장이 어려운 상황에 놓였다고 인정하며 보복을 예고했다. 도널드 트럼프 미국 대통령의 공격 중단...",
+      "score": 7,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 2,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "유가 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:17.729674+09:00"
+      "industry_relevance": 2,
+      "source_query": "정유",
+      "collector": "daum_news_search",
+      "source": "이투데이",
+      "published_at": "2026-11-25T07:47:03+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "푸틴, 러 석유시장 위기 인정⋯“보복 조치 불가피” 경고",
+      "id": "d0e3b8c19d016c6c",
+      "canonical_url": "https://v.daum.net/v/20261125074703817",
+      "source_normalized": "이투데이",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "푸틴 \"우크라, 트럼프 말 안듣고 러 정유 시설 공격…보복할 것\"",
+      "press": "뉴스1",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261125074204716",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "뉴스1 40분 전 다음뉴스 푸틴 \"우크라, 트럼프 말 안듣고 러 정유 시설 공격…보복할 것\" 블라디미르 푸틴 러시아 대통령은 24일(현지시간) 우크라이나가 도널드 트럼프 미국 대통령의 자제 요청에도 불구하고 러시아 정유 시설에 대한 공격을 지속하고 있다며 보복을 예고했다. 로이터통신에 따르면 푸틴 대통령은 이날 모스크바 크렘린궁에서 열린 정부...",
+      "score": 10,
+      "score_breakdown": {
+        "keyword": 4,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "정유사 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:21.596979+09:00"
+      "industry_relevance": 4,
+      "source_query": "정유",
+      "collector": "daum_news_search",
+      "source": "뉴스1",
+      "published_at": "2026-11-25T07:42:04+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "푸틴 \"우크라, 트럼프 말 안듣고 러 정유 시설 공격…보복할 것\"",
+      "id": "aef3f032f5bd42b7",
+      "canonical_url": "https://v.daum.net/v/20261125074204716",
+      "source_normalized": "뉴스1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "석유 최고가격제 논란, 정부의 출구 전략은 언제?",
+      "source": "공감신문",
+      "url": "https://www.gokorea.kr/news/articleView.html?idxno=887150",
+      "published_at": "2026-11-25T07:14:30+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-25T07:14:30+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "석유 최고가격제 논란, 정부의 출구 전략은 언제?",
+      "source_body_sha256": "b743d07003cfe4eab43603ffc5f4aa7bc2c79233d2c8c10c9b2f250099d0a003",
+      "published_at_basis": "original_article",
+      "id": "d2785b28ef1d2ded",
+      "canonical_url": "https://www.gokorea.kr/news/articleView.html?idxno=887150",
+      "source_normalized": "공감신문",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "우크라, 러 정유 시설 타격…푸틴 “석유시장 어려워” 보복 예고",
+      "press": "KBS",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261125065036734",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "KBS 1시간 전 다음뉴스 동영상 우크라, 러 정유 시설 타격…푸틴 “석유시장 어려워” 보복 예고 연기로 뒤덮였습니다. 불타는 석유 공장 인근엔 드론 잔해가 떨어져 있습니다. 러시아 로스토프 지역에서 유일하게 운영되던 대형 정유 시설이었는데, 우크라이나의 공격으로 가동이 전면 중단됐습니다. 로스토프는 러시아의 핵심 병참 보급로 중 한 곳으로, 그동안...",
+      "score": 9,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 2,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "기름값 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '기름값 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B8%B0%EB%A6%84%EA%B0%92+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:23.681634+09:00"
+      "industry_relevance": 4,
+      "source_query": "정유",
+      "collector": "daum_news_search",
+      "source": "KBS",
+      "published_at": "2026-11-25T06:50:36+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "우크라, 러 정유 시설 타격…푸틴 “석유시장 어려워” 보복 예고",
+      "id": "98be226a41c5808d",
+      "canonical_url": "https://v.daum.net/v/20261125065036734",
+      "source_normalized": "KBS",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "국제유가, 호르무즈해협 선박 피격 등 영향 반등-WTI 2%대 올라 배럴당 82달러대⋯국제금값, 미국 기준금리 인상 전망 등에 하락반전",
+      "source": "이코노뉴스",
+      "url": "https://www.econonews.co.kr/news/articleView.html?idxno=447654",
+      "published_at": "2026-11-25T06:27:40+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-25T06:27:40+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "국제유가, 호르무즈해협 선박 피격 등 영향 반등-WTI 2%대 올라 배럴당 82달러대⋯국제금값, 미국 기준금리 인상 전망 등에 하락반전",
+      "source_body_sha256": "19687ded3828454cdca1ef552e0567af7c71dcfb1b660322a01a43ef7ab7e94c",
+      "published_at_basis": "original_article",
+      "id": "234da89fd75ced7d",
+      "canonical_url": "https://www.econonews.co.kr/news/articleView.html?idxno=447654",
+      "source_normalized": "이코노뉴스",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "푸틴 \"우크라, 트럼프 자제 요청에도 정유시설 공격\"…보복 예고 - 조세일보",
+      "source": "조세일보",
+      "url": "https://www.joseilbo.com/news/htmls/2026/11/20261125580362.html",
+      "published_at": "2026-11-25T06:19:30+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-25T06:19:30+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "푸틴 \"우크라, 트럼프 자제 요청에도 정유시설 공격\"…보복 예고 - 조세일보",
+      "source_body_sha256": "1fa5508911d689b2f6934b41164ee7c5dd1eb4712948610997932a745beec183",
+      "published_at_basis": "original_article",
+      "id": "5cfdd0b35c099988",
+      "canonical_url": "https://www.joseilbo.com/news/htmls/2026/11/20261125580362.html",
+      "source_normalized": "조세일보",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[속보] 국제유가, 호르무즈 긴장에 상승⋯WTI 2.6%↑",
+      "source": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2652484",
+      "published_at": "2026-11-25T06:03:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026-11-25 06:03; 발행사 본문·최초시각 직접 확인",
+      "summary": "[속보] 국제유가, 호르무즈 긴장에 상승⋯WTI 2.6%↑",
+      "source_body_sha256": "fe6d02f8739db8262b2d064e5a8e5122750ff2f7c24e07696d0c2a4b558146fa",
+      "published_at_basis": "original_article",
+      "id": "b5cbd5fc8cd2ce5f",
+      "canonical_url": "https://www.etoday.co.kr/news/view/2652484",
+      "source_normalized": "이투데이",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "국제 유가 2%대 반등…호르무즈 해협 선박 피격 잇따라",
+      "press": "뉴스1",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261125053600295",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "뉴스1 2시간 전 다음뉴스 국제 유가 2%대 반등…호르무즈 해협 선박 피격 잇따라 제한하고 있다. 블라디미르 푸틴 러시아 대통령은 우크라이나의 정유 시설 공격에 \"불가피하게\" 대응할 것이라며 에너지 시설에 대한...우노보 UBS 애널리스트는 중동의 단기 지정학적 위험이 유가 에 덜 반영되는 가운데 전략비축유 방출로 비교적 여유로운 공급 상황...",
+      "score": 12,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 3,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "석유 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '석유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:25.900434+09:00"
+      "industry_relevance": 4,
+      "source_query": "유가 정유",
+      "collector": "daum_news_search",
+      "source": "뉴스1",
+      "published_at": "2026-11-25T05:36:00+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "국제 유가 2%대 반등…호르무즈 해협 선박 피격 잇따라",
+      "id": "45a4990bd78da8ff",
+      "canonical_url": "https://v.daum.net/v/20261125053600295",
+      "source_normalized": "뉴스1",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "[사설] 내년도 석유 최고 가격제 .. 상시 통제 될라",
+      "press": "이데일리",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261125050345798",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "이데일리 3시간 전 다음뉴스 [사설] 내년도 석유 최고 가격제 .. 상시 통제 될라 정부가 지난 3월부터 시행해 온 석유 최고 가격제 를 내년에도 일정 기간 유지할 방침이라고 한다. 휘발유·경유·등유 가격 상승을 막아 서민과 물류업계 부담을 덜겠다는 취지다. 최고 가격제 는 정유사가 주유소에 공급하는 가격에 상한을 두고 그에 따른 손실을 정부...",
+      "score": 11,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "휘발유 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '휘발유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%9C%98%EB%B0%9C%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:29.867606+09:00"
+      "industry_relevance": 3,
+      "source_query": "최고가격제",
+      "collector": "daum_news_search",
+      "source": "이데일리",
+      "published_at": "2026-11-25T05:03:45+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "[사설] 내년도 석유 최고 가격제 .. 상시 통제 될라",
+      "id": "944b24d5d8124372",
+      "canonical_url": "https://v.daum.net/v/20261125050345798",
+      "source_normalized": "이데일리",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "국내 '주유멤버십 1호' 엔크린카드 역사속으로",
+      "press": "머니투데이",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261125030138111",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "머니투데이 5시간 전 다음뉴스 국내 '주유멤버십 1호' 엔크린카드 역사속으로 서울 시내의 한 SK에너지 주유소 앞으로 시민이 지나가고 있다. /사진=뉴시스 /사진=김근수 SK에너지가 주유고객을 대상으로 운영한 '엔크린 보너스카드'(엔크린멤버십) 서비스를 올해 말에 종료한다. 국내 정유업계 최초로 자체 멤버십 서비스를 도입, 마케팅을...",
+      "score": 9,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "경유 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '경유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B2%BD%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:31.847924+09:00"
+      "industry_relevance": 2,
+      "source_query": "주유소",
+      "collector": "daum_news_search",
+      "source": "머니투데이",
+      "published_at": "2026-11-25T03:01:38+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "국내 '주유멤버십 1호' 엔크린카드 역사속으로",
+      "id": "e6ac111ad18c6dc9",
+      "canonical_url": "https://v.daum.net/v/20261125030138111",
+      "source_normalized": "머니투데이",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    },
+    {
+      "title": "'제21회 LPG의 날' 기념행사 개최... 정부 정책 지원 등 촉구",
+      "source": "투데이에너지",
+      "url": "https://www.todayenergy.kr/news/articleView.html?idxno=306018",
+      "published_at": "2026-11-25T00:30:47+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-25T00:30:47+09:00; 발행사 본문·최초시각 직접 확인",
+      "summary": "'제21회 LPG의 날' 기념행사 개최... 정부 정책 지원 등 촉구",
+      "source_body_sha256": "329e42148b66aaff651023e9387f01227bad7cdddae4506a2cae35f3b0722f12",
+      "published_at_basis": "original_article",
+      "id": "f02b2fb61f0e6dab",
+      "canonical_url": "https://www.todayenergy.kr/news/articleView.html?idxno=306018",
+      "source_normalized": "투데이에너지",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "“보일러 켜기도 겁나”⋯등유 값 급등에 겨울나기 비상",
+      "press": "강원일보",
+      "press_grade": "C",
+      "url": "https://v.daum.net/v/20261125000205995",
+      "published_date": "2026-11-25",
+      "published_at_kst": "",
+      "snippet": "강원일보 8시간 전 다음뉴스 “보일러 켜기도 겁나”⋯등유값 급등에 겨울나기 비상 경유 1,773원, 등유 1,380원으로 동결했다. 그러나 도내 등유가격은 여전히 지난해 수준을 크게 웃돌고 있는데다 취사용 LPG는 최고 가격제 적용 대상에서 제외돼 생활연료비 부담은 여전한 실정이다. 임근용 양구군 국토정중앙면 가오작2리 이장은 “과거보다 화목...",
+      "score": 7,
+      "score_breakdown": {
+        "keyword": 4,
+        "title_importance": 2,
+        "press": 1,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
       },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "주유소 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '주유소 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A3%BC%EC%9C%A0%EC%86%8C+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:33.663027+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "정유업계 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '정유업계 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%97%85%EA%B3%84+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:35.625077+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "석유제품 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '석유제품 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0%EC%A0%9C%ED%92%88+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:37.799589+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "유류가격 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '유류가격 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EB%A5%98%EA%B0%80%EA%B2%A9+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:39.878785+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "공정위 유가 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '공정위 유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EC%9C%84+%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:41.861833+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "공정거래위원회 정유사 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '공정거래위원회 정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EA%B1%B0%EB%9E%98%EC%9C%84%EC%9B%90%ED%9A%8C+%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:45.570431+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "SK에너지 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 'SK에너지 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=SK%EC%97%90%EB%84%88%EC%A7%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:47.750394+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "현대오일뱅크 담합",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:49.611806+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "정유 44조",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '정유 44조' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0+44%EC%A1%B0&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:51.565805+09:00"
-      },
-      {
-        "level": "warning",
-        "portal": "naver",
-        "query": "유가 짬짜미",
-        "message": "naver collection failed",
-        "user_message": "네이버뉴스에서 '유가 짬짜미' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
-        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EC%A7%AC%EC%A7%9C%EB%AF%B8&sort=1&pd=3&ds=2026.11.24&de=2026.11.25",
-        "created_at": "2026-11-25T08:26:53.396205+09:00"
-      }
-    ],
-    "limitations": [
-      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
-    ]
-  }
+      "industry_relevance": 1,
+      "source_query": "최고가격제",
+      "collector": "daum_news_search",
+      "source": "강원일보",
+      "published_at": "2026-11-25T00:02:05+09:00",
+      "published_at_basis": "portal_url_unverified",
+      "verified": false,
+      "time_evidence": "검색·포털 게시 표기시각; 발행사 최초시각 검증 미완료",
+      "summary": "“보일러 켜기도 겁나”⋯등유 값 급등에 겨울나기 비상",
+      "id": "61980c4e095264ba",
+      "canonical_url": "https://v.daum.net/v/20261125000205995",
+      "source_normalized": "강원일보",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가·석유 관련성 검토"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "발행사 원문·최초시각 검증 미완료"
+    }
+  ],
+  "summary": "호르무즈 긴장·석유 최고가격제 및 정유 수급 동향 점검 · 원문 확인 6건, 미확인 9건 구분",
+  "editorial_audit": "data/reviews/2026-11-25-morning.audit.json",
+  "supplemental_raw_search_result_count": 239,
+  "coverage_note": "자동 원수집 4건과 추가검색 전체 별도 보존. 원문 확인 6건·미확인 9건 구분. 공개검색 노출·일부 발행사 접속 제한.",
+  "editorial_decisions": [
+    "동일 매체·정규화 제목만 병합; 다른 매체 동일 사건 보도 보존",
+    "추정 손실과 인정 보전액, 제도 연장 계획과 확정 구분",
+    "포털 표기시각을 발행사 최초 보도시각으로 인증하지 않음"
+  ]
 }
