@@ -8,6 +8,7 @@ import os
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.parse import quote_plus, urljoin
@@ -177,17 +178,23 @@ def parse_daum_results(soup, query: str) -> list[dict]:
         snippet_node = node.select_one(".f_eb, .desc, .item-contents")
         article_url = urljoin("https://search.daum.net", link.get("href", ""))
         source_text = source_node.get_text() if source_node else ""
-        if _source_needs_enrichment(source_text):
-            source_text = resolve_article_source(article_url) or ""
         results.append(raw_item("daum", query, title, article_url, source_text, date_node.get_text() if date_node else "", snippet_node.get_text() if snippet_node else ""))
+    # Resolve missing sources in parallel; one request per item used to run
+    # sequentially and dominated Daum collection time.
+    pending = [item for item in results if _source_needs_enrichment(item.get("source", ""))]
+    if pending:
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            resolved = list(pool.map(lambda item: resolve_article_source(item["url"]) or "", pending))
+        for item, source in zip(pending, resolved):
+            item["source"] = clean_text(source)
     if not results and not any(marker in soup.get_text(" ", strip=True) for marker in ("검색결과가 없습니다", "검색 결과가 없습니다")):
         raise ValueError("Daum news result selector returned 0 nodes")
     return results
 
 
-def collect_daum_public(query: str, start=None, end=None) -> list[dict]:
+def collect_daum_public(query: str, start=None, end=None, max_pages: int = 20) -> list[dict]:
     results, seen = [], set()
-    for page in range(1, 21):
+    for page in range(1, max_pages + 1):
         params = {"w": "news", "q": query, "sort": "recency", "p": page}
         if start and end:
             params.update(period="u", sd=start.strftime("%Y%m%d%H%M%S"), ed=end.strftime("%Y%m%d%H%M%S"))
@@ -207,7 +214,7 @@ def collect_daum_public(query: str, start=None, end=None) -> list[dict]:
         if len(found) < 10:
             break
     else:
-        raise PartialCollectionError(results, "다음 최대20페이지 수집 한도 도달. 이후 결과 누락 가능.")
+        raise PartialCollectionError(results, f"다음 최대{max_pages}페이지 수집 한도 도달. 이후 결과 누락 가능.")
     return results
 
 
@@ -288,18 +295,17 @@ def collect_all(delay: float = 0.15, start=None, end=None) -> tuple[list[dict], 
     else:
         google_collector = collect_google_rss
     collectors = {
-        # Daum is excluded from searching (2026-11-25 user decision). The
-        # "daum" count stays at 0 so existing report schemas remain valid.
         "naver": collect_naver_api if naver_api else collect_naver_public,
+        "daum": collect_daum_public,
         "google": google_collector,
     }
     if not naver_api:
-        warnings.append(warning("naver", "전체 검색", "public search coverage limit", "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 검색어별 Google RSS로 보완합니다."))
-        warnings[-1]["user_message"] = "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 구글 검색으로 보완했습니다."
+        warnings.append(warning("naver", "전체 검색", "public search coverage limit", "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다."))
+        warnings[-1]["user_message"] = "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다."
     for query in KEYWORDS + EVENT_KEYWORDS:
         for portal, collector in collectors.items():
             try:
-                if collector in (collect_naver_api, collect_naver_public, collect_google_rss):
+                if collector in (collect_naver_api, collect_naver_public, collect_daum_public, collect_google_rss):
                     found = collector(query, start, end)
                 else:
                     found = collector(query)

@@ -589,7 +589,23 @@ def main() -> int:
         selected = windowed[:a.max_items]
         used_tier = "+".join(used_collectors)
 
-    # 2) Daum 뉴스 검색은 수집에서 제외 (2026-11-25 사용자 결정)
+    # 2) Daum 뉴스 검색 HTML
+    if trusted_direct_count(selected) < quality_target:
+        for q in limited_queries(PLAIN_QUERIES):
+            if is_deadline_exceeded():
+                note_deadline("daum")
+                break
+            try:
+                collected.extend(fetch_daum_news(q, target, min_score=4, lookback_hours=a.lookback_hours, cutoff_hour=a.cutoff_hour, cutoff_minute=a.cutoff_minute))
+                time.sleep(0.2)
+            except Exception as e:
+                errors.append(f"daum {q}: {e}")
+        used_collectors.append("daum_html")
+        candidates = dedupe(collected, min_keep=a.min_required)
+        windowed = [i for i in candidates if report_candidate(i) and in_issue_window(i, a.date, a.lookback_hours, a.cutoff_hour, a.cutoff_minute)]
+        if len(windowed) >= a.min_required:
+            selected = windowed[:a.max_items]
+            used_tier = "+".join(used_collectors)
 
     # 3) Google News RSS
     if trusted_direct_count(selected) < quality_target:
@@ -619,7 +635,7 @@ def main() -> int:
     # so a transiently sparse search result does not become a zero-article report.
     if len(selected) < a.min_required:
         relaxed: list[dict[str, Any]] = []
-        for collector_name, fn in [("naver", fetch_naver_news)]:
+        for collector_name, fn in [("naver", fetch_naver_news), ("daum", fetch_daum_news)]:
             if is_deadline_exceeded():
                 note_deadline(f"{collector_name} relaxed")
                 break

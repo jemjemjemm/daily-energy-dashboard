@@ -139,6 +139,7 @@ class ReportBundleTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp, patch.dict('os.environ', {'ANTHROPIC_API_KEY': 'test'}), \
              patch.object(collector, 'TOPICS', {'industry': ['산업부']}), \
              patch.object(collector, 'collect_naver_public', return_value=found), \
+             patch.object(collector, 'collect_daum_public', return_value=[]), \
              patch.object(collector, 'collect_google_rss', return_value=[]), \
              patch.object(collector.requests, 'get', return_value=response), \
              patch.object(collector, '_call_claude', return_value=json.dumps({'decisions': [decision]})):
@@ -147,8 +148,8 @@ class ReportBundleTests(unittest.TestCase):
             review = json.loads(target.read_text(encoding='utf-8'))
             self.assertEqual(len(review['articles']), 1)
             self.assertTrue(review['articles'][0]['verified'])
-            self.assertEqual(len(review['search_log']), 2)
-            self.assertNotIn('daum', {r['portal'] for r in review['search_log']})
+            self.assertEqual(len(review['search_log']), 3)
+            self.assertEqual({r['portal'] for r in review['search_log']}, {'naver', 'daum', 'google'})
             self.assertIn('Publisher original URL unresolved', review['exclusions'][0]['reason'])
 
     def test_daily_only_workflow_skips_committee_and_done_marker(self):
@@ -171,6 +172,7 @@ class ReportBundleTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp, patch.dict('os.environ', {'ANTHROPIC_API_KEY': 'test'}), \
              patch.object(collector, 'TOPICS', {'industry': ['산업부']}), \
              patch.object(collector, 'collect_naver_public', side_effect=ValueError('blocked')), \
+             patch.object(collector, 'collect_daum_public', side_effect=ValueError('blocked')), \
              patch.object(collector, 'collect_google_rss', side_effect=ValueError('blocked')):
             target = Path(temp) / 'review.json'
             with self.assertRaisesRegex(RuntimeError, 'All search providers failed'):

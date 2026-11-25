@@ -12,6 +12,8 @@ import json
 import os
 from pathlib import Path
 import sys
+import threading
+import time
 from urllib.parse import urlsplit
 from bs4 import BeautifulSoup
 
@@ -19,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / 'oil/scripts'))
 
-from collect_news import collect_naver_api, collect_naver_public, collect_google_rss, HEADERS
+from collect_news import collect_naver_api, collect_naver_public, collect_daum_public, collect_google_rss, HEADERS
 from enrich_news import parse_article_html
 from scripts.article_content import extract_article_body, ARTICLE_SELECTORS, _json_ld_bodies
 from scripts.llm_article_summary import _call_claude, _extract_json_block, DEFAULT_MODEL
@@ -41,6 +43,31 @@ def save(path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 
+DAUM_MAX_PAGES = 10
+NAVER_LOCK = threading.Lock()
+NAVER_INTERVAL = 1.0  # seconds between Naver requests; bursts from parallel workers return 403
+NAVER_RETRY_WAITS = (5, 15)
+_naver_last = [0.0]
+
+
+def paced_naver(collector, query, start, end):
+    """Serialize Naver searches with spacing and back off on rate-limit 403/429."""
+    for attempt in range(len(NAVER_RETRY_WAITS) + 1):
+        with NAVER_LOCK:
+            wait = _naver_last[0] + NAVER_INTERVAL - time.monotonic()
+            if wait > 0:
+                time.sleep(wait)
+            try:
+                return collector(query, start, end)
+            except requests.HTTPError as exc:
+                status = getattr(exc.response, 'status_code', None)
+                if status not in (403, 429) or attempt == len(NAVER_RETRY_WAITS):
+                    raise
+                time.sleep(NAVER_RETRY_WAITS[attempt])
+            finally:
+                _naver_last[0] = time.monotonic()
+
+
 def collect(date, slot, output):
     start, end = window(date, slot)
     tasks = [(committee, query) for committee, queries in TOPICS.items() for query in queries]
@@ -49,10 +76,13 @@ def collect(date, slot, output):
         committee, query = task
         records, items = [], []
         naver = collect_naver_api if os.environ.get('NAVER_CLIENT_ID') and os.environ.get('NAVER_CLIENT_SECRET') else collect_naver_public
-        # Daum is excluded from searching (2026-11-25 user decision: slow and redundant).
-        for portal, collector in [('naver', naver), ('google', collect_google_rss)]:
+        # Daum supplies most publisher-resolvable candidates (and is the only
+        # portal reachable from Actions runners); cap pages to bound time.
+        daum = lambda q, s, e: collect_daum_public(q, s, e, max_pages=DAUM_MAX_PAGES)
+        for portal, collector in [('naver', naver), ('daum', daum), ('google', collect_google_rss)]:
             try:
-                found = collector(query, start, end)
+                found = (paced_naver(collector, query, start, end) if portal == 'naver'
+                         else collector(query, start, end))
                 items.extend(found)
                 records.append(dict(committee=committee, query=query, portal=portal, status='ok', count=len(found), results=found))
             except Exception as exc:
