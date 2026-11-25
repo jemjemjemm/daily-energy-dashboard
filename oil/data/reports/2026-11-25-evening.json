@@ -6,7 +6,7 @@
   "period_start": "2026-11-25T08:00:00+09:00",
   "period_end": "2026-11-25T17:00:00+09:00",
   "period_label": "2026-11-25 08:00 ~ 2026-11-25 17:00",
-  "generated_at": "2026-11-25T17:19:20.930848+09:00",
+  "generated_at": "2026-11-25T17:24:59.721541+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -22,39 +22,40 @@
     "공정위 유가 담합",
     "공정거래위원회 정유사 담합"
   ],
-  "total_raw_count": 26,
-  "total_enriched_input_count": 4,
-  "total_in_period_unique_count": 3,
+  "total_raw_count": 88,
+  "total_enriched_input_count": 10,
+  "total_in_period_unique_count": 4,
   "total_unknown_time_count": 0,
   "total_outside_period_count": 1,
-  "total_deduped_count": 2,
-  "total_ok_count": 1,
-  "total_review_count": 1,
+  "total_deduped_count": 3,
+  "total_ok_count": 3,
+  "total_review_count": 0,
   "total_excluded_count": 1,
   "grade_counts": {
     "A": 0,
     "B": 0,
-    "C": 2
+    "C": 3
   },
   "portal_counts": {
-    "naver": 0,
-    "daum": 24,
-    "google": 2
+    "naver": 36,
+    "daum": 48,
+    "google": 4
   },
   "query_counts": {
-    "SK에너지 담합": 2,
-    "경유 담합": 1,
-    "공정거래위원회 정유사 담합": 1,
-    "공정위 유가 담합": 1,
-    "석유 담합": 2,
-    "석유제품 담합": 2,
-    "유가 담합": 2,
-    "유가담합": 2,
+    "SK에너지 담합": 3,
+    "경유 담합": 2,
+    "공정거래위원회 정유사 담합": 2,
+    "공정위 유가 담합": 2,
+    "석유 담합": 3,
+    "석유제품 담합": 3,
+    "유가 담합": 3,
+    "유가담합": 3,
     "정유 44조": 1,
-    "정유사 담합": 2,
-    "정유업계 담합": 1,
-    "주유소 담합": 2,
-    "현대오일뱅크 담합": 2
+    "정유사 담합": 3,
+    "정유업계 담합": 2,
+    "주유소 담합": 3,
+    "현대오일뱅크 담합": 3,
+    "휘발유 담합": 1
   },
   "collection_warnings": [
     {
@@ -218,17 +219,26 @@
       "user_message": "네이버뉴스에서 '유가 짬짜미' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
       "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EC%A7%AC%EC%A7%9C%EB%AF%B8&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
       "created_at": "2026-11-25T17:19:17.866086+09:00"
+    },
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-25T17:20:35.554285+09:00"
     }
   ],
   "telegram_alert_log": [],
   "source_review": [
     {
       "title": "정유사 유가 담합 의혹 첫 증인신문…가격정보 교환 실체 공방",
-      "url": "http://v.daum.net/v/20261125142504502",
-      "published_at": "2026-11-25T14:25:00+09:00",
-      "verified": false,
-      "time_evidence": "포털 본문 최초 입력 2026. 11. 25. 14:25",
-      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=131110",
+      "published_at": "2026-11-25T14:14:22+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-25T14:14:22+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
     },
     {
       "title": "대신증권, 과징금 빼도 적자…3분기 실적에 드러난 운용손익 변동성",
@@ -253,20 +263,76 @@
       "verified": false,
       "time_evidence": null,
       "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "\"유가 담합\" 기소 피한 GS 칼텍스…담합 추종 혐의와 사법리스크는 남았다. - ㅍㅍㅅㅅ PPSS",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=322813",
+      "published_at": "2026-11-25T09:39:18+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-25T09:39:18+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
     }
   ],
   "articles": [
     {
+      "title": "\"유가 담합\" 기소 피한 GS 칼텍스…담합 추종 혐의와 사법리스크는 남았다. - ㅍㅍㅅㅅ PPSS",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=322813",
+      "source": "PPSS",
+      "published_at": "2026-11-25T09:39:18+09:00",
+      "snippet": "검찰이 산정한 HD 현대오일뱅크 와 SK에너지의 직접 담합 관련 거래 규모는 14조 2000억원에 달한다. 이 액수는 담합 추종에 따른 경쟁제한 효과까지 포함하면 약 26조에 달한다는 것이 검찰 측의 설명이다. 경쟁제한 효과는 일부 기업들의 담합 으로 인해 정상적 시장경쟁 하에서 기업간 가격 경쟁으로 소비자가...",
+      "collected_at": "2026-11-25T17:20:36.123543+09:00",
+      "normalized_title": "\"유가 담합\" 기소 피한 GS 칼텍스…담합 추종 혐의와 사법리스크는 남았다. - ㅍㅍㅅㅅ PPSS",
+      "source_normalized": "PPSS",
+      "duplicate_key": "ppss::\"유가 담합\" 기소 피한 gs 칼텍스…담합 추종 혐의와 사법리스크는 남았다. - ㅍㅍㅅㅅ ppss",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.ppss.kr/news/articleView.html?idxno=322813",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-25T09:39:18+09:00; 발행사 본문·최초입력 대조",
+      "verified": true,
+      "verification_reason": "발행사 원문 본문·최초시각 직접 대조",
+      "id": "4467e4d696d57881",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인",
+      "summary": "GS칼텍스 가격추종 관련 수사 판단·기소 범위와 주유소 정산 분쟁 점검; 가격담합 확정판결과 구분",
+      "source_body_sha256": "62d94e42fd7c52807b738b61cd071cb23f876e48ae8129ac0387a13751446af2"
+    },
+    {
       "title": "SK에너지, 사후정산제 폐지 꺼내든 속내…'과징금 감경·거래처 묶기' 노렸나",
-      "url": "https://cp.news.search.daum.net/p/184759182",
+      "url": "https://www.srtimes.kr/news/articleView.html?idxno=218502",
       "source": "SR타임스",
       "published_at": "2026-11-25T10:00:00+09:00",
-      "snippet": "6월 발표 이후 5개월째 미도입 상태인 사후정산제 폐지 카드를 다시 전면에 내세운 첫 번째 이유는 최대 4조6,000억원에 달하는 담합 과징금 폭탄을 줄이기 위한 '감경 명분 확보'다. 앞서 공정위는 지난달 7일 SK에너지와 HD현대오일뱅크가 수년간 유가 정보와 내부...",
+      "snippet": "SK에너지가 지난 6월 발표 이후 5개월째 미도입 상태인 사후정산제 폐지 카드를 다시 전면에 내세운 첫 번째 이유는 최대 4조6,000억원에 달하는 담합 과징금 폭탄을 줄이기 위한 '감경 명분 확보'다. 앞서 공정위는 지난달 7일 SK에너지와 HD 현대오일뱅크 가 수년간 유가 정보와 내부 영업 기밀을 공유하며 경쟁을...",
       "collected_at": "2026-11-25T17:18:28.167252+09:00",
       "normalized_title": "SK에너지, 사후정산제 폐지 꺼내든 속내…'과징금 감경·거래처 묶기' 노렸나",
       "source_normalized": "SR타임스",
       "duplicate_key": "sr타임스::sk에너지, 사후정산제 폐지 꺼내든 속내…'과징금 감경·거래처 묶기' 노렸나",
       "portals": [
+        "naver",
         "daum"
       ],
       "queries": [
@@ -284,12 +350,12 @@
         "주유소 담합",
         "현대오일뱅크 담합"
       ],
-      "duplicate_count": 0,
-      "canonical_url": "https://cp.news.search.daum.net/p/184759182",
+      "duplicate_count": 3,
+      "canonical_url": "https://www.srtimes.kr/news/articleView.html?idxno=218502",
       "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-11-25T10:00:00+09:00",
+      "time_evidence": "원문 published_time 2026-11-25T10:00:00+09:00; 발행사 본문·최초입력 대조",
       "verified": true,
-      "verification_reason": "발행사 본문·최초시각 확인",
+      "verification_reason": "발행사 원문 본문·최초시각 직접 대조",
       "id": "74d81dc8d6296450",
       "grade": "C",
       "published_at_status": "known",
@@ -301,19 +367,22 @@
       ],
       "quality_status": "ok",
       "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
+      "status_reason": "유가담합 관련 맥락 확인",
+      "summary": "SK에너지 사후정산제 폐지 방안의 거래구조·제재 감경 쟁점 검토; 기사상 의혹·평가로 구분",
+      "source_body_sha256": "905a687009c0feea3682f7612a862d5e977245720125e679071705fd589abb75"
     },
     {
       "title": "정유사 유가 담합 의혹 첫 증인신문…가격정보 교환 실체 공방",
-      "url": "http://v.daum.net/v/20261125142504502",
+      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=131110",
       "source": "투데이신문",
-      "published_at": "2026-11-25T14:25:00+09:00",
-      "snippet": "의혹에서 비롯됐다. 공소청은 HD현대오일뱅크와 SK에너지의 담합 규모를 약 14조2000억원, GS칼텍스와 에쓰오일에 미친 파급 효과까지...가격정보를 교환한 사실을 인정했다. 입금가는 정유사가 주유소에 제품을 공급할 때 우선 적용하는 가격이다. 이후 사후정산에...",
+      "published_at": "2026-11-25T14:14:22+09:00",
+      "snippet": "공소청은 HD 현대오일뱅크 와 SK에너지의 담합 규모를 약 14조2000억원, GS칼텍스와 에쓰 오일 에 미친 파급 효과까지 포함한 경쟁제한 규모를 약 26조원으로 보고 있다. 이씨는 2022년 2월 22일 무렵부터 올해 3월까지 김씨와 가격정보를 교환한 사실을 인정했다. 입금가는 정유사가 주유소에 제품을 공급할 때 우선...",
       "collected_at": "2026-11-25T17:18:28.166792+09:00",
       "normalized_title": "정유사 유가 담합 의혹 첫 증인신문…가격정보 교환 실체 공방",
       "source_normalized": "투데이신문",
       "duplicate_key": "투데이신문::정유사 유가 담합 의혹 첫 증인신문…가격정보 교환 실체 공방",
       "portals": [
+        "naver",
         "daum"
       ],
       "queries": [
@@ -327,12 +396,12 @@
         "현대오일뱅크 담합"
       ],
       "duplicate_count": 0,
-      "canonical_url": "http://v.daum.net/v/20261125142504502",
-      "published_at_basis": "portal_article",
-      "time_evidence": "포털 본문 최초 입력 2026. 11. 25. 14:25",
-      "verified": false,
-      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인",
-      "id": "00f8644122e6c061",
+      "canonical_url": "https://www.ntoday.co.kr/news/articleView.html?idxno=131110",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-25T14:14:22+09:00; 발행사 본문·최초입력 대조",
+      "verified": true,
+      "verification_reason": "발행사 원문 본문·최초시각 직접 대조",
+      "id": "9949a1c0f33c0b6b",
       "grade": "C",
       "published_at_status": "known",
       "matched_keywords": [
@@ -341,15 +410,17 @@
         "주유소",
         "담합"
       ],
-      "quality_status": "review",
-      "status_label": "원문 미확인",
-      "status_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인",
+      "summary": "정유사 담합 의혹 첫 증인신문에서 가격정보 교환 진술과 실제 가격 반영 여부 공방",
+      "source_body_sha256": "497eaef9b2a13f5c18b87a554f2bb857d07ce21b0d22673740b34e4380788d36"
     }
   ],
-  "summary": "수집 기사 2건, 발행사 본문·최초시각 확인 1건, 미확인 1건 구분",
+  "summary": "정유사 가격정보 교환 증언·사후정산제 폐지·GS칼텍스 기소 범위 관련 3건 수집 및 발행사 본문·최초시각 확인; 의혹·진술과 확정판결 구분",
   "editorial_audit": {
-    "method": "automated-source-audit",
-    "raw_result_count": 26,
+    "method": "manual-original-body-and-initial-time-review",
+    "raw_result_count": 88,
     "exclusions": [
       {
         "url": "https://cp.news.search.daum.net/p/184775550",
@@ -524,10 +595,232 @@
         "user_message": "네이버뉴스에서 '유가 짬짜미' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
         "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EC%A7%AC%EC%A7%9C%EB%AF%B8&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
         "created_at": "2026-11-25T17:19:17.866086+09:00"
+      },
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-25T17:20:35.554285+09:00"
       }
     ],
     "limitations": [
-      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
-    ]
+      "Actions 네이버 403 및 공개검색 첫 화면 제한 기록 보존; 로컬 네이버·다음·Google 보완 수집. 공개 검색 노출 범위가 전체 보도량을 보장하지 않음"
+    ],
+    "collection_runs": [
+      {
+        "method": "github-actions",
+        "raw_result_count": 26,
+        "collected_at": "2026-11-25T17:19:19.203854+09:00",
+        "collection_warnings": [
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "전체 검색",
+            "message": "public search coverage limit",
+            "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+            "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+            "created_at": "2026-11-25T17:18:26.609329+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "유가담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '유가담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:18:27.237787+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "유가 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:18:30.928188+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "정유사 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:18:34.878275+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "기름값 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '기름값 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B8%B0%EB%A6%84%EA%B0%92+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:18:38.315185+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "석유 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '석유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:18:40.262422+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "휘발유 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '휘발유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%9C%98%EB%B0%9C%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:18:43.742388+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "경유 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '경유 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B2%BD%EC%9C%A0+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:18:45.797292+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "주유소 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '주유소 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A3%BC%EC%9C%A0%EC%86%8C+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:18:49.276950+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "정유업계 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '정유업계 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0%EC%97%85%EA%B3%84+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:18:52.578587+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "석유제품 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '석유제품 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%84%9D%EC%9C%A0%EC%A0%9C%ED%92%88+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:18:55.949811+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "유류가격 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '유류가격 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EB%A5%98%EA%B0%80%EA%B2%A9+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:18:59.350485+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "공정위 유가 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '공정위 유가 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EC%9C%84+%EC%9C%A0%EA%B0%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:19:01.307925+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "공정거래위원회 정유사 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '공정거래위원회 정유사 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EA%B3%B5%EC%A0%95%EA%B1%B0%EB%9E%98%EC%9C%84%EC%9B%90%ED%9A%8C+%EC%A0%95%EC%9C%A0%EC%82%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:19:04.576488+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "SK에너지 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 'SK에너지 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=SK%EC%97%90%EB%84%88%EC%A7%80+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:19:07.991254+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "현대오일뱅크 담합",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '현대오일뱅크 담합' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC+%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:19:11.182502+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "정유 44조",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '정유 44조' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%A0%95%EC%9C%A0+44%EC%A1%B0&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:19:14.765588+09:00"
+          },
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "유가 짬짜미",
+            "message": "naver collection failed",
+            "user_message": "네이버뉴스에서 '유가 짬짜미' 검색 결과를 읽지 못했습니다. 검색 서비스가 일시적으로 응답하지 않거나 화면 구조가 바뀌었을 수 있습니다.",
+            "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80+%EC%A7%AC%EC%A7%9C%EB%AF%B8&sort=1&pd=3&ds=2026.11.25&de=2026.11.25",
+            "created_at": "2026-11-25T17:19:17.866086+09:00"
+          }
+        ]
+      },
+      {
+        "method": "local-supplement",
+        "raw_result_count": 62,
+        "collected_at": "2026-11-25T17:21:14.148499+09:00",
+        "collection_warnings": [
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "전체 검색",
+            "message": "public search coverage limit",
+            "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다.",
+            "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다.",
+            "created_at": "2026-11-25T17:20:35.554285+09:00"
+          }
+        ]
+      }
+    ],
+    "confirmed_count": 3,
+    "unconfirmed_count": 0,
+    "original_sources": [
+      {
+        "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=131110",
+        "title": "정유사 유가 담합 의혹 첫 증인신문…가격정보 교환 실체 공방",
+        "published_at": "2026-11-25T14:14:22+09:00",
+        "time_evidence": "원문 published_time 2026-11-25T14:14:22+09:00",
+        "source_body_sha256": "497eaef9b2a13f5c18b87a554f2bb857d07ce21b0d22673740b34e4380788d36"
+      },
+      {
+        "url": "https://www.srtimes.kr/news/articleView.html?idxno=218502",
+        "title": "SK에너지, 사후정산제 폐지 꺼내든 속내…'과징금 감경·거래처 묶기' 노렸나",
+        "published_at": "2026-11-25T10:00:00+09:00",
+        "time_evidence": "원문 published_time 2026-11-25T10:00:00+09:00",
+        "source_body_sha256": "905a687009c0feea3682f7612a862d5e977245720125e679071705fd589abb75"
+      },
+      {
+        "url": "https://www.ppss.kr/news/articleView.html?idxno=322813",
+        "title": "\"유가 담합\" 기소 피한 GS 칼텍스…담합 추종 혐의와 사법리스크는 남았다. - ㅍㅍㅅㅅ PPSS",
+        "published_at": "2026-11-25T09:39:18+09:00",
+        "time_evidence": "원문 published_time 2026-11-25T09:39:18+09:00",
+        "source_body_sha256": "62d94e42fd7c52807b738b61cd071cb23f876e48ae8129ac0387a13751446af2"
+      }
+    ],
+    "deduplication": "동일 매체·동일 정규화 제목만 병합; 다른 매체 동일 사건 보존"
   }
 }
