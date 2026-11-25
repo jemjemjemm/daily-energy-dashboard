@@ -28,7 +28,7 @@ def oil_targets(day, slot):
     return targets
 
 
-def validate_bundle(root, day, slot, *, require_monitoring=True):
+def validate_bundle(root, day, slot, *, require_monitoring=True, require_committee=True):
     """Raise on partial success, including legacy Daily-only completion files."""
     daily = root / f'docs/reports/{day}.html'
     if not daily.is_file() or day not in daily.read_text(encoding='utf-8'):
@@ -41,19 +41,25 @@ def validate_bundle(root, day, slot, *, require_monitoring=True):
     news = daily_data.get(news_key, {})
     if not news.get('articles') or news.get('report_slot') != slot:
         raise ValueError(f'Daily {slot} news section missing or wrong slot')
-    review = read(root / f'data/committee-news/{day}-{slot}.review.json')
-    if review.get('date') != day or review.get('slot') != slot or not review.get('search_log'):
-        raise ValueError('Committee source review missing or wrong target')
-    committee = read(root / f'docs/assembly-content/issues/{day}-{slot}.json')
-    if committee.get('date') != day or committee.get('slot') != slot:
-        raise ValueError('Committee target mismatch')
-    if [c['id'] for c in committee['committees']] != [c[0] for c in COMMITTEES]:
-        raise ValueError('Three current committees required')
-    validate_report(committee)
-    oil_index = read(root / 'oil/data/report-index.json')
     result = dict(date=day, slot=slot, daily=True, committees={}, oil=[])
-    for c in committee['committees']:
-        result['committees'][c['id']] = len(c['all'])
+    if require_committee:
+        review = read(root / f'data/committee-news/{day}-{slot}.review.json')
+        if review.get('date') != day or review.get('slot') != slot or not review.get('search_log'):
+            raise ValueError('Committee source review missing or wrong target')
+        committee = read(root / f'docs/assembly-content/issues/{day}-{slot}.json')
+        if committee.get('date') != day or committee.get('slot') != slot:
+            raise ValueError('Committee target mismatch')
+        if [c['id'] for c in committee['committees']] != [c[0] for c in COMMITTEES]:
+            raise ValueError('Three current committees required')
+        validate_report(committee)
+        for c in committee['committees']:
+            result['committees'][c['id']] = len(c['all'])
+    else:
+        # Daily-only run: the committee bundle is collected and reviewed
+        # locally afterwards and must still pass the full gate before the
+        # slot is marked done.
+        result['committees'] = 'pending'
+    oil_index = read(root / 'oil/data/report-index.json')
     for oil_day, oil_slot in oil_targets(day, slot):
         report = read(root / f'oil/data/reports/{oil_day}-{oil_slot}.json')
         if (report.get('base_date'), report.get('slot')) != (oil_day, oil_slot):
@@ -81,7 +87,7 @@ def run(command, *, oil=False):
     subprocess.run([sys.executable, *command], cwd=ROOT / 'oil' if oil else ROOT, check=True)
 
 
-def generate(day, slot, *, replay=False):
+def generate(day, slot, *, replay=False, skip_committee=False):
     if datetime.now(KST) < window(day, slot)[1]:
         raise ValueError(f'{day} {slot}: reporting window has not closed')
     if replay:
@@ -101,9 +107,10 @@ def generate(day, slot, *, replay=False):
         run(['scripts/generate_schedule_detail_html.py', '--date', day])
         run(['scripts/generate_html_report.py', '--date', day, '--report-slot', slot])
         run(['scripts/generate_report_index.py'])
-    run(['-m', 'tools.collect_committee_news', '--date', day, '--slot', slot])
-    run(['-m', 'tools.committee_news', '--date', day, '--slot', slot,
-         '--input', f'data/committee-news/{day}-{slot}.review.json'])
+    if not skip_committee:
+        run(['-m', 'tools.collect_committee_news', '--date', day, '--slot', slot])
+        run(['-m', 'tools.committee_news', '--date', day, '--slot', slot,
+             '--input', f'data/committee-news/{day}-{slot}.review.json'])
     if replay:
         for oil_day, oil_slot in oil_targets(day, slot):
             # No network fallbacks permitted in historical source replay.
@@ -125,6 +132,8 @@ def main():
     parser.add_argument('--slot', choices=['morning', 'evening'], required=True)
     parser.add_argument('--replay', action='store_true')
     parser.add_argument('--validate-only', action='store_true')
+    parser.add_argument('--skip-committee', action='store_true',
+                        help='Daily/oil only; committee news is collected and gated locally afterwards')
     parser.add_argument('--result', type=Path)
     args = parser.parse_args()
     if args.date:
@@ -138,10 +147,10 @@ def main():
             raise ValueError('No business days in requested range')
     for day in days:
         if not args.validate_only:
-            generate(day, args.slot, replay=args.replay)
+            generate(day, args.slot, replay=args.replay, skip_committee=args.skip_committee)
     if not args.validate_only:
         run(['tools/sync_assembly_content.py'])
-    results = [validate_bundle(ROOT, day, args.slot) for day in days]
+    results = [validate_bundle(ROOT, day, args.slot, require_committee=not args.skip_committee) for day in days]
     if args.result:
         args.result.parent.mkdir(parents=True, exist_ok=True)
         args.result.write_text(json.dumps(results, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

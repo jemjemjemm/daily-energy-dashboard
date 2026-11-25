@@ -288,17 +288,18 @@ def collect_all(delay: float = 0.15, start=None, end=None) -> tuple[list[dict], 
     else:
         google_collector = collect_google_rss
     collectors = {
+        # Daum is excluded from searching (2026-11-25 user decision). The
+        # "daum" count stays at 0 so existing report schemas remain valid.
         "naver": collect_naver_api if naver_api else collect_naver_public,
-        "daum": collect_daum_public,
         "google": google_collector,
     }
     if not naver_api:
-        warnings.append(warning("naver", "전체 검색", "public search coverage limit", "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다."))
-        warnings[-1]["user_message"] = "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다."
+        warnings.append(warning("naver", "전체 검색", "public search coverage limit", "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 검색어별 Google RSS로 보완합니다."))
+        warnings[-1]["user_message"] = "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 구글 검색으로 보완했습니다."
     for query in KEYWORDS + EVENT_KEYWORDS:
         for portal, collector in collectors.items():
             try:
-                if collector in (collect_naver_api, collect_naver_public, collect_daum_public, collect_google_rss):
+                if collector in (collect_naver_api, collect_naver_public, collect_google_rss):
                     found = collector(query, start, end)
                 else:
                     found = collector(query)

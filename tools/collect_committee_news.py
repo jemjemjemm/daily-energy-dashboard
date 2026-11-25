@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / 'oil/scripts'))
 
-from collect_news import collect_naver_api, collect_naver_public, collect_daum_public, collect_google_rss, HEADERS
+from collect_news import collect_naver_api, collect_naver_public, collect_google_rss, HEADERS
 from enrich_news import parse_article_html
 from scripts.article_content import extract_article_body, ARTICLE_SELECTORS, _json_ld_bodies
 from scripts.llm_article_summary import _call_claude, _extract_json_block, DEFAULT_MODEL
@@ -49,7 +49,8 @@ def collect(date, slot, output):
         committee, query = task
         records, items = [], []
         naver = collect_naver_api if os.environ.get('NAVER_CLIENT_ID') and os.environ.get('NAVER_CLIENT_SECRET') else collect_naver_public
-        for portal, collector in [('naver', naver), ('daum', collect_daum_public), ('google', collect_google_rss)]:
+        # Daum is excluded from searching (2026-11-25 user decision: slow and redundant).
+        for portal, collector in [('naver', naver), ('google', collect_google_rss)]:
             try:
                 found = collector(query, start, end)
                 items.extend(found)

@@ -3,3 +3,7 @@ __pycache__/
 .venv/
 _site/
 .DS_Store
+
+# Local scratch/verification output (assembly_links.json stays tracked)
+.cache/*
+!.cache/assembly_links.json

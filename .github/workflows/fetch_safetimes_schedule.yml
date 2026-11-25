@@ -30,6 +30,11 @@ on:
         description: "기간 생성 종료일(YYYY-MM-DD). 예: 2026-05-21"
         required: false
         default: ""
+      daily_only:
+        description: "Daily/유가만 생성하고 국감 수집은 건너뜀(로컬 수동 발간용, 완료 마커 미기록)"
+        required: false
+        default: false
+        type: boolean
       force_run:
         description: "Force rerun even if the slot is already marked done"
         required: false
@@ -160,6 +165,10 @@ jobs:
             echo "FORCE_RUN=true" >> $GITHUB_ENV
           fi
 
+          if [ "${{ github.event.inputs.daily_only }}" = "true" ]; then
+            echo "DAILY_ONLY=true" >> $GITHUB_ENV
+          fi
+
       - name: Show mode
         run: |
           echo "RUN_MODE=$RUN_MODE"
@@ -170,6 +179,7 @@ jobs:
           echo "DATE_FROM=${DATE_FROM:-}"
           echo "DATE_TO=${DATE_TO:-}"
           echo "FORCE_RUN=${FORCE_RUN:-false}"
+          echo "DAILY_ONLY=${DAILY_ONLY:-false}"
 
       - name: Wait for external scheduler target time
         if: env.RUN_MODE == 'single' && env.INVOCATION_MODE == 'external'
@@ -473,10 +483,14 @@ jobs:
         if: env.RUN_MODE == 'range' || (env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true')
         timeout-minutes: 45
         run: |
+          SKIP_COMMITTEE=""
+          if [ "${DAILY_ONLY:-false}" = "true" ]; then
+            SKIP_COMMITTEE="--skip-committee"
+          fi
           if [ "$RUN_MODE" = "single" ]; then
-            python -m tools.report_bundle --date "$TARGET_DATE" --slot "$REPORT_SLOT" --result .cache/bundle-result.json
+            python -m tools.report_bundle --date "$TARGET_DATE" --slot "$REPORT_SLOT" --result .cache/bundle-result.json $SKIP_COMMITTEE
           else
-            python -m tools.report_bundle --start "$DATE_FROM" --end "$DATE_TO" --slot "$REPORT_SLOT" --result .cache/bundle-result.json
+            python -m tools.report_bundle --start "$DATE_FROM" --end "$DATE_TO" --slot "$REPORT_SLOT" --result .cache/bundle-result.json $SKIP_COMMITTEE
           fi
           python oil/scripts/validate_reports.py
           python tools/assemble_site.py --output .cache/pipeline-site
@@ -494,7 +508,7 @@ jobs:
           if-no-files-found: ignore
 
       - name: Mark report slot done
-        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true'
+        if: env.RUN_MODE == 'single' && env.IS_BUSINESS_DAY == 'true' && env.DAILY_ONLY != 'true'
         run: |
           python scripts/report_run_status.py mark --date "$TARGET_DATE" --report-slot "$REPORT_SLOT"
 

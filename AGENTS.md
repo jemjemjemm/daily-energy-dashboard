@@ -46,6 +46,8 @@
 - `summary`·`editorial_audit`·기사별 `verified`/`time_evidence`가 있는 유가 리포트는 검토본이다. `build_report.py`는 검토본을 덮어쓰지 않으며, 원문 재검토 후 다시 만들 때만 `--overwrite-reviewed true`를 사용한다.
 - 공휴일은 `scripts/kr_holidays.py` 한 곳에서만 관리한다. 다른 스크립트나 workflow에 날짜 목록을 복사하지 않는다. 2027년 공휴일은 2026년 12월 전에 추가한다.
 - Daily 원본(`docs/reports/YYYY-MM-DD.html`)이 없을 때만 Daily를 생성한다. Actions의 Daily workflow를 먼저 실행해 두면(유가 리포트도 함께 요청됨) 상임위 뉴스 작업과 병행할 수 있다.
+- **수동 발간 속도 규칙(2026-11-25)**: Codex 수동 발간 시 Daily workflow는 `gh workflow run fetch_safetimes_schedule.yml -f report_slot=SLOT -f target_date=YYYY-MM-DD -f run_mode=manual -f daily_only=true`로 실행한다. 이 모드는 Actions에서 국감 수집(해외 러너에서 약 9분 소요)을 건너뛰고 Daily·유가만 생성하며 완료 마커를 기록하지 않는다. 국감 수집은 로컬에서 `python -m tools.collect_committee_news --date YYYY-MM-DD --slot SLOT`로 workflow와 병행 실행하고, 검토·발간 후 `python -m tools.report_bundle --date YYYY-MM-DD --slot SLOT --validate-only`와 `python scripts/report_run_status.py mark --date YYYY-MM-DD --report-slot SLOT`로 전체 게이트를 통과시킨다. workflow 완료를 기다리며 sleep/폴링만 반복하지 않는다.
+- **Daum 검색 제외(2026-11-25 사용자 지정)**: 국감·유가·Daily 뉴스 수집에서 Daum 검색을 사용하지 않는다. 검색원은 네이버, Google 뉴스, 매체 원문 직접 확인이다.
 - 검증은 `.cache/` 경로 하나에 조립한 뒤 한 번만 실행하고, 커밋·push는 모든 산출물을 확인한 뒤 한 번에 한다. push할 때마다 Pages 배포가 순서대로 한 번씩 실행된다.
 
 ## 발간 완료 판정 게이트 (2026-10-16 사용자 재강조)

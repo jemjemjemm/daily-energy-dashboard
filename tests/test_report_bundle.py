@@ -139,7 +139,6 @@ class ReportBundleTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp, patch.dict('os.environ', {'ANTHROPIC_API_KEY': 'test'}), \
              patch.object(collector, 'TOPICS', {'industry': ['산업부']}), \
              patch.object(collector, 'collect_naver_public', return_value=found), \
-             patch.object(collector, 'collect_daum_public', return_value=[]), \
              patch.object(collector, 'collect_google_rss', return_value=[]), \
              patch.object(collector.requests, 'get', return_value=response), \
              patch.object(collector, '_call_claude', return_value=json.dumps({'decisions': [decision]})):
@@ -148,15 +147,30 @@ class ReportBundleTests(unittest.TestCase):
             review = json.loads(target.read_text(encoding='utf-8'))
             self.assertEqual(len(review['articles']), 1)
             self.assertTrue(review['articles'][0]['verified'])
-            self.assertEqual(len(review['search_log']), 3)
+            self.assertEqual(len(review['search_log']), 2)
+            self.assertNotIn('daum', {r['portal'] for r in review['search_log']})
             self.assertIn('Publisher original URL unresolved', review['exclusions'][0]['reason'])
+
+    def test_daily_only_workflow_skips_committee_and_done_marker(self):
+        workflow = (ROOT / '.github/workflows/fetch_safetimes_schedule.yml').read_text(encoding='utf-8')
+        self.assertIn('daily_only:', workflow)
+        self.assertIn('SKIP_COMMITTEE="--skip-committee"', workflow)
+        self.assertIn("env.DAILY_ONLY != 'true'", workflow)
+
+    def test_skip_committee_does_not_run_committee_collection(self):
+        from tools import report_bundle
+        closed = (None, report_bundle.datetime(2000, 1, 1, tzinfo=report_bundle.KST))
+        with patch.object(report_bundle, 'run') as run, patch.object(report_bundle, 'window', return_value=closed):
+            report_bundle.generate('2026-11-25', 'morning', skip_committee=True)
+        commands = [' '.join(call.args[0]) for call in run.call_args_list]
+        self.assertFalse(any('committee' in c for c in commands))
+        self.assertTrue(any('collect_news.py' in c for c in commands))
 
     def test_search_outage_does_not_become_no_news(self):
         from tools import collect_committee_news as collector
         with tempfile.TemporaryDirectory() as temp, patch.dict('os.environ', {'ANTHROPIC_API_KEY': 'test'}), \
              patch.object(collector, 'TOPICS', {'industry': ['산업부']}), \
              patch.object(collector, 'collect_naver_public', side_effect=ValueError('blocked')), \
-             patch.object(collector, 'collect_daum_public', side_effect=ValueError('blocked')), \
              patch.object(collector, 'collect_google_rss', side_effect=ValueError('blocked')):
             target = Path(temp) / 'review.json'
             with self.assertRaisesRegex(RuntimeError, 'All search providers failed'):
