@@ -6,7 +6,7 @@
   "period_start": "2026-11-26T00:00:00+09:00",
   "period_end": "2026-11-26T08:00:00+09:00",
   "period_label": "2026-11-26 00:00 ~ 2026-11-26 08:00",
-  "generated_at": "2026-11-26T08:24:24.656942+09:00",
+  "generated_at": "2026-11-26T08:26:48.882855+09:00",
   "keywords": [
     "유가담합",
     "유가 담합",
@@ -22,24 +22,24 @@
     "공정위 유가 담합",
     "공정거래위원회 정유사 담합"
   ],
-  "total_raw_count": 94,
+  "total_raw_count": 91,
   "total_enriched_input_count": 24,
   "total_in_period_unique_count": 6,
   "total_unknown_time_count": 0,
   "total_outside_period_count": 10,
-  "total_deduped_count": 2,
-  "total_ok_count": 1,
-  "total_review_count": 1,
-  "total_excluded_count": 4,
+  "total_deduped_count": 0,
+  "total_ok_count": 0,
+  "total_review_count": 0,
+  "total_excluded_count": 6,
   "grade_counts": {
     "A": 0,
     "B": 0,
-    "C": 2
+    "C": 0
   },
   "portal_counts": {
     "naver": 56,
     "daum": 19,
-    "google": 19
+    "google": 16
   },
   "query_counts": {
     "유가 담합": 2,
@@ -53,7 +53,7 @@
       "message": "public search coverage limit",
       "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. Daum 검색과 구글 검색으로 보완했습니다.",
       "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. Daum 검색과 검색어별 Google RSS로 보완합니다.",
-      "created_at": "2026-11-26T08:23:02.085535+09:00"
+      "created_at": "2026-11-26T08:25:44.033625+09:00"
     }
   ],
   "telegram_alert_log": [],
@@ -139,14 +139,6 @@
       "verification_reason": "원문 본문 또는 최초시각 미확인"
     },
     {
-      "title": "[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zN1JQcTlyVWV4Rzd0enJBSGVtQm9wR2xXZjQ5V2xzOWpBUE5RNUU1ZUJqdWlDUDZNZW15OUxrWUJ6MFE4d2xOQ29wR25peWs?oc=5",
-      "published_at": "2026-11-25T22:51:19+09:00",
-      "verified": false,
-      "time_evidence": null,
-      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
-    },
-    {
       "title": "보험사기 전력자 걸러낸다…보험설계사 자격·GA 제재 기준 강화",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RV2I5TUVVOEU5ZnotSjNJWUlQM0EzM015VldkQ2Q4Y0VIN2ZFQ21yWkkwWlRVeEk0ZDZMUlA4Q2tOcG9YMEFKZ250cTBkZFJocWFiWF9hTVNUTDNDYUZQa3d6VWQ?oc=5",
       "published_at": "2026-11-25T17:09:08+09:00",
@@ -161,6 +153,14 @@
       "verified": true,
       "time_evidence": "원문 published_time 2026-11-25T18:19:57+09:00",
       "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zN1JQcTlyVWV4Rzd0enJBSGVtQm9wR2xXZjQ5V2xzOWpBUE5RNUU1ZUJqdWlDUDZNZW15OUxrWUJ6MFE4d2xOQ29wR25peWs?oc=5",
+      "published_at": "2026-11-25T22:51:19+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     },
     {
       "title": "Korean Company Atlas — how to read Korean companies",
@@ -187,82 +187,11 @@
       "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     }
   ],
-  "articles": [
-    {
-      "title": "[투데이온] SK하이닉스, 12월 4일 키옥시아 의결권 확보…9년 전 '방어 투자'의 귀결 - 더투데이",
-      "url": "https://www.the-today.com/news/articleView.html?idxno=94115",
-      "source": "더투데이",
-      "published_at": "2026-11-26T07:25:45+09:00",
-      "snippet": "키옥시아는 유가 증권보고서에서 SK하이닉스가 경쟁사업자인 만큼 의결권 행사의 이해관계가 일반주주와 다를 수 있다고 적시했다. 최태원 SK그룹 회장은 2026년 6월 키옥시아 주식을 보유하고 있지만 경쟁사이기도 하다며, 정보를 공유하거나 사안을 잘못 처리하면 담합 우려가 제기될 수 있다고...",
-      "collected_at": "2026-11-26T08:23:03.530599+09:00",
-      "normalized_title": "[투데이온] SK하이닉스, 12월 4일 키옥시아 의결권 확보…9년 전 '방어 투자'의 귀결 - 더투데이",
-      "source_normalized": "더투데이",
-      "duplicate_key": "더투데이::[투데이온] sk하이닉스, 12월 4일 키옥시아 의결권 확보…9년 전 '방어 투자'의 귀결 - 더투데이",
-      "portals": [
-        "naver",
-        "daum"
-      ],
-      "queries": [
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 1,
-      "canonical_url": "https://www.the-today.com/news/articleView.html?idxno=94115",
-      "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-11-26T07:25:45+09:00",
-      "verified": false,
-      "verification_reason": "원문 본문 또는 최초시각 미확인",
-      "id": "20941034e899e44c",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "담합"
-      ],
-      "quality_status": "review",
-      "status_label": "원문 미확인",
-      "status_reason": "원문 본문 또는 최초시각 미확인"
-    },
-    {
-      "title": "[단독] SK하이닉스, 나스닥 상장 넉 달 만에 美 증권집단소송 로펌 표적 - 더투데이",
-      "url": "https://www.the-today.com/news/articleView.html?idxno=94111",
-      "source": "더투데이",
-      "published_at": "2026-11-26T05:57:21+09:00",
-      "snippet": "D램 가격 담합 집단소송이 본안 심리로 넘어간 뒤 주가가 떨어졌다는 것이 근거다. 현재 확인된 단계는 민간 로펌의 사실관계 검토와 투자자... 한국 유가 증권시장에 상장된 원주와 미국 나스닥에 상장된 ADR은 거래 시장과 수급, 가격 형성 구조가 다르다. 캘리포니아 연방법원 \"매들의 편대 비행에...",
-      "collected_at": "2026-11-26T08:23:03.531602+09:00",
-      "normalized_title": "SK하이닉스, 나스닥 상장 넉 달 만에 美 증권집단소송 로펌 표적 - 더투데이",
-      "source_normalized": "더투데이",
-      "duplicate_key": "더투데이::sk하이닉스, 나스닥 상장 넉 달 만에 美 증권집단소송 로펌 표적 - 더투데이",
-      "portals": [
-        "naver",
-        "daum"
-      ],
-      "queries": [
-        "유가 담합",
-        "유가담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.the-today.com/news/articleView.html?idxno=94111",
-      "published_at_basis": "original_article",
-      "time_evidence": "원문 published_time 2026-11-26T05:57:21+09:00",
-      "verified": true,
-      "verification_reason": "발행사 본문·최초시각 확인",
-      "id": "37fd9762cf748c07",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "유가",
-        "담합"
-      ],
-      "quality_status": "ok",
-      "status_label": "정상",
-      "status_reason": "유가담합 관련 맥락 확인"
-    }
-  ],
-  "summary": "수집 기사 2건, 발행사 본문·최초시각 확인 1건, 미확인 1건 구분",
+  "articles": [],
+  "summary": "시간대 내 유가·정유 담합 관련 기사 확인 0건; 검색 결과 중 반도체·증권 등 비관련 기사 제외 (원수집 정상, 수집 장애 아님)",
   "editorial_audit": {
-    "method": "automated-source-audit",
-    "raw_result_count": 94,
+    "method": "manual-original-body-and-initial-time-review",
+    "raw_result_count": 91,
     "exclusions": [
       {
         "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=338716",
@@ -305,11 +234,6 @@
         "reason": "duplicate_or_quality_exclusion"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zN1JQcTlyVWV4Rzd0enJBSGVtQm9wR2xXZjQ5V2xzOWpBUE5RNUU1ZUJqdWlDUDZNZW15OUxrWUJ6MFE4d2xOQ29wR25peWs?oc=5",
-        "title": "[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차",
-        "reason": "outside_period"
-      },
-      {
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RV2I5TUVVOEU5ZnotSjNJWUlQM0EzM015VldkQ2Q4Y0VIN2ZFQ21yWkkwWlRVeEk0ZDZMUlA4Q2tOcG9YMEFKZ250cTBkZFJocWFiWF9hTVNUTDNDYUZQa3d6VWQ?oc=5",
         "title": "보험사기 전력자 걸러낸다…보험설계사 자격·GA 제재 기준 강화",
         "reason": "outside_period"
@@ -317,6 +241,11 @@
       {
         "url": "https://www.fnnews.com/news/202611251819547942",
         "title": "공정위, 대형사건 심의 속도… 네이버 결합·정유사 담합 결과에 촉각",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zN1JQcTlyVWV4Rzd0enJBSGVtQm9wR2xXZjQ5V2xzOWpBUE5RNUU1ZUJqdWlDUDZNZW15OUxrWUJ6MFE4d2xOQ29wR25peWs?oc=5",
+        "title": "[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차",
         "reason": "outside_period"
       },
       {
@@ -333,6 +262,16 @@
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRVUxuUlE3VTQ5cDNQUTlyZVFLLWdfV1VUUWYyYnlfTkZEQ2tLWXhsaDJtakRhMGFHczdaSWJ3VW52ZEJmcFB1N1VoSFhEVmhRcHpMd0kzMHNXUkhRSGFxcEJLdnlLWS12X2NLNy1lRWRJVWRk?oc=5",
         "title": "10년 누적ㆍ모든 담합 합산…건설업계 ‘벌점 관리’ 비상",
         "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://www.the-today.com/news/articleView.html?idxno=94115",
+        "title": "[투데이온] SK하이닉스, 12월 4일 키옥시아 의결권 확보…9년 전 '방어 투자'의 귀결 - 더투데이",
+        "reason": "유가담합 무관: SK하이닉스·키옥시아 의결권 기사이며 본문 \"담합\"은 반도체 경쟁사 정보공유 우려, \"유가\"는 유가증권보고서 표기"
+      },
+      {
+        "url": "https://www.the-today.com/news/articleView.html?idxno=94111",
+        "title": "[단독] SK하이닉스, 나스닥 상장 넉 달 만에 美 증권집단소송 로펌 표적 - 더투데이",
+        "reason": "유가담합 무관: SK하이닉스 美 증권집단소송·D램 담합 소송 기사이며 \"유가\"는 유가증권시장 표기"
       }
     ],
     "collection_warnings": [
@@ -343,11 +282,53 @@
         "message": "public search coverage limit",
         "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. Daum 검색과 구글 검색으로 보완했습니다.",
         "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. Daum 검색과 검색어별 Google RSS로 보완합니다.",
-        "created_at": "2026-11-26T08:23:02.085535+09:00"
+        "created_at": "2026-11-26T08:25:44.033625+09:00"
       }
     ],
     "limitations": [
-      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+      "Actions(다음·Google) 수집 후 로컬 네이버·다음·Google 재수집으로 보완; 네이버 공개검색 첫 화면 제한으로 공개 검색 노출 범위가 전체 보도량을 보장하지 않음. verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ],
+    "collection_runs": [
+      {
+        "method": "github-actions",
+        "raw_result_count": 94,
+        "collected_at": "2026-11-26T08:24:10.824994+09:00",
+        "collection_warnings": [
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "전체 검색",
+            "message": "public search coverage limit",
+            "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. Daum 검색과 구글 검색으로 보완했습니다.",
+            "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. Daum 검색과 검색어별 Google RSS로 보완합니다.",
+            "created_at": "2026-11-26T08:23:02.085535+09:00"
+          }
+        ]
+      },
+      {
+        "method": "local-supplement",
+        "raw_result_count": 91,
+        "collected_at": "2026-11-26T08:26:20.483332+09:00",
+        "collection_warnings": [
+          {
+            "level": "warning",
+            "portal": "naver",
+            "query": "전체 검색",
+            "message": "public search coverage limit",
+            "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. Daum 검색과 구글 검색으로 보완했습니다.",
+            "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. Daum 검색과 검색어별 Google RSS로 보완합니다.",
+            "created_at": "2026-11-26T08:25:44.033625+09:00"
+          }
+        ]
+      }
+    ],
+    "confirmed_count": 0,
+    "unconfirmed_count": 0,
+    "original_sources": 0,
+    "deduplication": "동일 매체·동일 정규화 제목만 병합; 다른 매체 동일 사건 보존",
+    "raw_snapshots": [
+      "oil/data/reviews/2026-11-26-morning.actions-raw.json",
+      "oil/data/raw/2026-11-26-morning-raw.json"
     ]
   }
 }
