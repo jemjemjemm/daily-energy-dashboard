@@ -154,11 +154,28 @@ function renderGradeSection(grade, title, articles) {
   </section>`;
 }
 
+// One line per distinct problem: older reports stored one Naver 403 warning per
+// query and could repeat the coverage note.
+function summarizeCollectionWarnings(warnings = []) {
+  const isNaverBlock = w => w.portal === "naver" && w.message === "naver collection failed" && / (403|429) /.test(w.technical_detail || "");
+  const naverBlocks = warnings.filter(isNaverBlock);
+  const blocked = naverBlocks.length > 0 || warnings.some(w => w.message === "naver blocked");
+  const lines = [];
+  if (naverBlocks.length && !warnings.some(w => w.message === "naver blocked")) {
+    lines.push(`네이버 검색이 수집 서버에서 차단(HTTP 403)되어 검색어 ${formatNumber(naverBlocks.length)}개를 네이버에서 수집하지 못했습니다. Daum·구글 검색 결과로 보완했습니다.`);
+  }
+  for (const w of warnings) {
+    if (isNaverBlock(w) || (blocked && w.message === "public search coverage limit")) continue;
+    lines.push(String(w.user_message || w.message || "").replace("다음 페이지 검색과", "Daum 검색과"));
+  }
+  return [...new Set(lines.filter(Boolean))];
+}
+
 function renderSingleReportBody(reportData) {
   const articles = reportData.articles || [];
   const grouped = groupArticlesByGradeAndSource(articles);
   const coverage = reportData.total_enriched_input_count !== undefined
-    ? `<div class="report-summary-mini"><p>검색 결과 ${formatNumber(reportData.total_raw_count)}건 <small>(검색어·포털 중복 및 시간대 밖 포함)</small> → 해당 시간대 전체 기사 ${formatNumber(getTotalCount(reportData))}건</p><p>같은 매체·같은 제목만 병합하며, 다른 매체의 동일 사건 보도는 모두 표시합니다.</p>${reportData.articles?.some(a => typeof a.verified === "boolean") ? `<p>원문 확인 ${formatNumber(reportData.total_ok_count)}건 · 원문 미확인 ${formatNumber(reportData.total_review_count)}건 <small>(검색 결과·포털 확인 기준)</small></p>` : ""}${(reportData.collection_warnings || []).map(w => `<p class="collection-warning">${escapeHTML(w.user_message || w.message)}</p>`).join("")}</div>` : "";
+    ? `<div class="report-summary-mini"><p>검색 결과 ${formatNumber(reportData.total_raw_count)}건 <small>(검색어·포털 중복 및 시간대 밖 포함)</small> → 해당 시간대 전체 기사 ${formatNumber(getTotalCount(reportData))}건</p><p>같은 매체·같은 제목만 병합하며, 다른 매체의 동일 사건 보도는 모두 표시합니다.</p>${reportData.articles?.some(a => typeof a.verified === "boolean") ? `<p>원문 확인 ${formatNumber(reportData.total_ok_count)}건 · 원문 미확인 ${formatNumber(reportData.total_review_count)}건 <small>(검색 결과·포털 확인 기준)</small></p>` : ""}${summarizeCollectionWarnings(reportData.collection_warnings).map(text => `<p class="collection-warning">${escapeHTML(text)}</p>`).join("")}</div>` : "";
   return `${renderReportSummary(reportData)}${coverage}${renderGradeSection("A", gradeTitles.A, grouped.A)}
     ${renderGradeSection("B", gradeTitles.B, grouped.B)}
     ${renderGradeSection("C", gradeTitles.C, grouped.C)}`;

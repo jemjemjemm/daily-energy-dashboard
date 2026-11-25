@@ -299,11 +299,18 @@ def collect_all(delay: float = 0.15, start=None, end=None) -> tuple[list[dict], 
         "daum": collect_daum_public,
         "google": google_collector,
     }
+    coverage_warning = None
     if not naver_api:
-        warnings.append(warning("naver", "전체 검색", "public search coverage limit", "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. 다음 페이지 검색과 검색어별 Google RSS로 보완합니다."))
-        warnings[-1]["user_message"] = "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. 다음 페이지 검색과 구글 검색으로 보완했습니다."
-    for query in KEYWORDS + EVENT_KEYWORDS:
+        coverage_warning = warning("naver", "전체 검색", "public search coverage limit", "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. Daum 검색과 검색어별 Google RSS로 보완합니다.")
+        coverage_warning["user_message"] = "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. Daum 검색과 구글 검색으로 보완했습니다."
+    queries = KEYWORDS + EVENT_KEYWORDS
+    naver_blocked = None  # first rate-limit/blocked error; remaining Naver queries are skipped
+    naver_skipped = []
+    for query in queries:
         for portal, collector in collectors.items():
+            if portal == "naver" and naver_blocked:
+                naver_skipped.append(query)
+                continue
             try:
                 if collector in (collect_naver_api, collect_naver_public, collect_daum_public, collect_google_rss):
                     found = collector(query, start, end)
@@ -315,9 +322,24 @@ def collect_all(delay: float = 0.15, start=None, end=None) -> tuple[list[dict], 
                 partial = getattr(exc, "items", [])
                 items.extend(partial)
                 counts[portal] += len(partial)
-                warnings.append(warning(portal, query, f"{portal} collection failed", f"{type(exc).__name__}: {exc}"))
+                status = getattr(getattr(exc, "response", None), "status_code", None)
+                if portal == "naver" and status in (403, 429):
+                    # Blocked from this network (e.g. GitHub Actions IPs); retrying
+                    # every query only repeats the same failure.
+                    naver_blocked = f"{type(exc).__name__}: {exc}"
+                    naver_skipped.append(query)
+                else:
+                    warnings.append(warning(portal, query, f"{portal} collection failed", f"{type(exc).__name__}: {exc}"))
             if delay:
                 time.sleep(delay)
+    if naver_blocked:
+        blocked = warning("naver", "전체 검색", "naver blocked", naver_blocked)
+        blocked["skipped_queries"] = naver_skipped
+        blocked["user_message"] = (f"네이버 검색이 수집 서버에서 차단(HTTP 403)되어 검색어 {len(queries)}개 중 "
+                                   f"{len(naver_skipped)}개를 네이버에서 수집하지 못했습니다. Daum·구글 검색 결과로 보완했습니다.")
+        warnings.insert(0, blocked)
+    elif coverage_warning:
+        warnings.insert(0, coverage_warning)
     return items, warnings, counts
 
 

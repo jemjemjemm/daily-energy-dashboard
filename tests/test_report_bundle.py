@@ -167,6 +167,20 @@ class ReportBundleTests(unittest.TestCase):
         self.assertFalse(any('committee' in c for c in commands))
         self.assertTrue(any('collect_news.py' in c for c in commands))
 
+    def test_blocked_naver_fails_fast_after_backoff(self):
+        import requests
+        from tools import collect_committee_news as collector
+        blocked = unittest.mock.Mock(side_effect=requests.HTTPError('403', response=unittest.mock.Mock(status_code=403)))
+        with patch.object(collector, 'NAVER_RETRY_WAITS', (0, 0)), patch.object(collector, 'NAVER_INTERVAL', 0):
+            collector._naver_blocked[0] = None
+            with self.assertRaises(requests.HTTPError):
+                collector.paced_naver(blocked, 'q1', None, None)
+            self.assertEqual(blocked.call_count, 3)
+            with self.assertRaises(collector.NaverBlocked):
+                collector.paced_naver(blocked, 'q2', None, None)
+            self.assertEqual(blocked.call_count, 3)
+            collector._naver_blocked[0] = None
+
     def test_search_outage_does_not_become_no_news(self):
         from tools import collect_committee_news as collector
         with tempfile.TemporaryDirectory() as temp, patch.dict('os.environ', {'ANTHROPIC_API_KEY': 'test'}), \

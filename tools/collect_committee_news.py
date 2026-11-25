@@ -48,12 +48,25 @@ NAVER_LOCK = threading.Lock()
 NAVER_INTERVAL = 1.0  # seconds between Naver requests; bursts from parallel workers return 403
 NAVER_RETRY_WAITS = (5, 15)
 _naver_last = [0.0]
+_naver_blocked = [None]  # set once retries are exhausted; later queries fail fast
+
+
+class NaverBlocked(RuntimeError):
+    pass
 
 
 def paced_naver(collector, query, start, end):
-    """Serialize Naver searches with spacing and back off on rate-limit 403/429."""
+    """Serialize Naver searches with spacing and back off on rate-limit 403/429.
+
+    If Naver still refuses after the backoff (e.g. GitHub Actions IPs are
+    blocked), the remaining queries skip Naver instead of each waiting again.
+    """
+    if _naver_blocked[0]:
+        raise NaverBlocked(f'Naver blocked on this network; skipped ({_naver_blocked[0]})')
     for attempt in range(len(NAVER_RETRY_WAITS) + 1):
         with NAVER_LOCK:
+            if _naver_blocked[0]:
+                raise NaverBlocked(f'Naver blocked on this network; skipped ({_naver_blocked[0]})')
             wait = _naver_last[0] + NAVER_INTERVAL - time.monotonic()
             if wait > 0:
                 time.sleep(wait)
@@ -61,6 +74,8 @@ def paced_naver(collector, query, start, end):
                 return collector(query, start, end)
             except requests.HTTPError as exc:
                 status = getattr(exc.response, 'status_code', None)
+                if status in (403, 429) and attempt == len(NAVER_RETRY_WAITS):
+                    _naver_blocked[0] = f'HTTP {status}'
                 if status not in (403, 429) or attempt == len(NAVER_RETRY_WAITS):
                     raise
                 time.sleep(NAVER_RETRY_WAITS[attempt])
@@ -70,7 +85,8 @@ def paced_naver(collector, query, start, end):
 
 def collect(date, slot, output):
     start, end = window(date, slot)
-    tasks = [(committee, query) for committee, queries in TOPICS.items() for query in queries]
+    _naver_blocked[0] = None
+    tasks =[(committee, query) for committee, queries in TOPICS.items() for query in queries]
 
     def search(task):
         committee, query = task
