@@ -1,0 +1,410 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-25",
+  "slot": "night",
+  "period_start": "2026-11-25T17:00:00+09:00",
+  "period_end": "2026-11-26T00:00:00+09:00",
+  "period_label": "2026-11-25 17:00 ~ 2026-11-26 00:00",
+  "generated_at": "2026-11-26T08:24:18.300623+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 94,
+  "total_enriched_input_count": 24,
+  "total_in_period_unique_count": 5,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 11,
+  "total_deduped_count": 3,
+  "total_ok_count": 1,
+  "total_review_count": 2,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 2
+  },
+  "portal_counts": {
+    "naver": 56,
+    "daum": 19,
+    "google": 19
+  },
+  "query_counts": {
+    "SK에너지 담합": 1,
+    "경유 담합": 2,
+    "공정거래위원회 정유사 담합": 1,
+    "석유 담합": 2,
+    "석유제품 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 2,
+    "정유 44조": 1,
+    "정유사 담합": 2,
+    "현대오일뱅크 담합": 2,
+    "휘발유 담합": 2
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. Daum 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. Daum 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-26T08:23:02.085535+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "판사들 조희대 탄핵 반발에 한겨레 “법관회의 자성부터”, 조선일보는 서영교 비판",
+      "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=338716",
+      "published_at": "2026-11-26T07:39:08+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-26T07:39:08+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[투데이온] SK하이닉스, 12월 4일 키옥시아 의결권 확보…9년 전 '방어 투자'의 귀결 - 더투데이",
+      "url": "https://www.the-today.com/news/articleView.html?idxno=94115",
+      "published_at": "2026-11-26T07:25:45+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-26T07:25:45+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[단독] SK하이닉스, 나스닥 상장 넉 달 만에 美 증권집단소송 로펌 표적 - 더투데이",
+      "url": "https://www.the-today.com/news/articleView.html?idxno=94111",
+      "published_at": "2026-11-26T05:57:21+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-26T05:57:21+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "증시 한파에 5대 증권사 시총 29조 증발...미래에셋증권 '10조 클럽' 이탈",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=508159",
+      "published_at": "2026-11-25T22:08:48+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-25T22:08:48+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[기획] 달라진 금융주 3色 투자…내년 키워드는 '이익 방어력과 주주환원' - 오늘경제",
+      "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=820120",
+      "published_at": "2026-11-25T19:05:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 최초 등록·입력 2026.11.25 19:05",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "정유사 유가 담합 의혹 첫 증인신문…가격정보 교환 실체 공방",
+      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=131110",
+      "published_at": "2026-11-25T14:14:22+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-25T14:14:22+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "대신증권, 과징금 빼도 적자…3분기 실적에 드러난 운용손익 변동성",
+      "url": "http://www.dailypop.kr/news/articleView.html?idxno=104986",
+      "published_at": "2026-11-25T14:16:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-25T14:16:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "SK에너지, 사후정산제 폐지 꺼내든 속내…'과징금 감경·거래처 묶기' 노렸나",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=218502",
+      "published_at": "2026-11-25T10:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-25T10:00:00+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "\"유가 담합\" 기소 피한 GS 칼텍스…담합 추종 혐의와 사법리스크는 남았다. - ㅍㅍㅅㅅ PPSS",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=322813",
+      "published_at": "2026-11-25T09:39:18+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-25T09:39:18+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "판사들 조희대 탄핵 반발에 한겨레 \"법관회의 자성부터\", 조선일보는 서영교 비판",
+      "url": "http://v.daum.net/v/20261126074106528",
+      "published_at": "2026-11-26T07:41:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 26. 07:41",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zN1JQcTlyVWV4Rzd0enJBSGVtQm9wR2xXZjQ5V2xzOWpBUE5RNUU1ZUJqdWlDUDZNZW15OUxrWUJ6MFE4d2xOQ29wR25peWs?oc=5",
+      "published_at": "2026-11-25T22:51:19+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "보험사기 전력자 걸러낸다…보험설계사 자격·GA 제재 기준 강화",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RV2I5TUVVOEU5ZnotSjNJWUlQM0EzM015VldkQ2Q4Y0VIN2ZFQ21yWkkwWlRVeEk0ZDZMUlA4Q2tOcG9YMEFKZ250cTBkZFJocWFiWF9hTVNUTDNDYUZQa3d6VWQ?oc=5",
+      "published_at": "2026-11-25T17:09:08+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "공정위, 대형사건 심의 속도… 네이버 결합·정유사 담합 결과에 촉각",
+      "url": "https://www.fnnews.com/news/202611251819547942",
+      "published_at": "2026-11-25T18:19:57+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-25T18:19:57+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "Korean Company Atlas — how to read Korean companies",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SZ0w3cVQ3b2lPamxVS2lnazREZC15MHBfNlExMlJ2a3BvOENpOE1QQ25YZDhCR1g3TUJSS19fWXA0QnloZUxnYUhFZXFpUVVKWW9BV1MzdGxaYjBuVkRiVFJnYjhCRWs?oc=5",
+      "published_at": "2026-11-26T03:20:43+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[전국 주요 신문 사설](26일 조간)",
+      "url": "https://www.yna.co.kr/view/AKR20261126017900011?input=1195m",
+      "published_at": "2026-11-26T08:00:02+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-26T08:00:02+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "10년 누적ㆍ모든 담합 합산…건설업계 ‘벌점 관리’ 비상",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRVUxuUlE3VTQ5cDNQUTlyZVFLLWdfV1VUUWYyYnlfTkZEQ2tLWXhsaDJtakRhMGFHczdaSWJ3VW52ZEJmcFB1N1VoSFhEVmhRcHpMd0kzMHNXUkhRSGFxcEJLdnlLWS12X2NLNy1lRWRJVWRk?oc=5",
+      "published_at": "2026-11-26T06:00:25+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    }
+  ],
+  "articles": [
+    {
+      "title": "공정위, 대형사건 심의 속도… 네이버 결합·정유사 담합 결과에 촉각",
+      "url": "https://www.fnnews.com/news/202611251819547942",
+      "source": "파이낸셜뉴스",
+      "published_at": "2026-11-25T18:19:57+09:00",
+      "snippet": "공정위는 지난달 7일 SK에너지와 HD현대오일뱅크의 휘발유· 경유 ·등유 가격 담합 혐의에 대한 심사보고서를 두 회사에 송부했다. 심사관은 이들이 석유제품 판매가격 관련 정보를 교환하고 일부 가격을 합의한 것으로 판단했다. 관련 매출액은 약 44조1000억원으로 산정했다. 공정위는 이번 행위를 중대한...",
+      "collected_at": "2026-11-26T08:23:14.989976+09:00",
+      "normalized_title": "공정위, 대형사건 심의 속도… 네이버 결합·정유사 담합 결과에 촉각",
+      "source_normalized": "파이낸셜뉴스",
+      "duplicate_key": "파이낸셜뉴스::공정위, 대형사건 심의 속도… 네이버 결합·정유사 담합 결과에 촉각",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "공정거래위원회 정유사 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "정유사 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 2,
+      "canonical_url": "https://www.fnnews.com/news/202611251819547942",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-25T18:19:57+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "56b37dedb1525076",
+      "grade": "A",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "석유",
+        "정유사",
+        "휘발유",
+        "경유",
+        "석유제품",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zN1JQcTlyVWV4Rzd0enJBSGVtQm9wR2xXZjQ5V2xzOWpBUE5RNUU1ZUJqdWlDUDZNZW15OUxrWUJ6MFE4d2xOQ29wR25peWs?oc=5",
+      "source": "로톡",
+      "published_at": "2026-11-25T22:51:19+09:00",
+      "snippet": "[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차 로톡",
+      "collected_at": "2026-11-26T08:23:08.401918+09:00",
+      "normalized_title": "[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차",
+      "source_normalized": "로톡",
+      "duplicate_key": "로톡::[공정거래#37] 공정거래법 위반 혐의 정유사 가격 담합과 공정위 심의 절차",
+      "portals": [
+        "google"
+      ],
+      "queries": [
+        "경유 담합",
+        "석유 담합",
+        "유가담합",
+        "정유 44조",
+        "정유사 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zN1JQcTlyVWV4Rzd0enJBSGVtQm9wR2xXZjQ5V2xzOWpBUE5RNUU1ZUJqdWlDUDZNZW15OUxrWUJ6MFE4d2xOQ29wR25peWs?oc=5",
+      "verified": false,
+      "published_at_basis": "search_result",
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
+      "id": "8906c03bf6016368",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유사",
+        "공정위",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
+      "time_evidence": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[기획] 달라진 금융주 3色 투자…내년 키워드는 '이익 방어력과 주주환원' - 오늘경제",
+      "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=820120",
+      "source": "오늘경제",
+      "published_at": "2026-11-25T19:05:00+09:00",
+      "snippet": "여기에 국고채 담합 과징금에 따른 실적 부담까지 더해지면서 증권주의 투자심리가 위축된 것으로 풀이된다. 증권가는 내년 증권업의 감익을 예상하고... 고 연구원은 \" 유가 증권·대체투자 평가손실에 따른 투자손익 변동성은 확대될 가능성이 존재한다\"며 안정적인 자본 여력과 지속 가능한 주주환원...",
+      "collected_at": "2026-11-26T08:23:03.533462+09:00",
+      "normalized_title": "[기획] 달라진 금융주 3色 투자…내년 키워드는 '이익 방어력과 주주환원' - 오늘경제",
+      "source_normalized": "오늘경제",
+      "duplicate_key": "오늘경제::[기획] 달라진 금융주 3色 투자…내년 키워드는 '이익 방어력과 주주환원' - 오늘경제",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=820120",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.11.25 19:05",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "535f0d516bba17bb",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "summary": "수집 기사 3건, 발행사 본문·최초시각 확인 1건, 미확인 2건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 94,
+    "exclusions": [
+      {
+        "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=338716",
+        "title": "판사들 조희대 탄핵 반발에 한겨레 “법관회의 자성부터”, 조선일보는 서영교 비판",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.the-today.com/news/articleView.html?idxno=94115",
+        "title": "[투데이온] SK하이닉스, 12월 4일 키옥시아 의결권 확보…9년 전 '방어 투자'의 귀결 - 더투데이",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.the-today.com/news/articleView.html?idxno=94111",
+        "title": "[단독] SK하이닉스, 나스닥 상장 넉 달 만에 美 증권집단소송 로펌 표적 - 더투데이",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=508159",
+        "title": "증시 한파에 5대 증권사 시총 29조 증발...미래에셋증권 '10조 클럽' 이탈",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=131110",
+        "title": "정유사 유가 담합 의혹 첫 증인신문…가격정보 교환 실체 공방",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://www.dailypop.kr/news/articleView.html?idxno=104986",
+        "title": "대신증권, 과징금 빼도 적자…3분기 실적에 드러난 운용손익 변동성",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://www.srtimes.kr/news/articleView.html?idxno=218502",
+        "title": "SK에너지, 사후정산제 폐지 꺼내든 속내…'과징금 감경·거래처 묶기' 노렸나",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.ppss.kr/news/articleView.html?idxno=322813",
+        "title": "\"유가 담합\" 기소 피한 GS 칼텍스…담합 추종 혐의와 사법리스크는 남았다. - ㅍㅍㅅㅅ PPSS",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://v.daum.net/v/20261126074106528",
+        "title": "판사들 조희대 탄핵 반발에 한겨레 \"법관회의 자성부터\", 조선일보는 서영교 비판",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RV2I5TUVVOEU5ZnotSjNJWUlQM0EzM015VldkQ2Q4Y0VIN2ZFQ21yWkkwWlRVeEk0ZDZMUlA4Q2tOcG9YMEFKZ250cTBkZFJocWFiWF9hTVNUTDNDYUZQa3d6VWQ?oc=5",
+        "title": "보험사기 전력자 걸러낸다…보험설계사 자격·GA 제재 기준 강화",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SZ0w3cVQ3b2lPamxVS2lnazREZC15MHBfNlExMlJ2a3BvOENpOE1QQ25YZDhCR1g3TUJSS19fWXA0QnloZUxnYUhFZXFpUVVKWW9BV1MzdGxaYjBuVkRiVFJnYjhCRWs?oc=5",
+        "title": "Korean Company Atlas — how to read Korean companies",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.yna.co.kr/view/AKR20261126017900011?input=1195m",
+        "title": "[전국 주요 신문 사설](26일 조간)",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRVUxuUlE3VTQ5cDNQUTlyZVFLLWdfV1VUUWYyYnlfTkZEQ2tLWXhsaDJtakRhMGFHczdaSWJ3VW52ZEJmcFB1N1VoSFhEVmhRcHpMd0kzMHNXUkhRSGFxcEJLdnlLWS12X2NLNy1lRWRJVWRk?oc=5",
+        "title": "10년 누적ㆍ모든 담합 합산…건설업계 ‘벌점 관리’ 비상",
+        "reason": "outside_period"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. Daum 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. Daum 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-26T08:23:02.085535+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
