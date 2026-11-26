@@ -5,7 +5,7 @@
     "display_date": "2026년 11월 26일 (목)",
     "previous_day_label": "11/25",
     "today_label": "11/26",
-    "generated_at": "2026-11-26 08:22 KST",
+    "generated_at": "2026-11-26 17:12 KST",
     "review_status": "초안",
     "report_version": "draft-from-safetimes-v2.0",
     "header_title": "Daily Issue Report",
@@ -22,6 +22,10 @@
     {
       "type": "news_trend",
       "text": "(Morning) △정유업계, 국제 휘발유가 기준 판매가 L당 1828원대로 최고가격제 적용 현재가 대비 27원 낮은 가격 역전 추산 △김정관 산업부 장관, 석유제품 최고가격제 유종별 특성 고려한 단계적 정상화 가능성 언급 △정유사 열분해유 매입 사실상 중단에 폐비닐 열분해 업계 설비 가동 중단·판로 단절 위기"
+    },
+    {
+      "type": "news_trend_afternoon",
+      "text": "(Evening) △‘더 비싼’ 알뜰주유소, 올해 2배 늘어난 2000여건 26일 헤럴드경제가 한국석유공사 유가정보시스템 ‘오피넷’에 공시된 전국 주우소 월별 판매가격 공시 17만7652건을 분석한 결과, 최고가격제 △이 폐비닐 원료를 350도 고온에서 16시간 가열해 나온 유증기를 냉각하면, 원유를 대체할 수 있는 열분해유가 추출됩음 △| 서울=한스경제 김창수 기자 | 김정관 산업통상부 장관이 석유 최고가격제를 당장 끝내기는 어렵지만, 종료 시 유종별로 적용을 단계적으로 해제하는 방안을 고려하고 있다고 발표"
     }
   ],
   "prices": {
@@ -1503,7 +1507,8 @@
       "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요.",
       "가격 추이 그래프는 기준일 전일 기준 과거 2개월(9/25~11/25)만 표시하며, 전체 장기 데이터는 history.json에 보유합니다.",
       "값이 0인 가격은 그래프 이력에서 제외했습니다.",
-      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다."
+      "과거 날짜에 일별 가격 JSON이 없더라도 history.json에서 가격 카드와 그래프를 생성합니다.",
+      "일정은 자동 추출 결과이므로 시간·기관·일정명 확인 필요."
     ],
     "sources": [
       {
@@ -1619,6 +1624,87 @@
       "merged_at": "2026-11-26 08:23:01 KST",
       "merge_script": "merge_prices_into_report.py v1.4",
       "needs_review": true
+    },
+    "news_afternoon": {
+      "source_file": "data/news/2026-11-26.evening.json",
+      "article_count": 3,
+      "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+      "status": "updated",
+      "needs_review": true,
+      "report_slot": "evening"
     }
+  },
+  "news_trend_afternoon": {
+    "summary": "△‘더 비싼’ 알뜰주유소, 올해 2배 늘어난 2000여건 26일 헤럴드경제가 한국석유공사 유가정보시스템 ‘오피넷’에 공시된 전국 주우소 월별 판매가격 공시 17만7652건을 분석한 결과, 최고가격제 △이 폐비닐 원료를 350도 고온에서 16시간 가열해 나온 유증기를 냉각하면, 원유를 대체할 수 있는 열분해유가 추출됩음 △| 서울=한스경제 김창수 기자 | 김정관 산업통상부 장관이 석유 최고가격제를 당장 끝내기는 어렵지만, 종료 시 유종별로 적용을 단계적으로 해제하는 방안을 고려하고 있다고 발표",
+    "trend_paragraphs": [
+      "헤럴드경제는 ‘더 비싼’ 알뜰주유소, 올해 2배 늘어난 2000여건 26일 헤럴드경제가 한국석유공사 유가정보시스템 ‘오피넷’에 공시된 전국 주우소 월별 판매가격 공시 17만7652건을 분석한 결과, 최고가격제 시행 직후.",
+      "YTN는 이 폐비닐 원료를 350도 고온에서 16시간 가열해 나온 유증기를 냉각하면, 원유를 대체할 수 있는 열분해유가 추출됩음.",
+      "한스경제는 | 서울=한스경제 김창수 기자 | 김정관 산업통상부 장관이 석유 최고가격제를 당장 끝내기는 어렵지만, 종료 시 유종별로 적용을 단계적으로 해제하는 방안을 고려하고 있다고 밝혔다."
+    ],
+    "articles": [
+      {
+        "title": "[단독] 최고가격제 역설…알뜰주유소, 지방에서 더 비싸졌다",
+        "press": "헤럴드경제",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20261126150140876",
+        "summary": "‘더 비싼’ 알뜰주유소, 올해 2배 늘어난 2000여건 26일 헤럴드경제가 한국석유공사 유가정보시스템 ‘오피넷’에 공시된 전국 주우소 월별 판매가격 공시 17만7652건을 분석한 결과, 최고가격제 시행 직후",
+        "snippet": "헤럴드경제 PICK 2시간 전 다음뉴스 4 [단독] 최고가격제 역설…알뜰주유소, 지방에서 더 비싸졌다 이상 늘어난 것으로 나타났다. 특히 이런 사례는 서울·부산 등 대도시를 제외한 지방에 집중됐다. 최고가격제 시행이 장기화하며 정유사 와 알뜰주유소 간 정산금 분쟁 등 갈등이 격화하는 가운데 업계에선 제도 출구전략을 마련해야 한다는 목소리가 나오고 있다...",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 14,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 3,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 2001
+      },
+      {
+        "title": "정유사 가 손 떼자 줄도산 위기...한국 산유국 만든 '열분해유' 사라지나 [자막뉴스]",
+        "press": "YTN",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20261126102217956",
+        "summary": "이 폐비닐 원료를 350도 고온에서 16시간 가열해 나온 유증기를 냉각하면, 원유를 대체할 수 있는 열분해유가 추출됩음",
+        "snippet": "YTN 6시간 전 다음뉴스 4 동영상 정유사 가 손 떼자 줄도산 위기...한국 산유국 만든 '열분해유' 사라지나 [자막뉴스] 재생원료 사용 비율을 30%로 확대하겠다는 로드맵을 내놓자, 업체들은 정부를 믿고 앞다퉈 설비 투자에 나섰습니다. 하지만 정작 정유사 들이 수익성 악화 등을 이유로 열분해유 매입을 끊으면서, 판로가 막혀 버린 겁니다. 줄도산 위기에 몰린 업계 종사자들은 정부...",
+        "published_at_kst": "",
+        "industry_relevance": 5,
+        "score": 10,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 2,
+          "press": 2,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 850
+      },
+      {
+        "title": "김정관 산업장관 “석유 최고가격제, 유종별 단계적 종료 고려”",
+        "press": "한스경제",
+        "press_grade": "B",
+        "url": "https://v.daum.net/v/20261126100738144",
+        "summary": "| 서울=한스경제 김창수 기자 | 김정관 산업통상부 장관이 석유 최고가격제를 당장 끝내기는 어렵지만, 종료 시 유종별로 적용을 단계적으로 해제하는 방안을 고려하고 있다고 밝혔다",
+        "snippet": "한스경제 7시간 전 다음뉴스 1 김정관 산업장관 “석유 최고가격제, 유종별 단계적 종료 고려” 석유 최고가격제를 당장 끝내기는 어렵지만, 종료 시 유종별로 적용을 단계적으로 해제하는 방안을 고려하고 있다고 밝혔다. 정유사 에 지급할 1차 손실보전액은 막바지 조정을 거쳐 조만간 통보할 예정이다. 김 장관은 지난 25일 정부세종청사에서 열린 출입기자단...",
+        "published_at_kst": "",
+        "industry_relevance": 4,
+        "score": 12,
+        "score_breakdown": {
+          "keyword": 5,
+          "title_importance": 4,
+          "press": 2,
+          "originality": 1,
+          "duplicate_or_low_quality": 0
+        },
+        "summary_basis": "article_body_extract",
+        "article_content_chars": 766
+      }
+    ],
+    "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS (naver_html+daum_html)",
+    "needs_review": true,
+    "report_slot": "evening"
   }
 }

@@ -1,0 +1,405 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-26",
+  "slot": "evening",
+  "period_start": "2026-11-26T08:00:00+09:00",
+  "period_end": "2026-11-26T17:00:00+09:00",
+  "period_label": "2026-11-26 08:00 ~ 2026-11-26 17:00",
+  "generated_at": "2026-11-26T17:14:15.332541+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 25,
+  "total_enriched_input_count": 9,
+  "total_in_period_unique_count": 9,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 0,
+  "total_deduped_count": 5,
+  "total_ok_count": 0,
+  "total_review_count": 5,
+  "total_excluded_count": 4,
+  "grade_counts": {
+    "A": 0,
+    "B": 1,
+    "C": 4
+  },
+  "portal_counts": {
+    "naver": 0,
+    "daum": 25,
+    "google": 0
+  },
+  "query_counts": {
+    "SK에너지 담합": 1,
+    "경유 담합": 1,
+    "공정위 유가 담합": 3,
+    "기름값 담합": 1,
+    "유가 담합": 4,
+    "유가담합": 4,
+    "유류가격 담합": 1,
+    "정유 44조": 1,
+    "정유업계 담합": 1,
+    "현대오일뱅크 담합": 1,
+    "휘발유 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "naver blocked",
+      "user_message": "네이버 검색이 수집 서버에서 차단(HTTP 403)되어 검색어 17개 중 17개를 네이버에서 수집하지 못했습니다. Daum·구글 검색 결과로 보완했습니다.",
+      "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.26&de=2026.11.26",
+      "created_at": "2026-11-26T17:14:10.564548+09:00",
+      "skipped_queries": [
+        "유가담합",
+        "유가 담합",
+        "정유사 담합",
+        "기름값 담합",
+        "석유 담합",
+        "휘발유 담합",
+        "경유 담합",
+        "주유소 담합",
+        "정유업계 담합",
+        "석유제품 담합",
+        "유류가격 담합",
+        "공정위 유가 담합",
+        "공정거래위원회 정유사 담합",
+        "SK에너지 담합",
+        "현대오일뱅크 담합",
+        "정유 44조",
+        "유가 짬짜미"
+      ]
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "공정거래위원회, 중소기업 현장소통 간담회 개최",
+      "url": "http://v.daum.net/v/20261126162648293",
+      "published_at": "2026-11-26T16:26:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 26. 16:26",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "공정거래위원장, 중소기업 현장 소통 간담회 개최",
+      "url": "https://cp.news.search.daum.net/p/184826028",
+      "published_at": "2026-11-26T12:03:42+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-26T12:03:42+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "주병기 공정거래위원장, 중소기업 현장 소통 간담회 개최 - 日刊 NTN(국세신문사)",
+      "url": "https://cp.news.search.daum.net/p/184820382",
+      "published_at": "2026-11-26T11:00:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-26T11:00:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "SK하이닉스, 기옥시아(285a JP) 최대주주 된다…지분 14.1% 간접 보유 - 알파경제",
+      "url": "https://cp.news.search.daum.net/p/184817697",
+      "published_at": "2026-11-26T10:22:52+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-26T10:22:52+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[남승표의 궁변통구] 130조 도둑질이 횡행하는 나라",
+      "url": "http://v.daum.net/v/20261126125004031",
+      "published_at": "2026-11-26T12:50:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 26. 12:50",
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "GS칼텍스, 2.7조 석화 공장 적자···‘美 주주 설득·구조조정’ 이중고",
+      "url": "https://cp.news.search.daum.net/p/184830848",
+      "published_at": "2026-11-26T13:46:06+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-26T13:46:06+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[오늘의 사설] \"초슈퍼 예산안...밀실 짬짜미 처리 안돼\"",
+      "url": "https://cp.news.search.daum.net/p/184810345",
+      "published_at": "2026-11-26T08:47:13+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-26T08:47:13+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[전국 주요 신문 사설](26일 조간)",
+      "url": "http://v.daum.net/v/20261126080210973",
+      "published_at": "2026-11-26T08:02:00+09:00",
+      "verified": false,
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 26. 08:02",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[사설돋보기] 11월 26일 신문 사설, 조희대 탄핵에 엇갈린 시선…원전·예산·민생도 도마",
+      "url": "https://cp.news.search.daum.net/p/184810079",
+      "published_at": "2026-11-26T08:40:52+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-26T08:40:52+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "[남승표의 궁변통구] 130조 도둑질이 횡행하는 나라",
+      "url": "http://v.daum.net/v/20261126125004031",
+      "source": "연합인포맥스",
+      "published_at": "2026-11-26T12:50:00+09:00",
+      "snippet": "절차에 들어갔다. 담합규모는 윤활유가 약 2조200억원, 바이오디젤이 약 9조7천억원, 검체검사 용역이 약 2천940억원, 정유업계 공급가 담합이 약 44조1천억원, 밀가루 부산물 가격 담합이 약 1조4천억원이다. 그러니까 산업계가 짬짜미를 통해 국민의 지갑에서 빼간...",
+      "collected_at": "2026-11-26T17:13:32.275885+09:00",
+      "normalized_title": "[남승표의 궁변통구] 130조 도둑질이 횡행하는 나라",
+      "source_normalized": "연합인포맥스",
+      "duplicate_key": "연합인포맥스::[남승표의 궁변통구] 130조 도둑질이 횡행하는 나라",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "경유 담합",
+        "기름값 담합",
+        "유류가격 담합",
+        "정유 44조",
+        "정유업계 담합",
+        "현대오일뱅크 담합",
+        "휘발유 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20261126125004031",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 26. 12:50",
+      "verified": false,
+      "verification_reason": "포털 본문·시각 확인, 발행사 원문 미확인",
+      "id": "c7ea18b362acef5f",
+      "grade": "B",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "정유업계",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "포털 본문·시각 확인, 발행사 원문 미확인"
+    },
+    {
+      "title": "주병기 공정거래위원장, 중소기업 현장 소통 간담회 개최 - 日刊 NTN(국세신문사)",
+      "url": "https://cp.news.search.daum.net/p/184820382",
+      "source": "日刊 NTN(국세신문사)",
+      "published_at": "2026-11-26T11:00:00+09:00",
+      "snippet": "국제유가 급등과 같은 에너지 비용 부담을 충분히 감내할 수 있도록 올해 8월부터 연동제 적용 대상을 연료·전기 등 주요 에너지...손쉽게 자신의 피해 사실을 입증할 수 있도록 법원에 대한 공정위의 자료제출의무제를 마련해 내년 9월부터 시행할 예정이고, 중소...",
+      "collected_at": "2026-11-26T17:13:22.634276+09:00",
+      "normalized_title": "주병기 공정거래위원장, 중소기업 현장 소통 간담회 개최 - 日刊 NTN(국세신문사)",
+      "source_normalized": "日刊 NTN(국세신문사)",
+      "duplicate_key": "日刊 ntn(국세신문사)::주병기 공정거래위원장, 중소기업 현장 소통 간담회 개최 - 日刊 ntn(국세신문사)",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://cp.news.search.daum.net/p/184820382",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-26T11:00:00+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "b77ef90d4aa8a3d6",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "공정거래위원장, 중소기업 현장 소통 간담회 개최",
+      "url": "https://cp.news.search.daum.net/p/184826028",
+      "source": "경기&뉴스",
+      "published_at": "2026-11-26T12:03:42+09:00",
+      "snippet": "국제유가 급등과 같은 에너지 비용 부담을 충분히 감내할 수 있도록 올해 8월부터 연동제 적용 대상을 연료·전기 등 주요 에너지...자신의 피해 사실을 입증할 수 있도록 법원에 대한 공정위의 자료제출의무제를 마련해 내년 9월부터 시행할 예정이고 중소기업의...",
+      "collected_at": "2026-11-26T17:13:22.634074+09:00",
+      "normalized_title": "공정거래위원장, 중소기업 현장 소통 간담회 개최",
+      "source_normalized": "경기&뉴스",
+      "duplicate_key": "경기&뉴스::공정거래위원장, 중소기업 현장 소통 간담회 개최",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://cp.news.search.daum.net/p/184826028",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-26T12:03:42+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "8f5100098d097c2e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정위"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "SK하이닉스, 기옥시아(285a JP) 최대주주 된다…지분 14.1% 간접 보유 - 알파경제",
+      "url": "https://cp.news.search.daum.net/p/184817697",
+      "source": "알파경제",
+      "published_at": "2026-11-26T10:22:52+09:00",
+      "snippet": "추가 지분 취득 계획이 없다고 설명했다. 기옥시아의 유가증권보고서에도 SK하이닉스가 2028년까지 총의결권의 15%를 초과해 보유할...6월 주주이면서 경쟁사인 관계에서 정보 공유나 부적절한 협력이 담합 문제로 이어질 수 있다며 신중한 입장을 보였다. 당분간 SK...",
+      "collected_at": "2026-11-26T17:13:22.634470+09:00",
+      "normalized_title": "SK하이닉스, 기옥시아(285a JP) 최대주주 된다…지분 14.1% 간접 보유 - 알파경제",
+      "source_normalized": "알파경제",
+      "duplicate_key": "알파경제::sk하이닉스, 기옥시아(285a jp) 최대주주 된다…지분 14.1% 간접 보유 - 알파경제",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://cp.news.search.daum.net/p/184817697",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-26T10:22:52+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "2ca16d2432c4a047",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "공정거래위원회, 중소기업 현장소통 간담회 개최",
+      "url": "http://v.daum.net/v/20261126162648293",
+      "source": "중도일보",
+      "published_at": "2026-11-26T16:26:00+09:00",
+      "snippet": "의무 면제 대상을 대폭 축소하고, 중소기업이 국제유가 급등과 같은 에너지 비용 부담을 충분히 감내할 수 있도록 올해 8월부터...예정이다. 간담회에 참석한 중소기업인들은 ▲중소기업 공동 협상에 대해 담합 규정 적용을 배제하는 법령 개정 ▲하도급대금 연동...",
+      "collected_at": "2026-11-26T17:13:22.633833+09:00",
+      "normalized_title": "공정거래위원회, 중소기업 현장소통 간담회 개최",
+      "source_normalized": "중도일보",
+      "duplicate_key": "중도일보::공정거래위원회, 중소기업 현장소통 간담회 개최",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "http://v.daum.net/v/20261126162648293",
+      "published_at_basis": "portal_article",
+      "time_evidence": "포털 본문 최초 입력 2026. 11. 26. 16:26",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "0ae44ab109c92fb9",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "공정거래위원회",
+        "담합"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "summary": "수집 기사 5건, 발행사 본문·최초시각 확인 0건, 미확인 5건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 25,
+    "exclusions": [
+      {
+        "url": "https://cp.news.search.daum.net/p/184830848",
+        "title": "GS칼텍스, 2.7조 석화 공장 적자···‘美 주주 설득·구조조정’ 이중고",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184810345",
+        "title": "[오늘의 사설] \"초슈퍼 예산안...밀실 짬짜미 처리 안돼\"",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "http://v.daum.net/v/20261126080210973",
+        "title": "[전국 주요 신문 사설](26일 조간)",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://cp.news.search.daum.net/p/184810079",
+        "title": "[사설돋보기] 11월 26일 신문 사설, 조희대 탄핵에 엇갈린 시선…원전·예산·민생도 도마",
+        "reason": "duplicate_or_quality_exclusion"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "naver blocked",
+        "user_message": "네이버 검색이 수집 서버에서 차단(HTTP 403)되어 검색어 17개 중 17개를 네이버에서 수집하지 못했습니다. Daum·구글 검색 결과로 보완했습니다.",
+        "technical_detail": "HTTPError: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%9C%A0%EA%B0%80%EB%8B%B4%ED%95%A9&sort=1&pd=3&ds=2026.11.26&de=2026.11.26",
+        "created_at": "2026-11-26T17:14:10.564548+09:00",
+        "skipped_queries": [
+          "유가담합",
+          "유가 담합",
+          "정유사 담합",
+          "기름값 담합",
+          "석유 담합",
+          "휘발유 담합",
+          "경유 담합",
+          "주유소 담합",
+          "정유업계 담합",
+          "석유제품 담합",
+          "유류가격 담합",
+          "공정위 유가 담합",
+          "공정거래위원회 정유사 담합",
+          "SK에너지 담합",
+          "현대오일뱅크 담합",
+          "정유 44조",
+          "유가 짬짜미"
+        ]
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}

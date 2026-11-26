@@ -1,0 +1,302 @@
+{
+  "schema_version": "2.6",
+  "date": "2026-11-26",
+  "report_slot": "evening",
+  "collected_at": "2026-11-26 17:13:14 KST",
+  "source": "Naver News Search HTML + Daum News Search HTML + Google News RSS",
+  "queries": [
+    "국제유가 OR 유가 OR 원유 OR 브렌트유 OR WTI OR 두바이유",
+    "정유 OR 정유사 OR 석유제품 OR 주유소 OR 유류세 OR 휘발유 OR 경유",
+    "석유화학 OR 나프타 OR 에틸렌 OR 프로필렌 OR 화학제품",
+    "LNG OR 천연가스 OR 가스공사 OR 도시가스",
+    "최고가격제 OR 가격상한 OR 유류세 OR 석탄및석유제품",
+    "호르무즈 OR 원유 수급 OR 석유 공급망 OR OPEC",
+    "산업부 석유 OR 공정위 석유 OR 국회 유류세",
+    "생산자물가 석유제품 OR 소비자물가 유류세 OR 수입물가 원유",
+    "전력 LNG OR 에너지 국제유가 OR 물가 석유제품",
+    "경제 유가 OR 산업 에너지",
+    "정부 유류세 OR 전력 LNG",
+    "산업부 에너지 OR 기재부 물가 석유",
+    "국제유가",
+    "유가",
+    "원유",
+    "석유제품",
+    "정유",
+    "정유사",
+    "주유소",
+    "유류세",
+    "휘발유",
+    "경유",
+    "석유화학",
+    "나프타",
+    "LNG",
+    "천연가스",
+    "최고가격제",
+    "호르무즈",
+    "전력 LNG",
+    "에너지 국제유가",
+    "물가 석유제품",
+    "생산자물가 석유제품"
+  ],
+  "time_window": "2026-11-26 08:00~2026-11-26 17:00 KST",
+  "summary": "△석유 최고가격제·유류세 등 가격 안정 정책 △정유·석유화학 업계 실적·원가·제품 가격 △정부·국회 에너지 정책",
+  "topics": [
+    "석유 최고가격제·유류세 등 가격 안정 정책",
+    "정유·석유화학 업계 실적·원가·제품 가격",
+    "정부·국회 에너지 정책"
+  ],
+  "articles": [
+    {
+      "title": "[단독] 최고가격제 역설…알뜰주유소, 지방에서 더 비싸졌다",
+      "press": "헤럴드경제",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261126150140876",
+      "published_date": "2026-11-26",
+      "published_at_kst": "",
+      "snippet": "헤럴드경제 PICK 2시간 전 다음뉴스 4 [단독] 최고가격제 역설…알뜰주유소, 지방에서 더 비싸졌다 이상 늘어난 것으로 나타났다. 특히 이런 사례는 서울·부산 등 대도시를 제외한 지방에 집중됐다. 최고가격제 시행이 장기화하며 정유사 와 알뜰주유소 간 정산금 분쟁 등 갈등이 격화하는 가운데 업계에선 제도 출구전략을 마련해야 한다는 목소리가 나오고 있다...",
+      "score": 14,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 2,
+        "originality": 3,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 5,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "정유사 가 손 떼자 줄도산 위기...한국 산유국 만든 '열분해유' 사라지나 [자막뉴스]",
+      "press": "YTN",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261126102217956",
+      "published_date": "2026-11-26",
+      "published_at_kst": "",
+      "snippet": "YTN 6시간 전 다음뉴스 4 동영상 정유사 가 손 떼자 줄도산 위기...한국 산유국 만든 '열분해유' 사라지나 [자막뉴스] 재생원료 사용 비율을 30%로 확대하겠다는 로드맵을 내놓자, 업체들은 정부를 믿고 앞다퉈 설비 투자에 나섰습니다. 하지만 정작 정유사 들이 수익성 악화 등을 이유로 열분해유 매입을 끊으면서, 판로가 막혀 버린 겁니다. 줄도산 위기에 몰린 업계 종사자들은 정부...",
+      "score": 10,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 2,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 5,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "김정관 산업장관 “석유 최고가격제, 유종별 단계적 종료 고려”",
+      "press": "한스경제",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261126100738144",
+      "published_date": "2026-11-26",
+      "published_at_kst": "",
+      "snippet": "한스경제 7시간 전 다음뉴스 1 김정관 산업장관 “석유 최고가격제, 유종별 단계적 종료 고려” 석유 최고가격제를 당장 끝내기는 어렵지만, 종료 시 유종별로 적용을 단계적으로 해제하는 방안을 고려하고 있다고 밝혔다. 정유사 에 지급할 1차 손실보전액은 막바지 조정을 거쳐 조만간 통보할 예정이다. 김 장관은 지난 25일 정부세종청사에서 열린 출입기자단...",
+      "score": 12,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 4,
+        "press": 2,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "한·사우디 \"원유 공동비축 확대\" 한목소리…이면엔 현안 수두룩",
+      "press": "한국경제",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261126152932736",
+      "published_date": "2026-11-26",
+      "published_at_kst": "",
+      "snippet": "한국경제 1시간 전 다음뉴스 1 한·사우디 \"원유 공동비축 확대\" 한목소리…이면엔 현안 수두룩 변수로 꼽힌다. 다음 달 초 첫 손실보전 정산을 앞둔 ‘석유최고가격제’ 역시 갈등의 뇌관이다. 정부는 최고가격제 시행에 따른 정유사 손실을 보전할 때 국내 석유제품 공급가 결정 기준인 싱가포르 국제석유제품가격(MOPS) 대신, 원유 도입비와 생산·판매비...",
+      "score": 11,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 2,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "\" 주유소 리츠의 변신\"…코람코라이프인프라, 호텔 2곳 개관",
+      "press": "이데일리",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261126165830008",
+      "published_date": "2026-11-26",
+      "published_at_kst": "",
+      "snippet": "이데일리 14분 전 다음뉴스 \" 주유소 리츠의 변신\"…코람코라이프인프라, 호텔 2곳 개관 [이데일리 마켓in 김성수 기자] 코람코라이프인프라리츠가 물류센터에 이어 호텔 섹터로 투자를 확대하고 있다. 기존 주유소 중심의 포트폴리오를 물류, 호텔, 모빌리티 등으로 빠르게 재편하는 모습이다. 코람코라이프인프라리츠는 이달 초 2700억원 규모의 안양...",
+      "score": 5,
+      "score_breakdown": {
+        "keyword": 2,
+        "title_importance": 0,
+        "press": 3,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 4,
+      "source_query": "주유소",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "우크라이나 \"러 공군기지 공격해 전투기 5대 타격\"",
+      "press": "MBC",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261126163305680",
+      "published_date": "2026-11-26",
+      "published_at_kst": "",
+      "snippet": "MBC PICK 40분 전 다음뉴스 우크라이나 \"러 공군기지 공격해 전투기 5대 타격\" 투하하는 수호이-34 전투기 2대를 타격했다고 발표했습니다. 우크라이나는 또 전선에서 약 800km 떨어진 러시아 사마라 지역의 정유 시설 두 곳도 공격했다고 밝혔습니다. 세계 주요 원유 수출국인 러시아는 우크라이나의 잇따른 정유 시설 공격으로 휘발유까지 수입...",
+      "score": 8,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 2,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 3,
+      "source_query": "정유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "[단독] '허세홍의 통 큰 결단'…GS칼텍스, 기본연봉 20% 특별격려금 지급",
+      "press": "이데일리",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261126163030504",
+      "published_date": "2026-11-26",
+      "published_at_kst": "",
+      "snippet": "이데일리 42분 전 다음뉴스 [단독] '허세홍의 통 큰 결단'…GS칼텍스, 기본연봉 20% 특별격려금 지급 불안에 따른 유가 상승과 정제마진 확대로 호실적을 거뒀다. 1~3분기 누적 매출은 47조 4713억원, 영업이익은 5조 3321억원으로 정유 4사 가운데 누적 영업이익 1위를 차지했다. 전년 동기와 비교해 매출은 44.4% 증가하고 영업이익은 무려 23.1배나 급증했다. 1...",
+      "score": 12,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 1,
+        "press": 3,
+        "originality": 3,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 2,
+      "source_query": "정유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "[네트] 폐비닐 녹여 기름 뽑았는데...판로 막혀 '고사' 위기",
+      "press": "YTN",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261126102517181",
+      "published_date": "2026-11-26",
+      "published_at_kst": "",
+      "snippet": "YTN 6시간 전 다음뉴스 2 동영상 [네트] 폐비닐 녹여 기름 뽑았는데...판로 막혀 '고사' 위기 [앵커] 폐비닐을 녹여 기름을 뽑아내는 열분해 산업은 탄소 중립과 자원순환의 핵심으로 꼽혀 왔습니다. 하지만 정유사 들이 열분해유 매입을 사실상 중단하면서 관련 업계가 고사 위기에 내몰렸습니다. 김진두 기자입니다. [기자] 전국 각 지자체에서 수거한 폐비닐...",
+      "score": 8,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 2,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 2,
+      "source_query": "정유사",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "반도체 호황에 성장률 ‘상향’…경상흑자 올해 5000억달러·내년 5400억달러",
+      "press": "조세일보",
+      "press_grade": "B",
+      "url": "https://cp.news.search.daum.net/p/184845967",
+      "published_date": "2026-11-26",
+      "published_at_kst": "",
+      "snippet": "조세일보 18분 전 반도체 호황에 성장률 ‘상향’…경상흑자 올해 5000억달러·내년 5400억달러 향후 과잉생산과 반도체 관련 관세가 추가될 수 있지만 대미 투자와 연계해 관세율과 면제 조건이 조정될 가능성도 반영됐다. 국제 유가 는 중간선거 이후 중동 상황의 외교적 해결 기대가 커지면서 최근 고점에서 하락했다. 브렌트유 가격은 8월말 배럴당 90...",
+      "score": 7,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 2,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 1,
+      "source_query": "국제유가",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "광주 자원회수시설 12월 입지·지원책 동시 발표…주민 설득 총력",
+      "press": "뉴스1",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261126150451104",
+      "published_date": "2026-11-26",
+      "published_at_kst": "",
+      "snippet": "뉴스1 2시간 전 다음뉴스 광주 자원회수시설 12월 입지·지원책 동시 발표…주민 설득 총력 상생할 수 있는 지원방안을 마련하는 데 중점을 두고 있다. 제주도의 사례를 참고해 주민들이 직접 주유소 를 운영하고 쓰레기 수거차량이 해당 주유소 를 이용하도록 하거나 태양광 시설 설치에 따른 햇빛 연금 등 주민소득 증대 방안도 검토하고 있다. 시설 건립에...",
+      "score": 7,
+      "score_breakdown": {
+        "keyword": 2,
+        "title_importance": 1,
+        "press": 3,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 1,
+      "source_query": "주유소",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "\"돈이 없다\" 실토한 이란 대통령…빵 줄고 전기 끊겨",
+      "press": "MBN",
+      "press_grade": "B",
+      "url": "https://v.daum.net/v/20261126165804986",
+      "published_date": "2026-11-26",
+      "published_at_kst": "",
+      "snippet": "MBN 15분 전 다음뉴스 \"돈이 없다\" 실토한 이란 대통령…빵 줄고 전기 끊겨 해 같은 기간보다 110%를 넘어섰고, 달러당 3만 2,000리알 수준이던 리알화 환율은 현재 290만 리알까지 치솟았습니다. 미국은 해상 원유 수출 봉쇄에 이어 항공편과 육로 교역까지 차단하며 압박 수위를 높이고 있습니다. 재정난이 심해지자 이란 정부는 에너지와...",
+      "score": 8,
+      "score_breakdown": {
+        "keyword": 5,
+        "title_importance": 0,
+        "press": 2,
+        "originality": 1,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 1,
+      "source_query": "원유",
+      "collector": "daum_news_search"
+    },
+    {
+      "title": "발트해·지중해로 戰場 넓혀가는 우크라에, 나토 우려 커져",
+      "press": "조선일보",
+      "press_grade": "A",
+      "url": "https://v.daum.net/v/20261126163830952",
+      "published_date": "2026-11-26",
+      "published_at_kst": "",
+      "snippet": "조선일보 34분 전 다음뉴스 발트해·지중해로 戰場 넓혀가는 우크라에, 나토 우려 커져 정박해 있던 러시아 군함과 무기 수송선박이 우크라이나 해상드론 7대의 공격을 받아 각각 침몰·파괴됐다. 해상을 통한 러시아의 원유 수출에서 발트해 루트는 전체의 60%에 달한다. 발트해 주변 9개국 중에서 러시아를 제외한 독일·핀란드·노르웨이·스웨덴 등...",
+      "score": 6,
+      "score_breakdown": {
+        "keyword": 3,
+        "title_importance": 0,
+        "press": 3,
+        "originality": 0,
+        "duplicate_or_low_quality": 0
+      },
+      "industry_relevance": 1,
+      "source_query": "원유",
+      "collector": "daum_news_search"
+    }
+  ],
+  "errors": [
+    "naver 국제유가: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.26&de=2026.11.26&nso=so%3Ar%2Cp%3Afrom20261126to20261126%2Ca%3Aall&query=%EA%B5%AD%EC%A0%9C%EC%9C%A0%EA%B0%80",
+    "naver 유가: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.26&de=2026.11.26&nso=so%3Ar%2Cp%3Afrom20261126to20261126%2Ca%3Aall&query=%EC%9C%A0%EA%B0%80",
+    "naver 원유: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.26&de=2026.11.26&nso=so%3Ar%2Cp%3Afrom20261126to20261126%2Ca%3Aall&query=%EC%9B%90%EC%9C%A0",
+    "naver 석유제품: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.26&de=2026.11.26&nso=so%3Ar%2Cp%3Afrom20261126to20261126%2Ca%3Aall&query=%EC%84%9D%EC%9C%A0%EC%A0%9C%ED%92%88",
+    "naver 정유: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.26&de=2026.11.26&nso=so%3Ar%2Cp%3Afrom20261126to20261126%2Ca%3Aall&query=%EC%A0%95%EC%9C%A0",
+    "naver 정유사: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.26&de=2026.11.26&nso=so%3Ar%2Cp%3Afrom20261126to20261126%2Ca%3Aall&query=%EC%A0%95%EC%9C%A0%EC%82%AC",
+    "naver 주유소: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.26&de=2026.11.26&nso=so%3Ar%2Cp%3Afrom20261126to20261126%2Ca%3Aall&query=%EC%A3%BC%EC%9C%A0%EC%86%8C",
+    "naver 유류세: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&sm=tab_opt&sort=1&photo=0&field=0&pd=3&ds=2026.11.26&de=2026.11.26&nso=so%3Ar%2Cp%3Afrom20261126to20261126%2Ca%3Aall&query=%EC%9C%A0%EB%A5%98%EC%84%B8"
+  ],
+  "success": true,
+  "used_tier": "naver_html+daum_html"
+}
