@@ -183,9 +183,9 @@
     }
   ],
   "articles": [],
-  "summary": "수집 기사 0건, 발행사 본문·최초시각 확인 0건, 미확인 0건 구분",
+  "summary": "원수집 검색 결과 54건의 원문·시간대 검토 결과 Morning 채택 0건; 08:00:02 보도는 마감 뒤 제외, 전일 Night 기사 1건 별도 보존",
   "editorial_audit": {
-    "method": "automated-source-audit",
+    "method": "automated-source-audit-and-manual-editorial-review",
     "raw_result_count": 54,
     "exclusions": [
       {
@@ -283,6 +283,7 @@
     ],
     "limitations": [
       "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
-    ]
+    ],
+    "manual_review_note": "원수집 54건 및 source_review 전체 보존. Morning 08:00:02 기사는 마감 뒤이므로 제외. Night의 세계정세 사설은 정유 가격담합과 무관해 제외, 동일 매체·동일 제목 RSS는 발행사 원문에 병합."
   }
 }

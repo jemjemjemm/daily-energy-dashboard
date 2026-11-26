@@ -27,14 +27,14 @@
   "total_in_period_unique_count": 3,
   "total_unknown_time_count": 0,
   "total_outside_period_count": 12,
-  "total_deduped_count": 3,
+  "total_deduped_count": 1,
   "total_ok_count": 1,
-  "total_review_count": 2,
-  "total_excluded_count": 0,
+  "total_review_count": 0,
+  "total_excluded_count": 2,
   "grade_counts": {
-    "A": 1,
+    "A": 0,
     "B": 0,
-    "C": 2
+    "C": 1
   },
   "portal_counts": {
     "naver": 38,
@@ -194,41 +194,6 @@
   ],
   "articles": [
     {
-      "title": "[세계와우리] ‘코리아 패싱’ 막을 전략 짜내라",
-      "url": "https://www.segye.com/newsView/20261126516849?OutUrl=naver",
-      "source": "세계일보",
-      "published_at": "2026-11-26T23:07:00+09:00",
-      "snippet": "약소국의 안보 문제가 강대국 간 거래와 담합 으로 결정될 수도 있다는 우려가 확산했다. 과연 미·중·러 선전 정상회담을 얄타회담에 견줄 수 있을까.... 이번 정상회담에서 세 나라 정상은 유엔 개혁, 정제 석유 제품 의 생산 및 공급 확대, 국제형사재판소(ICC) 등 국제사법기구의 관할권 남용 금지, 핵 위험 감소...",
-      "collected_at": "2026-11-27T08:17:51.717925+09:00",
-      "normalized_title": "[세계와우리] ‘코리아 패싱’ 막을 전략 짜내라",
-      "source_normalized": "세계일보",
-      "duplicate_key": "세계일보::[세계와우리] ‘코리아 패싱’ 막을 전략 짜내라",
-      "portals": [
-        "naver",
-        "daum"
-      ],
-      "queries": [
-        "석유 담합",
-        "석유제품 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://www.segye.com/newsView/20261126516849?OutUrl=naver",
-      "published_at_basis": "original_article",
-      "time_evidence": "원문 최초 등록·입력 2026-11-26 23:07",
-      "verified": false,
-      "verification_reason": "원문 본문 또는 최초시각 미확인",
-      "id": "2a258c7005857b7f",
-      "grade": "A",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "석유",
-        "담합"
-      ],
-      "quality_status": "review",
-      "status_label": "원문 미확인",
-      "status_reason": "원문 본문 또는 최초시각 미확인"
-    },
-    {
       "title": "강동수 SK에너지 대표, 취임 초부터 과징금 리스크…정유 2사 최대 4.6조원 거론 - 1코노미뉴스",
       "url": "https://www.1conomynews.co.kr/news/articleView.html?idxno=51622",
       "source": "1코노미뉴스",
@@ -270,49 +235,11 @@
       "quality_status": "ok",
       "status_label": "정상",
       "status_reason": "유가담합 관련 맥락 확인"
-    },
-    {
-      "title": "강동수 SK에너지 대표, 취임 초부터 과징금 리스크…정유 2사 최대 4.6조원 거론",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnRksycW1TQ3BlRmFrZlczREd6VExNWGE2cmdQUGNUOUhRaDdpRXpINUFCMFRiYzVZWGR2Z0tuSWpnNHhJTzVLa19KQm1QLXpWak90My1ISkxPckJGR2NRdUQ0b0RUNWtTemd6TldaUGU?oc=5",
-      "source": "1코노미뉴스",
-      "published_at": "2026-11-26T17:17:00+09:00",
-      "snippet": "강동수 SK에너지 대표, 취임 초부터 과징금 리스크…정유 2사 최대 4.6조원 거론 1코노미뉴스",
-      "collected_at": "2026-11-27T08:17:54.736207+09:00",
-      "normalized_title": "강동수 SK에너지 대표, 취임 초부터 과징금 리스크…정유 2사 최대 4.6조원 거론",
-      "source_normalized": "1코노미뉴스",
-      "duplicate_key": "1코노미뉴스::강동수 sk에너지 대표, 취임 초부터 과징금 리스크…정유 2사 최대 4.6조원 거론",
-      "portals": [
-        "google"
-      ],
-      "queries": [
-        "SK에너지 담합",
-        "석유 담합",
-        "석유제품 담합",
-        "정유 44조",
-        "정유업계 담합",
-        "주유소 담합",
-        "현대오일뱅크 담합"
-      ],
-      "duplicate_count": 0,
-      "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnRksycW1TQ3BlRmFrZlczREd6VExNWGE2cmdQUGNUOUhRaDdpRXpINUFCMFRiYzVZWGR2Z0tuSWpnNHhJTzVLa19KQm1QLXpWak90My1ISkxPckJGR2NRdUQ0b0RUNWtTemd6TldaUGU?oc=5",
-      "verified": false,
-      "published_at_basis": "search_result",
-      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
-      "id": "e31b810bd1314f16",
-      "grade": "C",
-      "published_at_status": "known",
-      "matched_keywords": [
-        "과징금"
-      ],
-      "quality_status": "review",
-      "status_label": "원문 미확인",
-      "status_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인.",
-      "time_evidence": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
     }
   ],
-  "summary": "수집 기사 3건, 발행사 본문·최초시각 확인 1건, 미확인 2건 구분",
+  "summary": "원수집 검색 결과 54건 중 야간 정유 가격담합 관련 기사 1건 보존 및 발행사 본문·최초시각 확인; 동일 매체 재전송 1건 병합·무관 사설 1건 제외",
   "editorial_audit": {
-    "method": "automated-source-audit",
+    "method": "automated-source-audit-and-manual-editorial-review",
     "raw_result_count": 54,
     "exclusions": [
       {
@@ -374,6 +301,16 @@
         "url": "https://www.yna.co.kr/view/AKR20261126017900011?input=1195m",
         "title": "[전국 주요 신문 사설](26일 조간)",
         "reason": "outside_period"
+      },
+      {
+        "url": "https://www.segye.com/newsView/20261126516849?OutUrl=naver",
+        "title": "[세계와우리] ‘코리아 패싱’ 막을 전략 짜내라",
+        "reason": "unrelated: 국제정치 강대국 담합 표현으로 정유·유가 담합과 무관"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnRksycW1TQ3BlRmFrZlczREd6VExNWGE2cmdQUGNUOUhRaDdpRXpINUFCMFRiYzVZWGR2Z0tuSWpnNHhJTzVLa19KQm1QLXpWak90My1ISkxPckJGR2NRdUQ0b0RUNWtTemd6TldaUGU?oc=5",
+        "title": "강동수 SK에너지 대표, 취임 초부터 과징금 리스크…정유 2사 최대 4.6조원 거론",
+        "reason": "same_publisher_normalized_title_duplicate; 1코노미뉴스 원문에 병합"
       }
     ],
     "collection_warnings": [
@@ -395,6 +332,7 @@
     ],
     "limitations": [
       "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
-    ]
+    ],
+    "manual_review_note": "원수집 54건 및 source_review 전체 보존. Morning 08:00:02 기사는 마감 뒤이므로 제외. Night의 세계정세 사설은 정유 가격담합과 무관해 제외, 동일 매체·동일 제목 RSS는 발행사 원문에 병합."
   }
 }
