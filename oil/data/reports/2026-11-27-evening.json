@@ -1,0 +1,300 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-27",
+  "slot": "evening",
+  "period_start": "2026-11-27T08:00:00+09:00",
+  "period_end": "2026-11-27T17:00:00+09:00",
+  "period_label": "2026-11-27 08:00 ~ 2026-11-27 17:00",
+  "generated_at": "2026-11-28T03:07:57.351389+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 53,
+  "total_enriched_input_count": 11,
+  "total_in_period_unique_count": 5,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 2,
+  "total_deduped_count": 3,
+  "total_ok_count": 2,
+  "total_review_count": 1,
+  "total_excluded_count": 2,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 3
+  },
+  "portal_counts": {
+    "naver": 24,
+    "daum": 19,
+    "google": 10
+  },
+  "query_counts": {
+    "SK에너지 담합": 2,
+    "공정거래위원회 정유사 담합": 2,
+    "공정위 유가 담합": 3,
+    "기름값 담합": 2,
+    "석유 담합": 3,
+    "석유제품 담합": 3,
+    "유가 담합": 3,
+    "유가담합": 3,
+    "정유 44조": 1,
+    "정유사 담합": 2,
+    "정유업계 담합": 2,
+    "현대오일뱅크 담합": 2
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. Daum 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. Daum 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-28T03:06:41.922786+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "유가 담합 의혹 2차 증인신문…가격 반영 인정, 쟁점은 ‘합의 여부’",
+      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=131191",
+      "published_at": "2026-11-27T17:00:02+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-27T17:00:02+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "KCC ‘가격 자충수’···노루페인트에 날개 다나",
+      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=721640",
+      "published_at": "2026-11-27T08:52:17+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-27T08:52:17+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[청년일보] HD현대오일뱅크, 상고심 진행 중 전 임원 자문역 위촉…상반기 보수 1·2위",
+      "url": "https://www.youthdaily.co.kr/news/article.html?no=230364",
+      "published_at": "2026-11-27T08:00:02+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.27 08:00:02",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[청년일보] HD현대오일뱅크, 상고심 진행 중 전 임원 자문역 위촉…상반기 보수 1·2위",
+      "url": "https://cp.news.search.daum.net/p/184866431",
+      "published_at": "2026-11-27T08:00:02+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.27 08:00:02",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "직접수사 종료 한 달 앞…공소청, 대형 사건 처리 속도전",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJS19GTnpKeWQyZkhWQUVReWtvbXdFeDhLWXlJMWNiV2VFbXJKM3hkNFpxNi1CeGpON1pkdzA3MEl5OW1BT01fejJmeklxdmZD0gFQQVVfeXFMUElLX0ZOekp5ZDJmSFZBRVF5a29td0V4OEtZeUkxY2JXZUVtckozeGQ0WnE2LUJ4ak43WmR3MDcwSXk5bUFPTV96MmZ6SXF2ZkM?oc=5",
+      "published_at": "2026-11-28T00:00:00+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    },
+    {
+      "title": "[증시 인사이트] 증안펀드 기대감에 급등한 국내증시…랠리 이어갈까",
+      "url": "https://biz.sbs.co.kr/article_hub/20000349427?division=NAVER",
+      "published_at": "2026-11-27T16:04:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-27T16:04:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[오후장 체크포인트] 증안펀드 출격 임박 코스닥 '급등' 코스피도 뛸까?",
+      "url": "https://biz.sbs.co.kr/article_hub/20000349357?division=NAVER",
+      "published_at": "2026-11-27T13:40:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-27T13:40:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "articles": [
+    {
+      "title": "KCC ‘가격 자충수’···노루페인트에 날개 다나",
+      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=721640",
+      "source": "뉴스프리존",
+      "published_at": "2026-11-27T08:52:17+09:00",
+      "snippet": "지난 3월 미국·이란 간 무력 충돌 등 중동발 지정학적 위기로 국제 유가 와 석유화학 기반 페인트 주원료 가격이 급등하자, KCC는 당초 4월 초부터 도료 제품 가격을 품목별로 10~40% 인상하겠다고 공지했다. 그러나 정부의 물가 안정 기조가 강화되고 공정거래위원회가 담합 여부 현장조사에 착수하면서 KCC는...",
+      "collected_at": "2026-11-28T03:06:43.425390+09:00",
+      "normalized_title": "KCC ‘가격 자충수’···노루페인트에 날개 다나",
+      "source_normalized": "뉴스프리존",
+      "duplicate_key": "뉴스프리존::kcc ‘가격 자충수’···노루페인트에 날개 다나",
+      "portals": [
+        "naver",
+        "daum"
+      ],
+      "queries": [
+        "공정위 유가 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=721640",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-27T08:52:17+09:00",
+      "verified": false,
+      "verification_reason": "원문 본문 또는 최초시각 미확인",
+      "id": "b986d15036bdb964",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "공정거래위원회",
+        "담합",
+        "조사"
+      ],
+      "quality_status": "review",
+      "status_label": "원문 미확인",
+      "status_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[청년일보] HD현대오일뱅크, 상고심 진행 중 전 임원 자문역 위촉…상반기 보수 1·2위",
+      "url": "https://cp.news.search.daum.net/p/184866431",
+      "source": "매체 미상",
+      "published_at": "2026-11-27T08:00:02+09:00",
+      "snippet": "HD현대오일뱅크는 교환된 정보가 이미 공개된 사후 정보였고 담합한 사실이 없다는 입장이다. HD현대오일뱅크는 3분기 재무제표에...미칠 영향을 합리적으로 추정할 수 없다는 이유다. 실적은 유가 급등 속에 크게 늘었다. 1~9월 연결 영업이익은 3조6천585억원으로...",
+      "collected_at": "2026-11-28T03:06:44.789092+09:00",
+      "normalized_title": "[청년일보] HD현대오일뱅크, 상고심 진행 중 전 임원 자문역 위촉…상반기 보수 1·2위",
+      "source_normalized": "매체 미상",
+      "duplicate_key": "매체 미상::[청년일보] hd현대오일뱅크, 상고심 진행 중 전 임원 자문역 위촉…상반기 보수 1·2위",
+      "portals": [
+        "daum"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유 44조",
+        "정유사 담합",
+        "정유업계 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 0,
+      "canonical_url": "https://cp.news.search.daum.net/p/184866431",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.11.27 08:00:02",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "e229fc4a31c1599b",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    },
+    {
+      "title": "[청년일보] HD현대오일뱅크, 상고심 진행 중 전 임원 자문역 위촉…상반기 보수 1·2위",
+      "url": "https://www.youthdaily.co.kr/news/article.html?no=230364",
+      "source": "청년일보",
+      "published_at": "2026-11-27T08:00:02+09:00",
+      "snippet": "2심 실형 선고받은 전직 임원 2명 상반기 보수 1·2위 환경부문장 집유 속 유임…회사는 1천761억 과징금 담합 재판 중 충당부채 미반영…1~9월 영업익 3.... 김정관 산업통상부 장관은 지난 25일 기자간담회에서 정유업계 의 이의신청·소송 가능성에 대해 \"오랜 기간 기업들과 긴밀히 소통해 온 사안인 만큼...",
+      "collected_at": "2026-11-28T03:06:43.425815+09:00",
+      "normalized_title": "[청년일보] HD현대오일뱅크, 상고심 진행 중 전 임원 자문역 위촉…상반기 보수 1·2위",
+      "source_normalized": "청년일보",
+      "duplicate_key": "청년일보::[청년일보] hd현대오일뱅크, 상고심 진행 중 전 임원 자문역 위촉…상반기 보수 1·2위",
+      "portals": [
+        "naver"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "공정거래위원회 정유사 담합",
+        "공정위 유가 담합",
+        "기름값 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "정유업계 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.youthdaily.co.kr/news/article.html?no=230364",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 최초 등록·입력 2026.11.27 08:00:02",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "fe2bd5ce8b5b073e",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "정유업계",
+        "담합",
+        "과징금"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "summary": "수집 기사 3건, 발행사 본문·최초시각 확인 2건, 미확인 1건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 53,
+    "exclusions": [
+      {
+        "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=131191",
+        "title": "유가 담합 의혹 2차 증인신문…가격 반영 인정, 쟁점은 ‘합의 여부’",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJS19GTnpKeWQyZkhWQUVReWtvbXdFeDhLWXlJMWNiV2VFbXJKM3hkNFpxNi1CeGpON1pkdzA3MEl5OW1BT01fejJmeklxdmZD0gFQQVVfeXFMUElLX0ZOekp5ZDJmSFZBRVF5a29td0V4OEtZeUkxY2JXZUVtckozeGQ0WnE2LUJ4ak43WmR3MDcwSXk5bUFPTV96MmZ6SXF2ZkM?oc=5",
+        "title": "직접수사 종료 한 달 앞…공소청, 대형 사건 처리 속도전",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://biz.sbs.co.kr/article_hub/20000349427?division=NAVER",
+        "title": "[증시 인사이트] 증안펀드 기대감에 급등한 국내증시…랠리 이어갈까",
+        "reason": "duplicate_or_quality_exclusion"
+      },
+      {
+        "url": "https://biz.sbs.co.kr/article_hub/20000349357?division=NAVER",
+        "title": "[오후장 체크포인트] 증안펀드 출격 임박 코스닥 '급등' 코스피도 뛸까?",
+        "reason": "duplicate_or_quality_exclusion"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. Daum 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. Daum 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-28T03:06:41.922786+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
