@@ -1,0 +1,133 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-28",
+  "slot": "evening",
+  "period_start": "2026-11-28T08:00:00+09:00",
+  "period_end": "2026-11-28T17:00:00+09:00",
+  "period_label": "2026-11-28 08:00 ~ 2026-11-28 17:00",
+  "generated_at": "2026-11-29T01:49:13.739129+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 7,
+  "total_enriched_input_count": 4,
+  "total_in_period_unique_count": 1,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 3,
+  "total_deduped_count": 0,
+  "total_ok_count": 0,
+  "total_review_count": 0,
+  "total_excluded_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 0
+  },
+  "portal_counts": {
+    "naver": 6,
+    "daum": 1,
+    "google": 0
+  },
+  "query_counts": {},
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. Daum 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. Daum 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-29T01:48:24.585918+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "이주완 \"삼성전자 4만원까지 내려갈 수도\" 4만전자 전망 …이유 주시해야",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=631635",
+      "published_at": "2026-11-28T21:07:04+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-28T21:07:04+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "직접수사 종료 한 달 앞…공소청, 대형 사건 처리 속도전 - 사회 | 기사 - 더팩트",
+      "url": "https://news.tf.co.kr/read/life/2394517.htm",
+      "published_at": "2026-11-28T00:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.28 00:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "‘트럼프 풋’ 약발 다했나…코스피 4900 회복에도 ‘긴축·이익절벽’...",
+      "url": "http://www.breaknews.com/1255007",
+      "published_at": "2026-11-28T18:49:05.637444+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "원문 확인 실패: HTTPError"
+    },
+    {
+      "title": "\"미국, 베네수엘라·이라크에 OPEC 탈퇴 압박\"",
+      "url": "https://www.yna.co.kr/view/AKR20261128020300009?input=1195m",
+      "published_at": "2026-11-28T09:19:30+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-28T09:19:30+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    }
+  ],
+  "articles": [],
+  "summary": "수집 기사 0건, 발행사 본문·최초시각 확인 0건, 미확인 0건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 7,
+    "exclusions": [
+      {
+        "url": "https://www.cbci.co.kr/news/articleView.html?idxno=631635",
+        "title": "이주완 \"삼성전자 4만원까지 내려갈 수도\" 4만전자 전망 …이유 주시해야",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.tf.co.kr/read/life/2394517.htm",
+        "title": "직접수사 종료 한 달 앞…공소청, 대형 사건 처리 속도전 - 사회 | 기사 - 더팩트",
+        "reason": "outside_period"
+      },
+      {
+        "url": "http://www.breaknews.com/1255007",
+        "title": "‘트럼프 풋’ 약발 다했나…코스피 4900 회복에도 ‘긴축·이익절벽’...",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.yna.co.kr/view/AKR20261128020300009?input=1195m",
+        "title": "\"미국, 베네수엘라·이라크에 OPEC 탈퇴 압박\"",
+        "reason": "duplicate_or_quality_exclusion"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. Daum 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. Daum 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-29T01:48:24.585918+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
