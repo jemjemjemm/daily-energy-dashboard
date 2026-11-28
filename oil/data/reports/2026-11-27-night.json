@@ -1,0 +1,234 @@
+{
+  "title": "F-Issue Report",
+  "subtitle": "뉴스 모니터링",
+  "base_date": "2026-11-27",
+  "slot": "night",
+  "period_start": "2026-11-27T17:00:00+09:00",
+  "period_end": "2026-11-28T00:00:00+09:00",
+  "period_label": "2026-11-27 17:00 ~ 2026-11-28 00:00",
+  "generated_at": "2026-11-28T13:43:23.873968+09:00",
+  "keywords": [
+    "유가담합",
+    "유가 담합",
+    "정유사 담합",
+    "기름값 담합",
+    "석유 담합",
+    "휘발유 담합",
+    "경유 담합",
+    "주유소 담합",
+    "정유업계 담합",
+    "석유제품 담합",
+    "유류가격 담합",
+    "공정위 유가 담합",
+    "공정거래위원회 정유사 담합"
+  ],
+  "total_raw_count": 49,
+  "total_enriched_input_count": 10,
+  "total_in_period_unique_count": 1,
+  "total_unknown_time_count": 0,
+  "total_outside_period_count": 7,
+  "total_deduped_count": 1,
+  "total_ok_count": 1,
+  "total_review_count": 0,
+  "total_excluded_count": 0,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "portal_counts": {
+    "naver": 27,
+    "daum": 10,
+    "google": 12
+  },
+  "query_counts": {
+    "SK에너지 담합": 1,
+    "석유 담합": 1,
+    "석유제품 담합": 1,
+    "유가 담합": 1,
+    "유가담합": 1,
+    "정유사 담합": 1,
+    "주유소 담합": 1,
+    "현대오일뱅크 담합": 1
+  },
+  "collection_warnings": [
+    {
+      "level": "warning",
+      "portal": "naver",
+      "query": "전체 검색",
+      "message": "public search coverage limit",
+      "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. Daum 검색과 구글 검색으로 보완했습니다.",
+      "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. Daum 검색과 검색어별 Google RSS로 보완합니다.",
+      "created_at": "2026-11-28T13:42:21.893858+09:00"
+    }
+  ],
+  "telegram_alert_log": [],
+  "source_review": [
+    {
+      "title": "유가 담합 의혹 2차 증인신문…가격 반영 인정, 쟁점은 ‘합의 여부’",
+      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=131191",
+      "published_at": "2026-11-27T17:00:02+09:00",
+      "verified": true,
+      "time_evidence": "원문 published_time 2026-11-27T17:00:02+09:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "KCC ‘가격 자충수’···노루페인트에 날개 다나",
+      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=721640",
+      "published_at": "2026-11-27T08:52:17+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-27T08:52:17+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[청년일보] HD현대오일뱅크, 상고심 진행 중 전 임원 자문역 위촉…상반기 보수 1·2위",
+      "url": "https://www.youthdaily.co.kr/news/article.html?no=230364",
+      "published_at": "2026-11-27T08:00:02+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.27 08:00:02",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "직접수사 종료 한 달 앞…공소청, 대형 사건 처리 속도전 - 사회 | 기사 - 더팩트",
+      "url": "https://news.tf.co.kr/read/life/2394517.htm",
+      "published_at": "2026-11-28T00:00:00+09:00",
+      "verified": true,
+      "time_evidence": "원문 최초 등록·입력 2026.11.28 00:00",
+      "verification_reason": "발행사 본문·최초시각 확인"
+    },
+    {
+      "title": "[증시 인사이트] 증안펀드 기대감에 급등한 국내증시…랠리 이어갈까",
+      "url": "https://biz.sbs.co.kr/article_hub/20000349427?division=NAVER",
+      "published_at": "2026-11-27T16:04:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-27T16:04:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "[오후장 체크포인트] 증안펀드 출격 임박 코스닥 '급등' 코스피도 뛸까?",
+      "url": "https://biz.sbs.co.kr/article_hub/20000349357?division=NAVER",
+      "published_at": "2026-11-27T13:40:00+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-27T13:40:00+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "\"미국, 베네수엘라·이라크에 OPEC 탈퇴 압박\"",
+      "url": "https://www.yna.co.kr/view/AKR20261128020300009?input=1195m",
+      "published_at": "2026-11-28T09:19:30+09:00",
+      "verified": false,
+      "time_evidence": "원문 published_time 2026-11-28T09:19:30+09:00",
+      "verification_reason": "원문 본문 또는 최초시각 미확인"
+    },
+    {
+      "title": "\"미국, 베네수엘라·이라크에 OPEC 탈퇴 압박\"",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XNkt3X0dJYmt3cmdsdTE1RjFyN1EyT3JSVUdKdE5GSllzbTBFSTY0UnRMdWVvM2hRcEZyb2hlVGJkUThTb0hrVTZXVTlNZm5kVmc?oc=5",
+      "published_at": "2026-11-28T09:19:30+09:00",
+      "verified": false,
+      "time_evidence": null,
+      "verification_reason": "Google RSS 검색시각·문맥 확인. 발행사 원문 미확인."
+    }
+  ],
+  "articles": [
+    {
+      "title": "유가 담합 의혹 2차 증인신문…가격 반영 인정, 쟁점은 ‘합의 여부’",
+      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=131191",
+      "source": "투데이신문",
+      "published_at": "2026-11-27T17:00:02+09:00",
+      "snippet": "[사진=뉴시스] 정유사 유가 담합 의혹 공판의 두 번째 증인신문에서 SK에너지의 가격결정부서 책임자였던 직원이 HD현대오일뱅크 관계자로부터 받은... 이날 증인으로 출석한 SK에너지 직원 최모씨는 지난해 12월 19일부터 올해 3월 초까지 석유 제품 가격 결정을 담당하는 시장운영팀장을 지냈다. 최씨는 당시...",
+      "collected_at": "2026-11-28T13:42:23.387394+09:00",
+      "normalized_title": "유가 담합 의혹 2차 증인신문…가격 반영 인정, 쟁점은 ‘합의 여부’",
+      "source_normalized": "투데이신문",
+      "duplicate_key": "투데이신문::유가 담합 의혹 2차 증인신문…가격 반영 인정, 쟁점은 ‘합의 여부’",
+      "portals": [
+        "naver",
+        "daum",
+        "google"
+      ],
+      "queries": [
+        "SK에너지 담합",
+        "석유 담합",
+        "석유제품 담합",
+        "유가 담합",
+        "유가담합",
+        "정유사 담합",
+        "주유소 담합",
+        "현대오일뱅크 담합"
+      ],
+      "duplicate_count": 1,
+      "canonical_url": "https://www.ntoday.co.kr/news/articleView.html?idxno=131191",
+      "published_at_basis": "original_article",
+      "time_evidence": "원문 published_time 2026-11-27T17:00:02+09:00",
+      "verified": true,
+      "verification_reason": "발행사 본문·최초시각 확인",
+      "id": "d1db695aa9e27161",
+      "grade": "C",
+      "published_at_status": "known",
+      "matched_keywords": [
+        "유가",
+        "석유",
+        "정유사",
+        "담합"
+      ],
+      "quality_status": "ok",
+      "status_label": "정상",
+      "status_reason": "유가담합 관련 맥락 확인"
+    }
+  ],
+  "summary": "수집 기사 1건, 발행사 본문·최초시각 확인 1건, 미확인 0건 구분",
+  "editorial_audit": {
+    "method": "automated-source-audit",
+    "raw_result_count": 49,
+    "exclusions": [
+      {
+        "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=721640",
+        "title": "KCC ‘가격 자충수’···노루페인트에 날개 다나",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.youthdaily.co.kr/news/article.html?no=230364",
+        "title": "[청년일보] HD현대오일뱅크, 상고심 진행 중 전 임원 자문역 위촉…상반기 보수 1·2위",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.tf.co.kr/read/life/2394517.htm",
+        "title": "직접수사 종료 한 달 앞…공소청, 대형 사건 처리 속도전 - 사회 | 기사 - 더팩트",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://biz.sbs.co.kr/article_hub/20000349427?division=NAVER",
+        "title": "[증시 인사이트] 증안펀드 기대감에 급등한 국내증시…랠리 이어갈까",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://biz.sbs.co.kr/article_hub/20000349357?division=NAVER",
+        "title": "[오후장 체크포인트] 증안펀드 출격 임박 코스닥 '급등' 코스피도 뛸까?",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://www.yna.co.kr/view/AKR20261128020300009?input=1195m",
+        "title": "\"미국, 베네수엘라·이라크에 OPEC 탈퇴 압박\"",
+        "reason": "outside_period"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XNkt3X0dJYmt3cmdsdTE1RjFyN1EyT3JSVUdKdE5GSllzbTBFSTY0UnRMdWVvM2hRcEZyb2hlVGJkUThTb0hrVTZXVTlNZm5kVmc?oc=5",
+        "title": "\"미국, 베네수엘라·이라크에 OPEC 탈퇴 압박\"",
+        "reason": "outside_period"
+      }
+    ],
+    "collection_warnings": [
+      {
+        "level": "warning",
+        "portal": "naver",
+        "query": "전체 검색",
+        "message": "public search coverage limit",
+        "user_message": "네이버 공개 검색의 페이지 제한으로 일부 기사 누락 가능성이 있습니다. Daum 검색과 구글 검색으로 보완했습니다.",
+        "technical_detail": "네이버 공개 검색은 첫 화면 결과만 제공하며 start 페이지 인수가 동일 결과를 반환합니다. 공식 API 없이 네이버 전수 수집을 보장할 수 없습니다. Daum 검색과 검색어별 Google RSS로 보완합니다.",
+        "created_at": "2026-11-28T13:42:21.893858+09:00"
+      }
+    ],
+    "limitations": [
+      "공개 검색 노출 한계; verified=false 기사는 원문·최초시각 검증 완료를 의미하지 않음"
+    ]
+  }
+}
